@@ -1,1 +1,0 @@
-GitHub에서 build.js를 교체하고 data/core20.json을 추가한 뒤 Commit 하세요. 기존 pages.json, package.json, vercel.json, site.config.json은 그대로 둡니다. Vercel 연동 저장소라면 Commit 후 자동 재배포됩니다.
