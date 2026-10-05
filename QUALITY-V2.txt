@@ -1,0 +1,12 @@
+검색면적 + 체류시간 + 내부순환 + 예약전환 V2
+
+추가:
+- /food/ 식도락 허브
+- /shopping/ 쇼핑·기념품 허브
+- /tips/ 여행꿀팁 허브
+- /japan/fukuoka/
+- /japan/osaka/
+- /japan/tsushima/
+- /japan/shimonoseki/
+
+기존 208개 콘텐츠를 버리지 않고, 지역/주제 허브로 묶어 검색과 내부순환을 강화합니다.
