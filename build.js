@@ -33,3 +33,8 @@ for(const dir of ["guide","theme"]){
     fs.writeFileSync(f,h);
   }
 }
+
+
+const NFT="일본페리여행 | 진짜 일본을 여행하다",NFD="비행기 대신 배로 만나는 일본. 부산에서 후쿠오카·오사카·대마도·시모노세키까지 페리 노선, 객실, 요금, 예약부터 현지 식도락·쇼핑·여행코스까지 한곳에서 만나보세요.",NFC=".kakao-float{position:fixed;right:22px;bottom:22px;z-index:9999;width:64px;height:64px;border-radius:50%;overflow:hidden;box-shadow:0 8px 24px #0004;background:#fee500}.kakao-float img{width:100%;height:100%;object-fit:cover}@media(max-width:600px){.kakao-float{right:15px;bottom:15px;width:58px;height:58px}}",NFK="<a class=\"kakao-float\" href=\"https://open.kakao.com/o/g4ilP4Ji\" target=\"_blank\" rel=\"noopener\" aria-label=\"카카오톡 문의\"><img src=\"/images/kakao-talk.jpg\" alt=\"카카오톡 문의\"></a>";
+function nfw(d,a=[]){if(!fs.existsSync(d))return a;for(const n of fs.readdirSync(d)){const p=path.join(d,n),s=fs.statSync(p);s.isDirectory()?nfw(p,a):n.endsWith('.html')&&a.push(p)}return a}
+for(const f of nfw(O)){let h=fs.readFileSync(f,'utf8'),home=path.resolve(f)===path.resolve(path.join(O,'index.html'));if(home){h=h.replace(/<title>[\s\S]*?<\/title>/i,`<title>${NFT}</title>`);h=h.replace(/<meta name="description"[^>]*>/i,`<meta name="description" content="${NFD}">`);}if(!h.includes('favicon.ico'))h=h.replace('</head>',`<link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/images/apple-touch-icon.png"><style>${NFC}</style></head>`);if(!h.includes('open.kakao.com/o/g4ilP4Ji'))h=h.replace('</body>',`${NFK}</body>`);fs.writeFileSync(f,h)}
