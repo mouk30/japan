@@ -1,0 +1,338 @@
+[
+  {
+    "title": "일본여행 현금 얼마 필요할까",
+    "slug": "japan-cash-how-much",
+    "category": "돈·결제",
+    "region": "일본",
+    "summary": "카드 사용이 늘었어도 현금이 필요한 상황을 고려해 여행일수와 지역에 맞춰 준비하는 기준.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본에서 카드만 들고 여행 가능할까",
+    "slug": "japan-card-only-travel",
+    "category": "돈·결제",
+    "region": "일본",
+    "summary": "도시와 지방, 작은 식당·숙소까지 고려해 카드와 현금을 어떻게 나눠 준비할지 정리.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 편의점 ATM 현금인출 가이드",
+    "slug": "japan-convenience-atm",
+    "category": "돈·결제",
+    "region": "일본",
+    "summary": "해외카드로 현금을 찾을 때 수수료·한도·카드사 승인 여부를 확인하는 기본.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 엔화 동전 처리하는 법",
+    "slug": "japan-coins-guide",
+    "category": "돈·결제",
+    "region": "일본",
+    "summary": "여행 중 쌓이는 1엔·5엔·10엔 등 동전을 편의점·자판기·교통에서 자연스럽게 쓰는 방법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 환전 vs 해외카드 뭐가 나을까",
+    "slug": "japan-exchange-vs-card",
+    "category": "돈·결제",
+    "region": "일본",
+    "summary": "환전 현금과 해외결제 카드를 함께 쓸 때 비용과 편의성을 비교.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 면세 쇼핑 2026 제도 변경",
+    "slug": "japan-tax-free-2026",
+    "category": "돈·결제",
+    "region": "일본",
+    "summary": "2026년 11월 1일부터 시작되는 리펀드 방식의 핵심과 출국 시 확인 포인트.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 면세점에서 여권 꼭 필요할까",
+    "slug": "japan-tax-free-passport",
+    "category": "돈·결제",
+    "region": "일본",
+    "summary": "면세 구매 시 본인 확인과 출국 절차를 위해 준비할 항목을 정리.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 해외카드 결제 오류 대처",
+    "slug": "japan-card-payment-error",
+    "category": "돈·결제",
+    "region": "일본",
+    "summary": "결제 거절 시 카드사 해외사용 설정·한도·대체 결제수단을 확인하는 순서.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "돈키호테 쇼핑 처음 가는 법",
+    "slug": "don-quijote-first-guide",
+    "category": "쇼핑",
+    "region": "일본",
+    "summary": "층별 상품 탐색, 가격표 확인, 계산·면세까지 처음 방문자가 헤매지 않는 순서.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "돈키호테 쇼핑리스트 추천",
+    "slug": "don-quijote-shopping-list",
+    "category": "쇼핑",
+    "region": "일본",
+    "summary": "과자·화장품·생활용품·캐릭터 상품을 카테고리별로 고르는 기준.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "돈키호테 면세 계산 팁",
+    "slug": "don-quijote-tax-free",
+    "category": "쇼핑",
+    "region": "일본",
+    "summary": "면세 카운터와 일반 계산대를 구분하고 구매 전 조건을 확인하는 방법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "돈키호테 심야 쇼핑 괜찮을까",
+    "slug": "don-quijote-late-night",
+    "category": "쇼핑",
+    "region": "일본",
+    "summary": "늦은 시간 방문의 장단점과 숙소 복귀 교통·짐 이동을 함께 고려하는 법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 드럭스토어 쇼핑 가이드",
+    "slug": "japan-drugstore-shopping",
+    "category": "쇼핑",
+    "region": "일본",
+    "summary": "의약품·화장품·생활용품을 살 때 가격표와 사용설명, 면세 여부를 보는 법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 100엔샵 뭐 사면 좋을까",
+    "slug": "japan-100yen-shop",
+    "category": "쇼핑",
+    "region": "일본",
+    "summary": "다이소 등에서 여행용품·주방용품·소형 기념품을 고르는 실전 팁.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 편의점 쇼핑리스트",
+    "slug": "japan-convenience-shopping-list",
+    "category": "쇼핑",
+    "region": "일본",
+    "summary": "간식·음료·생필품·여행 중 급하게 필요한 물건 중심의 편의점 쇼핑.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 데파치카 백화점 지하식품관 가이드",
+    "slug": "japan-depachika-guide",
+    "category": "쇼핑",
+    "region": "일본",
+    "summary": "도시락·디저트·선물용 먹거리를 한 번에 보기 좋은 백화점 지하 식품관 이용법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 로피아 마트 쇼핑 가이드",
+    "slug": "lopia-supermarket-guide",
+    "category": "로컬마트",
+    "region": "일본",
+    "summary": "고기·생선·대용량 식품과 즉석식품으로 유명한 로컬마트를 여행자가 이용하는 법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 LIFE 라이프 마트 쇼핑 가이드",
+    "slug": "life-supermarket-guide",
+    "category": "로컬마트",
+    "region": "일본",
+    "summary": "도쿄·간사이 주거지역에서 흔히 만나는 슈퍼의 식품·반찬·베이커리 쇼핑.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 OK스토어 쇼핑 가이드",
+    "slug": "ok-store-guide",
+    "category": "로컬마트",
+    "region": "일본",
+    "summary": "도쿄·요코하마권 가성비 슈퍼에서 식품·생활용품을 찾는 방법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 이온·맥스밸류 쇼핑 가이드",
+    "slug": "aeon-maxvalu-guide",
+    "category": "로컬마트",
+    "region": "일본",
+    "summary": "전국적으로 찾기 쉬운 대형 유통계열 마트에서 식품과 생활용품 쇼핑하기.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 마트 반값 할인 시간대",
+    "slug": "japan-supermarket-discount-time",
+    "category": "로컬마트",
+    "region": "일본",
+    "summary": "도시락·반찬·회 같은 신선식품 할인 스티커를 기대할 수 있는 시간대와 주의점.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 마트에서 사먹기 좋은 음식",
+    "slug": "japan-supermarket-ready-food",
+    "category": "로컬마트",
+    "region": "일본",
+    "summary": "초밥·도시락·튀김·샐러드·디저트를 숙소 야식이나 간단한 한 끼로 활용.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 로컬마트 기념품 찾기",
+    "slug": "japan-supermarket-souvenir",
+    "category": "로컬마트",
+    "region": "일본",
+    "summary": "관광지보다 생활형 마트에서 지역 과자·조미료·라멘·차를 찾는 방법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 파친코는 뭐 하는 곳일까",
+    "slug": "japan-pachinko-what-is",
+    "category": "도시문화",
+    "region": "일본",
+    "summary": "일본 거리에서 자주 보이는 파친코의 문화적 배경과 일반적인 이용 분위기를 이해하는 입문 정보.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 파친코 처음 들어가면 알아둘 것",
+    "slug": "japan-pachinko-first-visit",
+    "category": "도시문화",
+    "region": "일본",
+    "summary": "처음 방문자가 소음·흡연정책·촬영·연령 제한 등 매장 규칙을 확인해야 하는 이유.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "파친코와 일본 게임센터 차이",
+    "slug": "pachinko-vs-game-center",
+    "category": "도시문화",
+    "region": "일본",
+    "summary": "파친코점과 아케이드 게임센터의 목적·분위기·이용 방식 차이를 여행자 관점에서 비교.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 게임센터 처음 가는 법",
+    "slug": "japan-game-center-guide",
+    "category": "도시문화",
+    "region": "일본",
+    "summary": "UFO캐처·리듬게임·레이싱게임 등 일본 아케이드의 층별 구성과 기본 매너.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 UFO캐처 뽑기방 문화",
+    "slug": "japan-ufo-catcher",
+    "category": "도시문화",
+    "region": "일본",
+    "summary": "크레인게임이 일본 여행 인기 체험이 된 이유와 예산을 정해 즐기는 방법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 프리쿠라 처음 찍는 법",
+    "slug": "japan-purikura-guide",
+    "category": "도시문화",
+    "region": "일본",
+    "summary": "촬영·보정·사진 수령 흐름과 매장별 이용 규칙을 확인하는 방법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 자판기 문화 가이드",
+    "slug": "japan-vending-machine-guide",
+    "category": "도시문화",
+    "region": "일본",
+    "summary": "음료부터 다양한 상품까지 일본 자판기를 여행 중 활용하는 방법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본에서 쓰레기통 찾기",
+    "slug": "japan-trash-bin-guide",
+    "category": "현지생활",
+    "region": "일본",
+    "summary": "거리 쓰레기통이 적을 때 편의점·역·숙소를 활용하고 쓰레기를 정리하는 방법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 흡연구역 찾는 법",
+    "slug": "japan-smoking-area-guide",
+    "category": "현지생활",
+    "region": "일본",
+    "summary": "길거리 흡연 규제가 있는 지역에서 지정 흡연구역을 찾고 현지 규칙을 지키는 법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 공중화장실 찾는 법",
+    "slug": "japan-public-toilet-guide",
+    "category": "현지생활",
+    "region": "일본",
+    "summary": "역·편의점·백화점·공원 등 여행 중 화장실을 찾기 쉬운 장소.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 여행 중 비 오면 우산 어디서 살까",
+    "slug": "japan-rain-umbrella-guide",
+    "category": "현지생활",
+    "region": "일본",
+    "summary": "편의점과 드럭스토어에서 비닐우산·접이식 우산을 급하게 구하는 방법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 코인세탁방 처음 쓰는 법",
+    "slug": "japan-coin-laundry-guide",
+    "category": "현지생활",
+    "region": "일본",
+    "summary": "세탁·건조 코스와 결제 방식, 여행 중 장기 체류 시 빨래를 해결하는 방법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 심야에 밥 먹을 곳 찾기",
+    "slug": "japan-late-night-food",
+    "category": "현지생활",
+    "region": "일본",
+    "summary": "규동·라멘·패밀리레스토랑·편의점 등 늦은 시간 식사 대안을 찾는 법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 24시간 가게 뭐가 있을까",
+    "slug": "japan-24-hour-shops",
+    "category": "현지생활",
+    "region": "일본",
+    "summary": "편의점·일부 돈키호테·패밀리레스토랑 등 심야에 이용 가능한 시설을 확인하는 법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 여행 중 약국 찾는 법",
+    "slug": "japan-pharmacy-guide",
+    "category": "현지생활",
+    "region": "일본",
+    "summary": "드럭스토어와 조제약국의 차이를 알고 필요한 경우 직원에게 증상을 설명하는 준비.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 편의점 도시락 추천 기준",
+    "slug": "japan-convenience-bento",
+    "category": "먹거리생활",
+    "region": "일본",
+    "summary": "도시락·오니기리·샌드위치·면류를 일정과 숙소 환경에 맞춰 고르는 법.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 규동 체인 처음 가는 법",
+    "slug": "japan-gyudon-chain-guide",
+    "category": "먹거리생활",
+    "region": "일본",
+    "summary": "식권·키오스크·카운터 좌석 등 혼밥하기 좋은 규동 체인 이용 흐름.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 회전초밥 처음 가는 법",
+    "slug": "japan-kaiten-sushi-guide",
+    "category": "먹거리생활",
+    "region": "일본",
+    "summary": "태블릿 주문·접시 계산·차와 간장 이용 등 회전초밥 기본 매너.",
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "title": "일본 패밀리레스토랑 여행 활용법",
+    "slug": "japan-family-restaurant-guide",
+    "category": "먹거리생활",
+    "region": "일본",
+    "summary": "아침·심야·가족식사·휴식 공간으로 패밀리레스토랑을 활용하는 방법.",
+    "updatedAt": "2026-10-06"
+  }
+]

@@ -1,0 +1,7 @@
+NIPPONFERRY LIVING V5
+- mascot branding: header / booking CTA / 404
+- /life/ main hub
+- 6 category hubs: money, shopping-life, supermarket, urban-culture, daily-life, food-life
+- 42 lifestyle/search-intent detail pages
+- sitemap integration
+- Japan tax-free refund-method change on 2026-11-01 reflected
