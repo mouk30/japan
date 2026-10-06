@@ -252,3 +252,16 @@ const V8FLOW=`<div class="flow-mini-progress" id="flowProgress"></div><section c
 const V8JS=`<script>(function(){var p=document.getElementById('flowProgress');if(!p)return;function u(){var d=document.documentElement,h=d.scrollHeight-innerHeight,x=h>0?(scrollY/h*100):0;p.style.width=Math.min(100,x)+'%'}addEventListener('scroll',u,{passive:true});u()})();</script>`;
 function v8files(d,a=[]){if(!fs.existsSync(d))return a;for(const n of fs.readdirSync(d)){const p=path.join(d,n),s=fs.statSync(p);s.isDirectory()?v8files(p,a):n.endsWith('.html')&&a.push(p)}return a}
 for(const f of v8files(O)){let h=fs.readFileSync(f,'utf8');if(!h.includes('flow-engine')){h=h.replace('</head>',V8CSS+'</head>');const isStory=h.includes('<article>')||h.includes('class="detail"');const isExplore=f.includes(path.join('explore','index.html'));if(isStory&&!isExplore){const pos=h.indexOf('<footer');h=pos>=0?h.slice(0,pos)+V8FLOW+h.slice(pos):h.replace('</body>',V8FLOW+'</body>');h=h.replace('</body>',V8JS+'</body>')}}fs.writeFileSync(f,h)}
+
+
+// V9 CRISP PHOTO WORLD
+const V9PHOTO=`<style>
+:root{--photo-sat:1.10;--photo-con:1.07}
+img:not(.mascot):not([src*="kakao"]){filter:saturate(var(--photo-sat)) contrast(var(--photo-con));image-rendering:auto}
+.h,.hubhero,.detail{background-blend-mode:normal}
+.card img,.couplecard img,.detailimg{filter:saturate(1.12) contrast(1.08) brightness(1.02)}
+.card img,.couplecard img{transition:transform .35s ease,filter .35s ease}
+.card:hover img,.couplecard:hover img{transform:scale(1.025);filter:saturate(1.16) contrast(1.09) brightness(1.03)}
+</style>`;
+function v9walk(d,a=[]){if(!fs.existsSync(d))return a;for(const n of fs.readdirSync(d)){const p=path.join(d,n),s=fs.statSync(p);s.isDirectory()?v9walk(p,a):n.endsWith(".html")&&a.push(p)}return a}
+for(const f of v9walk(O)){let h=fs.readFileSync(f,"utf8");if(!h.includes("V9 CRISP PHOTO WORLD"))h=h.replace("</head>",V9PHOTO+"</head>");fs.writeFileSync(f,h)}

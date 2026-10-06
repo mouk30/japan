@@ -1,0 +1,5 @@
+V9 CRISP PHOTO WORLD
+- travel image assets reprocessed for clarity, contrast and saturation
+- generated HTML: 383
+- V9 treatment detected: 0
+- Kakao floating detected: 383
