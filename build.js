@@ -184,3 +184,56 @@ const KAKAO=`<a class="kakao-float" href="https://open.kakao.com/o/g4ilP4Ji" tar
 function ccWalk(d,a=[]){if(!fs.existsSync(d))return a;for(const n of fs.readdirSync(d)){const p=path.join(d,n),s=fs.statSync(p);s.isDirectory()?ccWalk(p,a):n.endsWith(".html")&&a.push(p)}return a}
 for(const f of ccWalk(O)){let h=fs.readFileSync(f,"utf8");if(!h.includes("kakao-float"))h=h.replace("</body>",KAKAO+"</body>");if(h.includes('class="topmenu"')&&!h.includes('href="/couple/"'))h=h.replace('</div>','<a href="/couple/">한일커플·문화</a></div>');fs.writeFileSync(f,h)}
 const cf=path.join(O,"sitemap.xml");if(fs.existsSync(cf)){let s=fs.readFileSync(cf,"utf8");const urls=[cfg.siteUrl+"/couple/",...CCATS.map(c=>cfg.siteUrl+"/couple/"+cSlug[c]+"/"),...COUPLES.map(x=>cfg.siteUrl+"/couple/"+x.slug+"/")];s=s.replace("</urlset>",urls.map(u=>`<url><loc>${u}</loc><lastmod>2026-10-06</lastmod></url>`).join("")+"</</urlset>".replace("</</","</"));fs.writeFileSync(cf,s)}
+
+
+// V7 EXPLORER WORLD
+const V7CSS="\n<style>\n/* V7 EXPLORER */\n@media(max-width:800px){\n .topmenu{display:none!important}\n .mobile-nav-toggle{display:flex!important}\n}\n.mobile-nav-toggle{display:none;margin-left:auto;width:46px;height:42px;border:1px solid #d8d5ce;border-radius:12px;background:#fff;align-items:center;justify-content:center;font-size:24px;font-weight:900}\n.mobile-nav-drawer{display:none;position:absolute;top:58px;left:12px;right:12px;z-index:10001;background:#fff;border:1px solid #ddd8cf;border-radius:18px;padding:10px;box-shadow:0 18px 45px rgba(0,0,0,.2);grid-template-columns:1fr 1fr;gap:8px}\n.mobile-nav-drawer.open{display:grid}.mobile-nav-drawer a{padding:12px 8px;background:#f5f2eb;border-radius:11px;text-align:center;color:#0c2a3b;font-weight:900;text-decoration:none}\n.n{position:relative}.explore-cta{display:inline-flex;padding:13px 18px;border-radius:999px;background:#ef5a39;color:#fff!important;font-weight:900;text-decoration:none;margin-top:12px}\n.explore-wrap{max-width:1180px;margin:0 auto;padding:42px 20px}.explore-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:18px}.explore-head h2{font-size:38px;margin:4px 0}.explore-head p{color:#68757d;max-width:600px}\n.explore-grid{display:grid;grid-template-columns:1.45fr .75fr;border:1px solid #ddd8cf;border-radius:22px;overflow:hidden;background:#fff;min-height:650px}\n#exploreMap{min-height:650px;background:#cce2e3}.explore-side{padding:25px;max-height:650px;overflow:auto}.explore-side h3{font-size:28px;margin:5px 0}.explore-side>p{color:#69757d;line-height:1.6}\n.region-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:15px 0}.region-tabs button{border:1px solid #ddd8cf;background:#fff;border-radius:999px;padding:8px 11px;font-weight:900}.region-tabs button.active{background:#ef5a39;color:#fff;border-color:#ef5a39}\n.discovery{display:grid;gap:8px}.discovery button{border:1px solid #e0dcd3;background:#faf8f3;border-radius:12px;padding:12px;text-align:left}.discovery b{display:block;color:#0b2d42}.discovery small{color:#69757d}\n.routebox{margin-top:17px;padding-top:15px;border-top:1px solid #ddd}.routebox ol{padding-left:21px}.routebox li{margin:7px 0}.route-actions{display:flex;gap:7px;flex-wrap:wrap}.route-actions button,.route-actions a{border:0;border-radius:10px;padding:10px 12px;font-weight:900;text-decoration:none}.route-actions button{background:#0b3046;color:#fff}.route-actions a{background:#fee500;color:#191919}\n.captain-pick{margin:32px 0;padding:24px;border-radius:20px;background:#0b3046;color:#fff}.captain-pick h3{margin:0 0 6px;font-size:25px}.captain-pick p{opacity:.86}.captain-links{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.captain-links a{background:#fff;color:#0b3046;padding:13px;border-radius:12px;font-weight:900;text-decoration:none}\n@media(max-width:800px){.explore-grid{grid-template-columns:1fr}.explore-side{max-height:none;order:1}#exploreMap{min-height:510px;order:2}.explore-head{display:block}.explore-head h2{font-size:30px}.captain-links{grid-template-columns:1fr}}\n</style>\n";
+const V7MENU=`<button class="mobile-nav-toggle" aria-label="메뉴 열기" aria-expanded="false">☰</button><div class="mobile-nav-drawer"><a href="/#ferry">페리여행</a><a href="/japan/">일본여행</a><a href="/food/">식도락</a><a href="/shopping/">쇼핑·기념품</a><a href="/seasons/">4계절·축제</a><a href="/practical/">실전정보</a><a href="/life/">일본생활</a><a href="/couple/">한일커플</a><a href="/explore/">일본 탐험지도</a></div>`;
+const V7NAVJS=`<script>(function(){document.querySelectorAll('.mobile-nav-toggle').forEach(function(b){b.onclick=function(e){e.stopPropagation();var d=b.nextElementSibling,o=d.classList.toggle('open');b.textContent=o?'×':'☰';b.setAttribute('aria-expanded',o)}});document.addEventListener('click',function(){document.querySelectorAll('.mobile-nav-drawer.open').forEach(function(d){d.classList.remove('open');var b=d.previousElementSibling;b.textContent='☰';b.setAttribute('aria-expanded','false')})})})();</script>`;
+function v7files(d,a=[]){if(!fs.existsSync(d))return a;for(const n of fs.readdirSync(d)){const p=path.join(d,n),s=fs.statSync(p);s.isDirectory()?v7files(p,a):n.endsWith(".html")&&a.push(p)}return a}
+for(const f of v7files(O)){let h=fs.readFileSync(f,"utf8");if(!h.includes("V7 EXPLORER"))h=h.replace("</head>",V7CSS+"</head>");if(!h.includes("mobile-nav-toggle")){const m=h.match(/<nav class="n">[\s\S]*?<\/nav>/);if(m)h=h.replace(m[0],m[0].replace("</nav>",V7MENU+"</nav>"));h=h.replace("</body>",V7NAVJS+"</body>")}fs.writeFileSync(f,h)}
+
+const EXPLORER=[
+["삿포로·오타루",43.19,141.00,"홋카이도","눈 내리는 밤, 운하와 겨울 먹거리","/seasons/"],
+["하코다테",41.77,140.73,"홋카이도","항구 야경 뒤에는 어떤 밤이 있을까?","/japan/"],
+["센다이",38.27,140.87,"도호쿠","도호쿠의 관문에서 북쪽 일본을 시작하기","/japan/"],
+["도쿄",35.68,139.65,"간토","유명 관광지 다음, 도쿄의 진짜 밤","/life/"],
+["요코하마",35.44,139.64,"간토","항구와 야경, 둘이 걷기 좋은 도시","/couple/"],
+["나고야",35.18,136.91,"주부","중부 일본의 먹거리와 이동 거점","/food/"],
+["교토",35.01,135.77,"간사이","골목 하나를 돌면 전혀 다른 일본","/couple/"],
+["오사카",34.69,135.50,"간사이","도톤보리 다음에는 어디로 갈까?","/food/"],
+["고베",34.69,135.20,"간사이","배에서 내린 뒤 이어지는 항구의 밤","/#ferry"],
+["히로시마",34.39,132.46,"주고쿠","섬과 도시를 함께 보는 서일본 여행","/japan/"],
+["시모노세키",33.96,130.94,"주고쿠","부산에서 바다를 건너 만나는 일본","/#ferry"],
+["후쿠오카",33.59,130.40,"규슈","밤 10시 이후 후쿠오카는 뭐가 재밌을까?","/life/"],
+["벳푸",33.28,131.49,"규슈","연기 피어오르는 온천마을에서 하루","/couple/"],
+["나가사키",32.75,129.88,"규슈","언덕과 항구가 만드는 독특한 야경","/japan/"],
+["가고시마",31.60,130.56,"규슈","화산을 보며 시작하는 남규슈","/japan/"],
+["쓰시마",34.20,129.29,"규슈","한국에서 가장 가깝게 만나는 일본 섬","/#ferry"],
+["오키나와",26.21,127.68,"오키나와","일본인데 또 다른 섬의 시간","/japan/"]
+];
+const ed=path.join(O,"explore");fs.mkdirSync(ed,{recursive:true});
+const ep=`${hd("일본 탐험지도 | "+cfg.siteName,"전국지도를 펼치고 궁금한 도시를 눌러 나만의 일본 여행코스를 만들어보세요.",cfg.siteUrl+"/explore/")}
+${V7CSS}<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<body><div class="w"><nav class="n"><a class="b" href="/">JAPAN <i>FERRY</i></a>${V7MENU}</nav></div>
+<section class="detail"><div class="w"><div class="ey">THE JAPAN EXPLORER</div><h1>아직 모르는 일본이<br>지도 안에 숨어 있습니다.</h1><p>정답부터 찾지 마세요. 궁금한 도시를 하나씩 눌러보고, 마음에 들면 여행코스에 담아보세요.</p><a class="explore-cta" href="#mapstart">일본 탐험 시작하기 →</a></div></section>
+<section class="explore-wrap" id="mapstart"><div class="explore-head"><div><div class="ey">SELECT A CITY · DISCOVER JAPAN</div><h2>어디부터 떠나볼까요?</h2></div><p>북쪽의 눈도시부터 남쪽의 섬까지. 도시를 누르면 지도에서 위치와 ‘왜 궁금한지’를 먼저 보여줍니다.</p></div>
+<div class="explore-grid"><div id="exploreMap"></div><aside class="explore-side"><div class="ey">DISCOVERY MAP</div><h3>일본 전국 탐험지도</h3><p>지역을 고르고 도시를 눌러보세요. 마음에 들면 코스에 추가할 수 있습니다.</p><div class="region-tabs"><button class="active" data-r="전체">전체</button>${["홋카이도","도호쿠","간토","주부","간사이","주고쿠","규슈","오키나와"].map(r=>`<button data-r="${r}">${r}</button>`).join("")}</div><div class="discovery" id="discoveryList"></div><div class="routebox"><h3>🧭 나의 일본 항로</h3><ol id="routeList"><li>아직 발견한 도시가 없습니다.</li></ol><div class="route-actions"><button id="routeClear">다시 짜기</button><a href="https://open.kakao.com/o/g4ilP4Ji" target="_blank" rel="noopener">선장에게 물어보기</a></div></div></aside></div>
+<div class="captain-pick"><h3>🐦 선장 추천: 여기까지 왔다면 이것도 보고 가세요.</h3><p>여행은 계획보다 우연히 발견한 한 장면 때문에 기억되기도 합니다.</p><div class="captain-links"><a href="/couple/">둘이 떠나는 일본은 뭐가 다를까? →</a><a href="/life/">일본에서 진짜 궁금해지는 것들 →</a><a href="/#ferry">비행기 말고 배를 타면? →</a></div></div></section>
+${V7NAVJS}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const E=${JSON.stringify(EXPLORER)},chosen=[];
+const map=L.map('exploreMap',{scrollWheelZoom:false}).setView([36.1,137.1],5);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+const ms=E.map((p,i)=>L.marker([p[1],p[2]]).addTo(map).bindPopup('<b>'+p[0]+'</b><br>'+p[4]+'<br><button onclick="addCity('+i+')">이 도시를 코스에 추가</button><br><a href="'+p[5]+'">관련 이야기 보기 →</a>'));
+function addCity(i){if(!chosen.includes(i))chosen.push(i);drawRoute()}
+function drawRoute(){document.getElementById('routeList').innerHTML=chosen.length?chosen.map((i,n)=>'<li><b>'+(n+1)+'. '+E[i][0]+'</b><br><small>'+E[i][4]+'</small></li>').join(''):'<li>아직 발견한 도시가 없습니다.</li>'}
+function render(r='전체'){let x='';E.forEach((p,i)=>{if(r!=='전체'&&p[3]!==r)return;x+='<button onclick="map.flyTo(['+p[1]+','+p[2]+'],8);ms['+i+'].openPopup()"><b>'+p[0]+'</b><small>'+p[3]+' · '+p[4]+'</small></button>'});document.getElementById('discoveryList').innerHTML=x}
+render();document.querySelectorAll('.region-tabs button').forEach(b=>b.onclick=function(){document.querySelectorAll('.region-tabs button').forEach(x=>x.classList.remove('active'));b.classList.add('active');render(b.dataset.r)});document.getElementById('routeClear').onclick=()=>{chosen.length=0;drawRoute()};
+</script></body></html>`;
+fs.writeFileSync(path.join(ed,"index.html"),ep);
+
+// Global Kakao on the new explorer page too.
+for(const f of v7files(O)){let h=fs.readFileSync(f,"utf8");if(!h.includes("kakao-float"))h=h.replace("</body>",KAKAO+"</body>");fs.writeFileSync(f,h)}
+{const exploreSitemap=path.join(O,"sitemap.xml");if(fs.existsSync(exploreSitemap)){let s=fs.readFileSync(exploreSitemap,"utf8");if(!s.includes(cfg.siteUrl+"/explore/"))s=s.replace("</urlset>",`<url><loc>${cfg.siteUrl}/explore/</loc><lastmod>2026-10-06</lastmod></url></urlset>`);fs.writeFileSync(exploreSitemap,s)}}
