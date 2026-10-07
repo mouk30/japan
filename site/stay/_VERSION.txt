@@ -1,0 +1,2 @@
+V21-STAY-REBUILD-20261008
+Self-contained stay folder with /stay/assets HD images.
