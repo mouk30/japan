@@ -1,0 +1,7 @@
+NIPPONFERRY V11 MASTER BLUE-WHITE
+- Approved blue/white master design applied site-wide
+- 383 generated HTML pages validated
+- Global quick navigation, mobile drawer, Kakao floating CTA retained
+- Existing SEO/content/explorer/dwell-flow retained
+- Homepage ferry booking band added
+- Source package excludes dist; Vercel builds via node build.js
