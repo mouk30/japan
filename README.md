@@ -2,6 +2,13 @@
 
 Website: https://www.nipponferry.com/
 
+## V61 (2026-10-08): reader-first GEO/SEO editorial pilot
+- Updated existing `/things-to-do/why-travel-japan-by-sea/`; did not add thin or duplicate URLs.
+- Added a visible answer-first summary, practical air/ferry/cruise comparison, three reader FAQs, and explicit freshness/availability limitations.
+- Kept the original narrative writing, JNTO source links, Article/BreadcrumbList data and related content links.
+- Editorial standard for future releases: engaging opening, plain-language answer, grounded factual explanation, actionable comparisons, trustworthy sources and contextual internal links.
+- GEO is about eligible, verifiable answers; neither markup nor prose guarantees AI citations. Verify indexing, live deployment, search metrics and Bing Webmaster Tools AI Performance separately.
+
 ## V56–V60 (2026-10-08): Japan culture editorial quality
 - V56: `/things-to-do/why-japanese-onsen-special/` — hot springs, sento, onsen towns, bathing culture.
 - V57: `/things-to-do/japan-konbini-culture/` — Japanese convenience-store everyday culture.
