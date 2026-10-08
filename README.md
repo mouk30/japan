@@ -2,6 +2,13 @@
 
 Website: https://www.nipponferry.com/
 
+## V63 (2026-10-08): evergreen Japanese experiences editorial
+- New article: `/things-to-do/japan-diving-first-time/` — scuba options, regional differences, safety, responsible sea activities, FAQs.
+- Source: JNTO diving topic; original article based on general evergreen information, without invented current prices or operators.
+- Linked from both `/things-to-do/` and `/things-to-do/nature/`; added canonical, Article/BreadcrumbList JSON-LD, source links and sitemap entry.
+- **Permanent editorial standard:** one distinctive reader question per article; clear first answer; narrative depth; practical decision guide; regional differences; official sources; visible limitations; contextual internal links; no consumer-facing V## labels.
+- Update volatile details separately from evergreen narrative. Review official references and visitor behavior periodically; do not add overlapping thin pages merely to increase URL count.
+
 ## V62 (2026-10-08): everyday Japan, four iconic shopping experiences
 - Added `/things-to-do/japan-four-shopping-experiences/` featuring konbini, drugstores/pharmacies, Don Quijote and Pokemon Center.
 - Balanced cultural background, direct-answer GEO summary, practical comparison, browsing ideas, shopping safety and FAQs.
