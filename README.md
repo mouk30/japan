@@ -2,6 +2,11 @@
 
 Website: https://www.nipponferry.com/
 
+## V67 (2026-10-09): Japanese garden stone, water, moss editorial
+- `/things-to-do/japanese-garden-stone-water-moss/` published with nine educational chapters, structured answers, four FAQs, JNTO references, Article/BreadcrumbList markup, canonical, and internal links.
+- Original photographic assets prepared as WebP: `japanese-garden-hero.webp`, `japanese-garden-stones-moss.webp`, `japanese-garden-water.webp`. These are NOT YET in GitHub; the page uses verified hero fallback and hides missing body pictures to prevent browser broken-image indicators. **Do not mark this as fully deployed** until the WebP media files are committed and actual deployed URLs verified.
+- Source is an independently AI-generated original garden scene, adapted into three high-quality editorial compositions.
+
 ## V65 image recovery (2026-10-08)
 - The three `tea-ceremony-*.webp` originals are preserved in the generated media ZIP but were **not uploaded** to GitHub: that caused broken images. Even the previous `/images/kyoto.jpg` fallback did not exist.
 - Added three real, self-contained, repository-hosted SVG editorial fallback assets under `site/images/editorial/`: `tea-ceremony-hero.svg`, `tea-ceremony-room.svg`, `tea-ceremony-tools.svg`.
