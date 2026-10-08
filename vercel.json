@@ -2,5 +2,17 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/contents",
+      "destination": "/things-to-do/",
+      "permanent": true
+    },
+    {
+      "source": "/contents/",
+      "destination": "/things-to-do/",
+      "permanent": true
+    }
+  ]
 }
