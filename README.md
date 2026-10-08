@@ -2,6 +2,17 @@
 
 Website: https://www.nipponferry.com/
 
+## V45–V50 (2026-10-08): Japanese things-to-do high-intent search content
+- The V44 Okinawa milestone remains intact.
+- V45 `/things-to-do/onsen-first-time/`: first-time onsen etiquette, tattoo policy and day-use checks.
+- V46 `/things-to-do/traditional-experience-booking/`: tea ceremony, kimono, craft workshops.
+- V47 `/things-to-do/nature-outdoor-checklist/`: seasonal nature, difficulty and weather.
+- V48 `/things-to-do/local-food-market-guide/`: local market foods and ordering tips.
+- V49 `/things-to-do/shopping-city-night-guide/`: shopping, tax-free and evening logistics.
+- V50 `/things-to-do/port-to-experience-planner/`: port-arrival itinerary and booking readiness.
+- Linked all six from `/things-to-do/`; registered in the sitemap.
+- Inspired by official JNTO category taxonomy (not copied); avoids unverifiable real-time fares and operating hours.
+
 ## V43–V44 (2026-10-08): Okinawa destination SEO
 - V43: `/okinawa/miyakojima-hirara-port/`, `/okinawa/ishigaki-cruise-port/`.
 - V44: `/okinawa/zamami-aka-ferry/`, `/okinawa/tokashiki-ferry/`.
