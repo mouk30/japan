@@ -2,6 +2,13 @@
 
 Website: https://www.nipponferry.com/
 
+## V65 image recovery (2026-10-08)
+- The three `tea-ceremony-*.webp` originals are preserved in the generated media ZIP but were **not uploaded** to GitHub: that caused broken images. Even the previous `/images/kyoto.jpg` fallback did not exist.
+- Added three real, self-contained, repository-hosted SVG editorial fallback assets under `site/images/editorial/`: `tea-ceremony-hero.svg`, `tea-ceremony-room.svg`, `tea-ceremony-tools.svg`.
+- V65 article now references SVGs directly (no missing WebP requests). Social image points to existing `/images/hero-blue.jpg`.
+- The photorealistic generated WebP photos are **not yet in the repository**; for those exact original photos, upload the contents of `NIPPONFERRY_V65_tea_images.zip` and switch the three SVG image refs back to WebP.
+- Source-level link checks completed; independently verify Vercel build and deployed HTTP responses.
+
 ## V66 (2026-10-08): kimono vs yukata culture feature
 - Added `/things-to-do/kimono-vs-yukata-culture/`: history, differences in season/materials/formality, obi and dressing etiquette, rental checklist, original Q&A and comparison table.
 - Original hero and body photographs are supplied in `NIPPONFERRY_V66_kimono_yukata_images.zip` for deployment to `site/images/editorial/` (binary files must be manually uploaded to the repository).
