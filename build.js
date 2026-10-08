@@ -37,6 +37,11 @@ for(const file of pages) {
   if(mobile && !mobile[1].includes('href="/things-to-do/"')) {
     h=h.replace('<div class="mobile-menu">','<div class="mobile-menu"><a href="/things-to-do/">즐길거리</a>');
   }
+  // Public-facing pages must never display internal release numbers.
+  // Keep V## only in GitHub commit history, README and developer CSS class names.
+  // Match version prefixes at the beginning of visible text nodes, not V-branded products.
+  h=h.replace(/(>\\s*)V\\d{1,3}\\s*[·:—–-]\\s*/g,'$1');
+  h=h.replace(/(>\\s*)V\\d{1,3}\\b(?=\\s*<)/g,'$1');
   fs.writeFileSync(file,h);
 }
 console.log('Built',pages.length,'HTML pages; merged content navigation');
