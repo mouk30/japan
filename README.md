@@ -2,6 +2,16 @@
 
 Website: https://www.nipponferry.com/
 
+## V56–V60 (2026-10-08): Japan culture editorial quality
+- V56: `/things-to-do/why-japanese-onsen-special/` — hot springs, sento, onsen towns, bathing culture.
+- V57: `/things-to-do/japan-konbini-culture/` — Japanese convenience-store everyday culture.
+- V58: `/things-to-do/japan-small-streets/` — yokocho alleys and local streets.
+- V59: `/things-to-do/ryokan-vs-hotel/` — ryokan experiences versus hotel lodging.
+- V60: `/things-to-do/why-travel-japan-by-sea/` — ferries, cruise distinctions, slow travel.
+- Original explanatory articles with JNTO source links and relevant internal links.
+- Connected from things-to-do hub; sitemap URLs registered.
+- Editorial direction: focus on useful original writing; don't bulk-generate interchangeable pages.
+
 ## V51–V55 (2026-10-08): high-intent things-to-do SEO
 - V51 `/things-to-do/family-with-kids/`: family, stroller and indoor experiences.
 - V52 `/things-to-do/solo-cultural-day/`: solo cultural visits and small workshops.
