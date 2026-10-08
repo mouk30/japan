@@ -19,6 +19,10 @@ const pages=walk(out);
 for(const file of pages) {
   let h=fs.readFileSync(file,'utf8');
   h=h.split('href="/#ferry"').join('href="/ferry/"');
+  // Main search journey: Japan cruise pillar; ferry routes remain linked in content.
+  h=h.replace(/(<nav class="desktop-nav">)([\s\S]*?)(<\/nav>)/g,(_,start,menu,end)=>start+menu.replace(/<a[^>]*href="\/(?:#ferry|ferry\/|japan-cruise\/)"[^>]*>[^<]*<\/a>/,'<a class="nav-book" href="/japan-cruise/">⛴ 일본크루즈</a>')+end);
+  h=h.replace(/(<div class="mobile-menu">)([\s\S]*?)(<\/div>)/g,(_,start,menu,end)=>start+menu.replace(/<a[^>]*href="\/(?:#ferry|ferry\/|japan-cruise\/)"[^>]*>[^<]*<\/a>/,'<a href="/japan-cruise/">일본크루즈</a>')+end);
+
   h=h.split('<a href="/contents/">📚 콘텐츠</a>').join('');
   h=h.split('<a href="/contents/">여행 콘텐츠</a>').join('');
   // Show food, shopping and seasons as categories inside the things-to-do hub.
