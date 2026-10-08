@@ -23,8 +23,10 @@ for(const file of pages) {
   h=h.replace(/(<nav class="desktop-nav">)([\s\S]*?)(<\/nav>)/g,(_,start,menu,end)=>start+menu.replace(/<a[^>]*href="\/(?:#ferry|ferry\/|japan-cruise\/)"[^>]*>[^<]*<\/a>/,'<a class="nav-book" href="/japan-cruise/">⛴ 일본크루즈</a>')+end);
   h=h.replace(/(<div class="mobile-menu">)([\s\S]*?)(<\/div>)/g,(_,start,menu,end)=>start+menu.replace(/<a[^>]*href="\/(?:#ferry|ferry\/|japan-cruise\/)"[^>]*>[^<]*<\/a>/,'<a href="/japan-cruise/">일본크루즈</a>')+end);
 
-  h=h.split('<a href="/contents/">📚 콘텐츠</a>').join('');
-  h=h.split('<a href="/contents/">여행 콘텐츠</a>').join('');
+  // Remove retired content links as literal strings: no fragile slash escaping in regex literals.
+  for (const retired of ['<a href="/contents/">📚 콘텐츠</a>', '<a href="/contents/">여행 콘텐츠</a>']) {
+    h = h.replaceAll(retired, '');
+  }
   // Show food, shopping and seasons as categories inside the things-to-do hub.
   const categoryNavLink=/<a\b[^>]*href="\/(?:food|shopping|seasons)\/"[^>]*>[\s\S]*?<\/a>/g;
   h=h.replace(/(<nav class="desktop-nav">)([\s\S]*?)(<\/nav>)/g,(_,a,menu,z)=>a+menu.replace(categoryNavLink,'')+z);
