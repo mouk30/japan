@@ -2,6 +2,12 @@
 
 Website: https://www.nipponferry.com/
 
+## V43–V44 (2026-10-08): Okinawa destination SEO
+- V43: `/okinawa/miyakojima-hirara-port/`, `/okinawa/ishigaki-cruise-port/`.
+- V44: `/okinawa/zamami-aka-ferry/`, `/okinawa/tokashiki-ferry/`.
+- All four guides linked from `/okinawa/` and included in `site/sitemap.xml`.
+- Distinguish Okinawa cruise ports, domestic island ferries and international connections. Check official schedules before booking.
+
 ## V42 (2026-10-08): Okinawa practical SEO expansion
 - Previous V41 Okinawa hub and six guides preserved.
 - Added `/okinawa/naha-half-day/`: Naha port-of-call half-day plan, berth check, Kokusai-dori, all-aboard deadline.
