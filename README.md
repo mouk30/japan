@@ -2,6 +2,12 @@
 
 Website: https://www.nipponferry.com/
 
+## V62 (2026-10-08): everyday Japan, four iconic shopping experiences
+- Added `/things-to-do/japan-four-shopping-experiences/` featuring konbini, drugstores/pharmacies, Don Quijote and Pokemon Center.
+- Balanced cultural background, direct-answer GEO summary, practical comparison, browsing ideas, shopping safety and FAQs.
+- Linked from the main things-to-do hub and the existing konbini editorial, updated the sitemap.
+- Distinguish medicine-purchasing rules, Korean import rules and Pokemon Center/Cafe services; verify hours and inventory on official sites.
+
 ## V61 (2026-10-08): reader-first GEO/SEO editorial pilot
 - Updated existing `/things-to-do/why-travel-japan-by-sea/`; did not add thin or duplicate URLs.
 - Added a visible answer-first summary, practical air/ferry/cruise comparison, three reader FAQs, and explicit freshness/availability limitations.
