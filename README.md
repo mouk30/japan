@@ -2,6 +2,12 @@
 
 Website: https://www.nipponferry.com/
 
+## V66 (2026-10-08): kimono vs yukata culture feature
+- Added `/things-to-do/kimono-vs-yukata-culture/`: history, differences in season/materials/formality, obi and dressing etiquette, rental checklist, original Q&A and comparison table.
+- Original hero and body photographs are supplied in `NIPPONFERRY_V66_kimono_yukata_images.zip` for deployment to `site/images/editorial/` (binary files must be manually uploaded to the repository).
+- Added canonical, Article/BreadcrumbList structured data, official JNTO references and reciprocal internal links to tea ceremony and culture hubs. Sitemap updated.
+- Release version labels are **not** visible to readers.
+
 ## V65 (2026-10-08): Japanese tea ceremony cultural feature
 - New page: `/things-to-do/japanese-tea-ceremony-culture/` with original historical/educational narrative, key-answer GEO block, three FAQs, source links, Article & BreadcrumbList.
 - Custom-generated original editorial images: `site/images/editorial/tea-ceremony-hero.webp`, `tea-ceremony-tools.webp`, `tea-ceremony-room.webp`. Image slots already present in page. **Binary image assets must be uploaded separately**; keep fallback until assets are present.
