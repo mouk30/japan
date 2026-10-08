@@ -2,6 +2,15 @@
 
 Website: https://www.nipponferry.com/
 
+## V51–V55 (2026-10-08): high-intent things-to-do SEO
+- V51 `/things-to-do/family-with-kids/`: family, stroller and indoor experiences.
+- V52 `/things-to-do/solo-cultural-day/`: solo cultural visits and small workshops.
+- V53 `/things-to-do/japan-free-low-budget/`: free and low-cost experiences.
+- V54 `/things-to-do/accessible-slow-travel/`: slower-paced travel with parents and accessibility checks.
+- V55 `/things-to-do/experience-booking-checklist/`: cancellations, meeting points and bad-weather alternatives.
+- All pages linked from `/things-to-do/`, with canonical, Article and BreadcrumbList JSON-LD. Sitemap updated.
+- Editorial reference: Japan National Tourism Organization (JNTO) things-to-do sections; content is original and does not assert real-time availability.
+
 ## V45–V50 (2026-10-08): Japanese things-to-do high-intent search content
 - The V44 Okinawa milestone remains intact.
 - V45 `/things-to-do/onsen-first-time/`: first-time onsen etiquette, tattoo policy and day-use checks.
