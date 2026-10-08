@@ -22,9 +22,9 @@ for(const file of pages) {
   h=h.split('<a href="/contents/">📚 콘텐츠</a>').join('');
   h=h.split('<a href="/contents/">여행 콘텐츠</a>').join('');
   // Show food, shopping and seasons as categories inside the things-to-do hub.
-  const categoryNavLink=/<a\\b[^>]*href="\\/(?:food|shopping|seasons)\\/"[^>]*>[\\s\\S]*?<\\/a>/g;
-  h=h.replace(/(<nav class="desktop-nav">)([\\s\\S]*?)(<\\/nav>)/g,(_,a,menu,z)=>a+menu.replace(categoryNavLink,'')+z);
-  h=h.replace(/(<div class="mobile-menu">)([\\s\\S]*?)(<\\/div>)/g,(_,a,menu,z)=>a+menu.replace(categoryNavLink,'')+z);
+  const categoryNavLink=/<a\b[^>]*href="\/(?:food|shopping|seasons)\/"[^>]*>[\s\S]*?<\/a>/g;
+  h=h.replace(/(<nav class="desktop-nav">)([\s\S]*?)(<\/nav>)/g,(_,a,menu,z)=>a+menu.replace(categoryNavLink,'')+z);
+  h=h.replace(/(<div class="mobile-menu">)([\s\S]*?)(<\/div>)/g,(_,a,menu,z)=>a+menu.replace(categoryNavLink,'')+z);
   const desktop=h.match(/<nav class="desktop-nav">([\s\S]*?)<\/nav>/);
   if(desktop && !desktop[1].includes('href="/things-to-do/"')) {
     h=h.replace('<nav class="desktop-nav">','<nav class="desktop-nav"><a href="/things-to-do/">🎡 즐길거리</a>');
