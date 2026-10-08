@@ -2,6 +2,13 @@
 
 Website: https://www.nipponferry.com/
 
+## V64 (2026-10-08): Shinrin-yoku evergreen education
+- Published `/things-to-do/japan-forest-bathing-shinrin-yoku/` about origins, sensory practice, differences from hiking and regional experiences.
+- Original educational story grounded in Japan Forestry Agency/JNTO; medical evidence responsibly cites systematic review and identifies very-low-certainty limitations.
+- Canonical, Article and BreadcrumbList JSON-LD; visible answer summary, educational narrative and 4 reader FAQs.
+- Linked from things-to-do and nature hubs; added sitemap URL; no internal version number visible to visitors.
+- Long-term policy: keep stable educational explanation evergreen, verify volatile travel and scientific details as research evolves.
+
 ## V63 (2026-10-08): evergreen Japanese experiences editorial
 - New article: `/things-to-do/japan-diving-first-time/` — scuba options, regional differences, safety, responsible sea activities, FAQs.
 - Source: JNTO diving topic; original article based on general evergreen information, without invented current prices or operators.
