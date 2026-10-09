@@ -2,6 +2,13 @@
 
 Website: https://www.nipponferry.com/
 
+## V76–V100 (2026-10-09): 25 original evergreen Japan culture features
+- Added 25 educational pages across religion, traditional Japanese accommodations, daily life, regional cuisine, seasonal rites, arts and crafts.
+- Each article has six topic-specific educational sections, an accessible FAQ, indexable canonical, Article and BreadcrumbList JSON-LD, descriptive OG metadata, topic-focused hero image reference and relevant internal paths.
+- Browse in `site/things-to-do/index.html` and `site/things-to-do/culture/index.html`. Sitemap +25 URLs.
+- **Media assets not included in this GitHub commit.** For each new page, hero filename is the page slug with `.webp` extension under `site/images/editorial/`. Once media are ready, the owner uploads the ZIP contents there. The article hides a missing image rather than rendering a broken-image icon.
+- No visible internal V## numbering.
+
 ## V71–V75 (2026-10-09): Japanese cultural symbols series
 - V71 `/things-to-do/japanese-shrine-vs-buddhist-temple/` — shrines and Buddhist temples.
 - V72 `/things-to-do/japanese-matsuri-festival-culture/` — matsuri and neighborhood festivals.
