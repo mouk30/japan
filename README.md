@@ -2,6 +2,13 @@
 
 Website: https://www.nipponferry.com/
 
+## V151–V200 (2026-10-09): 50 original Japan travel-culture features
+- 50 educational pages: historic buildings (10), rail & maritime transport (10), nature and geology (10), urban design and seasons (10), regional arts and festivals (10).
+- All include page-level canonical, Article + BreadcrumbList schema, responsive reading layout, internal paths and original WebP hero filename reference.
+- Main things-to-do and culture indexes updated and sitemap extended by 50 URLs.
+- Important: hero photos are **not currently committed**; named media filenames follow `site/images/editorial/<page-slug>.webp` and require approved image assets. Missing photos hide safely.
+- No visible internal version badges.
+
 ## V101–V150 (2026-10-09): 50 cultural deep-dive pages
 - Fifty published pages across performing arts (10), craft heritage (10), regional food (10), urban lifestyle (10) and seasonal ceremonies (10).
 - Source pages use Article/BreadcrumbList JSON-LD, canonical, meta description, topic-specific content and 16:9 image slots.
