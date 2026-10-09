@@ -2,6 +2,14 @@
 
 Website: https://www.nipponferry.com/
 
+## V68–V70 (2026-10-09): Japanese everyday and craft culture editorials
+- V68: `/things-to-do/japanese-ekiben-railway-bento-culture/` — 8 original narrative chapters, regional railway lunchbox culture, rail etiquette.
+- V69: `/things-to-do/japanese-kintsugi-gold-repair-culture/` — 8 original chapters, urushi lacquer, technique and important safety distinctions.
+- V70: `/things-to-do/japanese-omiyage-souvenir-gift-culture/` — 8 original chapters, souvenir and gifting culture.
+- Each article includes FAQ, canonical, Article, BreadcrumbList and FAQPage JSON-LD, source links, mobile-responsive layout and original-image path.
+- One original generated WebP hero photo per story packaged into `NIPPONFERRY_V68_V69_V70_original_images.zip` in the matching `site/images/editorial/` paths. **These binaries need to be uploaded to GitHub by the site owner.** Do not treat deployment as image-complete until uploaded.
+- Hub and culture navigation updated, and sitemap extended by three pages. No version labels visible to readers.
+
 ## V67 (2026-10-09): Japanese garden stone, water, moss editorial
 - `/things-to-do/japanese-garden-stone-water-moss/` published with nine educational chapters, structured answers, four FAQs, JNTO references, Article/BreadcrumbList markup, canonical, and internal links.
 - Original photographic assets prepared as WebP: `japanese-garden-hero.webp`, `japanese-garden-stones-moss.webp`, `japanese-garden-water.webp`. These are NOT YET in GitHub; the page uses verified hero fallback and hides missing body pictures to prevent browser broken-image indicators. **Do not mark this as fully deployed** until the WebP media files are committed and actual deployed URLs verified.
