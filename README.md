@@ -2,6 +2,12 @@
 
 Website: https://www.nipponferry.com/
 
+## V101–V150 (2026-10-09): 50 cultural deep-dive pages
+- Fifty published pages across performing arts (10), craft heritage (10), regional food (10), urban lifestyle (10) and seasonal ceremonies (10).
+- Source pages use Article/BreadcrumbList JSON-LD, canonical, meta description, topic-specific content and 16:9 image slots.
+- Editorial media images are intentionally not yet committed; they must be uploaded to site/images/editorial using each page slug plus .webp. Missing images are hidden.
+- Linked via things-to-do and culture index, sitemap +50 URLs. No visible internal version labels.
+
 ## V76–V100 (2026-10-09): 25 original evergreen Japan culture features
 - Added 25 educational pages across religion, traditional Japanese accommodations, daily life, regional cuisine, seasonal rites, arts and crafts.
 - Each article has six topic-specific educational sections, an accessible FAQ, indexable canonical, Article and BreadcrumbList JSON-LD, descriptive OG metadata, topic-focused hero image reference and relevant internal paths.
