@@ -2,6 +2,15 @@
 
 Website: https://www.nipponferry.com/
 
+## V71–V75 (2026-10-09): Japanese cultural symbols series
+- V71 `/things-to-do/japanese-shrine-vs-buddhist-temple/` — shrines and Buddhist temples.
+- V72 `/things-to-do/japanese-matsuri-festival-culture/` — matsuri and neighborhood festivals.
+- V73 `/things-to-do/japanese-daruma-doll-wishes/` — daruma and wishes.
+- V74 `/things-to-do/japanese-maneki-neko-lucky-cat/` — maneki-neko culture.
+- V75 `/things-to-do/japanese-noren-curtain-shop-culture/` — noren curtains in daily business culture.
+- All five include eight original educational sections, four FAQ answers, Article and Breadcrumb structured data, original-image placeholder paths, canonical URLs and cross-links. Hub and culture directory updated and sitemap extended.
+- Image assets named `shrine-temple-hero.webp`, `matsuri-hero.webp`, `daruma-hero.webp`, `maneki-neko-hero.webp`, `noren-hero.webp` must be uploaded to `site/images/editorial/` before photographic hero images are visible. No visible version labels.
+
 ## V68–V70 (2026-10-09): Japanese everyday and craft culture editorials
 - V68: `/things-to-do/japanese-ekiben-railway-bento-culture/` — 8 original narrative chapters, regional railway lunchbox culture, rail etiquette.
 - V69: `/things-to-do/japanese-kintsugi-gold-repair-culture/` — 8 original chapters, urushi lacquer, technique and important safety distinctions.
