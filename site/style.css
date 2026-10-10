@@ -57,3 +57,29 @@
   .theme-grid{grid-template-columns:1fr}
   .theme-card{min-height:185px}
 }
+
+/* Standalone cruise-port category in the site navigation */
+.desktop-nav .nav-cruise-ports{
+  border:1px solid rgba(255,255,255,.42);
+  background:rgba(255,255,255,.10);
+  color:#fff;
+  white-space:nowrap;
+}
+.desktop-nav .nav-cruise-ports:hover,.desktop-nav .nav-cruise-ports[aria-current="page"]{
+  background:#fff;
+  color:#063d7c;
+}
+.mobile-menu a[href="/things-to-do/cruise-ports/"]{
+  background:#e8f6fb;
+  border:1px solid #b8dce7;
+  color:#075579;
+}
+.quick-grid a[href="/things-to-do/cruise-ports/"]{background:#eaf7fc;border-radius:12px}
+@media(max-width:1160px){
+  .desktop-nav{display:none}
+  .menu-toggle{display:block}
+}
+@media(max-width:640px){
+  .quick-grid a[href="/things-to-do/cruise-ports/"]{border-radius:8px}
+  .mobile-menu a{line-height:1.45;word-break:keep-all}
+}
