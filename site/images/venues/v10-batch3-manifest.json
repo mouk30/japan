@@ -1,0 +1,23 @@
+[
+  {
+    "port": "aomori",
+    "venue": "네부타 와랏세",
+    "status": "ok",
+    "webp": "site/images/venues/aomori-nebuta-warasse.webp",
+    "size_bytes": 81960
+  },
+  {
+    "port": "beppu",
+    "venue": "벳푸 지옥 순례",
+    "status": "ok",
+    "webp": "site/images/venues/beppu-umi-jigoku.webp",
+    "size_bytes": 163128
+  },
+  {
+    "port": "hakodate",
+    "venue": "고료카쿠 타워",
+    "status": "ok",
+    "webp": "site/images/venues/hakodate-goryokaku-tower.webp",
+    "size_bytes": 80210
+  }
+]
