@@ -2,9 +2,9 @@
   "total_pages": 15,
   "total_cards": 45,
   "counts": {
-    "local_verified": 43,
+    "local_verified": 45,
     "remote_needs_check": 0,
-    "missing": 2
+    "missing": 0
   },
   "backfill": [
     {
@@ -302,7 +302,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "slug": "sasebo-umikirara-aquarium",
       "bytes": 67290,
-      "state": "published"
+      "state": "already_had_local_photo"
     },
     {
       "port": "shimizu",
@@ -313,6 +313,28 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "shimizu-kashi-no-ichi-market",
       "bytes": 74250,
+      "state": "already_had_local_photo"
+    },
+    {
+      "port": "hakata",
+      "venue": "후쿠오카 호빵맨 어린이 박물관",
+      "source": "https://commons.wikimedia.org/wiki/File:Hakata_Riverain_the_entrance_3-1_Shimo-kawabatamachi_Hakata-ku_Fukuoka_20231120.jpg",
+      "artist": "Hirho",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "hakata-anpanman-host-building",
+      "bytes": 170010,
+      "state": "published"
+    },
+    {
+      "port": "shimizu",
+      "venue": "치비마루코짱 랜드",
+      "source": "https://commons.wikimedia.org/wiki/File:231027_S-Pulse_Dream_Plaza_Shizuoka_Japan02s3.jpg",
+      "artist": "663highland",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "shimizu-chibi-maruko-host-building",
+      "bytes": 198860,
       "state": "published"
     }
   ],
@@ -356,8 +378,8 @@
     {
       "page": "hakata-cruise-family-guide",
       "venue": "후쿠오카 호빵맨 어린이 박물관",
-      "image_src": null,
-      "status": "missing"
+      "image_src": "/images/venues/hakata-anpanman-host-building.webp",
+      "status": "local_verified"
     },
     {
       "page": "hakata-cruise-family-guide",
@@ -554,8 +576,8 @@
     {
       "page": "shimizu-cruise-family-guide",
       "venue": "치비마루코짱 랜드",
-      "image_src": null,
-      "status": "missing"
+      "image_src": "/images/venues/shimizu-chibi-maruko-host-building.webp",
+      "status": "local_verified"
     },
     {
       "page": "shimizu-cruise-family-guide",
