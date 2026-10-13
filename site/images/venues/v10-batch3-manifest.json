@@ -1,6 +1,20 @@
 [
   {
     "port": "aomori",
+    "venue": "A-FACTORY·ASPAM",
+    "status": "ok",
+    "webp": "site/images/venues/aomori-a-factory.webp",
+    "size_bytes": 166336
+  },
+  {
+    "port": "beppu",
+    "venue": "기지마 고원 파크",
+    "status": "ok",
+    "webp": "site/images/venues/beppu-kijima-jupiter.webp",
+    "size_bytes": 105998
+  },
+  {
+    "port": "aomori",
     "venue": "아사무시 수족관",
     "status": "ok",
     "webp": "site/images/venues/aomori-asamushi-aquarium.webp",
