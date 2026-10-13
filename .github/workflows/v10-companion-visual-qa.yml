@@ -1,0 +1,40 @@
+name: V10 Companion Live Visual QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/audit-companion-render.mjs'
+      - '.github/workflows/v10-companion-visual-qa.yml'
+permissions:
+  contents: read
+jobs:
+  visual-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium / Playwright
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Produce Vercel-equivalent build output
+        run: npm run build
+      - name: Run local preview and production visual audit
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist > /tmp/nipponferry-local-preview.log 2>&1 &
+          echo $! > /tmp/nipponferry-local-preview.pid
+          sleep 2
+          node scripts/audit-companion-render.mjs
+        env:
+          LOCAL_BASE_URL: http://127.0.0.1:8765
+          LIVE_BASE_URL: https://www.nipponferry.com
+      - name: Publish screenshot and report bundle
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v10-family-couple-live-visual-audit
+          path: audit-reports/visual-v10/
+          retention-days: 30
