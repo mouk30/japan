@@ -1,0 +1,46 @@
+[
+  {
+    "image": "naha-dmm-kariyushi-aquarium",
+    "status": "success",
+    "bytes": 116228,
+    "dimensions": [
+      1200,
+      800
+    ],
+    "author": "Kugel~commonswiki",
+    "license": "CC BY-SA 4.0",
+    "updated_pages": [
+      "site/things-to-do/naha-cruise-couple-guide/index.html",
+      "site/things-to-do/naha-cruise-family-guide/index.html"
+    ]
+  },
+  {
+    "image": "naha-shureimon",
+    "status": "success",
+    "bytes": 271714,
+    "dimensions": [
+      1200,
+      900
+    ],
+    "author": "nnh",
+    "license": "public domain",
+    "updated_pages": [
+      "site/things-to-do/naha-cruise-couple-guide/index.html",
+      "site/things-to-do/naha-cruise-family-guide/index.html"
+    ]
+  },
+  {
+    "image": "miyakojima-shigira-allamanda",
+    "status": "success",
+    "bytes": 209050,
+    "dimensions": [
+      1200,
+      799
+    ],
+    "author": "663highland",
+    "license": "CC BY-SA 3.0",
+    "updated_pages": [
+      "site/things-to-do/hirara-miyakojima-cruise-family-guide/index.html"
+    ]
+  }
+]
