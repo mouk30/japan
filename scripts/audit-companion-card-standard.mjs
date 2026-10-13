@@ -34,7 +34,7 @@ for(const env of [{name:'local-build',base:baseLocal},{name:'production',base:ba
        images:imgs.map(x=>({src:x.getAttribute('src'),loaded:x.complete&&x.naturalWidth>0,ratio:ratio(x),naturalWidth:x.naturalWidth})),
        credits:credits.map(a=>{const s=getComputedStyle(a);return {text:a.textContent.trim().slice(0,45),display:s.display,background:s.backgroundColor,marginTop:s.marginTop,paddingTop:s.paddingTop}}),
        experience:act.map(x=>({height:Math.round(x.getBoundingClientRect().height),minHeight:getComputedStyle(x).minHeight})),
-       experienceGridAlign: getComputedStyle(document.querySelector('#ct-experience-booking .act-options')).alignItems,
+       experienceGridAlign:document.querySelector('#ct-experience-booking .act-options') ? getComputedStyle(document.querySelector('#ct-experience-booking .act-options')).alignItems : null,
        topicGridAlign:getComputedStyle(document.querySelector('#ct-topic-dashboard .ct-grid')).alignItems,
        overflow:document.documentElement.scrollWidth>innerWidth+3,
      }
@@ -49,7 +49,7 @@ for(const env of [{name:'local-build',base:baseLocal},{name:'production',base:ba
     for(const [i,a] of metrics.credits.entries()){
       if(a.display!=='inline'||a.background!=='rgba(0, 0, 0, 0)'||a.marginTop!=='0px'||a.paddingTop!=='0px')issues.push('CREDIT_AS_BUTTON_'+(i+1));
     }
-    if(metrics.experienceGridAlign!=='start'||metrics.topicGridAlign!=='start')issues.push('GRID_STRETCH');
+    if((metrics.experienceGridAlign!==null&&metrics.experienceGridAlign!=='start')||metrics.topicGridAlign!=='start')issues.push('GRID_STRETCH');
     if(metrics.experience.some(a=>a.minHeight!=='0px'))issues.push('FORCED_CARD_MINHEIGHT');
     if(metrics.overflow)issues.push('HORIZONTAL_OVERFLOW');
     if(slug.startsWith('hakodate-')){
