@@ -36,4 +36,4 @@ for port,venue,name,slug,author,lic,licurl in targets:
  except Exception as e:results.append({"port":port,"venue":venue,"status":"failed","error":str(e)})
 (folder/"v10-batch3-manifest.json").write_text(json.dumps(results,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 print(json.dumps(results,ensure_ascii=False,indent=2))
-if any(x["status"]!="ok" for x in results):raise SystemExit(1)
+if not any(x["status"]=="ok" for x in results):raise SystemExit(1)\n# Failed images remain unchanged; publish each successful image independently.
