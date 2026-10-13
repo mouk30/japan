@@ -17,8 +17,8 @@
 .ct-area .ct-card h3{font-size:19px;line-height:1.4;letter-spacing:-.03em;margin:7px 0 8px;color:#153f57}
 .ct-area .ct-card p{font-size:13px;line-height:1.7;color:#526f7c;margin:0 0 10px}
 .ct-area .ct-card .ct-distance{font-size:12px;font-weight:750;color:#6a4e3d;border-top:1px solid #edf1f3;padding-top:11px;margin-top:auto}
-.ct-area .ct-card a{display:inline-flex;align-items:center;gap:5px;margin-top:12px;color:var(--ct-accent);font-size:13px;font-weight:900;text-decoration:none}
-.ct-area .ct-card a:hover{text-decoration:underline}
+.ct-area .ct-card > a{display:inline-flex;align-items:center;gap:5px;margin-top:12px;color:var(--ct-accent);font-size:13px;font-weight:900;text-decoration:none}
+.ct-area .ct-card > a:hover{text-decoration:underline}
 .ct-area .ct-panel{background:#fff;border:1px solid #d4e4ea;border-radius:17px;padding:clamp(18px,3vw,28px);margin:15px 0}
 .ct-area .ct-panel h3{font-size:21px;margin:3px 0 16px;color:#16435a;letter-spacing:-.03em}
 .ct-area .ct-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;counter-reset:steps;list-style:none;margin:0;padding:0}
