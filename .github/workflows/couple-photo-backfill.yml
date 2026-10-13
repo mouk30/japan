@@ -1,0 +1,41 @@
+name: V10 Couple 45 Card Photo Audit
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/couple-photo-backfill.py'
+      - '.github/workflows/couple-photo-backfill.yml'
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install WebP converter
+        run: python -m pip install Pillow==11.3.0
+      - name: Reuse verified local photos and convert exact-location Commons files
+        run: python scripts/couple-photo-backfill.py
+      - name: Publish verified photos and 15 modified couple guides
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/venues site/things-to-do/ audit-reports/couple-thumbnails.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V10 couple guides: licensed WebP thumbnails and 45-card audit"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Export full 45-card checklist
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v10-couple-thumbnails
+          path: audit-reports/couple-thumbnails.json
+          retention-days: 30
