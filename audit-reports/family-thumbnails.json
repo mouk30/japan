@@ -2,9 +2,9 @@
   "total_pages": 15,
   "total_cards": 45,
   "counts": {
-    "local_verified": 33,
+    "local_verified": 35,
     "remote_needs_check": 6,
-    "missing": 6
+    "missing": 4
   },
   "backfill": [
     {
@@ -16,7 +16,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "hakata-science-museum",
       "bytes": 182548,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "hakodate",
@@ -27,7 +27,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "hakodate-kanemori-warehouses",
       "bytes": 139932,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "hakodate",
@@ -38,7 +38,7 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/",
       "slug": "hakodate-mount-ropeway",
       "bytes": 40682,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "hirara-miyakojima",
@@ -49,7 +49,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "miyakojima-underwater-park",
       "bytes": 110670,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "ishigaki",
@@ -60,7 +60,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "ishigaki-yaima-village",
       "bytes": 227912,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "ishigaki",
@@ -71,7 +71,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "ishigaki-euglena-mall",
       "bytes": 232124,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "kagoshima",
@@ -82,7 +82,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "kagoshima-ioworld-aquarium",
       "bytes": 142736,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "kagoshima",
@@ -93,7 +93,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "kagoshima-senganen",
       "bytes": 265710,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "kagoshima",
@@ -104,7 +104,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "kagoshima-sakurajima-ferry",
       "bytes": 241210,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "kanazawa",
@@ -115,7 +115,7 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/",
       "slug": "kanazawa-wagashi-experience",
       "bytes": 40244,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "kanazawa",
@@ -126,7 +126,7 @@
       "license_url": "https://creativecommons.org/licenses/by/2.1/jp/",
       "slug": "kanazawa-21st-museum",
       "bytes": 193290,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "kobe",
@@ -137,7 +137,7 @@
       "license_url": "https://creativecommons.org/licenses/by/2.5/",
       "slug": "kobe-anpanman-museum",
       "bytes": 138308,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "nagasaki",
@@ -148,7 +148,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
       "slug": "nagasaki-penguin-aquarium",
       "bytes": 246518,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "nagasaki",
@@ -159,7 +159,7 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "slug": "nagasaki-peace-park",
       "bytes": 137852,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "naha",
@@ -170,7 +170,7 @@
       "license_url": "https://creativecommons.org/licenses/by/2.5/",
       "slug": "naha-prefectural-museum",
       "bytes": 172798,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "sasebo",
@@ -181,7 +181,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "sasebo-pearl-queen",
       "bytes": 118526,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "shimizu",
@@ -192,7 +192,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "shimizu-dream-plaza",
       "bytes": 154166,
-      "state": "published"
+      "state": "already_had_photo"
     },
     {
       "port": "yokohama",
@@ -203,6 +203,28 @@
       "license_url": "https://creativecommons.org/licenses/by/3.0/",
       "slug": "yokohama-hakkeijima-seaparadise",
       "bytes": 97440,
+      "state": "already_had_photo"
+    },
+    {
+      "port": "hirara-miyakojima",
+      "venue": "우에노 독일문화촌",
+      "source": "https://commons.wikimedia.org/wiki/File:Ueno_German_Culture_Village_-_J_-_2020_March_27.jpg",
+      "artist": "Nesnad",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "miyakojima-ueno-german-village",
+      "bytes": 239146,
+      "state": "published"
+    },
+    {
+      "port": "kanazawa",
+      "venue": "이시카와 관광물산관 금박 체험",
+      "source": "https://commons.wikimedia.org/wiki/File:Ishikawa_kanko_bussan.jpg",
+      "artist": "Opqr",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "kanazawa-ishikawa-tourism-hall",
+      "bytes": 153140,
       "state": "published"
     }
   ],
@@ -288,8 +310,8 @@
     {
       "page": "hirara-miyakojima-cruise-family-guide",
       "venue": "우에노 독일문화촌",
-      "image_src": null,
-      "status": "missing"
+      "image_src": "/images/venues/miyakojima-ueno-german-village.webp",
+      "status": "local_verified"
     },
     {
       "page": "hirara-miyakojima-cruise-family-guide",
@@ -336,8 +358,8 @@
     {
       "page": "kanazawa-cruise-family-guide",
       "venue": "이시카와 관광물산관 금박 체험",
-      "image_src": null,
-      "status": "missing"
+      "image_src": "/images/venues/kanazawa-ishikawa-tourism-hall.webp",
+      "status": "local_verified"
     },
     {
       "page": "kanazawa-cruise-family-guide",
