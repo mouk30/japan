@@ -22,9 +22,13 @@ rows += [
  ["sasebo","하우스텐보스","200320 Huis Ten Bosch Sasebo Nagasaki pref Japan01s3.jpg","sasebo-huis-ten-bosch","663highland","BY-2.5"],
  ["yokohama","요코하마 코스모월드","Yokohama Cosmo World and Clock Ferris Wheel (4611157059).jpg","yokohama-cosmo-world","Jorge Láscar","BY-2.0"]
 ]
+rows += [
+ ["sasebo","구주쿠시마 수족관 우미키라라","Saikai Pearlsea Umikirara.jpg","sasebo-umikirara-aquarium","Atsasebo","BY-SA-3.0"],
+ ["shimizu","시미즈 수산시장·스시 문화","KASHI NO ICHI in shimizu ward.jpg","shimizu-kashi-no-ichi-market","Halowand","BY-SA-4.0"]
+]
 site=Path("site"); dst=site/"images"/"venues"; dst.mkdir(parents=True,exist_ok=True)
 reports=Path("audit-reports"); reports.mkdir(exist_ok=True)
-licenses={"CC0-1.0":"https://creativecommons.org/publicdomain/zero/1.0/","BY-2.0":"https://creativecommons.org/licenses/by/2.0/","BY-2.5":"https://creativecommons.org/licenses/by/2.5/","BY-2.1-jp":"https://creativecommons.org/licenses/by/2.1/jp/","BY-3.0":"https://creativecommons.org/licenses/by/3.0/","BY-SA-2.0":"https://creativecommons.org/licenses/by-sa/2.0/","BY-SA-4.0":"https://creativecommons.org/licenses/by-sa/4.0/"}
+licenses={"CC0-1.0":"https://creativecommons.org/publicdomain/zero/1.0/","BY-2.0":"https://creativecommons.org/licenses/by/2.0/","BY-2.5":"https://creativecommons.org/licenses/by/2.5/","BY-2.1-jp":"https://creativecommons.org/licenses/by/2.1/jp/","BY-3.0":"https://creativecommons.org/licenses/by/3.0/","BY-SA-3.0":"https://creativecommons.org/licenses/by-sa/3.0/","BY-SA-2.0":"https://creativecommons.org/licenses/by-sa/2.0/","BY-SA-4.0":"https://creativecommons.org/licenses/by-sa/4.0/"}
 def get(item):
     port,venue,source,slug,artist,lic=item
     assert lic in licenses
