@@ -1,0 +1,9 @@
+/* V10 photo-first guide cards: photo > description > location > booking */
+.ct-area .ct-card{min-height:0!important}
+.ct-area .ct-card .ct-photo{margin:10px 0 13px}
+.ct-area .ct-card .ct-photo img{display:block;width:100%;height:170px;object-fit:cover;border-radius:10px;background:#eef6f8}
+.ct-area .ct-card .ct-photo figcaption{font-size:10px;line-height:1.5;color:#607987;margin-top:6px}
+.ct-area .ct-card .ct-photo figcaption a{display:inline;color:#075b75;font-weight:600;margin:0}
+.ct-area .ct-card .ct-distance{margin-top:10px}
+.ct-area .ct-card>a:last-child{margin-top:9px;min-height:44px;display:inline-flex;align-items:center}
+@media(max-width:650px){.ct-area .ct-card .ct-photo img{height:190px}}
