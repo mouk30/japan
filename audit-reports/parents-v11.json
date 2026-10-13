@@ -1,0 +1,399 @@
+{
+  "summary": {
+    "pages": 15,
+    "cards": 45,
+    "photos_new": 5,
+    "photos_reused": 37,
+    "no_photo_services": 3,
+    "photo_unavailable": 0
+  },
+  "photos": {
+    "aomori-aspam.webp": {
+      "ok": true,
+      "source": "https://commons.wikimedia.org/wiki/File:ASPAM_20250112.jpg",
+      "bytes": 90640
+    },
+    "aomori-hakkoda-ropeway.webp": {
+      "ok": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Hakkoda_Ropeway_Station_-_Nov_1,_2020.jpg",
+      "bytes": 128804
+    },
+    "hakodate-yunokawa.webp": {
+      "ok": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Yunokawa_Onsen_Hakodate_Hokkaido_Japan18n.jpg",
+      "bytes": 69240
+    },
+    "kobe-arima-onsen.webp": {
+      "ok": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Kinnoyu_Public_Bathing_in_Arima_Onsen.JPG",
+      "bytes": 180558
+    },
+    "yokohama-yamashita-park.webp": {
+      "ok": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Yamashita_Park_(51515167989).jpg",
+      "bytes": 165422
+    }
+  },
+  "cards": [
+    {
+      "port": "aomori",
+      "venue": "네부타 와랏세",
+      "photo": "verified_reused",
+      "asset": "aomori-nebuta-warasse.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "aomori",
+      "venue": "ASPAM 전망·전시",
+      "photo": "verified_new",
+      "asset": "NEW:aomori-aspam.webp",
+      "mobility": true,
+      "reference": "https://commons.wikimedia.org/wiki/File:ASPAM_20250112.jpg"
+    },
+    {
+      "port": "aomori",
+      "venue": "핫코다 로프웨이",
+      "photo": "verified_new",
+      "asset": "NEW:aomori-hakkoda-ropeway.webp",
+      "mobility": true,
+      "reference": "https://commons.wikimedia.org/wiki/File:Hakkoda_Ropeway_Station_-_Nov_1,_2020.jpg"
+    },
+    {
+      "port": "beppu",
+      "venue": "벳푸 로프웨이",
+      "photo": "verified_reused",
+      "asset": "beppu-306439-remote.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "beppu",
+      "venue": "벳푸 지옥 순례",
+      "photo": "verified_reused",
+      "asset": "beppu-umi-jigoku.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "beppu",
+      "venue": "벳푸 당일 온천·마사지",
+      "photo": "verified_reused",
+      "asset": "beppu-takegawara-onsen.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "hakata",
+      "venue": "후쿠오카 타워",
+      "photo": "verified_reused",
+      "asset": "fukuoka-tower.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "hakata",
+      "venue": "오호리공원",
+      "photo": "verified_reused",
+      "asset": "fukuoka-ohori-park.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "hakata",
+      "venue": "하카타 리버레인",
+      "photo": "verified_reused",
+      "asset": "hakata-anpanman-host-building.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "hakodate",
+      "venue": "고료카쿠 타워",
+      "photo": "verified_reused",
+      "asset": "hakodate-goryokaku-tower.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "hakodate",
+      "venue": "하코다테산 로프웨이",
+      "photo": "verified_reused",
+      "asset": "hakodate-mount-ropeway.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "hakodate",
+      "venue": "유노카와 온천",
+      "photo": "verified_new",
+      "asset": "NEW:hakodate-yunokawa.webp",
+      "mobility": true,
+      "reference": "https://commons.wikimedia.org/wiki/File:Yunokawa_Onsen_Hakodate_Hokkaido_Japan18n.jpg"
+    },
+    {
+      "port": "hirara-miyakojima",
+      "venue": "시기라 리프트 오션스카이",
+      "photo": "verified_reused",
+      "asset": "miyakojima-shigira-allamanda.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "hirara-miyakojima",
+      "venue": "시기라 골드 온천",
+      "photo": "verified_reused",
+      "asset": "miyakojima-shigira-allamanda.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "hirara-miyakojima",
+      "venue": "미야코지마 해중공원",
+      "photo": "verified_reused",
+      "asset": "miyakojima-underwater-park.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "ishigaki",
+      "venue": "가비라만 전망대",
+      "photo": "verified_reused",
+      "asset": "ishigaki-kabira-bay.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "ishigaki",
+      "venue": "가비라만 글라스보트",
+      "photo": "verified_reused",
+      "asset": "ishigaki-kabira-bay.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "ishigaki",
+      "venue": "야이마무라",
+      "photo": "verified_reused",
+      "asset": "ishigaki-yaima-village.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "kagoshima",
+      "venue": "센간엔 정원",
+      "photo": "verified_reused",
+      "asset": "kagoshima-senganen.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "kagoshima",
+      "venue": "시로야마 전망대",
+      "photo": "verified_reused",
+      "asset": "kagoshima-shiroyama-view.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "kagoshima",
+      "venue": "사쿠라지마 페리",
+      "photo": "verified_reused",
+      "asset": "kagoshima-sakurajima-ferry.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "kanazawa",
+      "venue": "겐로쿠엔 정원",
+      "photo": "verified_reused",
+      "asset": "kanazawa-195232-remote.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "kanazawa",
+      "venue": "21세기 미술관",
+      "photo": "verified_reused",
+      "asset": "kanazawa-21st-museum.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "kanazawa",
+      "venue": "이시카와 배리어프리 관광 지원",
+      "photo": "no_photo_service",
+      "asset": null,
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "kobe",
+      "venue": "고베 누노비키 로프웨이",
+      "photo": "verified_reused",
+      "asset": "kobe-nunobiki-herb-ropeway.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "kobe",
+      "venue": "메리켄파크·하버랜드",
+      "photo": "verified_reused",
+      "asset": "kobe-meriken-park-night.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "kobe",
+      "venue": "아리마온천",
+      "photo": "verified_new",
+      "asset": "NEW:kobe-arima-onsen.webp",
+      "mobility": true,
+      "reference": "https://commons.wikimedia.org/wiki/File:Kinnoyu_Public_Bathing_in_Arima_Onsen.JPG"
+    },
+    {
+      "port": "nagasaki",
+      "venue": "글로버 스카이로드",
+      "photo": "verified_reused",
+      "asset": "nagasaki-glover-garden.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "nagasaki",
+      "venue": "이나사야마 로프웨이",
+      "photo": "verified_reused",
+      "asset": "nagasaki-inasa-ropeway.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "nagasaki",
+      "venue": "글로버정원",
+      "photo": "verified_reused",
+      "asset": "nagasaki-glover-garden.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "naha",
+      "venue": "오키나와현립 박물관",
+      "photo": "verified_reused",
+      "asset": "naha-prefectural-museum.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "naha",
+      "venue": "슈리성 공원",
+      "photo": "verified_reused",
+      "asset": "naha-shureimon.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "naha",
+      "venue": "DMM 가리유시 수족관",
+      "photo": "verified_reused",
+      "asset": "naha-dmm-kariyushi-aquarium.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "osaka",
+      "venue": "덴포잔 대관람차",
+      "photo": "verified_reused",
+      "asset": "osaka-tempozan-wheel.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "osaka",
+      "venue": "가이유칸",
+      "photo": "verified_reused",
+      "asset": "osaka-kaiyukan-aquarium.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "osaka",
+      "venue": "기사 포함 오사카항 관광",
+      "photo": "no_photo_service",
+      "asset": null,
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "sasebo",
+      "venue": "펄퀸 관광 유람선",
+      "photo": "verified_reused",
+      "asset": "sasebo-pearl-queen.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "sasebo",
+      "venue": "구주쿠시마 수족관",
+      "photo": "verified_reused",
+      "asset": "sasebo-umikirara-aquarium.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "sasebo",
+      "venue": "우라가시라 항만 픽업",
+      "photo": "no_photo_service",
+      "asset": null,
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "shimizu",
+      "venue": "니혼다이라 로프웨이",
+      "photo": "verified_reused",
+      "asset": "shimizu-nihondaira-ropeway.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "shimizu",
+      "venue": "드림플라자 수변",
+      "photo": "verified_reused",
+      "asset": "shimizu-dream-plaza.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "shimizu",
+      "venue": "니혼다이라 주변 전망",
+      "photo": "verified_reused",
+      "asset": "shimizu-nihondaira-ropeway.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "yokohama",
+      "venue": "요코하마 에어캐빈",
+      "photo": "verified_reused",
+      "asset": "yokohama-air-cabin.webp",
+      "mobility": true,
+      "reference": null
+    },
+    {
+      "port": "yokohama",
+      "venue": "야마시타공원",
+      "photo": "verified_new",
+      "asset": "NEW:yokohama-yamashita-park.webp",
+      "mobility": true,
+      "reference": "https://commons.wikimedia.org/wiki/File:Yamashita_Park_(51515167989).jpg"
+    },
+    {
+      "port": "yokohama",
+      "venue": "요코하마 붉은벽돌 창고",
+      "photo": "verified_reused",
+      "asset": "yokohama-redbrick-waterfront.webp",
+      "mobility": true,
+      "reference": null
+    }
+  ]
+}
