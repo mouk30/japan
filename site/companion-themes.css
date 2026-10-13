@@ -36,3 +36,10 @@
 
 /* facility-photo attribution cards */
 .ct-area .ct-photo{margin:10px 0 12px}.ct-area .ct-photo img{display:block;width:100%;max-width:100%;height:165px;object-fit:cover;border-radius:10px}.ct-area .ct-photo figcaption{font-size:11px;line-height:1.55;color:#587384;margin-top:6px}.ct-area .ct-photo figcaption a{color:#266c83}
+
+/* V10 photo coverage: no artificial empty vertical space on photo-less cards */
+.ct-area .ct-grid{align-items:start}
+.ct-area .ct-card{min-height:0;align-self:start;height:auto}
+.ct-area .ct-card .ct-distance{margin-top:12px}
+.ct-area .ct-card .ct-photo img{aspect-ratio:3/2;height:auto;max-height:200px;object-fit:cover}
+@media(min-width:751px){.ct-area .ct-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
