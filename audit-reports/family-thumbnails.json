@@ -2,8 +2,8 @@
   "total_pages": 15,
   "total_cards": 45,
   "counts": {
-    "local_verified": 35,
-    "remote_needs_check": 6,
+    "local_verified": 41,
+    "remote_needs_check": 0,
     "missing": 4
   },
   "backfill": [
@@ -16,7 +16,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "hakata-science-museum",
       "bytes": 182548,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "hakodate",
@@ -27,7 +27,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "hakodate-kanemori-warehouses",
       "bytes": 139932,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "hakodate",
@@ -38,7 +38,7 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/",
       "slug": "hakodate-mount-ropeway",
       "bytes": 40682,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "hirara-miyakojima",
@@ -49,7 +49,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "miyakojima-underwater-park",
       "bytes": 110670,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "ishigaki",
@@ -60,7 +60,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "ishigaki-yaima-village",
       "bytes": 227912,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "ishigaki",
@@ -71,7 +71,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "ishigaki-euglena-mall",
       "bytes": 232124,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "kagoshima",
@@ -82,7 +82,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "kagoshima-ioworld-aquarium",
       "bytes": 142736,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "kagoshima",
@@ -93,7 +93,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "kagoshima-senganen",
       "bytes": 265710,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "kagoshima",
@@ -104,7 +104,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "kagoshima-sakurajima-ferry",
       "bytes": 241210,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "kanazawa",
@@ -115,7 +115,7 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/",
       "slug": "kanazawa-wagashi-experience",
       "bytes": 40244,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "kanazawa",
@@ -126,7 +126,7 @@
       "license_url": "https://creativecommons.org/licenses/by/2.1/jp/",
       "slug": "kanazawa-21st-museum",
       "bytes": 193290,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "kobe",
@@ -137,7 +137,7 @@
       "license_url": "https://creativecommons.org/licenses/by/2.5/",
       "slug": "kobe-anpanman-museum",
       "bytes": 138308,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "nagasaki",
@@ -148,7 +148,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
       "slug": "nagasaki-penguin-aquarium",
       "bytes": 246518,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "nagasaki",
@@ -159,7 +159,7 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "slug": "nagasaki-peace-park",
       "bytes": 137852,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "naha",
@@ -170,7 +170,7 @@
       "license_url": "https://creativecommons.org/licenses/by/2.5/",
       "slug": "naha-prefectural-museum",
       "bytes": 172798,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "sasebo",
@@ -181,7 +181,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "sasebo-pearl-queen",
       "bytes": 118526,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "shimizu",
@@ -192,7 +192,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "shimizu-dream-plaza",
       "bytes": 154166,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "yokohama",
@@ -203,7 +203,7 @@
       "license_url": "https://creativecommons.org/licenses/by/3.0/",
       "slug": "yokohama-hakkeijima-seaparadise",
       "bytes": 97440,
-      "state": "already_had_photo"
+      "state": "already_had_local_photo"
     },
     {
       "port": "hirara-miyakojima",
@@ -214,7 +214,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "miyakojima-ueno-german-village",
       "bytes": 239146,
-      "state": "published"
+      "state": "already_had_local_photo"
     },
     {
       "port": "kanazawa",
@@ -225,6 +225,72 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "slug": "kanazawa-ishikawa-tourism-hall",
       "bytes": 153140,
+      "state": "already_had_local_photo"
+    },
+    {
+      "port": "kobe",
+      "venue": "누노비키 허브원 로프웨이",
+      "source": "https://commons.wikimedia.org/wiki/File:Cable_car_in_Kobe,_Japan%3B_May_2017.jpg",
+      "artist": "Mark Pegrum",
+      "license": "BY-SA-2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "slug": "kobe-nunobiki-herb-ropeway",
+      "bytes": 260926,
+      "state": "published"
+    },
+    {
+      "port": "osaka",
+      "venue": "가이유칸",
+      "source": "https://commons.wikimedia.org/wiki/File:Kaiy%C5%ABkan.jpg",
+      "artist": "Sakai Yayoi",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "slug": "osaka-kaiyukan-aquarium",
+      "bytes": 303826,
+      "state": "published"
+    },
+    {
+      "port": "osaka",
+      "venue": "레고랜드 디스커버리센터 오사카",
+      "source": "https://commons.wikimedia.org/wiki/File:LEGOLAND_Discovery_Center_Osaka.jpg",
+      "artist": "Dale Cruse",
+      "license": "BY-2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "slug": "osaka-legoland-discovery",
+      "bytes": 156866,
+      "state": "published"
+    },
+    {
+      "port": "osaka",
+      "venue": "유니버설 스튜디오 재팬",
+      "source": "https://commons.wikimedia.org/wiki/File:USJ_Entrance_2026.jpg",
+      "artist": "Sakai Yayoi",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "slug": "osaka-usj-entrance",
+      "bytes": 235036,
+      "state": "published"
+    },
+    {
+      "port": "sasebo",
+      "venue": "하우스텐보스",
+      "source": "https://commons.wikimedia.org/wiki/File:200320_Huis_Ten_Bosch_Sasebo_Nagasaki_pref_Japan01s3.jpg",
+      "artist": "663highland",
+      "license": "BY-2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/",
+      "slug": "sasebo-huis-ten-bosch",
+      "bytes": 158862,
+      "state": "published"
+    },
+    {
+      "port": "yokohama",
+      "venue": "요코하마 코스모월드",
+      "source": "https://commons.wikimedia.org/wiki/File:Yokohama_Cosmo_World_and_Clock_Ferris_Wheel_(4611157059).jpg",
+      "artist": "Jorge Láscar",
+      "license": "BY-2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "slug": "yokohama-cosmo-world",
+      "bytes": 144188,
       "state": "published"
     }
   ],
@@ -388,8 +454,8 @@
     {
       "page": "kobe-cruise-family-guide",
       "venue": "누노비키 허브원 로프웨이",
-      "image_src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Cable_car_in_Kobe%2C_Japan%3B_May_2017.jpg/960px-Cable_car_in_Kobe%2C_Japan%3B_May_2017.jpg",
-      "status": "remote_needs_check"
+      "image_src": "/images/venues/kobe-nunobiki-herb-ropeway.webp",
+      "status": "local_verified"
     },
     {
       "page": "nagasaki-cruise-family-guide",
@@ -430,20 +496,20 @@
     {
       "page": "osaka-cruise-family-guide",
       "venue": "가이유칸",
-      "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaiy%C5%ABkan.jpg?width=640",
-      "status": "remote_needs_check"
+      "image_src": "/images/venues/osaka-kaiyukan-aquarium.webp",
+      "status": "local_verified"
     },
     {
       "page": "osaka-cruise-family-guide",
       "venue": "레고랜드 디스커버리센터 오사카",
-      "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/LEGOLAND_Discovery_Center_Osaka.jpg?width=640",
-      "status": "remote_needs_check"
+      "image_src": "/images/venues/osaka-legoland-discovery.webp",
+      "status": "local_verified"
     },
     {
       "page": "osaka-cruise-family-guide",
       "venue": "유니버설 스튜디오 재팬",
-      "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/USJ_Entrance_2026.jpg?width=640",
-      "status": "remote_needs_check"
+      "image_src": "/images/venues/osaka-usj-entrance.webp",
+      "status": "local_verified"
     },
     {
       "page": "sasebo-cruise-family-guide",
@@ -460,8 +526,8 @@
     {
       "page": "sasebo-cruise-family-guide",
       "venue": "하우스텐보스",
-      "image_src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/200320_Huis_Ten_Bosch_Sasebo_Nagasaki_pref_Japan01s3.jpg/960px-200320_Huis_Ten_Bosch_Sasebo_Nagasaki_pref_Japan01s3.jpg",
-      "status": "remote_needs_check"
+      "image_src": "/images/venues/sasebo-huis-ten-bosch.webp",
+      "status": "local_verified"
     },
     {
       "page": "shimizu-cruise-family-guide",
@@ -490,8 +556,8 @@
     {
       "page": "yokohama-cruise-family-guide",
       "venue": "요코하마 코스모월드",
-      "image_src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Yokohama_Cosmo_World_and_Clock_Ferris_Wheel_%284611157059%29.jpg/960px-Yokohama_Cosmo_World_and_Clock_Ferris_Wheel_%284611157059%29.jpg",
-      "status": "remote_needs_check"
+      "image_src": "/images/venues/yokohama-cosmo-world.webp",
+      "status": "local_verified"
     },
     {
       "page": "yokohama-cruise-family-guide",
