@@ -8,7 +8,7 @@ const dir='audit-reports/card-standard-v10';await mkdir(dir,{recursive:true});
 const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
 const results=[];
 for(const env of [{name:'local-build',base:baseLocal},{name:'production',base:baseLive}]){
- for(const size of [{label:'mobile',width:390,height:844},{label:'desktop',width:1365,height:900}]){
+ for(const size of [{label:'mobile',width:390,height:844},{label:'tablet',width:844,height:1120},{label:'desktop',width:1365,height:900}]){
   for(const slug of slugs){
    const page=await browser.newPage({viewport:{width:size.width,height:size.height},locale:'ko-KR',deviceScaleFactor:1});
    const uri=env.base+'/things-to-do/'+slug+'/';
