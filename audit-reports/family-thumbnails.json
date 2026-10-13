@@ -2,9 +2,9 @@
   "total_pages": 15,
   "total_cards": 45,
   "counts": {
-    "local_verified": 41,
+    "local_verified": 43,
     "remote_needs_check": 0,
-    "missing": 4
+    "missing": 2
   },
   "backfill": [
     {
@@ -236,7 +236,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
       "slug": "kobe-nunobiki-herb-ropeway",
       "bytes": 260926,
-      "state": "published"
+      "state": "already_had_local_photo"
     },
     {
       "port": "osaka",
@@ -247,7 +247,7 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "slug": "osaka-kaiyukan-aquarium",
       "bytes": 303826,
-      "state": "published"
+      "state": "already_had_local_photo"
     },
     {
       "port": "osaka",
@@ -258,7 +258,7 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/",
       "slug": "osaka-legoland-discovery",
       "bytes": 156866,
-      "state": "published"
+      "state": "already_had_local_photo"
     },
     {
       "port": "osaka",
@@ -269,7 +269,7 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "slug": "osaka-usj-entrance",
       "bytes": 235036,
-      "state": "published"
+      "state": "already_had_local_photo"
     },
     {
       "port": "sasebo",
@@ -280,7 +280,7 @@
       "license_url": "https://creativecommons.org/licenses/by/2.5/",
       "slug": "sasebo-huis-ten-bosch",
       "bytes": 158862,
-      "state": "published"
+      "state": "already_had_local_photo"
     },
     {
       "port": "yokohama",
@@ -291,6 +291,28 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/",
       "slug": "yokohama-cosmo-world",
       "bytes": 144188,
+      "state": "already_had_local_photo"
+    },
+    {
+      "port": "sasebo",
+      "venue": "구주쿠시마 수족관 우미키라라",
+      "source": "https://commons.wikimedia.org/wiki/File:Saikai_Pearlsea_Umikirara.jpg",
+      "artist": "Atsasebo",
+      "license": "BY-SA-3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "slug": "sasebo-umikirara-aquarium",
+      "bytes": 67290,
+      "state": "published"
+    },
+    {
+      "port": "shimizu",
+      "venue": "시미즈 수산시장·스시 문화",
+      "source": "https://commons.wikimedia.org/wiki/File:KASHI_NO_ICHI_in_shimizu_ward.jpg",
+      "artist": "Halowand",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "shimizu-kashi-no-ichi-market",
+      "bytes": 74250,
       "state": "published"
     }
   ],
@@ -514,8 +536,8 @@
     {
       "page": "sasebo-cruise-family-guide",
       "venue": "구주쿠시마 수족관 우미키라라",
-      "image_src": null,
-      "status": "missing"
+      "image_src": "/images/venues/sasebo-umikirara-aquarium.webp",
+      "status": "local_verified"
     },
     {
       "page": "sasebo-cruise-family-guide",
@@ -543,9 +565,9 @@
     },
     {
       "page": "shimizu-cruise-family-guide",
-      "venue": "시미즈 스시 문화",
-      "image_src": null,
-      "status": "missing"
+      "venue": "시미즈 수산시장·스시 문화",
+      "image_src": "/images/venues/shimizu-kashi-no-ichi-market.webp",
+      "status": "local_verified"
     },
     {
       "page": "yokohama-cruise-family-guide",
