@@ -1,0 +1,90 @@
+/* NIPPONFERRY V10.4 · family/couple card design contract
+ * All editorial thumbnails: 4:3. Editorial credits are inline, never CTA buttons.
+ * CTA targets only direct anchor children; card height grows only with real content.
+ */
+.ct-area .ct-grid,
+.ct-area .ab-grid,
+.ct-action .act-options{
+  align-items:start;
+  align-content:start;
+}
+.ct-area .ct-grid > .ct-card,
+.ct-area .ab-grid > .ab-card,
+.ct-action .act-options > .act-option{
+  min-height:0!important;
+  height:auto!important;
+  align-self:start!important;
+}
+.ct-area .ct-card .ct-photo,
+.ct-area .ab-card .ct-photo,
+.ct-action .act-option .ct-photo,
+.ct-action .act-option .act-photo{
+  display:block;
+  margin:12px 0 13px;
+  min-width:0;
+}
+.ct-area .ct-card .ct-photo img,
+.ct-area .ab-card .ct-photo img,
+.ct-action .act-option .ct-photo img,
+.ct-action .act-option .act-photo img{
+  display:block;
+  width:100%;
+  max-width:100%;
+  height:auto;
+  max-height:none;
+  aspect-ratio:4/3;
+  object-fit:cover;
+  object-position:center;
+  border-radius:11px;
+  background:#eaf3f7;
+}
+.ct-area .ct-card .ct-photo figcaption,
+.ct-area .ab-card .ct-photo figcaption,
+.ct-action .act-option .ct-photo figcaption,
+.ct-action .act-option .act-photo figcaption{
+  display:block;
+  margin:7px 0 0;
+  padding:0;
+  min-width:0;
+  font-size:11px;
+  line-height:1.6;
+  color:#56717e;
+  font-weight:400;
+  overflow-wrap:anywhere;
+}
+.ct-area .ct-card figure figcaption a,
+.ct-area .ab-card figure figcaption a,
+.ct-action .act-option figure figcaption a{
+  display:inline!important;
+  flex:none!important;
+  align-items:initial;
+  width:auto!important;
+  min-width:0;
+  min-height:0!important;
+  margin:0!important;
+  padding:0!important;
+  gap:0!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+  color:#086d88!important;
+  font-size:inherit!important;
+  font-weight:700!important;
+  text-align:inherit!important;
+  text-decoration:underline!important;
+  text-underline-offset:2px;
+  line-height:inherit!important;
+  white-space:normal;
+}
+.ct-area .ct-card > a:last-child,
+.ct-area .ab-card > a:last-child,
+.ct-action .act-option > a:last-child{
+  flex-shrink:0;
+  margin-top:12px;
+  min-height:44px;
+}
+.ct-area .ct-card .ct-distance{margin-top:12px;}
+@media (max-width:510px){
+  .ct-action .act-options{grid-template-columns:1fr;}
+}
