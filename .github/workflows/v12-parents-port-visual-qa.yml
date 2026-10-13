@@ -1,0 +1,39 @@
+name: V12 Parents Verified Port Live QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/audit-parents-port-v12.mjs'
+      - '.github/workflows/v12-parents-port-visual-qa.yml'
+permissions:
+  contents: read
+jobs:
+  visual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build deployable site
+        run: npm run build
+      - name: Validate 15 port guides with mobile and desktop Chromium
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist > /tmp/v12-parents-preview.log 2>&1 &
+          sleep 2
+          node scripts/audit-parents-port-v12.mjs
+        env:
+          LOCAL_BASE_URL: http://127.0.0.1:8765
+          LIVE_BASE_URL: https://www.nipponferry.com
+      - name: Keep port-specific screenshots and source audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v12-parents-berth-route-browser-qa
+          path: audit-reports/parents-port-v12-visual/
+          retention-days: 30
