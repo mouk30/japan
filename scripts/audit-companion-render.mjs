@@ -3,6 +3,7 @@
 //      node scripts/audit-companion-render.mjs
 // LOCAL_BASE_URL=http://127.0.0.1:8765, LIVE_BASE_URL=https://www.nipponferry.com
 import { chromium } from 'playwright';
+import { PNG } from 'pngjs';
 import { readdir, mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 const sourceDir='site/things-to-do', outputDir='audit-reports/visual-v10';
@@ -13,6 +14,16 @@ const files=await readdir(sourceDir,{withFileTypes:true});
 const slugs=files.filter(f=>f.isDirectory()&&/-cruise-(family|couple)-guide$/.test(f.name)).map(f=>f.name).sort();
 const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
 const results=[];
+function pixelStddev(pngBytes) {
+  const image=PNG.sync.read(pngBytes), pixels=image.data;let n=0, sum=0, ss=0;
+  for(let y=3;y<image.height-3;y+=5)for(let x=3;x<image.width-3;x+=5){
+    const p=(y*image.width+x)*4;
+    if(pixels[p+3]<100)continue;
+    const lum=.2126*pixels[p]+.7152*pixels[p+1]+.0722*pixels[p+2];
+    n++; sum+=lum; ss+=lum*lum;
+  }
+  return n>0 ? Number(Math.sqrt(Math.max(0,ss/n-(sum/n)**2)).toFixed(1)) : 0;
+}
 async function checkPage(base,slug,kind,viewport,label) {
   const url=base+'/things-to-do/'+slug+'/';
   const page=await browser.newPage({viewport,deviceScaleFactor:1,locale:'ko-KR',isMobile:label==='mobile',hasTouch:label==='mobile'});
@@ -25,7 +36,7 @@ async function checkPage(base,slug,kind,viewport,label) {
     httpStatus=response?.status()??null;
     if(httpStatus<200||httpStatus>=400) throw new Error('HTTP '+httpStatus);
     await page.locator('#ct-topic-dashboard .ct-grid > article.ct-card').first().waitFor({timeout:8000});
-    await page.locator('#ct-topic-dashboard .ct-card img').last().scrollIntoViewIfNeeded({timeout:5000});
+    for(const photo of await page.locator('#ct-topic-dashboard .ct-card img').all()) await photo.scrollIntoViewIfNeeded({timeout:5000});
     await page.evaluate(async()=>{
       const imgs=[...document.querySelectorAll('#ct-topic-dashboard .ct-grid > article.ct-card img')];
       await Promise.all(imgs.map(img=>new Promise(done=>{
@@ -37,6 +48,11 @@ async function checkPage(base,slug,kind,viewport,label) {
   }catch(e){loadError=String(e.message).slice(0,250)}
   let data=null;
   if(!loadError){
+    await page.evaluate(async()=>{
+      await Promise.all([...document.querySelectorAll('#ct-topic-dashboard .ct-card img')].map(img=>img.decode().catch(()=>null)));
+      await new Promise(requestAnimationFrame);
+      await new Promise(requestAnimationFrame);
+    });
     data=await page.evaluate(()=>{
       const cards=[...document.querySelectorAll('#ct-topic-dashboard .ct-grid > article.ct-card')];
       const blocks=['.ct-tag','h3','.ct-photo','.ct-distance','a:last-child'];
@@ -65,6 +81,13 @@ async function checkPage(base,slug,kind,viewport,label) {
       };
     });
     try {
+      const imgs=await page.locator('#ct-topic-dashboard .ct-card img').all();
+      for(let i=0;i<imgs.length;i++){
+        await imgs[i].scrollIntoViewIfNeeded();
+        const buffer=await imgs[i].screenshot({animations:'disabled',timeout:9000});
+        const variance=pixelStddev(buffer);
+        data.cards[i].screenshotPixelStddev=variance;
+      }
       const root=page.locator('#ct-topic-dashboard');
       await root.screenshot({path:path.join(outputDir,kind+'-'+label+'-'+slug+'.png'),animations:'disabled',timeout:14000});
     }catch(e){data.screenshotError=String(e.message).slice(0,180)}
@@ -76,6 +99,7 @@ async function checkPage(base,slug,kind,viewport,label) {
     if(data.horizontalOverflow)issues.push('HORIZONTAL_OVERFLOW');
     data.cards.forEach(c=>{
       if(!c.imageLoaded)issues.push('BROKEN_IMAGE_'+c.index);
+      if(c.screenshotPixelStddev!==undefined&&c.screenshotPixelStddev<7)issues.push('VISUALLY_BLANK_IMAGE_'+c.index);
       if(!c.captionPresent)issues.push('MISSING_CREDIT_'+c.index);
       if(!c.sourceLink)issues.push('MISSING_SOURCE_LINK_'+c.index);
       if(!c.licenseLink)issues.push('MISSING_LICENSE_LINK_'+c.index);
@@ -107,7 +131,7 @@ for(const env of [{name:'build-preview',base:local},{name:'live',base:live}]){
         cardImages:cards.map(x=>{const img=x.querySelector('img');return {url:img?.getAttribute('src'),loaded:!!img&&img.complete&&img.naturalWidth>0}})};
       });
       // Wait for image readiness rather than treating lazy-load at offscreen coordinates as broken.
-      await desktop.locator('#ct-topic-dashboard .ct-card img').last().scrollIntoViewIfNeeded({timeout:5000});
+      for(const photo of await desktop.locator('#ct-topic-dashboard .ct-card img').all()) await photo.scrollIntoViewIfNeeded({timeout:5000});
       await desktop.evaluate(async()=>{const imgs=[...document.querySelectorAll('#ct-topic-dashboard .ct-card img')];await Promise.all(imgs.map(img=>new Promise(resolve=>{if(img.complete)return resolve();img.addEventListener('load',resolve,{once:true});img.addEventListener('error',resolve,{once:true});setTimeout(resolve,6000)})))});
       row.data.cardImages=await desktop.evaluate(()=>[...document.querySelectorAll('#ct-topic-dashboard .ct-card img')].map(img=>({url:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0})));
       if(row.data.cardImages.length!==3||row.data.cardImages.some(x=>!x.loaded))row.issues.push('DESKTOP_BROKEN_IMAGES');
