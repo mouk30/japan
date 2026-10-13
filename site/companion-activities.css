@@ -4,7 +4,7 @@
 .ct-area .ab-card .ab-num{color:#096c87;font-size:11px;font-weight:900;line-height:1.6}
 .ct-area .ab-card h3{font-size:17px;margin:4px 0;color:#17485c;line-height:1.5}
 .ct-area .ab-card p{font-size:13px;line-height:1.7;color:#547380;margin:0}
-.ct-area .ab-card a{display:block;margin-top:auto;padding:9px 10px;background:#0c738b;border-radius:9px;text-align:center;color:#fff;font-size:12px;font-weight:850;text-decoration:none}
-.ct-area .ab-card a:hover{background:#074c64}
+.ct-area .ab-card > a{display:block;margin-top:auto;padding:9px 10px;background:#0c738b;border-radius:9px;text-align:center;color:#fff;font-size:12px;font-weight:850;text-decoration:none}
+.ct-area .ab-card > a:hover{background:#074c64}
 @media(max-width:750px){.ct-area .ab-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.ct-area .ab-grid{grid-template-columns:1fr}}
