@@ -1,0 +1,39 @@
+name: V10.4 Companion Card Standard QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/audit-companion-card-standard.mjs'
+      - '.github/workflows/v10-card-standard-qa.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build production output
+        run: npm run build
+      - name: Compare built and deployed 30-guide pages
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist >/tmp/v10-card-preview.log 2>&1 &
+          sleep 2
+          node scripts/audit-companion-card-standard.mjs
+        env:
+          LOCAL_BASE_URL: http://127.0.0.1:8765
+          LIVE_BASE_URL: https://www.nipponferry.com
+      - name: Attach audits and Hakodate screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v10-4-card-standard-audit
+          path: audit-reports/card-standard-v10/
+          retention-days: 30
