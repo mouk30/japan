@@ -1,6 +1,20 @@
 [
   {
     "port": "aomori",
+    "venue": "아사무시 수족관",
+    "status": "ok",
+    "webp": "site/images/venues/aomori-asamushi-aquarium.webp",
+    "size_bytes": 135062
+  },
+  {
+    "port": "beppu",
+    "venue": "우미타마고 수족관",
+    "status": "ok",
+    "webp": "site/images/venues/beppu-umitamago-aquarium.webp",
+    "size_bytes": 57558
+  },
+  {
+    "port": "aomori",
     "venue": "네부타 와랏세",
     "status": "ok",
     "webp": "site/images/venues/aomori-nebuta-warasse.webp",
