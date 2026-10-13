@@ -1,0 +1,47 @@
+[
+  {
+    "venue": "고베 애니멀킹덤",
+    "image": "site/images/venues/kobe-animal-kingdom.webp",
+    "page": "site/things-to-do/kobe-cruise-family-guide/index.html",
+    "status": "published",
+    "bytes": 352716,
+    "source": "https://commons.wikimedia.org/wiki/File:Animal%20Kingdom%20Kobe%20Port%20Island%20hdsr%20S5%2004.jpg",
+    "license": "CC BY 4.0"
+  },
+  {
+    "venue": "컵누들 뮤지엄",
+    "image": "site/images/venues/yokohama-cupnoodles-museum.webp",
+    "page": "site/things-to-do/yokohama-cruise-family-guide/index.html",
+    "status": "published",
+    "bytes": 238462,
+    "source": "https://commons.wikimedia.org/wiki/File:Cupnoodles%20museum%20yokohama.jpg",
+    "license": "CC0 1.0"
+  },
+  {
+    "venue": "글로버정원",
+    "image": "site/images/venues/nagasaki-glover-garden.webp",
+    "page": "site/things-to-do/nagasaki-cruise-family-guide/index.html",
+    "status": "published",
+    "bytes": 173708,
+    "source": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5384.jpg",
+    "license": "Public domain"
+  },
+  {
+    "venue": "마린월드 우미노나카미치",
+    "image": "site/images/venues/fukuoka-marine-world.webp",
+    "page": "site/things-to-do/hakata-cruise-family-guide/index.html",
+    "status": "published",
+    "bytes": 94534,
+    "source": "https://commons.wikimedia.org/wiki/File:Marine%20World%20Uminonakamichi.jpg",
+    "license": "CC BY-SA (원본 조건 확인)"
+  },
+  {
+    "venue": "가비라만 글라스보트",
+    "image": "site/images/venues/ishigaki-kabira-bay.webp",
+    "page": "site/things-to-do/ishigaki-cruise-family-guide/index.html",
+    "status": "published",
+    "bytes": 157042,
+    "source": "https://commons.wikimedia.org/wiki/File:Kabira%20Bay%20Ishigaki%20Island23n4500.jpg",
+    "license": "CC BY-SA 3.0"
+  }
+]
