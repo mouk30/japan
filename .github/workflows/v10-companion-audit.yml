@@ -1,0 +1,27 @@
+name: V10 Companion Link Audit
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/audit-companion-links.mjs'
+      - '.github/workflows/v10-companion-audit.yml'
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check 30 companion guides and external links
+        run: node scripts/audit-companion-links.mjs
+        continue-on-error: true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v10-companion-link-report
+          path: audit-reports/companion-links.*
+          retention-days: 30
