@@ -1,0 +1,37 @@
+name: V10 Batch3 Verified Venue Photos
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/v10-batch3-venue-photos.py
+      - .github/workflows/v10-batch3-venue-photos.yml
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow==11.3.0
+      - run: python scripts/v10-batch3-venue-photos.py
+      - name: Commit WebP and page links
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/venues site/things-to-do
+          if ! git diff --cached --quiet; then
+            git commit -m "V10 batch3 venue photo WebP publish"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v10-batch3-photo-report
+          path: site/images/venues/v10-batch3-manifest.json
+          retention-days: 30
