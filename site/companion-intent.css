@@ -1,0 +1,10 @@
+/* Companion intent-first V9 — decision clarity, accessible mobile layout */
+.nf-intent{margin:16px 0 20px;padding:clamp(19px,3vw,29px);background:#fff;border:1px solid #bcdbe5;border-radius:18px;box-shadow:0 7px 24px rgba(5,57,78,.07);color:#143c50}
+.nf-intent *{box-sizing:border-box}.nf-intent .nf-kicker{font-size:12px;font-weight:900;letter-spacing:.08em;color:#087d92;margin:0 0 9px}.nf-intent h2{font-size:clamp(22px,3.2vw,30px);color:#073f59;line-height:1.36;margin:0 0 13px;word-break:keep-all}
+.nf-intent .nf-answer{font-size:16px;line-height:1.85;color:#254d60;margin:0 0 15px}.nf-intent .nf-criteria{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.nf-intent .nf-criteria li{font-size:14px;line-height:1.7;border:1px solid #d6e6eb;background:#f2f9fa;border-radius:12px;padding:12px}
+.nf-intent .nf-criteria strong{display:block;color:#055c73;margin-bottom:3px}.nf-intent .nf-quicklinks{display:flex;flex-wrap:wrap;gap:9px;margin-top:16px}
+.nf-intent .nf-quicklinks a{display:inline-flex;align-items:center;padding:12px 15px;border-radius:10px;background:#076a84;color:#fff!important;text-decoration:none;font-size:14px;font-weight:800;min-height:44px}
+.nf-intent .nf-quicklinks a:nth-child(2){background:#e6f3f7;color:#07516a!important}
+.nf-intent .nf-disclaimer{font-size:12px;line-height:1.75;color:#597583;margin:12px 0 0}
+@media(max-width:650px){.nf-intent .nf-criteria{grid-template-columns:1fr}.nf-intent .nf-quicklinks a{flex:1 1 100%;justify-content:center}}
