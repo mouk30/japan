@@ -22,7 +22,7 @@ def sections(content):
 def figure_for_local(asset):
     for p in home.glob("*-cruise-family-guide/index.html"):
         s=p.read_text(encoding="utf8")
-        for fig in re.findall(r'<figure\\b[^>]*>[\\s\\S]*?</figure>',s):
+        for fig in re.findall(r'<figure\b[^>]*>[\s\S]*?</figure>',s):
             if '/images/venues/'+asset in fig:
                 return fig,p
     return None,None
@@ -36,10 +36,10 @@ def change_card(page,venue,fig,replace_remote=False):
     stop=s.find('</article>',i)
     if stop<0:return "card_incomplete"
     old=s[i:stop]
-    if re.search(r'<img\\b[^>]*src="/images/venues/',old):return "already_local"
-    if re.search(r'<img\\b',old) and not replace_remote:return "already_has_remote"
+    if re.search(r'<img\b[^>]*src="/images/venues/',old):return "already_local"
+    if re.search(r'<img\b',old) and not replace_remote:return "already_has_remote"
     if replace_remote:
-        old=re.sub(r'<figure\\b[^>]*>[\\s\\S]*?</figure>','',old)
+        old=re.sub(r'<figure\b[^>]*>[\s\S]*?</figure>','',old)
     newcard=old.replace(mark,mark+fig,1)
     page.write_text(s[:i]+newcard+s[stop:],encoding="utf8")
     return "linked"
@@ -83,22 +83,21 @@ def new_photo(item):
     res=change_card(home/(port+'-cruise-couple-guide')/'index.html',title,fig,replace_remote=True)
     return {"port":port,"title":title,"result":res,"local_src":"/images/venues/"+slug+".webp"}
 # image fetch parallel; writes to different page for some items so serial application after downloads
-with ThreadPoolExecutor(max_workers=5) as executor:
-    # Distinct target cards, but some writes go to same page: applying them must be sequential.
-    ready=list(executor.map(new_photo,new))
+# Apply new photos sequentially: multiple cards share HTML files.
+ready=[new_photo(item) for item in new]
 status.extend(ready)
 # Convert existing remote images only when verified Commons File link and source figcaption survives.
 for page in sorted(home.glob("*-cruise-couple-guide/index.html")):
     doc=page.read_text(encoding="utf8")
     st,en=sections(doc)
     chunk=doc[st:en]
-    cards=re.findall(r'<article class="ct-card">([\\s\\S]*?)</article>',chunk)
+    cards=re.findall(r'<article class="ct-card">([\s\S]*?)</article>',chunk)
     for card in cards:
         if '/images/venues/' in card or '<img ' not in card:continue
         title_match=re.search(r'<h3>([^<]+)</h3>',card)
         if not title_match:continue
         title=title_match.group(1)
-        figures=re.findall(r'<figure\\b[^>]*>[\\s\\S]*?</figure>',card)
+        figures=re.findall(r'<figure\b[^>]*>[\s\S]*?</figure>',card)
         if not figures:continue
         fig=figures[0]
         source=re.search(r'href="https://commons.wikimedia.org/wiki/File:([^"]+)"',fig)
@@ -113,7 +112,7 @@ for page in sorted(home.glob("*-cruise-couple-guide/index.html")):
                 im=ImageOps.exif_transpose(Image.open(io.BytesIO(data))).convert("RGB")
                 im.thumbnail((1100,850),Image.Resampling.LANCZOS);im.save(file,'WEBP',quality=81)
                 if file.stat().st_size<3200:raise ValueError("too small")
-            old_src=re.search(r'<img[^>]*\\bsrc="([^"]+)"',fig)
+            old_src=re.search(r'<img[^>]*\bsrc="([^"]+)"',fig)
             if not old_src:continue
             newfig=fig.replace(old_src.group(1),"/images/venues/"+slug+".webp",1).replace('</figcaption>',' · WebP 형식 변환</figcaption>',1)
             doc=doc.replace(fig,newfig,1);page.write_text(doc,encoding='utf8')
@@ -124,9 +123,9 @@ cards_out=[]
 for page in sorted(home.glob("*-cruise-couple-guide/index.html")):
     doc=page.read_text(encoding="utf8")
     st,en=sections(doc)
-    for card in re.findall(r'<article class="ct-card">([\\s\\S]*?)</article>',doc[st:en]):
+    for card in re.findall(r'<article class="ct-card">([\s\S]*?)</article>',doc[st:en]):
         title=(re.search(r'<h3>([^<]*)</h3>',card) or [None,"?"])[1]
-        image=(re.search(r'<img\\b[^>]*\\bsrc="([^"]*)"',card) or [None,None])[1]
+        image=(re.search(r'<img\b[^>]*\bsrc="([^"]*)"',card) or [None,None])[1]
         local=venue_dir/(image.split('/')[-1]) if image and image.startswith('/images/venues/') else None
         state=("local_verified" if local and local.is_file() and local.stat().st_size>3000 and "<figcaption>" in card
                else "remote_needs_review" if image else "missing")
