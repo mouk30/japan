@@ -8,6 +8,8 @@ import io,json,re
 root=Path("site")
 folder=root/"images"/"venues";folder.mkdir(parents=True,exist_ok=True)
 targets=[
+ ("aomori","아사무시 수족관","Asamushi_Aquarium_Aomori_Japan03n.jpg","aomori-asamushi-aquarium","663highland","CC BY-SA 3.0","https://creativecommons.org/licenses/by-sa/3.0/"),
+ ("beppu","우미타마고 수족관","Umitamago.jpg","beppu-umitamago-aquarium","OitaKiseichu","CC BY-SA 4.0","https://creativecommons.org/licenses/by-sa/4.0/"),
  ("aomori","네부타 와랏세","Nebuta_house_Warasse_Aomori_Japan10n.jpg","aomori-nebuta-warasse","663highland","CC BY-SA 3.0","https://creativecommons.org/licenses/by-sa/3.0/"),
  ("beppu","벳푸 지옥 순례","Umi_Jigoku_(Sea_Hell)_in_Beppu.jpg","beppu-umi-jigoku","Bpcon98","CC0 1.0","https://creativecommons.org/publicdomain/zero/1.0/"),
  ("hakodate","고료카쿠 타워","Goryokaku_Tower_Hakodate_Hokkaido_Japan01n.jpg","hakodate-goryokaku-tower","663highland","CC BY 2.5","https://creativecommons.org/licenses/by/2.5/")
