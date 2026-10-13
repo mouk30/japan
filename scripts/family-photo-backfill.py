@@ -26,6 +26,10 @@ rows += [
  ["sasebo","구주쿠시마 수족관 우미키라라","Saikai Pearlsea Umikirara.jpg","sasebo-umikirara-aquarium","Atsasebo","BY-SA-3.0"],
  ["shimizu","시미즈 수산시장·스시 문화","KASHI NO ICHI in shimizu ward.jpg","shimizu-kashi-no-ichi-market","Halowand","BY-SA-4.0"]
 ]
+rows += [
+ ["hakata","후쿠오카 호빵맨 어린이 박물관","Hakata Riverain the entrance 3-1 Shimo-kawabatamachi Hakata-ku Fukuoka 20231120.jpg","hakata-anpanman-host-building","Hirho","BY-SA-4.0"],
+ ["shimizu","치비마루코짱 랜드","231027 S-Pulse Dream Plaza Shizuoka Japan02s3.jpg","shimizu-chibi-maruko-host-building","663highland","BY-SA-4.0"]
+]
 site=Path("site"); dst=site/"images"/"venues"; dst.mkdir(parents=True,exist_ok=True)
 reports=Path("audit-reports"); reports.mkdir(exist_ok=True)
 licenses={"CC0-1.0":"https://creativecommons.org/publicdomain/zero/1.0/","BY-2.0":"https://creativecommons.org/licenses/by/2.0/","BY-2.5":"https://creativecommons.org/licenses/by/2.5/","BY-2.1-jp":"https://creativecommons.org/licenses/by/2.1/jp/","BY-3.0":"https://creativecommons.org/licenses/by/3.0/","BY-SA-3.0":"https://creativecommons.org/licenses/by-sa/3.0/","BY-SA-2.0":"https://creativecommons.org/licenses/by-sa/2.0/","BY-SA-4.0":"https://creativecommons.org/licenses/by-sa/4.0/"}
@@ -75,8 +79,11 @@ for item in output:
     url="/images/venues/"+item["slug"]+".webp"
     source=html.escape(item["source"],quote=True)
     artist=html.escape(item["artist"])
-    credit=('<figure class="ct-photo nf-reviewed-photo"><img src="'+url+'" alt="'+html.escape(item["venue"])+' 현장 실사 사진" loading="lazy" decoding="async" width="900" height="600">'
-      '<figcaption>사진: '+artist+' · '+html.escape("CC0 1.0" if item["license"]=="CC0-1.0" else "CC "+item["license"])+
+    building_note = ("사진은 박물관이 입점한 하카타 리바레인 건물 입구이며 실내 체험 사진은 아닙니다. " if item["slug"]=="hakata-anpanman-host-building"
+      else "사진은 치비마루코짱 랜드가 입점한 S-Pulse 드림플라자 건물 외관이며 실내 전시 사진은 아닙니다. " if item["slug"]=="shimizu-chibi-maruko-host-building" else "")
+    alt_text = (item["venue"]+" 입점 건물 외관 실사 (실내 사진 아님)" if building_note else item["venue"]+" 실제 장소 현장 사진")
+    credit=('<figure class="ct-photo nf-reviewed-photo"><img src="'+url+'" alt="'+html.escape(alt_text)+'" loading="lazy" decoding="async" width="900" height="600">'
+      '<figcaption>'+building_note+'사진: '+artist+' · '+html.escape("CC0 1.0" if item["license"]=="CC0-1.0" else "CC "+item["license"])+
       ' · <a href="'+source+'" target="_blank" rel="noopener noreferrer">원본 사진</a>'+
       ' · <a href="'+item["license_url"]+'" target="_blank" rel="noopener noreferrer">이용 허락</a>'+
       ' · WebP 크기·형식 변환</figcaption></figure>')
