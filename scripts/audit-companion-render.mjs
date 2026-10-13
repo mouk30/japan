@@ -25,6 +25,7 @@ async function checkPage(base,slug,kind,viewport,label) {
     httpStatus=response?.status()??null;
     if(httpStatus<200||httpStatus>=400) throw new Error('HTTP '+httpStatus);
     await page.locator('#ct-topic-dashboard .ct-grid > article.ct-card').first().waitFor({timeout:8000});
+    await page.locator('#ct-topic-dashboard .ct-card img').last().scrollIntoViewIfNeeded({timeout:5000});
     await page.evaluate(async()=>{
       const imgs=[...document.querySelectorAll('#ct-topic-dashboard .ct-grid > article.ct-card img')];
       await Promise.all(imgs.map(img=>new Promise(done=>{
@@ -106,6 +107,7 @@ for(const env of [{name:'build-preview',base:local},{name:'live',base:live}]){
         cardImages:cards.map(x=>{const img=x.querySelector('img');return {url:img?.getAttribute('src'),loaded:!!img&&img.complete&&img.naturalWidth>0}})};
       });
       // Wait for image readiness rather than treating lazy-load at offscreen coordinates as broken.
+      await desktop.locator('#ct-topic-dashboard .ct-card img').last().scrollIntoViewIfNeeded({timeout:5000});
       await desktop.evaluate(async()=>{const imgs=[...document.querySelectorAll('#ct-topic-dashboard .ct-card img')];await Promise.all(imgs.map(img=>new Promise(resolve=>{if(img.complete)return resolve();img.addEventListener('load',resolve,{once:true});img.addEventListener('error',resolve,{once:true});setTimeout(resolve,6000)})))});
       row.data.cardImages=await desktop.evaluate(()=>[...document.querySelectorAll('#ct-topic-dashboard .ct-card img')].map(img=>({url:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0})));
       if(row.data.cardImages.length!==3||row.data.cardImages.some(x=>!x.loaded))row.issues.push('DESKTOP_BROKEN_IMAGES');
