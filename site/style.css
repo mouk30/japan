@@ -83,3 +83,9 @@
   .quick-grid a[href="/things-to-do/cruise-ports/"]{border-radius:8px}
   .mobile-menu a{line-height:1.45;word-break:keep-all}
 }
+
+/* V4 travel companion category, beside the cruise-port category */
+.desktop-nav .nav-companion{border:1px solid rgba(255,255,255,.42);background:rgba(255,255,255,.10);color:#fff;white-space:nowrap}
+.desktop-nav .nav-companion:hover,.desktop-nav .nav-companion[aria-current="page"]{background:#fff;color:#063d7c}
+.mobile-menu a[href="/things-to-do/travel-companions/"]{background:#ecf7fa;border:1px solid #b8dce7;color:#075579}
+.mobile-menu a[href="/things-to-do/travel-companions/"][aria-current="page"]{background:#d0eef5;border-color:#68b5c9}
