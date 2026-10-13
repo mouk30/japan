@@ -1,0 +1,481 @@
+{
+  "total_pages": 15,
+  "total_cards": 45,
+  "counts": {
+    "local_verified": 33,
+    "remote_needs_check": 6,
+    "missing": 6
+  },
+  "backfill": [
+    {
+      "port": "hakata",
+      "venue": "후쿠오카시 과학관",
+      "source": "https://commons.wikimedia.org/wiki/File:Fukuoka_City_Science_Museum_20180801.jpg",
+      "artist": "そらみみ",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "hakata-science-museum",
+      "bytes": 182548,
+      "state": "published"
+    },
+    {
+      "port": "hakodate",
+      "venue": "가네모리 붉은 벽돌 창고",
+      "source": "https://commons.wikimedia.org/wiki/File:Hakodate_Kanemori_Red_Brick_Warehouse_20231223a.jpg",
+      "artist": "掬茶",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "hakodate-kanemori-warehouses",
+      "bytes": 139932,
+      "state": "published"
+    },
+    {
+      "port": "hakodate",
+      "venue": "하코다테산 로프웨이",
+      "source": "https://commons.wikimedia.org/wiki/File:Hakodate_Ropeway_01.jpg",
+      "artist": "yamauchi",
+      "license": "BY-2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "slug": "hakodate-mount-ropeway",
+      "bytes": 40682,
+      "state": "published"
+    },
+    {
+      "port": "hirara-miyakojima",
+      "venue": "미야코지마 해중공원",
+      "source": "https://commons.wikimedia.org/wiki/File:Miyako_miyakojima_kaichukoen.jpg",
+      "artist": "Paipateroma",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "miyakojima-underwater-park",
+      "bytes": 110670,
+      "state": "published"
+    },
+    {
+      "port": "ishigaki",
+      "venue": "이시가키 야이마무라",
+      "source": "https://commons.wikimedia.org/wiki/File:Ishigaki_yaimamura_makishi_house.jpg",
+      "artist": "Paipateroma",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "ishigaki-yaima-village",
+      "bytes": 227912,
+      "state": "published"
+    },
+    {
+      "port": "ishigaki",
+      "venue": "이시가키 시가지 문화 산책",
+      "source": "https://commons.wikimedia.org/wiki/File:Ishigaki_eugrena_mall.jpg",
+      "artist": "Paipateroma",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "ishigaki-euglena-mall",
+      "bytes": 232124,
+      "state": "published"
+    },
+    {
+      "port": "kagoshima",
+      "venue": "이오월드 가고시마 수족관",
+      "source": "https://commons.wikimedia.org/wiki/File:2025_Kagoshima_Aquarium_and_Sakurajima.jpg",
+      "artist": "Taiwankengo",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "kagoshima-ioworld-aquarium",
+      "bytes": 142736,
+      "state": "published"
+    },
+    {
+      "port": "kagoshima",
+      "venue": "센간엔 사쓰마 문화 체험",
+      "source": "https://commons.wikimedia.org/wiki/File:Sengan-en_1.jpg",
+      "artist": "Christophe95",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "kagoshima-senganen",
+      "bytes": 265710,
+      "state": "published"
+    },
+    {
+      "port": "kagoshima",
+      "venue": "사쿠라지마 페리",
+      "source": "https://commons.wikimedia.org/wiki/File:Sakurajima_ferry.jpg",
+      "artist": "NMaia",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "kagoshima-sakurajima-ferry",
+      "bytes": 241210,
+      "state": "published"
+    },
+    {
+      "port": "kanazawa",
+      "venue": "화과자 만들기",
+      "source": "https://commons.wikimedia.org/wiki/File:Wagashi_001.jpg",
+      "artist": "Toukou Sousui 淙穂鶫箜",
+      "license": "BY-2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "slug": "kanazawa-wagashi-experience",
+      "bytes": 40244,
+      "state": "published"
+    },
+    {
+      "port": "kanazawa",
+      "venue": "가나자와 21세기 미술관",
+      "source": "https://commons.wikimedia.org/wiki/File:21st_Century_Museum_of_Contemporary_Art,_Kanazawa003.jpg",
+      "artist": "金沢市",
+      "license": "BY-2.1-jp",
+      "license_url": "https://creativecommons.org/licenses/by/2.1/jp/",
+      "slug": "kanazawa-21st-museum",
+      "bytes": 193290,
+      "state": "published"
+    },
+    {
+      "port": "kobe",
+      "venue": "고베 호빵맨 어린이 박물관",
+      "source": "https://commons.wikimedia.org/wiki/File:130720_Kobe_Anpanman_Children%27s_Museum_%26_Mall_Kobe_Japan02s3.jpg",
+      "artist": "663highland",
+      "license": "BY-2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/",
+      "slug": "kobe-anpanman-museum",
+      "bytes": 138308,
+      "state": "published"
+    },
+    {
+      "port": "nagasaki",
+      "venue": "나가사키 펭귄 수족관",
+      "source": "https://commons.wikimedia.org/wiki/File:Nagasaki_penguin_aquarium,_Japan_(4577433688).jpg",
+      "artist": "pelican",
+      "license": "BY-SA-2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "slug": "nagasaki-penguin-aquarium",
+      "bytes": 246518,
+      "state": "published"
+    },
+    {
+      "port": "nagasaki",
+      "venue": "평화공원·원폭 자료",
+      "source": "https://commons.wikimedia.org/wiki/File:20190202_Nagasaki_Peace_Park_Statue_of_Peace-2.jpg",
+      "artist": "Balon Greyjoy",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "slug": "nagasaki-peace-park",
+      "bytes": 137852,
+      "state": "published"
+    },
+    {
+      "port": "naha",
+      "venue": "오키나와현립 박물관·미술관",
+      "source": "https://commons.wikimedia.org/wiki/File:Okinawa_Prefectural_Museum_%26_Art_Museum08ss4272.jpg",
+      "artist": "663highland",
+      "license": "BY-2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/",
+      "slug": "naha-prefectural-museum",
+      "bytes": 172798,
+      "state": "published"
+    },
+    {
+      "port": "sasebo",
+      "venue": "펄퀸 유람선",
+      "source": "https://commons.wikimedia.org/wiki/File:Excursion_Boat_%22Pearl_Queen%22_of_Kujukushima_Pearl_Sea_Resort.JPG",
+      "artist": "そらみみ",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "sasebo-pearl-queen",
+      "bytes": 118526,
+      "state": "published"
+    },
+    {
+      "port": "shimizu",
+      "venue": "드림플라자 수변",
+      "source": "https://commons.wikimedia.org/wiki/File:231027_S-Pulse_Dream_Plaza_Shizuoka_Japan01s3.jpg",
+      "artist": "663highland",
+      "license": "BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "slug": "shimizu-dream-plaza",
+      "bytes": 154166,
+      "state": "published"
+    },
+    {
+      "port": "yokohama",
+      "venue": "핫케이지마 시파라다이스",
+      "source": "https://commons.wikimedia.org/wiki/File:%E5%85%AB%E6%99%AF%E5%B3%B6%E3%82%B7%E3%83%BC%E3%83%91%E3%83%A9%E3%83%80%E3%82%A4%E3%82%B9_%E3%82%A2%E3%82%AF%E3%82%A2%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0_-_panoramio.jpg",
+      "artist": "Otota DANA",
+      "license": "BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "slug": "yokohama-hakkeijima-seaparadise",
+      "bytes": 97440,
+      "state": "published"
+    }
+  ],
+  "cards": [
+    {
+      "page": "aomori-cruise-family-guide",
+      "venue": "네부타 와랏세",
+      "image_src": "/images/venues/aomori-nebuta-warasse.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "aomori-cruise-family-guide",
+      "venue": "아사무시 수족관",
+      "image_src": "/images/venues/aomori-asamushi-aquarium.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "aomori-cruise-family-guide",
+      "venue": "A-FACTORY·ASPAM",
+      "image_src": "/images/venues/aomori-a-factory.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "beppu-cruise-family-guide",
+      "venue": "우미타마고 수족관",
+      "image_src": "/images/venues/beppu-umitamago-aquarium.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "beppu-cruise-family-guide",
+      "venue": "벳푸 지옥 순례",
+      "image_src": "/images/venues/beppu-umi-jigoku.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "beppu-cruise-family-guide",
+      "venue": "기지마 고원 파크",
+      "image_src": "/images/venues/beppu-kijima-jupiter.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hakata-cruise-family-guide",
+      "venue": "후쿠오카 호빵맨 어린이 박물관",
+      "image_src": null,
+      "status": "missing"
+    },
+    {
+      "page": "hakata-cruise-family-guide",
+      "venue": "후쿠오카시 과학관",
+      "image_src": "/images/venues/hakata-science-museum.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hakata-cruise-family-guide",
+      "venue": "마린월드 우미노나카미치",
+      "image_src": "/images/venues/fukuoka-marine-world.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hakodate-cruise-family-guide",
+      "venue": "고료카쿠 타워",
+      "image_src": "/images/venues/hakodate-goryokaku-tower.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hakodate-cruise-family-guide",
+      "venue": "가네모리 붉은 벽돌 창고",
+      "image_src": "/images/venues/hakodate-kanemori-warehouses.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hakodate-cruise-family-guide",
+      "venue": "하코다테산 로프웨이",
+      "image_src": "/images/venues/hakodate-mount-ropeway.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hirara-miyakojima-cruise-family-guide",
+      "venue": "미야코지마 해중공원",
+      "image_src": "/images/venues/miyakojima-underwater-park.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hirara-miyakojima-cruise-family-guide",
+      "venue": "우에노 독일문화촌",
+      "image_src": null,
+      "status": "missing"
+    },
+    {
+      "page": "hirara-miyakojima-cruise-family-guide",
+      "venue": "시기라 리조트 수영장·온천",
+      "image_src": "/images/venues/miyakojima-shigira-allamanda.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "ishigaki-cruise-family-guide",
+      "venue": "가비라만 글라스보트",
+      "image_src": "/images/venues/ishigaki-kabira-bay.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "ishigaki-cruise-family-guide",
+      "venue": "이시가키 야이마무라",
+      "image_src": "/images/venues/ishigaki-yaima-village.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "ishigaki-cruise-family-guide",
+      "venue": "이시가키 시가지 문화 산책",
+      "image_src": "/images/venues/ishigaki-euglena-mall.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kagoshima-cruise-family-guide",
+      "venue": "이오월드 가고시마 수족관",
+      "image_src": "/images/venues/kagoshima-ioworld-aquarium.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kagoshima-cruise-family-guide",
+      "venue": "센간엔 사쓰마 문화 체험",
+      "image_src": "/images/venues/kagoshima-senganen.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kagoshima-cruise-family-guide",
+      "venue": "사쿠라지마 페리",
+      "image_src": "/images/venues/kagoshima-sakurajima-ferry.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kanazawa-cruise-family-guide",
+      "venue": "이시카와 관광물산관 금박 체험",
+      "image_src": null,
+      "status": "missing"
+    },
+    {
+      "page": "kanazawa-cruise-family-guide",
+      "venue": "화과자 만들기",
+      "image_src": "/images/venues/kanazawa-wagashi-experience.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kanazawa-cruise-family-guide",
+      "venue": "가나자와 21세기 미술관",
+      "image_src": "/images/venues/kanazawa-21st-museum.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kobe-cruise-family-guide",
+      "venue": "고베 호빵맨 어린이 박물관",
+      "image_src": "/images/venues/kobe-anpanman-museum.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kobe-cruise-family-guide",
+      "venue": "고베 애니멀킹덤",
+      "image_src": "/images/venues/kobe-animal-kingdom.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kobe-cruise-family-guide",
+      "venue": "누노비키 허브원 로프웨이",
+      "image_src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Cable_car_in_Kobe%2C_Japan%3B_May_2017.jpg/960px-Cable_car_in_Kobe%2C_Japan%3B_May_2017.jpg",
+      "status": "remote_needs_check"
+    },
+    {
+      "page": "nagasaki-cruise-family-guide",
+      "venue": "나가사키 펭귄 수족관",
+      "image_src": "/images/venues/nagasaki-penguin-aquarium.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "nagasaki-cruise-family-guide",
+      "venue": "글로버정원",
+      "image_src": "/images/venues/nagasaki-glover-garden.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "nagasaki-cruise-family-guide",
+      "venue": "평화공원·원폭 자료",
+      "image_src": "/images/venues/nagasaki-peace-park.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "naha-cruise-family-guide",
+      "venue": "DMM 가리유시 수족관",
+      "image_src": "/images/venues/naha-dmm-kariyushi-aquarium.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "naha-cruise-family-guide",
+      "venue": "오키나와현립 박물관·미술관",
+      "image_src": "/images/venues/naha-prefectural-museum.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "naha-cruise-family-guide",
+      "venue": "슈리성 공원",
+      "image_src": "/images/venues/naha-shureimon.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "osaka-cruise-family-guide",
+      "venue": "가이유칸",
+      "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaiy%C5%ABkan.jpg?width=640",
+      "status": "remote_needs_check"
+    },
+    {
+      "page": "osaka-cruise-family-guide",
+      "venue": "레고랜드 디스커버리센터 오사카",
+      "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/LEGOLAND_Discovery_Center_Osaka.jpg?width=640",
+      "status": "remote_needs_check"
+    },
+    {
+      "page": "osaka-cruise-family-guide",
+      "venue": "유니버설 스튜디오 재팬",
+      "image_src": "https://commons.wikimedia.org/wiki/Special:FilePath/USJ_Entrance_2026.jpg?width=640",
+      "status": "remote_needs_check"
+    },
+    {
+      "page": "sasebo-cruise-family-guide",
+      "venue": "구주쿠시마 수족관 우미키라라",
+      "image_src": null,
+      "status": "missing"
+    },
+    {
+      "page": "sasebo-cruise-family-guide",
+      "venue": "펄퀸 유람선",
+      "image_src": "/images/venues/sasebo-pearl-queen.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "sasebo-cruise-family-guide",
+      "venue": "하우스텐보스",
+      "image_src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/200320_Huis_Ten_Bosch_Sasebo_Nagasaki_pref_Japan01s3.jpg/960px-200320_Huis_Ten_Bosch_Sasebo_Nagasaki_pref_Japan01s3.jpg",
+      "status": "remote_needs_check"
+    },
+    {
+      "page": "shimizu-cruise-family-guide",
+      "venue": "치비마루코짱 랜드",
+      "image_src": null,
+      "status": "missing"
+    },
+    {
+      "page": "shimizu-cruise-family-guide",
+      "venue": "드림플라자 수변",
+      "image_src": "/images/venues/shimizu-dream-plaza.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "shimizu-cruise-family-guide",
+      "venue": "시미즈 스시 문화",
+      "image_src": null,
+      "status": "missing"
+    },
+    {
+      "page": "yokohama-cruise-family-guide",
+      "venue": "컵누들 뮤지엄",
+      "image_src": "/images/venues/yokohama-cupnoodles-museum.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "yokohama-cruise-family-guide",
+      "venue": "요코하마 코스모월드",
+      "image_src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Yokohama_Cosmo_World_and_Clock_Ferris_Wheel_%284611157059%29.jpg/960px-Yokohama_Cosmo_World_and_Clock_Ferris_Wheel_%284611157059%29.jpg",
+      "status": "remote_needs_check"
+    },
+    {
+      "page": "yokohama-cruise-family-guide",
+      "venue": "핫케이지마 시파라다이스",
+      "image_src": "/images/venues/yokohama-hakkeijima-seaparadise.webp",
+      "status": "local_verified"
+    }
+  ]
+}
