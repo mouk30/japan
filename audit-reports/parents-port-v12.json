@@ -1,0 +1,154 @@
+{
+  "summary": {
+    "pages": 15,
+    "added": 15,
+    "route_segments": 29,
+    "precise_segments": 25,
+    "date": "2026-10-14"
+  },
+  "pages": [
+    {
+      "slug": "osaka",
+      "status": "added",
+      "route_segments": 2,
+      "precise_segments": 2,
+      "source_urls": [
+        "https://osaka-info.jp/ko/spot/osaka-aquarium-kaiyukan/",
+        "https://osaka-info.jp/experience/en/osaka/spot/613"
+      ]
+    },
+    {
+      "slug": "yokohama",
+      "status": "added",
+      "route_segments": 2,
+      "precise_segments": 2,
+      "source_urls": [
+        "https://yokohama.cruise-friendly.jp/route"
+      ]
+    },
+    {
+      "slug": "kobe",
+      "status": "added",
+      "route_segments": 2,
+      "precise_segments": 1,
+      "source_urls": [
+        "https://www.kobe-meriken.or.jp/en/terminal/kobe.html",
+        "https://www.kobe-meriken.or.jp/en/terminal/naka.html"
+      ]
+    },
+    {
+      "slug": "hakata",
+      "status": "added",
+      "route_segments": 2,
+      "precise_segments": 2,
+      "source_urls": [
+        "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+      ]
+    },
+    {
+      "slug": "nagasaki",
+      "status": "added",
+      "route_segments": 2,
+      "precise_segments": 2,
+      "source_urls": [
+        "https://en.at-nagasaki.jp/mice/facilities/65292"
+      ]
+    },
+    {
+      "slug": "shimizu",
+      "status": "added",
+      "route_segments": 2,
+      "precise_segments": 2,
+      "source_urls": [
+        "https://www.shimizu-port.jp/kanko_shop.html",
+        "https://www.hinode-dream.jp/access"
+      ]
+    },
+    {
+      "slug": "ishigaki",
+      "status": "added",
+      "route_segments": 3,
+      "precise_segments": 3,
+      "source_urls": [
+        "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
+        "https://yaeyama.or.jp/information/%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E8%88%B9%E3%80%80%E4%B9%97%E5%AE%A2%E3%81%AE%E7%9A%86%E6%A7%98%E3%81%B8/"
+      ]
+    },
+    {
+      "slug": "sasebo",
+      "status": "added",
+      "route_segments": 2,
+      "precise_segments": 2,
+      "source_urls": [
+        "https://www.city.sasebo.lg.jp/kouwan/cruise/documents/02_english_map_uragasira.pdf"
+      ]
+    },
+    {
+      "slug": "kanazawa",
+      "status": "added",
+      "route_segments": 2,
+      "precise_segments": 2,
+      "source_urls": [
+        "https://visitkanazawa.jp/kr/spot/detail_50544.html",
+        "https://visitkanazawa.jp/en/getting-around-kanazawa"
+      ]
+    },
+    {
+      "slug": "kagoshima",
+      "status": "added",
+      "route_segments": 2,
+      "precise_segments": 2,
+      "source_urls": [
+        "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html"
+      ]
+    },
+    {
+      "slug": "aomori",
+      "status": "added",
+      "route_segments": 2,
+      "precise_segments": 2,
+      "source_urls": [
+        "https://aomori-tourism.com/en/spot/detail_3698.html",
+        "https://aomori-tourism.com/feature/detail_230.html"
+      ]
+    },
+    {
+      "slug": "hakodate",
+      "status": "added",
+      "route_segments": 2,
+      "precise_segments": 2,
+      "source_urls": [
+        "https://www.hakodate.travel/en/sightseeing-spots/view/view-of-hakodate-port/",
+        "https://www.hakodate.travel/en/sightseeing-spots/museum/seikan-ferry-memorial-ship-mashu-maru/"
+      ]
+    },
+    {
+      "slug": "beppu",
+      "status": "added",
+      "route_segments": 1,
+      "precise_segments": 1,
+      "source_urls": [
+        "https://www.city.beppu.oita.jp/sisetu/siyakusyo_syuttyousyo/04siyakusyo_04-01beppu.html"
+      ]
+    },
+    {
+      "slug": "naha",
+      "status": "added",
+      "route_segments": 2,
+      "precise_segments": 0,
+      "source_urls": [
+        "https://www.pref.okinawa.jp/machizukuri/kowankuko/1013146/1022459/1013179.html",
+        "https://www.okinawastory.jp/access/11123100/"
+      ]
+    },
+    {
+      "slug": "hirara-miyakojima",
+      "status": "added",
+      "route_segments": 1,
+      "precise_segments": 0,
+      "source_urls": [
+        "https://www.pref.okinawa.jp/machizukuri/kowankuko/1013146/1022459/1013179.html"
+      ]
+    }
+  ]
+}
