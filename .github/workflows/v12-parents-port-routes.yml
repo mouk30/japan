@@ -1,0 +1,40 @@
+name: V12 Parents Verified Berth Transport
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/parents-port-v12-data.json'
+      - 'scripts/parents-port-v12-apply.py'
+      - '.github/workflows/v12-parents-port-routes.yml'
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply source-qualified berth and walking information to 15 parents guides
+        run: python scripts/parents-port-v12-apply.py
+      - name: Commit page changes and route evidence inventory
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/things-to-do/ audit-reports/parents-port-v12.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V12 verified port-to-attraction route facts in 15 parents guides"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Upload evidence index
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v12-parents-15-official-route-report
+          path: audit-reports/parents-port-v12.json
+          retention-days: 30
