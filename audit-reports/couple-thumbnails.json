@@ -1,0 +1,564 @@
+{
+  "total_pages": 15,
+  "total_cards": 45,
+  "counts": {
+    "local_verified": 43,
+    "remote_needs_review": 0,
+    "missing": 2
+  },
+  "changes": [
+    {
+      "port": "aomori",
+      "title": "네부타 와랏세",
+      "result": "linked",
+      "local_src": "/images/venues/aomori-nebuta-warasse.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "aomori",
+      "title": "A-FACTORY",
+      "result": "linked",
+      "local_src": "/images/venues/aomori-a-factory.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "aomori",
+      "title": "아오모리 베이 에어리어",
+      "result": "linked",
+      "local_src": "/images/venues/aomori-a-factory.webp",
+      "same_area_note": "베이 에어리어의 A-FACTORY 건물 사진이며 해안 전체 전경은 아닙니다."
+    },
+    {
+      "port": "beppu",
+      "title": "간나와 온천마을",
+      "result": "linked",
+      "local_src": "/images/venues/beppu-umi-jigoku.webp",
+      "same_area_note": "간나와 지역의 우미지옥 사진으로 마을 전체 풍경은 아닙니다."
+    },
+    {
+      "port": "hakata",
+      "title": "하카타 리버레인 일대",
+      "result": "linked",
+      "local_src": "/images/venues/hakata-anpanman-host-building.webp",
+      "same_area_note": "하카타 리바레인 건물 출입구로 주변 일대 전경은 아닙니다."
+    },
+    {
+      "port": "hakodate",
+      "title": "가네모리 붉은 벽돌 창고",
+      "result": "linked",
+      "local_src": "/images/venues/hakodate-kanemori-warehouses.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "hakodate",
+      "title": "하코다테산 로프웨이",
+      "result": "linked",
+      "local_src": "/images/venues/hakodate-mount-ropeway.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "hirara-miyakojima",
+      "title": "시기라 스파·온천",
+      "result": "linked",
+      "local_src": "/images/venues/miyakojima-shigira-allamanda.webp",
+      "same_area_note": "시기라 리조트의 건물 외관으로 스파·온천 내부 사진이 아닙니다."
+    },
+    {
+      "port": "ishigaki",
+      "title": "가비라만",
+      "result": "linked",
+      "local_src": "/images/venues/ishigaki-kabira-bay.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "ishigaki",
+      "title": "가비라만 글라스보트",
+      "result": "linked",
+      "local_src": "/images/venues/ishigaki-kabira-bay.webp",
+      "same_area_note": "가비라만 해안·보트 풍경으로 실제 탑승 장면 사진은 아닙니다."
+    },
+    {
+      "port": "ishigaki",
+      "title": "야이마무라",
+      "result": "linked",
+      "local_src": "/images/venues/ishigaki-yaima-village.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "kagoshima",
+      "title": "센간엔 정원",
+      "result": "linked",
+      "local_src": "/images/venues/kagoshima-senganen.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "kanazawa",
+      "title": "금박 장식 체험",
+      "result": "linked",
+      "local_src": "/images/venues/kanazawa-ishikawa-tourism-hall.webp",
+      "same_area_note": "금박 체험 장소가 있는 관광물산관 외관으로 체험 중인 모습은 아닙니다."
+    },
+    {
+      "port": "kobe",
+      "title": "누노비키 허브정원",
+      "result": "linked",
+      "local_src": "/images/venues/kobe-nunobiki-herb-ropeway.webp",
+      "same_area_note": "누노비키 허브원으로 가는 로프웨이 사진으로 정원 내부 사진이 아닙니다."
+    },
+    {
+      "port": "nagasaki",
+      "title": "글로버정원",
+      "result": "linked",
+      "local_src": "/images/venues/nagasaki-glover-garden.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "nagasaki",
+      "title": "평화공원",
+      "result": "linked",
+      "local_src": "/images/venues/nagasaki-peace-park.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "naha",
+      "title": "슈리성 공원",
+      "result": "linked",
+      "local_src": "/images/venues/naha-shureimon.webp",
+      "same_area_note": "슈리성 공원 수례문 사진으로 복원 중인 정전 내부 사진은 아닙니다."
+    },
+    {
+      "port": "naha",
+      "title": "DMM 가리유시 수족관",
+      "result": "linked",
+      "local_src": "/images/venues/naha-dmm-kariyushi-aquarium.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "osaka",
+      "title": "가이유칸",
+      "result": "linked",
+      "local_src": "/images/venues/osaka-kaiyukan-aquarium.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "sasebo",
+      "title": "구주쿠시마 펄퀸",
+      "result": "linked",
+      "local_src": "/images/venues/sasebo-pearl-queen.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "sasebo",
+      "title": "하우스텐보스",
+      "result": "linked",
+      "local_src": "/images/venues/sasebo-huis-ten-bosch.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "shimizu",
+      "title": "드림플라자 수변",
+      "result": "linked",
+      "local_src": "/images/venues/shimizu-dream-plaza.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "yokohama",
+      "title": "코스모월드 대관람차",
+      "result": "linked",
+      "local_src": "/images/venues/yokohama-cosmo-world.webp",
+      "same_area_note": ""
+    },
+    {
+      "port": "beppu",
+      "title": "당일 이용 온천",
+      "result": "linked",
+      "local_src": "/images/venues/beppu-takegawara-onsen.webp"
+    },
+    {
+      "port": "hakata",
+      "title": "오호리공원",
+      "result": "linked",
+      "local_src": "/images/venues/fukuoka-ohori-park.webp"
+    },
+    {
+      "port": "hakata",
+      "title": "후쿠오카 타워",
+      "result": "linked",
+      "local_src": "/images/venues/fukuoka-tower.webp"
+    },
+    {
+      "port": "hakodate",
+      "title": "모토마치 언덕",
+      "result": "linked",
+      "local_src": "/images/venues/hakodate-motomachi-slope.webp"
+    },
+    {
+      "port": "hirara-miyakojima",
+      "title": "요나하 마에하마 해변",
+      "result": "linked",
+      "local_src": "/images/venues/miyakojima-yonaha-maehama.webp"
+    },
+    {
+      "port": "kagoshima",
+      "title": "시로야마 전망",
+      "result": "linked",
+      "local_src": "/images/venues/kagoshima-shiroyama-view.webp"
+    },
+    {
+      "port": "kagoshima",
+      "title": "덴몬칸",
+      "result": "linked",
+      "local_src": "/images/venues/kagoshima-tenmonkan.webp"
+    },
+    {
+      "port": "kanazawa",
+      "title": "히가시차야가이",
+      "result": "linked",
+      "local_src": "/images/venues/kanazawa-higashi-chaya.webp"
+    },
+    {
+      "port": "kobe",
+      "title": "메리켄파크·하버랜드",
+      "result": "linked",
+      "local_src": "/images/venues/kobe-meriken-park-night.webp"
+    },
+    {
+      "port": "kobe",
+      "title": "기타노 이진칸",
+      "result": "linked",
+      "local_src": "/images/venues/kobe-kitano-weathercock.webp"
+    },
+    {
+      "port": "nagasaki",
+      "title": "이나사야마 로프웨이",
+      "result": "linked",
+      "local_src": "/images/venues/nagasaki-inasa-ropeway.webp"
+    },
+    {
+      "port": "naha",
+      "title": "국제거리",
+      "result": "linked",
+      "local_src": "/images/venues/naha-kokusai-street.webp"
+    },
+    {
+      "port": "osaka",
+      "title": "덴포잔 대관람차",
+      "result": "linked",
+      "local_src": "/images/venues/osaka-tempozan-wheel.webp"
+    },
+    {
+      "port": "osaka",
+      "title": "도톤보리",
+      "result": "linked",
+      "local_src": "/images/venues/osaka-dotonbori.webp"
+    },
+    {
+      "port": "shimizu",
+      "title": "미호노마쓰바라",
+      "result": "linked",
+      "local_src": "/images/venues/shimizu-miho-matsubara.webp"
+    },
+    {
+      "port": "shimizu",
+      "title": "니혼다이라 로프웨이",
+      "result": "linked",
+      "local_src": "/images/venues/shimizu-nihondaira-ropeway.webp"
+    },
+    {
+      "port": "yokohama",
+      "title": "요코하마 에어캐빈",
+      "result": "linked",
+      "local_src": "/images/venues/yokohama-air-cabin.webp"
+    },
+    {
+      "port": "beppu-cruise-couple-guide",
+      "title": "벳푸 로프웨이",
+      "result": "remote_to_local",
+      "local_src": "/images/venues/beppu-306439-remote.webp"
+    },
+    {
+      "port": "kanazawa-cruise-couple-guide",
+      "title": "겐로쿠엔",
+      "result": "remote_to_local",
+      "local_src": "/images/venues/kanazawa-195232-remote.webp"
+    },
+    {
+      "port": "sasebo-cruise-couple-guide",
+      "title": "구주쿠시마 전망·해안",
+      "result": "remote_to_local",
+      "local_src": "/images/venues/sasebo-450656-remote.webp"
+    }
+  ],
+  "cards": [
+    {
+      "page": "aomori-cruise-couple-guide",
+      "venue": "네부타 와랏세",
+      "image_src": "/images/venues/aomori-nebuta-warasse.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "aomori-cruise-couple-guide",
+      "venue": "A-FACTORY",
+      "image_src": "/images/venues/aomori-a-factory.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "aomori-cruise-couple-guide",
+      "venue": "아오모리 베이 에어리어",
+      "image_src": "/images/venues/aomori-a-factory.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "beppu-cruise-couple-guide",
+      "venue": "간나와 온천마을",
+      "image_src": "/images/venues/beppu-umi-jigoku.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "beppu-cruise-couple-guide",
+      "venue": "벳푸 로프웨이",
+      "image_src": "/images/venues/beppu-306439-remote.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "beppu-cruise-couple-guide",
+      "venue": "당일 이용 온천",
+      "image_src": "/images/venues/beppu-takegawara-onsen.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hakata-cruise-couple-guide",
+      "venue": "오호리공원",
+      "image_src": "/images/venues/fukuoka-ohori-park.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hakata-cruise-couple-guide",
+      "venue": "후쿠오카 타워",
+      "image_src": "/images/venues/fukuoka-tower.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hakata-cruise-couple-guide",
+      "venue": "하카타 리버레인 일대",
+      "image_src": "/images/venues/hakata-anpanman-host-building.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hakodate-cruise-couple-guide",
+      "venue": "가네모리 붉은 벽돌 창고",
+      "image_src": "/images/venues/hakodate-kanemori-warehouses.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hakodate-cruise-couple-guide",
+      "venue": "모토마치 언덕",
+      "image_src": "/images/venues/hakodate-motomachi-slope.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hakodate-cruise-couple-guide",
+      "venue": "하코다테산 로프웨이",
+      "image_src": "/images/venues/hakodate-mount-ropeway.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hirara-miyakojima-cruise-couple-guide",
+      "venue": "시기라 오션스카이 리프트",
+      "image_src": null,
+      "status": "missing"
+    },
+    {
+      "page": "hirara-miyakojima-cruise-couple-guide",
+      "venue": "요나하 마에하마 해변",
+      "image_src": "/images/venues/miyakojima-yonaha-maehama.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "hirara-miyakojima-cruise-couple-guide",
+      "venue": "시기라 스파·온천",
+      "image_src": "/images/venues/miyakojima-shigira-allamanda.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "ishigaki-cruise-couple-guide",
+      "venue": "가비라만",
+      "image_src": "/images/venues/ishigaki-kabira-bay.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "ishigaki-cruise-couple-guide",
+      "venue": "가비라만 글라스보트",
+      "image_src": "/images/venues/ishigaki-kabira-bay.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "ishigaki-cruise-couple-guide",
+      "venue": "야이마무라",
+      "image_src": "/images/venues/ishigaki-yaima-village.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kagoshima-cruise-couple-guide",
+      "venue": "센간엔 정원",
+      "image_src": "/images/venues/kagoshima-senganen.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kagoshima-cruise-couple-guide",
+      "venue": "시로야마 전망",
+      "image_src": "/images/venues/kagoshima-shiroyama-view.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kagoshima-cruise-couple-guide",
+      "venue": "덴몬칸",
+      "image_src": "/images/venues/kagoshima-tenmonkan.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kanazawa-cruise-couple-guide",
+      "venue": "겐로쿠엔",
+      "image_src": "/images/venues/kanazawa-195232-remote.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kanazawa-cruise-couple-guide",
+      "venue": "히가시차야가이",
+      "image_src": "/images/venues/kanazawa-higashi-chaya.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kanazawa-cruise-couple-guide",
+      "venue": "금박 장식 체험",
+      "image_src": "/images/venues/kanazawa-ishikawa-tourism-hall.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kobe-cruise-couple-guide",
+      "venue": "메리켄파크·하버랜드",
+      "image_src": "/images/venues/kobe-meriken-park-night.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kobe-cruise-couple-guide",
+      "venue": "누노비키 허브정원",
+      "image_src": "/images/venues/kobe-nunobiki-herb-ropeway.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "kobe-cruise-couple-guide",
+      "venue": "기타노 이진칸",
+      "image_src": "/images/venues/kobe-kitano-weathercock.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "nagasaki-cruise-couple-guide",
+      "venue": "글로버정원",
+      "image_src": "/images/venues/nagasaki-glover-garden.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "nagasaki-cruise-couple-guide",
+      "venue": "이나사야마 로프웨이",
+      "image_src": "/images/venues/nagasaki-inasa-ropeway.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "nagasaki-cruise-couple-guide",
+      "venue": "평화공원",
+      "image_src": "/images/venues/nagasaki-peace-park.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "naha-cruise-couple-guide",
+      "venue": "국제거리",
+      "image_src": "/images/venues/naha-kokusai-street.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "naha-cruise-couple-guide",
+      "venue": "슈리성 공원",
+      "image_src": "/images/venues/naha-shureimon.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "naha-cruise-couple-guide",
+      "venue": "DMM 가리유시 수족관",
+      "image_src": "/images/venues/naha-dmm-kariyushi-aquarium.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "osaka-cruise-couple-guide",
+      "venue": "덴포잔 대관람차",
+      "image_src": "/images/venues/osaka-tempozan-wheel.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "osaka-cruise-couple-guide",
+      "venue": "도톤보리",
+      "image_src": "/images/venues/osaka-dotonbori.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "osaka-cruise-couple-guide",
+      "venue": "가이유칸",
+      "image_src": "/images/venues/osaka-kaiyukan-aquarium.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "sasebo-cruise-couple-guide",
+      "venue": "구주쿠시마 펄퀸",
+      "image_src": "/images/venues/sasebo-pearl-queen.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "sasebo-cruise-couple-guide",
+      "venue": "구주쿠시마 전망·해안",
+      "image_src": "/images/venues/sasebo-450656-remote.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "sasebo-cruise-couple-guide",
+      "venue": "하우스텐보스",
+      "image_src": "/images/venues/sasebo-huis-ten-bosch.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "shimizu-cruise-couple-guide",
+      "venue": "드림플라자 수변",
+      "image_src": "/images/venues/shimizu-dream-plaza.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "shimizu-cruise-couple-guide",
+      "venue": "미호노마쓰바라",
+      "image_src": "/images/venues/shimizu-miho-matsubara.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "shimizu-cruise-couple-guide",
+      "venue": "니혼다이라 로프웨이",
+      "image_src": "/images/venues/shimizu-nihondaira-ropeway.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "yokohama-cruise-couple-guide",
+      "venue": "요코하마 에어캐빈",
+      "image_src": "/images/venues/yokohama-air-cabin.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "yokohama-cruise-couple-guide",
+      "venue": "코스모월드 대관람차",
+      "image_src": "/images/venues/yokohama-cosmo-world.webp",
+      "status": "local_verified"
+    },
+    {
+      "page": "yokohama-cruise-couple-guide",
+      "venue": "붉은벽돌 창고·수변",
+      "image_src": null,
+      "status": "missing"
+    }
+  ]
+}
