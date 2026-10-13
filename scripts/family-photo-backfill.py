@@ -14,6 +14,14 @@ rows += [
  ["hirara-miyakojima","우에노 독일문화촌","Ueno German Culture Village - J - 2020 March 27.jpg","miyakojima-ueno-german-village","Nesnad","BY-SA-4.0"],
  ["kanazawa","이시카와 관광물산관 금박 체험","Ishikawa kanko bussan.jpg","kanazawa-ishikawa-tourism-hall","Opqr","BY-SA-4.0"]
 ]
+rows += [
+ ["kobe","누노비키 허브원 로프웨이","Cable car in Kobe, Japan; May 2017.jpg","kobe-nunobiki-herb-ropeway","Mark Pegrum","BY-SA-2.0"],
+ ["osaka","가이유칸","Kaiyūkan.jpg","osaka-kaiyukan-aquarium","Sakai Yayoi","CC0-1.0"],
+ ["osaka","레고랜드 디스커버리센터 오사카","LEGOLAND Discovery Center Osaka.jpg","osaka-legoland-discovery","Dale Cruse","BY-2.0"],
+ ["osaka","유니버설 스튜디오 재팬","USJ Entrance 2026.jpg","osaka-usj-entrance","Sakai Yayoi","CC0-1.0"],
+ ["sasebo","하우스텐보스","200320 Huis Ten Bosch Sasebo Nagasaki pref Japan01s3.jpg","sasebo-huis-ten-bosch","663highland","BY-2.5"],
+ ["yokohama","요코하마 코스모월드","Yokohama Cosmo World and Clock Ferris Wheel (4611157059).jpg","yokohama-cosmo-world","Jorge Láscar","BY-2.0"]
+]
 site=Path("site"); dst=site/"images"/"venues"; dst.mkdir(parents=True,exist_ok=True)
 reports=Path("audit-reports"); reports.mkdir(exist_ok=True)
 licenses={"CC0-1.0":"https://creativecommons.org/publicdomain/zero/1.0/","BY-2.0":"https://creativecommons.org/licenses/by/2.0/","BY-2.5":"https://creativecommons.org/licenses/by/2.5/","BY-2.1-jp":"https://creativecommons.org/licenses/by/2.1/jp/","BY-3.0":"https://creativecommons.org/licenses/by/3.0/","BY-SA-2.0":"https://creativecommons.org/licenses/by-sa/2.0/","BY-SA-4.0":"https://creativecommons.org/licenses/by-sa/4.0/"}
@@ -53,13 +61,18 @@ for item in output:
     if boundary<0:item["state"]="card_incomplete";continue
     card=document[at:boundary]
     if "<img " in card or "<img\n" in card:
-        item["state"]="already_had_photo"
-        continue
+        if '/images/venues/' in card:
+            item["state"]="already_had_local_photo"
+            continue
+        card=re.sub(r'<figure class="ct-photo"[^>]*>[\s\S]*?</figure>', '', card)
+        if "<img " in card or "<img\n" in card:
+            item["state"]="other_image_markup"
+            continue
     url="/images/venues/"+item["slug"]+".webp"
     source=html.escape(item["source"],quote=True)
     artist=html.escape(item["artist"])
     credit=('<figure class="ct-photo nf-reviewed-photo"><img src="'+url+'" alt="'+html.escape(item["venue"])+' 현장 실사 사진" loading="lazy" decoding="async" width="900" height="600">'
-      '<figcaption>사진: '+artist+' · CC '+html.escape(item["license"].replace("CC0-","0 "))+
+      '<figcaption>사진: '+artist+' · '+html.escape("CC0 1.0" if item["license"]=="CC0-1.0" else "CC "+item["license"])+
       ' · <a href="'+source+'" target="_blank" rel="noopener noreferrer">원본 사진</a>'+
       ' · <a href="'+item["license_url"]+'" target="_blank" rel="noopener noreferrer">이용 허락</a>'+
       ' · WebP 크기·형식 변환</figcaption></figure>')
