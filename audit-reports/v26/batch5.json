@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "hiroshima",
+    "image": "/images/venues/hiroshima-v26b5-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:A_Bomb_Dome_and_Peace_Park.jpg",
+    "author": "SRP1998",
+    "license": "CC BY-SA 4.0",
+    "width": 1377,
+    "height": 1000,
+    "bytes": 320016,
+    "note": "Historical photograph, not real-time"
+  },
+  {
+    "slug": "iwakuni",
+    "image": "/images/venues/iwakuni-v26b5-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Kintaikyo_Bridge_on_Nishikigawa_River_2.jpg",
+    "author": "そらみみ",
+    "license": "CC BY-SA 4.0",
+    "width": 1333,
+    "height": 1000,
+    "bytes": 373230,
+    "note": "Historical photograph, not real-time"
+  },
+  {
+    "slug": "kure",
+    "image": "/images/venues/kure-v26b5-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Yamato_Museum_and_Kure_Central_Pier_from_Yamato_Wharf.jpg",
+    "author": "そらみみ",
+    "license": "CC BY-SA 4.0",
+    "width": 1333,
+    "height": 1000,
+    "bytes": 164988,
+    "note": "Historical photograph, not real-time"
+  },
+  {
+    "slug": "mojiko",
+    "image": "/images/venues/mojiko-v26b5-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:140721_Mojiko_Station_Kitakyushu_Japan03s3.jpg",
+    "author": "663highland",
+    "license": "CC BY-SA 4.0",
+    "width": 1440,
+    "height": 960,
+    "bytes": 258944,
+    "note": "Historical photograph, not real-time"
+  },
+  {
+    "slug": "aburatsu",
+    "image": "/images/venues/aburatsu-v26b5-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Obi%2C_Nichinan%2C_%C5%8Ctemon_Gate_of_Obi_Castle_01.jpg",
+    "author": "Naokijp",
+    "license": "CC BY-SA 4.0",
+    "width": 1333,
+    "height": 1000,
+    "bytes": 442650,
+    "note": "Historical photograph, not real-time"
+  }
+]
