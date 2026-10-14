@@ -1,0 +1,39 @@
+name: V14 Five Official Port Berth Guides
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/second-five-ports-v14.json'
+      - 'scripts/second-five-v14-apply.py'
+      - '.github/workflows/v14-second-five-ports.yml'
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Publish 10 exact berth alternatives across 15 existing guides
+        run: python scripts/second-five-v14-apply.py
+      - name: Commit routes and evidence inventory
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/things-to-do/ audit-reports/second-five-v14.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V14 verified berth access in five ports for three visitor audiences"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v14-five-port-guide-coverage
+          path: audit-reports/second-five-v14.json
+          retention-days: 30
