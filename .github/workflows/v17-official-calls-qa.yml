@@ -5,6 +5,7 @@ on:
     - cron: '17 2 * * 1'
   push:
     paths:
+      - 'build.js'
       - 'scripts/audit-v17-ops-live.mjs'
       - 'site/companion-card-standard.css'
       - 'site/style.css'
