@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - 'build.js'
       - 'scripts/audit-v23-image-render.mjs'
       - '.github/workflows/v23-image-render-qa.yml'
       - 'site/style.css'
