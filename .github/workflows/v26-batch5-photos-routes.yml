@@ -1,0 +1,48 @@
+name: V26 Batch 5 Real Photos and Verified Cruise Routes
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/v26-batch5-real-photos.py'
+      - 'scripts/v26-batch5-grounded-routes.py'
+      - '.github/workflows/v26-batch5-photos-routes.yml'
+permissions:
+  contents: write
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow==11.3.0
+      - name: Replace five photos with verified Commons photographs
+        run: python scripts/v26-batch5-real-photos.py
+      - name: Append official-source travel routes and return notices
+        run: python scripts/v26-batch5-grounded-routes.py
+      - name: Validate exactly five upgraded pages
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          rows=json.loads(Path('audit-reports/v26/batch5.json').read_text())
+          assert len(rows)==5
+          for r in rows:
+           h=Path('site/things-to-do/'+r['slug']+'-cruise-port-day-trip/index.html').read_text()
+           assert 'id="nf-v26b5-grounded-route"' in h
+           assert r['source'] in h and r['image'] in h
+           assert '승객 최종 귀선' in h
+           assert 'rel="canonical"' in h
+          print('V26_B5_VALIDATE 5/5')
+          PY
+      - name: Commit all changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/venues/*-v26b5-real-location.webp site/things-to-do/{hiroshima,iwakuni,kure,mojiko,aburatsu}-cruise-port-day-trip/index.html audit-reports/v26/batch5.json
+          git diff --cached --check
+          git commit -m "V26 batch 5: five real location photos and source-backed safe return travel guides"
+          git pull --rebase origin main
+          git push origin HEAD:main
