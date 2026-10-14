@@ -170,3 +170,19 @@ a.brand > img, a.brand img{
 .nf-v27-status li span{font-size:.91rem}
 .nf-v27-warning{border-top:1px solid #bed6e6;padding-top:.8rem}
 @media(max-width:640px){.nf-v27-status{padding:.8rem;margin:1rem 0}.nf-v27-status ol{grid-template-columns:minmax(0,1fr)}}
+
+
+/* V28: responsive editorial directory cards shared by shopping/couple/practical hubs.
+   Fixed a missing .dirgrid/.dircard contract that rendered 960px images full-width. */
+.hub-main .directory > .wrap{width:100%;max-width:none}
+.hub-main .dirgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:stretch}
+.hub-main .dircard{display:flex;flex-direction:column;min-width:0;overflow:hidden;border:1px solid #d7e7ef;border-radius:16px;background:#fff;box-shadow:0 4px 18px rgba(7,58,92,.05);transition:transform .18s,border-color .18s,box-shadow .18s}
+.hub-main .dircard:hover{transform:translateY(-3px);border-color:#91c6d7;box-shadow:0 10px 24px rgba(7,58,92,.13)}
+.hub-main .dircard:focus-visible{outline:3px solid #edac36;outline-offset:3px}
+.hub-main .dircard > img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:center;background:#e5f2f6;flex:0 0 auto}
+.hub-main .dircard .dirin{padding:17px 18px 20px;min-width:0;flex:1;display:flex;flex-direction:column;gap:6px}
+.hub-main .dircard .dirin small{font-size:12px;line-height:1.4;color:#06718f;font-weight:800;letter-spacing:.02em}
+.hub-main .dircard .dirin h2{font-size:19px;line-height:1.4;margin:2px 0 1px;letter-spacing:-.035em;overflow-wrap:anywhere;color:#093f60}
+.hub-main .dircard .dirin p{font-size:13px;line-height:1.7;margin:0;color:#5c7384;overflow-wrap:anywhere}
+@media(max-width:900px){.hub-main .dirgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}}
+@media(max-width:560px){.hub-main .dirgrid{grid-template-columns:1fr;gap:13px}.hub-main .dircard .dirin{padding:14px 16px 17px}.hub-main .dircard .dirin h2{font-size:18px}}
