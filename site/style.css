@@ -107,3 +107,13 @@ body main article > header:has(figure img[src*="/images/editorial/"][src*="cruis
 @media(max-width:620px){
  body main article > header:has(figure img[src*="/images/editorial/"][src*="cruise-port"]) > figure{margin:8px 0 10px}
 }
+
+/* V22: legacy cruise-port templates with a direct <img> instead of <figure>. */
+body main article > header:has(> img[src*="/images/editorial/"][src*="cruise-port"]){
+ display:flex;flex-direction:column;align-items:stretch
+}
+body main article > header:has(> img[src*="/images/editorial/"][src*="cruise-port"]) > h1{order:-20}
+body main article > header:has(> img[src*="/images/editorial/"][src*="cruise-port"]) > img{order:-19;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:14px;margin:10px 0}
+body main article > header:has(> img[src*="/images/editorial/"][src*="cruise-port"]) > .source,
+body main article > header:has(> img[src*="/images/editorial/"][src*="cruise-port"]) > .caption{order:-18}
+body main article > header:has(> img[src*="/images/editorial/"][src*="cruise-port"]) > .lead{order:-17}
