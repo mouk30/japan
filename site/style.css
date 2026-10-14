@@ -117,3 +117,12 @@ body main article > header:has(> img[src*="/images/editorial/"][src*="cruise-por
 body main article > header:has(> img[src*="/images/editorial/"][src*="cruise-port"]) > .source,
 body main article > header:has(> img[src*="/images/editorial/"][src*="cruise-port"]) > .caption{order:-18}
 body main article > header:has(> img[src*="/images/editorial/"][src*="cruise-port"]) > .lead{order:-17}
+
+/* V22 expert-port articles use a versioned v3xx image filename. */
+body main article > header:has(> figure > img.cover[src*="/images/editorial/v"]){
+ display:flex;flex-direction:column;align-items:stretch
+}
+body main article > header:has(> figure > img.cover[src*="/images/editorial/v"]) > h1{order:-20}
+body main article > header:has(> figure > img.cover[src*="/images/editorial/v"]) > figure{order:-19;margin:10px 0 12px}
+body main article > header:has(> figure > img.cover[src*="/images/editorial/v"]) > .lead{order:-18}
+body main article > header:has(> figure > img.cover[src*="/images/editorial/v"]) figure img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:14px}
