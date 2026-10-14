@@ -1,0 +1,1227 @@
+{
+  "summary": {
+    "ports": 15,
+    "pages": 45,
+    "published": 45,
+    "venue_cards": 135,
+    "venue_hint_matched": 135,
+    "venue_hint_needs_review": 0
+  },
+  "pages": [
+    {
+      "port": "aomori",
+      "audience": "family",
+      "page": "site/things-to-do/aomori-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "네부타 와랏세",
+          "hint_matched": true,
+          "existing_venue_link": "https://aomori-tourism.com/en/spot/detail_3698.html",
+          "port_source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html"
+        },
+        {
+          "venue": "아사무시 수족관",
+          "hint_matched": true,
+          "existing_venue_link": "https://aomori-tourism.com/kr/spot/detail_98.html",
+          "port_source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html"
+        },
+        {
+          "venue": "A-FACTORY·ASPAM",
+          "hint_matched": true,
+          "existing_venue_link": "https://aomori-tourism.com/en/itineraries/detail_56.html",
+          "port_source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html"
+        }
+      ]
+    },
+    {
+      "port": "aomori",
+      "audience": "couple",
+      "page": "site/things-to-do/aomori-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "네부타 와랏세",
+          "hint_matched": true,
+          "existing_venue_link": "https://aomori-tourism.com/en/spot/detail_3698.html",
+          "port_source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html"
+        },
+        {
+          "venue": "A-FACTORY",
+          "hint_matched": true,
+          "existing_venue_link": "https://aomori-tourism.com/en/itineraries/detail_56.html",
+          "port_source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html"
+        },
+        {
+          "venue": "아오모리 베이 에어리어",
+          "hint_matched": true,
+          "existing_venue_link": "https://aomori-tourism.com/",
+          "port_source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html"
+        }
+      ]
+    },
+    {
+      "port": "aomori",
+      "audience": "parents",
+      "page": "site/things-to-do/aomori-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "네부타 와랏세",
+          "hint_matched": true,
+          "existing_venue_link": "https://aomori-tourism.com/en/spot/detail_3698.html",
+          "port_source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html"
+        },
+        {
+          "venue": "ASPAM 전망·전시",
+          "hint_matched": true,
+          "existing_venue_link": "https://aomori-tourism.com/en/itineraries/detail_56.html",
+          "port_source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html"
+        },
+        {
+          "venue": "핫코다 로프웨이",
+          "hint_matched": true,
+          "existing_venue_link": "https://aomori-tourism.com/en/spot/detail_122.html",
+          "port_source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html"
+        }
+      ]
+    },
+    {
+      "port": "beppu",
+      "audience": "family",
+      "page": "site/things-to-do/beppu-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "우미타마고 수족관",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.umitamago.jp/access-en/",
+          "port_source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html"
+        },
+        {
+          "venue": "벳푸 지옥 순례",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.beppu-jigoku.com/",
+          "port_source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html"
+        },
+        {
+          "venue": "기지마 고원 파크",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kijima-kogen.jp/",
+          "port_source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html"
+        }
+      ]
+    },
+    {
+      "port": "beppu",
+      "audience": "couple",
+      "page": "site/things-to-do/beppu-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "간나와 온천마을",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.beppu-jigoku.com/",
+          "port_source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html"
+        },
+        {
+          "venue": "벳푸 로프웨이",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.beppu-ropeway.co.jp/en/",
+          "port_source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html"
+        },
+        {
+          "venue": "당일 이용 온천",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.city.beppu.oita.jp/",
+          "port_source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html"
+        }
+      ]
+    },
+    {
+      "port": "beppu",
+      "audience": "parents",
+      "page": "site/things-to-do/beppu-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "벳푸 로프웨이",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.beppu-ropeway.co.jp/en/",
+          "port_source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html"
+        },
+        {
+          "venue": "벳푸 지옥 순례",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.beppu-jigoku.com/",
+          "port_source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html"
+        },
+        {
+          "venue": "벳푸 당일 온천·마사지",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.city.beppu.oita.jp/",
+          "port_source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html"
+        }
+      ]
+    },
+    {
+      "port": "hakata",
+      "audience": "family",
+      "page": "site/things-to-do/hakata-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "후쿠오카 호빵맨 어린이 박물관",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.fukuoka-anpanman.jp/en/",
+          "port_source": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+        },
+        {
+          "venue": "후쿠오카시 과학관",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.fukuokacity-kagakukan.jp/",
+          "port_source": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+        },
+        {
+          "venue": "마린월드 우미노나카미치",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.gofukuoka.jp/spots/detail/26800",
+          "port_source": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+        }
+      ]
+    },
+    {
+      "port": "hakata",
+      "audience": "couple",
+      "page": "site/things-to-do/hakata-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "오호리공원",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.ohorikouen.jp/",
+          "port_source": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+        },
+        {
+          "venue": "후쿠오카 타워",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.fukuokatower.co.jp/",
+          "port_source": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+        },
+        {
+          "venue": "하카타 리버레인 일대",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.gofukuoka.jp/",
+          "port_source": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+        }
+      ]
+    },
+    {
+      "port": "hakata",
+      "audience": "parents",
+      "page": "site/things-to-do/hakata-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "후쿠오카 타워",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.fukuokatower.co.jp/",
+          "port_source": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+        },
+        {
+          "venue": "오호리공원",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.ohorikouen.jp/",
+          "port_source": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+        },
+        {
+          "venue": "하카타 리버레인",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.hakata-riverainmall.jp/",
+          "port_source": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+        }
+      ]
+    },
+    {
+      "port": "hakodate",
+      "audience": "family",
+      "page": "site/things-to-do/hakodate-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "고료카쿠 타워",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.goryokaku-tower.co.jp/en/",
+          "port_source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/"
+        },
+        {
+          "venue": "가네모리 붉은 벽돌 창고",
+          "hint_matched": true,
+          "existing_venue_link": "https://hakodate-kanemori.com/",
+          "port_source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/"
+        },
+        {
+          "venue": "하코다테산 로프웨이",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.hakodate.travel/en/information/mt-hakodate/",
+          "port_source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/"
+        }
+      ]
+    },
+    {
+      "port": "hakodate",
+      "audience": "couple",
+      "page": "site/things-to-do/hakodate-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "가네모리 붉은 벽돌 창고",
+          "hint_matched": true,
+          "existing_venue_link": "https://hakodate-kanemori.com/",
+          "port_source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/"
+        },
+        {
+          "venue": "모토마치 언덕",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.hakodate.travel/en/",
+          "port_source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/"
+        },
+        {
+          "venue": "하코다테산 로프웨이",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.hakodate.travel/en/information/mt-hakodate/",
+          "port_source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/"
+        }
+      ]
+    },
+    {
+      "port": "hakodate",
+      "audience": "parents",
+      "page": "site/things-to-do/hakodate-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "고료카쿠 타워",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.goryokaku-tower.co.jp/en/",
+          "port_source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/"
+        },
+        {
+          "venue": "하코다테산 로프웨이",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.hakodate.travel/en/information/mt-hakodate/",
+          "port_source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/"
+        },
+        {
+          "venue": "유노카와 온천",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.hakodate.travel/en/",
+          "port_source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/"
+        }
+      ]
+    },
+    {
+      "port": "hirara-miyakojima",
+      "audience": "family",
+      "page": "site/things-to-do/hirara-miyakojima-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "미야코지마 해중공원",
+          "hint_matched": true,
+          "existing_venue_link": "https://miyako-guide.net/spots/spots-119/",
+          "port_source": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html"
+        },
+        {
+          "venue": "우에노 독일문화촌",
+          "hint_matched": true,
+          "existing_venue_link": "https://miyako-guide.net/spots/spots-74/",
+          "port_source": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html"
+        },
+        {
+          "venue": "시기라 리조트 수영장·온천",
+          "hint_matched": true,
+          "existing_venue_link": "https://shigira.com/en",
+          "port_source": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html"
+        }
+      ]
+    },
+    {
+      "port": "hirara-miyakojima",
+      "audience": "couple",
+      "page": "site/things-to-do/hirara-miyakojima-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "시기라 오션스카이 리프트",
+          "hint_matched": true,
+          "existing_venue_link": "https://shigira.com/en",
+          "port_source": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html"
+        },
+        {
+          "venue": "요나하 마에하마 해변",
+          "hint_matched": true,
+          "existing_venue_link": "https://visitokinawajapan.com/",
+          "port_source": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html"
+        },
+        {
+          "venue": "시기라 스파·온천",
+          "hint_matched": true,
+          "existing_venue_link": "https://shigira.com/en",
+          "port_source": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html"
+        }
+      ]
+    },
+    {
+      "port": "hirara-miyakojima",
+      "audience": "parents",
+      "page": "site/things-to-do/hirara-miyakojima-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "시기라 리프트 오션스카이",
+          "hint_matched": true,
+          "existing_venue_link": "https://shigira.com/en",
+          "port_source": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html"
+        },
+        {
+          "venue": "시기라 골드 온천",
+          "hint_matched": true,
+          "existing_venue_link": "https://visitokinawajapan.com/plan-your-trip/recommended-trips/three-days-miyako-island/",
+          "port_source": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html"
+        },
+        {
+          "venue": "미야코지마 해중공원",
+          "hint_matched": true,
+          "existing_venue_link": "https://miyako-guide.net/spots/spots-119/",
+          "port_source": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html"
+        }
+      ]
+    },
+    {
+      "port": "ishigaki",
+      "audience": "family",
+      "page": "site/things-to-do/ishigaki-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "가비라만 글라스보트",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.japan.travel/en/spot/375/",
+          "port_source": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html"
+        },
+        {
+          "venue": "이시가키 야이마무라",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.japan.travel/en/spot/533/",
+          "port_source": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html"
+        },
+        {
+          "venue": "이시가키 시가지 문화 산책",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.city.ishigaki.okinawa.jp/",
+          "port_source": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html"
+        }
+      ]
+    },
+    {
+      "port": "ishigaki",
+      "audience": "couple",
+      "page": "site/things-to-do/ishigaki-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "가비라만",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.japan.travel/en/spot/375/",
+          "port_source": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html"
+        },
+        {
+          "venue": "가비라만 글라스보트",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.japan.travel/en/spot/375/",
+          "port_source": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html"
+        },
+        {
+          "venue": "야이마무라",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.japan.travel/en/spot/533/",
+          "port_source": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html"
+        }
+      ]
+    },
+    {
+      "port": "ishigaki",
+      "audience": "parents",
+      "page": "site/things-to-do/ishigaki-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "가비라만 전망대",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.japan.travel/en/spot/375/",
+          "port_source": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html"
+        },
+        {
+          "venue": "가비라만 글라스보트",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.japan.travel/en/spot/375/",
+          "port_source": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html"
+        },
+        {
+          "venue": "야이마무라",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.japan.travel/en/spot/533/",
+          "port_source": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html"
+        }
+      ]
+    },
+    {
+      "port": "kagoshima",
+      "audience": "family",
+      "page": "site/things-to-do/kagoshima-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "이오월드 가고시마 수족관",
+          "hint_matched": true,
+          "existing_venue_link": "https://ioworld.jp/",
+          "port_source": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html"
+        },
+        {
+          "venue": "센간엔 사쓰마 문화 체험",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.senganen.jp/en/kagoshima-cultural-experiences-at-sengan-en/",
+          "port_source": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html"
+        },
+        {
+          "venue": "사쿠라지마 페리",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kagoshima-yokanavi.jp/en/",
+          "port_source": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html"
+        }
+      ]
+    },
+    {
+      "port": "kagoshima",
+      "audience": "couple",
+      "page": "site/things-to-do/kagoshima-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "센간엔 정원",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.senganen.jp/en/",
+          "port_source": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html"
+        },
+        {
+          "venue": "시로야마 전망",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kagoshima-yokanavi.jp/en/",
+          "port_source": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html"
+        },
+        {
+          "venue": "덴몬칸",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kagoshima-yokanavi.jp/en/",
+          "port_source": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html"
+        }
+      ]
+    },
+    {
+      "port": "kagoshima",
+      "audience": "parents",
+      "page": "site/things-to-do/kagoshima-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "센간엔 정원",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.senganen.jp/en/recommended-course-at-sengan-en/",
+          "port_source": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html"
+        },
+        {
+          "venue": "시로야마 전망대",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kagoshima-yokanavi.jp/en/",
+          "port_source": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html"
+        },
+        {
+          "venue": "사쿠라지마 페리",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kagoshima-yokanavi.jp/en/",
+          "port_source": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html"
+        }
+      ]
+    },
+    {
+      "port": "kanazawa",
+      "audience": "family",
+      "page": "site/things-to-do/kanazawa-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "이시카와 관광물산관 금박 체험",
+          "hint_matched": true,
+          "existing_venue_link": "https://kanazawa-kankou.jp/en/3f_en/",
+          "port_source": "https://www.kanazawa-cruise.jp/access/"
+        },
+        {
+          "venue": "화과자 만들기",
+          "hint_matched": true,
+          "existing_venue_link": "https://kanazawa-kankou.jp/en/",
+          "port_source": "https://www.kanazawa-cruise.jp/access/"
+        },
+        {
+          "venue": "가나자와 21세기 미술관",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kanazawa21.jp/data_list.php?g=10&lng=e",
+          "port_source": "https://www.kanazawa-cruise.jp/access/"
+        }
+      ]
+    },
+    {
+      "port": "kanazawa",
+      "audience": "couple",
+      "page": "site/things-to-do/kanazawa-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "겐로쿠엔",
+          "hint_matched": true,
+          "existing_venue_link": "https://visitkanazawa.jp/",
+          "port_source": "https://www.kanazawa-cruise.jp/access/"
+        },
+        {
+          "venue": "히가시차야가이",
+          "hint_matched": true,
+          "existing_venue_link": "https://visitkanazawa.jp/",
+          "port_source": "https://www.kanazawa-cruise.jp/access/"
+        },
+        {
+          "venue": "금박 장식 체험",
+          "hint_matched": true,
+          "existing_venue_link": "https://kanazawa-kankou.jp/en/3f_en/",
+          "port_source": "https://www.kanazawa-cruise.jp/access/"
+        }
+      ]
+    },
+    {
+      "port": "kanazawa",
+      "audience": "parents",
+      "page": "site/things-to-do/kanazawa-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "겐로쿠엔 정원",
+          "hint_matched": true,
+          "existing_venue_link": "https://visitkanazawa.jp/en/itineraries/detail_147.html",
+          "port_source": "https://www.kanazawa-cruise.jp/access/"
+        },
+        {
+          "venue": "21세기 미술관",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kanazawa21.jp/data_list.php?g=10&lng=e",
+          "port_source": "https://www.kanazawa-cruise.jp/access/"
+        },
+        {
+          "venue": "이시카와 배리어프리 관광 지원",
+          "hint_matched": true,
+          "existing_venue_link": "https://visitkanazawa.jp/en/know-before-you-go/detail_636.html",
+          "port_source": "https://www.kanazawa-cruise.jp/access/"
+        }
+      ]
+    },
+    {
+      "port": "kobe",
+      "audience": "family",
+      "page": "site/things-to-do/kobe-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "고베 호빵맨 어린이 박물관",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kobe-anpanman.jp/",
+          "port_source": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html"
+        },
+        {
+          "venue": "고베 애니멀킹덤",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kobe-oukoku.com/",
+          "port_source": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html"
+        },
+        {
+          "venue": "누노비키 허브원 로프웨이",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kobeherb.com/en/",
+          "port_source": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html"
+        }
+      ]
+    },
+    {
+      "port": "kobe",
+      "audience": "couple",
+      "page": "site/things-to-do/kobe-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "메리켄파크·하버랜드",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.hyogo-tourism.jp/",
+          "port_source": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html"
+        },
+        {
+          "venue": "누노비키 허브정원",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kobeherb.com/en/",
+          "port_source": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html"
+        },
+        {
+          "venue": "기타노 이진칸",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.hyogo-tourism.jp/",
+          "port_source": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html"
+        }
+      ]
+    },
+    {
+      "port": "kobe",
+      "audience": "parents",
+      "page": "site/things-to-do/kobe-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "고베 누노비키 로프웨이",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kobeherb.com/en/",
+          "port_source": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html"
+        },
+        {
+          "venue": "메리켄파크·하버랜드",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.hyogo-tourism.jp/",
+          "port_source": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html"
+        },
+        {
+          "venue": "아리마온천",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.hyogo-tourism.jp/",
+          "port_source": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html"
+        }
+      ]
+    },
+    {
+      "port": "nagasaki",
+      "audience": "family",
+      "page": "site/things-to-do/nagasaki-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "나가사키 펭귄 수족관",
+          "hint_matched": true,
+          "existing_venue_link": "https://penguin-aqua.jp/access/",
+          "port_source": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html"
+        },
+        {
+          "venue": "글로버정원",
+          "hint_matched": true,
+          "existing_venue_link": "https://glover-garden.jp/destination/",
+          "port_source": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html"
+        },
+        {
+          "venue": "평화공원·원폭 자료",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.discover-nagasaki.com/en/",
+          "port_source": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html"
+        }
+      ]
+    },
+    {
+      "port": "nagasaki",
+      "audience": "couple",
+      "page": "site/things-to-do/nagasaki-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "글로버정원",
+          "hint_matched": true,
+          "existing_venue_link": "https://glover-garden.jp/destination/",
+          "port_source": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html"
+        },
+        {
+          "venue": "이나사야마 로프웨이",
+          "hint_matched": true,
+          "existing_venue_link": "https://inasayama.info/ropeway/",
+          "port_source": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html"
+        },
+        {
+          "venue": "평화공원",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.discover-nagasaki.com/en/",
+          "port_source": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html"
+        }
+      ]
+    },
+    {
+      "port": "nagasaki",
+      "audience": "parents",
+      "page": "site/things-to-do/nagasaki-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "글로버 스카이로드",
+          "hint_matched": true,
+          "existing_venue_link": "https://glover-garden.jp/destination/",
+          "port_source": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html"
+        },
+        {
+          "venue": "이나사야마 로프웨이",
+          "hint_matched": true,
+          "existing_venue_link": "https://inasayama.info/ropeway/",
+          "port_source": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html"
+        },
+        {
+          "venue": "글로버정원",
+          "hint_matched": true,
+          "existing_venue_link": "https://en.at-nagasaki.jp/barrierfree/64125",
+          "port_source": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html"
+        }
+      ]
+    },
+    {
+      "port": "naha",
+      "audience": "family",
+      "page": "site/things-to-do/naha-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "DMM 가리유시 수족관",
+          "hint_matched": true,
+          "existing_venue_link": "https://kariyushi-aquarium.com/access/",
+          "port_source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+        },
+        {
+          "venue": "오키나와현립 박물관·미술관",
+          "hint_matched": true,
+          "existing_venue_link": "https://okimu.jp/en/museum/",
+          "port_source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+        },
+        {
+          "venue": "슈리성 공원",
+          "hint_matched": true,
+          "existing_venue_link": "https://oki-park.jp/shurijo/",
+          "port_source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+        }
+      ]
+    },
+    {
+      "port": "naha",
+      "audience": "couple",
+      "page": "site/things-to-do/naha-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "국제거리",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.okinawastory.jp/",
+          "port_source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+        },
+        {
+          "venue": "슈리성 공원",
+          "hint_matched": true,
+          "existing_venue_link": "https://oki-park.jp/shurijo/",
+          "port_source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+        },
+        {
+          "venue": "DMM 가리유시 수족관",
+          "hint_matched": true,
+          "existing_venue_link": "https://kariyushi-aquarium.com/access/",
+          "port_source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+        }
+      ]
+    },
+    {
+      "port": "naha",
+      "audience": "parents",
+      "page": "site/things-to-do/naha-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "오키나와현립 박물관",
+          "hint_matched": true,
+          "existing_venue_link": "https://okimu.jp/en/museum/",
+          "port_source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+        },
+        {
+          "venue": "슈리성 공원",
+          "hint_matched": true,
+          "existing_venue_link": "https://oki-park.jp/shurijo/",
+          "port_source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+        },
+        {
+          "venue": "DMM 가리유시 수족관",
+          "hint_matched": true,
+          "existing_venue_link": "https://kariyushi-aquarium.com/faq/",
+          "port_source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+        }
+      ]
+    },
+    {
+      "port": "osaka",
+      "audience": "family",
+      "page": "site/things-to-do/osaka-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "가이유칸",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kaiyukan.com/",
+          "port_source": "https://www.city.osaka.lg.jp/port/page/0000442982.html"
+        },
+        {
+          "venue": "레고랜드 디스커버리센터 오사카",
+          "hint_matched": true,
+          "existing_venue_link": "https://osaka-info.jp/en/spot/legoland-discovery-center-osaka/",
+          "port_source": "https://www.city.osaka.lg.jp/port/page/0000442982.html"
+        },
+        {
+          "venue": "유니버설 스튜디오 재팬",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.usj.co.jp/web/en/us",
+          "port_source": "https://www.city.osaka.lg.jp/port/page/0000442982.html"
+        }
+      ]
+    },
+    {
+      "port": "osaka",
+      "audience": "couple",
+      "page": "site/things-to-do/osaka-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "덴포잔 대관람차",
+          "hint_matched": true,
+          "existing_venue_link": "https://osaka-info.jp/en/",
+          "port_source": "https://www.city.osaka.lg.jp/port/page/0000442982.html"
+        },
+        {
+          "venue": "도톤보리",
+          "hint_matched": true,
+          "existing_venue_link": "https://osaka-info.jp/en/",
+          "port_source": "https://www.city.osaka.lg.jp/port/page/0000442982.html"
+        },
+        {
+          "venue": "가이유칸",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kaiyukan.com/",
+          "port_source": "https://www.city.osaka.lg.jp/port/page/0000442982.html"
+        }
+      ]
+    },
+    {
+      "port": "osaka",
+      "audience": "parents",
+      "page": "site/things-to-do/osaka-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "덴포잔 대관람차",
+          "hint_matched": true,
+          "existing_venue_link": "https://osaka-info.jp/en/",
+          "port_source": "https://www.city.osaka.lg.jp/port/page/0000442982.html"
+        },
+        {
+          "venue": "가이유칸",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.kaiyukan.com/",
+          "port_source": "https://www.city.osaka.lg.jp/port/page/0000442982.html"
+        },
+        {
+          "venue": "기사 포함 오사카항 관광",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.city.osaka.lg.jp/port/page/0000442982.html",
+          "port_source": "https://www.city.osaka.lg.jp/port/page/0000442982.html"
+        }
+      ]
+    },
+    {
+      "port": "sasebo",
+      "audience": "family",
+      "page": "site/things-to-do/sasebo-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "구주쿠시마 수족관 우미키라라",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.umikirara.jp/en/information/",
+          "port_source": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html"
+        },
+        {
+          "venue": "펄퀸 유람선",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.pearlsea.jp/en/access/",
+          "port_source": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html"
+        },
+        {
+          "venue": "하우스텐보스",
+          "hint_matched": true,
+          "existing_venue_link": "https://english.huistenbosch.co.jp/",
+          "port_source": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html"
+        }
+      ]
+    },
+    {
+      "port": "sasebo",
+      "audience": "couple",
+      "page": "site/things-to-do/sasebo-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "구주쿠시마 펄퀸",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.pearlsea.jp/en/access/",
+          "port_source": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html"
+        },
+        {
+          "venue": "구주쿠시마 전망·해안",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.pearlsea.jp/en/",
+          "port_source": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html"
+        },
+        {
+          "venue": "하우스텐보스",
+          "hint_matched": true,
+          "existing_venue_link": "https://english.huistenbosch.co.jp/",
+          "port_source": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html"
+        }
+      ]
+    },
+    {
+      "port": "sasebo",
+      "audience": "parents",
+      "page": "site/things-to-do/sasebo-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "펄퀸 관광 유람선",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.pearlsea.jp/en/faqp/",
+          "port_source": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html"
+        },
+        {
+          "venue": "구주쿠시마 수족관",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.pearlsea.jp/en/faqp/",
+          "port_source": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html"
+        },
+        {
+          "venue": "우라가시라 항만 픽업",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.city.sasebo.lg.jp/kouwan/cruise/documents/02_english_map_uragasira.pdf",
+          "port_source": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html"
+        }
+      ]
+    },
+    {
+      "port": "shimizu",
+      "audience": "family",
+      "page": "site/things-to-do/shimizu-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "치비마루코짱 랜드",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.chibimarukochan-land.com/guide/",
+          "port_source": "https://www.shimizu-port.jp/map.html"
+        },
+        {
+          "venue": "드림플라자 수변",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.dream-plaza.co.jp/about/",
+          "port_source": "https://www.shimizu-port.jp/map.html"
+        },
+        {
+          "venue": "시미즈 수산시장·스시 문화",
+          "hint_matched": true,
+          "existing_venue_link": "https://kashinoichi.com/access/",
+          "port_source": "https://www.shimizu-port.jp/map.html"
+        }
+      ]
+    },
+    {
+      "port": "shimizu",
+      "audience": "couple",
+      "page": "site/things-to-do/shimizu-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "드림플라자 수변",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.dream-plaza.co.jp/about/",
+          "port_source": "https://www.shimizu-port.jp/map.html"
+        },
+        {
+          "venue": "미호노마쓰바라",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.japan.travel/en/spot/1353/",
+          "port_source": "https://www.shimizu-port.jp/map.html"
+        },
+        {
+          "venue": "니혼다이라 로프웨이",
+          "hint_matched": true,
+          "existing_venue_link": "https://ropeway.shizutetsu.co.jp/",
+          "port_source": "https://www.shimizu-port.jp/map.html"
+        }
+      ]
+    },
+    {
+      "port": "shimizu",
+      "audience": "parents",
+      "page": "site/things-to-do/shimizu-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "니혼다이라 로프웨이",
+          "hint_matched": true,
+          "existing_venue_link": "https://ropeway.shizutetsu.co.jp/",
+          "port_source": "https://www.shimizu-port.jp/map.html"
+        },
+        {
+          "venue": "드림플라자 수변",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.dream-plaza.co.jp/about/",
+          "port_source": "https://www.shimizu-port.jp/map.html"
+        },
+        {
+          "venue": "니혼다이라 주변 전망",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.shimizu-explorer.jp/en/how/ropeway/index.html",
+          "port_source": "https://www.shimizu-port.jp/map.html"
+        }
+      ]
+    },
+    {
+      "port": "yokohama",
+      "audience": "family",
+      "page": "site/things-to-do/yokohama-cruise-family-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "컵누들 뮤지엄",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.cupnoodles-museum.jp/ko/yokohama/guide/access/",
+          "port_source": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+        },
+        {
+          "venue": "요코하마 코스모월드",
+          "hint_matched": true,
+          "existing_venue_link": "https://cosmoworld.jp/",
+          "port_source": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+        },
+        {
+          "venue": "핫케이지마 시파라다이스",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.seaparadise.co.jp/en/access/index.html",
+          "port_source": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+        }
+      ]
+    },
+    {
+      "port": "yokohama",
+      "audience": "couple",
+      "page": "site/things-to-do/yokohama-cruise-couple-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "요코하마 에어캐빈",
+          "hint_matched": true,
+          "existing_venue_link": "https://yokohama-air-cabin.jp/",
+          "port_source": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+        },
+        {
+          "venue": "코스모월드 대관람차",
+          "hint_matched": true,
+          "existing_venue_link": "https://cosmoworld.jp/",
+          "port_source": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+        },
+        {
+          "venue": "붉은벽돌 창고·수변",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.yokohama-akarenga.jp/",
+          "port_source": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+        }
+      ]
+    },
+    {
+      "port": "yokohama",
+      "audience": "parents",
+      "page": "site/things-to-do/yokohama-cruise-parents-guide/index.html",
+      "status": "published",
+      "cards": 3,
+      "venues": [
+        {
+          "venue": "요코하마 에어캐빈",
+          "hint_matched": true,
+          "existing_venue_link": "https://yokohama-air-cabin.jp/",
+          "port_source": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+        },
+        {
+          "venue": "야마시타공원",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.welcome.city.yokohama.jp/",
+          "port_source": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+        },
+        {
+          "venue": "요코하마 붉은벽돌 창고",
+          "hint_matched": true,
+          "existing_venue_link": "https://www.yokohama-akarenga.jp/",
+          "port_source": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+        }
+      ]
+    }
+  ]
+}
