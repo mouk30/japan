@@ -1,0 +1,39 @@
+name: V13 Five Priority Ports Berth Accuracy
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/priority-ports-v13.json'
+      - 'scripts/priority-ports-v13-apply.py'
+      - '.github/workflows/v13-priority-ports.yml'
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Insert verified access details and safe return procedures
+        run: python scripts/priority-ports-v13-apply.py
+      - name: Publish updated 15 companion guides
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/things-to-do audit-reports/priority-ports-v13.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V13: 5 berth-specific ports, actual station-leg origins and safe returns"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v13-five-ports-fifteen-guides-evidence
+          path: audit-reports/priority-ports-v13.json
+          retention-days: 30
