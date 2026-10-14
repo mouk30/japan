@@ -1,0 +1,39 @@
+name: V17 Official Calls Live QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/audit-v17-ops-live.mjs'
+      - '.github/workflows/v17-official-calls-qa.yml'
+permissions:
+  contents: read
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build site
+        run: npm run build
+      - name: Check production and build mobile and desktop
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist > /tmp/v17-preview.log 2>&1 &
+          sleep 2
+          node scripts/audit-v17-ops-live.mjs
+        env:
+          LOCAL_BASE_URL: http://127.0.0.1:8765
+          LIVE_BASE_URL: https://www.nipponferry.com
+      - name: Export all checks and 5 priority port screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v17-official-call-180-qa
+          path: audit-reports/v17/visual/
+          retention-days: 30
