@@ -29,7 +29,8 @@ for(const dir of folders){
           firstPhotoOk:!companion||(!!firstPhoto&&firstPhoto.complete&&firstPhoto.naturalWidth>0),
           imageCount:document.querySelectorAll('main article img').length,
           broken:[...document.querySelectorAll('main article img')].filter(i=>i.complete&&!i.naturalWidth).map(i=>i.getAttribute('src')).slice(0,12),
-          overflow:document.documentElement.scrollWidth>innerWidth+3
+          overflow:document.documentElement.scrollWidth>innerWidth+3,
+          overflowNodes:[...document.querySelectorAll('main article *')].filter(e=>e.getBoundingClientRect().right>innerWidth+3).slice(0,5).map(e=>({tag:e.tagName,cls:String(e.className).slice(0,90),right:Math.round(e.getBoundingClientRect().right)}))
         };
       },companion);
       if(!data.heading||!data.hero||!data.heroOk)errors.push('HERO_MISSING_OR_BROKEN');
@@ -47,7 +48,7 @@ for(const dir of folders){
   }
 }
 await browser.close();
-const report={pages:results.length/2,cases:results.length,passed:results.filter(x=>!x.errors.length).length,failed:results.filter(x=>x.errors.length).length,failures:results.filter(x=>x.errors.length).map(x=>({page:x.page,viewport:x.viewport,errors:x.errors,detail:x.data?.message,broken:x.data?.broken}))};
+const report={pages:results.length/2,cases:results.length,passed:results.filter(x=>!x.errors.length).length,failed:results.filter(x=>x.errors.length).length,failures:results.filter(x=>x.errors.length).map(x=>({page:x.page,viewport:x.viewport,errors:x.errors,detail:x.data?.message,broken:x.data?.broken,overflowNodes:x.data?.overflowNodes}))};
 await writeFile(path.join(out,'image-qa.json'),JSON.stringify(report,null,2)+'\n');
 await writeFile(path.join(out,'details.json'),JSON.stringify(results,null,2)+'\n');
 console.log('V23_IMAGE_QA',JSON.stringify(report));
