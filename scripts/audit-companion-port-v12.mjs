@@ -18,6 +18,13 @@ for(const [env,base] of envs)for(const [device,width,height] of sizes)for(const 
     http=res?.status();if(!res?.ok())throw Error('HTTP '+http);
     const panel=page.locator('#nf-shared-port-v12');
     await panel.waitFor({timeout:8000});
+    // An actual stylesheet link can exist before CSS has loaded. Wait for the
+    // browser to parse both stylesheets so computed geometry is meaningful.
+    await page.waitForFunction(()=>{
+      const styles=[...document.styleSheets].map(x=>x.href||'');
+      return styles.some(x=>x.includes('companion-shared-port-v12.css')) &&
+             styles.some(x=>x.includes('companion-card-standard.css'));
+    },null,{timeout:15000});
     content=await page.evaluate(()=>{
       const root=document.querySelector('#nf-shared-port-v12');
       const cards=[...root.querySelectorAll('.nf-share-route')];
@@ -25,6 +32,7 @@ for(const [env,base] of envs)for(const [device,width,height] of sizes)for(const 
       const photos=[...document.querySelectorAll('#ct-topic-dashboard .ct-grid .ct-card img')];
       return {
         cssPresent:!!document.querySelector('link[href*="companion-shared-port-v12.css"]'),
+        standardCssPresent:!!document.querySelector('link[href*="companion-card-standard.css"]'),
         mode:root.classList.contains('family')?'family':root.classList.contains('couple')?'couple':'unknown',
         hasReturn:!!root.querySelector('.nf-share-return'),
         hasFocus:!!root.querySelector('.nf-share-focus'),
@@ -38,7 +46,7 @@ for(const [env,base] of envs)for(const [device,width,height] of sizes)for(const 
         photoRatios:photos.map(p=>{const r=p.getBoundingClientRect();return r.width>0 ? Number((r.height/r.width).toFixed(2)) : 0}),
       };
     });
-    if(!content.cssPresent||!content.hasReturn||!content.hasFocus||!content.hasIntro)errors.push('MISSING_PORT_CONTENT_OR_CSS');
+    if(!content.cssPresent||!content.standardCssPresent||!content.hasReturn||!content.hasFocus||!content.hasIntro)errors.push('MISSING_PORT_CONTENT_OR_CSS');
     if(!content.noHorizontalOverflow)errors.push('HORIZONTAL_OVERFLOW');
     if(content.mode!==mode)errors.push('WRONG_COMPANION_MODE');
     if(content.cardGridAlign!=='start')errors.push('CARD_HEIGHT_STRETCH');
