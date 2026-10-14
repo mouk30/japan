@@ -154,11 +154,44 @@
     },
     "aomori": {
       "city": "아오모리",
-      "scheduleSource": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
-      "published": null,
-      "status": "official_berth_reference_only",
-      "note": "개별 선박명·날짜와 승객 출입구가 연결된 항차표는 이번 검수에서 미확보.",
-      "calls": []
+      "scheduleSource": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/files/261001_2026cruise.pdf",
+      "published": "2026-10-01",
+      "status": "official_schedule_rows_checked",
+      "note": "아오모리현 10월 1일 기준 안벽 예약표. 10월 4일 Carnival Luminosa는 악천후로 기항 취소 이력이 있으므로 반드시 출항 직전 최신 공지 확인.",
+      "calls": [
+        {
+          "date": "2026-10-14",
+          "ship": "Seabourn Encore",
+          "berth": "신중앙부두(新中央埠頭)",
+          "arrival": "08:00",
+          "departure_date": "2026-10-14",
+          "departure": "21:00"
+        },
+        {
+          "date": "2026-10-23",
+          "ship": "Norwegian Jade",
+          "berth": "신중앙부두(新中央埠頭)",
+          "arrival": "07:00",
+          "departure_date": "2026-10-23",
+          "departure": "18:00"
+        },
+        {
+          "date": "2026-10-30",
+          "ship": "Seabourn Encore",
+          "berth": "신중앙부두(新中央埠頭)",
+          "arrival": "08:00",
+          "departure_date": "2026-10-30",
+          "departure": "21:00"
+        },
+        {
+          "date": "2026-10-31",
+          "ship": "Diamond Princess",
+          "berth": "신중앙부두(新中央埠頭)",
+          "arrival": "07:00",
+          "departure_date": "2026-10-31",
+          "departure": "17:00"
+        }
+      ]
     },
     "beppu": {
       "city": "벳푸",
