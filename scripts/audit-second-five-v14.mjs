@@ -65,7 +65,7 @@ for(const [environment,base] of environments)for(const [screen,width,height] of 
      await page.keyboard.press('Enter');
      if(!(await page.locator('#nf-precision-v14 details.nf-precision-berth:nth-child(2)').evaluate(el=>el.open)))problems.push('ACCORDION_KEYBOARD_NOT_WORKING');
    }
-   if(screen==='mobile'&&['ishigaki','naha','yokohama','hakata','nagasaki'].includes(port)&&environment==='production'){
+   if(screen==='mobile'&&['osaka','kobe','sasebo','kanazawa','shimizu'].includes(port)&&environment==='production'){
      await page.locator('#nf-precision-v14').screenshot({path:path.join(output,'live-'+slug+'.png'),animations:'disabled',timeout:15000});
    }
  }catch(e){problems.push('AUDIT_EXCEPTION');actual={error:String(e.message).slice(0,250)}}
