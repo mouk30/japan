@@ -1,0 +1,375 @@
+{
+  "summary": {
+    "pages": 45,
+    "updated": 45,
+    "ports": 15,
+    "ports_with_checked_official_calls": 4,
+    "ports_not_verified": 11,
+    "unique_official_call_rows": 14,
+    "route_gate_to_venue_measurements_verified": 0,
+    "shuttle_actual_trip_verified": 0,
+    "as_of": "2026-10-14"
+  },
+  "pages": [
+    {
+      "slug": "yokohama",
+      "audience": "family",
+      "state": "published",
+      "official_records": 3,
+      "source": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/2026.html",
+      "status": "official_schedule_rows_checked"
+    },
+    {
+      "slug": "yokohama",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 3,
+      "source": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/2026.html",
+      "status": "official_schedule_rows_checked"
+    },
+    {
+      "slug": "yokohama",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 3,
+      "source": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/2026.html",
+      "status": "official_schedule_rows_checked"
+    },
+    {
+      "slug": "nagasaki",
+      "audience": "family",
+      "state": "published",
+      "official_records": 3,
+      "source": "https://www.nagasaki-port.jp/nagasaki_cruiseschedule/R08_cruiseschedule.pdf",
+      "status": "official_schedule_rows_checked"
+    },
+    {
+      "slug": "nagasaki",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 3,
+      "source": "https://www.nagasaki-port.jp/nagasaki_cruiseschedule/R08_cruiseschedule.pdf",
+      "status": "official_schedule_rows_checked"
+    },
+    {
+      "slug": "nagasaki",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 3,
+      "source": "https://www.nagasaki-port.jp/nagasaki_cruiseschedule/R08_cruiseschedule.pdf",
+      "status": "official_schedule_rows_checked"
+    },
+    {
+      "slug": "hakata",
+      "audience": "family",
+      "state": "published",
+      "official_records": 4,
+      "source": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+      "status": "official_schedule_rows_checked"
+    },
+    {
+      "slug": "hakata",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 4,
+      "source": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+      "status": "official_schedule_rows_checked"
+    },
+    {
+      "slug": "hakata",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 4,
+      "source": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+      "status": "official_schedule_rows_checked"
+    },
+    {
+      "slug": "hakodate",
+      "audience": "family",
+      "state": "published",
+      "official_records": 4,
+      "source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/",
+      "status": "official_schedule_rows_checked"
+    },
+    {
+      "slug": "hakodate",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 4,
+      "source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/",
+      "status": "official_schedule_rows_checked"
+    },
+    {
+      "slug": "hakodate",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 4,
+      "source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/",
+      "status": "official_schedule_rows_checked"
+    },
+    {
+      "slug": "aomori",
+      "audience": "family",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "aomori",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "aomori",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "beppu",
+      "audience": "family",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "beppu",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "beppu",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "hirara-miyakojima",
+      "audience": "family",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "hirara-miyakojima",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "hirara-miyakojima",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "ishigaki",
+      "audience": "family",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.ishigaki.okinawa.jp/kurashi_gyosei/shigoto_sangyo/kaihatsu_kenchiku/2033.html",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "ishigaki",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.ishigaki.okinawa.jp/kurashi_gyosei/shigoto_sangyo/kaihatsu_kenchiku/2033.html",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "ishigaki",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.ishigaki.okinawa.jp/kurashi_gyosei/shigoto_sangyo/kaihatsu_kenchiku/2033.html",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "kagoshima",
+      "audience": "family",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.pref.kagoshima.jp/ah09/cruise-basukanri.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "kagoshima",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.pref.kagoshima.jp/ah09/cruise-basukanri.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "kagoshima",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.pref.kagoshima.jp/ah09/cruise-basukanri.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "kanazawa",
+      "audience": "family",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.kanazawa-cruise.jp/access/",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "kanazawa",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.kanazawa-cruise.jp/access/",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "kanazawa",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.kanazawa-cruise.jp/access/",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "kobe",
+      "audience": "family",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "kobe",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "kobe",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "naha",
+      "audience": "family",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "naha",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "naha",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "osaka",
+      "audience": "family",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.osaka.lg.jp/port/page/0000442982.html",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "osaka",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.osaka.lg.jp/port/page/0000442982.html",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "osaka",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.osaka.lg.jp/port/page/0000442982.html",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "sasebo",
+      "audience": "family",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "sasebo",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "sasebo",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html",
+      "status": "official_lookup_required"
+    },
+    {
+      "slug": "shimizu",
+      "audience": "family",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.shimizu-port.jp/map.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "shimizu",
+      "audience": "couple",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.shimizu-port.jp/map.html",
+      "status": "official_berth_reference_only"
+    },
+    {
+      "slug": "shimizu",
+      "audience": "parents",
+      "state": "published",
+      "official_records": 0,
+      "source": "https://www.shimizu-port.jp/map.html",
+      "status": "official_berth_reference_only"
+    }
+  ]
+}
