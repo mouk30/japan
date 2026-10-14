@@ -15,6 +15,8 @@ for(const dir of folders){
     try{
       const response=await page.goto(base+'/things-to-do/'+dir.name+'/',{waitUntil:'domcontentloaded',timeout:22000});
       if(!response?.ok())errors.push('HTTP_'+response?.status());
+      if(companion){await page.locator('#ct-topic-dashboard .ct-grid > .ct-card .ct-photo img').first().scrollIntoViewIfNeeded({timeout:9000}).catch(()=>{});}
+      await page.evaluate(async()=>{await Promise.all([...document.querySelectorAll('main article img')].map(img=>img.complete?Promise.resolve():new Promise(resolve=>{img.addEventListener('load',resolve,{once:true});img.addEventListener('error',resolve,{once:true});setTimeout(resolve,3000)})));});
       data=await page.evaluate((companion)=>{
         const heading=document.querySelector('main article h1');
         const hero=document.querySelector('main article > header img[src*="/images/editorial/"]');
