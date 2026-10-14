@@ -1,0 +1,131 @@
+{
+  "summary": {
+    "ports": 5,
+    "guides": 15,
+    "updated": 15,
+    "different_berths": 10,
+    "rendered_berth_cards": 30
+  },
+  "guides": [
+    {
+      "port": "osaka",
+      "mode": "family",
+      "status": "published",
+      "file": "site/things-to-do/osaka-cruise-family-guide/index.html",
+      "berths": 3,
+      "source_urls": 3
+    },
+    {
+      "port": "osaka",
+      "mode": "couple",
+      "status": "published",
+      "file": "site/things-to-do/osaka-cruise-couple-guide/index.html",
+      "berths": 3,
+      "source_urls": 3
+    },
+    {
+      "port": "osaka",
+      "mode": "parents",
+      "status": "published",
+      "file": "site/things-to-do/osaka-cruise-parents-guide/index.html",
+      "berths": 3,
+      "source_urls": 3
+    },
+    {
+      "port": "kobe",
+      "mode": "family",
+      "status": "published",
+      "file": "site/things-to-do/kobe-cruise-family-guide/index.html",
+      "berths": 2,
+      "source_urls": 2
+    },
+    {
+      "port": "kobe",
+      "mode": "couple",
+      "status": "published",
+      "file": "site/things-to-do/kobe-cruise-couple-guide/index.html",
+      "berths": 2,
+      "source_urls": 2
+    },
+    {
+      "port": "kobe",
+      "mode": "parents",
+      "status": "published",
+      "file": "site/things-to-do/kobe-cruise-parents-guide/index.html",
+      "berths": 2,
+      "source_urls": 2
+    },
+    {
+      "port": "sasebo",
+      "mode": "family",
+      "status": "published",
+      "file": "site/things-to-do/sasebo-cruise-family-guide/index.html",
+      "berths": 2,
+      "source_urls": 1
+    },
+    {
+      "port": "sasebo",
+      "mode": "couple",
+      "status": "published",
+      "file": "site/things-to-do/sasebo-cruise-couple-guide/index.html",
+      "berths": 2,
+      "source_urls": 1
+    },
+    {
+      "port": "sasebo",
+      "mode": "parents",
+      "status": "published",
+      "file": "site/things-to-do/sasebo-cruise-parents-guide/index.html",
+      "berths": 2,
+      "source_urls": 1
+    },
+    {
+      "port": "kanazawa",
+      "mode": "family",
+      "status": "published",
+      "file": "site/things-to-do/kanazawa-cruise-family-guide/index.html",
+      "berths": 2,
+      "source_urls": 2
+    },
+    {
+      "port": "kanazawa",
+      "mode": "couple",
+      "status": "published",
+      "file": "site/things-to-do/kanazawa-cruise-couple-guide/index.html",
+      "berths": 2,
+      "source_urls": 2
+    },
+    {
+      "port": "kanazawa",
+      "mode": "parents",
+      "status": "published",
+      "file": "site/things-to-do/kanazawa-cruise-parents-guide/index.html",
+      "berths": 2,
+      "source_urls": 2
+    },
+    {
+      "port": "shimizu",
+      "mode": "family",
+      "status": "published",
+      "file": "site/things-to-do/shimizu-cruise-family-guide/index.html",
+      "berths": 1,
+      "source_urls": 1
+    },
+    {
+      "port": "shimizu",
+      "mode": "couple",
+      "status": "published",
+      "file": "site/things-to-do/shimizu-cruise-couple-guide/index.html",
+      "berths": 1,
+      "source_urls": 1
+    },
+    {
+      "port": "shimizu",
+      "mode": "parents",
+      "status": "published",
+      "file": "site/things-to-do/shimizu-cruise-parents-guide/index.html",
+      "berths": 1,
+      "source_urls": 1
+    }
+  ]
+}
