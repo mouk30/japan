@@ -1,0 +1,105 @@
+{
+  "version": "V19",
+  "reviewed_at": "2026-10-14",
+  "status": "official_evidence_manual_review",
+  "policy": "Do not treat schedule dates as final passenger boarding times; do not publish incomplete arrival/departure as verified times.",
+  "ports": {
+    "beppu": {
+      "source": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
+      "source_updated": "2026-09-30",
+      "decision": "partial_verified_date_ship_berth_no_times",
+      "berth": "벳푸항 제4부두",
+      "future_calls": [
+        {
+          "date": "2026-10-23",
+          "ship": "Viking Orion",
+          "arrival": null,
+          "departure": null
+        },
+        {
+          "date": "2026-10-29",
+          "ship": "Seven Seas Explorer",
+          "arrival": null,
+          "departure": null
+        },
+        {
+          "date": "2026-11-08",
+          "ship": "Seabourn Encore",
+          "arrival": null,
+          "departure": null
+        },
+        {
+          "date": "2026-11-20",
+          "ship": "Diamond Princess",
+          "arrival": null,
+          "departure": null
+        },
+        {
+          "date": "2026-11-21",
+          "ship": "Eastern Venus",
+          "arrival": null,
+          "departure": null
+        },
+        {
+          "date": "2026-12-19",
+          "ship": "Mitsui Ocean Sakura",
+          "arrival": null,
+          "departure": null
+        },
+        {
+          "date": "2026-12-20",
+          "ship": "Mitsui Ocean Fuji",
+          "arrival": null,
+          "departure": null
+        }
+      ],
+      "public_publish_ready": false
+    },
+    "shimizu": {
+      "source": "https://www.shimizu-port.jp/shipinfo_R08.html",
+      "decision": "partial_verified_date_ship_time_berth_needs_per_row_check",
+      "upcoming_examples": [
+        {
+          "date": "2026-10-15",
+          "ship": "Celebrity Millennium",
+          "arrival": "07:00",
+          "departure": "18:00",
+          "berth": "히노데 2호"
+        },
+        {
+          "date": "2026-10-17",
+          "ship": "Navigator of the Seas",
+          "arrival": "07:00",
+          "departure": "18:00",
+          "berth": null
+        },
+        {
+          "date": "2026-10-18",
+          "departure_date": "2026-10-19",
+          "ship": "Viking Orion",
+          "arrival": "08:00",
+          "departure": "13:00",
+          "berth": null
+        }
+      ],
+      "public_publish_ready": false
+    },
+    "hakodate": {
+      "source": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/",
+      "change_notice": "https://joruri-cms.city.hakodate.hokkaido.jp/docs/2026071500025/",
+      "decision": "official_schedule_available_manual_update_notice_comparison_required",
+      "public_publish_ready": false
+    },
+    "kagoshima": {
+      "source": "https://www.pref.kagoshima.jp/ah09/cruise-basukanri.html",
+      "decision": "no_verified_ship_date_berth_record",
+      "public_publish_ready": false
+    }
+  },
+  "next_actions": [
+    "Review remaining source notices for cancelled/shifted calls",
+    "Keep partial verified records out of V17 calls until timestamp schema supports explicit missing values",
+    "Add separate partial schedule display with '시간 미확인' before publishing",
+    "Run V17 180-case QA after any page modifications"
+  ]
+}
