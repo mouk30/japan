@@ -65,7 +65,7 @@ for port,city in spec['ports'].items():
       if not title_m:raise RuntimeError('Unnamed venue card in '+str(fn))
       title=title_m.group(1)
       hint,hit=pick_hint(city,title)
-      urlmatches=re.findall(r'<a\\b[^>]*href="([^"]+)"',body)
+      urlmatches=re.findall(r'<a\b[^>]*href="([^"]+)"',body)
       if not urlmatches:raise RuntimeError('No venue information link: '+str(fn)+' '+title)
       venue_link=urlmatches[-1]
       if not venue_link.startswith('https://'):raise RuntimeError('Non-HTTPS facility link '+venue_link)
