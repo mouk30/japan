@@ -1,0 +1,41 @@
+name: V28 Four Content Hubs Image QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'site/couple/index.html'
+      - 'site/shopping/index.html'
+      - 'site/practical/index.html'
+      - 'site/things-to-do/travel-companions/index.html'
+      - 'site/style.css'
+      - 'scripts/audit-v28-hub-cards.mjs'
+      - '.github/workflows/v28-hub-card-qa.yml'
+permissions:
+  contents: read
+jobs:
+  hub-visual-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build production copy
+        run: npm run build
+      - name: Test all four hubs on mobile, tablet, desktop
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist >/tmp/hub-v28.log 2>&1 &
+          sleep 2
+          node scripts/audit-v28-hub-cards.mjs
+      - name: Save screenshots and results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v28-hub-card-mobile-desktop-screenshots
+          path: audit-reports/v28/
+          retention-days: 30
