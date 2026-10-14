@@ -1,0 +1,281 @@
+{
+  "summary": {
+    "guides": 30,
+    "added": 30,
+    "route_cards": 58,
+    "numeric_source_segments": 50,
+    "all_ports": 15
+  },
+  "guides": [
+    {
+      "page": "site/things-to-do/osaka-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "osaka",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/osaka-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "osaka",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/yokohama-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "yokohama",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/yokohama-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "yokohama",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/kobe-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "kobe",
+      "status": "added",
+      "cards": 2,
+      "numeric": 1,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/kobe-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "kobe",
+      "status": "added",
+      "cards": 2,
+      "numeric": 1,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/hakata-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "hakata",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/hakata-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "hakata",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/nagasaki-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "nagasaki",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/nagasaki-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "nagasaki",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/shimizu-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "shimizu",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/shimizu-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "shimizu",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/ishigaki-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "ishigaki",
+      "status": "added",
+      "cards": 3,
+      "numeric": 3,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/ishigaki-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "ishigaki",
+      "status": "added",
+      "cards": 3,
+      "numeric": 3,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/sasebo-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "sasebo",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/sasebo-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "sasebo",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/kanazawa-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "kanazawa",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/kanazawa-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "kanazawa",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/kagoshima-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "kagoshima",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/kagoshima-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "kagoshima",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/aomori-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "aomori",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/aomori-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "aomori",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/hakodate-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "hakodate",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/hakodate-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "hakodate",
+      "status": "added",
+      "cards": 2,
+      "numeric": 2,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/beppu-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "beppu",
+      "status": "added",
+      "cards": 1,
+      "numeric": 1,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/beppu-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "beppu",
+      "status": "added",
+      "cards": 1,
+      "numeric": 1,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/naha-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "naha",
+      "status": "added",
+      "cards": 2,
+      "numeric": 0,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/naha-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "naha",
+      "status": "added",
+      "cards": 2,
+      "numeric": 0,
+      "official_sources": 2
+    },
+    {
+      "page": "site/things-to-do/hirara-miyakojima-cruise-family-guide/index.html",
+      "mode": "family",
+      "port": "hirara-miyakojima",
+      "status": "added",
+      "cards": 1,
+      "numeric": 0,
+      "official_sources": 1
+    },
+    {
+      "page": "site/things-to-do/hirara-miyakojima-cruise-couple-guide/index.html",
+      "mode": "couple",
+      "port": "hirara-miyakojima",
+      "status": "added",
+      "cards": 1,
+      "numeric": 0,
+      "official_sources": 1
+    }
+  ]
+}
