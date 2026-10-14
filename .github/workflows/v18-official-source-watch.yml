@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - 'scripts/v18-official-source-watch.py'
+      - 'tests/test_v18_watch.py'
       - '.github/workflows/v18-official-source-watch.yml'
 permissions:
   contents: read
@@ -20,6 +21,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+      - name: Test change detection and failure recovery
+        run: python3 -m unittest discover -s tests -p 'test_v18_watch.py' -v
       - name: Restore last successful snapshot if available
         env:
           GH_TOKEN: ${{ github.token }}
