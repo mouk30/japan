@@ -1,0 +1,50 @@
+name: V16 Gate Venue Shuttle Return Quality
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/v16-gate-venue-transport.json'
+      - 'scripts/v16-gate-venue-apply.py'
+      - '.github/workflows/v16-gate-venue-upgrade.yml'
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Publish exact venue route and safe-return decision cards to 45 guides
+        run: python scripts/v16-gate-venue-apply.py
+      - name: Validate coverage, 3 venues in each guide and no missing route mapping
+        run: |
+          python - <<'PY'
+          import json
+          x=json.load(open('audit-reports/v16/coverage.json'))
+          s=x['summary']
+          print(s)
+          assert s['published']==45 and s['venue_cards']==135
+          assert s['venue_hint_needs_review']==0, "Venue transport area needs specific mapping"
+          PY
+      - name: Commit guides and route QA evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/things-to-do audit-reports/v16/coverage.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V16: verified gate, shuttle and safe return guidance for 135 venues"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Export 45 page and 135 venue coverage
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v16-gate-venue-135-coverage
+          path: audit-reports/v16/coverage.json
+          retention-days: 30
