@@ -88,3 +88,27 @@
 @media (max-width:510px){
   .ct-action .act-options{grid-template-columns:1fr;}
 }
+
+/* V21 · image-first travel discovery: place photography above copy.
+   Promote destination gallery immediately after article hero, retaining
+   all safety/port sections and anchors in the document. */
+main.wrap > article:has(> #ct-topic-dashboard){display:flex;flex-direction:column}
+main.wrap > article:has(> #ct-topic-dashboard) > header.pane{order:-20}
+main.wrap > article:has(> #ct-topic-dashboard) > #ct-topic-dashboard{order:-19}
+#ct-topic-dashboard .ct-grid > .ct-card{
+  display:flex!important;
+  flex-direction:column;
+  min-width:0;
+}
+#ct-topic-dashboard .ct-card > figure.ct-photo{
+  order:-10;
+  margin:0 0 12px!important;
+}
+#ct-topic-dashboard .ct-card > h3{order:-9;margin:0 0 5px}
+#ct-topic-dashboard .ct-card > .ct-tag{order:-8;margin-bottom:8px}
+#ct-topic-dashboard .ct-card > .ct-emoji{order:-7;margin:0 0 5px;font-size:18px}
+#ct-topic-dashboard .ct-card .ct-photo img{width:100%;aspect-ratio:4/3;object-fit:cover}
+@media(max-width:620px){
+  #ct-topic-dashboard .ct-card > figure.ct-photo{margin-bottom:10px!important}
+  #ct-topic-dashboard .ct-card > h3{font-size:18px}
+}
