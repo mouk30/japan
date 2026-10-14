@@ -1,0 +1,14 @@
+/* V17 official per-call berth records; "scheduled" is never passenger boarding time. */
+.ct-area .nf-v17-ops{margin:14px 0 11px;padding:13px 14px;background:#fff;border:1px solid #c9dfe7;border-radius:11px;box-shadow:0 2px 8px rgba(13,49,62,.04);color:#315666}
+.ct-area .nf-v17-ops .nf-v17-label{font-size:12px!important;color:#086d86;font-weight:900;margin:0 0 6px;letter-spacing:.01em}
+.ct-area .nf-v17-ops .nf-v17-label>span{font-size:11px;color:#687f8c;font-weight:550;letter-spacing:0}
+.ct-area .nf-v17-ops .nf-v17-status{font-size:12px;margin:0 0 7px;line-height:1.55;color:#345c70}
+.ct-area .nf-v17-ops .nf-v17-calls{margin:9px 0;padding:0;list-style:none;display:grid;gap:8px}
+.ct-area .nf-v17-ops .nf-v17-calls li{font-size:12px;line-height:1.7;border:1px solid #deeaef;border-radius:8px;padding:9px 10px;background:#f7fbfd;color:#335a6b;overflow-wrap:anywhere}
+.ct-area .nf-v17-ops .nf-v17-day{font-weight:800;color:#0c627e;white-space:nowrap}
+.ct-area .nf-v17-ops .nf-v17-berth{font-weight:700;color:#1e5068}
+.ct-area .nf-v17-ops .nf-v17-times{display:block;font-size:11px;color:#526d79}
+.ct-area .nf-v17-ops .nf-v17-unverified{margin:7px 0;font-size:12px;line-height:1.8;color:#725c3e;background:#fff9ed;border:1px solid #ebdbc2;padding:10px;border-radius:8px}
+.ct-area .nf-v17-ops .nf-v17-note{margin:8px 0;font-size:12px;line-height:1.75;color:#526e7a}
+.ct-area .nf-v17-ops a{display:inline!important;width:auto!important;min-height:0!important;padding:0!important;margin:5px 0!important;border:0!important;background:transparent!important;border-radius:0!important;box-shadow:none!important;color:#086c86!important;font-size:12px!important;font-weight:800!important;text-decoration:underline!important}
+.ct-area .nf-v17-ops .nf-v17-safety{margin:7px 0 0;font-size:11px;line-height:1.75;color:#6a5944;background:#fff8e9;padding:8px;border-radius:7px}
