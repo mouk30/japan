@@ -1,0 +1,47 @@
+name: V29 Seasons Licensed Photo Upgrade
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/v29-seasons-photo-refresh.py'
+      - '.github/workflows/v29-seasons-upgrade.yml'
+permissions:
+  contents: write
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 32
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow==11.3.0
+      - name: Acquire verifiable historical winter photographs and diversify 34 cards
+        run: python -u scripts/v29-seasons-photo-refresh.py
+      - name: Validate image files and 34 unique card pictures
+        run: |
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          d=json.loads(Path('audit-reports/v29/seasons.json').read_text())
+          assert d['cards']==34 and d['allUnique'] and d['photos']>=11
+          page=Path('site/seasons/index.html').read_text()
+          assert page.count('<main ')==page.count('</main>')==1
+          assert page.count('class="dircard"')==34
+          for c in d['cards_manifest']:
+              assert Path('site'+c['image']).is_file(), c
+              assert c['image'] in page
+          for p in d['photo_sources'].values():
+              assert p['url'] in page and p['author'] in page
+          print('V29_SEASONS_STATIC_QA PASS 34/34')
+          PY
+      - name: Commit only validated season page and image assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/seasons/index.html site/images/seasons/ audit-reports/v29/seasons.json
+          git diff --cached --check
+          git commit -m 'V29 seasons: 34 unique season-matched thumbnails, Commons credits, 3/2/1 responsive cards'
+          git pull --rebase origin main
+          git push origin HEAD:main
