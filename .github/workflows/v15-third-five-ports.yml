@@ -5,7 +5,7 @@ on:
     paths:
       - 'scripts/third-five-ports-v15.json'
       - 'scripts/third-five-v15-apply.py'
-      - '.github/workflows/v15-second-five-ports.yml'
+      - '.github/workflows/v15-third-five-ports.yml'
 permissions:
   contents: write
 jobs:
