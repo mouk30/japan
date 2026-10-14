@@ -1,0 +1,56 @@
+name: V18 Official Source Change Watch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 1 * * *'
+  push:
+    paths:
+      - 'scripts/v18-official-source-watch.py'
+      - '.github/workflows/v18-official-source-watch.yml'
+permissions:
+  contents: read
+  actions: read
+  issues: write
+concurrency:
+  group: v18-official-source-watch
+  cancel-in-progress: false
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore last successful snapshot if available
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p audit-reports/v18/previous
+          for run in $(gh run list -R "$GITHUB_REPOSITORY" --workflow v18-official-source-watch.yml --status success --limit 8 --json databaseId --jq '.[].databaseId'); do
+            if gh run download "$run" -R "$GITHUB_REPOSITORY" --name v18-official-source-snapshot --dir audit-reports/v18/previous 2>/dev/null; then
+              echo "Restored snapshot from run $run"
+              break
+            fi
+          done
+      - name: Fetch and compare official source documents
+        id: scan
+        run: python3 scripts/v18-official-source-watch.py
+      - name: Archive snapshot and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v18-official-source-snapshot
+          path: audit-reports/v18/current/
+          retention-days: 90
+      - name: Open or update source review issue
+        if: steps.scan.outputs.attention == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title='V18 official source changes — manual review required'
+          existing=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --limit 100 --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)
+          body="Official-source bytes changed or a source fetch failed. This is NOT a verified itinerary change. Review workflow run $GITHUB_RUN_ID, download artifact v18-official-source-snapshot and inspect report.json and original official notices. Update scripts/v17-official-sailings.json only with verified date, vessel and berth, then run scripts/v17-ops-apply.py and V17 QA. Do not infer final passenger boarding time."
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" -R "$GITHUB_REPOSITORY" --body "$body"
+          else
+            gh issue create -R "$GITHUB_REPOSITORY" --title "$title" --body "$body"
+          fi
