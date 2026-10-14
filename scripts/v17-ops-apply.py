@@ -29,7 +29,7 @@ for slug,port in raw['ports'].items():
                    '</li>')
             list_html='<ul class="nf-v17-calls">'+''.join(calls)+'</ul>'
         else:
-            list_html='<p class="nf-v17-unverified">정확한 선박명·날짜·예정 선석은 이번 검수에서 확인되지 않았습니다. 아래 항만 공식 페이지에서 해당 항차를 조회하세요.</p>'
+            list_html=('<p class="nf-v17-unverified">입출항 시각까지 모두 확인된 항차표는 아직 없습니다. 아래 V19 일부 확인 일정과 공식 원문을 함께 확인하세요.</p>' if slug=='beppu' else '<p class="nf-v17-unverified">정확한 선박명·날짜·예정 선석은 이번 검수에서 확인되지 않았습니다. 아래 항만 공식 페이지에서 해당 항차를 조회하세요.</p>')
         card=(
             '<section id="nf-v17-ops" class="nf-v17-ops" aria-label="항차별 공식 예정·미확인 정보">'
               '<p class="nf-v17-label">V17 · 항차별 부두 운영정보 <span>'+e(raw['as_of'])+' 기준</span></p>'
