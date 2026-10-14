@@ -42,6 +42,8 @@ for(const [port,ref] of ports)for(const audience of ['family','couple','parents'
        cards:document.querySelectorAll('#ct-topic-dashboard .ct-grid>.ct-card').length,
        v16Routes:document.querySelectorAll('#ct-topic-dashboard .ct-grid>.ct-card .nf-v16-route').length,
        photoRatios:photos.map(img=>{const r=img.getBoundingClientRect();return r.width?+(r.height/r.width).toFixed(3):null;}),
+       v19Partial:document.querySelector('#nf-v19-partial')?.textContent.trim()||null,
+       v19PartialDays:[...document.querySelectorAll('#nf-v19-partial [data-v19-day]')].map(e=>e.dataset.v19Day),
        overflow:document.documentElement.scrollWidth>innerWidth+3
      }
    });
@@ -59,6 +61,9 @@ for(const [port,ref] of ports)for(const audience of ['family','couple','parents'
    if(result.linkDisplay.some(x=>x==='flex'||x==='grid'))errors.push('OFFICIAL_SOURCE_LINK_BUTTON');
    if(result.cards!==3||result.v16Routes!==3)errors.push('EXISTING_V16_CARD_REGRESSION');
    if(result.photoRatios.some(x=>x!==null&&Math.abs(x-.75)>.045))errors.push('PHOTO_RATIO_REGRESSION');
+   if(port==='beppu'){
+     if(!result.v19Partial||result.v19PartialDays.length!==7||!result.v19Partial.includes('시간 미확인')||!result.v19Partial.includes('제4부두')||!result.v19Partial.includes('최종 귀선시간은 미확인'))errors.push('V19_BEPPU_PARTIAL_MISSING');
+   }
    if(result.overflow)errors.push('HORIZONTAL_OVERFLOW');
    if(env==='production'&&viewport==='mobile'&&['yokohama','hakata','nagasaki','hakodate','ishigaki'].includes(port)){
      await wrapper.screenshot({path:path.join(output,'production-mobile-'+slug+'.png'),animations:'disabled',timeout:12000});
