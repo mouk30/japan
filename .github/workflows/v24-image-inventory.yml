@@ -1,0 +1,25 @@
+name: V24 Cruise Image Asset Inventory
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/audit-v24-image-inventory.mjs'
+      - '.github/workflows/v24-image-inventory.yml'
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Inventory image sources and duplicates
+        run: node scripts/audit-v24-image-inventory.mjs
+      - name: Upload prioritized evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: v24-image-inventory
+          path: audit-reports/v24/inventory.json
+          retention-days: 30
