@@ -3,7 +3,7 @@
 Only edits five existing cruise-port pages. Fails closed on downloads/markup.
 """
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
 from io import BytesIO
 import re, json
@@ -23,7 +23,15 @@ for d in entries:
  file_url="https://commons.wikimedia.org/wiki/File:"+quote(d["file"].replace(" ","_"),safe="._()-")
  image_url="https://commons.wikimedia.org/wiki/Special:FilePath/"+quote(d["file"].replace(" ","_"),safe="._()-")+"?width=1440"
  req=Request(image_url,headers={"User-Agent":"NipponFerryImageCompliance/1.0 (site content photo reuse; contact via nipponferry.com)","Accept":"image/avif,image/webp,image/jpeg,image/png,*/*"})
- with urlopen(req,timeout=55) as res: data=res.read()
+ try:
+  with urlopen(req,timeout=35) as res: data=res.read()
+ except Exception as first_error:
+  proxy="https://wsrv.nl/?"+urlencode({"url":image_url,"output":"jpg","w":"1440"})
+  try:
+   with urlopen(Request(proxy,headers={"User-Agent":"Mozilla/5.0"}),timeout=50) as res: data=res.read()
+  except Exception as other_error:
+   raise RuntimeError(f"Verified Commons photo unavailable for {slug}: {first_error}; proxy: {other_error}")
+
  if len(data)<12000: raise RuntimeError(f"Suspicious image length: {slug}, {len(data)}")
  img=Image.open(BytesIO(data)); img.load()
  if img.width<700 or img.height<500: raise RuntimeError(f"Photo too small: {slug} {img.size}")
