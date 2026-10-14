@@ -1,0 +1,39 @@
+name: V15 Five Official Port Berth Guides
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/third-five-ports-v15.json'
+      - 'scripts/third-five-v15-apply.py'
+      - '.github/workflows/v15-second-five-ports.yml'
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Publish 9 exact berth variants across 15 existing guides
+        run: python scripts/third-five-v15-apply.py
+      - name: Commit routes and evidence inventory
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/things-to-do/ audit-reports/third-five-v15.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V15 verified berth access in five ports for three visitor audiences"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v15-five-port-guide-coverage
+          path: audit-reports/third-five-v15.json
+          retention-days: 30
