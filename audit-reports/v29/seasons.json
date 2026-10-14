@@ -24,11 +24,21 @@
       "height": 800,
       "bytes": 128376
     },
+    "3": {
+      "src": "/images/seasons/v29-season-03.webp",
+      "author": "daita saru",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Sidewalk_Snow%2C_Susukino%2C_Sapporo_-_Jan_23%2C_2014.jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 211344
+    },
     "4": {
       "src": "/images/seasons/v29-season-04.webp",
-      "author": "Wikimedia Commons photographer",
-      "license": "CC BY-SA (see original)",
-      "license_url": "",
+      "author": "Sgroey",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "url": "https://commons.wikimedia.org/wiki/File:Rural_road_in_Hokkaido_in_winter_showing_edge_markers.jpg",
       "width": 1200,
       "height": 674,
@@ -94,6 +104,16 @@
       "height": 800,
       "bytes": 53750
     },
+    "13": {
+      "src": "/images/seasons/v29-season-13.webp",
+      "author": "Mister0124",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:JR_Chitose-Line_New_Chitose_Airport_Station_Platform.jpg",
+      "width": 1200,
+      "height": 673,
+      "bytes": 84648
+    },
     "14": {
       "src": "/images/seasons/v29-season-14.webp",
       "author": "t-konno",
@@ -154,6 +174,16 @@
       "height": 800,
       "bytes": 140388
     },
+    "21": {
+      "src": "/images/seasons/v29-season-21.webp",
+      "author": "Lawsonstu",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Noboribetsu_Onsen_hot_spring.jpg",
+      "width": 1200,
+      "height": 675,
+      "bytes": 211348
+    },
     "22": {
       "src": "/images/seasons/v29-season-22.webp",
       "author": "京浜にけ",
@@ -163,6 +193,26 @@
       "width": 1057,
       "height": 800,
       "bytes": 88844
+    },
+    "23": {
+      "src": "/images/seasons/v29-season-23.webp",
+      "author": "Raita Futo",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Snow_roads_in_Hokkaido_(53370261279).jpg",
+      "width": 1067,
+      "height": 800,
+      "bytes": 252296
+    },
+    "25": {
+      "src": "/images/seasons/v29-season-25.webp",
+      "author": "掬茶",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Mount_Hokkaido_Komagatake_in_winter_202601.jpg",
+      "width": 1200,
+      "height": 675,
+      "bytes": 71112
     },
     "26": {
       "src": "/images/seasons/v29-season-26.webp",
@@ -203,56 +253,6 @@
       "width": 533,
       "height": 800,
       "bytes": 126262
-    },
-    "3": {
-      "src": "/images/seasons/v29-season-03.webp",
-      "author": "daita saru",
-      "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0/",
-      "url": "https://commons.wikimedia.org/wiki/File:Sidewalk_Snow%2C_Susukino%2C_Sapporo_-_Jan_23%2C_2014.jpg",
-      "width": 1200,
-      "height": 800,
-      "bytes": 211344
-    },
-    "13": {
-      "src": "/images/seasons/v29-season-13.webp",
-      "author": "Mister0124",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "url": "https://commons.wikimedia.org/wiki/File:JR_Chitose-Line_New_Chitose_Airport_Station_Platform.jpg",
-      "width": 1200,
-      "height": 673,
-      "bytes": 84648
-    },
-    "21": {
-      "src": "/images/seasons/v29-season-21.webp",
-      "author": "Lawsonstu",
-      "license": "CC0 1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "url": "https://commons.wikimedia.org/wiki/File:Noboribetsu_Onsen_hot_spring.jpg",
-      "width": 1200,
-      "height": 675,
-      "bytes": 211348
-    },
-    "23": {
-      "src": "/images/seasons/v29-season-23.webp",
-      "author": "Raita Futo",
-      "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0/",
-      "url": "https://commons.wikimedia.org/wiki/File:Snow_roads_in_Hokkaido_(53370261279).jpg",
-      "width": 1067,
-      "height": 800,
-      "bytes": 252296
-    },
-    "25": {
-      "src": "/images/seasons/v29-season-25.webp",
-      "author": "掬茶",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "url": "https://commons.wikimedia.org/wiki/File:Mount_Hokkaido_Komagatake_in_winter_202601.jpg",
-      "width": 1200,
-      "height": 675,
-      "bytes": 71112
     }
   },
   "cards_manifest": [
