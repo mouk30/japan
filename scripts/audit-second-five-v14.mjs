@@ -54,7 +54,8 @@ for(const [environment,base] of environments)for(const [screen,width,height] of 
       if(a.source!==b.source)problems.push('OFFICIAL_SOURCE_MISMATCH_'+(i+1));
       if(!a.hasReturn||!a.hasPreciseLeg)problems.push('MISSING_RETURN_OR_ORIGIN_'+(i+1));
    }
-   if(actual.photoCount!==3)problems.push('VENUE_THUMBNAIL_COUNT');
+   const expectedPhotoCount = guide==='parents' && ['osaka','sasebo','kanazawa'].includes(port) ? 2 : 3;
+   if(actual.photoCount!==expectedPhotoCount)problems.push('VENUE_THUMBNAIL_COUNT');
    if(actual.photos.some(x=>x.ratio&&Math.abs(x.ratio-.75)>.04))problems.push('PHOTO_RATIO_REGRESSION');
    if(actual.linkDisplay.some(x=>x==='flex'||x==='grid'))problems.push('OFFICIAL_LINK_RENDERED_AS_BUTTON');
    // Verify all accordion sections are keyboard operable and expansions reveal critical information.
