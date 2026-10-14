@@ -33,7 +33,7 @@ for(const [environment,base] of environments)for(const [screen,width,height] of 
            amount:d.querySelector('.nf-precision-leg b')?.textContent?.trim(),
            source:d.querySelector('.nf-precision-body>a')?.href,
            hasTransfer:!!d.querySelector('.nf-precision-body p:nth-of-type(4)'),
-           hasReturn:d.querySelector('.nf-precision-body')?.textContent?.includes('귀선 경로'),
+           hasReturn:d.querySelector('.nf-precision-body')?.textContent?.includes('귀선 장소'),
            hasPreciseLeg:!!d.querySelector('.nf-precision-leg>span'),
            height:Math.round(d.getBoundingClientRect().height),
            open:d.open,
@@ -50,7 +50,7 @@ for(const [environment,base] of environments)for(const [screen,width,height] of 
    if(actual.layoutOverflow)problems.push('PAGE_HORIZONTAL_OVERFLOW');
    for(let i=0;i<Math.min(actual.cards.length,info.berths.length);i++){
       const a=actual.cards[i],b=info.berths[i];
-      if(!a.header.includes(b.name)||a.amount!==b.amount)problems.push('WRONG_BERTH_OR_QUANTITY_'+(i+1));
+      if(!a.header.includes(b.name)||a.amount!==b.measure)problems.push('WRONG_BERTH_OR_QUANTITY_'+(i+1));
       if(a.source!==b.source)problems.push('OFFICIAL_SOURCE_MISMATCH_'+(i+1));
       if(!a.hasReturn||!a.hasPreciseLeg)problems.push('MISSING_RETURN_OR_ORIGIN_'+(i+1));
    }
