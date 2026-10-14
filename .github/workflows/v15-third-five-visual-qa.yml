@@ -1,0 +1,39 @@
+name: V15 Third Five Ports Live Browser QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/audit-third-five-v15.mjs'
+      - '.github/workflows/v15-third-five-visual-qa.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build static site
+        run: npm run build
+      - name: Compare V15 berth data on local preview and live site
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist > /tmp/v15-local.log 2>&1 &
+          sleep 2
+          node scripts/audit-third-five-v15.mjs
+        env:
+          LOCAL_BASE_URL: http://127.0.0.1:8765
+          LIVE_BASE_URL: https://www.nipponferry.com
+      - name: Export real screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v15-third-five-browser-qa
+          path: audit-reports/v15-third-five-port-visual/
+          retention-days: 30
