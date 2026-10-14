@@ -13,6 +13,8 @@ on:
       - 'scripts/v26-batch4-real-photos.py'
       - 'scripts/v26-batch5-real-photos.py'
       - 'scripts/v26-batch5-grounded-routes.py'
+      - 'scripts/v27-batch1-real-photos.py'
+      - 'scripts/v27-batch1-routes.py'
 permissions:
   contents: read
 jobs:
