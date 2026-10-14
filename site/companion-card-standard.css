@@ -93,7 +93,7 @@
    Promote destination gallery immediately after article hero, retaining
    all safety/port sections and anchors in the document. */
 main > article:has(> #ct-topic-dashboard){display:flex;flex-direction:column}
-main > article:has(> #ct-topic-dashboard) > header.pane{order:-20}
+main > article:has(> #ct-topic-dashboard) > header{order:-20}
 main > article:has(> #ct-topic-dashboard) > #ct-topic-dashboard{order:-19}
 #ct-topic-dashboard .ct-grid > .ct-card{
   display:flex!important;
