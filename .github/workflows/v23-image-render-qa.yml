@@ -1,0 +1,38 @@
+name: V23 Cruise Image Render QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/audit-v23-image-render.mjs'
+      - '.github/workflows/v23-image-render-qa.yml'
+      - 'site/style.css'
+      - 'site/companion-card-standard.css'
+permissions:
+  contents: read
+jobs:
+  image-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build pages
+        run: npm run build
+      - name: Check image rendering at 356 viewports
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist >/tmp/v23-preview.log 2>&1 &
+          sleep 2
+          node scripts/audit-v23-image-render.mjs
+      - name: Save full result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v23-image-render-results
+          path: audit-reports/v23/
+          retention-days: 30
