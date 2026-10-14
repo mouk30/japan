@@ -26,8 +26,8 @@ jobs:
           python - <<'PY'
           import json
           x=json.load(open('audit-reports/v17/coverage.json'))['summary']
-          assert x['updated']==45 and x['unique_official_call_rows']==14
-          assert x['ports_with_checked_official_calls']==4 and x['ports_not_verified']==11
+          assert x['updated']==45 and x['unique_official_call_rows']==18
+          assert x['ports_with_checked_official_calls']==5 and x['ports_not_verified']==10
           print(x)
           PY
       - name: Commit V17 without altering older venue photographs
