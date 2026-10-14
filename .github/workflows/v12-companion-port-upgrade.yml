@@ -1,0 +1,39 @@
+name: V12.1 Family Couple Port Travel Upgrade
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/companion-port-v12-apply.py'
+      - 'site/companion-shared-port-v12.css'
+      - '.github/workflows/v12-companion-port-upgrade.yml'
+permissions:
+  contents: write
+jobs:
+  update-guides:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply 29 sourced route legs to family and couple guides
+        run: python scripts/companion-port-v12-apply.py
+      - name: Publish updated 30 guides and audit inventory
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/things-to-do/ audit-reports/companion-port-v12.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V12.1: official port routes for 30 family and couple guides"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v12-family-couple-port-coverage
+          path: audit-reports/companion-port-v12.json
+          retention-days: 30
