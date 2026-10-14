@@ -20,7 +20,7 @@ for(const dir of folders){
       await page.evaluate(async()=>{await Promise.all([...document.querySelectorAll('main article img')].map(img=>img.complete?Promise.resolve():new Promise(resolve=>{img.addEventListener('load',resolve,{once:true});img.addEventListener('error',resolve,{once:true});setTimeout(resolve,3000)})));});
       data=await page.evaluate((companion)=>{
         const heading=document.querySelector('main article h1');
-        const hero=document.querySelector('main article > header img[src*="/images/editorial/"]');
+        const hero=document.querySelector('main article > header img.cover, main article > header img.hero-img, main article > header figure img[src*="/images/editorial/"]');
         const gallery=document.querySelector('#ct-topic-dashboard');
         const firstPhoto=gallery?.querySelector('.ct-grid > .ct-card .ct-photo img');
         const rect=x=>{const r=x?.getBoundingClientRect();return r?{top:r.top+scrollY,bottom:r.bottom+scrollY,width:r.width,height:r.height}:null};
