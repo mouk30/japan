@@ -1,0 +1,46 @@
+name: V29 Seasons Photo Accuracy Follow-up
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/v29-seasons-photo-accuracy.py'
+      - '.github/workflows/v29-seasons-accuracy.yml'
+permissions:
+  contents: write
+jobs:
+  accuracy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow==11.3.0
+      - name: Replace inaccurate fallback images and verify readable credits
+        run: python -u scripts/v29-seasons-photo-accuracy.py
+      - name: Validate production source and licenses
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          m=json.loads(Path('audit-reports/v29/seasons.json').read_text())
+          s=Path('site/seasons/index.html').read_text()
+          assert len(m['cards_manifest'])==34 and len(set(c['image'] for c in m['cards_manifest']))==34
+          assert m['photos']>=20
+          assert s.count('class="dircard"')==34
+          assert s.count('class="season-photo-note"')==34
+          assert 'property="og:image"' in s and s.count('<main ') ==1
+          for c in m['cards_manifest']: assert Path('site'+c['image']).exists(),c['image']
+          for row in m['photo_sources'].values(): assert row['url'] in s and row['author'] in s
+          print('V29_SEASONS_ACCURACY PASS',m['photos'], 'real photographs, 34 unique cards')
+          PY
+      - name: Commit verified source and images
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/seasons/index.html site/images/seasons/ audit-reports/v29/seasons.json
+          git diff --cached --check
+          git commit -m 'V29 seasons: correct winter photo locations and attribution; add OG photo'
+          git pull --rebase origin main
+          git push origin HEAD:main
