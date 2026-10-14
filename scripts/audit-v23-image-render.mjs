@@ -30,7 +30,7 @@ for(const dir of folders){
           imageCount:document.querySelectorAll('main article img').length,
           broken:[...document.querySelectorAll('main article img')].filter(i=>i.complete&&!i.naturalWidth).map(i=>i.getAttribute('src')).slice(0,12),
           overflow:document.documentElement.scrollWidth>innerWidth+3,
-          overflowNodes:[...document.querySelectorAll('main article *')].filter(e=>e.getBoundingClientRect().right>innerWidth+3).slice(0,5).map(e=>({tag:e.tagName,cls:String(e.className).slice(0,90),right:Math.round(e.getBoundingClientRect().right)}))
+          overflowNodes:[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+3).slice(0,5).map(e=>({tag:e.tagName,cls:String(e.className).slice(0,90),right:Math.round(e.getBoundingClientRect().right),left:Math.round(e.getBoundingClientRect().left)}))
         };
       },companion);
       if(!data.heading||!data.hero||!data.heroOk)errors.push('HERO_MISSING_OR_BROKEN');
