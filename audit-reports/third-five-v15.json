@@ -1,0 +1,131 @@
+{
+  "summary": {
+    "ports": 5,
+    "guides": 15,
+    "updated": 15,
+    "different_berths": 9,
+    "rendered_berth_cards": 27
+  },
+  "guides": [
+    {
+      "port": "aomori",
+      "mode": "family",
+      "status": "published",
+      "file": "site/things-to-do/aomori-cruise-family-guide/index.html",
+      "berths": 2,
+      "source_urls": 2
+    },
+    {
+      "port": "aomori",
+      "mode": "couple",
+      "status": "published",
+      "file": "site/things-to-do/aomori-cruise-couple-guide/index.html",
+      "berths": 2,
+      "source_urls": 2
+    },
+    {
+      "port": "aomori",
+      "mode": "parents",
+      "status": "published",
+      "file": "site/things-to-do/aomori-cruise-parents-guide/index.html",
+      "berths": 2,
+      "source_urls": 2
+    },
+    {
+      "port": "beppu",
+      "mode": "family",
+      "status": "published",
+      "file": "site/things-to-do/beppu-cruise-family-guide/index.html",
+      "berths": 1,
+      "source_urls": 1
+    },
+    {
+      "port": "beppu",
+      "mode": "couple",
+      "status": "published",
+      "file": "site/things-to-do/beppu-cruise-couple-guide/index.html",
+      "berths": 1,
+      "source_urls": 1
+    },
+    {
+      "port": "beppu",
+      "mode": "parents",
+      "status": "published",
+      "file": "site/things-to-do/beppu-cruise-parents-guide/index.html",
+      "berths": 1,
+      "source_urls": 1
+    },
+    {
+      "port": "hakodate",
+      "mode": "family",
+      "status": "published",
+      "file": "site/things-to-do/hakodate-cruise-family-guide/index.html",
+      "berths": 3,
+      "source_urls": 2
+    },
+    {
+      "port": "hakodate",
+      "mode": "couple",
+      "status": "published",
+      "file": "site/things-to-do/hakodate-cruise-couple-guide/index.html",
+      "berths": 3,
+      "source_urls": 2
+    },
+    {
+      "port": "hakodate",
+      "mode": "parents",
+      "status": "published",
+      "file": "site/things-to-do/hakodate-cruise-parents-guide/index.html",
+      "berths": 3,
+      "source_urls": 2
+    },
+    {
+      "port": "kagoshima",
+      "mode": "family",
+      "status": "published",
+      "file": "site/things-to-do/kagoshima-cruise-family-guide/index.html",
+      "berths": 2,
+      "source_urls": 2
+    },
+    {
+      "port": "kagoshima",
+      "mode": "couple",
+      "status": "published",
+      "file": "site/things-to-do/kagoshima-cruise-couple-guide/index.html",
+      "berths": 2,
+      "source_urls": 2
+    },
+    {
+      "port": "kagoshima",
+      "mode": "parents",
+      "status": "published",
+      "file": "site/things-to-do/kagoshima-cruise-parents-guide/index.html",
+      "berths": 2,
+      "source_urls": 2
+    },
+    {
+      "port": "hirara-miyakojima",
+      "mode": "family",
+      "status": "published",
+      "file": "site/things-to-do/hirara-miyakojima-cruise-family-guide/index.html",
+      "berths": 1,
+      "source_urls": 1
+    },
+    {
+      "port": "hirara-miyakojima",
+      "mode": "couple",
+      "status": "published",
+      "file": "site/things-to-do/hirara-miyakojima-cruise-couple-guide/index.html",
+      "berths": 1,
+      "source_urls": 1
+    },
+    {
+      "port": "hirara-miyakojima",
+      "mode": "parents",
+      "status": "published",
+      "file": "site/things-to-do/hirara-miyakojima-cruise-parents-guide/index.html",
+      "berths": 1,
+      "source_urls": 1
+    }
+  ]
+}
