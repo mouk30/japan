@@ -14,9 +14,6 @@ for slug,port in raw['ports'].items():
     for audience in ['family','couple','parents']:
         p=root/(slug+'-cruise-'+audience+'-guide')/'index.html'
         s=p.read_text(encoding='utf8')
-        if 'id="nf-v17-ops"' in s:
-            result.append({'slug':slug,'audience':audience,'state':'already'})
-            continue
         if s.count('id="nf-v16-brief"')!=1:raise ValueError('Cannot find V16 introduction '+str(p))
         status=('공식 예정표 확인 · 항차 당일 변경 가능' if port['calls'] else '항차별 개별 일정 미검증')
         if port['calls']:
@@ -45,11 +42,17 @@ for slug,port in raw['ports'].items():
         )
         old='<p class="nf-v16-notice">'
         if s.count(old)!=1:raise ValueError('V16 notice location mismatch '+str(p))
-        s=s.replace(old,card+old,1)
+        if 'id="nf-v17-ops"' in s:
+            s,n=re.subn(r'<section id="nf-v17-ops"[\s\S]*?</section>',lambda _:card,s,count=1)
+            if n!=1:raise ValueError('Cannot replace V17 '+str(p))
+            state='refreshed'
+        else:
+            s=s.replace(old,card+old,1)
+            state='published'
         if '/companion-ops-v17.css' not in s:
             s=s.replace('</head>','<link rel="stylesheet" href="/companion-ops-v17.css?v=20261014"></head>',1)
         p.write_text(s,encoding='utf8')
-        result.append({'slug':slug,'audience':audience,'state':'published','official_records':len(port['calls']),'source':port['scheduleSource'],'status':port['status']})
-summary={'pages':len(result),'updated':sum(x['state']=='published' for x in result),'ports':len(raw['ports']),'ports_with_checked_official_calls':sum(bool(x['calls']) for x in raw['ports'].values()),'ports_not_verified':sum(not x['calls'] for x in raw['ports'].values()),'unique_official_call_rows':sum(len(x['calls']) for x in raw['ports'].values()),'route_gate_to_venue_measurements_verified':0,'shuttle_actual_trip_verified':0,'as_of':raw['as_of']}
+        result.append({'slug':slug,'audience':audience,'state':state,'official_records':len(port['calls']),'source':port['scheduleSource'],'status':port['status']})
+summary={'pages':len(result),'updated':sum(x['state'] in ('published','refreshed') for x in result),'ports':len(raw['ports']),'ports_with_checked_official_calls':sum(bool(x['calls']) for x in raw['ports'].values()),'ports_not_verified':sum(not x['calls'] for x in raw['ports'].values()),'unique_official_call_rows':sum(len(x['calls']) for x in raw['ports'].values()),'route_gate_to_venue_measurements_verified':0,'shuttle_actual_trip_verified':0,'as_of':raw['as_of']}
 (out/'coverage.json').write_text(json.dumps({'summary':summary,'pages':result},ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 print(json.dumps(summary,ensure_ascii=False))
