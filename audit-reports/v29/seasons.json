@@ -1,7 +1,7 @@
 {
   "page": "seasons",
   "cards": 34,
-  "photos": 20,
+  "photos": 25,
   "allUnique": true,
   "photo_sources": {
     "1": {
@@ -203,6 +203,56 @@
       "width": 533,
       "height": 800,
       "bytes": 126262
+    },
+    "3": {
+      "src": "/images/seasons/v29-season-03.webp",
+      "author": "daita saru",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Sidewalk_Snow%2C_Susukino%2C_Sapporo_-_Jan_23%2C_2014.jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 211344
+    },
+    "13": {
+      "src": "/images/seasons/v29-season-13.webp",
+      "author": "Mister0124",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:JR_Chitose-Line_New_Chitose_Airport_Station_Platform.jpg",
+      "width": 1200,
+      "height": 673,
+      "bytes": 84648
+    },
+    "21": {
+      "src": "/images/seasons/v29-season-21.webp",
+      "author": "Lawsonstu",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Noboribetsu_Onsen_hot_spring.jpg",
+      "width": 1200,
+      "height": 675,
+      "bytes": 211348
+    },
+    "23": {
+      "src": "/images/seasons/v29-season-23.webp",
+      "author": "Raita Futo",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Snow_roads_in_Hokkaido_(53370261279).jpg",
+      "width": 1067,
+      "height": 800,
+      "bytes": 252296
+    },
+    "25": {
+      "src": "/images/seasons/v29-season-25.webp",
+      "author": "掬茶",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Mount_Hokkaido_Komagatake_in_winter_202601.jpg",
+      "width": 1200,
+      "height": 675,
+      "bytes": 71112
     }
   },
   "cards_manifest": [
@@ -224,8 +274,8 @@
       "order": 3,
       "href": "/season/sapporo-snow-festival-clothes/",
       "title": "삿포로 눈축제 옷차림",
-      "image": "/images/editorial/kotatsu-japanese-winter-table.webp",
-      "real_photo": false
+      "image": "/images/seasons/v29-season-03.webp",
+      "real_photo": true
     },
     {
       "order": 4,
@@ -294,8 +344,8 @@
       "order": 13,
       "href": "/season/new-chitose-to-sapporo-winter/",
       "title": "신치토세공항에서 삿포로 겨울 이동",
-      "image": "/images/rail.jpg",
-      "real_photo": false
+      "image": "/images/seasons/v29-season-13.webp",
+      "real_photo": true
     },
     {
       "order": 14,
@@ -350,8 +400,8 @@
       "order": 21,
       "href": "/season/noboribetsu-winter-onsen/",
       "title": "노보리베츠 겨울 온천 가이드",
-      "image": "/images/editorial/beppu-port-onsen-day-trip.webp",
-      "real_photo": false
+      "image": "/images/seasons/v29-season-21.webp",
+      "real_photo": true
     },
     {
       "order": 22,
@@ -364,8 +414,8 @@
       "order": 23,
       "href": "/season/hokkaido-winter-rental-car/",
       "title": "홋카이도 겨울 렌터카 주의사항",
-      "image": "/images/editorial/okinawa-palm-coast-drive.webp",
-      "real_photo": false
+      "image": "/images/seasons/v29-season-23.webp",
+      "real_photo": true
     },
     {
       "order": 24,
@@ -378,8 +428,8 @@
       "order": 25,
       "href": "/season/hokkaido-winter-solo/",
       "title": "홋카이도 겨울 혼자여행",
-      "image": "/images/editorial/nagano-kamikochi-azusa-river.webp",
-      "real_photo": false
+      "image": "/images/seasons/v29-season-25.webp",
+      "real_photo": true
     },
     {
       "order": 26,
