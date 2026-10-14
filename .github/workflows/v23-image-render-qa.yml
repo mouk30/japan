@@ -7,6 +7,8 @@ on:
       - '.github/workflows/v23-image-render-qa.yml'
       - 'site/style.css'
       - 'site/companion-card-standard.css'
+      - 'site/things-to-do/**/index.html'
+      - 'site/images/venues/**'
 permissions:
   contents: read
 jobs:
