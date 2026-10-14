@@ -126,3 +126,14 @@ body main article > header:has(> figure > img.cover[src*="/images/editorial/v"])
 body main article > header:has(> figure > img.cover[src*="/images/editorial/v"]) > figure{order:-19;margin:10px 0 12px}
 body main article > header:has(> figure > img.cover[src*="/images/editorial/v"]) > .lead{order:-18}
 body main article > header:has(> figure > img.cover[src*="/images/editorial/v"]) figure img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:14px}
+
+/* V24 mobile width containment for editorial cruise-port guides.
+   Let long external references wrap without clipping site-wide navigation. */
+@media(max-width:620px){
+ body main article{min-width:0;max-width:100%}
+ body main article > header,body main article > section{min-width:0;max-width:100%;box-sizing:border-box}
+ body main article img{max-width:100%;height:auto}
+ body main article :is(p,li,h1,h2,h3,figcaption,a){overflow-wrap:anywhere}
+ body main article :is(table,.table-scroll,.tablewrap){max-width:100%}
+ body main article :is(.routes,.ct-grid,.ab-grid){min-width:0}
+}
