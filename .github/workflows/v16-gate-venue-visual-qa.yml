@@ -1,0 +1,39 @@
+name: V16 Gate Venue Live Browser QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/audit-v16-live.mjs'
+      - '.github/workflows/v16-gate-venue-visual-qa.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium for real-rendered verification
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build Vercel-equivalent static site
+        run: npm run build
+      - name: Audit 45 pages on mobile desktop build and production
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist > /tmp/v16-preview.log 2>&1 &
+          sleep 2
+          node scripts/audit-v16-live.mjs
+        env:
+          LOCAL_BASE_URL: http://127.0.0.1:8765
+          LIVE_BASE_URL: https://www.nipponferry.com
+      - name: Save screenshot and machine-readable test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v16-45-guides-135-venues-visual-QA
+          path: audit-reports/v16/visual/
+          retention-days: 30
