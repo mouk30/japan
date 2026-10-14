@@ -89,3 +89,21 @@
 .desktop-nav .nav-companion:hover,.desktop-nav .nav-companion[aria-current="page"]{background:#fff;color:#063d7c}
 .mobile-menu a[href="/things-to-do/travel-companions/"]{background:#ecf7fa;border:1px solid #b8dce7;color:#075579}
 .mobile-menu a[href="/things-to-do/travel-companions/"][aria-current="page"]{background:#d0eef5;border-color:#68b5c9}
+
+
+/* V22 Cruise port articles — imagery follows the destination title.
+   Scoped to editorial cruise-port articles; never affects safety details,
+   route facts, captions, attribution links, or unrelated category cards. */
+body main article > header:has(figure img[src*="/images/editorial/"][src*="cruise-port"]) {
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+}
+body main article > header:has(figure img[src*="/images/editorial/"][src*="cruise-port"]) > h1{order:-20}
+body main article > header:has(figure img[src*="/images/editorial/"][src*="cruise-port"]) > figure{order:-19;margin:10px 0 12px}
+body main article > header:has(figure img[src*="/images/editorial/"][src*="cruise-port"]) > .lead,
+body main article > header:has(figure img[src*="/images/editorial/"][src*="cruise-port"]) > .article-lead{order:-18}
+body main article > header:has(figure img[src*="/images/editorial/"][src*="cruise-port"]) figure img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:14px}
+@media(max-width:620px){
+ body main article > header:has(figure img[src*="/images/editorial/"][src*="cruise-port"]) > figure{margin:8px 0 10px}
+}
