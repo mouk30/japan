@@ -39,6 +39,12 @@ for(const file of pages) {
   if(mobile && !mobile[1].includes('href="/things-to-do/"')) {
     h=h.replace('<div class="mobile-menu">','<div class="mobile-menu"><a href="/things-to-do/">즐길거리</a>');
   }
+  // V25: constrain the shared brand image at markup level for legacy cruise templates.
+  // Prevent intrinsic 1254px mascot artwork from expanding narrow screens before CSS settles.
+  if (file.includes(path.join('things-to-do', ''))) {
+    h=h.replace(/(<a class="brand"[^>]*>\s*<img)([^>]*src="\/images\/mascot\.png"[^>]*)(>)/g,
+      (_,start,attrs,end)=>start+attrs.replace(/\s+style="[^"]*"/g,'')+' style="width:38px;height:38px;max-width:38px;max-height:38px;object-fit:contain;flex-shrink:0"'+end);
+  }
   // Public-facing pages must never display internal release numbers.
   // Keep V## only in GitHub commit history, README and developer CSS class names.
   // Match version prefixes at the beginning of visible text nodes, not V-branded products.
