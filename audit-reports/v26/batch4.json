@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "akita",
+    "image": "/images/venues/akita-v26-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Akita_Port_Tower_SELION_20170709.jpg",
+    "author": "掬茶",
+    "license": "CC BY-SA 4.0",
+    "width": 1333,
+    "height": 1000,
+    "bytes": 118162,
+    "note": "Historical photograph, not real-time"
+  },
+  {
+    "slug": "kochi",
+    "image": "/images/venues/kochi-v26-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Katsurahama_beach_through_pine_trees%2C_Kochi%2C_March_2014.jpg",
+    "author": "NevinThompson",
+    "license": "CC BY-SA 4.0",
+    "width": 1333,
+    "height": 1000,
+    "bytes": 209342,
+    "note": "Historical photograph, not real-time"
+  },
+  {
+    "slug": "matsuyama",
+    "image": "/images/venues/matsuyama-v26-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Dogo-onsen_Honkan.jpg",
+    "author": "Mnd",
+    "license": "CC BY-SA 2.1 JP",
+    "width": 1333,
+    "height": 1000,
+    "bytes": 168682,
+    "note": "Historical photograph, not real-time"
+  },
+  {
+    "slug": "maizuru",
+    "image": "/images/venues/maizuru-v26-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Maizuru_red_brick_warehouses05s3200.jpg",
+    "author": "663highland",
+    "license": "CC BY-SA 3.0",
+    "width": 1440,
+    "height": 964,
+    "bytes": 328306,
+    "note": "Historical photograph, not real-time"
+  },
+  {
+    "slug": "kumamoto",
+    "image": "/images/venues/kumamoto-v26-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:KumamotoCastle.jpg",
+    "author": "Fg2 / Immanuel Giel",
+    "license": "CC BY-SA 3.0",
+    "width": 700,
+    "height": 1000,
+    "bytes": 117258,
+    "note": "Kumamoto historic photo is before 2016 earthquake"
+  }
+]
