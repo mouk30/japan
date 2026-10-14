@@ -7,6 +7,8 @@ on:
     paths:
       - 'scripts/audit-v17-ops-live.mjs'
       - 'site/companion-card-standard.css'
+      - 'site/style.css'
+      - 'scripts/audit-v22-images.mjs'
       - 'scripts/v17-official-sailings.json'
       - 'scripts/v17-ops-apply.py'
       - '.github/workflows/v17-official-calls-qa.yml'
@@ -21,6 +23,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Audit all cruise image-first templates
+        run: node scripts/audit-v22-images.mjs
       - name: Install Chromium
         run: |
           npm install --no-save --no-package-lock playwright@1.56.1
