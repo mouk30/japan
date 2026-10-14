@@ -18,7 +18,11 @@ for(const [environment,base] of environments)for(const [screen,width,height] of 
    const response=await page.goto(uri,{waitUntil:'domcontentloaded',timeout:28000});
    http=response?.status();if(!response?.ok())throw Error('HTTP '+http);
    await page.locator('#nf-precision-v15').waitFor({timeout:11000});
-   await page.waitForFunction(()=>[...document.styleSheets].some(sheet=>sheet.href?.includes('companion-precision-v13.css')),{timeout:11000});
+   await page.waitForFunction(() => {
+     const styles=[...document.styleSheets].map(sheet=>sheet.href||'');
+     return styles.some(x=>x.includes('companion-precision-v13.css')) &&
+            styles.some(x=>x.includes('companion-card-standard.css'));
+   },null,{timeout:15000});
    actual=await page.evaluate(()=>{
       const root=document.querySelector('#nf-precision-v15');
       const decks=[...root.querySelectorAll('details.nf-precision-berth')];
