@@ -1,0 +1,39 @@
+name: V14 Second Five Ports Live Browser QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/audit-second-five-v14.mjs'
+      - '.github/workflows/v14-second-five-visual-qa.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build static site
+        run: npm run build
+      - name: Compare V14 berth data on local preview and live site
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist > /tmp/v14-local.log 2>&1 &
+          sleep 2
+          node scripts/audit-second-five-v14.mjs
+        env:
+          LOCAL_BASE_URL: http://127.0.0.1:8765
+          LIVE_BASE_URL: https://www.nipponferry.com
+      - name: Export real screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v14-second-five-browser-qa
+          path: audit-reports/v14-second-five-port-visual/
+          retention-days: 30
