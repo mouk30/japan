@@ -137,3 +137,25 @@ body main article > header:has(> figure > img.cover[src*="/images/editorial/v"])
  body main article :is(table,.table-scroll,.tablewrap){max-width:100%}
  body main article :is(.routes,.ct-grid,.ab-grid){min-width:0}
 }
+
+/* V25 verified root cause (mobile QA): some port templates render
+   a full-size image inside the .brand anchor, stretching the viewport.
+   Constrain the brand asset itself, not the document overflow. */
+a.brand{display:inline-flex;align-items:center;max-width:100%;min-width:0}
+a.brand > img, a.brand img{
+  display:block!important;
+  width:42px!important;
+  height:42px!important;
+  max-width:42px!important;
+  max-height:42px!important;
+  min-width:0;
+  object-fit:contain;
+  flex:0 0 42px;
+}
+@media(max-width:620px){
+ a.brand > img,a.brand img{
+   width:38px!important;height:38px!important;
+   max-width:38px!important;max-height:38px!important;
+   flex-basis:38px;
+ }
+}
