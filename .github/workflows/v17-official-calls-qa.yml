@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - 'scripts/audit-v17-ops-live.mjs'
+      - 'site/companion-card-standard.css'
       - 'scripts/v17-official-sailings.json'
       - 'scripts/v17-ops-apply.py'
       - '.github/workflows/v17-official-calls-qa.yml'
