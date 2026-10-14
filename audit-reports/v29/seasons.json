@@ -1,0 +1,448 @@
+{
+  "page": "seasons",
+  "cards": 34,
+  "photos": 20,
+  "allUnique": true,
+  "photo_sources": {
+    "1": {
+      "src": "/images/seasons/v29-season-01.webp",
+      "author": "Daigaku2051",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Sapporo_Snow_festival.JPG",
+      "width": 1067,
+      "height": 800,
+      "bytes": 103496
+    },
+    "2": {
+      "src": "/images/seasons/v29-season-02.webp",
+      "author": "ノボホショコロトソ",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Sapporo_City_Skyline.jpg",
+      "width": 1067,
+      "height": 800,
+      "bytes": 128376
+    },
+    "4": {
+      "src": "/images/seasons/v29-season-04.webp",
+      "author": "Wikimedia Commons photographer",
+      "license": "CC BY-SA (see original)",
+      "license_url": "",
+      "url": "https://commons.wikimedia.org/wiki/File:Rural_road_in_Hokkaido_in_winter_showing_edge_markers.jpg",
+      "width": 1200,
+      "height": 674,
+      "bytes": 79922
+    },
+    "5": {
+      "src": "/images/seasons/v29-season-05.webp",
+      "author": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:The_66th_Sapporo_Snow_Festival_-_panoramio.jpg",
+      "width": 1196,
+      "height": 800,
+      "bytes": 185706
+    },
+    "6": {
+      "src": "/images/seasons/v29-season-06.webp",
+      "author": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:SAPPORO_SNOW_FESTIVAL_2010_-_panoramio.jpg",
+      "width": 1199,
+      "height": 800,
+      "bytes": 125874
+    },
+    "7": {
+      "src": "/images/seasons/v29-season-07.webp",
+      "author": "Arcimboldo",
+      "license": "CC BY 2.0 DE",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/de/",
+      "url": "https://commons.wikimedia.org/wiki/File:Odori_Park_Sapporo_Snow_Festival_2007.JPG",
+      "width": 533,
+      "height": 800,
+      "bytes": 93466
+    },
+    "8": {
+      "src": "/images/seasons/v29-season-08.webp",
+      "author": "京浜にけ",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Sapporo_Snow_Festival_Odori-Site_At_Night_Panorama_1.jpg",
+      "width": 606,
+      "height": 800,
+      "bytes": 104550
+    },
+    "9": {
+      "src": "/images/seasons/v29-season-09.webp",
+      "author": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:%E7%AC%AC65%E5%9B%9E%E3%81%95%E3%81%A3%E3%81%BD%E3%82%8D%E9%9B%AA%E3%81%BE%E3%81%A4%E3%82%8A%EF%BC%88SAPPORO_SNOW_FESTIVAL_65th%EF%BC%89_-_panoramio_(2).jpg",
+      "width": 1199,
+      "height": 800,
+      "bytes": 58738
+    },
+    "12": {
+      "src": "/images/seasons/v29-season-12.webp",
+      "author": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:SAPPORO_SNOW_FESTIVAL_2011_%E8%A6%B3%E5%85%89%E5%A4%A7%E5%9B%BD%E5%AE%A3%E8%A8%80%EF%BC%81%E5%8C%97%E6%B5%B7%E9%81%93_-_panoramio.jpg",
+      "width": 1199,
+      "height": 800,
+      "bytes": 53750
+    },
+    "14": {
+      "src": "/images/seasons/v29-season-14.webp",
+      "author": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Otaru_Snow_Light_Path_2013_-_panoramio.jpg",
+      "width": 1199,
+      "height": 800,
+      "bytes": 105012
+    },
+    "15": {
+      "src": "/images/seasons/v29-season-15.webp",
+      "author": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%9B%AA%E3%81%82%E3%81%8B%E3%82%8A%E3%81%AE%E8%B7%AF%EF%BC%88Otaru_Snow_Light_Path_Festival%EF%BC%89_-_panoramio_(3).jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 94158
+    },
+    "16": {
+      "src": "/images/seasons/v29-season-16.webp",
+      "author": "Rogerchang1133",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%81%8B%E6%B2%B3-%E9%9B%AA%E6%99%AF.jpg",
+      "width": 1067,
+      "height": 800,
+      "bytes": 131384
+    },
+    "18": {
+      "src": "/images/seasons/v29-season-18.webp",
+      "author": "逃亡者",
+      "license": "public domain",
+      "license_url": "",
+      "url": "https://commons.wikimedia.org/wiki/File:Otaru_Snow_Story_01.jpg",
+      "width": 980,
+      "height": 800,
+      "bytes": 73158
+    },
+    "19": {
+      "src": "/images/seasons/v29-season-19.webp",
+      "author": "Wikimedia Commons photographer",
+      "license": "public domain",
+      "license_url": "",
+      "url": "https://commons.wikimedia.org/wiki/File:JozankeiOnsen2004-12.jpg",
+      "width": 1067,
+      "height": 800,
+      "bytes": 146534
+    },
+    "20": {
+      "src": "/images/seasons/v29-season-20.webp",
+      "author": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%AE%9A%E5%B1%B1%E6%B8%93%E9%9B%AA%E7%81%AF%E8%B7%AF2013%EF%BC%88Jozankei_snow_light_path_2013%EF%BC%89_-_panoramio_(1).jpg",
+      "width": 1199,
+      "height": 800,
+      "bytes": 140388
+    },
+    "22": {
+      "src": "/images/seasons/v29-season-22.webp",
+      "author": "京浜にけ",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Asahikawa_Winter_Festival_Snow_Statue_2.JPG",
+      "width": 1057,
+      "height": 800,
+      "bytes": 88844
+    },
+    "26": {
+      "src": "/images/seasons/v29-season-26.webp",
+      "author": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%AE%9A%E5%B1%B1%E6%B8%93%E9%9B%AA%E7%81%AF%E8%B7%AF2013%EF%BC%88Jozankei_snow_light_path_2013%EF%BC%89_-_panoramio.jpg",
+      "width": 1199,
+      "height": 800,
+      "bytes": 72156
+    },
+    "27": {
+      "src": "/images/seasons/v29-season-27.webp",
+      "author": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%9B%AA%E3%81%82%E3%81%8B%E3%82%8A%E3%81%AE%E8%B7%AF%EF%BC%88Otaru_Snow_Light_Path_Festival%EF%BC%89_-_panoramio_(2).jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 158976
+    },
+    "32": {
+      "src": "/images/seasons/v29-season-32.webp",
+      "author": "KKPCW",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Fireworks_of_Japan_Rhine_summer_festival_from_Kakamigahara_side_of_beside_Kiso_river.jpg",
+      "width": 604,
+      "height": 800,
+      "bytes": 49628
+    },
+    "33": {
+      "src": "/images/seasons/v29-season-33.webp",
+      "author": "KimonBerlin",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Momiji_(Japanese_maple)_leaves_in_Ryoan-ji%2C_Kyoto_(3256663267).jpg",
+      "width": 533,
+      "height": 800,
+      "bytes": 126262
+    }
+  },
+  "cards_manifest": [
+    {
+      "order": 1,
+      "href": "/season/sapporo-snow-festival-2027/",
+      "title": "삿포로 눈축제 2027 완벽 가이드",
+      "image": "/images/seasons/v29-season-01.webp",
+      "real_photo": true
+    },
+    {
+      "order": 2,
+      "href": "/season/sapporo-snow-festival-hotel-area/",
+      "title": "삿포로 눈축제 숙소 위치 추천",
+      "image": "/images/seasons/v29-season-02.webp",
+      "real_photo": true
+    },
+    {
+      "order": 3,
+      "href": "/season/sapporo-snow-festival-clothes/",
+      "title": "삿포로 눈축제 옷차림",
+      "image": "/images/editorial/kotatsu-japanese-winter-table.webp",
+      "real_photo": false
+    },
+    {
+      "order": 4,
+      "href": "/season/sapporo-winter-shoes/",
+      "title": "삿포로 겨울 신발 추천 기준",
+      "image": "/images/seasons/v29-season-04.webp",
+      "real_photo": true
+    },
+    {
+      "order": 5,
+      "href": "/season/sapporo-snow-festival-couple/",
+      "title": "삿포로 눈축제 커플 여행",
+      "image": "/images/seasons/v29-season-05.webp",
+      "real_photo": true
+    },
+    {
+      "order": 6,
+      "href": "/season/sapporo-snow-festival-family/",
+      "title": "삿포로 눈축제 가족 여행",
+      "image": "/images/seasons/v29-season-06.webp",
+      "real_photo": true
+    },
+    {
+      "order": 7,
+      "href": "/season/sapporo-snow-festival-2n3d/",
+      "title": "삿포로 눈축제 2박3일 코스",
+      "image": "/images/seasons/v29-season-07.webp",
+      "real_photo": true
+    },
+    {
+      "order": 8,
+      "href": "/season/sapporo-snow-festival-3n4d/",
+      "title": "삿포로 눈축제 3박4일 코스",
+      "image": "/images/seasons/v29-season-08.webp",
+      "real_photo": true
+    },
+    {
+      "order": 9,
+      "href": "/season/sapporo-snow-festival-photo/",
+      "title": "삿포로 눈축제 사진 명소",
+      "image": "/images/seasons/v29-season-09.webp",
+      "real_photo": true
+    },
+    {
+      "order": 10,
+      "href": "/season/sapporo-snow-festival-food/",
+      "title": "삿포로 눈축제 먹거리",
+      "image": "/images/ramen-close.jpg",
+      "real_photo": false
+    },
+    {
+      "order": 11,
+      "href": "/season/sapporo-winter-souvenir/",
+      "title": "삿포로 겨울 기념품",
+      "image": "/images/editorial/omiyage-hero.webp",
+      "real_photo": false
+    },
+    {
+      "order": 12,
+      "href": "/season/sapporo-winter-transport/",
+      "title": "삿포로 겨울 교통 팁",
+      "image": "/images/seasons/v29-season-12.webp",
+      "real_photo": true
+    },
+    {
+      "order": 13,
+      "href": "/season/new-chitose-to-sapporo-winter/",
+      "title": "신치토세공항에서 삿포로 겨울 이동",
+      "image": "/images/rail.jpg",
+      "real_photo": false
+    },
+    {
+      "order": 14,
+      "href": "/season/otaru-snow-light-path-2027/",
+      "title": "오타루 눈빛거리 2027 가이드",
+      "image": "/images/seasons/v29-season-14.webp",
+      "real_photo": true
+    },
+    {
+      "order": 15,
+      "href": "/season/otaru-snow-light-couple/",
+      "title": "오타루 눈빛거리 커플 여행",
+      "image": "/images/seasons/v29-season-15.webp",
+      "real_photo": true
+    },
+    {
+      "order": 16,
+      "href": "/season/otaru-winter-day-trip/",
+      "title": "오타루 겨울 당일치기",
+      "image": "/images/seasons/v29-season-16.webp",
+      "real_photo": true
+    },
+    {
+      "order": 17,
+      "href": "/season/otaru-winter-food/",
+      "title": "오타루 겨울 먹거리",
+      "image": "/images/editorial/ramen-japanese-noodle-evolution.webp",
+      "real_photo": false
+    },
+    {
+      "order": 18,
+      "href": "/season/otaru-winter-shopping/",
+      "title": "오타루 겨울 기념품",
+      "image": "/images/seasons/v29-season-18.webp",
+      "real_photo": true
+    },
+    {
+      "order": 19,
+      "href": "/season/hokkaido-winter-onsen/",
+      "title": "홋카이도 겨울 온천 여행",
+      "image": "/images/seasons/v29-season-19.webp",
+      "real_photo": true
+    },
+    {
+      "order": 20,
+      "href": "/season/jozankei-winter-onsen/",
+      "title": "조잔케이 겨울 온천 가이드",
+      "image": "/images/seasons/v29-season-20.webp",
+      "real_photo": true
+    },
+    {
+      "order": 21,
+      "href": "/season/noboribetsu-winter-onsen/",
+      "title": "노보리베츠 겨울 온천 가이드",
+      "image": "/images/editorial/beppu-port-onsen-day-trip.webp",
+      "real_photo": false
+    },
+    {
+      "order": 22,
+      "href": "/season/asahikawa-winter-festival/",
+      "title": "아사히카와 겨울축제 가이드",
+      "image": "/images/seasons/v29-season-22.webp",
+      "real_photo": true
+    },
+    {
+      "order": 23,
+      "href": "/season/hokkaido-winter-rental-car/",
+      "title": "홋카이도 겨울 렌터카 주의사항",
+      "image": "/images/editorial/okinawa-palm-coast-drive.webp",
+      "real_photo": false
+    },
+    {
+      "order": 24,
+      "href": "/season/hokkaido-winter-packing/",
+      "title": "홋카이도 겨울 여행 준비물",
+      "image": "/images/editorial/futon-japanese-bedding-culture.webp",
+      "real_photo": false
+    },
+    {
+      "order": 25,
+      "href": "/season/hokkaido-winter-solo/",
+      "title": "홋카이도 겨울 혼자여행",
+      "image": "/images/editorial/nagano-kamikochi-azusa-river.webp",
+      "real_photo": false
+    },
+    {
+      "order": 26,
+      "href": "/season/hokkaido-winter-seniors/",
+      "title": "홋카이도 겨울 부모님 여행",
+      "image": "/images/seasons/v29-season-26.webp",
+      "real_photo": true
+    },
+    {
+      "order": 27,
+      "href": "/season/hokkaido-winter-photo-trip/",
+      "title": "홋카이도 겨울 사진여행",
+      "image": "/images/seasons/v29-season-27.webp",
+      "real_photo": true
+    },
+    {
+      "order": 28,
+      "href": "/season/japan-winter-budget/",
+      "title": "일본 겨울여행 가성비 팁",
+      "image": "/images/editorial/osechi-ryori-japanese-new-year-food.webp",
+      "real_photo": false
+    },
+    {
+      "order": 29,
+      "href": "/season/japan-spring-guide/",
+      "title": "일본 봄여행 완벽 가이드",
+      "image": "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp",
+      "real_photo": false
+    },
+    {
+      "order": 30,
+      "href": "/season/japan-cherry-blossom-guide/",
+      "title": "일본 벚꽃여행 준비 가이드",
+      "image": "/images/editorial/japanese-garden-hero.webp",
+      "real_photo": false
+    },
+    {
+      "order": 31,
+      "href": "/season/japan-summer-festival-guide/",
+      "title": "일본 여름축제 여행 가이드",
+      "image": "/images/editorial/yukata-summer-festival.webp",
+      "real_photo": false
+    },
+    {
+      "order": 32,
+      "href": "/season/japan-fireworks-festival/",
+      "title": "일본 불꽃축제 여행 팁",
+      "image": "/images/seasons/v29-season-32.webp",
+      "real_photo": true
+    },
+    {
+      "order": 33,
+      "href": "/season/japan-autumn-leaves-guide/",
+      "title": "일본 가을 단풍여행 가이드",
+      "image": "/images/seasons/v29-season-33.webp",
+      "real_photo": true
+    },
+    {
+      "order": 34,
+      "href": "/season/japan-autumn-food-trip/",
+      "title": "일본 가을 먹거리 여행",
+      "image": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+      "real_photo": false
+    }
+  ]
+}
