@@ -1,0 +1,46 @@
+name: V27 Five Real Photos and Cruise Return Routes
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/v27-batch1-real-photos.py'
+      - 'scripts/v27-batch1-routes.py'
+      - '.github/workflows/v27-batch1.yml'
+permissions:
+  contents: write
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow==11.3.0
+      - name: Produce five credited real location photos
+        run: python scripts/v27-batch1-real-photos.py
+      - name: Add port-specific gate-to-sightseeing and return guidance
+        run: python scripts/v27-batch1-routes.py
+      - name: Validate five updated articles
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          rows=json.loads(Path('audit-reports/v26/batch6.json').read_text())
+          assert len(rows)==5
+          for d in rows:
+            s=Path('site/things-to-do/'+d['slug']+'-cruise-port-day-trip/index.html').read_text()
+            assert d['image'] in s and d['source'] in s and 'v27-port-route' in s
+            assert '최종 승객 귀선' in s
+          print('V27_BATCH1_VALIDATED 5/5')
+          PY
+      - name: Publish updates to GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+users.noreply.github.com"
+          git add site/images/venues/*-v27-real-location.webp site/things-to-do/{otaru,takamatsu,nagoya,tokyo,sakaiminato}-cruise-port-day-trip/index.html audit-reports/v26/batch6.json
+          git diff --cached --check
+          git commit -m "V27 real photos, licensing and five cruise sightseeing return routes"
+          git pull --rebase origin main
+          git push origin HEAD:main
