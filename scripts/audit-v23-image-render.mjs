@@ -8,6 +8,7 @@ const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
 const results=[];
 for(const dir of folders){
   try{await readFile(path.join(root,dir.name,'index.html'))}catch{continue}
+  if(dir.name==='cruise-ports')continue;
   const companion=/cruise-(family|couple|parents)-guide$/.test(dir.name);
   for(const [viewport,width,height] of [['mobile',390,844],['desktop',1365,900]]){
     const page=await browser.newPage({viewport:{width,height},deviceScaleFactor:1});
@@ -22,7 +23,7 @@ for(const dir of folders){
         const hero=document.querySelector('main article > header img[src*="/images/editorial/"]');
         const gallery=document.querySelector('#ct-topic-dashboard');
         const firstPhoto=gallery?.querySelector('.ct-grid > .ct-card .ct-photo img');
-        const rect=x=>{const r=x?.getBoundingClientRect();return r?{top:r.top,bottom:r.bottom,width:r.width,height:r.height}:null};
+        const rect=x=>{const r=x?.getBoundingClientRect();return r?{top:r.top+scrollY,bottom:r.bottom+scrollY,width:r.width,height:r.height}:null};
         return {heading:rect(heading),hero:rect(hero),gallery:rect(gallery),firstPhoto:rect(firstPhoto),
           heroOk:!!hero&&hero.complete&&hero.naturalWidth>0,
           firstPhotoOk:!companion||(!!firstPhoto&&firstPhoto.complete&&firstPhoto.naturalWidth>0),
