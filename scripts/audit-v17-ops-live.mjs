@@ -4,6 +4,9 @@ import path from 'node:path';
 
 const src=JSON.parse(await readFile('scripts/v17-official-sailings.json','utf8'));
 const ports=Object.entries(src.ports);
+const verifiedPorts=ports.filter(([,p])=>p.calls.length).length;
+const verifiedCallRows=ports.reduce((n,[,p])=>n+p.calls.length,0);
+if(ports.length!==15||verifiedPorts!==5||verifiedCallRows!==18)throw Error('Unexpected V17 source evidence inventory');
 const output='audit-reports/v17/visual';await mkdir(output,{recursive:true});
 const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
 const cases=[];
@@ -66,7 +69,7 @@ for(const [port,ref] of ports)for(const audience of ['family','couple','parents'
  await page.close();
 }
 await browser.close();
-const summary={ports:ports.length,guides:45,cases:cases.length,passed:cases.filter(x=>!x.errors.length).length,failed:cases.filter(x=>x.errors.length).length,
+const summary={ports:ports.length,verifiedPorts,verifiedCallRows,guides:45,cases:cases.length,passed:cases.filter(x=>!x.errors.length).length,failed:cases.filter(x=>x.errors.length).length,
  failures:cases.filter(x=>x.errors.length).map(x=>({env:x.env,viewport:x.viewport,port:x.port,audience:x.audience,errors:x.errors,message:x.result?.error}))};
 await writeFile(path.join(output,'summary.json'),JSON.stringify(summary,null,2));
 await writeFile(path.join(output,'results.json'),JSON.stringify(cases,null,2));
