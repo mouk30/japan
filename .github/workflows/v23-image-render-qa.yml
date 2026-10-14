@@ -11,6 +11,8 @@ on:
       - 'site/things-to-do/**/index.html'
       - 'site/images/venues/**'
       - 'scripts/v26-batch4-real-photos.py'
+      - 'scripts/v26-batch5-real-photos.py'
+      - 'scripts/v26-batch5-grounded-routes.py'
 permissions:
   contents: read
 jobs:
