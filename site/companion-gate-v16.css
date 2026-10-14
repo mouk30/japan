@@ -1,0 +1,24 @@
+/* NIPPONFERRY V16 — compact real-world route validation under each existing venue thumbnail.
+ * No image, alt, photo credit, CTA or SEO metadata changed.
+ */
+.ct-area .nf-v16-brief{margin:12px 0 16px;padding:15px;background:#f4f9fb;border:1px solid #c8dfe7;border-radius:13px;color:#21495d;line-height:1.7}
+.ct-area .nf-v16-brief .nf-v16-eyebrow{font-size:12px!important;font-weight:900;color:#08708a;margin:0 0 9px}
+.ct-area .nf-v16-brief>p{font-size:13px;line-height:1.75;margin:5px 0;color:#35586a;overflow-wrap:anywhere}
+.ct-area .nf-v16-brief>p strong{color:#0b5671}
+.ct-area .nf-v16-brief .nf-v16-shuttle{font-weight:650}
+.ct-area .nf-v16-brief .nf-v16-notice{font-size:11px!important;color:#637883;margin:10px 0 0!important}
+.ct-area .nf-v16-brief>a{display:inline!important;font-size:12px!important;font-weight:800;color:#08728a!important;text-decoration:underline!important;border:0!important;background:none!important;border-radius:0!important;min-height:0!important;width:auto!important;padding:0!important;margin:8px 0 0!important;box-shadow:none!important}
+.ct-area .ct-card .nf-v16-route{margin:13px 0 7px;border:1px solid #cfdee5;border-radius:10px;background:#f8fbfc;min-width:0;overflow:hidden;height:auto;align-self:start}
+.ct-area .ct-card .nf-v16-route>summary{cursor:pointer;display:flex;gap:7px;align-items:center;justify-content:space-between;font-size:12px;font-weight:850;line-height:1.5;color:#0b5c78;padding:11px 12px;list-style:none;min-height:43px}
+.ct-area .ct-card .nf-v16-route>summary::after{content:"⌄";font-size:16px;color:#0b6f87}
+.ct-area .ct-card .nf-v16-route[open]>summary::after{content:"⌃"}
+.ct-area .ct-card .nf-v16-route>summary::-webkit-details-marker{display:none}
+.ct-area .ct-card .nf-v16-route[open]>summary{border-bottom:1px solid #dce7ed;background:#eff7fa}
+.ct-area .ct-card .nf-v16-route-body{display:grid;gap:9px;padding:12px}
+.ct-area .ct-card .nf-v16-route-body>p{margin:0!important;font-size:12px!important;line-height:1.72!important;color:#435f6d}
+.ct-area .ct-card .nf-v16-route-body>p strong{display:block;color:#174e64;font-size:12px;font-weight:850;margin-bottom:2px}
+.ct-area .ct-card .nf-v16-route-body>p>span:not(.nf-v16-status){display:block}
+.ct-area .ct-card .nf-v16-status{display:inline-block;padding:2px 6px;background:#fff4df;border:1px solid #ead5a2;border-radius:5px;color:#835f28;font-weight:750;font-size:10px;white-space:nowrap;margin:0 0 3px}
+.ct-area .ct-card .nf-v16-evidence{border-top:1px solid #d7e4eb;padding-top:9px;display:flex;flex-wrap:wrap;gap:9px}
+.ct-area .ct-card .nf-v16-evidence a{display:inline!important;width:auto!important;max-width:100%;min-height:0!important;font-size:12px!important;color:#08718b!important;font-weight:750!important;line-height:1.6!important;background:transparent!important;box-shadow:none!important;border:0!important;border-radius:0!important;margin:0!important;padding:0!important;text-decoration:underline!important;text-underline-offset:2px}
+@media (max-width:650px){.ct-area .nf-v16-brief{padding:13px;margin:10px 0 14px}.ct-area .ct-card .nf-v16-route-body{padding:10px}}
