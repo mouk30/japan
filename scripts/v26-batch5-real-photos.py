@@ -15,7 +15,7 @@ entries=[
  {"slug":"iwakuni","file":"Kintaikyo Bridge on Nishikigawa River 2.jpg","name":"이와쿠니 긴타이쿄 다리","author":"そらみみ","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","year":"2018"},
  {"slug":"kure","file":"Yamato Museum and Kure Central Pier from Yamato Wharf.jpg","name":"구레 야마토뮤지엄과 중앙부두","author":"そらみみ","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","year":"2018"},
  {"slug":"mojiko","file":"140721 Mojiko Station Kitakyushu Japan03s3.jpg","name":"모지코 레트로역","author":"663highland","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","year":"2014"},
- {"slug":"aburatsu","file":"Obi, Nichinan, Ōtemon Gate of Obi Castle 01.jpg","name":"니치난 오비성 오테몬","author":"commons contributor","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","year":"2019"}
+ {"slug":"aburatsu","file":"Obi, Nichinan, Ōtemon Gate of Obi Castle 01.jpg","name":"니치난 오비성 오테몬","author":"Naokijp","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","year":"2019"}
 ]
 reports=[]
 for d in entries:
