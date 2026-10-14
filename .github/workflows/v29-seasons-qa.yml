@@ -1,0 +1,38 @@
+name: V29 Four Seasons Image Card QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'site/seasons/index.html'
+      - 'site/images/seasons/**'
+      - 'scripts/audit-v29-seasons.mjs'
+      - '.github/workflows/v29-seasons-qa.yml'
+permissions:
+  contents: read
+jobs:
+  seasons-image-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build deployment
+        run: npm run build
+      - name: Check 34 unique responsive season cards and broken links
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist >/tmp/v29-preview.log 2>&1 &
+          sleep 2
+          node scripts/audit-v29-seasons.mjs
+      - name: Save QA and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v29-seasons-desktop-mobile
+          path: audit-reports/v29/
+          retention-days: 30
