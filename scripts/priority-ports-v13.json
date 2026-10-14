@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "version": "V13",
+    "date": "2026-10-14",
+    "scope": "Five priority ports x three companion guides",
+    "rule": "Every distance/time must identify its origin and destination; public terminal-to-station values never equal ship-door-to-attraction-entrance values. Cruise call, gate, pickup and shuttle must be checked day-of."
+  },
+  "ports": {
+    "yokohama": {
+      "city": "요코하마",
+      "decision": "오산바시·신코·다이코쿠 중 실제 접안 터미널 확인이 첫 단계입니다. 다이코쿠는 도심 수변의 도보 코스를 적용할 수 없습니다.",
+      "berths": [
+        {
+          "name": "오산바시 국제여객터미널",
+          "identifier": "오산바시 / 1-1-4 Kaigandori",
+          "leg": "터미널 ↔ 니혼오도리역",
+          "amount": "도보 약 5분",
+          "precision": "터미널↔역 공식 기준 · 실제 선박 게이트 출발 아님",
+          "facility": "야마시타공원·붉은 벽돌 창고 등은 터미널에서 출발하는 별도 동선. 개별 관광시설 입구까지의 공식 실측 시간은 미확인.",
+          "transfer": "터미널에 버스·택시 승하차 공간이 있지만 항차별 이용 구역은 확인 필요.",
+          "return": "일본대통역 방향에서 돌아온다면 터미널의 실제 승객 출입구와 선사 귀선 마감부터 확인.",
+          "source": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+        },
+        {
+          "name": "신코 부두 크루즈터미널",
+          "identifier": "신코 / 해머헤드 / 2-11-4 Shinko",
+          "leg": "터미널 ↔ 바샤미치역",
+          "amount": "도보 약 10분",
+          "precision": "터미널↔역 공식 기준 · 승객 게이트부터의 거리 미확인",
+          "facility": "붉은 벽돌 창고는 신코 부두에서 걸어갈 수 있는 관광지이지만 시설 현관까지 정확한 도보시간은 미확인.",
+          "transfer": "항만과 주변 상업시설을 연결하는 보행 동선은 현장 보안·출입 동선에 따르며 차량 픽업점 별도 확인.",
+          "return": "신코 터미널의 CIQ·입구가 오산바시와 다르므로 같은 지도 핀으로 귀선하지 마세요.",
+          "source": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+        },
+        {
+          "name": "다이코쿠 부두 크루즈터미널",
+          "identifier": "다이코쿠 / 13 Daikoku-Futo",
+          "leg": "터미널 ↔ 모토마치·주카가이역",
+          "amount": "택시 약 15분",
+          "precision": "터미널↔역 공식 접근 기준 · 관광시설 입구까지 시간은 미확인",
+          "facility": "산업항만권으로 오산바시나 신코의 도심 산책 출발점이 아닙니다. 도보 이동을 기본 계획으로 세우지 마세요.",
+          "transfer": "셔틀이 있다고 단정할 수 없습니다. 항차별 선사 셔틀·허용 차량 픽업존과 복귀편 확인.",
+          "return": "셔틀 하차 장소·최종 왕복편·다이코쿠 귀선 게이트를 함께 기록하세요.",
+          "source": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+        }
+      ],
+      "facilityFocus": "컵누들 뮤지엄·에어캐빈·붉은 벽돌 창고 방문은 실제 터미널에 따라 동선이 달라집니다. 정확한 현관까지의 도보분은 확인 후에만 추가합니다."
+    },
+    "nagasaki": {
+      "city": "나가사키",
+      "decision": "마쓰가에 국제터미널은 글로버정원 권역과 가까우나 언덕·승강시설 확인이 필요합니다. 데지마 등 다른 선석은 같은 수치를 사용하지 않습니다.",
+      "berths": [
+        {
+          "name": "마쓰가에 국제터미널",
+          "identifier": "마쓰가에 / Matsugae-machi",
+          "leg": "항만 터미널 ↔ 오우라카이간도리 노면전차 정류장",
+          "amount": "도보 약 5분",
+          "precision": "일본 관광청 크루즈항 안내 기준 · 선박 출입 게이트/탑승 대기 제외",
+          "facility": "글로버정원·오우라성당 인근이지만 정원 현관까지의 정확한 하선 게이트 출발 도보시간과 언덕 경사는 별도 확인.",
+          "transfer": "정류장까지 걸은 후 노면전차로 시내 이동 가능. 유모차·휠체어 동반은 차량 하차 지점 확인.",
+          "return": "오우라카이간도리 정류장 또는 차량에서 마쓰가에 터미널로 복귀. 혼잡·CIQ 시간 포함.",
+          "source": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html"
+        },
+        {
+          "name": "데지마 부두 등 대체 선석",
+          "identifier": "마쓰가에 외 별도 접안 시",
+          "leg": "해당 선박 승객 게이트 → 관광지",
+          "amount": "시간·거리 미확인",
+          "precision": "마쓰가에 기준 5분을 대체 부두에 적용하지 않음",
+          "facility": "데지마/기타 접안 여부는 선사 하선 안내에서 확인. 정원·박물관으로 가는 실제 출발점을 재설정.",
+          "transfer": "크루즈 승객용 셔틀·택시 픽업 장소는 하선 당일 선사 공지로 확정.",
+          "return": "다른 부두를 마쓰가에로 착각해 복귀하지 않도록 선박명·부두명·게이트 사진을 남기세요.",
+          "source": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html"
+        }
+      ],
+      "facilityFocus": "글로버정원은 스카이로드 접근을 포함해 실제 언덕·경사 여부를 확인하세요. 항만에서 글로버정원 최종 입구까지의 정확한 도보 수치는 근거 없으면 쓰지 않습니다."
+    },
+    "hakata": {
+      "city": "하카타·후쿠오카",
+      "decision": "중앙부두 크루즈센터, 같은 중앙부두의 국제여객터미널, 하카타부두 일반 여객터미널은 같은 건물이 아닙니다.",
+      "berths": [
+        {
+          "name": "중앙부두 크루즈센터",
+          "identifier": "中央ふ頭クルーズセンター / Okinahamachi 24-25",
+          "leg": "하카타역 ↔ 중앙부두 국제터미널권",
+          "amount": "버스 약 20분",
+          "precision": "후쿠오카시 중앙부두 교통정보. 역↔부두 정류장 기준이며 크루즈센터 하선 게이트↔정류장은 미확인",
+          "facility": "호빵맨 박물관·과학관 입구까지의 직접 하선 게이트 기준 수치 미확인. 관광지별 환승·하차 위치를 별도 계산.",
+          "transfer": "중앙부두에는 크루즈센터와 국제터미널이 함께 있습니다. 버스 정류장·셔틀·택시 픽업이 어느 건물인지 확인.",
+          "return": "귀선 시 중앙부두 '크루즈센터'의 선사 지정 승객 게이트로 돌아가야 합니다. 부두 정류장 도착=탑승 완료가 아닙니다.",
+          "source": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+        },
+        {
+          "name": "중앙부두 국제여객터미널",
+          "identifier": "博多港国際ターミナル / Okinahamachi 14-1",
+          "leg": "하카타역 ↔ 중앙부두 국제터미널",
+          "amount": "버스 약 20분",
+          "precision": "후쿠오카시 공식 중앙부두 교통 안내. 크루즈센터와 다른 건물",
+          "facility": "부산행 정기 페리 터미널이며 크루즈선 하선 건물과 일치한다고 단정하지 마세요.",
+          "transfer": "항차에서 페리/크루즈 시설 사용 여부를 먼저 확인.",
+          "return": "항차가 크루즈센터라면 국제터미널을 최종 귀선 게이트로 표시하지 마세요.",
+          "source": "https://www.city.fukuoka.lg.jp/kowan/koei/hakata-port/terminal.html"
+        },
+        {
+          "name": "하카타부두 일반 여객터미널",
+          "identifier": "博多ふ頭 / Bayside Place권역",
+          "leg": "하카타역 ↔ 하카타부두",
+          "amount": "버스 약 20분",
+          "precision": "후쿠오카시 일반 여객터미널 접근 정보. 중앙부두 크루즈센터와 다른 목적지",
+          "facility": "베이사이드·포트타워 방문시에도 선사 배정 크루즈 선석과 동일한지 따로 확인.",
+          "transfer": "일반 페리/시영 도선 승하선 목적지로, 크루즈 승객 전용 셔틀이라고 판단하면 안 됩니다.",
+          "return": "하카타부두가 아니라 중앙부두로 복귀해야 하는 항차가 있을 수 있습니다.",
+          "source": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+        }
+      ],
+      "facilityFocus": "호빵맨 박물관·리버레인·오호리공원은 항만에서 바로 걸어가는 일괄 코스가 아닙니다. 중앙부두 버스 출발점과 시설 입구는 별도 구간입니다."
+    },
+    "naha": {
+      "city": "나하",
+      "decision": "도마리 8호(와카사)와 신항 12호(제2크루즈 부두)는 완전히 다른 출발점입니다. 특히 제2부두에서 걸어서 항만도로를 빠져나가는 계획은 피하세요.",
+      "berths": [
+        {
+          "name": "와카사 바스 / 도마리 8호 크루즈터미널",
+          "identifier": "泊ふ頭8号岸壁 / 若狭1-28",
+          "leg": "도마리 8호 크루즈 접안장 ↔ 와카사 광장",
+          "amount": "도보 약 9분·약 700m",
+          "precision": "나하시 공식 와카사광장 접근 안내. 와카사광장까지이며 국제거리·슈리성 입구까지가 아님",
+          "facility": "국제거리·슈리성·DMM 수족관 시설 현관까지는 별도 교통·보행 구간입니다.",
+          "transfer": "과거 와카사↔국제거리 실증 셔틀은 2026년 3월 31일까지 공고된 사업으로 현재 운영을 단정할 수 없습니다.",
+          "return": "선박별 하선 출입구와 택시 승차 위치를 확인하고 와카사 도마리 8호 터미널로 복귀.",
+          "source": "https://www.city.naha.okinawa.jp/kurasitetuduki/life/1002177/1007375/1002185/1002191/1002192.html"
+        },
+        {
+          "name": "신항 12호 / 제2크루즈 부두",
+          "identifier": "新港ふ頭12号 / 港町4丁目3-22",
+          "leg": "제2부두 → 시내 도보",
+          "amount": "보행 비추천",
+          "precision": "나하항 관리조합은 항만물류 도로에 대규모 보행이 위험하므로 버스·택시 이용 권고",
+          "facility": "인근 관광시설까지의 도보시간은 공식적으로 확인되지 않음. 제2부두 출발의 실제 도로·게이트 통행 제한을 먼저 확인.",
+          "transfer": "항만 관리조합 셔틀 운행 없음. 선사·투어사의 셔틀 여부, 버스·택시 차량 진입과 승하차 지점을 사전 확인.",
+          "return": "선사가 지정한 신항 12호 차량 집합장소로 돌아와 귀선 게이트 이동. 와카사 출발 코스 사용 금지.",
+          "source": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+        }
+      ],
+      "facilityFocus": "나하 가족·연인·부모님 가이드의 슈리성·수족관·시내 관광 시간은 하선 지점이 정해진 후 따로 계산해야 합니다. 2026년 3월 종료 공지된 셔틀을 현재 운영으로 표시하지 않습니다."
+    },
+    "ishigaki": {
+      "city": "이시가키",
+      "decision": "신항 크루즈 접안장과 시내 유그레나 낙도터미널은 서로 다른 곳입니다. 부모님·아이 동반이라면 신항에서 도심까지 걸어가는 일정은 권하지 않습니다.",
+      "berths": [
+        {
+          "name": "신항 크루즈 전용 접안장",
+          "identifier": "新港地区クルーズ岸壁 / 매립지",
+          "leg": "신항 크루즈 접안장 → 시가지",
+          "amount": "차량 약 10분",
+          "precision": "이시가키시 항만과 공식 안내, 당일 차량 픽업·대기·보안출입 제외",
+          "facility": "가비라만·야이마무라 등 시내 외 관광시설 출입구까지의 시간은 이 10분에 포함되지 않습니다.",
+          "transfer": "선사 제공 무료 셔틀은 항차별 조건부. 이시가키시가 직접 운영하는 셔틀은 없습니다. 민간 유료 셔틀도 불규칙.",
+          "return": "선사 셔틀 운영 시 시내 유그레나 터미널→신항 왕복 마지막 회차를 확인. 택시는 사전 예약 권장.",
+          "source": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html"
+        },
+        {
+          "name": "신항 ↔ 유그레나 낙도터미널",
+          "identifier": "ユーグレナ石垣港離島ターミナル은 도서 페리 터미널",
+          "leg": "신항 접안장 → 유그레나 낙도터미널",
+          "amount": "도보 약 40~50분",
+          "precision": "이시가키시 직접 안내 · 크루즈 터미널을 착각하기 쉬운 구간",
+          "facility": "낙도터미널은 다른 섬으로 가는 정기선 출발장이지 크루즈선 귀선 장소가 아닙니다.",
+          "transfer": "무료·유료 셔틀 모두 조건부. 택시 대기 차량 수를 보장하지 않음.",
+          "return": "귀선은 신항의 실제 크루즈선 접안 게이트. 낙도터미널을 배의 귀선 지점으로 저장하지 마세요.",
+          "source": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html"
+        }
+      ],
+      "facilityFocus": "가비라만 글라스보트는 기상·승선 회차가 별도이고, 시가지 이동 10분은 그쪽 입구까지의 시간과 다릅니다. 하선 게이트→체험시설 입구 실측을 임의로 만들지 않습니다."
+    }
+  }
+}
