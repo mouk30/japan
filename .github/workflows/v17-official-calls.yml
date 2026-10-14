@@ -1,0 +1,48 @@
+name: V17 Official Calls Evidence Upgrade
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/v17-official-sailings.json'
+      - 'scripts/v17-ops-apply.py'
+      - '.github/workflows/v17-official-calls.yml'
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Publish official call facts and explicitly missing schedule status
+        run: python scripts/v17-ops-apply.py
+      - name: Fail if 45 pages or source status missing
+        run: |
+          python - <<'PY'
+          import json
+          x=json.load(open('audit-reports/v17/coverage.json'))['summary']
+          assert x['updated']==45 and x['unique_official_call_rows']==14
+          assert x['ports_with_checked_official_calls']==4 and x['ports_not_verified']==11
+          print(x)
+          PY
+      - name: Commit V17 without altering older venue photographs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/things-to-do audit-reports/v17/coverage.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V17 dated call info, verified berth examples and explicit remaining unknowns"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v17-official-call-coverage
+          path: audit-reports/v17/coverage.json
+          retention-days: 30
