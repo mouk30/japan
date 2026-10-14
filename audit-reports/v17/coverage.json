@@ -3,9 +3,9 @@
     "pages": 45,
     "updated": 45,
     "ports": 15,
-    "ports_with_checked_official_calls": 4,
-    "ports_not_verified": 11,
-    "unique_official_call_rows": 14,
+    "ports_with_checked_official_calls": 5,
+    "ports_not_verified": 10,
+    "unique_official_call_rows": 18,
     "route_gate_to_venue_measurements_verified": 0,
     "shuttle_actual_trip_verified": 0,
     "as_of": "2026-10-14"
@@ -111,25 +111,25 @@
       "slug": "aomori",
       "audience": "family",
       "state": "refreshed",
-      "official_records": 0,
-      "source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
-      "status": "official_berth_reference_only"
+      "official_records": 4,
+      "source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/files/261001_2026cruise.pdf",
+      "status": "official_schedule_rows_checked"
     },
     {
       "slug": "aomori",
       "audience": "couple",
       "state": "refreshed",
-      "official_records": 0,
-      "source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
-      "status": "official_berth_reference_only"
+      "official_records": 4,
+      "source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/files/261001_2026cruise.pdf",
+      "status": "official_schedule_rows_checked"
     },
     {
       "slug": "aomori",
       "audience": "parents",
       "state": "refreshed",
-      "official_records": 0,
-      "source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
-      "status": "official_berth_reference_only"
+      "official_records": 4,
+      "source": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/files/261001_2026cruise.pdf",
+      "status": "official_schedule_rows_checked"
     },
     {
       "slug": "beppu",
