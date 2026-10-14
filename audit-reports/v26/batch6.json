@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "otaru",
+    "image": "/images/venues/otaru-v27-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Otaru_canal.jpg",
+    "author": "欅 (Keyaki)",
+    "license": "CC BY-SA 3.0",
+    "width": 1333,
+    "height": 1000,
+    "bytes": 181676,
+    "note": "Historical photograph, not real-time"
+  },
+  {
+    "slug": "takamatsu",
+    "image": "/images/venues/takamatsu-v27-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Ritsurin_Garden_-_Takamatsu.jpg",
+    "author": "Cedric007",
+    "license": "CC BY-SA 4.0",
+    "width": 1440,
+    "height": 960,
+    "bytes": 123864,
+    "note": "Historical photograph, not real-time"
+  },
+  {
+    "slug": "nagoya",
+    "image": "/images/venues/nagoya-v27-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Nagoya_Port_Aquarium.jpg",
+    "author": "(WT-shared) Onyo",
+    "license": "CC BY-SA 4.0",
+    "width": 1333,
+    "height": 1000,
+    "bytes": 111006,
+    "note": "Historical photograph, not real-time"
+  },
+  {
+    "slug": "tokyo",
+    "image": "/images/venues/tokyo-v27-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_International_Cruise_Terminal_Station_20240627_135340.jpg",
+    "author": "Mike Peel",
+    "license": "CC BY-SA 4.0",
+    "width": 1333,
+    "height": 1000,
+    "bytes": 275216,
+    "note": "Historical photograph, not real-time"
+  },
+  {
+    "slug": "sakaiminato",
+    "image": "/images/venues/sakaiminato-v27-real-location.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Sakaiminato_Mizuki_Shigeru_Road_2.JPG",
+    "author": "京浜にけ",
+    "license": "CC BY-SA 3.0",
+    "width": 1333,
+    "height": 1000,
+    "bytes": 159494,
+    "note": "Historical photograph, not real-time"
+  }
+]
