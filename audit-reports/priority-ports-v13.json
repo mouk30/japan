@@ -1,0 +1,131 @@
+{
+  "summary": {
+    "guides": 15,
+    "published": 15,
+    "cities": 5,
+    "distinct_berths": 12,
+    "rendered_berth_panels": 36
+  },
+  "pages": [
+    {
+      "page": "site/things-to-do/yokohama-cruise-family-guide/index.html",
+      "port": "yokohama",
+      "audience": "family",
+      "state": "published",
+      "cards": 3,
+      "source_count": 1
+    },
+    {
+      "page": "site/things-to-do/yokohama-cruise-couple-guide/index.html",
+      "port": "yokohama",
+      "audience": "couple",
+      "state": "published",
+      "cards": 3,
+      "source_count": 1
+    },
+    {
+      "page": "site/things-to-do/yokohama-cruise-parents-guide/index.html",
+      "port": "yokohama",
+      "audience": "parents",
+      "state": "published",
+      "cards": 3,
+      "source_count": 1
+    },
+    {
+      "page": "site/things-to-do/nagasaki-cruise-family-guide/index.html",
+      "port": "nagasaki",
+      "audience": "family",
+      "state": "published",
+      "cards": 2,
+      "source_count": 1
+    },
+    {
+      "page": "site/things-to-do/nagasaki-cruise-couple-guide/index.html",
+      "port": "nagasaki",
+      "audience": "couple",
+      "state": "published",
+      "cards": 2,
+      "source_count": 1
+    },
+    {
+      "page": "site/things-to-do/nagasaki-cruise-parents-guide/index.html",
+      "port": "nagasaki",
+      "audience": "parents",
+      "state": "published",
+      "cards": 2,
+      "source_count": 1
+    },
+    {
+      "page": "site/things-to-do/hakata-cruise-family-guide/index.html",
+      "port": "hakata",
+      "audience": "family",
+      "state": "published",
+      "cards": 3,
+      "source_count": 2
+    },
+    {
+      "page": "site/things-to-do/hakata-cruise-couple-guide/index.html",
+      "port": "hakata",
+      "audience": "couple",
+      "state": "published",
+      "cards": 3,
+      "source_count": 2
+    },
+    {
+      "page": "site/things-to-do/hakata-cruise-parents-guide/index.html",
+      "port": "hakata",
+      "audience": "parents",
+      "state": "published",
+      "cards": 3,
+      "source_count": 2
+    },
+    {
+      "page": "site/things-to-do/naha-cruise-family-guide/index.html",
+      "port": "naha",
+      "audience": "family",
+      "state": "published",
+      "cards": 2,
+      "source_count": 2
+    },
+    {
+      "page": "site/things-to-do/naha-cruise-couple-guide/index.html",
+      "port": "naha",
+      "audience": "couple",
+      "state": "published",
+      "cards": 2,
+      "source_count": 2
+    },
+    {
+      "page": "site/things-to-do/naha-cruise-parents-guide/index.html",
+      "port": "naha",
+      "audience": "parents",
+      "state": "published",
+      "cards": 2,
+      "source_count": 2
+    },
+    {
+      "page": "site/things-to-do/ishigaki-cruise-family-guide/index.html",
+      "port": "ishigaki",
+      "audience": "family",
+      "state": "published",
+      "cards": 2,
+      "source_count": 1
+    },
+    {
+      "page": "site/things-to-do/ishigaki-cruise-couple-guide/index.html",
+      "port": "ishigaki",
+      "audience": "couple",
+      "state": "published",
+      "cards": 2,
+      "source_count": 1
+    },
+    {
+      "page": "site/things-to-do/ishigaki-cruise-parents-guide/index.html",
+      "port": "ishigaki",
+      "audience": "parents",
+      "state": "published",
+      "cards": 2,
+      "source_count": 1
+    }
+  ]
+}
