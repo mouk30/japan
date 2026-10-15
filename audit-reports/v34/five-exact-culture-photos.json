@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "japan-bamboo-grove-ecology",
+    "from": "/images/editorial/japanese-garden-stones-moss.webp",
+    "to": "/images/culture-verified/japan-bamboo-grove-ecology.webp",
+    "file": "Arashiyama Bamboo Grove.jpg",
+    "creator": "Mitchwandrew",
+    "license": "CC BY 4.0",
+    "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Arashiyama_Bamboo_Grove.jpg",
+    "bytes": 276120,
+    "width": 777,
+    "height": 1050
+  },
+  {
+    "slug": "taiko-japanese-drumming",
+    "from": "/images/editorial/okinawa-eisa-dance-festival.webp",
+    "to": "/images/culture-verified/taiko-japanese-drumming.webp",
+    "file": "Namahage Sedo Festival taiko performance.jpg",
+    "creator": "KQuhen",
+    "license": "CC BY-SA 4.0",
+    "license_uri": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Namahage_Sedo_Festival_taiko_performance.jpg",
+    "bytes": 166430,
+    "width": 1400,
+    "height": 933
+  },
+  {
+    "slug": "japan-kyoto-gion-festival-floats",
+    "from": "/images/editorial/matsuri-hero.webp",
+    "to": "/images/culture-verified/japan-kyoto-gion-festival-floats.webp",
+    "file": "Gion Matsuri Float 1.jpg",
+    "creator": "Immanuelle",
+    "license": "CC BY-SA 4.0",
+    "license_uri": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Gion_Matsuri_Float_1.jpg",
+    "bytes": 159000,
+    "width": 1400,
+    "height": 1050
+  },
+  {
+    "slug": "japan-jizo-roadside-statues",
+    "from": "/images/editorial/shrine-temple-hero.webp",
+    "to": "/images/culture-verified/japan-jizo-roadside-statues.webp",
+    "file": "Stone Jizo statues with red caps and bibs, Kochi, June 2016.jpg",
+    "creator": "NevinThompson",
+    "license": "CC BY-SA 4.0",
+    "license_uri": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Stone_Jizo_statues_with_red_caps_and_bibs%2C_Kochi%2C_June_2016.jpg",
+    "bytes": 378656,
+    "width": 1400,
+    "height": 933
+  },
+  {
+    "slug": "japanese-vending-machine-culture",
+    "from": "/images/editorial/noren-hero.webp",
+    "to": "/images/culture-verified/japanese-vending-machine-culture.webp",
+    "file": "Japanese vending machines (DSCN0712).jpg",
+    "creator": "Northwest",
+    "license": "CC BY-SA 4.0",
+    "license_uri": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Japanese_vending_machines_(DSCN0712).jpg",
+    "bytes": 135026,
+    "width": 787,
+    "height": 1050
+  }
+]
