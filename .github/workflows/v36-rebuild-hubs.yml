@@ -1,0 +1,46 @@
+name: V36 rebuild food and things-to-do image cards
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v36-rebuild-hubs.yml]
+permissions:
+  contents: write
+jobs:
+  rebuild-image-hubs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Rebuild 152 guide cards and 16 food cards
+        run: python scripts/v36_rebuild_hubs.py
+      - name: Validate HTML photo cards and image files
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          site=Path('site')
+          audit=json.loads(Path('docs/v36-hub-cards-audit.json').read_text('utf-8'))
+          things=(site/'things-to-do/index.html').read_text('utf-8')
+          food=(site/'food/index.html').read_text('utf-8')
+          assert audit['things']['cards']==152
+          assert audit['food']['cards']==16
+          assert things.count('class="v28-panel v36-photo-card"')==152
+          assert food.count('class="dircard"')==16
+          for entry in audit['things']['mappings']+audit['food']['mappings']:
+              assert (site/entry['image'].lstrip('/')).is_file(),entry
+          print('V36: 168/168 cards resolved to local assets')
+          print('V36 images by verification:',audit['things']['kinds'])
+          PY
+      - name: Commit updated hubs, food cover references and report
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/food/index.html site/things-to-do/index.html site/japan docs/v36-hub-cards-audit.json
+          if test -d site/images/hub-thumbnails; then git add site/images/hub-thumbnails; fi
+          git diff --cached --quiet && exit 0
+          git commit -m "V36: companion-style image cards for food and things to do"
+          git push
