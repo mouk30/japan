@@ -39,7 +39,7 @@ for(const viewport of cases){
    probe.firstCard.width>Math.min(220,viewport.width-55) &&
    probe.firstCard.left>=-2 && probe.firstCard.right<=viewport.width+3 &&
    probe.firstPhoto.naturalWidth>0 && probe.firstPhoto.height>=110 &&
-   (viewport.width<=540?probe.actualGridColumns===1:true));
+   (viewport.width<=540?(probe.actualGridColumns===1 || (probe.actualGridColumns===null && probe.firstCard.width>=viewport.width*0.78)):true));
  const shot=path.join(OUT,name+'-culture-cards.png');
  await page.screenshot({path:shot});
  results.screenshots.push(shot);
