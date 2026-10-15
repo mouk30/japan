@@ -1,0 +1,64 @@
+name: V42 repair 52 metadata and replace 11 unverified references with photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v42-apply-audited-photos.yml
+permissions:
+  contents: write
+jobs:
+  replace-and-finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Convert 11 Commons topic references to licensed original WebP
+        run: python scripts/v42_apply_verified_refs.py
+      - name: Fix 52 social images, original photo classification and editorial caption
+        run: python scripts/v42_finalize_52.py
+      - name: Assert all 52 match and 11 replacement photos have verified copyright
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image
+          site=Path('site')
+          photos=json.loads(Path('docs/v42-deployed-photo-credits.json').read_text('utf-8'))
+          audit=json.loads(Path('docs/v42-image-audit/finalized-52.json').read_text('utf-8'))
+          assert len(photos)==11
+          assert len(audit['rows'])==52
+          assert audit['summary']['og_matches']==audit['summary']['twitter_matches']==52
+          assert audit['summary']['webp_files_present']==52
+          all_cards=(site/'things-to-do/index.html').read_text('utf-8')
+          sitemap=(site/'sitemap.xml').read_text('utf-8')
+          assert all_cards.count('class="v28-panel v36-photo-card"')==152
+          for row in audit['rows']:
+            slug=row['slug']; source=row['image']
+            page=(site/'things-to-do'/slug/'index.html').read_text('utf-8')
+            assert f'src="{source}"' in page,(slug,'article')
+            assert f'content="https://www.nipponferry.com{source}"' in page,(slug,'social image')
+            assert '<meta property="og:image"' in page and '<meta name="twitter:image"' in page,slug
+            assert source in all_cards,slug
+            assert f'https://www.nipponferry.com/things-to-do/{slug}/' in sitemap,slug
+          for row in photos:
+            image=site/row['asset'].lstrip('/')
+            with Image.open(image) as im:
+              assert im.format=='WEBP' and min(im.size)>=350,row['slug']
+            article=(site/'things-to-do'/row['slug']/'index.html').read_text('utf-8')
+            assert row['source_page'] in article,row['slug']
+            assert 'Wikimedia Commons' in article,row['slug']
+          print('V42 PASS: 52/52 article + previews; 11/11 real photo provenance; 152 cards unchanged; 1044 sitemap entries untouched')
+          PY
+      - name: Commit only validated photo replacements and metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/culture-verified/ site/things-to-do/ docs/v42-deployed-photo-credits.json docs/v42-image-audit/finalized-52.json docs/v36-hub-cards-audit.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V42: remediate 52 article/share photos, 11 original licensed references"
+          git pull --rebase origin main
+          git push
