@@ -1,0 +1,511 @@
+{
+  "traditional-experience-booking": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "japan-railway-platform-melodies": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "japan-sea-of-japan-coast": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "kabuki-japanese-theater": {
+    "candidate_count": 8,
+    "options": [
+      {
+        "filename": "Odori023.jpg",
+        "author": "Mikomaid(from Japan)",
+        "description": "和藤内@虎踊り(@横須賀市)",
+        "credit": "自分自身で撮影",
+        "licence": "CC BY 2.5",
+        "licence_url": "https://creativecommons.org/licenses/by/2.5",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Odori023.jpg",
+        "remote": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Odori023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1156,
+        "height": 1651,
+        "query": "Kabuki actor kumadori makeup"
+      },
+      {
+        "filename": "Arajishi Otokonosukein Date Kurabe Okuni Kabuki.jpg",
+        "author": "Utagawa Kunisada",
+        "description": "“ Danjūrō Ichikawa VIII  as Arajishi Otokonosuke” in  Date Kurabe Okuni Kabuki , by  Toyokuni Utagawa III",
+        "credit": "http://www.arc.ritsumei.ac.jp/db/arcnishikie/FMPro?-db=nishikie.fmj&-lay=layout2&-error=search_errorp.htm&f00==%8C%F6%8AJ&-format=results-bigp.htm&f1=shiUY0072&-token=6&-Find",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Arajishi_Otokonosukein_Date_Kurabe_Okuni_Kabuki.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Arajishi_Otokonosukein_Date_Kurabe_Okuni_Kabuki.jpg/1280px-Arajishi_Otokonosukein_Date_Kurabe_Okuni_Kabuki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1828,
+        "height": 2588,
+        "query": "Kabuki actor kumadori makeup"
+      },
+      {
+        "filename": "Danjuro Ichikawa IX as Kamakura Gongoro Kagemasa in Shibaraku.jpg",
+        "author": "Unknown author Unknown author",
+        "description": "Danjūrō Ichikawa IX  as Kamakura Gongorō Kagemasa in the November 1895 production of   Shibaraku   at Tokyo  Kabukiza .",
+        "credit": "http://hansichi.hp.infoseek.co.jp/pics/sibaraku.jpg",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Danjuro_Ichikawa_IX_as_Kamakura_Gongoro_Kagemasa_in_Shibaraku.jpg",
+        "remote": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Danjuro_Ichikawa_IX_as_Kamakura_Gongoro_Kagemasa_in_Shibaraku.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 500,
+        "height": 600,
+        "query": "Kabuki actor kumadori makeup"
+      },
+      {
+        "filename": "Fushimi-Tonpuppe 2 makffm.jpg",
+        "author": "User:FA2010",
+        "description": "Fushimi clay doll of  Kamakura Gongorō  in  Kabuki  \" Shibaraku \"; made by Tanka; Exhibition  Waza - Traditional Crafts from Kyôto  at Museum für Angewandte Kunst, Frankfurt am Main, Germany, 2011.",
+        "credit": "Own work",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Fushimi-Tonpuppe_2_makffm.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Fushimi-Tonpuppe_2_makffm.jpg/1280px-Fushimi-Tonpuppe_2_makffm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1971,
+        "height": 2388,
+        "query": "Kabuki actor kumadori makeup"
+      },
+      {
+        "filename": "浅草 木馬館 (2792325424).jpg",
+        "author": "yoppy",
+        "description": "木馬館",
+        "credit": "R1070717",
+        "licence": "CC BY 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%E6%B5%85%E8%8D%89_%E6%9C%A8%E9%A6%AC%E9%A4%A8_%282792325424%29.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E6%B5%85%E8%8D%89_%E6%9C%A8%E9%A6%AC%E9%A4%A8_%282792325424%29.jpg/1280px-%E6%B5%85%E8%8D%89_%E6%9C%A8%E9%A6%AC%E9%A4%A8_%282792325424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3264,
+        "height": 2176,
+        "query": "Kabuki actor kumadori makeup"
+      },
+      {
+        "filename": "Kumadori-Numazu.JPG",
+        "author": "ゆうき315",
+        "description": "Antennarius maculatus  in Numazu Deepblue Aquarium, Sizuoka, Japan",
+        "credit": "Own work",
+        "licence": "CC BY-SA 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Kumadori-Numazu.JPG",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Kumadori-Numazu.JPG/1280px-Kumadori-Numazu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3264,
+        "height": 2448,
+        "query": "Kabuki actor kumadori makeup"
+      },
+      {
+        "filename": "Portrait de Merle Bardenoir.jpg",
+        "author": "Miguel Sanchez-Martin",
+        "description": "Portrait of Merle Bardenoir, his face adorned with a kumadori-like makeup. \nPicture : Miguel Sanchez-Martin  | Make-up : Camille Roques",
+        "credit": "https://cc.ascribe.io/app/pieces/50232",
+        "licence": "CC BY-SA 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Portrait_de_Merle_Bardenoir.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Portrait_de_Merle_Bardenoir.jpg/1280px-Portrait_de_Merle_Bardenoir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2674,
+        "height": 4017,
+        "query": "Kabuki actor kumadori makeup"
+      },
+      {
+        "filename": "Misono-za Nagoya March 2013 (3).JPG",
+        "author": "Gryffindor",
+        "description": "Curtain with an artful depiction of an  oshiguma  face of a  kabuki  male character, at the Misono-za theatre in Nagoya. This was the last  kabuki  performance week before renovation work.",
+        "credit": "Own work",
+        "licence": "CC0",
+        "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Misono-za_Nagoya_March_2013_%283%29.JPG",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Misono-za_Nagoya_March_2013_%283%29.JPG/1280px-Misono-za_Nagoya_March_2013_%283%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2917,
+        "height": 1945,
+        "query": "歌舞伎 隈取 役者"
+      }
+    ],
+    "errors": []
+  },
+  "rakugo-japanese-storytelling": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "aizome-japanese-indigo-dye": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "kutani-japanese-porcelain": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "dashi-japanese-umami-stock": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "japan-trash-bin-shortage": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "japanese-sento-public-bath-manners": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "kissaten-japanese-retro-coffee": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "toji-yuzu-bath-japan": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "japan-forest-bathing-shinrin-yoku": {
+    "candidate_count": 1,
+    "options": [
+      {
+        "filename": "Kugurisugi Cedar (31536833473).jpg",
+        "author": "David Stanley  from Nanaimo, Canada",
+        "description": "The Taikoiwa Trail passes below the Kugurisugi cedar in the moss-laden Shiratani Unsuikyo Natural Forest on Yakushima Island, Japan. Some of the giant yakusugi cedars are thousands of years old,",
+        "credit": "Kugurisugi Cedar",
+        "licence": "CC BY 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Kugurisugi_Cedar_%2831536833473%29.jpg",
+        "remote": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Kugurisugi_Cedar_%2831536833473%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1024,
+        "height": 768,
+        "query": "Shiratani Unsuikyo Yakushima moss forest trail"
+      }
+    ],
+    "errors": []
+  },
+  "japan-diving-first-time": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "why-japanese-onsen-special": {
+    "candidate_count": 3,
+    "options": [
+      {
+        "filename": "Takanoyu Onsen Rotenburo 086.jpg",
+        "author": "RickardA",
+        "description": "Photo of Rotenburo (outdoor bath) at Takanoyu Onsen, Akita Prefecture, Japan",
+        "credit": "Own work",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Takanoyu_Onsen_Rotenburo_086.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Takanoyu_Onsen_Rotenburo_086.jpg/1280px-Takanoyu_Onsen_Rotenburo_086.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2048,
+        "height": 1536,
+        "query": "Rotenburo Takanoyu Onsen Japan"
+      },
+      {
+        "filename": "Takanoyu Onsen Rotenburo 157.jpg",
+        "author": "RickardA",
+        "description": "Photo of the rotenburo (outdoor bath) at Takanoyu Onsen, Akita Prefecture, Japan",
+        "credit": "Own work",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Takanoyu_Onsen_Rotenburo_157.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Takanoyu_Onsen_Rotenburo_157.jpg/1280px-Takanoyu_Onsen_Rotenburo_157.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2048,
+        "height": 1536,
+        "query": "Rotenburo Takanoyu Onsen Japan"
+      },
+      {
+        "filename": "Takanoyu Onsen Womens Rotenburo 006.JPG",
+        "author": "RickardA",
+        "description": "Photo of Takanoyu Onsen women's rotenburo (outdoor bath), Akita Prefecture, Japan",
+        "credit": "Own work",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Takanoyu_Onsen_Womens_Rotenburo_006.JPG",
+        "remote": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Takanoyu_Onsen_Womens_Rotenburo_006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 640,
+        "height": 480,
+        "query": "Rotenburo Takanoyu Onsen Japan"
+      }
+    ],
+    "errors": []
+  },
+  "family-with-kids": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "solo-cultural-day": {
+    "candidate_count": 3,
+    "options": [
+      {
+        "filename": "JP 日本 Japan 京都 Kyoto 無茶紀念馆 Shu Sui Tei Tea Ceremony House.jpg",
+        "author": "TKdows 2026",
+        "description": "JP 日本 Japan 京都 Kyoto 無茶紀念馆 Shu Sui Tei Tea Ceremony House interior dont lean down here visitors do it yourself freely June 2026",
+        "credit": "Own work",
+        "licence": "CC0",
+        "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_page": "https://commons.wikimedia.org/wiki/File:JP_%E6%97%A5%E6%9C%AC_Japan_%E4%BA%AC%E9%83%BD_Kyoto_%E7%84%A1%E8%8C%B6%E7%B4%80%E5%BF%B5%E9%A6%86_Shu_Sui_Tei_Tea_Ceremony_House.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/JP_%E6%97%A5%E6%9C%AC_Japan_%E4%BA%AC%E9%83%BD_Kyoto_%E7%84%A1%E8%8C%B6%E7%B4%80%E5%BF%B5%E9%A6%86_Shu_Sui_Tei_Tea_Ceremony_House.jpg/1280px-JP_%E6%97%A5%E6%9C%AC_Japan_%E4%BA%AC%E9%83%BD_Kyoto_%E7%84%A1%E8%8C%B6%E7%B4%80%E5%BF%B5%E9%A6%86_Shu_Sui_Tei_Tea_Ceremony_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4208,
+        "height": 3120,
+        "query": "Kyoto Japanese tea ceremony visitor"
+      },
+      {
+        "filename": "Dogu, excavated at Kamikurokoma, Misaka-cho, Fuefuki-shi, Yamanashi, Jomon period, 3000-2000 BC, ceramic - Ishikawa Prefectural Museum of Traditional Arts and Crafts - Kanazawa, Japan - DSC09385.jpg",
+        "author": "Daderot",
+        "description": "Exhibit in the Ishikawa Prefectural Museum of Traditional Arts and Crafts - Kanazawa, Japan.  [1]",
+        "credit": "Own work",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Dogu%2C_excavated_at_Kamikurokoma%2C_Misaka-cho%2C_Fuefuki-shi%2C_Yamanashi%2C_Jomon_period%2C_3000-2000_BC%2C_ceramic_-_Ishikawa_Prefectural_Museum_of_Traditional_Arts_and_Crafts_-_Kanazawa%2C_Japan_-_DSC09385.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Dogu%2C_excavated_at_Kamikurokoma%2C_Misaka-cho%2C_Fuefuki-shi%2C_Yamanashi%2C_Jomon_period%2C_3000-2000_BC%2C_ceramic_-_Ishikawa_Prefectural_Museum_of_Traditional_Arts_and_Crafts_-_Kanazawa%2C_Japan_-_DSC09385.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3568,
+        "height": 4725,
+        "query": "Japanese museum exhibit traditional culture"
+      },
+      {
+        "filename": "Tokyo National Museum (54166142528).jpg",
+        "author": "Dale Cruse  from San Francisco, CA, USA",
+        "description": "The Tokyo National Museum stands as Japan’s oldest museum, a cultural beacon nestled in the serene Ueno Park. The main building, Honkan, is a masterpiece of Imperial Crown Style architecture, designed by architect Jin Watanabe and completed in 1938. Its blend of traditional Japanese design elements and Western Neoclassical influence reflects the era’s vision of modern Japan rooted in tradition. The symmetry of its tiled roof and imposing stone facade invites visitors into a curated journey through Japan’s rich history.\n  Adjacent is the Hyokeikan, a fine example of Meiji-era Western-style architecture, originally built in 1909 to commemorate the Taisho Crown Prince's wedding. Its copper-green domes and Corinthian columns, evident in the photo, create a striking contrast against the blue skies, making it a favorite spot for photography ent",
+        "credit": "Tokyo National Museum",
+        "licence": "CC BY 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_%2854166142528%29.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Tokyo_National_Museum_%2854166142528%29.jpg/1280px-Tokyo_National_Museum_%2854166142528%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 11024,
+        "height": 8269,
+        "query": "Japanese museum exhibit traditional culture"
+      }
+    ],
+    "errors": []
+  },
+  "japan-free-low-budget": {
+    "candidate_count": 14,
+    "options": [
+      {
+        "filename": "The Japanese Garden (Unsplash).jpg",
+        "author": "Mike Lewis  mikeanywhere",
+        "description": "Holland Park, London, United Kingdom",
+        "credit": "https://unsplash.com/photos/waAAaeC9hns \n  archive copy  at the    Wayback Machine    \n \n  Image  at the    Wayback Machine",
+        "licence": "CC0",
+        "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_page": "https://commons.wikimedia.org/wiki/File:The_Japanese_Garden_%28Unsplash%29.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Japanese_Garden_%28Unsplash%29.jpg/1280px-The_Japanese_Garden_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4608,
+        "height": 3008,
+        "query": "Japanese public parks Kyoto gardens free"
+      },
+      {
+        "filename": "California-06269 - Rock Garden (20611705216).jpg",
+        "author": "Dennis G. Jarvis",
+        "description": "A simple rock garden in the park. Classical zen gardens were created at temples of Zen Buddhism in Kyoto, Japan.\n \n The Japanese Tea Garden is a popular feature of Golden Gate Park, originally built as part of a sprawling World's Fair, the California Midwinter International Exposition of 1894.\n \nThe oldest public Japanese garden in the United States, this complex of many paths, ponds and a teahouse features native Japanese and Chinese plants.",
+        "credit": "California-06269 - Rock Garden",
+        "licence": "CC BY-SA 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:California-06269_-_Rock_Garden_%2820611705216%29.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/California-06269_-_Rock_Garden_%2820611705216%29.jpg/1280px-California-06269_-_Rock_Garden_%2820611705216%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1959,
+        "height": 1148,
+        "query": "Japanese public parks Kyoto gardens free"
+      },
+      {
+        "filename": "Plum garden at Kameido (Kameido umeyashiki) (CBL J 2693).jpg",
+        "author": "Utagawa Hiroshige",
+        "description": "Woodblock print of 'Plum garden at Kameido' (Kameido umeyashiki) from the series '100 famous views of Edo' (Meisho Edo hyakkei) by Utagawa Hiroshige; printed in Japan with date seal for 1857. Chester Beatty Library J 2693",
+        "credit": "https://viewer.cbl.ie/viewer/object/J_2693/1/LOG_0000/",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Plum_garden_at_Kameido_%28Kameido_umeyashiki%29_%28CBL_J_2693%29.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Plum_garden_at_Kameido_%28Kameido_umeyashiki%29_%28CBL_J_2693%29.jpg/1280px-Plum_garden_at_Kameido_%28Kameido_umeyashiki%29_%28CBL_J_2693%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4565,
+        "height": 6638,
+        "query": "Japanese public parks Kyoto gardens free"
+      },
+      {
+        "filename": "View of Japanese writing at the entrance to the Kyoto Garden in Holland Park - geograph.org.uk - 6307893.jpg",
+        "author": "Robert Lamb",
+        "description": "View of Japanese writing at the entrance to the Kyoto Garden in Holland Park",
+        "credit": "Geograph Britain and Ireland",
+        "licence": "CC BY-SA 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:View_of_Japanese_writing_at_the_entrance_to_the_Kyoto_Garden_in_Holland_Park_-_geograph.org.uk_-_6307893.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/View_of_Japanese_writing_at_the_entrance_to_the_Kyoto_Garden_in_Holland_Park_-_geograph.org.uk_-_6307893.jpg/1280px-View_of_Japanese_writing_at_the_entrance_to_the_Kyoto_Garden_in_Holland_Park_-_geograph.org.uk_-_6307893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3872,
+        "height": 2592,
+        "query": "Japanese public parks Kyoto gardens free"
+      },
+      {
+        "filename": "Yoshitoshi - 100 Aspects of the Moon - 76.jpg",
+        "author": "Yoshitoshi",
+        "description": "Shinobugaoka moon (Shinobugaoka no tsuki)",
+        "credit": "http://www.muian.com/muian04/04yoshitoshi05093.jpg",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Yoshitoshi_-_100_Aspects_of_the_Moon_-_76.jpg",
+        "remote": "https://upload.wikimedia.org/wikipedia/commons/0/04/Yoshitoshi_-_100_Aspects_of_the_Moon_-_76.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 512,
+        "height": 723,
+        "query": "Tokyo Ueno park Japan free cherry blossoms"
+      },
+      {
+        "filename": "Lascar Ueno-koen Park (1298835399).jpg",
+        "author": "Jorge Láscar  from Australia",
+        "description": "Ueno-koen Park is a popular cherry-blossom viewing place and certainly one of Tokyo's most crowded park on Sundays. Foreign tourists and Japanese alike flock to the Park to visit many of Japan's largest museums : Tokyo National Museum, National Museum of Western Art, Tokyo Metropolitan Museum of Art, National Science Museum, and Shitamachi History Museum. Ueno Koen is also home to the Tokyo Zoological Gardens (open 9:30am-5pm, last entry 4pm), famous for its pandas, giraffes, elephants, tigers or polar bears. [www.jref.com]",
+        "credit": "Ueno-koen Park",
+        "licence": "CC BY 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Lascar_Ueno-koen_Park_%281298835399%29.jpg",
+        "remote": "https://upload.wikimedia.org/wikipedia/commons/1/10/Lascar_Ueno-koen_Park_%281298835399%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 800,
+        "height": 600,
+        "query": "Tokyo Ueno park Japan free cherry blossoms"
+      },
+      {
+        "filename": "Japan 290316 Ueno Sakura 01.jpg",
+        "author": "Oren Rozen",
+        "description": "Cherry blossom at Ueno Park, Tokyo",
+        "credit": "Own work",
+        "licence": "CC BY-SA 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Japan_290316_Ueno_Sakura_01.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Japan_290316_Ueno_Sakura_01.jpg/1280px-Japan_290316_Ueno_Sakura_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2400,
+        "height": 1600,
+        "query": "Tokyo Ueno park Japan free cherry blossoms"
+      },
+      {
+        "filename": "Ueno Park 2009-04-04 (3445739185).jpg",
+        "author": "KimonBerlin",
+        "description": "Ueno Park 2009-04-04",
+        "credit": "https://www.flickr.com/photos/kimon/3445739185/",
+        "licence": "CC BY-SA 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Ueno_Park_2009-04-04_%283445739185%29.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Ueno_Park_2009-04-04_%283445739185%29.jpg/1280px-Ueno_Park_2009-04-04_%283445739185%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2248,
+        "height": 2819,
+        "query": "Tokyo Ueno park Japan free cherry blossoms"
+      },
+      {
+        "filename": "Ueno Park 2009-04-04 (3446555908).jpg",
+        "author": "KimonBerlin",
+        "description": "Ueno Park 2009-04-04",
+        "credit": "https://www.flickr.com/photos/kimon/3446555908/",
+        "licence": "CC BY-SA 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Ueno_Park_2009-04-04_%283446555908%29.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Ueno_Park_2009-04-04_%283446555908%29.jpg/1280px-Ueno_Park_2009-04-04_%283446555908%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3504,
+        "height": 2336,
+        "query": "Tokyo Ueno park Japan free cherry blossoms"
+      },
+      {
+        "filename": "Ueno Park 2009-04-04 (3446557490).jpg",
+        "author": "KimonBerlin",
+        "description": "Ueno Park 2009-04-04",
+        "credit": "https://www.flickr.com/photos/kimon/3446557490/",
+        "licence": "CC BY-SA 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Ueno_Park_2009-04-04_%283446557490%29.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ueno_Park_2009-04-04_%283446557490%29.jpg/1280px-Ueno_Park_2009-04-04_%283446557490%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3504,
+        "height": 2336,
+        "query": "Tokyo Ueno park Japan free cherry blossoms"
+      },
+      {
+        "filename": "お花見ルール 2015 (36127553882).jpg",
+        "author": "John Seb Barber",
+        "description": "IMG_1012",
+        "credit": "IMG_1012",
+        "licence": "CC BY 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%E3%81%8A%E8%8A%B1%E8%A6%8B%E3%83%AB%E3%83%BC%E3%83%AB_2015_%2836127553882%29.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/%E3%81%8A%E8%8A%B1%E8%A6%8B%E3%83%AB%E3%83%BC%E3%83%AB_2015_%2836127553882%29.jpg/1280px-%E3%81%8A%E8%8A%B1%E8%A6%8B%E3%83%AB%E3%83%BC%E3%83%AB_2015_%2836127553882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3648,
+        "height": 2432,
+        "query": "Tokyo Ueno park Japan free cherry blossoms"
+      },
+      {
+        "filename": "Large dish with cherry blossom and eagle design, Imari ware, Edo period, 1700s AD, porcelain, overglaze enamel - Tokyo National Museum - Ueno Park, Tokyo, Japan - DSC08955.jpg",
+        "author": "Daderot",
+        "description": "Exhibit in the Tokyo National Museum, Tokyo, Japan. This work is old enough so that it is in the public domain.",
+        "credit": "Own work",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Large_dish_with_cherry_blossom_and_eagle_design%2C_Imari_ware%2C_Edo_period%2C_1700s_AD%2C_porcelain%2C_overglaze_enamel_-_Tokyo_National_Museum_-_Ueno_Park%2C_Tokyo%2C_Japan_-_DSC08955.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Large_dish_with_cherry_blossom_and_eagle_design%2C_Imari_ware%2C_Edo_period%2C_1700s_AD%2C_porcelain%2C_overglaze_enamel_-_Tokyo_National_Museum_-_Ueno_Park%2C_Tokyo%2C_Japan_-_DSC08955.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3460,
+        "height": 3448,
+        "query": "Tokyo Ueno park Japan free cherry blossoms"
+      },
+      {
+        "filename": "Mirror with cherry blossom and paired birds design, Toshihito Jinja Sutra Mound, Shimonomoto, Higashimatsuyama-shi, Saitama, Kamakura period, 1100s- Tokyo National Museum - Ueno Park, Tokyo, Japan - DSC09237.jpg",
+        "author": "Daderot",
+        "description": "Exhibit in the Tokyo National Museum - Tokyo, Japan.",
+        "credit": "Own work",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Mirror_with_cherry_blossom_and_paired_birds_design%2C_Toshihito_Jinja_Sutra_Mound%2C_Shimonomoto%2C_Higashimatsuyama-shi%2C_Saitama%2C_Kamakura_period%2C_1100s-_Tokyo_National_Museum_-_Ueno_Park%2C_Tokyo%2C_Japan_-_DSC09237.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Mirror_with_cherry_blossom_and_paired_birds_design%2C_Toshihito_Jinja_Sutra_Mound%2C_Shimonomoto%2C_Higashimatsuyama-shi%2C_Saitama%2C_Kamakura_period%2C_1100s-_Tokyo_National_Museum_-_Ueno_Park%2C_Tokyo%2C_Japan_-_DSC09237.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2483,
+        "height": 2479,
+        "query": "Tokyo Ueno park Japan free cherry blossoms"
+      },
+      {
+        "filename": "Late blooming cherry blossom (9411866892).jpg",
+        "author": "Maarten Heerlien  from Voorschoten, The Netherlands",
+        "description": "As the trees blossomed exceptionally early in 2013, we only got to view a few late bloomers. Beautiful nonetheless!",
+        "credit": "Late blooming cherry blossom",
+        "licence": "CC BY 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Late_blooming_cherry_blossom_%289411866892%29.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Late_blooming_cherry_blossom_%289411866892%29.jpg/1280px-Late_blooming_cherry_blossom_%289411866892%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 7360,
+        "height": 4912,
+        "query": "Tokyo Ueno park Japan free cherry blossoms"
+      }
+    ],
+    "errors": []
+  },
+  "accessible-slow-travel": {
+    "candidate_count": 0,
+    "options": [],
+    "errors": []
+  },
+  "experience-booking-checklist": {
+    "candidate_count": 2,
+    "options": [
+      {
+        "filename": "Cha no yu nichinichisō by Mizuno Toshikata 08.jpg",
+        "author": "Toshikata Mizuno",
+        "description": "The host hands a lacquered tray containing a bowl of food to each guest, from the series A Tea Ceremony Periwinkle, woodblock print",
+        "credit": "http://free-artworks.gatag.net/tag/%E8%8C%B6%E3%81%AE%E6%B9%AF%E6%97%A5%E3%80%85%E8%8D%89",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Cha_no_yu_nichinichis%C5%8D_by_Mizuno_Toshikata_08.jpg",
+        "remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Cha_no_yu_nichinichis%C5%8D_by_Mizuno_Toshikata_08.jpg/1280px-Cha_no_yu_nichinichis%C5%8D_by_Mizuno_Toshikata_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1724,
+        "height": 1152,
+        "query": "Japanese tea ceremony hands bowl tea"
+      },
+      {
+        "filename": "TEA-MAKING. (1910) - illustration - page 260.png",
+        "author": "Unknown author Unknown author",
+        "description": "Illustration from page 260 of   TEA-MAKING.  . \n  Caption:  \"TEA-MAKING. Quote:\"The tea-ceremony is, perhaps, the strictest and most complicated of all the ceremonies with which the cultured Japanese used to surround himself. The ceremony, when carried out in full, is very intricate; but it may be briefly described as follows:—First, the guests who arrive on the appointed day are shown into the waiting-room and when they are all assembled, they are conducted into the tea-room. This room should properly be a building by itself, and the commonest size is nine feet square, that is, one of four mats and a half, the half mat being in the centre. The maximum number of guests is five, four of whom sit in a row and the fifth at right angles to the rest. The host faces the row; he brings in the tea-utensils and sets them in order. The guests are f",
+        "credit": "https://www.gutenberg.org/ebooks/65870",
+        "licence": "Public domain",
+        "licence_url": "",
+        "source_page": "https://commons.wikimedia.org/wiki/File:TEA-MAKING._%281910%29_-_illustration_-_page_260.png",
+        "remote": "https://upload.wikimedia.org/wikipedia/commons/d/d0/TEA-MAKING._%281910%29_-_illustration_-_page_260.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 772,
+        "height": 515,
+        "query": "Japanese tea ceremony hands bowl tea"
+      }
+    ],
+    "errors": []
+  }
+}
