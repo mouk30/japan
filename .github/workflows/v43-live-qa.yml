@@ -1,0 +1,36 @@
+name: V43 production verify 20 real photos and new photo-spots landing
+on:
+  push:
+    branches: [main]
+    paths:
+      - docs/v43-deployed-photo-credits.json
+      - .github/workflows/v43-live-qa.yml
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Check 49 live requests including actual image SHA256
+        id: run
+        continue-on-error: true
+        run: python scripts/v43_verify_live.py
+      - name: Commit acceptance results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ ! -f docs/v43-live-qa.json ]; then exit 1; fi
+          git add docs/v43-live-qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V43 QA: published photos/routes and 49 HTTP tests"
+          git pull --rebase origin main
+          git push
+      - name: Fail on any missing or mismatched page/photo
+        if: steps.run.outcome != 'success'
+        run: exit 1
