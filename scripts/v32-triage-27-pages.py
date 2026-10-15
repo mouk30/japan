@@ -28,4 +28,5 @@ payload={'pages_reviewed':len(out),'classification':counts,'pages':out}
 Path('audit-reports/v32').mkdir(parents=True,exist_ok=True)
 Path('audit-reports/v32/missing-hero-triage.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 print('V32_HERO_TRIAGE',json.dumps({'pages':len(out),'status':counts,'broken_css':sum(len(x['broken_css_backgrounds']) for x in out)},ensure_ascii=False),flush=True)
+print('V32_BAD_CSS',json.dumps([x for x in out if x['broken_css_backgrounds']],ensure_ascii=False),flush=True)
 if len(out)!=27 or any(x['broken_css_backgrounds'] for x in out):raise SystemExit('Unexpected missing CSS asset or changed page count')
