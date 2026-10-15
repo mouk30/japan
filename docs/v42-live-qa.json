@@ -843,7 +843,7 @@
       "path": "/images/culture-verified/japanese-ekiben-railway-bento-culture.webp",
       "status": 200,
       "mime": "image/webp",
-      "bytes": 203332,
+      "bytes": 358242,
       "ok": true
     },
     {
@@ -852,7 +852,7 @@
       "path": "/things-to-do/japanese-ekiben-railway-bento-culture/",
       "status": 200,
       "mime": "text/html; charset=utf-8",
-      "bytes": 15504,
+      "bytes": 15385,
       "ok": true
     },
     {
@@ -861,7 +861,7 @@
       "path": "/images/culture-verified/japanese-kintsugi-gold-repair-culture.webp",
       "status": 200,
       "mime": "image/webp",
-      "bytes": 132158,
+      "bytes": 122734,
       "ok": true
     },
     {
@@ -870,7 +870,7 @@
       "path": "/things-to-do/japanese-kintsugi-gold-repair-culture/",
       "status": 200,
       "mime": "text/html; charset=utf-8",
-      "bytes": 15635,
+      "bytes": 15721,
       "ok": true
     },
     {
@@ -888,7 +888,7 @@
       "path": "/things-to-do/japanese-omiyage-souvenir-gift-culture/",
       "status": 200,
       "mime": "text/html; charset=utf-8",
-      "bytes": 15793,
+      "bytes": 15616,
       "ok": true
     },
     {
@@ -951,7 +951,7 @@
       "path": "/things-to-do/",
       "status": 200,
       "mime": "text/html; charset=utf-8",
-      "bytes": 165448,
+      "bytes": 165477,
       "ok": true
     }
   ],
