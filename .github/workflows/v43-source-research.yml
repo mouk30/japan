@@ -1,0 +1,26 @@
+name: V43 research actual photo sources for 20 editorial cards
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v43-source-research.yml]
+permissions:
+  contents: write
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Search 20 exact-subject images by Commons metadata and license
+        run: python scripts/v43_commons_research.py
+      - name: Store photo sources
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/v43-commons-candidates.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V43: Commons photo original sources for 20 editorial images"
+          git pull --rebase origin main
+          git push
