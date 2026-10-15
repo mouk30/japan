@@ -1,0 +1,54 @@
+name: V42 final accuracy correction for ekiben, kintsugi and HTML
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v42-final-corrections.yml]
+permissions:
+  contents: write
+jobs:
+  correct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Restore valid HTML markup and replace two less-accurate pictures
+        run: python scripts/v42_correct_images_markup.py
+      - name: Validate photo source and all 52 article metadata
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,re
+          base=Path('site/things-to-do')
+          files=list(base.glob('*/index.html'))
+          malformed=[]
+          for p in files:
+            t=p.read_text('utf-8')
+            for m in re.finditer(r'<p class="v\d+-image-credit"',t):
+              i=m.start();j=t.rfind('<img',0,i)
+              if j>=0 and i-j<1500 and 'this.insertAdjacentHTML' in t[j:i]:
+                malformed.append(p.parent.name)
+          assert malformed==[],malformed
+          fix=json.loads(Path('docs/v42-image-audit/final-visual-corrections.json').read_text('utf-8'))
+          assert len(fix['html_credit_attribute_repaired'])==3,fix
+          assert len(fix['rewritten_original_photos'])==2,fix
+          inventory=json.loads(Path('docs/v42-image-audit/finalized-52.json').read_text('utf-8'))
+          assert inventory['summary']['og_matches']==inventory['summary']['twitter_matches']==52
+          for row in inventory['rows']:
+            page=(base/row['slug']/'index.html').read_text('utf-8')
+            assert f'src="{row["image"]}"' in page,row['slug']
+            assert f'<meta name="twitter:image" content="https://www.nipponferry.com{row["image"]}"' in page,row['slug']
+          print('V42 final: 3 HTML repairs, 2 photograph precision fixes, 52 metadata links, 0 malformed inserted credits')
+          PY
+      - name: Commit final visual corrections and source provenance
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/culture-verified site/things-to-do docs/v42-deployed-photo-credits.json docs/v42-image-audit/finalized-52.json docs/v42-image-audit/final-visual-corrections.json docs/v36-hub-cards-audit.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V42: fix photo credit HTML and improve actual ekiben and kintsugi accuracy"
+          git pull --rebase origin main
+          git push
