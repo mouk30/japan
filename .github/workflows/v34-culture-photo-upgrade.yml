@@ -1,0 +1,77 @@
+name: V34 Verified Culture Hero Photos and Screen QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/v34-five-culture-verified-photos.py'
+      - 'scripts/audit-v34-culture-render.mjs'
+      - '.github/workflows/v34-culture-photo-upgrade.yml'
+permissions:
+  contents: write
+jobs:
+  five-topic-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install photo optimization and browser QA tools
+        run: |
+          pip install Pillow==11.3.0
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Retrieve source-matched Commons images and update five existing articles
+        run: python -u scripts/v34-five-culture-verified-photos.py
+      - name: Check author credit, license, OG image and canonical
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          rows=json.loads(Path('audit-reports/v34/five-exact-culture-photos.json').read_text())
+          assert len(rows)==5
+          for d in rows:
+              s=Path('site/things-to-do/'+d['slug']+'/index.html').read_text()
+              assert d['to'] in s and d['source'] in s
+              assert d['creator'] in s and d['license_uri'] in s
+              assert 'class="v34-photo-credit"' in s
+              assert '실제 촬영 사진' in s
+              assert 'https://www.nipponferry.com'+d['from'] not in s
+              assert 'rel="canonical"' in s
+              assert Path('site'+d['to']).is_file()
+              assert d['bytes']>=10000 and d['width']>=560
+          print('V34_FIVE_PHOTO_STATIC_PASS 5/5')
+          PY
+      - name: Production build + 10 mobile/desktop photo checks
+        run: |
+          npm run build
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist >/tmp/v34-qa-server.log 2>&1 &
+          sleep 3
+          node scripts/audit-v34-culture-render.mjs
+      - name: Commit only tested photo replacements
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/culture-verified/ site/things-to-do/ audit-reports/v34/five-exact-culture-photos.json
+          git diff --cached --check
+          git commit -m "V34 replace five generic cultural cover photos with exact verified Commons photographs"
+          for n in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              echo "V34_PUBLISH_OK"
+              exit 0
+            fi
+            sleep 4
+          done
+          exit 1
+      - name: Save screenshots and photo manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v34-five-photo-mobile-desktop-proof
+          path: audit-reports/v34/
+          retention-days: 30
