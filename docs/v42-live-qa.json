@@ -1,0 +1,959 @@
+{
+  "host": "https://www.nipponferry.com",
+  "complete": true,
+  "attempts": [
+    {
+      "number": 1,
+      "ok": 105,
+      "failed": 0
+    }
+  ],
+  "checks": [
+    {
+      "kind": "webp",
+      "slug": "shinkansen-bullet-train-history",
+      "path": "/images/culture-verified/shinkansen-bullet-train-history.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 298784,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "shinkansen-bullet-train-history",
+      "path": "/things-to-do/shinkansen-bullet-train-history/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 7617,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japan-volcano-mount-aso",
+      "path": "/images/culture-verified/japan-volcano-mount-aso.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 205870,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japan-volcano-mount-aso",
+      "path": "/things-to-do/japan-volcano-mount-aso/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 7008,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japan-bamboo-grove-ecology",
+      "path": "/images/culture-verified/japan-bamboo-grove-ecology.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 276120,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japan-bamboo-grove-ecology",
+      "path": "/things-to-do/japan-bamboo-grove-ecology/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 7098,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japan-snow-monkeys-hot-springs",
+      "path": "/images/culture-verified/japan-snow-monkeys-hot-springs.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 89430,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japan-snow-monkeys-hot-springs",
+      "path": "/things-to-do/japan-snow-monkeys-hot-springs/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 7153,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japan-jizo-roadside-statues",
+      "path": "/images/culture-verified/japan-jizo-roadside-statues.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 378656,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japan-jizo-roadside-statues",
+      "path": "/things-to-do/japan-jizo-roadside-statues/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 6997,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japan-sudare-bamboo-blinds",
+      "path": "/images/culture-verified/japan-sudare-bamboo-blinds.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 232904,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japan-sudare-bamboo-blinds",
+      "path": "/things-to-do/japan-sudare-bamboo-blinds/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 7281,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japan-aomori-nebuta-floats",
+      "path": "/images/culture-verified/japan-aomori-nebuta-floats.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 188570,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japan-aomori-nebuta-floats",
+      "path": "/things-to-do/japan-aomori-nebuta-floats/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 7261,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japan-kyoto-gion-festival-floats",
+      "path": "/images/culture-verified/japan-kyoto-gion-festival-floats.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 159000,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japan-kyoto-gion-festival-floats",
+      "path": "/things-to-do/japan-kyoto-gion-festival-floats/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 6998,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "taiko-japanese-drumming",
+      "path": "/images/culture-verified/taiko-japanese-drumming.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 166430,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "taiko-japanese-drumming",
+      "path": "/things-to-do/taiko-japanese-drumming/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 9031,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "ikebana-japanese-flower-arrangement",
+      "path": "/images/culture-verified/ikebana-japanese-flower-arrangement.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 67494,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "ikebana-japanese-flower-arrangement",
+      "path": "/things-to-do/ikebana-japanese-flower-arrangement/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 8962,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "bonsai-japanese-miniature-trees",
+      "path": "/images/culture-verified/bonsai-japanese-miniature-trees.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 508208,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "bonsai-japanese-miniature-trees",
+      "path": "/things-to-do/bonsai-japanese-miniature-trees/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 8892,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-pottery-kilns",
+      "path": "/images/culture-verified/japanese-pottery-kilns.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 227460,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-pottery-kilns",
+      "path": "/things-to-do/japanese-pottery-kilns/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 8940,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-urushi-lacquerware",
+      "path": "/images/culture-verified/japanese-urushi-lacquerware.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 69532,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-urushi-lacquerware",
+      "path": "/things-to-do/japanese-urushi-lacquerware/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 8830,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-woodblock-printmaking",
+      "path": "/images/culture-verified/japanese-woodblock-printmaking.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 125584,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-woodblock-printmaking",
+      "path": "/things-to-do/japanese-woodblock-printmaking/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 9011,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "kumiko-japanese-wood-joinery",
+      "path": "/images/culture-verified/kumiko-japanese-wood-joinery.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 242074,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "kumiko-japanese-wood-joinery",
+      "path": "/things-to-do/kumiko-japanese-wood-joinery/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 8985,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "edo-kiriko-cut-glass",
+      "path": "/images/culture-verified/edo-kiriko-cut-glass.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 66456,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "edo-kiriko-cut-glass",
+      "path": "/things-to-do/edo-kiriko-cut-glass/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 8377,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-vending-machine-culture",
+      "path": "/images/culture-verified/japanese-vending-machine-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 135026,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-vending-machine-culture",
+      "path": "/things-to-do/japanese-vending-machine-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 7211,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "shotengai-japanese-shopping-arcades",
+      "path": "/images/culture-verified/shotengai-japanese-shopping-arcades.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 272608,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "shotengai-japanese-shopping-arcades",
+      "path": "/things-to-do/shotengai-japanese-shopping-arcades/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 7262,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "hinamatsuri-japanese-dolls",
+      "path": "/images/culture-verified/hinamatsuri-japanese-dolls.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 149436,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "hinamatsuri-japanese-dolls",
+      "path": "/things-to-do/hinamatsuri-japanese-dolls/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 6742,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "kokeshi-japanese-wooden-dolls",
+      "path": "/images/culture-verified/kokeshi-japanese-wooden-dolls.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 24850,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "kokeshi-japanese-wooden-dolls",
+      "path": "/things-to-do/kokeshi-japanese-wooden-dolls/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 6858,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "omamori-japanese-amulet-culture",
+      "path": "/images/editorial/omamori-japanese-amulet-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 308880,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "omamori-japanese-amulet-culture",
+      "path": "/things-to-do/omamori-japanese-amulet-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10431,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "ema-japanese-wish-wooden-plaques",
+      "path": "/images/editorial/ema-japanese-wish-wooden-plaques.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 371310,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "ema-japanese-wish-wooden-plaques",
+      "path": "/things-to-do/ema-japanese-wish-wooden-plaques/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10197,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "goshuin-temple-shrine-stamps",
+      "path": "/images/editorial/goshuin-temple-shrine-stamps.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 263628,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "goshuin-temple-shrine-stamps",
+      "path": "/things-to-do/goshuin-temple-shrine-stamps/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10333,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "ryokan-japanese-inn-hospitality",
+      "path": "/images/editorial/ryokan-japanese-inn-hospitality.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 318958,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "ryokan-japanese-inn-hospitality",
+      "path": "/things-to-do/ryokan-japanese-inn-hospitality/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10491,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "tatami-floor-japanese-living",
+      "path": "/images/editorial/tatami-floor-japanese-living.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 313032,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "tatami-floor-japanese-living",
+      "path": "/things-to-do/tatami-floor-japanese-living/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10229,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "futon-japanese-bedding-culture",
+      "path": "/images/editorial/futon-japanese-bedding-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 212068,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "futon-japanese-bedding-culture",
+      "path": "/things-to-do/futon-japanese-bedding-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10358,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "shoji-fusuma-japanese-doors",
+      "path": "/images/editorial/shoji-fusuma-japanese-doors.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 274432,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "shoji-fusuma-japanese-doors",
+      "path": "/things-to-do/shoji-fusuma-japanese-doors/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10061,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "kotatsu-japanese-winter-table",
+      "path": "/images/editorial/kotatsu-japanese-winter-table.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 297902,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "kotatsu-japanese-winter-table",
+      "path": "/things-to-do/kotatsu-japanese-winter-table/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10190,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "furoshiki-japanese-wrapping-cloth",
+      "path": "/images/editorial/furoshiki-japanese-wrapping-cloth.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 321766,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "furoshiki-japanese-wrapping-cloth",
+      "path": "/things-to-do/furoshiki-japanese-wrapping-cloth/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10202,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "bento-japanese-lunchbox-everyday",
+      "path": "/images/editorial/bento-japanese-lunchbox-everyday.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 306908,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "bento-japanese-lunchbox-everyday",
+      "path": "/things-to-do/bento-japanese-lunchbox-everyday/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10255,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "wagashi-japanese-seasonal-sweets",
+      "path": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 323016,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "wagashi-japanese-seasonal-sweets",
+      "path": "/things-to-do/wagashi-japanese-seasonal-sweets/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10171,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "matcha-sencha-japanese-green-tea",
+      "path": "/images/editorial/matcha-sencha-japanese-green-tea.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 340138,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "matcha-sencha-japanese-green-tea",
+      "path": "/things-to-do/matcha-sencha-japanese-green-tea/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10136,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "toshikoshi-soba-newyear-tradition",
+      "path": "/images/editorial/toshikoshi-soba-newyear-tradition.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 235706,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "toshikoshi-soba-newyear-tradition",
+      "path": "/things-to-do/toshikoshi-soba-newyear-tradition/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 9805,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "ramen-japanese-noodle-evolution",
+      "path": "/images/editorial/ramen-japanese-noodle-evolution.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 325944,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "ramen-japanese-noodle-evolution",
+      "path": "/things-to-do/ramen-japanese-noodle-evolution/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 9716,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "izakaya-japanese-afterwork-culture",
+      "path": "/images/editorial/izakaya-japanese-afterwork-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 272264,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "izakaya-japanese-afterwork-culture",
+      "path": "/things-to-do/izakaya-japanese-afterwork-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 9611,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "osechi-ryori-japanese-new-year-food",
+      "path": "/images/editorial/osechi-ryori-japanese-new-year-food.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 412052,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "osechi-ryori-japanese-new-year-food",
+      "path": "/things-to-do/osechi-ryori-japanese-new-year-food/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 9450,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "hanami-japanese-cherry-blossom-picnic",
+      "path": "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 562636,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "hanami-japanese-cherry-blossom-picnic",
+      "path": "/things-to-do/hanami-japanese-cherry-blossom-picnic/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 9631,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "momijigari-japanese-autumn-leaves-culture",
+      "path": "/images/editorial/momijigari-japanese-autumn-leaves-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 715758,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "momijigari-japanese-autumn-leaves-culture",
+      "path": "/things-to-do/momijigari-japanese-autumn-leaves-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 9597,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "koinobori-childrens-day-japan",
+      "path": "/images/editorial/koinobori-childrens-day-japan.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 449790,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "koinobori-childrens-day-japan",
+      "path": "/things-to-do/koinobori-childrens-day-japan/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 9411,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "tanabata-japanese-star-festival",
+      "path": "/images/editorial/tanabata-japanese-star-festival.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 512012,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "tanabata-japanese-star-festival",
+      "path": "/things-to-do/tanabata-japanese-star-festival/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 9561,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "origami-japanese-paper-folding-culture",
+      "path": "/images/culture-verified/origami-japanese-paper-folding-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 28354,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "origami-japanese-paper-folding-culture",
+      "path": "/things-to-do/origami-japanese-paper-folding-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 10226,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-shrine-vs-buddhist-temple",
+      "path": "/images/culture-verified/japanese-shrine-vs-buddhist-temple.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 349772,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-shrine-vs-buddhist-temple",
+      "path": "/things-to-do/japanese-shrine-vs-buddhist-temple/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 13471,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-matsuri-festival-culture",
+      "path": "/images/culture-verified/japanese-matsuri-festival-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 276634,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-matsuri-festival-culture",
+      "path": "/things-to-do/japanese-matsuri-festival-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 12949,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-daruma-doll-wishes",
+      "path": "/images/culture-verified/japanese-daruma-doll-wishes.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 246862,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-daruma-doll-wishes",
+      "path": "/things-to-do/japanese-daruma-doll-wishes/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 13072,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-maneki-neko-lucky-cat",
+      "path": "/images/culture-verified/japanese-maneki-neko-lucky-cat.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 349742,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-maneki-neko-lucky-cat",
+      "path": "/things-to-do/japanese-maneki-neko-lucky-cat/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 13202,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-noren-curtain-shop-culture",
+      "path": "/images/culture-verified/japanese-noren-curtain-shop-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 183952,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-noren-curtain-shop-culture",
+      "path": "/things-to-do/japanese-noren-curtain-shop-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 13290,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-ekiben-railway-bento-culture",
+      "path": "/images/culture-verified/japanese-ekiben-railway-bento-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 203332,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-ekiben-railway-bento-culture",
+      "path": "/things-to-do/japanese-ekiben-railway-bento-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 15504,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-kintsugi-gold-repair-culture",
+      "path": "/images/culture-verified/japanese-kintsugi-gold-repair-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 132158,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-kintsugi-gold-repair-culture",
+      "path": "/things-to-do/japanese-kintsugi-gold-repair-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 15635,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-omiyage-souvenir-gift-culture",
+      "path": "/images/culture-verified/japanese-omiyage-souvenir-gift-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 209224,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-omiyage-souvenir-gift-culture",
+      "path": "/things-to-do/japanese-omiyage-souvenir-gift-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 15793,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-garden-stone-water-moss",
+      "path": "/images/culture-verified/japanese-garden-stone-water-moss.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 212036,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-garden-stone-water-moss",
+      "path": "/things-to-do/japanese-garden-stone-water-moss/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 15857,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "kimono-vs-yukata-culture",
+      "path": "/images/editorial/kimono-yukata-hero.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 187390,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "kimono-vs-yukata-culture",
+      "path": "/things-to-do/kimono-vs-yukata-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 15473,
+      "ok": true
+    },
+    {
+      "kind": "webp",
+      "slug": "japanese-tea-ceremony-culture",
+      "path": "/images/culture-verified/japanese-tea-ceremony-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 117368,
+      "ok": true
+    },
+    {
+      "kind": "article",
+      "slug": "japanese-tea-ceremony-culture",
+      "path": "/things-to-do/japanese-tea-ceremony-culture/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 14030,
+      "ok": true
+    },
+    {
+      "kind": "hub",
+      "slug": "all52",
+      "path": "/things-to-do/",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 165448,
+      "ok": true
+    }
+  ],
+  "attempt": 1
+}
