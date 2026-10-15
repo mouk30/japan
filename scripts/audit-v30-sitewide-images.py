@@ -75,7 +75,7 @@ for hub in ["shopping","practical","couple","seasons"]:
   im=image.lower()
   bad=False
   if "eSIM" in title and any(x in im for x in ["garden","shrine","rail","train","cash","kobe","osaka"]):bad=True
-  if "버스" in title and any(x in im for x in ["shinkansen","tunnel","yurikamome","goshuin","ekiben","railway","station-marunouchi"]):bad=True
+  if "버스" in title and " vs " not in title and any(x in im for x in ["shinkansen","tunnel","yurikamome","goshuin","ekiben","railway","station-marunouchi"]):bad=True
   if "드럭스토어" in title and any(x in im for x in ["ramen","izakaya","kimono","ekiben","ryokan","bento"]):bad=True
   if "코인락커" in title and "cabin" in im:bad=True
   if "교통카드" in title and "goshuin" in im:bad=True
