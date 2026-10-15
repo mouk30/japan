@@ -1,0 +1,56 @@
+name: V33 Licensed Five Culture Photo Replacement
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/v33-five-exact-culture-photos.py'
+      - '.github/workflows/v33-five-culture-photos.yml'
+permissions:
+  contents: write
+jobs:
+  replace-five:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow==11.3.0
+      - name: Fetch exact-topic licensed photographs and update existing articles
+        run: python -u scripts/v33-five-exact-culture-photos.py
+      - name: Validate source, licenses, hero, meta image, attribution and file dimensions
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          d=json.loads(Path('audit-reports/v33/five-verified-cultural-photos.json').read_text())
+          assert len(d)==5
+          for row in d:
+           s=Path('site/things-to-do',row['slug'],'index.html').read_text(encoding='utf8')
+           assert Path('site'+row['image']).exists()
+           assert row['image'] in s and row['source'] in s
+           assert row['creator'] in s and row['license_url'] in s
+           assert 'v33-photo-credit' in s and '실제 촬영 사진' in s
+           assert 'https://www.nipponferry.com'+row['previous'] not in s
+           assert '<link rel="canonical"' in s
+           assert row['bytes']>10000 and row['width']>=580
+           assert s.count('class="v33-photo-credit"')==1
+          print('V33_STATIC_QA PASS 5/5')
+          PY
+      - name: Commit verified photos only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/images/culture-verified site/things-to-do/{origami-japanese-paper-folding-culture,shinkansen-bullet-train-history,japan-snow-monkeys-hot-springs,japan-volcano-mount-aso,japan-aomori-nebuta-floats}/index.html audit-reports/v33/five-verified-cultural-photos.json
+          git diff --cached --check
+          git commit -m 'V33 culture: five true-subject WebP photographs with Commons licenses'
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              echo "V33_PUBLISH_OK attempt=$attempt"
+              exit 0
+            fi
+            sleep 4
+          done
+          exit 1
