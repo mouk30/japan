@@ -1,0 +1,32 @@
+name: V38 production verify 20 local photographs
+on:
+  push:
+    branches: [main]
+    paths: [docs/v38-deployed-photo-credits.json]
+permissions:
+  contents: write
+jobs:
+  production-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: GET all 20 published WebP and 20 articles plus hub
+        id: check
+        continue-on-error: true
+        run: python scripts/v38_verify_live.py
+      - name: Save complete live HTTP audit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/v38-live-qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V38 QA: live WebP, article and hub verification"
+          git push
+      - name: Fail on deployment photo errors
+        if: steps.check.outcome != 'success'
+        run: exit 1
