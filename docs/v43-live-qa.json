@@ -38,7 +38,7 @@
       "status": 200,
       "ok": true,
       "mime": "image/webp",
-      "bytes": 39548,
+      "bytes": 233454,
       "sha256_matches_repository": true
     },
     {
@@ -78,7 +78,7 @@
       "status": 200,
       "ok": true,
       "mime": "image/webp",
-      "bytes": 186178,
+      "bytes": 74004,
       "sha256_matches_repository": true
     },
     {
@@ -108,7 +108,7 @@
       "status": 200,
       "ok": true,
       "mime": "image/webp",
-      "bytes": 40514,
+      "bytes": 181350,
       "sha256_matches_repository": true
     },
     {
@@ -138,7 +138,7 @@
       "status": 200,
       "ok": true,
       "mime": "image/webp",
-      "bytes": 126420,
+      "bytes": 261486,
       "sha256_matches_repository": true
     },
     {
@@ -148,7 +148,7 @@
       "status": 200,
       "ok": true,
       "mime": "image/webp",
-      "bytes": 315956,
+      "bytes": 231434,
       "sha256_matches_repository": true
     },
     {
