@@ -1,0 +1,35 @@
+name: V41 production live-photo audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - docs/v41-deployed-photo-credits.json
+      - .github/workflows/v41-live-qa.yml
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Verify deployed WebP x20, existing articles x20 and listing x1
+        id: audit
+        continue-on-error: true
+        run: python scripts/v41_verify_live.py
+      - name: Commit checked HTTP result
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ ! -f docs/v41-live-qa.json ]; then exit 1; fi
+          git add docs/v41-live-qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V41 QA: live 41-request photo and article result"
+          git pull --rebase origin main
+          git push
+      - name: Fail if public page/image check failed
+        if: steps.audit.outcome != 'success'
+        run: exit 1
