@@ -1,0 +1,59 @@
+name: V41 replace 20 graphics with source-verified WebP photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v41-apply-photos.yml
+permissions:
+  contents: write
+jobs:
+  upgrade-twenty:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Install Pillow WebP codec
+        run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Fetch 20 licensed photographs and replace only remaining graphics
+        run: python scripts/v41_apply_curated_photos.py
+      - name: Validate 20 images, site cards, article social previews and sitemap
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image
+          root=Path('site')
+          rows=json.loads(Path('docs/v41-deployed-photo-credits.json').read_text('utf-8'))
+          assert len(rows)==20 and len({r['slug'] for r in rows})==20
+          hub=(root/'things-to-do/index.html').read_text('utf-8')
+          sitemap=(root/'sitemap.xml').read_text('utf-8')
+          for row in rows:
+            slug=row['slug']; image=row['asset']
+            assert image==f'/images/culture-verified/{slug}.webp'
+            path=root/image.lstrip('/')
+            with Image.open(path) as im:
+              assert im.format=='WEBP' and min(im.size)>=350,slug
+            page=(root/'things-to-do'/slug/'index.html').read_text('utf-8')
+            assert f'src="{image}"' in page,slug
+            assert f'property="og:image" content="https://www.nipponferry.com{image}"' in page,slug
+            assert f'name="twitter:image" content="https://www.nipponferry.com{image}"' in page,slug
+            assert row['source_page'] in page,slug
+            segment=hub.split(f'href="/things-to-do/{slug}/"',1)[1].split('</a>',1)[0]
+            assert f'src="{image}"' in segment
+            assert '주제 실사 · 출처 본문' in segment
+            assert f'https://www.nipponferry.com/things-to-do/{slug}/' in sitemap,slug
+          assert (hub.count('class="v28-panel v36-photo-card"'))==152
+          print('V41: 20/20 image/photo credit/card/SEO/social/sitemap checks passed')
+          PY
+      - name: Commit reviewed images and existing page changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/culture-verified site/things-to-do docs/v41-deployed-photo-credits.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V41: 20 real photo corrections for formerly graphic-only guides"
+          git pull --rebase origin main
+          git push
