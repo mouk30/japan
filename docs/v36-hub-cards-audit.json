@@ -3,8 +3,7 @@
   "things": {
     "cards": 152,
     "kinds": {
-      "verified-real-photo": 80,
-      "graphic": 20,
+      "verified-real-photo": 100,
       "exact": 40,
       "topic": 12
     },
@@ -19,9 +18,11 @@
       },
       {
         "slug": "traditional-experience-booking",
-        "image": "/images/hub-thumbnails/traditional-experience-booking.svg",
-        "kind": "graphic",
-        "title": "다도·기모노·공예 체험 예약"
+        "image": "/images/culture-verified/traditional-experience-booking.webp",
+        "kind": "verified-real-photo",
+        "title": "다도·기모노·공예 체험 예약",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Tea_ceremony_performing_2.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "nature-outdoor-checklist",
@@ -151,9 +152,11 @@
       },
       {
         "slug": "japan-railway-platform-melodies",
-        "image": "/images/hub-thumbnails/japan-railway-platform-melodies.svg",
-        "kind": "graphic",
-        "title": "일본 역은 왜 멜로디가 다를까?"
+        "image": "/images/culture-verified/japan-railway-platform-melodies.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 역은 왜 멜로디가 다를까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Tobu-railway-TS43-Kameidosuijin-station-platform-20190914-105007.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japanese-local-train-one-man",
@@ -279,9 +282,11 @@
       },
       {
         "slug": "japan-sea-of-japan-coast",
-        "image": "/images/hub-thumbnails/japan-sea-of-japan-coast.svg",
-        "kind": "graphic",
-        "title": "겨울 동해 연안의 거친 파도"
+        "image": "/images/culture-verified/japan-sea-of-japan-coast.webp",
+        "kind": "verified-real-photo",
+        "title": "겨울 동해 연안의 거친 파도",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Tojinbo_%288706974709%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "japanese-machiya-townhouses",
@@ -421,9 +426,11 @@
       },
       {
         "slug": "kabuki-japanese-theater",
-        "image": "/images/hub-thumbnails/kabuki-japanese-theater.svg",
-        "kind": "graphic",
-        "title": "가부키의 과장된 분장"
+        "image": "/images/culture-verified/kabuki-japanese-theater.webp",
+        "kind": "verified-real-photo",
+        "title": "가부키의 과장된 분장",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Japan_Kabuki_actress_makeup_1202.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "noh-japanese-mask-theater",
@@ -443,9 +450,11 @@
       },
       {
         "slug": "rakugo-japanese-storytelling",
-        "image": "/images/hub-thumbnails/rakugo-japanese-storytelling.svg",
-        "kind": "graphic",
-        "title": "라쿠고 이야기꾼"
+        "image": "/images/culture-verified/rakugo-japanese-storytelling.webp",
+        "kind": "verified-real-photo",
+        "title": "라쿠고 이야기꾼",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Rakugo-sanmafestival.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "taiko-japanese-drumming",
@@ -483,9 +492,11 @@
       },
       {
         "slug": "aizome-japanese-indigo-dye",
-        "image": "/images/hub-thumbnails/aizome-japanese-indigo-dye.svg",
-        "kind": "graphic",
-        "title": "남색 쪽염색"
+        "image": "/images/culture-verified/aizome-japanese-indigo-dye.webp",
+        "kind": "verified-real-photo",
+        "title": "남색 쪽염색",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Indigobad_fr%C3%A5n_Japan.jpg",
+        "licence": "CC BY 4.0"
       },
       {
         "slug": "washi-japanese-handmade-paper",
@@ -503,9 +514,11 @@
       },
       {
         "slug": "kutani-japanese-porcelain",
-        "image": "/images/hub-thumbnails/kutani-japanese-porcelain.svg",
-        "kind": "graphic",
-        "title": "일본 구타니야키는 왜 색채가 화려할까? 색유 도자기의 매력"
+        "image": "/images/culture-verified/kutani-japanese-porcelain.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 구타니야키는 왜 색채가 화려할까? 색유 도자기의 매력",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Kutani-Ware_Plate%2C_late_17th_century%2C_Japan%2C_porcelain_with_enamel_-_Art_Institute_of_Chicago_-_DSC00224.JPG",
+        "licence": "CC0"
       },
       {
         "slug": "japanese-urushi-lacquerware",
@@ -621,9 +634,11 @@
       },
       {
         "slug": "dashi-japanese-umami-stock",
-        "image": "/images/hub-thumbnails/dashi-japanese-umami-stock.svg",
-        "kind": "graphic",
-        "title": "일본 요리는 왜 다시 국물을 중요하게 생각할까?"
+        "image": "/images/culture-verified/dashi-japanese-umami-stock.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 요리는 왜 다시 국물을 중요하게 생각할까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:JapaneseKatsuobushi.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "onigiri-japanese-rice-ball",
@@ -665,15 +680,19 @@
       },
       {
         "slug": "japan-trash-bin-shortage",
-        "image": "/images/hub-thumbnails/japan-trash-bin-shortage.svg",
-        "kind": "graphic",
-        "title": "일본 거리에는 왜 쓰레기통이 적게 보일까? 분리수거와 도시 관리"
+        "image": "/images/culture-verified/japan-trash-bin-shortage.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 거리에는 왜 쓰레기통이 적게 보일까? 분리수거와 도시 관리",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:See_thru_recycle_bins_JR%E6%9D%B1%E6%B5%B7_2010_%284624233234%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "japanese-sento-public-bath-manners",
-        "image": "/images/hub-thumbnails/japanese-sento-public-bath-manners.svg",
-        "kind": "graphic",
-        "title": "일본 대중목욕탕 센토에는 왜 탕에 들어가기 전 씻을까?"
+        "image": "/images/culture-verified/japanese-sento-public-bath-manners.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 대중목욕탕 센토에는 왜 탕에 들어가기 전 씻을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:The_view_from_BANDAI_in_Japanese_SENTO_%E7%95%AA%E5%8F%B0%E3%81%8B%E3%82%89%E3%81%AE%E7%9C%BA%E3%82%81_01.jpg",
+        "licence": "Public domain"
       },
       {
         "slug": "japanese-hightech-public-toilets",
@@ -685,9 +704,11 @@
       },
       {
         "slug": "kissaten-japanese-retro-coffee",
-        "image": "/images/hub-thumbnails/kissaten-japanese-retro-coffee.svg",
-        "kind": "graphic",
-        "title": "일본 킷사텐은 왜 오래된 커피잔과 조용한 음악을 지킬까?"
+        "image": "/images/culture-verified/kissaten-japanese-retro-coffee.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 킷사텐은 왜 오래된 커피잔과 조용한 음악을 지킬까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:%E5%90%8D%E6%9B%B2%E5%96%AB%E8%8C%B6%E3%83%B4%E3%82%A3%E3%82%AA%E3%83%AD%E3%83%B3.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "shotengai-japanese-shopping-arcades",
@@ -743,9 +764,11 @@
       },
       {
         "slug": "toji-yuzu-bath-japan",
-        "image": "/images/hub-thumbnails/toji-yuzu-bath-japan.svg",
-        "kind": "graphic",
-        "title": "일본 동짓날에는 왜 유자탕에 들어갈까?"
+        "image": "/images/culture-verified/toji-yuzu-bath-japan.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 동짓날에는 왜 유자탕에 들어갈까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Citron_hot_water_of_the_winter_solstice%2Cyuzuyu%2Ckatori-city%2Cjapan.JPG",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "ume-japanese-plum-blossoms",
@@ -1003,21 +1026,27 @@
       },
       {
         "slug": "japan-forest-bathing-shinrin-yoku",
-        "image": "/images/hub-thumbnails/japan-forest-bathing-shinrin-yoku.svg",
-        "kind": "graphic",
-        "title": "일본에서 시작된 삼림욕, 숲을 걷는 것과 무엇이 다를까?"
+        "image": "/images/culture-verified/japan-forest-bathing-shinrin-yoku.webp",
+        "kind": "verified-real-photo",
+        "title": "일본에서 시작된 삼림욕, 숲을 걷는 것과 무엇이 다를까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Kugurisugi_Cedar_%2831536833473%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "japan-diving-first-time",
-        "image": "/images/hub-thumbnails/japan-diving-first-time.svg",
-        "kind": "graphic",
-        "title": "일본 다이빙, 처음이라면 어디서 어떻게 시작할까?"
+        "image": "/images/culture-verified/japan-diving-first-time.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 다이빙, 처음이라면 어디서 어떻게 시작할까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Big_Turtle_Rock_%E5%A4%A7%E4%BA%80%E7%9F%B3_near_the_Yonaguni_Monument.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "why-japanese-onsen-special",
-        "image": "/images/hub-thumbnails/why-japanese-onsen-special.svg",
-        "kind": "graphic",
-        "title": "일본 온천은 왜 특별할까?"
+        "image": "/images/culture-verified/why-japanese-onsen-special.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 온천은 왜 특별할까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Tsurunoyu_onsen_rotenburo2.JPG",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "japan-konbini-culture",
@@ -1053,33 +1082,43 @@
       },
       {
         "slug": "family-with-kids",
-        "image": "/images/hub-thumbnails/family-with-kids.svg",
-        "kind": "graphic",
-        "title": "아이와 일본여행 즐길거리"
+        "image": "/images/culture-verified/family-with-kids.webp",
+        "kind": "verified-real-photo",
+        "title": "아이와 일본여행 즐길거리",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Water_tank_of_the_goldfish%2CAqua-marine-Fukushima%2CIwaki-city%2CJapan.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "solo-cultural-day",
-        "image": "/images/hub-thumbnails/solo-cultural-day.svg",
-        "kind": "graphic",
-        "title": "혼자 일본여행 문화 체험"
+        "image": "/images/culture-verified/solo-cultural-day.webp",
+        "kind": "verified-real-photo",
+        "title": "혼자 일본여행 문화 체험",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Dry-sand_Zen_garden_made_of_beige_stripes_a_sunny_day_at_Higashiyama_Jisho-ji_Buddhist_temple_Ginkaku-ji_Kyoto_Japan.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japan-free-low-budget",
-        "image": "/images/hub-thumbnails/japan-free-low-budget.svg",
-        "kind": "graphic",
-        "title": "무료·저예산 일본 즐길거리"
+        "image": "/images/culture-verified/japan-free-low-budget.webp",
+        "kind": "verified-real-photo",
+        "title": "무료·저예산 일본 즐길거리",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Lascar_Ueno-koen_Park_%281298835399%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "accessible-slow-travel",
-        "image": "/images/hub-thumbnails/accessible-slow-travel.svg",
-        "kind": "graphic",
-        "title": "부모님과 여유로운 일본 여행"
+        "image": "/images/culture-verified/accessible-slow-travel.webp",
+        "kind": "verified-real-photo",
+        "title": "부모님과 여유로운 일본 여행",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Accessible_slope_in_Chion-in.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "experience-booking-checklist",
-        "image": "/images/hub-thumbnails/experience-booking-checklist.svg",
-        "kind": "graphic",
-        "title": "일본 체험 예약 체크리스트"
+        "image": "/images/culture-verified/experience-booking-checklist.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 체험 예약 체크리스트",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Japan_tea_ceremony_1165.jpg",
+        "licence": "CC BY-SA 4.0"
       }
     ]
   },
@@ -1226,8 +1265,8 @@
     "japan/shimonoseki-dessert/index.html",
     "japan/shimonoseki-local-food/index.html"
   ],
-  "caveat": "V37–V40 80/152 cards use separately source-verified local real Commons WebP photographs. 40 other cards have preexisting exact-title images that still need author/source and photo-type verification; 12 topic related images likewise need separate quality review; 20 remain labelled topic graphics. V40 production HTTP checks passed 41/41 (20 image bytes, 20 article/OG/Twitter, 1 hub); no full device/mobile layout QA or full-site broken-image crawl claimed.",
-  "last_quality_refresh": "2026-10-15 V40",
+  "caveat": "V37–V41 completed 100 newly source-verified Commons WebP article thumbnails, with 0 remaining explicitly graphic-only cards. A further 40 existing exact-title images and 12 topic-reference images remain to be independently checked for visual accuracy and copyright. V41 live HTTP validation passed 41/41 (20 photo bytes, 20 article/OG/Twitter, 1 directory). Full mobile/desktop visual crop/layout audit and sitewide 1044-URL crawl not claimed.",
+  "last_quality_refresh": "2026-10-15 V41",
   "v38": {
     "selection": "previously graphic-only cards",
     "new_real_photo_articles": 20,
@@ -1261,5 +1300,16 @@
     "site_qa": "docs/v40-live-qa.json",
     "live_qa_passed": 41,
     "live_qa_total": 41
+  },
+  "v41": {
+    "upgraded": 20,
+    "cumulative_verified_real_photo_upgrades": 100,
+    "remaining_topic_graphics": 0,
+    "unverified_existing_exact_images": 40,
+    "topic_reference_images_still_to_review": 12,
+    "live_qa": "docs/v41-live-qa.json",
+    "live_http_checks_passed": 41,
+    "live_http_checks_total": 41,
+    "photo_attribution": "docs/v41-deployed-photo-credits.json"
   }
 }
