@@ -1288,7 +1288,7 @@
     "japan/shimonoseki-dessert/index.html",
     "japan/shimonoseki-local-food/index.html"
   ],
-  "caveat": "V37-V42 source-verified new Commons WebP photo upgrades: 111 cards (100 previous + 11 new). V42 checked all remaining 52 visually and technically; 40 original matched-asset cards include both previously credited real photographs and editorial imagery without independently documented provenance; kimono/yukata retains explicitly labelled comparative editorial art. 52/52 metadata links repaired; production HTTP QA and mobile/desktop crop QA are separate.",
+  "caveat": "V42 audited all 52 pre-existing pictures: 11 topic references replaced with licensed source-documented Commons photos, 20 legacy originals already have visible source+license in article, 21 source-unverified/editorial images remain (including 1 comparison illustration). V37–V42 cumulative new source-verified replacements: 111. After 3 HTML fallback-credit repairs and 2 additional subject corrections, all 52 WebP bytes matched production SHA256, 52 article/share image references matched, and hub responded successfully (105/105). Browser/mobile responsive crop QA is separate.",
   "last_quality_refresh": "2026-10-15 V42",
   "v38": {
     "selection": "previously graphic-only cards",
@@ -1346,6 +1346,12 @@
     "unfixed_twitter_links": 0,
     "source_register": "docs/v42-deployed-photo-credits.json",
     "finalized_inventory": "docs/v42-image-audit/finalized-52.json",
-    "production_http_test": "docs/v42-live-qa.json"
+    "production_http_test": "docs/v42-live-qa.json",
+    "live_qa_passed": 105,
+    "live_qa_total": 105,
+    "verification": "All 52 live WebP bytes equal repo files by SHA256; 52 pages' OG/Twitter social meta correct; listing page returned 200",
+    "html_fallback_credit_repairs": 3,
+    "post_visual_subject_corrections": 2,
+    "final_source_register": "docs/v42-image-audit/final-visual-corrections.json"
   }
 }
