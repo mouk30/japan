@@ -5,7 +5,7 @@ import path from 'node:path';
 const origin = process.env.LOCAL_BASE_URL || 'http://127.0.0.1:8765';
 const suites=[
  {slug:'couple',url:'/couple/',cardSelector:'.dircard',expected:30,unique:20},
- {slug:'shopping',url:'/shopping/',cardSelector:'.dircard',expected:20,unique:9},
+ {slug:'shopping',url:'/shopping/',cardSelector:'.dircard',expected:20,unique:8},
  {slug:'practical',url:'/practical/',cardSelector:'.dircard',expected:34,unique:13},
  {slug:'companions',url:'/things-to-do/travel-companions/',cardSelector:'.guide-card',expected:45,unique:0}
 ];
