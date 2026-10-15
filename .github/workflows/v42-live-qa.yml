@@ -34,3 +34,5 @@ jobs:
       - name: Signal failures
         if: steps.verify.outcome != 'success'
         run: exit 1
+
+# Second acceptance pass: verify latest photo bytes with SHA256 after structural HTML corrections.
