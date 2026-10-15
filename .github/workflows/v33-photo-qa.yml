@@ -1,0 +1,54 @@
+name: V33 Photo and Sitewide Image Regression QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/audit-v33-culture-render.mjs'
+      - '.github/workflows/v33-photo-qa.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Scan all HTML pages for broken media references
+        run: |
+          python3 scripts/audit-v30-sitewide-images.py
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          d=json.loads(Path('audit-reports/v30/sitewide-scan.json').read_text())
+          assert d['html_pages_scanned'] >= 1047
+          assert d['summary']['broken_img_pages'] == 0
+          assert d['summary']['broken_primary'] == 0
+          assert d['summary']['flagged_mismatches'] == 0
+          print('V33_SITEWIDE_ASSET_QA PASS', d['html_pages_scanned'],'HTML pages')
+          PY
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build website as deployed
+        run: npm run build
+      - name: Verify V33 mobile and desktop photo, attribution and OG
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist >/tmp/v33-http.log 2>&1 &
+          sleep 2
+          node scripts/audit-v33-culture-render.mjs
+      - name: Recheck 354 legacy cruise mobile and desktop screens
+        run: node scripts/audit-v23-image-render.mjs
+      - name: Save V33 browser screenshots and audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v33-culture-source-mobile-desktop-qa
+          path: |
+            audit-reports/v33/
+            audit-reports/v30/sitewide-scan.json
+            audit-reports/v23/
+          retention-days: 30
