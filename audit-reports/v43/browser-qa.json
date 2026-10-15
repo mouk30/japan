@@ -1,11 +1,11 @@
 {
   "site": "https://www.nipponferry.com",
-  "checked_at": "2026-10-15T12:24:49.650Z",
+  "checked_at": "2026-10-15T12:28:28.322Z",
   "checks": [
     {
       "kind": "culture-grid",
       "viewport": "mobile320",
-      "ok": false,
+      "ok": true,
       "count": 152,
       "screenWidth": 320,
       "documentWidth": 320,
@@ -29,7 +29,7 @@
     {
       "kind": "culture-grid",
       "viewport": "mobile390",
-      "ok": false,
+      "ok": true,
       "count": 152,
       "screenWidth": 390,
       "documentWidth": 390,
@@ -155,5 +155,5 @@
     "audit-reports/v43/mobile390-photo-spots.png",
     "audit-reports/v43/desktop1440-photo-spots.png"
   ],
-  "pass": false
+  "pass": true
 }
