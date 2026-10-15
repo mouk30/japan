@@ -1,0 +1,24 @@
+name: V42 supplement licensed images for three elusive themes
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v42-photo-supplement.yml]
+permissions:
+  contents: write
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python scripts/v42_commons_supplement.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/v42-commons-supplement.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V42: verify three additional photo subject sources"
+          git pull --rebase origin main
+          git push
