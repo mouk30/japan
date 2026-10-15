@@ -1,0 +1,454 @@
+{
+  "removed_sentence": "원본 사진을 축소하여 WebP로 변환했습니다.",
+  "html_files_scanned": 1343,
+  "html_files_changed": 111,
+  "sentences_removed": 111,
+  "unremoved_html_files": [],
+  "attribution_and_license_urls_preserved": true,
+  "changed_files": [
+    {
+      "file": "site/japan/tsushima-dessert/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/japan/tsushima-food/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/accessible-slow-travel/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/aizome-japanese-indigo-dye/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/bunraku-japanese-puppet-theater/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/dashi-japanese-umami-stock/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/depachika-japanese-department-food/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/experience-booking-checklist/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/family-with-kids/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/hanabi-japanese-fireworks-summer/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/hatsumode-japanese-first-shrine-visit/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-ainu-embroidery/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-ajisai-hydrangea-season/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-amami-oshima-tsumugi/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-castle-moats/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-castle-stone-walls/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-castle-tenshu-towers/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-diving-first-time/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-forest-bathing-shinrin-yoku/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-four-shopping-experiences/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-free-low-budget/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-geothermal-steam-hells/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-izakaya-yokocho-alleys/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-kagawa-udon-pilgrimage/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-kanazawa-gold-leaf/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-konbini-culture/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-nagasaki-lantern-festival/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-night-train-travel/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-niigata-rice-snow/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-public-parks-hanami/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-rail-pass-why-changes/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-railway-platform-melodies/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-railway-station-stamps/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-sakura-forecast-science/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-samurai-armor/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-sea-of-japan-coast/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-shotengai-neon-signs/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-small-streets/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-snow-country-architecture/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-station-bento-vending/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-stone-lanterns/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-temple-bells/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-terraced-rice-fields/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-traditional-roof-tiles/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-tram-streetcars-history/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-trash-bin-shortage/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-volcanic-onsen-geology/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japan-yakushima-ancient-cedars/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-daruma-doll-wishes/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-engawa-veranda/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-ferries-islands-life/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-garden-stone-water-moss/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-hightech-public-toilets/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-katana-curvature/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-local-train-one-man/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-machiya-townhouses/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-maneki-neko-lucky-cat/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-matsuri-festival-culture/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-noren-curtain-shop-culture/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-omiyage-souvenir-gift-culture/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-pagoda-five-stories/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-queue-culture/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-ropeways-mountain-access/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-sento-public-bath-manners/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-shrine-vs-buddhist-temple/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-sword-guards-tsuba/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-tea-ceremony-culture/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-train-manners-quiet-car/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/japanese-wind-chimes-furin/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/kabuki-japanese-theater/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/kissaten-japanese-retro-coffee/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/kodo-japanese-incense-appreciation/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/konbini-japanese-convenience-store-life/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/kutani-japanese-porcelain/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/local-food-market-guide/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/miso-japanese-fermented-soy/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/nature-outdoor-checklist/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/noh-japanese-mask-theater/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/obon-japanese-ancestors/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/okonomiyaki-osaka-hiroshima/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/omikuji-japanese-fortune/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/onigiri-japanese-rice-ball/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/onsen-first-time/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/port-to-experience-planner/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/rakugo-japanese-storytelling/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/regional-soba-japanese-buckwheat/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/ryokan-vs-hotel/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/sashiko-japanese-repair-stitching/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/setsubun-japanese-beans/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/shamisen-japanese-three-string-instrument/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/shichi-go-san-japanese-children/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/shopping-city-night-guide/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/shotengai-japanese-shopping-arcades/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/solo-cultural-day/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/sushi-edo-japanese-food-history/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/takoyaki-osaka-street-food/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/tanuki-japanese-shop-statues/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/temari-japanese-thread-balls/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/tempura-japanese-fried-food/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/toji-yuzu-bath-japan/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/traditional-experience-booking/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/tsukimi-japanese-moon-viewing/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/udon-japanese-regional-noodles/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/ukiyoe-japanese-woodblock-art/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/ume-japanese-plum-blossoms/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/washi-japanese-handmade-paper/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/why-japanese-onsen-special/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/why-travel-japan-by-sea/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/yakitori-japanese-skewer-culture/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/yatai-japanese-food-stalls/index.html",
+      "removed": 1
+    },
+    {
+      "file": "site/things-to-do/yukimi-japanese-snow-viewing-tradition/index.html",
+      "removed": 1
+    }
+  ]
+}
