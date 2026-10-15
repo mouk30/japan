@@ -1,0 +1,335 @@
+{
+  "site": "https://www.nipponferry.com",
+  "complete": true,
+  "checks": [
+    {
+      "item": "image",
+      "slug": "onsen-first-time",
+      "path": "/images/culture-verified/onsen-first-time.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 304830,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "onsen-first-time",
+      "path": "/things-to-do/onsen-first-time/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "nature-outdoor-checklist",
+      "path": "/images/culture-verified/nature-outdoor-checklist.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 515930,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "nature-outdoor-checklist",
+      "path": "/things-to-do/nature-outdoor-checklist/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "shopping-city-night-guide",
+      "path": "/images/culture-verified/shopping-city-night-guide.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 234524,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "shopping-city-night-guide",
+      "path": "/things-to-do/shopping-city-night-guide/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "port-to-experience-planner",
+      "path": "/images/culture-verified/port-to-experience-planner.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 148342,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "port-to-experience-planner",
+      "path": "/things-to-do/port-to-experience-planner/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-four-shopping-experiences",
+      "path": "/images/culture-verified/japan-four-shopping-experiences.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 369774,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-four-shopping-experiences",
+      "path": "/things-to-do/japan-four-shopping-experiences/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-rail-pass-why-changes",
+      "path": "/images/culture-verified/japan-rail-pass-why-changes.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 129660,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-rail-pass-why-changes",
+      "path": "/things-to-do/japan-rail-pass-why-changes/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-station-bento-vending",
+      "path": "/images/culture-verified/japan-station-bento-vending.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 52874,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-station-bento-vending",
+      "path": "/things-to-do/japan-station-bento-vending/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-shotengai-neon-signs",
+      "path": "/images/culture-verified/japan-shotengai-neon-signs.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 232574,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-shotengai-neon-signs",
+      "path": "/things-to-do/japan-shotengai-neon-signs/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-sakura-forecast-science",
+      "path": "/images/culture-verified/japan-sakura-forecast-science.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 77526,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-sakura-forecast-science",
+      "path": "/things-to-do/japan-sakura-forecast-science/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "tanuki-japanese-shop-statues",
+      "path": "/images/culture-verified/tanuki-japanese-shop-statues.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 237708,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "tanuki-japanese-shop-statues",
+      "path": "/things-to-do/tanuki-japanese-shop-statues/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "miso-japanese-fermented-soy",
+      "path": "/images/culture-verified/miso-japanese-fermented-soy.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 52714,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "miso-japanese-fermented-soy",
+      "path": "/things-to-do/miso-japanese-fermented-soy/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japanese-train-manners-quiet-car",
+      "path": "/images/culture-verified/japanese-train-manners-quiet-car.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 167334,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-train-manners-quiet-car",
+      "path": "/things-to-do/japanese-train-manners-quiet-car/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japanese-queue-culture",
+      "path": "/images/culture-verified/japanese-queue-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 245472,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-queue-culture",
+      "path": "/things-to-do/japanese-queue-culture/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "shichi-go-san-japanese-children",
+      "path": "/images/culture-verified/shichi-go-san-japanese-children.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 340038,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "shichi-go-san-japanese-children",
+      "path": "/things-to-do/shichi-go-san-japanese-children/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "obon-japanese-ancestors",
+      "path": "/images/culture-verified/obon-japanese-ancestors.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 105680,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "obon-japanese-ancestors",
+      "path": "/things-to-do/obon-japanese-ancestors/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "yukimi-japanese-snow-viewing-tradition",
+      "path": "/images/culture-verified/yukimi-japanese-snow-viewing-tradition.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 236952,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "yukimi-japanese-snow-viewing-tradition",
+      "path": "/things-to-do/yukimi-japanese-snow-viewing-tradition/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "kodo-japanese-incense-appreciation",
+      "path": "/images/culture-verified/kodo-japanese-incense-appreciation.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 116568,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "kodo-japanese-incense-appreciation",
+      "path": "/things-to-do/kodo-japanese-incense-appreciation/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-konbini-culture",
+      "path": "/images/culture-verified/japan-konbini-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 224828,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-konbini-culture",
+      "path": "/things-to-do/japan-konbini-culture/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "ryokan-vs-hotel",
+      "path": "/images/culture-verified/ryokan-vs-hotel.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 233454,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "ryokan-vs-hotel",
+      "path": "/things-to-do/ryokan-vs-hotel/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "why-travel-japan-by-sea",
+      "path": "/images/culture-verified/why-travel-japan-by-sea.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 233648,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "why-travel-japan-by-sea",
+      "path": "/things-to-do/why-travel-japan-by-sea/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "hub",
+      "path": "/things-to-do/",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "images": 20,
+  "articles": 20,
+  "attempt": 1
+}
