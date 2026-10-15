@@ -3,9 +3,10 @@
   "things": {
     "cards": 152,
     "kinds": {
-      "graphic": 80,
-      "topic": 32,
-      "exact": 40
+      "graphic": 60,
+      "verified-real-photo": 40,
+      "exact": 40,
+      "topic": 12
     },
     "mappings": [
       {
@@ -28,9 +29,11 @@
       },
       {
         "slug": "local-food-market-guide",
-        "image": "/images/editorial/kyoto-nishiki-market-food-culture.webp",
-        "kind": "topic",
-        "title": "현지 음식·시장 여행"
+        "image": "/images/culture-verified/local-food-market-guide.webp",
+        "kind": "verified-real-photo",
+        "title": "현지 음식·시장 여행",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Nishiki_market_-_Dec_31_2021_various_18_22_06_321000.jpeg",
+        "licence": "CC BY 4.0"
       },
       {
         "slug": "shopping-city-night-guide",
@@ -52,63 +55,83 @@
       },
       {
         "slug": "japan-castle-stone-walls",
-        "image": "/images/editorial/himeji-castle-defense-route.webp",
-        "kind": "topic",
-        "title": "일본 성벽은 왜 돌을 비스듬히 쌓았을까?"
+        "image": "/images/culture-verified/japan-castle-stone-walls.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 성벽은 왜 돌을 비스듬히 쌓았을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Himeji_castle_April_04.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "japan-castle-tenshu-towers",
-        "image": "/images/editorial/himeji-castle-defense-route.webp",
-        "kind": "topic",
-        "title": "일본 성 천수각은 왜 높고 하얗게 지었을까?"
+        "image": "/images/culture-verified/japan-castle-tenshu-towers.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 성 천수각은 왜 높고 하얗게 지었을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Himeji_Castle_The_Keep_Towers.jpg",
+        "licence": "Public domain"
       },
       {
         "slug": "japan-castle-moats",
-        "image": "/images/hub-thumbnails/japan-castle-moats.svg",
-        "kind": "graphic",
-        "title": "일본 성에는 왜 해자와 다리가 많을까?"
+        "image": "/images/culture-verified/japan-castle-moats.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 성에는 왜 해자와 다리가 많을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Matsumoto_Castle_Moat_Bridge_%2826828913331%29.jpg",
+        "licence": "CC BY-SA 2.0"
       },
       {
         "slug": "japanese-pagoda-five-stories",
-        "image": "/images/hub-thumbnails/japanese-pagoda-five-stories.svg",
-        "kind": "graphic",
-        "title": "일본 오층탑은 왜 층마다 지붕이 있을까?"
+        "image": "/images/culture-verified/japanese-pagoda-five-stories.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 오층탑은 왜 층마다 지붕이 있을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:T%C5%8D-ji.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "japan-temple-bells",
-        "image": "/images/editorial/shrine-temple-hero.webp",
-        "kind": "topic",
-        "title": "일본 절의 큰 종은 왜 천천히 울릴까?"
+        "image": "/images/culture-verified/japan-temple-bells.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 절의 큰 종은 왜 천천히 울릴까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:RyoanJi-Kane.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japan-samurai-armor",
-        "image": "/images/hub-thumbnails/japan-samurai-armor.svg",
-        "kind": "graphic",
-        "title": "사무라이 갑옷은 왜 끈으로 엮었을까?"
+        "image": "/images/culture-verified/japan-samurai-armor.webp",
+        "kind": "verified-real-photo",
+        "title": "사무라이 갑옷은 왜 끈으로 엮었을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Display_of_samurai_armor_and_weapons_in_Japan_%28104%29.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japanese-katana-curvature",
-        "image": "/images/hub-thumbnails/japanese-katana-curvature.svg",
-        "kind": "graphic",
-        "title": "일본도는 왜 곧지 않고 휘어 있을까?"
+        "image": "/images/culture-verified/japanese-katana-curvature.webp",
+        "kind": "verified-real-photo",
+        "title": "일본도는 왜 곧지 않고 휘어 있을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Katana%2C_sword_%28AM_1934.316-1%29.jpg",
+        "licence": "CC BY 4.0"
       },
       {
         "slug": "japanese-sword-guards-tsuba",
-        "image": "/images/hub-thumbnails/japanese-sword-guards-tsuba.svg",
-        "kind": "graphic",
-        "title": "일본도의 쓰바는 왜 정교할까?"
+        "image": "/images/culture-verified/japanese-sword-guards-tsuba.webp",
+        "kind": "verified-real-photo",
+        "title": "일본도의 쓰바는 왜 정교할까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Sword_Guard_%28Tsuba%29_MET_36.120.79_001may2014.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "japan-traditional-roof-tiles",
-        "image": "/images/hub-thumbnails/japan-traditional-roof-tiles.svg",
-        "kind": "graphic",
-        "title": "일본 기와지붕에는 왜 오니가와라가 있을까?"
+        "image": "/images/culture-verified/japan-traditional-roof-tiles.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 기와지붕에는 왜 오니가와라가 있을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Seiman-ji_onigawara_ac_%289%29.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japanese-engawa-veranda",
-        "image": "/images/hub-thumbnails/japanese-engawa-veranda.svg",
-        "kind": "graphic",
-        "title": "일본 전통집 엔가와의 의미"
+        "image": "/images/culture-verified/japanese-engawa-veranda.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 전통집 엔가와의 의미",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Engawa.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "shinkansen-bullet-train-history",
@@ -124,9 +147,11 @@
       },
       {
         "slug": "japanese-local-train-one-man",
-        "image": "/images/hub-thumbnails/japanese-local-train-one-man.svg",
-        "kind": "graphic",
-        "title": "일본 지방 원맨열차의 비밀"
+        "image": "/images/culture-verified/japanese-local-train-one-man.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 지방 원맨열차의 비밀",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Takayama_Honsen_-One_man_operation.jpg",
+        "licence": "CC BY-SA 2.0"
       },
       {
         "slug": "japan-rail-pass-why-changes",
@@ -136,33 +161,43 @@
       },
       {
         "slug": "japan-night-train-travel",
-        "image": "/images/editorial/ekiben-train-hero.webp",
-        "kind": "topic",
-        "title": "일본 침대열차는 왜 특별할까?"
+        "image": "/images/culture-verified/japan-night-train-travel.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 침대열차는 왜 특별할까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Jr_285_Sunrise_Izumo_20130413.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "japanese-ferries-islands-life",
-        "image": "/images/hub-thumbnails/japanese-ferries-islands-life.svg",
-        "kind": "graphic",
-        "title": "일본의 섬에는 왜 페리가 중요할까?"
+        "image": "/images/culture-verified/japanese-ferries-islands-life.webp",
+        "kind": "verified-real-photo",
+        "title": "일본의 섬에는 왜 페리가 중요할까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Shodoshima-exp-ferry_Tonosho.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "japanese-ropeways-mountain-access",
-        "image": "/images/hub-thumbnails/japanese-ropeways-mountain-access.svg",
-        "kind": "graphic",
-        "title": "일본 산에는 왜 로프웨이가 많을까?"
+        "image": "/images/culture-verified/japanese-ropeways-mountain-access.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 산에는 왜 로프웨이가 많을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Hakone_Ropeway_Gondola_20050105.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japan-tram-streetcars-history",
-        "image": "/images/hub-thumbnails/japan-tram-streetcars-history.svg",
-        "kind": "graphic",
-        "title": "일본 노면전차는 왜 지금도 달릴까?"
+        "image": "/images/culture-verified/japan-tram-streetcars-history.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 노면전차는 왜 지금도 달릴까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:HIROSHIMA_STREETCAR_AT_HIROSHIMA_STATION_JAPAN_JUNE_2012_%287428018070%29.jpg",
+        "licence": "CC BY-SA 2.0"
       },
       {
         "slug": "japan-railway-station-stamps",
-        "image": "/images/hub-thumbnails/japan-railway-station-stamps.svg",
-        "kind": "graphic",
-        "title": "일본 역 스탬프의 매력"
+        "image": "/images/culture-verified/japan-railway-station-stamps.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 역 스탬프의 매력",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Tokyo_station_eki_stamp.jpg",
+        "licence": "CC BY 4.0"
       },
       {
         "slug": "japan-station-bento-vending",
@@ -172,15 +207,19 @@
       },
       {
         "slug": "japan-volcanic-onsen-geology",
-        "image": "/images/editorial/beppu-port-onsen-day-trip.webp",
-        "kind": "topic",
-        "title": "일본에 온천이 많은 지질학적 이유"
+        "image": "/images/culture-verified/japan-volcanic-onsen-geology.webp",
+        "kind": "verified-real-photo",
+        "title": "일본에 온천이 많은 지질학적 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Beppu_Umi-jigoku04n4272.jpg",
+        "licence": "CC BY 2.5"
       },
       {
         "slug": "japan-geothermal-steam-hells",
-        "image": "/images/hub-thumbnails/japan-geothermal-steam-hells.svg",
-        "kind": "graphic",
-        "title": "벳푸 지옥온천에서는 왜 목욕하지 않을까?"
+        "image": "/images/culture-verified/japan-geothermal-steam-hells.webp",
+        "kind": "verified-real-photo",
+        "title": "벳푸 지옥온천에서는 왜 목욕하지 않을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Umi_Jigoku_%28Sea_Hell%29_in_Beppu.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "japan-volcano-mount-aso",
@@ -190,9 +229,11 @@
       },
       {
         "slug": "japan-terraced-rice-fields",
-        "image": "/images/hub-thumbnails/japan-terraced-rice-fields.svg",
-        "kind": "graphic",
-        "title": "일본 계단식 논의 역사"
+        "image": "/images/culture-verified/japan-terraced-rice-fields.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 계단식 논의 역사",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Wajima_Shiroyone_Senmaida_Rice_Terraces.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "japan-bamboo-grove-ecology",
@@ -202,15 +243,19 @@
       },
       {
         "slug": "japan-yakushima-ancient-cedars",
-        "image": "/images/hub-thumbnails/japan-yakushima-ancient-cedars.svg",
-        "kind": "graphic",
-        "title": "야쿠시마의 오래된 삼나무"
+        "image": "/images/culture-verified/japan-yakushima-ancient-cedars.webp",
+        "kind": "verified-real-photo",
+        "title": "야쿠시마의 오래된 삼나무",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Jomon_Sugi_01.jpg",
+        "licence": "CC BY 3.0"
       },
       {
         "slug": "japan-snow-country-architecture",
-        "image": "/images/hub-thumbnails/japan-snow-country-architecture.svg",
-        "kind": "graphic",
-        "title": "일본 설국의 가파른 지붕"
+        "image": "/images/culture-verified/japan-snow-country-architecture.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 설국의 가파른 지붕",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Suganuma_Gassho_village_-_Flickr_-_tsuda.jpg",
+        "licence": "CC BY-SA 2.0"
       },
       {
         "slug": "japan-snow-monkeys-hot-springs",
@@ -238,15 +283,19 @@
       },
       {
         "slug": "japan-izakaya-yokocho-alleys",
-        "image": "/images/editorial/izakaya-japanese-afterwork-culture.webp",
-        "kind": "topic",
-        "title": "일본 요코초 골목의 매력"
+        "image": "/images/culture-verified/japan-izakaya-yokocho-alleys.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 요코초 골목의 매력",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Shinjuku-West_Omoide-Yokocho.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japan-public-parks-hanami",
-        "image": "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp",
-        "kind": "topic",
-        "title": "일본 공원의 사계절 문화"
+        "image": "/images/culture-verified/japan-public-parks-hanami.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 공원의 사계절 문화",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Hanami_Matsuri_picknick_in_Ueno_park%2C_Tokyo_Japan.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japan-sakura-forecast-science",
@@ -256,9 +305,11 @@
       },
       {
         "slug": "japan-ajisai-hydrangea-season",
-        "image": "/images/hub-thumbnails/japan-ajisai-hydrangea-season.svg",
-        "kind": "graphic",
-        "title": "일본 수국과 장마철의 아름다움"
+        "image": "/images/culture-verified/japan-ajisai-hydrangea-season.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 수국과 장마철의 아름다움",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Hydrangeas_of_Hase-dera_Temple_-_panoramio.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "japan-jizo-roadside-statues",
@@ -268,15 +319,19 @@
       },
       {
         "slug": "japan-stone-lanterns",
-        "image": "/images/hub-thumbnails/japan-stone-lanterns.svg",
-        "kind": "graphic",
-        "title": "일본 정원의 석등 이야기"
+        "image": "/images/culture-verified/japan-stone-lanterns.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 정원의 석등 이야기",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Japanese_garden%2C_Sanzen-in_03.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japanese-wind-chimes-furin",
-        "image": "/images/hub-thumbnails/japanese-wind-chimes-furin.svg",
-        "kind": "graphic",
-        "title": "여름 풍경 후린의 맑은 소리"
+        "image": "/images/culture-verified/japanese-wind-chimes-furin.webp",
+        "kind": "verified-real-photo",
+        "title": "여름 풍경 후린의 맑은 소리",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:F%C5%ABrin_windchimes_at_Togo_Shrine%2C_Harajuku%2C_Tokyo.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japan-sudare-bamboo-blinds",
@@ -298,21 +353,27 @@
       },
       {
         "slug": "japan-kagawa-udon-pilgrimage",
-        "image": "/images/hub-thumbnails/japan-kagawa-udon-pilgrimage.svg",
-        "kind": "graphic",
-        "title": "가가와 사누키 우동 순례"
+        "image": "/images/culture-verified/japan-kagawa-udon-pilgrimage.webp",
+        "kind": "verified-real-photo",
+        "title": "가가와 사누키 우동 순례",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Kama-age_sanuki_udon_by_sekido_in_Takamatsu%2C_Kagawa.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "japan-kanazawa-gold-leaf",
-        "image": "/images/editorial/kanazawa-nagamachi-samurai.webp",
-        "kind": "topic",
-        "title": "가나자와 금박 공예"
+        "image": "/images/culture-verified/japan-kanazawa-gold-leaf.webp",
+        "kind": "verified-real-photo",
+        "title": "가나자와 금박 공예",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Kanazawa_Gold_Factory.jpg",
+        "licence": "CC BY 2.5"
       },
       {
         "slug": "japan-niigata-rice-snow",
-        "image": "/images/editorial/niigata-port-day-trip.webp",
-        "kind": "topic",
-        "title": "니가타 쌀과 설국의 농업"
+        "image": "/images/culture-verified/japan-niigata-rice-snow.webp",
+        "kind": "verified-real-photo",
+        "title": "니가타 쌀과 설국의 농업",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Rice_terraces%2C_Yamakoshi%2C_Niigata.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "japan-aomori-nebuta-floats",
@@ -328,9 +389,11 @@
       },
       {
         "slug": "japan-nagasaki-lantern-festival",
-        "image": "/images/editorial/tanabata-japanese-star-festival.webp",
-        "kind": "topic",
-        "title": "나가사키 등불 축제와 교류의 역사"
+        "image": "/images/culture-verified/japan-nagasaki-lantern-festival.webp",
+        "kind": "verified-real-photo",
+        "title": "나가사키 등불 축제와 교류의 역사",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Lanterns_in_Nagasaki.jpg",
+        "licence": "CC BY-SA 2.0"
       },
       {
         "slug": "kabuki-japanese-theater",
@@ -394,9 +457,11 @@
       },
       {
         "slug": "washi-japanese-handmade-paper",
-        "image": "/images/editorial/fukui-echizen-washi-village.webp",
-        "kind": "topic",
-        "title": "일본 와시 종이는 왜 오래 보존될까? 수제 종이의 비밀"
+        "image": "/images/culture-verified/washi-japanese-handmade-paper.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 와시 종이는 왜 오래 보존될까? 수제 종이의 비밀",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Japanese_paper_making_02.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japanese-pottery-kilns",
@@ -454,15 +519,19 @@
       },
       {
         "slug": "sushi-edo-japanese-food-history",
-        "image": "/images/editorial/kyoto-nishiki-market-food-culture.webp",
-        "kind": "topic",
-        "title": "초밥은 왜 식초 밥과 생선을 함께 먹을까? 스시의 변화"
+        "image": "/images/culture-verified/sushi-edo-japanese-food-history.webp",
+        "kind": "verified-real-photo",
+        "title": "초밥은 왜 식초 밥과 생선을 함께 먹을까? 스시의 변화",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Tuna_nigiri_sushi_-_Sushiko_%282648979899%29.jpg",
+        "licence": "CC BY-SA 2.0"
       },
       {
         "slug": "tempura-japanese-fried-food",
-        "image": "/images/editorial/kyoto-nishiki-market-food-culture.webp",
-        "kind": "topic",
-        "title": "덴푸라는 어떻게 바삭한 일본식 튀김이 됐을까?"
+        "image": "/images/culture-verified/tempura-japanese-fried-food.webp",
+        "kind": "verified-real-photo",
+        "title": "덴푸라는 어떻게 바삭한 일본식 튀김이 됐을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Tempura_001.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "udon-japanese-regional-noodles",
@@ -472,21 +541,27 @@
       },
       {
         "slug": "regional-soba-japanese-buckwheat",
-        "image": "/images/editorial/toshikoshi-soba-newyear-tradition.webp",
-        "kind": "topic",
-        "title": "일본 소바는 왜 지역마다 색과 향이 다를까?"
+        "image": "/images/culture-verified/regional-soba-japanese-buckwheat.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 소바는 왜 지역마다 색과 향이 다를까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Ten_zaru_soba_by_akira_yamada_in_Yokohama.jpg",
+        "licence": "CC BY-SA 2.0"
       },
       {
         "slug": "okonomiyaki-osaka-hiroshima",
-        "image": "/images/editorial/osaka-central-public-hall.webp",
-        "kind": "topic",
-        "title": "오코노미야키는 왜 오사카와 히로시마에서 다르게 만들까?"
+        "image": "/images/culture-verified/okonomiyaki-osaka-hiroshima.webp",
+        "kind": "verified-real-photo",
+        "title": "오코노미야키는 왜 오사카와 히로시마에서 다르게 만들까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Okonomiyaki_by_zezebono_in_Osaka.jpg",
+        "licence": "CC BY-SA 2.0"
       },
       {
         "slug": "takoyaki-osaka-street-food",
-        "image": "/images/editorial/osaka-central-public-hall.webp",
-        "kind": "topic",
-        "title": "타코야키는 왜 둥글게 굽는 오사카의 명물이 됐을까?"
+        "image": "/images/culture-verified/takoyaki-osaka-street-food.webp",
+        "kind": "verified-real-photo",
+        "title": "타코야키는 왜 둥글게 굽는 오사카의 명물이 됐을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Takoyaki_by_hirotomo_in_Osaka.jpg",
+        "licence": "CC BY-SA 2.0"
       },
       {
         "slug": "yakitori-japanese-skewer-culture",
@@ -568,9 +643,11 @@
       },
       {
         "slug": "depachika-japanese-department-food",
-        "image": "/images/editorial/kyoto-nishiki-market-food-culture.webp",
-        "kind": "topic",
-        "title": "일본 백화점 지하 식품관 데파치카는 왜 유명할까?"
+        "image": "/images/culture-verified/depachika-japanese-department-food.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 백화점 지하 식품관 데파치카는 왜 유명할까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:%E9%8A%80%E5%BA%A7_%E5%A4%A9%E4%B8%80_2010_%284673838729%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "tsukimi-japanese-moon-viewing",
@@ -652,9 +729,11 @@
       },
       {
         "slug": "hatsumode-japanese-first-shrine-visit",
-        "image": "/images/editorial/shrine-temple-hero.webp",
-        "kind": "topic",
-        "title": "새해 첫날 신사에 가는 이유"
+        "image": "/images/culture-verified/hatsumode-japanese-first-shrine-visit.webp",
+        "kind": "verified-real-photo",
+        "title": "새해 첫날 신사에 가는 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Meiji_shrine_saisenbako_%28New_Year%29.jpg",
+        "licence": "CC BY 3.0"
       },
       {
         "slug": "ryokan-japanese-inn-hospitality",
@@ -760,9 +839,11 @@
       },
       {
         "slug": "hanabi-japanese-fireworks-summer",
-        "image": "/images/editorial/yukata-summer-festival.webp",
-        "kind": "topic",
-        "title": "일본 여름 불꽃놀이가 특별한 이유"
+        "image": "/images/culture-verified/hanabi-japanese-fireworks-summer.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 여름 불꽃놀이가 특별한 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Sumidagawa_Fireworks_Festival2012.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "yukimi-japanese-snow-viewing-tradition",
@@ -1065,5 +1146,17 @@
     "japan/shimonoseki-dessert/index.html",
     "japan/shimonoseki-local-food/index.html"
   ],
-  "caveat": "V36 initial card build uses 40 exact topic covers, 32 related editorial pictures, 80 explicit graphic covers. V36 food correction replaced 9 of 16 with verified CC Wikimedia original URLs and 7 with labelled graphics/references, mirrored to the individual article covers and OG/Twitter images. WebP caching has not been confirmed."
+  "caveat": "Latest V38: 40/152 photographed with verified Commons sources in V37+V38, 40 exact images from older editorial assets, 12 topic reference photos still pending copyright/subject validation, and 60 honest graphic covers pending real photography. V38 live checks passed 41/41 (20 image HTTP, 20 page/metadata HTTP, 1 hub HTML). Does not imply full mobile visual QA or sitewide validation.",
+  "last_quality_refresh": "2026-10-15 V38",
+  "v38": {
+    "selection": "previously graphic-only cards",
+    "new_real_photo_articles": 20,
+    "cumulative_verified_real_photo_replacements": 40,
+    "remaining_topic_graphics": 60,
+    "remaining_topic_references": 12,
+    "live_checks": 41,
+    "live_passed": 41,
+    "photo_source_register": "docs/v38-deployed-photo-credits.json",
+    "live_report": "docs/v38-live-qa.json"
+  }
 }
