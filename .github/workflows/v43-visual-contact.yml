@@ -24,3 +24,5 @@ jobs:
           git commit -m "V43 QA: actual pixel contact sheet for 20 newly applied photographs"
           git pull --rebase origin main
           git push
+
+# Rerender final twenty-image contact sheet after 5 corrected subjects.
