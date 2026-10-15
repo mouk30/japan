@@ -1,0 +1,76 @@
+name: V33 Five Exact Culture Photo Upgrade
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/v33-five-culture-verified-photos.py'
+      - 'scripts/audit-v33-culture-render.mjs'
+      - '.github/workflows/v33-culture-photo-upgrade.yml'
+permissions:
+  contents: write
+jobs:
+  verified-five:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Pillow and Chromium setup
+        run: |
+          pip install Pillow==11.3.0
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Retrieve exact matching licensed Commons originals as WebP
+        run: python -u scripts/v33-five-culture-verified-photos.py
+      - name: Verify SEO and original photo attribution in 5 updated articles
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          rows=json.loads(Path('audit-reports/v33/five-exact-culture-photos.json').read_text())
+          assert len(rows)==5
+          for d in rows:
+            s=Path('site/things-to-do/'+d['slug']+'/index.html').read_text()
+            assert d['to'] in s and d['source'] in s
+            assert d['creator'] in s and d['license_uri'] in s
+            assert 'class="v33-photo-credit"' in s
+            assert '실제 촬영 사진' in s
+            assert 'https://www.nipponferry.com'+d['from'] not in s
+            assert 'rel="canonical"' in s and Path('site'+d['to']).exists()
+            assert d['bytes']>=10000 and d['width']>=560
+          print('V33_STATIC_PHOTOS_PASS 5/5')
+          PY
+      - name: Production build and mobile/desktop browser QA
+        run: |
+          npm run build
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist >/tmp/v33-server.log 2>&1 &
+          sleep 3
+          node scripts/audit-v33-culture-render.mjs
+      - name: Publish 5 verified photos and article changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/culture-verified/ site/things-to-do/ audit-reports/v33/five-exact-culture-photos.json
+          git diff --cached --check
+          git commit -m "V33 replace 5 reference images with subject-accurate licensed WebP originals"
+          for n in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              echo "V33_PUBLISH_OK"
+              exit 0
+            fi
+            sleep 4
+          done
+          exit 1
+      - name: Save screenshots and WebP manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v33-five-exact-photo-mobile-desktop-qa
+          path: audit-reports/v33/
+          retention-days: 30
