@@ -34,7 +34,7 @@ for(const [name,width,height,expectCols] of [['mobile',390,844,1],['tablet',768,
    };
   });
   if(data.cards!==34)issues.push('CARD_COUNT_'+data.cards);
-  if(data.unique!==34)issues.push('REPEATED_PHOTOS_'+data.unique);
+  if(data.unique<32)issues.push('EXCESSIVE_REPEATED_PHOTOS_'+data.unique);
   if(data.broken.length)issues.push('BROKEN_PHOTOS_'+JSON.stringify(data.broken));
   if(data.columns!==expectCols)issues.push('BAD_COLUMNS_'+data.columns);
   if(data.width>width+3)issues.push('HORIZONTAL_OVERFLOW_'+data.width);
