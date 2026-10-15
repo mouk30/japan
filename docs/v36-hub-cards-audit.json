@@ -3,9 +3,8 @@
   "things": {
     "cards": 152,
     "kinds": {
-      "verified-real-photo": 111,
+      "verified-real-photo": 131,
       "previously-credited-photo": 20,
-      "editorial-unverified": 20,
       "editorial-comparison": 1
     },
     "mappings": [
@@ -805,21 +804,27 @@
       },
       {
         "slug": "omamori-japanese-amulet-culture",
-        "image": "/images/editorial/omamori-japanese-amulet-culture.webp",
-        "kind": "editorial-unverified",
-        "title": "오마모리 부적은 왜 가방에 달까?"
+        "image": "/images/culture-verified/omamori-japanese-amulet-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "오마모리 부적은 왜 가방에 달까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Omamori_of_Fujisan_Hongu_Sengen_Taisha.jpg",
+        "licence": "CC BY 3.0"
       },
       {
         "slug": "ema-japanese-wish-wooden-plaques",
-        "image": "/images/editorial/ema-japanese-wish-wooden-plaques.webp",
-        "kind": "editorial-unverified",
-        "title": "에마에는 왜 소원을 적을까?"
+        "image": "/images/culture-verified/ema-japanese-wish-wooden-plaques.webp",
+        "kind": "verified-real-photo",
+        "title": "에마에는 왜 소원을 적을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Shinto_shrine_votive_tablets_in_rural_Fukui_prefecture.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "goshuin-temple-shrine-stamps",
-        "image": "/images/editorial/goshuin-temple-shrine-stamps.webp",
-        "kind": "editorial-unverified",
-        "title": "고슈인은 왜 스탬프가 아닐까?"
+        "image": "/images/culture-verified/goshuin-temple-shrine-stamps.webp",
+        "kind": "verified-real-photo",
+        "title": "고슈인은 왜 스탬프가 아닐까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Emma_H._Leonhart%27s_Goshuinch%C5%8D_03.jpg",
+        "licence": "CC BY 4.0"
       },
       {
         "slug": "hatsumode-japanese-first-shrine-visit",
@@ -831,105 +836,139 @@
       },
       {
         "slug": "ryokan-japanese-inn-hospitality",
-        "image": "/images/editorial/ryokan-japanese-inn-hospitality.webp",
-        "kind": "editorial-unverified",
-        "title": "료칸은 호텔과 무엇이 다를까?"
+        "image": "/images/culture-verified/ryokan-japanese-inn-hospitality.webp",
+        "kind": "verified-real-photo",
+        "title": "료칸은 호텔과 무엇이 다를까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Our_room_at_Seikans%C5%8D_Ryokan_%286156061472%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "tatami-floor-japanese-living",
-        "image": "/images/editorial/tatami-floor-japanese-living.webp",
-        "kind": "editorial-unverified",
-        "title": "일본 집에 다다미가 있는 이유"
+        "image": "/images/culture-verified/tatami-floor-japanese-living.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 집에 다다미가 있는 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Japanese_room_with_tatami_mats.jpg",
+        "licence": "Public domain"
       },
       {
         "slug": "futon-japanese-bedding-culture",
-        "image": "/images/editorial/futon-japanese-bedding-culture.webp",
-        "kind": "editorial-unverified",
-        "title": "바닥에 후톤을 펴고 자는 이유"
+        "image": "/images/culture-verified/futon-japanese-bedding-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "바닥에 후톤을 펴고 자는 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Futons_in_a_Ryokan.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "shoji-fusuma-japanese-doors",
-        "image": "/images/editorial/shoji-fusuma-japanese-doors.webp",
-        "kind": "editorial-unverified",
-        "title": "일본 종이 미닫이문의 비밀"
+        "image": "/images/culture-verified/shoji-fusuma-japanese-doors.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 종이 미닫이문의 비밀",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dji_and_Engawa_of_the_former_Miura_residence_6-10_Reisenmachi_Hakata-ku_Fukuoka_20240119.jpg",
+        "licence": "CC BY 4.0"
       },
       {
         "slug": "kotatsu-japanese-winter-table",
-        "image": "/images/editorial/kotatsu-japanese-winter-table.webp",
-        "kind": "editorial-unverified",
-        "title": "겨울 고타쓰에 모이는 이유"
+        "image": "/images/culture-verified/kotatsu-japanese-winter-table.webp",
+        "kind": "verified-real-photo",
+        "title": "겨울 고타쓰에 모이는 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Kotatsu_Electric.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "furoshiki-japanese-wrapping-cloth",
-        "image": "/images/editorial/furoshiki-japanese-wrapping-cloth.webp",
-        "kind": "editorial-unverified",
-        "title": "후로시키로 물건을 싸는 이유"
+        "image": "/images/culture-verified/furoshiki-japanese-wrapping-cloth.webp",
+        "kind": "verified-real-photo",
+        "title": "후로시키로 물건을 싸는 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG",
+        "licence": "CC BY 3.0"
       },
       {
         "slug": "bento-japanese-lunchbox-everyday",
-        "image": "/images/editorial/bento-japanese-lunchbox-everyday.webp",
-        "kind": "editorial-unverified",
-        "title": "일본 벤토는 왜 정갈하게 담을까?"
+        "image": "/images/culture-verified/bento-japanese-lunchbox-everyday.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 벤토는 왜 정갈하게 담을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:TOKYO_Cuisine%2CJapanese_style_lunch_box_%282030502153%29.jpg",
+        "licence": "CC BY-SA 2.0"
       },
       {
         "slug": "wagashi-japanese-seasonal-sweets",
-        "image": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
-        "kind": "editorial-unverified",
-        "title": "화과자가 계절마다 달라지는 이유"
+        "image": "/images/culture-verified/wagashi-japanese-seasonal-sweets.webp",
+        "kind": "verified-real-photo",
+        "title": "화과자가 계절마다 달라지는 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Wagashi_closeup_13.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "matcha-sencha-japanese-green-tea",
-        "image": "/images/editorial/matcha-sencha-japanese-green-tea.webp",
-        "kind": "editorial-unverified",
-        "title": "말차와 센차는 어떻게 다를까?"
+        "image": "/images/culture-verified/matcha-sencha-japanese-green-tea.webp",
+        "kind": "verified-real-photo",
+        "title": "말차와 센차는 어떻게 다를까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Matcha_layout_with_leaf%2C_tea%2C_and_powder.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "toshikoshi-soba-newyear-tradition",
-        "image": "/images/editorial/toshikoshi-soba-newyear-tradition.webp",
-        "kind": "editorial-unverified",
-        "title": "새해 전날 메밀국수를 먹는 이유"
+        "image": "/images/culture-verified/toshikoshi-soba-newyear-tradition.webp",
+        "kind": "verified-real-photo",
+        "title": "새해 전날 메밀국수를 먹는 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:New_Year%27s_Kansai_style_soba_%2838825836845%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "ramen-japanese-noodle-evolution",
-        "image": "/images/editorial/ramen-japanese-noodle-evolution.webp",
-        "kind": "editorial-unverified",
-        "title": "라멘은 어떻게 국민 음식이 됐을까?"
+        "image": "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
+        "kind": "verified-real-photo",
+        "title": "라멘은 어떻게 국민 음식이 됐을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Tsukemen_at_a_Tokyo_restaurant.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "izakaya-japanese-afterwork-culture",
-        "image": "/images/editorial/izakaya-japanese-afterwork-culture.webp",
-        "kind": "editorial-unverified",
-        "title": "이자카야는 왜 안주를 나눠 먹을까?"
+        "image": "/images/culture-verified/izakaya-japanese-afterwork-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "이자카야는 왜 안주를 나눠 먹을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Quality_izakaya_in_Ebisu_2.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "osechi-ryori-japanese-new-year-food",
-        "image": "/images/editorial/osechi-ryori-japanese-new-year-food.webp",
-        "kind": "editorial-unverified",
-        "title": "오세치를 여러 칸에 담는 이유"
+        "image": "/images/culture-verified/osechi-ryori-japanese-new-year-food.webp",
+        "kind": "verified-real-photo",
+        "title": "오세치를 여러 칸에 담는 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Osechi.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "hanami-japanese-cherry-blossom-picnic",
-        "image": "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp",
-        "kind": "editorial-unverified",
-        "title": "벚꽃 아래서 도시락을 먹는 이유"
+        "image": "/images/culture-verified/hanami-japanese-cherry-blossom-picnic.webp",
+        "kind": "verified-real-photo",
+        "title": "벚꽃 아래서 도시락을 먹는 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Hanami_Matsuri_picknick_in_Ueno_park%2C_Tokyo_Japan.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "momijigari-japanese-autumn-leaves-culture",
-        "image": "/images/editorial/momijigari-japanese-autumn-leaves-culture.webp",
-        "kind": "editorial-unverified",
-        "title": "단풍을 사냥한다는 말의 뜻"
+        "image": "/images/culture-verified/momijigari-japanese-autumn-leaves-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "단풍을 사냥한다는 말의 뜻",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:EikandoMomiji.jpg",
+        "licence": "Public domain"
       },
       {
         "slug": "koinobori-childrens-day-japan",
-        "image": "/images/editorial/koinobori-childrens-day-japan.webp",
-        "kind": "editorial-unverified",
-        "title": "잉어 깃발이 하늘에 걸리는 이유"
+        "image": "/images/culture-verified/koinobori-childrens-day-japan.webp",
+        "kind": "verified-real-photo",
+        "title": "잉어 깃발이 하늘에 걸리는 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Koinobori_matsuri_at_Sagami_River%2C_Sagamihara%3B_May_2014_%2809%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "tanabata-japanese-star-festival",
-        "image": "/images/editorial/tanabata-japanese-star-festival.webp",
-        "kind": "editorial-unverified",
-        "title": "다나바타에서 소원을 쓰는 이유"
+        "image": "/images/culture-verified/tanabata-japanese-star-festival.webp",
+        "kind": "verified-real-photo",
+        "title": "다나바타에서 소원을 쓰는 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Sendai-tanabata-streamers-aug2008.jpg",
+        "licence": "CC BY 3.0"
       },
       {
         "slug": "hanabi-japanese-fireworks-summer",
@@ -1288,8 +1327,8 @@
     "japan/shimonoseki-dessert/index.html",
     "japan/shimonoseki-local-food/index.html"
   ],
-  "caveat": "V42 audited all 52 pre-existing pictures: 11 topic references replaced with licensed source-documented Commons photos, 20 legacy originals already have visible source+license in article, 21 source-unverified/editorial images remain (including 1 comparison illustration). V37–V42 cumulative new source-verified replacements: 111. After 3 HTML fallback-credit repairs and 2 additional subject corrections, all 52 WebP bytes matched production SHA256, 52 article/share image references matched, and hub responded successfully (105/105). Browser/mobile responsive crop QA is separate.",
-  "last_quality_refresh": "2026-10-15 V42",
+  "caveat": "V37–V43: 131 photo cards replaced by original Commons photographs with author/license plus 20 previous cards with on-page original photo credits. The kimono vs yukata comparison remains a clearly labeled editorial illustration, not a documentary photograph. Website photo loading, responsive layout QA and local mapping are separate verifications.",
+  "last_quality_refresh": "2026-10-15 V43",
   "v38": {
     "selection": "previously graphic-only cards",
     "new_real_photo_articles": 20,
@@ -1353,5 +1392,15 @@
     "html_fallback_credit_repairs": 3,
     "post_visual_subject_corrections": 2,
     "final_source_register": "docs/v42-image-audit/final-visual-corrections.json"
+  },
+  "v43": {
+    "new_source_verified_photo_replacements": 20,
+    "cumulative_V37_to_V43_verified": 131,
+    "previously_credited_photo": 20,
+    "kept_comparative_editorial_illustrations": [
+      "kimono-vs-yukata-culture"
+    ],
+    "editorial_unknown_source_remaining": 0,
+    "source_register": "docs/v43-deployed-photo-credits.json"
   }
 }
