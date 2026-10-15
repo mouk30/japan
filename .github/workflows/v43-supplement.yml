@@ -1,0 +1,24 @@
+name: V43 supplemental original photo search for 8 culture themes
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v43-supplement.yml]
+permissions:
+  contents: write
+jobs:
+  find-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python scripts/v43_commons_supplement.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github-actions[bot].github.com"
+          git add docs/v43-commons-supplement.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V43: genuine candidate photo sources for difficult travel subjects"
+          git pull --rebase origin main
+          git push
