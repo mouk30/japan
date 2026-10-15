@@ -1,0 +1,26 @@
+name: V40 research 35 remaining graphic-card photo topics
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v40-commons-research.yml]
+permissions:
+  contents: write
+jobs:
+  source-research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 32
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Search relevant real photos, authors and licences
+        run: python scripts/v40_commons_research.py
+      - name: Commit researched photo metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/v40-commons-research.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V40 research: photographed subject, author and license candidate inventory"
+          git push
