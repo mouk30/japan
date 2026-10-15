@@ -1,0 +1,447 @@
+{
+  "site": "https://www.nipponferry.com",
+  "checks": [
+    {
+      "type": "image",
+      "slug": "omamori-japanese-amulet-culture",
+      "path": "/images/culture-verified/omamori-japanese-amulet-culture.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 258668,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "ema-japanese-wish-wooden-plaques",
+      "path": "/images/culture-verified/ema-japanese-wish-wooden-plaques.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 319354,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "goshuin-temple-shrine-stamps",
+      "path": "/images/culture-verified/goshuin-temple-shrine-stamps.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 139700,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "ryokan-japanese-inn-hospitality",
+      "path": "/images/culture-verified/ryokan-japanese-inn-hospitality.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 39548,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "tatami-floor-japanese-living",
+      "path": "/images/culture-verified/tatami-floor-japanese-living.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 17436,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "futon-japanese-bedding-culture",
+      "path": "/images/culture-verified/futon-japanese-bedding-culture.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 137566,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "shoji-fusuma-japanese-doors",
+      "path": "/images/culture-verified/shoji-fusuma-japanese-doors.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 66226,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "kotatsu-japanese-winter-table",
+      "path": "/images/culture-verified/kotatsu-japanese-winter-table.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 186178,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "furoshiki-japanese-wrapping-cloth",
+      "path": "/images/culture-verified/furoshiki-japanese-wrapping-cloth.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 222282,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "bento-japanese-lunchbox-everyday",
+      "path": "/images/culture-verified/bento-japanese-lunchbox-everyday.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 75240,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "wagashi-japanese-seasonal-sweets",
+      "path": "/images/culture-verified/wagashi-japanese-seasonal-sweets.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 40514,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "matcha-sencha-japanese-green-tea",
+      "path": "/images/culture-verified/matcha-sencha-japanese-green-tea.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 175112,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "toshikoshi-soba-newyear-tradition",
+      "path": "/images/culture-verified/toshikoshi-soba-newyear-tradition.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 132744,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "ramen-japanese-noodle-evolution",
+      "path": "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 126420,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "izakaya-japanese-afterwork-culture",
+      "path": "/images/culture-verified/izakaya-japanese-afterwork-culture.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 315956,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "osechi-ryori-japanese-new-year-food",
+      "path": "/images/culture-verified/osechi-ryori-japanese-new-year-food.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 330140,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "hanami-japanese-cherry-blossom-picnic",
+      "path": "/images/culture-verified/hanami-japanese-cherry-blossom-picnic.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 443532,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "momijigari-japanese-autumn-leaves-culture",
+      "path": "/images/culture-verified/momijigari-japanese-autumn-leaves-culture.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 446286,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "koinobori-childrens-day-japan",
+      "path": "/images/culture-verified/koinobori-childrens-day-japan.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 218810,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "image",
+      "slug": "tanabata-japanese-star-festival",
+      "path": "/images/culture-verified/tanabata-japanese-star-festival.webp",
+      "status": 200,
+      "ok": true,
+      "mime": "image/webp",
+      "bytes": 267740,
+      "sha256_matches_repository": true
+    },
+    {
+      "type": "page",
+      "slug": "omamori-japanese-amulet-culture",
+      "path": "/things-to-do/omamori-japanese-amulet-culture/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "ema-japanese-wish-wooden-plaques",
+      "path": "/things-to-do/ema-japanese-wish-wooden-plaques/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "goshuin-temple-shrine-stamps",
+      "path": "/things-to-do/goshuin-temple-shrine-stamps/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "ryokan-japanese-inn-hospitality",
+      "path": "/things-to-do/ryokan-japanese-inn-hospitality/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "tatami-floor-japanese-living",
+      "path": "/things-to-do/tatami-floor-japanese-living/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "futon-japanese-bedding-culture",
+      "path": "/things-to-do/futon-japanese-bedding-culture/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "shoji-fusuma-japanese-doors",
+      "path": "/things-to-do/shoji-fusuma-japanese-doors/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "kotatsu-japanese-winter-table",
+      "path": "/things-to-do/kotatsu-japanese-winter-table/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "furoshiki-japanese-wrapping-cloth",
+      "path": "/things-to-do/furoshiki-japanese-wrapping-cloth/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "bento-japanese-lunchbox-everyday",
+      "path": "/things-to-do/bento-japanese-lunchbox-everyday/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "wagashi-japanese-seasonal-sweets",
+      "path": "/things-to-do/wagashi-japanese-seasonal-sweets/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "matcha-sencha-japanese-green-tea",
+      "path": "/things-to-do/matcha-sencha-japanese-green-tea/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "toshikoshi-soba-newyear-tradition",
+      "path": "/things-to-do/toshikoshi-soba-newyear-tradition/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "ramen-japanese-noodle-evolution",
+      "path": "/things-to-do/ramen-japanese-noodle-evolution/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "izakaya-japanese-afterwork-culture",
+      "path": "/things-to-do/izakaya-japanese-afterwork-culture/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "osechi-ryori-japanese-new-year-food",
+      "path": "/things-to-do/osechi-ryori-japanese-new-year-food/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "hanami-japanese-cherry-blossom-picnic",
+      "path": "/things-to-do/hanami-japanese-cherry-blossom-picnic/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "momijigari-japanese-autumn-leaves-culture",
+      "path": "/things-to-do/momijigari-japanese-autumn-leaves-culture/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "koinobori-childrens-day-japan",
+      "path": "/things-to-do/koinobori-childrens-day-japan/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "page",
+      "slug": "tanabata-japanese-star-festival",
+      "path": "/things-to-do/tanabata-japanese-star-festival/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "hub",
+      "slug": "directory",
+      "path": "/things-to-do/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "home",
+      "slug": "home",
+      "path": "/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "spots",
+      "slug": "spots",
+      "path": "/photo-spots/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "explore",
+      "slug": "map",
+      "path": "/explore/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "sitemap",
+      "slug": "sitemap",
+      "path": "/sitemap.xml",
+      "status": 200,
+      "ok": true,
+      "mime": "application/xml"
+    },
+    {
+      "type": "region",
+      "slug": "0",
+      "path": "/japan/fukuoka-photo/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "region",
+      "slug": "1",
+      "path": "/japan/osaka-photo/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "region",
+      "slug": "2",
+      "path": "/japan/tsushima-photo/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "type": "region",
+      "slug": "3",
+      "path": "/japan/shimonoseki-photo/",
+      "status": 200,
+      "ok": true,
+      "mime": "text/html; charset=utf-8"
+    }
+  ],
+  "complete": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": 49,
+      "total": 49,
+      "failed": []
+    }
+  ],
+  "attempt": 1
+}
