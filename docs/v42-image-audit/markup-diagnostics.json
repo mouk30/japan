@@ -1,0 +1,32 @@
+{
+  "checked_photo_credits": 92,
+  "embedded": 3,
+  "broken": 0,
+  "cases": [
+    {
+      "slug": "japanese-ekiben-railway-bento-culture",
+      "credit_position": 5238,
+      "embedded_in_handler": true,
+      "handler_end_found": true,
+      "sample": "e-verified/japanese-ekiben-railway-bento-culture.webp\" alt=\"신칸센으로 도쿄에 가는 여행자가 구입한 일본 철도 도시락의 실제 사진\" loading=\"eager\" fetchpriority=\"high\" onerror=\"this.onerror=null;this.style.display='none';this.insertAdjacentHTML('afterend','<div class=&quot;ed-missing&quot;>",
+      "end_sample": "<p class=\"v42-image-credit\" style=\"font-size:12px;line-height:1.7;padding:9px 15px;background:#f0f7fc;color:#345b71\">사진: <a href=\"https://commons.wikimedia.org/"
+    },
+    {
+      "slug": "japanese-kintsugi-gold-repair-culture",
+      "credit_position": 5234,
+      "embedded_in_handler": true,
+      "handler_end_found": true,
+      "sample": "culture-verified/japanese-kintsugi-gold-repair-culture.webp\" alt=\"금빛 접합부로 깨진 부분을 수선한 긴쓰기 도자기 실제 사진\" loading=\"eager\" fetchpriority=\"high\" onerror=\"this.onerror=null;this.style.display='none';this.insertAdjacentHTML('afterend','<div class=&quot;ed-missing&quot;>",
+      "end_sample": "<p class=\"v42-image-credit\" style=\"font-size:12px;line-height:1.7;padding:9px 15px;background:#f0f7fc;color:#345b71\">사진: <a href=\"https://commons.wikimedia.org/"
+    },
+    {
+      "slug": "japanese-omiyage-souvenir-gift-culture",
+      "credit_position": 5274,
+      "embedded_in_handler": true,
+      "handler_end_found": true,
+      "sample": "lture-verified/japanese-omiyage-souvenir-gift-culture.webp\" alt=\"나고야역에서 촬영한 일본 여행 기념 선물·오미야게 실제 사진\" loading=\"eager\" fetchpriority=\"high\" onerror=\"this.onerror=null;this.style.display='none';this.insertAdjacentHTML('afterend','<div class=&quot;ed-missing&quot;>",
+      "end_sample": "<p class=\"v42-image-credit\" style=\"font-size:12px;line-height:1.7;padding:9px 15px;background:#f0f7fc;color:#345b71\">사진: <a href=\"https://commons.wikimedia.org/"
+    }
+  ],
+  "other_credits": 89
+}
