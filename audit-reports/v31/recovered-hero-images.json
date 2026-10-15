@@ -1,0 +1,632 @@
+[
+  {
+    "slug": "aizome-japanese-indigo-dye",
+    "before": "/images/editorial/aizome-japanese-indigo-dye.webp",
+    "after": "/images/editorial/fukuoka-hakata-ori-textiles.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "bonsai-japanese-miniature-trees",
+    "before": "/images/editorial/bonsai-japanese-miniature-trees.webp",
+    "after": "/images/editorial/japanese-garden-stones-moss.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "bunraku-japanese-puppet-theater",
+    "before": "/images/editorial/bunraku-japanese-puppet-theater.webp",
+    "after": "/images/editorial/matsuri-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "dashi-japanese-umami-stock",
+    "before": "/images/editorial/dashi-japanese-umami-stock.webp",
+    "after": "/images/editorial/ramen-japanese-noodle-evolution.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "depachika-japanese-department-food",
+    "before": "/images/editorial/depachika-japanese-department-food.webp",
+    "after": "/images/editorial/kyoto-nishiki-market-food-culture.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "edo-kiriko-cut-glass",
+    "before": "/images/editorial/edo-kiriko-cut-glass.webp",
+    "after": "/images/editorial/kintsugi-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "hanabi-japanese-fireworks-summer",
+    "before": "/images/editorial/hanabi-japanese-fireworks-summer.webp",
+    "after": "/images/editorial/yukata-summer-festival.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "hatsumode-japanese-first-shrine-visit",
+    "before": "/images/editorial/hatsumode-japanese-first-shrine-visit.webp",
+    "after": "/images/editorial/shrine-temple-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "hinamatsuri-japanese-dolls",
+    "before": "/images/editorial/hinamatsuri-japanese-dolls.webp",
+    "after": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "ikebana-japanese-flower-arrangement",
+    "before": "/images/editorial/ikebana-japanese-flower-arrangement.webp",
+    "after": "/images/editorial/japanese-garden-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-ainu-embroidery",
+    "before": "/images/editorial/japan-ainu-embroidery.webp",
+    "after": "/images/editorial/furoshiki-japanese-wrapping-cloth.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-ajisai-hydrangea-season",
+    "before": "/images/editorial/japan-ajisai-hydrangea-season.webp",
+    "after": "/images/editorial/japanese-garden-water.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-amami-oshima-tsumugi",
+    "before": "/images/editorial/japan-amami-oshima-tsumugi.webp",
+    "after": "/images/editorial/fukuoka-hakata-ori-textiles.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-aomori-nebuta-floats",
+    "before": "/images/editorial/japan-aomori-nebuta-floats.webp",
+    "after": "/images/editorial/aomori-port-nebuta-day-trip.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-bamboo-grove-ecology",
+    "before": "/images/editorial/japan-bamboo-grove-ecology.webp",
+    "after": "/images/editorial/japanese-garden-stones-moss.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-castle-moats",
+    "before": "/images/editorial/japan-castle-moats.webp",
+    "after": "/images/editorial/hakodate-goryokaku-fort.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-castle-stone-walls",
+    "before": "/images/editorial/japan-castle-stone-walls.webp",
+    "after": "/images/editorial/himeji-castle-defense-route.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-castle-tenshu-towers",
+    "before": "/images/editorial/japan-castle-tenshu-towers.webp",
+    "after": "/images/editorial/himeji-castle-defense-route.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-coral-okinawa-islands",
+    "before": "/images/editorial/japan-coral-okinawa-islands.webp",
+    "after": "/images/editorial/okinawa-sea-turtle-snorkeling.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-geothermal-steam-hells",
+    "before": "/images/editorial/japan-geothermal-steam-hells.webp",
+    "after": "/images/editorial/beppu-port-onsen-day-trip.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-izakaya-yokocho-alleys",
+    "before": "/images/editorial/japan-izakaya-yokocho-alleys.webp",
+    "after": "/images/editorial/izakaya-japanese-afterwork-culture.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-jizo-roadside-statues",
+    "before": "/images/editorial/japan-jizo-roadside-statues.webp",
+    "after": "/images/editorial/shrine-temple-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-kagawa-udon-pilgrimage",
+    "before": "/images/editorial/japan-kagawa-udon-pilgrimage.webp",
+    "after": "/images/editorial/toshikoshi-soba-newyear-tradition.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-kanazawa-gold-leaf",
+    "before": "/images/editorial/japan-kanazawa-gold-leaf.webp",
+    "after": "/images/editorial/kanazawa-nagamachi-samurai.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-kyoto-gion-festival-floats",
+    "before": "/images/editorial/japan-kyoto-gion-festival-floats.webp",
+    "after": "/images/editorial/matsuri-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-nagasaki-lantern-festival",
+    "before": "/images/editorial/japan-nagasaki-lantern-festival.webp",
+    "after": "/images/editorial/tanabata-japanese-star-festival.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-night-train-travel",
+    "before": "/images/editorial/japan-night-train-travel.webp",
+    "after": "/images/editorial/ekiben-train-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-niigata-rice-snow",
+    "before": "/images/editorial/japan-niigata-rice-snow.webp",
+    "after": "/images/editorial/niigata-port-day-trip.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-okinawan-bingata-textiles",
+    "before": "/images/editorial/japan-okinawan-bingata-textiles.webp",
+    "after": "/images/editorial/kimono-yukata-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-okinawan-eisa-dance",
+    "before": "/images/editorial/japan-okinawan-eisa-dance.webp",
+    "after": "/images/editorial/okinawa-eisa-dance-festival.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-public-parks-hanami",
+    "before": "/images/editorial/japan-public-parks-hanami.webp",
+    "after": "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-rail-pass-why-changes",
+    "before": "/images/editorial/japan-rail-pass-why-changes.webp",
+    "after": "/images/editorial/aomori-hakodate-seikan-tunnel.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-railway-platform-melodies",
+    "before": "/images/editorial/japan-railway-platform-melodies.webp",
+    "after": "/images/editorial/tokyo-yurikamome-automated-train.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-railway-station-stamps",
+    "before": "/images/editorial/japan-railway-station-stamps.webp",
+    "after": "/images/editorial/ekiben-train-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-sakura-forecast-science",
+    "before": "/images/editorial/japan-sakura-forecast-science.webp",
+    "after": "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-samurai-armor",
+    "before": "/images/editorial/japan-samurai-armor.webp",
+    "after": "/images/editorial/himeji-castle-defense-route.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-sea-of-japan-coast",
+    "before": "/images/editorial/japan-sea-of-japan-coast.webp",
+    "after": "/images/editorial/akita-port-day-trip.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-shotengai-neon-signs",
+    "before": "/images/editorial/japan-shotengai-neon-signs.webp",
+    "after": "/images/editorial/okinawa-shopping-street.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-snow-country-architecture",
+    "before": "/images/editorial/japan-snow-country-architecture.webp",
+    "after": "/images/editorial/toyama-gokayama-ainokura.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-snow-monkeys-hot-springs",
+    "before": "/images/editorial/japan-snow-monkeys-hot-springs.webp",
+    "after": "/images/editorial/akita-nyuto-onsen-beech-forest.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-station-bento-vending",
+    "before": "/images/editorial/japan-station-bento-vending.webp",
+    "after": "/images/editorial/ekiben-train-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-stone-lanterns",
+    "before": "/images/editorial/japan-stone-lanterns.webp",
+    "after": "/images/editorial/japanese-garden-stones-moss.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-sudare-bamboo-blinds",
+    "before": "/images/editorial/japan-sudare-bamboo-blinds.webp",
+    "after": "/images/editorial/shoji-fusuma-japanese-doors.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-temple-bells",
+    "before": "/images/editorial/japan-temple-bells.webp",
+    "after": "/images/editorial/shrine-temple-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-terraced-rice-fields",
+    "before": "/images/editorial/japan-terraced-rice-fields.webp",
+    "after": "/images/editorial/toyama-gokayama-ainokura.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-traditional-roof-tiles",
+    "before": "/images/editorial/japan-traditional-roof-tiles.webp",
+    "after": "/images/editorial/kanazawa-nagamachi-samurai.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-tram-streetcars-history",
+    "before": "/images/editorial/japan-tram-streetcars-history.webp",
+    "after": "/images/editorial/tokyo-yurikamome-automated-train.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-trash-bin-shortage",
+    "before": "/images/editorial/japan-trash-bin-shortage.webp",
+    "after": "/images/editorial/noren-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-volcanic-onsen-geology",
+    "before": "/images/editorial/japan-volcanic-onsen-geology.webp",
+    "after": "/images/editorial/beppu-port-onsen-day-trip.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-volcano-mount-aso",
+    "before": "/images/editorial/japan-volcano-mount-aso.webp",
+    "after": "/images/editorial/oita-kuju-highland-grassland.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japan-yakushima-ancient-cedars",
+    "before": "/images/editorial/japan-yakushima-ancient-cedars.webp",
+    "after": "/images/editorial/nagano-kamikochi-azusa-river.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-engawa-veranda",
+    "before": "/images/editorial/japanese-engawa-veranda.webp",
+    "after": "/images/editorial/ryokan-japanese-inn-hospitality.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-ferries-islands-life",
+    "before": "/images/editorial/japanese-ferries-islands-life.webp",
+    "after": "/images/editorial/shodoshima-ferry-island-access.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-hightech-public-toilets",
+    "before": "/images/editorial/japanese-hightech-public-toilets.webp",
+    "after": "/images/editorial/shoji-fusuma-japanese-doors.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-katana-curvature",
+    "before": "/images/editorial/japanese-katana-curvature.webp",
+    "after": "/images/editorial/osaka-sakai-knife-workshops.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-local-train-one-man",
+    "before": "/images/editorial/japanese-local-train-one-man.webp",
+    "after": "/images/editorial/sagano-scenic-railway.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-machiya-townhouses",
+    "before": "/images/editorial/japanese-machiya-townhouses.webp",
+    "after": "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-pagoda-five-stories",
+    "before": "/images/editorial/japanese-pagoda-five-stories.webp",
+    "after": "/images/editorial/uji-byodoin-phoenix-hall.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-pottery-kilns",
+    "before": "/images/editorial/japanese-pottery-kilns.webp",
+    "after": "/images/editorial/kintsugi-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-queue-culture",
+    "before": "/images/editorial/japanese-queue-culture.webp",
+    "after": "/images/editorial/tokyo-station-marunouchi-facade.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-ropeways-mountain-access",
+    "before": "/images/editorial/japanese-ropeways-mountain-access.webp",
+    "after": "/images/editorial/hakone-tozan-switchback-train.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-sento-public-bath-manners",
+    "before": "/images/editorial/japanese-sento-public-bath-manners.webp",
+    "after": "/images/editorial/beppu-port-onsen-day-trip.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-sword-guards-tsuba",
+    "before": "/images/editorial/japanese-sword-guards-tsuba.webp",
+    "after": "/images/editorial/osaka-sakai-knife-workshops.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-train-manners-quiet-car",
+    "before": "/images/editorial/japanese-train-manners-quiet-car.webp",
+    "after": "/images/editorial/sagano-scenic-railway.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-urushi-lacquerware",
+    "before": "/images/editorial/japanese-urushi-lacquerware.webp",
+    "after": "/images/editorial/kintsugi-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-vending-machine-culture",
+    "before": "/images/editorial/japanese-vending-machine-culture.webp",
+    "after": "/images/editorial/noren-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-wind-chimes-furin",
+    "before": "/images/editorial/japanese-wind-chimes-furin.webp",
+    "after": "/images/editorial/noren-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "japanese-woodblock-printmaking",
+    "before": "/images/editorial/japanese-woodblock-printmaking.webp",
+    "after": "/images/editorial/kintsugi-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "kabuki-japanese-theater",
+    "before": "/images/editorial/kabuki-japanese-theater.webp",
+    "after": "/images/editorial/kimono-formal-detail.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "kissaten-japanese-retro-coffee",
+    "before": "/images/editorial/kissaten-japanese-retro-coffee.webp",
+    "after": "/images/editorial/izakaya-japanese-afterwork-culture.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "kodo-japanese-incense-appreciation",
+    "before": "/images/editorial/kodo-japanese-incense-appreciation.webp",
+    "after": "/images/editorial/tea-ceremony-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "kokeshi-japanese-wooden-dolls",
+    "before": "/images/editorial/kokeshi-japanese-wooden-dolls.webp",
+    "after": "/images/editorial/maneki-neko-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "konbini-japanese-convenience-store-life",
+    "before": "/images/editorial/konbini-japanese-convenience-store-life.webp",
+    "after": "/images/editorial/noren-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "kumiko-japanese-wood-joinery",
+    "before": "/images/editorial/kumiko-japanese-wood-joinery.webp",
+    "after": "/images/editorial/shoji-fusuma-japanese-doors.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "kutani-japanese-porcelain",
+    "before": "/images/editorial/kutani-japanese-porcelain.webp",
+    "after": "/images/editorial/kintsugi-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "miso-japanese-fermented-soy",
+    "before": "/images/editorial/miso-japanese-fermented-soy.webp",
+    "after": "/images/editorial/ramen-japanese-noodle-evolution.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "noh-japanese-mask-theater",
+    "before": "/images/editorial/noh-japanese-mask-theater.webp",
+    "after": "/images/editorial/kimono-formal-detail.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "obon-japanese-ancestors",
+    "before": "/images/editorial/obon-japanese-ancestors.webp",
+    "after": "/images/editorial/tanabata-japanese-star-festival.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "okonomiyaki-osaka-hiroshima",
+    "before": "/images/editorial/okonomiyaki-osaka-hiroshima.webp",
+    "after": "/images/editorial/osaka-central-public-hall.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "omikuji-japanese-fortune",
+    "before": "/images/editorial/omikuji-japanese-fortune.webp",
+    "after": "/images/editorial/ema-japanese-wish-wooden-plaques.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "onigiri-japanese-rice-ball",
+    "before": "/images/editorial/onigiri-japanese-rice-ball.webp",
+    "after": "/images/editorial/bento-japanese-lunchbox-everyday.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "origami-japanese-paper-folding-culture",
+    "before": "/images/editorial/origami-japanese-paper-folding-culture.webp",
+    "after": "/images/editorial/furoshiki-japanese-wrapping-cloth.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "rakugo-japanese-storytelling",
+    "before": "/images/editorial/rakugo-japanese-storytelling.webp",
+    "after": "/images/editorial/izakaya-japanese-afterwork-culture.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "regional-soba-japanese-buckwheat",
+    "before": "/images/editorial/regional-soba-japanese-buckwheat.webp",
+    "after": "/images/editorial/toshikoshi-soba-newyear-tradition.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "sashiko-japanese-repair-stitching",
+    "before": "/images/editorial/sashiko-japanese-repair-stitching.webp",
+    "after": "/images/editorial/furoshiki-japanese-wrapping-cloth.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "setsubun-japanese-beans",
+    "before": "/images/editorial/setsubun-japanese-beans.webp",
+    "after": "/images/editorial/osechi-ryori-japanese-new-year-food.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "shamisen-japanese-three-string-instrument",
+    "before": "/images/editorial/shamisen-japanese-three-string-instrument.webp",
+    "after": "/images/editorial/matsuri-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "shichi-go-san-japanese-children",
+    "before": "/images/editorial/shichi-go-san-japanese-children.webp",
+    "after": "/images/editorial/kimono-yukata-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "shinkansen-bullet-train-history",
+    "before": "/images/editorial/shinkansen-bullet-train-history.webp",
+    "after": "/images/editorial/aomori-hakodate-seikan-tunnel.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "shotengai-japanese-shopping-arcades",
+    "before": "/images/editorial/shotengai-japanese-shopping-arcades.webp",
+    "after": "/images/editorial/okinawa-shopping-street.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "sushi-edo-japanese-food-history",
+    "before": "/images/editorial/sushi-edo-japanese-food-history.webp",
+    "after": "/images/editorial/kyoto-nishiki-market-food-culture.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "taiko-japanese-drumming",
+    "before": "/images/editorial/taiko-japanese-drumming.webp",
+    "after": "/images/editorial/okinawa-eisa-dance-festival.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "takoyaki-osaka-street-food",
+    "before": "/images/editorial/takoyaki-osaka-street-food.webp",
+    "after": "/images/editorial/osaka-central-public-hall.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "tanuki-japanese-shop-statues",
+    "before": "/images/editorial/tanuki-japanese-shop-statues.webp",
+    "after": "/images/editorial/maneki-neko-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "temari-japanese-thread-balls",
+    "before": "/images/editorial/temari-japanese-thread-balls.webp",
+    "after": "/images/editorial/furoshiki-japanese-wrapping-cloth.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "tempura-japanese-fried-food",
+    "before": "/images/editorial/tempura-japanese-fried-food.webp",
+    "after": "/images/editorial/kyoto-nishiki-market-food-culture.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "toji-yuzu-bath-japan",
+    "before": "/images/editorial/toji-yuzu-bath-japan.webp",
+    "after": "/images/editorial/beppu-port-onsen-day-trip.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "tsukimi-japanese-moon-viewing",
+    "before": "/images/editorial/tsukimi-japanese-moon-viewing.webp",
+    "after": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "udon-japanese-regional-noodles",
+    "before": "/images/editorial/udon-japanese-regional-noodles.webp",
+    "after": "/images/editorial/toshikoshi-soba-newyear-tradition.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "ukiyoe-japanese-woodblock-art",
+    "before": "/images/editorial/ukiyoe-japanese-woodblock-art.webp",
+    "after": "/images/editorial/japanese-garden-hero.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "ume-japanese-plum-blossoms",
+    "before": "/images/editorial/ume-japanese-plum-blossoms.webp",
+    "after": "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "washi-japanese-handmade-paper",
+    "before": "/images/editorial/washi-japanese-handmade-paper.webp",
+    "after": "/images/editorial/fukui-echizen-washi-village.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "yakitori-japanese-skewer-culture",
+    "before": "/images/editorial/yakitori-japanese-skewer-culture.webp",
+    "after": "/images/editorial/izakaya-japanese-afterwork-culture.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "yatai-japanese-food-stalls",
+    "before": "/images/editorial/yatai-japanese-food-stalls.webp",
+    "after": "/images/editorial/izakaya-japanese-afterwork-culture.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  },
+  {
+    "slug": "yukimi-japanese-snow-viewing-tradition",
+    "before": "/images/editorial/yukimi-japanese-snow-viewing-tradition.webp",
+    "after": "/images/editorial/akita-nyuto-onsen-beech-forest.webp",
+    "asset_kind": "existing related editorial reference, not exact subject photo"
+  }
+]
