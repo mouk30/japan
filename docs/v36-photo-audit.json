@@ -1,0 +1,1663 @@
+{
+  "cards": 152,
+  "existing_img_filenames": 466,
+  "link_images": {
+    "/things-to-do/onsen-first-time/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/traditional-experience-booking/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/nature-outdoor-checklist/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/local-food-market-guide/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/shopping-city-night-guide/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/port-to-experience-planner/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/japan-four-shopping-experiences/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [],
+      "n": 1
+    },
+    "/things-to-do/japan-castle-stone-walls/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/himeji-castle-defense-route.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/himeji-castle-defense-route.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-castle-tenshu-towers/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/himeji-castle-defense-route.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/himeji-castle-defense-route.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-castle-moats/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/hakodate-goryokaku-fort.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/hakodate-goryokaku-fort.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-pagoda-five-stories/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/uji-byodoin-phoenix-hall.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/uji-byodoin-phoenix-hall.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-temple-bells/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/shrine-temple-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/shrine-temple-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-samurai-armor/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/himeji-castle-defense-route.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/himeji-castle-defense-route.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-katana-curvature/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/osaka-sakai-knife-workshops.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/osaka-sakai-knife-workshops.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-sword-guards-tsuba/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/osaka-sakai-knife-workshops.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/osaka-sakai-knife-workshops.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-traditional-roof-tiles/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kanazawa-nagamachi-samurai.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/kanazawa-nagamachi-samurai.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-engawa-veranda/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/ryokan-japanese-inn-hospitality.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/ryokan-japanese-inn-hospitality.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/shinkansen-bullet-train-history/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/shinkansen-bullet-train-history.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/shinkansen-bullet-train-history.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-railway-platform-melodies/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/tokyo-yurikamome-automated-train.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/tokyo-yurikamome-automated-train.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-local-train-one-man/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/sagano-scenic-railway.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/sagano-scenic-railway.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-rail-pass-why-changes/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/aomori-hakodate-seikan-tunnel.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/aomori-hakodate-seikan-tunnel.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-night-train-travel/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/ekiben-train-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/ekiben-train-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-ferries-islands-life/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/shodoshima-ferry-island-access.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/shodoshima-ferry-island-access.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-ropeways-mountain-access/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/hakone-tozan-switchback-train.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/hakone-tozan-switchback-train.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-tram-streetcars-history/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/tokyo-yurikamome-automated-train.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/tokyo-yurikamome-automated-train.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-railway-station-stamps/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/ekiben-train-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/ekiben-train-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-station-bento-vending/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/ekiben-train-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/ekiben-train-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-volcanic-onsen-geology/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/beppu-port-onsen-day-trip.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/beppu-port-onsen-day-trip.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-geothermal-steam-hells/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/beppu-port-onsen-day-trip.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/beppu-port-onsen-day-trip.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-volcano-mount-aso/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/japan-volcano-mount-aso.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/japan-volcano-mount-aso.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-terraced-rice-fields/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/toyama-gokayama-ainokura.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/toyama-gokayama-ainokura.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-bamboo-grove-ecology/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/japan-bamboo-grove-ecology.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/japan-bamboo-grove-ecology.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-yakushima-ancient-cedars/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/nagano-kamikochi-azusa-river.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/nagano-kamikochi-azusa-river.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-snow-country-architecture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/toyama-gokayama-ainokura.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/toyama-gokayama-ainokura.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-snow-monkeys-hot-springs/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/japan-snow-monkeys-hot-springs.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/japan-snow-monkeys-hot-springs.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-sea-of-japan-coast/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/akita-port-day-trip.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/akita-port-day-trip.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-machiya-townhouses/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kyoto-kiyomizu-stage-structure.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/kyoto-kiyomizu-stage-structure.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-shotengai-neon-signs/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/okinawa-shopping-street.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/okinawa-shopping-street.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-izakaya-yokocho-alleys/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/izakaya-japanese-afterwork-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/izakaya-japanese-afterwork-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-public-parks-hanami/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/hanami-japanese-cherry-blossom-picnic.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-sakura-forecast-science/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/hanami-japanese-cherry-blossom-picnic.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-ajisai-hydrangea-season/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/japanese-garden-water.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/japanese-garden-water.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-jizo-roadside-statues/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/japan-jizo-roadside-statues.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/japan-jizo-roadside-statues.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-stone-lanterns/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/japanese-garden-stones-moss.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/japanese-garden-stones-moss.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-wind-chimes-furin/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/noren-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/noren-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-sudare-bamboo-blinds/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/japan-sudare-bamboo-blinds.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/japan-sudare-bamboo-blinds.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-ainu-embroidery/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/furoshiki-japanese-wrapping-cloth.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/furoshiki-japanese-wrapping-cloth.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-amami-oshima-tsumugi/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/fukuoka-hakata-ori-textiles.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/fukuoka-hakata-ori-textiles.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-kagawa-udon-pilgrimage/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/toshikoshi-soba-newyear-tradition.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/toshikoshi-soba-newyear-tradition.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-kanazawa-gold-leaf/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kanazawa-nagamachi-samurai.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/kanazawa-nagamachi-samurai.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-niigata-rice-snow/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/niigata-port-day-trip.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/niigata-port-day-trip.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-aomori-nebuta-floats/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/japan-aomori-nebuta-floats.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/japan-aomori-nebuta-floats.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-kyoto-gion-festival-floats/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/japan-kyoto-gion-festival-floats.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/japan-kyoto-gion-festival-floats.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-nagasaki-lantern-festival/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/tanabata-japanese-star-festival.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/tanabata-japanese-star-festival.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/kabuki-japanese-theater/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kimono-formal-detail.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/kimono-formal-detail.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/noh-japanese-mask-theater/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kimono-formal-detail.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/kimono-formal-detail.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/bunraku-japanese-puppet-theater/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/matsuri-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/matsuri-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/rakugo-japanese-storytelling/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/izakaya-japanese-afterwork-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/izakaya-japanese-afterwork-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/taiko-japanese-drumming/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/taiko-japanese-drumming.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/taiko-japanese-drumming.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/shamisen-japanese-three-string-instrument/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/matsuri-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/matsuri-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/ikebana-japanese-flower-arrangement/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/ikebana-japanese-flower-arrangement.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/ikebana-japanese-flower-arrangement.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/bonsai-japanese-miniature-trees/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/bonsai-japanese-miniature-trees.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/bonsai-japanese-miniature-trees.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/ukiyoe-japanese-woodblock-art/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/japanese-garden-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/japanese-garden-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/aizome-japanese-indigo-dye/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/fukuoka-hakata-ori-textiles.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/fukuoka-hakata-ori-textiles.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/washi-japanese-handmade-paper/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/fukui-echizen-washi-village.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/fukui-echizen-washi-village.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-pottery-kilns/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/japanese-pottery-kilns.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/japanese-pottery-kilns.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/kutani-japanese-porcelain/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kintsugi-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/kintsugi-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-urushi-lacquerware/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/japanese-urushi-lacquerware.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/japanese-urushi-lacquerware.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-woodblock-printmaking/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/japanese-woodblock-printmaking.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/japanese-woodblock-printmaking.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/kumiko-japanese-wood-joinery/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/kumiko-japanese-wood-joinery.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/kumiko-japanese-wood-joinery.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/edo-kiriko-cut-glass/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/edo-kiriko-cut-glass.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/edo-kiriko-cut-glass.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/temari-japanese-thread-balls/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/furoshiki-japanese-wrapping-cloth.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/furoshiki-japanese-wrapping-cloth.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/sashiko-japanese-repair-stitching/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/furoshiki-japanese-wrapping-cloth.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/furoshiki-japanese-wrapping-cloth.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/tanuki-japanese-shop-statues/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/maneki-neko-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/maneki-neko-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/sushi-edo-japanese-food-history/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kyoto-nishiki-market-food-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/kyoto-nishiki-market-food-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/tempura-japanese-fried-food/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kyoto-nishiki-market-food-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/kyoto-nishiki-market-food-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/udon-japanese-regional-noodles/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/toshikoshi-soba-newyear-tradition.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/toshikoshi-soba-newyear-tradition.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/regional-soba-japanese-buckwheat/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/toshikoshi-soba-newyear-tradition.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/toshikoshi-soba-newyear-tradition.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/okonomiyaki-osaka-hiroshima/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/osaka-central-public-hall.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/osaka-central-public-hall.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/takoyaki-osaka-street-food/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/osaka-central-public-hall.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/osaka-central-public-hall.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/yakitori-japanese-skewer-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/izakaya-japanese-afterwork-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/izakaya-japanese-afterwork-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/miso-japanese-fermented-soy/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/ramen-japanese-noodle-evolution.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/ramen-japanese-noodle-evolution.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/dashi-japanese-umami-stock/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/ramen-japanese-noodle-evolution.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/ramen-japanese-noodle-evolution.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/onigiri-japanese-rice-ball/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/bento-japanese-lunchbox-everyday.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/bento-japanese-lunchbox-everyday.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-vending-machine-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/japanese-vending-machine-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/japanese-vending-machine-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/konbini-japanese-convenience-store-life/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/noren-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/noren-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-train-manners-quiet-car/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/sagano-scenic-railway.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/sagano-scenic-railway.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-queue-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/tokyo-station-marunouchi-facade.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/tokyo-station-marunouchi-facade.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japan-trash-bin-shortage/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/noren-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/noren-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-sento-public-bath-manners/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/beppu-port-onsen-day-trip.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/beppu-port-onsen-day-trip.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-hightech-public-toilets/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/shoji-fusuma-japanese-doors.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/shoji-fusuma-japanese-doors.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/kissaten-japanese-retro-coffee/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/izakaya-japanese-afterwork-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/izakaya-japanese-afterwork-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/shotengai-japanese-shopping-arcades/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/okinawa-shopping-street.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/okinawa-shopping-street.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/depachika-japanese-department-food/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kyoto-nishiki-market-food-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/kyoto-nishiki-market-food-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/tsukimi-japanese-moon-viewing/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/wagashi-japanese-seasonal-sweets.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/wagashi-japanese-seasonal-sweets.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/shichi-go-san-japanese-children/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kimono-yukata-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/kimono-yukata-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/setsubun-japanese-beans/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/osechi-ryori-japanese-new-year-food.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/osechi-ryori-japanese-new-year-food.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/hinamatsuri-japanese-dolls/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/hinamatsuri-japanese-dolls.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/hinamatsuri-japanese-dolls.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/obon-japanese-ancestors/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/tanabata-japanese-star-festival.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/tanabata-japanese-star-festival.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/toji-yuzu-bath-japan/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/beppu-port-onsen-day-trip.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/beppu-port-onsen-day-trip.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/ume-japanese-plum-blossoms/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/hanami-japanese-cherry-blossom-picnic.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/yatai-japanese-food-stalls/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/izakaya-japanese-afterwork-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/izakaya-japanese-afterwork-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/kokeshi-japanese-wooden-dolls/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/kokeshi-japanese-wooden-dolls.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/kokeshi-japanese-wooden-dolls.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/omikuji-japanese-fortune/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/ema-japanese-wish-wooden-plaques.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/ema-japanese-wish-wooden-plaques.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/omamori-japanese-amulet-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/omamori-japanese-amulet-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/omamori-japanese-amulet-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/ema-japanese-wish-wooden-plaques/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/ema-japanese-wish-wooden-plaques.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/ema-japanese-wish-wooden-plaques.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/goshuin-temple-shrine-stamps/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/goshuin-temple-shrine-stamps.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/goshuin-temple-shrine-stamps.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/hatsumode-japanese-first-shrine-visit/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/shrine-temple-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/shrine-temple-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/ryokan-japanese-inn-hospitality/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/ryokan-japanese-inn-hospitality.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/ryokan-japanese-inn-hospitality.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/tatami-floor-japanese-living/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/tatami-floor-japanese-living.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/tatami-floor-japanese-living.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/futon-japanese-bedding-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/futon-japanese-bedding-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/futon-japanese-bedding-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/shoji-fusuma-japanese-doors/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/shoji-fusuma-japanese-doors.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/shoji-fusuma-japanese-doors.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/kotatsu-japanese-winter-table/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kotatsu-japanese-winter-table.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/kotatsu-japanese-winter-table.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/furoshiki-japanese-wrapping-cloth/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/furoshiki-japanese-wrapping-cloth.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/furoshiki-japanese-wrapping-cloth.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/bento-japanese-lunchbox-everyday/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/bento-japanese-lunchbox-everyday.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/bento-japanese-lunchbox-everyday.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/wagashi-japanese-seasonal-sweets/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/wagashi-japanese-seasonal-sweets.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/wagashi-japanese-seasonal-sweets.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/matcha-sencha-japanese-green-tea/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/matcha-sencha-japanese-green-tea.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/matcha-sencha-japanese-green-tea.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/toshikoshi-soba-newyear-tradition/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/toshikoshi-soba-newyear-tradition.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/toshikoshi-soba-newyear-tradition.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/ramen-japanese-noodle-evolution/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/ramen-japanese-noodle-evolution.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/ramen-japanese-noodle-evolution.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/izakaya-japanese-afterwork-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/izakaya-japanese-afterwork-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/izakaya-japanese-afterwork-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/osechi-ryori-japanese-new-year-food/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/osechi-ryori-japanese-new-year-food.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/osechi-ryori-japanese-new-year-food.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/hanami-japanese-cherry-blossom-picnic/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/hanami-japanese-cherry-blossom-picnic.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/momijigari-japanese-autumn-leaves-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/momijigari-japanese-autumn-leaves-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/momijigari-japanese-autumn-leaves-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/koinobori-childrens-day-japan/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/koinobori-childrens-day-japan.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/koinobori-childrens-day-japan.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/tanabata-japanese-star-festival/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/tanabata-japanese-star-festival.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/tanabata-japanese-star-festival.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/hanabi-japanese-fireworks-summer/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/yukata-summer-festival.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/yukata-summer-festival.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/yukimi-japanese-snow-viewing-tradition/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/akita-nyuto-onsen-beech-forest.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/akita-nyuto-onsen-beech-forest.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/origami-japanese-paper-folding-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/culture-verified/origami-japanese-paper-folding-culture.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/culture-verified/origami-japanese-paper-folding-culture.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/kodo-japanese-incense-appreciation/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/tea-ceremony-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/tea-ceremony-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-shrine-vs-buddhist-temple/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/shrine-temple-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/shrine-temple-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-matsuri-festival-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/matsuri-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/matsuri-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-daruma-doll-wishes/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/daruma-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/daruma-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-maneki-neko-lucky-cat/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/maneki-neko-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/maneki-neko-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-noren-curtain-shop-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/noren-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/noren-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-ekiben-railway-bento-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/ekiben-train-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/ekiben-train-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-kintsugi-gold-repair-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kintsugi-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/kintsugi-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-omiyage-souvenir-gift-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/omiyage-hero.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/omiyage-hero.webp"
+      ],
+      "n": 2
+    },
+    "/things-to-do/japanese-garden-stone-water-moss/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/japanese-garden-hero.webp",
+        "/images/editorial/japanese-garden-stones-moss.webp",
+        "/images/editorial/japanese-garden-water.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 4
+    },
+    "/things-to-do/kimono-vs-yukata-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/kimono-yukata-hero.webp",
+        "/images/editorial/kimono-formal-detail.webp",
+        "/images/editorial/yukata-summer-festival.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 4
+    },
+    "/things-to-do/japanese-tea-ceremony-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png",
+        "/images/editorial/tea-ceremony-hero.webp",
+        "/images/editorial/tea-ceremony-room.webp",
+        "/images/editorial/tea-ceremony-tools.webp"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/editorial/tea-ceremony-hero.webp"
+      ],
+      "n": 4
+    },
+    "/things-to-do/japan-forest-bathing-shinrin-yoku/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/japan-diving-first-time/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/why-japanese-onsen-special/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/japan-konbini-culture/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/japan-small-streets/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/ryokan-vs-hotel/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/why-travel-japan-by-sea/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/family-with-kids/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/solo-cultural-day/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/japan-free-low-budget/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/accessible-slow-travel/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    },
+    "/things-to-do/experience-booking-checklist/": {
+      "exists": true,
+      "imgs": [
+        "/images/mascot.png"
+      ],
+      "og": [
+        "https://www.nipponferry.com/images/hero-blue.jpg"
+      ],
+      "n": 1
+    }
+  }
+}
