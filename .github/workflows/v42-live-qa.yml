@@ -1,0 +1,36 @@
+name: V42 verify 52 images and article snippets on published website
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v42-live-qa.yml
+      - docs/v42-image-audit/finalized-52.json
+permissions:
+  contents: write
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Request each of 52 deployed WebP, 52 guide pages and main hub
+        id: verify
+        continue-on-error: true
+        run: python scripts/v42_verify_live.py
+      - name: Save passed/failed HTTP report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ ! -f docs/v42-live-qa.json ]; then exit 1; fi
+          git add docs/v42-live-qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V42 QA: 105 actual WebP/page HTTP requests"
+          git pull --rebase origin main
+          git push
+      - name: Signal failures
+        if: steps.verify.outcome != 'success'
+        run: exit 1
