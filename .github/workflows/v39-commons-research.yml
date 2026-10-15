@@ -1,0 +1,26 @@
+name: V39 research 28 graphic-only travel guide images
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v39-commons-research.yml]
+permissions:
+  contents: write
+jobs:
+  research-image-subjects:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Search Commons photographs and licenses for 28 topics
+        run: python scripts/v39_commons_research.py
+      - name: Save Wikimedia Commons candidate source records
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/v39-commons-research.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V39: research photo subjects and licences for 28 graphic cards"
+          git push
