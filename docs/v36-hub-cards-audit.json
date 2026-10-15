@@ -1186,7 +1186,7 @@
     "japan/shimonoseki-dessert/index.html",
     "japan/shimonoseki-local-food/index.html"
   ],
-  "caveat": "V37-V39: 60/152 article cards use independently sourced original Commons real photos with visible licences. 40 cards have prior title-match editorial assets but full image/source review pending; 12 are generic topic reference images; 40 remain clearly labelled topic graphics. The V39 GitHub source and Vercel deployment passed, but website HTTP and mobile/PC visual QA are checked separately. Cumulative 1044 sitemap entries preserved.",
+  "caveat": "V37–V39 60/152 directory article cards now use source-verified local Commons WebP with author/licence credit; V39 real production HTTP tests passed 41/41. Another 40 cards retain preexisting exact-name assets without full source-level verification, 12 are related reference images, and 40 remain explicitly labelled graphics. Mobile/desktop visual/crop QA and a whole-site broken-image crawl are separate.",
   "last_quality_refresh": "2026-10-15 V39",
   "v38": {
     "selection": "previously graphic-only cards",
@@ -1206,6 +1206,8 @@
     "remaining_unverified_related": 12,
     "source_document": "docs/v39-deployed-photo-credits.json",
     "live_qa_document": "docs/v39-live-qa.json",
-    "live_qa_status": "pending independent live HTTP verification"
+    "live_qa_status": "PASS: 41/41 real production HTTP checks (20 WebP bytes, 20 article HTML with OG/Twitter, 1 index page)",
+    "live_qa_passed": 41,
+    "live_qa_total": 41
   }
 }
