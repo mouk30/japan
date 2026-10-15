@@ -89,6 +89,7 @@ out=Path("audit-reports/v30/sitewide-scan.json");out.parent.mkdir(parents=True,e
 out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
 print("V30_SITEWIDE_AUDIT",json.dumps({"html_pages_scanned":report["html_pages_scanned"],"img_references":report["img_references"],**report["summary"]},ensure_ascii=False),flush=True)
 if strong:print("V30_FLAGGED_EXAMPLES",json.dumps(strong[:35],ensure_ascii=False),flush=True)
+print("V32_MISSING_HERO_CANDIDATES",json.dumps(missinghero,ensure_ascii=False),flush=True)
 if allbroken:print("V30_BROKEN_EXAMPLES",json.dumps(allbroken[:20],ensure_ascii=False),flush=True)
 # Broken assets are definite regression risks. Semantic flags require review, not automatic removal.
 print("V30_ALL_BROKEN",json.dumps(allbroken,ensure_ascii=False),flush=True)
