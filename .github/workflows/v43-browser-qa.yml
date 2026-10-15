@@ -45,3 +45,5 @@ jobs:
       - name: Reject failed browser visual layout checks
         if: steps.browser.outcome != 'success'
         run: exit 1
+
+# Rerun browser checks with first-card responsive layout detection for inline card containers.
