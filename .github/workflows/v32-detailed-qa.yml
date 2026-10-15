@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/audit-v32-culture-render.mjs'
       - 'scripts/v32-triage-27-pages.py'
+      - 'site/things-to-do/culture/index.html'
       - '.github/workflows/v32-detailed-qa.yml'
 permissions:
   contents: read
