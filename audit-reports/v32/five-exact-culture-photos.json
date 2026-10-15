@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "bonsai-japanese-miniature-trees",
+    "from": "/images/editorial/japanese-garden-stones-moss.webp",
+    "to": "/images/culture-verified/bonsai-japanese-miniature-trees.webp",
+    "file": "Acer buergerianum bonsai Kyoto.jpg",
+    "creator": "Fritzmann2002",
+    "license": "CC BY-SA 4.0",
+    "license_uri": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Acer_buergerianum_bonsai_Kyoto.jpg",
+    "bytes": 508208,
+    "width": 1050,
+    "height": 1050
+  },
+  {
+    "slug": "ikebana-japanese-flower-arrangement",
+    "from": "/images/editorial/japanese-garden-hero.webp",
+    "to": "/images/culture-verified/ikebana-japanese-flower-arrangement.webp",
+    "file": "Ikebana Flower Arrangement Japanese Tea Ceremony.jpg",
+    "creator": "KuboBella",
+    "license": "CC BY-SA 4.0",
+    "license_uri": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Ikebana_Flower_Arrangement_Japanese_Tea_Ceremony.jpg",
+    "bytes": 67494,
+    "width": 1400,
+    "height": 933
+  },
+  {
+    "slug": "edo-kiriko-cut-glass",
+    "from": "/images/editorial/kintsugi-hero.webp",
+    "to": "/images/culture-verified/edo-kiriko-cut-glass.webp",
+    "file": "Edo-Kiriko.JPG",
+    "creator": "(WT-shared) Shoestring",
+    "license": "Public domain",
+    "license_uri": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Edo-Kiriko.JPG",
+    "bytes": 66456,
+    "width": 640,
+    "height": 480
+  },
+  {
+    "slug": "hinamatsuri-japanese-dolls",
+    "from": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+    "to": "/images/culture-verified/hinamatsuri-japanese-dolls.webp",
+    "file": "Hinamatsuri.JPG",
+    "creator": "Taichi",
+    "license": "CC BY-SA 3.0",
+    "license_uri": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Hinamatsuri.JPG",
+    "bytes": 149436,
+    "width": 787,
+    "height": 1050
+  },
+  {
+    "slug": "kokeshi-japanese-wooden-dolls",
+    "from": "/images/editorial/maneki-neko-hero.webp",
+    "to": "/images/culture-verified/kokeshi-japanese-wooden-dolls.webp",
+    "file": "Kokeshi 1.JPG",
+    "creator": "Boberger",
+    "license": "CC BY-SA 3.0",
+    "license_uri": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Kokeshi_1.JPG",
+    "bytes": 24850,
+    "width": 703,
+    "height": 1050
+  }
+]
