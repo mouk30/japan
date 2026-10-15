@@ -1,0 +1,52 @@
+name: V37 replace 20 article photos and fix Tsushima food
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v37-apply-photos.yml]
+permissions:
+  contents: write
+jobs:
+  photo-quality-upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Install WebP encoder
+        run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Download, validate, and map 22 licensed real photographs
+        run: python scripts/v37_apply_curated_photos.py
+      - name: Validate 20 article cards and 2 Tsushima food entries
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image
+          site=Path("site")
+          rows=json.loads(Path("docs/v37-deployed-photo-credits.json").read_text("utf-8"))
+          assert len(rows)==22
+          assert sum(x["section"]=="things" for x in rows)==20
+          assert sum(x["section"]=="tsushima" for x in rows)==2
+          hubs={"things":(site/"things-to-do/index.html").read_text("utf-8"),"tsushima":(site/"food/index.html").read_text("utf-8")}
+          for x in rows:
+            path=site/x["asset"].lstrip("/")
+            with Image.open(path) as im:
+              assert im.format=="WEBP" and min(im.size)>=350,x
+            article=(site/("things-to-do" if x["section"]=="things" else "japan")/x["slug"]/"index.html").read_text("utf-8")
+            assert f'src="{x["asset"]}"' in hubs[x["section"]],x
+            assert f'src="{x["asset"]}"' in article,x
+            assert f'property="og:image" content="https://www.nipponferry.com{x["asset"]}"' in article,x
+            assert f'name="twitter:image" content="https://www.nipponferry.com{x["asset"]}"' in article,x
+            assert "Wikimedia Commons" in article,x
+          print("V37 validation passed: 22 local WebP files, 20 guide cards, 2 Tsushima food cards")
+          PY
+      - name: Commit only validated local image and article changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/culture-verified site/images/food-verified site/things-to-do site/food/index.html site/japan/tsushima-food/index.html site/japan/tsushima-dessert/index.html docs/v37-deployed-photo-credits.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V37: 20 curated real-photo guide upgrades and Tsushima cuisine fixes"
+          git push
