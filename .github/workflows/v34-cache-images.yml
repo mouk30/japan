@@ -1,0 +1,46 @@
+name: V34 cache verified real photos as local WebP
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/v34-cache-images.yml
+
+permissions:
+  contents: write
+
+jobs:
+  cache-five-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install image encoder
+        run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Download and validate five licensed real photos
+        run: python scripts/v34_cache_images.py
+      - name: Commit local WebP images and social preview rewrites
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/culture-verified/japanese-pottery-kilns.webp
+          git add site/images/culture-verified/japanese-urushi-lacquerware.webp
+          git add site/images/culture-verified/japanese-woodblock-printmaking.webp
+          git add site/images/culture-verified/sagano-scenic-railway.webp
+          git add site/images/culture-verified/hakone-tozan-switchback-train.webp
+          git add site/things-to-do/japanese-pottery-kilns/index.html
+          git add site/things-to-do/japanese-urushi-lacquerware/index.html
+          git add site/things-to-do/japanese-woodblock-printmaking/index.html
+          git add site/things-to-do/sagano-scenic-railway/index.html
+          git add site/things-to-do/hakone-tozan-switchback-train/index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "V34 assets: cache five credited real photos as local WebP"
+          git push
