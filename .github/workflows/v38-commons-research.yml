@@ -1,0 +1,26 @@
+name: V38 research 20 illustrated guides real photo sources
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v38-commons-research.yml]
+permissions:
+  contents: write
+jobs:
+  research-real-photo-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 27
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Retrieve subject-specific Commons photographs and license records
+        run: python scripts/v38_commons_research.py
+      - name: Commit reference candidates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/v38-commons-research.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V38: verified Commons subject photo research for 20 guides"
+          git push
