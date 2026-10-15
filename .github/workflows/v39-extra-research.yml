@@ -1,0 +1,23 @@
+name: V39 supplemental real photo research
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v39-extra-research.yml]
+permissions:
+  contents: write
+jobs:
+  seek-two-more:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python scripts/v39_extra_research.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/v39-extra-research.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V39 research: second pass for additional exact-subject images"
+          git push
