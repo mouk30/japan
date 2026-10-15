@@ -32,3 +32,5 @@ jobs:
       - name: Block QA success on any missing image
         if: steps.check.outcome != 'success'
         run: exit 1
+
+# One-time workflow-file refresh to trigger V39 production HTTP validation after Actions uploads.
