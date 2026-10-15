@@ -1,0 +1,46 @@
+name: V30 Website Topic-Image Alignment
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/v30-site-image-alignment.py'
+      - '.github/workflows/v30-site-image-alignment.yml'
+permissions:
+  contents: write
+jobs:
+  image-alignment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow==11.3.0
+      - name: Correct mismatched photos on four major hubs
+        run: python -u scripts/v30-site-image-alignment.py
+      - name: Validate existing photos, internal paths and corrected article topics
+        run: |
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          report=json.loads(Path('audit-reports/v30/image-alignment.json').read_text())
+          assert report['corrections']>=28, report['corrections']
+          pages=report['pages_checked']
+          assert len(pages)==4
+          for page in pages:
+              html=Path('site',page,'index.html').read_text()
+              for src in re.findall(r'<img[^>]*src="(/images/[^"]+)"',html):
+                  assert Path('site'+src).is_file(),(page,src)
+              assert html.count('<main')==html.count('</main>')
+          print('V30_IMAGE_ALIGNMENT_PASS',report['corrections'])
+          PY
+      - name: Commit safe replacements and provenance
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/shopping/index.html site/practical/index.html site/couple/index.html site/seasons/index.html site/images/topic-matched/ audit-reports/v30/image-alignment.json
+          git diff --cached --check
+          git commit -m 'V30 align shopping, device, bus, museum and seasonal thumbnails to article topics'
+          git pull --rebase origin main
+          git push origin HEAD:main
