@@ -1,0 +1,204 @@
+{
+  "site": "https://www.nipponferry.com",
+  "checks": [
+    {
+      "kind": "hub",
+      "path": "/food/",
+      "key": "food-verified/tsushima-food.webp",
+      "ok": true,
+      "status": 200
+    },
+    {
+      "kind": "hub",
+      "path": "/food/",
+      "key": "food-verified/tsushima-dessert.webp",
+      "ok": true,
+      "status": 200
+    },
+    {
+      "kind": "hub",
+      "path": "/things-to-do/",
+      "key": "culture-verified/takoyaki-osaka-street-food.webp",
+      "ok": true,
+      "status": 200
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/local-food-market-guide.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 271744
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/japan-castle-stone-walls.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 322092
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/japan-castle-tenshu-towers.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 236288
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/japan-temple-bells.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 146452
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/japan-night-train-travel.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 208108
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/japan-volcanic-onsen-geology.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 181596
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/japan-izakaya-yokocho-alleys.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 304236
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/japan-public-parks-hanami.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 432658
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/japan-kanazawa-gold-leaf.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 114702
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/japan-niigata-rice-snow.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 149964
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/japan-nagasaki-lantern-festival.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 180714
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/washi-japanese-handmade-paper.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 278572
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/sushi-edo-japanese-food-history.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 90044
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/tempura-japanese-fried-food.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 106486
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/regional-soba-japanese-buckwheat.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 67516
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/okonomiyaki-osaka-hiroshima.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 43426
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/takoyaki-osaka-street-food.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 99914
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/depachika-japanese-department-food.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 218604
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/hanabi-japanese-fireworks-summer.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 101482
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/culture-verified/hatsumode-japanese-first-shrine-visit.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 170796
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/food-verified/tsushima-food.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 92658
+    },
+    {
+      "kind": "photo",
+      "asset": "/images/food-verified/tsushima-dessert.webp",
+      "ok": true,
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 124574
+    }
+  ],
+  "passed": true,
+  "attempt": 1
+}
