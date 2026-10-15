@@ -1,0 +1,22 @@
+name: V42 audit article image HTML for malformed credit fallbacks
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v42-html-credit-audit.yml]
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/v42_audit_html_credits.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/v42-image-audit/markup-diagnostics.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V42: diagnose image credit HTML embedding issues"
+          git pull --rebase origin main
+          git push
