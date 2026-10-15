@@ -67,7 +67,7 @@ for slug,file,caption,author,license_name,license_url in SOURCES:
   f'{licence_link}{escape(same_license)}. 과거 촬영한 자료사진이며 현재 축제·시설 운영 상황을 의미하지 않습니다.</p>')
  # Insert credit after the hero section and before body article. Protect old layout.
  n=0
- for pattern in ['</div><div class="ew el">','</div><div class="w main">']:
+ for pattern in ['</div><div class="ew el">','</div><div class="w main">','</div><div class="w lay">','</div><div class="w layout">']:
   if pattern in html:
    html=html.replace(pattern,'</div>'+credit+pattern[6:],1)
    n=1
