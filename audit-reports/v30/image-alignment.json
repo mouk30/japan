@@ -1,0 +1,489 @@
+{
+  "pages_checked": [
+    "shopping",
+    "practical",
+    "couple",
+    "seasons"
+  ],
+  "corrections": 60,
+  "changes": [
+    {
+      "page": "shopping",
+      "slug": "fukuoka-souvenirs",
+      "article_title": "후쿠오카 기념품 추천",
+      "from": "/images/editorial/omamori-japanese-amulet-culture.webp",
+      "to": "/images/editorial/fukuoka-hakata-ori-textiles.webp"
+    },
+    {
+      "page": "shopping",
+      "slug": "fukuoka-drugstore",
+      "article_title": "후쿠오카 드럭스토어 쇼핑",
+      "from": "/images/editorial/noren-hero.webp",
+      "to": "/images/convenience.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "fukuoka-taxfree",
+      "article_title": "후쿠오카 면세·쇼핑 팁",
+      "from": "/images/editorial/kimono-formal-detail.webp",
+      "to": "/images/cash.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "osaka-souvenirs",
+      "article_title": "오사카 기념품 추천",
+      "from": "/images/editorial/okinawa-shopping-street.webp",
+      "to": "/images/editorial/osaka-sakai-knife-workshops.webp"
+    },
+    {
+      "page": "shopping",
+      "slug": "osaka-shopping-list",
+      "article_title": "오사카 쇼핑리스트",
+      "from": "/images/editorial/osaka-sakai-knife-workshops.webp",
+      "to": "/images/osaka.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "osaka-convenience",
+      "article_title": "오사카 편의점 추천",
+      "from": "/images/osaka.jpg",
+      "to": "/images/convenience.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "osaka-drugstore",
+      "article_title": "오사카 드럭스토어 쇼핑",
+      "from": "/images/editorial/ramen-japanese-noodle-evolution.webp",
+      "to": "/images/convenience.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "osaka-taxfree",
+      "article_title": "오사카 면세·쇼핑 팁",
+      "from": "/images/editorial/izakaya-japanese-afterwork-culture.webp",
+      "to": "/images/cash.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "tsushima-souvenirs",
+      "article_title": "대마도 기념품 추천",
+      "from": "/images/editorial/kimono-yukata-hero.webp",
+      "to": "/images/tsushima.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "tsushima-shopping-list",
+      "article_title": "대마도 쇼핑리스트",
+      "from": "/images/editorial/matcha-sencha-japanese-green-tea.webp",
+      "to": "/images/tsushima.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "tsushima-convenience",
+      "article_title": "대마도 편의점 추천",
+      "from": "/images/editorial/ema-japanese-wish-wooden-plaques.webp",
+      "to": "/images/convenience.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "tsushima-drugstore",
+      "article_title": "대마도 드럭스토어 쇼핑",
+      "from": "/images/editorial/ekiben-train-hero.webp",
+      "to": "/images/convenience.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "tsushima-taxfree",
+      "article_title": "대마도 면세·쇼핑 팁",
+      "from": "/images/editorial/kintsugi-hero.webp",
+      "to": "/images/cash.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "shimonoseki-souvenirs",
+      "article_title": "시모노세키 기념품 추천",
+      "from": "/images/editorial/kyoto-nishiki-market-food-culture.webp",
+      "to": "/images/shimonoseki.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "shimonoseki-shopping-list",
+      "article_title": "시모노세키 쇼핑리스트",
+      "from": "/images/editorial/osechi-ryori-japanese-new-year-food.webp",
+      "to": "/images/shimonoseki.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "shimonoseki-convenience",
+      "article_title": "시모노세키 편의점 추천",
+      "from": "/images/editorial/kyoto-nishiki-market-food-etiquette.webp",
+      "to": "/images/convenience.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "shimonoseki-drugstore",
+      "article_title": "시모노세키 드럭스토어 쇼핑",
+      "from": "/images/food.jpg",
+      "to": "/images/convenience.jpg"
+    },
+    {
+      "page": "shopping",
+      "slug": "shimonoseki-taxfree",
+      "article_title": "시모노세키 면세·쇼핑 팁",
+      "from": "/images/city.jpg",
+      "to": "/images/cash.jpg"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-esim-iphone",
+      "article_title": "일본 eSIM 아이폰 설정 가이드",
+      "from": "/images/city.jpg",
+      "to": "/images/esim.jpg"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-esim-galaxy",
+      "article_title": "일본 eSIM 갤럭시 설정 가이드",
+      "from": "/images/photo.jpg",
+      "to": "/images/esim.jpg"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-esim-troubleshooting",
+      "article_title": "일본 eSIM 안될 때 체크리스트",
+      "from": "/images/convenience.jpg",
+      "to": "/images/esim.jpg"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-esim-vs-sim-wifi",
+      "article_title": "일본 eSIM vs 유심 vs 포켓와이파이",
+      "from": "/images/transport.jpg",
+      "to": "/images/esim.jpg"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-data-usage",
+      "article_title": "일본 여행 데이터 몇 GB 필요할까",
+      "from": "/images/editorial/okinawa-palm-coast-drive.webp",
+      "to": "/images/esim.jpg"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-airport-bus-guide",
+      "article_title": "일본 공항버스 처음 타는 법",
+      "from": "/images/editorial/tokyo-yurikamome-automated-train.webp",
+      "to": "/images/topic-matched/v30-bus.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-highway-bus-booking",
+      "article_title": "일본 고속버스 처음 예약하는 법",
+      "from": "/images/editorial/tokyo-station-marunouchi-facade.webp",
+      "to": "/images/topic-matched/v30-bus.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-night-bus-checklist",
+      "article_title": "일본 야간버스 타기 전 체크리스트",
+      "from": "/images/editorial/aomori-hakodate-seikan-tunnel.webp",
+      "to": "/images/topic-matched/v30-bus.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "tokyo-osaka-bus-vs-shinkansen",
+      "article_title": "도쿄 오사카 야간버스 vs 신칸센",
+      "from": "/images/editorial/hakone-tozan-switchback-train.webp",
+      "to": "/images/topic-matched/v30-shinkansen.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "osaka-fukuoka-highway-bus",
+      "article_title": "오사카 후쿠오카 고속버스 여행",
+      "from": "/images/rail.jpg",
+      "to": "/images/topic-matched/v30-bus.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-bus-seat-types",
+      "article_title": "일본 버스 좌석 종류 고르는 법",
+      "from": "/images/editorial/ekiben-train-hero.webp",
+      "to": "/images/topic-matched/v30-bus.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "kyoto-tango-kuromatsu",
+      "article_title": "교토 단고 쿠로마츠 열차 여행",
+      "from": "/images/editorial/kyoto-amanohashidate-sightseeing-boat.webp",
+      "to": "/images/rail.jpg"
+    },
+    {
+      "page": "practical",
+      "slug": "setsugekka-train",
+      "article_title": "에치고 토키메키 설월화 열차",
+      "from": "/images/editorial/kurobe-gorge-trolley-train.webp",
+      "to": "/images/rail.jpg"
+    },
+    {
+      "page": "practical",
+      "slug": "shimabara-cafe-train",
+      "article_title": "시마바라 카페트레인 여행",
+      "from": "/images/editorial/nagasaki-port-day-trip.webp",
+      "to": "/images/rail.jpg"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-sightseeing-train-couple",
+      "article_title": "일본 관광열차 커플 여행",
+      "from": "/images/editorial/shimanami-kaido-island-cycling.webp",
+      "to": "/images/editorial/sagano-scenic-railway.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-bus-tour-guide",
+      "article_title": "일본 버스투어 처음 예약하는 법",
+      "from": "/images/car.jpg",
+      "to": "/images/topic-matched/v30-bus.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-half-day-tour",
+      "article_title": "일본 반일투어 활용법",
+      "from": "/images/editorial/osaka-cruise-port-day-trip.webp",
+      "to": "/images/transport.jpg"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-theme-park-guide",
+      "article_title": "일본 테마파크 여행 가이드",
+      "from": "/images/editorial/okinawa-churaumi-aquarium.webp",
+      "to": "/images/venues/osaka-usj-entrance.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "fujiq-highland-guide",
+      "article_title": "후지큐 하이랜드 여행 가이드",
+      "from": "/images/editorial/futami-ogasawara-cruise-port-day-trip.webp",
+      "to": "/images/topic-matched/v30-fujiq.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "nagashima-spaland-guide",
+      "article_title": "나가시마 스파랜드 여행 가이드",
+      "from": "/images/editorial/yokohama-port-day-trip.webp",
+      "to": "/images/topic-matched/v30-nagashima.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "ghibli-museum-guide",
+      "article_title": "지브리 미술관 처음 가는 법",
+      "from": "/images/editorial/japanese-garden-hero.webp",
+      "to": "/images/topic-matched/v30-ghibli.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "nijigen-no-mori-guide",
+      "article_title": "니지겐노모리 여행 가이드",
+      "from": "/images/editorial/okinawa-american-village.webp",
+      "to": "/images/venues/osaka-usj-entrance.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-theme-park-couple",
+      "article_title": "일본 테마파크 커플 여행",
+      "from": "/images/editorial/okinawa-resort-beach.webp",
+      "to": "/images/venues/yokohama-cosmo-world.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-ic-card-guide",
+      "article_title": "일본 교통카드 처음 쓰는 법",
+      "from": "/images/editorial/goshuin-temple-shrine-stamps.webp",
+      "to": "/images/topic-matched/v30-ic.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-coin-locker-guide",
+      "article_title": "일본 짐보관 코인락커 가이드",
+      "from": "/images/cabin.jpg",
+      "to": "/images/topic-matched/v30-coin.webp"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-luggage-delivery",
+      "article_title": "일본 캐리어 배송 서비스 활용법",
+      "from": "/images/editorial/ryokan-japanese-inn-hospitality.webp",
+      "to": "/images/car.jpg"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-power-adapter-guide",
+      "article_title": "일본 여행 충전기·돼지코 준비",
+      "from": "/images/editorial/omiyage-hero.webp",
+      "to": "/images/esim.jpg"
+    },
+    {
+      "page": "practical",
+      "slug": "japan-translation-app-guide",
+      "article_title": "일본 여행 번역앱 활용법",
+      "from": "/images/editorial/ema-japanese-wish-wooden-plaques.webp",
+      "to": "/images/esim.jpg"
+    },
+    {
+      "page": "couple",
+      "slug": "korea-japan-couple-reality",
+      "article_title": "한일커플 현실, 문화차이는 어디서 느낄까",
+      "from": "/images/editorial/japanese-garden-hero.webp",
+      "to": "/images/couple.jpg"
+    },
+    {
+      "page": "couple",
+      "slug": "korea-japan-couple-language",
+      "article_title": "한일커플 언어가 다를 때 대화하는 법",
+      "from": "/images/editorial/ema-japanese-wish-wooden-plaques.webp",
+      "to": "/images/couple.jpg"
+    },
+    {
+      "page": "couple",
+      "slug": "korea-japan-couple-before-marriage",
+      "article_title": "한일커플 결혼 전 이야기할 것들",
+      "from": "/images/editorial/ryokan-japanese-inn-hospitality.webp",
+      "to": "/images/couple.jpg"
+    },
+    {
+      "page": "couple",
+      "slug": "japan-couple-messaging-culture",
+      "article_title": "일본 커플은 연락을 얼마나 할까",
+      "from": "/images/editorial/omamori-japanese-amulet-culture.webp",
+      "to": "/images/couple.jpg"
+    },
+    {
+      "page": "couple",
+      "slug": "japan-christmas-date",
+      "article_title": "일본 크리스마스 데이트 문화",
+      "from": "/images/editorial/kotatsu-japanese-winter-table.webp",
+      "to": "/images/venues/kobe-meriken-park-night.webp"
+    },
+    {
+      "page": "couple",
+      "slug": "joshiryoku-modern-japan",
+      "article_title": "여자력이라는 말, 요즘 일본에서는 어떻게 보나",
+      "from": "/images/editorial/okinawa-kokusai-dori.webp",
+      "to": "/images/city.jpg"
+    },
+    {
+      "page": "couple",
+      "slug": "japanese-women-stereotypes",
+      "article_title": "일본 여성이라는 하나의 이미지로 보면 안 되는 이유",
+      "from": "/images/editorial/japanese-garden-stones-moss.webp",
+      "to": "/images/couple.jpg"
+    },
+    {
+      "page": "couple",
+      "slug": "fukuoka-night-date",
+      "article_title": "후쿠오카 야경 데이트 코스",
+      "from": "/images/editorial/hakata-cruise-port-day-trip.webp",
+      "to": "/images/venues/fukuoka-tower.webp"
+    },
+    {
+      "page": "couple",
+      "slug": "tokyo-night-view-date",
+      "article_title": "도쿄 야경 데이트 가이드",
+      "from": "/images/editorial/tokyo-yurikamome-automated-train.webp",
+      "to": "/images/editorial/tokyo-cruise-port-day-trip.webp"
+    },
+    {
+      "page": "couple",
+      "slug": "ocean-view-cabin-couple",
+      "article_title": "오션뷰 객실, 커플여행에서 값어치 있을까",
+      "from": "/images/editorial/okinawa-sunset-rock.webp",
+      "to": "/images/cabin.jpg"
+    },
+    {
+      "page": "couple",
+      "slug": "japan-couple-trip-planning",
+      "article_title": "일본 커플여행 싸우지 않는 일정 짜기",
+      "from": "/images/editorial/shimanami-kaido-island-cycling.webp",
+      "to": "/images/transport.jpg"
+    },
+    {
+      "page": "seasons",
+      "slug": "hokkaido-winter-packing",
+      "article_title": "홋카이도 겨울 여행 준비물",
+      "from": "/images/editorial/futon-japanese-bedding-culture.webp",
+      "to": "/images/seasons/v29-season-03.webp"
+    },
+    {
+      "page": "seasons",
+      "slug": "japan-winter-budget",
+      "article_title": "일본 겨울여행 가성비 팁",
+      "from": "/images/editorial/osechi-ryori-japanese-new-year-food.webp",
+      "to": "/images/cash.jpg"
+    },
+    {
+      "page": "seasons",
+      "slug": "japan-cherry-blossom-guide",
+      "article_title": "일본 벚꽃여행 준비 가이드",
+      "from": "/images/editorial/japanese-garden-hero.webp",
+      "to": "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp"
+    }
+  ],
+  "new_verified_photos": {
+    "bus": {
+      "image": "/images/topic-matched/v30-bus.webp",
+      "creator": "MaedaAkihiko",
+      "license": "CC BY-SA 4.0",
+      "licenseurl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:JR-Bus-kanto_D670-21501.jpg",
+      "bytes": 145916
+    },
+    "coin": {
+      "image": "/images/topic-matched/v30-coin.webp",
+      "creator": "Motokoka",
+      "license": "CC BY-SA 4.0",
+      "licenseurl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:Coin-operated_locker_at_Kibukawa_station.jpg",
+      "bytes": 36636
+    },
+    "ghibli": {
+      "image": "/images/topic-matched/v30-ghibli.webp",
+      "creator": "Douglas Paul Perkins",
+      "license": "Public domain",
+      "licenseurl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:Ghibli_Museum.jpg",
+      "bytes": 364870
+    },
+    "nagashima": {
+      "image": "/images/topic-matched/v30-nagashima.webp",
+      "creator": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "licenseurl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:Giant_Wheel_of_Nagashima_Spa_Land.jpg",
+      "bytes": 76368
+    },
+    "fujiq": {
+      "image": "/images/topic-matched/v30-fujiq.webp",
+      "creator": "Roller Coaster Philosophy",
+      "license": "CC BY 2.0",
+      "licenseurl": "https://creativecommons.org/licenses/by/2.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:Fuji-Q_Highland_(5900036032).jpg",
+      "bytes": 146326
+    },
+    "ic": {
+      "image": "/images/topic-matched/v30-ic.webp",
+      "creator": "MaedaAkihiko",
+      "license": "CC BY-SA 4.0",
+      "licenseurl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:JRE_Koiwa-STA_IC-card-only-Gate.jpg",
+      "bytes": 125660
+    },
+    "shinkansen": {
+      "image": "/images/topic-matched/v30-shinkansen.webp",
+      "creator": "MaedaAkihiko",
+      "license": "CC BY-SA 4.0",
+      "licenseurl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:N700S-J1.jpg",
+      "bytes": 221128
+    }
+  }
+}
