@@ -1,0 +1,26 @@
+name: V42 audit 52 old images for technical integrity and visual review
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v42-image-inventory.yml]
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - run: python scripts/v42_audit_images.py
+      - name: Commit 52-image audit and visual contact sheets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/v42-image-audit/
+          git diff --cached --quiet && exit 0
+          git commit -m "V42: existing 52 image technical and contact-sheet audit"
+          git pull --rebase origin main
+          git push
