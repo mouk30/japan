@@ -3,9 +3,10 @@
   "things": {
     "cards": 152,
     "kinds": {
-      "verified-real-photo": 100,
-      "exact": 40,
-      "topic": 12
+      "verified-real-photo": 111,
+      "previously-credited-photo": 20,
+      "editorial-unverified": 20,
+      "editorial-comparison": 1
     },
     "mappings": [
       {
@@ -147,7 +148,7 @@
       {
         "slug": "shinkansen-bullet-train-history",
         "image": "/images/culture-verified/shinkansen-bullet-train-history.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "신칸센이 일본의 시간 감각을 바꾼 이유"
       },
       {
@@ -241,7 +242,7 @@
       {
         "slug": "japan-volcano-mount-aso",
         "image": "/images/culture-verified/japan-volcano-mount-aso.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "아소산의 거대한 칼데라 비밀"
       },
       {
@@ -255,7 +256,7 @@
       {
         "slug": "japan-bamboo-grove-ecology",
         "image": "/images/culture-verified/japan-bamboo-grove-ecology.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "대나무숲이 신비롭게 느껴지는 이유"
       },
       {
@@ -277,7 +278,7 @@
       {
         "slug": "japan-snow-monkeys-hot-springs",
         "image": "/images/culture-verified/japan-snow-monkeys-hot-springs.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "온천에 들어가는 일본원숭이"
       },
       {
@@ -339,7 +340,7 @@
       {
         "slug": "japan-jizo-roadside-statues",
         "image": "/images/culture-verified/japan-jizo-roadside-statues.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "지장보살의 빨간 턱받이"
       },
       {
@@ -361,7 +362,7 @@
       {
         "slug": "japan-sudare-bamboo-blinds",
         "image": "/images/culture-verified/japan-sudare-bamboo-blinds.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "일본 여름집의 대나무 발"
       },
       {
@@ -407,13 +408,13 @@
       {
         "slug": "japan-aomori-nebuta-floats",
         "image": "/images/culture-verified/japan-aomori-nebuta-floats.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "아오모리 네부타 등 제작의 비밀"
       },
       {
         "slug": "japan-kyoto-gion-festival-floats",
         "image": "/images/culture-verified/japan-kyoto-gion-festival-floats.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "교토 기온마쓰리 수레의 공예"
       },
       {
@@ -459,7 +460,7 @@
       {
         "slug": "taiko-japanese-drumming",
         "image": "/images/culture-verified/taiko-japanese-drumming.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "다이코 북소리"
       },
       {
@@ -473,13 +474,13 @@
       {
         "slug": "ikebana-japanese-flower-arrangement",
         "image": "/images/culture-verified/ikebana-japanese-flower-arrangement.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "꽃꽂이 이케바나"
       },
       {
         "slug": "bonsai-japanese-miniature-trees",
         "image": "/images/culture-verified/bonsai-japanese-miniature-trees.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "오래된 숲을 닮은 분재"
       },
       {
@@ -509,7 +510,7 @@
       {
         "slug": "japanese-pottery-kilns",
         "image": "/images/culture-verified/japanese-pottery-kilns.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "일본 도자기는 왜 지역마다 다른 색을 가질까? 가마와 흙의 역사"
       },
       {
@@ -523,25 +524,25 @@
       {
         "slug": "japanese-urushi-lacquerware",
         "image": "/images/culture-verified/japanese-urushi-lacquerware.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "일본 옻칠 그릇은 왜 오래 쓸수록 멋이 날까? 우루시 공예"
       },
       {
         "slug": "japanese-woodblock-printmaking",
         "image": "/images/culture-verified/japanese-woodblock-printmaking.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "일본 목판화는 어떻게 색을 여러 번 정확히 찍을까?"
       },
       {
         "slug": "kumiko-japanese-wood-joinery",
         "image": "/images/culture-verified/kumiko-japanese-wood-joinery.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "구미코 목공예는 왜 못 없이 무늬를 만들까? 일본 격자 기술"
       },
       {
         "slug": "edo-kiriko-cut-glass",
         "image": "/images/culture-verified/edo-kiriko-cut-glass.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "에도키리코 유리는 왜 빛에 따라 무늬가 바뀔까?"
       },
       {
@@ -651,7 +652,7 @@
       {
         "slug": "japanese-vending-machine-culture",
         "image": "/images/culture-verified/japanese-vending-machine-culture.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "일본 자판기는 왜 이렇게 많을까? 거리의 작은 편의점"
       },
       {
@@ -712,9 +713,11 @@
       },
       {
         "slug": "shotengai-japanese-shopping-arcades",
-        "image": "/images/editorial/okinawa-shopping-street.webp",
-        "kind": "topic",
-        "title": "일본 상점가는 왜 지붕 아래 작은 가게들이 모였을까? 쇼텐가이"
+        "image": "/images/culture-verified/shotengai-japanese-shopping-arcades.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 상점가는 왜 지붕 아래 작은 가게들이 모였을까? 쇼텐가이",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Tanukikoji_01.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "depachika-japanese-department-food",
@@ -751,7 +754,7 @@
       {
         "slug": "hinamatsuri-japanese-dolls",
         "image": "/images/culture-verified/hinamatsuri-japanese-dolls.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "히나마쓰리에는 왜 인형을 층층이 장식할까?"
       },
       {
@@ -789,7 +792,7 @@
       {
         "slug": "kokeshi-japanese-wooden-dolls",
         "image": "/images/culture-verified/kokeshi-japanese-wooden-dolls.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "고케시 인형은 왜 표정이 단순할까? 도호쿠 목공예"
       },
       {
@@ -803,19 +806,19 @@
       {
         "slug": "omamori-japanese-amulet-culture",
         "image": "/images/editorial/omamori-japanese-amulet-culture.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "오마모리 부적은 왜 가방에 달까?"
       },
       {
         "slug": "ema-japanese-wish-wooden-plaques",
         "image": "/images/editorial/ema-japanese-wish-wooden-plaques.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "에마에는 왜 소원을 적을까?"
       },
       {
         "slug": "goshuin-temple-shrine-stamps",
         "image": "/images/editorial/goshuin-temple-shrine-stamps.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "고슈인은 왜 스탬프가 아닐까?"
       },
       {
@@ -829,103 +832,103 @@
       {
         "slug": "ryokan-japanese-inn-hospitality",
         "image": "/images/editorial/ryokan-japanese-inn-hospitality.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "료칸은 호텔과 무엇이 다를까?"
       },
       {
         "slug": "tatami-floor-japanese-living",
         "image": "/images/editorial/tatami-floor-japanese-living.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "일본 집에 다다미가 있는 이유"
       },
       {
         "slug": "futon-japanese-bedding-culture",
         "image": "/images/editorial/futon-japanese-bedding-culture.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "바닥에 후톤을 펴고 자는 이유"
       },
       {
         "slug": "shoji-fusuma-japanese-doors",
         "image": "/images/editorial/shoji-fusuma-japanese-doors.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "일본 종이 미닫이문의 비밀"
       },
       {
         "slug": "kotatsu-japanese-winter-table",
         "image": "/images/editorial/kotatsu-japanese-winter-table.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "겨울 고타쓰에 모이는 이유"
       },
       {
         "slug": "furoshiki-japanese-wrapping-cloth",
         "image": "/images/editorial/furoshiki-japanese-wrapping-cloth.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "후로시키로 물건을 싸는 이유"
       },
       {
         "slug": "bento-japanese-lunchbox-everyday",
         "image": "/images/editorial/bento-japanese-lunchbox-everyday.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "일본 벤토는 왜 정갈하게 담을까?"
       },
       {
         "slug": "wagashi-japanese-seasonal-sweets",
         "image": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "화과자가 계절마다 달라지는 이유"
       },
       {
         "slug": "matcha-sencha-japanese-green-tea",
         "image": "/images/editorial/matcha-sencha-japanese-green-tea.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "말차와 센차는 어떻게 다를까?"
       },
       {
         "slug": "toshikoshi-soba-newyear-tradition",
         "image": "/images/editorial/toshikoshi-soba-newyear-tradition.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "새해 전날 메밀국수를 먹는 이유"
       },
       {
         "slug": "ramen-japanese-noodle-evolution",
         "image": "/images/editorial/ramen-japanese-noodle-evolution.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "라멘은 어떻게 국민 음식이 됐을까?"
       },
       {
         "slug": "izakaya-japanese-afterwork-culture",
         "image": "/images/editorial/izakaya-japanese-afterwork-culture.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "이자카야는 왜 안주를 나눠 먹을까?"
       },
       {
         "slug": "osechi-ryori-japanese-new-year-food",
         "image": "/images/editorial/osechi-ryori-japanese-new-year-food.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "오세치를 여러 칸에 담는 이유"
       },
       {
         "slug": "hanami-japanese-cherry-blossom-picnic",
         "image": "/images/editorial/hanami-japanese-cherry-blossom-picnic.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "벚꽃 아래서 도시락을 먹는 이유"
       },
       {
         "slug": "momijigari-japanese-autumn-leaves-culture",
         "image": "/images/editorial/momijigari-japanese-autumn-leaves-culture.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "단풍을 사냥한다는 말의 뜻"
       },
       {
         "slug": "koinobori-childrens-day-japan",
         "image": "/images/editorial/koinobori-childrens-day-japan.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "잉어 깃발이 하늘에 걸리는 이유"
       },
       {
         "slug": "tanabata-japanese-star-festival",
         "image": "/images/editorial/tanabata-japanese-star-festival.webp",
-        "kind": "exact",
+        "kind": "editorial-unverified",
         "title": "다나바타에서 소원을 쓰는 이유"
       },
       {
@@ -947,7 +950,7 @@
       {
         "slug": "origami-japanese-paper-folding-culture",
         "image": "/images/culture-verified/origami-japanese-paper-folding-culture.webp",
-        "kind": "exact",
+        "kind": "previously-credited-photo",
         "title": "종이접기가 세계로 퍼진 이유"
       },
       {
@@ -960,69 +963,89 @@
       },
       {
         "slug": "japanese-shrine-vs-buddhist-temple",
-        "image": "/images/editorial/shrine-temple-hero.webp",
-        "kind": "topic",
-        "title": "일본 신사와 절은 무엇이 다를까?"
+        "image": "/images/culture-verified/japanese-shrine-vs-buddhist-temple.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 신사와 절은 무엇이 다를까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Double_torii_path_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japanese-matsuri-festival-culture",
-        "image": "/images/editorial/matsuri-hero.webp",
-        "kind": "topic",
-        "title": "마쓰리 축제는 왜 특별할까?"
+        "image": "/images/culture-verified/japanese-matsuri-festival-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "마쓰리 축제는 왜 특별할까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Kyoto_Gion_Matsuri_J09_049.jpg",
+        "licence": "CC BY 3.0"
       },
       {
         "slug": "japanese-daruma-doll-wishes",
-        "image": "/images/editorial/daruma-hero.webp",
-        "kind": "topic",
-        "title": "다루마 인형은 왜 눈을 하나씩 그릴까?"
+        "image": "/images/culture-verified/japanese-daruma-doll-wishes.webp",
+        "kind": "verified-real-photo",
+        "title": "다루마 인형은 왜 눈을 하나씩 그릴까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Daruma_Dolls_Osaka.JPG",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japanese-maneki-neko-lucky-cat",
-        "image": "/images/editorial/maneki-neko-hero.webp",
-        "kind": "topic",
-        "title": "마네키네코는 왜 손을 들고 있을까?"
+        "image": "/images/culture-verified/japanese-maneki-neko-lucky-cat.webp",
+        "kind": "verified-real-photo",
+        "title": "마네키네코는 왜 손을 들고 있을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Maneki-neko_%28Japanese_Lucky_Cat%29_Statues_at_Gotokuji_Temple%2C_Tokyo.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "japanese-noren-curtain-shop-culture",
-        "image": "/images/editorial/noren-hero.webp",
-        "kind": "topic",
-        "title": "일본 가게 앞에는 왜 노렌이 걸려 있을까?"
+        "image": "/images/culture-verified/japanese-noren-curtain-shop-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 가게 앞에는 왜 노렌이 걸려 있을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Noren_of_a_restaurant_by_tomooka_in_Kyoto.jpg",
+        "licence": "CC BY-SA 2.0"
       },
       {
         "slug": "japanese-ekiben-railway-bento-culture",
-        "image": "/images/editorial/ekiben-train-hero.webp",
-        "kind": "topic",
-        "title": "일본 철도 도시락 에키벤은 어떻게 하나의 문화가 됐을까?"
+        "image": "/images/culture-verified/japanese-ekiben-railway-bento-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 철도 도시락 에키벤은 어떻게 하나의 문화가 됐을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Bento_Meals_%282908879539%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "japanese-kintsugi-gold-repair-culture",
-        "image": "/images/editorial/kintsugi-hero.webp",
-        "kind": "topic",
-        "title": "일본은 왜 깨진 도자기를 금으로 수리할까?"
+        "image": "/images/culture-verified/japanese-kintsugi-gold-repair-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "일본은 왜 깨진 도자기를 금으로 수리할까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Hand_Pinted_Kintsugi_Pottery_Bowl.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japanese-omiyage-souvenir-gift-culture",
-        "image": "/images/editorial/omiyage-hero.webp",
-        "kind": "topic",
-        "title": "일본 사람들은 왜 여행 후 선물을 나눌까?"
+        "image": "/images/culture-verified/japanese-omiyage-souvenir-gift-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 사람들은 왜 여행 후 선물을 나눌까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Japanese_Omiyage.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japanese-garden-stone-water-moss",
-        "image": "/images/editorial/japanese-garden-hero.webp",
-        "kind": "topic",
-        "title": "일본 정원에는 왜 돌·물·이끼가 중요할까?"
+        "image": "/images/culture-verified/japanese-garden-stone-water-moss.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 정원에는 왜 돌·물·이끼가 중요할까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Kenroku-en_-_Kenrokuen644.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "kimono-vs-yukata-culture",
         "image": "/images/editorial/kimono-yukata-hero.webp",
-        "kind": "topic",
+        "kind": "editorial-comparison",
         "title": "기모노와 유카타는 무엇이 다를까?"
       },
       {
         "slug": "japanese-tea-ceremony-culture",
-        "image": "/images/editorial/tea-ceremony-hero.webp",
-        "kind": "topic",
-        "title": "일본 다도문화는 왜 차 한 잔에 그토록 정성을 들일까?"
+        "image": "/images/culture-verified/japanese-tea-ceremony-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 다도문화는 왜 차 한 잔에 그토록 정성을 들일까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Spouses_learn_traditional_art_of_ancient_Japanese_tea_ceremonies_130926-M-DV087-081.jpg",
+        "licence": "Public domain"
       },
       {
         "slug": "japan-forest-bathing-shinrin-yoku",
@@ -1265,8 +1288,8 @@
     "japan/shimonoseki-dessert/index.html",
     "japan/shimonoseki-local-food/index.html"
   ],
-  "caveat": "V37–V41 completed 100 newly source-verified Commons WebP article thumbnails, with 0 remaining explicitly graphic-only cards. A further 40 existing exact-title images and 12 topic-reference images remain to be independently checked for visual accuracy and copyright. V41 live HTTP validation passed 41/41 (20 photo bytes, 20 article/OG/Twitter, 1 directory). Full mobile/desktop visual crop/layout audit and sitewide 1044-URL crawl not claimed.",
-  "last_quality_refresh": "2026-10-15 V41",
+  "caveat": "V37-V42 source-verified new Commons WebP photo upgrades: 111 cards (100 previous + 11 new). V42 checked all remaining 52 visually and technically; 40 original matched-asset cards include both previously credited real photographs and editorial imagery without independently documented provenance; kimono/yukata retains explicitly labelled comparative editorial art. 52/52 metadata links repaired; production HTTP QA and mobile/desktop crop QA are separate.",
+  "last_quality_refresh": "2026-10-15 V42",
   "v38": {
     "selection": "previously graphic-only cards",
     "new_real_photo_articles": 20,
@@ -1311,5 +1334,18 @@
     "live_http_checks_passed": 41,
     "live_http_checks_total": 41,
     "photo_attribution": "docs/v41-deployed-photo-credits.json"
+  },
+  "v42": {
+    "audit_total": 52,
+    "source_verified_replacements": 11,
+    "existing_credit_visible": 20,
+    "editorial_or_unverified": 21,
+    "html_metadata_verified": 52,
+    "unfixed_hero_links": 0,
+    "unfixed_og_links": 0,
+    "unfixed_twitter_links": 0,
+    "source_register": "docs/v42-deployed-photo-credits.json",
+    "finalized_inventory": "docs/v42-image-audit/finalized-52.json",
+    "production_http_test": "docs/v42-live-qa.json"
   }
 }
