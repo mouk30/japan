@@ -1,0 +1,57 @@
+name: V31 Full Website Image Regression QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/v31-full-image-qa.yml'
+      - 'scripts/audit-v30-sitewide-images.py'
+      - 'scripts/audit-v28-hub-cards.mjs'
+      - 'scripts/audit-v29-seasons.mjs'
+permissions:
+  contents: read
+jobs:
+  full-image-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run 1047-page image file audit
+        run: |
+          python3 scripts/audit-v30-sitewide-images.py
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          d=json.loads(Path('audit-reports/v30/sitewide-scan.json').read_text())
+          assert d['html_pages_scanned']>=1047,d['html_pages_scanned']
+          assert d['summary']['broken_img_pages']==0
+          assert d['summary']['broken_primary']==0
+          assert d['summary']['flagged_mismatches']==0
+          print('V31_SITEWIDE_IMAGE_PASS',d['html_pages_scanned'],'pages')
+          PY
+      - name: Install browser for real mobile and desktop rendering
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build production site
+        run: npm run build
+      - name: Check 4 content hubs, seasons and 177 cruise article pages
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist >/tmp/v31-http.log 2>&1 &
+          sleep 2
+          node scripts/audit-v28-hub-cards.mjs
+          node scripts/audit-v29-seasons.mjs
+          node scripts/audit-v23-image-render.mjs
+      - name: Upload report and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v31-sitewide-photo-alignment-regression
+          path: |
+            audit-reports/v23/
+            audit-reports/v28/
+            audit-reports/v29/
+            audit-reports/v30/sitewide-scan.json
+          retention-days: 30
