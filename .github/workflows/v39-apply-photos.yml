@@ -1,0 +1,55 @@
+name: V39 upgrade 20 graphic-only guides with real photos
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v39-apply-photos.yml]
+permissions:
+  contents: write
+jobs:
+  update-20-licensed-real-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Install WebP photo processing
+        run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Validate and convert Commons sources for 20 formerly illustrated cards
+        run: python scripts/v39_apply_curated_photos.py
+      - name: Verify local WebP, SEO and public URL stability for all 20
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image
+          root=Path('site')
+          rows=json.loads(Path('docs/v39-deployed-photo-credits.json').read_text('utf-8'))
+          assert len(rows)==20 and len({r["slug"] for r in rows})==20
+          hub=(root/'things-to-do/index.html').read_text('utf-8')
+          sitemap=(root/'sitemap.xml').read_text('utf-8')
+          for r in rows:
+            slug=r['slug']; asset=r['asset']
+            assert asset==f'/images/culture-verified/{slug}.webp'
+            with Image.open(root/asset.lstrip('/')) as im:
+              assert im.format=='WEBP'
+              assert min(im.size)>=350
+            page=(root/'things-to-do'/slug/'index.html').read_text('utf-8')
+            assert f'src="{asset}"' in page and f'src="{asset}"' in hub
+            assert f'property="og:image" content="https://www.nipponferry.com{asset}"' in page
+            assert f'name="twitter:image" content="https://www.nipponferry.com{asset}"' in page
+            assert r['source_page'] in page
+            assert f'https://www.nipponferry.com/things-to-do/{slug}/' in sitemap
+            card=hub.split(f'href="/things-to-do/{slug}/"',1)[1].split('</a>',1)[0]
+            assert '<em>주제 실사 · 출처 본문</em>' in card
+          print('V39 20/20 WebP, topic-match links, photo credit, OG/Twitter, sitemap and visual labels verified')
+          PY
+      - name: Commit site-local real photos and updated existing guides
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/culture-verified site/things-to-do docs/v39-deployed-photo-credits.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V39: replace 20 honest graphic guide cards with 20 credited real photos"
+          git push
