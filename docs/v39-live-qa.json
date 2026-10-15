@@ -1,0 +1,335 @@
+{
+  "site": "https://www.nipponferry.com",
+  "complete": true,
+  "checks": [
+    {
+      "item": "image",
+      "slug": "japanese-machiya-townhouses",
+      "path": "/images/culture-verified/japanese-machiya-townhouses.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 242454,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-machiya-townhouses",
+      "path": "/things-to-do/japanese-machiya-townhouses/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-ainu-embroidery",
+      "path": "/images/culture-verified/japan-ainu-embroidery.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 227978,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-ainu-embroidery",
+      "path": "/things-to-do/japan-ainu-embroidery/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-amami-oshima-tsumugi",
+      "path": "/images/culture-verified/japan-amami-oshima-tsumugi.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 615288,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-amami-oshima-tsumugi",
+      "path": "/things-to-do/japan-amami-oshima-tsumugi/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "noh-japanese-mask-theater",
+      "path": "/images/culture-verified/noh-japanese-mask-theater.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 57692,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "noh-japanese-mask-theater",
+      "path": "/things-to-do/noh-japanese-mask-theater/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "bunraku-japanese-puppet-theater",
+      "path": "/images/culture-verified/bunraku-japanese-puppet-theater.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 43734,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "bunraku-japanese-puppet-theater",
+      "path": "/things-to-do/bunraku-japanese-puppet-theater/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "shamisen-japanese-three-string-instrument",
+      "path": "/images/culture-verified/shamisen-japanese-three-string-instrument.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 84528,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "shamisen-japanese-three-string-instrument",
+      "path": "/things-to-do/shamisen-japanese-three-string-instrument/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "ukiyoe-japanese-woodblock-art",
+      "path": "/images/culture-verified/ukiyoe-japanese-woodblock-art.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 204828,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "ukiyoe-japanese-woodblock-art",
+      "path": "/things-to-do/ukiyoe-japanese-woodblock-art/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "temari-japanese-thread-balls",
+      "path": "/images/culture-verified/temari-japanese-thread-balls.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 168418,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "temari-japanese-thread-balls",
+      "path": "/things-to-do/temari-japanese-thread-balls/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "sashiko-japanese-repair-stitching",
+      "path": "/images/culture-verified/sashiko-japanese-repair-stitching.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 475492,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "sashiko-japanese-repair-stitching",
+      "path": "/things-to-do/sashiko-japanese-repair-stitching/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "udon-japanese-regional-noodles",
+      "path": "/images/culture-verified/udon-japanese-regional-noodles.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 180310,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "udon-japanese-regional-noodles",
+      "path": "/things-to-do/udon-japanese-regional-noodles/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "yakitori-japanese-skewer-culture",
+      "path": "/images/culture-verified/yakitori-japanese-skewer-culture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 191032,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "yakitori-japanese-skewer-culture",
+      "path": "/things-to-do/yakitori-japanese-skewer-culture/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "onigiri-japanese-rice-ball",
+      "path": "/images/culture-verified/onigiri-japanese-rice-ball.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 79192,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "onigiri-japanese-rice-ball",
+      "path": "/things-to-do/onigiri-japanese-rice-ball/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "konbini-japanese-convenience-store-life",
+      "path": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 267914,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "konbini-japanese-convenience-store-life",
+      "path": "/things-to-do/konbini-japanese-convenience-store-life/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japanese-hightech-public-toilets",
+      "path": "/images/culture-verified/japanese-hightech-public-toilets.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 246636,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-hightech-public-toilets",
+      "path": "/things-to-do/japanese-hightech-public-toilets/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "yatai-japanese-food-stalls",
+      "path": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 41576,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "yatai-japanese-food-stalls",
+      "path": "/things-to-do/yatai-japanese-food-stalls/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "omikuji-japanese-fortune",
+      "path": "/images/culture-verified/omikuji-japanese-fortune.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 187024,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "omikuji-japanese-fortune",
+      "path": "/things-to-do/omikuji-japanese-fortune/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-small-streets",
+      "path": "/images/culture-verified/japan-small-streets.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 195226,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-small-streets",
+      "path": "/things-to-do/japan-small-streets/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "setsubun-japanese-beans",
+      "path": "/images/culture-verified/setsubun-japanese-beans.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 183848,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "setsubun-japanese-beans",
+      "path": "/things-to-do/setsubun-japanese-beans/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "ume-japanese-plum-blossoms",
+      "path": "/images/culture-verified/ume-japanese-plum-blossoms.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 105356,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "ume-japanese-plum-blossoms",
+      "path": "/things-to-do/ume-japanese-plum-blossoms/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "tsukimi-japanese-moon-viewing",
+      "path": "/images/culture-verified/tsukimi-japanese-moon-viewing.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 136148,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "tsukimi-japanese-moon-viewing",
+      "path": "/things-to-do/tsukimi-japanese-moon-viewing/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "hub",
+      "path": "/things-to-do/",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "images": 20,
+  "articles": 20,
+  "attempt": 1
+}
