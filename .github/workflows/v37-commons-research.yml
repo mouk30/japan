@@ -1,0 +1,26 @@
+name: V37 research licensed Commons photographs
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v37-commons-research.yml]
+permissions:
+  contents: write
+jobs:
+  find-photographs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Search Commons + license metadata for 20 topics and Tsushima
+        run: python scripts/v37_commons_research.py
+      - name: Commit editorial candidate verification report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/v37-commons-research.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V37: Commons candidate and licence research for 20 themes and Tsushima"
+          git push
