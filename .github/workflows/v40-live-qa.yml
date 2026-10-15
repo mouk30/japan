@@ -32,3 +32,5 @@ jobs:
       - name: Require all production checks to pass
         if: steps.check.outcome != 'success'
         run: exit 1
+
+# Trigger live checks after V40 photo-asset Actions commit and Vercel deployment.
