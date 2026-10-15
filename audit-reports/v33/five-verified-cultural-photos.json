@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "origami-japanese-paper-folding-culture",
+    "previous": "/images/editorial/furoshiki-japanese-wrapping-cloth.webp",
+    "image": "/images/culture-verified/origami-japanese-paper-folding-culture.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Origami-crane.jpg",
+    "creator": "Andreas Bauer",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "year": "2006",
+    "caption": "종이 한 장으로 접은 오리가미 학",
+    "width": 1307,
+    "height": 1050,
+    "bytes": 28354
+  },
+  {
+    "slug": "shinkansen-bullet-train-history",
+    "previous": "/images/editorial/aomori-hakodate-seikan-tunnel.webp",
+    "image": "/images/culture-verified/shinkansen-bullet-train-history.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Shinkansen_N700S_and_E2_Series_at_Tokyo_Station_2025-05-31.jpg",
+    "creator": "LMP 2001",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "year": "2025",
+    "caption": "도쿄역의 실제 신칸센 N700S·E2 차량",
+    "width": 1399,
+    "height": 1050,
+    "bytes": 298784
+  },
+  {
+    "slug": "japan-snow-monkeys-hot-springs",
+    "previous": "/images/editorial/akita-nyuto-onsen-beech-forest.webp",
+    "image": "/images/culture-verified/japan-snow-monkeys-hot-springs.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Snow_Monkeys_at_Jigokudani_Monkey_Park%2C_Japan.jpg",
+    "creator": "Kelly Drewett",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "year": "2016",
+    "caption": "나가노 지고쿠다니 원숭이공원 온천에 들어간 일본원숭이",
+    "width": 1400,
+    "height": 1050,
+    "bytes": 89430
+  },
+  {
+    "slug": "japan-volcano-mount-aso",
+    "previous": "/images/editorial/oita-kuju-highland-grassland.webp",
+    "image": "/images/culture-verified/japan-volcano-mount-aso.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Aso_20230102.jpg",
+    "creator": "Suicasmo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "year": "2023",
+    "caption": "구마모토 아소산의 실제 화산지형",
+    "width": 1400,
+    "height": 933,
+    "bytes": 205870
+  },
+  {
+    "slug": "japan-aomori-nebuta-floats",
+    "previous": "/images/editorial/aomori-port-nebuta-day-trip.webp",
+    "image": "/images/culture-verified/japan-aomori-nebuta-floats.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Float_at_Nebuta_Museum_Wa-rasse_V.JPG",
+    "creator": "Wmpearl",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "year": "2018",
+    "caption": "아오모리 네부타 와랏세 박물관에 전시된 대형 네부타 장식",
+    "width": 1400,
+    "height": 618,
+    "bytes": 188570
+  }
+]
