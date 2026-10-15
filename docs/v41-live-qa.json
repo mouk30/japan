@@ -1,0 +1,335 @@
+{
+  "site": "https://www.nipponferry.com",
+  "complete": true,
+  "checks": [
+    {
+      "item": "image",
+      "slug": "traditional-experience-booking",
+      "path": "/images/culture-verified/traditional-experience-booking.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 35444,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "traditional-experience-booking",
+      "path": "/things-to-do/traditional-experience-booking/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-railway-platform-melodies",
+      "path": "/images/culture-verified/japan-railway-platform-melodies.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 323008,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-railway-platform-melodies",
+      "path": "/things-to-do/japan-railway-platform-melodies/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-sea-of-japan-coast",
+      "path": "/images/culture-verified/japan-sea-of-japan-coast.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 245938,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-sea-of-japan-coast",
+      "path": "/things-to-do/japan-sea-of-japan-coast/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "kabuki-japanese-theater",
+      "path": "/images/culture-verified/kabuki-japanese-theater.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 101966,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "kabuki-japanese-theater",
+      "path": "/things-to-do/kabuki-japanese-theater/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "rakugo-japanese-storytelling",
+      "path": "/images/culture-verified/rakugo-japanese-storytelling.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 54136,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "rakugo-japanese-storytelling",
+      "path": "/things-to-do/rakugo-japanese-storytelling/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "aizome-japanese-indigo-dye",
+      "path": "/images/culture-verified/aizome-japanese-indigo-dye.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 499160,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "aizome-japanese-indigo-dye",
+      "path": "/things-to-do/aizome-japanese-indigo-dye/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "kutani-japanese-porcelain",
+      "path": "/images/culture-verified/kutani-japanese-porcelain.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 305820,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "kutani-japanese-porcelain",
+      "path": "/things-to-do/kutani-japanese-porcelain/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "dashi-japanese-umami-stock",
+      "path": "/images/culture-verified/dashi-japanese-umami-stock.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 175838,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "dashi-japanese-umami-stock",
+      "path": "/things-to-do/dashi-japanese-umami-stock/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-trash-bin-shortage",
+      "path": "/images/culture-verified/japan-trash-bin-shortage.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 123178,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-trash-bin-shortage",
+      "path": "/things-to-do/japan-trash-bin-shortage/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japanese-sento-public-bath-manners",
+      "path": "/images/culture-verified/japanese-sento-public-bath-manners.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 225492,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-sento-public-bath-manners",
+      "path": "/things-to-do/japanese-sento-public-bath-manners/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "kissaten-japanese-retro-coffee",
+      "path": "/images/culture-verified/kissaten-japanese-retro-coffee.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 238298,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "kissaten-japanese-retro-coffee",
+      "path": "/things-to-do/kissaten-japanese-retro-coffee/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "toji-yuzu-bath-japan",
+      "path": "/images/culture-verified/toji-yuzu-bath-japan.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 94406,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "toji-yuzu-bath-japan",
+      "path": "/things-to-do/toji-yuzu-bath-japan/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-forest-bathing-shinrin-yoku",
+      "path": "/images/culture-verified/japan-forest-bathing-shinrin-yoku.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 203872,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-forest-bathing-shinrin-yoku",
+      "path": "/things-to-do/japan-forest-bathing-shinrin-yoku/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-diving-first-time",
+      "path": "/images/culture-verified/japan-diving-first-time.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 178954,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-diving-first-time",
+      "path": "/things-to-do/japan-diving-first-time/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "why-japanese-onsen-special",
+      "path": "/images/culture-verified/why-japanese-onsen-special.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 219354,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "why-japanese-onsen-special",
+      "path": "/things-to-do/why-japanese-onsen-special/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "family-with-kids",
+      "path": "/images/culture-verified/family-with-kids.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 71516,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "family-with-kids",
+      "path": "/things-to-do/family-with-kids/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "solo-cultural-day",
+      "path": "/images/culture-verified/solo-cultural-day.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 399852,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "solo-cultural-day",
+      "path": "/things-to-do/solo-cultural-day/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-free-low-budget",
+      "path": "/images/culture-verified/japan-free-low-budget.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 130232,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-free-low-budget",
+      "path": "/things-to-do/japan-free-low-budget/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "accessible-slow-travel",
+      "path": "/images/culture-verified/accessible-slow-travel.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 245578,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "accessible-slow-travel",
+      "path": "/things-to-do/accessible-slow-travel/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "experience-booking-checklist",
+      "path": "/images/culture-verified/experience-booking-checklist.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 346810,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "experience-booking-checklist",
+      "path": "/things-to-do/experience-booking-checklist/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "hub",
+      "path": "/things-to-do/",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "images": 20,
+  "articles": 20,
+  "attempt": 1
+}
