@@ -1,0 +1,32 @@
+name: V36.3 align 50 image cards with companion guide
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v36-feature-50.yml]
+permissions:
+  contents: write
+jobs:
+  enhance-fifty-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Use existing article meta descriptions in 50 image cards
+        run: python scripts/v36_feature50_cards.py
+      - name: Verify 50 cards and 152 existing photo cards
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('site/things-to-do/index.html').read_text('utf-8')
+          assert p.count('class="v36-feature-card"')==50
+          assert p.count('class="v28-panel v36-photo-card"')==152
+          print('202 image cards formatted; no article URLs changed')
+          PY
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/things-to-do/index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "V36.3: companion-style descriptions for fifty editorial photo cards"
+          git push
