@@ -929,115 +929,123 @@
         "city": "fukuoka",
         "type": "food",
         "link": "/japan/fukuoka-food/",
-        "image": "/images/editorial/ramen-japanese-noodle-evolution.webp",
-        "kind": "subject-illustration"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Hakata_ramen_bowl_closeup.jpg",
+        "kind": "licensed-real-photo"
       },
       {
         "city": "fukuoka",
         "type": "market",
         "link": "/japan/fukuoka-market/",
-        "image": "/images/editorial/ishikawa-wajima-morning-market.webp",
-        "kind": "subject-illustration"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Yanagibashi_Rengo_Ichiba_by_LWY_in_Fukuoka.jpg",
+        "kind": "licensed-real-photo"
       },
       {
         "city": "fukuoka",
         "type": "dessert",
         "link": "/japan/fukuoka-dessert/",
         "image": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
-        "kind": "subject-illustration"
+        "kind": "clearly-labelled-general-theme"
       },
       {
         "city": "fukuoka",
         "type": "local-food",
         "link": "/japan/fukuoka-local-food/",
-        "image": "/images/editorial/okinawa-soba-guide.webp",
-        "kind": "subject-illustration"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Fukuoka-style_hot_pot_(3637375629).jpg",
+        "kind": "licensed-real-photo"
       },
       {
         "city": "osaka",
         "type": "food",
         "link": "/japan/osaka-food/",
-        "image": "/images/ramen-close.jpg",
-        "kind": "subject-illustration"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Takoyaki_in_Osaka.jpg",
+        "kind": "licensed-real-photo"
       },
       {
         "city": "osaka",
         "type": "market",
         "link": "/japan/osaka-market/",
-        "image": "/images/editorial/kyoto-nishiki-market-food-culture.webp",
-        "kind": "subject-illustration"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Osaka_market.jpg",
+        "kind": "licensed-real-photo"
       },
       {
         "city": "osaka",
         "type": "dessert",
         "link": "/japan/osaka-dessert/",
-        "image": "/images/venues/kanazawa-wagashi-experience.webp",
-        "kind": "subject-illustration"
+        "image": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+        "kind": "clearly-labelled-general-theme"
       },
       {
         "city": "osaka",
         "type": "local-food",
         "link": "/japan/osaka-local-food/",
-        "image": "/images/editorial/okinawa-soba.webp",
-        "kind": "subject-illustration"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Okonomiyaki_osaka.jpg",
+        "kind": "licensed-real-photo"
       },
       {
         "city": "tsushima",
         "type": "food",
         "link": "/japan/tsushima-food/",
-        "image": "/images/editorial/tokushima-komatsushima-cruise-port-day-trip.webp",
-        "kind": "subject-illustration"
+        "image": "/images/hub-thumbnails/food-tsushima-food.svg",
+        "kind": "topic-graphic"
       },
       {
         "city": "tsushima",
         "type": "market",
         "link": "/japan/tsushima-market/",
-        "image": "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
-        "kind": "subject-illustration"
+        "image": "/images/hub-thumbnails/food-tsushima-market.svg",
+        "kind": "topic-graphic"
       },
       {
         "city": "tsushima",
         "type": "dessert",
         "link": "/japan/tsushima-dessert/",
-        "image": "/images/editorial/matcha-sencha-japanese-green-tea.webp",
-        "kind": "subject-illustration"
+        "image": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+        "kind": "clearly-labelled-general-theme"
       },
       {
         "city": "tsushima",
         "type": "local-food",
         "link": "/japan/tsushima-local-food/",
-        "image": "/images/editorial/toshikoshi-soba-newyear-tradition.webp",
-        "kind": "subject-illustration"
+        "image": "/images/hub-thumbnails/food-tsushima-local-food.svg",
+        "kind": "topic-graphic"
       },
       {
         "city": "shimonoseki",
         "type": "food",
         "link": "/japan/shimonoseki-food/",
-        "image": "/images/editorial/okinawa-seafood-bowl.webp",
-        "kind": "subject-illustration"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Fugo-sashimi.jpg",
+        "kind": "licensed-real-photo"
       },
       {
         "city": "shimonoseki",
         "type": "market",
         "link": "/japan/shimonoseki-market/",
-        "image": "/images/editorial/kyoto-nishiki-market-food-etiquette.webp",
-        "kind": "subject-illustration"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Karato_market%2C_Shimonoseki.jpg",
+        "kind": "licensed-real-photo"
       },
       {
         "city": "shimonoseki",
         "type": "dessert",
         "link": "/japan/shimonoseki-dessert/",
-        "image": "/images/editorial/tea-ceremony-hero.webp",
-        "kind": "subject-illustration"
+        "image": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+        "kind": "clearly-labelled-general-theme"
       },
       {
         "city": "shimonoseki",
         "type": "local-food",
         "link": "/japan/shimonoseki-local-food/",
-        "image": "/images/editorial/izakaya-japanese-afterwork-culture.webp",
-        "kind": "subject-illustration"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kawara_soba_by_woinary_in_Moji%2C_Fukuoka.jpg",
+        "kind": "licensed-real-photo"
       }
-    ]
+    ],
+    "classification": {
+      "real_photos": 9,
+      "topic_graphics": 3,
+      "general_theme_references": 4
+    },
+    "verified_licenses_on_page": true,
+    "after_manual_correction": true,
+    "article_hero_alignment_checked": "manual 16 file updates completed; full browser rendering not yet checked"
   },
   "food_article_covers_updated": [
     "japan/fukuoka-food/index.html",
@@ -1057,5 +1065,5 @@
     "japan/shimonoseki-dessert/index.html",
     "japan/shimonoseki-local-food/index.html"
   ],
-  "caveat": "Topic/reference images are not automatically verified actual photos of a particular site. SVG covers explicitly say they are graphics. All matched file paths exist in repository."
+  "caveat": "V36 initial card build uses 40 exact topic covers, 32 related editorial pictures, 80 explicit graphic covers. V36 food correction replaced 9 of 16 with verified CC Wikimedia original URLs and 7 with labelled graphics/references, mirrored to the individual article covers and OG/Twitter images. WebP caching has not been confirmed."
 }
