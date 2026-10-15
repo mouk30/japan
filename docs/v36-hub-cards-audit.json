@@ -3,17 +3,19 @@
   "things": {
     "cards": 152,
     "kinds": {
-      "graphic": 40,
-      "verified-real-photo": 60,
+      "verified-real-photo": 80,
+      "graphic": 20,
       "exact": 40,
       "topic": 12
     },
     "mappings": [
       {
         "slug": "onsen-first-time",
-        "image": "/images/hub-thumbnails/onsen-first-time.svg",
-        "kind": "graphic",
-        "title": "일본 온천 처음 이용하는 법"
+        "image": "/images/culture-verified/onsen-first-time.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 온천 처음 이용하는 법",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Takanoyu_Onsen_Rotenburo_086.jpg",
+        "licence": "Public domain"
       },
       {
         "slug": "traditional-experience-booking",
@@ -23,9 +25,11 @@
       },
       {
         "slug": "nature-outdoor-checklist",
-        "image": "/images/hub-thumbnails/nature-outdoor-checklist.svg",
-        "kind": "graphic",
-        "title": "자연·아웃도어 준비 체크"
+        "image": "/images/culture-verified/nature-outdoor-checklist.webp",
+        "kind": "verified-real-photo",
+        "title": "자연·아웃도어 준비 체크",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Okuhamana_Nature_Trail_%28Mount_Tonmaku%29.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "local-food-market-guide",
@@ -37,21 +41,27 @@
       },
       {
         "slug": "shopping-city-night-guide",
-        "image": "/images/hub-thumbnails/shopping-city-night-guide.svg",
-        "kind": "graphic",
-        "title": "쇼핑·도시 야경 여행"
+        "image": "/images/culture-verified/shopping-city-night-guide.webp",
+        "kind": "verified-real-photo",
+        "title": "쇼핑·도시 야경 여행",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Dotombori_Shopping_Street_at_night_20190201-2.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "port-to-experience-planner",
-        "image": "/images/hub-thumbnails/port-to-experience-planner.svg",
-        "kind": "graphic",
-        "title": "항구 도착 후 즐길거리 일정표"
+        "image": "/images/culture-verified/port-to-experience-planner.webp",
+        "kind": "verified-real-photo",
+        "title": "항구 도착 후 즐길거리 일정표",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Pacific_Venus_cruise_ship_docked_at_Yokohama_International_Passenger_Terminal_2.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "japan-four-shopping-experiences",
-        "image": "/images/hub-thumbnails/japan-four-shopping-experiences.svg",
-        "kind": "graphic",
-        "title": "일본에서 인기 있는 네 가지 구경거리"
+        "image": "/images/culture-verified/japan-four-shopping-experiences.webp",
+        "kind": "verified-real-photo",
+        "title": "일본에서 인기 있는 네 가지 구경거리",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dtengai.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japan-castle-stone-walls",
@@ -155,9 +165,11 @@
       },
       {
         "slug": "japan-rail-pass-why-changes",
-        "image": "/images/hub-thumbnails/japan-rail-pass-why-changes.svg",
-        "kind": "graphic",
-        "title": "일본 철도패스는 왜 종류가 많을까?"
+        "image": "/images/culture-verified/japan-rail-pass-why-changes.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 철도패스는 왜 종류가 많을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:JR_Rail_Pass_2023.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japan-night-train-travel",
@@ -201,9 +213,11 @@
       },
       {
         "slug": "japan-station-bento-vending",
-        "image": "/images/hub-thumbnails/japan-station-bento-vending.svg",
-        "kind": "graphic",
-        "title": "일본 기차역과 음식 문화"
+        "image": "/images/culture-verified/japan-station-bento-vending.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 기차역과 음식 문화",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Dr.Yellow_Bento_1.jpg",
+        "licence": "Public domain"
       },
       {
         "slug": "japan-volcanic-onsen-geology",
@@ -279,9 +293,11 @@
       },
       {
         "slug": "japan-shotengai-neon-signs",
-        "image": "/images/hub-thumbnails/japan-shotengai-neon-signs.svg",
-        "kind": "graphic",
-        "title": "일본 상점가 간판의 개성"
+        "image": "/images/culture-verified/japan-shotengai-neon-signs.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 상점가 간판의 개성",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:2018_Shinsaibashi_Shopping_Arcade%2C_Shinsaibashi_%2843477561214%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "japan-izakaya-yokocho-alleys",
@@ -301,9 +317,11 @@
       },
       {
         "slug": "japan-sakura-forecast-science",
-        "image": "/images/hub-thumbnails/japan-sakura-forecast-science.svg",
-        "kind": "graphic",
-        "title": "벚꽃 개화 예보는 어떻게 만들까?"
+        "image": "/images/culture-verified/japan-sakura-forecast-science.webp",
+        "kind": "verified-real-photo",
+        "title": "벚꽃 개화 예보는 어떻게 만들까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Flower_viewing_custom%2C_Japan%3B_April_2014_%2802%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "japan-ajisai-hydrangea-season",
@@ -531,9 +549,11 @@
       },
       {
         "slug": "tanuki-japanese-shop-statues",
-        "image": "/images/hub-thumbnails/tanuki-japanese-shop-statues.svg",
-        "kind": "graphic",
-        "title": "일본 가게 앞 너구리 인형은 왜 배가 크고 웃고 있을까?"
+        "image": "/images/culture-verified/tanuki-japanese-shop-statues.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 가게 앞 너구리 인형은 왜 배가 크고 웃고 있을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Kyoto_tanuki.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "sushi-edo-japanese-food-history",
@@ -593,9 +613,11 @@
       },
       {
         "slug": "miso-japanese-fermented-soy",
-        "image": "/images/hub-thumbnails/miso-japanese-fermented-soy.svg",
-        "kind": "graphic",
-        "title": "일본 미소된장은 왜 지역마다 색과 짠맛이 다를까?"
+        "image": "/images/culture-verified/miso-japanese-fermented-soy.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 미소된장은 왜 지역마다 색과 짠맛이 다를까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Miso_001.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "dashi-japanese-umami-stock",
@@ -627,15 +649,19 @@
       },
       {
         "slug": "japanese-train-manners-quiet-car",
-        "image": "/images/hub-thumbnails/japanese-train-manners-quiet-car.svg",
-        "kind": "graphic",
-        "title": "일본 열차에서는 왜 통화를 자제할까? 조용한 이동의 예절"
+        "image": "/images/culture-verified/japanese-train-manners-quiet-car.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 열차에서는 왜 통화를 자제할까? 조용한 이동의 예절",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Tokyo_subway_car_interior_in_2014.png",
+        "licence": "CC BY 3.0"
       },
       {
         "slug": "japanese-queue-culture",
-        "image": "/images/hub-thumbnails/japanese-queue-culture.svg",
-        "kind": "graphic",
-        "title": "일본 사람들은 왜 줄을 반듯하게 설까? 대기 문화의 이유"
+        "image": "/images/culture-verified/japanese-queue-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 사람들은 왜 줄을 반듯하게 설까? 대기 문화의 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:%E9%9B%BB%E8%BB%8A%E3%82%92%E5%BE%85%E3%81%A4%E8%A1%8C%E5%88%97_%E4%BA%AC%E6%80%A5%E5%93%81%E5%B7%9D%E9%A7%85_2023-06-19.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "japan-trash-bin-shortage",
@@ -687,9 +713,11 @@
       },
       {
         "slug": "shichi-go-san-japanese-children",
-        "image": "/images/hub-thumbnails/shichi-go-san-japanese-children.svg",
-        "kind": "graphic",
-        "title": "시치고산은 왜 세 살·다섯 살·일곱 살을 축하할까?"
+        "image": "/images/culture-verified/shichi-go-san-japanese-children.webp",
+        "kind": "verified-real-photo",
+        "title": "시치고산은 왜 세 살·다섯 살·일곱 살을 축하할까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Shichigosan_Pilgrimage_at_Omiya_Hachimangu_Shrine_in_Suginami%2C_Tokyo.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "setsubun-japanese-beans",
@@ -707,9 +735,11 @@
       },
       {
         "slug": "obon-japanese-ancestors",
-        "image": "/images/hub-thumbnails/obon-japanese-ancestors.svg",
-        "kind": "graphic",
-        "title": "오봉에는 왜 조상의 기억을 함께 나눌까?"
+        "image": "/images/culture-verified/obon-japanese-ancestors.webp",
+        "kind": "verified-real-photo",
+        "title": "오봉에는 왜 조상의 기억을 함께 나눌까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Bon_Odori%2C_a_style_of_dancing_performed_during_Obon%2C_Japan%3B_August_2014_%2801%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "toji-yuzu-bath-japan",
@@ -885,9 +915,11 @@
       },
       {
         "slug": "yukimi-japanese-snow-viewing-tradition",
-        "image": "/images/hub-thumbnails/yukimi-japanese-snow-viewing-tradition.svg",
-        "kind": "graphic",
-        "title": "겨울 정원의 눈을 감상하는 이유"
+        "image": "/images/culture-verified/yukimi-japanese-snow-viewing-tradition.webp",
+        "kind": "verified-real-photo",
+        "title": "겨울 정원의 눈을 감상하는 이유",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Kenroku-en-winter-lantern.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "origami-japanese-paper-folding-culture",
@@ -897,9 +929,11 @@
       },
       {
         "slug": "kodo-japanese-incense-appreciation",
-        "image": "/images/hub-thumbnails/kodo-japanese-incense-appreciation.svg",
-        "kind": "graphic",
-        "title": "향기를 듣는다는 말의 의미"
+        "image": "/images/culture-verified/kodo-japanese-incense-appreciation.webp",
+        "kind": "verified-real-photo",
+        "title": "향기를 듣는다는 말의 의미",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:%E9%A6%99%E9%81%93_%281%29.JPG",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "japanese-shrine-vs-buddhist-temple",
@@ -987,9 +1021,11 @@
       },
       {
         "slug": "japan-konbini-culture",
-        "image": "/images/hub-thumbnails/japan-konbini-culture.svg",
-        "kind": "graphic",
-        "title": "일본 편의점은 왜 여행 명소가 됐을까?"
+        "image": "/images/culture-verified/japan-konbini-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 편의점은 왜 여행 명소가 됐을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:%E6%84%9B%E6%83%85%E3%82%80%E3%81%99%E3%81%B3_%285137097559%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "japan-small-streets",
@@ -1001,15 +1037,19 @@
       },
       {
         "slug": "ryokan-vs-hotel",
-        "image": "/images/hub-thumbnails/ryokan-vs-hotel.svg",
-        "kind": "graphic",
-        "title": "일본 료칸과 호텔은 뭐가 다를까?"
+        "image": "/images/culture-verified/ryokan-vs-hotel.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 료칸과 호텔은 뭐가 다를까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:My_traditional_accomodation_at_Toshiharu_Ryokan_%2848885681992%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "why-travel-japan-by-sea",
-        "image": "/images/hub-thumbnails/why-travel-japan-by-sea.svg",
-        "kind": "graphic",
-        "title": "비행기 대신 배로 일본에 가면 무엇이 다를까?"
+        "image": "/images/culture-verified/why-travel-japan-by-sea.webp",
+        "kind": "verified-real-photo",
+        "title": "비행기 대신 배로 일본에 가면 무엇이 다를까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Queen_Olive_Ryobiunyu.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "family-with-kids",
@@ -1186,8 +1226,8 @@
     "japan/shimonoseki-dessert/index.html",
     "japan/shimonoseki-local-food/index.html"
   ],
-  "caveat": "V37–V39 60/152 directory article cards now use source-verified local Commons WebP with author/licence credit; V39 real production HTTP tests passed 41/41. Another 40 cards retain preexisting exact-name assets without full source-level verification, 12 are related reference images, and 40 remain explicitly labelled graphics. Mobile/desktop visual/crop QA and a whole-site broken-image crawl are separate.",
-  "last_quality_refresh": "2026-10-15 V39",
+  "caveat": "V37–V40 80/152 cards use separately source-verified local real Commons WebP photographs. 40 other cards have preexisting exact-title images that still need author/source and photo-type verification; 12 topic related images likewise need separate quality review; 20 remain labelled topic graphics. V40 production HTTP checks passed 41/41 (20 image bytes, 20 article/OG/Twitter, 1 hub); no full device/mobile layout QA or full-site broken-image crawl claimed.",
+  "last_quality_refresh": "2026-10-15 V40",
   "v38": {
     "selection": "previously graphic-only cards",
     "new_real_photo_articles": 20,
@@ -1207,6 +1247,18 @@
     "source_document": "docs/v39-deployed-photo-credits.json",
     "live_qa_document": "docs/v39-live-qa.json",
     "live_qa_status": "PASS: 41/41 real production HTTP checks (20 WebP bytes, 20 article HTML with OG/Twitter, 1 index page)",
+    "live_qa_passed": 41,
+    "live_qa_total": 41
+  },
+  "v40": {
+    "source_reviewed": 20,
+    "new_verified_photos": 20,
+    "cumulative_v37_to_v40_verified": 80,
+    "remaining_graphics": 20,
+    "existing_exact_photo_source_audit_pending": 40,
+    "topic_reference_validation_pending": 12,
+    "photo_register": "docs/v40-deployed-photo-credits.json",
+    "site_qa": "docs/v40-live-qa.json",
     "live_qa_passed": 41,
     "live_qa_total": 41
   }
