@@ -1,0 +1,50 @@
+name: V31 Restore 105 Missing Culture Hero Images
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/v31-recover-missing-cultural-images.py'
+      - '.github/workflows/v31-recover-cultural-images.yml'
+permissions:
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Match 105 missing article image paths to existing topic-reference assets
+        run: python3 scripts/v31-recover-missing-cultural-images.py
+      - name: Validate every corrected hero and canonical URL
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('audit-reports/v31/recovered-hero-images.json').read_text())
+          assert len(r)==105,len(r)
+          for x in r:
+              p=Path('site/things-to-do')/x['slug']/'index.html'
+              s=p.read_text()
+              assert x['before'] not in s
+              assert x['after'] in s
+              assert Path('site'+x['after']).exists()
+              assert 'rel="canonical"' in s
+              assert '실제 촬영 사진은 아님' in s
+          print('V31_CULTURAL_IMAGE_REPAIR PASS',len(r))
+          PY
+      - name: Commit 105 repaired site article covers
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/things-to-do/ audit-reports/v31/recovered-hero-images.json
+          git diff --cached --check
+          git commit -m 'V31 restore 105 culture article heroes using attributed topical reference imagery'
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              echo "V31_PUBLISH_OK attempt=$attempt"
+              exit 0
+            fi
+            sleep 4
+          done
+          exit 1
