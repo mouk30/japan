@@ -1,0 +1,47 @@
+name: V43 desktop and mobile screenshot QA for photo spots and 152 cards
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v43-browser-qa.yml
+permissions:
+  contents: write
+jobs:
+  browser-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install Chromium browser automation
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Test 320, 390, 768 and 1440 pixel layouts and photo spot click paths
+        id: browser
+        continue-on-error: true
+        run: node scripts/v43_browser_qa.mjs
+      - name: Upload browser screenshots and report for QA reference
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v43-responsive-photo-spots
+          path: audit-reports/v43/
+          if-no-files-found: ignore
+      - name: Commit browser QA structured report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -f audit-reports/v43/browser-qa.json ]; then
+            git add audit-reports/v43/browser-qa.json
+            git diff --cached --quiet && exit 0
+            git commit -m "V43: real desktop and mobile photo spot/navigation layout QA"
+            git pull --rebase origin main
+            git push
+          fi
+      - name: Reject failed browser visual layout checks
+        if: steps.browser.outcome != 'success'
+        run: exit 1
