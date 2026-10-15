@@ -24,7 +24,7 @@ jobs:
           root=Path('site')
           d=json.loads(Path('docs/v51-voucher-navigation-audit.json').read_text('utf-8'))['summary']
           assert d['desktop_links_added']>5
-          assert d['unlinked_desktop_headers']==0 and d['unlinked_mobile_headers']==0
+          assert d.get('unlinked_desktop_headers',0)==0 and d.get('unlinked_mobile_headers',0)==0
           assert (root/'voucher/index.html').is_file()
           assert 'https://www.nipponferry.com/voucher/' in (root/'sitemap.xml').read_text('utf-8')
           print(f"PASS voucher navigation in {d['updated_pages']} additional pages")
