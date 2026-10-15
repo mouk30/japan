@@ -1,0 +1,26 @@
+name: V43 compare better matching real photographs
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v43-image-compare.yml]
+permissions:
+  contents: write
+jobs:
+  previews:
+    runs-on: ubuntu-latest
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - run: python scripts/v43_compare_photos.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github-actions[bot].github.com"
+          git add docs/v43-alternative-contact.b64
+          git diff --cached --quiet && exit 0
+          git commit -m "V43 QA: visually compare alternative source photographs"
+          git pull --rebase origin main
+          git push
