@@ -1,0 +1,335 @@
+{
+  "site": "https://www.nipponferry.com",
+  "complete": true,
+  "checks": [
+    {
+      "item": "image",
+      "slug": "japan-castle-moats",
+      "path": "/images/culture-verified/japan-castle-moats.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 303414,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-castle-moats",
+      "path": "/things-to-do/japan-castle-moats/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japanese-pagoda-five-stories",
+      "path": "/images/culture-verified/japanese-pagoda-five-stories.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 96450,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-pagoda-five-stories",
+      "path": "/things-to-do/japanese-pagoda-five-stories/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-samurai-armor",
+      "path": "/images/culture-verified/japan-samurai-armor.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 131100,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-samurai-armor",
+      "path": "/things-to-do/japan-samurai-armor/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japanese-katana-curvature",
+      "path": "/images/culture-verified/japanese-katana-curvature.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 72760,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-katana-curvature",
+      "path": "/things-to-do/japanese-katana-curvature/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japanese-sword-guards-tsuba",
+      "path": "/images/culture-verified/japanese-sword-guards-tsuba.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 292300,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-sword-guards-tsuba",
+      "path": "/things-to-do/japanese-sword-guards-tsuba/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-traditional-roof-tiles",
+      "path": "/images/culture-verified/japan-traditional-roof-tiles.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 267400,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-traditional-roof-tiles",
+      "path": "/things-to-do/japan-traditional-roof-tiles/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japanese-engawa-veranda",
+      "path": "/images/culture-verified/japanese-engawa-veranda.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 305550,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-engawa-veranda",
+      "path": "/things-to-do/japanese-engawa-veranda/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japanese-local-train-one-man",
+      "path": "/images/culture-verified/japanese-local-train-one-man.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 155846,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-local-train-one-man",
+      "path": "/things-to-do/japanese-local-train-one-man/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japanese-ferries-islands-life",
+      "path": "/images/culture-verified/japanese-ferries-islands-life.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 63396,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-ferries-islands-life",
+      "path": "/things-to-do/japanese-ferries-islands-life/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japanese-ropeways-mountain-access",
+      "path": "/images/culture-verified/japanese-ropeways-mountain-access.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 171424,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-ropeways-mountain-access",
+      "path": "/things-to-do/japanese-ropeways-mountain-access/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-tram-streetcars-history",
+      "path": "/images/culture-verified/japan-tram-streetcars-history.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 226490,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-tram-streetcars-history",
+      "path": "/things-to-do/japan-tram-streetcars-history/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-railway-station-stamps",
+      "path": "/images/culture-verified/japan-railway-station-stamps.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 146866,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-railway-station-stamps",
+      "path": "/things-to-do/japan-railway-station-stamps/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-geothermal-steam-hells",
+      "path": "/images/culture-verified/japan-geothermal-steam-hells.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 188362,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-geothermal-steam-hells",
+      "path": "/things-to-do/japan-geothermal-steam-hells/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-terraced-rice-fields",
+      "path": "/images/culture-verified/japan-terraced-rice-fields.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 172544,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-terraced-rice-fields",
+      "path": "/things-to-do/japan-terraced-rice-fields/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-yakushima-ancient-cedars",
+      "path": "/images/culture-verified/japan-yakushima-ancient-cedars.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 375644,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-yakushima-ancient-cedars",
+      "path": "/things-to-do/japan-yakushima-ancient-cedars/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-snow-country-architecture",
+      "path": "/images/culture-verified/japan-snow-country-architecture.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 151998,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-snow-country-architecture",
+      "path": "/things-to-do/japan-snow-country-architecture/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-ajisai-hydrangea-season",
+      "path": "/images/culture-verified/japan-ajisai-hydrangea-season.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 296168,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-ajisai-hydrangea-season",
+      "path": "/things-to-do/japan-ajisai-hydrangea-season/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-stone-lanterns",
+      "path": "/images/culture-verified/japan-stone-lanterns.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 511428,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-stone-lanterns",
+      "path": "/things-to-do/japan-stone-lanterns/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japanese-wind-chimes-furin",
+      "path": "/images/culture-verified/japanese-wind-chimes-furin.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 500690,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japanese-wind-chimes-furin",
+      "path": "/things-to-do/japanese-wind-chimes-furin/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "image",
+      "slug": "japan-kagawa-udon-pilgrimage",
+      "path": "/images/culture-verified/japan-kagawa-udon-pilgrimage.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 73706,
+      "ok": true
+    },
+    {
+      "item": "page",
+      "slug": "japan-kagawa-udon-pilgrimage",
+      "path": "/things-to-do/japan-kagawa-udon-pilgrimage/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "item": "hub",
+      "path": "/things-to-do/",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "images": 20,
+  "articles": 20,
+  "attempt": 1
+}
