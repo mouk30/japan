@@ -23,4 +23,5 @@ jobs:
           git add docs/v40-commons-research.json
           git diff --cached --quiet && exit 0
           git commit -m "V40 research: photographed subject, author and license candidate inventory"
+          git pull --rebase origin main
           git push
