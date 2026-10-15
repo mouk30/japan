@@ -1,0 +1,17 @@
+{
+  "corrected": [
+    "ryokan-japanese-inn-hospitality",
+    "kotatsu-japanese-winter-table",
+    "wagashi-japanese-seasonal-sweets",
+    "izakaya-japanese-afterwork-culture",
+    "ramen-japanese-noodle-evolution"
+  ],
+  "sources": {
+    "ryokan-japanese-inn-hospitality": "https://commons.wikimedia.org/wiki/File:My_traditional_accomodation_at_Toshiharu_Ryokan_%2848885681992%29.jpg",
+    "kotatsu-japanese-winter-table": "https://commons.wikimedia.org/wiki/File:%E3%81%93%E3%81%9F%E3%81%A4_%283251928073%29.jpg",
+    "wagashi-japanese-seasonal-sweets": "https://commons.wikimedia.org/wiki/File:Summer_wagashi_10.jpg",
+    "izakaya-japanese-afterwork-culture": "https://commons.wikimedia.org/wiki/File:Gion_Kappa_Restaurant_in_Kyoto.jpg",
+    "ramen-japanese-noodle-evolution": "https://commons.wikimedia.org/wiki/File:Tonkotsu_ramen_in_Tokyo.jpg"
+  },
+  "reason": "visually inspected original 20+ alternatives and chose clearer article-matching photography"
+}

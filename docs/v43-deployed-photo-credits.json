@@ -41,15 +41,15 @@
   {
     "slug": "ryokan-japanese-inn-hospitality",
     "asset": "/images/culture-verified/ryokan-japanese-inn-hospitality.webp",
-    "source_file": "Our room at Seikansō Ryokan (6156061472).jpg",
+    "source_file": "My traditional accomodation at Toshiharu Ryokan (48885681992).jpg",
     "photographer": "Maarten Heerlien  from Voorschoten, The Netherlands",
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "source_page": "https://commons.wikimedia.org/wiki/File:Our_room_at_Seikans%C5%8D_Ryokan_%286156061472%29.jpg",
-    "subject": "일본 세이칸소 료칸의 실제 전통 객실 내부",
-    "note": "실제 투숙객이 촬영한 료칸 객실이며 모든 료칸의 객실 구조를 대표하지는 않습니다.",
-    "webp_bytes": 39548,
-    "sha256": "ae1a17c6d2172cee8a4e7e3cb261c105584ed81a228b1a4f239ec059e2406f21"
+    "source_page": "https://commons.wikimedia.org/wiki/File:My_traditional_accomodation_at_Toshiharu_Ryokan_%2848885681992%29.jpg",
+    "subject": "일본 도시하루 료칸의 실제 밝은 다다미 객실과 후톤 침구",
+    "note": "실제 료칸 객실 사진이며 현재 객실 배치나 예약 가능 여부를 나타내지 않습니다.",
+    "webp_bytes": 233454,
+    "sha256": "14a17f5b9ec736914b83f7e1a83e86a4edc626f24f014237ef70bb292003f167"
   },
   {
     "slug": "tatami-floor-japanese-living",
@@ -93,15 +93,15 @@
   {
     "slug": "kotatsu-japanese-winter-table",
     "asset": "/images/culture-verified/kotatsu-japanese-winter-table.webp",
-    "source_file": "Kotatsu Electric.jpg",
-    "photographer": "Hustvedt",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source_page": "https://commons.wikimedia.org/wiki/File:Kotatsu_Electric.jpg",
-    "subject": "열판이 설치된 일본 전기 고타쓰 테이블의 실제 사진",
-    "note": "전기 난방 장치를 갖춘 고타쓰 사례이며 가족이 둘러앉은 생활 장면은 아닙니다.",
-    "webp_bytes": 186178,
-    "sha256": "2a0a537ba1146bfc4839fdd91b50cd77d76547b477395a24b43f34cabe401d61"
+    "source_file": "こたつ (3251928073).jpg",
+    "photographer": "PENG HSIEN-YING",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%E3%81%93%E3%81%9F%E3%81%A4_%283251928073%29.jpg",
+    "subject": "일본식 방에 이불이 둘러진 고타쓰 난방 테이블 실사",
+    "note": "전기 난방 테이블을 이불로 감싼 고타쓰 예시이며 현재 특정 숙소의 모습은 아닙니다.",
+    "webp_bytes": 74004,
+    "sha256": "e538cc99c82c83199347bdd5644a4beef5a1fc4885f8af3c379eb355d48c34fd"
   },
   {
     "slug": "furoshiki-japanese-wrapping-cloth",
@@ -132,15 +132,15 @@
   {
     "slug": "wagashi-japanese-seasonal-sweets",
     "asset": "/images/culture-verified/wagashi-japanese-seasonal-sweets.webp",
-    "source_file": "Wagashi closeup 13.jpg",
+    "source_file": "Summer wagashi 10.jpg",
     "photographer": "Douglas Perkins",
     "licence": "CC0",
     "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "source_page": "https://commons.wikimedia.org/wiki/File:Wagashi_closeup_13.jpg",
-    "subject": "수국 등 계절 꽃을 표현한 전통 일본 화과자 실물",
-    "note": "계절별 디자인의 실제 화과자 사례이며 현재 판매되는 제품을 보장하지 않습니다.",
-    "webp_bytes": 40514,
-    "sha256": "9084b6818e2660b63ff0d139d1cb1f0553540f9d18bcbefde59ec6ec7735b49a"
+    "source_page": "https://commons.wikimedia.org/wiki/File:Summer_wagashi_10.jpg",
+    "subject": "해바라기 등 여름 계절을 표현한 여러 종류의 일본 화과자 실제 사진",
+    "note": "일본 여름 화과자의 실제 디자인 사례이며 현재 판매되는 제품은 아닙니다.",
+    "webp_bytes": 181350,
+    "sha256": "e5a52e39e573d756c9b435cd7fe2fa39c1203b7f2af550501b8583bcb99ac742"
   },
   {
     "slug": "matcha-sencha-japanese-green-tea",
@@ -171,28 +171,28 @@
   {
     "slug": "ramen-japanese-noodle-evolution",
     "asset": "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
-    "source_file": "Tsukemen at a Tokyo restaurant.jpg",
-    "photographer": "City Foodsters",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "source_page": "https://commons.wikimedia.org/wiki/File:Tsukemen_at_a_Tokyo_restaurant.jpg",
-    "subject": "2014년 도쿄 로쿠린샤 식당에서 촬영한 쓰케멘 실물",
-    "note": "라멘에서 파생된 쓰케멘의 실사이며 모든 일본 라멘의 형태를 보여주는 것은 아닙니다.",
-    "webp_bytes": 126420,
-    "sha256": "737ea46b92ed1cde2d7d4ae47d82852e6a822b9a45898716c36671ea3e8bd384"
+    "source_file": "Tonkotsu ramen in Tokyo.jpg",
+    "photographer": "Syced",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Tonkotsu_ramen_in_Tokyo.jpg",
+    "subject": "도쿄에서 촬영된 돈코츠 국물 라멘 한 그릇 실제 사진",
+    "note": "일본식 돈코츠 라멘 예시이며 모든 지역의 라멘 조리법을 보여주지는 않습니다.",
+    "webp_bytes": 261486,
+    "sha256": "806b7c870308ded1183092f95530cc945ae13628dbd1d1f410bfe46ab91716b6"
   },
   {
     "slug": "izakaya-japanese-afterwork-culture",
     "asset": "/images/culture-verified/izakaya-japanese-afterwork-culture.webp",
-    "source_file": "Quality izakaya in Ebisu 2.jpg",
-    "photographer": "Syced",
+    "source_file": "Gion Kappa Restaurant in Kyoto.jpg",
+    "photographer": "Mx. Granger",
     "licence": "CC0",
     "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "source_page": "https://commons.wikimedia.org/wiki/File:Quality_izakaya_in_Ebisu_2.jpg",
-    "subject": "도쿄 에비스의 실제 이자카야 음식점 풍경",
-    "note": "이자카야 문화를 보여주는 실제 사진이며 현재 영업 상황은 확인이 필요합니다.",
-    "webp_bytes": 315956,
-    "sha256": "4c89afb14fca362ec4d1c9035f6bc353b978afe02acd2ed37076014458a0cdb3"
+    "source_page": "https://commons.wikimedia.org/wiki/File:Gion_Kappa_Restaurant_in_Kyoto.jpg",
+    "subject": "교토 기온 갓파 이자카야 식당 내부에서 조리 중인 실제 장면",
+    "note": "일본 이자카야의 실제 조리·식당 장면으로 현재 영업 상태 및 메뉴는 별도 확인해야 합니다.",
+    "webp_bytes": 231434,
+    "sha256": "6eb1f01d76739ec4ba1527b8f12c017e6c25c6079324c3e8226efaa53ca51cc7"
   },
   {
     "slug": "osechi-ryori-japanese-new-year-food",
