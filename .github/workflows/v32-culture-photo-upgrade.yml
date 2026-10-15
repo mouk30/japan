@@ -1,0 +1,55 @@
+name: V32 Exact Culture Photo Upgrade
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/v32-five-culture-verified-photos.py'
+      - '.github/workflows/v32-culture-photo-upgrade.yml'
+permissions:
+  contents: write
+jobs:
+  five-real-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow==11.3.0
+      - name: Download five original licensed photos and update real topic articles
+        run: python -u scripts/v32-five-culture-verified-photos.py
+      - name: Verify semantic alt, five sources, dimensions, OG and credits
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          a=json.loads(Path('audit-reports/v32/five-exact-culture-photos.json').read_text())
+          assert len(a)==5
+          for row in a:
+           p=Path('site/things-to-do')/row['slug']/'index.html'
+           s=p.read_text()
+           assert row['to'] in s and row['source'] in s
+           assert row['creator'] in s and row['license_uri'] in s
+           assert '실제 촬영 사진' in s and 'class="v32-photo-credit"' in s
+           assert row['bytes']>10000 and Path('site'+row['to']).exists()
+           assert 'https://www.nipponferry.com'+row['from'] not in s
+           assert 'rel="canonical"' in s
+          print('V32_EXACT_REAL_IMAGE_STATIC PASS 5/5')
+          PY
+      - name: Commit validated images and five upgraded pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/culture-verified site/things-to-do audit-reports/v32/five-exact-culture-photos.json
+          git diff --cached --check
+          git commit -m "V32 replace 5 culture reference illustrations with subject-matched licensed photos"
+          for n in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              echo "V32_PUBLISHED_OK"
+              exit 0
+            fi
+            sleep 4
+          done
+          exit 1
