@@ -1,0 +1,39 @@
+name: V50 remove redundant WebP conversion text from photo credits
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v50-remove-webp-credit-sentence.yml
+permissions:
+  contents: write
+jobs:
+  clean-photo-credits:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Remove conversion sentence but keep photographers and licenses
+        run: python scripts/v50_remove_webp_credit_sentence.py
+      - name: Verify cleanup report and zero remaining HTML occurrences
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('docs/v50-webp-credit-sentence-cleanup.json').read_text(encoding='utf-8'))
+          assert d['sentences_removed']>0 and d['html_files_changed']>0
+          assert d['attribution_and_license_urls_preserved']
+          assert not d['unremoved_html_files']
+          print(f"PASS {d['sentences_removed']} phrases removed from {d['html_files_changed']} files")
+          PY
+      - name: Commit cleaned site HTML and audit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -u
+          git add docs/v50-webp-credit-sentence-cleanup.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V50: remove redundant WebP process text from all photo credits"
+          git pull --rebase origin main
+          git push
