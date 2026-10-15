@@ -34,3 +34,5 @@ jobs:
       - name: Fail on any missing or mismatched page/photo
         if: steps.run.outcome != 'success'
         run: exit 1
+
+# Final V43 acceptance rerun after five photo-subject precision improvements.
