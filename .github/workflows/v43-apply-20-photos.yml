@@ -1,0 +1,66 @@
+name: V43 source-verify 20 editorial photo cards
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v43-apply-20-photos.yml]
+permissions:
+  contents: write
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+    timeout-minutes: 42
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Python source syntax test
+        run: python -m py_compile scripts/v43_replace_editorial_20.py
+      - name: Convert 20 genuine original photos and replace undocumented editorial covers
+        run: python scripts/v43_replace_editorial_20.py
+      - name: Validate 20 photo sources, 152 cards, 20 pages, sitemap and metadata
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          import json,re,hashlib
+          root=Path('site')
+          rows=json.loads(Path('docs/v43-deployed-photo-credits.json').read_text('utf-8'))
+          inventory=json.loads(Path('docs/v36-hub-cards-audit.json').read_text('utf-8'))
+          assert len(rows)==20
+          assert len({r['slug'] for r in rows})==20
+          assert inventory['things']['kinds']=={'verified-real-photo':131,'previously-credited-photo':20,'editorial-comparison':1}
+          hub=(root/'things-to-do/index.html').read_text('utf-8')
+          sitemap=(root/'sitemap.xml').read_text('utf-8')
+          assert hub.count('class="v28-panel v36-photo-card"')==152
+          assert 'V43 responsive audit' in hub
+          for r in rows:
+            slug=r['slug'];image=r['asset']
+            assert r['source_page'].startswith('https://commons.wikimedia.org/wiki/File:')
+            with Image.open(root/image.lstrip('/')) as im:
+              assert im.format=='WEBP' and min(im.size)>=420,slug
+            assert r['sha256']==hashlib.sha256((root/image.lstrip('/')).read_bytes()).hexdigest(),slug
+            page=(root/'things-to-do'/slug/'index.html').read_text('utf-8')
+            assert f'src="{image}"' in page,slug
+            assert r['source_page'] in page,slug
+            assert 'class="v43-image-credit"' in page,slug
+            assert f'<meta property="og:image" content="https://www.nipponferry.com{image}"' in page,slug
+            assert f'<meta name="twitter:image" content="https://www.nipponferry.com{image}"' in page,slug
+            assert f'src="{image}"' in hub,slug
+            assert f'https://www.nipponferry.com/things-to-do/{slug}/' in sitemap,slug
+            assert '주제 실사 · 출처 본문' in hub.split(f'href="/things-to-do/{slug}/"')[1].split('</a>',1)[0],slug
+          assert 'href="/photo-spots/"' in (root/'index.html').read_text('utf-8')
+          assert (root/'photo-spots/index.html').is_file()
+          assert 'https://www.nipponferry.com/photo-spots/' in sitemap
+          print('PASS 20 authentic photo subjects; 20 pages, 131 source-audited real photos, map route fix and sitemap')
+          PY
+      - name: Publish validated photo replacements
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/culture-verified site/things-to-do docs/v43-deployed-photo-credits.json docs/v36-hub-cards-audit.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V43: replace 20 undocumented editorial cards with source-verified real photos"
+          git pull --rebase origin main
+          git push
