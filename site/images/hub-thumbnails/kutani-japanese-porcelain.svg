@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#0b436b"/><stop offset="1" stop-color="#177fa0"/></linearGradient></defs>
+<rect width="900" height="560" fill="url(#g)"/>
+<circle cx="770" cy="132" r="185" fill="#fff" fill-opacity=".10"/>
+<circle cx="742" cy="420" r="210" fill="#fff" fill-opacity=".06"/>
+<path d="M-10 370 C160 295 265 490 440 380 S760 270 910 365" stroke="#fff" stroke-opacity=".18" stroke-width="16" fill="none"/>
+<rect x="58" y="64" width="210" height="39" rx="19" fill="#fff" fill-opacity=".21"/>
+<text x="76" y="90" fill="#fff" font-size="21" font-family="sans-serif" font-weight="700">NIPPONFERRY</text>
+<text x="60" y="266" fill="#fff" font-size="52" font-family="sans-serif" font-weight="900">일본 구타니야키는 왜 색채가 화려할까? 색유 도자기의 </text>
+<text x="60" y="332" fill="#dbf4ff" font-size="29" font-family="sans-serif">전통공예 · 콘텐츠 가이드</text>
+<text x="60" y="495" fill="#fff" font-size="20" font-family="sans-serif" opacity=".82">주제 안내 그래픽 · 실제 촬영 사진 아님</text>
+</svg>
