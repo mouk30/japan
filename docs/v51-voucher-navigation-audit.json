@@ -1,0 +1,4472 @@
+{
+  "summary": {
+    "scanned": 1050,
+    "updated_pages": 892,
+    "desktop_links_added": 892,
+    "mobile_links_added": 790,
+    "pages_with_desktop_header": 898,
+    "pages_with_mobile_header": 796
+  },
+  "files": [
+    {
+      "path": "site/404.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/budget/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/cabin-comparison/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/checkin/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/family/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/family-cabin/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/ferry-route-cost/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/first-timer/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/fukuoka/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/japan-cruise/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/osaka/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/overnight-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/room/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/shimonoseki/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/solo-cabin/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/trip-cost-calculator/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/booking/tsushima/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/busan-fukuoka-cruise/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/busan-fukuoka-cruise-price/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/busan-hitakatsu-cruise/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/busan-izuhara-cruise/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/busan-osaka-cruise/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/busan-osaka-cruise-price/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/busan-shimonoseki-cruise/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/busan-shimonoseki-cruise-price/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/busan-tsushima-cruise/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/busan-tsushima-cruise-price/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/contents/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/couple-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/dating-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/ferry-cabin-for-couples/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/fukuoka-couple-2n3d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/fukuoka-night-date/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/japan-christmas-date/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/japan-confession-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/japan-couple-anniversary-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/japan-couple-messaging-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/japan-couple-photo-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/japan-couple-trip-planning/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/japan-date-cost-splitting/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/japan-ferry-couple-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/japan-onsen-couple-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/japan-valentine-white-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/japanese-women-stereotypes/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/joshiryoku/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/joshiryoku-cooking-image/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/joshiryoku-fashion-makeup/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/joshiryoku-lifestyle/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/joshiryoku-meaning/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/joshiryoku-modern-japan/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/korea-japan-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/korea-japan-couple-anniversary-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/korea-japan-couple-before-marriage/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/korea-japan-couple-language/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/korea-japan-couple-reality/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/korea-japan-long-distance-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/kyoto-romantic-date/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/meet-japanese-partner-parents/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/ocean-view-cabin-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/osaka-couple-3n4d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/osaka-night-date/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/couple/tokyo-night-view-date/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/explore/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/fukuoka-1n2d-vs-2n3d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/fukuoka-arrival-first-3-hours/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/fukuoka-cash-or-card/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/fukuoka-esim-or-roaming/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/fukuoka-hakata-vs-tenjin/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/fukuoka-luggage-storage/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/fukuoka-what-to-wear/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/bugwan-ferry-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/bugwan-ferry-rooms/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-fukuoka-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-fukuoka-ferry-price/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-fukuoka-timetable/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-hitakatsu-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-izuhara-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-osaka-car-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-osaka-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-osaka-ferry-price/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-osaka-timetable/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-port-departure-process/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-shimonoseki-car-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-shimonoseki-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-shimonoseki-ferry-price/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-shimonoseki-timetable/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-station-to-port/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-tsushima-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-tsushima-ferry-price/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/busan-tsushima-timetable/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/fukuoka-busan-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/fukuoka-ferry-2n3d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/fukuoka-ferry-3n4d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/fukuoka-ferry-vs-flight/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/fukuoka-vs-shimonoseki-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/fukuoka-vs-tsushima-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/gimhae-airport-to-busan-port/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/hakata-port-to-hakata-station/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/hakata-port-to-tenjin/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/hitakatsu-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/hitakatsu-port-transport/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/hitakatsu-vs-izuhara/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/how-to-take-japan-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/izuhara-1n2d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/izuhara-port-transport/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-baggage/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-bath/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-bicycle/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-booking-passport/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-cancellation-refund/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-car/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-cheap-booking/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-checkin-time/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-day-trip-options/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-delay-cancellation/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-duty-free/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-esim/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-faq/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-first-timer/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-fuel-surcharge/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-how-early/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-live-status/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-meals/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-motorcycle/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-overnight-tips/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-overnight-value/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-packing-list/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-passport/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-peak-season-booking/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-prohibited-items/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-rainy-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-room-classes/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-roundtrip-vs-oneway/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-seasickness/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-seniors/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-sleep-kit/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-solo-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-suitcase/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-terminal-fees/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-travel-time/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-typhoon-season/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-visit-japan-web/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-vs-flight/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-wifi/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-winter/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-ferry-with-kids/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/japan-port-arrival-process/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/new-camellia-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/new-camellia-rooms/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/new-camellia-vs-bugwan/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/nova-tsushima-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/osaka-busan-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/osaka-ferry-3n4d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/osaka-ferry-4n5d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/osaka-ferry-vs-flight/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/osaka-port-to-namba/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/osaka-port-to-umeda/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/panstar-miracle-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/panstar-miracle-rooms/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/panstar-vs-new-camellia/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/seaflower-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/shimonoseki-busan-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/shimonoseki-ferry-2n3d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/shimonoseki-mojiko-2n3d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/shimonoseki-port-to-karato/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/shimonoseki-port-to-mojiko/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/tsushima-1n2d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/tsushima-busan-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/tsushima-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/guide/tsushima-link-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/hokkaido-3n4d-vs-4n5d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/hokkaido-arrival-first-3-hours/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/hokkaido-cash-or-card/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/hokkaido-esim-or-roaming/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/hokkaido-luggage-storage/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/hokkaido-sapporo-vs-otaru/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/hokkaido-train-vs-rental-car/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/hokkaido-what-to-wear/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-budget/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-convenience/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-dessert/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-drugstore/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-family/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-first-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-hotel-area/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-last-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-local-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-market/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-morning/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-night/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-one-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-packing/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-photo/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-rain/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-season/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-shopping-list/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-souvenirs/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-taxfree/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-three-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-transport/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/fukuoka-two-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-budget/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-convenience/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-drugstore/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-family/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-first-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-hotel-area/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-last-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-local-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-morning/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-night/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-packing/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-rain/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-shopping-list/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-souvenirs/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-taxfree/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-three-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-transport/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/hokkaido-two-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-budget/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-convenience/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-drugstore/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-family/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-first-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-hotel-area/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-last-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-local-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-morning/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-night/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-packing/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-rain/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-shopping-list/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-souvenirs/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-taxfree/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-three-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-transport/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/kobe-two-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-budget/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-convenience/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-dessert/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-drugstore/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-family/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-first-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-hotel-area/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-last-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-local-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-market/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-morning/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-night/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-one-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-packing/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-photo/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-rain/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-season/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-shopping-list/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-souvenirs/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-taxfree/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-three-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-transport/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/osaka-two-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-budget/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-convenience/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-dessert/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-drugstore/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-family/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-first-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-hotel-area/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-last-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-local-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-market/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-morning/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-night/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-one-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-packing/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-photo/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-rain/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-season/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-shopping-list/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-souvenirs/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-taxfree/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-three-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-transport/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/shimonoseki-two-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-budget/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-convenience/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-dessert/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-drugstore/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-family/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-first-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-hotel-area/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-last-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-local-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-market/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-morning/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-night/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-one-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-packing/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-photo/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-rain/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-season/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-shopping-list/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-souvenirs/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-taxfree/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-three-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-transport/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan/tsushima-two-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan-cruise/busan-departure/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan-cruise/cruise-vs-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan-cruise/first-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan-cruise/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan-cruise/price-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan-cruise/three-nights-four-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan-cruise/two-nights-three-days/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan-cruise-checkin/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan-cruise-room/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/japan-cruise-seasickness/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/kobe-arrival-first-3-hours/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/kobe-cash-or-card/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/kobe-daytrip-vs-1n2d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/kobe-esim-or-roaming/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/kobe-luggage-storage/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/kobe-vs-osaka/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/kobe-what-to-wear/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/aeon-maxvalu-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/daily-life/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/don-quijote-first-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/don-quijote-late-night/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/don-quijote-shopping-list/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/don-quijote-tax-free/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/food-life/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-100yen-shop/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-24-hour-shops/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-card-only-travel/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-card-payment-error/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-cash-how-much/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-coin-laundry-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-coins-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-convenience-atm/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-convenience-bento/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-convenience-shopping-list/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-depachika-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-drugstore-shopping/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-exchange-vs-card/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-family-restaurant-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-game-center-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-gyudon-chain-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-kaiten-sushi-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-late-night-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-pachinko-first-visit/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-pachinko-what-is/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-pharmacy-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-public-toilet-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-purikura-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-rain-umbrella-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-smoking-area-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-supermarket-discount-time/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-supermarket-ready-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-supermarket-souvenir/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-tax-free-2026/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-tax-free-passport/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-trash-bin-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-ufo-catcher/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/japan-vending-machine-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/life-supermarket-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/lopia-supermarket-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/money/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/ok-store-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/pachinko-vs-game-center/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/shopping-life/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/supermarket/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/life/urban-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/3n4d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/cruise/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/cruise-price/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/ishigaki-cruise-port/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/kerama-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/kerama-ferry-booking/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/miyako-ishigaki/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/miyakojima-hirara-port/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/naha-cruise-port/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/naha-half-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/tokashiki-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/okinawa/zamami-aka-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/osaka-2n3d-vs-3n4d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/osaka-arrival-first-3-hours/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/osaka-cash-or-card/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/osaka-cruise-vs-flight/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/osaka-esim-or-roaming/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/osaka-luggage-storage/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/osaka-namba-vs-umeda/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/osaka-what-to-wear/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/photo-spots/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/plan/budget/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/plan/builder/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/plan/checklist/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/plan/destinations/fukuoka/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/plan/destinations/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/plan/destinations/osaka/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/plan/destinations/shimonoseki/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/plan/destinations/tsushima/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/plan/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/plan/itineraries/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/plan/styles/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/bus/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/esim/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/fujiq-highland-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/ghibli-museum-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/hokkaido-winter-bus-tour/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-airport-bus-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-atm-cash-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-bus-seat-types/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-bus-tour-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-coin-locker-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-data-usage/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-esim-galaxy/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-esim-iphone/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-esim-setup/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-esim-troubleshooting/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-esim-vs-sim-wifi/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-half-day-tour/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-highway-bus-booking/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-ic-card-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-luggage-delivery/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-night-bus-checklist/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-power-adapter-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-sightseeing-train-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-sightseeing-train-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-theme-park-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-theme-park-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/japan-translation-app-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/kyoto-bus-tour-vs-free/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/kyoto-tango-kuromatsu/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/mt-fuji-day-bus-tour/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/nagashima-spaland-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/nijigen-no-mori-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/osaka-fukuoka-highway-bus/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/setsugekka-train/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/shimabara-cafe-train/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/theme-park/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/tokyo-osaka-bus-vs-shinkansen/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/tools/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/tour/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/practical/train/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/asahikawa-winter-festival/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/hokkaido-winter-onsen/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/hokkaido-winter-packing/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/hokkaido-winter-photo-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/hokkaido-winter-rental-car/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/hokkaido-winter-seniors/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/hokkaido-winter-solo/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/japan-autumn-food-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/japan-autumn-leaves-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/japan-cherry-blossom-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/japan-fireworks-festival/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/japan-spring-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/japan-summer-festival-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/japan-winter-budget/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/jozankei-winter-onsen/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/new-chitose-to-sapporo-winter/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/noboribetsu-winter-onsen/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/otaru-snow-light-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/otaru-snow-light-path-2027/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/otaru-winter-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/otaru-winter-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/otaru-winter-shopping/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/sapporo-snow-festival-2027/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/sapporo-snow-festival-2n3d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/sapporo-snow-festival-3n4d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/sapporo-snow-festival-clothes/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/sapporo-snow-festival-couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/sapporo-snow-festival-family/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/sapporo-snow-festival-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/sapporo-snow-festival-hotel-area/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/sapporo-snow-festival-photo/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/sapporo-winter-shoes/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/sapporo-winter-souvenir/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/season/sapporo-winter-transport/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/seasons/autumn/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/seasons/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/seasons/spring/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/seasons/summer/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/seasons/winter/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shimonoseki-arrival-first-3-hours/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shimonoseki-cash-or-card/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shimonoseki-esim-or-roaming/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shimonoseki-karato-vs-mojiko/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shimonoseki-luggage-storage/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shimonoseki-what-to-wear/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/cruise-duty-free/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/ferry-duty-free/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/ferry-duty-free-vs-local/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/ferry-last-day-shopping/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/ferry-shopping-checklist/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/ferry-shopping-timeline/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/shopping/ferry-souvenir-packing/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/fukuoka-specialties/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/japan-customs-checklist/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/japan-food-bring-korea/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/japan-souvenir-buying-guide/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/shopping/japan-souvenir-gift-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/japan-souvenir-gifts/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/japan-souvenir-packing/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/japan-tax-free-2026/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/korea-customs-return/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/osaka-specialties/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/panstar-duty-free/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/return-shopping-checklist/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/shimonoseki-specialties/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/shopping/tsushima-specialties/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/area/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/beppu/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/couple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/family/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/first-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/fuji/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/fukuoka/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/hakodate/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/hakone/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/hiroshima/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/hokkaido/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/hotel/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/kagoshima/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/kobe/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/kyoto/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/nagasaki/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/nagoya/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/okinawa/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/osaka/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/otaru/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/ryokan/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/sapporo/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/sendai/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/shimonoseki/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/tokyo/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/tsushima/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/stay/yokohama/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/theme/car-roadtrip-japan/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/theme/couple-ferry-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/theme/family-ferry-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/theme/first-ferry-romance/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/theme/night-on-ferry/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/theme/oceanview-cabins/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/theme/pet-ferry-japan/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/theme/suitcase-baggage/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/abashiri-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/aburatsu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/accessible-slow-travel/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/activity/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/aizome-japanese-indigo-dye/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/akita-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/akita-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/amami-naze-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/aokata-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/aomori-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/aomori-port-nebuta-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/atami-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/bento-japanese-lunchbox-everyday/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/beppu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/beppu-port-onsen-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/bonsai-japanese-miniature-trees/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/bunraku-japanese-puppet-theater/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/cruise-ports/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/dashi-japanese-umami-stock/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/depachika-japanese-department-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/edo-kiriko-cut-glass/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ema-japanese-wish-wooden-plaques/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/experience-booking-checklist/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/family-with-kids/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/food-experience/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/fukui-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/fukuoka-one-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/fukuyama-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/funagawa-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/furoshiki-japanese-wrapping-cloth/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/fushiki-toyama-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/futami-ogasawara-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/futon-japanese-bedding-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/gamagori-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/goshuin-temple-shrine-stamps/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/goto-fukue-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/hachinohe-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/hagi-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/hakata-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/hakata-port-dazaifu-shore-excursion/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/hakata-port-hakata-station-access/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/hakata-port-tenjin-sightseeing/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/hakodate-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/hakodate-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/hamada-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/hanabi-japanese-fireworks-summer/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/hanami-japanese-cherry-blossom-picnic/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/hannan-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/hatsumode-japanese-first-shrine-visit/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/hidaka-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/himeji-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/hinamatsuri-japanese-dolls/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/hirado-kawachi-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/hirara-miyakojima-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/hiroshima-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/hososhima-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/ibaraki-hitachinaka-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ikebana-japanese-flower-arrangement/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/iki-gonoura-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/imabari-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/imari-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ishigaki-cruise-new-port-shuttle/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ishigaki-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/ishinomaki-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ito-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/iwakuni-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/izakaya-japanese-afterwork-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-ainu-embroidery/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-ajisai-hydrangea-season/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-amami-oshima-tsumugi/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-aomori-nebuta-floats/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-bamboo-grove-ecology/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-castle-moats/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-castle-stone-walls/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-castle-tenshu-towers/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-coral-okinawa-islands/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-diving-first-time/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-forest-bathing-shinrin-yoku/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-four-shopping-experiences/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-free-low-budget/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-geothermal-steam-hells/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-izakaya-yokocho-alleys/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-jizo-roadside-statues/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-kagawa-udon-pilgrimage/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-kanazawa-gold-leaf/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-konbini-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-kyoto-gion-festival-floats/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-nagasaki-lantern-festival/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-night-train-travel/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-niigata-rice-snow/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-okinawan-bingata-textiles/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-okinawan-eisa-dance/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-public-parks-hanami/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-rail-pass-why-changes/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-railway-platform-melodies/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-railway-station-stamps/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-sakura-forecast-science/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-samurai-armor/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-sea-of-japan-coast/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-shotengai-neon-signs/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-small-streets/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-snow-country-architecture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-snow-monkeys-hot-springs/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-station-bento-vending/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-stone-lanterns/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-sudare-bamboo-blinds/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-temple-bells/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-terraced-rice-fields/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-traditional-roof-tiles/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-tram-streetcars-history/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-trash-bin-shortage/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-volcanic-onsen-geology/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-volcano-mount-aso/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japan-yakushima-ancient-cedars/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-daruma-doll-wishes/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-ekiben-railway-bento-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-engawa-veranda/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-ferries-islands-life/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-garden-stone-water-moss/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-hightech-public-toilets/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-katana-curvature/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-kintsugi-gold-repair-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-local-train-one-man/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-machiya-townhouses/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-maneki-neko-lucky-cat/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-matsuri-festival-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-noren-curtain-shop-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-omiyage-souvenir-gift-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-pagoda-five-stories/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-pottery-kilns/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-queue-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-ropeways-mountain-access/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-sento-public-bath-manners/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-shrine-vs-buddhist-temple/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-sword-guards-tsuba/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-tea-ceremony-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-train-manners-quiet-car/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-urushi-lacquerware/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-vending-machine-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-wind-chimes-furin/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/japanese-woodblock-printmaking/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/kabuki-japanese-theater/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/kagoshima-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/kagoshima-port-sakurajima-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/kaminato-hachijojima-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/kanazawa-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/kanazawa-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/karatsu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/kawasaki-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/kimono-vs-yukata-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/kisarazu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/kissaten-japanese-retro-coffee/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/kobe-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/kochi-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/kodo-japanese-incense-appreciation/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/koinobori-childrens-day-japan/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/kokeshi-japanese-wooden-dolls/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/konbini-japanese-convenience-store-life/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/kotatsu-japanese-winter-table/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/kozushima-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/kuji-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/kumamoto-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/kumamoto-misumi-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/kumiko-japanese-wood-joinery/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/kure-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/kushiro-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/kutani-japanese-porcelain/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/local-food-market-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/maizuru-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/matcha-sencha-japanese-green-tea/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/matsuyama-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/miike-miyakejima-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/mikawa-jinno-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/miso-japanese-fermented-soy/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/mitajiri-nakanoseki-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/miyako-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/miyazaki-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/mojiko-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/momijigari-japanese-autumn-leaves-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/motobu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/muroran-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/nagasaki-cruise-4-6-8-hour-itinerary/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/nagasaki-cruise-peace-park-tram/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/nagasaki-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/nagasaki-matsugae-glover-garden-cruise-access/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/nagasaki-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/nagoya-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/naha-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/naha-cruise-terminal-kokusai-dori/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/naha-half-day-cruise-excursion/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/naha-shuri-castle-cruise-sightseeing/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/nakagusuku-bay-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/nakatsu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/nanao-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/naoetsu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/nature/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/nature-outdoor-checklist/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/niigata-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/niigata-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/niihama-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/niijima-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/noh-japanese-mask-theater/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/noshiro-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/numazu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/obon-japanese-ancestors/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ofunato-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ohama-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/oigawa-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/okata-izu-oshima-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/okonomiyaki-osaka-hiroshima/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/omaezaki-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/omamori-japanese-amulet-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/omikuji-japanese-fortune/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ominato-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/onahama-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/onigiri-japanese-rice-ball/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/onsen/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/onsen-first-time/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/origami-japanese-paper-folding-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/osaka-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/osaka-one-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/osechi-ryori-japanese-new-year-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/otaru-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/port-half-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/port-to-experience-planner/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/rainy-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/rakugo-japanese-storytelling/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ramen-japanese-noodle-evolution/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/regional-soba-japanese-buckwheat/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/rishiri-kutsugata-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/rumoi-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/ryokan-japanese-inn-hospitality/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ryokan-vs-hotel/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/sado-ogi-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/saiki-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/sakai-semboku-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/sakaide-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/sakaiminato-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/sakata-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/sasebo-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/sashiko-japanese-repair-stitching/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/seasonal/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/sendai-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/setsubun-japanese-beans/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/shamisen-japanese-three-string-instrument/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/shichi-go-san-japanese-children/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/shimizu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/shimizu-port-mount-fuji-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/shimoda-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/shimonoseki-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/shimonoseki-one-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/shingu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/shinkansen-bullet-train-history/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/shiraoi-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/shoji-fusuma-japanese-doors/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/shopping-city-night-guide/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/shotengai-japanese-shopping-arcades/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/solo-cultural-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/soma-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/sukumo-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/sushi-edo-japanese-food-history/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/tagonoura-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/taiko-japanese-drumming/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/takamatsu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/takoyaki-osaka-street-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/tanabata-japanese-star-festival/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/tanuki-japanese-shop-statues/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/tatami-floor-japanese-living/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/tateyama-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/temari-japanese-thread-balls/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/tempura-japanese-fried-food/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/toba-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/toji-yuzu-bath-japan/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/tokoname-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/tokushima-komatsushima-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/tokuyama-kudamatsu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/tokyo-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/tomakomai-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/toshikoshi-soba-newyear-tradition/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/tottori-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/traditional-experience-booking/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/travel-companions/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/tsugaru-ajigasawa-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/tsukimi-japanese-moon-viewing/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/tsuruga-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/tsushima-izuhara-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/tsushima-one-day/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ube-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/udon-japanese-regional-noodles/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ukiyoe-japanese-woodblock-art/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/ume-japanese-plum-blossoms/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/uno-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/uwajima-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/wagashi-japanese-seasonal-sweets/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/wakayama-shimotsu-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/wakkanai-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/washi-japanese-handmade-paper/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/why-japanese-onsen-special/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/why-travel-japan-by-sea/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/yakitori-japanese-skewer-culture/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/yakushima-miyanoura-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/yatai-japanese-food-stalls/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/yatsushiro-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/yawatahama-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/yokkaichi-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/yokohama-cruise-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": false
+    },
+    {
+      "path": "site/things-to-do/yokohama-daikoku-pier-cruise-terminal/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/yokohama-minato-mirai-cruise-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/yokohama-osanbashi-cruise-terminal/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/yokohama-port-day-trip/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/yokohama-shinko-pier-cruise-area/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/things-to-do/yukimi-japanese-snow-viewing-tradition/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/tips/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/tsushima-arrival-first-3-hours/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/tsushima-cash-or-card/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/tsushima-daytrip-vs-1n2d/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/tsushima-esim-or-roaming/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/tsushima-hitakatsu-vs-izuhara/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/tsushima-luggage-storage/index.html",
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "path": "site/tsushima-what-to-wear/index.html",
+      "desktop": true,
+      "mobile": true
+    }
+  ]
+}
