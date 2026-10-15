@@ -1,0 +1,159 @@
+{
+  "site": "https://www.nipponferry.com",
+  "checked_at": "2026-10-15T12:24:49.650Z",
+  "checks": [
+    {
+      "kind": "culture-grid",
+      "viewport": "mobile320",
+      "ok": false,
+      "count": 152,
+      "screenWidth": 320,
+      "documentWidth": 320,
+      "actualGridColumns": null,
+      "firstCard": {
+        "left": 19,
+        "right": 301,
+        "width": 282,
+        "height": 323.421875
+      },
+      "firstPhoto": {
+        "width": 280,
+        "height": 175,
+        "naturalWidth": 1280,
+        "naturalHeight": 960,
+        "objectFit": "cover"
+      },
+      "loadedAboveFold": 4,
+      "errors": []
+    },
+    {
+      "kind": "culture-grid",
+      "viewport": "mobile390",
+      "ok": false,
+      "count": 152,
+      "screenWidth": 390,
+      "documentWidth": 390,
+      "actualGridColumns": null,
+      "firstCard": {
+        "left": 19,
+        "right": 371,
+        "width": 352,
+        "height": 367.171875
+      },
+      "firstPhoto": {
+        "width": 350,
+        "height": 218.75,
+        "naturalWidth": 1280,
+        "naturalHeight": 960,
+        "objectFit": "cover"
+      },
+      "loadedAboveFold": 4,
+      "errors": []
+    },
+    {
+      "kind": "culture-grid",
+      "viewport": "tablet768",
+      "ok": true,
+      "count": 152,
+      "screenWidth": 768,
+      "documentWidth": 768,
+      "actualGridColumns": null,
+      "firstCard": {
+        "left": 19,
+        "right": 376,
+        "width": 357,
+        "height": 355
+      },
+      "firstPhoto": {
+        "width": 355,
+        "height": 221.875,
+        "naturalWidth": 1280,
+        "naturalHeight": 960,
+        "objectFit": "cover"
+      },
+      "loadedAboveFold": 4,
+      "errors": []
+    },
+    {
+      "kind": "culture-grid",
+      "viewport": "desktop1440",
+      "ok": true,
+      "count": 152,
+      "screenWidth": 1440,
+      "documentWidth": 1440,
+      "actualGridColumns": null,
+      "firstCard": {
+        "left": 150,
+        "right": 519.328125,
+        "width": 369.328125,
+        "height": 376.5
+      },
+      "firstPhoto": {
+        "width": 367.328125,
+        "height": 229.578125,
+        "naturalWidth": 1280,
+        "naturalHeight": 960,
+        "objectFit": "cover"
+      },
+      "loadedAboveFold": 4,
+      "errors": []
+    },
+    {
+      "kind": "photo-spot-navigation",
+      "viewport": 390,
+      "ok": true,
+      "homeLinks": true,
+      "url": "/photo-spots/",
+      "title": "일본 포토스팟 추천 | 후쿠오카·오사카·대마도·시모노세키 사진 명소 | 일본페리",
+      "count": 4,
+      "articleLinks": [
+        "/japan/fukuoka-photo/",
+        "/japan/osaka-photo/",
+        "/japan/tsushima-photo/",
+        "/japan/shimonoseki-photo/"
+      ],
+      "photoLoad": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "mapPresent": false,
+      "mapOptional": true,
+      "documentWidth": 390
+    },
+    {
+      "kind": "photo-spot-navigation",
+      "viewport": 1440,
+      "ok": true,
+      "homeLinks": true,
+      "url": "/photo-spots/",
+      "title": "일본 포토스팟 추천 | 후쿠오카·오사카·대마도·시모노세키 사진 명소 | 일본페리",
+      "count": 4,
+      "articleLinks": [
+        "/japan/fukuoka-photo/",
+        "/japan/osaka-photo/",
+        "/japan/tsushima-photo/",
+        "/japan/shimonoseki-photo/"
+      ],
+      "photoLoad": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "mapPresent": false,
+      "mapOptional": true,
+      "documentWidth": 1440
+    }
+  ],
+  "screenshots": [
+    "audit-reports/v43/mobile320-culture-cards.png",
+    "audit-reports/v43/mobile390-culture-cards.png",
+    "audit-reports/v43/tablet768-culture-cards.png",
+    "audit-reports/v43/desktop1440-culture-cards.png",
+    "audit-reports/v43/mobile390-photo-spots.png",
+    "audit-reports/v43/desktop1440-photo-spots.png"
+  ],
+  "pass": false
+}
