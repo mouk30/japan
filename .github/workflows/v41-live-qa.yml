@@ -33,3 +33,5 @@ jobs:
       - name: Fail if public page/image check failed
         if: steps.audit.outcome != 'success'
         run: exit 1
+
+# Trigger independent live QA after the V41 licensed WebP asset commit.
