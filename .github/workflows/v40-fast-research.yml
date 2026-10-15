@@ -1,0 +1,26 @@
+name: V40 fast parallel Wikimedia candidate research
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v40-fast-research.yml]
+permissions:
+  contents: write
+jobs:
+  discover-fast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Concurrently discover 35 topics and Commons photo licences
+        run: python scripts/v40_fast_research.py
+      - name: Commit checked candidate metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/v40-fast-candidates.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V40 research: fast photographer and subject candidates"
+          git push
