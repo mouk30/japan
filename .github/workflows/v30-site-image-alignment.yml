@@ -42,5 +42,14 @@ jobs:
           git add site/shopping/index.html site/practical/index.html site/couple/index.html site/seasons/index.html site/images/topic-matched/ audit-reports/v30/image-alignment.json
           git diff --cached --check
           git commit -m 'V30 align shopping, device, bus, museum and seasonal thumbnails to article topics'
-          git pull --rebase origin main
-          git push origin HEAD:main
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              echo "V30_PUBLISH_SUCCESS attempt=$attempt"
+              exit 0
+            fi
+            echo "V30 push raced with another commit, retrying: $attempt"
+            sleep 4
+          done
+          echo "V30_PUBLISH_FAILED after 5 attempts"
+          exit 1
