@@ -2,9 +2,11 @@
 """V32: diagnose 27 previously image-undetected pages as CSS-hero,
 text-first utility guides, or actual missing media. Do not invent images.
 """
-import json,re
+import json,re,subprocess
 from pathlib import Path
 ROOT=Path('site')
+if not Path('audit-reports/v30/sitewide-scan.json').exists():
+ subprocess.run(['python3','scripts/audit-v30-sitewide-images.py'],check=True,capture_output=True)
 report=json.loads(Path('audit-reports/v30/sitewide-scan.json').read_text())
 missing=report['missing_primary']
 out=[]
