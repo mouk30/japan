@@ -3,8 +3,8 @@
   "things": {
     "cards": 152,
     "kinds": {
-      "graphic": 60,
-      "verified-real-photo": 40,
+      "graphic": 40,
+      "verified-real-photo": 60,
       "exact": 40,
       "topic": 12
     },
@@ -271,9 +271,11 @@
       },
       {
         "slug": "japanese-machiya-townhouses",
-        "image": "/images/hub-thumbnails/japanese-machiya-townhouses.svg",
-        "kind": "graphic",
-        "title": "교토 마치야는 왜 입구가 좁을까?"
+        "image": "/images/culture-verified/japanese-machiya-townhouses.webp",
+        "kind": "verified-real-photo",
+        "title": "교토 마치야는 왜 입구가 좁을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Streets_of_Gion%2C_Kyoto_-_Gion7712.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "japan-shotengai-neon-signs",
@@ -341,15 +343,19 @@
       },
       {
         "slug": "japan-ainu-embroidery",
-        "image": "/images/hub-thumbnails/japan-ainu-embroidery.svg",
-        "kind": "graphic",
-        "title": "홋카이도 아이누 자수의 문양"
+        "image": "/images/culture-verified/japan-ainu-embroidery.webp",
+        "kind": "verified-real-photo",
+        "title": "홋카이도 아이누 자수의 문양",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Robe%2C_%27Retara_Kapara_Amip%27_LACMA_M.71.87.1.jpg",
+        "licence": "Public domain"
       },
       {
         "slug": "japan-amami-oshima-tsumugi",
-        "image": "/images/hub-thumbnails/japan-amami-oshima-tsumugi.svg",
-        "kind": "graphic",
-        "title": "아마미 오시마쓰무기 직물"
+        "image": "/images/culture-verified/japan-amami-oshima-tsumugi.webp",
+        "kind": "verified-real-photo",
+        "title": "아마미 오시마쓰무기 직물",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Mud_Dyeing_Kanai_Workshop.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "japan-kagawa-udon-pilgrimage",
@@ -403,15 +409,19 @@
       },
       {
         "slug": "noh-japanese-mask-theater",
-        "image": "/images/hub-thumbnails/noh-japanese-mask-theater.svg",
-        "kind": "graphic",
-        "title": "노 공연의 가면"
+        "image": "/images/culture-verified/noh-japanese-mask-theater.webp",
+        "kind": "verified-real-photo",
+        "title": "노 공연의 가면",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Noh_mask_in_Berlin_museum_2.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "bunraku-japanese-puppet-theater",
-        "image": "/images/hub-thumbnails/bunraku-japanese-puppet-theater.svg",
-        "kind": "graphic",
-        "title": "분라쿠 인형극"
+        "image": "/images/culture-verified/bunraku-japanese-puppet-theater.webp",
+        "kind": "verified-real-photo",
+        "title": "분라쿠 인형극",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Bunraku_theater_4.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "rakugo-japanese-storytelling",
@@ -427,9 +437,11 @@
       },
       {
         "slug": "shamisen-japanese-three-string-instrument",
-        "image": "/images/hub-thumbnails/shamisen-japanese-three-string-instrument.svg",
-        "kind": "graphic",
-        "title": "샤미센 세 줄의 소리"
+        "image": "/images/culture-verified/shamisen-japanese-three-string-instrument.webp",
+        "kind": "verified-real-photo",
+        "title": "샤미센 세 줄의 소리",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Shamisen_MET_midp69.271.2a.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "ikebana-japanese-flower-arrangement",
@@ -445,9 +457,11 @@
       },
       {
         "slug": "ukiyoe-japanese-woodblock-art",
-        "image": "/images/hub-thumbnails/ukiyoe-japanese-woodblock-art.svg",
-        "kind": "graphic",
-        "title": "에도 우키요에 목판화"
+        "image": "/images/culture-verified/ukiyoe-japanese-woodblock-art.webp",
+        "kind": "verified-real-photo",
+        "title": "에도 우키요에 목판화",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:MET_27_117_1_O2_sf.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "aizome-japanese-indigo-dye",
@@ -501,15 +515,19 @@
       },
       {
         "slug": "temari-japanese-thread-balls",
-        "image": "/images/hub-thumbnails/temari-japanese-thread-balls.svg",
-        "kind": "graphic",
-        "title": "일본 테마리 공예는 왜 실로 작은 우주를 수놓을까?"
+        "image": "/images/culture-verified/temari-japanese-thread-balls.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 테마리 공예는 왜 실로 작은 우주를 수놓을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Japanese_Temari_ball_flanked_by_a_maneki_neko_%2801%29_%2850532211976%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "sashiko-japanese-repair-stitching",
-        "image": "/images/hub-thumbnails/sashiko-japanese-repair-stitching.svg",
-        "kind": "graphic",
-        "title": "일본 사시코 바느질은 왜 낡은 천을 다시 쓰게 했을까?"
+        "image": "/images/culture-verified/sashiko-japanese-repair-stitching.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 사시코 바느질은 왜 낡은 천을 다시 쓰게 했을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Boro_textile_from_Japan%2C_with_sashiko.jpg",
+        "licence": "CC BY 4.0"
       },
       {
         "slug": "tanuki-japanese-shop-statues",
@@ -535,9 +553,11 @@
       },
       {
         "slug": "udon-japanese-regional-noodles",
-        "image": "/images/hub-thumbnails/udon-japanese-regional-noodles.svg",
-        "kind": "graphic",
-        "title": "우동은 왜 지역마다 굵기와 식감이 다를까?"
+        "image": "/images/culture-verified/udon-japanese-regional-noodles.webp",
+        "kind": "verified-real-photo",
+        "title": "우동은 왜 지역마다 굵기와 식감이 다를까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Udon_noodles_in_a_bowl_in_a_restaurant_in_Hiroshima%2C_Japan_-_September_2015.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "regional-soba-japanese-buckwheat",
@@ -565,9 +585,11 @@
       },
       {
         "slug": "yakitori-japanese-skewer-culture",
-        "image": "/images/hub-thumbnails/yakitori-japanese-skewer-culture.svg",
-        "kind": "graphic",
-        "title": "야키토리 꼬치는 왜 부위마다 굽는 시간이 다를까?"
+        "image": "/images/culture-verified/yakitori-japanese-skewer-culture.webp",
+        "kind": "verified-real-photo",
+        "title": "야키토리 꼬치는 왜 부위마다 굽는 시간이 다를까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:MyPlate_gov_Cultural_Food_%2820241025-USDA-FNS-UNK-0031%29.jpg",
+        "licence": "Public domain"
       },
       {
         "slug": "miso-japanese-fermented-soy",
@@ -583,9 +605,11 @@
       },
       {
         "slug": "onigiri-japanese-rice-ball",
-        "image": "/images/hub-thumbnails/onigiri-japanese-rice-ball.svg",
-        "kind": "graphic",
-        "title": "오니기리는 왜 삼각형이 많을까? 일본 주먹밥의 비밀"
+        "image": "/images/culture-verified/onigiri-japanese-rice-ball.webp",
+        "kind": "verified-real-photo",
+        "title": "오니기리는 왜 삼각형이 많을까? 일본 주먹밥의 비밀",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Onigiri_001.jpg",
+        "licence": "CC0"
       },
       {
         "slug": "japanese-vending-machine-culture",
@@ -595,9 +619,11 @@
       },
       {
         "slug": "konbini-japanese-convenience-store-life",
-        "image": "/images/hub-thumbnails/konbini-japanese-convenience-store-life.svg",
-        "kind": "graphic",
-        "title": "일본 편의점은 왜 생활의 중심이 됐을까? 콘비니 문화"
+        "image": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 편의점은 왜 생활의 중심이 됐을까? 콘비니 문화",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Konbini_drink_corner_2009_%283819547946%29.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "japanese-train-manners-quiet-car",
@@ -625,9 +651,11 @@
       },
       {
         "slug": "japanese-hightech-public-toilets",
-        "image": "/images/hub-thumbnails/japanese-hightech-public-toilets.svg",
-        "kind": "graphic",
-        "title": "일본 화장실은 왜 버튼이 많을까? 비데와 공공디자인의 진화"
+        "image": "/images/culture-verified/japanese-hightech-public-toilets.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 화장실은 왜 버튼이 많을까? 비데와 공공디자인의 진화",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Japanese_toilet_buttons.jpg",
+        "licence": "CC BY-SA 2.0"
       },
       {
         "slug": "kissaten-japanese-retro-coffee",
@@ -651,9 +679,11 @@
       },
       {
         "slug": "tsukimi-japanese-moon-viewing",
-        "image": "/images/hub-thumbnails/tsukimi-japanese-moon-viewing.svg",
-        "kind": "graphic",
-        "title": "쓰키미는 왜 달을 보며 경단을 먹을까?"
+        "image": "/images/culture-verified/tsukimi-japanese-moon-viewing.webp",
+        "kind": "verified-real-photo",
+        "title": "쓰키미는 왜 달을 보며 경단을 먹을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Tsukimi%2Cmoon-viewing-party%2Cjapan.JPG",
+        "licence": "CC BY 3.0"
       },
       {
         "slug": "shichi-go-san-japanese-children",
@@ -663,9 +693,11 @@
       },
       {
         "slug": "setsubun-japanese-beans",
-        "image": "/images/hub-thumbnails/setsubun-japanese-beans.svg",
-        "kind": "graphic",
-        "title": "세쓰분에는 왜 귀신에게 콩을 던질까?"
+        "image": "/images/culture-verified/setsubun-japanese-beans.webp",
+        "kind": "verified-real-photo",
+        "title": "세쓰분에는 왜 귀신에게 콩을 던질까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Hakone_Shrine_Setsubun_mamemaki_02.jpg",
+        "licence": "CC BY-SA 4.0"
       },
       {
         "slug": "hinamatsuri-japanese-dolls",
@@ -687,15 +719,19 @@
       },
       {
         "slug": "ume-japanese-plum-blossoms",
-        "image": "/images/hub-thumbnails/ume-japanese-plum-blossoms.svg",
-        "kind": "graphic",
-        "title": "일본은 벚꽃보다 먼저 피는 매화를 왜 기다릴까?"
+        "image": "/images/culture-verified/ume-japanese-plum-blossoms.webp",
+        "kind": "verified-real-photo",
+        "title": "일본은 벚꽃보다 먼저 피는 매화를 왜 기다릴까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Plum_Kairakuen_%28201573725%29.jpeg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "yatai-japanese-food-stalls",
-        "image": "/images/hub-thumbnails/yatai-japanese-food-stalls.svg",
-        "kind": "graphic",
-        "title": "일본 야타이는 왜 축제 밤을 빛낼까?"
+        "image": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+        "kind": "verified-real-photo",
+        "title": "일본 야타이는 왜 축제 밤을 빛낼까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:ObihiroYatai.jpg",
+        "licence": "CC BY-SA 3.0"
       },
       {
         "slug": "kokeshi-japanese-wooden-dolls",
@@ -705,9 +741,11 @@
       },
       {
         "slug": "omikuji-japanese-fortune",
-        "image": "/images/hub-thumbnails/omikuji-japanese-fortune.svg",
-        "kind": "graphic",
-        "title": "오미쿠지는 왜 길흉보다 조언을 읽는 재미가 있을까?"
+        "image": "/images/culture-verified/omikuji-japanese-fortune.webp",
+        "kind": "verified-real-photo",
+        "title": "오미쿠지는 왜 길흉보다 조언을 읽는 재미가 있을까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Kamakura_omikuji.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "omamori-japanese-amulet-culture",
@@ -955,9 +993,11 @@
       },
       {
         "slug": "japan-small-streets",
-        "image": "/images/hub-thumbnails/japan-small-streets.svg",
-        "kind": "graphic",
-        "title": "일본의 작은 골목은 왜 매력적일까?"
+        "image": "/images/culture-verified/japan-small-streets.webp",
+        "kind": "verified-real-photo",
+        "title": "일본의 작은 골목은 왜 매력적일까?",
+        "photo_source": "https://commons.wikimedia.org/wiki/File:Pontocho_by_Aleksander_Dragnes.jpg",
+        "licence": "CC BY 2.0"
       },
       {
         "slug": "ryokan-vs-hotel",
@@ -1146,8 +1186,8 @@
     "japan/shimonoseki-dessert/index.html",
     "japan/shimonoseki-local-food/index.html"
   ],
-  "caveat": "Latest V38: 40/152 photographed with verified Commons sources in V37+V38, 40 exact images from older editorial assets, 12 topic reference photos still pending copyright/subject validation, and 60 honest graphic covers pending real photography. V38 live checks passed 41/41 (20 image HTTP, 20 page/metadata HTTP, 1 hub HTML). Does not imply full mobile visual QA or sitewide validation.",
-  "last_quality_refresh": "2026-10-15 V38",
+  "caveat": "V37-V39: 60/152 article cards use independently sourced original Commons real photos with visible licences. 40 cards have prior title-match editorial assets but full image/source review pending; 12 are generic topic reference images; 40 remain clearly labelled topic graphics. The V39 GitHub source and Vercel deployment passed, but website HTTP and mobile/PC visual QA are checked separately. Cumulative 1044 sitemap entries preserved.",
+  "last_quality_refresh": "2026-10-15 V39",
   "v38": {
     "selection": "previously graphic-only cards",
     "new_real_photo_articles": 20,
@@ -1158,5 +1198,14 @@
     "live_passed": 41,
     "photo_source_register": "docs/v38-deployed-photo-credits.json",
     "live_report": "docs/v38-live-qa.json"
+  },
+  "v39": {
+    "new_real_photo_articles": 20,
+    "cumulative_source_verified_articles": 60,
+    "remaining_graphics": 40,
+    "remaining_unverified_related": 12,
+    "source_document": "docs/v39-deployed-photo-credits.json",
+    "live_qa_document": "docs/v39-live-qa.json",
+    "live_qa_status": "pending independent live HTTP verification"
   }
 }
