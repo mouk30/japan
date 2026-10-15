@@ -2,7 +2,7 @@ name: V38 production verify 20 local photographs
 on:
   push:
     branches: [main]
-    paths: [docs/v38-deployed-photo-credits.json]
+    paths: [docs/v38-deployed-photo-credits.json, .github/workflows/v38-live-qa.yml]
 permissions:
   contents: write
 jobs:
