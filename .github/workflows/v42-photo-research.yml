@@ -1,0 +1,26 @@
+name: V42 research licensed replacements for 12 reference cards
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v42-photo-research.yml]
+permissions:
+  contents: write
+jobs:
+  audit-originals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Verify Commons source descriptions, photographers and licences
+        run: python scripts/v42_commons_research.py
+      - name: Commit photo metadata candidates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/v42-commons-candidates.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V42: photography sources for 12 reference cards"
+          git pull --rebase origin main
+          git push
