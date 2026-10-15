@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """V42 public-site acceptance: 52 local WebPs, 52 article OG/Twitter previews, 1 hub."""
-import concurrent.futures,json,time,urllib.request
+import concurrent.futures,json,time,urllib.request,hashlib
 from pathlib import Path
 
 HOST="https://www.nipponferry.com"
@@ -18,7 +18,7 @@ def check(spec,attempt):
  try:
    status,mime,content=fetch(url)
    if kind=="webp":
-      valid=status==200 and content[:4]==b"RIFF" and content[8:12]==b"WEBP"
+      valid=(status==200 and content[:4]==b"RIFF" and content[8:12]==b"WEBP" and hashlib.sha256(content).digest()==hashlib.sha256((Path("site")/path.lstrip("/")).read_bytes()).digest())
    elif kind=="article":
       expected=f'content="{HOST}{asset}"'.encode()
       valid=(status==200 and f'src="{asset}"'.encode() in content and
