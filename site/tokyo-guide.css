@@ -25,3 +25,21 @@
 .tky-page a:focus-visible{outline:3px solid #1bb3d6;outline-offset:3px}
 @media(max-width:900px){.tky-layout{grid-template-columns:1fr}.tky-side{position:static;display:none}.tky-hub-row{grid-template-columns:1fr}.tky-hub-copy{padding-bottom:15px}.tky-hub-photo{padding:0 0 28px}.tky-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.tky-shell{padding:0 13px}.tky-hero{padding:32px 0}.tky-hero h1{font-size:29px}.tky-block{padding:18px}.tky-cards{grid-template-columns:1fr}.tky-official{grid-template-columns:1fr}.tky-cat-head{display:block}.tky-cat-head p{margin-top:6px}.tky-hub-copy{padding-top:30px}}
+
+/* Tokyo V121-V300: 180 specialist references displayed as nine disclosure collections. */
+.tky-expanded{margin:36px 0 30px;min-width:0}
+.tky-expanded .tky-cat-head{margin-bottom:15px}
+.tky-extension-nav{display:flex;gap:8px;flex-wrap:wrap;padding:7px 0 15px}
+.tky-extension-nav a{display:inline-flex;align-items:center;min-height:36px;padding:9px 12px;border-radius:20px;background:#e4f1f8;border:1px solid #b9dae9;font-size:12px;font-weight:850;color:#075a82;text-decoration:none}
+.tky-exp-group{display:block;border:1px solid #cbdfea;border-radius:17px;background:#fff;margin:0 0 11px;overflow:hidden;box-shadow:0 5px 17px rgba(9,50,81,.04)}
+.tky-exp-group summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;color:#0c4263;font-size:17px;line-height:1.5}
+.tky-exp-group summary::-webkit-details-marker{display:none}
+.tky-exp-group summary>strong{font-size:17px}
+.tky-exp-group summary span{font-size:12px;color:#0c7799;font-weight:850;white-space:nowrap}
+.tky-exp-group[open] summary{border-bottom:1px solid #e2edf3;background:#f1f8fc}
+.tky-exp-group .tky-cards{padding:17px}
+.tky-exp-group .tky-card h3{font-size:15px}
+.tky-deep-lead{border-top:4px solid #0794b4}
+.tky-page .tky-block p{overflow-wrap:anywhere}
+.tky-exp-group summary:focus-visible{outline:3px solid #24bbd2;outline-offset:-4px}
+@media(max-width:600px){.tky-exp-group summary{padding:14px;align-items:start;gap:4px}.tky-exp-group summary>strong{font-size:15px}.tky-exp-group summary span{font-size:11px;white-space:normal;text-align:right}.tky-exp-group .tky-cards{padding:11px}.tky-extension-nav a{font-size:11px}}
