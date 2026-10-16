@@ -1,0 +1,54 @@
+name: V69 20 cruise port official cards and mobile QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v69-cruise-port-qa.yml'
+      - 'scripts/v69_cruise_port_qa.mjs'
+permissions:
+  contents: write
+jobs:
+  check-cruise-port-guides:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install headless Chrome
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build deployed site exactly as Vercel does
+        run: npm run build
+      - name: Audit 20 cruise ports at four viewport sizes
+        id: qa
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8757 --directory dist --bind 127.0.0.1 > /tmp/v69-server.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          node scripts/v69_cruise_port_qa.mjs
+      - name: Save screenshots and results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v69-twenty-ports-80-responsive-screens
+          path: audit-reports/v69/
+          retention-days: 21
+          if-no-files-found: warn
+      - name: Commit successful browser audit
+        if: steps.qa.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v69/browser-qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V69: record 80 responsive and 20 berth-guidance checks"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Fail when source or layout errors remain
+        if: steps.qa.outcome != 'success'
+        run: exit 1
