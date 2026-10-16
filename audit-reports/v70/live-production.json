@@ -1,0 +1,257 @@
+{
+  "checkedAt": "2026-10-16T14:24:02.711Z",
+  "passed": true,
+  "articles": 20,
+  "rounds": 1,
+  "checks": [
+    {
+      "slug": "hiroshima",
+      "status": 200,
+      "errors": [],
+      "size": 14211
+    },
+    {
+      "slug": "takamatsu",
+      "status": 200,
+      "errors": [],
+      "size": 12982
+    },
+    {
+      "slug": "kumamoto",
+      "status": 200,
+      "errors": [],
+      "size": 13349
+    },
+    {
+      "slug": "maizuru",
+      "status": 200,
+      "errors": [],
+      "size": 12785
+    },
+    {
+      "slug": "kure",
+      "status": 200,
+      "errors": [],
+      "size": 13881
+    },
+    {
+      "slug": "fushiki-toyama",
+      "status": 200,
+      "errors": [],
+      "size": 12697
+    },
+    {
+      "slug": "tottori",
+      "status": 200,
+      "errors": [],
+      "size": 12870
+    },
+    {
+      "slug": "karatsu",
+      "status": 200,
+      "errors": [],
+      "size": 12707
+    },
+    {
+      "slug": "miyazaki",
+      "status": 200,
+      "errors": [],
+      "size": 12753
+    },
+    {
+      "slug": "atami",
+      "status": 200,
+      "errors": [],
+      "size": 12934
+    },
+    {
+      "slug": "nagoya",
+      "status": 200,
+      "errors": [],
+      "size": 12620
+    },
+    {
+      "slug": "wakayama-shimotsu",
+      "status": 200,
+      "errors": [],
+      "size": 12052
+    },
+    {
+      "slug": "yakushima-miyanoura",
+      "status": 200,
+      "errors": [],
+      "size": 13267
+    },
+    {
+      "slug": "akita",
+      "status": 200,
+      "errors": [],
+      "size": 12804
+    },
+    {
+      "slug": "iwakuni",
+      "status": 200,
+      "errors": [],
+      "size": 13921
+    },
+    {
+      "slug": "amami-naze",
+      "status": 200,
+      "errors": [],
+      "size": 12845
+    },
+    {
+      "slug": "goto-fukue",
+      "status": 200,
+      "errors": [],
+      "size": 12825
+    },
+    {
+      "slug": "tomakomai",
+      "status": 200,
+      "errors": [],
+      "size": 12730
+    },
+    {
+      "slug": "tokushima-komatsushima",
+      "status": 200,
+      "errors": [],
+      "size": 12090
+    },
+    {
+      "slug": "kumamoto-misumi",
+      "status": 200,
+      "errors": [],
+      "size": 12855
+    }
+  ],
+  "history": [
+    {
+      "round": 1,
+      "checkedAt": "2026-10-16T14:24:02.711Z",
+      "passed": true,
+      "results": [
+        {
+          "slug": "hiroshima",
+          "status": 200,
+          "errors": [],
+          "size": 14211
+        },
+        {
+          "slug": "takamatsu",
+          "status": 200,
+          "errors": [],
+          "size": 12982
+        },
+        {
+          "slug": "kumamoto",
+          "status": 200,
+          "errors": [],
+          "size": 13349
+        },
+        {
+          "slug": "maizuru",
+          "status": 200,
+          "errors": [],
+          "size": 12785
+        },
+        {
+          "slug": "kure",
+          "status": 200,
+          "errors": [],
+          "size": 13881
+        },
+        {
+          "slug": "fushiki-toyama",
+          "status": 200,
+          "errors": [],
+          "size": 12697
+        },
+        {
+          "slug": "tottori",
+          "status": 200,
+          "errors": [],
+          "size": 12870
+        },
+        {
+          "slug": "karatsu",
+          "status": 200,
+          "errors": [],
+          "size": 12707
+        },
+        {
+          "slug": "miyazaki",
+          "status": 200,
+          "errors": [],
+          "size": 12753
+        },
+        {
+          "slug": "atami",
+          "status": 200,
+          "errors": [],
+          "size": 12934
+        },
+        {
+          "slug": "nagoya",
+          "status": 200,
+          "errors": [],
+          "size": 12620
+        },
+        {
+          "slug": "wakayama-shimotsu",
+          "status": 200,
+          "errors": [],
+          "size": 12052
+        },
+        {
+          "slug": "yakushima-miyanoura",
+          "status": 200,
+          "errors": [],
+          "size": 13267
+        },
+        {
+          "slug": "akita",
+          "status": 200,
+          "errors": [],
+          "size": 12804
+        },
+        {
+          "slug": "iwakuni",
+          "status": 200,
+          "errors": [],
+          "size": 13921
+        },
+        {
+          "slug": "amami-naze",
+          "status": 200,
+          "errors": [],
+          "size": 12845
+        },
+        {
+          "slug": "goto-fukue",
+          "status": 200,
+          "errors": [],
+          "size": 12825
+        },
+        {
+          "slug": "tomakomai",
+          "status": 200,
+          "errors": [],
+          "size": 12730
+        },
+        {
+          "slug": "tokushima-komatsushima",
+          "status": 200,
+          "errors": [],
+          "size": 12090
+        },
+        {
+          "slug": "kumamoto-misumi",
+          "status": 200,
+          "errors": [],
+          "size": 12855
+        }
+      ]
+    }
+  ]
+}
