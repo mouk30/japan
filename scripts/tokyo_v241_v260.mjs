@@ -1,0 +1,222 @@
+export const batch=[
+  {
+    "version": 241,
+    "category": "도쿄 동네·관광",
+    "slug": "asakusa-nakamise-backstreets",
+    "title": "아사쿠사 나카미세·센소지 뒷골목 차이",
+    "zone": "아사쿠사",
+    "insight": "가미나리몬과 나카미세는 센소지 참배로 이어지고 주변 뒷골목은 별도의 식당·공방 상권이다.",
+    "action": "오전 참배 동선 뒤 식사와 수변 산책을 선택하고 실제 점포 운영 여부를 확인한다.",
+    "warning": "참배 공간 촬영 예절·공용도로 취식 규칙을 지킨다.",
+    "official": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html"
+  },
+  {
+    "version": 242,
+    "category": "도쿄 동네·관광",
+    "slug": "ueno-ameyoko-budget-shopping",
+    "title": "우에노 아메요코 할인 상가·간식·시장",
+    "zone": "우에노·오카치마치",
+    "insight": "JR 고가 주변 아메요코에는 식품·의류·잡화 점포가 밀집한다.",
+    "action": "우에노공원 박물관 예약이 있다면 쇼핑을 관람 후로 미루어 동선을 묶는다.",
+    "warning": "점포마다 현금 결제·가격표·교환 정책이 다를 수 있다.",
+    "official": "https://www.gotokyo.org/en/destinations/northern-tokyo/ueno/index.html"
+  },
+  {
+    "version": 243,
+    "category": "도쿄 동네·관광",
+    "slug": "yanaka-ginza-sunset-stairs",
+    "title": "야나카긴자 유야케단단 계단·전통 상점가",
+    "zone": "닛포리·야나카",
+    "insight": "야나카긴자는 도쿄 동부의 작은 전통 상점가이며 유야케단단 계단이 유명한 사진 포인트다.",
+    "action": "JR 닛포리 서쪽 출구에서 이동하고 작은 상점의 저녁 폐점을 고려해 오후 관광한다.",
+    "warning": "주민 통행로에서 길을 막거나 무단 실내 촬영하지 않는다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 244,
+    "category": "도쿄 동네·관광",
+    "slug": "kuramae-design-coffee",
+    "title": "구라마에 디자인 편집숍·로스터리 카페",
+    "zone": "구라마에",
+    "insight": "도에이 아사쿠사선 구라마에 주변은 공방·소형 로스터리·디자인 숍이 모인 거리다.",
+    "action": "아사쿠사 혼잡 지역에서 벗어나 카페 한 곳·공방 한 곳을 예약시간에 맞춰 방문한다.",
+    "warning": "소규모 카페 휴무·좌석·현금결제 여부가 자주 달라진다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 245,
+    "category": "도쿄 동네·관광",
+    "slug": "kiyosumi-shirakawa-coffee",
+    "title": "기요스미시라카와 커피 로스터리·정원 산책",
+    "zone": "기요스미시라카와",
+    "insight": "로스터리 카페가 많은 동쪽 동네로 기요스미 정원 관광과 연결된다.",
+    "action": "커피 체험 후 정원 입장시간을 확인하고 모리시타·몬젠나카초 연결을 검토한다.",
+    "warning": "카페 원두 판매와 커피 클래스 예약은 별도 상품이다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 246,
+    "category": "도쿄 동네·관광",
+    "slug": "monzen-nakacho-shrine",
+    "title": "몬젠나카초 후카가와 사찰·운하 먹거리",
+    "zone": "몬젠나카초",
+    "insight": "도쿄 옛 후카가와 분위기와 사찰·상점가를 보는 권역이다.",
+    "action": "몬젠나카초역에서 신사·절 구역을 먼저 보고 점심시간에 지역 식당을 고른다.",
+    "warning": "종교시설 행사·촬영 허용시간과 상업 점포 운영은 별개다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 247,
+    "category": "도쿄 동네·관광",
+    "slug": "nihombashi-bridge-shopping",
+    "title": "니혼바시 다리·전통 상점·백화점 역사",
+    "zone": "니혼바시",
+    "insight": "니혼바시는 역사적 다리와 전통 백화점·노포 상권이 함께 있는 지역이다.",
+    "action": "다카시마야·미쓰코시 중 실제 갈 건물을 정하고 도쿄역 야에스 방면을 도보 연결한다.",
+    "warning": "니혼바시의 동명 쇼핑시설은 각기 다른 건물이다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 248,
+    "category": "도쿄 동네·관광",
+    "slug": "ningyocho-sweets-streets",
+    "title": "닌교초 인형마을 과자·전통 거리 맛집",
+    "zone": "닌교초·하마초",
+    "insight": "닌교초에는 전통 과자점과 옛 거리 풍경이 남아 있다.",
+    "action": "쓰키지 시장보다 조용한 식도락 산책을 원할 때 작은 점포 한두 곳을 선택한다.",
+    "warning": "한정 메뉴·공방 체험은 현장 판매 여부를 먼저 확인한다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 249,
+    "category": "도쿄 동네·관광",
+    "slug": "tsukishima-monjya-street",
+    "title": "쓰키시마 몬자스트리트 철판요리 골목",
+    "zone": "쓰키시마",
+    "insight": "쓰키시마는 몬자야키 가게가 모인 상권으로 도요스·긴자 관광 중간에 들르기 좋다.",
+    "action": "가게마다 철판 사용·직원 조리·예약 가능 여부를 비교한다.",
+    "warning": "해산물·밀 알레르기와 철판 화상 위험에 주의한다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 250,
+    "category": "도쿄 동네·관광",
+    "slug": "daikanyama-bookshops",
+    "title": "다이칸야마 서점·편집숍·카페 골목",
+    "zone": "다이칸야마",
+    "insight": "도큐 도요코선 다이칸야마역 주변은 서점·라이프스타일 숍과 카페가 특징이다.",
+    "action": "시부야에서 한두 정거장 이동해 조용한 쇼핑과 거리 산책을 묶는다.",
+    "warning": "고급 매장 운영과 전시·팝업 일정은 수시로 바뀐다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 251,
+    "category": "도쿄 동네·관광",
+    "slug": "nakameguro-riverside",
+    "title": "나카메구로 메구로강 산책·벚꽃 시즌",
+    "zone": "나카메구로",
+    "insight": "메구로강을 따라 카페·상점이 모여 있고 벚꽃 시즌에는 혼잡하다.",
+    "action": "다이칸야마 산책과 나카메구로 강변을 한 권역에서 연결한다.",
+    "warning": "봄철 꽃 상태·야간 조명·행사 통제는 매년 달라진다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 252,
+    "category": "도쿄 동네·관광",
+    "slug": "ebisu-yebisu-garden",
+    "title": "에비스 가든플레이스·맥주 문화·야경",
+    "zone": "에비스",
+    "insight": "에비스역 인근 가든플레이스는 광장과 식당·맥주 관련 문화 시설로 유명하다.",
+    "action": "시부야에서 JR로 이동해 에비스 한 권역의 식사·쇼핑·야경을 묶는다.",
+    "warning": "주류 시설 연령 제한·체험 예약·운영시간을 개별 확인한다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 253,
+    "category": "도쿄 동네·관광",
+    "slug": "shimokitazawa-vintage",
+    "title": "시모키타자와 빈티지 의류·레코드 숍",
+    "zone": "시모키타자와",
+    "insight": "오다큐·게이오 이노카시라선이 만나는 젊은 문화·중고 상권이다.",
+    "action": "시부야·신주쿠에서 접근해 빈티지 의류와 레코드 숍을 취향별로 고른다.",
+    "warning": "중고품 상태·교환·환불은 점포별 규정에 따라 다르다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 254,
+    "category": "도쿄 동네·관광",
+    "slug": "koenji-used-clothes",
+    "title": "고엔지 빈티지 쇼핑·소형 라이브하우스",
+    "zone": "고엔지",
+    "insight": "JR 중앙선 고엔지는 중고 의류·음악·소형 상점가의 지역 분위기가 강하다.",
+    "action": "아키하바라 전자상가와 다른 종류의 중고 쇼핑을 원할 때 방문한다.",
+    "warning": "공연 티켓과 라이브하우스 최소 음료 주문 규정이 별도일 수 있다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 255,
+    "category": "도쿄 동네·관광",
+    "slug": "kichijoji-inokashira-park",
+    "title": "기치조지 이노카시라공원·상가·지브리 연계",
+    "zone": "기치조지·미타카",
+    "insight": "기치조지는 공원과 상점가가 이어지는 서부 생활권이며 지브리 미술관은 미타카 쪽에 있다.",
+    "action": "미타카 지브리 티켓이 있다면 예약 시각 중심으로 공원 산책을 배치한다.",
+    "warning": "지브리 미술관은 현장 입장만으로 해결되는 관광지가 아니다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 256,
+    "category": "도쿄 동네·관광",
+    "slug": "jiyugaoka-dessert-cafes",
+    "title": "지유가오카 디저트 카페·산책형 쇼핑",
+    "zone": "지유가오카",
+    "insight": "도큐 도요코·오이마치선이 만나는 주택가 쇼핑권역이다.",
+    "action": "도쿄 도심 관광과 분리해 디저트·공예·생활소품을 느긋하게 본다.",
+    "warning": "작은 카페 좌석 제한과 인기 제과 매진 가능성을 확인한다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 257,
+    "category": "도쿄 동네·관광",
+    "slug": "ochanomizu-music-bookstores",
+    "title": "오차노미즈 악기거리·진보초 서점가",
+    "zone": "오차노미즈·진보초",
+    "insight": "오차노미즈 주변에는 악기 매장이 많고 진보초에는 헌책방 문화가 형성되어 있다.",
+    "action": "기타·악기 구입 목적이라면 일본 모델의 보증·국외 배송을 먼저 확인한다.",
+    "warning": "중고책·악기 상태와 국제반입 수수료를 비교한다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 258,
+    "category": "도쿄 동네·관광",
+    "slug": "sugamo-jizo-shopping",
+    "title": "스가모 지조도리 상점가·부모님 여행",
+    "zone": "스가모",
+    "insight": "스가모는 지역 상점가와 사찰·노포가 이어지는 고령층 친화 관광권으로 알려져 있다.",
+    "action": "역 출구와 쉼터·화장실 위치를 정해 무리하지 않는 산책을 선택한다.",
+    "warning": "시장 행사일 혼잡과 점포별 무장애 접근 여부는 확인이 필요하다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 259,
+    "category": "도쿄 동네·관광",
+    "slug": "shibamata-taishakuten",
+    "title": "시바마타 다이샤쿠텐·전통 참배길",
+    "zone": "시바마타",
+    "insight": "게이세이 가나마치선 시바마타역 인근은 참배길과 전통 골목이 특징이다.",
+    "action": "도심에서 전철로 이동해 절과 역사적인 상점가를 같은 코스로 둘러본다.",
+    "warning": "개별 박물관·문화시설의 입장료와 운영일은 사찰 자유 산책과 다르다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 260,
+    "category": "도쿄 동네·관광",
+    "slug": "oji-asukayama-tram",
+    "title": "오지 아스카야마공원·도쿄 사쿠라트램",
+    "zone": "오지·아스카야마",
+    "insight": "도쿄 북부 오지에는 아스카야마공원과 도쿄 사쿠라트램이 연결된다.",
+    "action": "JR 오지역 또는 트램 정류장에서 출발해 어린이 동반 공원·문화시설을 선택한다.",
+    "warning": "벚꽃축제·공원 시설은 날씨·행사·휴관에 영향을 받는다.",
+    "official": "https://www.gotokyo.org/en/"
+  }
+];
