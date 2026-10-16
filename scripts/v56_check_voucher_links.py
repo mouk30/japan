@@ -49,9 +49,11 @@ def collect() -> tuple[list[dict], list[dict], list[dict]]:
     for attrs, body in blocks:
         port_id = attr(attrs, "id")
         assert port_id, "Port card has no ID"
-        primary = re.search(r'<a class="v52-primary" href="([^"]+)"', body)
+        primary = re.search(r'<a\b[^>]*class="v52-primary"[^>]*>', body)
         assert primary, f"Missing purchase/issuance CTA: {port_id}"
-        url = primary.group(1).replace("&amp;", "&")
+        url = attr(primary.group(0), "href")
+        assert url, f"CTA has no href: {port_id}"
+        url = url.replace("&amp;", "&")
         assert url.startswith("https://"), f"Non-HTTPS primary URL: {port_id}: {url}"
         ports.append({"id": port_id, "primary_url": url})
         external.append({"kind": "port_primary", "id": port_id, "url": url})
