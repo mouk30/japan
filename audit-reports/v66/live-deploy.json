@@ -1,0 +1,1124 @@
+{
+  "createdAt": "2026-10-16T12:18:43.615Z",
+  "base": "https://www.nipponferry.com",
+  "attempts": [
+    {
+      "time": "2026-10-16T12:18:44.569Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    },
+    {
+      "time": "2026-10-16T12:19:04.723Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    },
+    {
+      "time": "2026-10-16T12:19:24.910Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    },
+    {
+      "time": "2026-10-16T12:19:45.178Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    },
+    {
+      "time": "2026-10-16T12:20:05.447Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    },
+    {
+      "time": "2026-10-16T12:20:25.739Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    },
+    {
+      "time": "2026-10-16T12:20:46.013Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    },
+    {
+      "time": "2026-10-16T12:21:06.284Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    },
+    {
+      "time": "2026-10-16T12:21:26.506Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    },
+    {
+      "time": "2026-10-16T12:21:46.741Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    },
+    {
+      "time": "2026-10-16T12:22:06.935Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    },
+    {
+      "time": "2026-10-16T12:22:27.092Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    },
+    {
+      "time": "2026-10-16T12:22:47.355Z",
+      "checks": [
+        {
+          "uri": "/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/japan/fukuoka/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/japan-cash-how-much/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/season/japan-summer-festival-guide/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/things-to-do/naha-cruise-port-day-trip/",
+          "status": 200,
+          "missing": [],
+          "error": ""
+        },
+        {
+          "uri": "/booking/japan-cruise/",
+          "status": 200,
+          "missing": [
+            "rel=\"canonical\""
+          ],
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/naha-shureimon.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 271714,
+          "error": ""
+        },
+        {
+          "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 80210,
+          "error": ""
+        },
+        {
+          "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "status": 200,
+          "missing": [],
+          "type": "image/webp",
+          "bytes": 41576,
+          "error": ""
+        }
+      ],
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "totalChecks": 11,
+  "finalChecks": [
+    {
+      "uri": "/",
+      "status": 200,
+      "missing": [],
+      "error": ""
+    },
+    {
+      "uri": "/japan/fukuoka/",
+      "status": 200,
+      "missing": [],
+      "error": ""
+    },
+    {
+      "uri": "/things-to-do/fukuoka-one-day/",
+      "status": 200,
+      "missing": [],
+      "error": ""
+    },
+    {
+      "uri": "/life/japan-cash-how-much/",
+      "status": 200,
+      "missing": [],
+      "error": ""
+    },
+    {
+      "uri": "/life/don-quijote-first-guide/",
+      "status": 200,
+      "missing": [],
+      "error": ""
+    },
+    {
+      "uri": "/season/japan-summer-festival-guide/",
+      "status": 200,
+      "missing": [],
+      "error": ""
+    },
+    {
+      "uri": "/things-to-do/naha-cruise-port-day-trip/",
+      "status": 200,
+      "missing": [],
+      "error": ""
+    },
+    {
+      "uri": "/booking/japan-cruise/",
+      "status": 200,
+      "missing": [
+        "rel=\"canonical\""
+      ],
+      "error": ""
+    },
+    {
+      "uri": "/images/venues/naha-shureimon.webp",
+      "status": 200,
+      "missing": [],
+      "type": "image/webp",
+      "bytes": 271714,
+      "error": ""
+    },
+    {
+      "uri": "/images/venues/hakodate-goryokaku-tower.webp",
+      "status": 200,
+      "missing": [],
+      "type": "image/webp",
+      "bytes": 80210,
+      "error": ""
+    },
+    {
+      "uri": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+      "status": 200,
+      "missing": [],
+      "type": "image/webp",
+      "bytes": 41576,
+      "error": ""
+    }
+  ]
+}
