@@ -1,8 +1,9 @@
 {
-  "checkedAt": "2026-10-16T17:07:58.064Z",
-  "sourceCount": 54,
+  "auditScope": "Final edited Tokyo official source set (Disney ticket 404 repaired)",
+  "checkedAt": "2026-10-16T17:10:02.724Z",
+  "sourceCount": 53,
   "reachable": 51,
-  "notFound": 1,
+  "notFound": 0,
   "restricted": 2,
   "unconfirmed": 0,
   "links": [
@@ -640,25 +641,16 @@
           "slug": "disney-children-ticket-age"
         },
         {
+          "v": 173,
+          "slug": "disney-hopper-limited-period"
+        },
+        {
           "v": 174,
           "slug": "disney-ticket-date-change"
         },
         {
           "v": 298,
           "slug": "tokyo-cruise-disney-possible"
-        }
-      ]
-    },
-    {
-      "url": "https://www.tokyodisneyresort.jp/en/ticket/park_hopper",
-      "status": 404,
-      "state": "not_found",
-      "finalUrl": "https://www.tokyodisneyresort.jp/en/ticket/park_hopper",
-      "error": "",
-      "articles": [
-        {
-          "v": 173,
-          "slug": "disney-hopper-limited-period"
         }
       ]
     },
@@ -1213,5 +1205,5 @@
       ]
     }
   ],
-  "passed": false
+  "passed": true
 }
