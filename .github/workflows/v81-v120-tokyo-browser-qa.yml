@@ -1,0 +1,59 @@
+name: V81-V120 Tokyo 40 article and hub responsive QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v81-v120-tokyo-browser-qa.yml'
+      - 'scripts/v81_v120_tokyo_qa.mjs'
+permissions:
+  contents: write
+jobs:
+  verify-tokyo-guides:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install Chromium browser
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build live-equivalent static site
+        run: npm run build
+      - name: Check city hubs and 40 expert Tokyo pages on 320 390 768 1440 px
+        id: qa
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8757 --directory dist --bind 127.0.0.1 >/tmp/tokyo-server.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          node scripts/v81_v120_tokyo_qa.mjs
+      - name: Upload visitor-facing screenshots and audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v81-v120-tokyo-guides-mobile-and-desktop-qa
+          path: audit-reports/v81-v120/
+          retention-days: 25
+          if-no-files-found: warn
+      - name: Commit browser checks
+        if: always()
+        run: |
+          test -f audit-reports/v81-v120/browser-qa.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v81-v120/browser-qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V81-V120: record responsive QA for Tokyo city hub, forty articles and popular city cards"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 4
+          done
+          exit 1
+      - name: Fail on broken internal links, hero photo, mobile or SEO
+        if: steps.qa.outcome != 'success'
+        run: exit 1
