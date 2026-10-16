@@ -1,10 +1,11 @@
 {
-  "checkedAt": "2026-10-16T15:42:43.108Z",
+  "checkedAt": "2026-10-16T15:46:00.060Z",
+  "scope": "External references introduced in V71-V80 travel decision panels",
   "links": 116,
-  "independentSources": 114,
+  "independentSources": 115,
   "notFound": 0,
   "restricted": 0,
-  "unconfirmed": 2,
+  "unconfirmed": 1,
   "issues": [],
   "results": [
     {
@@ -678,15 +679,15 @@
       "state": "reachable"
     },
     {
-      "url": "https://www.tokyoport.or.jp/",
+      "url": "https://www.tptc.co.jp/terminal/guide/cruise",
       "pages": [
         "tokyo-cruise-port-day-trip",
         "tokyo-cruise-port-day-trip"
       ],
-      "status": 0,
-      "finalUrl": "",
-      "error": "TypeError: fetch failed",
-      "state": "unknown"
+      "status": 200,
+      "finalUrl": "https://www.tptc.co.jp/terminal/guide/cruise",
+      "error": "",
+      "state": "reachable"
     },
     {
       "url": "https://www.mlit.go.jp/kankocho/cruise/detail/024/index.html",
