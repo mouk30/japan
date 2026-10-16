@@ -1,0 +1,28 @@
+{
+  "versionStart": 181,
+  "versionEnd": 200,
+  "category": "디즈니·놀이기구·호텔",
+  "count": 20,
+  "slugs": [
+    "disneyland-beauty-beast-ride",
+    "disneyland-baymax-happy-ride",
+    "disneyland-splash-mountain",
+    "disneyland-big-thunder-mountain",
+    "disneyland-pooh-hunny-hunt",
+    "disneyland-monsters-inc",
+    "disneyland-haunted-mansion-season",
+    "disneysea-frozen-ever-after",
+    "disneysea-peter-pan-adventure",
+    "disneysea-rapunzel-lantern",
+    "disneysea-soaring-flight",
+    "disneysea-toy-story-mania",
+    "disneysea-tower-of-terror",
+    "disneysea-journey-center-earth",
+    "disney-miracosta-hotel",
+    "disney-fantasy-springs-hotel",
+    "disney-toy-story-hotel",
+    "disney-ambassador-hotel",
+    "disney-celebration-hotel",
+    "disney-vacation-package-vs-regular"
+  ]
+}

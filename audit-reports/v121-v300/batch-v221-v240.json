@@ -1,0 +1,28 @@
+{
+  "versionStart": 221,
+  "versionEnd": 240,
+  "category": "쇼핑·돈키·드러그스토어",
+  "count": 20,
+  "slugs": [
+    "shibuya-mega-donki-by-floor",
+    "shinjuku-kabukicho-donki",
+    "odaiba-kirakira-donki",
+    "donki-asakusa-check",
+    "donki-roppongi-night-check",
+    "donki-taxfree-passport",
+    "tokyo-drugstore-cosmetics",
+    "tokyo-drugstore-sun-care",
+    "tokyo-drugstore-contact-lens",
+    "tokyo-kbeauty-vs-jcosmetic",
+    "muji-ginza-floor-map",
+    "muji-ginza-4f-taxfree",
+    "muji-ginza-6f-atelier",
+    "muji-ginza-food-b1",
+    "shibuya-loft-stationery",
+    "ikebukuro-loft-floors",
+    "loft-stationery-gifts",
+    "tokyo-hands-diy-gifts",
+    "tokyo-electronics-bic-yodobashi",
+    "tokyo-shopping-luggage-locker"
+  ]
+}

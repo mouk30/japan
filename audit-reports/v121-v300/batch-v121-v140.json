@@ -1,0 +1,28 @@
+{
+  "versionStart": 121,
+  "versionEnd": 140,
+  "category": "교통·역별",
+  "count": 20,
+  "slugs": [
+    "shinjuku-exits",
+    "shibuya-hachiko-miyamasuzaka",
+    "tokyo-keiyo-platform",
+    "ikebukuro-east-west",
+    "ginza-three-lines",
+    "asakusa-operators",
+    "ueno-park-ameyoko",
+    "otemachi-transfer-five",
+    "kasumigaseki-government",
+    "roppongi-museum-exits",
+    "omotesando-three-subways",
+    "akasaka-nagatacho-connection",
+    "kudanshita-budokan",
+    "kanda-jr-ginza-transfer",
+    "nippori-skyliner-jr",
+    "akihabara-station-gates",
+    "tsukiji-two-stations",
+    "toyosu-shijomae-travel",
+    "oshiage-skytree-access",
+    "shinagawa-keikyu-jr"
+  ]
+}

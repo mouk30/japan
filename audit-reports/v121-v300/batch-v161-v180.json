@@ -1,0 +1,28 @@
+{
+  "versionStart": 161,
+  "versionEnd": 180,
+  "category": "디즈니·입장권",
+  "count": 20,
+  "slugs": [
+    "disney-1day-admission-vs-dpa",
+    "disney-dpa-app-purchase",
+    "disney-dpa-price-attractions",
+    "disney-dpa-parade-show",
+    "disney-priority-pass-free",
+    "disney-standby-pass-store",
+    "disney-entry-request-show",
+    "disney-mobile-order-food",
+    "disney-priority-seating-restaurants",
+    "disney-character-dining-booking",
+    "disney-disability-passport",
+    "disney-children-ticket-age",
+    "disney-hopper-limited-period",
+    "disney-ticket-date-change",
+    "disney-ticket-sold-out",
+    "disney-happy-entry-hotel-list",
+    "disney-happy-entry-construction",
+    "disney-hotel-park-ticket-bundle",
+    "disney-park-app-ticket-share",
+    "disney-ride-height-safety"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "versionStart": 201,
+  "versionEnd": 220,
+  "category": "백화점·층별 안내",
+  "count": 20,
+  "slugs": [
+    "isetan-shinjuku-b1-food",
+    "isetan-shinjuku-1f-cosmetics",
+    "isetan-shinjuku-b2-beauty",
+    "isetan-shinjuku-mens",
+    "daimaru-tokyo-b1-food",
+    "daimaru-tokyo-12f-taxfree",
+    "daimaru-tokyo-10f-hands",
+    "tobu-ikebukuro-b1-b2",
+    "tobu-ikebukuro-7f-kids",
+    "tobu-ikebukuro-restaurants",
+    "shinjuku-takashimaya-b1",
+    "shinjuku-takashimaya-9f-kids",
+    "ginza-six-b2-food",
+    "ginza-six-b1-beauty",
+    "ginza-six-6f-books",
+    "ginza-six-rooftop",
+    "nihombashi-mitsukoshi-floors",
+    "ginza-mitsukoshi-floor-plan",
+    "nihombashi-takashimaya-floor",
+    "shibuya-parco-floor-guide"
+  ]
+}
