@@ -1,0 +1,19 @@
+/* NIPPONFERRY V71-V80: one shared, responsive evidence-and-return module. */
+.nf-q80{margin:22px auto 25px;padding:clamp(17px,3vw,27px);border:1px solid #cddfe9;border-radius:20px;background:linear-gradient(135deg,#f1f9fe 0%,#fff 88%);box-shadow:0 12px 31px rgba(4,52,89,.075);color:#173f5b;max-width:100%;min-width:0;box-sizing:border-box;font-family:Pretendard,'Noto Sans KR',system-ui,sans-serif}
+.nf-q80 *{box-sizing:border-box}.nf-q80-eyebrow{margin:0 0 8px!important;color:#057e9c!important;font-weight:900!important;font-size:11px!important;letter-spacing:.1em!important;line-height:1.6!important}
+.nf-q80>h2{font-size:clamp(21px,2.8vw,29px)!important;line-height:1.36!important;letter-spacing:-.04em!important;color:#0b4269!important;margin:0 0 10px!important;font-weight:900!important;overflow-wrap:anywhere}
+.nf-q80-intro{font-size:14px!important;line-height:1.78!important;color:#567186!important;margin:0 0 16px!important;max-width:800px}
+.nf-q80-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:12px!important;margin:0!important;align-items:stretch!important}
+.nf-q80-card{min-width:0;border:1px solid #d9e8f0;border-radius:13px;padding:15px;background:#fff;display:flex;flex-direction:column;gap:9px}
+.nf-q80-card>small{font-size:11px;color:#057e9c;font-weight:900;line-height:1.5}
+.nf-q80-card h3{margin:0!important;padding:0!important;font-size:17px!important;line-height:1.42!important;color:#153f60!important;font-weight:900!important}
+.nf-q80-card p{margin:0!important;font-size:13px!important;line-height:1.76!important;color:#526e83!important;flex:1;overflow-wrap:anywhere;word-break:break-word}
+.nf-q80-card a{font-size:12px!important;line-height:1.55!important;color:#06668c!important;text-decoration:underline!important;text-underline-offset:3px!important;font-weight:850!important;overflow-wrap:anywhere;word-break:break-word}
+.nf-q80-check{margin:14px 0 0;padding:14px;border-radius:11px;background:#e7f4fb;border-left:4px solid #0b82ad}.nf-q80-check strong{font-size:14px!important;color:#064366!important}.nf-q80-check p{font-size:13px!important;line-height:1.8!important;color:#446579!important;margin:7px 0 0!important}
+.nf-q80-nav{display:flex!important;flex-wrap:wrap;gap:9px;margin:14px 0 0!important}.nf-q80-nav a{display:inline-flex;align-items:center;justify-content:center;font-size:12px!important;line-height:1.55!important;color:#fff!important;font-weight:900!important;border-radius:9px;padding:10px 13px;background:#0a6b9f;text-decoration:none!important}
+.nf-q80-nav a:last-child{background:#fff;border:1px solid #a1c8dc;color:#07648e!important}
+.nf-q80-disclaimer{font-size:11px!important;line-height:1.75!important;margin:13px 0 0!important;color:#698092!important;overflow-wrap:anywhere}
+.nf-q80 a:focus-visible{outline:3px solid #25a8d0!important;outline-offset:3px!important}
+@media(max-width:850px){.nf-q80-grid{grid-template-columns:minmax(0,1fr)!important}.nf-q80-card{padding:14px}.nf-q80>h2{font-size:23px!important}}
+@media(max-width:400px){.nf-q80{padding:13px!important;margin:16px 0 20px!important}.nf-q80-card{padding:12px!important}.nf-q80-nav a{width:100%;min-height:43px}.nf-q80>h2{font-size:21px!important}}
+@media(prefers-reduced-motion:reduce){.nf-q80 *{scroll-behavior:auto!important}}
