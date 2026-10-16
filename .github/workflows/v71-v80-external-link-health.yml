@@ -1,0 +1,35 @@
+name: V71-V80 official reference link status QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v71-v80-external-link-health.yml'
+      - 'scripts/v71_v80_link_health.mjs'
+permissions:
+  contents: write
+jobs:
+  check-source-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Inspect all new offsite references and classify site restrictions
+        run: node scripts/v71_v80_link_health.mjs
+      - name: Archive source links result
+        uses: actions/upload-artifact@v4
+        with:
+          name: v71-v80-source-link-status-report
+          path: audit-reports/v71-v80/official-link-health.json
+          retention-days: 25
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v71-v80/official-link-health.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V71-V80: record external source links and HTTP reachability checks"
+          git pull --rebase origin main
+          git push origin HEAD:main
