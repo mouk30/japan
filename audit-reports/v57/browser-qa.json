@@ -1,5 +1,5 @@
 {
-  "time": "2026-10-16T04:46:05.359Z",
+  "time": "2026-10-16T08:06:38.679Z",
   "pages": [],
   "checks": [
     {
@@ -103,7 +103,13 @@
       "scrollWidth": 1440
     }
   ],
-  "errors": [],
+  "errors": [
+    "hub missing category /things-to-do/onsen/",
+    "hub missing category /things-to-do/nature/",
+    "hub missing category /things-to-do/activity/",
+    "hub missing category /things-to-do/food-experience/",
+    "hub missing category /things-to-do/seasonal/"
+  ],
   "warnings": [],
-  "passed": true
+  "passed": false
 }
