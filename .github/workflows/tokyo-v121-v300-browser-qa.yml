@@ -1,0 +1,59 @@
+name: Tokyo V121-V300 732 responsive browser and SEO checks
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tokyo-v121-v300-browser-qa.yml'
+      - 'scripts/tokyo_v121_v300_qa.mjs'
+permissions:
+  contents: write
+jobs:
+  audit-all-new-tokyo-guides:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build production site
+        run: npm run build
+      - name: Run 180 guide screens times 4, plus city hub and destinations
+        id: check
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8757 --bind 127.0.0.1 --directory dist >/tmp/tokyo300.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          node scripts/tokyo_v121_v300_qa.mjs
+      - name: Archive screenshots and full report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tokyo-v121-v300-732-responsive-screens-and-9-cohorts
+          path: audit-reports/v121-v300/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit browser QA results
+        if: always()
+        run: |
+          test -f audit-reports/v121-v300/browser-qa.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v121-v300/browser-qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Tokyo V121-V300: archive 732 actual Chromium responsive QA cases"
+          for retry in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 4
+          done
+          exit 1
+      - name: Fail layout errors
+        if: steps.check.outcome != 'success'
+        run: exit 1
