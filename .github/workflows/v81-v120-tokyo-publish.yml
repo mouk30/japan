@@ -1,0 +1,74 @@
+name: V81-V120 Tokyo 40 professional guides and city destination
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v81-v120-tokyo-publish.yml'
+      - 'scripts/v81_v120_tokyo_topics.mjs'
+      - 'scripts/v81_v120_tokyo_publish.py'
+      - 'scripts/v81_tokyo_real_photo.py'
+permissions:
+  contents: write
+jobs:
+  publish-tokyo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Install Pillow
+        run: python -m pip install Pillow
+      - name: Download correctly licensed Tokyo night skyline photograph
+        run: python scripts/v81_tokyo_real_photo.py
+      - name: Generate forty unique Tokyo guides, Tokyo hub and SEO internal links
+        run: python scripts/v81_v120_tokyo_publish.py
+      - name: Validate new pages, official links, canonicals and photo
+        run: |
+          python - <<'PY'
+          import json,pathlib,re
+          from PIL import Image
+          m=json.loads(pathlib.Path('audit-reports/v81-v120/manifest.json').read_text())
+          assert m['articles']==40
+          assert m['versions']==list(range(81,121))
+          assert len(set(x['path'] for x in m['articlesMeta']))==40
+          assert all(v==5 for v in m['categoryCounts'].values())
+          for a in m['articlesMeta']:
+           s=pathlib.Path('site'+a['path']+'index.html').read_text()
+           assert len(re.findall(r'<h1\b',s))==1,(a['path'],'H1')
+           assert 'rel="canonical" href="https://www.nipponferry.com'+a['path']+'"' in s
+           assert '<script type="application/ld+json">' in s
+           assert all(x in s for x in a['sources'])
+           assert '/tokyo-guide.css' in s
+          with Image.open('site/images/venues/tokyo-city-night-real.webp') as im:
+           im.verify()
+          assert '도쿄</h3>' in pathlib.Path('site/index.html').read_text()
+          assert '<loc>https://www.nipponferry.com/japan/tokyo/</loc>' in pathlib.Path('site/sitemap.xml').read_text()
+          print('PASS: 40 unique Tokyo guides, official source links, structured data, sitemap, popular city card, real photo')
+          PY
+      - name: Build production site
+        run: npm run build
+      - name: Commit published Tokyo guides and real photo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/index.html site/japan/index.html site/japan/tokyo site/things-to-do/tokyo-cruise-port-day-trip/index.html site/sitemap.xml site/images/venues/tokyo-city-night-real.webp audit-reports/v81-v120/manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V81-V120: publish forty Tokyo guides, real skyline photo and prominent city destination"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 5
+          done
+          exit 1
+      - name: Archive forty-topic editorial manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v81-v120-forty-tokyo-authoritative-guides
+          path: audit-reports/v81-v120/
+          retention-days: 25
+          if-no-files-found: warn
