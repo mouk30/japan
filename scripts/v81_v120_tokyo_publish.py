@@ -67,7 +67,7 @@ catblocks=[]
 for cat in categories:
  articles=[t for t in topics if t['category']==cat]
  cards=''.join('<a class="tky-card" href="'+URL(t)+'"><small>'+E(t['zone'])+'</small><h3>'+E(t['title'])+'</h3><p>'+E(t['access'])+'</p><strong>공식 정보·동선·예약조건 →</strong></a>' for t in articles)
- catblocks.append('<section class="tky-cat" id="group-'+str(categories.index(cat)+1)+'"><div class="tky-cat-head"><h2>'+E(cat)+' · 5편</h2><p>'+E(DESC[cat])+'</p></div><div class="tky-cards">'+cards+'</div></section>')
+ catblocks.append('<section class="tky-cat" id="group-'+str(categories.index(cat)+1)+'"><div class="tky-cat-head"><h2>'+E(cat)+' · '+str(len(articles))+'편</h2><p>'+E(DESC[cat])+'</p></div><div class="tky-cards">'+cards+'</div></section>')
 canonical=DOMAIN+'/japan/tokyo/'
 hubdesc='도쿄 여행 40개 전문 가이드: 도쿄타워·도쿄도청·지하철노선도·디즈니·백화점·돈키호테·식도락 공식 예약 링크와 동선.'
 photoCredit='도쿄타워를 포함한 실제 도쿄 야경 (2025년 촬영). David Kernan · Wikimedia Commons · CC BY 4.0 · WebP 리사이즈'
