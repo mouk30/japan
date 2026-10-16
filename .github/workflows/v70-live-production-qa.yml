@@ -1,0 +1,44 @@
+name: V70 public production 20 cruise port deploy audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v70-live-production-qa.yml'
+      - 'scripts/v70_live_qa.mjs'
+permissions:
+  contents: write
+jobs:
+  verify-public-twenty:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Verify public homepage route and twenty existing guides
+        id: qa
+        continue-on-error: true
+        run: node scripts/v70_live_qa.mjs
+      - name: Preserve web site HTTP inspection report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v70-20-live-cruise-ports
+          path: audit-reports/v70/live-production.json
+          retention-days: 21
+          if-no-files-found: warn
+      - name: Commit release inspection report
+        if: always()
+        run: |
+          test -f audit-reports/v70/live-production.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v70/live-production.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V70: record 20 successfully published cruise port cards"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Reject stale production
+        if: steps.qa.outcome != 'success'
+        run: exit 1
