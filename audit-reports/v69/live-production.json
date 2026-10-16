@@ -1,0 +1,337 @@
+{
+  "checkedAt": "2026-10-16T14:09:01.987Z",
+  "articles": 20,
+  "passed": true,
+  "rounds": 1,
+  "checks": [
+    {
+      "slug": "yokohama",
+      "status": 200,
+      "bytes": 24475,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/yokohama-cruise-port-day-trip/?v69_live=1792159741372"
+    },
+    {
+      "slug": "nagasaki",
+      "status": 200,
+      "bytes": 25885,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-port-day-trip/?v69_live=1792159741499"
+    },
+    {
+      "slug": "hakata",
+      "status": 200,
+      "bytes": 24806,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/hakata-cruise-port-day-trip/?v69_live=1792159741500"
+    },
+    {
+      "slug": "naha",
+      "status": 200,
+      "bytes": 25921,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/naha-cruise-port-day-trip/?v69_live=1792159741502"
+    },
+    {
+      "slug": "ishigaki",
+      "status": 200,
+      "bytes": 25438,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-port-day-trip/?v69_live=1792159741503"
+    },
+    {
+      "slug": "osaka",
+      "status": 200,
+      "bytes": 14745,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/osaka-cruise-port-day-trip/?v69_live=1792159741504"
+    },
+    {
+      "slug": "kobe",
+      "status": 200,
+      "bytes": 14783,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/kobe-cruise-port-day-trip/?v69_live=1792159741504"
+    },
+    {
+      "slug": "hakodate",
+      "status": 200,
+      "bytes": 15951,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/hakodate-cruise-port-day-trip/?v69_live=1792159741505"
+    },
+    {
+      "slug": "aomori",
+      "status": 200,
+      "bytes": 15678,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/aomori-cruise-port-day-trip/?v69_live=1792159741506"
+    },
+    {
+      "slug": "kagoshima",
+      "status": 200,
+      "bytes": 16547,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-port-day-trip/?v69_live=1792159741508"
+    },
+    {
+      "slug": "beppu",
+      "status": 200,
+      "bytes": 15793,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/beppu-cruise-port-day-trip/?v69_live=1792159741509"
+    },
+    {
+      "slug": "sasebo",
+      "status": 200,
+      "bytes": 14942,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/sasebo-cruise-port-day-trip/?v69_live=1792159741509"
+    },
+    {
+      "slug": "shimonoseki",
+      "status": 200,
+      "bytes": 13075,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/shimonoseki-cruise-port-day-trip/?v69_live=1792159741510"
+    },
+    {
+      "slug": "shimizu",
+      "status": 200,
+      "bytes": 14156,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/shimizu-cruise-port-day-trip/?v69_live=1792159741511"
+    },
+    {
+      "slug": "kanazawa",
+      "status": 200,
+      "bytes": 14770,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-port-day-trip/?v69_live=1792159741511"
+    },
+    {
+      "slug": "sendai",
+      "status": 200,
+      "bytes": 14889,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/sendai-cruise-port-day-trip/?v69_live=1792159741511"
+    },
+    {
+      "slug": "kochi",
+      "status": 200,
+      "bytes": 12135,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/kochi-cruise-port-day-trip/?v69_live=1792159741512"
+    },
+    {
+      "slug": "niigata",
+      "status": 200,
+      "bytes": 12478,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/niigata-cruise-port-day-trip/?v69_live=1792159741512"
+    },
+    {
+      "slug": "matsuyama",
+      "status": 200,
+      "bytes": 12171,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/matsuyama-cruise-port-day-trip/?v69_live=1792159741513"
+    },
+    {
+      "slug": "sakaiminato",
+      "status": 200,
+      "bytes": 13584,
+      "missing": [],
+      "error": "",
+      "originalURL": "https://www.nipponferry.com/things-to-do/sakaiminato-cruise-port-day-trip/?v69_live=1792159741513"
+    }
+  ],
+  "history": [
+    {
+      "round": 1,
+      "time": "2026-10-16T14:09:01.987Z",
+      "passed": true,
+      "checks": [
+        {
+          "slug": "yokohama",
+          "status": 200,
+          "bytes": 24475,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/yokohama-cruise-port-day-trip/?v69_live=1792159741372"
+        },
+        {
+          "slug": "nagasaki",
+          "status": 200,
+          "bytes": 25885,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-port-day-trip/?v69_live=1792159741499"
+        },
+        {
+          "slug": "hakata",
+          "status": 200,
+          "bytes": 24806,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/hakata-cruise-port-day-trip/?v69_live=1792159741500"
+        },
+        {
+          "slug": "naha",
+          "status": 200,
+          "bytes": 25921,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/naha-cruise-port-day-trip/?v69_live=1792159741502"
+        },
+        {
+          "slug": "ishigaki",
+          "status": 200,
+          "bytes": 25438,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-port-day-trip/?v69_live=1792159741503"
+        },
+        {
+          "slug": "osaka",
+          "status": 200,
+          "bytes": 14745,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/osaka-cruise-port-day-trip/?v69_live=1792159741504"
+        },
+        {
+          "slug": "kobe",
+          "status": 200,
+          "bytes": 14783,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/kobe-cruise-port-day-trip/?v69_live=1792159741504"
+        },
+        {
+          "slug": "hakodate",
+          "status": 200,
+          "bytes": 15951,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/hakodate-cruise-port-day-trip/?v69_live=1792159741505"
+        },
+        {
+          "slug": "aomori",
+          "status": 200,
+          "bytes": 15678,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/aomori-cruise-port-day-trip/?v69_live=1792159741506"
+        },
+        {
+          "slug": "kagoshima",
+          "status": 200,
+          "bytes": 16547,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-port-day-trip/?v69_live=1792159741508"
+        },
+        {
+          "slug": "beppu",
+          "status": 200,
+          "bytes": 15793,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/beppu-cruise-port-day-trip/?v69_live=1792159741509"
+        },
+        {
+          "slug": "sasebo",
+          "status": 200,
+          "bytes": 14942,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/sasebo-cruise-port-day-trip/?v69_live=1792159741509"
+        },
+        {
+          "slug": "shimonoseki",
+          "status": 200,
+          "bytes": 13075,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/shimonoseki-cruise-port-day-trip/?v69_live=1792159741510"
+        },
+        {
+          "slug": "shimizu",
+          "status": 200,
+          "bytes": 14156,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/shimizu-cruise-port-day-trip/?v69_live=1792159741511"
+        },
+        {
+          "slug": "kanazawa",
+          "status": 200,
+          "bytes": 14770,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-port-day-trip/?v69_live=1792159741511"
+        },
+        {
+          "slug": "sendai",
+          "status": 200,
+          "bytes": 14889,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/sendai-cruise-port-day-trip/?v69_live=1792159741511"
+        },
+        {
+          "slug": "kochi",
+          "status": 200,
+          "bytes": 12135,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/kochi-cruise-port-day-trip/?v69_live=1792159741512"
+        },
+        {
+          "slug": "niigata",
+          "status": 200,
+          "bytes": 12478,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/niigata-cruise-port-day-trip/?v69_live=1792159741512"
+        },
+        {
+          "slug": "matsuyama",
+          "status": 200,
+          "bytes": 12171,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/matsuyama-cruise-port-day-trip/?v69_live=1792159741513"
+        },
+        {
+          "slug": "sakaiminato",
+          "status": 200,
+          "bytes": 13584,
+          "missing": [],
+          "error": "",
+          "originalURL": "https://www.nipponferry.com/things-to-do/sakaiminato-cruise-port-day-trip/?v69_live=1792159741513"
+        }
+      ]
+    }
+  ]
+}
