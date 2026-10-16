@@ -1,0 +1,40 @@
+name: V58 direct destination guide visual and official source QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v58-deep-guide-qa.yml
+permissions:
+  contents: read
+jobs:
+  deep-guide-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install headless browser
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Verify topic-specific photos, official links, Korean guide and responsive layout
+        id: qa
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8758 --bind 127.0.0.1 --directory site >/tmp/v58-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          node scripts/v58_guide_browser_qa.mjs
+      - name: Share browser report and screenshots
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v58-deep-guide-screenshots
+          path: audit-reports/v58/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Fail on page regression
+        if: steps.qa.outcome == 'failure'
+        run: exit 1
