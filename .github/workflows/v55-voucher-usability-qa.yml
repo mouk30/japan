@@ -1,0 +1,53 @@
+name: V55 voucher issuance usability and mobile browser QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v55-voucher-usability-qa.yml
+permissions:
+  contents: write
+jobs:
+  browser-usability:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install headless browser
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Test 13 purchase flows at phone, tablet and desktop widths
+        id: qa
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8755 --directory site --bind 127.0.0.1 >/tmp/v55-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          curl -fsS http://127.0.0.1:8755/voucher/cruise-ports/ >/dev/null
+          node scripts/v55_voucher_browser_qa.mjs
+      - name: Upload screenshots and JSON report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v55-voucher-browser-qa
+          path: audit-reports/v55/
+          if-no-files-found: ignore
+      - name: Save test results in repository for inspection
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -f audit-reports/v55/browser-qa.json ]; then
+            git add audit-reports/v55/browser-qa.json
+            git diff --cached --quiet && exit 0
+            git commit -m "V55: record 13-venue voucher browser QA results"
+            git pull --rebase origin main
+            git push
+          fi
+      - name: Fail when browser QA fails
+        if: steps.qa.outcome != 'success'
+        run: exit 1
