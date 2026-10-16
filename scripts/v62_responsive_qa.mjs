@@ -30,6 +30,14 @@ try {
    const response=await page.goto('http://127.0.0.1:8757'+p.uri,{waitUntil:'load',timeout:20000});
    await page.locator(p.selector).first().waitFor({timeout:10000});
    await page.evaluate(()=>{document.fonts?.ready});
+   // Force offscreen lazy images to load before asserting naturalWidth.
+   // The homepage regional section is below the fold at all viewport sizes.
+   await page.locator(p.photoSelector).evaluateAll(async imgs=>{
+     await Promise.all(imgs.map(async img=>{
+       img.loading='eager';
+       try { await img.decode(); } catch {}
+     }));
+   });
    const result=await page.evaluate(({selector,photoSelector})=>{
     const cards=[...document.querySelectorAll(selector)];
     const photos=[...document.querySelectorAll(photoSelector)];
