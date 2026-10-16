@@ -1,0 +1,222 @@
+export const batch=[
+  {
+    "version": 221,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "shibuya-mega-donki-by-floor",
+    "title": "시부야 메가 돈키호테 24시간점 매장별 상품 찾기",
+    "zone": "시부야 우다가와초",
+    "insight": "시부야 메가 돈키호테 본점은 공식 지점 안내에 24시간 매장으로 나온다.",
+    "action": "화장품·간식·잡화·기념품 중 우선 품목을 정해 안내판의 층별 매장 구역부터 찾는다.",
+    "warning": "매장 24시간 영업과 면세창구·의약품 판매 시간이 동일하다고 가정하지 않는다.",
+    "official": "https://www.donki.com/en/store/shop_detail.php?shop_id=442"
+  },
+  {
+    "version": 222,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "shinjuku-kabukicho-donki",
+    "title": "가부키초 돈키호테 24시간점·야간 교통",
+    "zone": "가부키초 1초메",
+    "insight": "가부키초점은 공식 지점 목록의 시부야 메가 본점과는 다른 매장이다.",
+    "action": "신주쿠 동쪽 출구에서 출발해 저녁식사·쇼핑 후 숙소 귀가 노선을 확인한다.",
+    "warning": "야간 유흥가 호객행위와 결제 실수에 주의한다.",
+    "official": "https://www.donki.com/en/store/shop_detail.php?shop_id=29"
+  },
+  {
+    "version": 223,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "odaiba-kirakira-donki",
+    "title": "오다이바 기라기라 돈키 다이버시티 2층 영업정보",
+    "zone": "다이버시티 도쿄 플라자",
+    "insight": "공식 매장 정보에 다이버시티 2층 위치와 10~21시 영업을 안내한다.",
+    "action": "도쿄텔레포트역과 다이바역 중 가까운 역을 선택하고 쇼핑 시간을 확인한다.",
+    "warning": "시부야 메가 돈키 24시간 운영조건을 오다이바점에 적용하지 않는다.",
+    "official": "https://www.donki.com/en/store/shop_detail.php?shop_id=655"
+  },
+  {
+    "version": 224,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "donki-asakusa-check",
+    "title": "아사쿠사 돈키호테 점포·센소지 여행 쇼핑 비교",
+    "zone": "아사쿠사",
+    "insight": "아사쿠사 관광지 주변의 할인점·돈키 지점은 쇼핑과 현지 음식 동선을 연결하기 좋다.",
+    "action": "점포 검색에서 실제 영업 지점·주소·면세 유무를 확인한 뒤 나카미세 관광과 분리한다.",
+    "warning": "상점가 전체가 24시간 운영되는 것은 아니며 특정 매장 재고는 가변이다.",
+    "official": "https://www.donki.com/en/store/"
+  },
+  {
+    "version": 225,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "donki-roppongi-night-check",
+    "title": "롯폰기 돈키호테 지점·야간 쇼핑 실전",
+    "zone": "롯폰기",
+    "insight": "롯폰기 밤거리에서 할인점 쇼핑은 유용하지만 실제 지점별 영업시간·층별 상품은 다르다.",
+    "action": "도쿄타워·미드타운 야경 후 귀가와 가까운 공식 지점을 검색한다.",
+    "warning": "롯폰기와 아자부다이 매장을 혼용하여 위치를 안내하지 않는다.",
+    "official": "https://www.donki.com/en/store/"
+  },
+  {
+    "version": 226,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "donki-taxfree-passport",
+    "title": "돈키호테 면세 여권·일반 상품·소모품 구분",
+    "zone": "도쿄 돈키 매장",
+    "insight": "돈키 지점별로 면세 카운터와 서비스가 다르므로 표시된 면세 품목·한도를 확인한다.",
+    "action": "여권 원본 및 구매 내역을 준비하고 일본의 면세 구매와 한국 귀국 통관·검역을 분리한다.",
+    "warning": "2026년 11월 적용되는 일본 면세 제도 변경을 최신 공식 관세안내에서 확인한다.",
+    "official": "https://www.donki.com/en/store/"
+  },
+  {
+    "version": 227,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "tokyo-drugstore-cosmetics",
+    "title": "도쿄 드러그스토어 피부관리 화장품·의약품 구분",
+    "zone": "신주쿠·시부야",
+    "insight": "화장품·일반의약품·건강보조식품은 일본 매장 내 분류와 약사 상담이 다르다.",
+    "action": "성분·유효기간·해외 반입 가능성을 확인하고 특정 제품 구매는 현장 직원에게 문의한다.",
+    "warning": "처방약이나 의약품은 매장 쿠폰만 보고 무조건 구매·반입하지 않는다.",
+    "official": "https://www.gotokyo.org/en/see-and-do/shopping/index.html"
+  },
+  {
+    "version": 228,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "tokyo-drugstore-sun-care",
+    "title": "도쿄 선크림·자외선차단 제품 고르기",
+    "zone": "드러그스토어·화장품 매장",
+    "insight": "자외선차단제는 일본 SPF·PA 표시, 용량·사용부위와 리필 여부를 구분한다.",
+    "action": "여름 야외 관광 시간을 고려해 땀·물에 강한 제품인지 확인하고 알레르기 성분을 점검한다.",
+    "warning": "점포별 품절과 한국 항공 액체 반입 규정이 다르다.",
+    "official": "https://www.gotokyo.org/en/see-and-do/shopping/index.html"
+  },
+  {
+    "version": 229,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "tokyo-drugstore-contact-lens",
+    "title": "도쿄 콘택트렌즈·안약 구입 주의사항",
+    "zone": "드러그스토어",
+    "insight": "일본 점포에서 판매하는 렌즈·안약은 제품별 사용설명서와 착용 조건을 따라야 한다.",
+    "action": "시력·렌즈 도수·유효기한과 의료기관 권장사항을 확인한다.",
+    "warning": "개인 건강상황을 무시하고 기념품처럼 의약품을 대량 구매하지 않는다.",
+    "official": "https://www.gotokyo.org/en/see-and-do/shopping/index.html"
+  },
+  {
+    "version": 230,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "tokyo-kbeauty-vs-jcosmetic",
+    "title": "도쿄 일본 화장품 vs 한국 화장품 현지 가격 비교",
+    "zone": "긴자·신주쿠",
+    "insight": "일본에서 한국 화장품도 판매되므로 일본산이라고 생각하고 구매하면 가격 이점이 없을 수 있다.",
+    "action": "원산지·용량·면세 후 실제 지출·한국 온라인 가격을 비교한다.",
+    "warning": "환율과 제품 리뉴얼로 동일 명칭도 구성품이 다를 수 있다.",
+    "official": "https://www.gotokyo.org/en/see-and-do/shopping/index.html"
+  },
+  {
+    "version": 231,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "muji-ginza-floor-map",
+    "title": "무인양품 긴자 세계 플래그십 B1~6층 안내",
+    "zone": "긴자 3초메",
+    "insight": "무인양품 긴자는 B1~6층 판매·문화 시설이 있는 세계 플래그십 점포다.",
+    "action": "식품·의류·생활용품·아틀리에·호텔 구역을 공식 층별 맵으로 확인하고 쇼핑 목적층을 정한다.",
+    "warning": "위층의 문화공간·호텔은 일반 판매장과 다른 이용 조건이다.",
+    "official": "https://shop.muji.com/jp/ginza/en/"
+  },
+  {
+    "version": 232,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "muji-ginza-4f-taxfree",
+    "title": "무인양품 긴자 4층 면세 레지·생활잡화",
+    "zone": "긴자 3초메",
+    "insight": "무인양품 긴자 공식 점포 안내에 4층 면세 계산대와 생활잡화 공간이 안내된다.",
+    "action": "구매한 물건을 들고 면세 수속 시간과 픽업 서비스의 운영시간을 확인한다.",
+    "warning": "매장 영업시간과 면세 접수 마감은 다를 수 있다.",
+    "official": "https://www.muji.com/jp/ja/shop/detail/046604"
+  },
+  {
+    "version": 233,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "muji-ginza-6f-atelier",
+    "title": "무인양품 긴자 6층 아틀리에 전시·MUJI호텔",
+    "zone": "긴자 3초메",
+    "insight": "긴자 무인양품에는 6층 아틀리에 MUJI 문화공간과 호텔 관련 구역이 있다.",
+    "action": "전시 예약·관람시간은 현재 행사 일정에 따라 달라 쇼핑과 별도 계획한다.",
+    "warning": "과거 전시 내용이 지금도 열리고 있다고 단정하지 않는다.",
+    "official": "https://shop.muji.com/jp/ginza/en/"
+  },
+  {
+    "version": 234,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "muji-ginza-food-b1",
+    "title": "무인양품 긴자 식품·MUJI Diner 지하 구역",
+    "zone": "긴자 3초메",
+    "insight": "긴자 플래그십의 식품 판매 구역과 식당 서비스가 다른 층에 안내된다.",
+    "action": "식사를 원하는지 포장 식품을 구입할지 구분해 최신 층별 지도에서 확인한다.",
+    "warning": "식당은 별도 예약·영업·마감 시간 적용을 받을 수 있다.",
+    "official": "https://shop.muji.com/jp/ginza/en/"
+  },
+  {
+    "version": 235,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "shibuya-loft-stationery",
+    "title": "시부야 로프트 문구·선물·면세 시간 확인",
+    "zone": "시부야 우다가와초",
+    "insight": "시부야 로프트 공식 지점 안내에 매장 영업과 면세 접수 시간이 구분되어 있다.",
+    "action": "일본 문구·디자인 소품을 고른 후 지점별 면세 수속 마감 전에 계산한다.",
+    "warning": "점포의 일반 영업 종료까지 면세 접수가 가능하다고 가정하지 않는다.",
+    "official": "https://www.loft.co.jp/shop_list/index.php?area=area_tokyo"
+  },
+  {
+    "version": 236,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "ikebukuro-loft-floors",
+    "title": "이케부쿠로 로프트 층별 상품·면세 창구",
+    "zone": "이케부쿠로",
+    "insight": "도쿄 로프트 지점 검색에서 이케부쿠로점의 층별 공간과 서비스 시간을 확인할 수 있다.",
+    "action": "서쪽 도부 백화점과 동쪽 로프트의 방향을 구분하고 필요한 문구·리빙 제품을 찾는다.",
+    "warning": "층별 매장 변경과 평일·주말 영업시간 차이가 있을 수 있다.",
+    "official": "https://www.loft.co.jp/shop_list/index.php?area=area_tokyo"
+  },
+  {
+    "version": 237,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "loft-stationery-gifts",
+    "title": "도쿄 로프트 일본 문구·여행 선물 고르기",
+    "zone": "시부야·긴자·이케부쿠로",
+    "insight": "노트·펜·스티커·디자인 잡화는 브랜드와 매장별 구성품이 다르다.",
+    "action": "여행 동선 가까운 지점을 먼저 찾고 포장·면세·결제 수단을 확인한다.",
+    "warning": "지역·지점명이 같은 상업시설의 특정 층을 뜻하지 않을 수 있다.",
+    "official": "https://www.loft.co.jp/shop_list/index.php?area=area_tokyo"
+  },
+  {
+    "version": 238,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "tokyo-hands-diy-gifts",
+    "title": "도쿄 핸즈 DIY·여행용품 구매와 층별 탐색",
+    "zone": "신주쿠·시부야",
+    "insight": "핸즈는 문구·DIY·청소·수납·여행 생활용품 등 실용상품을 찾아보기 좋은 점포다.",
+    "action": "매장별 입점 위치·일본어 상품명과 가격표를 공식 사이트에서 먼저 찾는다.",
+    "warning": "특정 체인 지점에 모든 카테고리의 재고가 있는 것은 아니다.",
+    "official": "https://hands.net/"
+  },
+  {
+    "version": 239,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "tokyo-electronics-bic-yodobashi",
+    "title": "도쿄 빅카메라·요도바시 전자제품 면세 비교",
+    "zone": "아키하바라·신주쿠",
+    "insight": "대형 전자점에는 카메라·미용가전·이어폰 등이 있지만 전압·언어·해외보증이 다르다.",
+    "action": "제품 모델명을 확정하고 일본 모델의 충전 규격·한국 수입 제한과 최종 환급가를 비교한다.",
+    "warning": "면세·포인트 적립·추가 쿠폰의 동시 적용을 당연하게 여기지 않는다.",
+    "official": "https://www.gotokyo.org/en/see-and-do/shopping/index.html"
+  },
+  {
+    "version": 240,
+    "category": "쇼핑·돈키·드러그스토어",
+    "slug": "tokyo-shopping-luggage-locker",
+    "title": "도쿄 대형 쇼핑 후 코인로커·배송 서비스",
+    "zone": "도쿄역·신주쿠",
+    "insight": "대형 쇼핑 후 캐리어와 쇼핑백을 한꺼번에 들고 관광하면 이동이 매우 불편하다.",
+    "action": "역 코인로커·백화점 보관·호텔 배송 서비스의 크기·이용시간을 확인한다.",
+    "warning": "로커 만석·분실물·당일 회수 마감이 있을 수 있다.",
+    "official": "https://www.jreast.co.jp/e/"
+  }
+];
