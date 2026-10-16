@@ -1,0 +1,27 @@
+/* NIPPONFERRY TOKYO V81–V120: Responsive editorial hub and specialist detail pages. */
+.tky-page{background:#f4f8fd;color:#153750;min-height:90vh;font-family:Pretendard,'Noto Sans KR',system-ui,sans-serif}
+.tky-shell{max-width:1160px;margin:0 auto;padding:0 22px}
+.tky-hero{background:radial-gradient(900px 500px at 90% 10%,#285b83,transparent),linear-gradient(125deg,#071c33,#0d385a);color:#fff;padding:54px 0 42px}
+.tky-hero .tky-bread{font-size:12px;color:#c7e6f3;display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.tky-hero .tky-bread a{color:#c7e6f3}
+.tky-kicker{text-transform:uppercase;letter-spacing:.15em;color:#83d7e7;font-size:11px;font-weight:900}
+.tky-hero h1{font-weight:900;letter-spacing:-.054em;font-size:clamp(27px,4.1vw,48px);line-height:1.3;max-width:960px;margin:13px 0 14px}.tky-hero p{font-size:16px;line-height:1.85;max-width:800px;color:#d0e4f0;margin:0}
+.tky-quick{display:flex;flex-wrap:wrap;gap:9px;margin:25px 0 0}.tky-quick a{background:#fff;color:#0c4f75;border-radius:10px;padding:11px 14px;text-decoration:none;font-size:13px;font-weight:900}.tky-quick a:last-child{background:transparent;color:#fff;border:1px solid #8cb9d2}
+.tky-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:24px;padding-top:28px;padding-bottom:60px;align-items:start}.tky-body,.tky-side{min-width:0}
+.tky-block{background:#fff;border-radius:18px;padding:clamp(20px,3vw,31px);border:1px solid #d9e6ee;box-shadow:0 8px 26px rgba(10,54,90,.05);margin:0 0 17px}
+.tky-block h2{color:#093d62;font-size:clamp(21px,2.7vw,27px);letter-spacing:-.035em;line-height:1.4;margin:0 0 14px}.tky-block h3{font-size:17px;line-height:1.5;margin:19px 0 6px;color:#174c68}
+.tky-block p,.tky-block li{color:#455f70;font-size:15px;line-height:1.95}.tky-block p{margin:8px 0 16px}.tky-block ol,.tky-block ul{padding-left:21px;margin:7px 0}
+.tky-info-list{display:grid;gap:10px}.tky-info{padding:15px;background:#f2f8fd;border-left:3px solid #0d85a9;border-radius:8px}.tky-info b{display:block;font-size:12px;color:#06758f;margin-bottom:6px}.tky-info p{margin:0;font-size:14px}
+.tky-official{display:grid;grid-template-columns:1fr 1fr;gap:12px}.tky-official a{padding:16px;background:#eaf5fb;border:1px solid #c5dfe9;border-radius:12px;color:#045d85;font-size:13px;font-weight:900;line-height:1.7;text-decoration:none;overflow-wrap:anywhere}
+.tky-alert{border-left:4px solid #cc8d2f;background:#fff6e7;border-radius:10px;padding:15px;color:#775622;margin-top:13px}.tky-alert b{font-weight:900}.tky-alert p{color:#775622}
+.tky-side{position:sticky;top:20px}.tky-side .tky-block{padding:18px}.tky-side h2{font-size:17px}.tky-sidelink{display:block;border-bottom:1px solid #e5eff4;padding:11px 0;color:#0c5f84;text-decoration:none;font-size:13px;font-weight:750;line-height:1.5}.tky-sidelink:last-child{border-bottom:0}.tky-dated{font-size:12px;color:#59748a;margin:0 0 12px;line-height:1.8}
+.tky-hub-hero{background:radial-gradient(ellipse at 24% 30%,rgba(17,46,75,.4),transparent),linear-gradient(105deg,#081d33,#113956);color:#fff}.tky-hub-row{display:grid;grid-template-columns:1fr 1.1fr;align-items:stretch;min-height:370px}
+.tky-hub-copy{padding:42px 0}.tky-hub-copy h1{font-size:clamp(31px,5vw,52px);line-height:1.23;letter-spacing:-.055em;margin:13px 0}.tky-hub-copy p{font-size:16px;line-height:1.9;color:#d3e7f4;max-width:510px}
+.tky-hub-photo{margin:0;display:flex;flex-direction:column;justify-content:center;min-width:0;padding:18px 0 18px 24px}.tky-hub-photo img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:16px;box-shadow:0 18px 40px rgba(0,0,0,.25)}
+.tky-hub-photo figcaption{font-size:11px;line-height:1.6;color:#b2d1df;margin-top:10px}.tky-hub-photo a{color:#d2e6ee}
+.tky-hub-main{background:#f3f8fc;padding:26px 0 65px}.tky-hub-summary{font-size:15px;line-height:1.8;color:#47677a;margin-bottom:27px}
+.tky-cat{margin:30px 0 25px}.tky-cat-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:1px solid #cfe2ed;padding-bottom:11px;margin-bottom:15px}.tky-cat h2{color:#0b4165;font-size:clamp(21px,3vw,28px);letter-spacing:-.04em;margin:0}.tky-cat-head p{margin:0;color:#647d8d;font-size:13px;line-height:1.6}
+.tky-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}.tky-card{display:flex;flex-direction:column;min-width:0;background:#fff;border-radius:15px;padding:20px;border:1px solid #d7e5ee;box-shadow:0 7px 22px rgba(5,49,79,.05);text-decoration:none}.tky-card small{color:#0a799a;font-size:11px;font-weight:900}.tky-card h3{font-size:17px;line-height:1.46;color:#0c4367;margin:8px 0;letter-spacing:-.025em}.tky-card p{font-size:13px;color:#587383;line-height:1.75;flex:1;margin:0 0 13px}.tky-card strong{font-size:12px;color:#046893}.tky-card:hover{border-color:#79bace}
+.tky-footnotes{background:#fff;border:1px solid #d5e5ef;border-radius:15px;padding:22px;font-size:13px;line-height:1.85;color:#567085}
+.tky-page a:focus-visible{outline:3px solid #1bb3d6;outline-offset:3px}
+@media(max-width:900px){.tky-layout{grid-template-columns:1fr}.tky-side{position:static;display:none}.tky-hub-row{grid-template-columns:1fr}.tky-hub-copy{padding-bottom:15px}.tky-hub-photo{padding:0 0 28px}.tky-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.tky-shell{padding:0 13px}.tky-hero{padding:32px 0}.tky-hero h1{font-size:29px}.tky-block{padding:18px}.tky-cards{grid-template-columns:1fr}.tky-official{grid-template-columns:1fr}.tky-cat-head{display:block}.tky-cat-head p{margin-top:6px}.tky-hub-copy{padding-top:30px}}
