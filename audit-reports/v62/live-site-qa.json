@@ -1,0 +1,198 @@
+{
+  "passed": true,
+  "tests": 5,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "finalURL": "https://www.nipponferry.com/?v62-review=1792149655626",
+      "missing": [],
+      "error": ""
+    },
+    {
+      "path": "/things-to-do/shimonoseki-one-day/",
+      "status": 200,
+      "finalURL": "https://www.nipponferry.com/things-to-do/shimonoseki-one-day/?v62-review=1792149655762",
+      "missing": [],
+      "error": ""
+    },
+    {
+      "path": "/things-to-do/tsushima-one-day/",
+      "status": 200,
+      "finalURL": "https://www.nipponferry.com/things-to-do/tsushima-one-day/?v62-review=1792149655876",
+      "missing": [],
+      "error": ""
+    },
+    {
+      "path": "/images/venues/v62-karato-market-real.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 386910,
+      "error": ""
+    },
+    {
+      "path": "/images/venues/v62-izuhara-port-real.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 163638,
+      "error": ""
+    }
+  ],
+  "attempts": 4,
+  "comments": "Site URL checked from GitHub Actions runner (not a search-engine cached result).",
+  "history": [
+    {
+      "attempt": 1,
+      "time": "2026-10-16T11:19:55.071Z",
+      "pass": false,
+      "checks": [
+        {
+          "path": "/",
+          "status": 200,
+          "finalURL": "https://www.nipponferry.com/?v62-review=1792149594701",
+          "missing": [
+            "/images/venues/v62-karato-market-real.webp",
+            "/images/venues/v62-izuhara-port-real.webp"
+          ],
+          "error": ""
+        },
+        {
+          "path": "/things-to-do/shimonoseki-one-day/",
+          "status": 200,
+          "finalURL": "https://www.nipponferry.com/things-to-do/shimonoseki-one-day/?v62-review=1792149594921",
+          "missing": [
+            "v62-karato-market-real.webp",
+            "실제 현장 사진"
+          ],
+          "error": ""
+        },
+        {
+          "path": "/things-to-do/tsushima-one-day/",
+          "status": 200,
+          "finalURL": "https://www.nipponferry.com/things-to-do/tsushima-one-day/?v62-review=1792149595027",
+          "missing": [
+            "v62-izuhara-port-real.webp",
+            "실제 현장 사진"
+          ],
+          "error": ""
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "time": "2026-10-16T11:20:15.409Z",
+      "pass": false,
+      "checks": [
+        {
+          "path": "/",
+          "status": 200,
+          "finalURL": "https://www.nipponferry.com/?v62-review=1792149615073",
+          "missing": [
+            "/images/venues/v62-karato-market-real.webp",
+            "/images/venues/v62-izuhara-port-real.webp"
+          ],
+          "error": ""
+        },
+        {
+          "path": "/things-to-do/shimonoseki-one-day/",
+          "status": 200,
+          "finalURL": "https://www.nipponferry.com/things-to-do/shimonoseki-one-day/?v62-review=1792149615208",
+          "missing": [
+            "v62-karato-market-real.webp",
+            "실제 현장 사진"
+          ],
+          "error": ""
+        },
+        {
+          "path": "/things-to-do/tsushima-one-day/",
+          "status": 200,
+          "finalURL": "https://www.nipponferry.com/things-to-do/tsushima-one-day/?v62-review=1792149615339",
+          "missing": [
+            "v62-izuhara-port-real.webp",
+            "실제 현장 사진"
+          ],
+          "error": ""
+        }
+      ]
+    },
+    {
+      "attempt": 3,
+      "time": "2026-10-16T11:20:35.625Z",
+      "pass": false,
+      "checks": [
+        {
+          "path": "/",
+          "status": 200,
+          "finalURL": "https://www.nipponferry.com/?v62-review=1792149635409",
+          "missing": [
+            "/images/venues/v62-karato-market-real.webp",
+            "/images/venues/v62-izuhara-port-real.webp"
+          ],
+          "error": ""
+        },
+        {
+          "path": "/things-to-do/shimonoseki-one-day/",
+          "status": 200,
+          "finalURL": "https://www.nipponferry.com/things-to-do/shimonoseki-one-day/?v62-review=1792149635507",
+          "missing": [
+            "v62-karato-market-real.webp",
+            "실제 현장 사진"
+          ],
+          "error": ""
+        },
+        {
+          "path": "/things-to-do/tsushima-one-day/",
+          "status": 200,
+          "finalURL": "https://www.nipponferry.com/things-to-do/tsushima-one-day/?v62-review=1792149635556",
+          "missing": [
+            "v62-izuhara-port-real.webp",
+            "실제 현장 사진"
+          ],
+          "error": ""
+        }
+      ]
+    },
+    {
+      "attempt": 4,
+      "time": "2026-10-16T11:20:56.191Z",
+      "pass": true,
+      "checks": [
+        {
+          "path": "/",
+          "status": 200,
+          "finalURL": "https://www.nipponferry.com/?v62-review=1792149655626",
+          "missing": [],
+          "error": ""
+        },
+        {
+          "path": "/things-to-do/shimonoseki-one-day/",
+          "status": 200,
+          "finalURL": "https://www.nipponferry.com/things-to-do/shimonoseki-one-day/?v62-review=1792149655762",
+          "missing": [],
+          "error": ""
+        },
+        {
+          "path": "/things-to-do/tsushima-one-day/",
+          "status": 200,
+          "finalURL": "https://www.nipponferry.com/things-to-do/tsushima-one-day/?v62-review=1792149655876",
+          "missing": [],
+          "error": ""
+        },
+        {
+          "path": "/images/venues/v62-karato-market-real.webp",
+          "status": 200,
+          "type": "image/webp",
+          "bytes": 386910,
+          "error": ""
+        },
+        {
+          "path": "/images/venues/v62-izuhara-port-real.webp",
+          "status": 200,
+          "type": "image/webp",
+          "bytes": 163638,
+          "error": ""
+        }
+      ]
+    }
+  ]
+}
