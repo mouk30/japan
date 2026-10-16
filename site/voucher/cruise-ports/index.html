@@ -206,7 +206,7 @@
   const port=document.getElementById('v56-port'),date=document.getElementById('v56-date'),ship=document.getElementById('v56-ship'),pier=document.getElementById('v56-pier');
   const deadline=document.getElementById('v56-deadline').value;
   const travel=Number(document.getElementById('v56-travel').value),buffer=Number(document.getElementById('v56-buffer').value);
-  if(!form.reportValidity()||!/^\\d{2}:\\d{2}$/.test(deadline)||!Number.isFinite(travel)||travel<1||travel>600)return;
+  if(!form.reportValidity()||!/^\d{2}:\d{2}$/.test(deadline)||!Number.isFinite(travel)||travel<1||travel>600)return;
   const [hours,minutes]=deadline.split(':').map(Number);
   if(hours>23||minutes>59)return;
   const departure=hours*60+minutes-travel-buffer;
