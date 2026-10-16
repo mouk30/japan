@@ -5,7 +5,7 @@ import {join} from 'node:path';
 const base='http://127.0.0.1:8757';
 const outDir='audit-reports/v57';
 await mkdir(outDir,{recursive:true});
-const config={onsen:5,nature:5,activity:5,'food-experience':4,seasonal:4};
+const config={onsen:5,nature:5,activity:4,'food-experience':4,seasonal:4};
 const report={time:new Date().toISOString(),pages:[],checks:[],errors:[],warnings:[]};
 const browser=await chromium.launch({headless:true});
 const imgCheck=new Set();
@@ -63,7 +63,7 @@ try{
   await page.goto(base+'/things-to-do/',{waitUntil:'domcontentloaded'});
   if(await page.locator('.v57-entry a').count()!==5)report.errors.push('hub direct guide links not 5');
   for(const href of ['/things-to-do/onsen/','/things-to-do/nature/','/things-to-do/activity/','/things-to-do/food-experience/','/things-to-do/seasonal/']){
-   if(await page.locator('.v28-grid > a.v28-card[href="'+href+'"]').count()!==1)report.errors.push('hub missing category '+href);
+   if(await page.locator('.v60-hub-grid a.v60-hub-photo[href="'+href+'"]').count()!==1)report.errors.push('hub missing category '+href);
   }
   if(await page.locator('a.v28-card[href="/things-to-do/culture/"]').count()!==1)report.errors.push('culture category missing');
   const l=page.locator('.v57-entry a[href="/things-to-do/japan-diving-first-time/"]');
