@@ -1,12 +1,6 @@
 name: V81-V120 Tokyo 40 professional guides and city destination
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/v81-v120-tokyo-publish.yml'
-      - 'scripts/v81_v120_tokyo_topics.mjs'
-      - 'scripts/v81_v120_tokyo_publish.py'
-      - 'scripts/v81_tokyo_real_photo.py'
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
