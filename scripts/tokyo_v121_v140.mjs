@@ -1,0 +1,222 @@
+export const batch = [
+  {
+    "version": 121,
+    "slug": "shinjuku-exits",
+    "title": "신주쿠역 동·서·남쪽 출구와 버스터미널",
+    "zone": "신주쿠",
+    "insight": "동쪽 가부키초·서쪽 도청·남쪽 바스타 신주쿠의 방향이 다르다.",
+    "action": "JR·도에이·메트로·게이오·오다큐 개찰구부터 정하고 목적 건물 출구를 찾아라.",
+    "warning": "출구를 잘못 고르면 역내 이동이 크게 늘어난다.",
+    "official": "https://www.gotokyo.org/en/destinations/western-tokyo/shinjuku/index.html",
+    "category": "교통·역별"
+  },
+  {
+    "version": 122,
+    "slug": "shibuya-hachiko-miyamasuzaka",
+    "title": "시부야역 하치코·미야마스자카·신남출구 안내",
+    "zone": "시부야",
+    "insight": "하치코 쪽은 스크램블 교차로, 미야마스자카는 동쪽 상권이다.",
+    "action": "시부야 스카이와 메가돈키 방문을 한 경로로 묶되 실제 건물 입구를 구분한다.",
+    "warning": "대형 역사 공사로 연결 통로가 바뀔 수 있다.",
+    "official": "https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html",
+    "category": "교통·역별"
+  },
+  {
+    "version": 123,
+    "slug": "tokyo-keiyo-platform",
+    "title": "도쿄역 게이요선·마루노우치·야에스 환승",
+    "zone": "도쿄역",
+    "insight": "게이요선 승강장은 일반 JR 중앙 개찰구보다 내부 이동 거리가 길다.",
+    "action": "디즈니행 마이하마 열차 전에 게이요선 환승 통로와 출발 시간을 별도로 잡는다.",
+    "warning": "짐이 무겁거나 짧은 신칸센 환승에는 시간 여유가 필요하다.",
+    "official": "https://www.jreast.co.jp/e/",
+    "category": "교통·역별"
+  },
+  {
+    "version": 124,
+    "slug": "ikebukuro-east-west",
+    "title": "이케부쿠로역 동·서쪽 출구와 백화점",
+    "zone": "이케부쿠로",
+    "insight": "동쪽 세이부·선샤인시티와 서쪽 도부 백화점의 동선이 다르다.",
+    "action": "목적 백화점 위치를 먼저 정하고 메트로·JR·사철의 출구를 맞춘다.",
+    "warning": "선샤인 수족관은 역사 안 시설이 아닌 유료 관광지다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·역별"
+  },
+  {
+    "version": 125,
+    "slug": "ginza-three-lines",
+    "title": "긴자역 G·M·H 환승과 백화점 출구",
+    "zone": "긴자",
+    "insight": "긴자선·마루노우치선·히비야선이 환승하지만 마쓰야·미쓰코시는 별도 출구 방향이다.",
+    "action": "백화점 지하 식품관을 먼저 방문한다면 지상 입구와 B1 매장 위치를 확인한다.",
+    "warning": "JR 유라쿠초와 긴자 지하철은 같은 개찰구가 아니다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·역별"
+  },
+  {
+    "version": 126,
+    "slug": "asakusa-operators",
+    "title": "아사쿠사역 네 개 철도·센소지 접근",
+    "zone": "아사쿠사",
+    "insight": "도쿄메트로·도에이·도부·츠쿠바익스프레스의 아사쿠사역 위치가 다르다.",
+    "action": "가미나리몬 출발 후 센소지·나카미세를 한 권역에서 보고 스카이트리는 별도 이동한다.",
+    "warning": "츠쿠바익스프레스 역은 가미나리몬과 더 떨어질 수 있다.",
+    "official": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+    "category": "교통·역별"
+  },
+  {
+    "version": 127,
+    "slug": "ueno-park-ameyoko",
+    "title": "우에노 공원 출구·아메요코·JR 개찰구",
+    "zone": "우에노",
+    "insight": "공원구치 쪽은 박물관·동물원, 아메요코는 다른 역 출구가 편하다.",
+    "action": "박물관 방문과 아메요코 쇼핑의 순서를 정하고 입장 예약을 우선한다.",
+    "warning": "공원 면적이 넓어 역 출구를 잘못 고르면 상당히 걷는다.",
+    "official": "https://www.gotokyo.org/en/destinations/northern-tokyo/ueno/index.html",
+    "category": "교통·역별"
+  },
+  {
+    "version": 128,
+    "slug": "otemachi-transfer-five",
+    "title": "오테마치 5개 지하철 환승 길찾기",
+    "zone": "오테마치",
+    "insight": "마루노우치·도자이·치요다·한조몬·도에이 미타선이 만나는 큰 지하역이다.",
+    "action": "환승 노선기호를 먼저 찾고 목적지 출구까지 안내판을 따라 이동한다.",
+    "warning": "동일역 환승이라도 도보 시간이 짧다는 보장이 없다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·역별"
+  },
+  {
+    "version": 129,
+    "slug": "kasumigaseki-government",
+    "title": "가스미가세키역 관공서·히비야 출구",
+    "zone": "가스미가세키",
+    "insight": "마루노우치·히비야·치요다선 환승점이며 관공서 밀집 구역으로 연결된다.",
+    "action": "도쿄타워 방문이라면 가미야초역 등 대체 목적지역도 지도에서 비교한다.",
+    "warning": "행사·통제에 따라 일부 역 출입구가 막힐 수 있다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·역별"
+  },
+  {
+    "version": 130,
+    "slug": "roppongi-museum-exits",
+    "title": "롯폰기역 미드타운·롯폰기힐스 출구",
+    "zone": "롯폰기",
+    "insight": "도에이 오에도선과 히비야선의 지하층이 다르고 두 상업시설도 다른 장소다.",
+    "action": "미술관·전망대 입장할 시설을 먼저 선택해 해당 출구를 사용한다.",
+    "warning": "도쿄타워를 롯폰기역 바로 옆 시설로 취급하지 않는다.",
+    "official": "https://www.gotokyo.org/en/destinations/southern-tokyo/roppongi/index.html",
+    "category": "교통·역별"
+  },
+  {
+    "version": 131,
+    "slug": "omotesando-three-subways",
+    "title": "오모테산도역 G·C·Z와 하라주쿠 이동",
+    "zone": "오모테산도",
+    "insight": "긴자·치요다·한조몬선이 지나며 하라주쿠 다케시타와 거리가 있다.",
+    "action": "부티크·건축물 관광은 오모테산도역부터 시작하고 하라주쿠는 별도 구역으로 연계한다.",
+    "warning": "고급 브랜드 입점·재고는 수시로 변동한다.",
+    "official": "https://www.gotokyo.org/en/destinations/western-tokyo/aoyama-and-omotesando/index.html",
+    "category": "교통·역별"
+  },
+  {
+    "version": 132,
+    "slug": "akasaka-nagatacho-connection",
+    "title": "아카사카미쓰케·나가타초 연결역 환승",
+    "zone": "나가타초",
+    "insight": "아카사카미쓰케와 나가타초는 이름이 달라도 지하 환승 통로가 연결된다.",
+    "action": "유라쿠초·한조몬·난보쿠·긴자·마루노우치선의 정확한 승강장을 찾는다.",
+    "warning": "아카사카역(치요다선)은 아카사카미쓰케역과 다른 역이다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·역별"
+  },
+  {
+    "version": 133,
+    "slug": "kudanshita-budokan",
+    "title": "구단시타역 무도관·치도리가후치 벚꽃",
+    "zone": "구단시타",
+    "insight": "도자이·한조몬·신주쿠선이 만나고 기타노마루공원으로 접근한다.",
+    "action": "일본무도관 행사 일정과 치도리가후치 산책을 같은 권역으로 묶는다.",
+    "warning": "벚꽃철·콘서트 혼잡 시 출입구와 보행로가 제한될 수 있다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·역별"
+  },
+  {
+    "version": 134,
+    "slug": "kanda-jr-ginza-transfer",
+    "title": "간다역 JR·긴자선 환승과 직장인 맛집",
+    "zone": "간다",
+    "insight": "JR 중앙·야마노테·게이힌도호쿠와 긴자선 연결이 가능한 역이다.",
+    "action": "도쿄역에서 한 정거장 전후로 이동할 때 환승 게이트 위치와 식당가 출구를 확인한다.",
+    "warning": "출퇴근 인파 시간에는 캐리어 이동이 쉽지 않을 수 있다.",
+    "official": "https://www.jreast.co.jp/e/",
+    "category": "교통·역별"
+  },
+  {
+    "version": 135,
+    "slug": "nippori-skyliner-jr",
+    "title": "닛포리역 스카이라이너·JR 환승·야나카",
+    "zone": "닛포리",
+    "insight": "나리타 스카이라이너와 JR 야마노테선이 환승하는 역이다.",
+    "action": "공항 특급 좌석권과 JR 요금을 따로 준비하고 야나카 방문은 서쪽 출구로 이동한다.",
+    "warning": "스카이라이너는 도쿄역 직행 열차가 아니다.",
+    "official": "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/",
+    "category": "교통·역별"
+  },
+  {
+    "version": 136,
+    "slug": "akihabara-station-gates",
+    "title": "아키하바라 JR 전기가이·히비야선 출구",
+    "zone": "아키하바라",
+    "insight": "JR 전기가이 출구와 히비야선·츠쿠바익스프레스의 출입구는 방향이 다르다.",
+    "action": "전자제품 구매 후 공항 이동이 있다면 엘리베이터와 짐 보관을 먼저 확인한다.",
+    "warning": "전자기기 국제보증·전압은 구매 전에 점검한다.",
+    "official": "https://www.gotokyo.org/en/",
+    "category": "교통·역별"
+  },
+  {
+    "version": 137,
+    "slug": "tsukiji-two-stations",
+    "title": "쓰키지역·쓰키지시조역 다른 출구",
+    "zone": "쓰키지",
+    "insight": "히비야선 쓰키지역과 도에이 오에도선 쓰키지시조역은 서로 다른 위치에 있다.",
+    "action": "장외시장 아침식사 후 긴자로 이동하고 도요스 도매시장은 별도 일정을 잡는다.",
+    "warning": "시장 휴무일과 식당 개별 휴무일은 다를 수 있다.",
+    "official": "https://www.tsukiji.or.jp/english/",
+    "category": "교통·역별"
+  },
+  {
+    "version": 138,
+    "slug": "toyosu-shijomae-travel",
+    "title": "도요스역·시조마에역 팀랩·시장 이동",
+    "zone": "도요스",
+    "insight": "도요스역과 유리카모메 시조마에·신토요스는 관광 목적지가 다르다.",
+    "action": "도요스시장과 팀랩 플래닛 중 먼저 예약한 장소를 기준으로 역을 고른다.",
+    "warning": "도요스역 자체가 모든 시설의 입구는 아니다.",
+    "official": "https://www.yurikamome.co.jp/en/",
+    "category": "교통·역별"
+  },
+  {
+    "version": 139,
+    "slug": "oshiage-skytree-access",
+    "title": "오시아게·도쿄스카이트리역 전망대 입구",
+    "zone": "오시아게",
+    "insight": "오시아게역과 도부 도쿄스카이트리역은 스카이트리타운으로 이어지지만 서로 다른 역이다.",
+    "action": "350m·450m 전망대 티켓 구분 뒤 가장 가까운 쇼핑·입장 층을 찾는다.",
+    "warning": "공항 직통열차는 운행시간·행선지마다 다르다.",
+    "official": "https://www.tokyo-skytree.jp/",
+    "category": "교통·역별"
+  },
+  {
+    "version": 140,
+    "slug": "shinagawa-keikyu-jr",
+    "title": "시나가와역 게이큐·JR·신칸센 환승",
+    "zone": "시나가와",
+    "insight": "JR·게이큐·신칸센 환승 거점이며 도쿄메트로역은 아니다.",
+    "action": "하네다공항은 게이큐, 도심은 JR 연결을 비교하고 실제 승강장·개찰구를 확인한다.",
+    "warning": "크루즈 도쿄항 부두와 시나가와역을 같은 장소로 보지 않는다.",
+    "official": "https://www.jreast.co.jp/e/",
+    "category": "교통·역별"
+  }
+];
