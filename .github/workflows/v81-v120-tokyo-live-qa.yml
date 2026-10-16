@@ -1,0 +1,48 @@
+name: V81-V120 published Tokyo guides and photo audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v81-v120-tokyo-live-qa.yml'
+      - 'scripts/v81_v120_tokyo_live_qa.mjs'
+permissions:
+  contents: write
+jobs:
+  verify-tokyo-public:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Check 40 Tokyo articles, city directory, homepage and city photo
+        id: qa
+        continue-on-error: true
+        run: node scripts/v81_v120_tokyo_live_qa.mjs
+      - name: Preserve live deployment proof
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v81-v120-tokyo-43-public-pages-live
+          path: audit-reports/v81-v120/live-production.json
+          retention-days: 25
+          if-no-files-found: warn
+      - name: Commit independent public-site checks
+        if: always()
+        run: |
+          test -f audit-reports/v81-v120/live-production.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v81-v120/live-production.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V81-V120: document deployed Tokyo articles, 8-city homepage and real photo"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 4
+          done
+          exit 1
+      - name: Fail on missing production changes
+        if: steps.qa.outcome != 'success'
+        run: exit 1
