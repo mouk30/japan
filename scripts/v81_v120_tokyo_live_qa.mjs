@@ -17,6 +17,8 @@ async function inspect(p){
   if(p.type==='home'&&!html.includes('class="v65-card v81-tokyo"'))result.issues.push('Tokyo not in popular city carousel');
   if(p.type==='directory'&&!html.includes('href="/japan/tokyo/"'))result.issues.push('Tokyo absent from Japan city hub');
   if(p.type==='detail'&&(!html.includes('id="official"')||!html.includes('id="plan"')||!html.includes('application/ld+json')))result.issues.push('Official links, route or schema missing');
+  if(p.type==='detail'&&(html.includes('https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html')||html.includes('https://www.shijou.metro.tokyo.lg.jp/english/')))result.issues.push('Historic 404 official link not repaired');
+  if(p.path.includes('tokyo-toyosu-market-auction-guide')&&!html.includes('2026년 10월 24일'))result.issues.push('Toyosu official special-date notice missing');
  }catch(e){result.issues.push(String(e).slice(0,180))}
  return result;
 }
