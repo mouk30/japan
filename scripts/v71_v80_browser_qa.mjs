@@ -20,6 +20,12 @@ for(const [v,cohort] of Object.entries(manifest.cohorts)){
    if((html.match(/class="nf-q80-card"/g)||[]).length!==3)report.errors.push(slug+' must have three official-source cards');
    if(!html.includes('https://www.nipponferry.com/things-to-do/'+slug+'/'))report.errors.push(slug+' missing original Canonical');
    if(!html.includes('href="/v71-v80-quality.css"'))report.errors.push(slug+' missing shared CSS reference');
+   if(['okinawa-shuri-castle','okinawa-shuri-castle-heritage','okinawa-churaumi-aquarium','okinawa-whale-shark-aquarium'].includes(slug)){
+     if(!html.includes('class="nf-q80-dated"'))report.errors.push(slug+' missing date-specific official visitor notice');
+     if(!html.includes('https://oki-park.jp/shurijo/')&&!html.includes('https://www.churaumi.okinawa/sp/kr/guide/hour/'))report.errors.push(slug+' missing dated attraction operator source');
+   }
+   if(slug==='aomori-port-nebuta-day-trip'&&html.includes('0420_01_kuruzu.pdf'))report.errors.push(slug+' still links to broken historic PDF');
+
    if(html.includes('target="_blank" rel="noopener noreferrer"')===false)report.warnings.push(slug+' no external references');
    if(html.includes('AI 생성')&&!html.includes('AI 여행 참고 이미지'))report.warnings.push(slug+' check photo labeling');
    if(!manifest.pages.find(p=>p.slug===slug)?.originalExternalReference)report.sourceTypes.portal++;else report.sourceTypes.individual++;
