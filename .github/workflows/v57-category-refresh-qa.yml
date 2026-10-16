@@ -4,6 +4,13 @@ on:
     branches: [main]
     paths:
       - .github/workflows/v57-category-refresh-qa.yml
+      - scripts/v57_category_browser_qa.mjs
+      - site/things-to-do/index.html
+      - site/things-to-do/onsen/index.html
+      - site/things-to-do/nature/index.html
+      - site/things-to-do/activity/index.html
+      - site/things-to-do/food-experience/index.html
+      - site/things-to-do/seasonal/index.html
 permissions:
   contents: write
 jobs:
