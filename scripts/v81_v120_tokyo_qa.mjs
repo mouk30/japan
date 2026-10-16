@@ -19,6 +19,7 @@ for(const entry of entries){
   if(!src.includes('application/ld+json'))report.errors.push('Missing Article schema '+entry.uri);
   for(const val of entry.sources)if(!src.includes(val))report.errors.push('Source missing '+entry.uri+' '+val);
   if(!src.includes('id="official"')||!src.includes('id="plan"'))report.errors.push('Missing direct source or travel route '+entry.uri);
+  if(entry.uri.includes('tokyo-toyosu-market-auction-guide')&&!src.includes('2026년 10월 24일'))report.errors.push('Toyosu temporary October 24 visitor restriction missing');
  }
  for(const match of src.matchAll(/href=["']([^"']+)["']/g)){
   const u=match[1].split('#')[0].split('?')[0];
