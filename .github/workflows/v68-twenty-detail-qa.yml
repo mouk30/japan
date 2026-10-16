@@ -1,0 +1,54 @@
+name: V68 20 existing details 80 viewport quality QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v68-twenty-detail-qa.yml
+      - scripts/v68_twenty_detail_qa.mjs
+permissions:
+  contents: write
+jobs:
+  audit-v68:
+    runs-on: ubuntu-latest
+    timeout-minutes: 29
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Audit 20 articles at 320 390 768 1440 pixels
+        id: check
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8757 --directory site --bind 127.0.0.1 > /tmp/v68-server.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          node scripts/v68_twenty_detail_qa.mjs
+      - name: Upload screenshot and source audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v68-twenty-articles-source-and-mobile
+          path: audit-reports/v68/
+          retention-days: 21
+          if-no-files-found: warn
+      - name: Commit passing report
+        if: steps.check.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v68/details-qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V68: pass 80 mobile tablet desktop checks for 20 existing pages"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Reject errors
+        if: steps.check.outcome != 'success'
+        run: exit 1
