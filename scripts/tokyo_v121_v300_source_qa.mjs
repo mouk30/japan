@@ -6,7 +6,7 @@ for(const t of manifest.topics){
  sources.get(t.source).push({v:t.version,slug:t.slug});
 }
 const arr=[...sources.entries()];
-const report={checkedAt:new Date().toISOString(),sourceCount:arr.length,reachable:0,notFound:0,restricted:0,unconfirmed:0,links:[],passed:false};
+const report={auditScope:'Final edited Tokyo official source set (Disney ticket 404 repaired)',checkedAt:new Date().toISOString(),sourceCount:arr.length,reachable:0,notFound:0,restricted:0,unconfirmed:0,links:[],passed:false};
 for(let i=0;i<arr.length;i+=12){
  const results=await Promise.all(arr.slice(i,i+12).map(async ([url,articles])=>{
   let status=0,state='unknown',finalUrl='',error='';
