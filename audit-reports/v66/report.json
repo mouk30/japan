@@ -1,0 +1,632 @@
+{
+  "createdAt": "2026-10-16T12:17:44.851Z",
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "results": [
+    {
+      "name": "themes",
+      "width": 320,
+      "count": 6,
+      "images": [
+        {
+          "src": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "alt": "일본 야타이 음식 문화의 이해를 돕는 참고 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/naha-kokusai-street.webp",
+          "alt": "오키나와 나하 국제거리 실제 상점가 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/culture-verified/hanabi-japanese-fireworks-summer.webp",
+          "alt": "여름 일본 불꽃놀이를 보여주는 여행 주제 참고 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/kobe-meriken-park-night.webp",
+          "alt": "고베 메리켄파크의 실제 야경과 항구 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/yokohama-redbrick-waterfront.webp",
+          "alt": "요코하마 붉은벽돌 창고 앞 해안 산책로 실제 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+          "alt": "일본 편의점 이용 방식 참고 이미지",
+          "ready": true
+        }
+      ],
+      "linkCount": 31,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "themes-320.png"
+    },
+    {
+      "name": "practical",
+      "width": 320,
+      "count": 5,
+      "images": [
+        {
+          "src": "/images/cash.jpg",
+          "alt": "일본 여행 현금과 결제 수단을 설명하는 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/culture-verified/japanese-local-train-one-man.webp",
+          "alt": "일본 지역 철도 이용 방식 참고 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/esim.jpg",
+          "alt": "일본 여행 스마트폰 eSIM 통신 준비를 설명하는 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/convenience.jpg",
+          "alt": "일본 편의점 및 소형 마트 이용 안내 이미지",
+          "ready": true
+        },
+        {
+          "src": "/stay/assets/ryokan.jpg",
+          "alt": "일본 전통 료칸 숙박 공간 참고 이미지",
+          "ready": true
+        }
+      ],
+      "linkCount": 21,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "practical-320.png"
+    },
+    {
+      "name": "destinations",
+      "width": 320,
+      "count": 7,
+      "images": [
+        {
+          "src": "/images/venues/naha-shureimon.webp",
+          "alt": "오키나와 나하 슈레이몬 역사 유적의 실제 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/fukuoka-tower.webp",
+          "alt": "후쿠오카 타워의 실제 외관과 전망 명소 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
+          "alt": "오사카 덴포잔 가이유칸 수족관의 실제 시설 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-karato-market-real.webp",
+          "alt": "2023년 현장 촬영한 시모노세키 가라토시장 외관 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-izuhara-port-real.webp",
+          "alt": "대마도 이즈하라항 실제 여객선 터미널 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/kobe-kitano-weathercock.webp",
+          "alt": "고베 기타노 이진칸 거리의 풍향계의 집 실제 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/hakodate-goryokaku-tower.webp",
+          "alt": "홋카이도 하코다테 고료카쿠 타워 실제 사진",
+          "ready": true
+        }
+      ],
+      "linkCount": 22,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "destinations-320.png"
+    },
+    {
+      "name": "port-day-trips",
+      "width": 320,
+      "count": 4,
+      "images": [
+        {
+          "src": "/images/venues/fukuoka-ohori-park.webp",
+          "alt": "후쿠오카 오호리공원의 호수와 산책로",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/osaka-dotonbori.webp",
+          "alt": "오사카 도톤보리의 상징적인 거리와 간판 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-karato-market-real.webp",
+          "alt": "2023년 실제 촬영된 시모노세키 가라토시장 외관",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-izuhara-port-real.webp",
+          "alt": "2017년 실제 촬영된 대마도 이즈하라 여객선 항구 터미널",
+          "ready": true
+        }
+      ],
+      "linkCount": 23,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "port-day-trips-320.png"
+    },
+    {
+      "name": "themes",
+      "width": 390,
+      "count": 6,
+      "images": [
+        {
+          "src": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "alt": "일본 야타이 음식 문화의 이해를 돕는 참고 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/naha-kokusai-street.webp",
+          "alt": "오키나와 나하 국제거리 실제 상점가 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/culture-verified/hanabi-japanese-fireworks-summer.webp",
+          "alt": "여름 일본 불꽃놀이를 보여주는 여행 주제 참고 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/kobe-meriken-park-night.webp",
+          "alt": "고베 메리켄파크의 실제 야경과 항구 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/yokohama-redbrick-waterfront.webp",
+          "alt": "요코하마 붉은벽돌 창고 앞 해안 산책로 실제 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+          "alt": "일본 편의점 이용 방식 참고 이미지",
+          "ready": true
+        }
+      ],
+      "linkCount": 31,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "themes-390.png"
+    },
+    {
+      "name": "practical",
+      "width": 390,
+      "count": 5,
+      "images": [
+        {
+          "src": "/images/cash.jpg",
+          "alt": "일본 여행 현금과 결제 수단을 설명하는 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/culture-verified/japanese-local-train-one-man.webp",
+          "alt": "일본 지역 철도 이용 방식 참고 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/esim.jpg",
+          "alt": "일본 여행 스마트폰 eSIM 통신 준비를 설명하는 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/convenience.jpg",
+          "alt": "일본 편의점 및 소형 마트 이용 안내 이미지",
+          "ready": true
+        },
+        {
+          "src": "/stay/assets/ryokan.jpg",
+          "alt": "일본 전통 료칸 숙박 공간 참고 이미지",
+          "ready": true
+        }
+      ],
+      "linkCount": 21,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "practical-390.png"
+    },
+    {
+      "name": "destinations",
+      "width": 390,
+      "count": 7,
+      "images": [
+        {
+          "src": "/images/venues/naha-shureimon.webp",
+          "alt": "오키나와 나하 슈레이몬 역사 유적의 실제 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/fukuoka-tower.webp",
+          "alt": "후쿠오카 타워의 실제 외관과 전망 명소 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
+          "alt": "오사카 덴포잔 가이유칸 수족관의 실제 시설 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-karato-market-real.webp",
+          "alt": "2023년 현장 촬영한 시모노세키 가라토시장 외관 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-izuhara-port-real.webp",
+          "alt": "대마도 이즈하라항 실제 여객선 터미널 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/kobe-kitano-weathercock.webp",
+          "alt": "고베 기타노 이진칸 거리의 풍향계의 집 실제 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/hakodate-goryokaku-tower.webp",
+          "alt": "홋카이도 하코다테 고료카쿠 타워 실제 사진",
+          "ready": true
+        }
+      ],
+      "linkCount": 22,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "destinations-390.png"
+    },
+    {
+      "name": "port-day-trips",
+      "width": 390,
+      "count": 4,
+      "images": [
+        {
+          "src": "/images/venues/fukuoka-ohori-park.webp",
+          "alt": "후쿠오카 오호리공원의 호수와 산책로",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/osaka-dotonbori.webp",
+          "alt": "오사카 도톤보리의 상징적인 거리와 간판 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-karato-market-real.webp",
+          "alt": "2023년 실제 촬영된 시모노세키 가라토시장 외관",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-izuhara-port-real.webp",
+          "alt": "2017년 실제 촬영된 대마도 이즈하라 여객선 항구 터미널",
+          "ready": true
+        }
+      ],
+      "linkCount": 23,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "port-day-trips-390.png"
+    },
+    {
+      "name": "themes",
+      "width": 768,
+      "count": 6,
+      "images": [
+        {
+          "src": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "alt": "일본 야타이 음식 문화의 이해를 돕는 참고 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/naha-kokusai-street.webp",
+          "alt": "오키나와 나하 국제거리 실제 상점가 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/culture-verified/hanabi-japanese-fireworks-summer.webp",
+          "alt": "여름 일본 불꽃놀이를 보여주는 여행 주제 참고 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/kobe-meriken-park-night.webp",
+          "alt": "고베 메리켄파크의 실제 야경과 항구 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/yokohama-redbrick-waterfront.webp",
+          "alt": "요코하마 붉은벽돌 창고 앞 해안 산책로 실제 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+          "alt": "일본 편의점 이용 방식 참고 이미지",
+          "ready": true
+        }
+      ],
+      "linkCount": 31,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "themes-768.png"
+    },
+    {
+      "name": "practical",
+      "width": 768,
+      "count": 5,
+      "images": [
+        {
+          "src": "/images/cash.jpg",
+          "alt": "일본 여행 현금과 결제 수단을 설명하는 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/culture-verified/japanese-local-train-one-man.webp",
+          "alt": "일본 지역 철도 이용 방식 참고 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/esim.jpg",
+          "alt": "일본 여행 스마트폰 eSIM 통신 준비를 설명하는 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/convenience.jpg",
+          "alt": "일본 편의점 및 소형 마트 이용 안내 이미지",
+          "ready": true
+        },
+        {
+          "src": "/stay/assets/ryokan.jpg",
+          "alt": "일본 전통 료칸 숙박 공간 참고 이미지",
+          "ready": true
+        }
+      ],
+      "linkCount": 21,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "practical-768.png"
+    },
+    {
+      "name": "destinations",
+      "width": 768,
+      "count": 7,
+      "images": [
+        {
+          "src": "/images/venues/naha-shureimon.webp",
+          "alt": "오키나와 나하 슈레이몬 역사 유적의 실제 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/fukuoka-tower.webp",
+          "alt": "후쿠오카 타워의 실제 외관과 전망 명소 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
+          "alt": "오사카 덴포잔 가이유칸 수족관의 실제 시설 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-karato-market-real.webp",
+          "alt": "2023년 현장 촬영한 시모노세키 가라토시장 외관 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-izuhara-port-real.webp",
+          "alt": "대마도 이즈하라항 실제 여객선 터미널 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/kobe-kitano-weathercock.webp",
+          "alt": "고베 기타노 이진칸 거리의 풍향계의 집 실제 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/hakodate-goryokaku-tower.webp",
+          "alt": "홋카이도 하코다테 고료카쿠 타워 실제 사진",
+          "ready": true
+        }
+      ],
+      "linkCount": 22,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "destinations-768.png"
+    },
+    {
+      "name": "port-day-trips",
+      "width": 768,
+      "count": 4,
+      "images": [
+        {
+          "src": "/images/venues/fukuoka-ohori-park.webp",
+          "alt": "후쿠오카 오호리공원의 호수와 산책로",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/osaka-dotonbori.webp",
+          "alt": "오사카 도톤보리의 상징적인 거리와 간판 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-karato-market-real.webp",
+          "alt": "2023년 실제 촬영된 시모노세키 가라토시장 외관",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-izuhara-port-real.webp",
+          "alt": "2017년 실제 촬영된 대마도 이즈하라 여객선 항구 터미널",
+          "ready": true
+        }
+      ],
+      "linkCount": 23,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "port-day-trips-768.png"
+    },
+    {
+      "name": "themes",
+      "width": 1440,
+      "count": 6,
+      "images": [
+        {
+          "src": "/images/culture-verified/yatai-japanese-food-stalls.webp",
+          "alt": "일본 야타이 음식 문화의 이해를 돕는 참고 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/naha-kokusai-street.webp",
+          "alt": "오키나와 나하 국제거리 실제 상점가 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/culture-verified/hanabi-japanese-fireworks-summer.webp",
+          "alt": "여름 일본 불꽃놀이를 보여주는 여행 주제 참고 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/kobe-meriken-park-night.webp",
+          "alt": "고베 메리켄파크의 실제 야경과 항구 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/yokohama-redbrick-waterfront.webp",
+          "alt": "요코하마 붉은벽돌 창고 앞 해안 산책로 실제 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+          "alt": "일본 편의점 이용 방식 참고 이미지",
+          "ready": true
+        }
+      ],
+      "linkCount": 31,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "themes-1440.png"
+    },
+    {
+      "name": "practical",
+      "width": 1440,
+      "count": 5,
+      "images": [
+        {
+          "src": "/images/cash.jpg",
+          "alt": "일본 여행 현금과 결제 수단을 설명하는 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/culture-verified/japanese-local-train-one-man.webp",
+          "alt": "일본 지역 철도 이용 방식 참고 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/esim.jpg",
+          "alt": "일본 여행 스마트폰 eSIM 통신 준비를 설명하는 이미지",
+          "ready": true
+        },
+        {
+          "src": "/images/convenience.jpg",
+          "alt": "일본 편의점 및 소형 마트 이용 안내 이미지",
+          "ready": true
+        },
+        {
+          "src": "/stay/assets/ryokan.jpg",
+          "alt": "일본 전통 료칸 숙박 공간 참고 이미지",
+          "ready": true
+        }
+      ],
+      "linkCount": 21,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "practical-1440.png"
+    },
+    {
+      "name": "destinations",
+      "width": 1440,
+      "count": 7,
+      "images": [
+        {
+          "src": "/images/venues/naha-shureimon.webp",
+          "alt": "오키나와 나하 슈레이몬 역사 유적의 실제 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/fukuoka-tower.webp",
+          "alt": "후쿠오카 타워의 실제 외관과 전망 명소 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
+          "alt": "오사카 덴포잔 가이유칸 수족관의 실제 시설 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-karato-market-real.webp",
+          "alt": "2023년 현장 촬영한 시모노세키 가라토시장 외관 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-izuhara-port-real.webp",
+          "alt": "대마도 이즈하라항 실제 여객선 터미널 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/kobe-kitano-weathercock.webp",
+          "alt": "고베 기타노 이진칸 거리의 풍향계의 집 실제 사진",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/hakodate-goryokaku-tower.webp",
+          "alt": "홋카이도 하코다테 고료카쿠 타워 실제 사진",
+          "ready": true
+        }
+      ],
+      "linkCount": 22,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "destinations-1440.png"
+    },
+    {
+      "name": "port-day-trips",
+      "width": 1440,
+      "count": 4,
+      "images": [
+        {
+          "src": "/images/venues/fukuoka-ohori-park.webp",
+          "alt": "후쿠오카 오호리공원의 호수와 산책로",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/osaka-dotonbori.webp",
+          "alt": "오사카 도톤보리의 상징적인 거리와 간판 풍경",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-karato-market-real.webp",
+          "alt": "2023년 실제 촬영된 시모노세키 가라토시장 외관",
+          "ready": true
+        },
+        {
+          "src": "/images/venues/v62-izuhara-port-real.webp",
+          "alt": "2017년 실제 촬영된 대마도 이즈하라 여객선 항구 터미널",
+          "ready": true
+        }
+      ],
+      "linkCount": 23,
+      "buttonsOverflow": [],
+      "failures": [],
+      "screenshot": "port-day-trips-1440.png"
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "source": "site/index.html",
+  "checkedInternalLinks": 82,
+  "passed": true
+}
