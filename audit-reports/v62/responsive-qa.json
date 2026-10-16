@@ -1,0 +1,567 @@
+{
+  "generatedAt": "2026-10-16T11:20:05.710Z",
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "pages": [
+    {
+      "page": "home",
+      "width": 320,
+      "cards": 4,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 320,
+      "scrollWidth": 320,
+      "imagePaths": [
+        "/images/venues/fukuoka-ohori-park.webp",
+        "/images/venues/osaka-dotonbori.webp",
+        "/images/venues/v62-karato-market-real.webp",
+        "/images/venues/v62-izuhara-port-real.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/",
+      "hrefs": [
+        "/things-to-do/fukuoka-one-day/",
+        "/things-to-do/fukuoka-one-day/",
+        "/things-to-do/fukuoka-one-day/",
+        "/fukuoka-arrival-first-3-hours/",
+        "/japan/fukuoka-food/",
+        "/things-to-do/osaka-one-day/",
+        "/things-to-do/osaka-one-day/",
+        "/things-to-do/osaka-one-day/",
+        "/japan/osaka/",
+        "/practical/japan-theme-park-guide/",
+        "/things-to-do/shimonoseki-one-day/",
+        "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+        "/things-to-do/shimonoseki-one-day/",
+        "/things-to-do/shimonoseki-one-day/",
+        "/japan/shimonoseki-market/",
+        "/things-to-do/shimonoseki-cruise-port-day-trip/",
+        "/things-to-do/tsushima-one-day/",
+        "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+        "/things-to-do/tsushima-one-day/",
+        "/things-to-do/tsushima-one-day/",
+        "/tsushima-hitakatsu-vs-izuhara/",
+        "/japan/tsushima-food/"
+      ],
+      "screenshot": "audit-reports/v62/home-320.png",
+      "errors": []
+    },
+    {
+      "page": "home",
+      "width": 390,
+      "cards": 4,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "imagePaths": [
+        "/images/venues/fukuoka-ohori-park.webp",
+        "/images/venues/osaka-dotonbori.webp",
+        "/images/venues/v62-karato-market-real.webp",
+        "/images/venues/v62-izuhara-port-real.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/",
+      "hrefs": [
+        "/things-to-do/fukuoka-one-day/",
+        "/things-to-do/fukuoka-one-day/",
+        "/things-to-do/fukuoka-one-day/",
+        "/fukuoka-arrival-first-3-hours/",
+        "/japan/fukuoka-food/",
+        "/things-to-do/osaka-one-day/",
+        "/things-to-do/osaka-one-day/",
+        "/things-to-do/osaka-one-day/",
+        "/japan/osaka/",
+        "/practical/japan-theme-park-guide/",
+        "/things-to-do/shimonoseki-one-day/",
+        "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+        "/things-to-do/shimonoseki-one-day/",
+        "/things-to-do/shimonoseki-one-day/",
+        "/japan/shimonoseki-market/",
+        "/things-to-do/shimonoseki-cruise-port-day-trip/",
+        "/things-to-do/tsushima-one-day/",
+        "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+        "/things-to-do/tsushima-one-day/",
+        "/things-to-do/tsushima-one-day/",
+        "/tsushima-hitakatsu-vs-izuhara/",
+        "/japan/tsushima-food/"
+      ],
+      "screenshot": "audit-reports/v62/home-390.png",
+      "errors": []
+    },
+    {
+      "page": "home",
+      "width": 768,
+      "cards": 4,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 768,
+      "scrollWidth": 768,
+      "imagePaths": [
+        "/images/venues/fukuoka-ohori-park.webp",
+        "/images/venues/osaka-dotonbori.webp",
+        "/images/venues/v62-karato-market-real.webp",
+        "/images/venues/v62-izuhara-port-real.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/",
+      "hrefs": [
+        "/things-to-do/fukuoka-one-day/",
+        "/things-to-do/fukuoka-one-day/",
+        "/things-to-do/fukuoka-one-day/",
+        "/fukuoka-arrival-first-3-hours/",
+        "/japan/fukuoka-food/",
+        "/things-to-do/osaka-one-day/",
+        "/things-to-do/osaka-one-day/",
+        "/things-to-do/osaka-one-day/",
+        "/japan/osaka/",
+        "/practical/japan-theme-park-guide/",
+        "/things-to-do/shimonoseki-one-day/",
+        "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+        "/things-to-do/shimonoseki-one-day/",
+        "/things-to-do/shimonoseki-one-day/",
+        "/japan/shimonoseki-market/",
+        "/things-to-do/shimonoseki-cruise-port-day-trip/",
+        "/things-to-do/tsushima-one-day/",
+        "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+        "/things-to-do/tsushima-one-day/",
+        "/things-to-do/tsushima-one-day/",
+        "/tsushima-hitakatsu-vs-izuhara/",
+        "/japan/tsushima-food/"
+      ],
+      "screenshot": "audit-reports/v62/home-768.png",
+      "errors": []
+    },
+    {
+      "page": "home",
+      "width": 1440,
+      "cards": 4,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "imagePaths": [
+        "/images/venues/fukuoka-ohori-park.webp",
+        "/images/venues/osaka-dotonbori.webp",
+        "/images/venues/v62-karato-market-real.webp",
+        "/images/venues/v62-izuhara-port-real.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/",
+      "hrefs": [
+        "/things-to-do/fukuoka-one-day/",
+        "/things-to-do/fukuoka-one-day/",
+        "/things-to-do/fukuoka-one-day/",
+        "/fukuoka-arrival-first-3-hours/",
+        "/japan/fukuoka-food/",
+        "/things-to-do/osaka-one-day/",
+        "/things-to-do/osaka-one-day/",
+        "/things-to-do/osaka-one-day/",
+        "/japan/osaka/",
+        "/practical/japan-theme-park-guide/",
+        "/things-to-do/shimonoseki-one-day/",
+        "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+        "/things-to-do/shimonoseki-one-day/",
+        "/things-to-do/shimonoseki-one-day/",
+        "/japan/shimonoseki-market/",
+        "/things-to-do/shimonoseki-cruise-port-day-trip/",
+        "/things-to-do/tsushima-one-day/",
+        "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+        "/things-to-do/tsushima-one-day/",
+        "/things-to-do/tsushima-one-day/",
+        "/tsushima-hitakatsu-vs-izuhara/",
+        "/japan/tsushima-food/"
+      ],
+      "screenshot": "audit-reports/v62/home-1440.png",
+      "errors": []
+    },
+    {
+      "page": "shimonoseki",
+      "width": 320,
+      "cards": 2,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 320,
+      "scrollWidth": 320,
+      "imagePaths": [
+        "/images/venues/v62-karato-market-real.webp",
+        "/images/venues/mojiko-v26b5-real-location.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/shimonoseki-one-day/",
+      "hrefs": [
+        "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+        "/japan/shimonoseki-market/",
+        "https://www.karatoichiba.com/",
+        "/things-to-do/shimonoseki-cruise-port-day-trip/",
+        "https://www.kanmon-kisen.co.jp/en/route/kanmon.html"
+      ],
+      "screenshot": "audit-reports/v62/shimonoseki-320.png",
+      "errors": []
+    },
+    {
+      "page": "shimonoseki",
+      "width": 390,
+      "cards": 2,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "imagePaths": [
+        "/images/venues/v62-karato-market-real.webp",
+        "/images/venues/mojiko-v26b5-real-location.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/shimonoseki-one-day/",
+      "hrefs": [
+        "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+        "/japan/shimonoseki-market/",
+        "https://www.karatoichiba.com/",
+        "/things-to-do/shimonoseki-cruise-port-day-trip/",
+        "https://www.kanmon-kisen.co.jp/en/route/kanmon.html"
+      ],
+      "screenshot": "audit-reports/v62/shimonoseki-390.png",
+      "errors": []
+    },
+    {
+      "page": "shimonoseki",
+      "width": 768,
+      "cards": 2,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 768,
+      "scrollWidth": 768,
+      "imagePaths": [
+        "/images/venues/v62-karato-market-real.webp",
+        "/images/venues/mojiko-v26b5-real-location.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/shimonoseki-one-day/",
+      "hrefs": [
+        "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+        "/japan/shimonoseki-market/",
+        "https://www.karatoichiba.com/",
+        "/things-to-do/shimonoseki-cruise-port-day-trip/",
+        "https://www.kanmon-kisen.co.jp/en/route/kanmon.html"
+      ],
+      "screenshot": "audit-reports/v62/shimonoseki-768.png",
+      "errors": []
+    },
+    {
+      "page": "shimonoseki",
+      "width": 1440,
+      "cards": 2,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "imagePaths": [
+        "/images/venues/v62-karato-market-real.webp",
+        "/images/venues/mojiko-v26b5-real-location.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/shimonoseki-one-day/",
+      "hrefs": [
+        "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+        "/japan/shimonoseki-market/",
+        "https://www.karatoichiba.com/",
+        "/things-to-do/shimonoseki-cruise-port-day-trip/",
+        "https://www.kanmon-kisen.co.jp/en/route/kanmon.html"
+      ],
+      "screenshot": "audit-reports/v62/shimonoseki-1440.png",
+      "errors": []
+    },
+    {
+      "page": "tsushima",
+      "width": 320,
+      "cards": 2,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 320,
+      "scrollWidth": 320,
+      "imagePaths": [
+        "/images/venues/v62-izuhara-port-real.webp",
+        "/images/food-verified/tsushima-food.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/tsushima-one-day/",
+      "hrefs": [
+        "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+        "/tsushima-hitakatsu-vs-izuhara/",
+        "https://www.discover-nagasaki.com/en/featured-topics/about-tsushima",
+        "/japan/tsushima-food/",
+        "https://www.japan.travel/en/spot/731/"
+      ],
+      "screenshot": "audit-reports/v62/tsushima-320.png",
+      "errors": []
+    },
+    {
+      "page": "tsushima",
+      "width": 390,
+      "cards": 2,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "imagePaths": [
+        "/images/venues/v62-izuhara-port-real.webp",
+        "/images/food-verified/tsushima-food.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/tsushima-one-day/",
+      "hrefs": [
+        "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+        "/tsushima-hitakatsu-vs-izuhara/",
+        "https://www.discover-nagasaki.com/en/featured-topics/about-tsushima",
+        "/japan/tsushima-food/",
+        "https://www.japan.travel/en/spot/731/"
+      ],
+      "screenshot": "audit-reports/v62/tsushima-390.png",
+      "errors": []
+    },
+    {
+      "page": "tsushima",
+      "width": 768,
+      "cards": 2,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 768,
+      "scrollWidth": 768,
+      "imagePaths": [
+        "/images/venues/v62-izuhara-port-real.webp",
+        "/images/food-verified/tsushima-food.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/tsushima-one-day/",
+      "hrefs": [
+        "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+        "/tsushima-hitakatsu-vs-izuhara/",
+        "https://www.discover-nagasaki.com/en/featured-topics/about-tsushima",
+        "/japan/tsushima-food/",
+        "https://www.japan.travel/en/spot/731/"
+      ],
+      "screenshot": "audit-reports/v62/tsushima-768.png",
+      "errors": []
+    },
+    {
+      "page": "tsushima",
+      "width": 1440,
+      "cards": 2,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "imagePaths": [
+        "/images/venues/v62-izuhara-port-real.webp",
+        "/images/food-verified/tsushima-food.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/tsushima-one-day/",
+      "hrefs": [
+        "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+        "/tsushima-hitakatsu-vs-izuhara/",
+        "https://www.discover-nagasaki.com/en/featured-topics/about-tsushima",
+        "/japan/tsushima-food/",
+        "https://www.japan.travel/en/spot/731/"
+      ],
+      "screenshot": "audit-reports/v62/tsushima-1440.png",
+      "errors": []
+    },
+    {
+      "page": "fukuoka",
+      "width": 320,
+      "cards": 3,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 320,
+      "scrollWidth": 320,
+      "imagePaths": [
+        "/images/venues/fukuoka-ohori-park.webp",
+        "/images/culture-verified/yatai-japanese-food-stalls.webp",
+        "/images/venues/fukuoka-tower.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/fukuoka-one-day/",
+      "hrefs": [
+        "/japan/fukuoka/",
+        "https://gofukuoka.jp/en/spots/detail/26825",
+        "/japan/fukuoka-food/",
+        "https://gofukuoka.jp/ko/yatai-howto.html",
+        "/fukuoka-arrival-first-3-hours/",
+        "https://www.gofukuoka.jp/todos"
+      ],
+      "screenshot": "audit-reports/v62/fukuoka-320.png",
+      "errors": []
+    },
+    {
+      "page": "fukuoka",
+      "width": 390,
+      "cards": 3,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "imagePaths": [
+        "/images/venues/fukuoka-ohori-park.webp",
+        "/images/culture-verified/yatai-japanese-food-stalls.webp",
+        "/images/venues/fukuoka-tower.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/fukuoka-one-day/",
+      "hrefs": [
+        "/japan/fukuoka/",
+        "https://gofukuoka.jp/en/spots/detail/26825",
+        "/japan/fukuoka-food/",
+        "https://gofukuoka.jp/ko/yatai-howto.html",
+        "/fukuoka-arrival-first-3-hours/",
+        "https://www.gofukuoka.jp/todos"
+      ],
+      "screenshot": "audit-reports/v62/fukuoka-390.png",
+      "errors": []
+    },
+    {
+      "page": "fukuoka",
+      "width": 768,
+      "cards": 3,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 768,
+      "scrollWidth": 768,
+      "imagePaths": [
+        "/images/venues/fukuoka-ohori-park.webp",
+        "/images/culture-verified/yatai-japanese-food-stalls.webp",
+        "/images/venues/fukuoka-tower.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/fukuoka-one-day/",
+      "hrefs": [
+        "/japan/fukuoka/",
+        "https://gofukuoka.jp/en/spots/detail/26825",
+        "/japan/fukuoka-food/",
+        "https://gofukuoka.jp/ko/yatai-howto.html",
+        "/fukuoka-arrival-first-3-hours/",
+        "https://www.gofukuoka.jp/todos"
+      ],
+      "screenshot": "audit-reports/v62/fukuoka-768.png",
+      "errors": []
+    },
+    {
+      "page": "fukuoka",
+      "width": 1440,
+      "cards": 3,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "imagePaths": [
+        "/images/venues/fukuoka-ohori-park.webp",
+        "/images/culture-verified/yatai-japanese-food-stalls.webp",
+        "/images/venues/fukuoka-tower.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/fukuoka-one-day/",
+      "hrefs": [
+        "/japan/fukuoka/",
+        "https://gofukuoka.jp/en/spots/detail/26825",
+        "/japan/fukuoka-food/",
+        "https://gofukuoka.jp/ko/yatai-howto.html",
+        "/fukuoka-arrival-first-3-hours/",
+        "https://www.gofukuoka.jp/todos"
+      ],
+      "screenshot": "audit-reports/v62/fukuoka-1440.png",
+      "errors": []
+    },
+    {
+      "page": "osaka",
+      "width": 320,
+      "cards": 3,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 320,
+      "scrollWidth": 320,
+      "imagePaths": [
+        "/images/venues/osaka-dotonbori.webp",
+        "/images/venues/osaka-kaiyukan-aquarium.webp",
+        "/images/venues/osaka-usj-entrance.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/osaka-one-day/",
+      "hrefs": [
+        "/japan/osaka/",
+        "https://osaka-info.jp/ko/spot/dotonbori/",
+        "/voucher/cruise-ports/#osaka",
+        "https://www.kaiyukan.com/info/ticket/kaiyukan/",
+        "/practical/japan-theme-park-guide/",
+        "https://www.usj.co.jp/web/ko/kr"
+      ],
+      "screenshot": "audit-reports/v62/osaka-320.png",
+      "errors": []
+    },
+    {
+      "page": "osaka",
+      "width": 390,
+      "cards": 3,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "imagePaths": [
+        "/images/venues/osaka-dotonbori.webp",
+        "/images/venues/osaka-kaiyukan-aquarium.webp",
+        "/images/venues/osaka-usj-entrance.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/osaka-one-day/",
+      "hrefs": [
+        "/japan/osaka/",
+        "https://osaka-info.jp/ko/spot/dotonbori/",
+        "/voucher/cruise-ports/#osaka",
+        "https://www.kaiyukan.com/info/ticket/kaiyukan/",
+        "/practical/japan-theme-park-guide/",
+        "https://www.usj.co.jp/web/ko/kr"
+      ],
+      "screenshot": "audit-reports/v62/osaka-390.png",
+      "errors": []
+    },
+    {
+      "page": "osaka",
+      "width": 768,
+      "cards": 3,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 768,
+      "scrollWidth": 768,
+      "imagePaths": [
+        "/images/venues/osaka-dotonbori.webp",
+        "/images/venues/osaka-kaiyukan-aquarium.webp",
+        "/images/venues/osaka-usj-entrance.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/osaka-one-day/",
+      "hrefs": [
+        "/japan/osaka/",
+        "https://osaka-info.jp/ko/spot/dotonbori/",
+        "/voucher/cruise-ports/#osaka",
+        "https://www.kaiyukan.com/info/ticket/kaiyukan/",
+        "/practical/japan-theme-park-guide/",
+        "https://www.usj.co.jp/web/ko/kr"
+      ],
+      "screenshot": "audit-reports/v62/osaka-768.png",
+      "errors": []
+    },
+    {
+      "page": "osaka",
+      "width": 1440,
+      "cards": 3,
+      "broken": [],
+      "overflowing": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "imagePaths": [
+        "/images/venues/osaka-dotonbori.webp",
+        "/images/venues/osaka-kaiyukan-aquarium.webp",
+        "/images/venues/osaka-usj-entrance.webp"
+      ],
+      "canonical": "https://www.nipponferry.com/things-to-do/osaka-one-day/",
+      "hrefs": [
+        "/japan/osaka/",
+        "https://osaka-info.jp/ko/spot/dotonbori/",
+        "/voucher/cruise-ports/#osaka",
+        "https://www.kaiyukan.com/info/ticket/kaiyukan/",
+        "/practical/japan-theme-park-guide/",
+        "https://www.usj.co.jp/web/ko/kr"
+      ],
+      "screenshot": "audit-reports/v62/osaka-1440.png",
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "deployedUrl": "https://www.nipponferry.com/",
+  "passed": true
+}

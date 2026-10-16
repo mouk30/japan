@@ -1,0 +1,44 @@
+[
+  {
+    "place": "shimonoseki",
+    "photo": "/images/venues/v62-karato-market-real.webp",
+    "photo_type": "original location photography",
+    "author": "bryan...",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+    "captured_year": "2023",
+    "conversion": "JPEG to resized 1440px WebP, quality 84",
+    "image": {
+      "width": 1440,
+      "height": 1080,
+      "bytes": 386910,
+      "download": "https://upload.wikimedia.org/wikipedia/commons/0/00/Karato_Fish_Market%2C_Shimonoseki_-_Jun_24%2C_2023.jpg"
+    },
+    "pages": [
+      "site/index.html",
+      "site/things-to-do/shimonoseki-one-day/index.html"
+    ]
+  },
+  {
+    "place": "tsushima",
+    "photo": "/images/venues/v62-izuhara-port-real.webp",
+    "photo_type": "original location photography",
+    "author": "Saigen Jiro",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+    "captured_year": "2017",
+    "conversion": "JPEG to resized 1440px WebP, quality 84",
+    "image": {
+      "width": 1440,
+      "height": 951,
+      "bytes": 163638,
+      "download": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Izuhara_port%2C_terminal.jpg"
+    },
+    "pages": [
+      "site/index.html",
+      "site/things-to-do/tsushima-one-day/index.html"
+    ]
+  }
+]
