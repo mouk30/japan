@@ -1,0 +1,56 @@
+name: V71-V80 200 pages responsive and SEO QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v71-v80-browser-qa.yml'
+      - 'scripts/v71_v80_browser_qa.mjs'
+permissions:
+  contents: write
+jobs:
+  audit-200-quality-revisions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Generate production output
+        run: npm run build
+      - name: Audit 10 batches of 20 existing pages across four viewport sizes
+        id: qa
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8757 --directory dist --bind 127.0.0.1 > /tmp/v71-80-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          node scripts/v71_v80_browser_qa.mjs
+      - name: Keep audit report and ten-version screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v71-v80-200-pages-800-viewports-and-screenshots
+          path: audit-reports/v71-v80/
+          retention-days: 25
+          if-no-files-found: warn
+      - name: Commit results (including failed check details for repair)
+        if: always()
+        run: |
+          test -f audit-reports/v71-v80/browser-qa.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v71-v80/browser-qa.json audit-reports/v71-v80/qa-v*.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V71-V80: record 800 responsive browser checks and SEO validation"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Fail if any article remains broken
+        if: steps.qa.outcome != 'success'
+        run: exit 1
