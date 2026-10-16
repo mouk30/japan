@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-16T15:40:11.282Z",
-  "links": 113,
-  "independentSources": 111,
+  "checkedAt": "2026-10-16T15:42:43.108Z",
+  "links": 116,
+  "independentSources": 114,
   "notFound": 0,
   "restricted": 0,
   "unconfirmed": 2,
@@ -1118,6 +1118,17 @@
       "state": "reachable"
     },
     {
+      "url": "https://www.churaumi.okinawa/sp/kr/guide/hour/",
+      "pages": [
+        "okinawa-churaumi-aquarium",
+        "okinawa-whale-shark-aquarium"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.churaumi.okinawa/sp/kr/guide/hour/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
       "url": "https://churaumi.okinawa/",
       "pages": [
         "okinawa-churaumi-aquarium",
@@ -1182,6 +1193,28 @@
       ],
       "status": 200,
       "finalUrl": "https://www.city.nanjo.okinawa.jp/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://oki-park.jp/shurijo/ticket_guide/",
+      "pages": [
+        "okinawa-shuri-castle",
+        "okinawa-shuri-castle-heritage"
+      ],
+      "status": 200,
+      "finalUrl": "https://oki-park.jp/shurijo/ticket_guide/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://oki-park.jp/shurijo/qa",
+      "pages": [
+        "okinawa-shuri-castle",
+        "okinawa-shuri-castle-heritage"
+      ],
+      "status": 200,
+      "finalUrl": "https://oki-park.jp/shurijo/qa",
       "error": "",
       "state": "reachable"
     },
