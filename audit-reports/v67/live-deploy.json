@@ -1,0 +1,213 @@
+{
+  "checkedAt": "2026-10-16T12:36:52.442Z",
+  "passed": true,
+  "pages": 14,
+  "attempts": 1,
+  "finalChecks": [
+    {
+      "slug": "/japan/fukuoka-food/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/japan/fukuoka-food/?v67-source-audit=1792154211254"
+    },
+    {
+      "slug": "/things-to-do/fukuoka-one-day/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/things-to-do/fukuoka-one-day/?v67-source-audit=1792154211469"
+    },
+    {
+      "slug": "/japan/shimonoseki-market/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/japan/shimonoseki-market/?v67-source-audit=1792154211569"
+    },
+    {
+      "slug": "/things-to-do/shimonoseki-one-day/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/things-to-do/shimonoseki-one-day/?v67-source-audit=1792154211638"
+    },
+    {
+      "slug": "/things-to-do/tsushima-one-day/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/things-to-do/tsushima-one-day/?v67-source-audit=1792154211698"
+    },
+    {
+      "slug": "/things-to-do/osaka-one-day/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/things-to-do/osaka-one-day/?v67-source-audit=1792154211743"
+    },
+    {
+      "slug": "/practical/fujiq-highland-guide/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/practical/fujiq-highland-guide/?v67-source-audit=1792154211782"
+    },
+    {
+      "slug": "/shopping/japan-tax-free-2026/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/shopping/japan-tax-free-2026/?v67-source-audit=1792154211827"
+    },
+    {
+      "slug": "/life/japan-tax-free-2026/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/life/japan-tax-free-2026/?v67-source-audit=1792154211867"
+    },
+    {
+      "slug": "/life/don-quijote-first-guide/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/life/don-quijote-first-guide/?v67-source-audit=1792154211913"
+    },
+    {
+      "slug": "/life/don-quijote-tax-free/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/life/don-quijote-tax-free/?v67-source-audit=1792154211960"
+    },
+    {
+      "slug": "/things-to-do/activity/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/things-to-do/activity/?v67-source-audit=1792154212186"
+    },
+    {
+      "slug": "/things-to-do/food-experience/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/things-to-do/food-experience/?v67-source-audit=1792154212224"
+    },
+    {
+      "slug": "/japan/tsushima-food/",
+      "status": 200,
+      "missing": [],
+      "error": "",
+      "finalUrl": "https://www.nipponferry.com/japan/tsushima-food/?v67-source-audit=1792154212301"
+    }
+  ],
+  "history": [
+    {
+      "attempt": 1,
+      "checkedAt": "2026-10-16T12:36:52.442Z",
+      "passed": true,
+      "checks": [
+        {
+          "slug": "/japan/fukuoka-food/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/japan/fukuoka-food/?v67-source-audit=1792154211254"
+        },
+        {
+          "slug": "/things-to-do/fukuoka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/things-to-do/fukuoka-one-day/?v67-source-audit=1792154211469"
+        },
+        {
+          "slug": "/japan/shimonoseki-market/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/japan/shimonoseki-market/?v67-source-audit=1792154211569"
+        },
+        {
+          "slug": "/things-to-do/shimonoseki-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/things-to-do/shimonoseki-one-day/?v67-source-audit=1792154211638"
+        },
+        {
+          "slug": "/things-to-do/tsushima-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/things-to-do/tsushima-one-day/?v67-source-audit=1792154211698"
+        },
+        {
+          "slug": "/things-to-do/osaka-one-day/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/things-to-do/osaka-one-day/?v67-source-audit=1792154211743"
+        },
+        {
+          "slug": "/practical/fujiq-highland-guide/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/practical/fujiq-highland-guide/?v67-source-audit=1792154211782"
+        },
+        {
+          "slug": "/shopping/japan-tax-free-2026/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/shopping/japan-tax-free-2026/?v67-source-audit=1792154211827"
+        },
+        {
+          "slug": "/life/japan-tax-free-2026/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/life/japan-tax-free-2026/?v67-source-audit=1792154211867"
+        },
+        {
+          "slug": "/life/don-quijote-first-guide/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/life/don-quijote-first-guide/?v67-source-audit=1792154211913"
+        },
+        {
+          "slug": "/life/don-quijote-tax-free/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/life/don-quijote-tax-free/?v67-source-audit=1792154211960"
+        },
+        {
+          "slug": "/things-to-do/activity/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/things-to-do/activity/?v67-source-audit=1792154212186"
+        },
+        {
+          "slug": "/things-to-do/food-experience/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/things-to-do/food-experience/?v67-source-audit=1792154212224"
+        },
+        {
+          "slug": "/japan/tsushima-food/",
+          "status": 200,
+          "missing": [],
+          "error": "",
+          "finalUrl": "https://www.nipponferry.com/japan/tsushima-food/?v67-source-audit=1792154212301"
+        }
+      ]
+    }
+  ]
+}
