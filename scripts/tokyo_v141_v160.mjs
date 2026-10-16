@@ -1,0 +1,222 @@
+export const batch=[
+  {
+    "version": 141,
+    "slug": "ginza-line-stations",
+    "title": "긴자선 G: 아사쿠사·우에노·긴자·시부야를 잇는 노선",
+    "zone": "긴자선",
+    "insight": "동쪽 아사쿠사에서 서쪽 시부야까지 여러 대표 명소를 연결한다.",
+    "action": "도착역의 출구를 먼저 정하고 왕복 동선상 관광지 두 곳을 선택한다.",
+    "warning": "JR이나 도에이 전용권으로 긴자선에 무조건 탈 수는 없다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 142,
+    "slug": "marunouchi-line-stations",
+    "title": "마루노우치선 M: 도쿄역·신주쿠·이케부쿠로 이동",
+    "zone": "마루노우치선",
+    "insight": "도쿄역·긴자·신주쿠·이케부쿠로의 도심 관광을 연결하는 지하철이다.",
+    "action": "도쿄역 게이요선 환승이 필요하다면 내부 이동 시간을 따로 반영한다.",
+    "warning": "분기 운행과 종착 표기는 승강장 안내가 최종 기준이다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 143,
+    "slug": "hibiya-line-stations",
+    "title": "히비야선 H: 아키하바라·쓰키지·롯폰기 동선",
+    "zone": "히비야선",
+    "insight": "아키하바라·쓰키지·긴자·롯폰기·에비스를 묶을 때 유용하다.",
+    "action": "오전 쓰키지시장, 오후 긴자, 저녁 롯폰기로 이동하는 순서를 검토한다.",
+    "warning": "도쿄역에 히비야선 승강장이 있는 것으로 착각하지 않는다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 144,
+    "slug": "tozai-line-stations",
+    "title": "도자이선 T: 오테마치·니혼바시·동서 관광",
+    "zone": "도자이선",
+    "insight": "오테마치·니혼바시 등 도쿄 도심의 동서 이동에 사용한다.",
+    "action": "직결 운행의 철도 회사와 관광 패스 사용 범위를 비교한다.",
+    "warning": "출근 혼잡기에 짐 많은 여행객은 이동 시간을 넉넉히 확보한다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 145,
+    "slug": "chiyoda-line-stations",
+    "title": "치요다선 C: 오모테산도·메이지진구마에·오테마치",
+    "zone": "치요다선",
+    "insight": "하라주쿠·아오야마·히비야의 다른 분위기를 연결한다.",
+    "action": "메이지진구마에와 JR 하라주쿠역은 서로 다른 개찰구라는 점을 이해한다.",
+    "warning": "일부 직통 열차의 승차권 조건은 메트로 구간과 다를 수 있다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 146,
+    "slug": "yurakucho-line-stations",
+    "title": "유라쿠초선 Y: 이케부쿠로·유라쿠초·도요스",
+    "zone": "유라쿠초선",
+    "insight": "쇼핑 지역 이케부쿠로와 도요스 수변 여행을 연결한다.",
+    "action": "도요스시장을 가려면 도요스역 도착 후 시조마에로 별도 연결한다.",
+    "warning": "유라쿠초선 패스가 유리카모메나 JR까지 포함하지 않는다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 147,
+    "slug": "fukutoshin-line-stations",
+    "title": "후쿠토신선 F: 이케부쿠로·신주쿠산초메·시부야",
+    "zone": "후쿠토신선",
+    "insight": "서부 쇼핑 3개 거점을 연결하는 실전 노선이다.",
+    "action": "목적지가 신주쿠역인지 신주쿠산초메역인지 먼저 구분한다.",
+    "warning": "직결 사철 구간은 별도 요금이 적용될 수 있다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 148,
+    "slug": "hanzomon-line-stations",
+    "title": "한조몬선 Z: 시부야·오모테산도·오시아게",
+    "zone": "한조몬선",
+    "insight": "서부 시부야에서 오시아게 스카이트리로 이동한다.",
+    "action": "오테마치 환승을 고려한다면 도보 구간을 지도에서 확인한다.",
+    "warning": "열차 직결선 때문에 실제 종착역이 한조몬선 구간 바깥일 수 있다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 149,
+    "slug": "namboku-line-stations",
+    "title": "난보쿠선 N: 아자부주반·고라쿠엔·메구로",
+    "zone": "난보쿠선",
+    "insight": "메구로·아자부주반·롯폰기잇초메·고라쿠엔을 연결한다.",
+    "action": "롯폰기역과 롯폰기잇초메역은 이름이 비슷해도 다른 역이다.",
+    "warning": "사철 직결선 운행에서 관광권 사용 구간을 확인한다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 150,
+    "slug": "toei-asakusa-line-stations",
+    "title": "도에이 아사쿠사선 A: 도심과 공항 열차",
+    "zone": "도에이 아사쿠사선",
+    "insight": "아사쿠사·오시아게 등을 연결하고 일부 공항 방면 직결열차가 있다.",
+    "action": "공항 갈 때는 실제 열차 행선지와 터미널 접근을 역 전광판에서 재확인한다.",
+    "warning": "도에이 지하철권으로 게이큐·게이세이 직결 구간까지 자동 이용할 수 없다.",
+    "official": "https://www.kotsu.metro.tokyo.jp/eng/",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 151,
+    "slug": "toei-oedo-line-stations",
+    "title": "오에도선 E: 도청·롯폰기·쓰키지시조역",
+    "zone": "도에이 오에도선",
+    "insight": "신주쿠 도청앞·롯폰기·쓰키지시조·우에노오카치마치 방문에 이용한다.",
+    "action": "깊은 지하역은 에스컬레이터·엘리베이터 이동 시간을 고려한다.",
+    "warning": "동일한 순환 방향으로만 운행한다고 가정하지 않는다.",
+    "official": "https://www.kotsu.metro.tokyo.jp/eng/",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 152,
+    "slug": "toei-shinjuku-line-stations",
+    "title": "도에이 신주쿠선 S: 구단시타·진보초·신주쿠",
+    "zone": "도에이 신주쿠선",
+    "insight": "서부 신주쿠와 동쪽 진보초·이와모토초를 연결한다.",
+    "action": "아키하바라 전자상가를 가려면 이와모토초에서 지상 도보를 계산한다.",
+    "warning": "게이오 직결 구간에서는 관광권 범위가 달라질 수 있다.",
+    "official": "https://www.kotsu.metro.tokyo.jp/eng/",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 153,
+    "slug": "toei-mita-line-stations",
+    "title": "도에이 미타선 I: 히비야·오테마치·스가모",
+    "zone": "도에이 미타선",
+    "insight": "오테마치·히비야·미타·스가모 등에서 환승한다.",
+    "action": "JR 스가모역과 도에이 스가모역의 개찰구를 목적지별로 찾는다.",
+    "warning": "사철 구간에서는 도에이 전용 하루권 사용 여부를 따로 확인한다.",
+    "official": "https://www.kotsu.metro.tokyo.jp/eng/",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 154,
+    "slug": "metro-24h-vs-subway-pass",
+    "title": "메트로 24시간권과 Tokyo Subway Ticket 차이",
+    "zone": "관광 패스",
+    "insight": "메트로 전용권과 메트로·도에이 모두 쓰는 관광권은 이용 회사가 다르다.",
+    "action": "여행 중 탈 도에이 노선의 유무와 실제 승차 횟수로 비용을 비교한다.",
+    "warning": "24시간권이 전 노선 공항 특급·JR 포함권이라는 뜻은 아니다.",
+    "official": "https://www.tokyometro.jp/en/ticket/travel/index.html",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 155,
+    "slug": "toei-one-day-pass",
+    "title": "도에이 원데이 패스 지하철·버스 사용범위",
+    "zone": "도에이 관광권",
+    "insight": "도에이 승차권은 상품마다 지하철·버스·도쿄 사쿠라 트램 포함 범위가 다르다.",
+    "action": "도에이 노선만 집중하는 날을 구분하고 공식 상품 페이지의 허용노선을 확인한다.",
+    "warning": "메트로 G·M선과 JR을 같은 가격으로 탈 수 있다고 가정하지 않는다.",
+    "official": "https://www.kotsu.metro.tokyo.jp/eng/",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 156,
+    "slug": "pasmo-vs-suica-card",
+    "title": "PASMO·Suica 충전·구입·환불과 모바일 호환",
+    "zone": "충전식 교통카드",
+    "insight": "두 카드 모두 도시권의 여러 교통기관에서 사용할 수 있으나 발행사와 환불창구가 다르다.",
+    "action": "실물·모바일 카드 사용 기종과 현금 충전처를 확인하고 비상 결제수단을 준비한다.",
+    "warning": "교통카드 자체는 할인 관광 패스가 아니다.",
+    "official": "https://www.pasmo.co.jp/visitors/en/",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 157,
+    "slug": "haneda-keikyu-or-monorail",
+    "title": "하네다 게이큐선·모노레일 환승 비교",
+    "zone": "하네다공항",
+    "insight": "게이큐는 시나가와, 도쿄 모노레일은 하마마쓰초 연결에 편하다.",
+    "action": "도착 터미널과 숙소 근처 JR 역에 따라 환승 횟수와 짐 이동을 줄인다.",
+    "warning": "메트로 패스가 두 공항철도 요금을 자동 포함하지 않는다.",
+    "official": "https://tokyo-haneda.com/en/access/train/index.html",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 158,
+    "slug": "narita-skyliner-or-nex",
+    "title": "나리타 스카이라이너와 NEX 목적역 비교",
+    "zone": "나리타공항",
+    "insight": "스카이라이너는 닛포리·우에노, NEX는 도쿄·시부야·신주쿠 방문과 잘 맞는지 비교한다.",
+    "action": "예약 좌석권이 필요한지와 환승 시 수하물 운반 거리를 확인한다.",
+    "warning": "특급 열차의 취소·시간 변경은 사업자별로 다르다.",
+    "official": "https://www.narita-airport.jp/en/access/train/",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 159,
+    "slug": "yurikamome-rinkai-choice",
+    "title": "유리카모메·린카이선 오다이바역 비교",
+    "zone": "오다이바",
+    "insight": "유리카모메는 신바시 연결, 린카이선은 도쿄텔레포트역 접근으로 차이가 있다.",
+    "action": "목적지에서 도보가 짧은 역을 선택하고 전망 구경은 별도 일정으로 본다.",
+    "warning": "두 노선은 도쿄메트로 관광권에 자동 포함되지 않는다.",
+    "official": "https://www.yurikamome.co.jp/en/",
+    "category": "교통·노선패스"
+  },
+  {
+    "version": 160,
+    "slug": "metro-elevator-stroller",
+    "title": "도쿄 지하철 유모차·휠체어 역별 엘리베이터",
+    "zone": "교통약자 이동",
+    "insight": "엘리베이터가 설치된 역이라도 지상 출구와 환승 플랫폼을 모두 이어주지는 않을 수 있다.",
+    "action": "역별 배리어프리 안내와 외부 출구 위치를 확인해 과도한 환승을 피한다.",
+    "warning": "유모차를 에스컬레이터로 옮기는 대신 엘리베이터 대기를 계산한다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html",
+    "category": "교통·노선패스"
+  }
+];
