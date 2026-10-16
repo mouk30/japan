@@ -29,3 +29,4 @@ for(const batch of chunks(links,12))results.push(...await Promise.all(batch.map(
 const report={checkedAt:new Date().toISOString(),links:results.length,independentSources:results.filter(x=>x.state==='reachable').length,notFound:results.filter(x=>x.state==='not_found').length,restricted:results.filter(x=>x.state==='restricted').length,unconfirmed:results.filter(x=>x.state==='unknown'||x.state==='unconfirmed').length,issues:bad,results};
 fs.writeFileSync(dir+'/official-link-health.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({links:report.links,reachable:report.independentSources,notFound:report.notFound,restricted:report.restricted,unconfirmed:report.unconfirmed,hard404:results.filter(x=>x.state==='not_found').slice(0,35)},null,2));
+if(report.notFound>0)process.exitCode=1;
