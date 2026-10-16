@@ -1,0 +1,222 @@
+export const batch=[
+  {
+    "version": 261,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-shoyu-ramen",
+    "title": "도쿄 쇼유라멘과 돈코츠라멘 국물 차이",
+    "zone": "도쿄역·신주쿠",
+    "insight": "도쿄 전통 쇼유라멘은 간장 베이스의 맑은 국물이 일반적이고 돈코츠는 뼈 육수 특징이 강하다.",
+    "action": "첫 라멘 방문이라면 국물 종류를 고르고 식권 발매기의 토핑·면 양을 확인한다.",
+    "warning": "알레르기·점포별 현금결제·대기는 개별 확인한다.",
+    "official": "https://www.gourmet.gotokyo.org/"
+  },
+  {
+    "version": 262,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-tsukemen-howto",
+    "title": "도쿄 츠케멘 면 찍어먹는 법과 스프와리",
+    "zone": "이케부쿠로·도쿄역",
+    "insight": "츠케멘은 면과 진한 찍어 먹는 육수가 분리되고 식사 후 육수를 희석하는 스프와리 서비스가 있을 수 있다.",
+    "action": "국물 농도·면 중량·추가 면 가격을 메뉴판에서 확인한다.",
+    "warning": "모든 츠케멘 점포가 스프와리를 같은 방식으로 제공하지 않는다.",
+    "official": "https://www.gourmet.gotokyo.org/"
+  },
+  {
+    "version": 263,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-soba-vs-udon",
+    "title": "도쿄 소바·우동 가게 차이와 주문법",
+    "zone": "간다·니혼바시",
+    "insight": "소바는 메밀, 우동은 밀가루 면 중심이며 국물과 튀김 구성은 점포별로 다르다.",
+    "action": "메밀 알레르기 여부를 우선 확인하고 역 소바·노포의 주문 방식을 구분한다.",
+    "warning": "메밀을 쓰는 면은 알레르기 위험이 있으므로 성분을 확인한다.",
+    "official": "https://www.gourmet.gotokyo.org/"
+  },
+  {
+    "version": 264,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-tempura-lunch",
+    "title": "도쿄 텐푸라 점심 세트·오마카세 예산",
+    "zone": "긴자·니혼바시",
+    "insight": "텐푸라 전문점은 카운터 코스와 점심 정식의 가격·체험 방식이 다르다.",
+    "action": "첫 방문자는 점심 정식과 예약제 고급 코스를 별도 상품으로 비교한다.",
+    "warning": "계절 재료·기름 알레르기·코스 취소료를 확인한다.",
+    "official": "https://www.gourmet.gotokyo.org/"
+  },
+  {
+    "version": 265,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-unagi-kabayaki",
+    "title": "도쿄 장어덮밥 우나주·우나동 주문 구분",
+    "zone": "아사쿠사·우에노",
+    "insight": "우나주는 찬합, 우나동은 덮밥 방식으로 판매하는 경우가 있으며 등급과 장어 양이 가격을 좌우한다.",
+    "action": "현장 메뉴의 양과 조리 시간을 보고 관광지 입장 예약과 충돌하지 않게 식사한다.",
+    "warning": "장어집은 준비 시간이 길고 재료 소진 시 조기 마감할 수 있다.",
+    "official": "https://www.gourmet.gotokyo.org/"
+  },
+  {
+    "version": 266,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-yakiniku-all-you-can-eat",
+    "title": "도쿄 야키니쿠 무한리필 vs 단품 예약",
+    "zone": "신주쿠·시부야",
+    "insight": "무한리필은 주문 시간·남긴 음식 벌금·특정 고기 포함 범위가 단품 메뉴와 다르다.",
+    "action": "인원·연령별 가격과 음료 별도 요금을 예약 전에 비교한다.",
+    "warning": "늦은 지각이나 예약 변경에는 취소 수수료가 발생할 수 있다.",
+    "official": "https://www.gourmet.gotokyo.org/"
+  },
+  {
+    "version": 267,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-izakaya-otoshi",
+    "title": "도쿄 이자카야 오토시·서비스료·좌석 안내",
+    "zone": "신바시·유라쿠초",
+    "insight": "일부 이자카야는 자리에 앉으면 작은 기본 안주와 함께 오토시 요금이 청구된다.",
+    "action": "입장 전에 좌석료·최소주문·흡연석을 확인하고 영수증을 받는다.",
+    "warning": "술을 주문하지 않아도 좌석·서비스 요금이 있을 수 있다.",
+    "official": "https://www.gourmet.gotokyo.org/"
+  },
+  {
+    "version": 268,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-conveyor-sushi",
+    "title": "도쿄 회전초밥 접시별 가격·태블릿 주문",
+    "zone": "우에노·시부야",
+    "insight": "회전초밥 체인은 접시 색깔·개별 터치패널 주문에 따라 계산 기준이 달라진다.",
+    "action": "대기표를 받고 접시 가격 또는 태블릿 표시 금액을 확인한다.",
+    "warning": "인기 계절 메뉴가 항상 제공된다고 단정하지 않는다.",
+    "official": "https://www.gourmet.gotokyo.org/"
+  },
+  {
+    "version": 269,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-department-bento",
+    "title": "도쿄 데파치카 도시락 구매·보관 시간",
+    "zone": "도쿄역·긴자",
+    "insight": "백화점 식품관 도시락은 이동 중 식사에 편하지만 냉장·소비기한 관리가 필요하다.",
+    "action": "열차 탑승 직전 식품관에서 구매하고 냉장 식품은 장거리 이동을 피한다.",
+    "warning": "육가공품·신선식품 한국 반입은 별도 검역 대상이다.",
+    "official": "https://www.daimaru.co.jp/tokyo/floor/"
+  },
+  {
+    "version": 270,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-kissaten-retro-cafe",
+    "title": "도쿄 킷사텐 레트로 커피·모닝세트 안내",
+    "zone": "긴자·간다·아사쿠사",
+    "insight": "킷사텐은 현대 카페와 분위기가 다른 전통 커피숍으로 점포마다 모닝세트 운영이 다르다.",
+    "action": "식사·커피 목적을 구분하고 개점·라스트오더 시간을 점포 공지에서 확인한다.",
+    "warning": "흡연 구역이 있을 수 있어 비흡연 좌석을 확인한다.",
+    "official": "https://www.gourmet.gotokyo.org/"
+  },
+  {
+    "version": 271,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-matcha-wagashi",
+    "title": "도쿄 말차·화과자 체험과 선물 선택",
+    "zone": "아사쿠사·니혼바시",
+    "insight": "말차와 화과자는 단맛·보관 방식이 다르며 카페 체험과 포장 선물은 상품이 다르다.",
+    "action": "유통기한·냉장 필요 여부를 확인해 당일 섭취와 선물용 구매를 분리한다.",
+    "warning": "다도 체험은 별도 시간 예약이 필요할 수 있다.",
+    "official": "https://www.gourmet.gotokyo.org/"
+  },
+  {
+    "version": 272,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-melonpan-bakery",
+    "title": "아사쿠사 멜론빵·베이커리 줄 서는 법",
+    "zone": "아사쿠사",
+    "insight": "아사쿠사에는 인기 멜론빵·베이커리 가게가 있지만 관광객 줄과 주민 통행이 겹친다.",
+    "action": "가미나리몬·센소지 관광을 먼저 정하고 상점가 정해진 줄서기 위치를 따른다.",
+    "warning": "먹으면서 이동하면 좁은 골목의 통행을 방해할 수 있다.",
+    "official": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html"
+  },
+  {
+    "version": 273,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-fruit-parfait",
+    "title": "도쿄 제철 과일 파르페·디저트 카페",
+    "zone": "긴자·니혼바시",
+    "insight": "과일 파르페는 계절 과일과 점포 예약·수량에 따라 메뉴·가격이 달라진다.",
+    "action": "디저트가 메인 목적이면 예약 가능 여부와 점심 피크를 먼저 확인한다.",
+    "warning": "같은 브랜드라도 백화점 점포별 메뉴와 운영시간이 다르다.",
+    "official": "https://www.gourmet.gotokyo.org/"
+  },
+  {
+    "version": 274,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-food-allergy-japanese",
+    "title": "일본 음식 알레르기 표시·도쿄 식당 주문",
+    "zone": "도쿄 전역",
+    "insight": "일본어 메뉴의 메밀·새우·밀·달걀·우유 등 주요 알레르겐 표시를 확인해야 한다.",
+    "action": "알레르기 성분을 일본어와 영어로 적은 카드를 준비하고 조리기구 교차 접촉을 문의한다.",
+    "warning": "메뉴 사진만 보고 성분이 안전하다고 판단하지 않는다.",
+    "official": "https://www.gourmet.gotokyo.org/"
+  },
+  {
+    "version": 275,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-museum-ticket-advance",
+    "title": "도쿄 박물관 상설전·특별전 입장권 차이",
+    "zone": "우에노·롯폰기",
+    "insight": "같은 박물관에서도 상설전과 기간 한정 특별전의 티켓 가격·예약 방식이 다르다.",
+    "action": "전시명·실제 방문 날짜·휴관일을 공식 기관에서 먼저 확인한다.",
+    "warning": "기본 입장권으로 모든 특별전 관람이 가능한 것은 아니다.",
+    "official": "https://www.tnm.jp/?lang=en"
+  },
+  {
+    "version": 276,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-art-national-center",
+    "title": "국립신미술관 롯폰기 전시·무료 입장 구역",
+    "zone": "롯폰기·노기자카",
+    "insight": "국립신미술관은 상설 컬렉션 중심이 아닌 기획 전시 시설이며 건물과 전시의 유료 범위가 다르다.",
+    "action": "노기자카역과 롯폰기역 접근을 비교하고 관심 전시의 관람 시간을 확인한다.",
+    "warning": "건물에 들어가는 것과 유료 특별전을 관람하는 것은 다른 조건이다.",
+    "official": "https://www.gotokyo.org/en/destinations/southern-tokyo/roppongi/index.html"
+  },
+  {
+    "version": 277,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-edo-tokyo-museum",
+    "title": "에도도쿄박물관 휴관·재개관 정보 확인",
+    "zone": "료고쿠",
+    "insight": "료고쿠 지역의 역사 박물관과 스모 문화시설은 운영기관·개관 일정이 다르다.",
+    "action": "에도도쿄박물관의 공사·재개관·특별 전시 여부를 공식 방문 안내에서 확인한다.",
+    "warning": "오래된 가이드의 전시 운영 상태를 현재 운영으로 단정하지 않는다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 278,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-sumo-ryogoku",
+    "title": "료고쿠 국기관 스모 관람·일정·티켓",
+    "zone": "료고쿠",
+    "insight": "료고쿠 국기관은 스모 대회·공연 일정에 따라 관람 가능 여부가 다르다.",
+    "action": "정식 대회 개최 여부와 관람권 발권처를 먼저 확인하고 근처 스모 문화 산책을 추가한다.",
+    "warning": "국기관 외관을 보는 것과 유료 스모 관람권은 완전히 다른 상품이다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 279,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-kabuki-ginza",
+    "title": "긴자 가부키좌 공연 티켓·한막 관람",
+    "zone": "히가시긴자",
+    "insight": "가부키좌는 전통 가부키 공연장이며 공연마다 좌석 등급·관람시간이 달라진다.",
+    "action": "히가시긴자역에서 접근해 공연 언어·자막·가격·좌석을 공식 공연 일정에서 확인한다.",
+    "warning": "한막 관람 제도와 티켓 판매 방식이 언제나 같다고 가정하지 않는다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 280,
+    "category": "도쿄 식도락·문화체험",
+    "slug": "tokyo-teamlab-borderless-vs-planets",
+    "title": "팀랩 보더리스·플래닛 위치·전시 체험 비교",
+    "zone": "아자부다이·도요스",
+    "insight": "팀랩 보더리스와 플래닛은 다른 장소에 있으며 전시 내용·입장 환경도 다르다.",
+    "action": "물에 들어가는 체험 여부·복장·방문 시간대·실제 예약 주소를 비교한다.",
+    "warning": "두 시설의 입장권을 하나로 사용할 수 없다.",
+    "official": "https://teamlabplanets.dmm.com/en"
+  }
+];
