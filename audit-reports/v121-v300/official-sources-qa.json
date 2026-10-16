@@ -1,0 +1,1217 @@
+{
+  "checkedAt": "2026-10-16T17:07:58.064Z",
+  "sourceCount": 54,
+  "reachable": 51,
+  "notFound": 1,
+  "restricted": 2,
+  "unconfirmed": 0,
+  "links": [
+    {
+      "url": "https://www.gotokyo.org/en/destinations/western-tokyo/shinjuku/index.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/shinjuku/index.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 121,
+          "slug": "shinjuku-exits"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 122,
+          "slug": "shibuya-hachiko-miyamasuzaka"
+        }
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/e/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.jreast.co.jp/e/",
+      "error": "",
+      "articles": [
+        {
+          "v": 123,
+          "slug": "tokyo-keiyo-platform"
+        },
+        {
+          "v": 134,
+          "slug": "kanda-jr-ginza-transfer"
+        },
+        {
+          "v": 140,
+          "slug": "shinagawa-keikyu-jr"
+        },
+        {
+          "v": 240,
+          "slug": "tokyo-shopping-luggage-locker"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/subwaymap/index.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tokyometro.jp/en/subwaymap/index.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 124,
+          "slug": "ikebukuro-east-west"
+        },
+        {
+          "v": 125,
+          "slug": "ginza-three-lines"
+        },
+        {
+          "v": 128,
+          "slug": "otemachi-transfer-five"
+        },
+        {
+          "v": 129,
+          "slug": "kasumigaseki-government"
+        },
+        {
+          "v": 132,
+          "slug": "akasaka-nagatacho-connection"
+        },
+        {
+          "v": 133,
+          "slug": "kudanshita-budokan"
+        },
+        {
+          "v": 141,
+          "slug": "ginza-line-stations"
+        },
+        {
+          "v": 142,
+          "slug": "marunouchi-line-stations"
+        },
+        {
+          "v": 143,
+          "slug": "hibiya-line-stations"
+        },
+        {
+          "v": 144,
+          "slug": "tozai-line-stations"
+        },
+        {
+          "v": 145,
+          "slug": "chiyoda-line-stations"
+        },
+        {
+          "v": 146,
+          "slug": "yurakucho-line-stations"
+        },
+        {
+          "v": 147,
+          "slug": "fukutoshin-line-stations"
+        },
+        {
+          "v": 148,
+          "slug": "hanzomon-line-stations"
+        },
+        {
+          "v": 149,
+          "slug": "namboku-line-stations"
+        },
+        {
+          "v": 160,
+          "slug": "metro-elevator-stroller"
+        },
+        {
+          "v": 284,
+          "slug": "tokyo-parents-flat-route"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 126,
+          "slug": "asakusa-operators"
+        },
+        {
+          "v": 241,
+          "slug": "asakusa-nakamise-backstreets"
+        },
+        {
+          "v": 272,
+          "slug": "tokyo-melonpan-bakery"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/northern-tokyo/ueno/index.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.gotokyo.org/en/destinations/northern-tokyo/ueno/index.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 127,
+          "slug": "ueno-park-ameyoko"
+        },
+        {
+          "v": 242,
+          "slug": "ueno-ameyoko-budget-shopping"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/southern-tokyo/roppongi/index.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.gotokyo.org/en/destinations/southern-tokyo/roppongi/index.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 130,
+          "slug": "roppongi-museum-exits"
+        },
+        {
+          "v": 276,
+          "slug": "tokyo-art-national-center"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/western-tokyo/aoyama-and-omotesando/index.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/aoyama-and-omotesando/index.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 131,
+          "slug": "omotesando-three-subways"
+        }
+      ]
+    },
+    {
+      "url": "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/index.php",
+      "error": "",
+      "articles": [
+        {
+          "v": 135,
+          "slug": "nippori-skyliner-jr"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.gotokyo.org/en/",
+      "error": "",
+      "articles": [
+        {
+          "v": 136,
+          "slug": "akihabara-station-gates"
+        },
+        {
+          "v": 243,
+          "slug": "yanaka-ginza-sunset-stairs"
+        },
+        {
+          "v": 244,
+          "slug": "kuramae-design-coffee"
+        },
+        {
+          "v": 245,
+          "slug": "kiyosumi-shirakawa-coffee"
+        },
+        {
+          "v": 246,
+          "slug": "monzen-nakacho-shrine"
+        },
+        {
+          "v": 247,
+          "slug": "nihombashi-bridge-shopping"
+        },
+        {
+          "v": 248,
+          "slug": "ningyocho-sweets-streets"
+        },
+        {
+          "v": 249,
+          "slug": "tsukishima-monjya-street"
+        },
+        {
+          "v": 250,
+          "slug": "daikanyama-bookshops"
+        },
+        {
+          "v": 251,
+          "slug": "nakameguro-riverside"
+        },
+        {
+          "v": 252,
+          "slug": "ebisu-yebisu-garden"
+        },
+        {
+          "v": 253,
+          "slug": "shimokitazawa-vintage"
+        },
+        {
+          "v": 254,
+          "slug": "koenji-used-clothes"
+        },
+        {
+          "v": 255,
+          "slug": "kichijoji-inokashira-park"
+        },
+        {
+          "v": 256,
+          "slug": "jiyugaoka-dessert-cafes"
+        },
+        {
+          "v": 257,
+          "slug": "ochanomizu-music-bookstores"
+        },
+        {
+          "v": 258,
+          "slug": "sugamo-jizo-shopping"
+        },
+        {
+          "v": 259,
+          "slug": "shibamata-taishakuten"
+        },
+        {
+          "v": 260,
+          "slug": "oji-asukayama-tram"
+        },
+        {
+          "v": 277,
+          "slug": "tokyo-edo-tokyo-museum"
+        },
+        {
+          "v": 278,
+          "slug": "tokyo-sumo-ryogoku"
+        },
+        {
+          "v": 279,
+          "slug": "tokyo-kabuki-ginza"
+        },
+        {
+          "v": 283,
+          "slug": "tokyo-firsttime-east-west"
+        },
+        {
+          "v": 285,
+          "slug": "tokyo-stroller-rainy-day"
+        },
+        {
+          "v": 286,
+          "slug": "tokyo-toddler-underfive"
+        },
+        {
+          "v": 287,
+          "slug": "tokyo-teens-anime-shopping"
+        },
+        {
+          "v": 288,
+          "slug": "tokyo-couple-evening-nightview"
+        },
+        {
+          "v": 289,
+          "slug": "tokyo-budget-under-10000yen"
+        },
+        {
+          "v": 290,
+          "slug": "tokyo-luxury-ginza-day"
+        },
+        {
+          "v": 291,
+          "slug": "tokyo-rainy-day-museum"
+        },
+        {
+          "v": 292,
+          "slug": "tokyo-summer-heat-indoor"
+        },
+        {
+          "v": 293,
+          "slug": "tokyo-winter-illumination-evening"
+        },
+        {
+          "v": 294,
+          "slug": "tokyo-cherry-blossom-two-spots"
+        },
+        {
+          "v": 295,
+          "slug": "tokyo-autumn-gardens"
+        },
+        {
+          "v": 300,
+          "slug": "tokyo-lastday-taxfree-baggage"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tsukiji.or.jp/english/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tsukiji.or.jp/english/",
+      "error": "",
+      "articles": [
+        {
+          "v": 137,
+          "slug": "tsukiji-two-stations"
+        }
+      ]
+    },
+    {
+      "url": "https://www.yurikamome.co.jp/en/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.yurikamome.co.jp/en/",
+      "error": "",
+      "articles": [
+        {
+          "v": 138,
+          "slug": "toyosu-shijomae-travel"
+        },
+        {
+          "v": 159,
+          "slug": "yurikamome-rinkai-choice"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tokyo-skytree.jp/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tokyo-skytree.jp/",
+      "error": "",
+      "articles": [
+        {
+          "v": 139,
+          "slug": "oshiage-skytree-access"
+        }
+      ]
+    },
+    {
+      "url": "https://www.kotsu.metro.tokyo.jp/eng/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.kotsu.metro.tokyo.jp/eng/",
+      "error": "",
+      "articles": [
+        {
+          "v": 150,
+          "slug": "toei-asakusa-line-stations"
+        },
+        {
+          "v": 151,
+          "slug": "toei-oedo-line-stations"
+        },
+        {
+          "v": 152,
+          "slug": "toei-shinjuku-line-stations"
+        },
+        {
+          "v": 153,
+          "slug": "toei-mita-line-stations"
+        },
+        {
+          "v": 155,
+          "slug": "toei-one-day-pass"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/ticket/travel/index.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tokyometro.jp/en/ticket/travel/index.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 154,
+          "slug": "metro-24h-vs-subway-pass"
+        }
+      ]
+    },
+    {
+      "url": "https://www.pasmo.co.jp/visitors/en/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.pasmo.co.jp/en/",
+      "error": "",
+      "articles": [
+        {
+          "v": 156,
+          "slug": "pasmo-vs-suica-card"
+        }
+      ]
+    },
+    {
+      "url": "https://tokyo-haneda.com/en/access/train/index.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://tokyo-haneda.com/en/access/train/index.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 157,
+          "slug": "haneda-keikyu-or-monorail"
+        },
+        {
+          "v": 281,
+          "slug": "tokyo-arrival-haneda-halfday"
+        }
+      ]
+    },
+    {
+      "url": "https://www.narita-airport.jp/en/access/train/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.narita-airport.jp/en/access/train/",
+      "error": "",
+      "articles": [
+        {
+          "v": 158,
+          "slug": "narita-skyliner-or-nex"
+        },
+        {
+          "v": 282,
+          "slug": "tokyo-narita-last-day"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess",
+      "error": "",
+      "articles": [
+        {
+          "v": 161,
+          "slug": "disney-1day-admission-vs-dpa"
+        },
+        {
+          "v": 162,
+          "slug": "disney-dpa-app-purchase"
+        },
+        {
+          "v": 163,
+          "slug": "disney-dpa-price-attractions"
+        },
+        {
+          "v": 164,
+          "slug": "disney-dpa-parade-show"
+        },
+        {
+          "v": 180,
+          "slug": "disney-ride-height-safety"
+        },
+        {
+          "v": 181,
+          "slug": "disneyland-beauty-beast-ride"
+        },
+        {
+          "v": 182,
+          "slug": "disneyland-baymax-happy-ride"
+        },
+        {
+          "v": 183,
+          "slug": "disneyland-splash-mountain"
+        },
+        {
+          "v": 184,
+          "slug": "disneyland-big-thunder-mountain"
+        },
+        {
+          "v": 185,
+          "slug": "disneyland-pooh-hunny-hunt"
+        },
+        {
+          "v": 186,
+          "slug": "disneyland-monsters-inc"
+        },
+        {
+          "v": 187,
+          "slug": "disneyland-haunted-mansion-season"
+        },
+        {
+          "v": 191,
+          "slug": "disneysea-soaring-flight"
+        },
+        {
+          "v": 192,
+          "slug": "disneysea-toy-story-mania"
+        },
+        {
+          "v": 193,
+          "slug": "disneysea-tower-of-terror"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/",
+      "error": "",
+      "articles": [
+        {
+          "v": 165,
+          "slug": "disney-priority-pass-free"
+        },
+        {
+          "v": 167,
+          "slug": "disney-entry-request-show"
+        },
+        {
+          "v": 168,
+          "slug": "disney-mobile-order-food"
+        },
+        {
+          "v": 179,
+          "slug": "disney-park-app-ticket-share"
+        },
+        {
+          "v": 194,
+          "slug": "disneysea-journey-center-earth"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/standbypass.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/standbypass.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 166,
+          "slug": "disney-standby-pass-store"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/tdr/guide/",
+      "error": "",
+      "articles": [
+        {
+          "v": 169,
+          "slug": "disney-priority-seating-restaurants"
+        },
+        {
+          "v": 170,
+          "slug": "disney-character-dining-booking"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/index.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/ticket/index.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 171,
+          "slug": "disney-disability-passport"
+        },
+        {
+          "v": 172,
+          "slug": "disney-children-ticket-age"
+        },
+        {
+          "v": 174,
+          "slug": "disney-ticket-date-change"
+        },
+        {
+          "v": 298,
+          "slug": "tokyo-cruise-disney-possible"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/park_hopper",
+      "status": 404,
+      "state": "not_found",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/ticket/park_hopper",
+      "error": "",
+      "articles": [
+        {
+          "v": 173,
+          "slug": "disney-hopper-limited-period"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/dh.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/hotel/dh.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 175,
+          "slug": "disney-ticket-sold-out"
+        },
+        {
+          "v": 178,
+          "slug": "disney-hotel-park-ticket-bundle"
+        },
+        {
+          "v": 195,
+          "slug": "disney-miracosta-hotel"
+        },
+        {
+          "v": 196,
+          "slug": "disney-fantasy-springs-hotel"
+        },
+        {
+          "v": 198,
+          "slug": "disney-ambassador-hotel"
+        },
+        {
+          "v": 200,
+          "slug": "disney-vacation-package-vs-regular"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 176,
+          "slug": "disney-happy-entry-hotel-list"
+        },
+        {
+          "v": 177,
+          "slug": "disney-happy-entry-construction"
+        },
+        {
+          "v": 197,
+          "slug": "disney-toy-story-hotel"
+        },
+        {
+          "v": 199,
+          "slug": "disney-celebration-hotel"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/special/en/fantasysprings/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tokyodisneyresort.jp/special/en/fantasysprings/",
+      "error": "",
+      "articles": [
+        {
+          "v": 188,
+          "slug": "disneysea-frozen-ever-after"
+        },
+        {
+          "v": 189,
+          "slug": "disneysea-peter-pan-adventure"
+        },
+        {
+          "v": 190,
+          "slug": "disneysea-rapunzel-lantern"
+        }
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops/mainfloorB1.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.mistore.jp/store/shinjuku/shops/mainfloorB1.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 201,
+          "slug": "isetan-shinjuku-b1-food"
+        }
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops/mainfloor1.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.mistore.jp/store/shinjuku/shops/mainfloor1.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 202,
+          "slug": "isetan-shinjuku-1f-cosmetics"
+        }
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.mistore.jp/store/shinjuku/shops.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 203,
+          "slug": "isetan-shinjuku-b2-beauty"
+        }
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.mistore.jp/store/shinjuku.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 204,
+          "slug": "isetan-shinjuku-mens"
+        }
+      ]
+    },
+    {
+      "url": "https://www.daimaru.co.jp/tokyo/floor/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.daimaru.co.jp/tokyo/floor/",
+      "error": "",
+      "articles": [
+        {
+          "v": 205,
+          "slug": "daimaru-tokyo-b1-food"
+        },
+        {
+          "v": 206,
+          "slug": "daimaru-tokyo-12f-taxfree"
+        },
+        {
+          "v": 207,
+          "slug": "daimaru-tokyo-10f-hands"
+        },
+        {
+          "v": 269,
+          "slug": "tokyo-department-bento"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tobu-dept.jp/ikebukuro/tnb/language/english.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tobu-dept.jp/ikebukuro/tnb/language/english.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 208,
+          "slug": "tobu-ikebukuro-b1-b2"
+        },
+        {
+          "v": 209,
+          "slug": "tobu-ikebukuro-7f-kids"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tobu-dept.jp/ikebukuro/floormap/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tobu-dept.jp/ikebukuro/floormap/",
+      "error": "",
+      "articles": [
+        {
+          "v": 210,
+          "slug": "tobu-ikebukuro-restaurants"
+        }
+      ]
+    },
+    {
+      "url": "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_b1.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_b1.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 211,
+          "slug": "shinjuku-takashimaya-b1"
+        }
+      ]
+    },
+    {
+      "url": "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_09.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_09.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 212,
+          "slug": "shinjuku-takashimaya-9f-kids"
+        }
+      ]
+    },
+    {
+      "url": "https://ginza6.tokyo/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://ginza6.tokyo/",
+      "error": "",
+      "articles": [
+        {
+          "v": 213,
+          "slug": "ginza-six-b2-food"
+        },
+        {
+          "v": 214,
+          "slug": "ginza-six-b1-beauty"
+        },
+        {
+          "v": 215,
+          "slug": "ginza-six-6f-books"
+        },
+        {
+          "v": 216,
+          "slug": "ginza-six-rooftop"
+        }
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/nihombashi.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.mistore.jp/store/nihombashi.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 217,
+          "slug": "nihombashi-mitsukoshi-floors"
+        }
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/ginza.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.mistore.jp/store/ginza.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 218,
+          "slug": "ginza-mitsukoshi-floor-plan"
+        }
+      ]
+    },
+    {
+      "url": "https://www.takashimaya.co.jp/nihombashi/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.takashimaya.co.jp/nihombashi/departmentstore/",
+      "error": "",
+      "articles": [
+        {
+          "v": 219,
+          "slug": "nihombashi-takashimaya-floor"
+        }
+      ]
+    },
+    {
+      "url": "https://shibuya.parco.jp/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://shibuya.parco.jp/",
+      "error": "",
+      "articles": [
+        {
+          "v": 220,
+          "slug": "shibuya-parco-floor-guide"
+        }
+      ]
+    },
+    {
+      "url": "https://www.donki.com/en/store/shop_detail.php?shop_id=442",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.donki.com/en/store/shop_detail.php?shop_id=442",
+      "error": "",
+      "articles": [
+        {
+          "v": 221,
+          "slug": "shibuya-mega-donki-by-floor"
+        }
+      ]
+    },
+    {
+      "url": "https://www.donki.com/en/store/shop_detail.php?shop_id=29",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.donki.com/en/store/shop_detail.php?shop_id=29",
+      "error": "",
+      "articles": [
+        {
+          "v": 222,
+          "slug": "shinjuku-kabukicho-donki"
+        }
+      ]
+    },
+    {
+      "url": "https://www.donki.com/en/store/shop_detail.php?shop_id=655",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.donki.com/en/store/shop_detail.php?shop_id=655",
+      "error": "",
+      "articles": [
+        {
+          "v": 223,
+          "slug": "odaiba-kirakira-donki"
+        }
+      ]
+    },
+    {
+      "url": "https://www.donki.com/en/store/",
+      "status": 403,
+      "state": "restricted",
+      "finalUrl": "https://www.donki.com/en/htaccess/403-error.php",
+      "error": "",
+      "articles": [
+        {
+          "v": 224,
+          "slug": "donki-asakusa-check"
+        },
+        {
+          "v": 225,
+          "slug": "donki-roppongi-night-check"
+        },
+        {
+          "v": 226,
+          "slug": "donki-taxfree-passport"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/see-and-do/shopping/index.html",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.gotokyo.org/en/see-and-do/shopping/index.html",
+      "error": "",
+      "articles": [
+        {
+          "v": 227,
+          "slug": "tokyo-drugstore-cosmetics"
+        },
+        {
+          "v": 228,
+          "slug": "tokyo-drugstore-sun-care"
+        },
+        {
+          "v": 229,
+          "slug": "tokyo-drugstore-contact-lens"
+        },
+        {
+          "v": 230,
+          "slug": "tokyo-kbeauty-vs-jcosmetic"
+        },
+        {
+          "v": 239,
+          "slug": "tokyo-electronics-bic-yodobashi"
+        }
+      ]
+    },
+    {
+      "url": "https://shop.muji.com/jp/ginza/en/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://shop.muji.com/jp/ginza/en/",
+      "error": "",
+      "articles": [
+        {
+          "v": 231,
+          "slug": "muji-ginza-floor-map"
+        },
+        {
+          "v": 233,
+          "slug": "muji-ginza-6f-atelier"
+        },
+        {
+          "v": 234,
+          "slug": "muji-ginza-food-b1"
+        }
+      ]
+    },
+    {
+      "url": "https://www.muji.com/jp/ja/shop/detail/046604",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.muji.com/jp/ja/shop/detail/046604",
+      "error": "",
+      "articles": [
+        {
+          "v": 232,
+          "slug": "muji-ginza-4f-taxfree"
+        }
+      ]
+    },
+    {
+      "url": "https://www.loft.co.jp/shop_list/index.php?area=area_tokyo",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.loft.co.jp/shop_list/index.php?area=area_tokyo",
+      "error": "",
+      "articles": [
+        {
+          "v": 235,
+          "slug": "shibuya-loft-stationery"
+        },
+        {
+          "v": 236,
+          "slug": "ikebukuro-loft-floors"
+        },
+        {
+          "v": 237,
+          "slug": "loft-stationery-gifts"
+        }
+      ]
+    },
+    {
+      "url": "https://hands.net/",
+      "status": 403,
+      "state": "restricted",
+      "finalUrl": "https://hands.net/",
+      "error": "",
+      "articles": [
+        {
+          "v": 238,
+          "slug": "tokyo-hands-diy-gifts"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gourmet.gotokyo.org/",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.gourmet.gotokyo.org/",
+      "error": "",
+      "articles": [
+        {
+          "v": 261,
+          "slug": "tokyo-shoyu-ramen"
+        },
+        {
+          "v": 262,
+          "slug": "tokyo-tsukemen-howto"
+        },
+        {
+          "v": 263,
+          "slug": "tokyo-soba-vs-udon"
+        },
+        {
+          "v": 264,
+          "slug": "tokyo-tempura-lunch"
+        },
+        {
+          "v": 265,
+          "slug": "tokyo-unagi-kabayaki"
+        },
+        {
+          "v": 266,
+          "slug": "tokyo-yakiniku-all-you-can-eat"
+        },
+        {
+          "v": 267,
+          "slug": "tokyo-izakaya-otoshi"
+        },
+        {
+          "v": 268,
+          "slug": "tokyo-conveyor-sushi"
+        },
+        {
+          "v": 270,
+          "slug": "tokyo-kissaten-retro-cafe"
+        },
+        {
+          "v": 271,
+          "slug": "tokyo-matcha-wagashi"
+        },
+        {
+          "v": 273,
+          "slug": "tokyo-fruit-parfait"
+        },
+        {
+          "v": 274,
+          "slug": "tokyo-food-allergy-japanese"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tnm.jp/?lang=en",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tnm.jp/?lang=en",
+      "error": "",
+      "articles": [
+        {
+          "v": 275,
+          "slug": "tokyo-museum-ticket-advance"
+        }
+      ]
+    },
+    {
+      "url": "https://teamlabplanets.dmm.com/en",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://teamlabplanets.dmm.com/en",
+      "error": "",
+      "articles": [
+        {
+          "v": 280,
+          "slug": "tokyo-teamlab-borderless-vs-planets"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tptc.co.jp/terminal/guide/cruise",
+      "status": 200,
+      "state": "reachable",
+      "finalUrl": "https://www.tptc.co.jp/terminal/guide/cruise",
+      "error": "",
+      "articles": [
+        {
+          "v": 296,
+          "slug": "tokyo-cruise-odaiba-3hours"
+        },
+        {
+          "v": 297,
+          "slug": "tokyo-cruise-shuttle-vs-train"
+        },
+        {
+          "v": 299,
+          "slug": "tokyo-cruise-to-skytree"
+        }
+      ]
+    }
+  ],
+  "passed": false
+}
