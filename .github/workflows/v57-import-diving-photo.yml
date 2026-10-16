@@ -1,0 +1,28 @@
+name: V57 import CC BY photo of actual Okinawa scuba divers
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/v57-import-diving-photo.yml]
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Retrieve original licensed photo and create site WebP
+        run: python scripts/v57_import_licensed_divers.py
+      - name: Commit image with author and license record
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/nature-verified/okinawa-scuba-divers-oist.webp docs/v57-okinawa-diver-photo-source.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V57: publish actual Okinawa scuba-diver image with OIST CC BY credit"
+          git pull --rebase origin main
+          git push
