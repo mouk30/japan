@@ -22,7 +22,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import json,pathlib,re
-          root=pathlib.Path('site'),r=json.loads(pathlib.Path('audit-reports/v121-v300/editorial-manifest.json').read_text())
+          root=pathlib.Path('site');r=json.loads(pathlib.Path('audit-reports/v121-v300/editorial-manifest.json').read_text())
           assert r['count']==180 and len(r['groups'])==9
           assert all(group['count']==20 for group in r['groups'])
           assert len(set(x['slug'] for x in r['topics']))==180
