@@ -1,0 +1,111 @@
+{
+  "time": "2026-10-16T04:29:33.523Z",
+  "pages": [],
+  "checks": [
+    {
+      "name": "onsen-320",
+      "cardCount": 5,
+      "scrollWidth": 320
+    },
+    {
+      "name": "onsen-390",
+      "cardCount": 5,
+      "scrollWidth": 390
+    },
+    {
+      "name": "onsen-768",
+      "cardCount": 5,
+      "scrollWidth": 768
+    },
+    {
+      "name": "onsen-1440",
+      "cardCount": 5,
+      "scrollWidth": 1440
+    },
+    {
+      "name": "nature-320",
+      "cardCount": 5,
+      "scrollWidth": 320
+    },
+    {
+      "name": "nature-390",
+      "cardCount": 5,
+      "scrollWidth": 390
+    },
+    {
+      "name": "nature-768",
+      "cardCount": 5,
+      "scrollWidth": 768
+    },
+    {
+      "name": "nature-1440",
+      "cardCount": 5,
+      "scrollWidth": 1440
+    },
+    {
+      "name": "activity-320",
+      "cardCount": 5,
+      "scrollWidth": 320
+    },
+    {
+      "name": "activity-390",
+      "cardCount": 5,
+      "scrollWidth": 390
+    },
+    {
+      "name": "activity-768",
+      "cardCount": 5,
+      "scrollWidth": 768
+    },
+    {
+      "name": "activity-1440",
+      "cardCount": 5,
+      "scrollWidth": 1440
+    },
+    {
+      "name": "food-experience-320",
+      "cardCount": 4,
+      "scrollWidth": 320
+    },
+    {
+      "name": "food-experience-390",
+      "cardCount": 4,
+      "scrollWidth": 390
+    },
+    {
+      "name": "food-experience-768",
+      "cardCount": 4,
+      "scrollWidth": 768
+    },
+    {
+      "name": "food-experience-1440",
+      "cardCount": 4,
+      "scrollWidth": 1440
+    },
+    {
+      "name": "seasonal-320",
+      "cardCount": 4,
+      "scrollWidth": 320
+    },
+    {
+      "name": "seasonal-390",
+      "cardCount": 4,
+      "scrollWidth": 390
+    },
+    {
+      "name": "seasonal-768",
+      "cardCount": 4,
+      "scrollWidth": 768
+    },
+    {
+      "name": "seasonal-1440",
+      "cardCount": 4,
+      "scrollWidth": 1440
+    }
+  ],
+  "errors": [
+    "nature-1440 image 1: Error: locator.evaluate: Error: zero natural width\n    at eval (eval at evaluate (:290:30), <anonymous>:1:277)\n    at UtilityScript.evaluate"
+  ],
+  "warnings": [],
+  "passed": false
+}
