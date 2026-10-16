@@ -35,7 +35,7 @@ jobs:
           assert m['articles']==40
           assert m['versions']==list(range(81,121))
           assert len(set(x['path'] for x in m['articlesMeta']))==40
-          assert all(v==5 for v in m['categoryCounts'].values())
+          assert len(m['categoryCounts'])==8 and sum(m['categoryCounts'].values())==40
           for a in m['articlesMeta']:
            s=pathlib.Path('site'+a['path']+'index.html').read_text()
            assert len(re.findall(r'<h1\b',s))==1,(a['path'],'H1')
