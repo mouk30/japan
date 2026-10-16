@@ -1,0 +1,504 @@
+{
+  "time": "2026-10-16T16:15:24.123Z",
+  "urls": 46,
+  "reachable": 44,
+  "missing": 2,
+  "restricted": 0,
+  "unconfirmed": 0,
+  "results": [
+    {
+      "url": "https://en.tokyotower.co.jp/fee/index.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://en.tokyotower.co.jp/fee/index.html",
+      "articles": [
+        "/japan/tokyo/tokyo-tower-tickets/"
+      ]
+    },
+    {
+      "url": "https://shibuya-scramble-square.com/en/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://shibuya-scramble-square.com/en/",
+      "articles": [
+        "/japan/tokyo/tokyo-shibuya-sky-reservation/",
+        "/japan/tokyo/tokyo-shibuya-crossing-hachiko/"
+      ]
+    },
+    {
+      "url": "https://teamlabplanets.dmm.com/en",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://teamlabplanets.dmm.com/en",
+      "articles": [
+        "/japan/tokyo/tokyo-teamlab-planets-ticket-guide/"
+      ]
+    },
+    {
+      "url": "https://teamlabplanets.dmm.com/en/guide/access_method",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://teamlabplanets.dmm.com/en/guide/access_method",
+      "articles": [
+        "/japan/tokyo/tokyo-teamlab-planets-ticket-guide/"
+      ]
+    },
+    {
+      "url": "https://ticket.tokyotower.co.jp/en/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://ticket.tokyotower.co.jp/en/",
+      "articles": [
+        "/japan/tokyo/tokyo-tower-tickets/",
+        "/japan/tokyo/tokyo-night-view-observation-comparison/"
+      ]
+    },
+    {
+      "url": "https://tokyo-haneda.com/en/access/train/index.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://tokyo-haneda.com/en/access/train/index.html",
+      "articles": [
+        "/japan/tokyo/tokyo-haneda-airport-train-guide/"
+      ]
+    },
+    {
+      "url": "https://www.donki.com/en/store/shop_detail.php?shop_id=29",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.donki.com/en/store/shop_detail.php?shop_id=29",
+      "articles": [
+        "/japan/tokyo/tokyo-donki-shinjuku-kabukicho/"
+      ]
+    },
+    {
+      "url": "https://www.donki.com/en/store/shop_detail.php?shop_id=442",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.donki.com/en/store/shop_detail.php?shop_id=442",
+      "articles": [
+        "/japan/tokyo/tokyo-mega-donki-shibuya/"
+      ]
+    },
+    {
+      "url": "https://www.english.metro.tokyo.lg.jp/w/000-101-000542",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.english.metro.tokyo.lg.jp/w/000-101-000542",
+      "articles": [
+        "/japan/tokyo/tokyo-metropolitan-government-free-view/",
+        "/japan/tokyo/tokyo-night-view-observation-comparison/",
+        "/japan/tokyo/tokyo-shinjuku-night-sightseeing/"
+      ]
+    },
+    {
+      "url": "https://www.ghibli-museum.jp/en/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.ghibli-museum.jp/en/",
+      "articles": [
+        "/japan/tokyo/tokyo-ghibli-museum-booking/"
+      ]
+    },
+    {
+      "url": "https://www.ghibli-museum.jp/ticket/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.ghibli-museum.jp/ticket/",
+      "articles": [
+        "/japan/tokyo/tokyo-ghibli-museum-booking/"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.gotokyo.org/en/",
+      "articles": [
+        "/japan/tokyo/tokyo-tsukishima-monjayaki/",
+        "/japan/tokyo/tokyo-yakitori-izakaya-guide/",
+        "/japan/tokyo/tokyo-donki-shinjuku-kabukicho/",
+        "/japan/tokyo/tokyo-shinjuku-night-sightseeing/",
+        "/japan/tokyo/tokyo-akihabara-anime-shopping/",
+        "/japan/tokyo/tokyo-ueno-park-museums-zoo/",
+        "/japan/tokyo/tokyo-toyosu-market-auction-guide/",
+        "/japan/tokyo/tokyo-one-day-best-route/",
+        "/japan/tokyo/tokyo-two-day-district-plan/",
+        "/japan/tokyo/tokyo-three-day-highlights/",
+        "/japan/tokyo/tokyo-family-cruise-shore-plan/"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+      "articles": [
+        "/japan/tokyo/tokyo-asakusa-sensoji-kaminarimon/"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html",
+      "articles": [
+        "/japan/tokyo/tokyo-shibuya-sky-reservation/",
+        "/japan/tokyo/tokyo-shibuya-crossing-hachiko/"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html",
+      "status": 404,
+      "state": "not_found",
+      "error": "",
+      "finalUrl": "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html",
+      "articles": [
+        "/japan/tokyo/tokyo-ramen-best-areas/",
+        "/japan/tokyo/tokyo-tsukishima-monjayaki/",
+        "/japan/tokyo/tokyo-yakitori-izakaya-guide/"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/see-and-do/shopping/index.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.gotokyo.org/en/see-and-do/shopping/index.html",
+      "articles": [
+        "/japan/tokyo/tokyo-depachika-food-halls/",
+        "/japan/tokyo/tokyo-ginza-department-store-route/",
+        "/japan/tokyo/tokyo-shinjuku-isetan-shopping/",
+        "/japan/tokyo/tokyo-mega-donki-shibuya/",
+        "/japan/tokyo/tokyo-akihabara-anime-shopping/"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/spot/65/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.gotokyo.org/en/spot/65/",
+      "articles": [
+        "/japan/tokyo/tokyo-sushi-breakfast-guide/"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/spot/678/index.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.gotokyo.org/en/spot/678/index.html",
+      "articles": [
+        "/japan/tokyo/tokyo-depachika-food-halls/",
+        "/japan/tokyo/tokyo-ginza-department-store-route/",
+        "/japan/tokyo/tokyo-ginza-mitsukoshi-depachika/"
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/e/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.jreast.co.jp/e/",
+      "articles": [
+        "/japan/tokyo/tokyo-yamanote-line-transfer-guide/",
+        "/japan/tokyo/tokyo-haneda-airport-train-guide/",
+        "/japan/tokyo/tokyo-station-character-street/"
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/multi/en/nex/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.jreast.co.jp/en/multi/nex/",
+      "articles": [
+        "/japan/tokyo/tokyo-narita-airport-train-guide/"
+      ]
+    },
+    {
+      "url": "https://www.kotsu.metro.tokyo.jp/eng/maps/subway/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.kotsu.metro.tokyo.jp/eng/maps/subway/",
+      "articles": [
+        "/japan/tokyo/tokyo-subway-route-map-korean/"
+      ]
+    },
+    {
+      "url": "https://www.metro.tokyo.lg.jp/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.metro.tokyo.lg.jp/",
+      "articles": [
+        "/japan/tokyo/tokyo-metropolitan-government-free-view/"
+      ]
+    },
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/01/2026013016",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.metro.tokyo.lg.jp/information/press/2026/01/2026013016",
+      "articles": [
+        "/japan/tokyo/tokyo-subway-ticket-24-48-72/"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/ginza.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.mistore.jp/store/ginza.html",
+      "articles": [
+        "/japan/tokyo/tokyo-ginza-mitsukoshi-depachika/"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.mistore.jp/store/shinjuku.html",
+      "articles": [
+        "/japan/tokyo/tokyo-shinjuku-isetan-shopping/"
+      ]
+    },
+    {
+      "url": "https://www.narita-airport.jp/en/access/train/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.narita-airport.jp/en/access/train/",
+      "articles": [
+        "/japan/tokyo/tokyo-narita-airport-train-guide/"
+      ]
+    },
+    {
+      "url": "https://www.senso-ji.jp/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.senso-ji.jp/",
+      "articles": [
+        "/japan/tokyo/tokyo-asakusa-sensoji-kaminarimon/"
+      ]
+    },
+    {
+      "url": "https://www.shijou.metro.tokyo.lg.jp/english/",
+      "status": 404,
+      "state": "not_found",
+      "error": "",
+      "finalUrl": "https://www.shijou.metro.tokyo.lg.jp/english/",
+      "articles": [
+        "/japan/tokyo/tokyo-toyosu-market-auction-guide/"
+      ]
+    },
+    {
+      "url": "https://www.tnm.jp/?lang=en",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tnm.jp/?lang=en",
+      "articles": [
+        "/japan/tokyo/tokyo-ueno-park-museums-zoo/"
+      ]
+    },
+    {
+      "url": "https://www.tokyo-skytree.jp/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyo-skytree.jp/",
+      "articles": [
+        "/japan/tokyo/tokyo-skytree-tickets/"
+      ]
+    },
+    {
+      "url": "https://www.tokyo-skytree.jp/ticket/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyo-skytree.jp/ticket/",
+      "articles": [
+        "/japan/tokyo/tokyo-skytree-tickets/"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.co.jp/en/tdl/access",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyodisneyresort.co.jp/en/tdl/access",
+      "articles": [
+        "/japan/tokyo/tokyo-disney-maihama-transport/"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.co.jp/en/tdr/access",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyodisneyresort.co.jp/en/tdr/access",
+      "articles": [
+        "/japan/tokyo/tokyo-disneysea-ticket-guide/",
+        "/japan/tokyo/tokyo-disney-maihama-transport/",
+        "/japan/tokyo/tokyo-disney-hotel-stay-guide/"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/hotel/",
+      "articles": [
+        "/japan/tokyo/tokyo-disney-hotel-stay-guide/"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdl/ticket/purchase.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/ticket/purchase.html",
+      "articles": [
+        "/japan/tokyo/tokyo-disneyland-ticket-guide/"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/standbypass.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/standbypass.html",
+      "articles": [
+        "/japan/tokyo/tokyo-disneysea-fantasy-springs/"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tds/ticket/purchase",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/tds/ticket/purchase",
+      "articles": [
+        "/japan/tokyo/tokyo-disneysea-ticket-guide/"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/index.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyodisneyresort.jp/en/ticket/index.html",
+      "articles": [
+        "/japan/tokyo/tokyo-disneyland-ticket-guide/",
+        "/japan/tokyo/tokyo-three-day-highlights/"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/special/en/fantasysprings/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyodisneyresort.jp/special/en/fantasysprings/",
+      "articles": [
+        "/japan/tokyo/tokyo-disneysea-fantasy-springs/"
+      ]
+    },
+    {
+      "url": "https://www.tokyoeki-1bangai.co.jp/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyoeki-1bangai.co.jp/",
+      "articles": [
+        "/japan/tokyo/tokyo-ramen-best-areas/",
+        "/japan/tokyo/tokyo-station-character-street/"
+      ]
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/subwaymap/index.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyometro.jp/en/subwaymap/index.html",
+      "articles": [
+        "/japan/tokyo/tokyo-subway-route-map-korean/",
+        "/japan/tokyo/tokyo-yamanote-line-transfer-guide/",
+        "/japan/tokyo/tokyo-one-day-best-route/",
+        "/japan/tokyo/tokyo-two-day-district-plan/"
+      ]
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/ticket/travel/index.html",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tokyometro.jp/en/ticket/travel/index.html",
+      "articles": [
+        "/japan/tokyo/tokyo-subway-ticket-24-48-72/"
+      ]
+    },
+    {
+      "url": "https://www.tptc.co.jp/terminal/guide/cruise",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tptc.co.jp/terminal/guide/cruise",
+      "articles": [
+        "/japan/tokyo/tokyo-odaiba-waterfront-yurikamome/",
+        "/japan/tokyo/tokyo-family-cruise-shore-plan/"
+      ]
+    },
+    {
+      "url": "https://www.tsukiji.or.jp/english/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tsukiji.or.jp/english/",
+      "articles": [
+        "/japan/tokyo/tokyo-sushi-breakfast-guide/",
+        "/japan/tokyo/tokyo-tsukiji-market-street-food/"
+      ]
+    },
+    {
+      "url": "https://www.tsukiji.or.jp/english/plattsukiji/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.tsukiji.or.jp/english/plattsukiji/",
+      "articles": [
+        "/japan/tokyo/tokyo-tsukiji-market-street-food/"
+      ]
+    },
+    {
+      "url": "https://www.yurikamome.co.jp/en/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.yurikamome.co.jp/en/",
+      "articles": [
+        "/japan/tokyo/tokyo-odaiba-waterfront-yurikamome/"
+      ]
+    }
+  ]
+}
