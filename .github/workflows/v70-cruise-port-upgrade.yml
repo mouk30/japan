@@ -1,0 +1,61 @@
+name: V70 20 cruise ports official info and responsive QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v70-cruise-port-upgrade.yml'
+      - 'scripts/v70_upgrade_cruise_ports.mjs'
+      - 'scripts/v70_ports_browser_qa.mjs'
+permissions:
+  contents: write
+jobs:
+  upgrade-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Upgrade 20 existing cruise port travel guides without new article URLs
+        run: node scripts/v70_upgrade_cruise_ports.mjs
+      - name: Install Playwright and browser
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build production output
+        run: npm run build
+      - name: Check twenty sources and four viewport sizes for each
+        id: browserqa
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8757 --bind 127.0.0.1 --directory dist >/tmp/v70-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          node scripts/v70_ports_browser_qa.mjs
+      - name: Keep audit screenshots and manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v70-20-cruise-ports-80-mobile-browser-audit
+          path: audit-reports/v70/
+          retention-days: 21
+          if-no-files-found: warn
+      - name: Commit twenty corrected existing pages and passing QA report
+        if: steps.browserqa.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          node -e "const x=require('./audit-reports/v70/upgraded-ports.json'); if(x.count!==20||new Set(x.results.map(z=>z.slug)).size!==20)process.exit(1)"
+          git add site/things-to-do/*-cruise-port-day-trip/index.html
+          git add audit-reports/v70/upgraded-ports.json audit-reports/v70/browser-qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V70: add official berth, shore transport, ticket and return checks to 20 ports"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Fail on source or layout regressions
+        if: steps.browserqa.outcome != 'success'
+        run: exit 1
