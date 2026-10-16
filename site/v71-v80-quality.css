@@ -17,3 +17,10 @@
 @media(max-width:850px){.nf-q80-grid{grid-template-columns:minmax(0,1fr)!important}.nf-q80-card{padding:14px}.nf-q80>h2{font-size:23px!important}}
 @media(max-width:400px){.nf-q80{padding:13px!important;margin:16px 0 20px!important}.nf-q80-card{padding:12px!important}.nf-q80-nav a{width:100%;min-height:43px}.nf-q80>h2{font-size:21px!important}}
 @media(prefers-reduced-motion:reduce){.nf-q80 *{scroll-behavior:auto!important}}
+
+/* V78/V80 verified time-sensitive attraction operating notices */
+.nf-q80-dated{margin:0 0 16px;padding:16px 18px;background:#fff8e8;border:1px solid #e9d69c;border-left:4px solid #bb8116;border-radius:12px;min-width:0;color:#4a4937}
+.nf-q80-dated strong{display:block;color:#695114;font-size:15px;line-height:1.5}
+.nf-q80-dated p{color:#685e42;font-size:13px!important;line-height:1.85!important;margin:8px 0 0!important;overflow-wrap:anywhere}
+.nf-q80-dated a{color:#875c06;font-weight:850;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+@media(max-width:600px){.nf-q80-dated{padding:12px}.nf-q80-dated strong{font-size:14px}}
