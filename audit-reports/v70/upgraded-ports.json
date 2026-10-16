@@ -1,0 +1,148 @@
+{
+  "version": 70,
+  "updatedAt": "2026-10-16",
+  "noNewPages": true,
+  "count": 20,
+  "results": [
+    {
+      "slug": "hiroshima",
+      "file": "site/things-to-do/hiroshima-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/039/index.html",
+      "transUrl": "https://hiroshima-minato.jp/enaccessitsukaichi/",
+      "venueUrl": "https://hiroshima-minato.jp/accessujina/"
+    },
+    {
+      "slug": "takamatsu",
+      "file": "site/things-to-do/takamatsu-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/049/index.html",
+      "transUrl": "https://www.kotoden.co.jp/",
+      "venueUrl": "https://www.my-kagawa.jp/"
+    },
+    {
+      "slug": "kumamoto",
+      "file": "site/things-to-do/kumamoto-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/089/index.html",
+      "transUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/065/index.html",
+      "venueUrl": "https://kumamoto.guide/en/"
+    },
+    {
+      "slug": "maizuru",
+      "file": "site/things-to-do/maizuru-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/028/index.html",
+      "transUrl": "https://www.japan.travel/en/destinations/kansai/kyoto/",
+      "venueUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/028/index.html"
+    },
+    {
+      "slug": "kure",
+      "file": "site/things-to-do/kure-cruise-port-day-trip/index.html",
+      "official": "https://www.city.kure.lg.jp/",
+      "transUrl": "https://www.city.kure.lg.jp/",
+      "venueUrl": "https://yamato-museum.com/"
+    },
+    {
+      "slug": "fushiki-toyama",
+      "file": "site/things-to-do/fushiki-toyama-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/021/index.html",
+      "transUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/021/index.html",
+      "venueUrl": "https://www.info-toyama.com/"
+    },
+    {
+      "slug": "tottori",
+      "file": "site/things-to-do/tottori-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/list/index.html",
+      "transUrl": "https://www.tottori-guide.jp/",
+      "venueUrl": "https://www.tottori-guide.jp/"
+    },
+    {
+      "slug": "karatsu",
+      "file": "site/things-to-do/karatsu-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/056/index.html",
+      "transUrl": "https://www.city.karatsu.lg.jp/",
+      "venueUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/056/index.html"
+    },
+    {
+      "slug": "miyazaki",
+      "file": "site/things-to-do/miyazaki-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/067/index.html",
+      "transUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/067/index.html",
+      "venueUrl": "https://www.kanko-miyazaki.jp/"
+    },
+    {
+      "slug": "atami",
+      "file": "site/things-to-do/atami-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/list/index.html",
+      "transUrl": "https://www.city.atami.lg.jp/",
+      "venueUrl": "https://www.city.atami.lg.jp/"
+    },
+    {
+      "slug": "nagoya",
+      "file": "site/things-to-do/nagoya-cruise-port-day-trip/index.html",
+      "official": "https://www.port-of-nagoya.jp/kanko/senpaku/cruiseguide/1004445.html",
+      "transUrl": "https://www.port-of-nagoya.jp/kanko/senpaku/cruiseguide/1004445.html",
+      "venueUrl": "https://www.port-of-nagoya.jp/english/aboutport/1001854/1001521.html"
+    },
+    {
+      "slug": "wakayama-shimotsu",
+      "file": "site/things-to-do/wakayama-shimotsu-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/list/index.html",
+      "transUrl": "https://www.wakayama-kanko.or.jp/",
+      "venueUrl": "https://www.wakayama-kanko.or.jp/"
+    },
+    {
+      "slug": "yakushima-miyanoura",
+      "file": "site/things-to-do/yakushima-miyanoura-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/072/index.html",
+      "transUrl": "https://www.town.yakushima.kagoshima.jp/soshiki/kanko_machizukuri/kankosushin/kankosite_English/2/756.html",
+      "venueUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/072/index.html"
+    },
+    {
+      "slug": "akita",
+      "file": "site/things-to-do/akita-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/012/index.html",
+      "transUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/012/index.html",
+      "venueUrl": "https://www.akita-tourism.com/"
+    },
+    {
+      "slug": "iwakuni",
+      "file": "site/things-to-do/iwakuni-cruise-port-day-trip/index.html",
+      "official": "https://www.pref.yamaguchi.lg.jp/soshiki/91/21621.html",
+      "transUrl": "https://www.pref.yamaguchi.lg.jp/soshiki/91/21621.html",
+      "venueUrl": "https://www.city.iwakuni.lg.jp/"
+    },
+    {
+      "slug": "amami-naze",
+      "file": "site/things-to-do/amami-naze-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/071/index.html",
+      "transUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/071/index.html",
+      "venueUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/071/index.html"
+    },
+    {
+      "slug": "goto-fukue",
+      "file": "site/things-to-do/goto-fukue-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/060/index.html",
+      "transUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/060/index.html",
+      "venueUrl": "https://www.city.goto.nagasaki.jp/"
+    },
+    {
+      "slug": "tomakomai",
+      "file": "site/things-to-do/tomakomai-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/002/index.html",
+      "transUrl": "https://www.jptmk.com/",
+      "venueUrl": "https://www.city.tomakomai.hokkaido.jp/"
+    },
+    {
+      "slug": "tokushima-komatsushima",
+      "file": "site/things-to-do/tokushima-komatsushima-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/048/index.html",
+      "transUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/048/index.html",
+      "venueUrl": "https://www.awanavi.jp/"
+    },
+    {
+      "slug": "kumamoto-misumi",
+      "file": "site/things-to-do/kumamoto-misumi-cruise-port-day-trip/index.html",
+      "official": "https://www.mlit.go.jp/kankocho/cruise/detail/090/index.html",
+      "transUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/090/index.html",
+      "venueUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/090/index.html"
+    }
+  ]
+}
