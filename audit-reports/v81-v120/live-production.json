@@ -1,0 +1,371 @@
+{
+  "checkedAt": "2026-10-16T16:13:47.387Z",
+  "retries": 1,
+  "articles": 40,
+  "publicPages": 43,
+  "checks": [
+    {
+      "path": "/",
+      "type": "home",
+      "status": 200,
+      "issues": [],
+      "bytes": 38413
+    },
+    {
+      "path": "/japan/",
+      "type": "directory",
+      "status": 200,
+      "issues": [],
+      "bytes": 8041
+    },
+    {
+      "path": "/japan/tokyo/",
+      "type": "hub",
+      "status": 200,
+      "issues": [],
+      "bytes": 20281
+    },
+    {
+      "path": "/japan/tokyo/tokyo-ramen-best-areas/",
+      "type": "detail",
+      "version": 81,
+      "status": 200,
+      "issues": [],
+      "bytes": 7342
+    },
+    {
+      "path": "/japan/tokyo/tokyo-sushi-breakfast-guide/",
+      "type": "detail",
+      "version": 82,
+      "status": 200,
+      "issues": [],
+      "bytes": 7335
+    },
+    {
+      "path": "/japan/tokyo/tokyo-tsukishima-monjayaki/",
+      "type": "detail",
+      "version": 83,
+      "status": 200,
+      "issues": [],
+      "bytes": 7265
+    },
+    {
+      "path": "/japan/tokyo/tokyo-yakitori-izakaya-guide/",
+      "type": "detail",
+      "version": 84,
+      "status": 200,
+      "issues": [],
+      "bytes": 7261
+    },
+    {
+      "path": "/japan/tokyo/tokyo-depachika-food-halls/",
+      "type": "detail",
+      "version": 85,
+      "status": 200,
+      "issues": [],
+      "bytes": 7263
+    },
+    {
+      "path": "/japan/tokyo/tokyo-tower-tickets/",
+      "type": "detail",
+      "version": 86,
+      "status": 200,
+      "issues": [],
+      "bytes": 7396
+    },
+    {
+      "path": "/japan/tokyo/tokyo-metropolitan-government-free-view/",
+      "type": "detail",
+      "version": 87,
+      "status": 200,
+      "issues": [],
+      "bytes": 7295
+    },
+    {
+      "path": "/japan/tokyo/tokyo-skytree-tickets/",
+      "type": "detail",
+      "version": 88,
+      "status": 200,
+      "issues": [],
+      "bytes": 7277
+    },
+    {
+      "path": "/japan/tokyo/tokyo-shibuya-sky-reservation/",
+      "type": "detail",
+      "version": 89,
+      "status": 200,
+      "issues": [],
+      "bytes": 7295
+    },
+    {
+      "path": "/japan/tokyo/tokyo-night-view-observation-comparison/",
+      "type": "detail",
+      "version": 90,
+      "status": 200,
+      "issues": [],
+      "bytes": 7406
+    },
+    {
+      "path": "/japan/tokyo/tokyo-subway-route-map-korean/",
+      "type": "detail",
+      "version": 91,
+      "status": 200,
+      "issues": [],
+      "bytes": 7518
+    },
+    {
+      "path": "/japan/tokyo/tokyo-subway-ticket-24-48-72/",
+      "type": "detail",
+      "version": 92,
+      "status": 200,
+      "issues": [],
+      "bytes": 7524
+    },
+    {
+      "path": "/japan/tokyo/tokyo-yamanote-line-transfer-guide/",
+      "type": "detail",
+      "version": 93,
+      "status": 200,
+      "issues": [],
+      "bytes": 7461
+    },
+    {
+      "path": "/japan/tokyo/tokyo-haneda-airport-train-guide/",
+      "type": "detail",
+      "version": 94,
+      "status": 200,
+      "issues": [],
+      "bytes": 7286
+    },
+    {
+      "path": "/japan/tokyo/tokyo-narita-airport-train-guide/",
+      "type": "detail",
+      "version": 95,
+      "status": 200,
+      "issues": [],
+      "bytes": 7315
+    },
+    {
+      "path": "/japan/tokyo/tokyo-ginza-department-store-route/",
+      "type": "detail",
+      "version": 96,
+      "status": 200,
+      "issues": [],
+      "bytes": 7236
+    },
+    {
+      "path": "/japan/tokyo/tokyo-shinjuku-isetan-shopping/",
+      "type": "detail",
+      "version": 97,
+      "status": 200,
+      "issues": [],
+      "bytes": 7282
+    },
+    {
+      "path": "/japan/tokyo/tokyo-ginza-mitsukoshi-depachika/",
+      "type": "detail",
+      "version": 98,
+      "status": 200,
+      "issues": [],
+      "bytes": 7205
+    },
+    {
+      "path": "/japan/tokyo/tokyo-station-character-street/",
+      "type": "detail",
+      "version": 99,
+      "status": 200,
+      "issues": [],
+      "bytes": 7259
+    },
+    {
+      "path": "/japan/tokyo/tokyo-mega-donki-shibuya/",
+      "type": "detail",
+      "version": 100,
+      "status": 200,
+      "issues": [],
+      "bytes": 7293
+    },
+    {
+      "path": "/japan/tokyo/tokyo-donki-shinjuku-kabukicho/",
+      "type": "detail",
+      "version": 101,
+      "status": 200,
+      "issues": [],
+      "bytes": 7223
+    },
+    {
+      "path": "/japan/tokyo/tokyo-disneyland-ticket-guide/",
+      "type": "detail",
+      "version": 102,
+      "status": 200,
+      "issues": [],
+      "bytes": 7459
+    },
+    {
+      "path": "/japan/tokyo/tokyo-disneysea-ticket-guide/",
+      "type": "detail",
+      "version": 103,
+      "status": 200,
+      "issues": [],
+      "bytes": 7328
+    },
+    {
+      "path": "/japan/tokyo/tokyo-disneysea-fantasy-springs/",
+      "type": "detail",
+      "version": 104,
+      "status": 200,
+      "issues": [],
+      "bytes": 7478
+    },
+    {
+      "path": "/japan/tokyo/tokyo-disney-maihama-transport/",
+      "type": "detail",
+      "version": 105,
+      "status": 200,
+      "issues": [],
+      "bytes": 7525
+    },
+    {
+      "path": "/japan/tokyo/tokyo-disney-hotel-stay-guide/",
+      "type": "detail",
+      "version": 106,
+      "status": 200,
+      "issues": [],
+      "bytes": 7324
+    },
+    {
+      "path": "/japan/tokyo/tokyo-asakusa-sensoji-kaminarimon/",
+      "type": "detail",
+      "version": 107,
+      "status": 200,
+      "issues": [],
+      "bytes": 7300
+    },
+    {
+      "path": "/japan/tokyo/tokyo-shibuya-crossing-hachiko/",
+      "type": "detail",
+      "version": 108,
+      "status": 200,
+      "issues": [],
+      "bytes": 7360
+    },
+    {
+      "path": "/japan/tokyo/tokyo-shinjuku-night-sightseeing/",
+      "type": "detail",
+      "version": 109,
+      "status": 200,
+      "issues": [],
+      "bytes": 7307
+    },
+    {
+      "path": "/japan/tokyo/tokyo-akihabara-anime-shopping/",
+      "type": "detail",
+      "version": 110,
+      "status": 200,
+      "issues": [],
+      "bytes": 7327
+    },
+    {
+      "path": "/japan/tokyo/tokyo-odaiba-waterfront-yurikamome/",
+      "type": "detail",
+      "version": 111,
+      "status": 200,
+      "issues": [],
+      "bytes": 7363
+    },
+    {
+      "path": "/japan/tokyo/tokyo-teamlab-planets-ticket-guide/",
+      "type": "detail",
+      "version": 112,
+      "status": 200,
+      "issues": [],
+      "bytes": 7332
+    },
+    {
+      "path": "/japan/tokyo/tokyo-ueno-park-museums-zoo/",
+      "type": "detail",
+      "version": 113,
+      "status": 200,
+      "issues": [],
+      "bytes": 7250
+    },
+    {
+      "path": "/japan/tokyo/tokyo-tsukiji-market-street-food/",
+      "type": "detail",
+      "version": 114,
+      "status": 200,
+      "issues": [],
+      "bytes": 7288
+    },
+    {
+      "path": "/japan/tokyo/tokyo-toyosu-market-auction-guide/",
+      "type": "detail",
+      "version": 115,
+      "status": 200,
+      "issues": [],
+      "bytes": 7162
+    },
+    {
+      "path": "/japan/tokyo/tokyo-ghibli-museum-booking/",
+      "type": "detail",
+      "version": 116,
+      "status": 200,
+      "issues": [],
+      "bytes": 7304
+    },
+    {
+      "path": "/japan/tokyo/tokyo-one-day-best-route/",
+      "type": "detail",
+      "version": 117,
+      "status": 200,
+      "issues": [],
+      "bytes": 6758
+    },
+    {
+      "path": "/japan/tokyo/tokyo-two-day-district-plan/",
+      "type": "detail",
+      "version": 118,
+      "status": 200,
+      "issues": [],
+      "bytes": 6774
+    },
+    {
+      "path": "/japan/tokyo/tokyo-three-day-highlights/",
+      "type": "detail",
+      "version": 119,
+      "status": 200,
+      "issues": [],
+      "bytes": 6785
+    },
+    {
+      "path": "/japan/tokyo/tokyo-family-cruise-shore-plan/",
+      "type": "detail",
+      "version": 120,
+      "status": 200,
+      "issues": [],
+      "bytes": 6908
+    }
+  ],
+  "errors": [],
+  "assets": [
+    {
+      "path": "/tokyo-guide.css",
+      "status": 200,
+      "bytes": 5557,
+      "issues": []
+    },
+    {
+      "path": "/images/venues/tokyo-city-night-real.webp",
+      "status": 200,
+      "bytes": 215708,
+      "issues": []
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "bytes": 121895,
+      "issues": []
+    }
+  ],
+  "passed": true
+}
