@@ -1,0 +1,59 @@
+name: V71-V80 upgrade 200 existing travel and cruise pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v71-v80-apply.yml'
+      - 'scripts/v71_v80_quality_batches.mjs'
+permissions:
+  contents: write
+jobs:
+  upgrade-ten-batches:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Upgrade V71 to V80, 20 pages per stage, no new articles
+        run: node scripts/v71_v80_quality_batches.mjs
+      - name: Validate stage counts, canonical preservation, images and premium card labels
+        run: |
+          node - <<'NODE'
+          const fs=require('fs'),path=require('path');
+          const m=JSON.parse(fs.readFileSync('audit-reports/v71-v80/manifest.json','utf8'));
+          if(m.total!==200||Object.keys(m.cohorts).length!==10)throw Error('Expected 200 pages/10 stages');
+          for(const [key,batch] of Object.entries(m.cohorts)){
+            if(batch.count!==20||batch.slugs.length!==20)throw Error(key+' not 20');
+            for(const slug of batch.slugs){
+              const p='site/things-to-do/'+slug+'/index.html',h=fs.readFileSync(p,'utf8');
+              if((h.match(/class="nf-q80-card"/g)||[]).length!==3)throw Error('Card count '+slug);
+              if(!h.includes('id="v'+key.slice(1)+'-verification"'))throw Error('Missing version marker '+slug);
+              if(!h.includes('https://www.nipponferry.com/things-to-do/'+slug+'/'))throw Error('Canonical changed '+slug);
+              if(!h.includes('/v71-v80-quality.css'))throw Error('Style absent '+slug);
+            }
+          }
+          console.log('PASS TEN BATCHES:',Object.entries(m.cohorts).map(([k,x])=>k+'='+x.count).join(', '));
+          NODE
+      - name: Production build viability
+        run: npm run build
+      - name: Commit 200 existing pages and ten QA manifests as one atomic quality upgrade
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/things-to-do audit-reports/v71-v80
+          git diff --cached --quiet && exit 0
+          git commit -m "V71-V80: enrich 200 existing travel pages in ten quality cohorts"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Upload release manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v71-v80-ten-batches-manifest
+          path: audit-reports/v71-v80/
+          retention-days: 25
+          if-no-files-found: warn
