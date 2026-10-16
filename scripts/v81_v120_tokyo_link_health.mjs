@@ -16,7 +16,7 @@ for(let i=0;i<urls.length;i+=9){
   return {url,status,state,error,finalUrl,articles:refs.get(url)};
  })));
 }
-const report={time:new Date().toISOString(),urls:urls.length,reachable:results.filter(x=>x.state==='reachable').length,missing:results.filter(x=>x.state==='not_found').length,restricted:results.filter(x=>x.state==='restricted').length,unconfirmed:results.filter(x=>['unknown','unconfirmed'].includes(x.state)).length,results};
+const report={scope:'Current Tokyo operating and ticket links after replaced old 404 official URLs',time:new Date().toISOString(),urls:urls.length,reachable:results.filter(x=>x.state==='reachable').length,missing:results.filter(x=>x.state==='not_found').length,restricted:results.filter(x=>x.state==='restricted').length,unconfirmed:results.filter(x=>['unknown','unconfirmed'].includes(x.state)).length,results};
 fs.writeFileSync('audit-reports/v81-v120/official-link-health.json',JSON.stringify(report,null,2));
 console.log(JSON.stringify({links:report.urls,reachable:report.reachable,missing:report.missing,restricted:report.restricted,unconfirmed:report.unconfirmed,issues:results.filter(x=>x.state!=='reachable').slice(0,25)},null,2));
 if(report.missing>0)process.exitCode=1;
