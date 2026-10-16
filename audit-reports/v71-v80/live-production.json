@@ -1,0 +1,3665 @@
+{
+  "checkedAt": "2026-10-16T15:36:39.700Z",
+  "total": 200,
+  "attempts": 1,
+  "cohorts": {
+    "V71": {
+      "pass": 20,
+      "fail": 0
+    },
+    "V72": {
+      "pass": 20,
+      "fail": 0
+    },
+    "V73": {
+      "pass": 20,
+      "fail": 0
+    },
+    "V74": {
+      "pass": 20,
+      "fail": 0
+    },
+    "V75": {
+      "pass": 20,
+      "fail": 0
+    },
+    "V76": {
+      "pass": 20,
+      "fail": 0
+    },
+    "V77": {
+      "pass": 20,
+      "fail": 0
+    },
+    "V78": {
+      "pass": 20,
+      "fail": 0
+    },
+    "V79": {
+      "pass": 20,
+      "fail": 0
+    },
+    "V80": {
+      "pass": 20,
+      "fail": 0
+    }
+  },
+  "css": {
+    "status": 200,
+    "type": "text/css; charset=utf-8",
+    "bytes": 3289,
+    "error": ""
+  },
+  "passed": true,
+  "checks": [
+    {
+      "version": "V71",
+      "slug": "abashiri-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/abashiri-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12752,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/abashiri-cruise-port-day-trip/?quality-release-check=1792164996599"
+    },
+    {
+      "version": "V71",
+      "slug": "aburatsu-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/aburatsu-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 11817,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/aburatsu-cruise-port-day-trip/?quality-release-check=1792164996642"
+    },
+    {
+      "version": "V71",
+      "slug": "aokata-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/aokata-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10877,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/aokata-cruise-port-day-trip/?quality-release-check=1792164996643"
+    },
+    {
+      "version": "V71",
+      "slug": "fukui-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/fukui-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10796,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/fukui-cruise-port-day-trip/?quality-release-check=1792164996644"
+    },
+    {
+      "version": "V71",
+      "slug": "fukuyama-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/fukuyama-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9437,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/fukuyama-cruise-port-day-trip/?quality-release-check=1792164996644"
+    },
+    {
+      "version": "V71",
+      "slug": "funagawa-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/funagawa-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12689,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/funagawa-cruise-port-day-trip/?quality-release-check=1792164996645"
+    },
+    {
+      "version": "V71",
+      "slug": "futami-ogasawara-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/futami-ogasawara-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 11125,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/futami-ogasawara-cruise-port-day-trip/?quality-release-check=1792164996646"
+    },
+    {
+      "version": "V71",
+      "slug": "gamagori-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/gamagori-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9278,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/gamagori-cruise-port-day-trip/?quality-release-check=1792164996647"
+    },
+    {
+      "version": "V71",
+      "slug": "hachinohe-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/hachinohe-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12675,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hachinohe-cruise-port-day-trip/?quality-release-check=1792164996647"
+    },
+    {
+      "version": "V71",
+      "slug": "hagi-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/hagi-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10873,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hagi-cruise-port-day-trip/?quality-release-check=1792164996649"
+    },
+    {
+      "version": "V71",
+      "slug": "hamada-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/hamada-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10762,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hamada-cruise-port-day-trip/?quality-release-check=1792164996650"
+    },
+    {
+      "version": "V71",
+      "slug": "hannan-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/hannan-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10800,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hannan-cruise-port-day-trip/?quality-release-check=1792164996650"
+    },
+    {
+      "version": "V71",
+      "slug": "hidaka-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/hidaka-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9596,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hidaka-cruise-port-day-trip/?quality-release-check=1792164996650"
+    },
+    {
+      "version": "V71",
+      "slug": "himeji-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/himeji-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9130,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/himeji-cruise-port-day-trip/?quality-release-check=1792164996651"
+    },
+    {
+      "version": "V71",
+      "slug": "hirado-kawachi-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/hirado-kawachi-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10406,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hirado-kawachi-cruise-port-day-trip/?quality-release-check=1792164996651"
+    },
+    {
+      "version": "V71",
+      "slug": "hirara-miyakojima-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 13703,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-port-day-trip/?quality-release-check=1792164997196"
+    },
+    {
+      "version": "V71",
+      "slug": "hososhima-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/hososhima-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10654,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hososhima-cruise-port-day-trip/?quality-release-check=1792164997196"
+    },
+    {
+      "version": "V71",
+      "slug": "ibaraki-hitachinaka-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/ibaraki-hitachinaka-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12974,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/ibaraki-hitachinaka-cruise-port-day-trip/?quality-release-check=1792164997196"
+    },
+    {
+      "version": "V71",
+      "slug": "iki-gonoura-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/iki-gonoura-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10710,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/iki-gonoura-cruise-port-day-trip/?quality-release-check=1792164997196"
+    },
+    {
+      "version": "V71",
+      "slug": "imabari-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/imabari-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9584,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/imabari-cruise-port-day-trip/?quality-release-check=1792164997196"
+    },
+    {
+      "version": "V72",
+      "slug": "imari-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/imari-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10386,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/imari-cruise-port-day-trip/?quality-release-check=1792164997196"
+    },
+    {
+      "version": "V72",
+      "slug": "ishinomaki-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/ishinomaki-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12879,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/ishinomaki-cruise-port-day-trip/?quality-release-check=1792164997197"
+    },
+    {
+      "version": "V72",
+      "slug": "ito-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/ito-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10730,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/ito-cruise-port-day-trip/?quality-release-check=1792164997197"
+    },
+    {
+      "version": "V72",
+      "slug": "kaminato-hachijojima-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/kaminato-hachijojima-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10938,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kaminato-hachijojima-cruise-port-day-trip/?quality-release-check=1792164997197"
+    },
+    {
+      "version": "V72",
+      "slug": "kawasaki-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/kawasaki-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 11022,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kawasaki-cruise-port-day-trip/?quality-release-check=1792164997197"
+    },
+    {
+      "version": "V72",
+      "slug": "kisarazu-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/kisarazu-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10386,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kisarazu-cruise-port-day-trip/?quality-release-check=1792164997197"
+    },
+    {
+      "version": "V72",
+      "slug": "kozushima-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/kozushima-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10778,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kozushima-cruise-port-day-trip/?quality-release-check=1792164997197"
+    },
+    {
+      "version": "V72",
+      "slug": "kuji-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/kuji-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12690,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kuji-cruise-port-day-trip/?quality-release-check=1792164997197"
+    },
+    {
+      "version": "V72",
+      "slug": "kushiro-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/kushiro-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12813,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kushiro-cruise-port-day-trip/?quality-release-check=1792164997197"
+    },
+    {
+      "version": "V72",
+      "slug": "miike-miyakejima-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/miike-miyakejima-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10929,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/miike-miyakejima-cruise-port-day-trip/?quality-release-check=1792164997197"
+    },
+    {
+      "version": "V72",
+      "slug": "mikawa-jinno-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/mikawa-jinno-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 11031,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/mikawa-jinno-cruise-port-day-trip/?quality-release-check=1792164997358"
+    },
+    {
+      "version": "V72",
+      "slug": "mitajiri-nakanoseki-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/mitajiri-nakanoseki-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 11050,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/mitajiri-nakanoseki-cruise-port-day-trip/?quality-release-check=1792164997358"
+    },
+    {
+      "version": "V72",
+      "slug": "miyako-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/miyako-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12744,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/miyako-cruise-port-day-trip/?quality-release-check=1792164997358"
+    },
+    {
+      "version": "V72",
+      "slug": "mojiko-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/mojiko-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 11834,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/mojiko-cruise-port-day-trip/?quality-release-check=1792164997358"
+    },
+    {
+      "version": "V72",
+      "slug": "motobu-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/motobu-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10383,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/motobu-cruise-port-day-trip/?quality-release-check=1792164997358"
+    },
+    {
+      "version": "V72",
+      "slug": "muroran-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/muroran-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12792,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/muroran-cruise-port-day-trip/?quality-release-check=1792164997358"
+    },
+    {
+      "version": "V72",
+      "slug": "nakagusuku-bay-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/nakagusuku-bay-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10442,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/nakagusuku-bay-cruise-port-day-trip/?quality-release-check=1792164997358"
+    },
+    {
+      "version": "V72",
+      "slug": "nakatsu-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/nakatsu-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10693,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/nakatsu-cruise-port-day-trip/?quality-release-check=1792164997359"
+    },
+    {
+      "version": "V72",
+      "slug": "nanao-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/nanao-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10377,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/nanao-cruise-port-day-trip/?quality-release-check=1792164997359"
+    },
+    {
+      "version": "V72",
+      "slug": "naoetsu-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/naoetsu-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10815,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/naoetsu-cruise-port-day-trip/?quality-release-check=1792164997359"
+    },
+    {
+      "version": "V73",
+      "slug": "niihama-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/niihama-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10814,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/niihama-cruise-port-day-trip/?quality-release-check=1792164997359"
+    },
+    {
+      "version": "V73",
+      "slug": "niijima-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/niijima-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10697,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/niijima-cruise-port-day-trip/?quality-release-check=1792164997359"
+    },
+    {
+      "version": "V73",
+      "slug": "noshiro-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/noshiro-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12807,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/noshiro-cruise-port-day-trip/?quality-release-check=1792164997359"
+    },
+    {
+      "version": "V73",
+      "slug": "numazu-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/numazu-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10840,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/numazu-cruise-port-day-trip/?quality-release-check=1792164997359"
+    },
+    {
+      "version": "V73",
+      "slug": "ofunato-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/ofunato-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12771,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/ofunato-cruise-port-day-trip/?quality-release-check=1792164997359"
+    },
+    {
+      "version": "V73",
+      "slug": "ohama-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/ohama-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 11143,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/ohama-cruise-port-day-trip/?quality-release-check=1792164997515"
+    },
+    {
+      "version": "V73",
+      "slug": "oigawa-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/oigawa-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10842,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/oigawa-cruise-port-day-trip/?quality-release-check=1792164997515"
+    },
+    {
+      "version": "V73",
+      "slug": "okata-izu-oshima-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/okata-izu-oshima-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 11053,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okata-izu-oshima-cruise-port-day-trip/?quality-release-check=1792164997515"
+    },
+    {
+      "version": "V73",
+      "slug": "omaezaki-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/omaezaki-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9217,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/omaezaki-cruise-port-day-trip/?quality-release-check=1792164997515"
+    },
+    {
+      "version": "V73",
+      "slug": "ominato-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/ominato-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12824,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/ominato-cruise-port-day-trip/?quality-release-check=1792164997515"
+    },
+    {
+      "version": "V73",
+      "slug": "onahama-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/onahama-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12695,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/onahama-cruise-port-day-trip/?quality-release-check=1792164997515"
+    },
+    {
+      "version": "V73",
+      "slug": "otaru-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/otaru-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 14131,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/otaru-cruise-port-day-trip/?quality-release-check=1792164997515"
+    },
+    {
+      "version": "V73",
+      "slug": "rishiri-kutsugata-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/rishiri-kutsugata-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10695,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/rishiri-kutsugata-cruise-port-day-trip/?quality-release-check=1792164997515"
+    },
+    {
+      "version": "V73",
+      "slug": "rumoi-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/rumoi-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10850,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/rumoi-cruise-port-day-trip/?quality-release-check=1792164997515"
+    },
+    {
+      "version": "V73",
+      "slug": "sado-ogi-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/sado-ogi-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10398,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/sado-ogi-cruise-port-day-trip/?quality-release-check=1792164997516"
+    },
+    {
+      "version": "V73",
+      "slug": "saiki-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/saiki-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10526,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/saiki-cruise-port-day-trip/?quality-release-check=1792164997516"
+    },
+    {
+      "version": "V73",
+      "slug": "sakai-semboku-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/sakai-semboku-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9846,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/sakai-semboku-cruise-port-day-trip/?quality-release-check=1792164997516"
+    },
+    {
+      "version": "V73",
+      "slug": "sakaide-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/sakaide-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9610,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/sakaide-cruise-port-day-trip/?quality-release-check=1792164997516"
+    },
+    {
+      "version": "V73",
+      "slug": "sakata-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/sakata-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12763,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/sakata-cruise-port-day-trip/?quality-release-check=1792164997516"
+    },
+    {
+      "version": "V73",
+      "slug": "shimoda-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/shimoda-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10735,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/shimoda-cruise-port-day-trip/?quality-release-check=1792164997516"
+    },
+    {
+      "version": "V74",
+      "slug": "shingu-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/shingu-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9611,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/shingu-cruise-port-day-trip/?quality-release-check=1792164997707"
+    },
+    {
+      "version": "V74",
+      "slug": "shiraoi-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/shiraoi-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10846,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/shiraoi-cruise-port-day-trip/?quality-release-check=1792164997708"
+    },
+    {
+      "version": "V74",
+      "slug": "soma-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/soma-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12658,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/soma-cruise-port-day-trip/?quality-release-check=1792164997708"
+    },
+    {
+      "version": "V74",
+      "slug": "sukumo-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/sukumo-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10784,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/sukumo-cruise-port-day-trip/?quality-release-check=1792164997708"
+    },
+    {
+      "version": "V74",
+      "slug": "tagonoura-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/tagonoura-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10828,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/tagonoura-cruise-port-day-trip/?quality-release-check=1792164997708"
+    },
+    {
+      "version": "V74",
+      "slug": "tateyama-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/tateyama-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12808,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/tateyama-cruise-port-day-trip/?quality-release-check=1792164997708"
+    },
+    {
+      "version": "V74",
+      "slug": "toba-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/toba-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9149,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/toba-cruise-port-day-trip/?quality-release-check=1792164997708"
+    },
+    {
+      "version": "V74",
+      "slug": "tokoname-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/tokoname-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10887,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/tokoname-cruise-port-day-trip/?quality-release-check=1792164997708"
+    },
+    {
+      "version": "V74",
+      "slug": "tokuyama-kudamatsu-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/tokuyama-kudamatsu-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 11024,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/tokuyama-kudamatsu-cruise-port-day-trip/?quality-release-check=1792164997708"
+    },
+    {
+      "version": "V74",
+      "slug": "tokyo-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/tokyo-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 14018,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/tokyo-cruise-port-day-trip/?quality-release-check=1792164997708"
+    },
+    {
+      "version": "V74",
+      "slug": "tsugaru-ajigasawa-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/tsugaru-ajigasawa-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10727,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/tsugaru-ajigasawa-cruise-port-day-trip/?quality-release-check=1792164997708"
+    },
+    {
+      "version": "V74",
+      "slug": "tsuruga-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/tsuruga-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10312,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/tsuruga-cruise-port-day-trip/?quality-release-check=1792164997708"
+    },
+    {
+      "version": "V74",
+      "slug": "tsushima-izuhara-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/tsushima-izuhara-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10755,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/tsushima-izuhara-cruise-port-day-trip/?quality-release-check=1792164997709"
+    },
+    {
+      "version": "V74",
+      "slug": "ube-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/ube-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10692,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/ube-cruise-port-day-trip/?quality-release-check=1792164997709"
+    },
+    {
+      "version": "V74",
+      "slug": "uno-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/uno-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9465,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/uno-cruise-port-day-trip/?quality-release-check=1792164997709"
+    },
+    {
+      "version": "V74",
+      "slug": "uwajima-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/uwajima-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10742,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/uwajima-cruise-port-day-trip/?quality-release-check=1792164997849"
+    },
+    {
+      "version": "V74",
+      "slug": "wakkanai-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/wakkanai-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 12788,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/wakkanai-cruise-port-day-trip/?quality-release-check=1792164997849"
+    },
+    {
+      "version": "V74",
+      "slug": "yatsushiro-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/yatsushiro-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9520,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/yatsushiro-cruise-port-day-trip/?quality-release-check=1792164997849"
+    },
+    {
+      "version": "V74",
+      "slug": "yawatahama-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/yawatahama-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 10778,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/yawatahama-cruise-port-day-trip/?quality-release-check=1792164997849"
+    },
+    {
+      "version": "V74",
+      "slug": "yokkaichi-cruise-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/yokkaichi-cruise-port-day-trip/",
+      "status": 200,
+      "bytes": 9254,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/yokkaichi-cruise-port-day-trip/?quality-release-check=1792164997849"
+    },
+    {
+      "version": "V75",
+      "slug": "aomori-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/aomori-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 26748,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/aomori-cruise-couple-guide/?quality-release-check=1792164997849"
+    },
+    {
+      "version": "V75",
+      "slug": "aomori-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/aomori-cruise-family-guide/",
+      "status": 200,
+      "bytes": 27967,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/aomori-cruise-family-guide/?quality-release-check=1792164997849"
+    },
+    {
+      "version": "V75",
+      "slug": "aomori-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/aomori-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 28220,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/aomori-cruise-parents-guide/?quality-release-check=1792164997849"
+    },
+    {
+      "version": "V75",
+      "slug": "beppu-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/beppu-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 25975,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/beppu-cruise-couple-guide/?quality-release-check=1792164997849"
+    },
+    {
+      "version": "V75",
+      "slug": "beppu-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/beppu-cruise-family-guide/",
+      "status": 200,
+      "bytes": 26967,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/beppu-cruise-family-guide/?quality-release-check=1792164997849"
+    },
+    {
+      "version": "V75",
+      "slug": "beppu-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/beppu-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 28576,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/beppu-cruise-parents-guide/?quality-release-check=1792164997850"
+    },
+    {
+      "version": "V75",
+      "slug": "hakata-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/hakata-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 27277,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hakata-cruise-couple-guide/?quality-release-check=1792164997850"
+    },
+    {
+      "version": "V75",
+      "slug": "hakata-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/hakata-cruise-family-guide/",
+      "status": 200,
+      "bytes": 29110,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hakata-cruise-family-guide/?quality-release-check=1792164997850"
+    },
+    {
+      "version": "V75",
+      "slug": "hakata-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/hakata-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 29787,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hakata-cruise-parents-guide/?quality-release-check=1792164997850"
+    },
+    {
+      "version": "V75",
+      "slug": "hakodate-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/hakodate-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 31134,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hakodate-cruise-couple-guide/?quality-release-check=1792164997850"
+    },
+    {
+      "version": "V75",
+      "slug": "hakodate-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/hakodate-cruise-family-guide/",
+      "status": 200,
+      "bytes": 32213,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hakodate-cruise-family-guide/?quality-release-check=1792164997990"
+    },
+    {
+      "version": "V75",
+      "slug": "hakodate-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/hakodate-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 30238,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hakodate-cruise-parents-guide/?quality-release-check=1792164997990"
+    },
+    {
+      "version": "V75",
+      "slug": "hirara-miyakojima-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 26101,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-couple-guide/?quality-release-check=1792164997990"
+    },
+    {
+      "version": "V75",
+      "slug": "hirara-miyakojima-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-family-guide/",
+      "status": 200,
+      "bytes": 26821,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-family-guide/?quality-release-check=1792164997990"
+    },
+    {
+      "version": "V75",
+      "slug": "hirara-miyakojima-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 26647,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-parents-guide/?quality-release-check=1792164997990"
+    },
+    {
+      "version": "V75",
+      "slug": "ishigaki-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 26082,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-couple-guide/?quality-release-check=1792164997990"
+    },
+    {
+      "version": "V75",
+      "slug": "ishigaki-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-family-guide/",
+      "status": 200,
+      "bytes": 27828,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-family-guide/?quality-release-check=1792164997990"
+    },
+    {
+      "version": "V75",
+      "slug": "ishigaki-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 28634,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-parents-guide/?quality-release-check=1792164997990"
+    },
+    {
+      "version": "V75",
+      "slug": "kagoshima-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 26014,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-couple-guide/?quality-release-check=1792164997990"
+    },
+    {
+      "version": "V75",
+      "slug": "kagoshima-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-family-guide/",
+      "status": 200,
+      "bytes": 27441,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-family-guide/?quality-release-check=1792164997990"
+    },
+    {
+      "version": "V76",
+      "slug": "kagoshima-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 28587,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-parents-guide/?quality-release-check=1792164997990"
+    },
+    {
+      "version": "V76",
+      "slug": "kanazawa-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 25235,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-couple-guide/?quality-release-check=1792164997991"
+    },
+    {
+      "version": "V76",
+      "slug": "kanazawa-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-family-guide/",
+      "status": 200,
+      "bytes": 26587,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-family-guide/?quality-release-check=1792164997991"
+    },
+    {
+      "version": "V76",
+      "slug": "kanazawa-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 27503,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-parents-guide/?quality-release-check=1792164997991"
+    },
+    {
+      "version": "V76",
+      "slug": "kobe-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/kobe-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 28206,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kobe-cruise-couple-guide/?quality-release-check=1792164997991"
+    },
+    {
+      "version": "V76",
+      "slug": "kobe-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/kobe-cruise-family-guide/",
+      "status": 200,
+      "bytes": 29625,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kobe-cruise-family-guide/?quality-release-check=1792164998127"
+    },
+    {
+      "version": "V76",
+      "slug": "kobe-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/kobe-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 28396,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kobe-cruise-parents-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "nagasaki-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 26048,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-couple-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "nagasaki-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-family-guide/",
+      "status": 200,
+      "bytes": 27762,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-family-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "nagasaki-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 28852,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-parents-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "naha-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/naha-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 29540,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/naha-cruise-couple-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "naha-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/naha-cruise-family-guide/",
+      "status": 200,
+      "bytes": 29179,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/naha-cruise-family-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "naha-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/naha-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 29363,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/naha-cruise-parents-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "osaka-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/osaka-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 28945,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/osaka-cruise-couple-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "osaka-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/osaka-cruise-family-guide/",
+      "status": 200,
+      "bytes": 30818,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/osaka-cruise-family-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "osaka-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/osaka-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 28671,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/osaka-cruise-parents-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "sasebo-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/sasebo-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 28312,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/sasebo-cruise-couple-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "sasebo-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/sasebo-cruise-family-guide/",
+      "status": 200,
+      "bytes": 28366,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/sasebo-cruise-family-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "sasebo-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/sasebo-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 26527,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/sasebo-cruise-parents-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V76",
+      "slug": "shimizu-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/shimizu-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 24418,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/shimizu-cruise-couple-guide/?quality-release-check=1792164998128"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-american-village",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-american-village/",
+      "status": 200,
+      "bytes": 3949,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-american-village/?quality-release-check=1792164998280"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-bios-no-oka",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-bios-no-oka/",
+      "status": 200,
+      "bytes": 4665,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-bios-no-oka/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-bise-fukugi-trees",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-bise-fukugi-trees/",
+      "status": 200,
+      "bytes": 3824,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-bise-fukugi-trees/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-bougainvillea-alley",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-bougainvillea-alley/",
+      "status": 200,
+      "bytes": 4057,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-bougainvillea-alley/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-busena-marine-park",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-busena-marine-park/",
+      "status": 200,
+      "bytes": 4699,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-busena-marine-park/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-cape-hedo",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-cape-hedo/",
+      "status": 200,
+      "bytes": 3861,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-cape-hedo/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-cape-lighthouse",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-cape-lighthouse/",
+      "status": 200,
+      "bytes": 4030,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-cape-lighthouse/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-cape-maeda",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-cape-maeda/",
+      "status": 200,
+      "bytes": 7435,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-cape-maeda/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-cape-manzamo",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-cape-manzamo/",
+      "status": 200,
+      "bytes": 3708,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-cape-manzamo/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-chinen-misaki-park",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-chinen-misaki-park/",
+      "status": 200,
+      "bytes": 5052,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-chinen-misaki-park/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-churaumi-aquarium",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-churaumi-aquarium/",
+      "status": 200,
+      "bytes": 3810,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-churaumi-aquarium/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-coastal-pavilion",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-coastal-pavilion/",
+      "status": 200,
+      "bytes": 4054,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-coastal-pavilion/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-eisa-dance-festival",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-eisa-dance-festival/",
+      "status": 200,
+      "bytes": 3840,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-eisa-dance-festival/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-eisa-festival",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-eisa-festival/",
+      "status": 200,
+      "bytes": 4056,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-eisa-festival/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-emerald-islands-aerial",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-emerald-islands-aerial/",
+      "status": 200,
+      "bytes": 4060,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-emerald-islands-aerial/?quality-release-check=1792164998281"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-gyokusendo-cave",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-gyokusendo-cave/",
+      "status": 200,
+      "bytes": 5080,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-gyokusendo-cave/?quality-release-check=1792164998465"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-hibiscus-coast",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-hibiscus-coast/",
+      "status": 200,
+      "bytes": 3970,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-hibiscus-coast/?quality-release-check=1792164998465"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-hibiscus-village-lane",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-hibiscus-village-lane/",
+      "status": 200,
+      "bytes": 4073,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-hibiscus-village-lane/?quality-release-check=1792164998465"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-hiji-falls",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-hiji-falls/",
+      "status": 200,
+      "bytes": 3881,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-hiji-falls/?quality-release-check=1792164998465"
+    },
+    {
+      "version": "V77",
+      "slug": "okinawa-island-bridge",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-island-bridge/",
+      "status": 200,
+      "bytes": 3989,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-island-bridge/?quality-release-check=1792164998465"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-katsuren-castle",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-katsuren-castle/",
+      "status": 200,
+      "bytes": 5017,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-katsuren-castle/?quality-release-check=1792164998465"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-kokusai-dori",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-kokusai-dori/",
+      "status": 200,
+      "bytes": 3728,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-kokusai-dori/?quality-release-check=1792164998465"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-kouri-bridge",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-kouri-bridge/",
+      "status": 200,
+      "bytes": 3776,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-kouri-bridge/?quality-release-check=1792164998465"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-manza-beach",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-manza-beach/",
+      "status": 200,
+      "bytes": 3731,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-manza-beach/?quality-release-check=1792164998466"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-nakagusuku-castle",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-nakagusuku-castle/",
+      "status": 200,
+      "bytes": 5042,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-nakagusuku-castle/?quality-release-check=1792164998466"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-nakijin-castle",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-nakijin-castle/",
+      "status": 200,
+      "bytes": 3915,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-nakijin-castle/?quality-release-check=1792164998466"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-nirai-kanai-bridge",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-nirai-kanai-bridge/",
+      "status": 200,
+      "bytes": 5051,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-nirai-kanai-bridge/?quality-release-check=1792164998466"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-palm-coast-drive",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-palm-coast-drive/",
+      "status": 200,
+      "bytes": 4074,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-palm-coast-drive/?quality-release-check=1792164998466"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-peace-memorial-park",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-peace-memorial-park/",
+      "status": 200,
+      "bytes": 5037,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-peace-memorial-park/?quality-release-check=1792164998466"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-resort-beach",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-resort-beach/",
+      "status": 200,
+      "bytes": 3983,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-resort-beach/?quality-release-check=1792164998466"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-rock-arch-beach",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-rock-arch-beach/",
+      "status": 200,
+      "bytes": 4071,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-rock-arch-beach/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-sea-turtle-snorkeling",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-sea-turtle-snorkeling/",
+      "status": 200,
+      "bytes": 4107,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-sea-turtle-snorkeling/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-seafood-bowl",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-seafood-bowl/",
+      "status": 200,
+      "bytes": 3932,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-seafood-bowl/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-sefa-utaki",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-sefa-utaki/",
+      "status": 200,
+      "bytes": 3940,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-sefa-utaki/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-sesoko-beach",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-sesoko-beach/",
+      "status": 200,
+      "bytes": 4647,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-sesoko-beach/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-shikinaen-garden",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-shikinaen-garden/",
+      "status": 200,
+      "bytes": 5017,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-shikinaen-garden/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-shisa-village-gate",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-shisa-village-gate/",
+      "status": 200,
+      "bytes": 4048,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-shisa-village-gate/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-shopping-street",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-shopping-street/",
+      "status": 200,
+      "bytes": 3980,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-shopping-street/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-shuri-castle",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-shuri-castle/",
+      "status": 200,
+      "bytes": 3971,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-shuri-castle/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V78",
+      "slug": "okinawa-shuri-castle-heritage",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-shuri-castle-heritage/",
+      "status": 200,
+      "bytes": 3772,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-shuri-castle-heritage/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V79",
+      "slug": "accessible-slow-travel",
+      "href": "https://www.nipponferry.com/things-to-do/accessible-slow-travel/",
+      "status": 200,
+      "bytes": 8121,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/accessible-slow-travel/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V79",
+      "slug": "akita-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/akita-port-day-trip/",
+      "status": 200,
+      "bytes": 9900,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/akita-port-day-trip/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V79",
+      "slug": "experience-booking-checklist",
+      "href": "https://www.nipponferry.com/things-to-do/experience-booking-checklist/",
+      "status": 200,
+      "bytes": 8376,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/experience-booking-checklist/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V79",
+      "slug": "family-with-kids",
+      "href": "https://www.nipponferry.com/things-to-do/family-with-kids/",
+      "status": 200,
+      "bytes": 8147,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/family-with-kids/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V79",
+      "slug": "hakata-port-dazaifu-shore-excursion",
+      "href": "https://www.nipponferry.com/things-to-do/hakata-port-dazaifu-shore-excursion/",
+      "status": 200,
+      "bytes": 13655,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hakata-port-dazaifu-shore-excursion/?quality-release-check=1792164998693"
+    },
+    {
+      "version": "V79",
+      "slug": "hakata-port-tenjin-sightseeing",
+      "href": "https://www.nipponferry.com/things-to-do/hakata-port-tenjin-sightseeing/",
+      "status": 200,
+      "bytes": 13352,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hakata-port-tenjin-sightseeing/?quality-release-check=1792164998822"
+    },
+    {
+      "version": "V79",
+      "slug": "hakodate-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/hakodate-port-day-trip/",
+      "status": 200,
+      "bytes": 10003,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hakodate-port-day-trip/?quality-release-check=1792164998822"
+    },
+    {
+      "version": "V79",
+      "slug": "kanazawa-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/kanazawa-port-day-trip/",
+      "status": 200,
+      "bytes": 9846,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/kanazawa-port-day-trip/?quality-release-check=1792164998822"
+    },
+    {
+      "version": "V79",
+      "slug": "nagasaki-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/nagasaki-port-day-trip/",
+      "status": 200,
+      "bytes": 14698,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/nagasaki-port-day-trip/?quality-release-check=1792164998822"
+    },
+    {
+      "version": "V79",
+      "slug": "naha-cruise-terminal-kokusai-dori",
+      "href": "https://www.nipponferry.com/things-to-do/naha-cruise-terminal-kokusai-dori/",
+      "status": 200,
+      "bytes": 14016,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/naha-cruise-terminal-kokusai-dori/?quality-release-check=1792164998822"
+    },
+    {
+      "version": "V79",
+      "slug": "niigata-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/niigata-port-day-trip/",
+      "status": 200,
+      "bytes": 9957,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/niigata-port-day-trip/?quality-release-check=1792164998822"
+    },
+    {
+      "version": "V79",
+      "slug": "port-half-day",
+      "href": "https://www.nipponferry.com/things-to-do/port-half-day/",
+      "status": 200,
+      "bytes": 10401,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/port-half-day/?quality-release-check=1792164998822"
+    },
+    {
+      "version": "V79",
+      "slug": "port-to-experience-planner",
+      "href": "https://www.nipponferry.com/things-to-do/port-to-experience-planner/",
+      "status": 200,
+      "bytes": 8197,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/port-to-experience-planner/?quality-release-check=1792164998822"
+    },
+    {
+      "version": "V79",
+      "slug": "rainy-day",
+      "href": "https://www.nipponferry.com/things-to-do/rainy-day/",
+      "status": 200,
+      "bytes": 10533,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/rainy-day/?quality-release-check=1792164998822"
+    },
+    {
+      "version": "V79",
+      "slug": "shodoshima-ferry-island-access",
+      "href": "https://www.nipponferry.com/things-to-do/shodoshima-ferry-island-access/",
+      "status": 200,
+      "bytes": 5172,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/shodoshima-ferry-island-access/?quality-release-check=1792164998822"
+    },
+    {
+      "version": "V79",
+      "slug": "yokohama-daikoku-pier-cruise-terminal",
+      "href": "https://www.nipponferry.com/things-to-do/yokohama-daikoku-pier-cruise-terminal/",
+      "status": 200,
+      "bytes": 13805,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-daikoku-pier-cruise-terminal/?quality-release-check=1792164998822"
+    },
+    {
+      "version": "V79",
+      "slug": "yokohama-minato-mirai-cruise-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/yokohama-minato-mirai-cruise-day-trip/",
+      "status": 200,
+      "bytes": 13999,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-minato-mirai-cruise-day-trip/?quality-release-check=1792164998823"
+    },
+    {
+      "version": "V79",
+      "slug": "yokohama-osanbashi-cruise-terminal",
+      "href": "https://www.nipponferry.com/things-to-do/yokohama-osanbashi-cruise-terminal/",
+      "status": 200,
+      "bytes": 13808,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-osanbashi-cruise-terminal/?quality-release-check=1792164998823"
+    },
+    {
+      "version": "V79",
+      "slug": "yokohama-port-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/yokohama-port-day-trip/",
+      "status": 200,
+      "bytes": 15270,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-port-day-trip/?quality-release-check=1792164998823"
+    },
+    {
+      "version": "V79",
+      "slug": "yokohama-shinko-pier-cruise-area",
+      "href": "https://www.nipponferry.com/things-to-do/yokohama-shinko-pier-cruise-area/",
+      "status": 200,
+      "bytes": 13927,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-shinko-pier-cruise-area/?quality-release-check=1792164998823"
+    },
+    {
+      "version": "V80",
+      "slug": "shimizu-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/shimizu-cruise-family-guide/",
+      "status": 200,
+      "bytes": 24697,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/shimizu-cruise-family-guide/?quality-release-check=1792164999082"
+    },
+    {
+      "version": "V80",
+      "slug": "shimizu-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/shimizu-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 26000,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/shimizu-cruise-parents-guide/?quality-release-check=1792164999082"
+    },
+    {
+      "version": "V80",
+      "slug": "yokohama-cruise-couple-guide",
+      "href": "https://www.nipponferry.com/things-to-do/yokohama-cruise-couple-guide/",
+      "status": 200,
+      "bytes": 29330,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-cruise-couple-guide/?quality-release-check=1792164999082"
+    },
+    {
+      "version": "V80",
+      "slug": "yokohama-cruise-family-guide",
+      "href": "https://www.nipponferry.com/things-to-do/yokohama-cruise-family-guide/",
+      "status": 200,
+      "bytes": 31554,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-cruise-family-guide/?quality-release-check=1792164999082"
+    },
+    {
+      "version": "V80",
+      "slug": "yokohama-cruise-parents-guide",
+      "href": "https://www.nipponferry.com/things-to-do/yokohama-cruise-parents-guide/",
+      "status": 200,
+      "bytes": 29462,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-cruise-parents-guide/?quality-release-check=1792164999082"
+    },
+    {
+      "version": "V80",
+      "slug": "okinawa-soba",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-soba/",
+      "status": 200,
+      "bytes": 3897,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-soba/?quality-release-check=1792164999082"
+    },
+    {
+      "version": "V80",
+      "slug": "okinawa-soba-guide",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-soba-guide/",
+      "status": 200,
+      "bytes": 3751,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-soba-guide/?quality-release-check=1792164999083"
+    },
+    {
+      "version": "V80",
+      "slug": "okinawa-sunset-arch-rock",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-sunset-arch-rock/",
+      "status": 200,
+      "bytes": 4016,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-sunset-arch-rock/?quality-release-check=1792164999083"
+    },
+    {
+      "version": "V80",
+      "slug": "okinawa-sunset-rock",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-sunset-rock/",
+      "status": 200,
+      "bytes": 3937,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-sunset-rock/?quality-release-check=1792164999083"
+    },
+    {
+      "version": "V80",
+      "slug": "okinawa-whale-shark-aquarium",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-whale-shark-aquarium/",
+      "status": 200,
+      "bytes": 4041,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-whale-shark-aquarium/?quality-release-check=1792164999083"
+    },
+    {
+      "version": "V80",
+      "slug": "okinawa-zakimi-castle",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-zakimi-castle/",
+      "status": 200,
+      "bytes": 4611,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-zakimi-castle/?quality-release-check=1792164999083"
+    },
+    {
+      "version": "V80",
+      "slug": "okinawa-zanpa-cape",
+      "href": "https://www.nipponferry.com/things-to-do/okinawa-zanpa-cape/",
+      "status": 200,
+      "bytes": 3706,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-zanpa-cape/?quality-release-check=1792164999083"
+    },
+    {
+      "version": "V80",
+      "slug": "aomori-port-nebuta-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/aomori-port-nebuta-day-trip/",
+      "status": 200,
+      "bytes": 10197,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/aomori-port-nebuta-day-trip/?quality-release-check=1792164999083"
+    },
+    {
+      "version": "V80",
+      "slug": "beppu-port-onsen-day-trip",
+      "href": "https://www.nipponferry.com/things-to-do/beppu-port-onsen-day-trip/",
+      "status": 200,
+      "bytes": 13993,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/beppu-port-onsen-day-trip/?quality-release-check=1792164999083"
+    },
+    {
+      "version": "V80",
+      "slug": "hakata-port-hakata-station-access",
+      "href": "https://www.nipponferry.com/things-to-do/hakata-port-hakata-station-access/",
+      "status": 200,
+      "bytes": 13480,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hakata-port-hakata-station-access/?quality-release-check=1792164999083"
+    },
+    {
+      "version": "V80",
+      "slug": "hiroshima-miyajima-ferry-crossing",
+      "href": "https://www.nipponferry.com/things-to-do/hiroshima-miyajima-ferry-crossing/",
+      "status": 200,
+      "bytes": 5201,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/hiroshima-miyajima-ferry-crossing/?quality-release-check=1792164999430"
+    },
+    {
+      "version": "V80",
+      "slug": "ishigaki-cruise-new-port-shuttle",
+      "href": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-new-port-shuttle/",
+      "status": 200,
+      "bytes": 13328,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-new-port-shuttle/?quality-release-check=1792164999430"
+    },
+    {
+      "version": "V80",
+      "slug": "ishigaki-cruise-kabira-bay-bus-taxi",
+      "href": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/",
+      "status": 200,
+      "bytes": 13873,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/?quality-release-check=1792164999430"
+    },
+    {
+      "version": "V80",
+      "slug": "nagasaki-matsugae-glover-garden-cruise-access",
+      "href": "https://www.nipponferry.com/things-to-do/nagasaki-matsugae-glover-garden-cruise-access/",
+      "status": 200,
+      "bytes": 13892,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/nagasaki-matsugae-glover-garden-cruise-access/?quality-release-check=1792164999430"
+    },
+    {
+      "version": "V80",
+      "slug": "nagasaki-cruise-peace-park-tram",
+      "href": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-peace-park-tram/",
+      "status": 200,
+      "bytes": 13236,
+      "issues": [],
+      "finalURL": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-peace-park-tram/?quality-release-check=1792164999430"
+    }
+  ],
+  "history": [
+    {
+      "round": 1,
+      "at": "2026-10-16T15:36:39.583Z",
+      "failures": 0,
+      "results": [
+        {
+          "version": "V71",
+          "slug": "abashiri-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/abashiri-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12752,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/abashiri-cruise-port-day-trip/?quality-release-check=1792164996599"
+        },
+        {
+          "version": "V71",
+          "slug": "aburatsu-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/aburatsu-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 11817,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/aburatsu-cruise-port-day-trip/?quality-release-check=1792164996642"
+        },
+        {
+          "version": "V71",
+          "slug": "aokata-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/aokata-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10877,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/aokata-cruise-port-day-trip/?quality-release-check=1792164996643"
+        },
+        {
+          "version": "V71",
+          "slug": "fukui-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/fukui-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10796,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/fukui-cruise-port-day-trip/?quality-release-check=1792164996644"
+        },
+        {
+          "version": "V71",
+          "slug": "fukuyama-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/fukuyama-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9437,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/fukuyama-cruise-port-day-trip/?quality-release-check=1792164996644"
+        },
+        {
+          "version": "V71",
+          "slug": "funagawa-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/funagawa-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12689,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/funagawa-cruise-port-day-trip/?quality-release-check=1792164996645"
+        },
+        {
+          "version": "V71",
+          "slug": "futami-ogasawara-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/futami-ogasawara-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 11125,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/futami-ogasawara-cruise-port-day-trip/?quality-release-check=1792164996646"
+        },
+        {
+          "version": "V71",
+          "slug": "gamagori-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/gamagori-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9278,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/gamagori-cruise-port-day-trip/?quality-release-check=1792164996647"
+        },
+        {
+          "version": "V71",
+          "slug": "hachinohe-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/hachinohe-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12675,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hachinohe-cruise-port-day-trip/?quality-release-check=1792164996647"
+        },
+        {
+          "version": "V71",
+          "slug": "hagi-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/hagi-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10873,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hagi-cruise-port-day-trip/?quality-release-check=1792164996649"
+        },
+        {
+          "version": "V71",
+          "slug": "hamada-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/hamada-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10762,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hamada-cruise-port-day-trip/?quality-release-check=1792164996650"
+        },
+        {
+          "version": "V71",
+          "slug": "hannan-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/hannan-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10800,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hannan-cruise-port-day-trip/?quality-release-check=1792164996650"
+        },
+        {
+          "version": "V71",
+          "slug": "hidaka-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/hidaka-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9596,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hidaka-cruise-port-day-trip/?quality-release-check=1792164996650"
+        },
+        {
+          "version": "V71",
+          "slug": "himeji-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/himeji-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9130,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/himeji-cruise-port-day-trip/?quality-release-check=1792164996651"
+        },
+        {
+          "version": "V71",
+          "slug": "hirado-kawachi-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/hirado-kawachi-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10406,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hirado-kawachi-cruise-port-day-trip/?quality-release-check=1792164996651"
+        },
+        {
+          "version": "V71",
+          "slug": "hirara-miyakojima-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 13703,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-port-day-trip/?quality-release-check=1792164997196"
+        },
+        {
+          "version": "V71",
+          "slug": "hososhima-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/hososhima-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10654,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hososhima-cruise-port-day-trip/?quality-release-check=1792164997196"
+        },
+        {
+          "version": "V71",
+          "slug": "ibaraki-hitachinaka-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/ibaraki-hitachinaka-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12974,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/ibaraki-hitachinaka-cruise-port-day-trip/?quality-release-check=1792164997196"
+        },
+        {
+          "version": "V71",
+          "slug": "iki-gonoura-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/iki-gonoura-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10710,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/iki-gonoura-cruise-port-day-trip/?quality-release-check=1792164997196"
+        },
+        {
+          "version": "V71",
+          "slug": "imabari-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/imabari-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9584,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/imabari-cruise-port-day-trip/?quality-release-check=1792164997196"
+        },
+        {
+          "version": "V72",
+          "slug": "imari-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/imari-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10386,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/imari-cruise-port-day-trip/?quality-release-check=1792164997196"
+        },
+        {
+          "version": "V72",
+          "slug": "ishinomaki-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/ishinomaki-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12879,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/ishinomaki-cruise-port-day-trip/?quality-release-check=1792164997197"
+        },
+        {
+          "version": "V72",
+          "slug": "ito-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/ito-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10730,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/ito-cruise-port-day-trip/?quality-release-check=1792164997197"
+        },
+        {
+          "version": "V72",
+          "slug": "kaminato-hachijojima-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/kaminato-hachijojima-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10938,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kaminato-hachijojima-cruise-port-day-trip/?quality-release-check=1792164997197"
+        },
+        {
+          "version": "V72",
+          "slug": "kawasaki-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/kawasaki-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 11022,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kawasaki-cruise-port-day-trip/?quality-release-check=1792164997197"
+        },
+        {
+          "version": "V72",
+          "slug": "kisarazu-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/kisarazu-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10386,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kisarazu-cruise-port-day-trip/?quality-release-check=1792164997197"
+        },
+        {
+          "version": "V72",
+          "slug": "kozushima-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/kozushima-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10778,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kozushima-cruise-port-day-trip/?quality-release-check=1792164997197"
+        },
+        {
+          "version": "V72",
+          "slug": "kuji-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/kuji-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12690,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kuji-cruise-port-day-trip/?quality-release-check=1792164997197"
+        },
+        {
+          "version": "V72",
+          "slug": "kushiro-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/kushiro-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12813,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kushiro-cruise-port-day-trip/?quality-release-check=1792164997197"
+        },
+        {
+          "version": "V72",
+          "slug": "miike-miyakejima-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/miike-miyakejima-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10929,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/miike-miyakejima-cruise-port-day-trip/?quality-release-check=1792164997197"
+        },
+        {
+          "version": "V72",
+          "slug": "mikawa-jinno-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/mikawa-jinno-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 11031,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/mikawa-jinno-cruise-port-day-trip/?quality-release-check=1792164997358"
+        },
+        {
+          "version": "V72",
+          "slug": "mitajiri-nakanoseki-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/mitajiri-nakanoseki-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 11050,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/mitajiri-nakanoseki-cruise-port-day-trip/?quality-release-check=1792164997358"
+        },
+        {
+          "version": "V72",
+          "slug": "miyako-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/miyako-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12744,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/miyako-cruise-port-day-trip/?quality-release-check=1792164997358"
+        },
+        {
+          "version": "V72",
+          "slug": "mojiko-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/mojiko-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 11834,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/mojiko-cruise-port-day-trip/?quality-release-check=1792164997358"
+        },
+        {
+          "version": "V72",
+          "slug": "motobu-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/motobu-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10383,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/motobu-cruise-port-day-trip/?quality-release-check=1792164997358"
+        },
+        {
+          "version": "V72",
+          "slug": "muroran-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/muroran-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12792,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/muroran-cruise-port-day-trip/?quality-release-check=1792164997358"
+        },
+        {
+          "version": "V72",
+          "slug": "nakagusuku-bay-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/nakagusuku-bay-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10442,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/nakagusuku-bay-cruise-port-day-trip/?quality-release-check=1792164997358"
+        },
+        {
+          "version": "V72",
+          "slug": "nakatsu-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/nakatsu-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10693,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/nakatsu-cruise-port-day-trip/?quality-release-check=1792164997359"
+        },
+        {
+          "version": "V72",
+          "slug": "nanao-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/nanao-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10377,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/nanao-cruise-port-day-trip/?quality-release-check=1792164997359"
+        },
+        {
+          "version": "V72",
+          "slug": "naoetsu-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/naoetsu-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10815,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/naoetsu-cruise-port-day-trip/?quality-release-check=1792164997359"
+        },
+        {
+          "version": "V73",
+          "slug": "niihama-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/niihama-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10814,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/niihama-cruise-port-day-trip/?quality-release-check=1792164997359"
+        },
+        {
+          "version": "V73",
+          "slug": "niijima-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/niijima-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10697,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/niijima-cruise-port-day-trip/?quality-release-check=1792164997359"
+        },
+        {
+          "version": "V73",
+          "slug": "noshiro-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/noshiro-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12807,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/noshiro-cruise-port-day-trip/?quality-release-check=1792164997359"
+        },
+        {
+          "version": "V73",
+          "slug": "numazu-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/numazu-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10840,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/numazu-cruise-port-day-trip/?quality-release-check=1792164997359"
+        },
+        {
+          "version": "V73",
+          "slug": "ofunato-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/ofunato-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12771,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/ofunato-cruise-port-day-trip/?quality-release-check=1792164997359"
+        },
+        {
+          "version": "V73",
+          "slug": "ohama-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/ohama-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 11143,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/ohama-cruise-port-day-trip/?quality-release-check=1792164997515"
+        },
+        {
+          "version": "V73",
+          "slug": "oigawa-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/oigawa-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10842,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/oigawa-cruise-port-day-trip/?quality-release-check=1792164997515"
+        },
+        {
+          "version": "V73",
+          "slug": "okata-izu-oshima-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/okata-izu-oshima-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 11053,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okata-izu-oshima-cruise-port-day-trip/?quality-release-check=1792164997515"
+        },
+        {
+          "version": "V73",
+          "slug": "omaezaki-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/omaezaki-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9217,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/omaezaki-cruise-port-day-trip/?quality-release-check=1792164997515"
+        },
+        {
+          "version": "V73",
+          "slug": "ominato-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/ominato-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12824,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/ominato-cruise-port-day-trip/?quality-release-check=1792164997515"
+        },
+        {
+          "version": "V73",
+          "slug": "onahama-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/onahama-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12695,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/onahama-cruise-port-day-trip/?quality-release-check=1792164997515"
+        },
+        {
+          "version": "V73",
+          "slug": "otaru-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/otaru-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 14131,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/otaru-cruise-port-day-trip/?quality-release-check=1792164997515"
+        },
+        {
+          "version": "V73",
+          "slug": "rishiri-kutsugata-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/rishiri-kutsugata-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10695,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/rishiri-kutsugata-cruise-port-day-trip/?quality-release-check=1792164997515"
+        },
+        {
+          "version": "V73",
+          "slug": "rumoi-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/rumoi-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10850,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/rumoi-cruise-port-day-trip/?quality-release-check=1792164997515"
+        },
+        {
+          "version": "V73",
+          "slug": "sado-ogi-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/sado-ogi-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10398,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/sado-ogi-cruise-port-day-trip/?quality-release-check=1792164997516"
+        },
+        {
+          "version": "V73",
+          "slug": "saiki-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/saiki-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10526,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/saiki-cruise-port-day-trip/?quality-release-check=1792164997516"
+        },
+        {
+          "version": "V73",
+          "slug": "sakai-semboku-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/sakai-semboku-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9846,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/sakai-semboku-cruise-port-day-trip/?quality-release-check=1792164997516"
+        },
+        {
+          "version": "V73",
+          "slug": "sakaide-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/sakaide-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9610,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/sakaide-cruise-port-day-trip/?quality-release-check=1792164997516"
+        },
+        {
+          "version": "V73",
+          "slug": "sakata-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/sakata-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12763,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/sakata-cruise-port-day-trip/?quality-release-check=1792164997516"
+        },
+        {
+          "version": "V73",
+          "slug": "shimoda-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/shimoda-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10735,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/shimoda-cruise-port-day-trip/?quality-release-check=1792164997516"
+        },
+        {
+          "version": "V74",
+          "slug": "shingu-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/shingu-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9611,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/shingu-cruise-port-day-trip/?quality-release-check=1792164997707"
+        },
+        {
+          "version": "V74",
+          "slug": "shiraoi-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/shiraoi-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10846,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/shiraoi-cruise-port-day-trip/?quality-release-check=1792164997708"
+        },
+        {
+          "version": "V74",
+          "slug": "soma-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/soma-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12658,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/soma-cruise-port-day-trip/?quality-release-check=1792164997708"
+        },
+        {
+          "version": "V74",
+          "slug": "sukumo-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/sukumo-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10784,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/sukumo-cruise-port-day-trip/?quality-release-check=1792164997708"
+        },
+        {
+          "version": "V74",
+          "slug": "tagonoura-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/tagonoura-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10828,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/tagonoura-cruise-port-day-trip/?quality-release-check=1792164997708"
+        },
+        {
+          "version": "V74",
+          "slug": "tateyama-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/tateyama-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12808,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/tateyama-cruise-port-day-trip/?quality-release-check=1792164997708"
+        },
+        {
+          "version": "V74",
+          "slug": "toba-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/toba-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9149,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/toba-cruise-port-day-trip/?quality-release-check=1792164997708"
+        },
+        {
+          "version": "V74",
+          "slug": "tokoname-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/tokoname-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10887,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/tokoname-cruise-port-day-trip/?quality-release-check=1792164997708"
+        },
+        {
+          "version": "V74",
+          "slug": "tokuyama-kudamatsu-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/tokuyama-kudamatsu-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 11024,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/tokuyama-kudamatsu-cruise-port-day-trip/?quality-release-check=1792164997708"
+        },
+        {
+          "version": "V74",
+          "slug": "tokyo-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/tokyo-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 14018,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/tokyo-cruise-port-day-trip/?quality-release-check=1792164997708"
+        },
+        {
+          "version": "V74",
+          "slug": "tsugaru-ajigasawa-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/tsugaru-ajigasawa-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10727,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/tsugaru-ajigasawa-cruise-port-day-trip/?quality-release-check=1792164997708"
+        },
+        {
+          "version": "V74",
+          "slug": "tsuruga-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/tsuruga-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10312,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/tsuruga-cruise-port-day-trip/?quality-release-check=1792164997708"
+        },
+        {
+          "version": "V74",
+          "slug": "tsushima-izuhara-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/tsushima-izuhara-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10755,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/tsushima-izuhara-cruise-port-day-trip/?quality-release-check=1792164997709"
+        },
+        {
+          "version": "V74",
+          "slug": "ube-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/ube-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10692,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/ube-cruise-port-day-trip/?quality-release-check=1792164997709"
+        },
+        {
+          "version": "V74",
+          "slug": "uno-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/uno-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9465,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/uno-cruise-port-day-trip/?quality-release-check=1792164997709"
+        },
+        {
+          "version": "V74",
+          "slug": "uwajima-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/uwajima-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10742,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/uwajima-cruise-port-day-trip/?quality-release-check=1792164997849"
+        },
+        {
+          "version": "V74",
+          "slug": "wakkanai-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/wakkanai-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 12788,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/wakkanai-cruise-port-day-trip/?quality-release-check=1792164997849"
+        },
+        {
+          "version": "V74",
+          "slug": "yatsushiro-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/yatsushiro-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9520,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/yatsushiro-cruise-port-day-trip/?quality-release-check=1792164997849"
+        },
+        {
+          "version": "V74",
+          "slug": "yawatahama-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/yawatahama-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 10778,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/yawatahama-cruise-port-day-trip/?quality-release-check=1792164997849"
+        },
+        {
+          "version": "V74",
+          "slug": "yokkaichi-cruise-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/yokkaichi-cruise-port-day-trip/",
+          "status": 200,
+          "bytes": 9254,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/yokkaichi-cruise-port-day-trip/?quality-release-check=1792164997849"
+        },
+        {
+          "version": "V75",
+          "slug": "aomori-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/aomori-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 26748,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/aomori-cruise-couple-guide/?quality-release-check=1792164997849"
+        },
+        {
+          "version": "V75",
+          "slug": "aomori-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/aomori-cruise-family-guide/",
+          "status": 200,
+          "bytes": 27967,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/aomori-cruise-family-guide/?quality-release-check=1792164997849"
+        },
+        {
+          "version": "V75",
+          "slug": "aomori-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/aomori-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 28220,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/aomori-cruise-parents-guide/?quality-release-check=1792164997849"
+        },
+        {
+          "version": "V75",
+          "slug": "beppu-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/beppu-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 25975,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/beppu-cruise-couple-guide/?quality-release-check=1792164997849"
+        },
+        {
+          "version": "V75",
+          "slug": "beppu-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/beppu-cruise-family-guide/",
+          "status": 200,
+          "bytes": 26967,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/beppu-cruise-family-guide/?quality-release-check=1792164997849"
+        },
+        {
+          "version": "V75",
+          "slug": "beppu-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/beppu-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 28576,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/beppu-cruise-parents-guide/?quality-release-check=1792164997850"
+        },
+        {
+          "version": "V75",
+          "slug": "hakata-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/hakata-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 27277,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hakata-cruise-couple-guide/?quality-release-check=1792164997850"
+        },
+        {
+          "version": "V75",
+          "slug": "hakata-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/hakata-cruise-family-guide/",
+          "status": 200,
+          "bytes": 29110,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hakata-cruise-family-guide/?quality-release-check=1792164997850"
+        },
+        {
+          "version": "V75",
+          "slug": "hakata-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/hakata-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 29787,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hakata-cruise-parents-guide/?quality-release-check=1792164997850"
+        },
+        {
+          "version": "V75",
+          "slug": "hakodate-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/hakodate-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 31134,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hakodate-cruise-couple-guide/?quality-release-check=1792164997850"
+        },
+        {
+          "version": "V75",
+          "slug": "hakodate-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/hakodate-cruise-family-guide/",
+          "status": 200,
+          "bytes": 32213,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hakodate-cruise-family-guide/?quality-release-check=1792164997990"
+        },
+        {
+          "version": "V75",
+          "slug": "hakodate-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/hakodate-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 30238,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hakodate-cruise-parents-guide/?quality-release-check=1792164997990"
+        },
+        {
+          "version": "V75",
+          "slug": "hirara-miyakojima-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 26101,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-couple-guide/?quality-release-check=1792164997990"
+        },
+        {
+          "version": "V75",
+          "slug": "hirara-miyakojima-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-family-guide/",
+          "status": 200,
+          "bytes": 26821,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-family-guide/?quality-release-check=1792164997990"
+        },
+        {
+          "version": "V75",
+          "slug": "hirara-miyakojima-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 26647,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-parents-guide/?quality-release-check=1792164997990"
+        },
+        {
+          "version": "V75",
+          "slug": "ishigaki-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 26082,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-couple-guide/?quality-release-check=1792164997990"
+        },
+        {
+          "version": "V75",
+          "slug": "ishigaki-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-family-guide/",
+          "status": 200,
+          "bytes": 27828,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-family-guide/?quality-release-check=1792164997990"
+        },
+        {
+          "version": "V75",
+          "slug": "ishigaki-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 28634,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-parents-guide/?quality-release-check=1792164997990"
+        },
+        {
+          "version": "V75",
+          "slug": "kagoshima-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 26014,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-couple-guide/?quality-release-check=1792164997990"
+        },
+        {
+          "version": "V75",
+          "slug": "kagoshima-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-family-guide/",
+          "status": 200,
+          "bytes": 27441,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-family-guide/?quality-release-check=1792164997990"
+        },
+        {
+          "version": "V76",
+          "slug": "kagoshima-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 28587,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kagoshima-cruise-parents-guide/?quality-release-check=1792164997990"
+        },
+        {
+          "version": "V76",
+          "slug": "kanazawa-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 25235,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-couple-guide/?quality-release-check=1792164997991"
+        },
+        {
+          "version": "V76",
+          "slug": "kanazawa-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-family-guide/",
+          "status": 200,
+          "bytes": 26587,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-family-guide/?quality-release-check=1792164997991"
+        },
+        {
+          "version": "V76",
+          "slug": "kanazawa-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 27503,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kanazawa-cruise-parents-guide/?quality-release-check=1792164997991"
+        },
+        {
+          "version": "V76",
+          "slug": "kobe-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/kobe-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 28206,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kobe-cruise-couple-guide/?quality-release-check=1792164997991"
+        },
+        {
+          "version": "V76",
+          "slug": "kobe-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/kobe-cruise-family-guide/",
+          "status": 200,
+          "bytes": 29625,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kobe-cruise-family-guide/?quality-release-check=1792164998127"
+        },
+        {
+          "version": "V76",
+          "slug": "kobe-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/kobe-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 28396,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kobe-cruise-parents-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "nagasaki-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 26048,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-couple-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "nagasaki-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-family-guide/",
+          "status": 200,
+          "bytes": 27762,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-family-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "nagasaki-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 28852,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-parents-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "naha-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/naha-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 29540,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/naha-cruise-couple-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "naha-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/naha-cruise-family-guide/",
+          "status": 200,
+          "bytes": 29179,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/naha-cruise-family-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "naha-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/naha-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 29363,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/naha-cruise-parents-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "osaka-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/osaka-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 28945,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/osaka-cruise-couple-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "osaka-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/osaka-cruise-family-guide/",
+          "status": 200,
+          "bytes": 30818,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/osaka-cruise-family-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "osaka-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/osaka-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 28671,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/osaka-cruise-parents-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "sasebo-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/sasebo-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 28312,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/sasebo-cruise-couple-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "sasebo-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/sasebo-cruise-family-guide/",
+          "status": 200,
+          "bytes": 28366,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/sasebo-cruise-family-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "sasebo-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/sasebo-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 26527,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/sasebo-cruise-parents-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V76",
+          "slug": "shimizu-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/shimizu-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 24418,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/shimizu-cruise-couple-guide/?quality-release-check=1792164998128"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-american-village",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-american-village/",
+          "status": 200,
+          "bytes": 3949,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-american-village/?quality-release-check=1792164998280"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-bios-no-oka",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-bios-no-oka/",
+          "status": 200,
+          "bytes": 4665,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-bios-no-oka/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-bise-fukugi-trees",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-bise-fukugi-trees/",
+          "status": 200,
+          "bytes": 3824,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-bise-fukugi-trees/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-bougainvillea-alley",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-bougainvillea-alley/",
+          "status": 200,
+          "bytes": 4057,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-bougainvillea-alley/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-busena-marine-park",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-busena-marine-park/",
+          "status": 200,
+          "bytes": 4699,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-busena-marine-park/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-cape-hedo",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-cape-hedo/",
+          "status": 200,
+          "bytes": 3861,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-cape-hedo/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-cape-lighthouse",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-cape-lighthouse/",
+          "status": 200,
+          "bytes": 4030,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-cape-lighthouse/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-cape-maeda",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-cape-maeda/",
+          "status": 200,
+          "bytes": 7435,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-cape-maeda/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-cape-manzamo",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-cape-manzamo/",
+          "status": 200,
+          "bytes": 3708,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-cape-manzamo/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-chinen-misaki-park",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-chinen-misaki-park/",
+          "status": 200,
+          "bytes": 5052,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-chinen-misaki-park/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-churaumi-aquarium",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-churaumi-aquarium/",
+          "status": 200,
+          "bytes": 3810,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-churaumi-aquarium/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-coastal-pavilion",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-coastal-pavilion/",
+          "status": 200,
+          "bytes": 4054,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-coastal-pavilion/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-eisa-dance-festival",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-eisa-dance-festival/",
+          "status": 200,
+          "bytes": 3840,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-eisa-dance-festival/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-eisa-festival",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-eisa-festival/",
+          "status": 200,
+          "bytes": 4056,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-eisa-festival/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-emerald-islands-aerial",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-emerald-islands-aerial/",
+          "status": 200,
+          "bytes": 4060,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-emerald-islands-aerial/?quality-release-check=1792164998281"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-gyokusendo-cave",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-gyokusendo-cave/",
+          "status": 200,
+          "bytes": 5080,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-gyokusendo-cave/?quality-release-check=1792164998465"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-hibiscus-coast",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-hibiscus-coast/",
+          "status": 200,
+          "bytes": 3970,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-hibiscus-coast/?quality-release-check=1792164998465"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-hibiscus-village-lane",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-hibiscus-village-lane/",
+          "status": 200,
+          "bytes": 4073,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-hibiscus-village-lane/?quality-release-check=1792164998465"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-hiji-falls",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-hiji-falls/",
+          "status": 200,
+          "bytes": 3881,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-hiji-falls/?quality-release-check=1792164998465"
+        },
+        {
+          "version": "V77",
+          "slug": "okinawa-island-bridge",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-island-bridge/",
+          "status": 200,
+          "bytes": 3989,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-island-bridge/?quality-release-check=1792164998465"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-katsuren-castle",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-katsuren-castle/",
+          "status": 200,
+          "bytes": 5017,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-katsuren-castle/?quality-release-check=1792164998465"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-kokusai-dori",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-kokusai-dori/",
+          "status": 200,
+          "bytes": 3728,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-kokusai-dori/?quality-release-check=1792164998465"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-kouri-bridge",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-kouri-bridge/",
+          "status": 200,
+          "bytes": 3776,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-kouri-bridge/?quality-release-check=1792164998465"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-manza-beach",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-manza-beach/",
+          "status": 200,
+          "bytes": 3731,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-manza-beach/?quality-release-check=1792164998466"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-nakagusuku-castle",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-nakagusuku-castle/",
+          "status": 200,
+          "bytes": 5042,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-nakagusuku-castle/?quality-release-check=1792164998466"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-nakijin-castle",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-nakijin-castle/",
+          "status": 200,
+          "bytes": 3915,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-nakijin-castle/?quality-release-check=1792164998466"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-nirai-kanai-bridge",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-nirai-kanai-bridge/",
+          "status": 200,
+          "bytes": 5051,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-nirai-kanai-bridge/?quality-release-check=1792164998466"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-palm-coast-drive",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-palm-coast-drive/",
+          "status": 200,
+          "bytes": 4074,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-palm-coast-drive/?quality-release-check=1792164998466"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-peace-memorial-park",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-peace-memorial-park/",
+          "status": 200,
+          "bytes": 5037,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-peace-memorial-park/?quality-release-check=1792164998466"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-resort-beach",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-resort-beach/",
+          "status": 200,
+          "bytes": 3983,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-resort-beach/?quality-release-check=1792164998466"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-rock-arch-beach",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-rock-arch-beach/",
+          "status": 200,
+          "bytes": 4071,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-rock-arch-beach/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-sea-turtle-snorkeling",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-sea-turtle-snorkeling/",
+          "status": 200,
+          "bytes": 4107,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-sea-turtle-snorkeling/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-seafood-bowl",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-seafood-bowl/",
+          "status": 200,
+          "bytes": 3932,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-seafood-bowl/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-sefa-utaki",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-sefa-utaki/",
+          "status": 200,
+          "bytes": 3940,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-sefa-utaki/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-sesoko-beach",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-sesoko-beach/",
+          "status": 200,
+          "bytes": 4647,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-sesoko-beach/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-shikinaen-garden",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-shikinaen-garden/",
+          "status": 200,
+          "bytes": 5017,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-shikinaen-garden/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-shisa-village-gate",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-shisa-village-gate/",
+          "status": 200,
+          "bytes": 4048,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-shisa-village-gate/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-shopping-street",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-shopping-street/",
+          "status": 200,
+          "bytes": 3980,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-shopping-street/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-shuri-castle",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-shuri-castle/",
+          "status": 200,
+          "bytes": 3971,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-shuri-castle/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V78",
+          "slug": "okinawa-shuri-castle-heritage",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-shuri-castle-heritage/",
+          "status": 200,
+          "bytes": 3772,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-shuri-castle-heritage/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V79",
+          "slug": "accessible-slow-travel",
+          "href": "https://www.nipponferry.com/things-to-do/accessible-slow-travel/",
+          "status": 200,
+          "bytes": 8121,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/accessible-slow-travel/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V79",
+          "slug": "akita-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/akita-port-day-trip/",
+          "status": 200,
+          "bytes": 9900,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/akita-port-day-trip/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V79",
+          "slug": "experience-booking-checklist",
+          "href": "https://www.nipponferry.com/things-to-do/experience-booking-checklist/",
+          "status": 200,
+          "bytes": 8376,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/experience-booking-checklist/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V79",
+          "slug": "family-with-kids",
+          "href": "https://www.nipponferry.com/things-to-do/family-with-kids/",
+          "status": 200,
+          "bytes": 8147,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/family-with-kids/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V79",
+          "slug": "hakata-port-dazaifu-shore-excursion",
+          "href": "https://www.nipponferry.com/things-to-do/hakata-port-dazaifu-shore-excursion/",
+          "status": 200,
+          "bytes": 13655,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hakata-port-dazaifu-shore-excursion/?quality-release-check=1792164998693"
+        },
+        {
+          "version": "V79",
+          "slug": "hakata-port-tenjin-sightseeing",
+          "href": "https://www.nipponferry.com/things-to-do/hakata-port-tenjin-sightseeing/",
+          "status": 200,
+          "bytes": 13352,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hakata-port-tenjin-sightseeing/?quality-release-check=1792164998822"
+        },
+        {
+          "version": "V79",
+          "slug": "hakodate-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/hakodate-port-day-trip/",
+          "status": 200,
+          "bytes": 10003,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hakodate-port-day-trip/?quality-release-check=1792164998822"
+        },
+        {
+          "version": "V79",
+          "slug": "kanazawa-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/kanazawa-port-day-trip/",
+          "status": 200,
+          "bytes": 9846,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/kanazawa-port-day-trip/?quality-release-check=1792164998822"
+        },
+        {
+          "version": "V79",
+          "slug": "nagasaki-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/nagasaki-port-day-trip/",
+          "status": 200,
+          "bytes": 14698,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/nagasaki-port-day-trip/?quality-release-check=1792164998822"
+        },
+        {
+          "version": "V79",
+          "slug": "naha-cruise-terminal-kokusai-dori",
+          "href": "https://www.nipponferry.com/things-to-do/naha-cruise-terminal-kokusai-dori/",
+          "status": 200,
+          "bytes": 14016,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/naha-cruise-terminal-kokusai-dori/?quality-release-check=1792164998822"
+        },
+        {
+          "version": "V79",
+          "slug": "niigata-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/niigata-port-day-trip/",
+          "status": 200,
+          "bytes": 9957,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/niigata-port-day-trip/?quality-release-check=1792164998822"
+        },
+        {
+          "version": "V79",
+          "slug": "port-half-day",
+          "href": "https://www.nipponferry.com/things-to-do/port-half-day/",
+          "status": 200,
+          "bytes": 10401,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/port-half-day/?quality-release-check=1792164998822"
+        },
+        {
+          "version": "V79",
+          "slug": "port-to-experience-planner",
+          "href": "https://www.nipponferry.com/things-to-do/port-to-experience-planner/",
+          "status": 200,
+          "bytes": 8197,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/port-to-experience-planner/?quality-release-check=1792164998822"
+        },
+        {
+          "version": "V79",
+          "slug": "rainy-day",
+          "href": "https://www.nipponferry.com/things-to-do/rainy-day/",
+          "status": 200,
+          "bytes": 10533,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/rainy-day/?quality-release-check=1792164998822"
+        },
+        {
+          "version": "V79",
+          "slug": "shodoshima-ferry-island-access",
+          "href": "https://www.nipponferry.com/things-to-do/shodoshima-ferry-island-access/",
+          "status": 200,
+          "bytes": 5172,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/shodoshima-ferry-island-access/?quality-release-check=1792164998822"
+        },
+        {
+          "version": "V79",
+          "slug": "yokohama-daikoku-pier-cruise-terminal",
+          "href": "https://www.nipponferry.com/things-to-do/yokohama-daikoku-pier-cruise-terminal/",
+          "status": 200,
+          "bytes": 13805,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-daikoku-pier-cruise-terminal/?quality-release-check=1792164998822"
+        },
+        {
+          "version": "V79",
+          "slug": "yokohama-minato-mirai-cruise-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/yokohama-minato-mirai-cruise-day-trip/",
+          "status": 200,
+          "bytes": 13999,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-minato-mirai-cruise-day-trip/?quality-release-check=1792164998823"
+        },
+        {
+          "version": "V79",
+          "slug": "yokohama-osanbashi-cruise-terminal",
+          "href": "https://www.nipponferry.com/things-to-do/yokohama-osanbashi-cruise-terminal/",
+          "status": 200,
+          "bytes": 13808,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-osanbashi-cruise-terminal/?quality-release-check=1792164998823"
+        },
+        {
+          "version": "V79",
+          "slug": "yokohama-port-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/yokohama-port-day-trip/",
+          "status": 200,
+          "bytes": 15270,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-port-day-trip/?quality-release-check=1792164998823"
+        },
+        {
+          "version": "V79",
+          "slug": "yokohama-shinko-pier-cruise-area",
+          "href": "https://www.nipponferry.com/things-to-do/yokohama-shinko-pier-cruise-area/",
+          "status": 200,
+          "bytes": 13927,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-shinko-pier-cruise-area/?quality-release-check=1792164998823"
+        },
+        {
+          "version": "V80",
+          "slug": "shimizu-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/shimizu-cruise-family-guide/",
+          "status": 200,
+          "bytes": 24697,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/shimizu-cruise-family-guide/?quality-release-check=1792164999082"
+        },
+        {
+          "version": "V80",
+          "slug": "shimizu-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/shimizu-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 26000,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/shimizu-cruise-parents-guide/?quality-release-check=1792164999082"
+        },
+        {
+          "version": "V80",
+          "slug": "yokohama-cruise-couple-guide",
+          "href": "https://www.nipponferry.com/things-to-do/yokohama-cruise-couple-guide/",
+          "status": 200,
+          "bytes": 29330,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-cruise-couple-guide/?quality-release-check=1792164999082"
+        },
+        {
+          "version": "V80",
+          "slug": "yokohama-cruise-family-guide",
+          "href": "https://www.nipponferry.com/things-to-do/yokohama-cruise-family-guide/",
+          "status": 200,
+          "bytes": 31554,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-cruise-family-guide/?quality-release-check=1792164999082"
+        },
+        {
+          "version": "V80",
+          "slug": "yokohama-cruise-parents-guide",
+          "href": "https://www.nipponferry.com/things-to-do/yokohama-cruise-parents-guide/",
+          "status": 200,
+          "bytes": 29462,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/yokohama-cruise-parents-guide/?quality-release-check=1792164999082"
+        },
+        {
+          "version": "V80",
+          "slug": "okinawa-soba",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-soba/",
+          "status": 200,
+          "bytes": 3897,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-soba/?quality-release-check=1792164999082"
+        },
+        {
+          "version": "V80",
+          "slug": "okinawa-soba-guide",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-soba-guide/",
+          "status": 200,
+          "bytes": 3751,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-soba-guide/?quality-release-check=1792164999083"
+        },
+        {
+          "version": "V80",
+          "slug": "okinawa-sunset-arch-rock",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-sunset-arch-rock/",
+          "status": 200,
+          "bytes": 4016,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-sunset-arch-rock/?quality-release-check=1792164999083"
+        },
+        {
+          "version": "V80",
+          "slug": "okinawa-sunset-rock",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-sunset-rock/",
+          "status": 200,
+          "bytes": 3937,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-sunset-rock/?quality-release-check=1792164999083"
+        },
+        {
+          "version": "V80",
+          "slug": "okinawa-whale-shark-aquarium",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-whale-shark-aquarium/",
+          "status": 200,
+          "bytes": 4041,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-whale-shark-aquarium/?quality-release-check=1792164999083"
+        },
+        {
+          "version": "V80",
+          "slug": "okinawa-zakimi-castle",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-zakimi-castle/",
+          "status": 200,
+          "bytes": 4611,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-zakimi-castle/?quality-release-check=1792164999083"
+        },
+        {
+          "version": "V80",
+          "slug": "okinawa-zanpa-cape",
+          "href": "https://www.nipponferry.com/things-to-do/okinawa-zanpa-cape/",
+          "status": 200,
+          "bytes": 3706,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/okinawa-zanpa-cape/?quality-release-check=1792164999083"
+        },
+        {
+          "version": "V80",
+          "slug": "aomori-port-nebuta-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/aomori-port-nebuta-day-trip/",
+          "status": 200,
+          "bytes": 10197,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/aomori-port-nebuta-day-trip/?quality-release-check=1792164999083"
+        },
+        {
+          "version": "V80",
+          "slug": "beppu-port-onsen-day-trip",
+          "href": "https://www.nipponferry.com/things-to-do/beppu-port-onsen-day-trip/",
+          "status": 200,
+          "bytes": 13993,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/beppu-port-onsen-day-trip/?quality-release-check=1792164999083"
+        },
+        {
+          "version": "V80",
+          "slug": "hakata-port-hakata-station-access",
+          "href": "https://www.nipponferry.com/things-to-do/hakata-port-hakata-station-access/",
+          "status": 200,
+          "bytes": 13480,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hakata-port-hakata-station-access/?quality-release-check=1792164999083"
+        },
+        {
+          "version": "V80",
+          "slug": "hiroshima-miyajima-ferry-crossing",
+          "href": "https://www.nipponferry.com/things-to-do/hiroshima-miyajima-ferry-crossing/",
+          "status": 200,
+          "bytes": 5201,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/hiroshima-miyajima-ferry-crossing/?quality-release-check=1792164999430"
+        },
+        {
+          "version": "V80",
+          "slug": "ishigaki-cruise-new-port-shuttle",
+          "href": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-new-port-shuttle/",
+          "status": 200,
+          "bytes": 13328,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-new-port-shuttle/?quality-release-check=1792164999430"
+        },
+        {
+          "version": "V80",
+          "slug": "ishigaki-cruise-kabira-bay-bus-taxi",
+          "href": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/",
+          "status": 200,
+          "bytes": 13873,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/?quality-release-check=1792164999430"
+        },
+        {
+          "version": "V80",
+          "slug": "nagasaki-matsugae-glover-garden-cruise-access",
+          "href": "https://www.nipponferry.com/things-to-do/nagasaki-matsugae-glover-garden-cruise-access/",
+          "status": 200,
+          "bytes": 13892,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/nagasaki-matsugae-glover-garden-cruise-access/?quality-release-check=1792164999430"
+        },
+        {
+          "version": "V80",
+          "slug": "nagasaki-cruise-peace-park-tram",
+          "href": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-peace-park-tram/",
+          "status": 200,
+          "bytes": 13236,
+          "issues": [],
+          "finalURL": "https://www.nipponferry.com/things-to-do/nagasaki-cruise-peace-park-tram/?quality-release-check=1792164999430"
+        }
+      ]
+    }
+  ]
+}
