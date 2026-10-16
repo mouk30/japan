@@ -1,0 +1,222 @@
+export const batch=[
+  {
+    "version": 281,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-arrival-haneda-halfday",
+    "title": "하네다 도착 반나절 도쿄 시내 추천 코스",
+    "zone": "하네다·시나가와·도쿄역",
+    "insight": "늦게 하네다공항에 도착하면 입국수속과 숙소 이동 때문에 실제 관광 시간이 줄어든다.",
+    "action": "숙소가 시나가와·하마마쓰초 쪽이면 근거리 저녁 한 곳만 선택하고 시내 명소는 다음 날 방문한다.",
+    "warning": "항공편 도착시각만으로 관광 개시시각을 확정하지 않는다.",
+    "official": "https://tokyo-haneda.com/en/access/train/index.html"
+  },
+  {
+    "version": 282,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-narita-last-day",
+    "title": "나리타 귀국 마지막 날 캐리어·쇼핑 동선",
+    "zone": "도쿄역·우에노·나리타공항",
+    "insight": "나리타공항은 도쿄 시내와 거리가 있어 출국일 먼 지역 관광이 위험하다.",
+    "action": "짐 보관을 먼저 해결하고 스카이라이너나 NEX 승차역 주변만 관광한다.",
+    "warning": "공항 출국 수속 마감과 특급 좌석권은 별개이다.",
+    "official": "https://www.narita-airport.jp/en/access/train/"
+  },
+  {
+    "version": 283,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-firsttime-east-west",
+    "title": "도쿄 첫 여행 동쪽 아사쿠사 vs 서쪽 시부야",
+    "zone": "아사쿠사·시부야",
+    "insight": "첫 방문자는 전통 동부와 현대 쇼핑 서부를 구분하면 도시의 넓이를 체감하기 쉽다.",
+    "action": "오전 아사쿠사·우에노, 다른 날 시부야·신주쿠를 선택해 환승을 줄인다.",
+    "warning": "도쿄 전역을 하루 한 장 지하철권으로 모두 둘러볼 수는 없다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 284,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-parents-flat-route",
+    "title": "부모님 동행 도쿄 계단 적은 관광 동선",
+    "zone": "긴자·도쿄역·도청",
+    "insight": "보행이 불편한 부모님과는 전망대·백화점·실내 식사처럼 휴식을 취하기 쉬운 시설을 우선한다.",
+    "action": "관광 장소별 엘리베이터와 휴식 공간을 공식 시설에서 확인하고 한 번에 한 지역만 방문한다.",
+    "warning": "역 내 엘리베이터가 모든 개찰구를 연결하는 것은 아니다.",
+    "official": "https://www.tokyometro.jp/en/subwaymap/index.html"
+  },
+  {
+    "version": 285,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-stroller-rainy-day",
+    "title": "유모차 동반 비 오는 날 도쿄 실내 코스",
+    "zone": "오다이바·이케부쿠로",
+    "insight": "비 오는 날 유모차 동반은 노면·전철 승강기 이용에 제약이 있어 실내 복합시설 중심 코스가 편하다.",
+    "action": "오다이바 상업시설 또는 이케부쿠로 수족관 등 한 시설을 고르고 수유실·기저귀실을 확인한다.",
+    "warning": "실내 시설도 유료 체험과 무료 쇼핑구역이 다를 수 있다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 286,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-toddler-underfive",
+    "title": "5세 이하 아이 동반 도쿄 체험·입장권",
+    "zone": "우에노·오다이바",
+    "insight": "어린아이와는 놀이기구 신장 제한·낮잠·유모차 대여 여부가 목적지 선택의 핵심이다.",
+    "action": "우에노공원·박물관 또는 오다이바 실내 구역 중 한 곳을 선택해 무리하지 않는다.",
+    "warning": "어린이 무료입장 기준과 유료 놀이기구 제한은 서로 다르다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 287,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-teens-anime-shopping",
+    "title": "10대 청소년 아키하바라·시부야 캐릭터 쇼핑",
+    "zone": "아키하바라·시부야",
+    "insight": "캐릭터 굿즈·게임·전자기기 상권이 다른 두 지역을 청소년 취향에 따라 선택한다.",
+    "action": "애니메이션·게임 쇼핑 중심이면 아키하바라, 패션·스니커즈 중심이면 시부야를 우선한다.",
+    "warning": "연령 제한 게임·업소와 중고상품 반품조건을 확인한다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 288,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-couple-evening-nightview",
+    "title": "연인 도쿄 저녁 데이트 전망대·야경·식사",
+    "zone": "시부야·미나토구",
+    "insight": "무료 도청 전망대와 유료 시부야스카이·도쿄타워는 분위기와 비용이 다르다.",
+    "action": "일몰 예약이 가능한 전망대 한 곳과 같은 지역 저녁 식사를 연결한다.",
+    "warning": "야외 전망대는 바람·우천으로 일부 구역이 폐쇄될 수 있다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 289,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-budget-under-10000yen",
+    "title": "도쿄 하루 1만엔 예산 교통·먹거리 관리",
+    "zone": "아사쿠사·우에노",
+    "insight": "하루 예산은 숙박비·관광시설·교통·식사를 포함하는지에 따라 의미가 달라진다.",
+    "action": "무료 산책·시장 식사와 꼭 필요한 입장권 1개를 우선순위로 정한다.",
+    "warning": "가격은 예시 예산이며 현재 운임·환율·세금으로 정확히 재계산한다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 290,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-luxury-ginza-day",
+    "title": "도쿄 프리미엄 긴자 하루 백화점·미식·전망",
+    "zone": "긴자·니혼바시",
+    "insight": "긴자는 백화점·럭셔리 브랜드·데파치카와 노포 식당을 묶기 쉬운 고급 쇼핑권이다.",
+    "action": "오전 갤러리·전통 매장, 오후 백화점·차, 저녁 예약식당 순서로 구성한다.",
+    "warning": "고급 식당의 코스 취소료와 외국인 면세 혜택은 별도 확인한다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 291,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-rainy-day-museum",
+    "title": "도쿄 비 오는 날 박물관·백화점 실내 루트",
+    "zone": "우에노·긴자",
+    "insight": "비 오는 날은 광범위한 야외 사진 코스보다 미술관·백화점·지하상가를 선택한다.",
+    "action": "방문하려는 전시의 휴관·특별전 예약을 먼저 확인한다.",
+    "warning": "특별전 입장권은 같은 건물의 상설전과 별도다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 292,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-summer-heat-indoor",
+    "title": "도쿄 여름 폭염 피하는 실내 관광·열사병 대비",
+    "zone": "긴자·오다이바",
+    "insight": "도쿄 한여름에는 야외 대기와 이동 중 온열 위험이 커질 수 있다.",
+    "action": "실내 전시·수족관·백화점을 낮 일정으로 선택하고 이른 아침·해진 후 야외 산책을 배치한다.",
+    "warning": "수분·휴식·기상특보를 우선하고 더위에 취약한 동행자의 무리한 이동을 피한다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 293,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-winter-illumination-evening",
+    "title": "도쿄 겨울 일루미네이션·역 가까운 야경",
+    "zone": "롯폰기·마루노우치",
+    "insight": "겨울 조명 이벤트는 개최 기간·사진 촬영 허용·무료/유료 구역이 매년 달라진다.",
+    "action": "각 장소의 공식 행사 날짜를 먼저 확인하고 지하철역에서 가까운 구역만 연결한다.",
+    "warning": "과거 조명사진을 올해 행사 확정 일정으로 소개하지 않는다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 294,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-cherry-blossom-two-spots",
+    "title": "도쿄 벚꽃 명소 우에노·메구로강 동선",
+    "zone": "우에노·나카메구로",
+    "insight": "우에노공원과 메구로강은 서로 떨어진 명소로 벚꽃 개화 상태·인파가 다르다.",
+    "action": "하루 한 명소만 선택하고 주민 통행·안전 조치를 지킨다.",
+    "warning": "개화 날짜는 매년 변하며 특정 날 만개를 보장하지 않는다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 295,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-autumn-gardens",
+    "title": "도쿄 가을 은행나무·일본정원 산책",
+    "zone": "메이지진구가이엔·고이시카와",
+    "insight": "도심 가을 단풍·은행나무는 지역과 수종에 따라 색이 드는 시기가 다르다.",
+    "action": "가을 날씨를 확인한 뒤 공원 한 곳과 가까운 카페·미술관을 결합한다.",
+    "warning": "행사 개최일·자전거 통제·사진 구역은 실제 현장 안내를 따른다.",
+    "official": "https://www.gotokyo.org/en/"
+  },
+  {
+    "version": 296,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-cruise-odaiba-3hours",
+    "title": "도쿄 국제크루즈터미널 하선 3시간 오다이바 코스",
+    "zone": "도쿄 국제크루즈터미널",
+    "insight": "실제 도쿄 국제크루즈터미널에서 하선하면 오다이바권 짧은 관광은 가능할 수 있다.",
+    "action": "선사의 하선 게이트·복귀 마감에서 역산해 수변 사진·실내 쇼핑 중 하나를 선택한다.",
+    "warning": "접안지가 하루미·오이이면 동일 도보 이동을 적용할 수 없다.",
+    "official": "https://www.tptc.co.jp/terminal/guide/cruise"
+  },
+  {
+    "version": 297,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-cruise-shuttle-vs-train",
+    "title": "도쿄 크루즈 부두 무료셔틀·유료교통 구분",
+    "zone": "도쿄항 각 부두",
+    "insight": "도쿄의 국제크루즈터미널·하루미·오이는 실제 접안지에 따라 역 접근과 차량 동선이 다르다.",
+    "action": "선사 안내에 적힌 무료셔틀 유무·탑승 구역·복귀 막차를 확인한 뒤 열차·택시 대안을 준비한다.",
+    "warning": "항차별 무료셔틀을 상설 대중교통 노선처럼 안내하지 않는다.",
+    "official": "https://www.tptc.co.jp/terminal/guide/cruise"
+  },
+  {
+    "version": 298,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-cruise-disney-possible",
+    "title": "도쿄 크루즈 기항 중 디즈니랜드 가능성 판단",
+    "zone": "도쿄항·마이하마",
+    "insight": "디즈니리조트는 지바현 우라야스에 있고 입장대기·왕복 이동이 있어 짧은 기항에 적합하지 않다.",
+    "action": "선박 정박시간 전체가 아닌 실제 하선 가능·귀선 마감 시간을 기준으로 일일권 구매 전 가능 여부를 평가한다.",
+    "warning": "디즈니 티켓은 선사 크루즈 관광권과 별개이며 개인 사정 환불에 제약이 있다.",
+    "official": "https://www.tokyodisneyresort.jp/en/ticket/index.html"
+  },
+  {
+    "version": 299,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-cruise-to-skytree",
+    "title": "도쿄 크루즈 하선 스카이트리·아사쿠사 선택",
+    "zone": "도쿄항·오시아게·아사쿠사",
+    "insight": "도쿄 크루즈 부두에서 아사쿠사·스카이트리는 도심 내 추가 교통이 필요한 관광권이다.",
+    "action": "스카이트리 시간 지정권 또는 아사쿠사 야외 산책 중 하나만 선택해 귀선 지연 위험을 줄인다.",
+    "warning": "긴 대기·교통혼잡이 있는 날에는 예약권이 있어도 귀선시간이 우선이다.",
+    "official": "https://www.tptc.co.jp/terminal/guide/cruise"
+  },
+  {
+    "version": 300,
+    "category": "일정·동행·크루즈",
+    "slug": "tokyo-lastday-taxfree-baggage",
+    "title": "도쿄 출국일 면세 쇼핑·백화점·짐 보관",
+    "zone": "도쿄역·신주쿠",
+    "insight": "마지막 날 면세 쇼핑은 일본 규정과 한국 귀국 신고·검역을 동시에 확인해야 한다.",
+    "action": "공항·신칸센·크루즈 출발 시각을 확정하고 역과 가까운 백화점 한 곳으로 쇼핑을 제한한다.",
+    "warning": "2026년 11월 일본 면세 제도 변경과 수하물 제한은 실제 출발일에 확인한다.",
+    "official": "https://www.gotokyo.org/en/"
+  }
+];
