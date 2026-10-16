@@ -1,0 +1,44 @@
+name: V67 Production official information audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v67-live-deployment-qa.yml
+      - scripts/v67_live_deployment_qa.mjs
+permissions:
+  contents: write
+jobs:
+  verify-production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Check 14 actual production pages for dated official-operation guidance
+        id: live
+        continue-on-error: true
+        run: node scripts/v67_live_deployment_qa.mjs
+      - name: Upload live QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v67-14-pages-live-source-verification
+          path: audit-reports/v67/live-deploy.json
+          retention-days: 21
+          if-no-files-found: warn
+      - name: Save deployment check report
+        if: always()
+        run: |
+          if [ ! -f audit-reports/v67/live-deploy.json ]; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v67/live-deploy.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V67: store live public HTML check for fourteen upgraded guides"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Fail when production HTML is outdated
+        if: steps.live.outcome != 'success'
+        run: exit 1
