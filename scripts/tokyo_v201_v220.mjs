@@ -1,0 +1,222 @@
+export const batch=[
+  {
+    "version": 201,
+    "category": "백화점·층별 안내",
+    "slug": "isetan-shinjuku-b1-food",
+    "title": "이세탄 신주쿠 본점 B1 데파치카 식품관 지도",
+    "zone": "신주쿠산초메",
+    "insight": "본관 지하 1층은 식품 구역으로 디저트·반찬·그로서리·차 등이 집중되어 있다.",
+    "action": "본관 B1 공식 플로어맵에서 원하는 제품 카테고리와 계산 구역을 확인해 가장 가까운 입구로 들어간다.",
+    "warning": "한정 디저트의 재고·예약·반입 가능 여부는 매장별로 다르다.",
+    "official": "https://www.mistore.jp/store/shinjuku/shops/mainfloorB1.html"
+  },
+  {
+    "version": 202,
+    "category": "백화점·층별 안내",
+    "slug": "isetan-shinjuku-1f-cosmetics",
+    "title": "이세탄 신주쿠 본관 1층 화장품·향수·잡화",
+    "zone": "신주쿠산초메",
+    "insight": "공식 플로어 가이드에서 본관 1층은 잡화·화장품·주얼리 구역으로 표기된다.",
+    "action": "방문할 뷰티 브랜드의 현재 입점 층을 공식 브랜드별 안내와 비교한다.",
+    "warning": "화장품을 모두 1층에서 판다고 단정하지 않으며 2층·B2 취급도 확인한다.",
+    "official": "https://www.mistore.jp/store/shinjuku/shops/mainfloor1.html"
+  },
+  {
+    "version": 203,
+    "category": "백화점·층별 안내",
+    "slug": "isetan-shinjuku-b2-beauty",
+    "title": "이세탄 신주쿠 본관 B2 뷰티 아포세카리",
+    "zone": "신주쿠산초메",
+    "insight": "공식 이세탄 층별안내에 본관 B2 뷰티 아포세카리가 구분되어 있다.",
+    "action": "일반 1층 뷰티와 건강·자연주의 브랜드를 구분해 찾는다.",
+    "warning": "브랜드 입점·재고·면세 대상품은 공식 매장 안내에서 다시 확인한다.",
+    "official": "https://www.mistore.jp/store/shinjuku/shops.html"
+  },
+  {
+    "version": 204,
+    "category": "백화점·층별 안내",
+    "slug": "isetan-shinjuku-mens",
+    "title": "이세탄 신주쿠 남성관·본관 건물 구분",
+    "zone": "신주쿠산초메",
+    "insight": "남성관은 여성 패션 중심 본관과 다른 건물·층 구성이다.",
+    "action": "남성 의류·시계·잡화 구매 목적이라면 남성관 공식 층별 지도를 먼저 확인한다.",
+    "warning": "본관 여성 의류 층을 남성복 전체 위치라고 소개하지 않는다.",
+    "official": "https://www.mistore.jp/store/shinjuku.html"
+  },
+  {
+    "version": 205,
+    "category": "백화점·층별 안내",
+    "slug": "daimaru-tokyo-b1-food",
+    "title": "다이마루 도쿄 B1 식품관·도쿄역 바로가기",
+    "zone": "도쿄역 야에스",
+    "insight": "다이마루 도쿄는 JR 도쿄역 야에스쪽 쇼핑과 연결되고 공식 층별지도가 제공된다.",
+    "action": "도시락·과자 선물은 지하 식품 구역과 열차 환승 동선을 함께 계획한다.",
+    "warning": "도쿄역 일번가이와 다이마루 지하 식품관은 별도 시설이다.",
+    "official": "https://www.daimaru.co.jp/tokyo/floor/"
+  },
+  {
+    "version": 206,
+    "category": "백화점·층별 안내",
+    "slug": "daimaru-tokyo-12f-taxfree",
+    "title": "다이마루 도쿄 12층 면세 카운터·식당",
+    "zone": "도쿄역 야에스",
+    "insight": "공식 도쿄점 층별안내에서 12층은 식당 및 면세 카운터 구역으로 표기된다.",
+    "action": "물건 구입과 환급·면세 수속을 한 번에 처리하려면 해당 층의 업무시간을 확인한다.",
+    "warning": "면세수속 가능 시간이 식당 영업시간과 같다고 단정하지 않는다.",
+    "official": "https://www.daimaru.co.jp/tokyo/floor/"
+  },
+  {
+    "version": 207,
+    "category": "백화점·층별 안내",
+    "slug": "daimaru-tokyo-10f-hands",
+    "title": "다이마루 도쿄 10층 핸즈·생활용품 층",
+    "zone": "도쿄역 야에스",
+    "insight": "공식 층별안내는 10층에 문화·취미·라이프스타일과 핸즈 매장을 안내한다.",
+    "action": "문구·생활용품 구매와 선물 쇼핑을 한 건물에서 해결한다.",
+    "warning": "층별 입점 점포·행사장 재고는 고정이 아니므로 현재 지도 확인이 필요하다.",
+    "official": "https://www.daimaru.co.jp/tokyo/floor/"
+  },
+  {
+    "version": 208,
+    "category": "백화점·층별 안내",
+    "slug": "tobu-ikebukuro-b1-b2",
+    "title": "도부 이케부쿠로 B1·B2 식품관 구분",
+    "zone": "이케부쿠로 서쪽",
+    "insight": "공식 층별안내는 B1 디저트·반찬, B2 식품·신선식품 구역을 구분한다.",
+    "action": "도시락·제과 중심 쇼핑과 신선식품 쇼핑의 목적층을 분리한다.",
+    "warning": "신선식품은 한국 귀국 검역·냉장 보관을 확인해야 한다.",
+    "official": "https://www.tobu-dept.jp/ikebukuro/tnb/language/english.html"
+  },
+  {
+    "version": 209,
+    "category": "백화점·층별 안내",
+    "slug": "tobu-ikebukuro-7f-kids",
+    "title": "도부 이케부쿠로 7층 아동복·장난감·서점",
+    "zone": "이케부쿠로 서쪽",
+    "insight": "공식 영어 층별표에서 7층은 아동복·장난감·문구·책 등으로 안내된다.",
+    "action": "유아·초등학생 동행자는 휴식·기저귀 교환 시설과 엘리베이터 위치를 함께 확인한다.",
+    "warning": "백화점 영업시간과 11~15층 식당 영업시간은 다를 수 있다.",
+    "official": "https://www.tobu-dept.jp/ikebukuro/tnb/language/english.html"
+  },
+  {
+    "version": 210,
+    "category": "백화점·층별 안내",
+    "slug": "tobu-ikebukuro-restaurants",
+    "title": "도부 이케부쿠로 11~15층 식당가 스파이스",
+    "zone": "이케부쿠로 서쪽",
+    "insight": "공식 백화점 안내는 11~15층을 식당가로 구분하고 취급 메뉴를 층별로 나눈다.",
+    "action": "식당가는 점포별 예약·대기·라스트오더가 달라 식사 시간을 우선 확인한다.",
+    "warning": "백화점 일반 매장 폐점시간을 식당가 마감시간으로 적용하지 않는다.",
+    "official": "https://www.tobu-dept.jp/ikebukuro/floormap/"
+  },
+  {
+    "version": 211,
+    "category": "백화점·층별 안내",
+    "slug": "shinjuku-takashimaya-b1",
+    "title": "신주쿠 다카시마야 B1 그루메 스퀘어 식품",
+    "zone": "신주쿠 남쪽",
+    "insight": "공식 다카시마야 층별안내에 지하1층 식품 그루메스퀘어가 있다.",
+    "action": "기념품과 식사를 함께 구입하고 바스타 신주쿠·JR 신주쿠 남쪽 출구로 이동한다.",
+    "warning": "백화점 본관과 인접 타임스스퀘어 다른 매장은 층별 연결을 확인한다.",
+    "official": "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_b1.html"
+  },
+  {
+    "version": 212,
+    "category": "백화점·층별 안내",
+    "slug": "shinjuku-takashimaya-9f-kids",
+    "title": "신주쿠 다카시마야 9층 아동복·장난감·베이비",
+    "zone": "신주쿠 남쪽",
+    "insight": "공식 신주쿠 다카시마야 9층 지도에는 어린이·베이비 상품 및 관련 시설이 안내된다.",
+    "action": "자녀 선물과 베이비 휴게 공간을 함께 찾되 실제 이용 조건을 확인한다.",
+    "warning": "일부 팝업 브랜드와 행사 일정은 한정 기간이다.",
+    "official": "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_09.html"
+  },
+  {
+    "version": 213,
+    "category": "백화점·층별 안내",
+    "slug": "ginza-six-b2-food",
+    "title": "긴자식스 B2 디저트·식품 플로어맵",
+    "zone": "긴자 6초메",
+    "insight": "GINZA SIX 공식 층별안내는 B2를 식품 카테고리로 구분한다.",
+    "action": "선물용 제과·차 브랜드와 냉장 식품을 분리하여 선별한다.",
+    "warning": "입점 브랜드가 시즌마다 변경될 수 있어 구입일 층별표를 확인한다.",
+    "official": "https://ginza6.tokyo/"
+  },
+  {
+    "version": 214,
+    "category": "백화점·층별 안내",
+    "slug": "ginza-six-b1-beauty",
+    "title": "긴자식스 B1 뷰티·코스메틱 쇼핑",
+    "zone": "긴자 6초메",
+    "insight": "긴자식스 B1은 뷰티 관련 매장을 찾는 주요 층으로 안내된다.",
+    "action": "브랜드별 매장 위치와 현재 팝업 여부를 공식 층별 검색에서 확인한다.",
+    "warning": "고급 화장품 가격·재고·면세 혜택은 브랜드별로 다르다.",
+    "official": "https://ginza6.tokyo/"
+  },
+  {
+    "version": 215,
+    "category": "백화점·층별 안내",
+    "slug": "ginza-six-6f-books",
+    "title": "긴자식스 6층 서점·아트·카페",
+    "zone": "긴자 6초메",
+    "insight": "공식 시설 소개는 6층 문화·아트·카페·식당 구역을 안내한다.",
+    "action": "긴자 고급 쇼핑 후 서점과 카페에서 휴식하는 코스로 이용한다.",
+    "warning": "서점·레스토랑별 영업시간과 전시 운영 기간은 다를 수 있다.",
+    "official": "https://ginza6.tokyo/"
+  },
+  {
+    "version": 216,
+    "category": "백화점·층별 안내",
+    "slug": "ginza-six-rooftop",
+    "title": "긴자식스 옥상정원·쇼핑 후 무료 산책",
+    "zone": "긴자 6초메",
+    "insight": "긴자식스에는 실외 옥상 정원이 있어 쇼핑 사이에 도심 녹지 휴식이 가능하다.",
+    "action": "시설의 옥상 운영시간과 날씨에 따른 폐쇄 여부를 확인한 뒤 방문한다.",
+    "warning": "옥상정원 출입이 매시간 무료·항상 개방이라는 뜻은 아니다.",
+    "official": "https://ginza6.tokyo/"
+  },
+  {
+    "version": 217,
+    "category": "백화점·층별 안내",
+    "slug": "nihombashi-mitsukoshi-floors",
+    "title": "니혼바시 미쓰코시 본점 본관·신관 층별 안내",
+    "zone": "니혼바시",
+    "insight": "본관과 신관을 별도 건물로 운영하는 전통 백화점이다.",
+    "action": "화장품·식품관·전시·레스토랑을 찾을 때 본관/신관 표기를 먼저 확인한다.",
+    "warning": "니혼바시 다카시마야와 같은 백화점이 아니며 면세 창구도 별개다.",
+    "official": "https://www.mistore.jp/store/nihombashi.html"
+  },
+  {
+    "version": 218,
+    "category": "백화점·층별 안내",
+    "slug": "ginza-mitsukoshi-floor-plan",
+    "title": "긴자 미쓰코시 층별 쇼핑·데파치카·면세",
+    "zone": "긴자",
+    "insight": "긴자 미쓰코시는 긴자 중심의 백화점으로 뷰티와 선물용 식품관을 함께 운영한다.",
+    "action": "본관·신관 구성과 원하는 브랜드 위치를 층별 가이드에서 확인한다.",
+    "warning": "긴자식스·마쓰야긴자와 다른 건물이며 면세조건이 다르다.",
+    "official": "https://www.mistore.jp/store/ginza.html"
+  },
+  {
+    "version": 219,
+    "category": "백화점·층별 안내",
+    "slug": "nihombashi-takashimaya-floor",
+    "title": "니혼바시 다카시마야 본관·신관 층별 동선",
+    "zone": "니혼바시",
+    "insight": "니혼바시 다카시마야는 여러 건물·층으로 구성되는 상업시설이다.",
+    "action": "식품관과 문화시설의 건물명·층수를 공식 플로어맵에서 확인한다.",
+    "warning": "니혼바시 미쓰코시와 혼동하여 매장 위치를 안내하면 안 된다.",
+    "official": "https://www.takashimaya.co.jp/nihombashi/"
+  },
+  {
+    "version": 220,
+    "category": "백화점·층별 안내",
+    "slug": "shibuya-parco-floor-guide",
+    "title": "시부야 파르코 층별 캐릭터·패션·식당",
+    "zone": "시부야 우다가와초",
+    "insight": "시부야 파르코는 캐릭터 매장·패션·식당이 복합된 시설이다.",
+    "action": "원하는 게임·애니메이션 캐릭터 상점이 실제 몇 층인지 공식 상점 안내에서 확인한다.",
+    "warning": "팝업·입점·정리권이 변경되므로 과거 층별표를 고정값으로 쓰지 않는다.",
+    "official": "https://shibuya.parco.jp/"
+  }
+];
