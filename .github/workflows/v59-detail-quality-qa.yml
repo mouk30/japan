@@ -1,0 +1,40 @@
+name: V59 eight detailed travel guides photo and navigation QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v59-detail-quality-qa.yml
+permissions:
+  contents: read
+jobs:
+  browser-verification:
+    runs-on: ubuntu-latest
+    timeout-minutes: 23
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Render 8 updated articles and test navigation and responsive display
+        id: inspect
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8759 --directory site --bind 127.0.0.1 >/tmp/v59-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          node scripts/v59_detail_qa.mjs
+      - name: Upload V59 report and phone screenshots
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v59-eight-article-screenshot-QA
+          path: audit-reports/v59/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Fail when picture or internal navigation check fails
+        if: steps.inspect.outcome == 'failure'
+        run: exit 1
