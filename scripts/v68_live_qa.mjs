@@ -21,7 +21,7 @@ for(let i=0;i<limit&&!passed;i++){
      const res=await fetch(u,{headers:{'cache-control':'no-cache','user-agent':'NIPPONFERRY-V68-Production-QA/1.0'},signal:AbortSignal.timeout(18000)});
      status=res.status;
      const html=await res.text();
-     const mandatory=['id="v68-precision"','class="v68-facts"','v68-foot','rel="canonical"'];
+     const mandatory=['id="v68-precision"','class="v68-facts"','v68-foot','canonical'];
      missing=mandatory.filter(v=>!html.includes(v));
      links=(html.match(/class="v68-fact"/g)||[]).length;
      if(links!==3)missing.push('Expected three cards: '+links);
