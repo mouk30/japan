@@ -1,0 +1,48 @@
+name: Tokyo V121-V300 223 published page live QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tokyo-v121-v300-live-qa.yml'
+      - 'scripts/tokyo_v121_v300_live_qa.mjs'
+permissions:
+  contents: write
+jobs:
+  check-public-tokyo-220-articles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Verify all 223 public pages and hub, image, CSS and sitemap
+        id: qa
+        continue-on-error: true
+        run: node scripts/tokyo_v121_v300_live_qa.mjs
+      - name: Upload live verified evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tokyo-v121-v300-223-public-pages-and-assets
+          path: audit-reports/v121-v300/live-production.json
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit live production report
+        if: always()
+        run: |
+          test -f audit-reports/v121-v300/live-production.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v121-v300/live-production.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Tokyo V121-V300: record live publish status of all 220 Tokyo guides and city hubs"
+          for n in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 4
+          done
+          exit 1
+      - name: Fail missing or stale public content
+        if: steps.qa.outcome != 'success'
+        run: exit 1
