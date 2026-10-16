@@ -10,7 +10,7 @@ export const topics = [
     "decision": "간장·시오·돈코츠·츠케멘의 국물 성격을 구분하고 식권 발매기에서는 면 추가·토핑·매운맛 선택을 확인한다.",
     "route": "도쿄역 라멘거리나 신주쿠에서 한곳을 선택해 식사한 뒤 주변 관광지를 연결한다. 긴 대기에는 현장 안내판을 우선한다.",
     "caution": "영업시간과 대기·현금/카드 사용은 점포별로 다르며 라스트오더는 폐점 시각보다 빠를 수 있다.",
-    "official": "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html",
+    "official": "https://www.gourmet.gotokyo.org/",
     "secondary": "https://www.tokyoeki-1bangai.co.jp/",
     "sourceNote": "음식점 정보·상권을 먼저 확인하고, 특정 점포의 예약 가능성을 보장하지 않는다."
   },
@@ -39,7 +39,7 @@ export const topics = [
     "route": "쓰키시마 역 근처에서 식사하고 쓰키지·도요스 수변 코스 중 한 곳을 선택한다.",
     "caution": "냄새가 배는 옷과 알레르기(갑각류·밀·유제품), 저녁 대기·예약 가능 여부를 확인한다.",
     "official": "https://www.gotokyo.org/en/",
-    "secondary": "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html",
+    "secondary": "https://www.gourmet.gotokyo.org/",
     "sourceNote": "도쿄도 공식 관광 자료는 지역 선택 출처이며 개별 식당 예약 페이지가 아니다."
   },
   {
@@ -52,7 +52,7 @@ export const topics = [
     "decision": "꼬치구이는 소금(시오)과 소스(타레)를 고르고 작은 요리와 1인당 좌석료(오토시) 여부를 확인하면 예상 계산을 줄일 수 있다.",
     "route": "저녁 교통·귀가 시간을 고려해 숙소와 같은 노선에 있는 한 상권을 고른다.",
     "caution": "흡연석·미성년자 입장·주류 주문·서비스료·예약금은 업소별 약관을 확인한다.",
-    "official": "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html",
+    "official": "https://www.gourmet.gotokyo.org/",
     "secondary": "https://www.gotokyo.org/en/",
     "sourceNote": "점포별 영업·환불 정책은 도쿄도 공식 관광 포털과 별도로 개별 확인한다."
   },
@@ -486,7 +486,7 @@ export const topics = [
     "decision": "시장 견학과 실제 경매 관람은 공개 구역·예약 조건이 다르므로 관광객 출입 가능 공간을 반드시 확인한다.",
     "route": "유리카모메 시조마에역 → 시장 방문 가능 구역 → 도요스 수변·팀랩 중 한 곳으로 이동한다.",
     "caution": "경매를 매일 자유 입장할 수 있는 것으로 단정하지 말고 시장 공식 일정·시각·유료 시설과 휴장을 확인한다.",
-    "official": "https://www.shijou.metro.tokyo.lg.jp/english/",
+    "official": "https://www.english.metro.tokyo.lg.jp/w/016-101-003992",
     "secondary": "https://www.gotokyo.org/en/",
     "sourceNote": "도쿄도 중앙도매시장 공식 안내 우선."
   },
