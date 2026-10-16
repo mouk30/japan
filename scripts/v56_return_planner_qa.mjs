@@ -30,6 +30,7 @@ try {
    const result=await page.locator('#v56-return-result').innerText();
    if(!result.includes('16:10'))errors.push(width+'px: wrong time arithmetic: '+result.slice(0,100));
    if(!result.includes('예시 선박'))errors.push(width+'px: ship name not included');
+   if(!result.includes('로프웨이 정기점검 운휴'))errors.push(width+'px: Hakodate maintenance alert missing');
    if(width===320||width===1440)await page.screenshot({path:dir+'/planner-'+width+'.png',fullPage:false});
    await page.locator('#v56-deadline').fill('01:00');
    await page.locator('#v56-travel').fill('80');
@@ -37,7 +38,14 @@ try {
    await form.locator('button[type="submit"]').click();
    const night=await page.locator('#v56-return-result').innerText();
    if(!night.includes('22:40 (전날)'))errors.push(width+'px: previous-day arithmetic failed: '+night.slice(0,100));
-   checks.push({width,count,overflow:overflow.scroll,normal:'16:10',midnight:'22:40 (전날)',pass:true});
+   await page.locator('#v56-port').selectOption('naha');
+   await page.locator('#v56-date').fill('2026-11-22');
+   await form.locator('button[type="submit"]').click();
+   if(!await page.locator('.v56-date-alert').count())errors.push(width+'px: Shurijo pre-opening advisory missing');
+   await page.locator('#v56-date').fill('2026-11-23');
+   await form.locator('button[type="submit"]').click();
+   if(await page.locator('.v56-date-alert').count())errors.push(width+'px: Shurijo warning incorrectly shows after opening');
+   checks.push({width,count,overflow:overflow.scroll,normal:'16:10',midnight:'22:40 (전날)',seasonalAlerts:true,pass:true});
   }catch(e){errors.push(width+'px: '+String(e).slice(0,350))}
   finally{await page.close();}
  }
