@@ -17,6 +17,12 @@ async function inspect(x){
   if(cards!==3)issues.push('Source cards count '+cards);
   if(!/rel=["']canonical["']/.test(html))issues.push('No canonical');
   if((html.match(/<h1\b/g)||[]).length!==1)issues.push('Invalid H1');
+  if(['okinawa-shuri-castle','okinawa-shuri-castle-heritage','okinawa-churaumi-aquarium','okinawa-whale-shark-aquarium'].includes(x.slug)){
+    if(!html.includes('class="nf-q80-dated"'))issues.push('Missing dated facility operating notice');
+    if(x.slug.includes('shuri')&&!html.includes('2026년 11월 23일'))issues.push('Missing Shuri opening date');
+    if(x.slug.includes('aquarium')&&!html.includes('17:30'))issues.push('Missing aquarium last admission');
+  }
+  if(x.slug==='aomori-port-nebuta-day-trip'&&html.includes('0420_01_kuruzu.pdf'))issues.push('Stale broken official PDF reference');
  }catch(e){issues.push(String(e).slice(0,160))}
  return {...x,status,bytes,issues,finalURL};
 }
