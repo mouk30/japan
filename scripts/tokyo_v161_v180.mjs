@@ -1,0 +1,222 @@
+export const batch=[
+  {
+    "version": 161,
+    "category": "디즈니·입장권",
+    "slug": "disney-1day-admission-vs-dpa",
+    "title": "디즈니 1일 입장권과 유료 프리미어 액세스 비교",
+    "zone": "랜드·씨 공통",
+    "insight": "파크 입장권으로 파크에 들어가고 프리미어 액세스는 지정 경험의 대기 단축 또는 관람 구역을 추가 구매하는 서비스다.",
+    "action": "파크 티켓 날짜를 먼저 확정하고 입장 후 앱에서 DPA 판매 대상·잔여 수량을 확인한다.",
+    "warning": "DPA만 구매해서 파크에 입장할 수 없고 DPA는 인원별 1회 이용권이다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 162,
+    "category": "디즈니·입장권",
+    "slug": "disney-dpa-app-purchase",
+    "title": "디즈니 프리미어 액세스 앱 구매·시간선택",
+    "zone": "파크 내부 서비스",
+    "insight": "지정 시간·경험·인원 수를 선택해 구매하는 유료 서비스로 매진될 수 있다.",
+    "action": "동행 인원의 입장권을 앱에 연결한 뒤 함께 구매하면 시간대 차이를 줄일 수 있다.",
+    "warning": "구매 후 기본적으로 변경·취소·환불이 불가능하며 시간 중복을 피해야 한다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 163,
+    "category": "디즈니·입장권",
+    "slug": "disney-dpa-price-attractions",
+    "title": "랜드 프리미어 액세스 대상 어트랙션 요금표 읽기",
+    "zone": "도쿄 디즈니랜드",
+    "insight": "미녀와 야수·베이맥스·스플래시마운틴처럼 DPA 대상 여부와 상품 가격이 서로 다르다.",
+    "action": "가격은 경험별이므로 하루 총액을 파크 입장권과 분리 계산한다.",
+    "warning": "유료 DPA 상품 가격과 운영대상은 현장 상황·일자별로 변경된다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 164,
+    "category": "디즈니·입장권",
+    "slug": "disney-dpa-parade-show",
+    "title": "디즈니 퍼레이드·쇼 DPA 지정 관람 구역",
+    "zone": "랜드·씨 엔터테인먼트",
+    "insight": "유료 DPA의 쇼·퍼레이드 상품은 놀이기구 대기 단축과 다르게 지정 관람 구역을 제공한다.",
+    "action": "관람 시간과 다른 놀이기구 DPA 시간을 겹치지 않게 조정한다.",
+    "warning": "관람 구역 위치·우천 취소·지정 시각 이후 사용불가 조건을 확인한다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 165,
+    "category": "디즈니·입장권",
+    "slug": "disney-priority-pass-free",
+    "title": "도쿄 디즈니 40주년 프라이오리티 패스 무료 조건",
+    "zone": "디즈니랜드·디즈니씨",
+    "insight": "40주년 프라이오리티 패스는 유료 DPA와 구분되는 무료 예약형 서비스다.",
+    "action": "방문일 앱에서 대상 시설·배포 여부와 다음 패스 취득 제한을 확인한다.",
+    "warning": "무료권도 발행 수량이 제한되며 인기 어트랙션을 반드시 이용할 수 있다는 보장은 아니다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/"
+  },
+  {
+    "version": 166,
+    "category": "디즈니·입장권",
+    "slug": "disney-standby-pass-store",
+    "title": "디즈니 스탠바이 패스 상점·체험 사용법",
+    "zone": "랜드·씨 일부 상점",
+    "insight": "스탠바이 패스는 특정 운영일의 매장·시설 대기열 접근 관리를 위한 서비스다.",
+    "action": "앱에서 해당 시설에 패스가 필요한지 먼저 보고 쇼핑 시간을 예약한다.",
+    "warning": "과거 판타지 스프링스 전체 입장 필수조건을 지금도 동일하게 적용하지 않는다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/standbypass.html"
+  },
+  {
+    "version": 167,
+    "category": "디즈니·입장권",
+    "slug": "disney-entry-request-show",
+    "title": "디즈니 엔트리 리퀘스트 쇼 추첨·이용 조건",
+    "zone": "랜드·씨 공연",
+    "insight": "엔트리 리퀘스트는 추첨/접수 방식으로 공연 또는 체험 이용 기회를 신청하는 제도다.",
+    "action": "당일 앱에서 대상 쇼와 신청 가능 시간을 확인하고 당첨되지 않을 때의 대체 동선을 마련한다.",
+    "warning": "신청만으로 공연 좌석 확정이 아니며 운영상황에 따라 제도가 달라질 수 있다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/"
+  },
+  {
+    "version": 168,
+    "category": "디즈니·입장권",
+    "slug": "disney-mobile-order-food",
+    "title": "디즈니 모바일 오더 식당·결제방법",
+    "zone": "랜드·씨 레스토랑",
+    "insight": "모바일 오더는 앱에서 메뉴와 수령 시간을 선택할 수 있는 서비스로 모든 음식점에 적용되지 않는다.",
+    "action": "공식 앱에서 대상 식당을 확인하고 수령 알림·결제수단을 준비한다.",
+    "warning": "예약 메뉴가 품절되거나 식당별 수령 가능 시간이 달라질 수 있다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/"
+  },
+  {
+    "version": 169,
+    "category": "디즈니·입장권",
+    "slug": "disney-priority-seating-restaurants",
+    "title": "디즈니 레스토랑 프라이오리티 시팅 예약",
+    "zone": "파크·호텔 식당",
+    "insight": "프라이오리티 시팅은 일반적인 테이블 확정 예약과 다른 우선 안내 방식일 수 있다.",
+    "action": "이용할 식당이 우선 안내 대상인지와 날짜·인원·시간 슬롯을 공식 앱에서 확인한다.",
+    "warning": "동반인원·지각·노쇼·취소조건은 매장·예약 방법에 따라 달라질 수 있다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/"
+  },
+  {
+    "version": 170,
+    "category": "디즈니·입장권",
+    "slug": "disney-character-dining-booking",
+    "title": "디즈니 캐릭터 다이닝 식사 예약과 비용",
+    "zone": "파크·디즈니호텔",
+    "insight": "캐릭터와 만나는 식사 상품은 일반 레스토랑 이용과 내용·가격·예약가능 시기가 다를 수 있다.",
+    "action": "공식 식당 정보에서 실제 캐릭터 등장 여부와 식사 상품 포함 내용을 확인한 뒤 구매한다.",
+    "warning": "과거 이벤트 운영을 현재 상설 서비스로 단정하지 않는다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/"
+  },
+  {
+    "version": 171,
+    "category": "디즈니·입장권",
+    "slug": "disney-disability-passport",
+    "title": "디즈니 장애인용 원데이 패스 증빙·동반 조건",
+    "zone": "랜드·씨 장애인 입장권",
+    "insight": "장애인용 1일 여권은 대상 자격증명 소지자와 동행자의 공식 구매 조건을 확인해야 한다.",
+    "action": "증명서 인정 범위와 입장 시 본인확인·동행 티켓 구매방법을 공식 티켓 안내에서 확인한다.",
+    "warning": "접근성 지원과 파크 입장권 할인 자격은 서로 다른 제도다.",
+    "official": "https://www.tokyodisneyresort.jp/en/ticket/index.html"
+  },
+  {
+    "version": 172,
+    "category": "디즈니·입장권",
+    "slug": "disney-children-ticket-age",
+    "title": "디즈니 어린이·중고생·성인 티켓 연령 구분",
+    "zone": "디즈니랜드·씨",
+    "insight": "공식 티켓은 어린이·주니어·성인 구분과 특정 상품별 가격을 달리 적용한다.",
+    "action": "출발 당시 나이 기준이 아닌 실제 입장일의 적용 연령과 티켓 종류를 확인한다.",
+    "warning": "무료입장 연령과 놀이기구 신장 제한은 별개다.",
+    "official": "https://www.tokyodisneyresort.jp/en/ticket/index.html"
+  },
+  {
+    "version": 173,
+    "category": "디즈니·입장권",
+    "slug": "disney-hopper-limited-period",
+    "title": "디즈니 한정기간 파크 호퍼 여권 이용범위",
+    "zone": "랜드·씨 2개 파크",
+    "insight": "한정 기간 판매되는 1일 파크 호퍼는 일반 1일 입장권과 달리 정해진 시간 이후 두 파크 이동을 허용할 수 있다.",
+    "action": "방문일에 해당 상품이 판매되는지와 첫 입장 파크·이동 가능 시각을 확인한다.",
+    "warning": "상시 이용 가능한 무료 파크 호퍼로 소개하면 안 된다.",
+    "official": "https://www.tokyodisneyresort.jp/en/ticket/park_hopper"
+  },
+  {
+    "version": 174,
+    "category": "디즈니·입장권",
+    "slug": "disney-ticket-date-change",
+    "title": "디즈니 티켓 날짜 변경·취소·환불 구분",
+    "zone": "공식 웹 티켓",
+    "insight": "파크 티켓의 변경 가능 항목과 취소·환불 가능성은 다른 조건이다.",
+    "action": "구매 채널·권종·유효기간을 확인해 공식 사이트의 변경 가능한 항목만 처리한다.",
+    "warning": "기본적으로 개인 사정에 따른 취소·환불을 보장하지 않는다.",
+    "official": "https://www.tokyodisneyresort.jp/en/ticket/index.html"
+  },
+  {
+    "version": 175,
+    "category": "디즈니·입장권",
+    "slug": "disney-ticket-sold-out",
+    "title": "디즈니 입장권 매진 날짜 대처와 공식 호텔",
+    "zone": "디즈니리조트 발권",
+    "insight": "일반 공식 온라인 판매가 매진된 날짜라도 특정 디즈니호텔 숙박객은 호텔 판매권 제도가 적용될 수 있다.",
+    "action": "숙소 상품에 입장권이 포함되는지 또는 호텔에서 별도 구매 가능한지를 직접 확인한다.",
+    "warning": "호텔 예약만으로 모든 파크 티켓과 모든 이용 혜택이 자동 확정되는 것은 아니다.",
+    "official": "https://www.tokyodisneyresort.jp/en/hotel/dh.html"
+  },
+  {
+    "version": 176,
+    "category": "디즈니·입장권",
+    "slug": "disney-happy-entry-hotel-list",
+    "title": "디즈니호텔 해피엔트리 대상 호텔·파크 표",
+    "zone": "디즈니 공식 호텔",
+    "insight": "해피엔트리 조기입장은 일부 공식 호텔에 제공되며 대상 파크·혜택 시간은 호텔과 날짜에 따라 달라진다.",
+    "action": "체크인 날짜에는 일반적으로 이용할 수 없으므로 실제 투숙·퇴실일과 이용 파크를 확인한다.",
+    "warning": "해피엔트리 패스와 파크 입장권은 서로 별도로 필요하다.",
+    "official": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html"
+  },
+  {
+    "version": 177,
+    "category": "디즈니·입장권",
+    "slug": "disney-happy-entry-construction",
+    "title": "디즈니씨 해피엔트리 입구 공사·동선 변경",
+    "zone": "디즈니씨 특전 이용",
+    "insight": "디즈니씨 입구 공사에 따른 호텔별 조기입장 출입구 변경이 공식 안내되어 있다.",
+    "action": "해당 숙박 호텔의 지정 보안검색·입장 경로를 방문일 공식 지도에서 확인한다.",
+    "warning": "호텔 별로 이용할 수 없는 특별출입구가 다르므로 무단으로 다른 입구를 선택하지 않는다.",
+    "official": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html"
+  },
+  {
+    "version": 178,
+    "category": "디즈니·입장권",
+    "slug": "disney-hotel-park-ticket-bundle",
+    "title": "디즈니 공식 호텔 숙박과 파크 티켓 포함 조건",
+    "zone": "디즈니호텔 예약",
+    "insight": "일부 디즈니 공식 숙박객은 일반 온라인 매진 시에도 숙박일에 입장권을 구매할 수 있다는 공식 안내가 있다.",
+    "action": "객실예약 상품이 파크 티켓 별도 구매인지 패키지 포함인지 확인한다.",
+    "warning": "호텔 숙박권은 원칙적으로 놀이기구 DPA 이용권과 다르다.",
+    "official": "https://www.tokyodisneyresort.jp/en/hotel/dh.html"
+  },
+  {
+    "version": 179,
+    "category": "디즈니·입장권",
+    "slug": "disney-park-app-ticket-share",
+    "title": "디즈니 공식 앱 티켓 공유·그룹 구매",
+    "zone": "랜드·씨 앱",
+    "insight": "동행자 티켓을 앱 그룹에 연결하면 DPA·공연 일정 확인이 쉬워진다.",
+    "action": "각자 다른 구매처에서 발급한 QR 티켓을 연결할 수 있는지 공식 앱 안내를 따라 점검한다.",
+    "warning": "타인의 계정을 무단 공유하거나 비공식 재판매 티켓을 구입하지 않는다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/"
+  },
+  {
+    "version": 180,
+    "category": "디즈니·입장권",
+    "slug": "disney-ride-height-safety",
+    "title": "디즈니 놀이기구 키 제한·임산부·어린이 안전",
+    "zone": "랜드·씨 어트랙션",
+    "insight": "어트랙션마다 신장·건강 상태·안전벨트 등 이용 제한이 있어 유료 패스 구매 전에 확인해야 한다.",
+    "action": "아이 키와 동반 보호자의 탑승 가능 여부를 운영 당일 시설별로 확인한다.",
+    "warning": "유료 DPA를 샀어도 안전 제한을 충족하지 않으면 탑승할 수 없다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  }
+];
