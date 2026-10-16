@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-16T16:13:47.387Z",
+  "checkedAt": "2026-10-16T16:19:58.768Z",
   "retries": 1,
   "articles": 40,
   "publicPages": 43,
@@ -31,7 +31,7 @@
       "version": 81,
       "status": 200,
       "issues": [],
-      "bytes": 7342
+      "bytes": 7311
     },
     {
       "path": "/japan/tokyo/tokyo-sushi-breakfast-guide/",
@@ -47,7 +47,7 @@
       "version": 83,
       "status": 200,
       "issues": [],
-      "bytes": 7265
+      "bytes": 7234
     },
     {
       "path": "/japan/tokyo/tokyo-yakitori-izakaya-guide/",
@@ -55,7 +55,7 @@
       "version": 84,
       "status": 200,
       "issues": [],
-      "bytes": 7261
+      "bytes": 7230
     },
     {
       "path": "/japan/tokyo/tokyo-depachika-food-halls/",
@@ -303,7 +303,7 @@
       "version": 115,
       "status": 200,
       "issues": [],
-      "bytes": 7162
+      "bytes": 7554
     },
     {
       "path": "/japan/tokyo/tokyo-ghibli-museum-booking/",
