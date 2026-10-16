@@ -1,0 +1,222 @@
+export const batch=[
+  {
+    "version": 181,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneyland-beauty-beast-ride",
+    "title": "미녀와 야수 마법 이야기 어트랙션과 DPA",
+    "zone": "디즈니랜드 판타지랜드",
+    "insight": "미녀와 야수 테마의 인기 실내 어트랙션으로 DPA 대상일 수 있다.",
+    "action": "일반 대기와 유료 DPA 중 어떤 방법을 택할지 앱의 당일 대기·판매 상태를 보고 결정한다.",
+    "warning": "유료 패스를 구입해도 시설 운영 중단이나 신장·안전조건으로 제한될 수 있다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 182,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneyland-baymax-happy-ride",
+    "title": "베이맥스 해피 라이드 키 제한·DPA 준비",
+    "zone": "디즈니랜드 투모로우랜드",
+    "insight": "회전·스윙 움직임이 있는 베이맥스 테마의 인기 놀이기구다.",
+    "action": "동승 어린이와 성인의 안전조건을 사전에 확인하고 대기시간과 DPA 비용을 비교한다.",
+    "warning": "어린이 안전 규정과 DPA 이용 가능 여부는 별개다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 183,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneyland-splash-mountain",
+    "title": "스플래시 마운틴 물 튀김·탑승 주의",
+    "zone": "디즈니랜드 크리터컨트리",
+    "insight": "급강하와 물 튀김이 있는 놀이기구여서 날씨·옷과 짐 보호가 중요하다.",
+    "action": "탑승 가능 조건·비상 휴장 여부를 확인한 뒤 젖으면 곤란한 물품을 별도 보관한다.",
+    "warning": "기상·점검에 따른 운행 중단은 관광 일정에서 대체해야 한다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 184,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneyland-big-thunder-mountain",
+    "title": "빅선더 마운틴 유료 패스·안전 제한",
+    "zone": "디즈니랜드 웨스턴랜드",
+    "insight": "빠른 광산열차형 어트랙션으로 체험 강도와 안전 기준을 확인해야 한다.",
+    "action": "동행자별 탑승 선호·신장 제한을 확인하고 다른 어트랙션과의 시간 충돌을 피한다.",
+    "warning": "시설 중단과 DPA 발매 수량은 방문일마다 달라질 수 있다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 185,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneyland-pooh-hunny-hunt",
+    "title": "푸의 허니헌트 대기·어린이 동반 전략",
+    "zone": "디즈니랜드 판타지랜드",
+    "insight": "푸 캐릭터가 나오는 어트랙션으로 어린이 동행 수요가 많다.",
+    "action": "오전 첫 방문 또는 앱의 대기·우선입장 서비스 가능 여부를 확인한다.",
+    "warning": "인기 시설도 미취학 어린이의 건강·탑승 제한을 확인해야 한다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 186,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneyland-monsters-inc",
+    "title": "몬스터 주식회사 라이드 앤 고 시크 대기법",
+    "zone": "디즈니랜드 투모로우랜드",
+    "insight": "몬스터 주식회사 테마의 상호작용형 어트랙션이다.",
+    "action": "공식 앱에서 대기시간과 당일 DPA·무료 패스 운영 여부를 확인한다.",
+    "warning": "관광객 사진 촬영과 공식 시설의 촬영 허용은 같지 않을 수 있다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 187,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneyland-haunted-mansion-season",
+    "title": "헌티드 맨션 시즌 이벤트와 DPA 대상일",
+    "zone": "디즈니랜드 판타지랜드",
+    "insight": "헌티드 맨션은 시즌 특별 운영과 일반 운영에서 테마·우선입장 서비스가 달라질 수 있다.",
+    "action": "계절 한정 기간을 공식 캘린더에서 확인해 방문일 이용 상품을 결정한다.",
+    "warning": "과거 특별 테마가 현재 항상 운영된다고 가정하지 않는다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 188,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneysea-frozen-ever-after",
+    "title": "디즈니씨 프로즌 에버 애프터 이용·대기",
+    "zone": "판타지 스프링스",
+    "insight": "겨울왕국을 테마로 한 디즈니씨 판타지 스프링스의 인기 어트랙션이다.",
+    "action": "앱 대기시간·DPA 판매와 팬터지 스프링스 구역까지의 도보 동선을 확인한다.",
+    "warning": "파크 입장권이 별도 DPA 상품을 포함하는 것은 아니다.",
+    "official": "https://www.tokyodisneyresort.jp/special/en/fantasysprings/"
+  },
+  {
+    "version": 189,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneysea-peter-pan-adventure",
+    "title": "피터팬 네버랜드 어드벤처 탑승·어지럼 주의",
+    "zone": "판타지 스프링스",
+    "insight": "영상과 움직임이 결합된 피터팬 테마 어트랙션으로 개인에 따라 멀미를 느낄 수 있다.",
+    "action": "건강·안전 조건을 확인하고 인근 시설을 한 권역으로 묶는다.",
+    "warning": "아이 신장·건강 제한과 사진 촬영 규칙은 시설별로 적용된다.",
+    "official": "https://www.tokyodisneyresort.jp/special/en/fantasysprings/"
+  },
+  {
+    "version": 190,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneysea-rapunzel-lantern",
+    "title": "라푼젤 랜턴 페스티벌 예약·야간 분위기",
+    "zone": "판타지 스프링스",
+    "insight": "라푼젤 테마의 보트 어트랙션으로 판타지 스프링스 내 위치한다.",
+    "action": "다른 판타지 스프링스 시설과 순서를 묶고 앱에서 실제 대기·운영 조건을 본다.",
+    "warning": "저녁 조명과 시설 운영 종료시간이 매일 동일하지 않다.",
+    "official": "https://www.tokyodisneyresort.jp/special/en/fantasysprings/"
+  },
+  {
+    "version": 191,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneysea-soaring-flight",
+    "title": "소어링 판타스틱 플라이트 대기·DPA",
+    "zone": "디즈니씨 메디테러니언 하버",
+    "insight": "영상·비행감을 결합한 인기 실내 어트랙션이다.",
+    "action": "낮 대기시간과 유료 DPA 선택을 비교하고 멀미 우려가 있으면 체험 강도를 검토한다.",
+    "warning": "시설 안전·건강 안내가 유료 패스 구매보다 우선이다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 192,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneysea-toy-story-mania",
+    "title": "토이 스토리 마니아 DPA·가족 대기",
+    "zone": "디즈니씨 아메리칸 워터프런트",
+    "insight": "토이 스토리 테마의 게임형 어트랙션으로 인기 시간이 길어질 수 있다.",
+    "action": "아메리칸 워터프런트 관광과 묶고 다른 어트랙션의 지정시간과 겹치지 않게 한다.",
+    "warning": "DPA 판매는 한정이며 구매 후 시간 변경이 원칙적으로 불가하다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 193,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneysea-tower-of-terror",
+    "title": "타워 오브 테러 무서움·탑승 안전조건",
+    "zone": "디즈니씨 아메리칸 워터프런트",
+    "insight": "급격한 상하 움직임이 있는 스릴형 어트랙션으로 어린이·멀미 취약자는 주의가 필요하다.",
+    "action": "탑승 전 신장·건강 제한과 동행자 선택을 검토한다.",
+    "warning": "유료 DPA가 공포·안전 제한을 해제하지는 않는다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess"
+  },
+  {
+    "version": 194,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disneysea-journey-center-earth",
+    "title": "센터 오브 디 어스 대기·스릴 강도",
+    "zone": "디즈니씨 미스테리어스 아일랜드",
+    "insight": "실내 다크라이드와 스릴 움직임이 결합된 인기 어트랙션이다.",
+    "action": "시설 운영·대기시간을 확인하고 같은 권역의 작은 체험을 대안으로 잡는다.",
+    "warning": "갑작스러운 시스템 중단이 있을 수 있으므로 일정 전체를 한 시설에 의존하지 않는다.",
+    "official": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/"
+  },
+  {
+    "version": 195,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disney-miracosta-hotel",
+    "title": "호텔 미라코스타 파크 인접성·해피엔트리",
+    "zone": "디즈니씨 호텔 미라코스타",
+    "insight": "디즈니씨와 연결된 공식 호텔로 고가 객실과 별도 서비스 조건이 있다.",
+    "action": "숙박 요금·객실 전망·호텔 특전·입장권 포함 여부를 각각 확인해 예약한다.",
+    "warning": "객실을 예약했다고 유료 DPA나 모든 공연좌석을 얻는 것은 아니다.",
+    "official": "https://www.tokyodisneyresort.jp/en/hotel/dh.html"
+  },
+  {
+    "version": 196,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disney-fantasy-springs-hotel",
+    "title": "판타지 스프링스 호텔 객실 유형·파크 출입",
+    "zone": "판타지 스프링스 호텔",
+    "insight": "그랜드 샤토·판타지 샤토 등 숙박 유형과 특별 출입 조건이 나뉜다.",
+    "action": "공식 호텔 안내에서 숙박 건물·파크로 가는 출입구와 해피엔트리 규정을 확인한다.",
+    "warning": "특전은 실제 투숙자·이용일 기준이며 외부 방문객에게 자동 적용되지 않는다.",
+    "official": "https://www.tokyodisneyresort.jp/en/hotel/dh.html"
+  },
+  {
+    "version": 197,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disney-toy-story-hotel",
+    "title": "토이스토리 호텔 조기입장·교통과 객실",
+    "zone": "디즈니 토이스토리 호텔",
+    "insight": "공식 디즈니호텔로 어린이 테마 객실과 리조트라인 접근이 특징이다.",
+    "action": "숙박일의 대상 파크·입장권 별매·호텔 객실 정원·식사시간을 확인한다.",
+    "warning": "2026년 디즈니씨 해피엔트리 여부를 호텔 전체에 일괄 적용하지 않는다.",
+    "official": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html"
+  },
+  {
+    "version": 198,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disney-ambassador-hotel",
+    "title": "디즈니 앰배서더 호텔 파크 이용·버스",
+    "zone": "디즈니 앰배서더 호텔",
+    "insight": "마이하마 지역 공식 호텔이며 객실 테마와 파크 연결 교통을 확인해야 한다.",
+    "action": "방문일 조기입장 대상 파크와 셔틀 승차 장소를 공식 호텔 일정에서 확인한다.",
+    "warning": "과거 한정기간 디즈니씨 조기입장 특전을 상시 혜택이라고 안내하지 않는다.",
+    "official": "https://www.tokyodisneyresort.jp/en/hotel/dh.html"
+  },
+  {
+    "version": 199,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disney-celebration-hotel",
+    "title": "디즈니 셀러브레이션 호텔 통근버스·입장 혜택",
+    "zone": "디즈니 셀러브레이션 호텔",
+    "insight": "파크와 거리가 있는 공식 호텔로 버스 이동시간이 예약 결정에 중요하다.",
+    "action": "셔틀 첫차·막차와 실제 호텔 조식·파크 도착 시각을 확인한다.",
+    "warning": "공식 호텔이더라도 모든 조기입장·호텔 전용 출입문이 동일하지 않다.",
+    "official": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html"
+  },
+  {
+    "version": 200,
+    "category": "디즈니·놀이기구·호텔",
+    "slug": "disney-vacation-package-vs-regular",
+    "title": "디즈니 베케이션 패키지·개별 호텔 예약 비교",
+    "zone": "디즈니 리조트 패키지",
+    "insight": "베케이션 패키지는 호텔과 체험을 묶은 특정 상품이며 일반 숙박 예약과 구성·가격이 다르다.",
+    "action": "상품 페이지의 포함 티켓·기념품·시간 지정 어트랙션·변경과 취소기한을 비교한다.",
+    "warning": "개별 호텔 예약 후 모든 패키지 혜택을 추가로 받을 수 있다고 보지 않는다.",
+    "official": "https://www.tokyodisneyresort.jp/en/hotel/dh.html"
+  }
+];
