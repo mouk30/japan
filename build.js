@@ -50,6 +50,8 @@ for(const file of pages) {
   // Match version prefixes at the beginning of visible text nodes, not V-branded products.
   h=h.replace(/(>\s*)V\d{1,3}\s*[·:—–-]\s*/g,'$1');
   h=h.replace(/(>\s*)V\d{1,3}\b(?=\s*<)/g,'$1');
-  // V68: the source-audit release number belongs in Git history, not visitor-facing badges.\n  h=h.replaceAll('NIPPONFERRY · V68 SOURCED GUIDE ·', 'NIPPONFERRY · 공식 자료 점검 ·');\n  fs.writeFileSync(file,h);
+  // V68: the source-audit release number belongs in Git history, not visitor-facing badges.
+  h=h.replaceAll('NIPPONFERRY · V68 SOURCED GUIDE ·', 'NIPPONFERRY · 공식 자료 점검 ·');
+  fs.writeFileSync(file,h);
 }
 console.log('Built',pages.length,'HTML pages; merged content navigation');
