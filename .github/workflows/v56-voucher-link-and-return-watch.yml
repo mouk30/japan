@@ -4,6 +4,10 @@ on:
     branches: [main]
     paths:
       - .github/workflows/v56-voucher-link-and-return-watch.yml
+      - site/voucher/cruise-ports/index.html
+      - site/voucher/index.html
+      - scripts/v56_check_voucher_links.py
+      - scripts/v56_return_planner_qa.mjs
   schedule:
     - cron: '17 0 * * *'
   workflow_dispatch:
