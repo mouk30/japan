@@ -1,0 +1,1428 @@
+{
+  "checkedAt": "2026-10-16T15:40:11.282Z",
+  "links": 113,
+  "independentSources": 111,
+  "notFound": 0,
+  "restricted": 0,
+  "unconfirmed": 2,
+  "issues": [],
+  "results": [
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/008/index.html",
+      "pages": [
+        "abashiri-cruise-port-day-trip",
+        "abashiri-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/008/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.nichinan.lg.jp/",
+      "pages": [
+        "aburatsu-cruise-port-day-trip",
+        "aburatsu-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.nichinan.lg.jp/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/061/index.html",
+      "pages": [
+        "aokata-cruise-port-day-trip",
+        "aokata-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/061/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/116/index.html",
+      "pages": [
+        "fukui-cruise-port-day-trip",
+        "fukui-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/116/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/list/index.html",
+      "pages": [
+        "fukuyama-cruise-port-day-trip",
+        "fukuyama-cruise-port-day-trip",
+        "gamagori-cruise-port-day-trip",
+        "gamagori-cruise-port-day-trip",
+        "hidaka-cruise-port-day-trip",
+        "hidaka-cruise-port-day-trip",
+        "himeji-cruise-port-day-trip",
+        "himeji-cruise-port-day-trip",
+        "imabari-cruise-port-day-trip",
+        "imabari-cruise-port-day-trip",
+        "omaezaki-cruise-port-day-trip",
+        "omaezaki-cruise-port-day-trip",
+        "sakai-semboku-cruise-port-day-trip",
+        "sakai-semboku-cruise-port-day-trip",
+        "sakaide-cruise-port-day-trip",
+        "sakaide-cruise-port-day-trip",
+        "shingu-cruise-port-day-trip",
+        "shingu-cruise-port-day-trip",
+        "toba-cruise-port-day-trip",
+        "toba-cruise-port-day-trip",
+        "tsugaru-ajigasawa-cruise-port-day-trip",
+        "tsugaru-ajigasawa-cruise-port-day-trip",
+        "uno-cruise-port-day-trip",
+        "uno-cruise-port-day-trip",
+        "yatsushiro-cruise-port-day-trip",
+        "yatsushiro-cruise-port-day-trip",
+        "yokkaichi-cruise-port-day-trip",
+        "yokkaichi-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/list/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/014/index.html",
+      "pages": [
+        "funagawa-cruise-port-day-trip",
+        "funagawa-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/014/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/119/index.html",
+      "pages": [
+        "futami-ogasawara-cruise-port-day-trip",
+        "futami-ogasawara-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/119/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/077/index.html",
+      "pages": [
+        "hachinohe-cruise-port-day-trip",
+        "hachinohe-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/077/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/085/index.html",
+      "pages": [
+        "hagi-cruise-port-day-trip",
+        "hagi-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/085/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/037/index.html",
+      "pages": [
+        "hamada-cruise-port-day-trip",
+        "hamada-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/037/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/105/index.html",
+      "pages": [
+        "hannan-cruise-port-day-trip",
+        "hannan-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/105/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/059/index.html",
+      "pages": [
+        "hirado-kawachi-cruise-port-day-trip",
+        "hirado-kawachi-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/059/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/075/index.html",
+      "pages": [
+        "hirara-miyakojima-cruise-port-day-trip",
+        "hirara-miyakojima-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/075/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/069/index.html",
+      "pages": [
+        "hososhima-cruise-port-day-trip",
+        "hososhima-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/069/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/016/",
+      "pages": [
+        "ibaraki-hitachinaka-cruise-port-day-trip",
+        "ibaraki-hitachinaka-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/016/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/list/index.html",
+      "pages": [
+        "iki-gonoura-cruise-port-day-trip",
+        "iki-gonoura-cruise-port-day-trip",
+        "saiki-cruise-port-day-trip",
+        "saiki-cruise-port-day-trip",
+        "shimoda-cruise-port-day-trip",
+        "shimoda-cruise-port-day-trip",
+        "tsushima-izuhara-cruise-port-day-trip",
+        "tsushima-izuhara-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/list/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/057/index.html",
+      "pages": [
+        "imari-cruise-port-day-trip",
+        "imari-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/057/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/011/index.html",
+      "pages": [
+        "ishinomaki-cruise-port-day-trip",
+        "ishinomaki-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/011/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/094/index.html",
+      "pages": [
+        "ito-cruise-port-day-trip",
+        "ito-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/094/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/118/index.html",
+      "pages": [
+        "kaminato-hachijojima-cruise-port-day-trip",
+        "kaminato-hachijojima-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/118/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/107/index.html",
+      "pages": [
+        "kawasaki-cruise-port-day-trip",
+        "kawasaki-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/107/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/098/index.html",
+      "pages": [
+        "kisarazu-cruise-port-day-trip",
+        "kisarazu-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/098/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/122/index.html",
+      "pages": [
+        "kozushima-cruise-port-day-trip",
+        "kozushima-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/122/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/087/index.html",
+      "pages": [
+        "kuji-cruise-port-day-trip",
+        "kuji-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/087/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/006/",
+      "pages": [
+        "kushiro-cruise-port-day-trip",
+        "kushiro-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/006/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/123/index.html",
+      "pages": [
+        "miike-miyakejima-cruise-port-day-trip",
+        "miike-miyakejima-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/123/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/114/index.html",
+      "pages": [
+        "mikawa-jinno-cruise-port-day-trip",
+        "mikawa-jinno-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/114/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/083/index.html",
+      "pages": [
+        "mitajiri-nakanoseki-cruise-port-day-trip",
+        "mitajiri-nakanoseki-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/083/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/088/index.html",
+      "pages": [
+        "miyako-cruise-port-day-trip",
+        "miyako-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/088/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/30400002.html",
+      "pages": [
+        "mojiko-cruise-port-day-trip",
+        "mojiko-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.kitakyushu.lg.jp/contents/30400002.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/073/index.html",
+      "pages": [
+        "motobu-cruise-port-day-trip",
+        "motobu-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/073/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/001/index.html",
+      "pages": [
+        "muroran-cruise-port-day-trip",
+        "muroran-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/001/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/113/index.html",
+      "pages": [
+        "nakagusuku-bay-cruise-port-day-trip",
+        "nakagusuku-bay-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/113/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/104/index.html",
+      "pages": [
+        "nakatsu-cruise-port-day-trip",
+        "nakatsu-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/104/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/023/index.html",
+      "pages": [
+        "nanao-cruise-port-day-trip",
+        "nanao-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/023/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/124/index.html",
+      "pages": [
+        "naoetsu-cruise-port-day-trip",
+        "naoetsu-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/124/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/103/index.html",
+      "pages": [
+        "niihama-cruise-port-day-trip",
+        "niihama-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/103/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/121/index.html",
+      "pages": [
+        "niijima-cruise-port-day-trip",
+        "niijima-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/121/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/013/index.html",
+      "pages": [
+        "noshiro-cruise-port-day-trip",
+        "noshiro-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/013/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/096/index.html",
+      "pages": [
+        "numazu-cruise-port-day-trip",
+        "numazu-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/096/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/079/index.html",
+      "pages": [
+        "ofunato-cruise-port-day-trip",
+        "ofunato-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/079/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/108/index.html",
+      "pages": [
+        "ohama-cruise-port-day-trip",
+        "ohama-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/108/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/099/index.html",
+      "pages": [
+        "oigawa-cruise-port-day-trip",
+        "oigawa-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/099/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/117/index.html",
+      "pages": [
+        "okata-izu-oshima-cruise-port-day-trip",
+        "okata-izu-oshima-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/117/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/078/index.html",
+      "pages": [
+        "ominato-cruise-port-day-trip",
+        "ominato-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/078/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/097/index.html",
+      "pages": [
+        "onahama-cruise-port-day-trip",
+        "onahama-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/097/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.otaru.lg.jp/docs/2020112000642/",
+      "pages": [
+        "otaru-cruise-port-day-trip",
+        "otaru-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.otaru.lg.jp/docs/2020112000642/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/009/index.html",
+      "pages": [
+        "rishiri-kutsugata-cruise-port-day-trip",
+        "rishiri-kutsugata-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/009/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/007/index.html",
+      "pages": [
+        "rumoi-cruise-port-day-trip",
+        "rumoi-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/007/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/080/index.html",
+      "pages": [
+        "sado-ogi-cruise-port-day-trip",
+        "sado-ogi-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/080/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/015/index.html",
+      "pages": [
+        "sakata-cruise-port-day-trip",
+        "sakata-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/015/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/112/index.html",
+      "pages": [
+        "shiraoi-cruise-port-day-trip",
+        "shiraoi-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/112/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/115/index.html",
+      "pages": [
+        "soma-cruise-port-day-trip",
+        "soma-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/115/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/053/index.html",
+      "pages": [
+        "sukumo-cruise-port-day-trip",
+        "sukumo-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/053/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/092/index.html",
+      "pages": [
+        "tagonoura-cruise-port-day-trip",
+        "tagonoura-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/092/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/017/index.html",
+      "pages": [
+        "tateyama-cruise-port-day-trip",
+        "tateyama-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/017/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/120/index.html",
+      "pages": [
+        "tokoname-cruise-port-day-trip",
+        "tokoname-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/120/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/082/index.html",
+      "pages": [
+        "tokuyama-kudamatsu-cruise-port-day-trip",
+        "tokuyama-kudamatsu-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/082/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.tokyoport.or.jp/",
+      "pages": [
+        "tokyo-cruise-port-day-trip",
+        "tokyo-cruise-port-day-trip"
+      ],
+      "status": 0,
+      "finalUrl": "",
+      "error": "TypeError: fetch failed",
+      "state": "unknown"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/024/index.html",
+      "pages": [
+        "tsuruga-cruise-port-day-trip",
+        "tsuruga-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/024/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/084/index.html",
+      "pages": [
+        "ube-cruise-port-day-trip",
+        "ube-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/084/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/102/index.html",
+      "pages": [
+        "uwajima-cruise-port-day-trip",
+        "uwajima-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/102/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/003/index.html",
+      "pages": [
+        "wakkanai-cruise-port-day-trip",
+        "wakkanai-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/003/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/125/index.html",
+      "pages": [
+        "yawatahama-cruise-port-day-trip",
+        "yawatahama-cruise-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/125/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://aomori-tourism.com/en/itineraries/detail_56.html",
+      "pages": [
+        "aomori-cruise-couple-guide",
+        "aomori-cruise-couple-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://aomori-tourism.com/en/itineraries/detail_56.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://aomori-tourism.com/en/spot/detail_3698.html",
+      "pages": [
+        "aomori-cruise-family-guide",
+        "aomori-cruise-family-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://aomori-tourism.com/en/spot/detail_3698.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://pub.pref.aomori.lg.jp/kouji/2026_aomori-kendigi-expo/index.html",
+      "pages": [
+        "aomori-cruise-parents-guide",
+        "aomori-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://pub.pref.aomori.lg.jp/kouji/2026_aomori-kendigi-expo/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
+      "pages": [
+        "beppu-cruise-couple-guide",
+        "beppu-cruise-couple-guide",
+        "beppu-cruise-family-guide",
+        "beppu-cruise-family-guide",
+        "beppu-cruise-parents-guide",
+        "beppu-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html",
+      "pages": [
+        "hakata-cruise-couple-guide",
+        "hakata-cruise-couple-guide",
+        "hakata-cruise-family-guide",
+        "hakata-cruise-family-guide",
+        "hakata-cruise-parents-guide",
+        "hakata-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://334.co.jp/ropeway/advance-ticket/",
+      "pages": [
+        "hakodate-cruise-couple-guide",
+        "hakodate-cruise-couple-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://334.co.jp/ropeway/advance-ticket/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.goryokaku-tower.co.jp/en/",
+      "pages": [
+        "hakodate-cruise-family-guide",
+        "hakodate-cruise-family-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.goryokaku-tower.co.jp/en/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2026032600023/",
+      "pages": [
+        "hakodate-cruise-parents-guide",
+        "hakodate-cruise-parents-guide",
+        "hakodate-port-day-trip",
+        "hakodate-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.hakodate.hokkaido.jp/docs/2026032600023/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://visitokinawajapan.com/",
+      "pages": [
+        "hirara-miyakojima-cruise-couple-guide",
+        "hirara-miyakojima-cruise-couple-guide",
+        "okinawa-american-village",
+        "okinawa-american-village",
+        "okinawa-bios-no-oka",
+        "okinawa-bios-no-oka",
+        "okinawa-bise-fukugi-trees",
+        "okinawa-bise-fukugi-trees",
+        "okinawa-bougainvillea-alley",
+        "okinawa-bougainvillea-alley",
+        "okinawa-cape-hedo",
+        "okinawa-cape-hedo",
+        "okinawa-cape-lighthouse",
+        "okinawa-cape-lighthouse",
+        "okinawa-cape-manzamo",
+        "okinawa-cape-manzamo",
+        "okinawa-chinen-misaki-park",
+        "okinawa-chinen-misaki-park",
+        "okinawa-coastal-pavilion",
+        "okinawa-coastal-pavilion",
+        "okinawa-eisa-dance-festival",
+        "okinawa-eisa-dance-festival",
+        "okinawa-eisa-festival",
+        "okinawa-eisa-festival",
+        "okinawa-emerald-islands-aerial",
+        "okinawa-emerald-islands-aerial",
+        "okinawa-hibiscus-coast",
+        "okinawa-hibiscus-coast",
+        "okinawa-hibiscus-village-lane",
+        "okinawa-hibiscus-village-lane",
+        "okinawa-hiji-falls",
+        "okinawa-hiji-falls",
+        "okinawa-island-bridge",
+        "okinawa-island-bridge",
+        "okinawa-kokusai-dori",
+        "okinawa-kokusai-dori",
+        "okinawa-kouri-bridge",
+        "okinawa-kouri-bridge",
+        "okinawa-manza-beach",
+        "okinawa-manza-beach",
+        "okinawa-nirai-kanai-bridge",
+        "okinawa-nirai-kanai-bridge",
+        "okinawa-palm-coast-drive",
+        "okinawa-palm-coast-drive",
+        "okinawa-peace-memorial-park",
+        "okinawa-peace-memorial-park",
+        "okinawa-resort-beach",
+        "okinawa-resort-beach",
+        "okinawa-rock-arch-beach",
+        "okinawa-rock-arch-beach",
+        "okinawa-sea-turtle-snorkeling",
+        "okinawa-sea-turtle-snorkeling",
+        "okinawa-seafood-bowl",
+        "okinawa-seafood-bowl",
+        "okinawa-sesoko-beach",
+        "okinawa-sesoko-beach",
+        "okinawa-shikinaen-garden",
+        "okinawa-shikinaen-garden",
+        "okinawa-shisa-village-gate",
+        "okinawa-shisa-village-gate",
+        "okinawa-shopping-street",
+        "okinawa-shopping-street",
+        "okinawa-soba",
+        "okinawa-soba",
+        "okinawa-soba-guide",
+        "okinawa-soba-guide",
+        "okinawa-sunset-arch-rock",
+        "okinawa-sunset-arch-rock",
+        "okinawa-sunset-rock",
+        "okinawa-sunset-rock",
+        "okinawa-zakimi-castle",
+        "okinawa-zakimi-castle",
+        "okinawa-zanpa-cape",
+        "okinawa-zanpa-cape"
+      ],
+      "status": 200,
+      "finalUrl": "https://visitokinawajapan.com/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+      "pages": [
+        "hirara-miyakojima-cruise-family-guide",
+        "hirara-miyakojima-cruise-family-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://cruise.visitokinawa.jp/en/hiraraport/course01/",
+      "pages": [
+        "hirara-miyakojima-cruise-parents-guide",
+        "hirara-miyakojima-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://cruise.visitokinawa.jp/en/hiraraport/course01/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/375/",
+      "pages": [
+        "ishigaki-cruise-couple-guide",
+        "ishigaki-cruise-couple-guide",
+        "ishigaki-cruise-family-guide",
+        "ishigaki-cruise-family-guide",
+        "ishigaki-cruise-parents-guide",
+        "ishigaki-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.japan.travel/en/spot/375/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html",
+      "pages": [
+        "kagoshima-cruise-couple-guide",
+        "kagoshima-cruise-couple-guide",
+        "kagoshima-cruise-family-guide",
+        "kagoshima-cruise-family-guide",
+        "kagoshima-cruise-parents-guide",
+        "kagoshima-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.kanazawa-cruise.jp/access/",
+      "pages": [
+        "kanazawa-cruise-couple-guide",
+        "kanazawa-cruise-couple-guide",
+        "kanazawa-cruise-family-guide",
+        "kanazawa-cruise-family-guide",
+        "kanazawa-cruise-parents-guide",
+        "kanazawa-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.kanazawa-cruise.jp/access/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.hyogo-tourism.jp/",
+      "pages": [
+        "kobe-cruise-couple-guide",
+        "kobe-cruise-couple-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.hyogo-tourism.jp/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html",
+      "pages": [
+        "kobe-cruise-family-guide",
+        "kobe-cruise-family-guide",
+        "kobe-cruise-parents-guide",
+        "kobe-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html",
+      "pages": [
+        "nagasaki-cruise-couple-guide",
+        "nagasaki-cruise-couple-guide",
+        "nagasaki-cruise-family-guide",
+        "nagasaki-cruise-family-guide",
+        "nagasaki-cruise-parents-guide",
+        "nagasaki-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://book.kariyushi-aquarium.com/top/products/dd39bc1a-167a-5434-8222-f74d0b2fa84e?lng=ja-JP",
+      "pages": [
+        "naha-cruise-couple-guide",
+        "naha-cruise-couple-guide",
+        "naha-cruise-family-guide",
+        "naha-cruise-family-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://book.kariyushi-aquarium.com/top/products/dd39bc1a-167a-5434-8222-f74d0b2fa84e?lng=ja-JP",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+      "pages": [
+        "naha-cruise-parents-guide",
+        "naha-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.osaka.lg.jp/port/page/0000002874.html",
+      "pages": [
+        "osaka-cruise-couple-guide",
+        "osaka-cruise-couple-guide",
+        "osaka-cruise-family-guide",
+        "osaka-cruise-family-guide",
+        "osaka-cruise-parents-guide",
+        "osaka-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.osaka.lg.jp/port/page/0000002874.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html",
+      "pages": [
+        "sasebo-cruise-couple-guide",
+        "sasebo-cruise-couple-guide",
+        "sasebo-cruise-family-guide",
+        "sasebo-cruise-family-guide",
+        "sasebo-cruise-parents-guide",
+        "sasebo-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/1353/",
+      "pages": [
+        "shimizu-cruise-couple-guide",
+        "shimizu-cruise-couple-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.japan.travel/en/spot/1353/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.busena-marinepark.com/",
+      "pages": [
+        "okinawa-busena-marine-park",
+        "okinawa-busena-marine-park"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.busena-marinepark.com/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.maedamisaki.jp/ko/",
+      "pages": [
+        "okinawa-cape-maeda",
+        "okinawa-cape-maeda"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.maedamisaki.jp/ko/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://churaumi.okinawa/",
+      "pages": [
+        "okinawa-churaumi-aquarium",
+        "okinawa-churaumi-aquarium",
+        "okinawa-whale-shark-aquarium",
+        "okinawa-whale-shark-aquarium"
+      ],
+      "status": 200,
+      "finalUrl": "https://churaumi.okinawa/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.gyokusendo.co.jp/okinawaworld/",
+      "pages": [
+        "okinawa-gyokusendo-cave",
+        "okinawa-gyokusendo-cave"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.gyokusendo.co.jp/okinawaworld/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.katsuren-jo.jp/",
+      "pages": [
+        "okinawa-katsuren-castle",
+        "okinawa-katsuren-castle"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.katsuren-jo.jp/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.nakagusuku-jo.jp/",
+      "pages": [
+        "okinawa-nakagusuku-castle",
+        "okinawa-nakagusuku-castle"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.nakagusuku-jo.jp/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.nakijinjoseki-osi.jp/",
+      "pages": [
+        "okinawa-nakijin-castle",
+        "okinawa-nakijin-castle"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.nakijinjoseki-osi.jp/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.nanjo.okinawa.jp/",
+      "pages": [
+        "okinawa-sefa-utaki",
+        "okinawa-sefa-utaki"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.nanjo.okinawa.jp/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://oki-park.jp/shurijo/",
+      "pages": [
+        "okinawa-shuri-castle",
+        "okinawa-shuri-castle",
+        "okinawa-shuri-castle-heritage",
+        "okinawa-shuri-castle-heritage"
+      ],
+      "status": 200,
+      "finalUrl": "https://oki-park.jp/shurijo/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.japan.travel/ko/things-to-do/",
+      "pages": [
+        "accessible-slow-travel",
+        "accessible-slow-travel",
+        "experience-booking-checklist",
+        "experience-booking-checklist",
+        "family-with-kids",
+        "family-with-kids",
+        "port-to-experience-planner",
+        "port-to-experience-planner"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.japan.travel/en/us/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.akita.lg.jp/kanko/event/1002252.html",
+      "pages": [
+        "akita-port-day-trip",
+        "akita-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.akita.lg.jp/kanko/event/1002252.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://hakataport.com/center/",
+      "pages": [
+        "hakata-port-dazaifu-shore-excursion",
+        "hakata-port-dazaifu-shore-excursion",
+        "hakata-port-tenjin-sightseeing",
+        "hakata-port-tenjin-sightseeing",
+        "hakata-port-hakata-station-access",
+        "hakata-port-hakata-station-access"
+      ],
+      "status": 200,
+      "finalUrl": "https://hakataport.com/center/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.kanazawa-cruise.jp/en/",
+      "pages": [
+        "kanazawa-port-day-trip",
+        "kanazawa-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.kanazawa-cruise.jp/en/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.discover-nagasaki.com/ko/sightseeing/100790",
+      "pages": [
+        "nagasaki-port-day-trip",
+        "nagasaki-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.discover-nagasaki.com/ko/sightseeing/100790",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/074/index.html",
+      "pages": [
+        "naha-cruise-terminal-kokusai-dori",
+        "naha-cruise-terminal-kokusai-dori"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/074/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/020/index.html",
+      "pages": [
+        "niigata-port-day-trip",
+        "niigata-port-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mlit.go.jp/kankocho/cruise/detail/020/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.japan.travel/ko/",
+      "pages": [
+        "port-half-day",
+        "port-half-day",
+        "rainy-day",
+        "rainy-day",
+        "shodoshima-ferry-island-access",
+        "shodoshima-ferry-island-access",
+        "hiroshima-miyajima-ferry-crossing",
+        "hiroshima-miyajima-ferry-crossing"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.japan.travel/en/us/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/terminal.html",
+      "pages": [
+        "yokohama-daikoku-pier-cruise-terminal",
+        "yokohama-daikoku-pier-cruise-terminal"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/terminal.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html",
+      "pages": [
+        "yokohama-minato-mirai-cruise-day-trip",
+        "yokohama-minato-mirai-cruise-day-trip",
+        "yokohama-osanbashi-cruise-terminal",
+        "yokohama-osanbashi-cruise-terminal",
+        "yokohama-port-day-trip",
+        "yokohama-port-day-trip",
+        "yokohama-shinko-pier-cruise-area",
+        "yokohama-shinko-pier-cruise-area",
+        "yokohama-cruise-couple-guide",
+        "yokohama-cruise-couple-guide",
+        "yokohama-cruise-parents-guide",
+        "yokohama-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.shimizu-port.jp/map.html",
+      "pages": [
+        "shimizu-cruise-family-guide",
+        "shimizu-cruise-family-guide",
+        "shimizu-cruise-parents-guide",
+        "shimizu-cruise-parents-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.shimizu-port.jp/map.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.cupnoodles-museum.jp/reservation/yokohama/?lang=en",
+      "pages": [
+        "yokohama-cruise-family-guide",
+        "yokohama-cruise-family-guide"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.cupnoodles-museum.jp/reservation/yokohama/?lang=en",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
+      "pages": [
+        "aomori-port-nebuta-day-trip",
+        "aomori-port-nebuta-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.beppu-jigoku.com/fee/index.html",
+      "pages": [
+        "beppu-port-onsen-day-trip",
+        "beppu-port-onsen-day-trip"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.beppu-jigoku.com/fee/index.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
+      "pages": [
+        "ishigaki-cruise-new-port-shuttle",
+        "ishigaki-cruise-new-port-shuttle"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.azumabus.co.jp/localbus/",
+      "pages": [
+        "ishigaki-cruise-kabira-bay-bus-taxi",
+        "ishigaki-cruise-kabira-bay-bus-taxi"
+      ],
+      "status": 0,
+      "finalUrl": "",
+      "error": "TypeError: fetch failed",
+      "state": "unknown"
+    },
+    {
+      "url": "https://nagasaki-p.com/access/",
+      "pages": [
+        "nagasaki-matsugae-glover-garden-cruise-access",
+        "nagasaki-matsugae-glover-garden-cruise-access"
+      ],
+      "status": 200,
+      "finalUrl": "https://nagasaki-p.com/access/",
+      "error": "",
+      "state": "reachable"
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/742/",
+      "pages": [
+        "nagasaki-cruise-peace-park-tram",
+        "nagasaki-cruise-peace-park-tram"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.japan.travel/en/spot/742/",
+      "error": "",
+      "state": "reachable"
+    }
+  ]
+}
