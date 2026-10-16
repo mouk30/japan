@@ -1,0 +1,505 @@
+{
+  "createdAt": "2026-10-17",
+  "articles": 40,
+  "versions": [
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+  ],
+  "categoryCounts": {
+    "미식": 5,
+    "전망대": 5,
+    "교통": 5,
+    "쇼핑": 6,
+    "디즈니": 5,
+    "관광명소": 5,
+    "체험": 5,
+    "여행코스": 4
+  },
+  "image": "/images/venues/tokyo-city-night-real.webp",
+  "imageLicense": "CC BY 4.0",
+  "imageAuthor": "David Kernan",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower,_Minato_City.jpg",
+  "newSitemapUrls": [
+    "/japan/tokyo/",
+    "/japan/tokyo/tokyo-ramen-best-areas/",
+    "/japan/tokyo/tokyo-sushi-breakfast-guide/",
+    "/japan/tokyo/tokyo-tsukishima-monjayaki/",
+    "/japan/tokyo/tokyo-yakitori-izakaya-guide/",
+    "/japan/tokyo/tokyo-depachika-food-halls/",
+    "/japan/tokyo/tokyo-tower-tickets/",
+    "/japan/tokyo/tokyo-metropolitan-government-free-view/",
+    "/japan/tokyo/tokyo-skytree-tickets/",
+    "/japan/tokyo/tokyo-shibuya-sky-reservation/",
+    "/japan/tokyo/tokyo-night-view-observation-comparison/",
+    "/japan/tokyo/tokyo-subway-route-map-korean/",
+    "/japan/tokyo/tokyo-subway-ticket-24-48-72/",
+    "/japan/tokyo/tokyo-yamanote-line-transfer-guide/",
+    "/japan/tokyo/tokyo-haneda-airport-train-guide/",
+    "/japan/tokyo/tokyo-narita-airport-train-guide/",
+    "/japan/tokyo/tokyo-ginza-department-store-route/",
+    "/japan/tokyo/tokyo-shinjuku-isetan-shopping/",
+    "/japan/tokyo/tokyo-ginza-mitsukoshi-depachika/",
+    "/japan/tokyo/tokyo-station-character-street/",
+    "/japan/tokyo/tokyo-mega-donki-shibuya/",
+    "/japan/tokyo/tokyo-donki-shinjuku-kabukicho/",
+    "/japan/tokyo/tokyo-disneyland-ticket-guide/",
+    "/japan/tokyo/tokyo-disneysea-ticket-guide/",
+    "/japan/tokyo/tokyo-disneysea-fantasy-springs/",
+    "/japan/tokyo/tokyo-disney-maihama-transport/",
+    "/japan/tokyo/tokyo-disney-hotel-stay-guide/",
+    "/japan/tokyo/tokyo-asakusa-sensoji-kaminarimon/",
+    "/japan/tokyo/tokyo-shibuya-crossing-hachiko/",
+    "/japan/tokyo/tokyo-shinjuku-night-sightseeing/",
+    "/japan/tokyo/tokyo-akihabara-anime-shopping/",
+    "/japan/tokyo/tokyo-odaiba-waterfront-yurikamome/",
+    "/japan/tokyo/tokyo-teamlab-planets-ticket-guide/",
+    "/japan/tokyo/tokyo-ueno-park-museums-zoo/",
+    "/japan/tokyo/tokyo-tsukiji-market-street-food/",
+    "/japan/tokyo/tokyo-toyosu-market-auction-guide/",
+    "/japan/tokyo/tokyo-ghibli-museum-booking/",
+    "/japan/tokyo/tokyo-one-day-best-route/",
+    "/japan/tokyo/tokyo-two-day-district-plan/",
+    "/japan/tokyo/tokyo-three-day-highlights/",
+    "/japan/tokyo/tokyo-family-cruise-shore-plan/"
+  ],
+  "articlesMeta": [
+    {
+      "version": 81,
+      "title": "도쿄 라멘 맛집 지역 선택과 주문법",
+      "path": "/japan/tokyo/tokyo-ramen-best-areas/",
+      "category": "미식",
+      "sources": [
+        "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html",
+        "https://www.tokyoeki-1bangai.co.jp/"
+      ]
+    },
+    {
+      "version": 82,
+      "title": "도쿄 초밥·해산물 아침식사 제대로 고르기",
+      "path": "/japan/tokyo/tokyo-sushi-breakfast-guide/",
+      "category": "미식",
+      "sources": [
+        "https://www.tsukiji.or.jp/english/",
+        "https://www.gotokyo.org/en/spot/65/"
+      ]
+    },
+    {
+      "version": 83,
+      "title": "쓰키시마 몬자야키 골목 맛있게 즐기는 법",
+      "path": "/japan/tokyo/tokyo-tsukishima-monjayaki/",
+      "category": "미식",
+      "sources": [
+        "https://www.gotokyo.org/en/",
+        "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html"
+      ]
+    },
+    {
+      "version": 84,
+      "title": "도쿄 야키토리·이자카야 메뉴와 계산법",
+      "path": "/japan/tokyo/tokyo-yakitori-izakaya-guide/",
+      "category": "미식",
+      "sources": [
+        "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html",
+        "https://www.gotokyo.org/en/"
+      ]
+    },
+    {
+      "version": 85,
+      "title": "도쿄 백화점 지하 식품관 데파치카 활용법",
+      "path": "/japan/tokyo/tokyo-depachika-food-halls/",
+      "category": "미식",
+      "sources": [
+        "https://www.gotokyo.org/en/see-and-do/shopping/index.html",
+        "https://www.gotokyo.org/en/spot/678/index.html"
+      ]
+    },
+    {
+      "version": 86,
+      "title": "도쿄타워 전망대 가격·예약·가는 법",
+      "path": "/japan/tokyo/tokyo-tower-tickets/",
+      "category": "전망대",
+      "sources": [
+        "https://ticket.tokyotower.co.jp/en/",
+        "https://en.tokyotower.co.jp/fee/index.html"
+      ]
+    },
+    {
+      "version": 87,
+      "title": "도쿄도청 무료 전망대 운영시간·입장 동선",
+      "path": "/japan/tokyo/tokyo-metropolitan-government-free-view/",
+      "category": "전망대",
+      "sources": [
+        "https://www.english.metro.tokyo.lg.jp/w/000-101-000542",
+        "https://www.metro.tokyo.lg.jp/"
+      ]
+    },
+    {
+      "version": 88,
+      "title": "도쿄 스카이트리 350m·450m 전망대 티켓",
+      "path": "/japan/tokyo/tokyo-skytree-tickets/",
+      "category": "전망대",
+      "sources": [
+        "https://www.tokyo-skytree.jp/ticket/",
+        "https://www.tokyo-skytree.jp/"
+      ]
+    },
+    {
+      "version": 89,
+      "title": "시부야 스카이 예약·옥상 전망·주의사항",
+      "path": "/japan/tokyo/tokyo-shibuya-sky-reservation/",
+      "category": "전망대",
+      "sources": [
+        "https://shibuya-scramble-square.com/en/",
+        "https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html"
+      ]
+    },
+    {
+      "version": 90,
+      "title": "도쿄 야경 전망대 4곳 비교와 선택 기준",
+      "path": "/japan/tokyo/tokyo-night-view-observation-comparison/",
+      "category": "전망대",
+      "sources": [
+        "https://www.english.metro.tokyo.lg.jp/w/000-101-000542",
+        "https://ticket.tokyotower.co.jp/en/"
+      ]
+    },
+    {
+      "version": 91,
+      "title": "도쿄 지하철 노선도·역번호·환승 실전 가이드",
+      "path": "/japan/tokyo/tokyo-subway-route-map-korean/",
+      "category": "교통",
+      "sources": [
+        "https://www.tokyometro.jp/en/subwaymap/index.html",
+        "https://www.kotsu.metro.tokyo.jp/eng/maps/subway/"
+      ]
+    },
+    {
+      "version": 92,
+      "title": "도쿄 서브웨이 티켓 24·48·72시간권 가격 비교",
+      "path": "/japan/tokyo/tokyo-subway-ticket-24-48-72/",
+      "category": "교통",
+      "sources": [
+        "https://www.tokyometro.jp/en/ticket/travel/index.html",
+        "https://www.metro.tokyo.lg.jp/information/press/2026/01/2026013016"
+      ]
+    },
+    {
+      "version": 93,
+      "title": "야마노테선 순환선 주요역·지하철 환승 요령",
+      "path": "/japan/tokyo/tokyo-yamanote-line-transfer-guide/",
+      "category": "교통",
+      "sources": [
+        "https://www.jreast.co.jp/e/",
+        "https://www.tokyometro.jp/en/subwaymap/index.html"
+      ]
+    },
+    {
+      "version": 94,
+      "title": "하네다공항에서 도쿄역·시부야·신주쿠 가는 법",
+      "path": "/japan/tokyo/tokyo-haneda-airport-train-guide/",
+      "category": "교통",
+      "sources": [
+        "https://tokyo-haneda.com/en/access/train/index.html",
+        "https://www.jreast.co.jp/e/"
+      ]
+    },
+    {
+      "version": 95,
+      "title": "나리타공항에서 도쿄·우에노·신주쿠 가는 법",
+      "path": "/japan/tokyo/tokyo-narita-airport-train-guide/",
+      "category": "교통",
+      "sources": [
+        "https://www.narita-airport.jp/en/access/train/",
+        "https://www.jreast.co.jp/multi/en/nex/"
+      ]
+    },
+    {
+      "version": 96,
+      "title": "긴자 백화점 쇼핑 동선·화장품·디저트",
+      "path": "/japan/tokyo/tokyo-ginza-department-store-route/",
+      "category": "쇼핑",
+      "sources": [
+        "https://www.gotokyo.org/en/see-and-do/shopping/index.html",
+        "https://www.gotokyo.org/en/spot/678/index.html"
+      ]
+    },
+    {
+      "version": 97,
+      "title": "이세탄 신주쿠 본점 쇼핑·데파치카·면세",
+      "path": "/japan/tokyo/tokyo-shinjuku-isetan-shopping/",
+      "category": "쇼핑",
+      "sources": [
+        "https://www.mistore.jp/store/shinjuku.html",
+        "https://www.gotokyo.org/en/see-and-do/shopping/index.html"
+      ]
+    },
+    {
+      "version": 98,
+      "title": "긴자 미쓰코시 백화점·면세·식품관",
+      "path": "/japan/tokyo/tokyo-ginza-mitsukoshi-depachika/",
+      "category": "쇼핑",
+      "sources": [
+        "https://www.gotokyo.org/en/spot/678/index.html",
+        "https://www.mistore.jp/store/ginza.html"
+      ]
+    },
+    {
+      "version": 99,
+      "title": "도쿄역 캐릭터스트리트·기념품 쇼핑",
+      "path": "/japan/tokyo/tokyo-station-character-street/",
+      "category": "쇼핑",
+      "sources": [
+        "https://www.tokyoeki-1bangai.co.jp/",
+        "https://www.jreast.co.jp/e/"
+      ]
+    },
+    {
+      "version": 100,
+      "title": "시부야 메가 돈키호테 본점 24시간·면세",
+      "path": "/japan/tokyo/tokyo-mega-donki-shibuya/",
+      "category": "쇼핑",
+      "sources": [
+        "https://www.donki.com/en/store/shop_detail.php?shop_id=442",
+        "https://www.gotokyo.org/en/see-and-do/shopping/index.html"
+      ]
+    },
+    {
+      "version": 101,
+      "title": "신주쿠 가부키초 돈키호테 매장 안내",
+      "path": "/japan/tokyo/tokyo-donki-shinjuku-kabukicho/",
+      "category": "쇼핑",
+      "sources": [
+        "https://www.donki.com/en/store/shop_detail.php?shop_id=29",
+        "https://www.gotokyo.org/en/"
+      ]
+    },
+    {
+      "version": 102,
+      "title": "도쿄 디즈니랜드 입장권·예약·취소 안내",
+      "path": "/japan/tokyo/tokyo-disneyland-ticket-guide/",
+      "category": "디즈니",
+      "sources": [
+        "https://www.tokyodisneyresort.jp/en/tdl/ticket/purchase.html",
+        "https://www.tokyodisneyresort.jp/en/ticket/index.html"
+      ]
+    },
+    {
+      "version": 103,
+      "title": "도쿄 디즈니씨 입장권과 어트랙션 계획",
+      "path": "/japan/tokyo/tokyo-disneysea-ticket-guide/",
+      "category": "디즈니",
+      "sources": [
+        "https://www.tokyodisneyresort.jp/en/tds/ticket/purchase",
+        "https://www.tokyodisneyresort.co.jp/en/tdr/access"
+      ]
+    },
+    {
+      "version": 104,
+      "title": "디즈니씨 판타지 스프링스 입장·대기·DPA",
+      "path": "/japan/tokyo/tokyo-disneysea-fantasy-springs/",
+      "category": "디즈니",
+      "sources": [
+        "https://www.tokyodisneyresort.jp/special/en/fantasysprings/",
+        "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/standbypass.html"
+      ]
+    },
+    {
+      "version": 105,
+      "title": "도쿄역에서 디즈니랜드·디즈니씨 가는 법",
+      "path": "/japan/tokyo/tokyo-disney-maihama-transport/",
+      "category": "디즈니",
+      "sources": [
+        "https://www.tokyodisneyresort.co.jp/en/tdr/access",
+        "https://www.tokyodisneyresort.co.jp/en/tdl/access"
+      ]
+    },
+    {
+      "version": 106,
+      "title": "도쿄 디즈니리조트 호텔 선택·조식·셔틀",
+      "path": "/japan/tokyo/tokyo-disney-hotel-stay-guide/",
+      "category": "디즈니",
+      "sources": [
+        "https://www.tokyodisneyresort.co.jp/en/tdr/access",
+        "https://www.tokyodisneyresort.jp/en/hotel/"
+      ]
+    },
+    {
+      "version": 107,
+      "title": "아사쿠사 센소지·가미나리몬·나카미세 동선",
+      "path": "/japan/tokyo/tokyo-asakusa-sensoji-kaminarimon/",
+      "category": "관광명소",
+      "sources": [
+        "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+        "https://www.senso-ji.jp/"
+      ]
+    },
+    {
+      "version": 108,
+      "title": "시부야 스크램블 교차로·하치코·쇼핑 동선",
+      "path": "/japan/tokyo/tokyo-shibuya-crossing-hachiko/",
+      "category": "관광명소",
+      "sources": [
+        "https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html",
+        "https://shibuya-scramble-square.com/en/"
+      ]
+    },
+    {
+      "version": 109,
+      "title": "신주쿠 가부키초·골든가이·야경 안전 가이드",
+      "path": "/japan/tokyo/tokyo-shinjuku-night-sightseeing/",
+      "category": "관광명소",
+      "sources": [
+        "https://www.gotokyo.org/en/",
+        "https://www.english.metro.tokyo.lg.jp/w/000-101-000542"
+      ]
+    },
+    {
+      "version": 110,
+      "title": "아키하바라 애니메이션·전자상가·면세 쇼핑",
+      "path": "/japan/tokyo/tokyo-akihabara-anime-shopping/",
+      "category": "관광명소",
+      "sources": [
+        "https://www.gotokyo.org/en/",
+        "https://www.gotokyo.org/en/see-and-do/shopping/index.html"
+      ]
+    },
+    {
+      "version": 111,
+      "title": "오다이바 유리카모메·해변·실내시설 코스",
+      "path": "/japan/tokyo/tokyo-odaiba-waterfront-yurikamome/",
+      "category": "관광명소",
+      "sources": [
+        "https://www.yurikamome.co.jp/en/",
+        "https://www.tptc.co.jp/terminal/guide/cruise"
+      ]
+    },
+    {
+      "version": 112,
+      "title": "팀랩 플래닛 도요스 입장권·시간예약·가는 법",
+      "path": "/japan/tokyo/tokyo-teamlab-planets-ticket-guide/",
+      "category": "체험",
+      "sources": [
+        "https://teamlabplanets.dmm.com/en",
+        "https://teamlabplanets.dmm.com/en/guide/access_method"
+      ]
+    },
+    {
+      "version": 113,
+      "title": "우에노공원 미술관·박물관·동물원 실용 비교",
+      "path": "/japan/tokyo/tokyo-ueno-park-museums-zoo/",
+      "category": "체험",
+      "sources": [
+        "https://www.gotokyo.org/en/",
+        "https://www.tnm.jp/?lang=en"
+      ]
+    },
+    {
+      "version": 114,
+      "title": "쓰키지 장외시장 먹거리·매너·영업일",
+      "path": "/japan/tokyo/tokyo-tsukiji-market-street-food/",
+      "category": "체험",
+      "sources": [
+        "https://www.tsukiji.or.jp/english/",
+        "https://www.tsukiji.or.jp/english/plattsukiji/"
+      ]
+    },
+    {
+      "version": 115,
+      "title": "도요스시장 견학·참치 경매·교통 안내",
+      "path": "/japan/tokyo/tokyo-toyosu-market-auction-guide/",
+      "category": "체험",
+      "sources": [
+        "https://www.shijou.metro.tokyo.lg.jp/english/",
+        "https://www.gotokyo.org/en/"
+      ]
+    },
+    {
+      "version": 116,
+      "title": "미타카 지브리 미술관 티켓·예약·가는 법",
+      "path": "/japan/tokyo/tokyo-ghibli-museum-booking/",
+      "category": "체험",
+      "sources": [
+        "https://www.ghibli-museum.jp/en/",
+        "https://www.ghibli-museum.jp/ticket/"
+      ]
+    },
+    {
+      "version": 117,
+      "title": "도쿄 하루 여행 추천 코스·동선 압축",
+      "path": "/japan/tokyo/tokyo-one-day-best-route/",
+      "category": "여행코스",
+      "sources": [
+        "https://www.gotokyo.org/en/",
+        "https://www.tokyometro.jp/en/subwaymap/index.html"
+      ]
+    },
+    {
+      "version": 118,
+      "title": "도쿄 1박2일 핵심 지역별 일정표",
+      "path": "/japan/tokyo/tokyo-two-day-district-plan/",
+      "category": "여행코스",
+      "sources": [
+        "https://www.gotokyo.org/en/",
+        "https://www.tokyometro.jp/en/subwaymap/index.html"
+      ]
+    },
+    {
+      "version": 119,
+      "title": "도쿄 2박3일 관광·쇼핑·먹거리 플랜",
+      "path": "/japan/tokyo/tokyo-three-day-highlights/",
+      "category": "여행코스",
+      "sources": [
+        "https://www.gotokyo.org/en/",
+        "https://www.tokyodisneyresort.jp/en/ticket/index.html"
+      ]
+    },
+    {
+      "version": 120,
+      "title": "도쿄 가족 크루즈 기항 당일 코스·귀선",
+      "path": "/japan/tokyo/tokyo-family-cruise-shore-plan/",
+      "category": "여행코스",
+      "sources": [
+        "https://www.tptc.co.jp/terminal/guide/cruise",
+        "https://www.gotokyo.org/en/"
+      ]
+    }
+  ]
+}
