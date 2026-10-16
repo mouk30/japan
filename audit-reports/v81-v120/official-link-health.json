@@ -1,8 +1,9 @@
 {
-  "time": "2026-10-16T16:15:24.123Z",
+  "scope": "Current Tokyo operating and ticket links after replaced old 404 official URLs",
+  "time": "2026-10-16T16:18:36.858Z",
   "urls": 46,
-  "reachable": 44,
-  "missing": 2,
+  "reachable": 46,
+  "missing": 0,
   "restricted": 0,
   "unconfirmed": 0,
   "results": [
@@ -101,6 +102,16 @@
       ]
     },
     {
+      "url": "https://www.english.metro.tokyo.lg.jp/w/016-101-003992",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.english.metro.tokyo.lg.jp/w/016-101-003992",
+      "articles": [
+        "/japan/tokyo/tokyo-toyosu-market-auction-guide/"
+      ]
+    },
+    {
       "url": "https://www.ghibli-museum.jp/en/",
       "status": 200,
       "state": "reachable",
@@ -162,18 +173,6 @@
       ]
     },
     {
-      "url": "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html",
-      "status": 404,
-      "state": "not_found",
-      "error": "",
-      "finalUrl": "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html",
-      "articles": [
-        "/japan/tokyo/tokyo-ramen-best-areas/",
-        "/japan/tokyo/tokyo-tsukishima-monjayaki/",
-        "/japan/tokyo/tokyo-yakitori-izakaya-guide/"
-      ]
-    },
-    {
       "url": "https://www.gotokyo.org/en/see-and-do/shopping/index.html",
       "status": 200,
       "state": "reachable",
@@ -207,6 +206,18 @@
         "/japan/tokyo/tokyo-depachika-food-halls/",
         "/japan/tokyo/tokyo-ginza-department-store-route/",
         "/japan/tokyo/tokyo-ginza-mitsukoshi-depachika/"
+      ]
+    },
+    {
+      "url": "https://www.gourmet.gotokyo.org/",
+      "status": 200,
+      "state": "reachable",
+      "error": "",
+      "finalUrl": "https://www.gourmet.gotokyo.org/",
+      "articles": [
+        "/japan/tokyo/tokyo-ramen-best-areas/",
+        "/japan/tokyo/tokyo-tsukishima-monjayaki/",
+        "/japan/tokyo/tokyo-yakitori-izakaya-guide/"
       ]
     },
     {
@@ -299,16 +310,6 @@
       "finalUrl": "https://www.senso-ji.jp/",
       "articles": [
         "/japan/tokyo/tokyo-asakusa-sensoji-kaminarimon/"
-      ]
-    },
-    {
-      "url": "https://www.shijou.metro.tokyo.lg.jp/english/",
-      "status": 404,
-      "state": "not_found",
-      "error": "",
-      "finalUrl": "https://www.shijou.metro.tokyo.lg.jp/english/",
-      "articles": [
-        "/japan/tokyo/tokyo-toyosu-market-auction-guide/"
       ]
     },
     {
