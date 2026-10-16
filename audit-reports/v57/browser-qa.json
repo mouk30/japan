@@ -1,5 +1,5 @@
 {
-  "time": "2026-10-16T12:33:50.855Z",
+  "time": "2026-10-16T12:36:51.863Z",
   "pages": [],
   "checks": [
     {
@@ -103,17 +103,7 @@
       "scrollWidth": 1440
     }
   ],
-  "errors": [
-    "activity-320 card count expected 5 got 4",
-    "activity-390 card count expected 5 got 4",
-    "activity-768 card count expected 5 got 4",
-    "activity-1440 card count expected 5 got 4",
-    "hub missing category /things-to-do/onsen/",
-    "hub missing category /things-to-do/nature/",
-    "hub missing category /things-to-do/activity/",
-    "hub missing category /things-to-do/food-experience/",
-    "hub missing category /things-to-do/seasonal/"
-  ],
+  "errors": [],
   "warnings": [],
-  "passed": false
+  "passed": true
 }
