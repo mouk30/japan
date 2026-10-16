@@ -1,0 +1,42 @@
+{
+  "runAt": "2026-10-16T03:17:31.353Z",
+  "base": "http://127.0.0.1:8755",
+  "widths": [
+    {
+      "width": 320,
+      "initialCards": 13,
+      "filterChecks": 4,
+      "scrollWidth": 320,
+      "viewportWidth": 320
+    },
+    {
+      "width": 390,
+      "initialCards": 13,
+      "filterChecks": 4,
+      "scrollWidth": 390,
+      "viewportWidth": 390
+    },
+    {
+      "width": 768,
+      "initialCards": 13,
+      "filterChecks": 4,
+      "scrollWidth": 768,
+      "viewportWidth": 768
+    },
+    {
+      "width": 1440,
+      "initialCards": 13,
+      "filterChecks": 4,
+      "scrollWidth": 1440,
+      "viewportWidth": 1440
+    }
+  ],
+  "expectedModes": {
+    "ticket": 8,
+    "activity": 3,
+    "coupon": 1,
+    "info": 1
+  },
+  "errors": [],
+  "passed": true
+}
