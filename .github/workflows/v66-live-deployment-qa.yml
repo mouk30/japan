@@ -1,0 +1,44 @@
+name: V66 Production premium homepage and links deployment QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v66-live-deployment-qa.yml
+      - scripts/v66_live_deploy_qa.mjs
+permissions:
+  contents: write
+jobs:
+  audit-production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Check production rendered HTML assets and end-to-end travel pages
+        id: liveqa
+        continue-on-error: true
+        run: node scripts/v66_live_deploy_qa.mjs
+      - name: Store live website HTTP report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v66-production-actual-website-qa
+          path: audit-reports/v66/live-deploy.json
+          retention-days: 21
+          if-no-files-found: warn
+      - name: Commit verified release report
+        if: always()
+        run: |
+          if [ ! -f audit-reports/v66/live-deploy.json ]; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v66/live-deploy.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V66: audit live homepage and published travel-guide resources"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Reject stale production
+        if: steps.liveqa.outcome != 'success'
+        run: exit 1
