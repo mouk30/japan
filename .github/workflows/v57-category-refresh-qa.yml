@@ -1,0 +1,52 @@
+name: V57 five category cards and responsive photo link QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v57-category-refresh-qa.yml
+permissions:
+  contents: write
+jobs:
+  browser-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Verify 5 real destination category layouts, images and links
+        id: test
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8757 --directory site --bind 127.0.0.1 >/tmp/v57-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          node scripts/v57_category_browser_qa.mjs
+      - name: Upload screenshots and report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v57-category-refresh-screenshots
+          path: audit-reports/v57/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Save browser result summary
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -f audit-reports/v57/browser-qa.json ]; then
+            git add audit-reports/v57/browser-qa.json
+            git diff --cached --quiet && exit 0
+            git commit -m "V57: save five refreshed category screenshot QA report"
+            git pull --rebase origin main
+            git push
+          fi
+      - name: Reject broken image, href or mobile layout
+        if: steps.test.outcome != 'success'
+        run: exit 1
