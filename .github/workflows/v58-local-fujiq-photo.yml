@@ -1,0 +1,68 @@
+name: V58 store source-attributed Fuji-Q photography locally
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v58-local-fujiq-photo.yml
+permissions:
+  contents: write
+jobs:
+  import-photograph:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Fetch Creative Commons licensed park overview, convert and credit source
+        run: |
+          python - <<'PY'
+          import io,urllib.request
+          from pathlib import Path
+          from PIL import Image
+          url="https://upload.wikimedia.org/wikipedia/commons/0/05/Fuji-Q_Highland_%2844614891025%29.jpg"
+          req=urllib.request.Request(url,headers={"User-Agent":"NIPPONFERRY-PhotoAttributionImporter/1.0 (https://www.nipponferry.com/)"})
+          with urllib.request.urlopen(req,timeout=35) as r:
+              raw=r.read(6_000_000)
+          with Image.open(io.BytesIO(raw)) as source:
+              img=source.convert("RGB")
+              if img.width>1600:
+                  img.thumbnail((1600,1600),Image.Resampling.LANCZOS)
+              img.load()
+              assert img.width>=850 and img.height>=400
+              target=Path("site/images/venues/fujiq-highland-panorama-ccby2.webp")
+              target.parent.mkdir(parents=True,exist_ok=True)
+              img.save(target,format="WEBP",quality=84,method=5)
+          print("Fuji-Q photograph",target,target.stat().st_size)
+          article=Path("site/practical/fujiq-highland-guide/index.html")
+          s=article.read_text(encoding="utf-8")
+          old="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Fuji-Q_Highland_%2844614891025%29.jpg/960px-Fuji-Q_Highland_%2844614891025%29.jpg"
+          new="/images/venues/fujiq-highland-panorama-ccby2.webp"
+          assert s.count(old)>=1
+          s=s.replace(old,new).replace('content="/images/venues/fujiq-highland-panorama-ccby2.webp"','content="https://www.nipponferry.com/images/venues/fujiq-highland-panorama-ccby2.webp"')
+          article.write_text(s,encoding="utf-8")
+          category=Path("site/things-to-do/activity/index.html")
+          s=category.read_text(encoding="utf-8")
+          original="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Fujikyu-Image.jpg/960px-Fujikyu-Image.jpg"
+          assert s.count(original)==1
+          s=s.replace(original,new)
+          s=s.replace("실제 후지큐 사진 · 2007년 촬영","실제 후지큐 사진 · 2018년 공개 · CC BY 2.0")
+          s=s.replace("Cassiopeia_sweet / Wikimedia Commons · Public Domain (2007)","xiquinhosilva / Wikimedia Commons · CC BY 2.0 (2018)")
+          s=s.replace("https://commons.wikimedia.org/wiki/File:Fujikyu-Image.jpg","https://commons.wikimedia.org/wiki/File:Fuji-Q_Highland_(44614891025).jpg")
+          category.write_text(s,encoding="utf-8")
+          assert Path("site/images/venues/fujiq-highland-panorama-ccby2.webp").stat().st_size>20000
+          print("Attribution: xiquinhosilva / Wikimedia Commons / CC BY 2.0. Original 2018 upload.")
+          PY
+      - name: Commit WebP and exact-source page replacements
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/venues/fujiq-highland-panorama-ccby2.webp site/practical/fujiq-highland-guide/index.html site/things-to-do/activity/index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "V58: replace generic Fuji-Q image with local CC BY 2.0 panorama"
+          git pull --rebase origin main
+          git push
