@@ -140,7 +140,7 @@ export const batch=[
     "insight": "한정 기간 판매되는 1일 파크 호퍼는 일반 1일 입장권과 달리 정해진 시간 이후 두 파크 이동을 허용할 수 있다.",
     "action": "방문일에 해당 상품이 판매되는지와 첫 입장 파크·이동 가능 시각을 확인한다.",
     "warning": "상시 이용 가능한 무료 파크 호퍼로 소개하면 안 된다.",
-    "official": "https://www.tokyodisneyresort.jp/en/ticket/park_hopper"
+    "official": "https://www.tokyodisneyresort.jp/en/ticket/index.html"
   },
   {
     "version": 174,
