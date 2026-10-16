@@ -1,0 +1,207 @@
+{
+  "version": "V74",
+  "pages": [
+    {
+      "version": 74,
+      "slug": "shingu-cruise-port-day-trip",
+      "category": "port",
+      "title": "신구 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/list/index.html",
+      "refClass": "candidate official source",
+      "lead": "구마노 옛길의 이야기가 바다와 만나는 곳. 신구에서 내린 후 어디를 둘러볼지보다, 어느 부두에 내리고 어떤 방법으로 돌아올지 먼저 정하는 것이 안전한 크루즈 당일 여행의 출발입니다",
+      "relativePath": "/things-to-do/shingu-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "shiraoi-cruise-port-day-trip",
+      "category": "port",
+      "title": "시라오이항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/112/index.html",
+      "refClass": "candidate official source",
+      "lead": "우포포이에서 만나는 아이누 문화와 포로토호의 고요한 풍경. 짧은 기항일수록 정확한 하선 위치와 돌아오는 교통이 중요하다.",
+      "relativePath": "/things-to-do/shiraoi-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "soma-cruise-port-day-trip",
+      "category": "port",
+      "title": "소마항 크루즈 기항지｜마쓰카와우라·하마노에키·해안 미식",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/115/index.html",
+      "refClass": "candidate official source",
+      "lead": "후쿠시마 북부의 소마항은 넓은 마쓰카와우라 석호와 해산물 식문화가 돋보이는 항구입니다. 도시를 무작정 넓게 도는 것보다 어시장·해안 전망을 중심으로 여유 있게 움직이는 편이 크루즈",
+      "relativePath": "/things-to-do/soma-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "sukumo-cruise-port-day-trip",
+      "category": "port",
+      "title": "스쿠모항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/detail/053/index.html",
+      "refClass": "candidate official source",
+      "lead": "분고수도와 시만토강으로 이어지는 남서 시코쿠의 청정 바다. 실제 부두와 관광 이동 경로부터 확인해 알찬 하선 여행을 준비하자.",
+      "relativePath": "/things-to-do/sukumo-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "tagonoura-cruise-port-day-trip",
+      "category": "port",
+      "title": "다고노우라항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/092/index.html",
+      "refClass": "candidate official source",
+      "lead": "스루가만 너머로 바라보는 후지산과 갓 잡은 시라스의 항구. 짧은 기항일수록 정확한 하선 위치와 돌아오는 교통이 중요하다.",
+      "relativePath": "/things-to-do/tagonoura-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "tateyama-cruise-port-day-trip",
+      "category": "port",
+      "title": "다테야마항 크루즈 기항지｜다테야마 석양 부두·보소반도 해안 관광",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/017/index.html",
+      "refClass": "candidate official source",
+      "lead": "도쿄만 입구에 자리한 다테야마는 바닷가 산책과 보소반도의 느긋한 풍경을 즐기기 좋은 기항지입니다. 도쿄 도심처럼 명소를 빠르게 순회하기보다, 해변 한 곳에 집중하고 신선한 해산물을",
+      "relativePath": "/things-to-do/tateyama-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "toba-cruise-port-day-trip",
+      "category": "port",
+      "title": "도바 크루즈 기항지 여행｜하선 부두·추천 관광·교통·귀선",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/list/index.html",
+      "refClass": "candidate official source",
+      "lead": "배에서 내리자마자 여행이 시작되는 도바. 그러나 크루즈 여행에서 중요한 것은 명소의 수보다 확실한 하선과 귀선 동선입니다. 도바 수족관과 미키모토 진주섬를 중심으로 무리하지 않는 ",
+      "relativePath": "/things-to-do/toba-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "tokoname-cruise-port-day-trip",
+      "category": "port",
+      "title": "도코나메항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/detail/120/index.html",
+      "refClass": "candidate official source",
+      "lead": "도자기 마을의 오래된 골목과 중부국제공항의 바다 관문을 함께 만나는 여행. 하선 장소와 관광지·귀선 게이트가 서로 얼마나 떨어졌는지를 먼저 살펴보자.",
+      "relativePath": "/things-to-do/tokoname-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "tokuyama-kudamatsu-cruise-port-day-trip",
+      "category": "port",
+      "title": "도쿠야마·구다마쓰항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/detail/082/index.html",
+      "refClass": "candidate official source",
+      "lead": "세토내해의 잔잔한 바다와 슈난 산업항, 섬에 남은 역사까지. 하선 장소와 관광지·귀선 게이트가 서로 얼마나 떨어졌는지를 먼저 살펴보자.",
+      "relativePath": "/things-to-do/tokuyama-kudamatsu-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "tokyo-cruise-port-day-trip",
+      "category": "port",
+      "title": "도쿄항 크루즈 기항지｜국제크루즈터미널·하루미·오이 부두별 당일 관광",
+      "originalExternalReference": "https://www.tokyoport.or.jp/",
+      "refClass": "candidate official source",
+      "lead": "도쿄 크루즈 기항지는 넓은 도시의 관광명소만큼 접안 지점도 다양합니다. 오다이바 수변을 먼저 즐길지, 도심으로 전철 이동할지 정하기 전에 국제크루즈터미널·하루미·오이 중 어디에 내",
+      "relativePath": "/things-to-do/tokyo-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "tsugaru-ajigasawa-cruise-port-day-trip",
+      "category": "port",
+      "title": "쓰가루항·아지가사와 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/list/index.html",
+      "refClass": "candidate official source",
+      "lead": "시라카미 산지가 가까운 일본해 어촌의 파도와 숲. 쓰가루항·아지가사와에서 어디부터 가야 할지 이동 동선을 먼저 살펴보자.",
+      "relativePath": "/things-to-do/tsugaru-ajigasawa-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "tsuruga-cruise-port-day-trip",
+      "category": "port",
+      "title": "쓰루가항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/detail/024/index.html",
+      "refClass": "candidate official source",
+      "lead": "붉은 벽돌 창고와 역사적인 일본해 교역항의 풍경. 쓰루가항에서 어디부터 가야 할지 이동 동선을 먼저 살펴보자.",
+      "relativePath": "/things-to-do/tsuruga-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "tsushima-izuhara-cruise-port-day-trip",
+      "category": "port",
+      "title": "쓰시마·이즈하라항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/jp/list/index.html",
+      "refClass": "candidate official source",
+      "lead": "한국과 가까운 바다에서 만나는 국경의 섬, 쓰시마의 역사. 쓰시마·이즈하라항에서 가장 소중한 시간을 어디에 쓸지 항구 동선부터 정리한다.",
+      "relativePath": "/things-to-do/tsushima-izuhara-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "ube-cruise-port-day-trip",
+      "category": "port",
+      "title": "우베항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/detail/084/index.html",
+      "refClass": "candidate official source",
+      "lead": "산업항의 시간과 도키와공원의 예술·자연이 이어지는 하루. 실제 부두와 관광 이동 경로부터 확인해 알찬 하선 여행을 준비하자.",
+      "relativePath": "/things-to-do/ube-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "uno-cruise-port-day-trip",
+      "category": "port",
+      "title": "우노항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "항구 너머 작은 섬에 내려 예술과 세토내해를 만나는 여행. 기항지 관광을 즐기려면 먼저 접안 부두와 최종 귀선 시간을 확인해야 합니다.",
+      "relativePath": "/things-to-do/uno-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "uwajima-cruise-port-day-trip",
+      "category": "port",
+      "title": "우와지마항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/102/index.html",
+      "refClass": "candidate official source",
+      "lead": "우와해의 푸른 섬과 양식 바다, 우와지마성에서 만나는 역사. 짧은 기항일수록 정확한 하선 위치와 돌아오는 교통이 중요하다.",
+      "relativePath": "/things-to-do/uwajima-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "wakkanai-cruise-port-day-trip",
+      "category": "port",
+      "title": "왓카나이항 크루즈 기항지｜북방파제 돔·소야곶 최북단 관광",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/003/index.html",
+      "refClass": "candidate official source",
+      "lead": "일본 최북단의 바람을 느낄 수 있는 왓카나이. 항구 가까이에서 로마 건축을 닮은 방파제 돔을 보고, 여유가 많을 때만 소야곶까지 확장하는 코스가 크루즈 기항객에게 알맞습니다.",
+      "relativePath": "/things-to-do/wakkanai-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "yatsushiro-cruise-port-day-trip",
+      "category": "port",
+      "title": "야쓰시로항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "규슈의 전통과 성곽 풍경을 따라 걷는 역사 여행. 기항지 관광을 즐기려면 먼저 접안 부두와 최종 귀선 시간을 확인해야 합니다.",
+      "relativePath": "/things-to-do/yatsushiro-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "yawatahama-cruise-port-day-trip",
+      "category": "port",
+      "title": "야와타하마항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/detail/125/index.html",
+      "refClass": "candidate official source",
+      "lead": "규슈로 향하는 서쪽 바닷길과 감귤 계단식 밭의 항구. 실제 부두와 관광 이동 경로부터 확인해 알찬 하선 여행을 준비하자.",
+      "relativePath": "/things-to-do/yawatahama-cruise-port-day-trip/"
+    },
+    {
+      "version": 74,
+      "slug": "yokkaichi-cruise-port-day-trip",
+      "category": "port",
+      "title": "욧카이치 크루즈 기항지 여행｜하선 부두·추천 관광·교통·귀선",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/list/index.html",
+      "refClass": "candidate official source",
+      "lead": "배에서 내리자마자 여행이 시작되는 욧카이치. 그러나 크루즈 여행에서 중요한 것은 명소의 수보다 확실한 하선과 귀선 동선입니다. 욧카이치항 수변과 욧카이치 산업 경관를 중심으로 무리",
+      "relativePath": "/things-to-do/yokkaichi-cruise-port-day-trip/"
+    }
+  ],
+  "cardCount": 60,
+  "newEditorialPages": 0
+}

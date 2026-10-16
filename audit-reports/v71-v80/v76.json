@@ -1,0 +1,207 @@
+{
+  "version": "V76",
+  "pages": [
+    {
+      "version": 76,
+      "slug": "kagoshima-cruise-parents-guide",
+      "category": "companion",
+      "title": "가고시마, 부모님과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html",
+      "refClass": "candidate official source",
+      "lead": "V5 · PARENTS CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/kagoshima-cruise-parents-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "kanazawa-cruise-couple-guide",
+      "category": "companion",
+      "title": "가나자와 크루즈 연인 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://www.kanazawa-cruise.jp/access/",
+      "refClass": "candidate official source",
+      "lead": "고즈넉한 정원과 금박 공예, 옛 찻집 거리에서 기념품과 사진을 남기는 낭만적인 하루.",
+      "relativePath": "/things-to-do/kanazawa-cruise-couple-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "kanazawa-cruise-family-guide",
+      "category": "companion",
+      "title": "가나자와 크루즈 가족 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://www.kanazawa-cruise.jp/access/",
+      "refClass": "candidate official source",
+      "lead": "금박을 붙이고 화과자를 만드는 체험과 현대미술 관람. 아이가 직접 만든 기념품을 남기는 하루.",
+      "relativePath": "/things-to-do/kanazawa-cruise-family-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "kanazawa-cruise-parents-guide",
+      "category": "companion",
+      "title": "가나자와 크루즈 부모님 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://www.kanazawa-cruise.jp/access/",
+      "refClass": "candidate official source",
+      "lead": "겐로쿠엔의 풍경을 편하게 감상하고, 실내 미술관·전통 공예로 쉬어가는 차량 중심 관광.",
+      "relativePath": "/things-to-do/kanazawa-cruise-parents-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "kobe-cruise-couple-guide",
+      "category": "companion",
+      "title": "고베, 연인과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.hyogo-tourism.jp/",
+      "refClass": "candidate official source",
+      "lead": "V5 · COUPLE CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/kobe-cruise-couple-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "kobe-cruise-family-guide",
+      "category": "companion",
+      "title": "고베, 가족과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html",
+      "refClass": "candidate official source",
+      "lead": "V5 · FAMILY CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/kobe-cruise-family-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "kobe-cruise-parents-guide",
+      "category": "companion",
+      "title": "고베, 부모님과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html",
+      "refClass": "candidate official source",
+      "lead": "V5 · PARENTS CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/kobe-cruise-parents-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "nagasaki-cruise-couple-guide",
+      "category": "companion",
+      "title": "나가사키 크루즈 연인 여행: 함께 걸으며 기억에 남기는 하루",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html",
+      "refClass": "candidate official source",
+      "lead": "V4 · COUPLE CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/nagasaki-cruise-couple-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "nagasaki-cruise-family-guide",
+      "category": "companion",
+      "title": "나가사키 크루즈 가족 여행: 아이와 함께 편하게 하선하고 돌아오는 방법",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html",
+      "refClass": "candidate official source",
+      "lead": "V4 · FAMILY CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/nagasaki-cruise-family-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "nagasaki-cruise-parents-guide",
+      "category": "companion",
+      "title": "나가사키 크루즈 부모님 동반 여행: 덜 걷고 더 깊게 보는 방법",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html",
+      "refClass": "candidate official source",
+      "lead": "V4 · PARENTS CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/nagasaki-cruise-parents-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "naha-cruise-couple-guide",
+      "category": "companion",
+      "title": "오키나와 나하 크루즈 연인 여행: 함께 걸으며 기억에 남기는 하루",
+      "originalExternalReference": "https://book.kariyushi-aquarium.com/top/products/dd39bc1a-167a-5434-8222-f74d0b2fa84e?lng=ja-JP",
+      "refClass": "candidate official source",
+      "lead": "V4 · COUPLE CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/naha-cruise-couple-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "naha-cruise-family-guide",
+      "category": "companion",
+      "title": "오키나와 나하 크루즈 가족 여행: 아이와 함께 편하게 하선하고 돌아오는 방법",
+      "originalExternalReference": "https://book.kariyushi-aquarium.com/top/products/dd39bc1a-167a-5434-8222-f74d0b2fa84e?lng=ja-JP",
+      "refClass": "candidate official source",
+      "lead": "V4 · FAMILY CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/naha-cruise-family-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "naha-cruise-parents-guide",
+      "category": "companion",
+      "title": "오키나와 나하 크루즈 부모님 동반 여행: 덜 걷고 더 깊게 보는 방법",
+      "originalExternalReference": "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+      "refClass": "candidate official source",
+      "lead": "V4 · PARENTS CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/naha-cruise-parents-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "osaka-cruise-couple-guide",
+      "category": "companion",
+      "title": "오사카, 연인과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.city.osaka.lg.jp/port/page/0000002874.html",
+      "refClass": "candidate official source",
+      "lead": "V5 · COUPLE CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/osaka-cruise-couple-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "osaka-cruise-family-guide",
+      "category": "companion",
+      "title": "오사카, 가족과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.city.osaka.lg.jp/port/page/0000002874.html",
+      "refClass": "candidate official source",
+      "lead": "V5 · FAMILY CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/osaka-cruise-family-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "osaka-cruise-parents-guide",
+      "category": "companion",
+      "title": "오사카, 부모님과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.city.osaka.lg.jp/port/page/0000002874.html",
+      "refClass": "candidate official source",
+      "lead": "V5 · PARENTS CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/osaka-cruise-parents-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "sasebo-cruise-couple-guide",
+      "category": "companion",
+      "title": "사세보 크루즈 연인 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html",
+      "refClass": "candidate official source",
+      "lead": "99섬의 바다를 함께 보거나 유럽풍 테마파크에서 특별한 사진을 남기는 데이트.",
+      "relativePath": "/things-to-do/sasebo-cruise-couple-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "sasebo-cruise-family-guide",
+      "category": "companion",
+      "title": "사세보 크루즈 가족 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html",
+      "refClass": "candidate official source",
+      "lead": "수족관의 생태학습과 구주쿠시마 유람선, 테마파크 중 아이 취향에 맞게 한 곳만 고르는 여행.",
+      "relativePath": "/things-to-do/sasebo-cruise-family-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "sasebo-cruise-parents-guide",
+      "category": "companion",
+      "title": "사세보 크루즈 부모님 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html",
+      "refClass": "candidate official source",
+      "lead": "구주쿠시마 풍경을 앉아서 감상하는 유람선·차량 관광 중심. 환승보다 항만 픽업을 우선하세요.",
+      "relativePath": "/things-to-do/sasebo-cruise-parents-guide/"
+    },
+    {
+      "version": 76,
+      "slug": "shimizu-cruise-couple-guide",
+      "category": "companion",
+      "title": "시미즈 크루즈 연인 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://www.japan.travel/en/spot/1353/",
+      "refClass": "candidate official source",
+      "lead": "수변의 레트로 감성과 후지산 조망 가능성을 즐기되, 날씨가 흐려도 함께 즐길 장소를 남깁니다.",
+      "relativePath": "/things-to-do/shimizu-cruise-couple-guide/"
+    }
+  ],
+  "cardCount": 60,
+  "newEditorialPages": 0
+}

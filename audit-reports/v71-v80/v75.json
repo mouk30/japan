@@ -1,0 +1,207 @@
+{
+  "version": "V75",
+  "pages": [
+    {
+      "version": 75,
+      "slug": "aomori-cruise-couple-guide",
+      "category": "companion",
+      "title": "아오모리 크루즈 연인 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://aomori-tourism.com/en/itineraries/detail_56.html",
+      "refClass": "candidate official source",
+      "lead": "항구에 놓인 네부타 조명과 아오모리의 사과 디저트로 따뜻한 북쪽 도시의 기억을 남깁니다.",
+      "relativePath": "/things-to-do/aomori-cruise-couple-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "aomori-cruise-family-guide",
+      "category": "companion",
+      "title": "아오모리 크루즈 가족 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://aomori-tourism.com/en/spot/detail_3698.html",
+      "refClass": "candidate official source",
+      "lead": "거대한 네부타 등불을 직접 보고, 수족관에서 무쓰만 생물을 배우는 체험학습.",
+      "relativePath": "/things-to-do/aomori-cruise-family-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "aomori-cruise-parents-guide",
+      "category": "companion",
+      "title": "아오모리 크루즈 부모님 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://pub.pref.aomori.lg.jp/kouji/2026_aomori-kendigi-expo/index.html",
+      "refClass": "candidate official source",
+      "lead": "아오모리 중심가의 네부타 전시와 사과 음식으로 편안하게, 긴 차량 시간이 가능할 때만 핫코다 로프웨이로.",
+      "relativePath": "/things-to-do/aomori-cruise-parents-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "beppu-cruise-couple-guide",
+      "category": "companion",
+      "title": "벳푸, 연인과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
+      "refClass": "candidate official source",
+      "lead": "V5 · COUPLE CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/beppu-cruise-couple-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "beppu-cruise-family-guide",
+      "category": "companion",
+      "title": "벳푸, 가족과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
+      "refClass": "candidate official source",
+      "lead": "V5 · FAMILY CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/beppu-cruise-family-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "beppu-cruise-parents-guide",
+      "category": "companion",
+      "title": "벳푸, 부모님과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
+      "refClass": "candidate official source",
+      "lead": "V5 · PARENTS CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/beppu-cruise-parents-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "hakata-cruise-couple-guide",
+      "category": "companion",
+      "title": "후쿠오카 하카타 크루즈 연인 여행: 함께 걸으며 기억에 남기는 하루",
+      "originalExternalReference": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html",
+      "refClass": "candidate official source",
+      "lead": "V4 · COUPLE CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/hakata-cruise-couple-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "hakata-cruise-family-guide",
+      "category": "companion",
+      "title": "후쿠오카 하카타 크루즈 가족 여행: 아이와 함께 편하게 하선하고 돌아오는 방법",
+      "originalExternalReference": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html",
+      "refClass": "candidate official source",
+      "lead": "V4 · FAMILY CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/hakata-cruise-family-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "hakata-cruise-parents-guide",
+      "category": "companion",
+      "title": "후쿠오카 하카타 크루즈 부모님 동반 여행: 덜 걷고 더 깊게 보는 방법",
+      "originalExternalReference": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html",
+      "refClass": "candidate official source",
+      "lead": "V4 · PARENTS CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/hakata-cruise-parents-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "hakodate-cruise-couple-guide",
+      "category": "companion",
+      "title": "하코다테, 연인과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://334.co.jp/ropeway/advance-ticket/",
+      "refClass": "official search portal / linked source",
+      "lead": "V5 · COUPLE CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/hakodate-cruise-couple-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "hakodate-cruise-family-guide",
+      "category": "companion",
+      "title": "하코다테, 가족과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.goryokaku-tower.co.jp/en/",
+      "refClass": "official search portal / linked source",
+      "lead": "V5 · FAMILY CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/hakodate-cruise-family-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "hakodate-cruise-parents-guide",
+      "category": "companion",
+      "title": "하코다테, 부모님과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.city.hakodate.hokkaido.jp/docs/2026032600023/",
+      "refClass": "official search portal / linked source",
+      "lead": "V5 · PARENTS CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/hakodate-cruise-parents-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "hirara-miyakojima-cruise-couple-guide",
+      "category": "companion",
+      "title": "미야코지마 크루즈 연인 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://visitokinawajapan.com/",
+      "refClass": "candidate official source",
+      "lead": "미야코 블루를 감상하는 리프트·해변 전망과 둘만의 리조트 휴식을 묶되, 항만 귀선은 미리 확정합니다.",
+      "relativePath": "/things-to-do/hirara-miyakojima-cruise-couple-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "hirara-miyakojima-cruise-family-guide",
+      "category": "companion",
+      "title": "미야코지마 크루즈 가족 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+      "refClass": "candidate official source",
+      "lead": "물에 들어가지 않고 바다 생물을 관찰하는 해중공원, 역사 체험과 리조트형 가족 시설 후보를 비교합니다.",
+      "relativePath": "/things-to-do/hirara-miyakojima-cruise-family-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "hirara-miyakojima-cruise-parents-guide",
+      "category": "companion",
+      "title": "미야코지마 크루즈 부모님 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://cruise.visitokinawa.jp/en/hiraraport/course01/",
+      "refClass": "candidate official source",
+      "lead": "섬에서는 기사가 운전하는 차량이 가장 편합니다. 남쪽 리조트의 리프트·온천 또는 해중공원을 한 권역으로 선택하세요.",
+      "relativePath": "/things-to-do/hirara-miyakojima-cruise-parents-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "ishigaki-cruise-couple-guide",
+      "category": "companion",
+      "title": "이시가키 크루즈 연인 여행: 함께 걸으며 기억에 남기는 하루",
+      "originalExternalReference": "https://www.japan.travel/en/spot/375/",
+      "refClass": "candidate official source",
+      "lead": "V4 · COUPLE CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/ishigaki-cruise-couple-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "ishigaki-cruise-family-guide",
+      "category": "companion",
+      "title": "이시가키 크루즈 가족 여행: 아이와 함께 편하게 하선하고 돌아오는 방법",
+      "originalExternalReference": "https://www.japan.travel/en/spot/375/",
+      "refClass": "candidate official source",
+      "lead": "V4 · FAMILY CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/ishigaki-cruise-family-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "ishigaki-cruise-parents-guide",
+      "category": "companion",
+      "title": "이시가키 크루즈 부모님 동반 여행: 덜 걷고 더 깊게 보는 방법",
+      "originalExternalReference": "https://www.japan.travel/en/spot/375/",
+      "refClass": "candidate official source",
+      "lead": "V4 · PARENTS CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/ishigaki-cruise-parents-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "kagoshima-cruise-couple-guide",
+      "category": "companion",
+      "title": "가고시마, 연인과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html",
+      "refClass": "candidate official source",
+      "lead": "V5 · COUPLE CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/kagoshima-cruise-couple-guide/"
+    },
+    {
+      "version": 75,
+      "slug": "kagoshima-cruise-family-guide",
+      "category": "companion",
+      "title": "가고시마, 가족과 함께 떠나는 일본 크루즈 기항 여행",
+      "originalExternalReference": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html",
+      "refClass": "candidate official source",
+      "lead": "V5 · FAMILY CRUISE · 동행자별 기항지 백과",
+      "relativePath": "/things-to-do/kagoshima-cruise-family-guide/"
+    }
+  ],
+  "cardCount": 60,
+  "newEditorialPages": 0
+}

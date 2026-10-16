@@ -1,0 +1,207 @@
+{
+  "version": "V80",
+  "pages": [
+    {
+      "version": 80,
+      "slug": "shimizu-cruise-family-guide",
+      "category": "companion",
+      "title": "시미즈 크루즈 가족 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://www.shimizu-port.jp/map.html",
+      "refClass": "candidate official source",
+      "lead": "가까운 실내 캐릭터 체험과 음식 문화부터. 장거리 이동 없이도 즐겁게 배우는 항만 가족여행.",
+      "relativePath": "/things-to-do/shimizu-cruise-family-guide/"
+    },
+    {
+      "version": 80,
+      "slug": "shimizu-cruise-parents-guide",
+      "category": "companion",
+      "title": "시미즈 크루즈 부모님 여행, 무엇을 즐길까?",
+      "originalExternalReference": "https://www.shimizu-port.jp/map.html",
+      "refClass": "candidate official source",
+      "lead": "멀리서 후지산을 무리하게 쫓기보다, 항구 식사·전망과 차량으로 가는 니혼다이라 중 하나를 선택합니다.",
+      "relativePath": "/things-to-do/shimizu-cruise-parents-guide/"
+    },
+    {
+      "version": 80,
+      "slug": "yokohama-cruise-couple-guide",
+      "category": "companion",
+      "title": "요코하마 크루즈 연인 여행: 함께 걸으며 기억에 남기는 하루",
+      "originalExternalReference": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html",
+      "refClass": "candidate official source",
+      "lead": "V4 · COUPLE CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/yokohama-cruise-couple-guide/"
+    },
+    {
+      "version": 80,
+      "slug": "yokohama-cruise-family-guide",
+      "category": "companion",
+      "title": "요코하마 크루즈 가족 여행: 아이와 함께 편하게 하선하고 돌아오는 방법",
+      "originalExternalReference": "https://www.cupnoodles-museum.jp/reservation/yokohama/?lang=en",
+      "refClass": "candidate official source",
+      "lead": "V4 · FAMILY CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/yokohama-cruise-family-guide/"
+    },
+    {
+      "version": 80,
+      "slug": "yokohama-cruise-parents-guide",
+      "category": "companion",
+      "title": "요코하마 크루즈 부모님 동반 여행: 덜 걷고 더 깊게 보는 방법",
+      "originalExternalReference": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html",
+      "refClass": "candidate official source",
+      "lead": "V4 · PARENTS CRUISE · 동행자별 여행 백과",
+      "relativePath": "/things-to-do/yokohama-cruise-parents-guide/"
+    },
+    {
+      "version": 80,
+      "slug": "okinawa-soba",
+      "category": "okinawa",
+      "title": "오키나와 소바의 특징",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "일본 본토 소바와 다른 오키나와 소바의 면과 육수",
+      "relativePath": "/things-to-do/okinawa-soba/"
+    },
+    {
+      "version": 80,
+      "slug": "okinawa-soba-guide",
+      "category": "okinawa",
+      "title": "오키나와 소바 여행 가이드",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "돼지고기와 진한 육수로 즐기는 오키나와식 국수",
+      "relativePath": "/things-to-do/okinawa-soba-guide/"
+    },
+    {
+      "version": 80,
+      "slug": "okinawa-sunset-arch-rock",
+      "category": "okinawa",
+      "title": "오키나와 해안 석양",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "노을이 물드는 오키나와 해안과 사진 촬영 팁",
+      "relativePath": "/things-to-do/okinawa-sunset-arch-rock/"
+    },
+    {
+      "version": 80,
+      "slug": "okinawa-sunset-rock",
+      "category": "okinawa",
+      "title": "오키나와 해안 일몰 감상",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와에서 해안 일몰을 즐길 때 알아둘 점",
+      "relativePath": "/things-to-do/okinawa-sunset-rock/"
+    },
+    {
+      "version": 80,
+      "slug": "okinawa-whale-shark-aquarium",
+      "category": "okinawa",
+      "title": "오키나와 고래상어 수족관 관람 가이드",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와 수족관의 고래상어 전시와 관람 팁",
+      "relativePath": "/things-to-do/okinawa-whale-shark-aquarium/"
+    },
+    {
+      "version": 80,
+      "slug": "okinawa-zakimi-castle",
+      "category": "okinawa",
+      "title": "자키미성터",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "요미탄촌 · 오키나와 여행",
+      "relativePath": "/things-to-do/okinawa-zakimi-castle/"
+    },
+    {
+      "version": 80,
+      "slug": "okinawa-zanpa-cape",
+      "category": "okinawa",
+      "title": "잔파곶 여행 가이드",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "절벽과 하얀 등대를 배경으로 즐기는 해안 절경",
+      "relativePath": "/things-to-do/okinawa-zanpa-cape/"
+    },
+    {
+      "version": 80,
+      "slug": "aomori-port-nebuta-day-trip",
+      "category": "other",
+      "title": "아오모리 크루즈 기항지｜네부타 와랏세·항구 산책 당일 코스",
+      "originalExternalReference": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/008/487/0420_01_kuruzu.pdf",
+      "refClass": "official search portal / linked source",
+      "lead": "아오모리 크루즈 기항지는 배에서 내린 뒤 어떤 동선을 선택하느냐가 중요합니다. 도착 항구와 부두를 먼저 확인하고 대표 관광지 1~2곳을 여유 있게 방문하는 여행을 추천합니다.",
+      "relativePath": "/things-to-do/aomori-port-nebuta-day-trip/"
+    },
+    {
+      "version": 80,
+      "slug": "beppu-port-onsen-day-trip",
+      "category": "other",
+      "title": "벳푸 크루즈 기항지｜국제관광항·간나와 온천·지옥순례",
+      "originalExternalReference": "https://www.beppu-jigoku.com/fee/index.html",
+      "refClass": "official search portal / linked source",
+      "lead": "벳푸 크루즈 기항지는 배에서 내린 뒤 어떤 동선을 선택하느냐가 중요합니다. 도착 항구와 부두를 먼저 확인하고 대표 관광지 1~2곳을 여유 있게 방문하는 여행을 추천합니다.",
+      "relativePath": "/things-to-do/beppu-port-onsen-day-trip/"
+    },
+    {
+      "version": 80,
+      "slug": "hakata-port-hakata-station-access",
+      "category": "other",
+      "title": "하카타 크루즈센터 하카타역 교통 | 88번·정류장·귀선",
+      "originalExternalReference": "https://hakataport.com/center/",
+      "refClass": "candidate official source",
+      "lead": "기존 일반 '하카타항→하카타역' 가이드는 항구 전체 기준이다. 이 글은 실제 중앙부두 크루즈센터 이용자가 버스정류장과 국제여객터미널의 위치를 혼동하지 않도록 구체화한다.",
+      "relativePath": "/things-to-do/hakata-port-hakata-station-access/"
+    },
+    {
+      "version": 80,
+      "slug": "hiroshima-miyajima-ferry-crossing",
+      "category": "other",
+      "title": "미야지마 페리 짧은 바닷길",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "히로시마현 하쓰카이치 · 일본 교통",
+      "relativePath": "/things-to-do/hiroshima-miyajima-ferry-crossing/"
+    },
+    {
+      "version": 80,
+      "slug": "ishigaki-cruise-new-port-shuttle",
+      "category": "other",
+      "title": "이시가키 크루즈 신항 부두 | 무료·유료 셔틀·택시·도보",
+      "originalExternalReference": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
+      "refClass": "official search portal / linked source",
+      "lead": "이시가키항 크루즈 신항 부두는 정기 섬 여객선이 출발하는 유그레나 이시가키항 리토터미널과 다르다. 가장 중요한 정보는 항차별 무료셔틀 유무와 승객 게이트에서 시내로 가는 차량편이다",
+      "relativePath": "/things-to-do/ishigaki-cruise-new-port-shuttle/"
+    },
+    {
+      "version": 80,
+      "slug": "ishigaki-cruise-kabira-bay-bus-taxi",
+      "category": "other",
+      "title": "이시가키 크루즈 가비라만 가는 법 | 버스 9·11번·택시·귀선",
+      "originalExternalReference": "https://www.azumabus.co.jp/localbus/",
+      "refClass": "official search portal / linked source",
+      "lead": "가비라만은 이시가키의 대표 풍경이지만 크루즈 신항에서 바로 걸어갈 수 있는 명소가 아니다. 시내 버스터미널로 이동한 뒤 북서부 가비라 방향 버스·차량을 타고 왕복 복귀를 확보해야 ",
+      "relativePath": "/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/"
+    },
+    {
+      "version": 80,
+      "slug": "nagasaki-matsugae-glover-garden-cruise-access",
+      "category": "other",
+      "title": "나가사키 마쓰가에 크루즈 터미널 | 글로버정원·오우라천주당 도보",
+      "originalExternalReference": "https://nagasaki-p.com/access/",
+      "refClass": "official search portal / linked source",
+      "lead": "마쓰가에 크루즈 터미널은 나가사키 남산수의 서양식 건축과 항구 전망을 걸어서 만날 수 있는 출발점이다. 하지만 도보 가능 여부는 실제 선박 접안지와 승객 게이트를 확인한 다음 판단",
+      "relativePath": "/things-to-do/nagasaki-matsugae-glover-garden-cruise-access/"
+    },
+    {
+      "version": 80,
+      "slug": "nagasaki-cruise-peace-park-tram",
+      "category": "other",
+      "title": "나가사키 크루즈 평화공원 가는 법 | 노면전차 환승·귀선",
+      "originalExternalReference": "https://www.japan.travel/en/spot/742/",
+      "refClass": "candidate official source",
+      "lead": "평화공원은 나가사키항 바로 옆이 아니다. 마쓰가에 부두에서는 오우라카이간도리에서 5호계통을 타고 신치주카가이에서 1호계통으로 환승하는 공식 방문자 경로를 참고할 수 있다.",
+      "relativePath": "/things-to-do/nagasaki-cruise-peace-park-tram/"
+    }
+  ],
+  "cardCount": 60,
+  "newEditorialPages": 0
+}

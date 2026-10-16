@@ -1,0 +1,207 @@
+{
+  "version": "V78",
+  "pages": [
+    {
+      "version": 78,
+      "slug": "okinawa-katsuren-castle",
+      "category": "okinawa",
+      "title": "가쓰렌성터",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와 우루마 · 오키나와 여행 가이드",
+      "relativePath": "/things-to-do/okinawa-katsuren-castle/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-kokusai-dori",
+      "category": "okinawa",
+      "title": "국제거리 여행 가이드",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와 기념품과 먹거리를 함께 즐기는 번화가",
+      "relativePath": "/things-to-do/okinawa-kokusai-dori/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-kouri-bridge",
+      "category": "okinawa",
+      "title": "고우리대교 여행 가이드",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "푸른 바다 위를 가로지르는 다리와 고우리섬 드라이브",
+      "relativePath": "/things-to-do/okinawa-kouri-bridge/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-manza-beach",
+      "category": "okinawa",
+      "title": "만자 비치 여행 가이드",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "온나손의 바다와 휴양 분위기를 만끽하는 해변",
+      "relativePath": "/things-to-do/okinawa-manza-beach/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-nakagusuku-castle",
+      "category": "okinawa",
+      "title": "나카구스쿠성터",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와 나카구스쿠 · 오키나와 여행 가이드",
+      "relativePath": "/things-to-do/okinawa-nakagusuku-castle/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-nakijin-castle",
+      "category": "okinawa",
+      "title": "나키진성터 여행 가이드",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "류큐 왕국 이전 북산의 역사를 간직한 성터",
+      "relativePath": "/things-to-do/okinawa-nakijin-castle/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-nirai-kanai-bridge",
+      "category": "okinawa",
+      "title": "니라이카나이 대교",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와 난조 · 오키나와 여행 가이드",
+      "relativePath": "/things-to-do/okinawa-nirai-kanai-bridge/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-palm-coast-drive",
+      "category": "okinawa",
+      "title": "오키나와 야자수 해안 드라이브",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "아열대 풍경과 바다를 함께 즐기는 해안 드라이브",
+      "relativePath": "/things-to-do/okinawa-palm-coast-drive/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-peace-memorial-park",
+      "category": "okinawa",
+      "title": "평화기념공원",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와 이토만 · 오키나와 여행 가이드",
+      "relativePath": "/things-to-do/okinawa-peace-memorial-park/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-resort-beach",
+      "category": "okinawa",
+      "title": "오키나와 리조트 해변",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와 해변 휴양을 준비하는 기본 가이드",
+      "relativePath": "/things-to-do/okinawa-resort-beach/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-rock-arch-beach",
+      "category": "okinawa",
+      "title": "오키나와 바위 아치 해변",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "바위 아치와 푸른 바다가 어우러진 오키나와 해안 풍경",
+      "relativePath": "/things-to-do/okinawa-rock-arch-beach/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-sea-turtle-snorkeling",
+      "category": "okinawa",
+      "title": "오키나와 바다거북 스노클링",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와 바다에서 만나는 바다거북과 스노클링 기본 수칙",
+      "relativePath": "/things-to-do/okinawa-sea-turtle-snorkeling/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-seafood-bowl",
+      "category": "okinawa",
+      "title": "오키나와 해산물 덮밥",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와에서 해산물 덮밥을 즐기는 방법과 주문 팁",
+      "relativePath": "/things-to-do/okinawa-seafood-bowl/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-sefa-utaki",
+      "category": "okinawa",
+      "title": "세이화 우타키 여행 가이드",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "류큐의 신성한 숲과 바위 공간을 만나는 문화유산",
+      "relativePath": "/things-to-do/okinawa-sefa-utaki/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-sesoko-beach",
+      "category": "okinawa",
+      "title": "세소코 비치",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "모토부초 세소코섬 · 오키나와 여행",
+      "relativePath": "/things-to-do/okinawa-sesoko-beach/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-shikinaen-garden",
+      "category": "okinawa",
+      "title": "시키나엔",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와 나하 · 오키나와 여행 가이드",
+      "relativePath": "/things-to-do/okinawa-shikinaen-garden/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-shisa-village-gate",
+      "category": "okinawa",
+      "title": "오키나와 시사 마을 입구",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와 전통 수호상 시사의 의미와 마을 풍경",
+      "relativePath": "/things-to-do/okinawa-shisa-village-gate/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-shopping-street",
+      "category": "okinawa",
+      "title": "오키나와 쇼핑 거리 산책",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "오키나와 쇼핑 거리에서 즐기는 지역 먹거리와 기념품",
+      "relativePath": "/things-to-do/okinawa-shopping-street/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-shuri-castle",
+      "category": "okinawa",
+      "title": "오키나와 슈리성과 류큐 왕국",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "슈리성을 통해 살펴보는 류큐 왕국의 역사와 문화",
+      "relativePath": "/things-to-do/okinawa-shuri-castle/"
+    },
+    {
+      "version": 78,
+      "slug": "okinawa-shuri-castle-heritage",
+      "category": "okinawa",
+      "title": "슈리성 여행 가이드",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "류큐 왕국의 역사와 건축 유산을 만나는 여행",
+      "relativePath": "/things-to-do/okinawa-shuri-castle-heritage/"
+    }
+  ],
+  "cardCount": 60,
+  "newEditorialPages": 0
+}

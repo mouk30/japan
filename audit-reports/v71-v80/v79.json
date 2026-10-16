@@ -1,0 +1,207 @@
+{
+  "version": "V79",
+  "pages": [
+    {
+      "version": 79,
+      "slug": "accessible-slow-travel",
+      "category": "other",
+      "title": "부모님과 일본여행 즐길거리 | 걷기 적은 코스·휴식 동선",
+      "originalExternalReference": "https://www.japan.travel/ko/things-to-do/",
+      "refClass": "candidate official source",
+      "lead": "부모님 동반 일본여행에서 이동거리, 계단, 대중교통, 식사·휴식, 무장애 시설을 확인하는 여유 있는 코스 가이드.",
+      "relativePath": "/things-to-do/accessible-slow-travel/"
+    },
+    {
+      "version": 79,
+      "slug": "akita-port-day-trip",
+      "category": "other",
+      "title": "아키타항 크루즈 기항지｜셀리온 전망대·토자키 항구",
+      "originalExternalReference": "https://www.city.akita.lg.jp/kanko/event/1002252.html",
+      "refClass": "candidate official source",
+      "lead": "아키타 크루즈 기항지는 배에서 내린 뒤 어떤 동선을 선택하느냐가 중요합니다. 도착 항구와 부두를 먼저 확인하고 대표 관광지 1~2곳을 여유 있게 방문하는 여행을 추천합니다.",
+      "relativePath": "/things-to-do/akita-port-day-trip/"
+    },
+    {
+      "version": 79,
+      "slug": "experience-booking-checklist",
+      "category": "other",
+      "title": "일본 여행 체험 예약 체크리스트 | 취소 수수료·집합장소·우천 대안",
+      "originalExternalReference": "https://www.japan.travel/ko/things-to-do/",
+      "refClass": "candidate official source",
+      "lead": "일본 다도·온천·테마파크·투어 예약 전 취소 규정, 집합장소, 포함 서비스, 날씨에 따른 변경 조건을 비교합니다.",
+      "relativePath": "/things-to-do/experience-booking-checklist/"
+    },
+    {
+      "version": 79,
+      "slug": "family-with-kids",
+      "category": "other",
+      "title": "아이와 일본여행 즐길거리 | 유모차·수족관·실내체험 선택법",
+      "originalExternalReference": "https://www.japan.travel/ko/things-to-do/",
+      "refClass": "candidate official source",
+      "lead": "아이와 일본 가족여행에서 수족관, 박물관, 체험시설을 고르는 기준과 유모차·수유실·예약·이동 동선을 정리했습니다.",
+      "relativePath": "/things-to-do/family-with-kids/"
+    },
+    {
+      "version": 79,
+      "slug": "hakata-port-dazaifu-shore-excursion",
+      "category": "other",
+      "title": "하카타 크루즈 다자이후 가는 법 | 버스·시간·귀선",
+      "originalExternalReference": "https://hakataport.com/center/",
+      "refClass": "candidate official source",
+      "lead": "다자이후는 하카타 시내 쇼핑과 달리 왕복 광역 교통이다. 중앙부두에서 하카타 버스터미널까지 먼저 이동한 뒤 다자이후행 라이너에 환승하는 시간을 정확히 분리해야 한다.",
+      "relativePath": "/things-to-do/hakata-port-dazaifu-shore-excursion/"
+    },
+    {
+      "version": 79,
+      "slug": "hakata-port-tenjin-sightseeing",
+      "category": "other",
+      "title": "하카타 크루즈 텐진 관광 | 80번 버스·쇼핑·귀선",
+      "originalExternalReference": "https://hakataport.com/center/",
+      "refClass": "candidate official source",
+      "lead": "텐진은 쇼핑과 식사가 집중된 도시권역이다. 부두에서 텐진으로 가는 법만 반복하지 않고 실제 쇼핑시간 배분과 복귀 정류장·혼잡 관리에 집중한다.",
+      "relativePath": "/things-to-do/hakata-port-tenjin-sightseeing/"
+    },
+    {
+      "version": 79,
+      "slug": "hakodate-port-day-trip",
+      "category": "other",
+      "title": "하코다테 크루즈 기항지｜아침시장·베이 에어리어 당일 여행",
+      "originalExternalReference": "https://www.city.hakodate.hokkaido.jp/docs/2026032600023/",
+      "refClass": "official search portal / linked source",
+      "lead": "하코다테 크루즈 기항지는 배에서 내린 뒤 어떤 동선을 선택하느냐가 중요합니다. 도착 항구와 부두를 먼저 확인하고 대표 관광지 1~2곳을 여유 있게 방문하는 여행을 추천합니다.",
+      "relativePath": "/things-to-do/hakodate-port-day-trip/"
+    },
+    {
+      "version": 79,
+      "slug": "kanazawa-port-day-trip",
+      "category": "other",
+      "title": "가나자와항 크루즈 기항지｜겐로쿠엔·오미초시장 코스",
+      "originalExternalReference": "https://www.kanazawa-cruise.jp/en/",
+      "refClass": "candidate official source",
+      "lead": "가나자와 크루즈 기항지는 배에서 내린 뒤 어떤 동선을 선택하느냐가 중요합니다. 도착 항구와 부두를 먼저 확인하고 대표 관광지 1~2곳을 여유 있게 방문하는 여행을 추천합니다.",
+      "relativePath": "/things-to-do/kanazawa-port-day-trip/"
+    },
+    {
+      "version": 79,
+      "slug": "nagasaki-port-day-trip",
+      "category": "other",
+      "title": "나가사키 크루즈 기항지｜마쓰가에·글로버가든·오우라 성당",
+      "originalExternalReference": "https://www.discover-nagasaki.com/ko/sightseeing/100790",
+      "refClass": "official search portal / linked source",
+      "lead": "나가사키 크루즈 기항지는 배에서 내린 뒤 어떤 동선을 선택하느냐가 중요합니다. 도착 항구와 부두를 먼저 확인하고 대표 관광지 1~2곳을 여유 있게 방문하는 여행을 추천합니다.",
+      "relativePath": "/things-to-do/nagasaki-port-day-trip/"
+    },
+    {
+      "version": 79,
+      "slug": "naha-cruise-terminal-kokusai-dori",
+      "category": "other",
+      "title": "나하 크루즈 국제거리 가는 법 | 와카사·제2부두 비교",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/074/index.html",
+      "refClass": "candidate official source",
+      "lead": "'나하 크루즈항'은 하나의 입구가 아니다. 부두 위치와 시내 접근 난이도가 달라 국제거리 이동 전에 배정 부두를 확인해야 한다.",
+      "relativePath": "/things-to-do/naha-cruise-terminal-kokusai-dori/"
+    },
+    {
+      "version": 79,
+      "slug": "niigata-port-day-trip",
+      "category": "other",
+      "title": "니가타항 크루즈 기항지｜서항·동항·반다이바시 당일 코스",
+      "originalExternalReference": "https://www.mlit.go.jp/kankocho/cruise/detail/020/index.html",
+      "refClass": "candidate official source",
+      "lead": "니가타 크루즈 기항지는 배에서 내린 뒤 어떤 동선을 선택하느냐가 중요합니다. 도착 항구와 부두를 먼저 확인하고 대표 관광지 1~2곳을 여유 있게 방문하는 여행을 추천합니다.",
+      "relativePath": "/things-to-do/niigata-port-day-trip/"
+    },
+    {
+      "version": 79,
+      "slug": "port-half-day",
+      "category": "other",
+      "title": "일본 페리 하선 후 반나절 즐길거리: 3~5시간 코스 짜는 법",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "페리 하선 후 실제 관광 가능시간을 계산하고 항구 근처 먹거리·산책·쇼핑을 조합하는 반나절 일정 설계법.",
+      "relativePath": "/things-to-do/port-half-day/"
+    },
+    {
+      "version": 79,
+      "slug": "port-to-experience-planner",
+      "category": "other",
+      "title": "일본 페리·크루즈 도착 후 즐길거리 일정표 | 반나절·하루·1박",
+      "originalExternalReference": "https://www.japan.travel/ko/things-to-do/",
+      "refClass": "candidate official source",
+      "lead": "즐길거리 검색을 예약으로 연결하는 핵심은 실제로 움직일 수 있는 일정표입니다.",
+      "relativePath": "/things-to-do/port-to-experience-planner/"
+    },
+    {
+      "version": 79,
+      "slug": "rainy-day",
+      "category": "other",
+      "title": "일본 여행 비 오는 날 뭐 하지? 실내 즐길거리 7가지",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "일본 여행 중 비가 올 때 미술관·수족관·쇼핑몰·온천 등 실내 즐길거리를 고르는 방법과 교통·예약 체크리스트.",
+      "relativePath": "/things-to-do/rainy-day/"
+    },
+    {
+      "version": 79,
+      "slug": "shodoshima-ferry-island-access",
+      "category": "other",
+      "title": "쇼도시마 페리로 섬 들어가기",
+      "originalExternalReference": null,
+      "refClass": "official search portal / linked source",
+      "lead": "가가와현 쇼도시마 · 일본 교통",
+      "relativePath": "/things-to-do/shodoshima-ferry-island-access/"
+    },
+    {
+      "version": 79,
+      "slug": "yokohama-daikoku-pier-cruise-terminal",
+      "category": "other",
+      "title": "요코하마 다이코쿠부두 크루즈 | 보안구역·버스·택시",
+      "originalExternalReference": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/terminal.html",
+      "refClass": "candidate official source",
+      "lead": "다이코쿠는 도심 도보관광형 터미널이 아니다. 도쿄만 물류항 보안구역에 있는 승객 게이트와 돌아오는 교통편을 관광보다 먼저 확보해야 한다.",
+      "relativePath": "/things-to-do/yokohama-daikoku-pier-cruise-terminal/"
+    },
+    {
+      "version": 79,
+      "slug": "yokohama-minato-mirai-cruise-day-trip",
+      "category": "other",
+      "title": "요코하마 크루즈 미나토미라이 관광 | 4·6시간 코스",
+      "originalExternalReference": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html",
+      "refClass": "candidate official source",
+      "lead": "가장 먼저 여행 가능한 실제 시간을 확인하고 접안 부두별로 관광 범위를 달리 잡는 것이 핵심이다. 도시 전체를 하루에 다 보는 코스가 아니라 크루즈 귀선을 위한 선택형 일정표다.",
+      "relativePath": "/things-to-do/yokohama-minato-mirai-cruise-day-trip/"
+    },
+    {
+      "version": 79,
+      "slug": "yokohama-osanbashi-cruise-terminal",
+      "category": "other",
+      "title": "요코하마 오산바시 크루즈 터미널 | 하선·역·도보 관광",
+      "originalExternalReference": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html",
+      "refClass": "candidate official source",
+      "lead": "오산바시의 가장 큰 장점은 도심 관광과 연결되는 도보 접근성이다. 다만 실제 하선 게이트와 출입국 대기 시간을 확인한 뒤 출발해야 한다.",
+      "relativePath": "/things-to-do/yokohama-osanbashi-cruise-terminal/"
+    },
+    {
+      "version": 79,
+      "slug": "yokohama-port-day-trip",
+      "category": "other",
+      "title": "요코하마 크루즈 기항지｜오산바시·신코·다이코쿠 부두별 관광",
+      "originalExternalReference": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html",
+      "refClass": "candidate official source",
+      "lead": "요코하마 크루즈 기항지는 배에서 내린 뒤 어떤 동선을 선택하느냐가 중요합니다. 도착 항구와 부두를 먼저 확인하고 대표 관광지 1~2곳을 여유 있게 방문하는 여행을 추천합니다.",
+      "relativePath": "/things-to-do/yokohama-port-day-trip/"
+    },
+    {
+      "version": 79,
+      "slug": "yokohama-shinko-pier-cruise-area",
+      "category": "other",
+      "title": "요코하마 신코부두 크루즈 | 해머헤드·아카렌가·교통",
+      "originalExternalReference": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html",
+      "refClass": "candidate official source",
+      "lead": "신코부두는 해머헤드 복합시설과 항구 관광권이 연결된다. 관광 시작점을 신코로 확정하면 쇼핑·식사·산책을 한 지역에 모을 수 있다.",
+      "relativePath": "/things-to-do/yokohama-shinko-pier-cruise-area/"
+    }
+  ],
+  "cardCount": 60,
+  "newEditorialPages": 0
+}
