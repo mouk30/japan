@@ -1,0 +1,47 @@
+name: Tokyo V121-V300 official operator link health
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tokyo-v121-v300-source-qa.yml'
+      - 'scripts/tokyo_v121_v300_source_qa.mjs'
+permissions:
+  contents: write
+jobs:
+  check-official-operator-websites:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Audit direct operator source links used in 180 guides
+        id: qa
+        continue-on-error: true
+        run: node scripts/tokyo_v121_v300_source_qa.mjs
+      - name: Save source status evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tokyo-v121-v300-official-source-health
+          path: audit-reports/v121-v300/official-sources-qa.json
+          retention-days: 30
+      - name: Commit link health audit
+        if: always()
+        run: |
+          test -f audit-reports/v121-v300/official-sources-qa.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v121-v300/official-sources-qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Tokyo V121-V300: report official Disney transit and store URL health"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 4
+          done
+          exit 1
+      - name: Flag known HTTP 404 operator links
+        if: steps.qa.outcome != 'success'
+        run: exit 1
