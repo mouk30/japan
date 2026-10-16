@@ -1,0 +1,47 @@
+name: V81-V120 Tokyo official operator link audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v81-v120-tokyo-link-qa.yml'
+      - 'scripts/v81_v120_tokyo_link_health.mjs'
+permissions:
+  contents: write
+jobs:
+  check-real-tokyo-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Audit all Tokyo official operator and booking links
+        id: check
+        continue-on-error: true
+        run: node scripts/v81_v120_tokyo_link_health.mjs
+      - name: Save external-source status and potential WAF blockers
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v81-v120-tokyo-official-operator-links
+          path: audit-reports/v81-v120/official-link-health.json
+          retention-days: 25
+      - name: Commit source reachability results
+        if: always()
+        run: |
+          test -f audit-reports/v81-v120/official-link-health.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v81-v120/official-link-health.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V81-V120: record direct official Tokyo visitor and ticket link status"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 3
+          done
+          exit 1
+      - name: Mark confirmed broken operator URLs for editorial repair
+        if: steps.check.outcome != 'success'
+        run: exit 1
