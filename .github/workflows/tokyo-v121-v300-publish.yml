@@ -1,0 +1,69 @@
+name: Tokyo V121-V300 publish 180 distinct professional travel guides
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tokyo-v121-v300-publish.yml'
+      - 'scripts/tokyo_v121_v300_publish.py'
+permissions:
+  contents: write
+jobs:
+  publish-all-nine-cohorts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Publish V121-V300 guides from nine original 20-page research cohorts
+        run: python3 scripts/tokyo_v121_v300_publish.py
+      - name: Validate 180 new unique canonical articles and 40 preserved old guides
+        run: |
+          python3 - <<'PY'
+          import json,pathlib,re
+          root=pathlib.Path('site'),r=json.loads(pathlib.Path('audit-reports/v121-v300/editorial-manifest.json').read_text())
+          assert r['count']==180 and len(r['groups'])==9
+          assert all(group['count']==20 for group in r['groups'])
+          assert len(set(x['slug'] for x in r['topics']))==180
+          assert len(set(x['title'] for x in r['topics']))==180
+          for t in r['topics']:
+           file=root/'japan'/'tokyo'/t['slug']/'index.html'
+           assert file.exists(),t['slug']
+           s=file.read_text()
+           assert len(re.findall('<h1\\b',s))==1,t['slug']
+           assert 'rel="canonical" href="https://www.nipponferry.com'+t['path']+'"' in s,t['slug']
+           assert t['source'] in s,t['slug']
+           assert all(x in s for x in ['id="route"','id="official"','id="terms"','application/ld+json']),t['slug']
+           assert '<loc>https://www.nipponferry.com'+t['path']+'</loc>' in (root/'sitemap.xml').read_text(),t['slug']
+          hub=(root/'japan'/'tokyo'/'index.html').read_text()
+          assert hub.count('class="tky-exp-group"')==9
+          assert hub.count('class="tky-card"')==220
+          assert (root/'japan'/'tokyo'/'tokyo-tower-tickets'/'index.html').exists()
+          assert '220' in hub
+          assert '/japan/tokyo/' in (root/'index.html').read_text()
+          print('PASS: 9 batches, 180 distinct source-led guides, 220 hub cards, existing 40 preserved, sitemap and SEO')
+          PY
+      - name: Confirm production build is valid
+        run: npm run build
+      - name: Commit the 180 existing Tokyo encyclopedia extensions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/japan/tokyo site/index.html site/japan/index.html site/sitemap.xml audit-reports/v121-v300/
+          git diff --cached --quiet && exit 0
+          git commit -m "Tokyo V121-V300: publish 180 unique station, Disney, floor map, shopping, culture and itinerary guides"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 4
+          done
+          exit 1
+      - name: Archive the nine twenty-page manifests
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tokyo-v121-v300-nine-twenty-page-cohorts
+          path: audit-reports/v121-v300/
+          retention-days: 30
+          if-no-files-found: warn
