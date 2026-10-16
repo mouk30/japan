@@ -107,7 +107,7 @@
       "path": "/japan/tokyo/tokyo-ramen-best-areas/",
       "category": "미식",
       "sources": [
-        "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html",
+        "https://www.gourmet.gotokyo.org/",
         "https://www.tokyoeki-1bangai.co.jp/"
       ]
     },
@@ -128,7 +128,7 @@
       "category": "미식",
       "sources": [
         "https://www.gotokyo.org/en/",
-        "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html"
+        "https://www.gourmet.gotokyo.org/"
       ]
     },
     {
@@ -137,7 +137,7 @@
       "path": "/japan/tokyo/tokyo-yakitori-izakaya-guide/",
       "category": "미식",
       "sources": [
-        "https://www.gotokyo.org/en/see-and-do/food-and-drink/index.html",
+        "https://www.gourmet.gotokyo.org/",
         "https://www.gotokyo.org/en/"
       ]
     },
@@ -447,7 +447,7 @@
       "path": "/japan/tokyo/tokyo-toyosu-market-auction-guide/",
       "category": "체험",
       "sources": [
-        "https://www.shijou.metro.tokyo.lg.jp/english/",
+        "https://www.english.metro.tokyo.lg.jp/w/016-101-003992",
         "https://www.gotokyo.org/en/"
       ]
     },
