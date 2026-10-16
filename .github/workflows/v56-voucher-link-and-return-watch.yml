@@ -1,0 +1,98 @@
+name: V56 voucher links and sailing return planner checks
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v56-voucher-link-and-return-watch.yml
+  schedule:
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  link-health:
+    name: Check 13 port and 11 coupon issue links
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate port, coupon, and internal link inventory
+        run: python scripts/v56_check_voucher_links.py --validate-only
+      - name: Audit external links (403 and rate limits are not broken links)
+        id: inspect
+        continue-on-error: true
+        run: python scripts/v56_check_voucher_links.py
+      - name: Publish audit report as workflow artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v56-voucher-link-health
+          path: audit-reports/v56/link-health.json
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Write GitHub Actions run summary
+        if: always()
+        run: |
+          if [ -f audit-reports/v56/link-health.json ]; then
+            python - <<'PY'
+          import json, os
+          from pathlib import Path
+          r=json.loads(Path('audit-reports/v56/link-health.json').read_text(encoding='utf-8'))
+          lines=[
+            '## V56 voucher and coupon link-health audit',
+            f"- Port cards: {r['ports']}; shopping coupon cards: {r['coupon_cards']}",
+            f"- Unique external URLs: {r['unique_external_urls']}",
+            f"- Internal paths checked: {r['internal_links_checked']}; missing: {len(r['missing_internal'])}",
+            f"- Technical status counts: {r['status_counts']}",
+            '',
+            '**Attention:** an HTTP 200 does not guarantee purchasability or available inventory. HTTP 403/429 may be bot restrictions; investigate 404/410 before replacing a link.'
+          ]
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as fh:
+            fh.write('\n'.join(lines)+'\n')
+          PY
+          fi
+      - name: Flag broken internal routes or suspected external 404/410
+        if: steps.inspect.outcome == 'failure'
+        run: |
+          echo "Check the link-health artifact. External access restrictions are not automatically considered broken."
+          exit 1
+  return-planner:
+    if: github.event_name != 'schedule'
+    name: Test real passenger input and responsive return calculations
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium for functional journey tests
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Test no invented boarding deadlines and time math
+        id: browser
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8756 --directory site --bind 127.0.0.1 >/tmp/v56-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          curl -fsS http://127.0.0.1:8756/voucher/cruise-ports/ >/dev/null
+          node scripts/v56_return_planner_qa.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v56-return-planner-browser-qa
+          path: |
+            audit-reports/v56/return-planner-qa.json
+            audit-reports/v56/planner-320.png
+            audit-reports/v56/planner-1440.png
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Fail if functional browser QA fails
+        if: steps.browser.outcome == 'failure'
+        run: exit 1
