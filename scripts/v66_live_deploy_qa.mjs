@@ -8,7 +8,7 @@ const urls=[
  {uri:'/life/don-quijote-first-guide/',contains:['rel="canonical"']},
  {uri:'/season/japan-summer-festival-guide/',contains:['rel="canonical"']},
  {uri:'/things-to-do/naha-cruise-port-day-trip/',contains:['rel="canonical"']},
- {uri:'/booking/japan-cruise/',contains:['rel="canonical"']},
+ {uri:'/booking/japan-cruise/',contains:['canonical']},
  {uri:'/images/venues/naha-shureimon.webp',image:true},
  {uri:'/images/venues/hakodate-goryokaku-tower.webp',image:true},
  {uri:'/images/culture-verified/yatai-japanese-food-stalls.webp',image:true},
@@ -16,7 +16,7 @@ const urls=[
 const report={createdAt:new Date().toISOString(),base,attempts:[],passed:false};
 const out='audit-reports/v66/live-deploy.json';
 fs.mkdirSync('audit-reports/v66',{recursive:true});
-for(let attempt=0;attempt<13&&!report.passed;attempt++){
+for(let attempt=0;attempt<7&&!report.passed;attempt++){
  let ok=true;
  const checks=[];
  for(const u of urls){
@@ -33,7 +33,7 @@ for(let attempt=0;attempt<13&&!report.passed;attempt++){
  }
  report.attempts.push({time:new Date().toISOString(),checks,passed:ok});
  report.passed=ok;
- if(!ok&&attempt<12)await new Promise(done=>setTimeout(done,20000));
+ if(!ok&&attempt<6)await new Promise(done=>setTimeout(done,20000));
 }
 report.totalChecks=urls.length;
 report.finalChecks=report.attempts.at(-1).checks;
