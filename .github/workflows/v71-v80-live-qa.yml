@@ -1,0 +1,44 @@
+name: V71-V80 200 published pages and CSS live QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v71-v80-live-qa.yml'
+      - 'scripts/v71_v80_live_qa.mjs'
+permissions:
+  contents: write
+jobs:
+  audit-production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Check 200 published guides, each of 10 batches of 20, plus stylesheet
+        id: qa
+        continue-on-error: true
+        run: node scripts/v71_v80_live_qa.mjs
+      - name: Save actual Vercel HTTP audit record
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v71-v80-200-live-pages-deployment-check
+          path: audit-reports/v71-v80/live-production.json
+          retention-days: 25
+          if-no-files-found: warn
+      - name: Commit live report
+        if: always()
+        run: |
+          test -f audit-reports/v71-v80/live-production.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v71-v80/live-production.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V71-V80: document actual deployment of 200 quality-upgraded pages"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Fail on missing public pages or CSS
+        if: steps.qa.outcome != 'success'
+        run: exit 1
