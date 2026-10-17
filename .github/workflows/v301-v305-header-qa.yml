@@ -49,11 +49,12 @@ jobs:
           test -f audit-reports/v301-v305/browser-qa.json || exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audit-reports/v301-v305/browser-qa.json
-          git diff --cached --quiet && exit 0
-          git commit -m "V305: record sitewide premium header and responsive interactive QA"
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main
+            git fetch origin main
+            git reset --mixed origin/main
+            git add audit-reports/v301-v305/browser-qa.json
+            git diff --cached --quiet && exit 0
+            git commit -m "V305: record latest premium header and responsive interactive QA"
             if git push origin HEAD:main; then exit 0; fi
             sleep 4
           done
