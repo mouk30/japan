@@ -1,16 +1,16 @@
 {
-  "time": "2026-10-17T00:38:52.332Z",
+  "time": "2026-10-17T00:47:31.295Z",
   "versions": "V301-V305",
   "pages": 21,
   "attempts": [
     {
       "attempt": 1,
-      "time": "2026-10-17T00:38:53.187Z",
+      "time": "2026-10-17T00:47:31.837Z",
       "results": [
         {
           "url": "/",
           "status": 200,
-          "bytes": 54164,
+          "bytes": 56997,
           "errors": []
         },
         {
@@ -58,7 +58,7 @@
         {
           "url": "/things-to-do/travel-companions/",
           "status": 200,
-          "bytes": 59888,
+          "bytes": 59729,
           "errors": []
         },
         {
@@ -140,7 +140,7 @@
     {
       "url": "/v301-nav.css",
       "status": 200,
-      "bytes": 9820,
+      "bytes": 10033,
       "issue": ""
     },
     {
@@ -155,7 +155,7 @@
     {
       "url": "/",
       "status": 200,
-      "bytes": 54164,
+      "bytes": 56997,
       "errors": []
     },
     {
@@ -203,7 +203,7 @@
     {
       "url": "/things-to-do/travel-companions/",
       "status": 200,
-      "bytes": 59888,
+      "bytes": 59729,
       "errors": []
     },
     {
