@@ -7,7 +7,7 @@ const samples=[
 '/','/japan/','/japan/tokyo/','/japan/tokyo/disney-dpa-app-purchase/',
 '/japan-cruise/','/booking/japan-cruise/','/things-to-do/',
 '/things-to-do/cruise-ports/','/things-to-do/travel-companions/',
-'/things-to-do/naha-cruise-port-day-trip/','/food/','/shopping/',
+'/things-to-do/naha-cruise-port-day-trip/','/things-to-do/aomori-cruise-family-guide/','/things-to-do/aizu-wakamatsu-tsurugajo/','/food/','/shopping/',
 '/seasons/','/photo-spots/','/voucher/','/practical/','/couple/','/life/don-quijote-first-guide/'
 ];
 const widths=[320,390,768,1024,1200,1440];
@@ -21,7 +21,7 @@ for(const file of pages){
  const built=fs.readFileSync(file,'utf8');
  const src=fs.existsSync(original)?fs.readFileSync(original,'utf8'):'';
  const origHeader=/<header\b[^>]*class=["'][^"']*\bsite-header\b/.test(src);
- if(origHeader){
+ if(origHeader||rel.startsWith('things-to-do/')){
   report.unifiedHeaders++;
   if(!built.includes('data-nf301="v305"'))report.errors.push(rel+': original header not upgraded');
   if((built.match(/data-nf301="v305"/g)||[]).length!==1)report.errors.push(rel+': header duplication');
