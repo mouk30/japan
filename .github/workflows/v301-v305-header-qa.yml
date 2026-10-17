@@ -1,0 +1,63 @@
+name: V301-V305 Premium navigation responsive and SEO QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v301-v305-header-qa.yml'
+      - 'scripts/v301-v305-header-qa.mjs'
+      - 'scripts/v301-v305-nav.cjs'
+      - 'site/v301-nav.css'
+      - 'site/v301-nav.js'
+      - 'build.js'
+permissions:
+  contents: write
+jobs:
+  full-header-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 32
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Chromium and browser QA dependencies
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build every published HTML page
+        run: npm run build
+      - name: Test 108 screens, complete menu URLs, keyboard menus and canonicals
+        id: qa
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8763 --bind 127.0.0.1 --directory dist >/tmp/nf301-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 3
+          node scripts/v301-v305-header-qa.mjs
+      - name: Archive screenshots, results and mobile states
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v301-v305-premium-header-mobile-and-desktop
+          path: audit-reports/v301-v305/
+          retention-days: 28
+          if-no-files-found: warn
+      - name: Save audit report in repository
+        if: always()
+        run: |
+          test -f audit-reports/v301-v305/browser-qa.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v301-v305/browser-qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V305: record sitewide premium header and responsive interactive QA"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 4
+          done
+          exit 1
+      - name: Flag layout, aria or broken navigation
+        if: steps.qa.outcome != 'success'
+        run: exit 1
