@@ -43,3 +43,14 @@
 .tky-page .tky-block p{overflow-wrap:anywhere}
 .tky-exp-group summary:focus-visible{outline:3px solid #24bbd2;outline-offset:-4px}
 @media(max-width:600px){.tky-exp-group summary{padding:14px;align-items:start;gap:4px}.tky-exp-group summary>strong{font-size:15px}.tky-exp-group summary span{font-size:11px;white-space:normal;text-align:right}.tky-exp-group .tky-cards{padding:11px}.tky-extension-nav a{font-size:11px}}
+
+/* Tokyo V306: topic-matched photography on every hub card */
+.tky-card{padding:0;overflow:hidden;transition:transform .2s ease,box-shadow .2s ease;box-shadow:0 8px 25px rgba(10,50,82,.07)}
+.tky-card:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(10,50,82,.13)}
+.tky-card-photo{display:block;width:100%;aspect-ratio:16/9;background:#e4edf4;overflow:hidden;flex:none}
+.tky-card-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .25s ease}
+.tky-card:hover .tky-card-photo img{transform:scale(1.035)}
+.tky-card>small,.tky-card>h3,.tky-card>p,.tky-card>strong{margin-left:19px;margin-right:19px}
+.tky-card>small{margin-top:17px}.tky-card>strong{margin-bottom:19px;margin-top:auto}
+.tky-card>h3{font-size:16px;line-height:1.48}.tky-card>p{margin-bottom:16px}
+@media(max-width:560px){.tky-card-photo{aspect-ratio:16/9}.tky-card>small,.tky-card>h3,.tky-card>p,.tky-card>strong{margin-left:16px;margin-right:16px}}
