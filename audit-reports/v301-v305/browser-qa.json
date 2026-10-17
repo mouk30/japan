@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17T00:51:15.936Z",
+  "date": "2026-10-17T00:54:16.016Z",
   "siteTotal": 1271,
   "unifiedHeaders": 1269,
   "withoutOriginalHeader": 2,
@@ -2286,19 +2286,7 @@
     }
   ],
   "errors": [],
-  "warnings": [
-    "/japan/tokyo/ 1440: hovered item needed explicit disclosure click",
-    "/japan-cruise/ 1440: hovered item needed explicit disclosure click",
-    "/things-to-do/travel-companions/ 1440: hovered item needed explicit disclosure click",
-    "/things-to-do/aizu-wakamatsu-tsurugajo/ 1200: hovered item needed explicit disclosure click",
-    "/food/ 1200: hovered item needed explicit disclosure click",
-    "/shopping/ 1440: hovered item needed explicit disclosure click",
-    "/voucher/ 1200: hovered item needed explicit disclosure click",
-    "/voucher/ 1440: hovered item needed explicit disclosure click",
-    "/couple/ 1200: hovered item needed explicit disclosure click",
-    "/couple/ 1440: hovered item needed explicit disclosure click",
-    "/life/don-quijote-first-guide/ 1440: hovered item needed explicit disclosure click"
-  ],
+  "warnings": [],
   "navDestinations": [
     "/",
     "/booking/japan-cruise/",
