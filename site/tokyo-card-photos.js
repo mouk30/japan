@@ -1,21 +1,2 @@
-/* Tokyo photo accuracy gate, 2026-10-17.
-  NO category-wide substitutions and NO fallback photo.
-  Only exact named subject -> existing editorial asset. Verify asset source/license
-  and real-world depiction before growing the list. */
-(()=>{"use strict";
-const verifiedCandidates={
-"tokyo-odaiba-waterfront-yurikamome":{src:"/images/editorial/tokyo-yurikamome-automated-train.webp",alt:"도쿄 유리카모메 열차 관련 이미지",caption:"유리카모메 참고 이미지"},
-"tokyo-cruise-odaiba-3hours":{src:"/images/editorial/tokyo-cruise-port-day-trip.webp",alt:"도쿄 크루즈 기항지 관련 이미지",caption:"도쿄항 참고 이미지"}
-};
-document.querySelectorAll(".tky-card").forEach((card,i)=>{
- const slug=(card.getAttribute("href")||"").split("/").filter(Boolean).pop();
- const item=verifiedCandidates[slug];
- if(!item||card.querySelector("img"))return;
- const fig=document.createElement("span");fig.className="tky-card-photo";
- const img=document.createElement("img");
- img.src=item.src;img.alt=item.alt;img.loading=i<6?"eager":"lazy";
- img.decoding="async";img.width=720;img.height=420;
- img.addEventListener("error",()=>fig.remove(),{once:true});
- fig.append(img);card.insertBefore(fig,card.firstChild);
-});
-})();
+/* Each named photo downloaded from Commons and checked for licensing. */
+(()=>{const exact={"tokyo-asakusa-sensoji-kaminarimon": {"slug": "tokyo-asakusa-sensoji-kaminarimon", "src": "/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp", "title": "Senso-ji.jpg", "credit": "Felix Filnkössl", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Senso-ji.jpg", "size": 143884}, "tokyo-shibuya-crossing-hachiko": {"slug": "tokyo-shibuya-crossing-hachiko", "src": "/images/tokyo-verified/tokyo-shibuya-crossing-hachiko.webp", "title": "Shibuya Crossing in July 2026.jpg", "credit": "Gatorfan252525", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Shibuya_Crossing_in_July_2026.jpg", "size": 215370}, "tokyo-shinjuku-night-sightseeing": {"slug": "tokyo-shinjuku-night-sightseeing", "src": "/images/tokyo-verified/tokyo-shinjuku-night-sightseeing.webp", "title": "Shinjuku Kabukicho Entrance.jpg", "credit": "Ray Tsang", "license": "CC BY-SA 2.0", "source": "https://commons.wikimedia.org/wiki/File:Shinjuku_Kabukicho_Entrance.jpg", "size": 148338}, "tokyo-akihabara-anime-shopping": {"slug": "tokyo-akihabara-anime-shopping", "src": "/images/tokyo-verified/tokyo-akihabara-anime-shopping.webp", "title": "Akihabara Electric Town Street - 31-5-2026.jpg", "credit": "BWard 1997", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Akihabara_Electric_Town_Street_-_31-5-2026.jpg", "size": 169112}};exact["tokyo-odaiba-waterfront-yurikamome"]={src:"/images/editorial/tokyo-yurikamome-automated-train.webp",title:"도쿄 유리카모메",credit:"",license:"",source:""};exact["tokyo-cruise-odaiba-3hours"]={src:"/images/editorial/tokyo-cruise-port-day-trip.webp",title:"도쿄항",credit:"",license:"",source:""};document.querySelectorAll(".tky-card").forEach((card)=>{const slug=(card.getAttribute("href")||"").split("/").filter(Boolean).pop(),p=exact[slug];if(!p||card.querySelector("img"))return;const figure=document.createElement("span");figure.className="tky-card-photo";figure.style.position="relative";const img=document.createElement("img");img.src=p.src;img.alt=p.title+" 실제 현장 사진";img.loading="lazy";img.decoding="async";const credit=document.createElement("span");credit.className="tky-photo-credit";const a=document.createElement("a");a.href=p.source;a.textContent="사진: "+p.credit+" · "+p.license;a.target="_blank";a.rel="noopener noreferrer";a.addEventListener("click",e=>e.stopPropagation());credit.append(a);figure.append(img,credit);img.addEventListener("error",()=>figure.remove(),{once:true});card.insertBefore(figure,card.firstChild)})})();
