@@ -5,6 +5,15 @@ if(!header)return;
 const mobile=header.querySelector('#nf301-mobile-panel');
 const mobileToggle=header.querySelector('.nf301-toggle');
 const flyouts=[...header.querySelectorAll('.nf301-item[data-dropdown]')];
+const leaveTimers=new WeakMap();
+function cancelFlyClose(item){const id=leaveTimers.get(item);if(id)clearTimeout(id);leaveTimers.delete(item)}
+function scheduleFlyClose(item){
+ cancelFlyClose(item);
+ leaveTimers.set(item,setTimeout(()=>{
+  if(!item.matches(':hover')&&!item.contains(document.activeElement))setFly(item,false);
+  leaveTimers.delete(item);
+ },260));
+}
 function setFly(item,on,reason=''){
  item.dataset.openSource=on?reason:'';
  const btn=item.querySelector('.nf301-disclose');
@@ -21,8 +30,8 @@ flyouts.forEach(item=>{
   closeFly();
   if(!explicit)setFly(item,true,'click');
  });
- item.addEventListener('mouseenter',()=>{if(matchMedia('(min-width: 1200px)').matches){closeFly();setFly(item,true,'hover')}});
- item.addEventListener('mouseleave',()=>{if(matchMedia('(min-width: 1200px)').matches)setFly(item,false)});
+ item.addEventListener('mouseenter',()=>{cancelFlyClose(item);if(matchMedia('(min-width: 1200px)').matches){closeFly();setFly(item,true,'hover')}});
+ item.addEventListener('mouseleave',()=>{if(matchMedia('(min-width: 1200px)').matches)scheduleFlyClose(item)});
  item.addEventListener('focusin',()=>{if(matchMedia('(min-width: 1200px)').matches&&item.dataset.open!=='true'){closeFly();setFly(item,true,'focus')}});
  item.addEventListener('focusout',e=>{
   if(!item.contains(e.relatedTarget))setFly(item,false);
@@ -33,7 +42,7 @@ flyouts.forEach(item=>{
 header.querySelector('.nf301-primary')?.addEventListener('pointermove',e=>{
  if(e.pointerType!=='mouse'||!matchMedia('(min-width:1200px)').matches)return;
  const item=e.target?.closest?.('.nf301-item[data-dropdown]');
- if(item&&item.dataset.open!=='true'){closeFly();setFly(item,true,'hover')}
+ if(item){cancelFlyClose(item);if(item.dataset.open!=='true'){closeFly();setFly(item,true,'hover')}}
 });
 function mobileOpen(next,restoreFocus=false){
  if(!mobile||!mobileToggle)return;
