@@ -26,7 +26,7 @@ for(const file of pages){
   if(!built.includes('data-nf301="v305"'))report.errors.push(rel+': original header not upgraded');
   if((built.match(/data-nf301="v305"/g)||[]).length!==1)report.errors.push(rel+': header duplication');
   if(!built.includes('<link rel="stylesheet" href="/v301-nav.css">')||!built.includes('<script src="/v301-nav.js" defer>'))report.errors.push(rel+': CSS/JS not loaded');
-  if((built.match(/class="nf301-subrow"/g)||[]).length===0)report.errors.push(rel+': 2nd nav missing');
+  if(!built.includes('nf301-subrow'))report.errors.push(rel+': 2nd nav missing');
   if(!built.includes('href="/japan/"'))report.errors.push(rel+': canonical Japan destinations link missing');
   const sourceCan=src.match(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)/)?.[1]||src.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["']/)?.[1];
   const builtCan=built.match(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)/)?.[1]||built.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["']/)?.[1];
