@@ -1,0 +1,28 @@
+name: Tokyo 220 article-level editorial queue
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_220_editorial_queue.py
+      - .github/workflows/tokyo-220-editorial-queue.yml
+  workflow_dispatch:
+  schedule:
+    - cron: '05 5 * * 1'
+permissions:
+  contents: write
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/tokyo_220_editorial_queue.py
+      - name: Save all 220 statuses
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/tokyo-220-editorial-queue.csv audit-reports/tokyo-220-editorial-summary.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Tokyo 220 per-article verification queue"
+            git pull --rebase origin main
+            git push
+          fi
