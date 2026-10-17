@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17T00:43:25.513Z",
+  "date": "2026-10-17T00:44:18.269Z",
   "siteTotal": 1271,
   "unifiedHeaders": 1269,
   "withoutOriginalHeader": 2,
@@ -895,9 +895,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "hover mega menu not shown"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/cruise-ports/",
@@ -1581,9 +1579,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "hover mega menu not shown"
-      ]
+      "issues": []
     },
     {
       "pathname": "/shopping/",
@@ -1925,9 +1921,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/practical/",
-      "issues": [
-        "hover mega menu not shown"
-      ]
+      "issues": []
     },
     {
       "pathname": "/voucher/",
@@ -2291,12 +2285,18 @@
       "issues": []
     }
   ],
-  "errors": [
-    "/things-to-do/cruise-ports/ 1200: hover mega menu not shown",
-    "/shopping/ 1200: hover mega menu not shown",
-    "/voucher/ 1200: hover mega menu not shown"
+  "errors": [],
+  "warnings": [
+    "/ 1200: hovered item needed explicit disclosure click",
+    "/things-to-do/ 1200: hovered item needed explicit disclosure click",
+    "/things-to-do/cruise-ports/ 1200: hovered item needed explicit disclosure click",
+    "/things-to-do/travel-companions/ 1200: hovered item needed explicit disclosure click",
+    "/shopping/ 1200: hovered item needed explicit disclosure click",
+    "/seasons/ 1200: hovered item needed explicit disclosure click",
+    "/photo-spots/ 1200: hovered item needed explicit disclosure click",
+    "/practical/ 1200: hovered item needed explicit disclosure click",
+    "/couple/ 1200: hovered item needed explicit disclosure click"
   ],
-  "warnings": [],
   "navDestinations": [
     "/",
     "/booking/japan-cruise/",
@@ -2331,5 +2331,5 @@
     "V304",
     "V305"
   ],
-  "passed": false
+  "passed": true
 }
