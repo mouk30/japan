@@ -1,0 +1,24 @@
+name: Tokyo 220 all-photo candidate review
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/tokyo_220_photo_candidates.py'
+      - '.github/workflows/tokyo-220-photo-candidates.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - name: Search location-specific licensed photograph candidates for 220 posts
+        run: python3 scripts/tokyo_220_photo_candidates.py
+      - name: Commit structured candidate review
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/tokyo-220-photo-candidates.json
+          git diff --cached --quiet || (git commit -m "Tokyo 220 article-specific candidate photo inventory" && git pull --rebase origin main && git push)
