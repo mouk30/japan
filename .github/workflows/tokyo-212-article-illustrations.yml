@@ -1,0 +1,26 @@
+name: Tokyo 212 article visuals integration
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_212_article_illustrations.py
+      - .github/workflows/tokyo-212-article-illustrations.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/tokyo_212_article_illustrations.py
+      - name: Commit all 212 article images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/japan/tokyo
+          if ! git diff --cached --quiet; then
+            git commit -m "Show unique topic visuals in 212 Tokyo articles"
+            git pull --rebase origin main
+            git push
+          fi
