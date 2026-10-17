@@ -79,3 +79,11 @@
  .nf301-header .nf301-toggle{width:39px;height:41px}
 }
 @media(prefers-reduced-motion:reduce){.nf301-header .nf301-mobile-panel,.nf301-disclose span{transition:none}}
+
+/* Keep megamenus on-screen for rightmost top-level links. */
+@media(min-width:1200px){
+ .nf301-header .nf301-item[data-dropdown="people"] .nf301-flyout{left:auto;right:-80px;transform:none;width:min(520px,82vw)}
+ .nf301-header .nf301-item[data-dropdown="practical"] .nf301-flyout{left:auto;right:-60px;transform:none;width:min(520px,82vw)}
+}
+@media(min-width:1200px){html:has(.nf301-header){scroll-padding-top:135px}}
+@media(max-width:1199px){html:has(.nf301-header){scroll-padding-top:75px}}
