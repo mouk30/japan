@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17T00:44:18.269Z",
+  "date": "2026-10-17T00:47:46.847Z",
   "siteTotal": 1271,
   "unifiedHeaders": 1269,
   "withoutOriginalHeader": 2,
@@ -2287,15 +2287,12 @@
   ],
   "errors": [],
   "warnings": [
-    "/ 1200: hovered item needed explicit disclosure click",
-    "/things-to-do/ 1200: hovered item needed explicit disclosure click",
-    "/things-to-do/cruise-ports/ 1200: hovered item needed explicit disclosure click",
-    "/things-to-do/travel-companions/ 1200: hovered item needed explicit disclosure click",
-    "/shopping/ 1200: hovered item needed explicit disclosure click",
+    "/japan/tokyo/ 1440: hovered item needed explicit disclosure click",
+    "/japan-cruise/ 1200: hovered item needed explicit disclosure click",
+    "/japan-cruise/ 1440: hovered item needed explicit disclosure click",
+    "/things-to-do/cruise-ports/ 1440: hovered item needed explicit disclosure click",
     "/seasons/ 1200: hovered item needed explicit disclosure click",
-    "/photo-spots/ 1200: hovered item needed explicit disclosure click",
-    "/practical/ 1200: hovered item needed explicit disclosure click",
-    "/couple/ 1200: hovered item needed explicit disclosure click"
+    "/practical/ 1440: hovered item needed explicit disclosure click"
   ],
   "navDestinations": [
     "/",
