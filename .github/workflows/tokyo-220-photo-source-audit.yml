@@ -1,0 +1,32 @@
+name: Tokyo 220 full image and source inventory
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/audit_tokyo_220_photo_sources.py'
+      - '.github/workflows/tokyo-220-photo-source-audit.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3 * * 1'
+permissions:
+  contents: write
+concurrency:
+  group: tokyo-220-photo-source-inventory
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inventory 220 source and thumbnail coverage
+        run: python3 scripts/audit_tokyo_220_photo_sources.py
+      - name: Commit audit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/tokyo-220-photo-source-audit.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Audit Tokyo 220 photo and source coverage"
+            git pull --rebase origin main
+            git push
+          fi
