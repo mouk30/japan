@@ -68,3 +68,5 @@
 
 /* Licensed, subject-matched article imagery */
 .tokyo-article-photo-v1{margin:18px auto 24px;max-width:900px}.tokyo-article-photo-v1 img{display:block;width:100%;max-height:480px;object-fit:cover;border-radius:16px}.tokyo-article-photo-v1 figcaption{font-size:12px;line-height:1.5;color:#627387;margin-top:8px}.tokyo-article-photo-v1 figcaption a{text-decoration:underline}
+
+.tky-card-photo{position:relative;display:block;overflow:hidden}.tky-card-photo img{display:block;width:100%;height:190px;object-fit:cover}.tky-photo-label{display:block;padding:5px 8px;font-size:10px;line-height:1.4;color:#50637d;background:#f0f4f7;white-space:normal}
