@@ -22,7 +22,10 @@ def search_one(path):
  terms=re.sub(r"(가격|예약|가는 법|비교|안내|가이드|운영시간|교통|방법|조건|코스|동선|주의사항|여행|선택|실전|도쿄)"," ",title)
  terms=re.sub(r"[^\w\s가-힣·]"," ",terms).strip()
  terms=" ".join(terms.split()[:5]) or title
- params=urllib.parse.urlencode({"action":"query","format":"json","generator":"search","gsrsearch":"filetype:bitmap "+terms,"gsrnamespace":6,"gsrlimit":8,"prop":"imageinfo","iiprop":"extmetadata|url"})
+ stop={"tokyo","guide","best","tickets","ticket","prices","price","booking","reservation","hours","access","travel","day","trip","how","to","in","from","free","for","and","of","the","route","routes","tips","family","with","station","exit","exits","compare","comparison"}
+ tokens=[t for t in slug.split("-") if len(t)>2 and t not in stop and not t.isdigit()]
+ terms="Tokyo "+" ".join(tokens[:4]) if tokens else "Tokyo "+title
+ params=urllib.parse.urlencode({"action":"query","format":"json","generator":"search","gsrsearch":terms+" filetype:bitmap","gsrnamespace":6,"gsrlimit":8,"prop":"imageinfo","iiprop":"extmetadata|url"})
  try:
   with urllib.request.urlopen(urllib.request.Request("https://commons.wikimedia.org/w/api.php?"+params,headers=headers),timeout=22) as response:raw=json.load(response)
   for page in raw.get("query",{}).get("pages",{}).values():
