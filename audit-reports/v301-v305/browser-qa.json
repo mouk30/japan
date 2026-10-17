@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17T00:31:26.345Z",
+  "date": "2026-10-17T00:34:31.150Z",
   "siteTotal": 1271,
   "unifiedHeaders": 1119,
   "withoutOriginalHeader": 152,
@@ -13,6 +13,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -20,10 +21,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": null,
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/",
@@ -34,6 +32,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -41,10 +40,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": null,
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/",
@@ -55,6 +51,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -62,10 +59,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": null,
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/",
@@ -76,6 +70,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -83,10 +78,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": null,
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/",
@@ -97,6 +89,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -104,10 +97,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": null,
-      "issues": [
-        "desktop 2-tier visibility",
-        "hover mega menu not shown"
-      ]
+      "issues": []
     },
     {
       "pathname": "/",
@@ -118,6 +108,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -125,9 +116,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": null,
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/",
@@ -138,6 +127,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -145,10 +135,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/",
@@ -159,6 +146,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -166,10 +154,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/",
@@ -180,6 +165,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -187,10 +173,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/",
@@ -201,6 +184,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -208,10 +192,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/",
@@ -222,6 +203,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -229,9 +211,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/",
@@ -242,6 +222,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -249,9 +230,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/",
@@ -262,6 +241,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -269,10 +249,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/",
@@ -283,6 +260,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -290,10 +268,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/",
@@ -304,6 +279,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -311,10 +287,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/",
@@ -325,6 +298,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -332,10 +306,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/",
@@ -346,6 +317,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -353,9 +325,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/",
@@ -366,6 +336,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -373,9 +344,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
@@ -386,6 +355,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -393,10 +363,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
@@ -407,6 +374,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -414,10 +382,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
@@ -428,6 +393,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -435,10 +401,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
@@ -449,6 +412,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -456,10 +420,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
@@ -470,6 +431,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -477,9 +439,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
@@ -490,6 +450,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -497,9 +458,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan-cruise/",
@@ -510,6 +469,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -517,10 +477,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/japan-cruise/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan-cruise/",
@@ -531,6 +488,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -538,10 +496,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/japan-cruise/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan-cruise/",
@@ -552,6 +507,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -559,10 +515,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/japan-cruise/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan-cruise/",
@@ -573,6 +526,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -580,10 +534,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/japan-cruise/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan-cruise/",
@@ -594,6 +545,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -601,9 +553,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/japan-cruise/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan-cruise/",
@@ -614,6 +564,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -621,9 +572,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/japan-cruise/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/booking/japan-cruise/",
@@ -634,6 +583,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -641,10 +591,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": null,
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/booking/japan-cruise/",
@@ -655,6 +602,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -662,10 +610,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": null,
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/booking/japan-cruise/",
@@ -676,6 +621,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -683,10 +629,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": null,
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/booking/japan-cruise/",
@@ -697,6 +640,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -704,10 +648,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": null,
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/booking/japan-cruise/",
@@ -718,6 +659,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -725,9 +667,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": null,
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/booking/japan-cruise/",
@@ -738,6 +678,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -745,9 +686,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": null,
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/",
@@ -758,6 +697,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -765,10 +705,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/",
@@ -779,6 +716,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -786,10 +724,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/",
@@ -800,6 +735,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -807,9 +743,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
-      "issues": [
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/",
@@ -820,6 +754,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -827,9 +762,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
-      "issues": [
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/",
@@ -840,6 +773,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -847,9 +781,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/",
@@ -860,6 +792,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -867,9 +800,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/cruise-ports/",
@@ -880,6 +811,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -887,10 +819,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/cruise-ports/",
@@ -901,6 +830,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -908,10 +838,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/cruise-ports/",
@@ -922,6 +849,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -929,10 +857,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/cruise-ports/",
@@ -943,6 +868,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -950,10 +876,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/cruise-ports/",
@@ -964,6 +887,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -971,10 +895,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "desktop 2-tier visibility",
-        "hover mega menu not shown"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/cruise-ports/",
@@ -985,6 +906,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -992,9 +914,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/travel-companions/",
@@ -1005,6 +925,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -1012,10 +933,7 @@
       "navCount": 1,
       "pageCurrent": 3,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/travel-companions/",
@@ -1026,6 +944,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -1033,10 +952,7 @@
       "navCount": 1,
       "pageCurrent": 3,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/travel-companions/",
@@ -1047,6 +963,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -1054,10 +971,7 @@
       "navCount": 1,
       "pageCurrent": 3,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/travel-companions/",
@@ -1068,6 +982,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -1075,10 +990,7 @@
       "navCount": 1,
       "pageCurrent": 3,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/travel-companions/",
@@ -1089,6 +1001,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -1097,7 +1010,6 @@
       "pageCurrent": 3,
       "matched": "/things-to-do/travel-companions/",
       "issues": [
-        "desktop 2-tier visibility",
         "hover mega menu not shown"
       ]
     },
@@ -1110,6 +1022,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -1117,9 +1030,7 @@
       "navCount": 1,
       "pageCurrent": 3,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/naha-cruise-port-day-trip/",
@@ -1130,6 +1041,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -1137,10 +1049,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/naha-cruise-port-day-trip/",
@@ -1151,6 +1060,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -1158,10 +1068,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/naha-cruise-port-day-trip/",
@@ -1172,6 +1079,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -1179,10 +1087,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/naha-cruise-port-day-trip/",
@@ -1193,6 +1098,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -1200,10 +1106,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/naha-cruise-port-day-trip/",
@@ -1214,6 +1117,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -1221,9 +1125,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/naha-cruise-port-day-trip/",
@@ -1234,6 +1136,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -1241,9 +1144,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/food/",
@@ -1254,6 +1155,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -1261,10 +1163,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/food/",
@@ -1275,6 +1174,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -1282,9 +1182,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible"
-      ]
+      "issues": []
     },
     {
       "pathname": "/food/",
@@ -1295,6 +1193,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -1302,9 +1201,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/food/",
@@ -1315,6 +1212,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -1322,9 +1220,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible"
-      ]
+      "issues": []
     },
     {
       "pathname": "/food/",
@@ -1335,6 +1231,121 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
+      "mainCount": 6,
+      "subCount": 8,
+      "logoWidth": 39,
+      "barHeight": 73,
+      "navCount": 1,
+      "pageCurrent": 1,
+      "matched": "/things-to-do/",
+      "issues": []
+    },
+    {
+      "pathname": "/food/",
+      "width": 1440,
+      "doc": 1440,
+      "screen": 1440,
+      "headerWidth": 1440,
+      "primaryDisplay": "flex",
+      "secondaryDisplay": "block",
+      "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
+      "mainCount": 6,
+      "subCount": 8,
+      "logoWidth": 39,
+      "barHeight": 73,
+      "navCount": 1,
+      "pageCurrent": 1,
+      "matched": "/things-to-do/",
+      "issues": []
+    },
+    {
+      "pathname": "/shopping/",
+      "width": 320,
+      "doc": 320,
+      "screen": 320,
+      "headerWidth": 320,
+      "primaryDisplay": "none",
+      "secondaryDisplay": "none",
+      "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
+      "mainCount": 6,
+      "subCount": 8,
+      "logoWidth": 32,
+      "barHeight": 66,
+      "navCount": 1,
+      "pageCurrent": 1,
+      "matched": "/things-to-do/",
+      "issues": []
+    },
+    {
+      "pathname": "/shopping/",
+      "width": 390,
+      "doc": 390,
+      "screen": 390,
+      "headerWidth": 390,
+      "primaryDisplay": "none",
+      "secondaryDisplay": "none",
+      "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
+      "mainCount": 6,
+      "subCount": 8,
+      "logoWidth": 32,
+      "barHeight": 66,
+      "navCount": 1,
+      "pageCurrent": 1,
+      "matched": "/things-to-do/",
+      "issues": []
+    },
+    {
+      "pathname": "/shopping/",
+      "width": 768,
+      "doc": 768,
+      "screen": 768,
+      "headerWidth": 768,
+      "primaryDisplay": "none",
+      "secondaryDisplay": "none",
+      "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
+      "mainCount": 6,
+      "subCount": 8,
+      "logoWidth": 36,
+      "barHeight": 66,
+      "navCount": 1,
+      "pageCurrent": 1,
+      "matched": "/things-to-do/",
+      "issues": []
+    },
+    {
+      "pathname": "/shopping/",
+      "width": 1024,
+      "doc": 1024,
+      "screen": 1024,
+      "headerWidth": 1024,
+      "primaryDisplay": "none",
+      "secondaryDisplay": "none",
+      "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
+      "mainCount": 6,
+      "subCount": 8,
+      "logoWidth": 36,
+      "barHeight": 66,
+      "navCount": 1,
+      "pageCurrent": 1,
+      "matched": "/things-to-do/",
+      "issues": []
+    },
+    {
+      "pathname": "/shopping/",
+      "width": 1200,
+      "doc": 1200,
+      "screen": 1200,
+      "headerWidth": 1200,
+      "primaryDisplay": "flex",
+      "secondaryDisplay": "block",
+      "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -1343,135 +1354,10 @@
       "pageCurrent": 1,
       "matched": "/things-to-do/",
       "issues": [
-        "desktop 2-tier visibility",
         "hover mega menu not shown"
       ]
     },
     {
-      "pathname": "/food/",
-      "width": 1440,
-      "doc": 1440,
-      "screen": 1440,
-      "headerWidth": 1440,
-      "primaryDisplay": "flex",
-      "secondaryDisplay": "block",
-      "toggleDisplay": "inline-flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
-      "navCount": 1,
-      "pageCurrent": 1,
-      "matched": "/things-to-do/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
-    },
-    {
-      "pathname": "/shopping/",
-      "width": 320,
-      "doc": 320,
-      "screen": 320,
-      "headerWidth": 320,
-      "primaryDisplay": "none",
-      "secondaryDisplay": "none",
-      "toggleDisplay": "flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 32,
-      "barHeight": 66,
-      "navCount": 1,
-      "pageCurrent": 1,
-      "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
-    },
-    {
-      "pathname": "/shopping/",
-      "width": 390,
-      "doc": 390,
-      "screen": 390,
-      "headerWidth": 390,
-      "primaryDisplay": "none",
-      "secondaryDisplay": "none",
-      "toggleDisplay": "flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 32,
-      "barHeight": 66,
-      "navCount": 1,
-      "pageCurrent": 1,
-      "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
-    },
-    {
-      "pathname": "/shopping/",
-      "width": 768,
-      "doc": 768,
-      "screen": 768,
-      "headerWidth": 768,
-      "primaryDisplay": "none",
-      "secondaryDisplay": "none",
-      "toggleDisplay": "flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 36,
-      "barHeight": 66,
-      "navCount": 1,
-      "pageCurrent": 1,
-      "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
-    },
-    {
-      "pathname": "/shopping/",
-      "width": 1024,
-      "doc": 1024,
-      "screen": 1024,
-      "headerWidth": 1024,
-      "primaryDisplay": "none",
-      "secondaryDisplay": "none",
-      "toggleDisplay": "flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 36,
-      "barHeight": 66,
-      "navCount": 1,
-      "pageCurrent": 1,
-      "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
-    },
-    {
-      "pathname": "/shopping/",
-      "width": 1200,
-      "doc": 1200,
-      "screen": 1200,
-      "headerWidth": 1200,
-      "primaryDisplay": "flex",
-      "secondaryDisplay": "block",
-      "toggleDisplay": "inline-flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
-      "navCount": 1,
-      "pageCurrent": 1,
-      "matched": "/things-to-do/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
-    },
-    {
       "pathname": "/shopping/",
       "width": 1440,
       "doc": 1440,
@@ -1480,6 +1366,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -1487,9 +1374,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/seasons/",
@@ -1500,6 +1385,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -1507,10 +1393,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/seasons/",
@@ -1521,6 +1404,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -1528,10 +1412,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/seasons/",
@@ -1542,6 +1423,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -1549,10 +1431,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/seasons/",
@@ -1563,6 +1442,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -1570,10 +1450,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/seasons/",
@@ -1584,6 +1461,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -1591,9 +1469,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/seasons/",
@@ -1604,6 +1480,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -1611,9 +1488,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/photo-spots/",
@@ -1624,6 +1499,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -1631,10 +1507,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/photo-spots/",
@@ -1645,6 +1518,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -1652,10 +1526,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/photo-spots/",
@@ -1666,6 +1537,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -1673,10 +1545,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/photo-spots/",
@@ -1687,6 +1556,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -1694,9 +1564,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/photo-spots/",
@@ -1707,6 +1575,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -1714,136 +1583,125 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
+      "issues": []
+    },
+    {
+      "pathname": "/photo-spots/",
+      "width": 1440,
+      "doc": 1440,
+      "screen": 1440,
+      "headerWidth": 1440,
+      "primaryDisplay": "flex",
+      "secondaryDisplay": "block",
+      "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
+      "mainCount": 6,
+      "subCount": 8,
+      "logoWidth": 39,
+      "barHeight": 73,
+      "navCount": 1,
+      "pageCurrent": 1,
+      "matched": "/things-to-do/",
+      "issues": []
+    },
+    {
+      "pathname": "/voucher/",
+      "width": 320,
+      "doc": 320,
+      "screen": 320,
+      "headerWidth": 320,
+      "primaryDisplay": "none",
+      "secondaryDisplay": "none",
+      "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
+      "mainCount": 6,
+      "subCount": 8,
+      "logoWidth": 32,
+      "barHeight": 66,
+      "navCount": 1,
+      "pageCurrent": 1,
+      "matched": "/practical/",
+      "issues": []
+    },
+    {
+      "pathname": "/voucher/",
+      "width": 390,
+      "doc": 390,
+      "screen": 390,
+      "headerWidth": 390,
+      "primaryDisplay": "none",
+      "secondaryDisplay": "none",
+      "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
+      "mainCount": 6,
+      "subCount": 8,
+      "logoWidth": 32,
+      "barHeight": 66,
+      "navCount": 1,
+      "pageCurrent": 1,
+      "matched": "/practical/",
+      "issues": []
+    },
+    {
+      "pathname": "/voucher/",
+      "width": 768,
+      "doc": 768,
+      "screen": 768,
+      "headerWidth": 768,
+      "primaryDisplay": "none",
+      "secondaryDisplay": "none",
+      "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
+      "mainCount": 6,
+      "subCount": 8,
+      "logoWidth": 36,
+      "barHeight": 66,
+      "navCount": 1,
+      "pageCurrent": 1,
+      "matched": "/practical/",
+      "issues": []
+    },
+    {
+      "pathname": "/voucher/",
+      "width": 1024,
+      "doc": 1024,
+      "screen": 1024,
+      "headerWidth": 1024,
+      "primaryDisplay": "none",
+      "secondaryDisplay": "none",
+      "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
+      "mainCount": 6,
+      "subCount": 8,
+      "logoWidth": 36,
+      "barHeight": 66,
+      "navCount": 1,
+      "pageCurrent": 1,
+      "matched": "/practical/",
+      "issues": []
+    },
+    {
+      "pathname": "/voucher/",
+      "width": 1200,
+      "doc": 1200,
+      "screen": 1200,
+      "headerWidth": 1200,
+      "primaryDisplay": "flex",
+      "secondaryDisplay": "block",
+      "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
+      "mainCount": 6,
+      "subCount": 8,
+      "logoWidth": 39,
+      "barHeight": 73,
+      "navCount": 1,
+      "pageCurrent": 1,
+      "matched": "/practical/",
       "issues": [
-        "desktop 2-tier visibility",
         "hover mega menu not shown"
       ]
     },
     {
-      "pathname": "/photo-spots/",
-      "width": 1440,
-      "doc": 1440,
-      "screen": 1440,
-      "headerWidth": 1440,
-      "primaryDisplay": "flex",
-      "secondaryDisplay": "block",
-      "toggleDisplay": "inline-flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
-      "navCount": 1,
-      "pageCurrent": 1,
-      "matched": "/things-to-do/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
-    },
-    {
-      "pathname": "/voucher/",
-      "width": 320,
-      "doc": 320,
-      "screen": 320,
-      "headerWidth": 320,
-      "primaryDisplay": "none",
-      "secondaryDisplay": "none",
-      "toggleDisplay": "flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 32,
-      "barHeight": 66,
-      "navCount": 1,
-      "pageCurrent": 1,
-      "matched": "/practical/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
-    },
-    {
-      "pathname": "/voucher/",
-      "width": 390,
-      "doc": 390,
-      "screen": 390,
-      "headerWidth": 390,
-      "primaryDisplay": "none",
-      "secondaryDisplay": "none",
-      "toggleDisplay": "flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 32,
-      "barHeight": 66,
-      "navCount": 1,
-      "pageCurrent": 1,
-      "matched": "/practical/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
-    },
-    {
-      "pathname": "/voucher/",
-      "width": 768,
-      "doc": 768,
-      "screen": 768,
-      "headerWidth": 768,
-      "primaryDisplay": "none",
-      "secondaryDisplay": "none",
-      "toggleDisplay": "flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 36,
-      "barHeight": 66,
-      "navCount": 1,
-      "pageCurrent": 1,
-      "matched": "/practical/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
-    },
-    {
-      "pathname": "/voucher/",
-      "width": 1024,
-      "doc": 1024,
-      "screen": 1024,
-      "headerWidth": 1024,
-      "primaryDisplay": "none",
-      "secondaryDisplay": "none",
-      "toggleDisplay": "flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 36,
-      "barHeight": 66,
-      "navCount": 1,
-      "pageCurrent": 1,
-      "matched": "/practical/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
-    },
-    {
-      "pathname": "/voucher/",
-      "width": 1200,
-      "doc": 1200,
-      "screen": 1200,
-      "headerWidth": 1200,
-      "primaryDisplay": "flex",
-      "secondaryDisplay": "block",
-      "toggleDisplay": "inline-flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
-      "navCount": 1,
-      "pageCurrent": 1,
-      "matched": "/practical/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
-    },
-    {
       "pathname": "/voucher/",
       "width": 1440,
       "doc": 1440,
@@ -1852,6 +1710,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -1859,9 +1718,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/practical/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/practical/",
@@ -1872,6 +1729,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -1879,10 +1737,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/practical/",
@@ -1893,6 +1748,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -1900,10 +1756,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/practical/",
@@ -1914,6 +1767,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -1921,10 +1775,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/practical/",
@@ -1935,6 +1786,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -1942,10 +1794,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/practical/",
@@ -1956,6 +1805,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -1963,10 +1813,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "desktop 2-tier visibility",
-        "hover mega menu not shown"
-      ]
+      "issues": []
     },
     {
       "pathname": "/practical/",
@@ -1977,6 +1824,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -1984,9 +1832,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/couple/",
@@ -1997,6 +1843,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -2004,10 +1851,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/couple/",
@@ -2018,6 +1862,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -2025,10 +1870,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/couple/",
@@ -2039,6 +1881,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -2046,10 +1889,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/couple/",
@@ -2060,6 +1900,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -2067,10 +1908,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/couple/",
@@ -2081,6 +1919,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -2089,7 +1928,6 @@
       "pageCurrent": 1,
       "matched": "/things-to-do/travel-companions/",
       "issues": [
-        "desktop 2-tier visibility",
         "hover mega menu not shown"
       ]
     },
@@ -2102,6 +1940,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -2109,9 +1948,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/life/don-quijote-first-guide/",
@@ -2122,6 +1959,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -2129,10 +1967,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/life/don-quijote-first-guide/",
@@ -2143,6 +1978,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 32,
@@ -2150,10 +1986,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/life/don-quijote-first-guide/",
@@ -2164,6 +1997,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -2171,10 +2005,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/life/don-quijote-first-guide/",
@@ -2185,6 +2016,7 @@
       "primaryDisplay": "none",
       "secondaryDisplay": "none",
       "toggleDisplay": "flex",
+      "controlsDisplay": "flex",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 36,
@@ -2192,10 +2024,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "mobile panel not visible",
-        "Escape did not close mobile menu"
-      ]
+      "issues": []
     },
     {
       "pathname": "/life/don-quijote-first-guide/",
@@ -2206,6 +2035,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -2213,9 +2043,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     },
     {
       "pathname": "/life/don-quijote-first-guide/",
@@ -2226,6 +2054,7 @@
       "primaryDisplay": "flex",
       "secondaryDisplay": "block",
       "toggleDisplay": "inline-flex",
+      "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
       "logoWidth": 39,
@@ -2233,193 +2062,14 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "desktop 2-tier visibility"
-      ]
+      "issues": []
     }
   ],
   "errors": [
-    "/ 320: mobile panel not visible",
-    "/ 320: Escape did not close mobile menu",
-    "/ 390: mobile panel not visible",
-    "/ 390: Escape did not close mobile menu",
-    "/ 768: mobile panel not visible",
-    "/ 768: Escape did not close mobile menu",
-    "/ 1024: mobile panel not visible",
-    "/ 1024: Escape did not close mobile menu",
-    "/ 1200: desktop 2-tier visibility",
-    "/ 1200: hover mega menu not shown",
-    "/ 1440: desktop 2-tier visibility",
-    "/japan/ 320: mobile panel not visible",
-    "/japan/ 320: Escape did not close mobile menu",
-    "/japan/ 390: mobile panel not visible",
-    "/japan/ 390: Escape did not close mobile menu",
-    "/japan/ 768: mobile panel not visible",
-    "/japan/ 768: Escape did not close mobile menu",
-    "/japan/ 1024: mobile panel not visible",
-    "/japan/ 1024: Escape did not close mobile menu",
-    "/japan/ 1200: desktop 2-tier visibility",
-    "/japan/ 1440: desktop 2-tier visibility",
-    "/japan/tokyo/ 320: mobile panel not visible",
-    "/japan/tokyo/ 320: Escape did not close mobile menu",
-    "/japan/tokyo/ 390: mobile panel not visible",
-    "/japan/tokyo/ 390: Escape did not close mobile menu",
-    "/japan/tokyo/ 768: mobile panel not visible",
-    "/japan/tokyo/ 768: Escape did not close mobile menu",
-    "/japan/tokyo/ 1024: mobile panel not visible",
-    "/japan/tokyo/ 1024: Escape did not close mobile menu",
-    "/japan/tokyo/ 1200: desktop 2-tier visibility",
-    "/japan/tokyo/ 1440: desktop 2-tier visibility",
-    "/japan/tokyo/disney-dpa-app-purchase/ 320: mobile panel not visible",
-    "/japan/tokyo/disney-dpa-app-purchase/ 320: Escape did not close mobile menu",
-    "/japan/tokyo/disney-dpa-app-purchase/ 390: mobile panel not visible",
-    "/japan/tokyo/disney-dpa-app-purchase/ 390: Escape did not close mobile menu",
-    "/japan/tokyo/disney-dpa-app-purchase/ 768: mobile panel not visible",
-    "/japan/tokyo/disney-dpa-app-purchase/ 768: Escape did not close mobile menu",
-    "/japan/tokyo/disney-dpa-app-purchase/ 1024: mobile panel not visible",
-    "/japan/tokyo/disney-dpa-app-purchase/ 1024: Escape did not close mobile menu",
-    "/japan/tokyo/disney-dpa-app-purchase/ 1200: desktop 2-tier visibility",
-    "/japan/tokyo/disney-dpa-app-purchase/ 1440: desktop 2-tier visibility",
-    "/japan-cruise/ 320: mobile panel not visible",
-    "/japan-cruise/ 320: Escape did not close mobile menu",
-    "/japan-cruise/ 390: mobile panel not visible",
-    "/japan-cruise/ 390: Escape did not close mobile menu",
-    "/japan-cruise/ 768: mobile panel not visible",
-    "/japan-cruise/ 768: Escape did not close mobile menu",
-    "/japan-cruise/ 1024: mobile panel not visible",
-    "/japan-cruise/ 1024: Escape did not close mobile menu",
-    "/japan-cruise/ 1200: desktop 2-tier visibility",
-    "/japan-cruise/ 1440: desktop 2-tier visibility",
-    "/booking/japan-cruise/ 320: mobile panel not visible",
-    "/booking/japan-cruise/ 320: Escape did not close mobile menu",
-    "/booking/japan-cruise/ 390: mobile panel not visible",
-    "/booking/japan-cruise/ 390: Escape did not close mobile menu",
-    "/booking/japan-cruise/ 768: mobile panel not visible",
-    "/booking/japan-cruise/ 768: Escape did not close mobile menu",
-    "/booking/japan-cruise/ 1024: mobile panel not visible",
-    "/booking/japan-cruise/ 1024: Escape did not close mobile menu",
-    "/booking/japan-cruise/ 1200: desktop 2-tier visibility",
-    "/booking/japan-cruise/ 1440: desktop 2-tier visibility",
-    "/things-to-do/ 320: mobile panel not visible",
-    "/things-to-do/ 320: Escape did not close mobile menu",
-    "/things-to-do/ 390: mobile panel not visible",
-    "/things-to-do/ 390: Escape did not close mobile menu",
-    "/things-to-do/ 768: Escape did not close mobile menu",
-    "/things-to-do/ 1024: Escape did not close mobile menu",
-    "/things-to-do/ 1200: desktop 2-tier visibility",
-    "/things-to-do/ 1440: desktop 2-tier visibility",
-    "/things-to-do/cruise-ports/ 320: mobile panel not visible",
-    "/things-to-do/cruise-ports/ 320: Escape did not close mobile menu",
-    "/things-to-do/cruise-ports/ 390: mobile panel not visible",
-    "/things-to-do/cruise-ports/ 390: Escape did not close mobile menu",
-    "/things-to-do/cruise-ports/ 768: mobile panel not visible",
-    "/things-to-do/cruise-ports/ 768: Escape did not close mobile menu",
-    "/things-to-do/cruise-ports/ 1024: mobile panel not visible",
-    "/things-to-do/cruise-ports/ 1024: Escape did not close mobile menu",
-    "/things-to-do/cruise-ports/ 1200: desktop 2-tier visibility",
-    "/things-to-do/cruise-ports/ 1200: hover mega menu not shown",
-    "/things-to-do/cruise-ports/ 1440: desktop 2-tier visibility",
-    "/things-to-do/travel-companions/ 320: mobile panel not visible",
-    "/things-to-do/travel-companions/ 320: Escape did not close mobile menu",
-    "/things-to-do/travel-companions/ 390: mobile panel not visible",
-    "/things-to-do/travel-companions/ 390: Escape did not close mobile menu",
-    "/things-to-do/travel-companions/ 768: mobile panel not visible",
-    "/things-to-do/travel-companions/ 768: Escape did not close mobile menu",
-    "/things-to-do/travel-companions/ 1024: mobile panel not visible",
-    "/things-to-do/travel-companions/ 1024: Escape did not close mobile menu",
-    "/things-to-do/travel-companions/ 1200: desktop 2-tier visibility",
     "/things-to-do/travel-companions/ 1200: hover mega menu not shown",
-    "/things-to-do/travel-companions/ 1440: desktop 2-tier visibility",
-    "/things-to-do/naha-cruise-port-day-trip/ 320: mobile panel not visible",
-    "/things-to-do/naha-cruise-port-day-trip/ 320: Escape did not close mobile menu",
-    "/things-to-do/naha-cruise-port-day-trip/ 390: mobile panel not visible",
-    "/things-to-do/naha-cruise-port-day-trip/ 390: Escape did not close mobile menu",
-    "/things-to-do/naha-cruise-port-day-trip/ 768: mobile panel not visible",
-    "/things-to-do/naha-cruise-port-day-trip/ 768: Escape did not close mobile menu",
-    "/things-to-do/naha-cruise-port-day-trip/ 1024: mobile panel not visible",
-    "/things-to-do/naha-cruise-port-day-trip/ 1024: Escape did not close mobile menu",
-    "/things-to-do/naha-cruise-port-day-trip/ 1200: desktop 2-tier visibility",
-    "/things-to-do/naha-cruise-port-day-trip/ 1440: desktop 2-tier visibility",
-    "/food/ 320: mobile panel not visible",
-    "/food/ 320: Escape did not close mobile menu",
-    "/food/ 390: mobile panel not visible",
-    "/food/ 768: Escape did not close mobile menu",
-    "/food/ 1024: mobile panel not visible",
-    "/food/ 1200: desktop 2-tier visibility",
-    "/food/ 1200: hover mega menu not shown",
-    "/food/ 1440: desktop 2-tier visibility",
-    "/shopping/ 320: mobile panel not visible",
-    "/shopping/ 320: Escape did not close mobile menu",
-    "/shopping/ 390: mobile panel not visible",
-    "/shopping/ 390: Escape did not close mobile menu",
-    "/shopping/ 768: mobile panel not visible",
-    "/shopping/ 768: Escape did not close mobile menu",
-    "/shopping/ 1024: mobile panel not visible",
-    "/shopping/ 1024: Escape did not close mobile menu",
-    "/shopping/ 1200: desktop 2-tier visibility",
-    "/shopping/ 1440: desktop 2-tier visibility",
-    "/seasons/ 320: mobile panel not visible",
-    "/seasons/ 320: Escape did not close mobile menu",
-    "/seasons/ 390: mobile panel not visible",
-    "/seasons/ 390: Escape did not close mobile menu",
-    "/seasons/ 768: mobile panel not visible",
-    "/seasons/ 768: Escape did not close mobile menu",
-    "/seasons/ 1024: mobile panel not visible",
-    "/seasons/ 1024: Escape did not close mobile menu",
-    "/seasons/ 1200: desktop 2-tier visibility",
-    "/seasons/ 1440: desktop 2-tier visibility",
-    "/photo-spots/ 320: mobile panel not visible",
-    "/photo-spots/ 320: Escape did not close mobile menu",
-    "/photo-spots/ 390: mobile panel not visible",
-    "/photo-spots/ 390: Escape did not close mobile menu",
-    "/photo-spots/ 768: mobile panel not visible",
-    "/photo-spots/ 768: Escape did not close mobile menu",
-    "/photo-spots/ 1024: Escape did not close mobile menu",
-    "/photo-spots/ 1200: desktop 2-tier visibility",
-    "/photo-spots/ 1200: hover mega menu not shown",
-    "/photo-spots/ 1440: desktop 2-tier visibility",
-    "/voucher/ 320: mobile panel not visible",
-    "/voucher/ 320: Escape did not close mobile menu",
-    "/voucher/ 390: mobile panel not visible",
-    "/voucher/ 390: Escape did not close mobile menu",
-    "/voucher/ 768: mobile panel not visible",
-    "/voucher/ 768: Escape did not close mobile menu",
-    "/voucher/ 1024: mobile panel not visible",
-    "/voucher/ 1024: Escape did not close mobile menu",
-    "/voucher/ 1200: desktop 2-tier visibility",
-    "/voucher/ 1440: desktop 2-tier visibility",
-    "/practical/ 320: mobile panel not visible",
-    "/practical/ 320: Escape did not close mobile menu",
-    "/practical/ 390: mobile panel not visible",
-    "/practical/ 390: Escape did not close mobile menu",
-    "/practical/ 768: mobile panel not visible",
-    "/practical/ 768: Escape did not close mobile menu",
-    "/practical/ 1024: mobile panel not visible",
-    "/practical/ 1024: Escape did not close mobile menu",
-    "/practical/ 1200: desktop 2-tier visibility",
-    "/practical/ 1200: hover mega menu not shown",
-    "/practical/ 1440: desktop 2-tier visibility",
-    "/couple/ 320: mobile panel not visible",
-    "/couple/ 320: Escape did not close mobile menu",
-    "/couple/ 390: mobile panel not visible",
-    "/couple/ 390: Escape did not close mobile menu",
-    "/couple/ 768: mobile panel not visible",
-    "/couple/ 768: Escape did not close mobile menu",
-    "/couple/ 1024: mobile panel not visible",
-    "/couple/ 1024: Escape did not close mobile menu",
-    "/couple/ 1200: desktop 2-tier visibility",
-    "/couple/ 1200: hover mega menu not shown",
-    "/couple/ 1440: desktop 2-tier visibility",
-    "/life/don-quijote-first-guide/ 320: mobile panel not visible",
-    "/life/don-quijote-first-guide/ 320: Escape did not close mobile menu",
-    "/life/don-quijote-first-guide/ 390: mobile panel not visible",
-    "/life/don-quijote-first-guide/ 390: Escape did not close mobile menu",
-    "/life/don-quijote-first-guide/ 768: mobile panel not visible",
-    "/life/don-quijote-first-guide/ 768: Escape did not close mobile menu",
-    "/life/don-quijote-first-guide/ 1024: mobile panel not visible",
-    "/life/don-quijote-first-guide/ 1024: Escape did not close mobile menu",
-    "/life/don-quijote-first-guide/ 1200: desktop 2-tier visibility",
-    "/life/don-quijote-first-guide/ 1440: desktop 2-tier visibility"
+    "/shopping/ 1200: hover mega menu not shown",
+    "/voucher/ 1200: hover mega menu not shown",
+    "/couple/ 1200: hover mega menu not shown"
   ],
   "warnings": [],
   "navDestinations": [
