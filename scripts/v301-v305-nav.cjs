@@ -65,7 +65,7 @@ function renderHeader(page){
    '<div class="nf301-flyout" id="nf301-fly-'+id+'"><h2>'+label+'</h2><p>원하는 항목을 선택하면 기존 전문 안내 페이지로 이동합니다.</p><div class="nf301-flygrid">'+flyItems(items)+'</div></div></div>';
  };
  const secondary=extras.map(([title,href])=>{
-  const isActive=page===getHref(href) || (title==='커플 여행'&&page==='/couple/');
+  const isActive=(!href.includes('#')&&page===getHref(href)) || (title==='커플 여행'&&page==='/couple/');
   return '<a href="'+href+'" class="'+(isActive?'nf301-active':'')+'"'+current(isActive)+'>'+title+'</a>';
  }).join('');
  const mobile=main.map(([id,label,href,children])=>{
@@ -77,7 +77,7 @@ function renderHeader(page){
    '<button class="nf301-mob-expand" type="button" aria-label="'+label+' 하위 항목 펼치기" aria-expanded="false" aria-controls="nf301-mob-'+id+'">⌄</button></div>'+
    '<div class="nf301-mob-options" id="nf301-mob-'+id+'" data-open="false">'+
    '<a href="'+href+'">'+label+' 전체 보기</a>'+
-   items.map(([title,link])=>'<a href="'+link+'"'+(page===getHref(link)?' class="nf301-active"':'')+'>'+title+'</a>').join('')+'</div></section>';
+   items.map(([title,link])=>'<a href="'+link+'"'+(!link.includes('#')&&page===getHref(link)?' class="nf301-active"':'')+'>'+title+'</a>').join('')+'</div></section>';
  }).join('');
  const expanded=main.map(renderItem).join('');
  return '<header class="site-header nf301-header" data-nf301="v305">'+
