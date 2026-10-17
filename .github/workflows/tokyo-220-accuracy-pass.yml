@@ -1,0 +1,41 @@
+name: Tokyo 220 accuracy editorial pass
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/tokyo_220_quality_pass.py'
+      - '.github/workflows/tokyo-220-accuracy-pass.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tokyo-220-accuracy-editorial
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Apply all 220 subject-specific editorial checks
+        run: python3 scripts/tokyo_220_quality_pass.py
+      - name: Confirm 220 pages and report
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('audit-reports/tokyo-220-editorial-pass.json').read_text())
+          assert d['pages']==220
+          assert all(x['editorial_checklist_present'] for x in d['items'])
+          print('All 220 editorial sections present. Fact/photo verification still pending.')
+          PY
+      - name: Commit editorial improvements
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/japan/tokyo audit-reports/tokyo-220-editorial-pass.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Tokyo V307: apply reader checklists to all 220 existing articles"
+            git push
+          fi
