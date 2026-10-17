@@ -1,0 +1,41 @@
+name: V301-V305 inventory header coverage across all published pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v301-v305-coverage.yml'
+      - 'scripts/v301-v305-coverage.mjs'
+permissions:
+  contents: write
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: true}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Build production pages
+        run: npm run build
+      - name: Inventory legacy and alternative header designs
+        run: node scripts/v301-v305-coverage.mjs
+      - name: Archive inventory
+        uses: actions/upload-artifact@v4
+        with:
+          name: v301-v305-all-pages-header-coverage
+          path: audit-reports/v301-v305/coverage.json
+          retention-days: 28
+      - name: Save inventory to Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v301-v305/coverage.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V305: classify all pages using older or missing headers"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 3
+          done
+          exit 1
