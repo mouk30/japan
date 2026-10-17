@@ -65,3 +65,6 @@
 /* Attribution text over licensed Tokyo photos */
 .tky-photo-credit{position:absolute;bottom:0;left:0;right:0;padding:19px 9px 6px;background:linear-gradient(transparent,rgba(0,0,0,.75));text-align:right;font-size:10px;line-height:1.4}
 .tky-photo-credit a{color:white!important;text-decoration:underline;text-underline-offset:2px}
+
+/* Licensed, subject-matched article imagery */
+.tokyo-article-photo-v1{margin:18px auto 24px;max-width:900px}.tokyo-article-photo-v1 img{display:block;width:100%;max-height:480px;object-fit:cover;border-radius:16px}.tokyo-article-photo-v1 figcaption{font-size:12px;line-height:1.5;color:#627387;margin-top:8px}.tokyo-article-photo-v1 figcaption a{text-decoration:underline}
