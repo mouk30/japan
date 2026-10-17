@@ -2,7 +2,7 @@
 """Tokyo 220 exhaustive per-article image candidate audit. Candidate != approved.
 Searches Commons for exact article-specific named subjects; preserves existing photos.
 Does not publish unreviewed images. Never adds generic substitutes."""
-import concurrent.futures,datetime,html,json,pathlib,re,time,urllib.parse,urllib.request
+import concurrent.futures,datetime,html,json,pathlib,re,time,urllib.parse,urllib.request,urllib.error
 ROOT=pathlib.Path("site")
 pages=sorted((ROOT/"japan/tokyo").glob("*/index.html"))
 assert len(pages)==220,len(pages)
@@ -27,7 +27,17 @@ def search_one(path):
  terms="Tokyo "+" ".join(tokens[:4]) if tokens else "Tokyo "+title
  params=urllib.parse.urlencode({"action":"query","format":"json","generator":"search","gsrsearch":terms+" filetype:bitmap","gsrnamespace":6,"gsrlimit":8,"prop":"imageinfo","iiprop":"extmetadata|url"})
  try:
-  with urllib.request.urlopen(urllib.request.Request("https://commons.wikimedia.org/w/api.php?"+params,headers=headers),timeout=22) as response:raw=json.load(response)
+  raw=None
+  for attempt in range(4):
+   try:
+    with urllib.request.urlopen(urllib.request.Request("https://commons.wikimedia.org/w/api.php?"+params,headers=headers),timeout=30) as response:raw=json.load(response)
+    break
+   except urllib.error.HTTPError as e:
+    if e.code not in (429,500,502,503,504) or attempt==3:raise
+    time.sleep(10*(attempt+1))
+   except urllib.error.URLError:
+    if attempt==3:raise
+    time.sleep(10*(attempt+1))
   for page in raw.get("query",{}).get("pages",{}).values():
    info=(page.get("imageinfo") or [{}])[0]
    m=info.get("extmetadata",{})
@@ -46,6 +56,7 @@ report={"generated_utc":datetime.datetime.now(datetime.timezone.utc).isoformat()
 "approved_photos_before_this_job":len(approved),
 "candidate_search_attempts":len(results)-len(approved),
 "with_candidates":sum(bool(x["candidates"]) for x in results),
+"search_errors":sum(bool(x.get("search_error")) for x in results),
 "warning":"Candidate file name, license and search result do NOT prove actual location/subject. Human/photo inspection and live browser confirmation are required.",
 "items":results}
 out=pathlib.Path("audit-reports/tokyo-220-photo-candidates.json")
