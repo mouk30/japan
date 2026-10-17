@@ -81,7 +81,7 @@ try{
     if(width>=1200){
      if(el.primaryDisplay==='none'||el.secondaryDisplay==='none'||el.controlsDisplay!=='none')issues.push('desktop 2-tier visibility');
      const item=pg.locator('.nf301-item[data-dropdown="japan"]');
-     await item.hover();
+     await item.locator('.nf301-mainlink').hover();
      const fly=item.locator('.nf301-flyout');
      try{await fly.waitFor({state:'visible',timeout:1500})}catch{
        // Some embedded legacy article styles have hover race conditions at 1200px.
@@ -97,13 +97,13 @@ try{
      const bb=await fly.boundingBox();
      if(bb&&(bb.x < -2||bb.x+bb.width>width+2))issues.push('dropdown outside viewport');
      const last=pg.locator('.nf301-item[data-dropdown="practical"]');
-     await last.hover();
+     await last.locator('.nf301-mainlink').hover();
      const bb2=await last.locator('.nf301-flyout').boundingBox();
      if(!bb2||bb2.x < -2||bb2.x+bb2.width>width+2)issues.push('rightmost dropdown offscreen');
      await pg.keyboard.press('Escape');
      if(pathname==='/'&&width===1440){
       await pg.screenshot({path:OUT+'/v302-desktop-1440.png',fullPage:false});
-      await item.hover();
+      await item.locator('.nf301-mainlink').hover();
       await pg.screenshot({path:OUT+'/v304-japan-megamenu-1440.png',fullPage:false});
      }
     }else{
