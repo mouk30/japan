@@ -1,2 +1,22 @@
-/* Tokyo visual cards: reuse existing site-owned imagery only; no unverified external links. */
-(()=>{const rules=[["disney|dpa|fantasy-springs|maihama|park-ticket|happy-entry","/images/culture-verified/family-with-kids.webp"],["ramen|noodle|soba|udon","/images/culture-verified/ramen-japanese-noodle-evolution.webp"],["sushi|seafood|tsukiji|toyosu-market","/images/culture-verified/sushi-edo-japanese-food-history.webp"],["yakitori|izakaya","/images/culture-verified/yakitori-japanese-skewer-culture.webp"],["tempura","/images/culture-verified/tempura-japanese-fried-food.webp"],["monja|okonomiyaki","/images/culture-verified/okonomiyaki-osaka-hiroshima.webp"],["food|depachika|bento|department-b1|gourmet","/images/culture-verified/depachika-japanese-department-food.webp"],["kissaten|cafe|coffee","/images/culture-verified/kissaten-japanese-retro-coffee.webp"],["matcha|wagashi|tea","/images/culture-verified/matcha-sencha-japanese-green-tea.webp"],["cruise|pier|terminal|port|harumi","/images/editorial/tokyo-cruise-port-day-trip.webp"],["yurikamome|odaiba|monorail","/images/editorial/tokyo-yurikamome-automated-train.webp"],["station|marunouchi|tokyo-rail|tokyo-east|train|subway|metro|yamanote|keikyu|narita|haneda|bus|shinkansen|transfer","/images/editorial/tokyo-station-marunouchi-facade.webp"],["ginza|isetan|mitsukoshi|daimaru|takashimaya|department|taxfree|donki|loft|muji|shopping|boutique|cosmetics","/images/culture-verified/japan-four-shopping-experiences.webp"],["kabuki|theater|stage","/images/culture-verified/kabuki-japanese-theater.webp"],["sensoji|asakusa|shrine|temple","/images/culture-verified/japanese-shrine-vs-buddhist-temple.webp"],["cherry|sakura|ueno-park","/images/culture-verified/hanami-japanese-cherry-blossom-picnic.webp"],["autumn|garden|ginkgo","/images/culture-verified/momijigari-japanese-autumn-leaves-culture.webp"],["night|sky|tower|observation|shibuya|shinjuku|roppongi|illumination","/images/venues/tokyo-city-night-real.webp"],["museum|art|exhibition","/images/culture-verified/japanese-woodblock-printmaking.webp"],["souvenir|character|anime|akihabara","/images/culture-verified/japanese-omiyage-souvenir-gift-culture.webp"],["street|alley|market|neighborhood|district","/images/culture-verified/japan-small-streets.webp"]].map(([q,src])=>[new RegExp(q,'i'),src]);const fallback="/images/venues/tokyo-city-night-real.webp";function pick(key){for(const [r,img] of rules){if(r.test(key))return img}return fallback}document.querySelectorAll(".tky-card").forEach((card,i)=>{if(card.querySelector("img"))return;const href=card.getAttribute("href")||"";const title=card.querySelector("h3")?.textContent?.trim()||"도쿄 여행";const slug=href.split("/").filter(Boolean).pop()||"";const src=pick(slug);const fig=document.createElement("span");fig.className="tky-card-photo";const img=document.createElement("img");img.src=src;img.alt=title+" 관련 여행 주제 이미지";img.loading=i<6?"eager":"lazy";img.decoding="async";img.width=720;img.height=420;fig.append(img);card.insertBefore(fig,card.firstChild)});})();
+/* Tokyo thumbnails: show a photograph only when it depicts the exact subject.
+   Other cards stay text-first until individually reviewed photographs are added. */
+(()=>{"use strict";
+const exact={
+"tokyo-cruise-odaiba-3hours":"/images/editorial/tokyo-cruise-port-day-trip.webp",
+"tokyo-odaiba-waterfront-yurikamome":"/images/editorial/tokyo-yurikamome-automated-train.webp",
+"tokyo-ramen-best-areas":"/images/culture-verified/ramen-japanese-noodle-evolution.webp",
+"tokyo-yakitori-izakaya-guide":"/images/culture-verified/yakitori-japanese-skewer-culture.webp",
+"tokyo-depachika-food-halls":"/images/culture-verified/depachika-japanese-department-food.webp",
+"tokyo-kissaten-retro-cafe":"/images/culture-verified/kissaten-japanese-retro-coffee.webp",
+"tokyo-matcha-wagashi":"/images/culture-verified/matcha-sencha-japanese-green-tea.webp"
+};
+document.querySelectorAll(".tky-card").forEach((card,i)=>{
+const slug=(card.getAttribute("href")||"").split("/").filter(Boolean).pop();
+const src=exact[slug];if(!src||card.querySelector("img"))return;
+const fig=document.createElement("span");fig.className="tky-card-photo";
+const img=document.createElement("img");img.src=src;
+img.alt="글 주제를 보여주는 참고 사진";img.loading=i<6?"eager":"lazy";
+img.decoding="async";img.width=720;img.height=420;
+fig.append(img);card.insertBefore(fig,card.firstChild);
+});
+})();
