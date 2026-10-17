@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17T00:43:04.863Z",
+  "date": "2026-10-17T00:43:25.513Z",
   "siteTotal": 1271,
   "unifiedHeaders": 1269,
   "withoutOriginalHeader": 2,
@@ -211,9 +211,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "hover mega menu not shown"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/",
@@ -669,9 +667,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": null,
-      "issues": [
-        "hover mega menu not shown"
-      ]
+      "issues": []
     },
     {
       "pathname": "/booking/japan-cruise/",
@@ -1015,9 +1011,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "hover mega menu not shown"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/travel-companions/",
@@ -1931,7 +1925,9 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/practical/",
-      "issues": []
+      "issues": [
+        "hover mega menu not shown"
+      ]
     },
     {
       "pathname": "/voucher/",
@@ -2159,9 +2155,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "hover mega menu not shown"
-      ]
+      "issues": []
     },
     {
       "pathname": "/couple/",
@@ -2298,12 +2292,9 @@
     }
   ],
   "errors": [
-    "/japan/ 1200: hover mega menu not shown",
-    "/booking/japan-cruise/ 1200: hover mega menu not shown",
     "/things-to-do/cruise-ports/ 1200: hover mega menu not shown",
-    "/things-to-do/travel-companions/ 1200: hover mega menu not shown",
     "/shopping/ 1200: hover mega menu not shown",
-    "/couple/ 1200: hover mega menu not shown"
+    "/voucher/ 1200: hover mega menu not shown"
   ],
   "warnings": [],
   "navDestinations": [
