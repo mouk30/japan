@@ -1,0 +1,27 @@
+name: Tokyo first 20 matched visuals
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_first_20_specific_images.py
+      - .github/workflows/tokyo-first-20-specific-images.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Produce 16 subject-specific visuals and preserve 4 exact photos
+        run: python3 scripts/tokyo_first_20_specific_images.py
+      - name: Commit visuals
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/tokyo-topics audit-reports/tokyo-first-20-specific-images.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Match Tokyo top twenty thumbnails to article subject"
+            git pull --rebase origin main
+            git push
+          fi
