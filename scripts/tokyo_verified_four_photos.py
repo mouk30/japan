@@ -7,7 +7,11 @@ items=[
 ("tokyo-asakusa-sensoji-kaminarimon","Senso-ji.jpg","Felix Filnkössl","CC BY-SA 3.0"),
 ("tokyo-shibuya-crossing-hachiko","Shibuya Crossing in July 2026.jpg","Gatorfan252525","CC BY-SA 4.0"),
 ("tokyo-shinjuku-night-sightseeing","Shinjuku Kabukicho Entrance.jpg","Ray Tsang","CC BY-SA 2.0"),
-("tokyo-akihabara-anime-shopping","Akihabara Electric Town Street - 31-5-2026.jpg","BWard 1997","CC BY 4.0")
+("tokyo-akihabara-anime-shopping","Akihabara Electric Town Street - 31-5-2026.jpg","BWard 1997","CC BY 4.0"),
+("tokyo-tower-tickets","TokyoTower.jpg","麒麟坊","CC BY-SA 3.0"),
+("tokyo-skytree-tickets","Tokyo Skytree.jpg","ShaiHuludKitty","CC BY-SA 4.0"),
+("tokyo-metropolitan-government-free-view","Tokyo Metropolitan Government Building 2024.jpg","Kakidai","CC BY-SA 4.0"),
+("tokyo-shibuya-sky-reservation","Taking In the View, Shibuya Sky Observation Deck (53416648301).jpg","Stephen Kelly","CC BY 2.0")
 ]
 headers={"User-Agent":"NipponferryTokyoPhotoEditorial/1.0 (https://www.nipponferry.com)","Accept":"application/json,image/*"}
 result=[]
