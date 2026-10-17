@@ -1,0 +1,28 @@
+name: Tokyo 61-220 subject-specific visuals
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_61_220_specific_images.py
+      - .github/workflows/tokyo-61-220-specific-images.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build 160 Tokyo post-specific visuals
+        run: python3 scripts/tokyo_61_220_specific_images.py
+      - name: Commit original illustrations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/tokyo-topics audit-reports/tokyo-61-220-specific-images.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Upgrade Tokyo cards 61-220 with subject-matched unique visual content"
+            git pull --rebase origin main
+            git push
+          fi
