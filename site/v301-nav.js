@@ -5,7 +5,8 @@ if(!header)return;
 const mobile=header.querySelector('#nf301-mobile-panel');
 const mobileToggle=header.querySelector('.nf301-toggle');
 const flyouts=[...header.querySelectorAll('.nf301-item[data-dropdown]')];
-function setFly(item,on){
+function setFly(item,on,reason=''){
+ item.dataset.openSource=on?reason:'';
  const btn=item.querySelector('.nf301-disclose');
  item.dataset.open=on?'true':'false';
  btn?.setAttribute('aria-expanded',String(on));
@@ -14,13 +15,25 @@ function setFly(item,on){
 function closeFly(){flyouts.forEach(i=>setFly(i,false))}
 flyouts.forEach(item=>{
  const btn=item.querySelector('.nf301-disclose');
- btn?.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();const open=item.dataset.open==='true';closeFly();setFly(item,!open)});
- item.addEventListener('mouseenter',()=>{if(matchMedia('(min-width: 1200px) and (hover:hover)').matches){closeFly();setFly(item,true)}});
- item.addEventListener('mouseleave',()=>{if(matchMedia('(min-width: 1200px) and (hover:hover)').matches)setFly(item,false)});
- item.addEventListener('focusin',()=>{if(matchMedia('(min-width: 1200px)').matches){closeFly();setFly(item,true)}});
+ btn?.addEventListener('click',e=>{
+  e.preventDefault();e.stopPropagation();
+  const explicit=item.dataset.open==='true'&&item.dataset.openSource==='click';
+  closeFly();
+  if(!explicit)setFly(item,true,'click');
+ });
+ item.addEventListener('mouseenter',()=>{if(matchMedia('(min-width: 1200px)').matches){closeFly();setFly(item,true,'hover')}});
+ item.addEventListener('mouseleave',()=>{if(matchMedia('(min-width: 1200px)').matches)setFly(item,false)});
+ item.addEventListener('focusin',()=>{if(matchMedia('(min-width: 1200px)').matches&&item.dataset.open!=='true'){closeFly();setFly(item,true,'focus')}});
  item.addEventListener('focusout',e=>{
   if(!item.contains(e.relatedTarget))setFly(item,false);
  });
+});
+// Restore dropdown on actual mouse motion when a page-specific style or browser
+// pointer capability causes an intermittent missed mouseenter on desktop.
+header.querySelector('.nf301-primary')?.addEventListener('pointermove',e=>{
+ if(e.pointerType!=='mouse'||!matchMedia('(min-width:1200px)').matches)return;
+ const item=e.target?.closest?.('.nf301-item[data-dropdown]');
+ if(item&&item.dataset.open!=='true'){closeFly();setFly(item,true,'hover')}
 });
 function mobileOpen(next,restoreFocus=false){
  if(!mobile||!mobileToggle)return;
