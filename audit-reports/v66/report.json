@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-16T12:17:44.851Z",
+  "createdAt": "2026-10-17T00:44:49.863Z",
   "widths": [
     320,
     390,
@@ -87,8 +87,13 @@
     {
       "name": "destinations",
       "width": 320,
-      "count": 7,
+      "count": 8,
       "images": [
+        {
+          "src": "/images/venues/tokyo-city-night-real.webp",
+          "alt": "실제 촬영된 도쿄타워와 도쿄 야경",
+          "ready": true
+        },
         {
           "src": "/images/venues/naha-shureimon.webp",
           "alt": "오키나와 나하 슈레이몬 역사 유적의 실제 사진",
@@ -125,7 +130,7 @@
           "ready": true
         }
       ],
-      "linkCount": 22,
+      "linkCount": 25,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-320.png"
@@ -241,8 +246,13 @@
     {
       "name": "destinations",
       "width": 390,
-      "count": 7,
+      "count": 8,
       "images": [
+        {
+          "src": "/images/venues/tokyo-city-night-real.webp",
+          "alt": "실제 촬영된 도쿄타워와 도쿄 야경",
+          "ready": true
+        },
         {
           "src": "/images/venues/naha-shureimon.webp",
           "alt": "오키나와 나하 슈레이몬 역사 유적의 실제 사진",
@@ -279,7 +289,7 @@
           "ready": true
         }
       ],
-      "linkCount": 22,
+      "linkCount": 25,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-390.png"
@@ -395,8 +405,13 @@
     {
       "name": "destinations",
       "width": 768,
-      "count": 7,
+      "count": 8,
       "images": [
+        {
+          "src": "/images/venues/tokyo-city-night-real.webp",
+          "alt": "실제 촬영된 도쿄타워와 도쿄 야경",
+          "ready": true
+        },
         {
           "src": "/images/venues/naha-shureimon.webp",
           "alt": "오키나와 나하 슈레이몬 역사 유적의 실제 사진",
@@ -433,7 +448,7 @@
           "ready": true
         }
       ],
-      "linkCount": 22,
+      "linkCount": 25,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-768.png"
@@ -549,8 +564,13 @@
     {
       "name": "destinations",
       "width": 1440,
-      "count": 7,
+      "count": 8,
       "images": [
+        {
+          "src": "/images/venues/tokyo-city-night-real.webp",
+          "alt": "실제 촬영된 도쿄타워와 도쿄 야경",
+          "ready": true
+        },
         {
           "src": "/images/venues/naha-shureimon.webp",
           "alt": "오키나와 나하 슈레이몬 역사 유적의 실제 사진",
@@ -587,7 +607,7 @@
           "ready": true
         }
       ],
-      "linkCount": 22,
+      "linkCount": 25,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-1440.png"
@@ -627,6 +647,6 @@
   "errors": [],
   "warnings": [],
   "source": "site/index.html",
-  "checkedInternalLinks": 82,
+  "checkedInternalLinks": 85,
   "passed": true
 }
