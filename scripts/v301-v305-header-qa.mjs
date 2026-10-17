@@ -65,6 +65,7 @@ try{
        primaryDisplay:getComputedStyle(primary).display,
        secondaryDisplay:getComputedStyle(secondary).display,
        toggleDisplay:getComputedStyle(toggle).display,
+       controlsDisplay:getComputedStyle(h.querySelector('.nf301-mobile-controls')).display,
        mainCount:h?.querySelectorAll('.nf301-primary .nf301-item').length,
        subCount:sub.length,logoWidth:logo?.getBoundingClientRect().width||0,
        barHeight:bar?.getBoundingClientRect().height||0,
@@ -78,11 +79,11 @@ try{
     if(el.mainCount!==6||el.subCount!==8)issues.push('menu sizes '+el.mainCount+'/'+el.subCount);
     if(el.logoWidth>43)issues.push('logo too wide '+el.logoWidth);
     if(width>=1200){
-     if(el.primaryDisplay==='none'||el.secondaryDisplay==='none'||el.toggleDisplay!=='none')issues.push('desktop 2-tier visibility');
+     if(el.primaryDisplay==='none'||el.secondaryDisplay==='none'||el.controlsDisplay!=='none')issues.push('desktop 2-tier visibility');
      const item=pg.locator('.nf301-item[data-dropdown="japan"]');
      await item.hover();
      const fly=item.locator('.nf301-flyout');
-     if(!await fly.isVisible())issues.push('hover mega menu not shown');
+     try{await fly.waitFor({state:'visible',timeout:2400})}catch{issues.push('hover mega menu not shown')}
      const bb=await fly.boundingBox();
      if(bb&&(bb.x < -2||bb.x+bb.width>width+2))issues.push('dropdown outside viewport');
      const last=pg.locator('.nf301-item[data-dropdown="practical"]');
@@ -96,18 +97,19 @@ try{
       await pg.screenshot({path:OUT+'/v304-japan-megamenu-1440.png',fullPage:false});
      }
     }else{
-     if(el.primaryDisplay!=='none'||el.secondaryDisplay!=='none'||el.toggleDisplay==='none')issues.push('mobile hides desktop menus');
+     if(el.primaryDisplay!=='none'||el.secondaryDisplay!=='none'||el.controlsDisplay==='none')issues.push('mobile hides desktop menus');
      const toggle=pg.locator('.nf301-toggle');
      await toggle.click();
      if(await toggle.getAttribute('aria-expanded')!=='true')issues.push('mobile toggle aria');
-     if(!await pg.locator('#nf301-mobile-panel').isVisible())issues.push('mobile panel not visible');
+     try{await pg.locator('#nf301-mobile-panel').waitFor({state:'visible',timeout:2400})}catch{issues.push('mobile panel not visible')}
      const subBtn=pg.locator('.nf301-mob-group[data-mob-group="japan"] .nf301-mob-expand');
      await subBtn.click();
      if(await subBtn.getAttribute('aria-expanded')!=='true')issues.push('mobile submenu aria');
      if(!await pg.locator('#nf301-mob-japan a[href="/japan/tokyo/"]').isVisible())issues.push('Tokyo mobile region link invisible');
      if(pathname==='/'&&[320,390,768].includes(width))await pg.screenshot({path:OUT+'/v303-mobile-menu-'+width+'.png',fullPage:false});
      await pg.keyboard.press('Escape');
-     if(await toggle.getAttribute('aria-expanded')!=='false'||await pg.locator('#nf301-mobile-panel').isVisible())issues.push('Escape did not close mobile menu');
+     try{await pg.locator('#nf301-mobile-panel').waitFor({state:'hidden',timeout:2400})}catch{issues.push('Escape did not close mobile menu')}
+     if(await toggle.getAttribute('aria-expanded')!=='false')issues.push('Escape aria not reset');
      if(pathname==='/'&&width===390)await pg.screenshot({path:OUT+'/v301-mobile-home-390.png',fullPage:false});
     }
     if(pathname.startsWith('/japan/tokyo/')&&el.matched!=='/japan/')issues.push('Tokyo should activate Japan destinations');
