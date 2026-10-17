@@ -37,8 +37,11 @@ def search_one(path):
    item["candidates"].append({"commons_title":name,"commons_file_url":info.get("descriptionurl"),"license":license_name,"creator_html":m.get("Artist",{}).get("value","")[:500],"assessment":"NOT REVIEWED — no site publish"})
  except Exception as exc:item["search_error"]=str(exc)[:120]
  return item
-with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
- results=list(pool.map(search_one,pages))
+# Commons imposes rate limits. A one-at-a-time search respects API capacity.
+results=[]
+for i,path in enumerate(pages):
+ results.append(search_one(path))
+ if i<len(pages)-1:time.sleep(1.5)
 report={"generated_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"total":len(results),
 "approved_photos_before_this_job":len(approved),
 "candidate_search_attempts":len(results)-len(approved),
