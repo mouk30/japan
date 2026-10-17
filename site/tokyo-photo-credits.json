@@ -34,5 +34,41 @@
     "license": "CC BY 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Akihabara_Electric_Town_Street_-_31-5-2026.jpg",
     "size": 153200
+  },
+  {
+    "slug": "tokyo-tower-tickets",
+    "src": "/images/tokyo-verified/tokyo-tower-tickets.webp",
+    "title": "TokyoTower.jpg",
+    "credit": "麒麟坊",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TokyoTower.jpg",
+    "size": 29980
+  },
+  {
+    "slug": "tokyo-skytree-tickets",
+    "src": "/images/tokyo-verified/tokyo-skytree-tickets.webp",
+    "title": "Tokyo Skytree.jpg",
+    "credit": "ShaiHuludKitty",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree.jpg",
+    "size": 32820
+  },
+  {
+    "slug": "tokyo-metropolitan-government-free-view",
+    "src": "/images/tokyo-verified/tokyo-metropolitan-government-free-view.webp",
+    "title": "Tokyo Metropolitan Government Building 2024.jpg",
+    "credit": "Kakidai",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Metropolitan_Government_Building_2024.jpg",
+    "size": 160998
+  },
+  {
+    "slug": "tokyo-shibuya-sky-reservation",
+    "src": "/images/tokyo-verified/tokyo-shibuya-sky-reservation.webp",
+    "title": "Taking In the View, Shibuya Sky Observation Deck (53416648301).jpg",
+    "credit": "Stephen Kelly",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taking_In_the_View%2C_Shibuya_Sky_Observation_Deck_%2853416648301%29.jpg",
+    "size": 115716
   }
 ]
