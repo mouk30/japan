@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const {enhanceDocument}=require('./scripts/v301-v305-nav.cjs');
 const src = path.join(__dirname, 'site');
 const out = path.join(__dirname, 'dist');
 fs.rmSync(out, {recursive:true, force:true});
@@ -16,6 +17,7 @@ function walk(d, a=[]) {
   return a;
 }
 const pages=walk(out);
+let unifiedHeaders=0, legacyWithoutHeader=0;
 for(const file of pages) {
   let h=fs.readFileSync(file,'utf8');
   h=h.split('href="/#ferry"').join('href="/ferry/"');
@@ -52,6 +54,9 @@ for(const file of pages) {
   h=h.replace(/(>\s*)V\d{1,3}\b(?=\s*<)/g,'$1');
   // V68: the source-audit release number belongs in Git history, not visitor-facing badges.
   h=h.replaceAll('NIPPONFERRY · V68 SOURCED GUIDE ·', 'NIPPONFERRY · 공식 자료 점검 ·');
+  const nav=enhanceDocument(h,file,out);
+  h=nav.html;
+  if(nav.modified)unifiedHeaders++;else legacyWithoutHeader++;
   fs.writeFileSync(file,h);
 }
-console.log('Built',pages.length,'HTML pages; merged content navigation');
+console.log('Built',pages.length,'HTML pages; V301–V305 unified headers:',unifiedHeaders,'pages; others:',legacyWithoutHeader);
