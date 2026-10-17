@@ -1,0 +1,26 @@
+name: Tokyo 220 verified article photo integration
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_article_verified_photos.py
+      - .github/workflows/tokyo-article-verified-photos.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/tokyo_article_verified_photos.py
+      - name: Commit verified article image changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/japan/tokyo site/tokyo-guide.css
+          if ! git diff --cached --quiet; then
+            git commit -m "Integrate verified Tokyo image attribution and OG photos"
+            git pull --rebase origin main
+            git push
+          fi
