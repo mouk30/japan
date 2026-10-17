@@ -2,6 +2,7 @@ import fs from 'node:fs';
 const root='https://www.nipponferry.com';
 const pages=['/','/japan/','/japan/tokyo/','/japan/tokyo/disney-dpa-app-purchase/','/japan-cruise/','/booking/japan-cruise/',
 '/things-to-do/','/things-to-do/cruise-ports/','/things-to-do/travel-companions/','/things-to-do/naha-cruise-port-day-trip/',
+'/things-to-do/aomori-cruise-family-guide/','/things-to-do/aizu-wakamatsu-tsurugajo/',
 '/food/','/shopping/','/seasons/','/photo-spots/','/voucher/','/practical/','/couple/','/life/don-quijote-first-guide/','/okinawa/'];
 const report={time:new Date().toISOString(),versions:'V301-V305',pages:pages.length,attempts:[],assets:[],passed:false};
 async function inspect(p){
