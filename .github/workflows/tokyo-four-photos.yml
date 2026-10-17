@@ -1,0 +1,26 @@
+name: Tokyo four verified location thumbnails
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_verified_four_photos.py
+      - .github/workflows/tokyo-four-photos.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python scripts/tokyo_verified_four_photos.py
+      - name: Commit licensed site photos and credits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/tokyo-verified site/tokyo-card-photos.js site/tokyo-photo-credits.json
+          git diff --cached --quiet || (git commit -m "Publish four location-verified Tokyo WebP photos with attributions" && git push)
