@@ -19,6 +19,8 @@ async function inspect(p){
   if((h.match(/class="nf301-mob-group"/g)||[]).length!==4)errors.push('mobile accordion count incorrect');
   if(!h.includes('href="/booking/japan-cruise/"'))errors.push('booking preparation CTA missing');
   if(!h.includes('href="/japan/tokyo/"'))errors.push('Tokyo destination missing');
+  if(p==='/'&&(h.match(/class="nf305-shortcut(?: nf305-shortcut-first)?"/g)||[]).length!==6)errors.push('premium homepage six shortcuts missing');
+
   const canonical=h.match(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)/i)?.[1];
   if(canonical!=='https://www.nipponferry.com'+p)errors.push('canonical mismatch '+canonical);
  }catch(e){errors.push(String(e).slice(0,200))}
