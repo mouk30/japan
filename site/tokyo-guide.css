@@ -54,3 +54,10 @@
 .tky-card>small{margin-top:17px}.tky-card>strong{margin-bottom:19px;margin-top:auto}
 .tky-card>h3{font-size:16px;line-height:1.48}.tky-card>p{margin-bottom:16px}
 @media(max-width:560px){.tky-card-photo{aspect-ratio:16/9}.tky-card>small,.tky-card>h3,.tky-card>p,.tky-card>strong{margin-left:16px;margin-right:16px}}
+
+/* V309: avoid tall empty cards while verified photos are being sourced */
+.tky-cards{align-items:start}
+.tky-cards>.tky-card{height:auto;min-height:0;align-self:start}
+.tky-cards>.tky-card:not(:has(.tky-card-photo)){padding-top:1px}
+.tky-cards>.tky-card:not(:has(.tky-card-photo))>strong{margin-top:12px}
+.tky-cards>.tky-card:not(:has(.tky-card-photo))>p{flex:initial}
