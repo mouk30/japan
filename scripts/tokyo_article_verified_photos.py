@@ -24,7 +24,7 @@ for page in pages:
   author=html.escape(p["credit"])
   license=html.escape(p["license"])
   figure='<figure class="tokyo-article-photo-v1"><img src="'+html.escape(p["src"],quote=True)+'" alt="'+title+' — 실제 현장 사진" loading="lazy" decoding="async"><figcaption>사진: '+author+' · '+license+' · <a href="'+link+'" target="_blank" rel="noopener noreferrer">원본 및 이용 조건</a></figcaption></figure>'
-  m=re.search(r"<main\\b[^>]*>",text,re.I)
+  m=re.search(r"<main\b[^>]*>",text,re.I)
   if not m:raise RuntimeError("Missing main element: "+str(page))
   text=text[:m.end()]+figure+text[m.end():]
  page.write_text(text,encoding="utf8")
