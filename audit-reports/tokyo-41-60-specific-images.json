@@ -1,0 +1,29 @@
+{
+  "range": "41-60",
+  "count": 20,
+  "unique_files": 20,
+  "type": "topic-specific schematics",
+  "warning": "Illustrations are not actual station maps, physical signs, or verified exit geometry.",
+  "slugs": [
+    "shinjuku-exits",
+    "shibuya-hachiko-miyamasuzaka",
+    "tokyo-keiyo-platform",
+    "ikebukuro-east-west",
+    "ginza-three-lines",
+    "asakusa-operators",
+    "ueno-park-ameyoko",
+    "otemachi-transfer-five",
+    "kasumigaseki-government",
+    "roppongi-museum-exits",
+    "omotesando-three-subways",
+    "akasaka-nagatacho-connection",
+    "kudanshita-budokan",
+    "kanda-jr-ginza-transfer",
+    "nippori-skyliner-jr",
+    "akihabara-station-gates",
+    "tsukiji-two-stations",
+    "toyosu-shijomae-travel",
+    "oshiage-skytree-access",
+    "shinagawa-keikyu-jr"
+  ]
+}
