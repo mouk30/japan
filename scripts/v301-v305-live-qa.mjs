@@ -39,8 +39,9 @@ for(const p of ['/v301-nav.css','/v301-nav.js']){
  let status=0,bytes=0,issue='';
  try{
   const r=await fetch(root+p+'?cache='+Date.now(),{signal:AbortSignal.timeout(15000)});
-  status=r.status;bytes=(await r.arrayBuffer()).byteLength;
+  status=r.status;const raw=await r.arrayBuffer();bytes=raw.byteLength;
   if(status!==200||bytes<1800)issue='public asset invalid';
+  if(p.endsWith('.js')&&!new TextDecoder().decode(raw).includes('pointermove'))issue='latest desktop pointer interaction not yet deployed';
  }catch(e){issue=String(e)}
  report.assets.push({url:p,status,bytes,issue});
 }
