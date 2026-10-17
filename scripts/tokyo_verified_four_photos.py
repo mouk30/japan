@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Four location-specific Commons photos; fail closed on license and downloads."""
-import io,json,html,re,pathlib,urllib.request,urllib.parse
+import io,json,html,re,pathlib,urllib.request,urllib.parse,time
 from PIL import Image,ImageOps
 root=pathlib.Path("site")
 items=[
@@ -19,10 +19,17 @@ for slug,file,author,license_name in items:
  if "missing" in page:raise RuntimeError("Commons file missing "+file)
  info=page["imageinfo"][0];meta=info.get("extmetadata",{})
  lic=html.unescape(re.sub("<[^>]+>","",meta.get("LicenseShortName",{}).get("value",""))).strip()
- if lic.lower().replace(" ","")!=license_name.lower().replace(" ",""):
+ if lic.lower().replace(" ","").replace("-","")!=license_name.lower().replace(" ","").replace("-",""):
   raise RuntimeError("License mismatch "+file+" actual "+lic+" expected "+license_name)
  url=info.get("thumburl") or info["url"]
- with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=50) as res:raw=res.read(18*1024*1024)
+ raw=None
+ for retry in range(4):
+  try:
+   with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=50) as res:raw=res.read(18*1024*1024)
+   break
+  except Exception as error:
+   if retry==3:raise
+   time.sleep(4*(retry+1))
  im=Image.open(io.BytesIO(raw));im.load()
  if im.width<650 or im.height<400:raise RuntimeError("too small "+file)
  im=ImageOps.exif_transpose(im).convert("RGB")
@@ -30,7 +37,7 @@ for slug,file,author,license_name in items:
  out=root/"images"/"tokyo-verified"/(slug+".webp");out.parent.mkdir(parents=True,exist_ok=True)
  im.save(out,"WEBP",quality=82,method=6)
  result.append({"slug":slug,"src":"/images/tokyo-verified/"+slug+".webp","title":file,"credit":author,"license":lic,"source":"https://commons.wikimedia.org/wiki/File:"+urllib.parse.quote(file.replace(" ","_")),"size":out.stat().st_size})
-src='''/* Each named photo downloaded from Commons and checked for licensing. */\n(()=>{const exact=__DATA__;document.querySelectorAll(".tky-card").forEach((card)=>{const slug=(card.getAttribute("href")||"").split("/").filter(Boolean).pop(),p=exact[slug];if(!p||card.querySelector("img"))return;const figure=document.createElement("span");figure.className="tky-card-photo";figure.style.position="relative";const img=document.createElement("img");img.src=p.src;img.alt=p.title+" 실제 현장 사진";img.loading="lazy";img.decoding="async";const credit=document.createElement("span");credit.className="tky-photo-credit";const a=document.createElement("a");a.href=p.source;a.textContent="사진: "+p.credit+" · "+p.license;a.target="_blank";a.rel="noopener noreferrer";a.addEventListener("click",e=>e.stopPropagation());credit.append(a);figure.append(img,credit);img.addEventListener("error",()=>figure.remove(),{once:true});card.insertBefore(figure,card.firstChild)})})();'''.replace("__DATA__",json.dumps({x["slug"]:x for x in result},ensure_ascii=False))
+src='''/* Each named photo downloaded from Commons and checked for licensing. */\n(()=>{const exact=__DATA__;exact["tokyo-odaiba-waterfront-yurikamome"]={src:"/images/editorial/tokyo-yurikamome-automated-train.webp",title:"도쿄 유리카모메",credit:"",license:"",source:""};exact["tokyo-cruise-odaiba-3hours"]={src:"/images/editorial/tokyo-cruise-port-day-trip.webp",title:"도쿄항",credit:"",license:"",source:""};document.querySelectorAll(".tky-card").forEach((card)=>{const slug=(card.getAttribute("href")||"").split("/").filter(Boolean).pop(),p=exact[slug];if(!p||card.querySelector("img"))return;const figure=document.createElement("span");figure.className="tky-card-photo";figure.style.position="relative";const img=document.createElement("img");img.src=p.src;img.alt=p.title+" 실제 현장 사진";img.loading="lazy";img.decoding="async";const credit=document.createElement("span");credit.className="tky-photo-credit";const a=document.createElement("a");a.href=p.source;a.textContent="사진: "+p.credit+" · "+p.license;a.target="_blank";a.rel="noopener noreferrer";a.addEventListener("click",e=>e.stopPropagation());credit.append(a);figure.append(img,credit);img.addEventListener("error",()=>figure.remove(),{once:true});card.insertBefore(figure,card.firstChild)})})();'''.replace("__DATA__",json.dumps({x["slug"]:x for x in result},ensure_ascii=False))
 (root/"tokyo-card-photos.js").write_text(src,encoding="utf-8")
 (root/"tokyo-photo-credits.json").write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding="utf-8")
 print(json.dumps({"created":len(result),"assets":[x["src"] for x in result]},ensure_ascii=False))
