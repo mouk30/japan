@@ -61,3 +61,7 @@
 .tky-cards>.tky-card:not(:has(.tky-card-photo)){padding-top:1px}
 .tky-cards>.tky-card:not(:has(.tky-card-photo))>strong{margin-top:12px}
 .tky-cards>.tky-card:not(:has(.tky-card-photo))>p{flex:initial}
+
+/* Attribution text over licensed Tokyo photos */
+.tky-photo-credit{position:absolute;bottom:0;left:0;right:0;padding:19px 9px 6px;background:linear-gradient(transparent,rgba(0,0,0,.75));text-align:right;font-size:10px;line-height:1.4}
+.tky-photo-credit a{color:white!important;text-decoration:underline;text-underline-offset:2px}
