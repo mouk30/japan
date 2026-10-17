@@ -25,8 +25,18 @@
   - disney-park-app-ticket-share
   - disney-1day-admission-vs-dpa
 
-### 본문 대조 문단 추가: 11/220
+### 본문 대조 문단 추가: 16/220
 ### 사진 포함 4요건 모두 통과: 아직 확인된 게시글 없음
+
+## 추가 공식정보 대조 5편 (2026-10-17)
+- disney-ticket-date-change
+- disney-ticket-sold-out
+- disney-standby-pass-store
+- disney-entry-request-show
+- disney-priority-pass-free
+
+본문의 운영조건 확인 영역 보강 및 공식 링크 연결. 사진 4요건 통과와 구분.
+
 
 ## 다음 우선순위
 1. 전망대 5편: 실제 시설 사진, 촬영 대상 일치, 출처/사용권과 이미지 렌더링 QA
