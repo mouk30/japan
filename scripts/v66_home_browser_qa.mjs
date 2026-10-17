@@ -9,7 +9,7 @@ const widths=[320,390,768,1440];
 const sections=[
  {name:'themes',css:'.v63-theme-section',card:'.v63-card',expected:6},
  {name:'practical',css:'.v64-practical',card:'.v64-card',expected:5},
- {name:'destinations',css:'.v65-destinations',card:'.v65-card',expected:7},
+ {name:'destinations',css:'.v65-destinations',card:'.v65-card',expected:8},
  {name:'port-day-trips',css:'.d61-home-region',card:'.d61-home-card',expected:4},
 ];
 const report={createdAt:new Date().toISOString(),widths,results:[],errors:[],warnings:[],source:'site/index.html'};
