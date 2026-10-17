@@ -94,14 +94,28 @@ function renderHeader(page){
   '</header>';
 }
 function enhanceDocument(html,file,out){
- if(!/class=["'][^"']*\bsite-header\b/.test(html))return {html,modified:false};
  if(html.includes('data-nf301="v305"'))return {html,modified:false};
  const rel=path.relative(out,file).replace(/\\/g,'/');
  const pathname=rel==='index.html'?'/':'/'+rel.replace(/index\.html$/,'');
+ const hasSiteHeader=/<header\b[^>]*class=["'][^"']*\bsite-header\b/.test(html);
+ const legacyArticle=pathname.startsWith('/things-to-do/');
+ if(!hasSiteHeader&&!legacyArticle)return {html,modified:false};
  let applied=false;
- html=html.replace(/<header\b[^>]*class=["'][^"']*\bsite-header\b[^"']*["'][^>]*>[\s\S]*?<\/header>/i,()=>{
-  applied=true;return renderHeader(pathname);
- });
+ if(hasSiteHeader){
+  html=html.replace(/<header\b[^>]*class=["'][^"']*\bsite-header\b[^"']*["'][^>]*>[\s\S]*?<\/header>/i,()=>{applied=true;return renderHeader(pathname)});
+ }else{
+  // Replace a standalone old <header class="top|sitebar|sitehead"> only when it precedes main.
+  // Some editorial articles have no site header at all: add one just after the body tag,
+  // never delete an article's internal heading, figure or breadcrumb.
+  const oldHeader=/<header\b[^>]*>[\s\S]*?<\/header>/i.exec(html);
+  const mainIndex=html.search(/<main\b/i);
+  if(oldHeader && (mainIndex<0 || oldHeader.index<mainIndex)){
+   html=html.slice(0,oldHeader.index)+renderHeader(pathname)+html.slice(oldHeader.index+oldHeader[0].length);
+   applied=true;
+  }else{
+   html=html.replace(/<body\b[^>]*>/i,m=>{applied=true;return m+renderHeader(pathname)});
+  }
+ }
  if(!applied)return {html,modified:false};
  if(!html.includes('/v301-nav.css'))html=html.replace('</head>','<link rel="stylesheet" href="/v301-nav.css"><script src="/v301-nav.js" defer></script></head>');
  return {html,modified:true,pathname};
