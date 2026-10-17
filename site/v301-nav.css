@@ -92,3 +92,8 @@
 @media(min-width:1200px) and (hover:hover){
  .nf301-header .nf301-item[data-dropdown]:hover .nf301-flyout{display:block!important}
 }
+
+/* V305 final desktop pointer compatibility: do not rely on hover-capability media detection. */
+@media(min-width:1200px){
+ .nf301-header .nf301-item[data-dropdown]:hover .nf301-flyout{display:block!important}
+}
