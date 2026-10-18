@@ -1,0 +1,27 @@
+name: Tokyo 220 article content quality audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_220_content_audit.py
+      - .github/workflows/tokyo-content-audit.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/tokyo_220_content_audit.py
+      - name: Publish content audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/tokyo-220-content-quality.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Report repeated Tokyo article template headings and stale body illustrations"
+            git pull --rebase origin main
+            git push
+          fi
