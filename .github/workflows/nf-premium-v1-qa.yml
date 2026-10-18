@@ -1,0 +1,30 @@
+name: NIPPONFERRY premium homepage visual SEO QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/nf_premium_v1_live_qa.py
+      - .github/workflows/nf-premium-v1-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install playwright
+      - run: python -m playwright install --with-deps chromium
+      - run: python scripts/nf_premium_v1_live_qa.py
+      - name: Commit visual QA screenshots
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/nf-premium-v1
+          if ! git diff --cached --quiet; then
+            git commit -m "Record premium maritime homepage responsive browser QA"
+            git pull --rebase origin main
+            git push
+          fi
