@@ -1,0 +1,173 @@
+{
+  "total": 20,
+  "new_photos": 18,
+  "retained_illustration": {
+    "tokyo-winter-illumination-evening": "No distinct licensed itinerary or cruise image",
+    "tokyo-cruise-to-skytree": "No distinct licensed itinerary or cruise image"
+  },
+  "entries": {
+    "tokyo-arrival-haneda-halfday": {
+      "src": "/images/tokyo-verified/tokyo-arrival-haneda-halfday.webp",
+      "alt": "Haneda-Airport-Terminal-1-STA Gate.jpg 관련 역 사진",
+      "caption": "사진: MaedaAkihiko · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Haneda-Airport-Terminal-1-STA_Gate.jpg",
+      "license": "CC0",
+      "author": "MaedaAkihiko",
+      "source_file": "File:Haneda-Airport-Terminal-1-STA Gate.jpg"
+    },
+    "tokyo-narita-last-day": {
+      "src": "/images/tokyo-verified/tokyo-narita-last-day.webp",
+      "alt": "JR-Narita-Airport-station-entrance.jpg 관련 역 사진",
+      "caption": "사진: Tokyo-Good · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:JR-Narita-Airport-station-entrance.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Tokyo-Good",
+      "source_file": "File:JR-Narita-Airport-station-entrance.jpg"
+    },
+    "tokyo-firsttime-east-west": {
+      "src": "/images/tokyo-verified/tokyo-firsttime-east-west.webp",
+      "alt": "People at the Asakusa Sensoji Kaminarimon entrance.jpg 관련 역 사진",
+      "caption": "사진: Wikimedia Commons · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:People_at_the_Asakusa_Sensoji_Kaminarimon_entrance.jpg",
+      "license": "CC BY 2.0",
+      "author": "Wikimedia Commons",
+      "source_file": "File:People at the Asakusa Sensoji Kaminarimon entrance.jpg"
+    },
+    "tokyo-parents-flat-route": {
+      "src": "/images/tokyo-verified/tokyo-parents-flat-route.webp",
+      "alt": "April 2009, hanami in Ueno Park -39481.jpeg 관련 역 사진",
+      "caption": "사진: Syced · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:April_2009,_hanami_in_Ueno_Park_-39481.jpeg",
+      "license": "CC0",
+      "author": "Syced",
+      "source_file": "File:April 2009, hanami in Ueno Park -39481.jpeg"
+    },
+    "tokyo-stroller-rainy-day": {
+      "src": "/images/tokyo-verified/tokyo-stroller-rainy-day.webp",
+      "alt": "Tokyo International Forum - 51877773707.jpg 관련 역 사진",
+      "caption": "사진: Dick Thomas Johnson · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_International_Forum_-_51877773707.jpg",
+      "license": "CC BY 2.0",
+      "author": "Dick Thomas Johnson",
+      "source_file": "File:Tokyo International Forum - 51877773707.jpg"
+    },
+    "tokyo-toddler-underfive": {
+      "src": "/images/tokyo-verified/tokyo-toddler-underfive.webp",
+      "alt": "Ueno zoo Pallas cat.jpg 관련 역 사진",
+      "caption": "사진: pelican · CC BY-SA 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ueno_zoo_Pallas_cat.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "pelican",
+      "source_file": "File:Ueno zoo Pallas cat.jpg"
+    },
+    "tokyo-teens-anime-shopping": {
+      "src": "/images/tokyo-verified/tokyo-teens-anime-shopping.webp",
+      "alt": "Akihabara Electric Town 01.jpg 관련 역 사진",
+      "caption": "사진: Zairon · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Akihabara_Electric_Town_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Zairon",
+      "source_file": "File:Akihabara Electric Town 01.jpg"
+    },
+    "tokyo-couple-evening-nightview": {
+      "src": "/images/tokyo-verified/tokyo-couple-evening-nightview.webp",
+      "alt": "Rainbow Bridge in night.jpg 관련 역 사진",
+      "caption": "사진: Dquai · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_in_night.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dquai",
+      "source_file": "File:Rainbow Bridge in night.jpg"
+    },
+    "tokyo-budget-under-10000yen": {
+      "src": "/images/tokyo-verified/tokyo-budget-under-10000yen.webp",
+      "alt": "Ameyoko Market.jpg 관련 역 사진",
+      "caption": "사진: Ian David Winter · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ameyoko_Market.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ian David Winter",
+      "source_file": "File:Ameyoko Market.jpg"
+    },
+    "tokyo-luxury-ginza-day": {
+      "src": "/images/tokyo-verified/tokyo-luxury-ginza-day.webp",
+      "alt": "Ginza nine entrance chuo tokyo 2009.JPG 관련 역 사진",
+      "caption": "사진: 2009-04 · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ginza_nine_entrance_chuo_tokyo_2009.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "2009-04",
+      "source_file": "File:Ginza nine entrance chuo tokyo 2009.JPG"
+    },
+    "tokyo-rainy-day-museum": {
+      "src": "/images/tokyo-verified/tokyo-rainy-day-museum.webp",
+      "alt": "Tokyo National Museum Hyokeikan Entrance Hall P3303413.jpg 관련 역 사진",
+      "caption": "사진: Kestrel · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_Hyokeikan_Entrance_Hall_P3303413.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kestrel",
+      "source_file": "File:Tokyo National Museum Hyokeikan Entrance Hall P3303413.jpg"
+    },
+    "tokyo-summer-heat-indoor": {
+      "src": "/images/tokyo-verified/tokyo-summer-heat-indoor.webp",
+      "alt": "On the way to Sunshine City サンシャインシティ in Ikebukuro, Tokyo, Japan (26295481219).jpg 관련 역 사진",
+      "caption": "사진: Arjan Richter from Amsterdam, The Netherlands · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:On_the_way_to_Sunshine_City_%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%86%E3%82%A3_in_Ikebukuro,_Tokyo,_Japan_(26295481219).jpg",
+      "license": "CC BY 2.0",
+      "author": "Arjan Richter from Amsterdam, The Netherlands",
+      "source_file": "File:On the way to Sunshine City サンシャインシティ in Ikebukuro, Tokyo, Japan (26295481219).jpg"
+    },
+    "tokyo-cherry-blossom-two-spots": {
+      "src": "/images/tokyo-verified/tokyo-cherry-blossom-two-spots.webp",
+      "alt": "Meguro River cherry blossom 2025 April.jpg 관련 역 사진",
+      "caption": "사진: Wadakuramon · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Meguro_River_cherry_blossom_2025_April.jpg",
+      "license": "CC0",
+      "author": "Wadakuramon",
+      "source_file": "File:Meguro River cherry blossom 2025 April.jpg"
+    },
+    "tokyo-autumn-gardens": {
+      "src": "/images/tokyo-verified/tokyo-autumn-gardens.webp",
+      "alt": "Meiji Jingu Gaien Ginkgo Festival (53440769967).jpg 관련 역 사진",
+      "caption": "사진: Dick Thomas Johnson from Tokyo, Japan · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Meiji_Jingu_Gaien_Ginkgo_Festival_(53440769967).jpg",
+      "license": "CC BY 2.0",
+      "author": "Dick Thomas Johnson from Tokyo, Japan",
+      "source_file": "File:Meiji Jingu Gaien Ginkgo Festival (53440769967).jpg"
+    },
+    "tokyo-cruise-odaiba-3hours": {
+      "src": "/images/tokyo-verified/tokyo-cruise-odaiba-3hours.webp",
+      "alt": "Tokyo International Cruise Terminal.jpg 관련 역 사진",
+      "caption": "사진: Syced · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_International_Cruise_Terminal.jpg",
+      "license": "CC0",
+      "author": "Syced",
+      "source_file": "File:Tokyo International Cruise Terminal.jpg"
+    },
+    "tokyo-cruise-shuttle-vs-train": {
+      "src": "/images/tokyo-verified/tokyo-cruise-shuttle-vs-train.webp",
+      "alt": "Tokyo-International-Cruise-Terminal-STA Gate.jpg 관련 역 사진",
+      "caption": "사진: MaedaAkihiko · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo-International-Cruise-Terminal-STA_Gate.jpg",
+      "license": "CC0",
+      "author": "MaedaAkihiko",
+      "source_file": "File:Tokyo-International-Cruise-Terminal-STA Gate.jpg"
+    },
+    "tokyo-cruise-disney-possible": {
+      "src": "/images/tokyo-verified/tokyo-cruise-disney-possible.webp",
+      "alt": "Disney Resort Line.jpg 관련 역 사진",
+      "caption": "사진: っ · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_Resort_Line.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "っ",
+      "source_file": "File:Disney Resort Line.jpg"
+    },
+    "tokyo-lastday-taxfree-baggage": {
+      "src": "/images/tokyo-verified/tokyo-lastday-taxfree-baggage.webp",
+      "alt": "Sign of How to use a Coinlocker in Shinjuku Station.jpg 관련 역 사진",
+      "caption": "사진: MiNe · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Sign_of_How_to_use_a_Coinlocker_in_Shinjuku_Station.jpg",
+      "license": "CC BY 2.0",
+      "author": "MiNe",
+      "source_file": "File:Sign of How to use a Coinlocker in Shinjuku Station.jpg"
+    }
+  },
+  "note": "Filename and Commons license verified; physical accuracy of exit/route directions and public-browser rendering not certified."
+}
