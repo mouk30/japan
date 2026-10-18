@@ -1,0 +1,30 @@
+name: Tokyo 220 external source links QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_220_external_link_audit.py
+      - .github/workflows/tokyo-external-links-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  external-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/tokyo_220_external_link_audit.py
+      - name: Save official link reachability results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/tokyo-220-external-links.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Audit external official destination links across Tokyo 220 guides"
+            git pull --rebase origin main
+            git push
+          fi
