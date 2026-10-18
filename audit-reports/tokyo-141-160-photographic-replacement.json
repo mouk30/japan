@@ -1,0 +1,93 @@
+{
+  "total": 20,
+  "new_photos": 8,
+  "retained_illustration": {
+    "odaiba-kirakira-donki": "No distinct licensed department-store photo matching this topic",
+    "donki-taxfree-passport": "No distinct licensed department-store photo matching this topic",
+    "tokyo-drugstore-cosmetics": "No distinct licensed department-store photo matching this topic",
+    "tokyo-drugstore-sun-care": "No distinct licensed department-store photo matching this topic",
+    "tokyo-kbeauty-vs-jcosmetic": "No distinct licensed department-store photo matching this topic",
+    "muji-ginza-4f-taxfree": "No distinct licensed department-store photo matching this topic",
+    "muji-ginza-6f-atelier": "No distinct licensed department-store photo matching this topic",
+    "muji-ginza-food-b1": "No distinct licensed department-store photo matching this topic",
+    "shibuya-loft-stationery": "No distinct licensed department-store photo matching this topic",
+    "ikebukuro-loft-floors": "No distinct licensed department-store photo matching this topic",
+    "loft-stationery-gifts": "No distinct licensed department-store photo matching this topic",
+    "tokyo-hands-diy-gifts": "No distinct licensed department-store photo matching this topic"
+  },
+  "entries": {
+    "shibuya-mega-donki-by-floor": {
+      "src": "/images/tokyo-verified/shibuya-mega-donki-by-floor.webp",
+      "alt": "Product display in Don Quijote Shibuya branch.jpg 관련 역 사진",
+      "caption": "사진: 毒島みるく · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Product_display_in_Don_Quijote_Shibuya_branch.jpg",
+      "license": "CC0",
+      "author": "毒島みるく",
+      "source_file": "File:Product display in Don Quijote Shibuya branch.jpg"
+    },
+    "shinjuku-kabukicho-donki": {
+      "src": "/images/tokyo-verified/shinjuku-kabukicho-donki.webp",
+      "alt": "Don Quijote Shinjuku.JPG 관련 역 사진",
+      "caption": "사진: Kakidai · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Don_Quijote_Shinjuku.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Kakidai",
+      "source_file": "File:Don Quijote Shinjuku.JPG"
+    },
+    "donki-asakusa-check": {
+      "src": "/images/tokyo-verified/donki-asakusa-check.webp",
+      "alt": "Don Quijote building in Asakusa, Tokyo, 2019 - 521.jpg 관련 역 사진",
+      "caption": "사진: Another Believer · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Don_Quijote_building_in_Asakusa,_Tokyo,_2019_-_521.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Another Believer",
+      "source_file": "File:Don Quijote building in Asakusa, Tokyo, 2019 - 521.jpg"
+    },
+    "donki-roppongi-night-check": {
+      "src": "/images/tokyo-verified/donki-roppongi-night-check.webp",
+      "alt": "Don Quijote Roppongi Store-2012.jpg 관련 역 사진",
+      "caption": "사진: Momotarou2012 · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Don_Quijote_Roppongi_Store-2012.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Momotarou2012",
+      "source_file": "File:Don Quijote Roppongi Store-2012.jpg"
+    },
+    "tokyo-drugstore-contact-lens": {
+      "src": "/images/tokyo-verified/tokyo-drugstore-contact-lens.webp",
+      "alt": "Contact lens case (4481465795).jpg 관련 역 사진",
+      "caption": "사진: Lee Haywood from Wollaton, Nottingham, England · CC BY-SA 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Contact_lens_case_(4481465795).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Lee Haywood from Wollaton, Nottingham, England",
+      "source_file": "File:Contact lens case (4481465795).jpg"
+    },
+    "muji-ginza-floor-map": {
+      "src": "/images/tokyo-verified/muji-ginza-floor-map.webp",
+      "alt": "Suitcases in the Muji Ginza store November 2023.jpg 관련 역 사진",
+      "caption": "사진: Nick-D · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Suitcases_in_the_Muji_Ginza_store_November_2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Nick-D",
+      "source_file": "File:Suitcases in the Muji Ginza store November 2023.jpg"
+    },
+    "tokyo-electronics-bic-yodobashi": {
+      "src": "/images/tokyo-verified/tokyo-electronics-bic-yodobashi.webp",
+      "alt": "Bic Camera Shinjuku Station East.jpg 관련 역 사진",
+      "caption": "사진: Ryo Fukasawa from Tokyo, Japan · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Bic_Camera_Shinjuku_Station_East.jpg",
+      "license": "CC BY 2.0",
+      "author": "Ryo Fukasawa from Tokyo, Japan",
+      "source_file": "File:Bic Camera Shinjuku Station East.jpg"
+    },
+    "tokyo-shopping-luggage-locker": {
+      "src": "/images/tokyo-verified/tokyo-shopping-luggage-locker.webp",
+      "alt": "Sign of How to use a Coinlocker in Shinjuku Station.jpg 관련 역 사진",
+      "caption": "사진: MiNe · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Sign_of_How_to_use_a_Coinlocker_in_Shinjuku_Station.jpg",
+      "license": "CC BY 2.0",
+      "author": "MiNe",
+      "source_file": "File:Sign of How to use a Coinlocker in Shinjuku Station.jpg"
+    }
+  },
+  "note": "Filename and Commons license verified; physical accuracy of exit/route directions and public-browser rendering not certified."
+}
