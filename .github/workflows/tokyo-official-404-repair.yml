@@ -1,0 +1,27 @@
+name: Repair verified Tokyo official 404 links
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_repair_official_404_links.py
+      - .github/workflows/tokyo-official-404-repair.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/tokyo_repair_official_404_links.py
+      - name: Commit corrected official source URLs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/japan/tokyo audit-reports/tokyo-verified-official-404-repairs.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Replace seven stale Tokyo official source URLs"
+            git pull --rebase origin main
+            git push
+          fi
