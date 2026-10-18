@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "pages_changed": 1119,
+    "no_shared_header": 152,
+    "cta_added": 359
+  },
+  "sample_paths": [
+    "index.html",
+    "okinawa/index.html",
+    "tsushima-luggage-storage/index.html",
+    "kobe-cash-or-card/index.html",
+    "japan-cruise-checkin/index.html",
+    "fukuoka-cash-or-card/index.html",
+    "fukuoka-luggage-storage/index.html",
+    "busan-fukuoka-cruise/index.html",
+    "booking/index.html",
+    "fukuoka-hakata-vs-tenjin/index.html",
+    "kobe-luggage-storage/index.html",
+    "japan-cruise-seasickness/index.html",
+    "shimonoseki-luggage-storage/index.html",
+    "practical/index.html",
+    "kobe-daytrip-vs-1n2d/index.html",
+    "japan-cruise/index.html",
+    "tsushima-what-to-wear/index.html",
+    "tsushima-esim-or-roaming/index.html",
+    "shimonoseki-esim-or-roaming/index.html",
+    "hokkaido-esim-or-roaming/index.html"
+  ],
+  "rules": [
+    "Canonical, title, meta description, JSON-LD and h1 counts preserved byte-for-byte.",
+    "Original page body outside nav and optional contextual CTA retained.",
+    "No new articles or slugs. Header navigation and branding standardized.",
+    "Mobile behavior is backed by original page menu listeners and accessibility helper."
+  ],
+  "verify": "Browser QA on high-traffic hub and article templates required."
+}
