@@ -1,0 +1,27 @@
+name: Tokyo V1-V20 editorial upgrade
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_v1_v20_editorial_upgrade.py
+      - .github/workflows/tokyo-v1-v20-editorial-upgrade.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/tokyo_v1_v20_editorial_upgrade.py
+      - name: Commit 20 topic-specific guides
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/japan/tokyo audit-reports/tokyo-v1-v20-editorial-upgrade.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Improve Tokyo V1-V20 guide substance and official references"
+            git pull --rebase origin main
+            git push
+          fi
