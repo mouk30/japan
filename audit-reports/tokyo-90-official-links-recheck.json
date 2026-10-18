@@ -1,0 +1,2731 @@
+{
+  "original_unverified": 90,
+  "rechecked": 90,
+  "classification_counts": {
+    "access_blocked_unverified": 13,
+    "timeout_or_network_unverified": 32,
+    "probable_broken_404_410": 2,
+    "confirmed_200": 43
+  },
+  "probable_broken": [
+    {
+      "url": "https://teamlabplanets.dmm.com/en",
+      "articles": [
+        32,
+        32,
+        200
+      ],
+      "initial_status": 404,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 404
+        }
+      ],
+      "classification": "probable_broken_404_410",
+      "domain": "teamlabplanets.dmm.com"
+    },
+    {
+      "url": "https://teamlabplanets.dmm.com/en/guide/access_method",
+      "articles": [
+        32
+      ],
+      "initial_status": 404,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 404
+        }
+      ],
+      "classification": "probable_broken_404_410",
+      "domain": "teamlabplanets.dmm.com"
+    }
+  ],
+  "unresolved": [
+    {
+      "url": "https://www.tokyometro.jp/en/subwaymap/",
+      "articles": [
+        11,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.tokyometro.jp"
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/subwaymap/index.html",
+      "articles": [
+        11,
+        13,
+        37,
+        38,
+        44,
+        45,
+        45,
+        48,
+        49,
+        52
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.tokyometro.jp"
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/ticket/travel/index.html",
+      "articles": [
+        12,
+        12,
+        74
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.tokyometro.jp"
+    },
+    {
+      "url": "https://www.jreast.co.jp/e/",
+      "articles": [
+        13,
+        13,
+        14,
+        19,
+        42,
+        43,
+        47,
+        54,
+        54,
+        56
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.jreast.co.jp"
+    },
+    {
+      "url": "https://www.jreast.co.jp/multi/en/nex/",
+      "articles": [
+        15
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.jreast.co.jp"
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku.html",
+      "articles": [
+        17,
+        17,
+        124
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.mistore.jp"
+    },
+    {
+      "url": "https://www.mistore.jp/store/ginza.html",
+      "articles": [
+        18,
+        18,
+        138,
+        138
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.mistore.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/change/howto.html",
+      "articles": [
+        22,
+        94
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdl/ticket/purchase.html",
+      "articles": [
+        22
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/index.html",
+      "articles": [
+        22,
+        39,
+        91,
+        92,
+        93,
+        94,
+        95,
+        218
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tds/",
+      "articles": [
+        23,
+        24
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tds/ticket/purchase",
+      "articles": [
+        23
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.co.jp/en/tdr/access",
+      "articles": [
+        23,
+        25,
+        26
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.co.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/special/en/fantasysprings/",
+      "articles": [
+        24,
+        108,
+        109,
+        110
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/standbypass.html",
+      "articles": [
+        24,
+        86,
+        86
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/resortline.html",
+      "articles": [
+        25
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.co.jp/en/tdl/access",
+      "articles": [
+        25
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.co.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/",
+      "articles": [
+        26,
+        26,
+        90,
+        98
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyoport.or.jp/en/",
+      "articles": [
+        40,
+        216
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "URLError"
+        },
+        {
+          "method": "GET",
+          "error": "URLError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyoport.or.jp"
+    },
+    {
+      "url": "https://www.jreast.co.jp/ko/estation/stations/866.html",
+      "articles": [
+        41
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.jreast.co.jp"
+    },
+    {
+      "url": "https://www.jreast.co.jp/en/e/stations/e1039.html",
+      "articles": [
+        43
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.jreast.co.jp"
+    },
+    {
+      "url": "https://www.tokyometro.jp/lang_en/station/index.html",
+      "articles": [
+        44,
+        46,
+        49,
+        50,
+        51,
+        53,
+        57,
+        204
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.tokyometro.jp"
+    },
+    {
+      "url": "https://www.jreast.co.jp/en/e/stations/e788.html",
+      "articles": [
+        60
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.jreast.co.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service.html",
+      "articles": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        99
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess",
+      "articles": [
+        81,
+        82,
+        83,
+        84,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess.html",
+      "articles": [
+        81,
+        82,
+        83,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/",
+      "articles": [
+        85,
+        85,
+        87,
+        87,
+        88,
+        99,
+        114
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/",
+      "articles": [
+        89,
+        90,
+        100
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/",
+      "articles": [
+        91,
+        92,
+        93,
+        95
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/change/howto",
+      "articles": [
+        94
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/dh.html",
+      "articles": [
+        95,
+        98,
+        115,
+        116,
+        118,
+        120,
+        120
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html",
+      "articles": [
+        96,
+        96,
+        96,
+        97,
+        97,
+        97,
+        117,
+        119
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/app.html",
+      "articles": [
+        99
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry",
+      "articles": [
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops/mainfloorB1.html",
+      "articles": [
+        121,
+        121
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.mistore.jp"
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops/mainfloor1.html",
+      "articles": [
+        122,
+        122
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.mistore.jp"
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops.html",
+      "articles": [
+        123,
+        123
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.mistore.jp"
+    },
+    {
+      "url": "https://www.mistore.jp/store/nihombashi.html",
+      "articles": [
+        137,
+        137
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.mistore.jp"
+    },
+    {
+      "url": "https://www.donki.com/en/store/",
+      "articles": [
+        144,
+        145,
+        146
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.donki.com"
+    },
+    {
+      "url": "https://www.mhlw.go.jp/english/",
+      "articles": [
+        147
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.mhlw.go.jp"
+    },
+    {
+      "url": "https://www.muji.com/jp/ja/shop/detail/046604",
+      "articles": [
+        151,
+        152,
+        152,
+        153,
+        154
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.muji.com"
+    },
+    {
+      "url": "https://hands.net/shop/",
+      "articles": [
+        158
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "hands.net"
+    },
+    {
+      "url": "https://hands.net/",
+      "articles": [
+        158
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "hands.net"
+    },
+    {
+      "url": "https://www.biccamera.com/",
+      "articles": [
+        159
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.biccamera.com"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/",
+      "articles": [
+        218
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    }
+  ],
+  "all_results": [
+    {
+      "url": "https://www.tokyometro.jp/en/subwaymap/",
+      "articles": [
+        11,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.tokyometro.jp"
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/subwaymap/index.html",
+      "articles": [
+        11,
+        13,
+        37,
+        38,
+        44,
+        45,
+        45,
+        48,
+        49,
+        52
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.tokyometro.jp"
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/ticket/travel/index.html",
+      "articles": [
+        12,
+        12,
+        74
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.tokyometro.jp"
+    },
+    {
+      "url": "https://www.jreast.co.jp/e/",
+      "articles": [
+        13,
+        13,
+        14,
+        19,
+        42,
+        43,
+        47,
+        54,
+        54,
+        56
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.jreast.co.jp"
+    },
+    {
+      "url": "https://www.jreast.co.jp/multi/en/nex/",
+      "articles": [
+        15
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.jreast.co.jp"
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku.html",
+      "articles": [
+        17,
+        17,
+        124
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.mistore.jp"
+    },
+    {
+      "url": "https://www.mistore.jp/store/ginza.html",
+      "articles": [
+        18,
+        18,
+        138,
+        138
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.mistore.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/change/howto.html",
+      "articles": [
+        22,
+        94
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdl/ticket/purchase.html",
+      "articles": [
+        22
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/index.html",
+      "articles": [
+        22,
+        39,
+        91,
+        92,
+        93,
+        94,
+        95,
+        218
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tds/",
+      "articles": [
+        23,
+        24
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tds/ticket/purchase",
+      "articles": [
+        23
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.co.jp/en/tdr/access",
+      "articles": [
+        23,
+        25,
+        26
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.co.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/special/en/fantasysprings/",
+      "articles": [
+        24,
+        108,
+        109,
+        110
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/standbypass.html",
+      "articles": [
+        24,
+        86,
+        86
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/resortline.html",
+      "articles": [
+        25
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.co.jp/en/tdl/access",
+      "articles": [
+        25
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.co.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/",
+      "articles": [
+        26,
+        26,
+        90,
+        98
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://teamlabplanets.dmm.com/en",
+      "articles": [
+        32,
+        32,
+        200
+      ],
+      "initial_status": 404,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 404
+        }
+      ],
+      "classification": "probable_broken_404_410",
+      "domain": "teamlabplanets.dmm.com"
+    },
+    {
+      "url": "https://teamlabplanets.dmm.com/en/guide/access_method",
+      "articles": [
+        32
+      ],
+      "initial_status": 404,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 404
+        }
+      ],
+      "classification": "probable_broken_404_410",
+      "domain": "teamlabplanets.dmm.com"
+    },
+    {
+      "url": "https://www.tokyoport.or.jp/en/",
+      "articles": [
+        40,
+        216
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "URLError"
+        },
+        {
+          "method": "GET",
+          "error": "URLError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyoport.or.jp"
+    },
+    {
+      "url": "https://www.jreast.co.jp/ko/estation/stations/866.html",
+      "articles": [
+        41
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.jreast.co.jp"
+    },
+    {
+      "url": "https://www.jreast.co.jp/en/e/stations/e1039.html",
+      "articles": [
+        43
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.jreast.co.jp"
+    },
+    {
+      "url": "https://www.tokyometro.jp/lang_en/station/index.html",
+      "articles": [
+        44,
+        46,
+        49,
+        50,
+        51,
+        53,
+        57,
+        204
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.tokyometro.jp"
+    },
+    {
+      "url": "https://www.jreast.co.jp/en/e/stations/e788.html",
+      "articles": [
+        60
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.jreast.co.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service.html",
+      "articles": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        99
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess",
+      "articles": [
+        81,
+        82,
+        83,
+        84,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess.html",
+      "articles": [
+        81,
+        82,
+        83,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/",
+      "articles": [
+        85,
+        85,
+        87,
+        87,
+        88,
+        99,
+        114
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/",
+      "articles": [
+        89,
+        90,
+        100
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/",
+      "articles": [
+        91,
+        92,
+        93,
+        95
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/change/howto",
+      "articles": [
+        94
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/dh.html",
+      "articles": [
+        95,
+        98,
+        115,
+        116,
+        118,
+        120,
+        120
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html",
+      "articles": [
+        96,
+        96,
+        96,
+        97,
+        97,
+        97,
+        117,
+        119
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/app.html",
+      "articles": [
+        99
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry",
+      "articles": [
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops/mainfloorB1.html",
+      "articles": [
+        121,
+        121
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.mistore.jp"
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops/mainfloor1.html",
+      "articles": [
+        122,
+        122
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.mistore.jp"
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops.html",
+      "articles": [
+        123,
+        123
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.mistore.jp"
+    },
+    {
+      "url": "https://www.mistore.jp/store/nihombashi.html",
+      "articles": [
+        137,
+        137
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.mistore.jp"
+    },
+    {
+      "url": "https://www.donki.com/en/store/",
+      "articles": [
+        144,
+        145,
+        146
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.donki.com"
+    },
+    {
+      "url": "https://www.mhlw.go.jp/english/",
+      "articles": [
+        147
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "www.mhlw.go.jp"
+    },
+    {
+      "url": "https://www.muji.com/jp/ja/shop/detail/046604",
+      "articles": [
+        151,
+        152,
+        152,
+        153,
+        154
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.muji.com"
+    },
+    {
+      "url": "https://hands.net/shop/",
+      "articles": [
+        158
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "hands.net"
+    },
+    {
+      "url": "https://hands.net/",
+      "articles": [
+        158
+      ],
+      "initial_status": 403,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "classification": "access_blocked_unverified",
+      "domain": "hands.net"
+    },
+    {
+      "url": "https://www.biccamera.com/",
+      "articles": [
+        159
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.biccamera.com"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ameyoko_Market.jpg",
+      "articles": [
+        162
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Ameyoko_Market.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yuyake_dandan_yanaka_taito_tokyo_2009_Apr.JPG",
+      "articles": [
+        163
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Yuyake_dandan_yanaka_taito_tokyo_2009_Apr.JPG"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Kuramae-Sta-A6.JPG",
+      "articles": [
+        164
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Kuramae-Sta-A6.JPG"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Kiyosumi-1.JPG",
+      "articles": [
+        165
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Kiyosumi-1.JPG"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tomioka-hachimangu-1.jpg",
+      "articles": [
+        166
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Tomioka-hachimangu-1.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Nihonbashi_Bridge_Lion.jpg",
+      "articles": [
+        167
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Nihonbashi_Bridge_Lion.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Nihonbashi_Ningyocho-1.jpg",
+      "articles": [
+        168
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Nihonbashi_Ningyocho-1.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tsukishima_monja_street.jpg",
+      "articles": [
+        169
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Tsukishima_monja_street.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Meguro_river_view.jpg",
+      "articles": [
+        171
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Meguro_river_view.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yebisu_Garden_Place.jpg",
+      "articles": [
+        172
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Yebisu_Garden_Place.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Inokashira_Park_@_Kichijoji_(9431557927).jpg",
+      "articles": [
+        175
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Inokashira_Park_@_Kichijoji_(9431557927).jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Jiyugaoka_1-chome.jpg",
+      "articles": [
+        176
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Jiyugaoka_1-chome.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Kurosawa_Dr._Sound,_entrance,_Ochanomizu.jpg",
+      "articles": [
+        177
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Kurosawa_Dr._Sound,_entrance,_Ochanomizu.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Front_entrance_of_Shibamata_Taishakuten_from_inside_the_gates.jpg",
+      "articles": [
+        179
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Front_entrance_of_Shibamata_Taishakuten_from_inside_the_gates.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toden-Arakawa-Line-7015-00.jpg",
+      "articles": [
+        180
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Toden-Arakawa-Line-7015-00.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shoyu_Ramen.jpg",
+      "articles": [
+        181
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Shoyu_Ramen.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tsukemen.jpg",
+      "articles": [
+        182
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Tsukemen.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tempura_001.jpg",
+      "articles": [
+        184
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Tempura_001.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Unagi1.jpg",
+      "articles": [
+        185
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Unagi1.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Two_Butabara_pork_Yakiniku_%E7%84%BC%E3%81%8D%E8%82%89-%E7%84%BC%E8%82%89_Samgyeopsalgui14.jpg",
+      "articles": [
+        186
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Two_Butabara_pork_Yakiniku_%E7%84%BC%E3%81%8D%E8%82%89-%E7%84%BC%E8%82%89_Samgyeopsalgui14.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Izakaya_Feast.jpg",
+      "articles": [
+        187
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Izakaya_Feast.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sushi_train.jpg",
+      "articles": [
+        188
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Sushi_train.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Bento_002.jpg",
+      "articles": [
+        189
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Bento_002.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Matcha_and_wagashi.jpg",
+      "articles": [
+        191
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Matcha_and_wagashi.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Parfait.jpg",
+      "articles": [
+        193
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Parfait.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_staircase.jpg",
+      "articles": [
+        195
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_staircase.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:National_Art_Center_Tokyo_2008.jpg",
+      "articles": [
+        196
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:National_Art_Center_Tokyo_2008.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ryogoku_Kokugikan.jpg",
+      "articles": [
+        198
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Ryogoku_Kokugikan.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:New_Kabukiza.JPG",
+      "articles": [
+        199
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:New_Kabukiza.JPG"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JR-Narita-Airport-station-entrance.jpg",
+      "articles": [
+        202
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:JR-Narita-Airport-station-entrance.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:People_at_the_Asakusa_Sensoji_Kaminarimon_entrance.jpg",
+      "articles": [
+        203
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:People_at_the_Asakusa_Sensoji_Kaminarimon_entrance.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:April_2009,_hanami_in_Ueno_Park_-39481.jpeg",
+      "articles": [
+        204
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:April_2009,_hanami_in_Ueno_Park_-39481.jpeg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_International_Forum_-_51877773707.jpg",
+      "articles": [
+        205
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Tokyo_International_Forum_-_51877773707.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ueno_zoo_Pallas_cat.jpg",
+      "articles": [
+        206
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Ueno_zoo_Pallas_cat.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_in_night.jpg",
+      "articles": [
+        208
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_in_night.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ginza_nine_entrance_chuo_tokyo_2009.JPG",
+      "articles": [
+        210
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Ginza_nine_entrance_chuo_tokyo_2009.JPG"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_Hyokeikan_Entrance_Hall_P3303413.jpg",
+      "articles": [
+        211
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_Hyokeikan_Entrance_Hall_P3303413.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:On_the_way_to_Sunshine_City_%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%86%E3%82%A3_in_Ikebukuro,_Tokyo,_Japan_(26295481219).jpg",
+      "articles": [
+        212
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:On_the_way_to_Sunshine_City_%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%86%E3%82%A3_in_Ikebukuro,_Tokyo,_Japan_(26295481219).jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Meguro_River_cherry_blossom_2025_April.jpg",
+      "articles": [
+        214
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Meguro_River_cherry_blossom_2025_April.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Meiji_Jingu_Gaien_Ginkgo_Festival_(53440769967).jpg",
+      "articles": [
+        215
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Meiji_Jingu_Gaien_Ginkgo_Festival_(53440769967).jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-International-Cruise-Terminal-STA_Gate.jpg",
+      "articles": [
+        217
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Tokyo-International-Cruise-Terminal-STA_Gate.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/",
+      "articles": [
+        218
+      ],
+      "initial_status": null,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError"
+        }
+      ],
+      "classification": "timeout_or_network_unverified",
+      "domain": "www.tokyodisneyresort.jp"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TOKYO_SKYTREE_VIEW%EF%BC%91.JPG",
+      "articles": [
+        219
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:TOKYO_SKYTREE_VIEW%EF%BC%91.JPG"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Locker_35.jpg",
+      "articles": [
+        220
+      ],
+      "initial_status": 429,
+      "recheck": [
+        {
+          "method": "HEAD",
+          "status": 200,
+          "final": "https://commons.wikimedia.org/wiki/File:Locker_35.jpg"
+        }
+      ],
+      "classification": "confirmed_200",
+      "domain": "commons.wikimedia.org"
+    }
+  ],
+  "note": "HTTP-only retries; access blocks do not imply dead pages; even HTTP 200 does not prove on-page facts are current."
+}
