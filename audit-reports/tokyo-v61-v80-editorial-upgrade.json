@@ -1,0 +1,166 @@
+{
+  "updated": 20,
+  "pages": [
+    {
+      "slug": "ginza-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "metro"
+    },
+    {
+      "slug": "marunouchi-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "metro"
+    },
+    {
+      "slug": "hibiya-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "metro"
+    },
+    {
+      "slug": "tozai-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "metro"
+    },
+    {
+      "slug": "chiyoda-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "metro"
+    },
+    {
+      "slug": "yurakucho-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "metro"
+    },
+    {
+      "slug": "fukutoshin-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "metro"
+    },
+    {
+      "slug": "hanzomon-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "metro"
+    },
+    {
+      "slug": "namboku-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "metro"
+    },
+    {
+      "slug": "toei-asakusa-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "toei"
+    },
+    {
+      "slug": "toei-oedo-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "toei"
+    },
+    {
+      "slug": "toei-shinjuku-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "toei"
+    },
+    {
+      "slug": "toei-mita-line-stations",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "toei"
+    },
+    {
+      "slug": "metro-24h-vs-subway-pass",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "metro"
+    },
+    {
+      "slug": "toei-one-day-pass",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "toei"
+    },
+    {
+      "slug": "pasmo-vs-suica-card",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "jr"
+    },
+    {
+      "slug": "haneda-keikyu-or-monorail",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "haneda"
+    },
+    {
+      "slug": "narita-skyliner-or-nex",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "narita"
+    },
+    {
+      "slug": "yurikamome-rinkai-choice",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "yurikamome"
+    },
+    {
+      "slug": "metro-elevator-stroller",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "provider": "metro"
+    }
+  ],
+  "caveats": "Operator links are included; individual fares, train schedules, exit maps and accessible routes require visit-date verification."
+}
