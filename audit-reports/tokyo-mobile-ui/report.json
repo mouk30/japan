@@ -1,12 +1,8 @@
 {
   "375": {
     "cards": 220,
-    "svg": 0,
-    "broken": [
-      110,
-      111,
-      116
-    ],
+    "svg": 3,
+    "broken": [],
     "aspectErrors": [],
     "hiddenCredits": [],
     "horizontalOverflow": false,
@@ -14,12 +10,8 @@
   },
   "390": {
     "cards": 220,
-    "svg": 0,
-    "broken": [
-      110,
-      111,
-      116
-    ],
+    "svg": 3,
+    "broken": [],
     "aspectErrors": [],
     "hiddenCredits": [],
     "horizontalOverflow": false,
@@ -27,12 +19,8 @@
   },
   "768": {
     "cards": 220,
-    "svg": 0,
-    "broken": [
-      110,
-      111,
-      116
-    ],
+    "svg": 3,
+    "broken": [],
     "aspectErrors": [],
     "hiddenCredits": [],
     "horizontalOverflow": false,
@@ -40,12 +28,8 @@
   },
   "1440": {
     "cards": 220,
-    "svg": 0,
-    "broken": [
-      110,
-      111,
-      116
-    ],
+    "svg": 3,
+    "broken": [],
     "aspectErrors": [],
     "hiddenCredits": [],
     "horizontalOverflow": false,
