@@ -1,0 +1,64 @@
+{
+  "changed_pages": 9,
+  "repaired_original_urls": 7,
+  "false_positives_rechecked_by_web": [
+    "https://teamlabplanets.dmm.com/en",
+    "https://teamlabplanets.dmm.com/en/guide/access_method"
+  ],
+  "pages": [
+    {
+      "page": "ginza-six-b1-beauty",
+      "replacements": [
+        "https://ginza6.tokyo/floor"
+      ]
+    },
+    {
+      "page": "tokyo-yakitori-izakaya-guide",
+      "replacements": [
+        "https://www.gotokyo.org/en/plan/tokyo-outline/travel-tips/index.html"
+      ]
+    },
+    {
+      "page": "tokyo-station-character-street",
+      "replacements": [
+        "https://www.tokyoeki-1bangai.co.jp/en/tokyocharacterstreet/"
+      ]
+    },
+    {
+      "page": "ginza-six-b2-food",
+      "replacements": [
+        "https://ginza6.tokyo/floor"
+      ]
+    },
+    {
+      "page": "tokyo-toyosu-market-auction-guide",
+      "replacements": [
+        "https://www.shijou.metro.tokyo.lg.jp/english/toyosu/"
+      ]
+    },
+    {
+      "page": "ginza-six-6f-books",
+      "replacements": [
+        "https://ginza6.tokyo/floor"
+      ]
+    },
+    {
+      "page": "tokyo-toddler-underfive",
+      "replacements": [
+        "https://www.tokyo-zoo.net/english/ueno/"
+      ]
+    },
+    {
+      "page": "tokyo-tsukishima-monjayaki",
+      "replacements": [
+        "https://www.gotokyo.org/en/destinations/central-tokyo/tsukishima/index.html"
+      ]
+    },
+    {
+      "page": "tokyo-mega-donki-shibuya",
+      "replacements": [
+        "https://www.donki.com/store/shop_detail.php?shop_id=376"
+      ]
+    }
+  ]
+}
