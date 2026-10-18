@@ -1,0 +1,181 @@
+{
+  "total": 20,
+  "new_photos": 19,
+  "retained_illustration": {
+    "nippori-skyliner-jr": "No adequately matched licensed station photo"
+  },
+  "entries": {
+    "shinjuku-exits": {
+      "src": "/images/tokyo-verified/shinjuku-exits.webp",
+      "alt": "Shinsen-Shinjuku Station entrance 200506.jpg 관련 역 사진",
+      "caption": "사진: Wikimedia Commons · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Shinsen-Shinjuku_Station_entrance_200506.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Wikimedia Commons",
+      "source_file": "File:Shinsen-Shinjuku Station entrance 200506.jpg"
+    },
+    "shibuya-hachiko-miyamasuzaka": {
+      "src": "/images/tokyo-verified/shibuya-hachiko-miyamasuzaka.webp",
+      "alt": "Hachiko Entrance of Shibuya Station (JR).jpg 관련 역 사진",
+      "caption": "사진: そらみみ (Soramimi) · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Hachiko_Entrance_of_Shibuya_Station_(JR).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "そらみみ (Soramimi)",
+      "source_file": "File:Hachiko Entrance of Shibuya Station (JR).jpg"
+    },
+    "tokyo-keiyo-platform": {
+      "src": "/images/tokyo-verified/tokyo-keiyo-platform.webp",
+      "alt": "Platforms of Tokyo Station 2018a.jpg 관련 역 사진",
+      "caption": "사진: 江戸村のとくぞう · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Platforms_of_Tokyo_Station_2018a.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "江戸村のとくぞう",
+      "source_file": "File:Platforms of Tokyo Station 2018a.jpg"
+    },
+    "ikebukuro-east-west": {
+      "src": "/images/tokyo-verified/ikebukuro-east-west.webp",
+      "alt": "Ikebukuro station west entrance.jpg 관련 역 사진",
+      "caption": "사진: The original uploader was UE-PON2600 at Japanese Wikipedia. · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ikebukuro_station_west_entrance.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "The original uploader was UE-PON2600 at Japanese Wikipedia.",
+      "source_file": "File:Ikebukuro station west entrance.jpg"
+    },
+    "ginza-three-lines": {
+      "src": "/images/tokyo-verified/ginza-three-lines.webp",
+      "alt": "Ginza Station-1.jpg 관련 역 사진",
+      "caption": "사진: 江戸村のとくぞう (Edomura no Tokuzo) · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ginza_Station-1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "江戸村のとくぞう (Edomura no Tokuzo)",
+      "source_file": "File:Ginza Station-1.jpg"
+    },
+    "asakusa-operators": {
+      "src": "/images/tokyo-verified/asakusa-operators.webp",
+      "alt": "Asakusa Station Toei subway entrance A1.jpg 관련 역 사진",
+      "caption": "사진: 4300streetcar · CC BY 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Asakusa_Station_Toei_subway_entrance_A1.jpg",
+      "license": "CC BY 4.0",
+      "author": "4300streetcar",
+      "source_file": "File:Asakusa Station Toei subway entrance A1.jpg"
+    },
+    "ueno-park-ameyoko": {
+      "src": "/images/tokyo-verified/ueno-park-ameyoko.webp",
+      "alt": "251130 Ueno Station.jpg 관련 역 사진",
+      "caption": "사진: Aspere · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:251130_Ueno_Station.jpg",
+      "license": "CC0",
+      "author": "Aspere",
+      "source_file": "File:251130 Ueno Station.jpg"
+    },
+    "otemachi-transfer-five": {
+      "src": "/images/tokyo-verified/otemachi-transfer-five.webp",
+      "alt": "Otemachi Station entrance B7 20090610.jpg 관련 역 사진",
+      "caption": "사진: Toshihiro Gamo · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Otemachi_Station_entrance_B7_20090610.jpg",
+      "license": "CC BY 2.0",
+      "author": "Toshihiro Gamo",
+      "source_file": "File:Otemachi Station entrance B7 20090610.jpg"
+    },
+    "kasumigaseki-government": {
+      "src": "/images/tokyo-verified/kasumigaseki-government.webp",
+      "alt": "Kasumigaseki Station entrance.jpg 관련 역 사진",
+      "caption": "사진: Comessu · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Kasumigaseki_Station_entrance.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Comessu",
+      "source_file": "File:Kasumigaseki Station entrance.jpg"
+    },
+    "roppongi-museum-exits": {
+      "src": "/images/tokyo-verified/roppongi-museum-exits.webp",
+      "alt": "TokyoMetro-N05-Roppongi-1chome-station-entrance-2-20190220-101632.jpg 관련 역 사진",
+      "caption": "사진: LERK · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:TokyoMetro-N05-Roppongi-1chome-station-entrance-2-20190220-101632.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "LERK",
+      "source_file": "File:TokyoMetro-N05-Roppongi-1chome-station-entrance-2-20190220-101632.jpg"
+    },
+    "omotesando-three-subways": {
+      "src": "/images/tokyo-verified/omotesando-three-subways.webp",
+      "alt": "Omotesando-Station-2006-06-07 1.jpg 관련 역 사진",
+      "caption": "사진: Syohei Arai · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Omotesando-Station-2006-06-07_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Syohei Arai",
+      "source_file": "File:Omotesando-Station-2006-06-07 1.jpg"
+    },
+    "akasaka-nagatacho-connection": {
+      "src": "/images/tokyo-verified/akasaka-nagatacho-connection.webp",
+      "alt": "Belle-Vie Akasaka and Entrance of Akasaka-Mitsuke station 2012.JPG 관련 역 사진",
+      "caption": "사진: Harani0403 · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Belle-Vie_Akasaka_and_Entrance_of_Akasaka-Mitsuke_station_2012.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Harani0403",
+      "source_file": "File:Belle-Vie Akasaka and Entrance of Akasaka-Mitsuke station 2012.JPG"
+    },
+    "kudanshita-budokan": {
+      "src": "/images/tokyo-verified/kudanshita-budokan.webp",
+      "alt": "Kudanshita station.jpg 관련 역 사진",
+      "caption": "사진: Syced · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Kudanshita_station.jpg",
+      "license": "CC0",
+      "author": "Syced",
+      "source_file": "File:Kudanshita station.jpg"
+    },
+    "kanda-jr-ginza-transfer": {
+      "src": "/images/tokyo-verified/kanda-jr-ginza-transfer.webp",
+      "alt": "TokyoMetro-G13-Kanda-station-entrance-3-20180208-164012.jpg 관련 역 사진",
+      "caption": "사진: LERK · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:TokyoMetro-G13-Kanda-station-entrance-3-20180208-164012.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "LERK",
+      "source_file": "File:TokyoMetro-G13-Kanda-station-entrance-3-20180208-164012.jpg"
+    },
+    "akihabara-station-gates": {
+      "src": "/images/tokyo-verified/akihabara-station-gates.webp",
+      "alt": "TX Akihabara Station main entrance Nov 16 2020 08-15PM.jpeg 관련 역 사진",
+      "caption": "사진: Nesnad · CC BY 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:TX_Akihabara_Station_main_entrance_Nov_16_2020_08-15PM.jpeg",
+      "license": "CC BY 4.0",
+      "author": "Nesnad",
+      "source_file": "File:TX Akihabara Station main entrance Nov 16 2020 08-15PM.jpeg"
+    },
+    "tsukiji-two-stations": {
+      "src": "/images/tokyo-verified/tsukiji-two-stations.webp",
+      "alt": "TokyoMetro-H11-Tsukiji-station-entrance-3a-20211216-110356.jpg 관련 역 사진",
+      "caption": "사진: LERK · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:TokyoMetro-H11-Tsukiji-station-entrance-3a-20211216-110356.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "LERK",
+      "source_file": "File:TokyoMetro-H11-Tsukiji-station-entrance-3a-20211216-110356.jpg"
+    },
+    "toyosu-shijomae-travel": {
+      "src": "/images/tokyo-verified/toyosu-shijomae-travel.webp",
+      "alt": "Yurikamome Shijomae station in 2016.jpg 관련 역 사진",
+      "caption": "사진: Hisi21 · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Yurikamome_Shijomae_station_in_2016.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Hisi21",
+      "source_file": "File:Yurikamome Shijomae station in 2016.jpg"
+    },
+    "oshiage-skytree-access": {
+      "src": "/images/tokyo-verified/oshiage-skytree-access.webp",
+      "alt": "Oshiage Station, Skytree Town entrance.jpg 관련 역 사진",
+      "caption": "사진: 掬茶 · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Oshiage_Station,_Skytree_Town_entrance.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "掬茶",
+      "source_file": "File:Oshiage Station, Skytree Town entrance.jpg"
+    },
+    "shinagawa-keikyu-jr": {
+      "src": "/images/tokyo-verified/shinagawa-keikyu-jr.webp",
+      "alt": "Shinagawa Station -01.jpg 관련 역 사진",
+      "caption": "사진: Aimaimyi · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Shinagawa_Station_-01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Aimaimyi",
+      "source_file": "File:Shinagawa Station -01.jpg"
+    }
+  },
+  "note": "Filename and Commons license verified; physical accuracy of exit/route directions and public-browser rendering not certified."
+}
