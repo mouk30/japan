@@ -1,0 +1,31 @@
+name: Tokyo 101-120 Disney attractions and hotels
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_101_120_licensed_photos.py
+      - .github/workflows/tokyo-101-120-licensed-photos.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python scripts/tokyo_101_120_licensed_photos.py
+      - name: Commit attraction and hotel photography
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/tokyo-verified site/tokyo-card-photos.js audit-reports/tokyo-101-120-photographic-replacement.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Upgrade Tokyo Disney V101-120 with subject-specific licensed photographs"
+            git pull --rebase origin main
+            git push
+          fi
