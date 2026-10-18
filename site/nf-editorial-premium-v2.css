@@ -28,3 +28,23 @@ body.nf-editorial-premium *{box-sizing:border-box}
 .nf-editorial-premium a:focus-visible{outline:3px solid #eaac41;outline-offset:3px}
 @media(max-width:680px){.nf-editorial-premium .nf-article-masthead{padding:15px 18px;display:block}.nf-editorial-premium .nf-article-masthead nav{margin-top:12px;gap:10px 14px}.nf-editorial-premium main{margin:0 auto 20px;border-radius:0;border-left:0;border-right:0;padding:25px 18px}.nf-editorial-premium .nf-journey-next{padding:18px}.nf-editorial-premium .nf-journey-links{flex-direction:column}.nf-editorial-premium .nf-journey-links a{text-align:center}}
 @media(prefers-reduced-motion:reduce){.nf-editorial-premium *{scroll-behavior:auto!important}}
+
+
+/* Editorial finish: legibility, source provenance, reservations and responsive tables */
+.nf-editorial-premium main :where(img,video,iframe){max-width:100%}
+.nf-editorial-premium main :where(table){display:block;max-width:100%;overflow-x:auto;border-collapse:collapse;scrollbar-width:thin}
+.nf-editorial-premium main :where(th,td){padding:11px 13px;border-bottom:1px solid #e3eaef;text-align:left}
+.nf-editorial-premium main :where(th){background:#edf4f7;color:#143e55;font-weight:750}
+.nf-editorial-premium main :where(ul,ol){line-height:1.85;color:#405a6c}
+.nf-editorial-premium main :where(a:not(.nf-journey-links a):not(.related)){text-underline-offset:3px}
+.nf-editorial-premium main :where(a[href^="https://"]):not(.nf-journey-links a){overflow-wrap:anywhere}
+.nf-editorial-premium .nf-source-checked{border-left:3px solid #bfa474;background:#fffaf1;padding:12px 15px;border-radius:0 9px 9px 0}
+.nf-editorial-premium .nf-journey-next{border-top:3px solid #bfa474}
+.nf-editorial-premium .nf-journey-next .nf-disclaimer{color:#536a7a;line-height:1.65;border-top:1px solid #d8e4eb;padding-top:12px}
+.nf-editorial-premium .nf-journey-links a{display:inline-flex;justify-content:center;align-items:center;min-height:44px;line-height:1.45;transition:background-color .18s ease,transform .18s ease}
+.nf-editorial-premium .nf-journey-links a:hover{background:#073f60;transform:translateY(-1px)}
+.nf-editorial-premium .nf-journey-links a.secondary:hover{background:#e9f4f9;color:#0a405f}
+.nf-editorial-premium .nf-article-masthead nav a:not(.nf-booking):hover{text-decoration:underline;text-underline-offset:5px}
+.nf-editorial-premium main :where(figure){max-width:100%;margin-inline:0}
+@media(max-width:680px){.nf-editorial-premium main :where(th,td){padding:9px 11px;min-width:98px}.nf-editorial-premium main :where(ul,ol){padding-left:23px}}
+@media(prefers-reduced-motion:reduce){.nf-editorial-premium .nf-journey-links a{transition:none}.nf-editorial-premium .nf-journey-links a:hover{transform:none}}
