@@ -1,0 +1,172 @@
+{
+  "updated": 20,
+  "removed_boilerplate": 40,
+  "photo_manual_review": [
+    110,
+    111,
+    116
+  ],
+  "items": [
+    {
+      "v": 101,
+      "slug": "disneyland-beauty-beast-ride",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 102,
+      "slug": "disneyland-baymax-happy-ride",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 103,
+      "slug": "disneyland-splash-mountain",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 104,
+      "slug": "disneyland-big-thunder-mountain",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 105,
+      "slug": "disneyland-pooh-hunny-hunt",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 106,
+      "slug": "disneyland-monsters-inc",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 107,
+      "slug": "disneyland-haunted-mansion-season",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 108,
+      "slug": "disneysea-frozen-ever-after",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 109,
+      "slug": "disneysea-peter-pan-adventure",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 110,
+      "slug": "disneysea-rapunzel-lantern",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 111,
+      "slug": "disneysea-soaring-flight",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 112,
+      "slug": "disneysea-toy-story-mania",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 113,
+      "slug": "disneysea-tower-of-terror",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 114,
+      "slug": "disneysea-journey-center-earth",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 115,
+      "slug": "disney-miracosta-hotel",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 116,
+      "slug": "disney-fantasy-springs-hotel",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 117,
+      "slug": "disney-toy-story-hotel",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 118,
+      "slug": "disney-ambassador-hotel",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 119,
+      "slug": "disney-celebration-hotel",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 120,
+      "slug": "disney-vacation-package-vs-regular",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    }
+  ],
+  "caveat": "Specific official DPA and hotel rules referenced; individual attraction safety requirements, photos and live public page remain to be visually verified."
+}
