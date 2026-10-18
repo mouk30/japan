@@ -1,0 +1,188 @@
+{
+  "updated": 20,
+  "removed": 40,
+  "editorial_graphics": 1,
+  "pages": [
+    {
+      "v": 161,
+      "slug": "asakusa-nakamise-backstreets",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 162,
+      "slug": "ueno-ameyoko-budget-shopping",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 163,
+      "slug": "yanaka-ginza-sunset-stairs",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 164,
+      "slug": "kuramae-design-coffee",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 165,
+      "slug": "kiyosumi-shirakawa-coffee",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 166,
+      "slug": "monzen-nakacho-shrine",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 167,
+      "slug": "nihombashi-bridge-shopping",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 168,
+      "slug": "ningyocho-sweets-streets",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 169,
+      "slug": "tsukishima-monjya-street",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 170,
+      "slug": "daikanyama-bookshops",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 171,
+      "slug": "nakameguro-riverside",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 172,
+      "slug": "ebisu-yebisu-garden",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 173,
+      "slug": "shimokitazawa-vintage",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 174,
+      "slug": "koenji-used-clothes",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 175,
+      "slug": "kichijoji-inokashira-park",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 176,
+      "slug": "jiyugaoka-dessert-cafes",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 177,
+      "slug": "ochanomizu-music-bookstores",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 178,
+      "slug": "sugamo-jizo-shopping",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": true
+    },
+    {
+      "v": 179,
+      "slug": "shibamata-taishakuten",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    },
+    {
+      "v": 180,
+      "slug": "oji-asukayama-tram",
+      "removed": [
+        "generic",
+        "field"
+      ],
+      "graphic": false
+    }
+  ],
+  "limitations": "Existing photographs checked by filenames only, not all by visual inspection. Live site and external links require validation."
+}
