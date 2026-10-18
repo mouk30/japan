@@ -1,0 +1,125 @@
+{
+  "total": 20,
+  "new_photos": 12,
+  "retained_illustration": {
+    "disney-dpa-app-purchase": "No licensed subject-matched resort photo",
+    "disney-priority-pass-free": "No licensed subject-matched resort photo",
+    "disney-standby-pass-store": "No licensed subject-matched resort photo",
+    "disney-priority-seating-restaurants": "No licensed subject-matched resort photo",
+    "disney-character-dining-booking": "No licensed subject-matched resort photo",
+    "disney-disability-passport": "No licensed subject-matched resort photo",
+    "disney-children-ticket-age": "No licensed subject-matched resort photo",
+    "disney-ticket-date-change": "No licensed subject-matched resort photo"
+  },
+  "entries": {
+    "disney-1day-admission-vs-dpa": {
+      "src": "/images/tokyo-verified/disney-1day-admission-vs-dpa.webp",
+      "alt": "Tokyo Disneyland Entrance.jpg 관련 역 사진",
+      "caption": "사진: Louiemantia · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Entrance.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Louiemantia",
+      "source_file": "File:Tokyo Disneyland Entrance.jpg"
+    },
+    "disney-dpa-price-attractions": {
+      "src": "/images/tokyo-verified/disney-dpa-price-attractions.webp",
+      "alt": "Jungle Cruise entrance at Tokyo Disneyland.jpg 관련 역 사진",
+      "caption": "사진: ARICAD · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Jungle_Cruise_entrance_at_Tokyo_Disneyland.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "ARICAD",
+      "source_file": "File:Jungle Cruise entrance at Tokyo Disneyland.jpg"
+    },
+    "disney-dpa-parade-show": {
+      "src": "/images/tokyo-verified/disney-dpa-parade-show.webp",
+      "alt": "Tokyo Disneyland Tokyo Disneyland Electrical Parade Dreamlights (53440911162).jpg 관련 역 사진",
+      "caption": "사진: Dick Thomas Johnson from Tokyo, Japan · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Tokyo_Disneyland_Electrical_Parade_Dreamlights_(53440911162).jpg",
+      "license": "CC BY 2.0",
+      "author": "Dick Thomas Johnson from Tokyo, Japan",
+      "source_file": "File:Tokyo Disneyland Tokyo Disneyland Electrical Parade Dreamlights (53440911162).jpg"
+    },
+    "disney-entry-request-show": {
+      "src": "/images/tokyo-verified/disney-entry-request-show.webp",
+      "alt": "Merida at Tokyo DisneySea (2020).jpg 관련 역 사진",
+      "caption": "사진: Phlizz · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Merida_at_Tokyo_DisneySea_(2020).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Phlizz",
+      "source_file": "File:Merida at Tokyo DisneySea (2020).jpg"
+    },
+    "disney-mobile-order-food": {
+      "src": "/images/tokyo-verified/disney-mobile-order-food.webp",
+      "alt": "Blue Bayou Restaurant at Tokyo Disneyland.jpg 관련 역 사진",
+      "caption": "사진: Hirofumi Suzuki · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_Bayou_Restaurant_at_Tokyo_Disneyland.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Hirofumi Suzuki",
+      "source_file": "File:Blue Bayou Restaurant at Tokyo Disneyland.jpg"
+    },
+    "disney-hopper-limited-period": {
+      "src": "/images/tokyo-verified/disney-hopper-limited-period.webp",
+      "alt": "Toy Story Mania (Tokyo DisneySea) 1.jpg 관련 역 사진",
+      "caption": "사진: othree · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Toy_Story_Mania_(Tokyo_DisneySea)_1.jpg",
+      "license": "CC BY 2.0",
+      "author": "othree",
+      "source_file": "File:Toy Story Mania (Tokyo DisneySea) 1.jpg"
+    },
+    "disney-ticket-sold-out": {
+      "src": "/images/tokyo-verified/disney-ticket-sold-out.webp",
+      "alt": "Toy Story Mania (Tokyo DisneySea) 1.jpg 관련 역 사진",
+      "caption": "사진: othree · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Toy_Story_Mania_(Tokyo_DisneySea)_1.jpg",
+      "license": "CC BY 2.0",
+      "author": "othree",
+      "source_file": "File:Toy Story Mania (Tokyo DisneySea) 1.jpg"
+    },
+    "disney-happy-entry-hotel-list": {
+      "src": "/images/tokyo-verified/disney-happy-entry-hotel-list.webp",
+      "alt": "Disneyland hotel.jpg 관련 역 사진",
+      "caption": "사진: mekarabeam · CC BY 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Disneyland_hotel.jpg",
+      "license": "CC BY 3.0",
+      "author": "mekarabeam",
+      "source_file": "File:Disneyland hotel.jpg"
+    },
+    "disney-happy-entry-construction": {
+      "src": "/images/tokyo-verified/disney-happy-entry-construction.webp",
+      "alt": "Tokyo Disneysea Station.jpg 관련 역 사진",
+      "caption": "사진: っ · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneysea_Station.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "っ",
+      "source_file": "File:Tokyo Disneysea Station.jpg"
+    },
+    "disney-hotel-park-ticket-bundle": {
+      "src": "/images/tokyo-verified/disney-hotel-park-ticket-bundle.webp",
+      "alt": "Tokyo disneysea hotel miracosta.jpg 관련 역 사진",
+      "caption": "사진: mekarabeam · CC BY 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_disneysea_hotel_miracosta.jpg",
+      "license": "CC BY 3.0",
+      "author": "mekarabeam",
+      "source_file": "File:Tokyo disneysea hotel miracosta.jpg"
+    },
+    "disney-park-app-ticket-share": {
+      "src": "/images/tokyo-verified/disney-park-app-ticket-share.webp",
+      "alt": "Tokyo-Disneyland-STA Gate.jpg 관련 역 사진",
+      "caption": "사진: MaedaAkihiko · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo-Disneyland-STA_Gate.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "MaedaAkihiko",
+      "source_file": "File:Tokyo-Disneyland-STA Gate.jpg"
+    },
+    "disney-ride-height-safety": {
+      "src": "/images/tokyo-verified/disney-ride-height-safety.webp",
+      "alt": "Tokyo Disneyland (4206291420).jpg 관련 역 사진",
+      "caption": "사진: Rudy Herman · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_(4206291420).jpg",
+      "license": "CC BY 2.0",
+      "author": "Rudy Herman",
+      "source_file": "File:Tokyo Disneyland (4206291420).jpg"
+    }
+  },
+  "note": "Filename and Commons license verified; physical accuracy of exit/route directions and public-browser rendering not certified."
+}
