@@ -1,0 +1,27 @@
+name: Tokyo priority trust corrections
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_priority_trust_corrections.py
+      - .github/workflows/tokyo-priority-trust-corrections.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/tokyo_priority_trust_corrections.py
+      - name: Commit accurate image replacements
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/tokyo-editorial site/tokyo-card-photos.js site/japan/tokyo audit-reports/tokyo-priority-trust-corrections.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Clarify Tokyo travel photo semantics on four priority articles"
+            git pull --rebase origin main
+            git push
+          fi
