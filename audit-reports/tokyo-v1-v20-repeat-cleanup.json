@@ -1,0 +1,226 @@
+{
+  "updated": 20,
+  "pages": [
+    {
+      "slug": "tokyo-ramen-best-areas",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2268
+    },
+    {
+      "slug": "tokyo-sushi-breakfast-guide",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2257
+    },
+    {
+      "slug": "tokyo-tsukishima-monjayaki",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2202
+    },
+    {
+      "slug": "tokyo-yakitori-izakaya-guide",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2203
+    },
+    {
+      "slug": "tokyo-depachika-food-halls",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2241
+    },
+    {
+      "slug": "tokyo-tower-tickets",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2252
+    },
+    {
+      "slug": "tokyo-metropolitan-government-free-view",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2190
+    },
+    {
+      "slug": "tokyo-skytree-tickets",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2227
+    },
+    {
+      "slug": "tokyo-shibuya-sky-reservation",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2168
+    },
+    {
+      "slug": "tokyo-night-view-observation-comparison",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2280
+    },
+    {
+      "slug": "tokyo-subway-route-map-korean",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2345
+    },
+    {
+      "slug": "tokyo-subway-ticket-24-48-72",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2311
+    },
+    {
+      "slug": "tokyo-yamanote-line-transfer-guide",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2242
+    },
+    {
+      "slug": "tokyo-haneda-airport-train-guide",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2212
+    },
+    {
+      "slug": "tokyo-narita-airport-train-guide",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2209
+    },
+    {
+      "slug": "tokyo-ginza-department-store-route",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2186
+    },
+    {
+      "slug": "tokyo-shinjuku-isetan-shopping",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2201
+    },
+    {
+      "slug": "tokyo-ginza-mitsukoshi-depachika",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2187
+    },
+    {
+      "slug": "tokyo-station-character-street",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2222
+    },
+    {
+      "slug": "tokyo-mega-donki-shibuya",
+      "removed": [
+        "repetitive introduction",
+        "generic route",
+        "generic tickets",
+        "generic faq",
+        "generic field checklist"
+      ],
+      "bytes_saved": 2245
+    }
+  ],
+  "notes": "Preserved original official links, editorial field guides, existing verified facility specifics and SEO metadata; not a live timetable/price certification."
+}
