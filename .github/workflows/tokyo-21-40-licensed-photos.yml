@@ -1,0 +1,31 @@
+name: Tokyo 21-40 photographic thumbnails
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_21_40_licensed_photos.py
+      - .github/workflows/tokyo-21-40-licensed-photos.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python scripts/tokyo_21_40_licensed_photos.py
+      - name: Commit photos and usage credits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/tokyo-verified site/tokyo-card-photos.js audit-reports/tokyo-21-40-photographic-replacement.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Replace Tokyo 21-40 schematic cards with licensed photo assets"
+            git pull --rebase origin main
+            git push
+          fi
