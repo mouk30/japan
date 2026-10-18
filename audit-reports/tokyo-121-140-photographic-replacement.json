@@ -1,0 +1,101 @@
+{
+  "total": 20,
+  "new_photos": 9,
+  "retained_illustration": {
+    "isetan-shinjuku-1f-cosmetics": "No distinct licensed department-store photo matching this topic",
+    "daimaru-tokyo-b1-food": "No distinct licensed department-store photo matching this topic",
+    "daimaru-tokyo-12f-taxfree": "No distinct licensed department-store photo matching this topic",
+    "daimaru-tokyo-10f-hands": "No distinct licensed department-store photo matching this topic",
+    "shinjuku-takashimaya-b1": "No distinct licensed department-store photo matching this topic",
+    "shinjuku-takashimaya-9f-kids": "No distinct licensed department-store photo matching this topic",
+    "ginza-six-b2-food": "No distinct licensed department-store photo matching this topic",
+    "ginza-six-b1-beauty": "No distinct licensed department-store photo matching this topic",
+    "ginza-six-rooftop": "No distinct licensed department-store photo matching this topic",
+    "nihombashi-mitsukoshi-floors": "No distinct licensed department-store photo matching this topic",
+    "nihombashi-takashimaya-floor": "No distinct licensed department-store photo matching this topic"
+  },
+  "entries": {
+    "isetan-shinjuku-b1-food": {
+      "src": "/images/tokyo-verified/isetan-shinjuku-b1-food.webp",
+      "alt": "Isetan mens shinjuku.JPG 관련 역 사진",
+      "caption": "사진: User:Kentin · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Isetan_mens_shinjuku.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "User:Kentin",
+      "source_file": "File:Isetan mens shinjuku.JPG"
+    },
+    "isetan-shinjuku-b2-beauty": {
+      "src": "/images/tokyo-verified/isetan-shinjuku-b2-beauty.webp",
+      "alt": "Isetan Shinjuku.JPG 관련 역 사진",
+      "caption": "사진: Kakidai · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Isetan_Shinjuku.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Kakidai",
+      "source_file": "File:Isetan Shinjuku.JPG"
+    },
+    "isetan-shinjuku-mens": {
+      "src": "/images/tokyo-verified/isetan-shinjuku-mens.webp",
+      "alt": "Isetan Mens Shinjuku.JPG 관련 역 사진",
+      "caption": "사진: Wideangle · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Isetan_Mens_Shinjuku.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Wideangle",
+      "source_file": "File:Isetan Mens Shinjuku.JPG"
+    },
+    "tobu-ikebukuro-b1-b2": {
+      "src": "/images/tokyo-verified/tobu-ikebukuro-b1-b2.webp",
+      "alt": "Tobu-dept ikebukuro.JPG 관련 역 사진",
+      "caption": "사진: User:ITA-ATU · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tobu-dept_ikebukuro.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "User:ITA-ATU",
+      "source_file": "File:Tobu-dept ikebukuro.JPG"
+    },
+    "tobu-ikebukuro-7f-kids": {
+      "src": "/images/tokyo-verified/tobu-ikebukuro-7f-kids.webp",
+      "alt": "Ikebukuro Station Tobu Department Store 2020-09-02.jpg 관련 역 사진",
+      "caption": "사진: nakashi from Chofu, Tokyo, JAPAN · CC BY-SA 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ikebukuro_Station_Tobu_Department_Store_2020-09-02.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "nakashi from Chofu, Tokyo, JAPAN",
+      "source_file": "File:Ikebukuro Station Tobu Department Store 2020-09-02.jpg"
+    },
+    "tobu-ikebukuro-restaurants": {
+      "src": "/images/tokyo-verified/tobu-ikebukuro-restaurants.webp",
+      "alt": "Ikebukuro view from Tobu department store Aug 13 2021 1PM.jpeg 관련 역 사진",
+      "caption": "사진: Nesnad · CC BY 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ikebukuro_view_from_Tobu_department_store_Aug_13_2021_1PM.jpeg",
+      "license": "CC BY 4.0",
+      "author": "Nesnad",
+      "source_file": "File:Ikebukuro view from Tobu department store Aug 13 2021 1PM.jpeg"
+    },
+    "ginza-six-6f-books": {
+      "src": "/images/tokyo-verified/ginza-six-6f-books.webp",
+      "alt": "Ginza Six TSUTAYA BOOKS 201706.jpg 관련 역 사진",
+      "caption": "사진: DJ Quietstorm · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ginza_Six_TSUTAYA_BOOKS_201706.jpg",
+      "license": "CC BY 2.0",
+      "author": "DJ Quietstorm",
+      "source_file": "File:Ginza Six TSUTAYA BOOKS 201706.jpg"
+    },
+    "ginza-mitsukoshi-floor-plan": {
+      "src": "/images/tokyo-verified/ginza-mitsukoshi-floor-plan.webp",
+      "alt": "Mitsukoshi Ginza new-building.JPG 관련 역 사진",
+      "caption": "사진: Wideangle · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Mitsukoshi_Ginza_new-building.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Wideangle",
+      "source_file": "File:Mitsukoshi Ginza new-building.JPG"
+    },
+    "shibuya-parco-floor-guide": {
+      "src": "/images/tokyo-verified/shibuya-parco-floor-guide.webp",
+      "alt": "Shibuya Parco 2020.jpg 관련 역 사진",
+      "caption": "사진: Dick Thomas Johnson from Tokyo, Japan · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Shibuya_Parco_2020.jpg",
+      "license": "CC BY 2.0",
+      "author": "Dick Thomas Johnson from Tokyo, Japan",
+      "source_file": "File:Shibuya Parco 2020.jpg"
+    }
+  },
+  "note": "Filename and Commons license verified; physical accuracy of exit/route directions and public-browser rendering not certified."
+}
