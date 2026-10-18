@@ -70,3 +70,47 @@
 .tokyo-article-photo-v1{margin:18px auto 24px;max-width:900px}.tokyo-article-photo-v1 img{display:block;width:100%;max-height:480px;object-fit:cover;border-radius:16px}.tokyo-article-photo-v1 figcaption{font-size:12px;line-height:1.5;color:#627387;margin-top:8px}.tokyo-article-photo-v1 figcaption a{text-decoration:underline}
 
 .tky-card-photo{position:relative;display:block;overflow:hidden}.tky-card-photo img{display:block;width:100%;height:190px;object-fit:cover}.tky-photo-label{display:block;padding:5px 8px;font-size:10px;line-height:1.4;color:#50637d;background:#f0f4f7;white-space:normal}
+
+/* Tokyo mobile photo QA: preserve 16:9 crops without truncating photographer credits.
+   Replaces the legacy fixed 190px image height and aspect-ratio on the outer figure. */
+.tky-card .tky-card-photo{
+  box-sizing:border-box;
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:auto;
+  overflow:visible;
+  background:#f2f6f8;
+}
+.tky-card .tky-card-photo>img{
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:16/9;
+  object-fit:cover;
+  object-position:center;
+  transition:transform .2s ease;
+}
+.tky-card .tky-photo-label{
+  display:block;
+  width:100%;
+  height:auto;
+  box-sizing:border-box;
+  padding:6px 10px;
+  margin:0;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  font-size:10px;
+  line-height:1.5;
+  background:#f5f7fa;
+  color:#435569;
+}
+@media (max-width:600px){
+  .tky-cards>.tky-card{min-width:0;max-width:100%;overflow:hidden}
+  .tky-card .tky-card-photo>img{aspect-ratio:16/9;object-position:center}
+  .tky-card .tky-photo-label{font-size:10px;padding:7px 9px}
+}
+@media (prefers-reduced-motion:reduce){
+  .tky-card .tky-card-photo>img{transition:none!important}
+  .tky-card:hover .tky-card-photo>img{transform:none!important}
+}
