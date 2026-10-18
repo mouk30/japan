@@ -1,0 +1,394 @@
+{
+  "date": "2026-10-18",
+  "scope": "Tokyo existing 220 articles only; no new editorial articles",
+  "official_links": {
+    "second_pass_initial": 45,
+    "independently_confirmed": 5,
+    "needs_more_check": 40,
+    "items": [
+      {
+        "url": "https://www.tokyometro.jp/en/ticket/travel/index.html",
+        "classification": "access_blocked_unverified",
+        "articles": [
+          12,
+          12,
+          74
+        ]
+      },
+      {
+        "url": "https://www.jreast.co.jp/multi/en/nex/",
+        "classification": "access_blocked_unverified",
+        "articles": [
+          15
+        ]
+      },
+      {
+        "url": "https://www.mistore.jp/store/shinjuku.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          17,
+          17,
+          124
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/ticket/change/howto.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          22,
+          94
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/tdl/ticket/purchase.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          22
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/tds/",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          23,
+          24
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/tds/ticket/purchase",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          23
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.co.jp/en/tdr/access",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          23,
+          25,
+          26
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/special/en/fantasysprings/",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          24,
+          108,
+          109,
+          110
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/standbypass.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          24,
+          86,
+          86
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/tdr/resortline.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          25
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.co.jp/en/tdl/access",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          25
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/hotel/",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          26,
+          26,
+          90,
+          98
+        ]
+      },
+      {
+        "url": "https://www.tokyoport.or.jp/en/",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          40,
+          216
+        ]
+      },
+      {
+        "url": "https://www.jreast.co.jp/ko/estation/stations/866.html",
+        "classification": "access_blocked_unverified",
+        "articles": [
+          41
+        ]
+      },
+      {
+        "url": "https://www.jreast.co.jp/en/e/stations/e1039.html",
+        "classification": "access_blocked_unverified",
+        "articles": [
+          43
+        ]
+      },
+      {
+        "url": "https://www.tokyometro.jp/lang_en/station/index.html",
+        "classification": "access_blocked_unverified",
+        "articles": [
+          44,
+          46,
+          49,
+          50,
+          51,
+          53,
+          57,
+          204
+        ]
+      },
+      {
+        "url": "https://www.jreast.co.jp/en/e/stations/e788.html",
+        "classification": "access_blocked_unverified",
+        "articles": [
+          60
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          99
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          81,
+          82,
+          83,
+          84,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          81,
+          82,
+          83,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          85,
+          85,
+          87,
+          87,
+          88,
+          99,
+          114
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          89,
+          90,
+          100
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/ticket/",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          91,
+          92,
+          93,
+          95
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/ticket/change/howto",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          94
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/hotel/dh.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          95,
+          98,
+          115,
+          116,
+          118,
+          120,
+          120
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          96,
+          96,
+          96,
+          97,
+          97,
+          97,
+          117,
+          119
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/tdr/app.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          99
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      {
+        "url": "https://www.mistore.jp/store/shinjuku/shops/mainfloorB1.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          121,
+          121
+        ]
+      },
+      {
+        "url": "https://www.mistore.jp/store/shinjuku/shops/mainfloor1.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          122,
+          122
+        ]
+      },
+      {
+        "url": "https://www.mistore.jp/store/shinjuku/shops.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          123,
+          123
+        ]
+      },
+      {
+        "url": "https://www.mistore.jp/store/nihombashi.html",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          137,
+          137
+        ]
+      },
+      {
+        "url": "https://www.donki.com/en/store/",
+        "classification": "access_blocked_unverified",
+        "articles": [
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "url": "https://www.mhlw.go.jp/english/",
+        "classification": "access_blocked_unverified",
+        "articles": [
+          147
+        ]
+      },
+      {
+        "url": "https://www.muji.com/jp/ja/shop/detail/046604",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          151,
+          152,
+          152,
+          153,
+          154
+        ]
+      },
+      {
+        "url": "https://hands.net/shop/",
+        "classification": "access_blocked_unverified",
+        "articles": [
+          158
+        ]
+      },
+      {
+        "url": "https://hands.net/",
+        "classification": "access_blocked_unverified",
+        "articles": [
+          158
+        ]
+      },
+      {
+        "url": "https://www.biccamera.com/",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          159
+        ]
+      },
+      {
+        "url": "https://www.tokyodisneyresort.jp/en/",
+        "classification": "timeout_or_network_unverified",
+        "articles": [
+          218
+        ]
+      }
+    ]
+  },
+  "photos": {
+    "original_review_pool": 24,
+    "already_replaced": 4,
+    "direct_visual_review_pending": 20,
+    "review_gallery": "/japan/tokyo/photo-review/",
+    "note": "Gallery displays current images and original Wikimedia source links, but visual correctness must be inspected rather than inferred from filenames."
+  },
+  "changes": [
+    "Added noindex review gallery of existing 20 photos, paired with source pages. No speculative image replacement or link deletion."
+  ],
+  "remaining": [
+    "Visually inspect exact scene on 20 photos against original source images.",
+    "Check the 40 unresolved official URLs with a real browser and official navigation rather than treating 403/429 as broken."
+  ]
+}
