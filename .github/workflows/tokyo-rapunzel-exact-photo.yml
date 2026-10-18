@@ -1,0 +1,31 @@
+name: Tokyo Rapunzel exact licensed photo
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_rapunzel_exact_photo.py
+      - .github/workflows/tokyo-rapunzel-exact-photo.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python scripts/tokyo_rapunzel_exact_photo.py
+      - name: Commit verified licensed source and 16:9 WebP
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/tokyo-verified/disneysea-rapunzel-lantern.webp site/tokyo-card-photos.js site/japan/tokyo/disneysea-rapunzel-lantern/index.html audit-reports/tokyo-disney-three-final-photo-status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Apply authentic Rapunzel Lantern Festival Wikimedia photograph"
+            git pull --rebase origin main
+            git push
+          fi
