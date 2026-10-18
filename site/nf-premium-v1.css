@@ -52,3 +52,8 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--nf-gold)!important;
 @media(max-width:960px){.nf-premium-hero{min-height:500px}.nf-premium-hero>.wrap{padding-top:85px;padding-bottom:80px}}
 @media(max-width:760px){.header-in{height:66px}.brand strong{font-size:19px}.brand img{width:35px;height:35px}.mobile-menu{top:66px}.nf-premium-hero{min-height:490px;background-position:64% center}.nf-premium-hero>.wrap{padding:77px 0 64px}.nf-overline{font-size:10px;letter-spacing:.12em}.nf-premium-hero h1{font-size:clamp(37px,8.8vw,52px);line-height:1.18}.nf-premium-hero p{font-size:15px;line-height:1.85}.nf-hero-actions a{width:100%;font-size:14px}.nf-hero-chips{gap:12px}.nf-maritime-panel{padding:28px 0}.nf-maritime-heading{display:block}.nf-maritime-heading>span{display:block;margin-top:7px}.nf-maritime-grid{grid-template-columns:1fr;gap:12px}.nf-maritime-card{min-height:225px;padding:23px}.nf-maritime-card .nf-card-go{bottom:18px}.nf-maritime-card strong{font-size:27px}}
 @media(prefers-reduced-motion:reduce){.nf-hero-actions a{transition:none}}
+
+/* Brand wordmark: maritime editorial mark, no emoji mascot in premium home header */
+.site-header .nf-brand-monogram{width:43px;height:43px;border:1px solid rgba(221,193,144,.9);display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;font-family:Georgia,serif;font-size:18px;letter-spacing:-.1em;color:#edd4a8;font-weight:600;line-height:1}
+.site-header .brand strong{letter-spacing:.035em}
+@media(max-width:760px){.site-header .nf-brand-monogram{width:37px;height:37px;font-size:16px}}
