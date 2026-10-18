@@ -6,14 +6,7 @@
     1440
   ],
   "checks": 24,
-  "failures": [
-    {
-      "mobileMenu": "cruise_article",
-      "open": false,
-      "escape": true,
-      "aria": "false"
-    }
-  ],
+  "failures": [],
   "reports": [
     {
       "name": "home",
@@ -194,8 +187,8 @@
       "headerHeight": 67,
       "menuVisible": true,
       "status": 200,
-      "mobileOpen": false,
-      "expanded": "false",
+      "mobileOpen": true,
+      "expanded": "true",
       "escapeClosed": true,
       "errors": []
     },
