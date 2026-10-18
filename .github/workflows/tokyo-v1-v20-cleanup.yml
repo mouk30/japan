@@ -1,0 +1,27 @@
+name: Tokyo V1-V20 remove generic text
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_v1_v20_remove_generic_sections.py
+      - .github/workflows/tokyo-v1-v20-cleanup.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/tokyo_v1_v20_remove_generic_sections.py
+      - name: Commit cleaner topic-specific articles
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/japan/tokyo audit-reports/tokyo-v1-v20-repeat-cleanup.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Remove redundant template advice from Tokyo V1-V20 articles"
+            git pull --rebase origin main
+            git push
+          fi
