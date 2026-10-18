@@ -1,0 +1,165 @@
+{
+  "total": 20,
+  "new_photos": 17,
+  "retained_illustration": {
+    "disneysea-rapunzel-lantern": "No licensed exact-attraction/hotel match",
+    "disneysea-soaring-flight": "No licensed exact-attraction/hotel match",
+    "disney-fantasy-springs-hotel": "No licensed exact-attraction/hotel match"
+  },
+  "entries": {
+    "disneyland-beauty-beast-ride": {
+      "src": "/images/tokyo-verified/disneyland-beauty-beast-ride.webp",
+      "alt": "Tokyo Disneyland Enchanted Tale of Beauty and the Beast (53440869377).jpg 관련 역 사진",
+      "caption": "사진: Dick Thomas Johnson from Tokyo, Japan · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Enchanted_Tale_of_Beauty_and_the_Beast_(53440869377).jpg",
+      "license": "CC BY 2.0",
+      "author": "Dick Thomas Johnson from Tokyo, Japan",
+      "source_file": "File:Tokyo Disneyland Enchanted Tale of Beauty and the Beast (53440869377).jpg"
+    },
+    "disneyland-baymax-happy-ride": {
+      "src": "/images/tokyo-verified/disneyland-baymax-happy-ride.webp",
+      "alt": "Tokyo Disneyland The Happy Ride with Baymax (53440870822).jpg 관련 역 사진",
+      "caption": "사진: Dick Thomas Johnson from Tokyo, Japan · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_The_Happy_Ride_with_Baymax_(53440870822).jpg",
+      "license": "CC BY 2.0",
+      "author": "Dick Thomas Johnson from Tokyo, Japan",
+      "source_file": "File:Tokyo Disneyland The Happy Ride with Baymax (53440870822).jpg"
+    },
+    "disneyland-splash-mountain": {
+      "src": "/images/tokyo-verified/disneyland-splash-mountain.webp",
+      "alt": "Splash Mountain TDL.JPG 관련 역 사진",
+      "caption": "사진: Freddo · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Splash_Mountain_TDL.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Freddo",
+      "source_file": "File:Splash Mountain TDL.JPG"
+    },
+    "disneyland-big-thunder-mountain": {
+      "src": "/images/tokyo-verified/disneyland-big-thunder-mountain.webp",
+      "alt": "Big Thunder Mountain Entrance TDL.jpg 관련 역 사진",
+      "caption": "사진: ARICAD · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Big_Thunder_Mountain_Entrance_TDL.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "ARICAD",
+      "source_file": "File:Big Thunder Mountain Entrance TDL.jpg"
+    },
+    "disneyland-pooh-hunny-hunt": {
+      "src": "/images/tokyo-verified/disneyland-pooh-hunny-hunt.webp",
+      "alt": "Pooh's Hunny Hunt 1.jpg 관련 역 사진",
+      "caption": "사진: Jeremy Thompson · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pooh%27s_Hunny_Hunt_1.jpg",
+      "license": "CC BY 2.0",
+      "author": "Jeremy Thompson",
+      "source_file": "File:Pooh's Hunny Hunt 1.jpg"
+    },
+    "disneyland-monsters-inc": {
+      "src": "/images/tokyo-verified/disneyland-monsters-inc.webp",
+      "alt": "Monsters, Inc. Ride & Go Seek 1.jpg 관련 역 사진",
+      "caption": "사진: Jeremy Thompson · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Monsters,_Inc._Ride_%26_Go_Seek_1.jpg",
+      "license": "CC BY 2.0",
+      "author": "Jeremy Thompson",
+      "source_file": "File:Monsters, Inc. Ride & Go Seek 1.jpg"
+    },
+    "disneyland-haunted-mansion-season": {
+      "src": "/images/tokyo-verified/disneyland-haunted-mansion-season.webp",
+      "alt": "Haunted Mansion (Tokyo Disneyland) 1.jpg 관련 역 사진",
+      "caption": "사진: Jeremy Thompson · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Haunted_Mansion_(Tokyo_Disneyland)_1.jpg",
+      "license": "CC BY 2.0",
+      "author": "Jeremy Thompson",
+      "source_file": "File:Haunted Mansion (Tokyo Disneyland) 1.jpg"
+    },
+    "disneysea-frozen-ever-after": {
+      "src": "/images/tokyo-verified/disneysea-frozen-ever-after.webp",
+      "alt": "Frozen Ever After (27235154804).jpg 관련 역 사진",
+      "caption": "사진: Theme Park Tourist · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Frozen_Ever_After_(27235154804).jpg",
+      "license": "CC BY 2.0",
+      "author": "Theme Park Tourist",
+      "source_file": "File:Frozen Ever After (27235154804).jpg"
+    },
+    "disneysea-peter-pan-adventure": {
+      "src": "/images/tokyo-verified/disneysea-peter-pan-adventure.webp",
+      "alt": "Peter Pan’s Never Land Adventure - Queue.jpg 관련 역 사진",
+      "caption": "사진: Fred Cherrygarden · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Peter_Pan%E2%80%99s_Never_Land_Adventure_-_Queue.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Fred Cherrygarden",
+      "source_file": "File:Peter Pan’s Never Land Adventure - Queue.jpg"
+    },
+    "disneysea-toy-story-mania": {
+      "src": "/images/tokyo-verified/disneysea-toy-story-mania.webp",
+      "alt": "ToyStoryMania.JPG 관련 역 사진",
+      "caption": "사진: Cd637 (talk) · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:ToyStoryMania.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Cd637 (talk)",
+      "source_file": "File:ToyStoryMania.JPG"
+    },
+    "disneysea-tower-of-terror": {
+      "src": "/images/tokyo-verified/disneysea-tower-of-terror.webp",
+      "alt": "Tower of Terror CU.JPG 관련 역 사진",
+      "caption": "사진: Childzy at en.wikipedia · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tower_of_Terror_CU.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Childzy at en.wikipedia",
+      "source_file": "File:Tower of Terror CU.JPG"
+    },
+    "disneysea-journey-center-earth": {
+      "src": "/images/tokyo-verified/disneysea-journey-center-earth.webp",
+      "alt": "Journey to the Center of the Earth vehicule TDS.JPG 관련 역 사진",
+      "caption": "사진: Freddo · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Journey_to_the_Center_of_the_Earth_vehicule_TDS.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Freddo",
+      "source_file": "File:Journey to the Center of the Earth vehicule TDS.JPG"
+    },
+    "disney-miracosta-hotel": {
+      "src": "/images/tokyo-verified/disney-miracosta-hotel.webp",
+      "alt": "Tokyo disneysea hotel miracosta.jpg 관련 역 사진",
+      "caption": "사진: mekarabeam · CC BY 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_disneysea_hotel_miracosta.jpg",
+      "license": "CC BY 3.0",
+      "author": "mekarabeam",
+      "source_file": "File:Tokyo disneysea hotel miracosta.jpg"
+    },
+    "disney-toy-story-hotel": {
+      "src": "/images/tokyo-verified/disney-toy-story-hotel.webp",
+      "alt": "Room at the Toy Story Hotel in Tokyo Disney Resort.jpg 관련 역 사진",
+      "caption": "사진: nagi usano · CC BY 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Room_at_the_Toy_Story_Hotel_in_Tokyo_Disney_Resort.jpg",
+      "license": "CC BY 4.0",
+      "author": "nagi usano",
+      "source_file": "File:Room at the Toy Story Hotel in Tokyo Disney Resort.jpg"
+    },
+    "disney-ambassador-hotel": {
+      "src": "/images/tokyo-verified/disney-ambassador-hotel.webp",
+      "alt": "Disney ambassador hotel.jpg 관련 역 사진",
+      "caption": "사진: mekarabeam · CC BY 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_ambassador_hotel.jpg",
+      "license": "CC BY 3.0",
+      "author": "mekarabeam",
+      "source_file": "File:Disney ambassador hotel.jpg"
+    },
+    "disney-celebration-hotel": {
+      "src": "/images/tokyo-verified/disney-celebration-hotel.webp",
+      "alt": "CelebrationHotel Bus KTB-C0809.jpeg 관련 역 사진",
+      "caption": "사진: ja:User:江戸前鰻 · CC BY 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:CelebrationHotel_Bus_KTB-C0809.jpeg",
+      "license": "CC BY 4.0",
+      "author": "ja:User:江戸前鰻",
+      "source_file": "File:CelebrationHotel Bus KTB-C0809.jpeg"
+    },
+    "disney-vacation-package-vs-regular": {
+      "src": "/images/tokyo-verified/disney-vacation-package-vs-regular.webp",
+      "alt": "Disney Hotel.jpg 관련 역 사진",
+      "caption": "사진: nakashi · CC BY-SA 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_Hotel.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "nakashi",
+      "source_file": "File:Disney Hotel.jpg"
+    }
+  },
+  "note": "Filename and Commons license verified; physical accuracy of exit/route directions and public-browser rendering not certified."
+}
