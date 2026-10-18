@@ -1,0 +1,34 @@
+name: Tokyo 220 remaining SVG and duplicate image repair
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_repair_remaining_70.py
+      - .github/workflows/tokyo-repair-remaining-svg.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tokyo-photo-repair
+  cancel-in-progress: false
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python scripts/tokyo_repair_remaining_70.py
+      - name: Save photo replacements and audit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/tokyo-verified site/tokyo-card-photos.js audit-reports/tokyo-220-image-repair-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Replace matching Tokyo SVGs and resolve duplicated image sources"
+            git pull --rebase origin main
+            git push
+          fi
