@@ -1,0 +1,28 @@
+name: Correct Tokyo Hands Osaka mismatched photo
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_hands_photo_location_fix.py
+      - .github/workflows/tokyo-hands-photo-correction.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests pillow
+      - run: python scripts/tokyo_hands_photo_location_fix.py
+      - name: Commit corrected Tokyo location photo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/tokyo-card-photos.js site/japan/tokyo/tokyo-hands-diy-gifts/index.html site/images/tokyo-verified/tokyo-hands-diy-gifts-shibuya.webp
+          if ! git diff --cached --quiet; then
+            git commit -m "Fix Tokyo Hands image from Osaka to licensed Shibuya store"
+            git pull --rebase origin main
+            git push
+          fi
