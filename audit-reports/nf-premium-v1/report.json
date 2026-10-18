@@ -1,0 +1,57 @@
+{
+  "page": "https://www.nipponferry.com/",
+  "widths": {
+    "390": {
+      "canonical": "https://www.nipponferry.com/",
+      "title": "일본크루즈 여행 | 가격·일정·기항지 | 일본페리",
+      "meta": "일본크루즈·일본페리 여행 가이드. 부산 출발 항로와 가격·일정·예약 정보, 규슈·오키나와 크루즈 기항지 관광과 하선 준비까지 확인하세요.",
+      "hasJsonld": true,
+      "hasCruise": true,
+      "hasFerry": true,
+      "hero": true,
+      "cssLoaded": true,
+      "overflow": false,
+      "maritimeLinks": [
+        "/things-to-do/cruise-ports/",
+        "/booking/japan-cruise/"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    "768": {
+      "canonical": "https://www.nipponferry.com/",
+      "title": "일본크루즈 여행 | 가격·일정·기항지 | 일본페리",
+      "meta": "일본크루즈·일본페리 여행 가이드. 부산 출발 항로와 가격·일정·예약 정보, 규슈·오키나와 크루즈 기항지 관광과 하선 준비까지 확인하세요.",
+      "hasJsonld": true,
+      "hasCruise": true,
+      "hasFerry": true,
+      "hero": true,
+      "cssLoaded": true,
+      "overflow": false,
+      "maritimeLinks": [
+        "/things-to-do/cruise-ports/",
+        "/booking/japan-cruise/"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    "1440": {
+      "canonical": "https://www.nipponferry.com/",
+      "title": "일본크루즈 여행 | 가격·일정·기항지 | 일본페리",
+      "meta": "일본크루즈·일본페리 여행 가이드. 부산 출발 항로와 가격·일정·예약 정보, 규슈·오키나와 크루즈 기항지 관광과 하선 준비까지 확인하세요.",
+      "hasJsonld": true,
+      "hasCruise": true,
+      "hasFerry": true,
+      "hero": true,
+      "cssLoaded": true,
+      "overflow": false,
+      "maritimeLinks": [
+        "/things-to-do/cruise-ports/",
+        "/booking/japan-cruise/"
+      ],
+      "status": 200,
+      "errors": []
+    }
+  },
+  "notes": "Homepage live browser structural and screenshot smoke test, not exhaustive visual design audit."
+}
