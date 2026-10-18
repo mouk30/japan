@@ -1,0 +1,350 @@
+{
+  "timestamp": "2026-10-18",
+  "scope": "Tokyo V1–V220 homepage card image registry",
+  "cards": 220,
+  "webp": 150,
+  "svg": 70,
+  "svg_remaining": [
+    {
+      "v": 1,
+      "slug": "tokyo-ramen-best-areas"
+    },
+    {
+      "v": 2,
+      "slug": "tokyo-sushi-breakfast-guide"
+    },
+    {
+      "v": 3,
+      "slug": "tokyo-tsukishima-monjayaki"
+    },
+    {
+      "v": 4,
+      "slug": "tokyo-yakitori-izakaya-guide"
+    },
+    {
+      "v": 5,
+      "slug": "tokyo-depachika-food-halls"
+    },
+    {
+      "v": 10,
+      "slug": "tokyo-night-view-observation-comparison"
+    },
+    {
+      "v": 11,
+      "slug": "tokyo-subway-route-map-korean"
+    },
+    {
+      "v": 12,
+      "slug": "tokyo-subway-ticket-24-48-72"
+    },
+    {
+      "v": 13,
+      "slug": "tokyo-yamanote-line-transfer-guide"
+    },
+    {
+      "v": 14,
+      "slug": "tokyo-haneda-airport-train-guide"
+    },
+    {
+      "v": 15,
+      "slug": "tokyo-narita-airport-train-guide"
+    },
+    {
+      "v": 16,
+      "slug": "tokyo-ginza-department-store-route"
+    },
+    {
+      "v": 17,
+      "slug": "tokyo-shinjuku-isetan-shopping"
+    },
+    {
+      "v": 18,
+      "slug": "tokyo-ginza-mitsukoshi-depachika"
+    },
+    {
+      "v": 19,
+      "slug": "tokyo-station-character-street"
+    },
+    {
+      "v": 20,
+      "slug": "tokyo-mega-donki-shibuya"
+    },
+    {
+      "v": 55,
+      "slug": "nippori-skyliner-jr"
+    },
+    {
+      "v": 75,
+      "slug": "toei-one-day-pass"
+    },
+    {
+      "v": 76,
+      "slug": "pasmo-vs-suica-card"
+    },
+    {
+      "v": 80,
+      "slug": "metro-elevator-stroller"
+    },
+    {
+      "v": 82,
+      "slug": "disney-dpa-app-purchase"
+    },
+    {
+      "v": 85,
+      "slug": "disney-priority-pass-free"
+    },
+    {
+      "v": 86,
+      "slug": "disney-standby-pass-store"
+    },
+    {
+      "v": 89,
+      "slug": "disney-priority-seating-restaurants"
+    },
+    {
+      "v": 90,
+      "slug": "disney-character-dining-booking"
+    },
+    {
+      "v": 91,
+      "slug": "disney-disability-passport"
+    },
+    {
+      "v": 92,
+      "slug": "disney-children-ticket-age"
+    },
+    {
+      "v": 94,
+      "slug": "disney-ticket-date-change"
+    },
+    {
+      "v": 110,
+      "slug": "disneysea-rapunzel-lantern"
+    },
+    {
+      "v": 111,
+      "slug": "disneysea-soaring-flight"
+    },
+    {
+      "v": 116,
+      "slug": "disney-fantasy-springs-hotel"
+    },
+    {
+      "v": 122,
+      "slug": "isetan-shinjuku-1f-cosmetics"
+    },
+    {
+      "v": 125,
+      "slug": "daimaru-tokyo-b1-food"
+    },
+    {
+      "v": 126,
+      "slug": "daimaru-tokyo-12f-taxfree"
+    },
+    {
+      "v": 127,
+      "slug": "daimaru-tokyo-10f-hands"
+    },
+    {
+      "v": 131,
+      "slug": "shinjuku-takashimaya-b1"
+    },
+    {
+      "v": 132,
+      "slug": "shinjuku-takashimaya-9f-kids"
+    },
+    {
+      "v": 133,
+      "slug": "ginza-six-b2-food"
+    },
+    {
+      "v": 134,
+      "slug": "ginza-six-b1-beauty"
+    },
+    {
+      "v": 136,
+      "slug": "ginza-six-rooftop"
+    },
+    {
+      "v": 137,
+      "slug": "nihombashi-mitsukoshi-floors"
+    },
+    {
+      "v": 139,
+      "slug": "nihombashi-takashimaya-floor"
+    },
+    {
+      "v": 143,
+      "slug": "odaiba-kirakira-donki"
+    },
+    {
+      "v": 146,
+      "slug": "donki-taxfree-passport"
+    },
+    {
+      "v": 147,
+      "slug": "tokyo-drugstore-cosmetics"
+    },
+    {
+      "v": 148,
+      "slug": "tokyo-drugstore-sun-care"
+    },
+    {
+      "v": 150,
+      "slug": "tokyo-kbeauty-vs-jcosmetic"
+    },
+    {
+      "v": 152,
+      "slug": "muji-ginza-4f-taxfree"
+    },
+    {
+      "v": 153,
+      "slug": "muji-ginza-6f-atelier"
+    },
+    {
+      "v": 154,
+      "slug": "muji-ginza-food-b1"
+    },
+    {
+      "v": 155,
+      "slug": "shibuya-loft-stationery"
+    },
+    {
+      "v": 156,
+      "slug": "ikebukuro-loft-floors"
+    },
+    {
+      "v": 157,
+      "slug": "loft-stationery-gifts"
+    },
+    {
+      "v": 158,
+      "slug": "tokyo-hands-diy-gifts"
+    },
+    {
+      "v": 164,
+      "slug": "kuramae-design-coffee"
+    },
+    {
+      "v": 165,
+      "slug": "kiyosumi-shirakawa-coffee"
+    },
+    {
+      "v": 166,
+      "slug": "monzen-nakacho-shrine"
+    },
+    {
+      "v": 176,
+      "slug": "jiyugaoka-dessert-cafes"
+    },
+    {
+      "v": 178,
+      "slug": "sugamo-jizo-shopping"
+    },
+    {
+      "v": 180,
+      "slug": "oji-asukayama-tram"
+    },
+    {
+      "v": 185,
+      "slug": "tokyo-unagi-kabayaki"
+    },
+    {
+      "v": 187,
+      "slug": "tokyo-izakaya-otoshi"
+    },
+    {
+      "v": 189,
+      "slug": "tokyo-department-bento"
+    },
+    {
+      "v": 190,
+      "slug": "tokyo-kissaten-retro-cafe"
+    },
+    {
+      "v": 191,
+      "slug": "tokyo-matcha-wagashi"
+    },
+    {
+      "v": 192,
+      "slug": "tokyo-melonpan-bakery"
+    },
+    {
+      "v": 194,
+      "slug": "tokyo-food-allergy-japanese"
+    },
+    {
+      "v": 200,
+      "slug": "tokyo-teamlab-borderless-vs-planets"
+    },
+    {
+      "v": 213,
+      "slug": "tokyo-winter-illumination-evening"
+    },
+    {
+      "v": 219,
+      "slug": "tokyo-cruise-to-skytree"
+    }
+  ],
+  "missing_credit_fields": [],
+  "duplicate_source_images": [
+    {
+      "file": "File:Toy Story Mania (Tokyo DisneySea) 1.jpg",
+      "posts": [
+        {
+          "v": 93,
+          "slug": "disney-hopper-limited-period"
+        },
+        {
+          "v": 95,
+          "slug": "disney-ticket-sold-out"
+        }
+      ]
+    },
+    {
+      "file": "File:Tokyo disneysea hotel miracosta.jpg",
+      "posts": [
+        {
+          "v": 98,
+          "slug": "disney-hotel-park-ticket-bundle"
+        },
+        {
+          "v": 115,
+          "slug": "disney-miracosta-hotel"
+        }
+      ]
+    },
+    {
+      "file": "File:Sign of How to use a Coinlocker in Shinjuku Station.jpg",
+      "posts": [
+        {
+          "v": 160,
+          "slug": "tokyo-shopping-luggage-locker"
+        },
+        {
+          "v": 220,
+          "slug": "tokyo-lastday-taxfree-baggage"
+        }
+      ]
+    },
+    {
+      "file": "File:Ameyoko Market.jpg",
+      "posts": [
+        {
+          "v": 162,
+          "slug": "ueno-ameyoko-budget-shopping"
+        },
+        {
+          "v": 209,
+          "slug": "tokyo-budget-under-10000yen"
+        }
+      ]
+    }
+  ],
+  "quality_limitations": [
+    "Visual accuracy of each photo vs post title not verified by this metadata audit.",
+    "Actual browser rendering, mobile crop and image sharpness require browser inspection.",
+    "Licensing attribution inside collapsed captions may need accessibility and license compliance review.",
+    "Images in article bodies are not covered by homepage card counts."
+  ]
+}
