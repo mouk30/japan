@@ -1,0 +1,141 @@
+{
+  "total": 20,
+  "new_photos": 14,
+  "retained_illustration": {
+    "kuramae-design-coffee": "No distinct licensed matching Tokyo district photo",
+    "kiyosumi-shirakawa-coffee": "No distinct licensed matching Tokyo district photo",
+    "monzen-nakacho-shrine": "No distinct licensed matching Tokyo district photo",
+    "jiyugaoka-dessert-cafes": "No distinct licensed matching Tokyo district photo",
+    "sugamo-jizo-shopping": "No distinct licensed matching Tokyo district photo",
+    "oji-asukayama-tram": "No distinct licensed matching Tokyo district photo"
+  },
+  "entries": {
+    "asakusa-nakamise-backstreets": {
+      "src": "/images/tokyo-verified/asakusa-nakamise-backstreets.webp",
+      "alt": "Nakamise by ume-y.jpg 관련 역 사진",
+      "caption": "사진: ume-y from Nakamise in Sensoji, Asakusa, Taito, Tokyo · CC BY-SA 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Nakamise_by_ume-y.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "ume-y from Nakamise in Sensoji, Asakusa, Taito, Tokyo",
+      "source_file": "File:Nakamise by ume-y.jpg"
+    },
+    "ueno-ameyoko-budget-shopping": {
+      "src": "/images/tokyo-verified/ueno-ameyoko-budget-shopping.webp",
+      "alt": "Ameyoko Market.jpg 관련 역 사진",
+      "caption": "사진: Ian David Winter · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ameyoko_Market.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ian David Winter",
+      "source_file": "File:Ameyoko Market.jpg"
+    },
+    "yanaka-ginza-sunset-stairs": {
+      "src": "/images/tokyo-verified/yanaka-ginza-sunset-stairs.webp",
+      "alt": "Yuyake dandan yanaka taito tokyo 2009 Apr.JPG 관련 역 사진",
+      "caption": "사진: User:Kentin · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Yuyake_dandan_yanaka_taito_tokyo_2009_Apr.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "User:Kentin",
+      "source_file": "File:Yuyake dandan yanaka taito tokyo 2009 Apr.JPG"
+    },
+    "nihombashi-bridge-shopping": {
+      "src": "/images/tokyo-verified/nihombashi-bridge-shopping.webp",
+      "alt": "Nihonbashi Bridge Lion.jpg 관련 역 사진",
+      "caption": "사진: Phlizz · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Nihonbashi_Bridge_Lion.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Phlizz",
+      "source_file": "File:Nihonbashi Bridge Lion.jpg"
+    },
+    "ningyocho-sweets-streets": {
+      "src": "/images/tokyo-verified/ningyocho-sweets-streets.webp",
+      "alt": "Nihonbashi Ningyocho-1.jpg 관련 역 사진",
+      "caption": "사진: 江戸村のとくぞう · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Nihonbashi_Ningyocho-1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "江戸村のとくぞう",
+      "source_file": "File:Nihonbashi Ningyocho-1.jpg"
+    },
+    "tsukishima-monjya-street": {
+      "src": "/images/tokyo-verified/tsukishima-monjya-street.webp",
+      "alt": "Tsukishima monja street.jpg 관련 역 사진",
+      "caption": "사진: User:Kentin · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tsukishima_monja_street.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "User:Kentin",
+      "source_file": "File:Tsukishima monja street.jpg"
+    },
+    "daikanyama-bookshops": {
+      "src": "/images/tokyo-verified/daikanyama-bookshops.webp",
+      "alt": "Daikanyama T-Site (52501035177).jpg 관련 역 사진",
+      "caption": "사진: Dick Thomas Johnson from Tokyo, Japan · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Daikanyama_T-Site_(52501035177).jpg",
+      "license": "CC BY 2.0",
+      "author": "Dick Thomas Johnson from Tokyo, Japan",
+      "source_file": "File:Daikanyama T-Site (52501035177).jpg"
+    },
+    "nakameguro-riverside": {
+      "src": "/images/tokyo-verified/nakameguro-riverside.webp",
+      "alt": "Meguro river view.jpg 관련 역 사진",
+      "caption": "사진: sergejf · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Meguro_river_view.jpg",
+      "license": "CC BY 2.0",
+      "author": "sergejf",
+      "source_file": "File:Meguro river view.jpg"
+    },
+    "ebisu-yebisu-garden": {
+      "src": "/images/tokyo-verified/ebisu-yebisu-garden.webp",
+      "alt": "Yebisu Garden Place.jpg 관련 역 사진",
+      "caption": "사진: Syced · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Yebisu_Garden_Place.jpg",
+      "license": "CC0",
+      "author": "Syced",
+      "source_file": "File:Yebisu Garden Place.jpg"
+    },
+    "shimokitazawa-vintage": {
+      "src": "/images/tokyo-verified/shimokitazawa-vintage.webp",
+      "alt": "Walk in Shimokitazawa 5.jpg 관련 역 사진",
+      "caption": "사진: Syced · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Walk_in_Shimokitazawa_5.jpg",
+      "license": "CC0",
+      "author": "Syced",
+      "source_file": "File:Walk in Shimokitazawa 5.jpg"
+    },
+    "koenji-used-clothes": {
+      "src": "/images/tokyo-verified/koenji-used-clothes.webp",
+      "alt": "Koenji look entrance suginami tokyo 2009.JPG 관련 역 사진",
+      "caption": "사진: User:Kentin · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Koenji_look_entrance_suginami_tokyo_2009.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "User:Kentin",
+      "source_file": "File:Koenji look entrance suginami tokyo 2009.JPG"
+    },
+    "kichijoji-inokashira-park": {
+      "src": "/images/tokyo-verified/kichijoji-inokashira-park.webp",
+      "alt": "Inokashira Park @ Kichijoji (9431557927).jpg 관련 역 사진",
+      "caption": "사진: Guilhem Vellut from Annecy, France · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Inokashira_Park_@_Kichijoji_(9431557927).jpg",
+      "license": "CC BY 2.0",
+      "author": "Guilhem Vellut from Annecy, France",
+      "source_file": "File:Inokashira Park @ Kichijoji (9431557927).jpg"
+    },
+    "ochanomizu-music-bookstores": {
+      "src": "/images/tokyo-verified/ochanomizu-music-bookstores.webp",
+      "alt": "Kurosawa Dr. Sound, entrance, Ochanomizu.jpg 관련 역 사진",
+      "caption": "사진: Richie Johns · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Kurosawa_Dr._Sound,_entrance,_Ochanomizu.jpg",
+      "license": "CC BY 2.0",
+      "author": "Richie Johns",
+      "source_file": "File:Kurosawa Dr. Sound, entrance, Ochanomizu.jpg"
+    },
+    "shibamata-taishakuten": {
+      "src": "/images/tokyo-verified/shibamata-taishakuten.webp",
+      "alt": "Front entrance of Shibamata Taishakuten from inside the gates.jpg 관련 역 사진",
+      "caption": "사진: Gatorfan252525 · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Front_entrance_of_Shibamata_Taishakuten_from_inside_the_gates.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Gatorfan252525",
+      "source_file": "File:Front entrance of Shibamata Taishakuten from inside the gates.jpg"
+    }
+  },
+  "note": "Filename and Commons license verified; physical accuracy of exit/route directions and public-browser rendering not certified."
+}
