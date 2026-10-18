@@ -1,0 +1,27 @@
+name: Tokyo V141-V160 shopping quality upgrade
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_v141_v160_quality_upgrade.py
+      - .github/workflows/tokyo-v141-v160-quality.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/tokyo_v141_v160_quality_upgrade.py
+      - name: Commit shopping content and editorial illustrations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/japan/tokyo site/images/tokyo-editorial site/tokyo-card-photos.js audit-reports/tokyo-v141-v160-quality-upgrade.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Improve Tokyo shopping V141–V160 copy and imagery accuracy"
+            git pull --rebase origin main
+            git push
+          fi
