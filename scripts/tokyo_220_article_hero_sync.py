@@ -1,8 +1,7 @@
 import re,json,pathlib,html
 base=pathlib.Path("site")
 js=(base/"tokyo-card-photos.js").read_text()
-match=re.search(r"const map=(\\{.*?\\});document\\.querySelectorAll",js,re.S)
-photos=json.loads(match.group(1))
+photos=json.loads(js.split("const map=",1)[1].split(";document.querySelectorAll",1)[0])
 ok=[];skip=[]
 for slug,photo in photos.items():
  path=base/"japan"/"tokyo"/slug/"index.html"
