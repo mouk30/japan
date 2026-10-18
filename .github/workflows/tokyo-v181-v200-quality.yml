@@ -1,0 +1,27 @@
+name: Tokyo V181-V200 food and culture quality
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_v181_v200_quality_upgrade.py
+      - .github/workflows/tokyo-v181-v200-quality.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/tokyo_v181_v200_quality_upgrade.py
+      - name: Save content and image fixes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/japan/tokyo site/images/tokyo-editorial site/tokyo-card-photos.js audit-reports/tokyo-v181-v200-quality-upgrade.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Enhance Tokyo V181-V200 practical food and cultural guides"
+            git pull --rebase origin main
+            git push
+          fi
