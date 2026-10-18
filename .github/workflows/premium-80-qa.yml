@@ -1,0 +1,54 @@
+name: Premium 80 browser and SEO QA
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/audit_premium_80.py'
+      - 'scripts/qa_premium_80.cjs'
+      - '.github/workflows/premium-80-qa.yml'
+      - 'site/nf-editorial-premium-v2.css'
+      - 'site/things-to-do/**'
+permissions:
+  contents: read
+jobs:
+  premium-80:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Collect SEO and source verification candidates
+        run: python3 scripts/audit_premium_80.py
+      - name: Install Chromium browser
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Start local built-site server and browser QA
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory site > /tmp/nf-premium-server.log 2>&1 &
+          sleep 2
+          node scripts/qa_premium_80.cjs
+      - name: Attach QA report to GitHub summary
+        if: always()
+        run: |
+          echo '## Premium 80 validation' >> "$GITHUB_STEP_SUMMARY"
+          if [ -f audit-output/premium-80/summary.json ]; then
+            echo '### Static SEO, image and link audit' >> "$GITHUB_STEP_SUMMARY"
+            cat audit-output/premium-80/summary.json >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [ -f audit-output/premium-80/browser-summary.json ]; then
+            echo '### Chromium QA' >> "$GITHUB_STEP_SUMMARY"
+            python3 -c 'import json; d=json.load(open("audit-output/premium-80/browser-summary.json")); print(json.dumps({k:d[k] for k in ("pages","combinations","pass","fail")},indent=2))' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Upload full results and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: premium-80-qa
+          path: audit-output/premium-80/
+          if-no-files-found: warn
