@@ -1,0 +1,171 @@
+{
+  "updated": 20,
+  "generic_sections_removed": 40,
+  "items": [
+    {
+      "v": 201,
+      "slug": "tokyo-arrival-haneda-halfday",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 202,
+      "slug": "tokyo-narita-last-day",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 203,
+      "slug": "tokyo-firsttime-east-west",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 204,
+      "slug": "tokyo-parents-flat-route",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 205,
+      "slug": "tokyo-stroller-rainy-day",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 206,
+      "slug": "tokyo-toddler-underfive",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 207,
+      "slug": "tokyo-teens-anime-shopping",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 208,
+      "slug": "tokyo-couple-evening-nightview",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 209,
+      "slug": "tokyo-budget-under-10000yen",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 210,
+      "slug": "tokyo-luxury-ginza-day",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 211,
+      "slug": "tokyo-rainy-day-museum",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 212,
+      "slug": "tokyo-summer-heat-indoor",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 213,
+      "slug": "tokyo-winter-illumination-evening",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 214,
+      "slug": "tokyo-cherry-blossom-two-spots",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 215,
+      "slug": "tokyo-autumn-gardens",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 216,
+      "slug": "tokyo-cruise-odaiba-3hours",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 217,
+      "slug": "tokyo-cruise-shuttle-vs-train",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 218,
+      "slug": "tokyo-cruise-disney-possible",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 219,
+      "slug": "tokyo-cruise-to-skytree",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "v": 220,
+      "slug": "tokyo-lastday-taxfree-baggage",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    }
+  ],
+  "image_warning": {
+    "v": 213,
+    "source": "2010 photo of Akasaka Prince Hotel illumination; historical photo does not establish current winter display."
+  },
+  "scope": "Article-specific route, time-buffer, family and cruise guidance; original image sources retained for visual audit."
+}
