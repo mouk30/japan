@@ -47,7 +47,7 @@ m=re.search(r"const map=(\{.*?\});document\.querySelectorAll",js,re.S)
 if not m:raise RuntimeError("Unexpected JS photo registry structure")
 mapping=json.loads(m.group(1))
 folder=site/"images"/"tokyo-verified";folder.mkdir(exist_ok=True)
-success={};rejected={}
+success={};rejected={};used_source_files=set()
 for slug in slugs:
  query,tokens=stations[slug]
  params=urllib.parse.urlencode({"action":"query","format":"json","generator":"search","gsrsearch":query+" filetype:bitmap","gsrnamespace":6,"gsrlimit":35,"prop":"imageinfo","iiprop":"url|extmetadata","iiurlwidth":1200})
@@ -64,7 +64,8 @@ for slug in slugs:
    if not (license_name.startswith("CC BY") or license_name=="CC0"):continue
    width=info.get("width",1200);height=info.get("height",800)
    candidates.append((name,page["title"],info,meta,license_name))
-  if not candidates:raise ValueError("No licensed exact department-store match")
+  candidates=[c for c in candidates if c[1] not in used_source_files]
+  if not candidates:raise ValueError("No distinct licensed department-store photo matching this topic")
   candidates.sort(key=lambda x:(0 if "entrance" in x[0] or "exterior" in x[0] else 1,len(x[0])))
   _,name,info,meta,license_name=candidates[0]
   im=Image.open(io.BytesIO(get(info.get("thumburl") or info["url"])));im.load()
@@ -74,6 +75,7 @@ for slug in slugs:
   creator=clean(meta.get("Artist",{}).get("value",""))[:120] or "Wikimedia Commons"
   record={"src":"/images/tokyo-verified/"+slug+".webp","alt":clean(name.removeprefix("File:"))+" 관련 역 사진","caption":"사진: "+creator+" · "+license_name+" · Wikimedia Commons","source":info.get("descriptionurl"),"license":license_name,"author":creator,"source_file":name}
   success[slug]=record
+  used_source_files.add(name)
  except Exception as e:rejected[slug]=str(e)[:200]
  time.sleep(2)
 mapping.update(success)
