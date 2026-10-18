@@ -1,0 +1,31 @@
+name: Tokyo 61-80 licensed transit photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_61_80_licensed_photos.py
+      - .github/workflows/tokyo-61-80-licensed-photos.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python scripts/tokyo_61_80_licensed_photos.py
+      - name: Save photos and credits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/tokyo-verified site/tokyo-card-photos.js audit-reports/tokyo-61-80-photographic-replacement.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Replace Tokyo V61-80 concept images with licensed transit photos"
+            git pull --rebase origin main
+            git push
+          fi
