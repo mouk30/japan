@@ -1,0 +1,125 @@
+{
+  "total": 20,
+  "new_photos": 12,
+  "retained_illustration": {
+    "tokyo-unagi-kabayaki": "No distinct licensed food or venue photo",
+    "tokyo-izakaya-otoshi": "No distinct licensed food or venue photo",
+    "tokyo-department-bento": "No distinct licensed food or venue photo",
+    "tokyo-kissaten-retro-cafe": "No distinct licensed food or venue photo",
+    "tokyo-matcha-wagashi": "No distinct licensed food or venue photo",
+    "tokyo-melonpan-bakery": "No distinct licensed food or venue photo",
+    "tokyo-food-allergy-japanese": "No distinct licensed food or venue photo",
+    "tokyo-teamlab-borderless-vs-planets": "No distinct licensed food or venue photo"
+  },
+  "entries": {
+    "tokyo-shoyu-ramen": {
+      "src": "/images/tokyo-verified/tokyo-shoyu-ramen.webp",
+      "alt": "Shoyu Ramen.jpg 관련 역 사진",
+      "caption": "사진: Guilhem Vellut · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Shoyu_Ramen.jpg",
+      "license": "CC BY 2.0",
+      "author": "Guilhem Vellut",
+      "source_file": "File:Shoyu Ramen.jpg"
+    },
+    "tokyo-tsukemen-howto": {
+      "src": "/images/tokyo-verified/tokyo-tsukemen-howto.webp",
+      "alt": "Tsukemen.jpg 관련 역 사진",
+      "caption": "사진: Okc at Japanese Wikipedia · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tsukemen.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Okc at Japanese Wikipedia",
+      "source_file": "File:Tsukemen.jpg"
+    },
+    "tokyo-soba-vs-udon": {
+      "src": "/images/tokyo-verified/tokyo-soba-vs-udon.webp",
+      "alt": "Udon soba noodle making set.JPG 관련 역 사진",
+      "caption": "사진: Sakurai Midori · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Udon_soba_noodle_making_set.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Sakurai Midori",
+      "source_file": "File:Udon soba noodle making set.JPG"
+    },
+    "tokyo-tempura-lunch": {
+      "src": "/images/tokyo-verified/tokyo-tempura-lunch.webp",
+      "alt": "Tempura 001.jpg 관련 역 사진",
+      "caption": "사진: Ocdp · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tempura_001.jpg",
+      "license": "CC0",
+      "author": "Ocdp",
+      "source_file": "File:Tempura 001.jpg"
+    },
+    "tokyo-yakiniku-all-you-can-eat": {
+      "src": "/images/tokyo-verified/tokyo-yakiniku-all-you-can-eat.webp",
+      "alt": "Two Butabara pork Yakiniku 焼き肉-焼肉 Samgyeopsalgui14.jpg 관련 역 사진",
+      "caption": "사진: Wikimedia Commons · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Two_Butabara_pork_Yakiniku_%E7%84%BC%E3%81%8D%E8%82%89-%E7%84%BC%E8%82%89_Samgyeopsalgui14.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Wikimedia Commons",
+      "source_file": "File:Two Butabara pork Yakiniku 焼き肉-焼肉 Samgyeopsalgui14.jpg"
+    },
+    "tokyo-conveyor-sushi": {
+      "src": "/images/tokyo-verified/tokyo-conveyor-sushi.webp",
+      "alt": "Sushi train.jpg 관련 역 사진",
+      "caption": "사진: ben britten · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Sushi_train.jpg",
+      "license": "CC BY 2.0",
+      "author": "ben britten",
+      "source_file": "File:Sushi train.jpg"
+    },
+    "tokyo-fruit-parfait": {
+      "src": "/images/tokyo-verified/tokyo-fruit-parfait.webp",
+      "alt": "Parfait.jpg 관련 역 사진",
+      "caption": "사진: chidorian from Japan · CC BY-SA 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Parfait.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "chidorian from Japan",
+      "source_file": "File:Parfait.jpg"
+    },
+    "tokyo-museum-ticket-advance": {
+      "src": "/images/tokyo-verified/tokyo-museum-ticket-advance.webp",
+      "alt": "Tokyo National Museum staircase.jpg 관련 역 사진",
+      "caption": "사진: MerlinVtwelve · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_staircase.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "MerlinVtwelve",
+      "source_file": "File:Tokyo National Museum staircase.jpg"
+    },
+    "tokyo-art-national-center": {
+      "src": "/images/tokyo-verified/tokyo-art-national-center.webp",
+      "alt": "National Art Center Tokyo 2008.jpg 관련 역 사진",
+      "caption": "사진: Wiiii · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:National_Art_Center_Tokyo_2008.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Wiiii",
+      "source_file": "File:National Art Center Tokyo 2008.jpg"
+    },
+    "tokyo-edo-tokyo-museum": {
+      "src": "/images/tokyo-verified/tokyo-edo-tokyo-museum.webp",
+      "alt": "Edo-Tokyo Museum.jpg 관련 역 사진",
+      "caption": "사진: Wiiii · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Edo-Tokyo_Museum.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Wiiii",
+      "source_file": "File:Edo-Tokyo Museum.jpg"
+    },
+    "tokyo-sumo-ryogoku": {
+      "src": "/images/tokyo-verified/tokyo-sumo-ryogoku.webp",
+      "alt": "Ryogoku Kokugikan.jpg 관련 역 사진",
+      "caption": "사진: J. Miers - User: (WT-shared) Jtesla16 at  wts wikivoyage · CC BY-SA 1.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ryogoku_Kokugikan.jpg",
+      "license": "CC BY-SA 1.0",
+      "author": "J. Miers - User: (WT-shared) Jtesla16 at  wts wikivoyage",
+      "source_file": "File:Ryogoku Kokugikan.jpg"
+    },
+    "tokyo-kabuki-ginza": {
+      "src": "/images/tokyo-verified/tokyo-kabuki-ginza.webp",
+      "alt": "New Kabukiza.JPG 관련 역 사진",
+      "caption": "사진: Chiba ryo · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:New_Kabukiza.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Chiba ryo",
+      "source_file": "File:New Kabukiza.JPG"
+    }
+  },
+  "note": "Filename and Commons license verified; physical accuracy of exit/route directions and public-browser rendering not certified."
+}
