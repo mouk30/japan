@@ -1,0 +1,146 @@
+{
+  "updated": 20,
+  "pages": [
+    {
+      "slug": "disney-1day-admission-vs-dpa",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-dpa-app-purchase",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-dpa-price-attractions",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-dpa-parade-show",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-priority-pass-free",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-standby-pass-store",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-entry-request-show",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-mobile-order-food",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-priority-seating-restaurants",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-character-dining-booking",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-disability-passport",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-children-ticket-age",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-hopper-limited-period",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-ticket-date-change",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-ticket-sold-out",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-happy-entry-hotel-list",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-happy-entry-construction",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-hotel-park-ticket-bundle",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-park-app-ticket-share",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "disney-ride-height-safety",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    }
+  ],
+  "scope": "Disney 20 pages: clear ticket, DPA, passes, hotel eligibility conditions. Operator details can change."
+}
