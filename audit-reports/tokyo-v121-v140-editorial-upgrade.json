@@ -1,0 +1,147 @@
+{
+  "updated": 20,
+  "removed": 40,
+  "pages": [
+    {
+      "slug": "isetan-shinjuku-b1-food",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "isetan-shinjuku-1f-cosmetics",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "isetan-shinjuku-b2-beauty",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "isetan-shinjuku-mens",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "daimaru-tokyo-b1-food",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "daimaru-tokyo-12f-taxfree",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "daimaru-tokyo-10f-hands",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "tobu-ikebukuro-b1-b2",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "tobu-ikebukuro-7f-kids",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "tobu-ikebukuro-restaurants",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "shinjuku-takashimaya-b1",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "shinjuku-takashimaya-9f-kids",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "ginza-six-b2-food",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "ginza-six-b1-beauty",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "ginza-six-6f-books",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "ginza-six-rooftop",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "nihombashi-mitsukoshi-floors",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "ginza-mitsukoshi-floor-plan",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "nihombashi-takashimaya-floor",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "shibuya-parco-floor-guide",
+      "generic_removed": [
+        "generic",
+        "field"
+      ]
+    }
+  ],
+  "caveat": "Official floor guides linked, but store inventories and individual business operations need date-specific confirmation."
+}
