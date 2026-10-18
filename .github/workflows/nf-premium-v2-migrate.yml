@@ -1,0 +1,38 @@
+name: NIPPONFERRY Premium V2 shared-site migration
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/nf_premium_v2_migrate.py
+      - .github/workflows/nf-premium-v2-migrate.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: nf-premium-v2-migrate
+  cancel-in-progress: false
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate migration script
+        run: python -m py_compile scripts/nf_premium_v2_migrate.py
+      - name: Preserve SEO metadata and migrate HTML files
+        run: python scripts/nf_premium_v2_migrate.py
+      - name: Verify CSS and menu helper assets
+        run: |
+          test -s site/nf-premium-v2.css
+          test -s site/nf-premium-v2.js
+          test -s audit-reports/nf-premium-v2/migration-report.json
+      - name: Publish premium site components
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site audit-reports/nf-premium-v2/migration-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Unify premium cruise ferry navigation and article CTA across site"
+            git pull --rebase origin main
+            git push
+          fi
