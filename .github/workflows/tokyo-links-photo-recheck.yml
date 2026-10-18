@@ -1,0 +1,30 @@
+name: Tokyo 90 links and 220 photo provenance review
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_90_official_links_recheck.py
+      - scripts/tokyo_220_photo_provenance_review.py
+      - .github/workflows/tokyo-links-photo-recheck.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/tokyo_220_photo_provenance_review.py
+      - run: python scripts/tokyo_90_official_links_recheck.py
+      - name: Publish second-pass audit results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/tokyo-90-official-links-recheck.json audit-reports/tokyo-220-photo-provenance-review.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish 90 official-link retests and all 220 photo provenance inventory"
+            git pull --rebase origin main
+            git push
+          fi
