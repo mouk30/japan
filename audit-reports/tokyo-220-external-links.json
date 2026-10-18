@@ -1,0 +1,4490 @@
+{
+  "total_unique_external_urls": 343,
+  "checked": 343,
+  "http_2xx": 195,
+  "restricted_or_failed": 148,
+  "issues": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Omotesando-Station-2006-06-07_1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "omotesando-three-subways"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:On_our_way_to_teamLab_Borderless.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-teamlab-borderless-vs-planets"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:On_the_way_to_Sunshine_City_%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%86%E3%82%A3_in_Ikebukuro,_Tokyo,_Japan_(26295481219).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-summer-heat-indoor"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Oshiage_Station,_Skytree_Town_entrance.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "oshiage-skytree-access"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Otemachi_Station_entrance_B7_20090610.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "otemachi-transfer-five"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Parfait.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-fruit-parfait"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:People_at_the_Asakusa_Sensoji_Kaminarimon_entrance.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-firsttime-east-west"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Peter_Pan%E2%80%99s_Never_Land_Adventure_-_Queue.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneysea-peter-pan-adventure"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Platfome_at_Nagatach%C5%8D_Station(Namboku_Line).JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "namboku-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Platforms_of_Tokyo_Station_2018a.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-keiyo-platform"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Pooh%27s_Hunny_Hunt_1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneyland-pooh-hunny-hunt"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Product_display_in_Don_Quijote_Shibuya_branch.jpg",
+      "status": 429,
+      "pages_count": 2,
+      "sample_pages": [
+        "shibuya-mega-donki-by-floor",
+        "tokyo-mega-donki-shibuya"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Rain_near_Tokyo_subway_(3903002372).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "metro-24h-vs-subway-pass"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_in_night.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-couple-evening-nightview"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ramen_2.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-ramen-best-areas"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Road_separating_Ueno_Park_Zoo_from_Tokyo_Metropolitan_Art_Museum_01_(15567014488).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-ueno-park-museums-zoo"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Room_at_the_Toy_Story_Hotel_in_Tokyo_Disney_Resort.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-toy-story-hotel"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ryogoku_Kokugikan.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-sumo-ryogoku"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sashimi_at_the_Tsukiji_Markets_-_Tokyo_Japan_(Unsplash).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tsukiji-market-street-food"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Senso-ji.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-asakusa-sensoji-kaminarimon"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shibuya-Loft.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "shibuya-loft-stationery"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shibuya_Crossing_in_July_2026.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-shibuya-crossing-hachiko"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shibuya_Parco_2020.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "shibuya-parco-floor-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shinagawa_Station_-01.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "shinagawa-keikyu-jr"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shinjuku_Gyoen_National_Garden_and_NTT_DoCoMo_Yoyogi_Building,_Tokyo,_Japan.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-one-day-best-route"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shinjuku_Kabukicho_Entrance.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-shinjuku-night-sightseeing"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shinsen-Shinjuku_Station_entrance_200506.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "shinjuku-exits"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sign_of_How_to_use_a_Coinlocker_in_Shinjuku_Station.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-shopping-luggage-locker"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Signs_at_Ebisu_Metro_station_(57295).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-subway-route-map-korean"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Skyliner_(49285151287).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "narita-skyliner-or-nex"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Space_Mountain,_Disneyland.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-dpa-app-purchase"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Splash_Mountain_TDL.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneyland-splash-mountain"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Suitcases_in_the_Muji_Ginza_store_November_2023.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "muji-ginza-floor-map"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sushi_train.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-conveyor-sushi"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TOKYO_SKYTREE_VIEW%EF%BC%91.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-cruise-to-skytree"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TX_Akihabara_Station_main_entrance_Nov_16_2020_08-15PM.jpeg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "akihabara-station-gates"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Takashimaya_Tokyo.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "nihombashi-takashimaya-floor"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Takashimaya_shinjyuku.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "shinjuku-takashimaya-b1"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Taking_In_the_View%2C_Shibuya_Sky_Observation_Deck_%2853416648301%29.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-shibuya-sky-reservation"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tempura_001.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tempura-lunch"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tobu-dept_ikebukuro.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tobu-ikebukuro-b1-b2"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toden-Arakawa-Line-7015-00.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "oji-asukayama-tram"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toei-Type5522-1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "toei-one-day-pass"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toei-oedo-line-kuramae-station.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "toei-oedo-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toei_Shinjuku_Line.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "toei-shinjuku-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toei_mita_line_6312.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "toei-mita-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-Disneyland-STA_Gate.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-park-app-ticket-share"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-International-Cruise-Terminal-STA_Gate.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-cruise-shuttle-vs-train"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-skyline.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-night-view-observation-comparison"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TokyoMetro-G13-Kanda-station-entrance-3-20180208-164012.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "kanda-jr-ginza-transfer"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TokyoMetro-H11-Tsukiji-station-entrance-3a-20211216-110356.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tsukiji-two-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TokyoMetro-N05-Roppongi-1chome-station-entrance-2-20190220-101632.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "roppongi-museum-exits"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TokyoTower.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tower-tickets"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Character_Street_(5282387073).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-station-character-street"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_(4206291420).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-ride-height-safety"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_001.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disneyland-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Enchanted_Tale_of_Beauty_and_the_Beast_(53440869377).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneyland-beauty-beast-ride"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Entrance.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-1day-admission-vs-dpa"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Main_Entrance.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-ticket-date-change"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_The_Happy_Ride_with_Baymax_(53440870822).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneyland-baymax-happy-ride"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Tokyo_Disneyland_Electrical_Parade_Dreamlights_(53440911162).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-dpa-parade-show"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneysea_Station.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-happy-entry-construction"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_International_Cruise_Terminal.jpg",
+      "status": 429,
+      "pages_count": 2,
+      "sample_pages": [
+        "tokyo-cruise-odaiba-3hours",
+        "tokyo-family-cruise-shore-plan"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_International_Forum_-_51877773707.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-stroller-rainy-day"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Metro_Fukutoshin_Line.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "fukutoshin-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Metro_Yurakucho_Line.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "yurakucho-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Metropolitan_Government_Building_2024.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-metropolitan-government-free-view"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Monorail-1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "haneda-keikyu-or-monorail"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_Hyokeikan_Entrance_Hall_P3303413.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-rainy-day-museum"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-skytree-tickets"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_and_Skyscrapers_from_Shibuya_Sky_Observation_Deck_(53416648661).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-two-day-district-plan"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_and_moon_seen_from_Shibuya_Stream.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-three-day-highlights"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_disneyland_entrance.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-children-ticket-age"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_disneysea_hotel_miracosta.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-hotel-park-ticket-bundle"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyu_Hands.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-hands-diy-gifts"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tomioka-hachimangu-1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "monzen-nakacho-shrine"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Terror_CU.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneysea-tower-of-terror"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ToyStoryMania.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneysea-toy-story-mania"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toy_Story_Mania_(Tokyo_DisneySea)_1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-hopper-limited-period"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toyosu_Market.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-toyosu-market-auction-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tozai_Line.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tozai-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Train_in_Tokyo_Disneyland.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-priority-pass-free"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tsukemen.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tsukemen-howto"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tsukishima_monja_street.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tsukishima-monjya-street"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Two_Butabara_pork_Yakiniku_%E7%84%BC%E3%81%8D%E8%82%89-%E7%84%BC%E8%82%89_Samgyeopsalgui14.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-yakiniku-all-you-can-eat"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ueno_zoo_Pallas_cat.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-toddler-underfive"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Unagi1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-unagi-kabayaki"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Walk_in_Shimokitazawa_5.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "shimokitazawa-vintage"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yakitori-1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-yakitori-izakaya-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yamanote-Line-E235.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-yamanote-line-transfer-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yebisu_Garden_Place.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "ebisu-yebisu-garden"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yurikamome_(5845596726).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "yurikamome-rinkai-choice"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yurikamome_Shijomae_station_in_2016.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "toyosu-shijomae-travel"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yuyake_dandan_yanaka_taito_tokyo_2009_Apr.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "yanaka-ginza-sunset-stairs"
+      ]
+    },
+    {
+      "url": "https://ginza6.tokyo/floor",
+      "status": 404,
+      "pages_count": 3,
+      "sample_pages": [
+        "ginza-six-6f-books",
+        "ginza-six-b1-beauty",
+        "ginza-six-b2-food"
+      ]
+    },
+    {
+      "url": "https://hands.net/",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-hands-diy-gifts"
+      ]
+    },
+    {
+      "url": "https://hands.net/shop/",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-hands-diy-gifts"
+      ]
+    },
+    {
+      "url": "https://teamlabplanets.dmm.com/en",
+      "status": 404,
+      "pages_count": 2,
+      "sample_pages": [
+        "tokyo-teamlab-borderless-vs-planets",
+        "tokyo-teamlab-planets-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://teamlabplanets.dmm.com/en/guide/access_method",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-teamlab-planets-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://www.biccamera.com/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-electronics-bic-yodobashi"
+      ]
+    },
+    {
+      "url": "https://www.donki.com/en/store/",
+      "status": 403,
+      "pages_count": 3,
+      "sample_pages": [
+        "donki-asakusa-check",
+        "donki-roppongi-night-check",
+        "donki-taxfree-passport"
+      ]
+    },
+    {
+      "url": "https://www.donki.com/store/shop_detail.php?shop_id=376",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-mega-donki-shibuya"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/central-tokyo/tsukishima/index.html",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tsukishima-monjayaki"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/plan/tokyo-outline/travel-tips/index.html",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-yakitori-izakaya-guide"
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/e/",
+      "status": 403,
+      "pages_count": 11,
+      "sample_pages": [
+        "akihabara-station-gates",
+        "kanda-jr-ginza-transfer",
+        "pasmo-vs-suica-card",
+        "shibuya-hachiko-miyamasuzaka",
+        "shinagawa-keikyu-jr",
+        "tokyo-haneda-airport-train-guide",
+        "tokyo-keiyo-platform",
+        "tokyo-shopping-luggage-locker"
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/en/e/stations/e1039.html",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-keiyo-platform"
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/en/e/stations/e788.html",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "shinagawa-keikyu-jr"
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/ko/estation/stations/866.html",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "shinjuku-exits"
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/multi/en/nex/",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-narita-airport-train-guide"
+      ]
+    },
+    {
+      "url": "https://www.mhlw.go.jp/english/",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-drugstore-cosmetics"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/ginza.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 2,
+      "sample_pages": [
+        "ginza-mitsukoshi-floor-plan",
+        "tokyo-ginza-mitsukoshi-depachika"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/nihombashi.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "nihombashi-mitsukoshi-floors"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 2,
+      "sample_pages": [
+        "isetan-shinjuku-mens",
+        "tokyo-shinjuku-isetan-shopping"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "isetan-shinjuku-b2-beauty"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops/mainfloor1.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "isetan-shinjuku-1f-cosmetics"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops/mainfloorB1.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "isetan-shinjuku-b1-food"
+      ]
+    },
+    {
+      "url": "https://www.muji.com/jp/ja/shop/detail/046604",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 4,
+      "sample_pages": [
+        "muji-ginza-4f-taxfree",
+        "muji-ginza-6f-atelier",
+        "muji-ginza-floor-map",
+        "muji-ginza-food-b1"
+      ]
+    },
+    {
+      "url": "https://www.shijou.metro.tokyo.lg.jp/english/toyosu/",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-toyosu-market-auction-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyo-zoo.net/english/ueno/",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-toddler-underfive"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.co.jp/en/tdl/access",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disney-maihama-transport"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.co.jp/en/tdr/access",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 3,
+      "sample_pages": [
+        "tokyo-disney-hotel-stay-guide",
+        "tokyo-disney-maihama-transport",
+        "tokyo-disneysea-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-cruise-disney-possible"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 3,
+      "sample_pages": [
+        "disney-character-dining-booking",
+        "disney-hotel-park-ticket-bundle",
+        "tokyo-disney-hotel-stay-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/dh.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 6,
+      "sample_pages": [
+        "disney-ambassador-hotel",
+        "disney-fantasy-springs-hotel",
+        "disney-hotel-park-ticket-bundle",
+        "disney-miracosta-hotel",
+        "disney-ticket-sold-out",
+        "disney-vacation-package-vs-regular"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 5,
+      "sample_pages": [
+        "disney-ambassador-hotel",
+        "disney-celebration-hotel",
+        "disney-fantasy-springs-hotel",
+        "disney-miracosta-hotel",
+        "disney-toy-story-hotel"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 4,
+      "sample_pages": [
+        "disney-celebration-hotel",
+        "disney-happy-entry-construction",
+        "disney-happy-entry-hotel-list",
+        "disney-toy-story-hotel"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdl/ticket/purchase.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disneyland-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/app.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-park-app-ticket-share"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 3,
+      "sample_pages": [
+        "disney-character-dining-booking",
+        "disney-priority-seating-restaurants",
+        "disney-ride-height-safety"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 10,
+      "sample_pages": [
+        "disney-1day-admission-vs-dpa",
+        "disney-dpa-app-purchase",
+        "disney-dpa-parade-show",
+        "disney-dpa-price-attractions",
+        "disney-entry-request-show",
+        "disney-mobile-order-food",
+        "disney-park-app-ticket-share",
+        "disney-priority-pass-free"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 5,
+      "sample_pages": [
+        "disney-entry-request-show",
+        "disney-mobile-order-food",
+        "disney-park-app-ticket-share",
+        "disney-priority-pass-free",
+        "disneysea-journey-center-earth"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 15,
+      "sample_pages": [
+        "disney-1day-admission-vs-dpa",
+        "disney-dpa-app-purchase",
+        "disney-dpa-parade-show",
+        "disney-dpa-price-attractions",
+        "disney-ride-height-safety",
+        "disneyland-baymax-happy-ride",
+        "disneyland-beauty-beast-ride",
+        "disneyland-big-thunder-mountain"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 17,
+      "sample_pages": [
+        "disney-1day-admission-vs-dpa",
+        "disney-dpa-app-purchase",
+        "disney-dpa-price-attractions",
+        "disneyland-baymax-happy-ride",
+        "disneyland-beauty-beast-ride",
+        "disneyland-big-thunder-mountain",
+        "disneyland-haunted-mansion-season",
+        "disneyland-monsters-inc"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/standbypass.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 2,
+      "sample_pages": [
+        "disney-standby-pass-store",
+        "tokyo-disneysea-fantasy-springs"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/resortline.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disney-maihama-transport"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tds/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 2,
+      "sample_pages": [
+        "tokyo-disneysea-fantasy-springs",
+        "tokyo-disneysea-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tds/ticket/purchase",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disneysea-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 4,
+      "sample_pages": [
+        "disney-children-ticket-age",
+        "disney-disability-passport",
+        "disney-hopper-limited-period",
+        "disney-ticket-sold-out"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/change/howto",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-ticket-date-change"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/change/howto.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 2,
+      "sample_pages": [
+        "disney-ticket-date-change",
+        "tokyo-disneyland-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/index.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 8,
+      "sample_pages": [
+        "disney-children-ticket-age",
+        "disney-disability-passport",
+        "disney-hopper-limited-period",
+        "disney-ticket-date-change",
+        "disney-ticket-sold-out",
+        "tokyo-cruise-disney-possible",
+        "tokyo-disneyland-ticket-guide",
+        "tokyo-three-day-highlights"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/special/en/fantasysprings/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 4,
+      "sample_pages": [
+        "disneysea-frozen-ever-after",
+        "disneysea-peter-pan-adventure",
+        "disneysea-rapunzel-lantern",
+        "tokyo-disneysea-fantasy-springs"
+      ]
+    },
+    {
+      "url": "https://www.tokyoeki-1bangai.co.jp/en/tokyocharacterstreet/",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-station-character-street"
+      ]
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/subwaymap/",
+      "status": 403,
+      "pages_count": 12,
+      "sample_pages": [
+        "chiyoda-line-stations",
+        "fukutoshin-line-stations",
+        "ginza-line-stations",
+        "hanzomon-line-stations",
+        "hibiya-line-stations",
+        "marunouchi-line-stations",
+        "metro-24h-vs-subway-pass",
+        "metro-elevator-stroller"
+      ]
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/subwaymap/index.html",
+      "status": 403,
+      "pages_count": 21,
+      "sample_pages": [
+        "akasaka-nagatacho-connection",
+        "chiyoda-line-stations",
+        "fukutoshin-line-stations",
+        "ginza-line-stations",
+        "ginza-three-lines",
+        "hanzomon-line-stations",
+        "hibiya-line-stations",
+        "ikebukuro-east-west"
+      ]
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/ticket/travel/index.html",
+      "status": 403,
+      "pages_count": 2,
+      "sample_pages": [
+        "metro-24h-vs-subway-pass",
+        "tokyo-subway-ticket-24-48-72"
+      ]
+    },
+    {
+      "url": "https://www.tokyometro.jp/lang_en/station/index.html",
+      "status": 403,
+      "pages_count": 8,
+      "sample_pages": [
+        "asakusa-operators",
+        "ikebukuro-east-west",
+        "kasumigaseki-government",
+        "kudanshita-budokan",
+        "omotesando-three-subways",
+        "roppongi-museum-exits",
+        "tokyo-parents-flat-route",
+        "tsukiji-two-stations"
+      ]
+    },
+    {
+      "url": "https://www.tokyoport.or.jp/en/",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "pages_count": 2,
+      "sample_pages": [
+        "tokyo-cruise-odaiba-3hours",
+        "tokyo-family-cruise-shore-plan"
+      ]
+    }
+  ],
+  "all_results": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%82%BB%E3%83%AC%E3%83%96%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%82%BB%E3%83%AC%E3%83%96%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disney-hotel-stay-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:%E7%B0%A1%E6%98%93Suica%E6%94%B9%E6%9C%AD%E6%A9%9F.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:%E7%B0%A1%E6%98%93Suica%E6%94%B9%E6%9C%AD%E6%A9%9F.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "pasmo-vs-suica-card"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:251130_Ueno_Station.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:251130_Ueno_Station.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "ueno-park-ameyoko"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Akihabara_Electric_Town_01.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Akihabara_Electric_Town_01.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-teens-anime-shopping"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Akihabara_Electric_Town_Street_-_31-5-2026.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Akihabara_Electric_Town_Street_-_31-5-2026.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-akihabara-anime-shopping"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ameyoko_June_2022.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Ameyoko_June_2022.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-budget-under-10000yen"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ameyoko_Market.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Ameyoko_Market.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "ueno-ameyoko-budget-shopping"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:April_2009,_hanami_in_Ueno_Park_-39481.jpeg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:April_2009,_hanami_in_Ueno_Park_-39481.jpeg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-parents-flat-route"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Asakusa-Line_Series5500-5503.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Asakusa-Line_Series5500-5503.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "toei-asakusa-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Asakusa_Station_Toei_subway_entrance_A1.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Asakusa_Station_Toei_subway_entrance_A1.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "asakusa-operators"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:At_teamLab_Planets_(48277793276).jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:At_teamLab_Planets_(48277793276).jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-teamlab-planets-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Belle-Vie_Akasaka_and_Entrance_of_Akasaka-Mitsuke_station_2012.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Belle-Vie_Akasaka_and_Entrance_of_Akasaka-Mitsuke_station_2012.JPG",
+      "pages_count": 1,
+      "sample_pages": [
+        "akasaka-nagatacho-connection"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Bento_002.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Bento_002.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-department-bento"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Bic_Camera_Shinjuku_Station_East.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Bic_Camera_Shinjuku_Station_East.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-electronics-bic-yodobashi"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Big_Thunder_Mountain_Entrance_TDL.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Big_Thunder_Mountain_Entrance_TDL.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disneyland-big-thunder-mountain"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Blue_Bayou_Restaurant_at_Tokyo_Disneyland.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Blue_Bayou_Restaurant_at_Tokyo_Disneyland.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-mobile-order-food"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:CelebrationHotel_Bus_KTB-C0809.jpeg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:CelebrationHotel_Bus_KTB-C0809.jpeg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-celebration-hotel"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Chiyoda-line_series07.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Chiyoda-line_series07.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "chiyoda-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Contact_lens_case_(4481465795).jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Contact_lens_case_(4481465795).jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-drugstore-contact-lens"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:DAIMARU_TOKYO_Entrance_2019.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:DAIMARU_TOKYO_Entrance_2019.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "daimaru-tokyo-b1-food"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Daikanyama_T-Site_(52501035177).jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Daikanyama_T-Site_(52501035177).jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "daikanyama-bookshops"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Daimaru_Tokyo_and_Yaesu_exit,_Tokyo_station_-_Aug_28,_2025.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Daimaru_Tokyo_and_Yaesu_exit,_Tokyo_station_-_Aug_28,_2025.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "daimaru-tokyo-12f-taxfree"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Daimaru_tokyo_(49750080667).jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Daimaru_tokyo_(49750080667).jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "daimaru-tokyo-10f-hands"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Depachika.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Depachika.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-depachika-food-halls"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Disney_Hotel.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Disney_Hotel.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-vacation-package-vs-regular"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Disney_Resort_Line.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Disney_Resort_Line.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-cruise-disney-possible"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Disney_ambassador_hotel.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Disney_ambassador_hotel.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-ambassador-hotel"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Anaheim.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Disneyland_Anaheim.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-character-dining-booking"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Balloons.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Disneyland_Balloons.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-disability-passport"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Disneyland_Entrance.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Disneyland_Entrance.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-ticket-sold-out"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Disneyland_hotel.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Disneyland_hotel.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-happy-entry-hotel-list"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Disneyland_plaque.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Disneyland_plaque.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-priority-seating-restaurants"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Disneysea_entrance.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Disneysea_entrance.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-standby-pass-store"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:DiverCity_Tokyo_Plaza.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:DiverCity_Tokyo_Plaza.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "odaiba-kirakira-donki"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Don_Quijote_Roppongi_Store-2012.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Don_Quijote_Roppongi_Store-2012.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "donki-roppongi-night-check"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Don_Quijote_Shinjuku.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Don_Quijote_Shinjuku.JPG",
+      "pages_count": 2,
+      "sample_pages": [
+        "shinjuku-kabukicho-donki",
+        "tokyo-donki-shinjuku-kabukicho"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Don_Quijote_building_in_Asakusa,_Tokyo,_2019_-_521.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Don_Quijote_building_in_Asakusa,_Tokyo,_2019_-_521.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "donki-asakusa-check"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Edo-Tokyo_Museum.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Edo-Tokyo_Museum.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-edo-tokyo-museum"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Entrance_sign_at_Akihabara_station_Hibiya_line.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Entrance_sign_at_Akihabara_station_Hibiya_line.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "hibiya-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Fantasy_Springs_-_Frozen_Kingdom.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Fantasy_Springs_-_Frozen_Kingdom.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disneysea-fantasy-springs"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Front_entrance_of_Shibamata_Taishakuten_from_inside_the_gates.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Front_entrance_of_Shibamata_Taishakuten_from_inside_the_gates.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "shibamata-taishakuten"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Frozen_Ever_After_(27235154804).jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Frozen_Ever_After_(27235154804).jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disneysea-frozen-ever-after"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:GINZA_SIX1.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:GINZA_SIX1.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "ginza-six-b2-food"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:GINZA_SIX3.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:GINZA_SIX3.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "ginza-six-b1-beauty"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:GINZA_SIX4.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:GINZA_SIX4.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "ginza-six-rooftop"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ghibli_Museum,_Mitaka,_Tokyo,_20240823_1131_5545.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Ghibli_Museum,_Mitaka,_Tokyo,_20240823_1131_5545.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-ghibli-museum-booking"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ginza_Six_TSUTAYA_BOOKS_201706.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Ginza_Six_TSUTAYA_BOOKS_201706.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "ginza-six-6f-books"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ginza_Station-1.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Ginza_Station-1.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "ginza-three-lines"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ginza_line_shibuya.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Ginza_line_shibuya.jpg",
+      "pages_count": 2,
+      "sample_pages": [
+        "ginza-line-stations",
+        "tokyo-subway-ticket-24-48-72"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ginza_nine_entrance_chuo_tokyo_2009.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Ginza_nine_entrance_chuo_tokyo_2009.JPG",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-luxury-ginza-day"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hachiko_Entrance_of_Shibuya_Station_(JR).jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Hachiko_Entrance_of_Shibuya_Station_(JR).jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "shibuya-hachiko-miyamasuzaka"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Haneda-Airport-Terminal-1-STA_Gate.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Haneda-Airport-Terminal-1-STA_Gate.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-arrival-haneda-halfday"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hanzomon-Line_Series18000-18005.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Hanzomon-Line_Series18000-18005.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "hanzomon-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hanzomon-STA_Elevator-Gate.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Hanzomon-STA_Elevator-Gate.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "metro-elevator-stroller"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Haunted_Mansion_(Tokyo_Disneyland)_1.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Haunted_Mansion_(Tokyo_Disneyland)_1.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disneyland-haunted-mansion-season"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel_MiraCosta.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Hotel_MiraCosta.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-miracosta-hotel"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ikebukuro_Station_Tobu_Department_Store_2020-09-02.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Ikebukuro_Station_Tobu_Department_Store_2020-09-02.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tobu-ikebukuro-7f-kids"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ikebukuro_station_west_entrance.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Ikebukuro_station_west_entrance.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "ikebukuro-east-west"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ikebukuro_view_from_Tobu_department_store_Aug_13_2021_1PM.jpeg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Ikebukuro_view_from_Tobu_department_store_Aug_13_2021_1PM.jpeg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tobu-ikebukuro-restaurants"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Inokashira_Park_@_Kichijoji_(9431557927).jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Inokashira_Park_@_Kichijoji_(9431557927).jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "kichijoji-inokashira-park"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Isetan_@_CTW.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Isetan_@_CTW.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "isetan-shinjuku-1f-cosmetics"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Isetan_Mens_Shinjuku.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Isetan_Mens_Shinjuku.JPG",
+      "pages_count": 1,
+      "sample_pages": [
+        "isetan-shinjuku-mens"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Isetan_Shinjuku.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Isetan_Shinjuku.JPG",
+      "pages_count": 1,
+      "sample_pages": [
+        "isetan-shinjuku-b2-beauty"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Isetan_kaikan_shinjuku.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Isetan_kaikan_shinjuku.JPG",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-shinjuku-isetan-shopping"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Isetan_mens_shinjuku.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Isetan_mens_shinjuku.JPG",
+      "pages_count": 1,
+      "sample_pages": [
+        "isetan-shinjuku-b1-food"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Izakaya_Feast.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Izakaya_Feast.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-izakaya-otoshi"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:JR-Narita-Airport-station-entrance.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:JR-Narita-Airport-station-entrance.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-narita-last-day"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Jiyugaoka_1-chome.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Jiyugaoka_1-chome.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "jiyugaoka-dessert-cafes"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Journey_to_the_Center_of_the_Earth_vehicule_TDS.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Journey_to_the_Center_of_the_Earth_vehicule_TDS.JPG",
+      "pages_count": 1,
+      "sample_pages": [
+        "disneysea-journey-center-earth"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Jungle_Cruise_entrance_at_Tokyo_Disneyland.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Jungle_Cruise_entrance_at_Tokyo_Disneyland.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-dpa-price-attractions"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Kasumigaseki_Station_entrance.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Kasumigaseki_Station_entrance.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "kasumigaseki-government"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Keikyu_Haneda_Airport_Station_platform_door_20200729_(50174350428).jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Keikyu_Haneda_Airport_Station_platform_door_20200729_(50174350428).jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-haneda-airport-train-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Kiyosumi-1.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Kiyosumi-1.JPG",
+      "pages_count": 1,
+      "sample_pages": [
+        "kiyosumi-shirakawa-coffee"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Koenji_look_entrance_suginami_tokyo_2009.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Koenji_look_entrance_suginami_tokyo_2009.JPG",
+      "pages_count": 1,
+      "sample_pages": [
+        "koenji-used-clothes"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Kudanshita_station.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Kudanshita_station.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "kudanshita-budokan"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Kuramae-Sta-A6.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Kuramae-Sta-A6.JPG",
+      "pages_count": 1,
+      "sample_pages": [
+        "kuramae-design-coffee"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Kurosawa_Dr._Sound,_entrance,_Ochanomizu.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Kurosawa_Dr._Sound,_entrance,_Ochanomizu.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "ochanomizu-music-bookstores"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Locker_35.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Locker_35.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-lastday-taxfree-baggage"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Loft_675.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Loft_675.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "ikebukuro-loft-floors"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Maihama_Resort-Liner_leaves_Tokyo-DisneySea-Station_20120219.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Maihama_Resort-Liner_leaves_Tokyo-DisneySea-Station_20120219.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disney-maihama-transport"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Marunouchi-Line_Series02-618.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Marunouchi-Line_Series02-618.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "marunouchi-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Matcha_and_wagashi.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Matcha_and_wagashi.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-matcha-wagashi"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Meguro_River_cherry_blossom_2025_April.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Meguro_River_cherry_blossom_2025_April.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-cherry-blossom-two-spots"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Meguro_river_view.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Meguro_river_view.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "nakameguro-riverside"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Meiji_Jingu_Gaien_Ginkgo_Festival_(53440769967).jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Meiji_Jingu_Gaien_Ginkgo_Festival_(53440769967).jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-autumn-gardens"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Meiji_dori_takashimaya.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Meiji_dori_takashimaya.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "shinjuku-takashimaya-9f-kids"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Mens_clothes_at_the_Muji_Ginza_store_November_2023.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Mens_clothes_at_the_Muji_Ginza_store_November_2023.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "muji-ginza-6f-atelier"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Merida_at_Tokyo_DisneySea_(2020).jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Merida_at_Tokyo_DisneySea_(2020).jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-entry-request-show"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Mitsukoshi00s3200.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Mitsukoshi00s3200.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "nihombashi-mitsukoshi-floors"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Mitsukoshi_Ginza_new-building.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Mitsukoshi_Ginza_new-building.JPG",
+      "pages_count": 2,
+      "sample_pages": [
+        "ginza-mitsukoshi-floor-plan",
+        "tokyo-ginza-department-store-route"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Mitsukoshi_department_store_at_Ginza.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Mitsukoshi_department_store_at_Ginza.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-ginza-mitsukoshi-depachika"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Monjayaki.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Monjayaki.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tsukishima-monjayaki"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Monsters,_Inc._Ride_%26_Go_Seek_1.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Monsters,_Inc._Ride_%26_Go_Seek_1.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "disneyland-monsters-inc"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Nakamise_by_ume-y.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Nakamise_by_ume-y.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "asakusa-nakamise-backstreets"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Narita_express.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Narita_express.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-narita-airport-train-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:National_Art_Center_Tokyo_2008.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:National_Art_Center_Tokyo_2008.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-art-national-center"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:New_Kabukiza.JPG",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:New_Kabukiza.JPG",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-kabuki-ginza"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:New_Transit_Yurikamome_train_from_Yume-no-Ohashi_Bridge_@_Odaiba_Ariake_(9493163228).jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:New_Transit_Yurikamome_train_from_Yume-no-Ohashi_Bridge_@_Odaiba_Ariake_(9493163228).jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-odaiba-waterfront-yurikamome"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Nihonbashi_Bridge_Lion.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Nihonbashi_Bridge_Lion.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "nihombashi-bridge-shopping"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Nihonbashi_Ningyocho-1.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Nihonbashi_Ningyocho-1.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "ningyocho-sweets-streets"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Nippori_Station.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Nippori_Station.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "nippori-skyliner-jr"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Omotesando-Station-2006-06-07_1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "omotesando-three-subways"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:On_our_way_to_teamLab_Borderless.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-teamlab-borderless-vs-planets"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:On_the_way_to_Sunshine_City_%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%86%E3%82%A3_in_Ikebukuro,_Tokyo,_Japan_(26295481219).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-summer-heat-indoor"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Oshiage_Station,_Skytree_Town_entrance.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "oshiage-skytree-access"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Otemachi_Station_entrance_B7_20090610.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "otemachi-transfer-five"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Parfait.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-fruit-parfait"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:People_at_the_Asakusa_Sensoji_Kaminarimon_entrance.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-firsttime-east-west"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Peter_Pan%E2%80%99s_Never_Land_Adventure_-_Queue.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneysea-peter-pan-adventure"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Platfome_at_Nagatach%C5%8D_Station(Namboku_Line).JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "namboku-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Platforms_of_Tokyo_Station_2018a.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-keiyo-platform"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Pooh%27s_Hunny_Hunt_1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneyland-pooh-hunny-hunt"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Product_display_in_Don_Quijote_Shibuya_branch.jpg",
+      "status": 429,
+      "pages_count": 2,
+      "sample_pages": [
+        "shibuya-mega-donki-by-floor",
+        "tokyo-mega-donki-shibuya"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Rain_near_Tokyo_subway_(3903002372).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "metro-24h-vs-subway-pass"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_in_night.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-couple-evening-nightview"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ramen_2.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-ramen-best-areas"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Road_separating_Ueno_Park_Zoo_from_Tokyo_Metropolitan_Art_Museum_01_(15567014488).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-ueno-park-museums-zoo"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Room_at_the_Toy_Story_Hotel_in_Tokyo_Disney_Resort.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-toy-story-hotel"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ryogoku_Kokugikan.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-sumo-ryogoku"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sashimi_at_the_Tsukiji_Markets_-_Tokyo_Japan_(Unsplash).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tsukiji-market-street-food"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Senso-ji.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-asakusa-sensoji-kaminarimon"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shibuya-Loft.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "shibuya-loft-stationery"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shibuya_Crossing_in_July_2026.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-shibuya-crossing-hachiko"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shibuya_Parco_2020.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "shibuya-parco-floor-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shinagawa_Station_-01.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "shinagawa-keikyu-jr"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shinjuku_Gyoen_National_Garden_and_NTT_DoCoMo_Yoyogi_Building,_Tokyo,_Japan.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-one-day-best-route"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shinjuku_Kabukicho_Entrance.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-shinjuku-night-sightseeing"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shinsen-Shinjuku_Station_entrance_200506.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "shinjuku-exits"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Shoyu_Ramen.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Shoyu_Ramen.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-shoyu-ramen"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sign_of_How_to_use_a_Coinlocker_in_Shinjuku_Station.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-shopping-luggage-locker"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Signs_at_Ebisu_Metro_station_(57295).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-subway-route-map-korean"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Skyliner_(49285151287).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "narita-skyliner-or-nex"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Space_Mountain,_Disneyland.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-dpa-app-purchase"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Splash_Mountain_TDL.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneyland-splash-mountain"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Suitcases_in_the_Muji_Ginza_store_November_2023.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "muji-ginza-floor-map"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sushi_4.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Sushi_4.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-sushi-breakfast-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sushi_train.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-conveyor-sushi"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TOKYO_SKYTREE_VIEW%EF%BC%91.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-cruise-to-skytree"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TX_Akihabara_Station_main_entrance_Nov_16_2020_08-15PM.jpeg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "akihabara-station-gates"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Takashimaya_Tokyo.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "nihombashi-takashimaya-floor"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Takashimaya_shinjyuku.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "shinjuku-takashimaya-b1"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Taking_In_the_View%2C_Shibuya_Sky_Observation_Deck_%2853416648301%29.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-shibuya-sky-reservation"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tempura_001.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tempura-lunch"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tobu-dept_ikebukuro.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tobu-ikebukuro-b1-b2"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toden-Arakawa-Line-7015-00.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "oji-asukayama-tram"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toei-Type5522-1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "toei-one-day-pass"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toei-oedo-line-kuramae-station.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "toei-oedo-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toei_Shinjuku_Line.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "toei-shinjuku-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toei_mita_line_6312.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "toei-mita-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-Disneyland-STA_Gate.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-park-app-ticket-share"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-International-Cruise-Terminal-STA_Gate.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-cruise-shuttle-vs-train"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo-skyline.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-night-view-observation-comparison"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TokyoMetro-G13-Kanda-station-entrance-3-20180208-164012.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "kanda-jr-ginza-transfer"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TokyoMetro-H11-Tsukiji-station-entrance-3a-20211216-110356.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tsukiji-two-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TokyoMetro-N05-Roppongi-1chome-station-entrance-2-20190220-101632.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "roppongi-museum-exits"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:TokyoTower.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tower-tickets"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Character_Street_(5282387073).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-station-character-street"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea-Volcania.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea-Volcania.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disneysea-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_(4206291420).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-ride-height-safety"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_001.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disneyland-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Enchanted_Tale_of_Beauty_and_the_Beast_(53440869377).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneyland-beauty-beast-ride"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Entrance.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-1day-admission-vs-dpa"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Main_Entrance.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-ticket-date-change"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_The_Happy_Ride_with_Baymax_(53440870822).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneyland-baymax-happy-ride"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Tokyo_Disneyland_Electrical_Parade_Dreamlights_(53440911162).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-dpa-parade-show"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneysea_Station.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-happy-entry-construction"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_International_Cruise_Terminal.jpg",
+      "status": 429,
+      "pages_count": 2,
+      "sample_pages": [
+        "tokyo-cruise-odaiba-3hours",
+        "tokyo-family-cruise-shore-plan"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_International_Forum_-_51877773707.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-stroller-rainy-day"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Metro_Fukutoshin_Line.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "fukutoshin-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Metro_Yurakucho_Line.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "yurakucho-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Metropolitan_Government_Building_2024.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-metropolitan-government-free-view"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Monorail-1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "haneda-keikyu-or-monorail"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_Hyokeikan_Entrance_Hall_P3303413.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-rainy-day-museum"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_staircase.jpg",
+      "status": 200,
+      "final": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_staircase.jpg",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-museum-ticket-advance"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-skytree-tickets"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_and_Skyscrapers_from_Shibuya_Sky_Observation_Deck_(53416648661).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-two-day-district-plan"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_and_moon_seen_from_Shibuya_Stream.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-three-day-highlights"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_disneyland_entrance.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-children-ticket-age"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_disneysea_hotel_miracosta.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-hotel-park-ticket-bundle"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyu_Hands.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-hands-diy-gifts"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tomioka-hachimangu-1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "monzen-nakacho-shrine"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tower_of_Terror_CU.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneysea-tower-of-terror"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ToyStoryMania.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disneysea-toy-story-mania"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toy_Story_Mania_(Tokyo_DisneySea)_1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-hopper-limited-period"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Toyosu_Market.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-toyosu-market-auction-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tozai_Line.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tozai-line-stations"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Train_in_Tokyo_Disneyland.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-priority-pass-free"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tsukemen.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tsukemen-howto"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tsukishima_monja_street.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tsukishima-monjya-street"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Two_Butabara_pork_Yakiniku_%E7%84%BC%E3%81%8D%E8%82%89-%E7%84%BC%E8%82%89_Samgyeopsalgui14.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-yakiniku-all-you-can-eat"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ueno_zoo_Pallas_cat.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-toddler-underfive"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Unagi1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-unagi-kabayaki"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Walk_in_Shimokitazawa_5.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "shimokitazawa-vintage"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yakitori-1.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-yakitori-izakaya-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yamanote-Line-E235.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-yamanote-line-transfer-guide"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yebisu_Garden_Place.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "ebisu-yebisu-garden"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yurikamome_(5845596726).jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "yurikamome-rinkai-choice"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yurikamome_Shijomae_station_in_2016.jpg",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "toyosu-shijomae-travel"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Yuyake_dandan_yanaka_taito_tokyo_2009_Apr.JPG",
+      "status": 429,
+      "pages_count": 1,
+      "sample_pages": [
+        "yanaka-ginza-sunset-stairs"
+      ]
+    },
+    {
+      "url": "https://en.tokyotower.co.jp/fee/index.html",
+      "status": 200,
+      "final": "https://en.tokyotower.co.jp/fee/index.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tower-tickets"
+      ]
+    },
+    {
+      "url": "https://gardenplace.jp/",
+      "status": 200,
+      "final": "https://gardenplace.jp/",
+      "pages_count": 1,
+      "sample_pages": [
+        "ebisu-yebisu-garden"
+      ]
+    },
+    {
+      "url": "https://ginza6.tokyo/",
+      "status": 200,
+      "final": "https://ginza6.tokyo/",
+      "pages_count": 5,
+      "sample_pages": [
+        "ginza-six-6f-books",
+        "ginza-six-b1-beauty",
+        "ginza-six-b2-food",
+        "ginza-six-rooftop",
+        "tokyo-luxury-ginza-day"
+      ]
+    },
+    {
+      "url": "https://ginza6.tokyo/floor",
+      "status": 404,
+      "pages_count": 3,
+      "sample_pages": [
+        "ginza-six-6f-books",
+        "ginza-six-b1-beauty",
+        "ginza-six-b2-food"
+      ]
+    },
+    {
+      "url": "https://hands.net/",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-hands-diy-gifts"
+      ]
+    },
+    {
+      "url": "https://hands.net/shop/",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-hands-diy-gifts"
+      ]
+    },
+    {
+      "url": "https://mitsui-shopping-park.com/divercity-tokyo/",
+      "status": 200,
+      "final": "https://mitsui-shopping-park.com/divercity-tokyo/",
+      "pages_count": 1,
+      "sample_pages": [
+        "odaiba-kirakira-donki"
+      ]
+    },
+    {
+      "url": "https://shibuya-scramble-square.com/en/",
+      "status": 200,
+      "final": "https://shibuya-scramble-square.com/en/",
+      "pages_count": 2,
+      "sample_pages": [
+        "tokyo-shibuya-crossing-hachiko",
+        "tokyo-shibuya-sky-reservation"
+      ]
+    },
+    {
+      "url": "https://shibuya.parco.jp/",
+      "status": 200,
+      "final": "https://shibuya.parco.jp/",
+      "pages_count": 1,
+      "sample_pages": [
+        "shibuya-parco-floor-guide"
+      ]
+    },
+    {
+      "url": "https://shibuya.parco.jp/floor/",
+      "status": 200,
+      "final": "https://shibuya.parco.jp/floor/",
+      "pages_count": 1,
+      "sample_pages": [
+        "shibuya-parco-floor-guide"
+      ]
+    },
+    {
+      "url": "https://shop.muji.com/jp/ginza/en/",
+      "status": 200,
+      "final": "https://shop.muji.com/jp/ginza/en/",
+      "pages_count": 3,
+      "sample_pages": [
+        "muji-ginza-6f-atelier",
+        "muji-ginza-floor-map",
+        "muji-ginza-food-b1"
+      ]
+    },
+    {
+      "url": "https://store.tsite.jp/daikanyama/",
+      "status": 200,
+      "final": "https://store.tsite.jp/daikanyama/",
+      "pages_count": 1,
+      "sample_pages": [
+        "daikanyama-bookshops"
+      ]
+    },
+    {
+      "url": "https://teamlabplanets.dmm.com/en",
+      "status": 404,
+      "pages_count": 2,
+      "sample_pages": [
+        "tokyo-teamlab-borderless-vs-planets",
+        "tokyo-teamlab-planets-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://teamlabplanets.dmm.com/en/guide/access_method",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-teamlab-planets-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://ticket.tokyotower.co.jp/en/",
+      "status": 200,
+      "final": "https://ticket.tokyotower.co.jp/en/",
+      "pages_count": 2,
+      "sample_pages": [
+        "tokyo-night-view-observation-comparison",
+        "tokyo-tower-tickets"
+      ]
+    },
+    {
+      "url": "https://tokyo-haneda.com/en/access/",
+      "status": 200,
+      "final": "https://tokyo-haneda.com/en/access/index.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-arrival-haneda-halfday"
+      ]
+    },
+    {
+      "url": "https://tokyo-haneda.com/en/access/train/index.html",
+      "status": 200,
+      "final": "https://tokyo-haneda.com/en/access/train/index.html",
+      "pages_count": 3,
+      "sample_pages": [
+        "haneda-keikyu-or-monorail",
+        "tokyo-arrival-haneda-halfday",
+        "tokyo-haneda-airport-train-guide"
+      ]
+    },
+    {
+      "url": "https://www.biccamera.com/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-electronics-bic-yodobashi"
+      ]
+    },
+    {
+      "url": "https://www.caa.go.jp/en/",
+      "status": 200,
+      "final": "https://www.caa.go.jp/en/",
+      "pages_count": 3,
+      "sample_pages": [
+        "tokyo-department-bento",
+        "tokyo-food-allergy-japanese",
+        "tokyo-soba-vs-udon"
+      ]
+    },
+    {
+      "url": "https://www.daimaru.co.jp/tokyo/floor/",
+      "status": 200,
+      "final": "https://www.daimaru.co.jp/tokyo/floor/",
+      "pages_count": 4,
+      "sample_pages": [
+        "daimaru-tokyo-10f-hands",
+        "daimaru-tokyo-12f-taxfree",
+        "daimaru-tokyo-b1-food",
+        "tokyo-department-bento"
+      ]
+    },
+    {
+      "url": "https://www.daimaru.co.jp/tokyo/floor/10f.html",
+      "status": 200,
+      "final": "https://www.daimaru.co.jp/tokyo/floor/10f.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "daimaru-tokyo-10f-hands"
+      ]
+    },
+    {
+      "url": "https://www.daimaru.co.jp/tokyo/floor/12f.html",
+      "status": 200,
+      "final": "https://www.daimaru.co.jp/tokyo/floor/12f.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "daimaru-tokyo-12f-taxfree"
+      ]
+    },
+    {
+      "url": "https://www.donki.com/",
+      "status": 200,
+      "final": "https://www.donki.com/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-donki-shinjuku-kabukicho"
+      ]
+    },
+    {
+      "url": "https://www.donki.com/en/store/",
+      "status": 403,
+      "pages_count": 3,
+      "sample_pages": [
+        "donki-asakusa-check",
+        "donki-roppongi-night-check",
+        "donki-taxfree-passport"
+      ]
+    },
+    {
+      "url": "https://www.donki.com/en/store/shop_detail.php?shop_id=29",
+      "status": 200,
+      "final": "https://www.donki.com/en/store/shop_detail.php?shop_id=29",
+      "pages_count": 2,
+      "sample_pages": [
+        "shinjuku-kabukicho-donki",
+        "tokyo-donki-shinjuku-kabukicho"
+      ]
+    },
+    {
+      "url": "https://www.donki.com/en/store/shop_detail.php?shop_id=442",
+      "status": 200,
+      "final": "https://www.donki.com/en/store/shop_detail.php?shop_id=442",
+      "pages_count": 2,
+      "sample_pages": [
+        "shibuya-mega-donki-by-floor",
+        "tokyo-mega-donki-shibuya"
+      ]
+    },
+    {
+      "url": "https://www.donki.com/en/store/shop_detail.php?shop_id=655",
+      "status": 200,
+      "final": "https://www.donki.com/en/store/shop_detail.php?shop_id=655",
+      "pages_count": 1,
+      "sample_pages": [
+        "odaiba-kirakira-donki"
+      ]
+    },
+    {
+      "url": "https://www.donki.com/store/",
+      "status": 200,
+      "final": "https://www.donki.com/store/",
+      "pages_count": 4,
+      "sample_pages": [
+        "donki-asakusa-check",
+        "donki-roppongi-night-check",
+        "shibuya-mega-donki-by-floor",
+        "shinjuku-kabukicho-donki"
+      ]
+    },
+    {
+      "url": "https://www.donki.com/store/shop_detail.php?shop_id=376",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-mega-donki-shibuya"
+      ]
+    },
+    {
+      "url": "https://www.edo-tokyo-museum.or.jp/en/",
+      "status": 200,
+      "final": "https://www.edo-tokyo-museum.or.jp/en/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-edo-tokyo-museum"
+      ]
+    },
+    {
+      "url": "https://www.english.metro.tokyo.lg.jp/w/000-101-000542",
+      "status": 200,
+      "final": "https://www.english.metro.tokyo.lg.jp/w/000-101-000542",
+      "pages_count": 3,
+      "sample_pages": [
+        "tokyo-metropolitan-government-free-view",
+        "tokyo-night-view-observation-comparison",
+        "tokyo-shinjuku-night-sightseeing"
+      ]
+    },
+    {
+      "url": "https://www.english.metro.tokyo.lg.jp/w/016-101-003992",
+      "status": 200,
+      "final": "https://www.english.metro.tokyo.lg.jp/w/016-101-003992",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-toyosu-market-auction-guide"
+      ]
+    },
+    {
+      "url": "https://www.english.metro.tokyo.lg.jp/w/016-101-011706",
+      "status": 200,
+      "final": "https://www.english.metro.tokyo.lg.jp/w/016-101-011706",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-toyosu-market-auction-guide"
+      ]
+    },
+    {
+      "url": "https://www.ghibli-museum.jp/en/",
+      "status": 200,
+      "final": "https://www.ghibli-museum.jp/en/",
+      "pages_count": 2,
+      "sample_pages": [
+        "kichijoji-inokashira-park",
+        "tokyo-ghibli-museum-booking"
+      ]
+    },
+    {
+      "url": "https://www.ghibli-museum.jp/ticket/",
+      "status": 200,
+      "final": "https://www.ghibli-museum.jp/ticket/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-ghibli-museum-booking"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/",
+      "pages_count": 57,
+      "sample_pages": [
+        "akihabara-station-gates",
+        "daikanyama-bookshops",
+        "ebisu-yebisu-garden",
+        "jiyugaoka-dessert-cafes",
+        "kichijoji-inokashira-park",
+        "kiyosumi-shirakawa-coffee",
+        "koenji-used-clothes",
+        "kuramae-design-coffee"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/central-tokyo/akihabara/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/destinations/central-tokyo/akihabara/index.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-akihabara-anime-shopping"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/central-tokyo/ginza/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/destinations/central-tokyo/ginza/index.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-ginza-department-store-route"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/central-tokyo/tokyo-station-and-marunouchi/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/destinations/central-tokyo/tokyo-station-and-marunouchi/index.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-ramen-best-areas"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/central-tokyo/tsukishima/index.html",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tsukishima-monjayaki"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+      "pages_count": 4,
+      "sample_pages": [
+        "asakusa-nakamise-backstreets",
+        "asakusa-operators",
+        "tokyo-asakusa-sensoji-kaminarimon",
+        "tokyo-melonpan-bakery"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/northern-tokyo/ueno/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/destinations/northern-tokyo/ueno/index.html",
+      "pages_count": 3,
+      "sample_pages": [
+        "tokyo-ueno-park-museums-zoo",
+        "ueno-ameyoko-budget-shopping",
+        "ueno-park-ameyoko"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/index.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "yanaka-ginza-sunset-stairs"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/southern-tokyo/roppongi/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/destinations/southern-tokyo/roppongi/index.html",
+      "pages_count": 2,
+      "sample_pages": [
+        "roppongi-museum-exits",
+        "tokyo-art-national-center"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/western-tokyo/aoyama-and-omotesando/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/destinations/western-tokyo/aoyama-and-omotesando/index.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "omotesando-three-subways"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html",
+      "pages_count": 3,
+      "sample_pages": [
+        "shibuya-hachiko-miyamasuzaka",
+        "tokyo-shibuya-crossing-hachiko",
+        "tokyo-shibuya-sky-reservation"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/destinations/western-tokyo/shinjuku/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/destinations/western-tokyo/shinjuku/index.html",
+      "pages_count": 2,
+      "sample_pages": [
+        "shinjuku-exits",
+        "tokyo-shinjuku-night-sightseeing"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/plan/tokyo-outline/travel-tips/index.html",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-yakitori-izakaya-guide"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/see-and-do/attractions/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/see-and-do/attractions/index.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-night-view-observation-comparison"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/see-and-do/shopping/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/see-and-do/shopping/index.html",
+      "pages_count": 10,
+      "sample_pages": [
+        "tokyo-akihabara-anime-shopping",
+        "tokyo-depachika-food-halls",
+        "tokyo-drugstore-contact-lens",
+        "tokyo-drugstore-cosmetics",
+        "tokyo-drugstore-sun-care",
+        "tokyo-electronics-bic-yodobashi",
+        "tokyo-ginza-department-store-route",
+        "tokyo-kbeauty-vs-jcosmetic"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/spot/65/",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/spot/65/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-sushi-breakfast-guide"
+      ]
+    },
+    {
+      "url": "https://www.gotokyo.org/en/spot/678/index.html",
+      "status": 200,
+      "final": "https://www.gotokyo.org/en/spot/678/index.html",
+      "pages_count": 3,
+      "sample_pages": [
+        "tokyo-depachika-food-halls",
+        "tokyo-ginza-department-store-route",
+        "tokyo-ginza-mitsukoshi-depachika"
+      ]
+    },
+    {
+      "url": "https://www.gourmet.gotokyo.org/",
+      "status": 200,
+      "final": "https://www.gourmet.gotokyo.org/",
+      "pages_count": 15,
+      "sample_pages": [
+        "tokyo-conveyor-sushi",
+        "tokyo-food-allergy-japanese",
+        "tokyo-fruit-parfait",
+        "tokyo-izakaya-otoshi",
+        "tokyo-kissaten-retro-cafe",
+        "tokyo-matcha-wagashi",
+        "tokyo-ramen-best-areas",
+        "tokyo-shoyu-ramen"
+      ]
+    },
+    {
+      "url": "https://www.imn.jp/en/floorguide",
+      "status": 200,
+      "final": "https://www.imn.jp/en/floorguide",
+      "pages_count": 1,
+      "sample_pages": [
+        "isetan-shinjuku-mens"
+      ]
+    },
+    {
+      "url": "https://www.jcia.org/en/",
+      "status": 200,
+      "final": "https://www.jcia.org/en/",
+      "pages_count": 2,
+      "sample_pages": [
+        "tokyo-drugstore-sun-care",
+        "tokyo-kbeauty-vs-jcosmetic"
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/e/",
+      "status": 403,
+      "pages_count": 11,
+      "sample_pages": [
+        "akihabara-station-gates",
+        "kanda-jr-ginza-transfer",
+        "pasmo-vs-suica-card",
+        "shibuya-hachiko-miyamasuzaka",
+        "shinagawa-keikyu-jr",
+        "tokyo-haneda-airport-train-guide",
+        "tokyo-keiyo-platform",
+        "tokyo-shopping-luggage-locker"
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/en/e/stations/e1039.html",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-keiyo-platform"
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/en/e/stations/e788.html",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "shinagawa-keikyu-jr"
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/ko/estation/stations/866.html",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "shinjuku-exits"
+      ]
+    },
+    {
+      "url": "https://www.jreast.co.jp/multi/en/nex/",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-narita-airport-train-guide"
+      ]
+    },
+    {
+      "url": "https://www.kabukiweb.net/",
+      "status": 200,
+      "final": "https://www.kabukiweb.net/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-kabuki-ginza"
+      ]
+    },
+    {
+      "url": "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/",
+      "status": 200,
+      "final": "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/index.php",
+      "pages_count": 1,
+      "sample_pages": [
+        "nippori-skyliner-jr"
+      ]
+    },
+    {
+      "url": "https://www.kotsu.metro.tokyo.jp/eng/",
+      "status": 200,
+      "final": "https://www.kotsu.metro.tokyo.jp/eng/",
+      "pages_count": 5,
+      "sample_pages": [
+        "toei-asakusa-line-stations",
+        "toei-mita-line-stations",
+        "toei-oedo-line-stations",
+        "toei-one-day-pass",
+        "toei-shinjuku-line-stations"
+      ]
+    },
+    {
+      "url": "https://www.kotsu.metro.tokyo.jp/eng/maps/subway/",
+      "status": 200,
+      "final": "https://www.kotsu.metro.tokyo.jp/eng/maps/subway/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-subway-route-map-korean"
+      ]
+    },
+    {
+      "url": "https://www.kotsu.metro.tokyo.jp/eng/services/streetcar.html",
+      "status": 200,
+      "final": "https://www.kotsu.metro.tokyo.jp/eng/",
+      "pages_count": 1,
+      "sample_pages": [
+        "oji-asukayama-tram"
+      ]
+    },
+    {
+      "url": "https://www.kotsu.metro.tokyo.jp/eng/subway_stations/",
+      "status": 200,
+      "final": "https://www.kotsu.metro.tokyo.jp/eng/subway_stations/",
+      "pages_count": 5,
+      "sample_pages": [
+        "toei-asakusa-line-stations",
+        "toei-mita-line-stations",
+        "toei-oedo-line-stations",
+        "toei-one-day-pass",
+        "toei-shinjuku-line-stations"
+      ]
+    },
+    {
+      "url": "https://www.kotsu.metro.tokyo.jp/eng/subway_stations/otemachi.html",
+      "status": 200,
+      "final": "https://www.kotsu.metro.tokyo.jp/eng/subway_stations/otemachi.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "otemachi-transfer-five"
+      ]
+    },
+    {
+      "url": "https://www.loft.co.jp/",
+      "status": 200,
+      "final": "https://www.loft.co.jp/",
+      "pages_count": 1,
+      "sample_pages": [
+        "loft-stationery-gifts"
+      ]
+    },
+    {
+      "url": "https://www.loft.co.jp/shop_list/",
+      "status": 200,
+      "final": "https://www.loft.co.jp/shop_list/",
+      "pages_count": 1,
+      "sample_pages": [
+        "ikebukuro-loft-floors"
+      ]
+    },
+    {
+      "url": "https://www.loft.co.jp/shop_list/detail.php?shop_id=189",
+      "status": 200,
+      "final": "https://www.loft.co.jp/shop_list/detail.php?shop_id=189",
+      "pages_count": 1,
+      "sample_pages": [
+        "shibuya-loft-stationery"
+      ]
+    },
+    {
+      "url": "https://www.loft.co.jp/shop_list/index.php?area=area_tokyo",
+      "status": 200,
+      "final": "https://www.loft.co.jp/shop_list/index.php?area=area_tokyo",
+      "pages_count": 3,
+      "sample_pages": [
+        "ikebukuro-loft-floors",
+        "loft-stationery-gifts",
+        "shibuya-loft-stationery"
+      ]
+    },
+    {
+      "url": "https://www.metro.tokyo.lg.jp/",
+      "status": 200,
+      "final": "https://www.metro.tokyo.lg.jp/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-metropolitan-government-free-view"
+      ]
+    },
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/01/2026013016",
+      "status": 200,
+      "final": "https://www.metro.tokyo.lg.jp/information/press/2026/01/2026013016",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-subway-ticket-24-48-72"
+      ]
+    },
+    {
+      "url": "https://www.mhlw.go.jp/english/",
+      "status": 403,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-drugstore-cosmetics"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/ginza.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 2,
+      "sample_pages": [
+        "ginza-mitsukoshi-floor-plan",
+        "tokyo-ginza-mitsukoshi-depachika"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/nihombashi.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "nihombashi-mitsukoshi-floors"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 2,
+      "sample_pages": [
+        "isetan-shinjuku-mens",
+        "tokyo-shinjuku-isetan-shopping"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "isetan-shinjuku-b2-beauty"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops/mainfloor1.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "isetan-shinjuku-1f-cosmetics"
+      ]
+    },
+    {
+      "url": "https://www.mistore.jp/store/shinjuku/shops/mainfloorB1.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "isetan-shinjuku-b1-food"
+      ]
+    },
+    {
+      "url": "https://www.muji.com/jp/ja/shop/detail/046604",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 4,
+      "sample_pages": [
+        "muji-ginza-4f-taxfree",
+        "muji-ginza-6f-atelier",
+        "muji-ginza-floor-map",
+        "muji-ginza-food-b1"
+      ]
+    },
+    {
+      "url": "https://www.nact.jp/english/",
+      "status": 200,
+      "final": "https://www.nact.jp/english/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-art-national-center"
+      ]
+    },
+    {
+      "url": "https://www.narita-airport.jp/en/access/",
+      "status": 200,
+      "final": "https://www.narita-airport.jp/en/access/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-narita-last-day"
+      ]
+    },
+    {
+      "url": "https://www.narita-airport.jp/en/access/train/",
+      "status": 200,
+      "final": "https://www.narita-airport.jp/en/access/train/",
+      "pages_count": 3,
+      "sample_pages": [
+        "narita-skyliner-or-nex",
+        "tokyo-narita-airport-train-guide",
+        "tokyo-narita-last-day"
+      ]
+    },
+    {
+      "url": "https://www.nta.go.jp/publication/pamph/shohi/menzei/",
+      "status": 200,
+      "final": "https://www.nta.go.jp/publication/pamph/shohi/menzei/",
+      "pages_count": 2,
+      "sample_pages": [
+        "donki-taxfree-passport",
+        "tokyo-lastday-taxfree-baggage"
+      ]
+    },
+    {
+      "url": "https://www.pasmo.co.jp/visitors/en/",
+      "status": 200,
+      "final": "https://www.pasmo.co.jp/en/",
+      "pages_count": 1,
+      "sample_pages": [
+        "pasmo-vs-suica-card"
+      ]
+    },
+    {
+      "url": "https://www.pmda.go.jp/english/",
+      "status": 200,
+      "final": "https://www.pmda.go.jp/english/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-drugstore-contact-lens"
+      ]
+    },
+    {
+      "url": "https://www.senso-ji.jp/",
+      "status": 200,
+      "final": "https://www.senso-ji.jp/",
+      "pages_count": 2,
+      "sample_pages": [
+        "asakusa-nakamise-backstreets",
+        "tokyo-asakusa-sensoji-kaminarimon"
+      ]
+    },
+    {
+      "url": "https://www.shibuya-scramble-square.com/sky/",
+      "status": 200,
+      "final": "https://www.shibuya-scramble-square.com/sky/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-shibuya-sky-reservation"
+      ]
+    },
+    {
+      "url": "https://www.shibuya-scramble-square.com/sky/ticket/",
+      "status": 200,
+      "final": "https://www.shibuya-scramble-square.com/sky/ticket/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-shibuya-sky-reservation"
+      ]
+    },
+    {
+      "url": "https://www.shijou.metro.tokyo.lg.jp/english/toyosu/",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-toyosu-market-auction-guide"
+      ]
+    },
+    {
+      "url": "https://www.sumo.or.jp/En/",
+      "status": 200,
+      "final": "https://www.sumo.or.jp/En/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-sumo-ryogoku"
+      ]
+    },
+    {
+      "url": "https://www.takashimaya.co.jp/nihombashi/",
+      "status": 200,
+      "final": "https://www.takashimaya.co.jp:443/nihombashi/departmentstore/",
+      "pages_count": 1,
+      "sample_pages": [
+        "nihombashi-takashimaya-floor"
+      ]
+    },
+    {
+      "url": "https://www.takashimaya.co.jp/shinjuku/",
+      "status": 200,
+      "final": "https://www.takashimaya.co.jp/shinjuku/",
+      "pages_count": 2,
+      "sample_pages": [
+        "shinjuku-takashimaya-9f-kids",
+        "shinjuku-takashimaya-b1"
+      ]
+    },
+    {
+      "url": "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_09.html",
+      "status": 200,
+      "final": "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_09.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "shinjuku-takashimaya-9f-kids"
+      ]
+    },
+    {
+      "url": "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_b1.html",
+      "status": 200,
+      "final": "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_b1.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "shinjuku-takashimaya-b1"
+      ]
+    },
+    {
+      "url": "https://www.teamlab.art/",
+      "status": 200,
+      "final": "https://www.teamlab.art/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-teamlab-borderless-vs-planets"
+      ]
+    },
+    {
+      "url": "https://www.tnm.jp/?lang=en",
+      "status": 200,
+      "final": "https://www.tnm.jp/?lang=en",
+      "pages_count": 3,
+      "sample_pages": [
+        "tokyo-museum-ticket-advance",
+        "tokyo-rainy-day-museum",
+        "tokyo-ueno-park-museums-zoo"
+      ]
+    },
+    {
+      "url": "https://www.tobu-dept.jp/ikebukuro/",
+      "status": 200,
+      "final": "https://www.tobu-dept.jp/ikebukuro/",
+      "pages_count": 3,
+      "sample_pages": [
+        "tobu-ikebukuro-7f-kids",
+        "tobu-ikebukuro-b1-b2",
+        "tobu-ikebukuro-restaurants"
+      ]
+    },
+    {
+      "url": "https://www.tobu-dept.jp/ikebukuro/floormap/",
+      "status": 200,
+      "final": "https://www.tobu-dept.jp/ikebukuro/floormap/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tobu-ikebukuro-restaurants"
+      ]
+    },
+    {
+      "url": "https://www.tobu-dept.jp/ikebukuro/tnb/language/english.html",
+      "status": 200,
+      "final": "https://www.tobu-dept.jp/ikebukuro/tnb/language/english.html",
+      "pages_count": 2,
+      "sample_pages": [
+        "tobu-ikebukuro-7f-kids",
+        "tobu-ikebukuro-b1-b2"
+      ]
+    },
+    {
+      "url": "https://www.tokyo-park.or.jp/",
+      "status": 200,
+      "final": "https://www.tokyo-park.or.jp/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-autumn-gardens"
+      ]
+    },
+    {
+      "url": "https://www.tokyo-park.or.jp/park/kiyosumi/index.html",
+      "status": 200,
+      "final": "https://www.tokyo-park.or.jp/park/kiyosumi/index.html",
+      "pages_count": 1,
+      "sample_pages": [
+        "kiyosumi-shirakawa-coffee"
+      ]
+    },
+    {
+      "url": "https://www.tokyo-skytree.jp/",
+      "status": 200,
+      "final": "https://www.tokyo-skytree.jp/",
+      "pages_count": 2,
+      "sample_pages": [
+        "oshiage-skytree-access",
+        "tokyo-skytree-tickets"
+      ]
+    },
+    {
+      "url": "https://www.tokyo-skytree.jp/en/",
+      "status": 200,
+      "final": "https://en.tokyo-skytree.jp/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-cruise-to-skytree"
+      ]
+    },
+    {
+      "url": "https://www.tokyo-skytree.jp/en/access/",
+      "status": 200,
+      "final": "https://en.tokyo-skytree.jp/access/",
+      "pages_count": 1,
+      "sample_pages": [
+        "oshiage-skytree-access"
+      ]
+    },
+    {
+      "url": "https://www.tokyo-skytree.jp/ticket/",
+      "status": 200,
+      "final": "https://www.tokyo-skytree.jp/ticket/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-skytree-tickets"
+      ]
+    },
+    {
+      "url": "https://www.tokyo-zoo.net/english/ueno/",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-toddler-underfive"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.co.jp/en/tdl/access",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disney-maihama-transport"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.co.jp/en/tdr/access",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 3,
+      "sample_pages": [
+        "tokyo-disney-hotel-stay-guide",
+        "tokyo-disney-maihama-transport",
+        "tokyo-disneysea-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-cruise-disney-possible"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 3,
+      "sample_pages": [
+        "disney-character-dining-booking",
+        "disney-hotel-park-ticket-bundle",
+        "tokyo-disney-hotel-stay-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/dh.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 6,
+      "sample_pages": [
+        "disney-ambassador-hotel",
+        "disney-fantasy-springs-hotel",
+        "disney-hotel-park-ticket-bundle",
+        "disney-miracosta-hotel",
+        "disney-ticket-sold-out",
+        "disney-vacation-package-vs-regular"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 5,
+      "sample_pages": [
+        "disney-ambassador-hotel",
+        "disney-celebration-hotel",
+        "disney-fantasy-springs-hotel",
+        "disney-miracosta-hotel",
+        "disney-toy-story-hotel"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 4,
+      "sample_pages": [
+        "disney-celebration-hotel",
+        "disney-happy-entry-construction",
+        "disney-happy-entry-hotel-list",
+        "disney-toy-story-hotel"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdl/ticket/purchase.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disneyland-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/app.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-park-app-ticket-share"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 3,
+      "sample_pages": [
+        "disney-character-dining-booking",
+        "disney-priority-seating-restaurants",
+        "disney-ride-height-safety"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 10,
+      "sample_pages": [
+        "disney-1day-admission-vs-dpa",
+        "disney-dpa-app-purchase",
+        "disney-dpa-parade-show",
+        "disney-dpa-price-attractions",
+        "disney-entry-request-show",
+        "disney-mobile-order-food",
+        "disney-park-app-ticket-share",
+        "disney-priority-pass-free"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 5,
+      "sample_pages": [
+        "disney-entry-request-show",
+        "disney-mobile-order-food",
+        "disney-park-app-ticket-share",
+        "disney-priority-pass-free",
+        "disneysea-journey-center-earth"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 15,
+      "sample_pages": [
+        "disney-1day-admission-vs-dpa",
+        "disney-dpa-app-purchase",
+        "disney-dpa-parade-show",
+        "disney-dpa-price-attractions",
+        "disney-ride-height-safety",
+        "disneyland-baymax-happy-ride",
+        "disneyland-beauty-beast-ride",
+        "disneyland-big-thunder-mountain"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 17,
+      "sample_pages": [
+        "disney-1day-admission-vs-dpa",
+        "disney-dpa-app-purchase",
+        "disney-dpa-price-attractions",
+        "disneyland-baymax-happy-ride",
+        "disneyland-beauty-beast-ride",
+        "disneyland-big-thunder-mountain",
+        "disneyland-haunted-mansion-season",
+        "disneyland-monsters-inc"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/standbypass.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 2,
+      "sample_pages": [
+        "disney-standby-pass-store",
+        "tokyo-disneysea-fantasy-springs"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/resortline.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disney-maihama-transport"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tds/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 2,
+      "sample_pages": [
+        "tokyo-disneysea-fantasy-springs",
+        "tokyo-disneysea-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tds/ticket/purchase",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-disneysea-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 4,
+      "sample_pages": [
+        "disney-children-ticket-age",
+        "disney-disability-passport",
+        "disney-hopper-limited-period",
+        "disney-ticket-sold-out"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/change/howto",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 1,
+      "sample_pages": [
+        "disney-ticket-date-change"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/change/howto.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 2,
+      "sample_pages": [
+        "disney-ticket-date-change",
+        "tokyo-disneyland-ticket-guide"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/index.html",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 8,
+      "sample_pages": [
+        "disney-children-ticket-age",
+        "disney-disability-passport",
+        "disney-hopper-limited-period",
+        "disney-ticket-date-change",
+        "disney-ticket-sold-out",
+        "tokyo-cruise-disney-possible",
+        "tokyo-disneyland-ticket-guide",
+        "tokyo-three-day-highlights"
+      ]
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/special/en/fantasysprings/",
+      "status": null,
+      "error": "The read operation timed out",
+      "pages_count": 4,
+      "sample_pages": [
+        "disneysea-frozen-ever-after",
+        "disneysea-peter-pan-adventure",
+        "disneysea-rapunzel-lantern",
+        "tokyo-disneysea-fantasy-springs"
+      ]
+    },
+    {
+      "url": "https://www.tokyoeki-1bangai.co.jp/",
+      "status": 200,
+      "final": "https://www.tokyoeki-1bangai.co.jp/",
+      "pages_count": 2,
+      "sample_pages": [
+        "tokyo-ramen-best-areas",
+        "tokyo-station-character-street"
+      ]
+    },
+    {
+      "url": "https://www.tokyoeki-1bangai.co.jp/en/tokyocharacterstreet/",
+      "status": 404,
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-station-character-street"
+      ]
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/subwaymap/",
+      "status": 403,
+      "pages_count": 12,
+      "sample_pages": [
+        "chiyoda-line-stations",
+        "fukutoshin-line-stations",
+        "ginza-line-stations",
+        "hanzomon-line-stations",
+        "hibiya-line-stations",
+        "marunouchi-line-stations",
+        "metro-24h-vs-subway-pass",
+        "metro-elevator-stroller"
+      ]
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/subwaymap/index.html",
+      "status": 403,
+      "pages_count": 21,
+      "sample_pages": [
+        "akasaka-nagatacho-connection",
+        "chiyoda-line-stations",
+        "fukutoshin-line-stations",
+        "ginza-line-stations",
+        "ginza-three-lines",
+        "hanzomon-line-stations",
+        "hibiya-line-stations",
+        "ikebukuro-east-west"
+      ]
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/ticket/travel/index.html",
+      "status": 403,
+      "pages_count": 2,
+      "sample_pages": [
+        "metro-24h-vs-subway-pass",
+        "tokyo-subway-ticket-24-48-72"
+      ]
+    },
+    {
+      "url": "https://www.tokyometro.jp/lang_en/station/index.html",
+      "status": 403,
+      "pages_count": 8,
+      "sample_pages": [
+        "asakusa-operators",
+        "ikebukuro-east-west",
+        "kasumigaseki-government",
+        "kudanshita-budokan",
+        "omotesando-three-subways",
+        "roppongi-museum-exits",
+        "tokyo-parents-flat-route",
+        "tsukiji-two-stations"
+      ]
+    },
+    {
+      "url": "https://www.tokyoport.or.jp/en/",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "pages_count": 2,
+      "sample_pages": [
+        "tokyo-cruise-odaiba-3hours",
+        "tokyo-family-cruise-shore-plan"
+      ]
+    },
+    {
+      "url": "https://www.tptc.co.jp/terminal/guide/cruise",
+      "status": 200,
+      "final": "https://www.tptc.co.jp/terminal/guide/cruise",
+      "pages_count": 5,
+      "sample_pages": [
+        "tokyo-cruise-odaiba-3hours",
+        "tokyo-cruise-shuttle-vs-train",
+        "tokyo-cruise-to-skytree",
+        "tokyo-family-cruise-shore-plan",
+        "tokyo-odaiba-waterfront-yurikamome"
+      ]
+    },
+    {
+      "url": "https://www.tsukiji.or.jp/english/",
+      "status": 200,
+      "final": "https://www.tsukiji.or.jp/english/",
+      "pages_count": 3,
+      "sample_pages": [
+        "tokyo-sushi-breakfast-guide",
+        "tokyo-tsukiji-market-street-food",
+        "tsukiji-two-stations"
+      ]
+    },
+    {
+      "url": "https://www.tsukiji.or.jp/english/plattsukiji/",
+      "status": 200,
+      "final": "https://www.tsukiji.or.jp/english/plattsukiji/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-tsukiji-market-street-food"
+      ]
+    },
+    {
+      "url": "https://www.wbgt.env.go.jp/en/",
+      "status": 200,
+      "final": "https://www.wbgt.env.go.jp/en/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-summer-heat-indoor"
+      ]
+    },
+    {
+      "url": "https://www.yokoso.metro.tokyo.lg.jp/en/tenbou/",
+      "status": 200,
+      "final": "https://www.yokoso.metro.tokyo.lg.jp/en/tenbou/",
+      "pages_count": 1,
+      "sample_pages": [
+        "tokyo-metropolitan-government-free-view"
+      ]
+    },
+    {
+      "url": "https://www.yurikamome.co.jp/en/",
+      "status": 200,
+      "final": "https://www.yurikamome.co.jp/en/",
+      "pages_count": 4,
+      "sample_pages": [
+        "tokyo-cruise-shuttle-vs-train",
+        "tokyo-odaiba-waterfront-yurikamome",
+        "toyosu-shijomae-travel",
+        "yurikamome-rinkai-choice"
+      ]
+    }
+  ],
+  "warning": "403/429 or connection failure can reflect anti-bot protection; does not necessarily indicate broken for humans. HTTP 200 does not guarantee the page describes the referenced service or updated policy."
+}
