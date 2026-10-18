@@ -1,0 +1,235 @@
+{
+  "date": "2026-10-18",
+  "source": "90-link recheck + 220 image provenance list",
+  "url_outstanding_initial": 45,
+  "independently_reachable_or_verified": [
+    [
+      "https://www.tokyodisneyresort.jp/en/ticket/index.html",
+      "official ticket page content confirmed"
+    ],
+    [
+      "https://www.tokyometro.jp/en/subwaymap/",
+      "official subway map page opened"
+    ],
+    [
+      "https://www.tokyometro.jp/en/subwaymap/index.html",
+      "official destination confirmed"
+    ],
+    [
+      "https://www.mistore.jp/store/ginza.html",
+      "official Ginza Mitsukoshi store page opened"
+    ],
+    [
+      "https://www.jreast.co.jp/e/",
+      "official JR East website responded; body content not validated"
+    ]
+  ],
+  "remaining_not_independently_confirmed": 40,
+  "photo_priority_initial": 24,
+  "photo_replaced_with_editorial": [
+    12,
+    143,
+    206,
+    220
+  ],
+  "photo_remaining_direct_visual_review": 20,
+  "photo_items": [
+    {
+      "v": 6,
+      "slug": "tokyo-tower-tickets",
+      "source_file": "File:TokyoTower.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:TokyoTower.jpg",
+      "current_image": "/images/tokyo-verified/tokyo-tower-tickets.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 10,
+      "slug": "tokyo-night-view-observation-comparison",
+      "source_file": "File:Tokyo-skyline.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tokyo-skyline.jpg",
+      "current_image": "/images/tokyo-verified/tokyo-night-view-observation-comparison.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 11,
+      "slug": "tokyo-subway-route-map-korean",
+      "source_file": "File:Signs at Ebisu Metro station (57295).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Signs_at_Ebisu_Metro_station_(57295).jpg",
+      "current_image": "/images/tokyo-verified/tokyo-subway-route-map-korean.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 12,
+      "slug": "tokyo-subway-ticket-24-48-72",
+      "source_file": "File:Ginza line shibuya.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ginza_line_shibuya.jpg",
+      "current_image": "/images/tokyo-editorial/tokyo-subway-ticket-24-48-72.svg",
+      "review_status": "resolved_with_labeled_editorial_graphic"
+    },
+    {
+      "v": 26,
+      "slug": "tokyo-disney-hotel-stay-guide",
+      "source_file": "東京ディズニーセレブレーションホテル.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%82%BB%E3%83%AC%E3%83%96%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB.jpg",
+      "current_image": "/images/tokyo-verified/tokyo-disney-hotel-stay-guide.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 27,
+      "slug": "tokyo-asakusa-sensoji-kaminarimon",
+      "source_file": "File:Senso-ji.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Senso-ji.jpg",
+      "current_image": "/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 37,
+      "slug": "tokyo-one-day-best-route",
+      "source_file": "Shinjuku Gyoen National Garden and NTT DoCoMo Yoyogi Building, Tokyo, Japan.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shinjuku_Gyoen_National_Garden_and_NTT_DoCoMo_Yoyogi_Building,_Tokyo,_Japan.jpg",
+      "current_image": "/images/tokyo-verified/tokyo-one-day-best-route.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 38,
+      "slug": "tokyo-two-day-district-plan",
+      "source_file": "Tokyo Tower and Skyscrapers from Shibuya Sky Observation Deck (53416648661).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_and_Skyscrapers_from_Shibuya_Sky_Observation_Deck_(53416648661).jpg",
+      "current_image": "/images/tokyo-verified/tokyo-two-day-district-plan.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 39,
+      "slug": "tokyo-three-day-highlights",
+      "source_file": "Tokyo Tower and moon seen from Shibuya Stream.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_and_moon_seen_from_Shibuya_Stream.jpg",
+      "current_image": "/images/tokyo-verified/tokyo-three-day-highlights.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 143,
+      "slug": "odaiba-kirakira-donki",
+      "source_file": "File:DiverCity Tokyo Plaza.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:DiverCity_Tokyo_Plaza.jpg",
+      "current_image": "/images/tokyo-editorial/odaiba-kirakira-donki.svg",
+      "review_status": "resolved_with_labeled_editorial_graphic"
+    },
+    {
+      "v": 159,
+      "slug": "tokyo-electronics-bic-yodobashi",
+      "source_file": "File:Bic Camera Shinjuku Station East.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bic_Camera_Shinjuku_Station_East.jpg",
+      "current_image": "/images/tokyo-verified/tokyo-electronics-bic-yodobashi.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 166,
+      "slug": "monzen-nakacho-shrine",
+      "source_file": "File:Tomioka-hachimangu-1.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tomioka-hachimangu-1.jpg",
+      "current_image": "/images/tokyo-verified/monzen-nakacho-shrine.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 171,
+      "slug": "nakameguro-riverside",
+      "source_file": "File:Meguro river view.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Meguro_river_view.jpg",
+      "current_image": "/images/tokyo-verified/nakameguro-riverside.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 180,
+      "slug": "oji-asukayama-tram",
+      "source_file": "File:Toden-Arakawa-Line-7015-00.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Toden-Arakawa-Line-7015-00.jpg",
+      "current_image": "/images/tokyo-verified/oji-asukayama-tram.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 203,
+      "slug": "tokyo-firsttime-east-west",
+      "source_file": "File:People at the Asakusa Sensoji Kaminarimon entrance.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:People_at_the_Asakusa_Sensoji_Kaminarimon_entrance.jpg",
+      "current_image": "/images/tokyo-verified/tokyo-firsttime-east-west.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 204,
+      "slug": "tokyo-parents-flat-route",
+      "source_file": "File:April 2009, hanami in Ueno Park -39481.jpeg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:April_2009,_hanami_in_Ueno_Park_-39481.jpeg",
+      "current_image": "/images/tokyo-verified/tokyo-parents-flat-route.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 205,
+      "slug": "tokyo-stroller-rainy-day",
+      "source_file": "File:Tokyo International Forum - 51877773707.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tokyo_International_Forum_-_51877773707.jpg",
+      "current_image": "/images/tokyo-verified/tokyo-stroller-rainy-day.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 206,
+      "slug": "tokyo-toddler-underfive",
+      "source_file": "File:Ueno zoo Pallas cat.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ueno_zoo_Pallas_cat.jpg",
+      "current_image": "/images/tokyo-editorial/tokyo-toddler-underfive.svg",
+      "review_status": "resolved_with_labeled_editorial_graphic"
+    },
+    {
+      "v": 207,
+      "slug": "tokyo-teens-anime-shopping",
+      "source_file": "File:Akihabara Electric Town 01.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Akihabara_Electric_Town_01.jpg",
+      "current_image": "/images/tokyo-verified/tokyo-teens-anime-shopping.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 208,
+      "slug": "tokyo-couple-evening-nightview",
+      "source_file": "File:Rainbow Bridge in night.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_in_night.jpg",
+      "current_image": "/images/tokyo-verified/tokyo-couple-evening-nightview.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 209,
+      "slug": "tokyo-budget-under-10000yen",
+      "source_file": "File:Ameyoko June 2022.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ameyoko_June_2022.jpg",
+      "current_image": "/images/tokyo-verified/tokyo-budget-under-10000yen.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 212,
+      "slug": "tokyo-summer-heat-indoor",
+      "source_file": "File:On the way to Sunshine City サンシャインシティ in Ikebukuro, Tokyo, Japan (26295481219).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:On_the_way_to_Sunshine_City_%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%86%E3%82%A3_in_Ikebukuro,_Tokyo,_Japan_(26295481219).jpg",
+      "current_image": "/images/tokyo-verified/tokyo-summer-heat-indoor.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 215,
+      "slug": "tokyo-autumn-gardens",
+      "source_file": "File:Meiji Jingu Gaien Ginkgo Festival (53440769967).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Meiji_Jingu_Gaien_Ginkgo_Festival_(53440769967).jpg",
+      "current_image": "/images/tokyo-verified/tokyo-autumn-gardens.webp",
+      "review_status": "awaiting_direct_visual_comparison"
+    },
+    {
+      "v": 220,
+      "slug": "tokyo-lastday-taxfree-baggage",
+      "source_file": "File:Locker 35.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Locker_35.jpg",
+      "current_image": "/images/tokyo-editorial/tokyo-lastday-taxfree-baggage.svg",
+      "review_status": "resolved_with_labeled_editorial_graphic"
+    }
+  ],
+  "cautions": [
+    "An HTTP HEAD 403/429/timeout cannot prove a broken URL.",
+    "Source file names alone cannot prove visual photo correctness.",
+    "No remaining photograph declared visually verified until image contents are inspected."
+  ]
+}
