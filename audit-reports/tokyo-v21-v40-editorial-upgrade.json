@@ -1,0 +1,226 @@
+{
+  "updated": 20,
+  "pages": [
+    {
+      "slug": "tokyo-donki-shinjuku-kabukicho",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-disneyland-ticket-guide",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-disneysea-ticket-guide",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-disneysea-fantasy-springs",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-disney-maihama-transport",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-disney-hotel-stay-guide",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-asakusa-sensoji-kaminarimon",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-shibuya-crossing-hachiko",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-shinjuku-night-sightseeing",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-akihabara-anime-shopping",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-odaiba-waterfront-yurikamome",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-teamlab-planets-ticket-guide",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-ueno-park-museums-zoo",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-tsukiji-market-street-food",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-toyosu-market-auction-guide",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-ghibli-museum-booking",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-one-day-best-route",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-two-day-district-plan",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-three-day-highlights",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    },
+    {
+      "slug": "tokyo-family-cruise-shore-plan",
+      "removed": [
+        "intro",
+        "route",
+        "tickets",
+        "faq",
+        "field"
+      ],
+      "new_details": 3
+    }
+  ],
+  "caveats": "Retained specialized article sections; official links and other content have not received a complete fact-by-fact independent verification."
+}
