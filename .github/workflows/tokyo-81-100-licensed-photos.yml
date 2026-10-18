@@ -1,0 +1,31 @@
+name: Tokyo 81-100 Disney guide photographs
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/tokyo_81_100_licensed_photos.py
+      - .github/workflows/tokyo-81-100-licensed-photos.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python scripts/tokyo_81_100_licensed_photos.py
+      - name: Commit licensed resort photography
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/tokyo-verified site/tokyo-card-photos.js audit-reports/tokyo-81-100-photographic-replacement.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Upgrade Tokyo Disney V81-100 with licensed park photographs"
+            git pull --rebase origin main
+            git push
+          fi
