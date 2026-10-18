@@ -1,0 +1,146 @@
+{
+  "updated": 20,
+  "pages": [
+    {
+      "slug": "shinjuku-exits",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "shibuya-hachiko-miyamasuzaka",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "tokyo-keiyo-platform",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "ikebukuro-east-west",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "ginza-three-lines",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "asakusa-operators",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "ueno-park-ameyoko",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "otemachi-transfer-five",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "kasumigaseki-government",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "roppongi-museum-exits",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "omotesando-three-subways",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "akasaka-nagatacho-connection",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "kudanshita-budokan",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "kanda-jr-ginza-transfer",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "nippori-skyliner-jr",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "akihabara-station-gates",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "tsukiji-two-stations",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "toyosu-shijomae-travel",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "oshiage-skytree-access",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    },
+    {
+      "slug": "shinagawa-keikyu-jr",
+      "removed": [
+        "generic",
+        "field"
+      ]
+    }
+  ],
+  "scope": "20 station articles: distinct rail operators, exit directions, transfer caveats, source links; live exit accessibility details require revalidation."
+}
