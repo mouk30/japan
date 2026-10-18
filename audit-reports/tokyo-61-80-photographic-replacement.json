@@ -1,0 +1,165 @@
+{
+  "total": 20,
+  "new_photos": 17,
+  "retained_illustration": {
+    "toei-one-day-pass": "No adequately matched licensed station photo",
+    "pasmo-vs-suica-card": "No adequately matched licensed station photo",
+    "metro-elevator-stroller": "No adequately matched licensed station photo"
+  },
+  "entries": {
+    "ginza-line-stations": {
+      "src": "/images/tokyo-verified/ginza-line-stations.webp",
+      "alt": "Ginza line shibuya.jpg 관련 역 사진",
+      "caption": "사진: Hide1228 · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ginza_line_shibuya.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Hide1228",
+      "source_file": "File:Ginza line shibuya.jpg"
+    },
+    "marunouchi-line-stations": {
+      "src": "/images/tokyo-verified/marunouchi-line-stations.webp",
+      "alt": "Marunouchi-Line Series02-618.jpg 관련 역 사진",
+      "caption": "사진: MaedaAkihiko · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Marunouchi-Line_Series02-618.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "MaedaAkihiko",
+      "source_file": "File:Marunouchi-Line Series02-618.jpg"
+    },
+    "hibiya-line-stations": {
+      "src": "/images/tokyo-verified/hibiya-line-stations.webp",
+      "alt": "Entrance sign at Akihabara station Hibiya line.jpg 관련 역 사진",
+      "caption": "사진: nachans · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Entrance_sign_at_Akihabara_station_Hibiya_line.jpg",
+      "license": "CC BY 2.0",
+      "author": "nachans",
+      "source_file": "File:Entrance sign at Akihabara station Hibiya line.jpg"
+    },
+    "tozai-line-stations": {
+      "src": "/images/tokyo-verified/tozai-line-stations.webp",
+      "alt": "Tozai Line.JPG 관련 역 사진",
+      "caption": "사진: Arashiyama\n\n This photo was taken with Canon EOS 60D · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tozai_Line.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Arashiyama\n\n This photo was taken with Canon EOS 60D",
+      "source_file": "File:Tozai Line.JPG"
+    },
+    "chiyoda-line-stations": {
+      "src": "/images/tokyo-verified/chiyoda-line-stations.webp",
+      "alt": "Chiyoda-line series07.jpg 관련 역 사진",
+      "caption": "사진: Hiromu07\n\n This photo was taken with Canon EOS 40D · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Chiyoda-line_series07.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Hiromu07\n\n This photo was taken with Canon EOS 40D",
+      "source_file": "File:Chiyoda-line series07.jpg"
+    },
+    "yurakucho-line-stations": {
+      "src": "/images/tokyo-verified/yurakucho-line-stations.webp",
+      "alt": "Tokyo Metro Yurakucho Line.JPG 관련 역 사진",
+      "caption": "사진: Lover of Romance · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Metro_Yurakucho_Line.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Lover of Romance",
+      "source_file": "File:Tokyo Metro Yurakucho Line.JPG"
+    },
+    "fukutoshin-line-stations": {
+      "src": "/images/tokyo-verified/fukutoshin-line-stations.webp",
+      "alt": "Tokyo Metro Fukutoshin Line.jpg 관련 역 사진",
+      "caption": "사진: Lover of Romance · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Metro_Fukutoshin_Line.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Lover of Romance",
+      "source_file": "File:Tokyo Metro Fukutoshin Line.jpg"
+    },
+    "hanzomon-line-stations": {
+      "src": "/images/tokyo-verified/hanzomon-line-stations.webp",
+      "alt": "Hanzomon-Line Series18000-18005.jpg 관련 역 사진",
+      "caption": "사진: MaedaAkihiko · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Hanzomon-Line_Series18000-18005.jpg",
+      "license": "CC0",
+      "author": "MaedaAkihiko",
+      "source_file": "File:Hanzomon-Line Series18000-18005.jpg"
+    },
+    "namboku-line-stations": {
+      "src": "/images/tokyo-verified/namboku-line-stations.webp",
+      "alt": "Platfome at Nagatachō Station(Namboku Line).JPG 관련 역 사진",
+      "caption": "사진: GOXZ7 · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Platfome_at_Nagatach%C5%8D_Station(Namboku_Line).JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "GOXZ7",
+      "source_file": "File:Platfome at Nagatachō Station(Namboku Line).JPG"
+    },
+    "toei-asakusa-line-stations": {
+      "src": "/images/tokyo-verified/toei-asakusa-line-stations.webp",
+      "alt": "Asakusa-Line Series5500-5503.jpg 관련 역 사진",
+      "caption": "사진: MaedaAkihiko\n\n This photo was taken with Panasonic Lumix DC-FZ1000 II · CC0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Asakusa-Line_Series5500-5503.jpg",
+      "license": "CC0",
+      "author": "MaedaAkihiko\n\n This photo was taken with Panasonic Lumix DC-FZ1000 II",
+      "source_file": "File:Asakusa-Line Series5500-5503.jpg"
+    },
+    "toei-oedo-line-stations": {
+      "src": "/images/tokyo-verified/toei-oedo-line-stations.webp",
+      "alt": "Toei-oedo-line-kuramae-station.jpg 관련 역 사진",
+      "caption": "사진: Rsa · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Toei-oedo-line-kuramae-station.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Rsa",
+      "source_file": "File:Toei-oedo-line-kuramae-station.jpg"
+    },
+    "toei-shinjuku-line-stations": {
+      "src": "/images/tokyo-verified/toei-shinjuku-line-stations.webp",
+      "alt": "Toei Shinjuku Line.JPG 관련 역 사진",
+      "caption": "사진: Wikimedia Commons · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Toei_Shinjuku_Line.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Wikimedia Commons",
+      "source_file": "File:Toei Shinjuku Line.JPG"
+    },
+    "toei-mita-line-stations": {
+      "src": "/images/tokyo-verified/toei-mita-line-stations.webp",
+      "alt": "Toei mita line 6312.jpg 관련 역 사진",
+      "caption": "사진: Picture's owner is ja:User:DD51612, modified by ja:User:矢口 and User:天然ガス · CC BY-SA 3.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Toei_mita_line_6312.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Picture's owner is ja:User:DD51612, modified by ja:User:矢口 and User:天然ガス",
+      "source_file": "File:Toei mita line 6312.jpg"
+    },
+    "metro-24h-vs-subway-pass": {
+      "src": "/images/tokyo-verified/metro-24h-vs-subway-pass.webp",
+      "alt": "Rain near Tokyo subway (3903002372).jpg 관련 역 사진",
+      "caption": "사진: Angelo DeSantis from Berkeley, US · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Rain_near_Tokyo_subway_(3903002372).jpg",
+      "license": "CC BY 2.0",
+      "author": "Angelo DeSantis from Berkeley, US",
+      "source_file": "File:Rain near Tokyo subway (3903002372).jpg"
+    },
+    "haneda-keikyu-or-monorail": {
+      "src": "/images/tokyo-verified/haneda-keikyu-or-monorail.webp",
+      "alt": "Tokyo Monorail-1.jpg 관련 역 사진",
+      "caption": "사진: 江戸村のとくぞう (Edomura no Tokuzo) · CC BY-SA 4.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Monorail-1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "江戸村のとくぞう (Edomura no Tokuzo)",
+      "source_file": "File:Tokyo Monorail-1.jpg"
+    },
+    "narita-skyliner-or-nex": {
+      "src": "/images/tokyo-verified/narita-skyliner-or-nex.webp",
+      "alt": "Skyliner (49285151287).jpg 관련 역 사진",
+      "caption": "사진: Wei-Te Wong from Taipei City, Taiwan, Republic of China · CC BY-SA 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Skyliner_(49285151287).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Wei-Te Wong from Taipei City, Taiwan, Republic of China",
+      "source_file": "File:Skyliner (49285151287).jpg"
+    },
+    "yurikamome-rinkai-choice": {
+      "src": "/images/tokyo-verified/yurikamome-rinkai-choice.webp",
+      "alt": "Yurikamome (5845596726).jpg 관련 역 사진",
+      "caption": "사진: Dick Thomas Johnson · CC BY 2.0 · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Yurikamome_(5845596726).jpg",
+      "license": "CC BY 2.0",
+      "author": "Dick Thomas Johnson",
+      "source_file": "File:Yurikamome (5845596726).jpg"
+    }
+  },
+  "note": "Filename and Commons license verified; physical accuracy of exit/route directions and public-browser rendering not certified."
+}
