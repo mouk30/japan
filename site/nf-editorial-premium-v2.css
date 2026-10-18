@@ -1,0 +1,30 @@
+/* NIPPONFERRY editorial premium V2 · scoped to batch 01 */
+body.nf-editorial-premium{background:#f5f7fa;color:#182f42;font-family: "Pretendard","Noto Sans KR","Malgun Gothic",sans-serif;overflow-wrap:anywhere}
+body.nf-editorial-premium *{box-sizing:border-box}
+.nf-editorial-premium .nf-article-masthead{background:linear-gradient(115deg,#09283e 0%,#174a64 64%,#1c6b81 100%);color:#fff;padding:16px max(20px,calc((100vw - 1140px)/2));display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;border-bottom:3px solid #bfa474}
+.nf-editorial-premium .nf-article-masthead .nf-brand{font-size:19px;font-weight:850;letter-spacing:.065em;color:#fff;text-decoration:none}
+.nf-editorial-premium .nf-article-masthead small{display:block;font-size:10px;letter-spacing:.12em;font-weight:650;color:#d1e5ec;margin-top:2px}
+.nf-editorial-premium .nf-article-masthead nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px}
+.nf-editorial-premium .nf-article-masthead nav a{color:#fff;text-decoration:none;font-size:13px;font-weight:750}
+.nf-editorial-premium .nf-article-masthead nav a.nf-booking{background:#d9b879;color:#142b3d;padding:10px 15px;border-radius:8px}
+.nf-editorial-premium main{max-width:940px;margin:28px auto 56px;padding:clamp(22px,4.3vw,52px);background:#fff;border:1px solid #e3e9ed;border-radius:20px;box-shadow:0 16px 50px rgba(11,38,58,.055)}
+.nf-editorial-premium main>nav:first-child{font-size:13px;color:#587083;margin:0 0 24px}
+.nf-editorial-premium main h1{color:#0b314a;font-size:clamp(29px,4.3vw,44px);line-height:1.3;letter-spacing:-.055em;margin:10px 0 24px}
+.nf-editorial-premium main h2{color:#0f3f5c;font-size:clamp(21px,2.8vw,26px);line-height:1.4;letter-spacing:-.035em;padding-top:12px;border-top:1px solid #e9eef2}
+.nf-editorial-premium main p{font-size:clamp(15px,1.5vw,17px);line-height:1.9;color:#405a6c}
+.nf-editorial-premium main .intro{font-size:clamp(18px,2.3vw,22px);color:#1b5571;line-height:1.75}
+.nf-editorial-premium main .meta{color:#18728b;letter-spacing:.025em;font-size:13px}
+.nf-editorial-premium main .editorial-hero img,.nf-editorial-premium main img.hero{width:100%;max-width:100%;height:auto;object-fit:cover;border-radius:13px}
+.nf-editorial-premium main figcaption,.nf-editorial-premium main .note{font-size:12px;color:#61798a;line-height:1.65}
+.nf-editorial-premium main a.related{border:1px solid #c6dbe3;border-radius:9px;background:#f5fafc;color:#145a7d;margin:5px 5px 5px 0;padding:10px 13px;line-height:1.5}
+.nf-editorial-premium main .notice{border-left:3px solid #af9366;background:#faf8f2;color:#546979;line-height:1.7}
+.nf-editorial-premium .nf-journey-next{margin:36px 0 10px;background:#f3f8fb;border:1px solid #d9e6ed;padding:24px;border-radius:14px}
+.nf-editorial-premium .nf-journey-next h2{padding:0;border:0;margin:0 0 10px}
+.nf-editorial-premium .nf-journey-next p{margin:0 0 16px}
+.nf-editorial-premium .nf-journey-links{display:flex;gap:10px;flex-wrap:wrap}
+.nf-editorial-premium .nf-journey-links a{background:#0a527a;color:white;text-decoration:none;padding:12px 15px;border-radius:9px;font-size:14px;font-weight:800}
+.nf-editorial-premium .nf-journey-links a.secondary{background:#fff;color:#155b7e;border:1px solid #8db1c0}
+.nf-editorial-premium .nf-journey-next .nf-disclaimer{font-size:12px;margin:13px 0 0}
+.nf-editorial-premium a:focus-visible{outline:3px solid #eaac41;outline-offset:3px}
+@media(max-width:680px){.nf-editorial-premium .nf-article-masthead{padding:15px 18px;display:block}.nf-editorial-premium .nf-article-masthead nav{margin-top:12px;gap:10px 14px}.nf-editorial-premium main{margin:0 auto 20px;border-radius:0;border-left:0;border-right:0;padding:25px 18px}.nf-editorial-premium .nf-journey-next{padding:18px}.nf-editorial-premium .nf-journey-links{flex-direction:column}.nf-editorial-premium .nf-journey-links a{text-align:center}}
+@media(prefers-reduced-motion:reduce){.nf-editorial-premium *{scroll-behavior:auto!important}}
