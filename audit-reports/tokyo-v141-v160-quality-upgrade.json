@@ -1,0 +1,196 @@
+{
+  "updated": 20,
+  "removed": 40,
+  "editorial_image_replacements": [
+    "donki-taxfree-passport",
+    "tokyo-drugstore-cosmetics",
+    "tokyo-drugstore-sun-care",
+    "tokyo-kbeauty-vs-jcosmetic",
+    "muji-ginza-4f-taxfree",
+    "muji-ginza-food-b1",
+    "loft-stationery-gifts"
+  ],
+  "pages": [
+    {
+      "v": 141,
+      "slug": "shibuya-mega-donki-by-floor",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    },
+    {
+      "v": 142,
+      "slug": "shinjuku-kabukicho-donki",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    },
+    {
+      "v": 143,
+      "slug": "odaiba-kirakira-donki",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    },
+    {
+      "v": 144,
+      "slug": "donki-asakusa-check",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    },
+    {
+      "v": 145,
+      "slug": "donki-roppongi-night-check",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    },
+    {
+      "v": 146,
+      "slug": "donki-taxfree-passport",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": true
+    },
+    {
+      "v": 147,
+      "slug": "tokyo-drugstore-cosmetics",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": true
+    },
+    {
+      "v": 148,
+      "slug": "tokyo-drugstore-sun-care",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": true
+    },
+    {
+      "v": 149,
+      "slug": "tokyo-drugstore-contact-lens",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    },
+    {
+      "v": 150,
+      "slug": "tokyo-kbeauty-vs-jcosmetic",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": true
+    },
+    {
+      "v": 151,
+      "slug": "muji-ginza-floor-map",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    },
+    {
+      "v": 152,
+      "slug": "muji-ginza-4f-taxfree",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": true
+    },
+    {
+      "v": 153,
+      "slug": "muji-ginza-6f-atelier",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    },
+    {
+      "v": 154,
+      "slug": "muji-ginza-food-b1",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": true
+    },
+    {
+      "v": 155,
+      "slug": "shibuya-loft-stationery",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    },
+    {
+      "v": 156,
+      "slug": "ikebukuro-loft-floors",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    },
+    {
+      "v": 157,
+      "slug": "loft-stationery-gifts",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": true
+    },
+    {
+      "v": 158,
+      "slug": "tokyo-hands-diy-gifts",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    },
+    {
+      "v": 159,
+      "slug": "tokyo-electronics-bic-yodobashi",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    },
+    {
+      "v": 160,
+      "slug": "tokyo-shopping-luggage-locker",
+      "generic_removed": [
+        "generic",
+        "field"
+      ],
+      "editorial_image": false
+    }
+  ],
+  "caveat": "Graphic substitutions are labeled not real location photos; store floor details and official links require live checks. Other images not yet fully reviewed."
+}
