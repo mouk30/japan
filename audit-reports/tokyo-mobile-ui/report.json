@@ -2,7 +2,11 @@
   "375": {
     "cards": 220,
     "svg": 0,
-    "broken": [],
+    "broken": [
+      110,
+      111,
+      116
+    ],
     "aspectErrors": [],
     "hiddenCredits": [],
     "horizontalOverflow": false,
@@ -11,7 +15,11 @@
   "390": {
     "cards": 220,
     "svg": 0,
-    "broken": [],
+    "broken": [
+      110,
+      111,
+      116
+    ],
     "aspectErrors": [],
     "hiddenCredits": [],
     "horizontalOverflow": false,
@@ -20,7 +28,11 @@
   "768": {
     "cards": 220,
     "svg": 0,
-    "broken": [],
+    "broken": [
+      110,
+      111,
+      116
+    ],
     "aspectErrors": [],
     "hiddenCredits": [],
     "horizontalOverflow": false,
@@ -29,7 +41,11 @@
   "1440": {
     "cards": 220,
     "svg": 0,
-    "broken": [],
+    "broken": [
+      110,
+      111,
+      116
+    ],
     "aspectErrors": [],
     "hiddenCredits": [],
     "horizontalOverflow": false,
