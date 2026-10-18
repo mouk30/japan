@@ -1,0 +1,54 @@
+/* NIPPONFERRY Premium Maritime Design V1 · 2026-10-18
+   Distinct visual identity: ocean cruise + Japanese coastal ferry.
+   Presentation only; original navigation URLs and structured data remain. */
+:root{--nf-ink:#152c43;--nf-navy:#0c2338;--nf-navy-2:#163b53;--nf-gold:#bea579;--nf-ivory:#f7f5ef;--nf-line:#e6e7e4;--nf-muted:#617384}
+body{color:var(--nf-ink);background:#fff;letter-spacing:-.025em}
+.site-header{background:rgba(9,31,49,.97)!important;box-shadow:0 1px 0 rgba(196,167,120,.35),0 12px 34px rgba(11,28,44,.12)!important}
+.header-in{height:76px;gap:18px}
+.brand{gap:9px}.brand img{width:39px;height:39px;filter:saturate(.76)}
+.brand strong{font-size:22px;letter-spacing:.025em;font-weight:780}
+.brand small{font-size:10px;letter-spacing:.055em;opacity:.79}
+.desktop-nav{gap:1px}.desktop-nav a{font-size:12.5px;font-weight:690;padding:12px 10px;border-radius:3px}
+.desktop-nav a:hover,.desktop-nav a:focus-visible{background:rgba(255,255,255,.085)}
+.desktop-nav .nav-book{background:var(--nf-gold)!important;color:#0c2338!important;border-radius:4px}
+.mobile-menu{top:76px;border:1px solid #e7e4db;border-radius:10px;box-shadow:0 20px 55px rgba(13,35,53,.21)}
+.mobile-menu a{border-radius:4px;background:#f4f4f0}
+.nf-premium-hero{position:relative;overflow:hidden;min-height:590px;color:white;background:linear-gradient(100deg,rgba(9,31,49,.96) 0%,rgba(13,42,61,.85) 49%,rgba(9,32,49,.52) 100%),url('/images/hero-blue.jpg') center/cover no-repeat}
+.nf-premium-hero::after{content:"";position:absolute;inset:auto 0 0;height:100px;background:linear-gradient(transparent,rgba(5,22,34,.34));pointer-events:none}
+.nf-premium-hero>.wrap{position:relative;z-index:1;padding-top:105px;padding-bottom:98px}
+.nf-overline{font-size:11px;font-weight:750;letter-spacing:.24em;color:#e6cc99;text-transform:uppercase;display:block;margin-bottom:23px}
+.nf-premium-hero h1{font-size:clamp(43px,5.2vw,71px);line-height:1.13;letter-spacing:-.058em;max-width:850px;font-weight:790;margin:0 0 19px;text-wrap:balance}
+.nf-premium-hero h1 span{color:#edcf97}
+.nf-premium-hero p{font-size:clamp(16px,1.5vw,20px);font-weight:460;max-width:650px;color:#ebeff0;line-height:1.9;margin:0 0 33px}
+.nf-hero-actions{display:flex;flex-wrap:wrap;gap:11px}
+.nf-hero-actions a{display:inline-flex;align-items:center;justify-content:center;padding:15px 23px;min-height:53px;font-size:14px;font-weight:760;letter-spacing:-.02em;border-radius:4px;transition:transform .2s,background .2s}
+.nf-hero-actions a:hover{transform:translateY(-2px)}
+.nf-hero-actions .nf-action-main{background:var(--nf-gold);color:#11283b}
+.nf-hero-actions .nf-action-sub{border:1px solid rgba(255,255,255,.65);color:white;background:rgba(8,25,39,.21)}
+.nf-hero-chips{display:flex;gap:17px;flex-wrap:wrap;margin-top:31px;color:#edf1f3;font-size:12px}
+.nf-hero-chips span{border-left:2px solid #c9ac78;padding-left:9px}
+.nf-maritime-panel{background:var(--nf-ivory);border-bottom:1px solid #e8e4dc;padding:36px 0 42px}
+.nf-maritime-heading{display:flex;gap:15px;align-items:end;justify-content:space-between;margin-bottom:22px}
+.nf-maritime-heading p{font-size:11px;letter-spacing:.18em;font-weight:750;color:#8e7350;margin:0 0 7px}
+.nf-maritime-heading h2{font-size:clamp(25px,2.5vw,34px);letter-spacing:-.055em;margin:0;line-height:1.3}
+.nf-maritime-heading>span{font-size:13px;color:#687988}
+.nf-maritime-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.nf-maritime-card{position:relative;overflow:hidden;min-height:274px;display:flex;flex-direction:column;justify-content:flex-end;padding:30px;color:white;background-size:cover;background-position:center;border-radius:4px;isolation:isolate}
+.nf-maritime-card::before{position:absolute;inset:0;content:"";z-index:-1;background:linear-gradient(0deg,rgba(6,24,39,.94) 0%,rgba(7,26,42,.47) 65%,rgba(7,26,42,.15) 100%);transition:background .2s}
+.nf-maritime-card:hover{color:white}.nf-maritime-card:hover::before{background:linear-gradient(0deg,rgba(6,24,39,.97),rgba(7,26,42,.39))}
+.nf-maritime-card small{font-size:11px;letter-spacing:.16em;color:#ead0a1;font-weight:750;margin-bottom:9px}
+.nf-maritime-card strong{font-size:clamp(23px,2.3vw,33px);line-height:1.25;letter-spacing:-.05em;font-weight:780}
+.nf-maritime-card em{font-style:normal;color:#d8e1e7;font-size:13px;margin-top:11px;line-height:1.7}
+.nf-maritime-card .nf-card-go{position:absolute;right:25px;bottom:25px;color:#e9d09e;font-size:28px}
+.nf-cruise-card{background-image:url('/images/hero-blue.jpg')}
+.nf-ferry-card{background-image:url('/images/ferry.jpg')}
+.nf305-shortcuts{background:#fff}.nf305-shortcut{border-radius:4px!important}
+.section-head h2,.section h2{letter-spacing:-.045em}.section-head>div>h2{font-size:clamp(24px,2.8vw,35px)}
+.v65-card,.d61-home-card{border-radius:5px!important;box-shadow:0 9px 25px rgba(23,48,64,.065)!important}
+.v65-photo,.d61-home-photo{border-radius:0!important}.v65-type,.d61-home-type{border-radius:3px!important}
+.d61-home-cta{background:var(--nf-navy-2)!important;border-radius:3px!important}
+a:focus-visible,button:focus-visible{outline:3px solid var(--nf-gold)!important;outline-offset:3px}
+@media(max-width:1200px){.desktop-nav a{font-size:11.5px;padding:11px 7px}.header-in{gap:9px}.brand strong{font-size:20px}}
+@media(max-width:960px){.nf-premium-hero{min-height:500px}.nf-premium-hero>.wrap{padding-top:85px;padding-bottom:80px}}
+@media(max-width:760px){.header-in{height:66px}.brand strong{font-size:19px}.brand img{width:35px;height:35px}.mobile-menu{top:66px}.nf-premium-hero{min-height:490px;background-position:64% center}.nf-premium-hero>.wrap{padding:77px 0 64px}.nf-overline{font-size:10px;letter-spacing:.12em}.nf-premium-hero h1{font-size:clamp(37px,8.8vw,52px);line-height:1.18}.nf-premium-hero p{font-size:15px;line-height:1.85}.nf-hero-actions a{width:100%;font-size:14px}.nf-hero-chips{gap:12px}.nf-maritime-panel{padding:28px 0}.nf-maritime-heading{display:block}.nf-maritime-heading>span{display:block;margin-top:7px}.nf-maritime-grid{grid-template-columns:1fr;gap:12px}.nf-maritime-card{min-height:225px;padding:23px}.nf-maritime-card .nf-card-go{bottom:18px}.nf-maritime-card strong{font-size:27px}}
+@media(prefers-reduced-motion:reduce){.nf-hero-actions a{transition:none}}
