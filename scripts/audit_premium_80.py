@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build 80-page manifest and conservative content audit from the repository.
+"""Build premium editorial manifest and conservative content audit from the repository.
 Only pages with the premium stylesheet are counted. Never promote unverified facts.
 """
 import csv, json, re, argparse
@@ -65,12 +65,12 @@ def main():
     with (out/"pages.json").open("w") as f: json.dump(rows,f,ensure_ascii=False,indent=2)
     with (out/"pages.csv").open("w",encoding="utf-8-sig",newline="") as f:
         w=csv.DictWriter(f,fieldnames=list(rows[0]) if rows else ["path"]);w.writeheader();w.writerows(rows)
-    summary={"page_count":len(rows),"expected":80,"canonical_fail":sum(not x["canonical_ok"] for x in rows),"missing_local_image_pages":sum(x["image_missing"]>0 for x in rows),"missing_internal_link_pages":sum(x["internal_link_missing"]>0 for x in rows),"no_json_ld":sum(x["json_ld_count"]==0 for x in rows),"missing_booking_guide":sum(not x["booking_guide_link"] for x in rows),"official_fact_verification":"pending manual per location","photo_rights_verification":"pending manual per photo","live_booking":"not checked"}
+    summary={"page_count":len(rows),"expected":81,"canonical_fail":sum(not x["canonical_ok"] for x in rows),"missing_local_image_pages":sum(x["image_missing"]>0 for x in rows),"missing_internal_link_pages":sum(x["internal_link_missing"]>0 for x in rows),"no_json_ld":sum(x["json_ld_count"]==0 for x in rows),"missing_booking_guide":sum(not x["booking_guide_link"] for x in rows),"official_fact_verification":"pending manual per location","photo_rights_verification":"pending manual per photo","live_booking":"not checked"}
     summary.update({"official_source_candidate_pages":sum(x["official_source_link_candidates"]>0 for x in rows),
                     "ai_disclosure_pages":sum(x["ai_reference_disclosure"] for x in rows),
                     "external_booking_candidate_pages":sum(x["external_booking_link_candidates"]>0 for x in rows),
                     "caveat":"Candidate links and disclosures are not verification of source accuracy, rights, or live bookability."})
     (out/"summary.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2))
     print(json.dumps(summary,ensure_ascii=False,indent=2))
-    if len(rows)!=80: raise SystemExit("Expected exactly 80 premium articles, got "+str(len(rows)))
+    if len(rows)!=81: raise SystemExit("Expected exactly 81 premium articles, got "+str(len(rows)))
 if __name__=="__main__": main()
