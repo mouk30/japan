@@ -1,0 +1,40 @@
+name: Long-tail ferry three-page launch QA
+on:
+  pull_request:
+    paths:
+      - 'site/japan-cruise/busan-hakata-ferry-reservation/**'
+      - 'site/japan-cruise/bukan-ferry-shimonoseki-price/**'
+      - 'site/japan-cruise/panstar-miracle-osaka-cabin-types/**'
+      - 'site/japan-cruise/busan-departure/**'
+      - 'site/nf-longtail-clicks.js'
+      - 'site/sitemap.xml'
+      - 'scripts/qa_longtail_3.cjs'
+      - '.github/workflows/longtail-3-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Run local page and event smoke tests
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory site > /tmp/nf-longtail-server.log 2>&1 &
+          sleep 2
+          node scripts/qa_longtail_3.cjs
+      - name: Upload results and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: longtail-3-release-qa
+          path: audit-output/longtail-3/
+          if-no-files-found: warn
