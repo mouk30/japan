@@ -103,6 +103,11 @@ def check_page(route,mode):
             item["checks"]["html_response"]="html" in ctype.lower()
             html=payload.decode("utf-8","replace")
         p=Parse();p.feed(html)
+        item["h1_count"]=p.h1
+        item["html_bytes"]=len(html.encode("utf-8"))
+        if p.h1 != 1:
+            import re
+            item["h1_excerpts"]=re.findall(r"<h1\\b[^>]*>[\\s\\S]{0,180}",html,re.I)[:4]
         item["checks"].update({
             "canonical":p.canonical==[ORIGIN+route],
             "title_description":bool(p.title.strip() and any(p.description)),
