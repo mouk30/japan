@@ -3,6 +3,8 @@ on:
   pull_request:
     paths:
       - 'scripts/check_longtail_3_readiness.py'
+      - 'scripts/report_longtail_3_search.py'
+      - 'scripts/test_longtail_3_search_report.py'
       - '.github/workflows/longtail-3-live-readiness.yml'
       - 'site/japan-cruise/busan-hakata-ferry-reservation/**'
       - 'site/japan-cruise/bukan-ferry-shimonoseki-price/**'
@@ -35,8 +37,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Test authentic-export parser using synthetic fixtures
+        run: python3 -m unittest scripts/test_longtail_3_search_report.py
       - name: Check local version of all three pages
         run: python3 scripts/check_longtail_3_readiness.py --mode static
+      - name: Diagnose actual public domain from CI before merge
+        if: github.event_name == 'pull_request'
+        continue-on-error: true
+        run: python3 scripts/check_longtail_3_readiness.py --mode live
       - name: Check actual live URLs after publication
         if: github.event_name != 'pull_request'
         run: python3 scripts/check_longtail_3_readiness.py --mode live
