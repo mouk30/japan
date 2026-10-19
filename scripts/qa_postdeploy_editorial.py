@@ -123,9 +123,11 @@ def check_page(route,mode):
             item["missing_images"]=[src for src in images if image_check(src,mode) is False]
             item["checks"]["local_images"]=len(item["missing_images"])==0
         else:
-            # Remote hero image only; static audit covers every local image.
-            item["hero_image"]=images[0] if images else None
-            item["checks"]["hero_image_live"]=bool(images) and image_check(images[0],mode) is True
+            # Exclude shared site mascot: validate the ARTICLE photograph, not logo.
+            editorial=next((src for src in images if not src.endswith("/mascot.png") and
+                            not src.endswith("/kakao-talk.jpg")),None)
+            item["hero_image"]=editorial
+            item["checks"]["editorial_image_live"]=bool(editorial) and image_check(editorial,mode) is True
         item["premium_css_marker"]="nf-editorial-premium-v2.css" in html
     except Exception as exc:item["errors"].append(str(exc))
     item["pass"]=not item["errors"] and all(item["checks"].values())
