@@ -47,17 +47,29 @@ def main():
         url="/"+p.relative_to(root).parent.as_posix()+"/"
         imgs=[local(x,p,root) for x in parser.images]
         links=[local(x,p,root) for x in parser.links if x.startswith("/")]
+        external_urls=[x for x in parser.links if x.startswith(("https://","http://"))]
+        official_candidates=[x for x in external_urls if any(domain in urlsplit(x).netloc.lower() for domain in
+            ("go.jp","lg.jp","okinawastory.jp","churaumi.okinawa","oki-park.jp","discover-nagasaki.com","japan.travel","yokohama-akarenga.jp","osanbashi.jp","nahaport.jp","hakataport.com"))]
+        ai_notice=bool(re.search(r"AI 생성 참고 이미지|실제 현장 사진 여부 미검증",src,re.I))
+        external_booking_candidates=[x for x in external_urls if any(token in x.lower() for token in
+            ("reserve","reservation","booking","ticket","willer-travel.com"))]
         canonical_expected="https://www.nipponferry.com"+url
         rows.append(dict(path=p.relative_to(root).as_posix(),url=url,canonical_ok=len(parser.canonical)==1 and parser.canonical[0]==canonical_expected,
            h1_count=len(parser.headings),meta_description=bool(parser.description and parser.description[0]),
            json_ld_count=len(parser.scripts),internal_link_missing=sum(v is False for v in links),
            image_missing=sum(v is False for v in imgs),external_image_unverified=sum(v is None for v in imgs),
            booking_guide_link='/booking/japan-cruise/' in parser.links,
+           official_source_link_candidates=len(official_candidates),ai_reference_disclosure=ai_notice,
+           external_booking_link_candidates=len(external_booking_candidates),
            photo_source_verified=False,official_operations_verified=False,live_booking_verified=False))
     with (out/"pages.json").open("w") as f: json.dump(rows,f,ensure_ascii=False,indent=2)
     with (out/"pages.csv").open("w",encoding="utf-8-sig",newline="") as f:
         w=csv.DictWriter(f,fieldnames=list(rows[0]) if rows else ["path"]);w.writeheader();w.writerows(rows)
     summary={"page_count":len(rows),"expected":80,"canonical_fail":sum(not x["canonical_ok"] for x in rows),"missing_local_image_pages":sum(x["image_missing"]>0 for x in rows),"missing_internal_link_pages":sum(x["internal_link_missing"]>0 for x in rows),"no_json_ld":sum(x["json_ld_count"]==0 for x in rows),"missing_booking_guide":sum(not x["booking_guide_link"] for x in rows),"official_fact_verification":"pending manual per location","photo_rights_verification":"pending manual per photo","live_booking":"not checked"}
+    summary.update({"official_source_candidate_pages":sum(x["official_source_link_candidates"]>0 for x in rows),
+                    "ai_disclosure_pages":sum(x["ai_reference_disclosure"] for x in rows),
+                    "external_booking_candidate_pages":sum(x["external_booking_link_candidates"]>0 for x in rows),
+                    "caveat":"Candidate links and disclosures are not verification of source accuracy, rights, or live bookability."})
     (out/"summary.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2))
     print(json.dumps(summary,ensure_ascii=False,indent=2))
     if len(rows)!=80: raise SystemExit("Expected exactly 80 premium articles, got "+str(len(rows)))
