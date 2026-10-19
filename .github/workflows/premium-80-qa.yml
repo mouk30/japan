@@ -1,4 +1,4 @@
-name: Premium 80 browser and SEO QA
+name: Premium editorial browser and SEO QA
 on:
   workflow_dispatch:
   pull_request:
@@ -41,7 +41,7 @@ jobs:
       - name: Attach QA report to GitHub summary
         if: always()
         run: |
-          echo '## Premium 80 validation' >> "$GITHUB_STEP_SUMMARY"
+          echo '## Premium editorial validation' >> "$GITHUB_STEP_SUMMARY"
           if [ -f audit-output/premium-80/summary.json ]; then
             echo '### Static SEO, image and link audit' >> "$GITHUB_STEP_SUMMARY"
             cat audit-output/premium-80/summary.json >> "$GITHUB_STEP_SUMMARY"
