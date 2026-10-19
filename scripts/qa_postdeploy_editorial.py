@@ -16,6 +16,7 @@ import time
 
 ORIGIN="https://www.nipponferry.com"
 MANIFEST=Path("scripts/postdeploy-editorial-manifest.json")
+ROOT=Path("site")
 OUT=Path("audit-output/postdeploy-editorial")
 HOME_LINKS=[
     "/things-to-do/naha-cruise-terminal-kokusai-dori/",
@@ -71,7 +72,7 @@ def request(url,head=False):
     raise RuntimeError(last)
 
 def local_get(path):
-    target=Path("site")/path.lstrip("/")
+    target=ROOT/path.lstrip("/")
     if not target.suffix or path.endswith("/"):target=target/"index.html"
     return target.read_bytes()
 
@@ -82,7 +83,7 @@ def image_check(src,mode):
     if not src or not src.startswith("/") or src.startswith("//"):return None
     route=unquote(urlsplit(src).path)
     if mode=="static":
-        return (Path("site")/route.lstrip("/")).is_file()
+        return (ROOT/route.lstrip("/")).is_file()
     try:
         status,_,ctype,_=request(ORIGIN+route,head=True)
         return status==200 and (ctype.startswith("image/") or ctype.startswith("application/octet-stream"))
@@ -103,6 +104,11 @@ def check_page(route,mode):
             item["checks"]["html_response"]="html" in ctype.lower()
             html=payload.decode("utf-8","replace")
         p=Parse();p.feed(html)
+        item["h1_count"]=p.h1
+        item["html_bytes"]=len(html.encode("utf-8"))
+        if p.h1 != 1:
+            import re
+            item["h1_excerpts"]=re.findall(r"<h1\\b[^>]*>[\\s\\S]{0,180}",html,re.I)[:4]
         item["checks"].update({
             "canonical":p.canonical==[ORIGIN+route],
             "title_description":bool(p.title.strip() and any(p.description)),
@@ -141,14 +147,17 @@ def check_home(mode):
         item["checks"]["canonical"]=p.canonical==[ORIGIN+"/"]
         item["checks"]["no_noindex"]=not any("noindex" in s for s in p.robots)
         if mode=="static":
-            item["checks"]["features_exist_local"]=all((Path("site")/link.lstrip("/")/"index.html").is_file() for link in HOME_LINKS)
+            item["checks"]["features_exist_local"]=all((ROOT/link.lstrip("/")/"index.html").is_file() for link in HOME_LINKS)
     except Exception as exc:item["errors"].append(str(exc))
     item["pass"]=not item["errors"] and all(item["checks"].values())
     return item
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument("--mode",choices=["static","live"],required=True)
+    parser.add_argument("--root",default="site",help="Local files root, use dist to audit Vercel build output")
     args=parser.parse_args();mode=args.mode
+    global ROOT
+    ROOT=Path(args.root)
     files=json.loads(MANIFEST.read_text())["pages"]
     if len(files)!=85:
         raise SystemExit("PR #9 expected exactly 85 editorial files, found "+str(len(files)))
