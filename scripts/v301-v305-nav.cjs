@@ -109,7 +109,12 @@ function enhanceDocument(html,file,out){
   // never delete an article's internal heading, figure or breadcrumb.
   const oldHeader=/<header\b[^>]*>[\s\S]*?<\/header>/i.exec(html);
   const mainIndex=html.search(/<main\b/i);
-  if(oldHeader && (mainIndex<0 || oldHeader.index<mainIndex)){
+  // Only replace a real legacy SITE header. An article's semantic <header>
+  // may contain its only <h1>, location and lead; deleting it breaks SEO.
+  const replaceableLegacySiteHeader=oldHeader &&
+    /<header\b[^>]*class=["'][^"']*\b(?:top|sitebar|sitehead)\b/i.test(oldHeader[0]) &&
+    !/<h1\b/i.test(oldHeader[0]);
+  if(replaceableLegacySiteHeader && (mainIndex<0 || oldHeader.index<mainIndex)){
    html=html.slice(0,oldHeader.index)+renderHeader(pathname)+html.slice(oldHeader.index+oldHeader[0].length);
    applied=true;
   }else{
