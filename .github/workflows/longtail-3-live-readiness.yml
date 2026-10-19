@@ -1,0 +1,49 @@
+name: Long-tail three-page public readiness
+on:
+  pull_request:
+    paths:
+      - 'scripts/check_longtail_3_readiness.py'
+      - '.github/workflows/longtail-3-live-readiness.yml'
+      - 'site/japan-cruise/busan-hakata-ferry-reservation/**'
+      - 'site/japan-cruise/bukan-ferry-shimonoseki-price/**'
+      - 'site/japan-cruise/panstar-miracle-osaka-cabin-types/**'
+      - 'site/sitemap.xml'
+      - 'site/robots.txt'
+      - 'site/nf-longtail-clicks.js'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/check_longtail_3_readiness.py'
+      - '.github/workflows/longtail-3-live-readiness.yml'
+      - 'site/japan-cruise/busan-hakata-ferry-reservation/**'
+      - 'site/japan-cruise/bukan-ferry-shimonoseki-price/**'
+      - 'site/japan-cruise/panstar-miracle-osaka-cabin-types/**'
+      - 'site/sitemap.xml'
+      - 'site/robots.txt'
+      - 'site/nf-longtail-clicks.js'
+  schedule:
+    - cron: '0 3 * * *' # Noon Asia/Seoul; automated site readiness, not traffic.
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  readiness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check local version of all three pages
+        run: python3 scripts/check_longtail_3_readiness.py --mode static
+      - name: Check actual live URLs after publication
+        if: github.event_name != 'pull_request'
+        run: python3 scripts/check_longtail_3_readiness.py --mode live
+      - name: Publish technical reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: longtail-3-technical-readiness
+          path: audit-output/longtail-3/*-readiness.json
+          if-no-files-found: warn
