@@ -103,10 +103,19 @@ def check_page(mode, path):
             "has_official_outbound": any(x.startswith("https://") and "nipponferry.com" not in x for x in p.links),
             "click_script_linked": "/nf-longtail-clicks.js" in p.scripts,
         }
-        row["analytic_collector_detected"] = bool(re.search(
-            r"googletagmanager\.com/(?:gtag/js|gtm\.js)|GTM-[A-Z0-9]{5,}|G-[A-Z0-9]{7,}|vercel/analytics",
-            body, flags=re.I))
-        row["notes"] = "Analytics collection is NOT proven by a loaded event script."
+        # Detect actual analytics SCRIPT tags or gtag config, never CSS class names
+        # (e.g. ".g-actions" falsely looked like "G-XXXXXXX" in old regex).
+        external_tags = any(
+            "googletagmanager.com/gtag/js" in src or
+            "googletagmanager.com/gtm.js" in src
+            for src in p.scripts if src
+        )
+        configured_ga4 = bool(re.search(
+            r"""gtag\(\s*['"]config['"]\s*,\s*['"]G-[A-Z0-9]{6,}['"]""",
+            body
+        ))
+        row["analytics_tag_candidate_detected"] = external_tags or configured_ga4
+        row["notes"] = "Analytics tag presence is NOT proof that hits are collected; check GA4 real-time reports."
     except Exception as error:
         row["errors"].append(str(error))
         row["checks"]["page_accessible"] = False
