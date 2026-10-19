@@ -46,5 +46,6 @@ const out='audit-output/premium-80';fs.mkdirSync(path.join(out,'screenshots'),{r
  const summary={pages:pages.length,combinations:results.length,pass:results.length-failures.length,fail:failures.length,failures:failures.slice(0,35)};
  fs.writeFileSync(path.join(out,'browser-summary.json'),JSON.stringify(summary,null,2));
  console.log(JSON.stringify({pages:summary.pages,combinations:summary.combinations,pass:summary.pass,fail:summary.fail},null,2));
+ if(failures.length) console.log('FAILED VIEWPORT DETAILS',JSON.stringify(failures.slice(0,10),null,2));
  if(failures.length) process.exitCode=1;
 })().catch(e=>{console.error(e);process.exitCode=1});

@@ -129,6 +129,10 @@ def check_page(route,mode):
             item["hero_image"]=editorial
             item["checks"]["editorial_image_live"]=bool(editorial) and image_check(editorial,mode) is True
         item["premium_css_marker"]="nf-editorial-premium-v2.css" in html
+        item["expert_premium_marker"]=bool("nf-premium-v2.css" in html and
+                                           'class="nf-premium-v2"' in html)
+        item["checks"]["has_premium_design"]=(item["premium_css_marker"] or
+                                             item["expert_premium_marker"])
     except Exception as exc:item["errors"].append(str(exc))
     item["pass"]=not item["errors"] and all(item["checks"].values())
     return item
@@ -170,21 +174,23 @@ def main():
     pages.sort(key=lambda x:x["route"])
     passing=sum(x["pass"] for x in pages)
     premium=sum(x.get("premium_css_marker",False) for x in pages)
+    expert=sum(x.get("expert_premium_marker",False) for x in pages)
     report={
         "checked_utc":datetime.now(timezone.utc).isoformat(),
         "mode":mode,"source_release_pr":9,
         "pages":len(pages),"page_pass":passing,"page_fail":len(pages)-passing,
         "homepage_pass":home["pass"],"premium_css_count":premium,
+        "expert_premium_css_count":expert,
         "homepage":home,"failures":[x for x in pages if not x["pass"]],
         "pages_detail":pages,"verified_scope":"Technical HTTP/SEO and local/hero-image availability, not factual or SEO-rank verification",
     }
     OUT.mkdir(parents=True,exist_ok=True)
     (OUT/(mode+"-result.json")).write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
-    print(json.dumps({k:report[k] for k in ("mode","pages","page_pass","page_fail","homepage_pass","premium_css_count")},ensure_ascii=False))
+    print(json.dumps({k:report[k] for k in ("mode","pages","page_pass","page_fail","homepage_pass","premium_css_count","expert_premium_css_count")},ensure_ascii=False))
     if report["failures"]:
         print("SAMPLE FAILURES:",json.dumps(report["failures"][:15],ensure_ascii=False))
     if not home["pass"]:print("HOME FAILURE:",json.dumps(home,ensure_ascii=False))
-    if passing!=85 or not home["pass"]:
+    if passing!=85 or premium!=81 or expert!=4 or not home["pass"]:
         raise SystemExit(1)
 
 if __name__=="__main__":main()
