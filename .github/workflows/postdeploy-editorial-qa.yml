@@ -32,6 +32,9 @@ jobs:
       - name: Audit REAL public homepage and 85 pages
         if: github.event_name != 'pull_request'
         run: python3 scripts/qa_postdeploy_editorial.py --mode live
+      - name: Diagnose current public 85 pages during PR
+        if: github.event_name == 'pull_request'
+        run: python3 scripts/qa_postdeploy_editorial.py --mode live
       - name: Report findings
         if: always()
         run: |
