@@ -1,0 +1,50 @@
+name: Published homepage and 85 editorial pages QA
+on:
+  pull_request:
+    paths:
+      - 'scripts/qa_postdeploy_editorial.py'
+      - 'scripts/postdeploy-editorial-manifest.json'
+      - '.github/workflows/postdeploy-editorial-qa.yml'
+      - 'site/index.html'
+      - 'site/things-to-do/**'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/qa_postdeploy_editorial.py'
+      - 'scripts/postdeploy-editorial-manifest.json'
+      - '.github/workflows/postdeploy-editorial-qa.yml'
+      - 'site/index.html'
+      - 'site/things-to-do/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit homepage and all 85 pages in repository
+        run: python3 scripts/qa_postdeploy_editorial.py --mode static
+      - name: Audit REAL public homepage and 85 pages
+        if: github.event_name != 'pull_request'
+        run: python3 scripts/qa_postdeploy_editorial.py --mode live
+      - name: Report findings
+        if: always()
+        run: |
+          echo '## Homepage and PR #9 editorial pages QA' >> "$GITHUB_STEP_SUMMARY"
+          for f in audit-output/postdeploy-editorial/*-result.json; do
+            if [ -f "$f" ]; then
+              python3 -c 'import json,sys; j=json.load(open(sys.argv[1])); print({k:j[k] for k in ("mode","pages","page_pass","page_fail","homepage_pass","premium_css_count")}); print("Failures:",[(x["route"],x["checks"],x["errors"]) for x in j["failures"][:5]])' "$f" >> "$GITHUB_STEP_SUMMARY"
+            fi
+          done
+      - name: Upload details
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: postdeploy-editorial-85-qa
+          path: audit-output/postdeploy-editorial/
+          if-no-files-found: warn
