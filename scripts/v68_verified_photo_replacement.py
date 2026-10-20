@@ -59,13 +59,22 @@ def apply(item):
     html=html.replace('AI 생성 참고 이미지로 실제 장소와 차이가 있을 수 있습니다.','대표 사진은 실제 장소 촬영 이미지입니다. 촬영 연도와 출처를 위에서 확인하세요.',1)
     p.write_text(html,encoding="utf-8")
 def main():
-    import os
     intake=ROOT/"photo-intake"/"v68"
+    approval_path=intake/"visual-review-approval.json"
+    if not approval_path.exists():
+        raise SystemExit("Manual visual-review approval missing. No publication.")
+    approvals=json.loads(approval_path.read_text(encoding="utf-8"))
+    if not isinstance(approvals,dict):
+        raise SystemExit("Review approval must map slugs to SHA-256 and source checks.")
     for item in DATA:
         local=intake/item["file"]
         if not local.is_file():
             raise SystemExit("Missing source file: "+str(local)+"; do not publish unverified images.")
         raw=local.read_bytes()
+        digest=hashlib.sha256(raw).hexdigest()
+        approval=approvals.get(item["slug"],{})
+        if (approval.get("original_sha256") != digest or approval.get("confirmed_depicted_location") is not True or approval.get("license_verified") is not True or not approval.get("reviewer") or not approval.get("reviewed_at")):
+            raise SystemExit("Manual review/sha256/location/license evidence missing for "+item["slug"])
         img=Image.open(io.BytesIO(raw));img.verify()
         img=Image.open(io.BytesIO(raw)).convert("RGB")
         if img.width<800 or img.height<500:
