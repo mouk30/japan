@@ -1,0 +1,50 @@
+name: Flagship port external-link QA
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_port_external_links.py'
+      - '.github/workflows/port-official-links-qa.yml'
+      - 'site/things-to-do/naha-cruise-terminal-kokusai-dori/**'
+      - 'site/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/**'
+      - 'site/things-to-do/hakata-port-hakata-station-access/**'
+      - 'site/things-to-do/nagasaki-matsugae-glover-garden-cruise-access/**'
+      - 'site/things-to-do/yokohama-red-brick-warehouse/**'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/audit_port_external_links.py'
+      - '.github/workflows/port-official-links-qa.yml'
+      - 'site/things-to-do/naha-cruise-terminal-kokusai-dori/**'
+      - 'site/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/**'
+      - 'site/things-to-do/hakata-port-hakata-station-access/**'
+      - 'site/things-to-do/nagasaki-matsugae-glover-garden-cruise-access/**'
+      - 'site/things-to-do/yokohama-red-brick-warehouse/**'
+  schedule:
+    - cron: '17 2 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check real HTTP status of external sources on 5 guides
+        run: python3 scripts/audit_port_external_links.py --root site
+      - name: Add report to action summary
+        if: always()
+        run: |
+          if [ -f audit-output/port-official-links/external-links.json ]; then
+            python3 -c 'import json; d=json.load(open("audit-output/port-official-links/external-links.json")); print("## Flagship port source links\nChecked:",d["links"],"\nStatus:",d["summary"]); print("\n## Broken or inconclusive\n"); [print(r["classification"],r["get_status"],r["url"],r["reason"]) for r in d["results"] if r["classification"]!="reachable"]' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Save all source-link results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: flagship-port-external-source-links
+          path: audit-output/port-official-links/external-links.json
+          if-no-files-found: warn
