@@ -1,0 +1,19 @@
+{
+  "slug": "shodoshima-ferry-island-access",
+  "original": "https://commons.wikimedia.org/wiki/File:Shodo-shima_ferry_port_in_Tonosho_(6453360287).jpg",
+  "license": "CC BY 2.0",
+  "author": "Maarten Heerlien",
+  "depicts": "Tonosho ferry port on Shodoshima, olive-line vessel in 2010, not necessarily a current vessel",
+  "date": "2010-09-28",
+  "visual_inspection": "Photo shows ferry with Olive Line markings berthed at Tonosho pier, matched against Wikimedia Commons preview examined 2026-10-21",
+  "downloaded_from": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Shodo-shima_ferry_port_in_Tonosho_%286453360287%29.jpg/1280px-Shodo-shima_ferry_port_in_Tonosho_%286453360287%29.jpg",
+  "input_sha256": "6eb495304ab02f83e781613f578434db36d5c13edf70dc3b751fe7461f17cf56",
+  "result_sha256": "ad7c83f65d356b2834ad73cf7defdba0ef4689ce87b6fe2e0c6895f2b7a4ea85",
+  "webp": "/images/v72-verified/v72-shodoshima-tonosho-ferry-2010.webp",
+  "dimensions": [
+    1280,
+    857
+  ],
+  "rights": "credit, source URL, license, modifications and share-alike identified in figcaption",
+  "not_proven": "current ferry departure timetable or current facility operation"
+}
