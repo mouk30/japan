@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """V68 evidence-backed photos. Never relabel AI art as a location photograph."""
-import io, json, re, urllib.parse, urllib.request
+import io, json, re, urllib.parse, urllib.request, urllib.error, hashlib, time
 from pathlib import Path
 from PIL import Image, ImageOps
 ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/"site"
@@ -12,22 +12,35 @@ DATA=[
 ]
 def fetch(item):
     name=item["file"].replace(" ","_")
-    url="https://commons.wikimedia.org/wiki/Special:Redirect/file/"+urllib.parse.quote(name,safe="()")
-    req=urllib.request.Request(url,headers={"User-Agent":"NipponFerryEditorialQA/1.0 (photo-provenance; bot; contact via GitHub mouk30/japan)"})
-    with urllib.request.urlopen(req,timeout=60) as resp:
-        raw=resp.read(18000000)
-    im=Image.open(io.BytesIO(raw))
-    im.verify()
-    im=Image.open(io.BytesIO(raw)).convert("RGB")
-    im.thumbnail((1800,1350),Image.Resampling.LANCZOS)
-    out=SITE/"images"/"v68-verified"/(item["slug"]+".webp")
-    out.parent.mkdir(parents=True,exist_ok=True)
-    im.save(out,"WEBP",quality=84,method=6)
-    if out.stat().st_size < 15000:raise ValueError("Suspiciously small image: "+str(out))
-    item["source"]="https://commons.wikimedia.org/wiki/File:"+urllib.parse.quote(name,safe="()")
-    item["webp"]="/images/v68-verified/"+item["slug"]+".webp"
-    item["size_bytes"]=out.stat().st_size
-    return out
+    digest=hashlib.md5(name.encode("utf-8")).hexdigest()
+    encoded=urllib.parse.quote(name,safe="()")
+    base=f"https://upload.wikimedia.org/wikipedia/commons/{digest[0]}/{digest[:2]}/{encoded}"
+    candidates=[
+        f"https://upload.wikimedia.org/wikipedia/commons/thumb/{digest[0]}/{digest[:2]}/{encoded}/1280px-{encoded}",
+        base,
+        "https://commons.wikimedia.org/wiki/Special:Redirect/file/"+encoded,
+    ]
+    last=None
+    for url in candidates:
+        for attempt in range(2):
+            try:
+                req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; NIPPONFERRY ImageQA/1.0)","Accept":"image/avif,image/webp,image/apng,image/*,*/*;q=0.8"})
+                with urllib.request.urlopen(req,timeout=25) as resp:raw=resp.read(14000000)
+                im=Image.open(io.BytesIO(raw));im.verify()
+                im=Image.open(io.BytesIO(raw)).convert("RGB")
+                im.thumbnail((1800,1350),Image.Resampling.LANCZOS)
+                out=SITE/"images"/"v68-verified"/(item["slug"]+".webp")
+                out.parent.mkdir(parents=True,exist_ok=True)
+                im.save(out,"WEBP",quality=84,method=6)
+                if out.stat().st_size < 15000:raise ValueError("Image too small "+str(out))
+                item["source"]="https://commons.wikimedia.org/wiki/File:"+encoded
+                item["webp"]="/images/v68-verified/"+item["slug"]+".webp"
+                item["size_bytes"]=out.stat().st_size
+                return out
+            except (urllib.error.HTTPError,urllib.error.URLError,TimeoutError,OSError,ValueError) as exc:
+                last=str(exc);print("SOURCE RETRY",item["slug"],url,last,flush=True)
+                time.sleep(3*(attempt+1))
+    raise RuntimeError("No retrievable original for "+item["slug"]+": "+str(last))
 def apply(item):
     p=SITE/"things-to-do"/item["slug"]/"index.html"
     html=p.read_text(encoding="utf-8")
