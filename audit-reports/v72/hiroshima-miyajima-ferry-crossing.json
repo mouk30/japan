@@ -1,0 +1,19 @@
+{
+  "slug": "hiroshima-miyajima-ferry-crossing",
+  "original": "https://commons.wikimedia.org/wiki/File:Miyajima-Ferry-STA_JR-Gate.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "MaedaAkihiko",
+  "depicts": "JR ticket gate, Miyajima island-side terminal not Miyajimaguchi",
+  "date": "2022-10-03",
+  "visual_inspection": "Photo shows JR sign and ticket counter, photographed on Miyajima island side; match to Commons preview examined 2026-10-21",
+  "downloaded_from": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Miyajima-Ferry-STA_JR-Gate.jpg/1280px-Miyajima-Ferry-STA_JR-Gate.jpg",
+  "input_sha256": "0495ec2e3961c6a7bea0c8373f2ae672537424dba357b53ea7562729af9ae083",
+  "result_sha256": "2988aae0e1e240e6b47c6b96eca1ee131af1fba66cb75133395c9e307376538c",
+  "webp": "/images/v72-verified/v72-miyajima-island-jr-ferry-gate.webp",
+  "dimensions": [
+    1280,
+    853
+  ],
+  "rights": "credit, source URL, license, modifications and share-alike identified in figcaption",
+  "not_proven": "current ferry departure timetable or current facility operation"
+}
