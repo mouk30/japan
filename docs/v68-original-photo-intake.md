@@ -18,3 +18,21 @@
 5. WebP 용량·ALT·캡션·canonical·파비콘·JSON-LD가 정상인지 검사하고 공개 PC/모바일을 재검증합니다.
 
 **중요:** 원본이 없으면 스크립트는 실패하도록 보호됩니다. 이 절차는 사진의 진위에 대한 자동 보증이 아니며 수동 시각 대조가 필요합니다.
+
+
+## V68 수동 검수 승인 파일 (필수)
+원본 4개 파일을 저장한 뒤, 이미지별 실제 장소 대조·라이선스 검증 담당자가 `photo-intake/v68/visual-review-approval.json`을 작성합니다. 사진이 원본 URL에서 왔는지 확인하고 원본 SHA-256을 기재해야 합니다. 승인 정보가 없거나 파일 해시가 바뀌면 **교체·게시가 즉시 중단**됩니다.
+
+```json
+{
+  "hiroshima-miyajima-ferry-crossing": {
+    "original_sha256": "실제_원본_파일_SHA256",
+    "confirmed_depicted_location": true,
+    "license_verified": true,
+    "reviewer": "검수자",
+    "reviewed_at": "YYYY-MM-DD"
+  }
+}
+```
+
+동일 구조로 나머지 3곳도 입력합니다. `confirmed_depicted_location`은 사진 속 개찰구가 **미야지마섬 측**임을 직접 확인한 경우에만 true를 입력합니다. 슈리성은 2025년 공사 사진임을 반드시 표시합니다. 이 파일은 검수 기록일 뿐, 조작된 승인값까지 소프트웨어가 판단할 수 없으므로 사람이 원본을 육안 확인해야 합니다.
