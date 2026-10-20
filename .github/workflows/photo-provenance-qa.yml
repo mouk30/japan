@@ -1,0 +1,40 @@
+name: Flagship real-photo provenance QA
+on:
+  pull_request:
+    paths:
+      - 'scripts/qa_wikimedia_photo_origin.py'
+      - '.github/workflows/photo-provenance-qa.yml'
+      - 'site/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/**'
+      - 'site/things-to-do/nagasaki-matsugae-glover-garden-cruise-access/**'
+      - 'site/images/venues/ishigaki-kabira-bay.webp'
+      - 'site/images/venues/nagasaki-glover-garden.webp'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/qa_wikimedia_photo_origin.py'
+      - '.github/workflows/photo-provenance-qa.yml'
+      - 'site/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/**'
+      - 'site/things-to-do/nagasaki-matsugae-glover-garden-cruise-access/**'
+      - 'site/images/venues/ishigaki-kabira-bay.webp'
+      - 'site/images/venues/nagasaki-glover-garden.webp'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-photo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install photographic decoding library
+        run: python3 -m pip install --disable-pip-version-check pillow
+      - name: Build actual published site files
+        run: node build.js
+      - name: Compare real photos against Wikimedia originals and test attribution
+        run: python3 scripts/qa_wikimedia_photo_origin.py dist
