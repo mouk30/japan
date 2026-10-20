@@ -1,0 +1,18 @@
+{
+  "slug": "okinawa-shuri-castle",
+  "source": "https://commons.wikimedia.org/wiki/File:Shuri_Castle_Reconstruction.jpg",
+  "creator": "おにく",
+  "license": "CC0 1.0",
+  "photo_date": "2025-02-11",
+  "visual_observation": "Photograph of red tiled Seiden roof within scaffolding under construction shelter, not completed Shuri Castle",
+  "checked_preview": "Reviewed Wikimedia Commons official preview 2026-10-21",
+  "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Shuri_Castle_Reconstruction.jpg/1280px-Shuri_Castle_Reconstruction.jpg",
+  "input_sha256": "925fdf3be4c87d561c9b2fc854414df505ed70e881b13e21c2cf0595177938e2",
+  "webp": "/images/v72-verified/v72-shuri-reconstruction-feb2025.webp",
+  "dimensions": [
+    1280,
+    960
+  ],
+  "output_sha256": "a9f1847bce8054d096842559b20c9a968a3d60a6179539dd4e1c68bdb7345251",
+  "limitation": "The photograph does not establish current castle completion or admission status"
+}
