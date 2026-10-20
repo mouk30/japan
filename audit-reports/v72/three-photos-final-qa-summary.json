@@ -1,0 +1,57 @@
+{
+  "version": "V72",
+  "date": "2026-10-21",
+  "scope": "3 existing articles; 0 new articles",
+  "results": [
+    {
+      "slug": "hiroshima-miyajima-ferry-crossing",
+      "source": "https://commons.wikimedia.org/wiki/File:Miyajima-Ferry-STA_JR-Gate.jpg",
+      "license": "CC BY-SA 4.0",
+      "date": "2022-10-03",
+      "image": "/images/v72-verified/v72-miyajima-island-jr-ferry-gate.webp",
+      "dimensions": [
+        1280,
+        853
+      ],
+      "sha256": "2988aae0e1e240e6b47c6b96eca1ee131af1fba66cb75133395c9e307376538c"
+    },
+    {
+      "slug": "shodoshima-ferry-island-access",
+      "source": "https://commons.wikimedia.org/wiki/File:Shodo-shima_ferry_port_in_Tonosho_(6453360287).jpg",
+      "license": "CC BY 2.0",
+      "date": "2010-09-28",
+      "image": "/images/v72-verified/v72-shodoshima-tonosho-ferry-2010.webp",
+      "dimensions": [
+        1280,
+        857
+      ],
+      "sha256": "ad7c83f65d356b2834ad73cf7defdba0ef4689ce87b6fe2e0c6895f2b7a4ea85"
+    },
+    {
+      "slug": "okinawa-shuri-castle",
+      "source": "https://commons.wikimedia.org/wiki/File:Shuri_Castle_Reconstruction.jpg",
+      "license": "CC0 1.0",
+      "date": "2025-02-11",
+      "image": "/images/v72-verified/v72-shuri-reconstruction-feb2025.webp",
+      "dimensions": [
+        1280,
+        960
+      ],
+      "sha256": "a9f1847bce8054d096842559b20c9a968a3d60a6179539dd4e1c68bdb7345251"
+    }
+  ],
+  "qa": {
+    "github_actions": "https://github.com/mouk30/japan/actions/runs/39457379719",
+    "specific_three_static": "3/3",
+    "specific_three_live": "3/3",
+    "editorial85_static": "85/85",
+    "editorial85_live": "85/85",
+    "meaning": "Original-provenance credit and live HTML + exact downloadable WebP assets verified; no screenshot mobile layout QA"
+  },
+  "notes": [
+    "Historical photo dates are not live operational facts",
+    "Source photos were visually inspected via Commons previews; rendered WebP and original source URL hashes tracked by conversion pipelines",
+    "Photo location and reuse-rights information based on Wikimedia Commons source disclosures; aerial/exif independent field verification not performed",
+    "Full mobile screenshot comparison remains pending"
+  ]
+}
