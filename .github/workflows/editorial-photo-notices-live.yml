@@ -1,0 +1,41 @@
+name: Public editorial image-description audit
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/editorial-photo-notices-live.yml'
+      - 'scripts/qa_editorial_photo_notices.py'
+      - 'scripts/postdeploy-editorial-manifest.json'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/editorial-photo-notices-live.yml'
+      - 'scripts/qa_editorial_photo_notices.py'
+  schedule:
+    - cron: '41 1 * * 1' # Monday 10:41 Seoul time
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check-production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify ALL 85 public article photo notices
+        run: python3 scripts/qa_editorial_photo_notices.py --mode live
+      - name: Summarize production results
+        if: always()
+        run: |
+          if [ -f audit-output/editorial-photo-notices/live-result.json ]; then
+            python3 -c 'import json;d=json.load(open("audit-output/editorial-photo-notices/live-result.json"));print("## Actual public site photo disclosure\n",d["passed"],"/",d["total"],"live pages passed; corrected",d["corrected_count"],"pages");[print(x["slug"],x["checks"],x["errors"]) for x in d["failures"]]' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Preserve public QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-editorial-photo-notice-audit
+          path: audit-output/editorial-photo-notices/live-result.json
+          if-no-files-found: warn
