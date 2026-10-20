@@ -4,6 +4,7 @@ on:
     paths:
       - 'scripts/qa_postdeploy_editorial.py'
       - 'scripts/qa_port_trust_5.py'
+      - 'scripts/qa_port_trust_5_live.py'
       - 'scripts/postdeploy-editorial-manifest.json'
       - 'build.js'
       - 'scripts/v301-v305-nav.cjs'
@@ -15,6 +16,7 @@ on:
     paths:
       - 'scripts/qa_postdeploy_editorial.py'
       - 'scripts/qa_port_trust_5.py'
+      - 'scripts/qa_port_trust_5_live.py'
       - 'scripts/postdeploy-editorial-manifest.json'
       - '.github/workflows/postdeploy-editorial-qa.yml'
       - 'site/index.html'
@@ -38,6 +40,8 @@ jobs:
         run: node build.js
       - name: Verify official source and photo disclosures on 5 priority ports
         run: python3 scripts/qa_port_trust_5.py dist
+      - name: Check all 5 port facts and their article images in built pages
+        run: python3 scripts/qa_port_trust_5_live.py --mode static --root dist
       - name: Audit built homepage and all 85 editorial pages
         run: python3 scripts/qa_postdeploy_editorial.py --mode static --root dist
       - name: Audit REAL public homepage and 85 pages
@@ -47,6 +51,13 @@ jobs:
         if: github.event_name == 'pull_request'
         continue-on-error: true
         run: python3 scripts/qa_postdeploy_editorial.py --mode live
+      - name: Recheck all 5 port facts and editorial photos on PUBLIC site
+        if: github.event_name != 'pull_request'
+        run: python3 scripts/qa_port_trust_5_live.py --mode live
+      - name: Diagnostic of current PUBLIC port facts during PR
+        if: github.event_name == 'pull_request'
+        continue-on-error: true
+        run: python3 scripts/qa_port_trust_5_live.py --mode live
       - name: Report findings
         if: always()
         run: |
@@ -61,5 +72,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: postdeploy-editorial-85-qa
-          path: audit-output/postdeploy-editorial/
+          path: |
+            audit-output/postdeploy-editorial/
+            audit-output/port-trust-live/
           if-no-files-found: warn
