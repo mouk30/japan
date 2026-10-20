@@ -24,9 +24,9 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          p=Path("audit-reports/v72/hiroshima-shodoshima-ferry-crossing.json")
+          p=Path("audit-reports/v72/shodoshima-ferry-island-access.json")
           x=json.loads(p.read_text())
-          html=Path("site/things-to-do/hiroshima-shodoshima-ferry-crossing/index.html").read_text()
+          html=Path("site/things-to-do/shodoshima-ferry-island-access/index.html").read_text()
           assert "v72-verified-photo" in html and x["webp"] in html
           assert "CC BY 2.0" in html and "Maarten Heerlien" in html
           assert Path("site"+x["webp"]).is_file()
@@ -37,5 +37,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/images/v72-verified/v72-shodoshima-tonosho-ferry-2010.webp site/things-to-do/hiroshima-shodoshima-ferry-crossing/index.html audit-reports/v72/hiroshima-shodoshima-ferry-crossing.json
-          git diff --cached --quiet || (git commit -m "V72 source-verified Shodoshima ferry gate real photo with CC BY-SA" && git push)
+          git add site/images/v72-verified/v72-shodoshima-tonosho-ferry-2010.webp site/things-to-do/shodoshima-ferry-island-access/index.html audit-reports/v72/shodoshima-ferry-island-access.json
+          git diff --cached --quiet || (git commit -m "V72 source-verified Shodoshima Tonosho 2010 ferry with CC BY" && git push)
