@@ -1,0 +1,33 @@
+name: V78 Cruise arrival hero upload and desktop/mobile QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/images/nipponferry-hero-cruise-arrival.webp'
+      - 'site/index.html'
+      - 'scripts/v78_arrival_hero_browser_qa.py'
+      - '.github/workflows/v78-arrival-hero-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  visual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check image uploaded
+        run: test -s site/images/nipponferry-hero-cruise-arrival.webp
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Verify image appears on real desktop and mobile homepage
+        run: python scripts/v78_arrival_hero_browser_qa.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v78-arrival-hero-pc-mobile
+          path: audit-output/v78-arrival-hero/
+          if-no-files-found: warn
