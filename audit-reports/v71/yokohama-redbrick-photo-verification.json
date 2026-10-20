@@ -1,0 +1,41 @@
+{
+  "version": "V71",
+  "completed_at": "2026-10-21",
+  "scope": "single existing page verified real photo replacement",
+  "page": "site/things-to-do/yokohama-red-brick-warehouse/index.html",
+  "public_url": "https://www.nipponferry.com/things-to-do/yokohama-red-brick-warehouse/",
+  "result": "git_main_changed_live_not_confirmed",
+  "previous_image": "/images/editorial/yokohama-red-brick-warehouse.webp",
+  "applied_image": "/images/venues/yokohama-redbrick-waterfront.webp",
+  "existing_image_reused": true,
+  "new_image_file_downloaded": false,
+  "github_image_blob_sha": "226acdebdbf293777bcde9a27aa22191bea906d3",
+  "webp_dimensions": [
+    1150,
+    766
+  ],
+  "source_page": "https://commons.wikimedia.org/wiki/File:Yokohama_Red_Brick_Warehouse.jpg",
+  "creator": "Fred Cherrygarden",
+  "photo_date": "2024-01-12",
+  "depicts": "Yokohama Red Brick Warehouse exterior, not a cruise terminal",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modification": "Previously saved WebP resized from original JPEG; page CSS may crop edges by viewport",
+  "visual_check": "Compared existing repository WebP with Commons preview of the attributed source: same facade, window positions, external steel passage/stairs and camera perspective",
+  "photo_rights": "Commons file page states photographer and CC BY-SA 4.0; origin link, credit, license, modified WebP notice now placed in hero caption",
+  "technical_checks": {
+    "hero": true,
+    "og_image": true,
+    "json_ld_article_image": true,
+    "canonical_unchanged": true,
+    "favicon_unchanged": true,
+    "all_old_AI_disclosures_removed": true,
+    "source_and_license_links": true,
+    "dimensions": true
+  },
+  "limitations": [
+    "Actual published public URL unavailable to tool; deployment and mobile QA not confirmed",
+    "Image is evidence for the location as photographed in 2024, not current opening hours or current facility conditions",
+    "Existing WebP matches Commons preview visually; bytewise derivation from full original JPEG was not independently reproduced"
+  ]
+}
