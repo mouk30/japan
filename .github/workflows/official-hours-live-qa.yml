@@ -1,0 +1,40 @@
+name: Live official-hours guide audit
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/official-hours-live-qa.yml'
+      - 'scripts/qa_official_hours_2.py'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/official-hours-live-qa.yml'
+      - 'scripts/qa_official_hours_2.py'
+  schedule:
+    - cron: '21 1 * * 1' # every Monday 10:21 Asia/Seoul
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check-live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify actual LIVE HTML for Nagasaki and Churaumi
+        run: python3 scripts/qa_official_hours_2.py --mode live
+      - name: Publish live verification result
+        if: always()
+        run: |
+          if [ -f audit-output/official-hours-2/live.json ]; then
+            python3 -c 'import json; d=json.load(open("audit-output/official-hours-2/live.json")); print("## Verified NIPPONFERRY public guide copy"); print("Pass:",d["passed"],"/",d["total"]); [print(x["page"], "PASS" if x["pass"] else "FAIL", x["errors"]) for x in d["results"]]' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Preserve evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-official-hours-2
+          path: audit-output/official-hours-2/live.json
+          if-no-files-found: warn
