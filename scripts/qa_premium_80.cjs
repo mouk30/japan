@@ -17,6 +17,10 @@ const out='audit-output/premium-80';fs.mkdirSync(path.join(out,'screenshots'),{r
        const response=await page.goto(base+row.url,{waitUntil:'domcontentloaded',timeout:25000});
        status=response?.status()??null;
        await page.locator('body').waitFor({timeout:8000});
+       // Lazy images outside the viewport may not have started loading at DOMContentLoaded.
+       // Trigger their fetch, then wait for load/error before classifying as broken.
+       await page.evaluate(() => { for (const img of document.images) { if (img.loading === 'lazy') img.loading = 'eager'; } });
+       await page.waitForFunction(() => [...document.images].every(img => img.complete), null, {timeout:10000}).catch(() => {});
        metrics=await page.evaluate(()=>{
          const html=document.documentElement;
          const images=[...document.images];
