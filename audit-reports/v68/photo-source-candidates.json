@@ -1,0 +1,41 @@
+{
+  "version": "V68",
+  "status": "source_candidates_verified_download_blocked",
+  "checked_at": "2026-10-21",
+  "issue": "Wikimedia Commons returned HTTP 429 in GitHub Actions. No image files or page substitutions were committed.",
+  "sources": [
+    {
+      "slug": "hiroshima-miyajima-ferry-crossing",
+      "file": "Miyajima-Ferry-STA JR-Gate.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Miyajima-Ferry-STA_JR-Gate.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "MaedaAkihiko",
+      "depicts": "JR Miyajima ferry boarding gate, Miyajimaguchi side"
+    },
+    {
+      "slug": "shodoshima-ferry-island-access",
+      "file": "Shodo-shima ferry port in Tonosho (6453360287).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shodo-shima_ferry_port_in_Tonosho_(6453360287).jpg",
+      "license": "CC BY 2.0",
+      "author": "Maarten Heerlien",
+      "depicts": "Tonosho ferry port, photographed 2010"
+    },
+    {
+      "slug": "okinawa-shuri-castle",
+      "file": "Shuri Castle Reconstruction.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shuri_Castle_Reconstruction.jpg",
+      "license": "CC0 1.0",
+      "author": "おにく",
+      "depicts": "Shuri Castle reconstruction, February 2025"
+    },
+    {
+      "slug": "yokohama-red-brick-warehouse",
+      "file": "20250101 Yokohama Red Brick Warehouse 115522.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:20250101_Yokohama_Red_Brick_Warehouse_115522.jpg",
+      "license": "CC0 1.0",
+      "author": "Matthide127",
+      "depicts": "Yokohama Red Brick Warehouse 2025"
+    }
+  ],
+  "next_step": "Obtain actual permitted image bytes; visually compare; convert to WebP; update 4 HTML files with photographer license and date; validate deployment."
+}
