@@ -1,0 +1,30 @@
+name: V74 real browser photo mobile desktop QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v74_photo_browser_qa.py'
+      - '.github/workflows/v74-photo-browser-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Verify 4 live pages at 1440px and 390px and save screenshots
+        run: python scripts/v74_photo_browser_qa.py
+      - name: Save desktop and mobile screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v74-real-browser-photo-qa
+          path: audit-output/v74-photo-browser/
+          if-no-files-found: warn
