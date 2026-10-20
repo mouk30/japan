@@ -53,7 +53,12 @@ def apply(item):
     html=html.replace(old,new,1)
     attribution='<p id="nf-v68-photo-attribution" style="font-size:13px;padding:12px 16px;border-left:3px solid #1e7da6;background:#f1f8fc"><strong>실제 장소 사진:</strong> '+item["description"]+' · 촬영/제공: '+item["author"]+' · <a href="'+item["source"]+'" target="_blank" rel="noopener noreferrer">원본 사진</a> · <a href="'+item["license_url"]+'" target="_blank" rel="noopener noreferrer">'+item["license"]+'</a> · JPG 원본을 WebP로 변환·축소했습니다. 사진은 촬영 당시 모습을 보여주며 최신 시설 상태를 보증하지 않습니다.</p>'
     # Place immediately after hero image, preserving the rest of the article structure.
-    html=html.replace(new,new+attribution,1)
+    # Insert valid HTML outside the figure when one exists; do not nest a paragraph inside <figure> before its caption.
+    after=html.find("</figure>",html.find(new))
+    if after>=0 and after-html.find(new)<1600:
+        html=html[:after+9]+attribution+html[after+9:]
+    else:
+        html=html.replace(new,new+attribution,1)
     # Other AI disclosure remains if it refers to the same hero; remove only contradictory caption text.
     html=html.replace('AI 생성 여행 참고 이미지로 실제 장소의 세부 모습과 다를 수 있습니다.','대표 사진은 실제 장소 촬영 이미지입니다. 촬영 연도와 출처를 위에서 확인하세요.',1)
     html=html.replace('AI 생성 참고 이미지로 실제 장소와 차이가 있을 수 있습니다.','대표 사진은 실제 장소 촬영 이미지입니다. 촬영 연도와 출처를 위에서 확인하세요.',1)
