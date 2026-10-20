@@ -1,0 +1,41 @@
+name: V72 Shodoshima verified photo rollout
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v72-shodoshima-photo-rollout.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow
+      - name: Retrieve exact reviewed original, verify format, convert, update HTML with credits
+        run: python scripts/v72_shodoshima_photo.py
+      - name: Confirm original metadata & newly generated static files
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("audit-reports/v72/hiroshima-shodoshima-ferry-crossing.json")
+          x=json.loads(p.read_text())
+          html=Path("site/things-to-do/hiroshima-shodoshima-ferry-crossing/index.html").read_text()
+          assert "v72-verified-photo" in html and x["webp"] in html
+          assert "CC BY 2.0" in html and "Maarten Heerlien" in html
+          assert Path("site"+x["webp"]).is_file()
+          assert "AI 생성" not in html
+          print("Photo QA pass")
+          PY
+      - name: Commit only reviewed photo and existing article
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/v72-verified/v72-shodoshima-tonosho-ferry-2010.webp site/things-to-do/hiroshima-shodoshima-ferry-crossing/index.html audit-reports/v72/hiroshima-shodoshima-ferry-crossing.json
+          git diff --cached --quiet || (git commit -m "V72 source-verified Shodoshima ferry gate real photo with CC BY-SA" && git push)
