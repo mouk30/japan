@@ -59,9 +59,26 @@ def apply(item):
     html=html.replace('AI 생성 참고 이미지로 실제 장소와 차이가 있을 수 있습니다.','대표 사진은 실제 장소 촬영 이미지입니다. 촬영 연도와 출처를 위에서 확인하세요.',1)
     p.write_text(html,encoding="utf-8")
 def main():
+    import os
+    intake=ROOT/"photo-intake"/"v68"
     for item in DATA:
-        print("DOWNLOAD",item["slug"],flush=True)
-        fetch(item)
+        local=intake/item["file"]
+        if not local.is_file():
+            raise SystemExit("Missing source file: "+str(local)+"; do not publish unverified images.")
+        raw=local.read_bytes()
+        img=Image.open(io.BytesIO(raw));img.verify()
+        img=Image.open(io.BytesIO(raw)).convert("RGB")
+        if img.width<800 or img.height<500:
+            raise SystemExit("Insufficient photo resolution: "+item["slug"])
+        img.thumbnail((1800,1350),Image.Resampling.LANCZOS)
+        out=SITE/"images"/"v68-verified"/(item["slug"]+".webp")
+        out.parent.mkdir(parents=True,exist_ok=True)
+        img.save(out,"WEBP",quality=84,method=6)
+        item["source"]="https://commons.wikimedia.org/wiki/File:"+urllib.parse.quote(item["file"].replace(" ","_"),safe="()")
+        item["webp"]="/images/v68-verified/"+item["slug"]+".webp"
+        item["sha256_original"]=hashlib.sha256(raw).hexdigest()
+        item["size_bytes"]=out.stat().st_size
+        print("VERIFIED LOCAL FILE",item["slug"],item["sha256_original"],flush=True)
     for item in DATA:
         print("PATCH",item["slug"],flush=True)
         apply(item)
