@@ -1,10 +1,5 @@
 name: V68 verified photo replacement
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/v68-verified-photo-replacement.yml'
-      - 'scripts/v68_verified_photo_replacement.py'
   workflow_dispatch:
 permissions:
   contents: write
