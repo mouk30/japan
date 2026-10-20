@@ -45,7 +45,7 @@ def apply(item):
     p=SITE/"things-to-do"/item["slug"]/"index.html"
     html=p.read_text(encoding="utf-8")
     if "nf-v68-photo-attribution" in html: return
-    tag=re.search(r'<img\\b[^>]*src="/images/editorial/[^"]+\\.webp"[^>]*>',html)
+    tag=re.search(r'<img\b[^>]*src="/images/editorial/[^"]+\.webp"[^>]*>',html)
     if tag is None:raise RuntimeError("Original editorial hero not found: "+item["slug"])
     old=tag.group()
     new=re.sub(r'src="[^"]+"','src="'+item["webp"]+'"',old,count=1)
