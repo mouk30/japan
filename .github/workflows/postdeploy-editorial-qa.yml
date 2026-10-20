@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
       - 'scripts/qa_postdeploy_editorial.py'
+      - 'scripts/qa_port_trust_5.py'
       - 'scripts/postdeploy-editorial-manifest.json'
       - 'build.js'
       - 'scripts/v301-v305-nav.cjs'
@@ -13,6 +14,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/qa_postdeploy_editorial.py'
+      - 'scripts/qa_port_trust_5.py'
       - 'scripts/postdeploy-editorial-manifest.json'
       - '.github/workflows/postdeploy-editorial-qa.yml'
       - 'site/index.html'
@@ -34,6 +36,8 @@ jobs:
           node-version: '22'
       - name: Build actual Vercel distribution
         run: node build.js
+      - name: Verify official source and photo disclosures on 5 priority ports
+        run: python3 scripts/qa_port_trust_5.py dist
       - name: Audit built homepage and all 85 editorial pages
         run: python3 scripts/qa_postdeploy_editorial.py --mode static --root dist
       - name: Audit REAL public homepage and 85 pages
