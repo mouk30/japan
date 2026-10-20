@@ -1,0 +1,41 @@
+name: V72 Shuri historical real photo rollout
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v72-shuri-photo-rollout.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow
+      - name: Verify exact Commons Shuri Castle February 2025 source and publish with proper date
+        run: python scripts/v72_shuri_photo.py
+      - name: Verify actual source photo and license tied to existing Shuri Castle HTML
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          x=json.loads(Path("audit-reports/v72/okinawa-shuri-castle.json").read_text())
+          s=Path("site/things-to-do/okinawa-shuri-castle/index.html").read_text()
+          assert 'id="nf-v72-verified-photo"' in s
+          assert x["webp"] in s and Path("site"+x["webp"]).is_file()
+          assert "2025년 2월 11일" in s and "CC0 1.0" in s and "おにく" in s
+          assert "AI 생성" not in s
+          assert 'href="/favicon.svg"' in s
+          print("PASS source-backed 2025 historical photo and original SEO")
+          PY
+      - name: Commit one verified real photo and matching article, no new article
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/v72-verified/v72-shuri-reconstruction-feb2025.webp site/things-to-do/okinawa-shuri-castle/index.html audit-reports/v72/okinawa-shuri-castle.json
+          git diff --cached --quiet || (git commit -m "V72 Shuri Castle actual 2025 roof-restoration photo CC0 source review" && git push)
