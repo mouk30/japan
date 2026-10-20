@@ -4,7 +4,7 @@
   "scope": "single existing page verified real photo replacement",
   "page": "site/things-to-do/yokohama-red-brick-warehouse/index.html",
   "public_url": "https://www.nipponferry.com/things-to-do/yokohama-red-brick-warehouse/",
-  "result": "git_main_changed_live_not_confirmed",
+  "result": "git_main_updated_and_public_live_QA_passed",
   "previous_image": "/images/editorial/yokohama-red-brick-warehouse.webp",
   "applied_image": "/images/venues/yokohama-redbrick-waterfront.webp",
   "existing_image_reused": true,
@@ -34,8 +34,16 @@
     "dimensions": true
   },
   "limitations": [
-    "Actual published public URL unavailable to tool; deployment and mobile QA not confirmed",
     "Image is evidence for the location as photographed in 2024, not current opening hours or current facility conditions",
-    "Existing WebP matches Commons preview visually; bytewise derivation from full original JPEG was not independently reproduced"
-  ]
+    "Existing WebP matches Commons preview visually; bytewise derivation from full original JPEG was not independently reproduced",
+    "Automated live HTTP and markup checks passed, but mobile viewport rendering and visual layout were not inspected directly"
+  ],
+  "public_live_QA": {
+    "github_actions_run_url": "https://github.com/mouk30/japan/actions/runs/39455595617",
+    "workflow": "Published homepage and 85 editorial pages QA",
+    "port_facts_live": "5/5 passed, including Yokohama source-matched real hero and image HTTP 200",
+    "editorial_live": "85/85 passed",
+    "editorial_static": "85/85 passed",
+    "note": "GitHub Actions remote checks validated HTTP response, image content-type and body, canonical and source at time of run; no screenshot-based mobile visual validation performed."
+  }
 }
