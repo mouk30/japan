@@ -1,0 +1,30 @@
+name: V75 photo source external browser links
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v75_photo_external_link_qa.py'
+      - '.github/workflows/v75-photo-external-link-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  external-photo-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Check four Wikimedia original links and three Creative Commons licenses
+        run: python scripts/v75_photo_external_link_qa.py
+      - name: Upload external link QA report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v75-photo-source-external-links
+          path: audit-output/v75-link-qa/
+          if-no-files-found: warn
