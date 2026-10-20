@@ -36,5 +36,7 @@ jobs:
         run: python3 -m pip install --disable-pip-version-check pillow
       - name: Build actual published site files
         run: node build.js
-      - name: Compare real photos against Wikimedia originals and test attribution
+      - name: Compare built photos against their Wikimedia originals
         run: python3 scripts/qa_wikimedia_photo_origin.py dist
+      - name: Compare LIVE published photos and credits against Wikimedia originals
+        run: python3 scripts/qa_wikimedia_photo_origin.py --live
