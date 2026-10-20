@@ -1,0 +1,29 @@
+name: V76 existing ten photo browser QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v76_existing_ten_photo_qa.py'
+      - '.github/workflows/v76-existing-ten-photo-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Check 10 published pages at desktop and mobile
+        run: python scripts/v76_existing_ten_photo_qa.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v76-ten-pages-mobile-photo-audit
+          path: audit-output/v76-existing-ten/
+          if-no-files-found: warn
