@@ -5,7 +5,7 @@ from pathlib import Path
 from PIL import Image, ImageOps
 ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/"site"
 DATA=[
-{"slug":"hiroshima-miyajima-ferry-crossing","file":"Miyajima-Ferry-STA JR-Gate.jpg","author":"MaedaAkihiko","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","description":"미야지마구치 JR 페리 승선장 게이트 실사 사진 (미야지마섬 항구가 아닌 출발측 승선장)"},
+{"slug":"hiroshima-miyajima-ferry-crossing","file":"Miyajima-Ferry-STA JR-Gate.jpg","author":"MaedaAkihiko","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","description":"미야지마섬 측 미야지마 부두 JR서일본 페리 개찰구·매표소 사진 (미야지마구치 출발측 아님)"},
 {"slug":"shodoshima-ferry-island-access","file":"Shodo-shima ferry port in Tonosho (6453360287).jpg","author":"Maarten Heerlien","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0/","description":"쇼도시마 도노쇼항의 페리 항구 모습 (2010년 촬영)"},
 {"slug":"okinawa-shuri-castle","file":"Shuri Castle Reconstruction.jpg","author":"おにく","license":"CC0 1.0","license_url":"https://creativecommons.org/publicdomain/zero/1.0/","description":"오키나와 슈리성 정전 복원 공사 현장 (2025년 2월 촬영, 현재 현장 상태와 다를 수 있음)"},
 {"slug":"yokohama-red-brick-warehouse","file":"20250101 Yokohama Red Brick Warehouse 115522.jpg","author":"Matthide127","license":"CC0 1.0","license_url":"https://creativecommons.org/publicdomain/zero/1.0/","description":"요코하마 아카렌가 창고 외관 (2025년 1월 촬영, 크루즈 터미널 사진 아님)"}
