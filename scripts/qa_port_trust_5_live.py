@@ -43,9 +43,9 @@ PORTS={
     },
     "yokohama-red-brick-warehouse": {
         "official": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html",
-        "required": ["오산바시·신코·다이코쿠", "현재 게시된 이미지는 AI 생성"],
+        "required": ["오산바시·신코·다이코쿠", "Fred Cherrygarden", "CC BY-SA 4.0", "nf-v71-verified-photo"],
         "forbidden": ["이미지가 실제 생성·검수되어 등록되기 전까지는 사진을 게시하지 않습니다"],
-        "image_kind": "ai",
+        "image_kind": "real",
     },
 }
 USER_AGENT="Mozilla/5.0 (compatible; NipponFerry-PortTrustLiveQA/1.0)"
@@ -131,6 +131,10 @@ def audit(slug,expected,mode,root):
             # claimed that the image is an AI-generated depiction.
             checks["real_photo_no_false_AI_caption"]=not any(
                 "AI 생성 여행 참고 이미지" in s for s in p.figcaptions)
+            if slug=="yokohama-red-brick-warehouse":
+                checks["source_matched_real_hero"]=hero is not None and hero.get("src")=="/images/venues/yokohama-redbrick-waterfront.webp"
+                checks["correct_license_source"]="https://commons.wikimedia.org/wiki/File:Yokohama_Red_Brick_Warehouse.jpg" in p.links
+                checks["no_stale_AI_copy"]="AI 생성" not in text
         else:
             checks["AI_reference_disclosure"]="AI 생성" in text
         data["html_bytes"]=len(bytes_)
