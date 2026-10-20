@@ -5,11 +5,13 @@ This verifies likely same PHOTOGRAPH after common resize/crop/compression.
 It cannot establish every copyright, trademark or editing condition by itself.
 The expected source, author and rights text are checked against the HTML.
 """
-import hashlib, io, json, sys, urllib.parse, urllib.request
+import argparse, hashlib, io, json, sys, urllib.parse, urllib.request
 from pathlib import Path
 from PIL import Image, ImageOps
 
-BASE=Path(sys.argv[1] if len(sys.argv)>1 else "dist")
+BASE=Path("dist")
+LIVE=False
+SITE="https://www.nipponferry.com"
 CASES=[
   {"slug":"ishigaki-cruise-kabira-bay-bus-taxi",
    "local":"images/venues/ishigaki-kabira-bay.webp",
@@ -63,15 +65,28 @@ def crops(img,ratio):
             left=int((width-new_w)*pos)
             yield f"x-crop-{pos}",img.crop((left,0,left+new_w,height))
 
+def read_site_file(path):
+    url=SITE+"/"+str(path).lstrip("/")
+    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (NIPPONFERRY Photo-Origin QA)"})
+    with urllib.request.urlopen(req,timeout=25) as response:
+        if response.status!=200:raise ValueError("public image/page HTTP "+str(response.status))
+        return response.read(10_000_000)
+
 def check(item):
     page=BASE/"things-to-do"/item["slug"]/"index.html"
-    if not page.is_file():raise FileNotFoundError(page)
-    text=page.read_text(encoding="utf-8")
+    if LIVE:
+        text=read_site_file("things-to-do/"+item["slug"]+"/").decode("utf-8","replace")
+    else:
+        if not page.is_file():raise FileNotFoundError(page)
+        text=page.read_text(encoding="utf-8")
     for marker in item["credit"]+[item["source"]]:
         if marker not in text:raise ValueError("Missing provenance on public page: "+marker)
     local=BASE/item["local"]
-    if not local.is_file():raise FileNotFoundError(local)
-    webp=ImageOps.exif_transpose(Image.open(local)).convert("RGB")
+    if LIVE:
+        webp=ImageOps.exif_transpose(Image.open(io.BytesIO(read_site_file(item["local"])))).convert("RGB")
+    else:
+        if not local.is_file():raise FileNotFoundError(local)
+        webp=ImageOps.exif_transpose(Image.open(local)).convert("RGB")
     original=download(item["original"])
     d0,a0=dhash(webp),ahash(webp)
     dists=[]
@@ -90,6 +105,12 @@ def check(item):
         raise ValueError(f"Derivative image does not resemble credited original sufficiently (dhash={best[0]})")
     return best
 
+args=argparse.ArgumentParser()
+args.add_argument("root",nargs="?",default="dist")
+args.add_argument("--live",action="store_true",help="Verify actual public HTML and WebP bytes after deployment")
+options=args.parse_args()
+BASE=Path(options.root)
+LIVE=options.live
 errors=[]
 for item in CASES:
     try:check(item)
@@ -98,4 +119,4 @@ for item in CASES:
 if errors:
     print("PHOTO VALIDATION FAILED",*errors,sep="\n")
     sys.exit(1)
-print("PASS: 2 source-linked, perceptually consistent Wikimedia photos")
+print("PASS: 2 source-linked, perceptually consistent Wikimedia photos in "+("public production" if LIVE else "built distribution"))
