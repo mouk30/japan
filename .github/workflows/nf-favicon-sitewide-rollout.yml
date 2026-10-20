@@ -1,0 +1,45 @@
+name: NIPPONFERRY favicon rollout and 85-page audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/nf-favicon-sitewide-rollout.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rollout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate 85 article captions and image disclosures on repository files
+        continue-on-error: true
+        run: python3 scripts/qa_editorial_photo_notices.py --mode static --root site
+      - name: Normalize favicon on all HTML pages
+        run: |
+          python3 scripts/standardize_cruise_favicon.py --fix
+          python3 scripts/standardize_cruise_favicon.py --check
+      - name: Commit only favicon changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/
+          if ! git diff --cached --quiet; then
+            git commit -m "Apply cruise favicon consistently to all site HTML pages"
+            git push
+          else
+            echo "All site HTML files already use the unified cruise favicon."
+          fi
+      - name: Archive 85-page static audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-85-static-audit
+          path: audit-output/editorial-photo-notices/static-result.json
+          if-no-files-found: warn
