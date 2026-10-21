@@ -11,10 +11,10 @@
       "secondary_kind": "route_info"
     },
     "fukuoka": {
-      "primary": "https://www.koreaferry.co.kr/rs/idv/reservation",
+      "primary": "https://www.koreaferry.co.kr/rs/idv/reservation/calendar_index/1/2?country=2",
       "secondary": "https://www.koreaferry.kr/",
       "provider": "koreaferry",
-      "primary_kind": "booking_entry",
+      "primary_kind": "booking_calendar_search",
       "secondary_kind": "operator_home"
     },
     "shimonoseki": {
