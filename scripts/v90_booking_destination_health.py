@@ -42,18 +42,26 @@ def examine_local(config):
         for section in (".nf86-intro",".nf86-booking",".nf86-side"):
             el=soup.select_one(section)
             if el is None:
-                errors.append({"route":route,"problem":"missing CTA section","section":section});continue
+                errors.append({"route":route,"problem":"required booking section missing","section":section})
+                continue
             primary=hrefs_for_class(el,"a.nf86-action-primary")
             secondary=hrefs_for_class(el,"a.nf86-action-secondary")
             counts[section]=[primary,secondary]
-            if primary!=[expected[0]] or secondary!=[expected[1]]:
-                errors.append({"route":route,"problem":"CTA wrong target","section":section,"got":counts[section]})
+            desired=([expected[0]],[expected[1]]) if section==".nf86-intro" else ([expected[0]],[]) if section==".nf86-booking" else ([],[])
+            if primary!=desired[0] or secondary!=desired[1]:
+                errors.append({"route":route,"problem":"incorrect V92 section-specific CTA or duplicated outbound link","section":section,"got":counts[section]})
             for a in el.select("a.nf86-action"):
                 if a.get("target")!="_blank" or not {"noopener","noreferrer"}.issubset(set(a.get("rel",[]))):
                     errors.append({"route":route,"problem":"unsafe external CTA rel","section":section})
-        note=soup.select_one(".nf86-intro .nf90-arrival-note")
-        if not note or expected[1] not in hrefs_for_class(note,"a"):
-            errors.append({"route":route,"problem":"operator-specific arrival fallback missing"})
+        hero_note=soup.select_one(".nf86-intro .nf92-route-note")
+        if hero_note is None or hero_note.select_one("a") is not None:
+            errors.append({"route":route,"problem":"route arrival context missing or contains redundant link"})
+        if hrefs_for_class(soup,".nf86-side a.nf92-side-link")!=["#nf86-official-entry"]:
+            errors.append({"route":route,"problem":"sidebar must return to primary booking hero without duplicate outbound link"})
+        if hrefs_for_class(soup,".nf86-booking a.nf92-facts-link")!=["#nf87-verified-operations"]:
+            errors.append({"route":route,"problem":"bottom primary CTA missing factual fallback link"})
+        if len(soup.select("a.nf86-action"))!=3:
+            errors.append({"route":route,"problem":"must have exactly three decisive external operator buttons"})
         if soup.select_one('link[rel="canonical"]') is None:
             errors.append({"route":route,"problem":"canonical missing"})
         details[route]={"html":str(path.relative_to(ROOT)),"primary":expected[0],"secondary":expected[1],"panels":counts}
@@ -62,9 +70,15 @@ def examine_local(config):
         if not path.exists():
             errors.append({"problem":"missing hub","path":page});continue
         content=path.read_text("utf8")
+        html=BeautifulSoup(content,"html.parser")
+        if html.select_one(".nf86-hub-grid") is not None:
+            errors.append({"problem":"redundant legacy four-link grid must be removed","path":page})
+        if len(html.select("#nf91-direct-operators .nf91-direct-item"))!=4:
+            errors.append({"problem":"missing four operator-choice cards","path":page})
         for route in routes:
-            if f"/guide/busan-{route}-ferry/#nf86-official-entry" not in content:
-                errors.append({"problem":"missing hub deep link","path":page,"route":route})
+            card=html.select_one('#nf91-direct-operators .nf91-direct-item[data-route="'+route+'"]')
+            if not card or hrefs_for_class(card,"a.nf91-direct-primary")!=[routes[route]["primary"]] or hrefs_for_class(card,"a.nf91-direct-secondary")!=[f"/guide/busan-{route}-ferry/#nf87-verified-operations"]:
+                errors.append({"problem":"invalid direct operator or factual guide link","path":page,"route":route})
         if page=="site/ferry/index.html":
             root=BeautifulSoup(content,"html.parser")
             for route in routes:
