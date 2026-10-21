@@ -1,0 +1,67 @@
+name: V93 real booking click analytics consent and event QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'build.js'
+      - 'site/nf-v93-booking-clicks.js'
+      - 'site/nf-v93-booking-clicks.css'
+      - 'scripts/v93_ga4_click_browser_qa.py'
+      - '.github/workflows/v93-ga4-booking-click-qa.yml'
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test production build without analytics ID never installs tracking
+        run: |
+          npm run build
+          python - <<'PY'
+          from pathlib import Path
+          for p in ('dist/index.html','dist/ferry/index.html','dist/booking/japan-cruise/index.html'):
+              s=Path(p).read_text('utf8')
+              assert 'data-nf-ga4=' not in s, p
+              assert 'gtag/js' not in s, p
+          print('No configured ID: HTML has no GA4 collection script.')
+          PY
+      - name: Build explicitly synthetic GA4-activated site for test only
+        env:
+          GA4_MEASUREMENT_ID: G-TEST123456
+        run: |
+          npm run build
+          python - <<'PY'
+          from pathlib import Path
+          for p in ('dist/index.html','dist/ferry/index.html','dist/booking/japan-cruise/index.html'):
+              html=Path(p).read_text('utf8')
+              assert 'data-nf-ga4="G-TEST123456"' in html,p
+              assert '/nf-v93-booking-clicks.css' in html,p
+          print('Synthetic only: consent controls and event hooks injected.')
+          PY
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Serve compiled static website; no real GA4 event destinations
+        run: |
+          python -m http.server 8765 --bind 127.0.0.1 --directory dist >/tmp/v93_http.log 2>&1 &
+          for n in $(seq 1 20); do if curl -fsS http://127.0.0.1:8765/ferry/ >/dev/null; then exit 0; fi; sleep 1; done
+          cat /tmp/v93_http.log
+          exit 1
+      - name: Real browser test of refusal, acceptance, 16 ferry clicks and permission revocation
+        run: python scripts/v93_ga4_click_browser_qa.py
+      - name: Archive real QA screenshots and event classification report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v93-ga4-consent-booking-click-qa
+          path: audit-output/v93-click-analytics/
+          retention-days: 30
+          if-no-files-found: warn
