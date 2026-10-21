@@ -1,0 +1,42 @@
+name: V96 booking performance review without invented data
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v96_booking_change_review.py'
+      - 'scripts/v95_booking_comparison.py'
+      - 'tests/test_v96_booking_change_review.py'
+      - '.github/workflows/v96-booking-review-qa.yml'
+permissions:
+  contents: read
+jobs:
+  compare-safely:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test source-accurate 7-day comparisons and no automated editorial conclusions
+        run: python -m unittest discover -s tests -p 'test_v96_booking_change_review.py' -v
+      - name: Validate missing GA4 connection yields UNKNOWN not false zero changes
+        run: |
+          python scripts/v96_booking_change_review.py --output audit-output/v96-ready-no-data
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('audit-output/v96-ready-no-data/status.json').read_text('utf8'))
+          assert d['review_candidate_count'] is None
+          assert d['pages'] is None
+          print('Real GA4 exports missing: review priority numbers withheld as required.')
+          PY
+      - name: Archive private no-connection state, not a public website article
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v96-editorial-review-integrity
+          path: audit-output/v96-ready-no-data/
+          retention-days: 60
+          if-no-files-found: warn
