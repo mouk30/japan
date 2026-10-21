@@ -57,6 +57,12 @@ class RealExportAnalysisTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"No tracked ferry events"):
             mod.parse_rows(p)
 
+    def test_korean_ga4_column_headers_are_supported(self):
+        p=self.make_csv(["이벤트 이름","이벤트 수","항로","페이지 영역"],
+                        [["ferry_operator_click","4","tsushima","ferry_hub"]])
+        r=mod.build_report(mod.parse_rows(p),"synthetic.csv")
+        self.assertEqual(r["operator_clicks_by_route"]["tsushima"],4)
+
     def test_invalid_counts_cannot_be_reported(self):
         p=self.make_csv(["Event name","Event count","route","page_area"],
                         [["ferry_operator_click","not known","osaka","ferry_hub"]])
