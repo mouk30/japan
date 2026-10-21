@@ -33,25 +33,31 @@ with sync_playwright() as p:
      if root.count()!=1:
       issue(data,section+" unavailable");continue
      one=root.locator("a.nf86-action-primary");two=root.locator("a.nf86-action-secondary")
-     if one.count()!=1 or two.count()!=1:
-      issue(data,section+" two actions missing");continue
-     if one.get_attribute("href")!=entry["primary"] or two.get_attribute("href")!=entry["secondary"]:
-      issue(data,section+" target not matching verified provider")
-     for link in (one,two):
+     wanted=(1,1) if section==".nf86-intro" else (1,0) if section==".nf86-booking" else (0,0)
+     if (one.count(),two.count())!=wanted:
+      issue(data,section+" duplicate or missing outbound operator buttons")
+     if one.count()==1 and one.get_attribute("href")!=entry["primary"]:
+      issue(data,section+" wrong primary operator")
+     if two.count()==1 and two.get_attribute("href")!=entry["secondary"]:
+      issue(data,section+" wrong secondary operator")
+     for link in [*one.all(),*two.all()]:
       link.scroll_into_view_if_needed()
       bounds=link.bounding_box()
       if not bounds or bounds["height"]<44 or bounds["x"] < -2 or bounds["x"]+bounds["width"] > w+3:
        issue(data,section+" too small/offscreen tap target")
       if link.get_attribute("target")!="_blank" or "noopener" not in (link.get_attribute("rel") or ""):
-       issue(data,section+" insecure tab target")
+       issue(data,section+" insecure external tab target")
      if section in (".nf86-intro",".nf86-booking"):
       root.screenshot(path=str(OUT/f"{route}-{vp}-{section[1:]}.png"),animations="disabled",timeout=20000)
-    note=page.locator(".nf86-intro .nf90-arrival-note")
-    if note.count()!=1 or not note.is_visible():
-     issue(data,"route-specific landing-page notice missing")
-    else:
-     if note.locator('a[href="'+entry["secondary"]+'"]').count()!=1:
-      issue(data,"fallback to operator route/instructions missing")
+    note=page.locator(".nf86-intro .nf92-route-note")
+    if note.count()!=1 or not note.is_visible() or note.locator("a").count()!=0:
+     issue(data,"nonduplicated landing explanation missing")
+    if page.locator('.nf86-side a.nf92-side-link[href="#nf86-official-entry"]').count()!=1:
+     issue(data,"sidebar must link to top booking CTA, not duplicate outbound operator")
+    if page.locator('.nf86-booking a.nf92-facts-link[href="#nf87-verified-operations"]').count()!=1:
+     issue(data,"bottom factual link missing")
+    if page.locator("a.nf86-action").count()!=3:
+     issue(data,"expected only three external booking CTAs")
     if vp!="desktop":
      bubble=page.locator(".kakao-float")
      if bubble.count()==1 and bubble.is_visible():
@@ -104,12 +110,16 @@ with sync_playwright() as p:
     root=page.locator(".nf86-hub-steps" if section=="ferry" else "#official-ferry-routes")
     if root.count()!=1:issue(data,"booking route-selector hub missing")
     else:
-     buttons=root.locator(".nf86-hub-grid a")
-     if buttons.count()!=4:issue(data,"not four named routes")
+     cards=root.locator("#nf91-direct-operators .nf91-direct-item")
+     if cards.count()!=4:issue(data,"not four distinct operator cards")
+     if root.locator(".nf86-hub-grid").count()!=0:issue(data,"duplicated legacy link grid present")
      for route in CONFIG["routes"]:
-      href=f"/guide/busan-{route}-ferry/#nf86-official-entry"
-      if buttons.locator('xpath=..').count() < 0:pass
-      if root.locator('a[href="'+href+'"]').count()!=1:issue(data,"route choice not linked to "+route)
+      item=root.locator('#nf91-direct-operators .nf91-direct-item[data-route="'+route+'"]')
+      if item.count()!=1:issue(data,"missing "+route+" booking card");continue
+      if item.locator("a.nf91-direct-primary").get_attribute("href")!=CONFIG["routes"][route]["primary"]:
+       issue(data,"one-click operator destination wrong for "+route)
+      if item.locator("a.nf91-direct-secondary").get_attribute("href")!=f"/guide/busan-{route}-ferry/#nf87-verified-operations":
+       issue(data,"factual guide target incorrect for "+route)
      root.scroll_into_view_if_needed()
      root.screenshot(path=str(OUT/f"hub-{section}-{vp}.png"),animations="disabled",timeout=25000)
     sw=page.evaluate("document.documentElement.scrollWidth")
