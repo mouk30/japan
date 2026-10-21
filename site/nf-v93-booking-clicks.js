@@ -63,13 +63,13 @@
     } else if (host === location.hostname.toLowerCase()) {
       var isGuide = /^\/guide\/busan-(osaka|fukuoka|shimonoseki|tsushima)-ferry\/?$/.test(url.pathname);
       if (isGuide) return { name: 'ferry_route_select', route: cleanRoute(url.pathname),
-        placement: placement, source: source, operator: 'internal', destination_step: 'route_guide' };
+        placement: placement, page_area: source, operator: 'internal', destination_step: 'route_guide' };
       if (url.pathname === '/ferry/' || url.pathname === '/booking/japan-cruise/') {
-        return { name: 'ferry_hub_open', route: 'unknown', placement: placement, source: source,
+        return { name: 'ferry_hub_open', route: 'unknown', placement: placement, page_area: source,
           operator: 'internal', destination_step: 'booking_hub' };
       }
       if (link.classList.contains('nf92-side-link') || link.classList.contains('nf92-facts-link') || link.classList.contains('nf91-direct-secondary')) {
-        return { name: 'ferry_info_open', route: route, placement: placement, source: source,
+        return { name: 'ferry_info_open', route: route, placement: placement, page_area: source,
           operator: 'internal', destination_step: 'operator_facts' };
       }
       return null;
@@ -80,11 +80,11 @@
     // Provider route/fare instructions are not the same as booking/search handoff.
     // Count approved official destination clicks; segment downstream by destination_step.
     return { name: 'ferry_operator_click', route: route, placement: placement,
-      source: source, operator: operator, destination_step: step };
+      page_area: source, operator: operator, destination_step: step };
   }
   function track(spec) {
     if (!enabled || !started || typeof window.gtag !== 'function' || !spec) return;
-    var allowed = ['route','placement','source','operator','destination_step'];
+    var allowed = ['route','placement','page_area','operator','destination_step'];
     var p = {};
     allowed.forEach(function (k) { p[k] = spec[k] || 'unknown'; });
     p.transport_type = 'beacon';
