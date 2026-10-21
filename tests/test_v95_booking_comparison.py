@@ -62,6 +62,16 @@ class BookingComparisonTests(unittest.TestCase):
         self.assertEqual(report["pages"][0]["booking_clicks_per_100_views"],4)
         self.assertEqual(report["pages"][0]["official_info_clicks"],10)
 
+    def test_export_without_booking_step_is_not_reported_as_zero_demand(self):
+        rows=self.rows([
+            ["ferry_hub_view",150,"all","ferry_hub","page","internal","hub_view"],
+            ["ferry_operator_click",10,"osaka","ferry_hub","route_banner","panstar","route_info"],
+        ])
+        report=v95.summarize(rows)
+        self.assertEqual(report["status"],"insufficient_booking_step_data")
+        self.assertIsNone(report["booking_entry_clicks_total"])
+        self.assertIn("이벤트 자료 부족",v95.markup(report))
+
     def test_no_view_denominator_yields_null_not_zero(self):
         rows=self.rows([
             ["ferry_operator_click",14,"tsushima","route_guide","guide_end","panstar","operator_search"]
