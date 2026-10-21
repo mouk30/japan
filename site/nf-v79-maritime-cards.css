@@ -79,3 +79,11 @@ body.nf-premium-v2 .nf-v79-photo-credit a:focus-visible{outline:3px solid #1761a
  body.nf-premium-v2 .nf-v79-photo-credit{font-size:13px;line-height:1.8;margin-top:9px}
 }
 @media(prefers-reduced-motion:reduce){body.nf-premium-v2 .nf-v79-maritime-grid .nf-maritime-card{transition:none}}
+
+/* V79 mobile containment: prevent card width extending outside the 390px viewport. */
+body.nf-premium-v2 .nf-v79-maritime-grid{width:100%;max-width:100%;min-width:0}
+body.nf-premium-v2 .nf-v79-maritime-grid .nf-v79-maritime-item{min-width:0;width:100%;max-width:100%;box-sizing:border-box}
+body.nf-premium-v2 .nf-v79-maritime-grid a.nf-maritime-card{width:100%!important;max-width:100%!important;min-width:0!important;box-sizing:border-box!important}
+@media(max-width:800px){
+ body.nf-premium-v2 .nf-v79-maritime-grid{grid-template-columns:minmax(0,1fr)!important}
+}
