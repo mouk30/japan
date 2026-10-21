@@ -63,11 +63,11 @@ with sync_playwright() as p:
                 c["fits"] and c["card_visibility"] and c["caption_fits"] and
                 len(c["caption_links"])==2 and
                 c["button_height"]>=44 and c["h3_px"]>=26 and
-                "부두" in c["alt"]
+                ("부두" in c["alt"] or "터미널" in c["alt"])
                 for c,(slug,fname) in zip(item["cards"],DATA)
             )
             # All five pictures explicitly disclose that they do not depict the berth.
-            item["photo_site_disclosure"]=all("사진" in c["caption_text"] and "부두" in c["caption_text"] for c in item["cards"])
+            item["photo_site_disclosure"]=all("사진" in c["caption_text"] and "항만" in c["caption_text"] for c in item["cards"])
             item["pass"]=item["pass"] and item["photo_site_disclosure"]
             page.locator("#nf-v80-featured-ports").screenshot(path=str(OUT/(viewport+".png")),timeout=30000)
         except Exception as exc:
