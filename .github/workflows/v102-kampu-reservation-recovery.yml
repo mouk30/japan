@@ -1,0 +1,72 @@
+name: V102 refused Kampu ferry booking URL deployment verification
+on:
+  workflow_dispatch:
+    inputs:
+      require_deployed:
+        description: Fail if public Vercel still shows the blocked booking URL
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: '47 0 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'site/ferry/index.html'
+      - 'site/booking/japan-cruise/index.html'
+      - 'site/guide/busan-shimonoseki-ferry/index.html'
+      - 'site/guide/busan-shimonoseki-ferry-price/index.html'
+      - 'site/guide/busan-shimonoseki-timetable/index.html'
+      - 'scripts/v90_booking_link_targets.json'
+      - 'scripts/v102_kampu_reservation_recovery.py'
+      - 'tests/test_v102_kampu_reservation_recovery.py'
+      - '.github/workflows/v102-kampu-reservation-recovery.yml'
+permissions:
+  contents: read
+jobs:
+  regression-and-live-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify all old refused operator URLs eliminated in repository
+        run: python -m unittest discover -s tests -p 'test_v102_kampu_reservation_recovery.py' -v
+      - name: Inspect what visitors actually see on five real public pages
+        env:
+          REQUIRE_DEPLOYED: ${{ inputs.require_deployed }}
+        run: |
+          if [ "$REQUIRE_DEPLOYED" = "true" ]; then
+            python scripts/v102_kampu_reservation_recovery.py --require-live
+          else
+            python scripts/v102_kampu_reservation_recovery.py --check-production
+          fi
+      - name: Publish actual Vercel sync state without overstating a GitHub commit
+        if: always()
+        run: |
+          if [ -f audit-output/v102-kampu-link-recovery/report.json ]; then
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('audit-output/v102-kampu-link-recovery/report.json').read_text('utf8'))
+          with open('/tmp/v102-summary.md','w') as f:
+              f.write("# V102 Kampu Ferry reservation recovery\n\n")
+              f.write("GitHub source problems: "+str(len(d['source_issues']))+"\n\n")
+              f.write("Public Vercel deployment: **"+(d['production']['status'] if d.get('production') else 'not checked')+"**\n\n")
+              if d.get('production'):
+                  for p in d['production']['pages']:
+                      f.write("- "+p['url']+": "+p['status']+"\n")
+              f.write("\nPage loading is separate from confirmed ability to complete a reservation.\n")
+          PY
+            cat /tmp/v102-summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Archive the exact production status report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v102-kampu-booking-recovery-and-live-state
+          path: audit-output/v102-kampu-link-recovery/
+          retention-days: 45
+          if-no-files-found: warn
