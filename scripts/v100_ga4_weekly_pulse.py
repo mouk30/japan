@@ -181,13 +181,18 @@ def main():
     p.add_argument("--as-of",help="End-exclusive YYYY-MM-DD (Asia/Seoul). Default: current local calendar day.")
     p.add_argument("--days",type=int,default=7)
     p.add_argument("--threshold",type=int,default=100)
-    p.add_argument("--output",default=str(ROOT))
+    p.add_argument("--output",default=None,
+                   help="Private output directory; if omitted a unique timestamped run directory is created.")
     p.add_argument("--strict",action="store_true",help="Exit 2 unless two trusted complete periods are compared.")
     a=p.parse_args()
     try:
         as_of=dt.date.fromisoformat(a.as_of) if a.as_of else dt.datetime.now(SEOUL).date()
+        # Never accidentally treat stale prior report files as the current day's
+        # performance when a later GA4 connection is missing or interrupted.
+        unique = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+        dest=a.output if a.output else str(ROOT/("run-"+unique))
         result=execute(a.property_id,a.credentials,as_of=as_of,days=a.days,
-                       threshold=a.threshold,output=a.output)
+                       threshold=a.threshold,output=dest)
     except (ValueError,KeyError,TypeError) as exc:
         print(json.dumps({"status":"invalid_input","error":type(exc).__name__,
               "actual_click_counts":None},ensure_ascii=False))
