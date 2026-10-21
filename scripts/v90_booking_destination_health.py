@@ -117,7 +117,10 @@ def evaluate_response(url,response,config,provider,kind):
     result["page_title"]=title[:180]
     result["body_length"]=len(body)
     if not marker(title+" "+body,config["minimum_expected_text"][provider]):
-        result.update(classification="unverified",reason="operator_identity_not_visible_or_js_rendered")
+        if len(body)>=150:
+            result.update(classification="needs_review",reason="substantial_unexpected_operator_content")
+        else:
+            result.update(classification="unverified",reason="operator_identity_not_visible_or_js_rendered")
         return result
     if kind=="booking_calendar_search" and not marker(title+" "+body,("공실조회","최저가 달력","departure date","vacancy inquiry","step.1")):
         result.update(classification="unverified",reason="actual_booking_calendar_not_visible")
@@ -127,7 +130,10 @@ def evaluate_response(url,response,config,provider,kind):
         terms=(("osaka","오사카") if "osaka" in original_path else
                ("tsushima","대마도","히타카츠","이즈하라","쓰시마"))
         if not any(word in lowered for word in terms):
-            result.update(classification="unverified",reason="route_specific_content_not_visible")
+            if len(body)>=150:
+                result.update(classification="needs_review",reason="wrong_route_or_unrelated_official_content")
+            else:
+                result.update(classification="unverified",reason="route_specific_content_not_visible")
             return result
     # All identified pages must have honest labels as homepage, instructions or booking entry.
     # A landing confirmation does not imply a date is in inventory.
