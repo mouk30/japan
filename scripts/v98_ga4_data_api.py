@@ -217,13 +217,24 @@ def main():
                 ensure_ascii=False))
             return 2 if args.strict else 0
         path=write_private_csv(rows,args.output)
-        # One command produces the Korean private V95 comparison dashboard from
-        # exactly the returned GA4 aggregates. Never deploy dashboard to site/.
+        # V99: inspect whether each real aggregate has a believable route,
+        # provider, page position and destination type before ranking click paths.
         try:
             from v95_booking_comparison import summarize, write
             from v94_booking_click_report import parse_rows
+            from v99_ga4_attribution_qa import analyze,markdown
+            normalized=parse_rows(path)
+            quality=analyze(normalized)
+            quality_dir=path.parent/"v99-real-data-quality"
+            quality_dir.mkdir(parents=True,exist_ok=True)
+            (quality_dir/"report.json").write_text(
+                json.dumps(quality,ensure_ascii=False,indent=2)+"\n","utf8")
+            (quality_dir/"report.md").write_text(markdown(quality),"utf8")
+            if quality["status"] in ("requires_manual_measurement_review","small_sample_with_issues"):
+                raise AnalyticsDataError("Real GA4 API data contains route/provider attribution problems. " +
+                    "Private quality report saved; booking rankings withheld until human review.")
             output_dir=path.parent/"v98-real-dashboard"
-            report=summarize(parse_rows(path),period_label=args.start+" ~ "+args.end)
+            report=summarize(normalized,period_label=args.start+" ~ "+args.end)
             write(report,output_dir)
             report_status=report["status"]
             booking_entry_clicks=report.get("booking_entry_clicks_total")
