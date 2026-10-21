@@ -73,9 +73,12 @@ class LiveExportTests(unittest.TestCase):
 
     def test_partial_pages_abort_without_export(self):
         d=["ferry_operator_click","tsushima","booking_hub","hub_card","panstar","operator_search"]
+        calls=0
         def fake(url,payload,token):
+            nonlocal calls
             if url.endswith("metadata"):return self.metadata()
-            return self.payload([(d,9)],row_count=4)
+            calls+=1
+            return self.payload([(d,9)] if calls==1 else [],row_count=4)
         with self.assertRaisesRegex(m.AnalyticsDataError,"pagination"):
             m.fetch_paginated("1234567","synthetic-access-token",request_func=fake)
 
