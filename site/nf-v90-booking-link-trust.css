@@ -1,0 +1,6 @@
+/* V90 — Route booking destinations: honest landing-page descriptions, readable on mobile. */
+body.nf-premium-v2 .nf90-arrival-note{border:1px solid #c8d9e2;border-radius:11px;padding:13px 15px;margin:11px 0 16px;background:#f9fcff;color:#244d65;font-size:14px;line-height:1.75;word-break:keep-all}
+body.nf-premium-v2 .nf90-arrival-note strong{color:#093b59}
+body.nf-premium-v2 .nf90-arrival-note a{color:#075f91;font-weight:850;text-decoration:underline;text-underline-offset:3px}
+body.nf-premium-v2 .nf90-arrival-note:focus-within{outline:2px solid #9dd3ec;outline-offset:2px}
+@media(max-width:650px){body.nf-premium-v2 .nf90-arrival-note{padding:13px;margin:10px 0 16px;font-size:14px}}
