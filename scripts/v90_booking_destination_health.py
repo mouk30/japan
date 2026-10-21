@@ -65,6 +65,13 @@ def examine_local(config):
         for route in routes:
             if f"/guide/busan-{route}-ferry/#nf86-official-entry" not in content:
                 errors.append({"problem":"missing hub deep link","path":page,"route":route})
+        if page=="site/ferry/index.html":
+            root=BeautifulSoup(content,"html.parser")
+            for route in routes:
+                card=root.select_one('article[aria-labelledby="nf84-'+route+'-title"]')
+                expected=config["hub_route_info"][route]
+                if card is None or hrefs_for_class(card,"a.nf84-route__source")!=[expected]:
+                    errors.append({"problem":"wide banner official link is not route-specific","path":page,"route":route,"expected":expected})
     return {"pages_checked":6,"routes":details,"errors":errors}
 
 def evaluate_response(url,response,config,provider,kind):
