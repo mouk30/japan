@@ -4,3 +4,10 @@ body.nf-premium-v2 .nf90-arrival-note strong{color:#093b59}
 body.nf-premium-v2 .nf90-arrival-note a{color:#075f91;font-weight:850;text-decoration:underline;text-underline-offset:3px}
 body.nf-premium-v2 .nf90-arrival-note:focus-within{outline:2px solid #9dd3ec;outline-offset:2px}
 @media(max-width:650px){body.nf-premium-v2 .nf90-arrival-note{padding:13px;margin:10px 0 16px;font-size:14px}}
+
+/* Mobile Kakao floating control can overlap prose even when CTA buttons remain tappable. */
+@media(max-width:650px){
+ body.nf-premium-v2 .nf86-intro .nf90-arrival-note,
+ body.nf-premium-v2 .nf86-intro .nf86-disclosure,
+ body.nf-premium-v2 .nf86-booking .nf86-disclosure{padding-right:78px}
+}
