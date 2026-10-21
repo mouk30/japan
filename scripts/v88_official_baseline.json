@@ -1,0 +1,71 @@
+{
+  "version": "V88",
+  "verified_as_of": "2026-10-21",
+  "purpose": "Baseline comparison and human review only; never write live fares or assume bookings",
+  "panstar_notice_index": "https://www.panstarcruise.com/support/notice",
+  "panstar_last_reviewed_id": 307,
+  "panstar_verified_notices": [
+    {
+      "route": "osaka",
+      "url": "https://www.panstarcruise.com/support/notice/294",
+      "effective": "2026-09-01",
+      "busan_krw": 25000,
+      "return_jpy": 2500
+    },
+    {
+      "route": "tsushima",
+      "url": "https://www.panstarcruise.com/support/notice/292",
+      "effective": "2026-09-01",
+      "hitakatsu_krw": 15000,
+      "izuhara_krw": 25000,
+      "hitakatsu_return_jpy": 1500,
+      "izuhara_return_jpy": 2500
+    },
+    {
+      "route": "tsushima-cancellation",
+      "url": "https://www.panstarcruise.com/support/notice/307",
+      "date_scoped": [
+        "2026-10-20",
+        "2026-10-21"
+      ]
+    }
+  ],
+  "koreaferry_notice_index": "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice",
+  "koreaferry_last_reviewed_id": 40,
+  "koreaferry_tax_notice": "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=39",
+  "koreaferry_tax_applies_through": "2026-12-31",
+  "koreaferry_busan_fuel_krw": 14000,
+  "koreaferry_busan_adult_tax_krw": 21000,
+  "kampu_fare_url": "https://www.kampuferry.co.jp/lang_kor/fare/basic/",
+  "kampu_schedule_url": "https://www.kampuferry.co.jp/lang_kor/passenger_info/schedule/",
+  "kampu_busan_fuel_krw": 19000,
+  "kampu_shimonoseki_fuel_jpy": 1900,
+  "alert_keywords": [
+    "유류",
+    "할증",
+    "운임",
+    "요금",
+    "운항",
+    "결항",
+    "일정",
+    "변경",
+    "중지",
+    "예약",
+    "surcharge",
+    "sailing",
+    "cancel",
+    "fare",
+    "schedule"
+  ],
+  "existing_guide_suffixes": [
+    "ferry",
+    "ferry-price",
+    "timetable"
+  ],
+  "routes": [
+    "osaka",
+    "fukuoka",
+    "shimonoseki",
+    "tsushima"
+  ]
+}
