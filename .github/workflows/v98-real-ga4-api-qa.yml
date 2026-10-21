@@ -1,0 +1,38 @@
+name: V98 real GA4 Data API extraction integrity
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.gitignore'
+      - 'scripts/v98_ga4_data_api.py'
+      - 'tests/test_v98_ga4_data_api.py'
+      - '.github/workflows/v98-real-ga4-api-qa.yml'
+permissions:
+  contents: read
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check Data API dimensions, token privacy, full pagination and fail-closed behavior
+        run: python -m unittest discover -s tests -p 'test_v98_ga4_data_api.py' -v
+      - name: Prove no GA4 account credentials means UNKNOWN, never 0 clicks
+        env:
+          GA4_PROPERTY_ID: ''
+          GOOGLE_APPLICATION_CREDENTIALS: ''
+        run: |
+          python scripts/v98_ga4_data_api.py --output private-analytics/v98/unused.csv > /tmp/v98_status.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('/tmp/v98_status.json').read_text('utf8'))
+          assert d['status']=='not_connected'
+          assert d['real_click_data'] is None
+          assert not Path('private-analytics/v98/unused.csv').exists()
+          print('V98 private Data API not connected: no fabricated event counts or GA4 export.')
+          PY
