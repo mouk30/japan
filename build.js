@@ -16,6 +16,11 @@ function walk(d, a=[]) {
   }
   return a;
 }
+// V93: GA4 measurement IDs are public tags, but must come from Vercel build env.
+const ga4Id = (process.env.GA4_MEASUREMENT_ID || '').trim();
+if (ga4Id && !/^G-[A-Z0-9]{7,15}$/.test(ga4Id)) {
+  throw new Error('Invalid GA4_MEASUREMENT_ID format. Expected a GA4 web stream G- ID.');
+}
 const pages=walk(out);
 let unifiedHeaders=0, legacyWithoutHeader=0;
 for(const file of pages) {
@@ -56,6 +61,18 @@ for(const file of pages) {
   h=h.replaceAll('NIPPONFERRY · V68 SOURCED GUIDE ·', 'NIPPONFERRY · 공식 자료 점검 ·');
   const nav=enhanceDocument(h,file,out);
   h=nav.html;
+  // Track outbound ferry CTAs only when the owner has configured a real GA4 ID.
+  // No GA4 library, cookies, requests or consent banner start before visitor opt-in.
+  // Analytics is optional: production without an ID is visibly 'not connected' in QA.
+  if (ga4Id) {
+    const css = '<link rel="stylesheet" href="/nf-v93-booking-clicks.css?v=20261021">';
+    const src = '<script defer src="/nf-v93-booking-clicks.js?v=20261021" data-nf-ga4="' + ga4Id + '"><\/script>';
+    if (!/<\/head>/i.test(h) || !/<\/body>/i.test(h)) {
+      throw new Error('V93 cannot install GA4 consent safely: malformed HTML ' + file);
+    }
+    h=h.replace(/<\/head>/i,css+'</head>');
+    h=h.replace(/<\/body>/i,src+'</body>');
+  }
   if(nav.modified)unifiedHeaders++;else legacyWithoutHeader++;
   fs.writeFileSync(file,h);
 }
