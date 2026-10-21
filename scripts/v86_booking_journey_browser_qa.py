@@ -38,21 +38,30 @@ with sync_playwright() as p:
      expect(node.count()==1,f"{root} missing or duplicated",item)
      if node.count()!=1:continue
      main=node.locator("a.nf86-action-primary");other=node.locator("a.nf86-action-secondary")
-     expect(main.count()==1 and other.count()==1, f"{root} official CTA pair missing", item)
-     if main.count()!=1 or other.count()!=1:continue
-     expect(main.get_attribute("href")==primary,f"{root} primary URL mismatched",item)
-     expect(other.get_attribute("href")==secondary,f"{root} secondary URL mismatched",item)
-     for a in [main,other]:
+     expected_primary=1 if root!=".nf86-side" else 0
+     expected_secondary=1 if root==".nf86-intro" else 0
+     expect(main.count()==expected_primary and other.count()==expected_secondary, f"{root} deduplicated official CTA count incorrect",item)
+     if main.count()==expected_primary and expected_primary:
+      expect(main.get_attribute("href")==primary,f"{root} primary URL mismatched",item)
+     if other.count()==expected_secondary and expected_secondary:
+      expect(other.get_attribute("href")==secondary,f"{root} secondary URL mismatched",item)
+     for a in [*main.all(),*other.all()]:
       expect(a.get_attribute("target")=="_blank",f"{root} target missing",item)
       rel=a.get_attribute("rel") or ""
       expect("noopener" in rel and "noreferrer" in rel,f"{root} rel missing",item)
       a.scroll_into_view_if_needed();box=a.bounding_box()
       if box:
-       expect(box["width"]>=110 and box["height"]>=43, f"{root} CTA too small",item)
+       expect(box["width"]>=110 and box["height"]>=43,f"{root} CTA too small",item)
        expect(box["x"]>=-2 and box["x"]+box["width"]<=w+3,f"{root} CTA off viewport",item)
+     if root==".nf86-side":
+      jump=node.locator('a.nf92-side-link[href="#nf86-official-entry"]')
+      expect(jump.count()==1,f"{root} return-to-reservation jump missing",item)
+     if root==".nf86-booking":
+      expect(node.locator('a.nf92-facts-link[href="#nf87-verified-operations"]').count()==1,"mid facts return link missing",item)
      if root in [".nf86-intro",".nf86-booking"]:
       try:node.screenshot(path=str(OUT/f"{route}-{name}-{root.replace('.','')}.png"),animations="disabled")
       except Exception as e:item["issues"].append(f"screenshot: {e}")
+    expect(page.locator('a.nf86-action').count()==3,"three official booking CTAs expected across each guide",item)
     text=page.content()
     expect("willer-travel.com/ko/ferry/" not in text,"unrelated domestic ferry CTA remains",item)
     expect('rel="canonical"' in text,"canonical missing",item)
@@ -70,30 +79,33 @@ with sync_playwright() as p:
    try:
     load(page,path)
     if identifier=="ferry":
-     root=page.locator(".nf86-hub-steps");selector="div.nf86-hub-grid a"
+     root=page.locator(".nf86-hub-steps")
      expect(page.locator(".nf84-route").count()==4,"V84 banners count changed",item)
     else:
-     root=page.locator("#official-ferry-routes");selector=".nf86-hub-grid a"
+     root=page.locator("#official-ferry-routes")
     expect(root.count()==1,"route booking hub missing",item)
     if root.count()==1:
-     links=root.locator(selector)
-     expect(links.count()==4,f"expected 4 named route guide links got {links.count()}",item)
-     for slug in ROUTES:
-      href=f"/guide/busan-{slug}-ferry/#nf86-official-entry"
-      expect(root.locator('a[href="'+href+'"]').count()==1,f"missing {slug} internal route entry",item)
+     cards=root.locator("#nf91-direct-operators .nf91-direct-item")
+     expect(cards.count()==4,f"expected four distinct route cards got {cards.count()}",item)
+     expect(root.locator(".nf86-hub-grid").count()==0,"duplicate legacy booking grid returned",item)
+     for slug,(main_url,_) in ROUTES.items():
+      card=cards.locator('[data-route="'+slug+'"]') if False else root.locator('#nf91-direct-operators .nf91-direct-item[data-route="'+slug+'"]')
+      expect(card.count()==1,f"missing {slug} card",item)
+      if card.count()==1:
+       expect(card.locator("a.nf91-direct-primary").get_attribute("href")==main_url,f"incorrect {slug} operator destination",item)
+       expect(card.locator("a.nf91-direct-secondary").get_attribute("href")==f"/guide/busan-{slug}-ferry/#nf87-verified-operations",f"missing {slug} facts deep link",item)
      root.scroll_into_view_if_needed()
      try:root.screenshot(path=str(OUT/f"{identifier}-{name}.png"),animations="disabled")
      except Exception as e:item["issues"].append(f"screenshot: {e}")
-     # Real tap-target overlap: the persistent Kakao bubble must not cover any booking choice.
      if identifier=="booking" and w<=390:
       bubble=page.locator(".kakao-float")
       if bubble.count()==1 and bubble.is_visible():
-       b=bubble.bounding_box()
-       for a in links.all():
-        v=a.bounding_box()
+       for a in root.locator("#nf91-direct-operators .nf91-direct-primary").all():
+        a.scroll_into_view_if_needed()
+        b=bubble.bounding_box();v=a.bounding_box()
         if b and v:
          intersects=max(b["x"],v["x"]) < min(b["x"]+b["width"],v["x"]+v["width"]) and max(b["y"],v["y"]) < min(b["y"]+b["height"],v["y"]+v["height"])
-         expect(not intersects,"Floating Kakao bubble overlaps a route booking button",item)
+         expect(not intersects,"Kakao float overlaps direct booking choice",item)
     expect("willer-travel.com/ko/ferry/" not in page.content(),"unrelated domestic ferry service remains",item)
     extent=page.evaluate('document.documentElement.scrollWidth');item["scrollWidth"]=extent
     expect(extent<=w+7,f"horizontal overflow {extent}px vs {w}px",item)
