@@ -1,0 +1,36 @@
+/* NIPPONFERRY V86 | Four established Busan-Japan ferry guides. Trusted outbound booking paths, no inventory claims. */
+body.nf-premium-v2 .nf86-intro,
+body.nf-premium-v2 .nf86-booking{border:1px solid #b7d8e5;border-radius:17px;background:linear-gradient(145deg,#f2faff,#fff);padding:clamp(20px,3vw,28px);margin:26px 0;color:#143c57;box-shadow:0 8px 25px rgba(4,44,70,.06)}
+body.nf-premium-v2 .nf86-booking{background:linear-gradient(145deg,#e9f5fb,#fff)}
+body.nf-premium-v2 .nf86-eyebrow{display:block;font-size:13px;font-weight:900;letter-spacing:.1em;color:#3b7187;margin-bottom:11px}
+body.nf-premium-v2 .nf86-intro h3,body.nf-premium-v2 .nf86-booking h2{font-size:clamp(24px,2.8vw,34px);line-height:1.28;letter-spacing:-.045em;margin:0 0 12px;color:#082f4c}
+body.nf-premium-v2 .nf86-intro>p,body.nf-premium-v2 .nf86-booking>p{font-size:17px;line-height:1.75;margin:0 0 16px;color:#3b5e75;word-break:keep-all}
+body.nf-premium-v2 .nf86-flow{display:flex;align-items:stretch;gap:9px;margin:17px 0 18px}
+body.nf-premium-v2 .nf86-flow span{flex:1;min-width:0;border:1px solid #d1e3ea;background:#fff;border-radius:10px;padding:10px 7px;font-size:14px;color:#1a4c67;text-align:center;line-height:1.4;font-weight:850}
+body.nf-premium-v2 .nf86-actions{display:flex;align-items:stretch;gap:11px;flex-wrap:wrap;margin:0 0 15px}
+body.nf-premium-v2 a.nf86-action{display:inline-flex;align-items:center;justify-content:center;text-align:center;padding:15px 19px;min-height:58px;border-radius:11px;line-height:1.45;font-size:17px;font-weight:900;text-decoration:none!important;flex:1 1 240px}
+body.nf-premium-v2 a.nf86-action-primary{background:#0b456d;color:#fff!important;border:1px solid #0b456d}
+body.nf-premium-v2 a.nf86-action-secondary{background:#fff;color:#0a4669!important;border:1px solid #a7d0df}
+body.nf-premium-v2 .nf86-disclosure{background:#eef6fa;border-left:3px solid #72a6ba;padding:11px 13px;color:#425d70;font-size:14px;line-height:1.7;margin:0;word-break:keep-all}
+body.nf-premium-v2 .nf86-disclosure strong{color:#0c3d5a}
+body.nf-premium-v2 .nf86-booking .nf86-checklist{margin:0 0 19px;padding-left:20px;font-size:16px;line-height:1.85;color:#2f516a}
+body.nf-premium-v2 .nf86-checklist li{padding-left:3px}
+body.nf-premium-v2 .nf86-side{border:1px solid #c4dee8;background:#f4f9fc}
+body.nf-premium-v2 .nf86-side h3{font-size:21px;color:#113c5b}
+body.nf-premium-v2 .nf86-side p{line-height:1.65;font-size:15px;color:#47687c}
+body.nf-premium-v2 .nf86-side a.nf86-action{display:flex;font-size:15px;min-height:52px;padding:12px;margin-top:11px}
+body.nf-premium-v2 .nf86-side .nf86-disclosure{margin-top:12px;font-size:12px}
+body.nf-premium-v2 .nf86-intro a:focus-visible,
+body.nf-premium-v2 .nf86-booking a:focus-visible,
+body.nf-premium-v2 .nf86-side a:focus-visible{outline:3px solid #d99d4d;outline-offset:3px}
+@media(max-width:740px){
+ body.nf-premium-v2 .nf86-intro,body.nf-premium-v2 .nf86-booking{padding:19px 16px;margin:20px 0;border-radius:13px}
+ body.nf-premium-v2 .nf86-intro h3,body.nf-premium-v2 .nf86-booking h2{font-size:26px}
+ body.nf-premium-v2 .nf86-intro>p,body.nf-premium-v2 .nf86-booking>p{font-size:16px}
+ body.nf-premium-v2 .nf86-flow{gap:5px}
+ body.nf-premium-v2 .nf86-flow span{font-size:12px;line-height:1.4;padding:11px 3px}
+ body.nf-premium-v2 .nf86-actions{flex-direction:column;gap:10px}
+ body.nf-premium-v2 a.nf86-action{flex:unset;width:100%;min-height:56px;font-size:16px;padding:14px 12px}
+ body.nf-premium-v2 .nf86-disclosure{font-size:13px}
+ body.nf-premium-v2 .nf86-booking .nf86-checklist{font-size:15px}
+}
