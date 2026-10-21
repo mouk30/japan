@@ -34,3 +34,13 @@ body.nf-premium-v2 .nf86-side a:focus-visible{outline:3px solid #d99d4d;outline-
  body.nf-premium-v2 .nf86-disclosure{font-size:13px}
  body.nf-premium-v2 .nf86-booking .nf86-checklist{font-size:15px}
 }
+
+/* Existing ferry hub: no generic unrelated domestic-ferry purchase button. */
+body.nf-premium-v2 .nf86-hub-steps{margin-top:30px;padding:clamp(20px,3vw,28px);border-radius:17px;border:1px solid #bfdce9;background:#f1f8fc}
+body.nf-premium-v2 .nf86-hub-steps h3{font-size:clamp(22px,2.6vw,30px);line-height:1.25;color:#0a3554;margin:0 0 12px}
+body.nf-premium-v2 .nf86-hub-steps>p{font-size:16px;color:#3f637a;line-height:1.75;margin:0 0 16px;word-break:keep-all}
+body.nf-premium-v2 .nf86-hub-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+body.nf-premium-v2 .nf86-hub-grid a{display:flex;align-items:center;justify-content:space-between;background:#0c476f;border-radius:11px;min-height:57px;color:#fff!important;font-size:16px;font-weight:850;padding:14px 16px;text-decoration:none;line-height:1.4}
+body.nf-premium-v2 .nf86-hub-steps p.nf86-hub-trust{font-size:14px;color:#426177;margin:18px 0 0}
+body.nf-premium-v2 .nf86-hub-grid a:focus-visible{outline:3px solid #d6a46e;outline-offset:3px}
+@media(max-width:680px){body.nf-premium-v2 .nf86-hub-grid{grid-template-columns:1fr}body.nf-premium-v2 .nf86-hub-grid a{font-size:16px;min-height:58px}}
