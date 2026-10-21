@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-20T23:44:17.310Z",
+  "createdAt": "2026-10-21T00:39:32.139Z",
   "widths": [
     320,
     390,
@@ -647,6 +647,6 @@
   "errors": [],
   "warnings": [],
   "source": "site/index.html",
-  "checkedInternalLinks": 93,
+  "checkedInternalLinks": 94,
   "passed": true
 }
