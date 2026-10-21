@@ -31,7 +31,8 @@ with sync_playwright() as p:
                   return {href:a.getAttribute('href'),text:a.innerText,rect:r.toJSON(),bg:css.backgroundImage,
                     heading_font:getComputedStyle(a.querySelector('strong')).fontSize,
                     image_layer:css.backgroundImage!=='none',
-                    onscreen:r.width>200&&r.height>300&&r.left>=-2&&r.right<=innerWidth+2};
+                    viewport_inner:window.innerWidth,viewport_client:document.documentElement.clientWidth,viewport_visual:window.visualViewport?.width,
+                    onscreen:r.width>200&&r.height>300&&r.left>=-2&&r.right<=document.documentElement.clientWidth+2};
                 })
               };
             }""")
@@ -42,7 +43,7 @@ with sync_playwright() as p:
                 asset=page.request.get(url,timeout=20000)
                 item["asset_checks"].append({"url":url,"status":asset.status,"ctype":asset.headers.get("content-type","")})
             item["pass"]=item["status"]==200 and not item["layout"]["overflow"] and len(cards)==2 and len(item["layout"]["credits"])==2 and all(
-                c["href"]==w["url"] and w["photo"] in c["bg"] and w["label"] in c["text"] and c["onscreen"]
+                c["href"]==w["url"] and w["photo"] in c["bg"] and w["label"] in c["text"] and c["onscreen"] and c["rect"]["right"]<=width+2
                 for c,w in zip(cards,EXPECTED)
             ) and all(z["status"]==200 and "image" in z["ctype"] for z in item["asset_checks"]) and (
                 all(c["rect"]["height"]>=340 for c in cards)
