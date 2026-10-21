@@ -44,6 +44,14 @@ class V88MonitorTests(unittest.TestCase):
         self.assertEqual(m.official_signature({"fare":19000,"status":"review"}),
                          m.official_signature({"status":"review","fare":19000}))
 
+    def test_semantic_notice_hash_ignores_view_count_but_detects_image_change(self):
+        first = BeautifulSoup('<div>조회 120회</div><div id="bo_v_con">TAX 공지 <img src="/img/q4.png"></div>', "html.parser")
+        second = BeautifulSoup('<div>조회 999회</div><div id="bo_v_con">TAX 공지 <img src="/img/q4.png"></div>', "html.parser")
+        changed = BeautifulSoup('<div>조회 999회</div><div id="bo_v_con">TAX 공지 <img src="/img/q1.png"></div>', "html.parser")
+        self.assertEqual(m.semantic_document(first, "koreaferry"), m.semantic_document(second, "koreaferry"))
+        self.assertNotEqual(m.semantic_document(BeautifulSoup('<div id="bo_v_con">TAX 공지 <img src="/img/q4.png"></div>', "html.parser"), "koreaferry"),
+                            m.semantic_document(changed, "koreaferry"))
+
     def test_unverified_source_not_taken_as_price(self):
         self.assertIsNone(m.fuel_fee_row(None))
         self.assertEqual(m.notice_index(None,"panstar"),{})
