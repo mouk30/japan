@@ -38,6 +38,8 @@ Vercel Hobby의 Web Analytics **맞춤 이벤트는 지원되지 않는다**. �
 
 ## 실제 QA 기록
 
+- **최종 V93 브라우저 검수 통과:** https://github.com/mouk30/japan/actions/runs/39593224842 — 97개 검사항목 통과, 오류 0건. 사용자가 거절·허용·철회하는 과정을 거쳐 공식 선사 클릭과 운항정보 클릭의 분리 확인.
+- **배포 사이트 상태 확인:** 공개 홈·/ferry/·/booking/japan-cruise/ 3개에서 GA4 측정 ID 발견되지 않음. 현재 클릭 수 **미확인(null)**; Vercel에 유효한 실제 GA4 ID 입력 및 재배포 후 수집 가능.
 - V93 synthetic browser tests: https://github.com/mouk30/japan/actions/workflows/v93-ga4-booking-click-qa.yml
 - 테스트용 `G-TEST123456`을 **GitHub Actions의 일회성 컴파일에만** 주입해서 확인하며, 이 임의 값을 공개 사이트나 실제 GA4에 사용하지 않음.
 - 방문자 동의 이전 Google 전송 **0회**, 수집 거부 후 방문·클릭 이벤트 **0회**, 동의 후 항로/버튼/허브 출처별 정확한 이벤트 생성 확인.
