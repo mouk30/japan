@@ -87,3 +87,10 @@ body.nf-premium-v2 .nf-v79-maritime-grid a.nf-maritime-card{width:100%!important
 @media(max-width:800px){
  body.nf-premium-v2 .nf-v79-maritime-grid{grid-template-columns:minmax(0,1fr)!important}
 }
+
+@media(max-width:650px){
+ body.nf-premium-v2 .nf-v79-maritime-grid .nf-maritime-card em{
+   max-width:calc(100% - 47px);padding-right:0!important;
+   white-space:normal!important;overflow-wrap:break-word;
+ }
+}
