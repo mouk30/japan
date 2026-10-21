@@ -61,6 +61,12 @@
       operator = 'kampuferry'; step = 'booking_instructions';
       if (route === 'unknown') route = 'shimonoseki';
     } else if (host === location.hostname.toLowerCase()) {
+      // A guide facts anchor is an information-intent click, not a generic route selection.
+      if (link.classList.contains('nf92-facts-link') || link.classList.contains('nf91-direct-secondary') ||
+          (url.hash === '#nf87-verified-operations' && /^\/guide\/busan-/.test(url.pathname))) {
+        return { name: 'ferry_info_open', route: cleanRoute(url.pathname), placement: placement,
+          page_area: source, operator: 'internal', destination_step: 'operator_facts' };
+      }
       var isGuide = /^\/guide\/busan-(osaka|fukuoka|shimonoseki|tsushima)-ferry\/?$/.test(url.pathname);
       if (isGuide) return { name: 'ferry_route_select', route: cleanRoute(url.pathname),
         placement: placement, page_area: source, operator: 'internal', destination_step: 'route_guide' };
