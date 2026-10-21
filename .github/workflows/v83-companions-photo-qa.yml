@@ -3,6 +3,7 @@ on:
   push:
     branches: [main]
     paths:
+      - 'site/things-to-do/travel-companions/index.html'
       - 'site/nf-v83-companions-wide.css'
       - 'scripts/v83_companions_browser_qa.py'
       - '.github/workflows/v83-companions-photo-qa.yml'
