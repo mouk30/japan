@@ -1,0 +1,90 @@
+name: V104 secondary destination photo selection
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v104-more-photo-candidates.yml'
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pillow
+      - run: |
+          python - <<'PY'
+          from PIL import Image,ImageOps,ImageDraw
+          import pathlib,json
+          group={
+            'regional-alternatives':[
+              'editorial/v339_hakata-port-tenjin-sightseeing.webp',
+              'editorial/hakata-cruise-port-day-trip.webp',
+              'editorial/shimonoseki-cruise-port-day-trip.webp',
+              'editorial/tsushima-izuhara-cruise-port-day-trip.webp',
+              'editorial/kobe-cruise-port-day-trip.webp',
+              'editorial/hakodate-goryokaku-fort.webp',
+              'editorial/hakodate-port-day-trip.webp',
+              'venues/otaru-v27-real-location.webp',
+              'venues/tokyo-v27-real-location.webp',
+              'venues/kobe-kitano-weathercock.webp',
+              'venues/hakodate-kanemori-warehouses.webp',
+              'venues/miyakojima-yonaha-maehama.webp',
+              'editorial/okinawa-kouri-bridge.webp',
+              'editorial/okinawa-emerald-islands-aerial.webp',
+              'editorial/okinawa-resort-beach.webp',
+              'editorial/ishigaki-tamatorizaki-observatory.webp',
+              'editorial/ishigaki-kabira-bay.webp',
+              'editorial/okinawa-cape-manzamo.webp',
+            ],
+            'themes-alternatives':[
+              'season.jpg',
+              'editorial/okinawa-eisa-dance-festival.webp',
+              'culture-verified/japanese-matsuri-festival-culture.webp',
+              'culture-verified/japan-kyoto-gion-festival-floats.webp',
+              'editorial/hanami-japanese-cherry-blossom-picnic.webp',
+              'editorial/kyoto-nishiki-market-food-culture.webp',
+              'editorial/okinawa-shopping-street.webp',
+              'culture-verified/shotengai-japanese-shopping-arcades.webp',
+              'tokyo-verified/tokyo-shinjuku-isetan-shopping.webp',
+              'tokyo-verified/ueno-ameyoko-budget-shopping.webp',
+              'editorial/kyoto-kiyomizu-stage-structure.webp',
+              'editorial/kimono-yukata-hero.webp',
+              'culture-verified/ryokan-japanese-inn-hospitality.webp',
+              'editorial/okinawa-sunset-rock.webp',
+              'editorial/v345_ishigaki-cruise-kabira-bay-bus-taxi.webp',
+              'tokyo-verified/tokyo-shibuya-crossing-hachiko.webp',
+              'culture-verified/konbini-japanese-convenience-store-life.webp',
+              'ramen-close.jpg',
+            ]
+          }
+          out=pathlib.Path('audit-output/v104-more-candidates');out.mkdir(parents=True,exist_ok=True)
+          imgs=[]
+          for name,paths in group.items():
+            w,h,columns=350,245,3
+            canvas=Image.new('RGB',(w*columns,h*((len(paths)+columns-1)//columns)),'#edf2f6')
+            draw=ImageDraw.Draw(canvas)
+            for n,file in enumerate(paths):
+              p=pathlib.Path('site/images')/file
+              info={'image':file,'bytes':p.stat().st_size if p.exists() else 0}
+              if p.exists():
+                im=Image.open(p)
+                info.update(width=im.width,height=im.height)
+                thumb=ImageOps.fit(im.convert('RGB'),(w-12,188),centering=(.5,.5))
+                x=(n%columns)*w+6;y=(n//columns)*h+3
+                canvas.paste(thumb,(x,y))
+                draw.text((x+3,y+193),file[-49:],fill='#15354a')
+              imgs.append(info)
+            canvas.save(out/(name+'.jpg'),quality=91)
+          (out/'alternatives.json').write_text(json.dumps(imgs,indent=2),encoding='utf8')
+          assert all(x['bytes']>1000 for x in imgs)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v104-region-theme-photo-alternatives
+          path: audit-output/v104-more-candidates/
+          retention-days: 15
