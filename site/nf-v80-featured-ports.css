@@ -1,0 +1,61 @@
+/* V80 NIPPONFERRY · Five evidence-backed Japanese cruise call ports.
+ * Scoped to the existing /things-to-do/cruise-ports/ hub.
+ * Photos depict named sights, NOT cruise terminals. Editorial URL/SEO untouched. */
+body.nf-premium-v2 .nf-v80-featured{padding:clamp(44px,5.1vw,82px) 0 clamp(52px,6vw,90px);background:linear-gradient(180deg,#f8fbfd,#fff 70%);color:#10314b}
+body.nf-premium-v2 .nf-v80-featured .wrap{width:min(1360px,calc(100% - 60px));max-width:1360px}
+body.nf-premium-v2 .nf-v80-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:31px}
+body.nf-premium-v2 .nf-v80-eyebrow{margin:0 0 10px;font-size:14px;font-weight:850;letter-spacing:.13em;color:#a47a42}
+body.nf-premium-v2 .nf-v80-head h2{font-size:clamp(31px,3.3vw,49px);line-height:1.19;letter-spacing:-.055em;color:#0c2d49;margin:0}
+body.nf-premium-v2 .nf-v80-head>p{max-width:350px;margin:0;font-size:17px;line-height:1.75;color:#416075}
+body.nf-premium-v2 .nf-v80-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 26px}
+body.nf-premium-v2 .nf-v80-card{min-width:0;border:1px solid #e1e8ec;border-radius:19px;overflow:hidden;background:#fff;box-shadow:0 13px 38px rgba(5,40,70,.085);display:flex;flex-direction:column}
+body.nf-premium-v2 .nf-v80-photo{position:relative;display:block;overflow:hidden;aspect-ratio:16/10;background:#dfeaf1}
+body.nf-premium-v2 .nf-v80-photo img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .3s ease}
+body.nf-premium-v2 .nf-v80-photo:hover img{transform:scale(1.025)}
+body.nf-premium-v2 .nf-v80-location{position:absolute;top:20px;left:21px;background:rgba(3,30,56,.89);color:#fff;border:1px solid rgba(255,255,255,.33);padding:9px 15px;border-radius:40px;font-size:16px;font-weight:800;line-height:1.3}
+body.nf-premium-v2 .nf-v80-scene{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(2,22,42,.86));color:#fff;padding:33px 22px 15px;font-size:15px;font-weight:800}
+body.nf-premium-v2 .nf-v80-content{padding:25px 26px 23px;display:flex;flex-direction:column;gap:14px;flex:1}
+body.nf-premium-v2 .nf-v80-kicker{display:block;font-size:13px;font-weight:860;letter-spacing:.09em;color:#916a3f}
+body.nf-premium-v2 .nf-v80-content h3{margin:0;font-size:clamp(27px,2.45vw,36px);line-height:1.29;letter-spacing:-.05em}
+body.nf-premium-v2 .nf-v80-content h3 a{color:#113b5c;text-decoration:none}
+body.nf-premium-v2 .nf-v80-content>p{margin:0;font-size:17px;line-height:1.75;color:#36566e;flex:1;word-break:keep-all}
+body.nf-premium-v2 .nf-v80-route{display:flex;align-items:center;gap:9px;font-size:15px;color:#35566a;font-weight:730;line-height:1.5}
+body.nf-premium-v2 .nf-v80-action{display:flex;align-items:center;justify-content:space-between;min-height:56px;padding:14px 17px;background:#123f61;color:#fff!important;border-radius:11px;text-decoration:none;font-size:17px;font-weight:850}
+body.nf-premium-v2 .nf-v80-action span:last-child{font-size:24px;line-height:1}
+body.nf-premium-v2 .nf-v80-credit{margin:0;padding:0 25px 20px;font-size:13px;line-height:1.7;color:#526a7a;overflow-wrap:anywhere}
+body.nf-premium-v2 .nf-v80-credit a{color:#11658d;text-decoration:underline;text-underline-offset:3px}
+body.nf-premium-v2 .nf-v80-card--wide{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr)}
+body.nf-premium-v2 .nf-v80-card--wide .nf-v80-photo{aspect-ratio:auto;min-height:430px;height:100%}
+body.nf-premium-v2 .nf-v80-card--wide .nf-v80-content{padding:37px 35px 20px;justify-content:center;min-height:350px}
+body.nf-premium-v2 .nf-v80-card--wide .nf-v80-credit{grid-column:2;grid-row:2;padding:0 35px 26px;margin-top:-4px}
+body.nf-premium-v2 .nf-v80-card--wide .nf-v80-photo{grid-row:1/3}
+body.nf-premium-v2 .nf-v80-note{font-size:14px;line-height:1.75;color:#476479;margin:22px 0 0}
+body.nf-premium-v2 .nf-v80-card a:focus-visible{outline:3px solid #d7a04a;outline-offset:3px}
+@media(max-width:900px){
+ body.nf-premium-v2 .nf-v80-head{display:block}
+ body.nf-premium-v2 .nf-v80-head>p{max-width:720px;margin-top:12px}
+ body.nf-premium-v2 .nf-v80-grid{gap:22px}
+ body.nf-premium-v2 .nf-v80-card--wide{grid-template-columns:1fr 1fr}
+}
+@media(max-width:740px){
+ body.nf-premium-v2 .nf-v80-featured{padding:40px 0 58px}
+ body.nf-premium-v2 .nf-v80-featured .wrap{width:calc(100% - 32px)}
+ body.nf-premium-v2 .nf-v80-head{margin-bottom:23px}
+ body.nf-premium-v2 .nf-v80-head h2{font-size:clamp(30px,7.6vw,38px)}
+ body.nf-premium-v2 .nf-v80-head>p{font-size:16px}
+ body.nf-premium-v2 .nf-v80-grid{grid-template-columns:minmax(0,1fr);gap:24px}
+ body.nf-premium-v2 .nf-v80-card{width:100%;max-width:100%;min-width:0;border-radius:15px}
+ body.nf-premium-v2 .nf-v80-photo{aspect-ratio:4/3}
+ body.nf-premium-v2 .nf-v80-location{font-size:14px;top:13px;left:13px;padding:8px 12px}
+ body.nf-premium-v2 .nf-v80-scene{font-size:14px;padding:28px 16px 12px}
+ body.nf-premium-v2 .nf-v80-content{padding:21px 20px 18px;gap:12px}
+ body.nf-premium-v2 .nf-v80-content h3{font-size:27px}
+ body.nf-premium-v2 .nf-v80-content>p{font-size:17px}
+ body.nf-premium-v2 .nf-v80-action{font-size:17px;min-height:57px}
+ body.nf-premium-v2 .nf-v80-credit{padding:0 20px 20px;font-size:13px}
+ body.nf-premium-v2 .nf-v80-card--wide{grid-column:auto;display:flex}
+ body.nf-premium-v2 .nf-v80-card--wide .nf-v80-photo{aspect-ratio:4/3;min-height:0;height:auto}
+ body.nf-premium-v2 .nf-v80-card--wide .nf-v80-content{padding:21px 20px 18px;min-height:0}
+ body.nf-premium-v2 .nf-v80-card--wide .nf-v80-credit{padding:0 20px 20px;margin:0}
+}
+@media(prefers-reduced-motion:reduce){body.nf-premium-v2 .nf-v80-photo img{transition:none}}
