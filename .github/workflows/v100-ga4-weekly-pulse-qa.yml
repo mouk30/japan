@@ -1,0 +1,47 @@
+name: V100 GA4 weekly booking pulse QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v100_ga4_weekly_pulse.py'
+      - 'tests/test_v100_ga4_weekly_pulse.py'
+      - '.github/workflows/v100-ga4-weekly-pulse-qa.yml'
+permissions:
+  contents: read
+jobs:
+  offline-integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run synthetic-only end-to-end GA4 pipeline tests
+        run: python -m unittest discover -s tests -p 'test_v100_ga4_weekly_pulse.py' -v
+      - name: Check no-account readiness without exposing visitor information
+        env:
+          GA4_PROPERTY_ID: ''
+          GOOGLE_APPLICATION_CREDENTIALS: ''
+        run: |
+          python scripts/v100_ga4_weekly_pulse.py --as-of 2026-10-22 --output audit-output/v100-no-connected-account > audit-output-v100-stdout.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('audit-output/v100-no-connected-account/status.json').read_text('utf8'))
+          assert data['status']=='awaiting_account_connection'
+          assert data['actual_click_counts'] is None
+          assert data['confirmed_bookings'] is None
+          assert not (Path('audit-output/v100-no-connected-account')/'recent-dashboard').exists()
+          assert not (Path('audit-output/v100-no-connected-account')/'recent-actual.ga4.actual.csv').exists()
+          print('GA4 account currently not configured for this QA environment; NO fabricated user numbers.')
+          PY
+      - name: Upload ONLY no-credentials/no-real-visitors status
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v100-no-real-ga4-readiness-qa
+          path: audit-output/v100-no-connected-account/status.json
+          retention-days: 45
+          if-no-files-found: warn
