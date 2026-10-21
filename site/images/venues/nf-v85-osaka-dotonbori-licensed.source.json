@@ -1,0 +1,14 @@
+{
+  "asset": "site/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+  "depicts": "Dotonbori canal, Namba district, Osaka; NOT a ferry berth",
+  "original": "https://commons.wikimedia.org/wiki/File:D%C5%8Dtonbori_at_night%2C_Osaka_%2819551420339%29.jpg",
+  "photographer": "Kristoffer Trolle",
+  "taken": "2015-06-30",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "modification": "WebP resize to max 1800x1200 from original JPEG; photo used as city reference, not departure image.",
+  "source_sha256": "2bd341f13925f9ad497b221671d16a3f2fc59f03fa63d1cdee0626c65626c049",
+  "output_sha256": "b238ba8e93dd0bace300b6fd3e1af8508020ad8fea0a12392c04066029aa4010",
+  "width": 1800,
+  "height": 1200
+}
