@@ -1,0 +1,33 @@
+name: V87 four Japan ferry official schedule fare QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v87_ferry_official_qa.py'
+      - 'site/nf-v87-verified-operations.css'
+      - 'site/guide/busan-*/index.html'
+      - '.github/workflows/v87-ferry-official-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 23
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Production QA of existing four ferry routes on desktop and mobile
+        run: python scripts/v87_ferry_official_qa.py
+      - name: Preserve actual screenshots and machine-readable evidence checks
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v87-official-ferry-routes-24-screenshots
+          path: audit-output/v87-ferry-ops/
+          retention-days: 30
+          if-no-files-found: warn
