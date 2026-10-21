@@ -27,9 +27,17 @@ with sync_playwright() as p:
         try:
             response=page.goto(BASE+HUB,wait_until="domcontentloaded",timeout=45000)
             page.locator("#nf-v80-featured-ports .nf-v80-card").first.wait_for(state="visible",timeout=15000)
-            # All images are editorial lazy-loaded; explicitly request them before checking dimensions.
-            page.eval_on_selector_all("#nf-v80-featured-ports img", "(els) => els.forEach(el => el.loading='eager')")
-            page.wait_for_timeout(1800)
+            # Real-user scroll: load/decode each lazy photograph before capturing.
+            photo_cards=page.locator("#nf-v80-featured-ports .nf-v80-card")
+            for i in range(5):
+                card=photo_cards.nth(i)
+                card.scroll_into_view_if_needed(timeout=15000)
+                img=card.locator("img").first
+                img.evaluate("(el) => { el.loading='eager'; }")
+                img.evaluate("(el) => el.decode()")
+                page.wait_for_timeout(180)
+                card.screenshot(path=str(OUT/(viewport+"-card-"+str(i+1)+".png")),timeout=15000)
+            page.wait_for_timeout(500)
             item.update(page.evaluate("""() => {
               const root=document.querySelector('#nf-v80-featured-ports');
               const cards=[...root.querySelectorAll('.nf-v80-card')], vw=document.documentElement.clientWidth;
