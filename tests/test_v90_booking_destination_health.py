@@ -20,17 +20,38 @@ class V90Tests(unittest.TestCase):
         self.assertEqual(r["errors"],[],str(r["errors"]))
         self.assertEqual(len(r["routes"]),4)
 
+    def test_v101_previous_refused_korean_link_is_no_longer_used(self):
+        old = "https://www.kampuferry.co.jp/lang_kor/reserve/"
+        self.assertNotEqual(cfg["routes"]["shimonoseki"]["primary"],old)
+        self.assertEqual(cfg["routes"]["shimonoseki"]["primary"],"https://kampuferry.co.jp/reserve/")
+        self.assertEqual(cfg["routes"]["shimonoseki"]["secondary"],"https://kampuferry.co.jp/yoyaku/en/reservation.html")
+        for path in [
+          "site/guide/busan-shimonoseki-ferry/index.html",
+          "site/guide/busan-shimonoseki-ferry-price/index.html",
+          "site/guide/busan-shimonoseki-timetable/index.html",
+          "site/ferry/index.html",
+          "site/booking/japan-cruise/index.html",
+        ]:
+            self.assertNotIn(old,(ROOT/path).read_text("utf8"),path)
+
+    def test_v101_japanese_official_booking_content_is_acceptable(self):
+        url=cfg["routes"]["shimonoseki"]["primary"]
+        page="<html><title>関釜フェリー</title><body>フェリーのご予約 ご予約方法 インターネット予約</body></html>"
+        checked=v90.evaluate_response(url,Response(200,url,text=page),
+                     cfg,"kampuferry","reservation_instructions")
+        self.assertEqual(checked["classification"],"operator_landing_verified")
+
     def test_404_is_suspected_broken(self):
-        x=v90.evaluate_response("https://www.kampuferry.co.jp/yoyaku/en/",Response(404,"https://www.kampuferry.co.jp/yoyaku/en/"),cfg,"kampuferry","reservation_instructions")
+        x=v90.evaluate_response("https://kampuferry.co.jp/yoyaku/en/reservation.html",Response(404,"https://kampuferry.co.jp/yoyaku/en/reservation.html"),cfg,"kampuferry","reservation_instructions")
         self.assertEqual(x["classification"],"suspected_broken")
 
     def test_403_429_do_not_mean_broken(self):
         for code in (401,403,429,503):
-            x=v90.evaluate_response("https://www.kampuferry.co.jp/yoyaku/en/",Response(code,"https://www.kampuferry.co.jp/yoyaku/en/"),cfg,"kampuferry","reservation_instructions")
+            x=v90.evaluate_response("https://kampuferry.co.jp/yoyaku/en/reservation.html",Response(code,"https://kampuferry.co.jp/yoyaku/en/reservation.html"),cfg,"kampuferry","reservation_instructions")
             self.assertEqual(x["classification"],"unverified")
 
     def test_wrong_domain_or_deep_link_to_home(self):
-        src="https://www.kampuferry.co.jp/lang_kor/reserve/"
+        src="https://kampuferry.co.jp/reserve/"
         bad=v90.evaluate_response(src,Response(200,"https://malicious.example/reserve/"),cfg,"kampuferry","reservation_instructions")
         self.assertEqual(bad["reason"],"redirected_to_unexpected_domain")
         wrong=v90.evaluate_response(src,Response(200,"https://www.kampuferry.co.jp/"),cfg,"kampuferry","reservation_instructions")
@@ -66,12 +87,12 @@ class V90Tests(unittest.TestCase):
         self.assertEqual(value["reason"],"wrong_route_or_unrelated_official_content")
 
     def test_same_domain_unrelated_page_requires_investigation(self):
-        src="https://www.kampuferry.co.jp/lang_kor/reserve/"
+        src="https://kampuferry.co.jp/reserve/"
         wrong=v90.evaluate_response(src,Response(200,src,"<html><title>Shop</title><body>limited period sale</body></html>"),cfg,"kampuferry","reservation_instructions")
         self.assertEqual(wrong["classification"],"unverified")
 
     def test_valid_landing_is_not_inventory_claim(self):
-        url="https://www.kampuferry.co.jp/yoyaku/en/"
+        url="https://kampuferry.co.jp/yoyaku/en/reservation.html"
         v=v90.evaluate_response(url,Response(200,url),cfg,"kampuferry","reservation_instructions")
         self.assertEqual(v["classification"],"operator_landing_verified")
 
@@ -96,7 +117,7 @@ class V90Tests(unittest.TestCase):
         self.assertEqual(wrong["reason"],"actual_booking_calendar_not_visible")
 
     def test_non_html_download_is_not_valid_landing(self):
-        url="https://www.kampuferry.co.jp/yoyaku/en/"
+        url="https://kampuferry.co.jp/yoyaku/en/reservation.html"
         v=v90.evaluate_response(url,Response(200,url,"hello",ctype="application/pdf"),cfg,"kampuferry","reservation_instructions")
         self.assertEqual(v["reason"],"non_html_destination")
 
