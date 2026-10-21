@@ -36,6 +36,21 @@ class V90Tests(unittest.TestCase):
         wrong=v90.evaluate_response(src,Response(200,"https://www.kampuferry.co.jp/"),cfg,"kampuferry","reservation_instructions")
         self.assertEqual(wrong["reason"],"deep_link_redirected_to_operator_home")
 
+    def test_200_route_redirect_to_other_operator_path_needs_review(self):
+        url="https://www.panstarcruise.com/product/osaka/info"
+        moved=v90.evaluate_response(url,Response(200,"https://www.panstarcruise.com/product/daemado/info",
+                             text="<html><title>Panstar Cruise</title><body>Tsushima Express</body></html>"),cfg,
+                             "panstar","route_info")
+        self.assertEqual(moved["classification"],"needs_review")
+        self.assertEqual(moved["reason"],"specific_booking_or_route_path_changed")
+
+    def test_200_correct_path_without_route_content_is_unverified(self):
+        url="https://www.panstarcruise.com/product/osaka/info"
+        changed=v90.evaluate_response(url,Response(200,url,text="<html><title>Panstar Cruise</title><body>General products</body></html>"),cfg,
+                             "panstar","route_info")
+        self.assertEqual(changed["classification"],"unverified")
+        self.assertEqual(changed["reason"],"route_specific_content_not_visible")
+
     def test_same_domain_unrelated_page_requires_investigation(self):
         src="https://www.kampuferry.co.jp/lang_kor/reserve/"
         wrong=v90.evaluate_response(src,Response(200,src,"<html><title>Shop</title><body>limited period sale</body></html>"),cfg,"kampuferry","reservation_instructions")
