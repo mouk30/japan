@@ -70,5 +70,11 @@
       "ferry"
     ]
   },
-  "max_redirects": 8
+  "max_redirects": 8,
+  "hub_route_info": {
+    "osaka": "https://www.panstarcruise.com/product/osaka/info",
+    "fukuoka": "https://www.koreaferry.kr/",
+    "shimonoseki": "https://www.kampuferry.co.jp/lang_kor/reserve/",
+    "tsushima": "https://www.panstarcruise.com/product/daemado/info"
+  }
 }
