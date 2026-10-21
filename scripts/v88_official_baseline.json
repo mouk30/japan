@@ -31,7 +31,7 @@
     }
   ],
   "koreaferry_notice_index": "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice",
-  "koreaferry_last_reviewed_id": 40,
+  "koreaferry_last_reviewed_id": 43,
   "koreaferry_tax_notice": "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=39",
   "koreaferry_tax_applies_through": "2026-12-31",
   "koreaferry_busan_fuel_krw": 14000,
@@ -67,5 +67,19 @@
     "fukuoka",
     "shimonoseki",
     "tsushima"
+  ],
+  "koreaferry_reviewed_notices": [
+    {
+      "id": 42,
+      "reviewed_on": "2026-10-21",
+      "url": "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=42",
+      "scope": "2026-12-29 to 2027-01-03 some temporary sailings have checked baggage unavailable; direction-specific operator table required"
+    },
+    {
+      "id": 43,
+      "reviewed_on": "2026-10-21",
+      "url": "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=43",
+      "scope": "2027-04-10 to 2027-04-30 reservation opening is expected to be temporarily on hold; vessel dry dock and cancellation not confirmed"
+    }
   ]
 }
