@@ -45,10 +45,18 @@ with sync_playwright() as playwright:
                     if preflight.locator("li").count()!=3:err(test,"expected precisely 3 route-specific checklist items")
                     if not geometry_ok(preflight,width):err(test,"checklist overflow or too narrow")
                     preflight.screenshot(path=str(OUT/f"{route}-{name}-preflight.png"),animations="disabled",timeout=22000)
-                for cls in (".nf86-intro",".nf86-booking",".nf86-side"):
+                for cls in (".nf86-intro",".nf86-booking"):
                     primary=page.locator(cls+" a.nf86-action-primary")
                     if primary.count()!=1 or primary.get_attribute("href")!=URLS[route]:
-                        err(test,cls+" original operator booking CTA broken")
+                        err(test,cls+" official booking CTA broken")
+                if page.locator(".nf86-intro a.nf86-action-secondary").count()!=1:
+                    err(test,"hero official route-information fallback missing")
+                if page.locator(".nf86-booking a.nf86-action-secondary").count()!=0 or page.locator(".nf86-side a.nf86-action").count()!=0:
+                    err(test,"duplicated secondary or sidebar outbound links remain")
+                if page.locator('.nf86-side a.nf92-side-link[href="#nf86-official-entry"]').count()!=1:
+                    err(test,"sidebar jump back to official booking missing")
+                if page.locator("a.nf86-action").count()!=3:
+                    err(test,"exactly three external operator CTAs required")
                 if page.locator('link[rel="canonical"]').get_attribute("href")!=BASE+path:
                     err(test,"canonical changed")
                 scroll=page.evaluate("document.documentElement.scrollWidth")
@@ -107,9 +115,10 @@ with sync_playwright() as playwright:
                             RESULT["actual_clicks"].append(event)
                     root.scroll_into_view_if_needed()
                     root.screenshot(path=str(OUT/f"hub-{group}-{name}.png"),animations="disabled",timeout=24000)
-                oldroot=page.locator(".nf86-hub-grid")
-                if oldroot.count()!=1 or oldroot.locator("a").count()!=4:
-                    err(test,"original four existing SEO/internal guide links disrupted")
+                if page.locator(".nf86-hub-grid").count()!=0:
+                    err(test,"old duplicated four-link grid still displayed")
+                if root.locator(".nf91-direct-secondary").count()!=4:
+                    err(test,"operator cards must retain four distinct factual guide links")
                 sw=page.evaluate("document.documentElement.scrollWidth")
                 if sw>width+9:err(test,"hub horizontal overflow "+str(sw))
                 test["scrollWidth"]=sw
