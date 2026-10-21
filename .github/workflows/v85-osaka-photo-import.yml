@@ -1,0 +1,33 @@
+name: V85 import verified Osaka Dotonbori image
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v85_import_osaka_licensed_photo.py'
+      - '.github/workflows/v85-osaka-photo-import.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  licensed-photo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow requests
+      - name: Import photo and verify recorded license metadata
+        run: python scripts/v85_import_osaka_licensed_photo.py
+      - name: Commit verified binary and source record
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/venues/nf-v85-osaka-dotonbori-licensed.webp site/images/venues/nf-v85-osaka-dotonbori-licensed.source.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V85 store licensed Osaka destination photo with verifiable Commons provenance"
+          git pull --rebase origin main
+          git push origin HEAD:main
