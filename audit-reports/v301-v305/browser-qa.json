@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19T23:10:49.457Z",
+  "date": "2026-10-21T11:22:48.639Z",
   "siteTotal": 1275,
   "unifiedHeaders": 1269,
   "withoutOriginalHeader": 6,
@@ -7,7 +7,7 @@
     {
       "pathname": "/",
       "width": 320,
-      "doc": 327,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -21,9 +21,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": null,
-      "issues": [
-        "horizontal overflow 327"
-      ]
+      "issues": []
     },
     {
       "pathname": "/",
@@ -123,7 +121,7 @@
     {
       "pathname": "/japan/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -137,9 +135,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/",
@@ -355,7 +351,7 @@
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -369,9 +365,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
@@ -471,7 +465,7 @@
     {
       "pathname": "/japan-cruise/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -485,9 +479,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/japan-cruise/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan-cruise/",
@@ -703,7 +695,7 @@
     {
       "pathname": "/things-to-do/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -717,9 +709,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/",
@@ -819,7 +809,7 @@
     {
       "pathname": "/things-to-do/cruise-ports/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -833,9 +823,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/cruise-ports/",
@@ -935,7 +923,7 @@
     {
       "pathname": "/things-to-do/travel-companions/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -949,9 +937,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/travel-companions/",
@@ -1051,7 +1037,7 @@
     {
       "pathname": "/things-to-do/naha-cruise-port-day-trip/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1065,9 +1051,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/naha-cruise-port-day-trip/",
@@ -1395,7 +1379,7 @@
     {
       "pathname": "/food/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1409,9 +1393,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/food/",
@@ -1511,7 +1493,7 @@
     {
       "pathname": "/shopping/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1525,9 +1507,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/shopping/",
@@ -1627,7 +1607,7 @@
     {
       "pathname": "/seasons/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1641,9 +1621,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/seasons/",
@@ -1743,7 +1721,7 @@
     {
       "pathname": "/photo-spots/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1757,9 +1735,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/photo-spots/",
@@ -1975,7 +1951,7 @@
     {
       "pathname": "/practical/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1989,9 +1965,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/practical/",
@@ -2091,7 +2065,7 @@
     {
       "pathname": "/couple/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -2105,9 +2079,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/couple/",
@@ -2207,7 +2179,7 @@
     {
       "pathname": "/life/don-quijote-first-guide/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -2221,9 +2193,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/life/don-quijote-first-guide/",
@@ -2322,24 +2292,9 @@
     }
   ],
   "errors": [
-    "/ 320: horizontal overflow 327",
-    "/japan/ 320: horizontal overflow 328",
     "/japan/tokyo/ 320: horizontal overflow 328",
-    "/japan/tokyo/disney-dpa-app-purchase/ 320: horizontal overflow 328",
-    "/japan-cruise/ 320: horizontal overflow 328",
     "/booking/japan-cruise/ 320: horizontal overflow 328",
-    "/things-to-do/ 320: horizontal overflow 328",
-    "/things-to-do/cruise-ports/ 320: horizontal overflow 328",
-    "/things-to-do/travel-companions/ 320: horizontal overflow 328",
-    "/things-to-do/naha-cruise-port-day-trip/ 320: horizontal overflow 328",
-    "/food/ 320: horizontal overflow 328",
-    "/shopping/ 320: horizontal overflow 328",
-    "/seasons/ 320: horizontal overflow 328",
-    "/photo-spots/ 320: horizontal overflow 328",
-    "/voucher/ 320: horizontal overflow 328",
-    "/practical/ 320: horizontal overflow 328",
-    "/couple/ 320: horizontal overflow 328",
-    "/life/don-quijote-first-guide/ 320: horizontal overflow 328"
+    "/voucher/ 320: horizontal overflow 328"
   ],
   "warnings": [],
   "navDestinations": [
