@@ -74,6 +74,25 @@ with sync_playwright() as p:
                 active=page.evaluate("""() => [...document.querySelectorAll('.guide-section')].filter(s=>!s.hidden).map(x=>x.id)""")
                 record["filterChecks"].append({"clicked":mode,"visible":active,"ok":active==[mode]})
             record["pass"]=record["pass"] and all(x["ok"] for x in record["filterChecks"])
+            # Inspect existing 15 parent article cards, not only the three entrance cards.
+            page.locator('#nf-v83-companions .nf83-action[href="#parents"]').click()
+            guide=page.locator('#parents .guide-card').first
+            guide.scroll_into_view_if_needed(timeout=15000)
+            guide.locator('img').first.evaluate("(el)=>{el.loading='eager';}")
+            guide.locator('img').first.evaluate("(el)=>el.decode()")
+            guide.screenshot(path=str(OUT/f"{device}-existing-parent-guide.png"),timeout=15000)
+            record["existingCard"]=page.evaluate("""() => {
+                const cs=[...document.querySelectorAll('#parents .guide-card')];
+                const a=cs[0],b=cs[1],img=a.querySelector('img');
+                const r=a.getBoundingClientRect(),s=b.getBoundingClientRect();
+                return {width:r.width,secondLeft:s.left,firstLeft:r.left,secondTop:s.top,firstTop:r.top,
+                  titlePx:parseFloat(getComputedStyle(a.querySelector('h3')).fontSize),
+                  detailPx:parseFloat(getComputedStyle(a.querySelector('p')).fontSize),
+                  photoWidth:img.getBoundingClientRect().width,
+                  imgLoaded:img.naturalWidth>200,
+                  mobileStacked:s.top>r.top+50};
+            }""")
+            record["pass"]=record["pass"] and record["existingCard"]["titlePx"]>=25 and record["existingCard"]["detailPx"]>=16 and record["existingCard"]["imgLoaded"] and (record["existingCard"]["mobileStacked"] if device=="mobile" else True)
             page.locator("#nf-v83-companions").screenshot(path=str(OUT/f"{device}-section.png"),timeout=30000)
         except Exception as e:
             record["pass"]=False;record["error"]=str(e)[:750]
