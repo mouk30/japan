@@ -11,7 +11,7 @@ EVENTS={"ferry_operator_click","ferry_info_open","ferry_route_select","ferry_hub
 ROUTES={"osaka","fukuoka","shimonoseki","tsushima"}
 SOURCES={"ferry_hub","booking_hub","route_guide","editorial","home"}
 def canonical(s):
-    return re.sub(r"[^a-z0-9]","",str(s or "").lower())
+    return re.sub(r"[^a-z0-9가-힣]","",str(s or "").lower())
 def parse_rows(path):
     with open(path,encoding="utf-8-sig",newline="") as f:
         reader=csv.DictReader(f)
