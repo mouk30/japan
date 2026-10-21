@@ -12,7 +12,7 @@ import json
 import re
 import sys
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -27,7 +27,8 @@ HEADERS = {
 TIMEOUT = (12, 30)
 NOTICE_WORDS = (
     "유류", "할증", "운임", "결항", "운항", "스케줄", "일정", "예약",
-    "변경", "중단", "surcharge", "cancel", "sailing", "fare", "schedule",
+    "변경", "중단", "위탁수하물", "접수", "안전", "지연", "임시", "점검",
+    "surcharge", "cancel", "sailing", "fare", "schedule", "maintenance", "baggage",
 )
 def tidy(value):
     return re.sub(r"\s+", " ", html.unescape(str(value))).strip()
@@ -106,6 +107,53 @@ def semantic_document(soup, provider):
     words = tidy(node.get_text(" ", strip=True))
     photos = sorted(img.get("src", "") for img in node.select("img[src]"))
     return official_signature({"text": words, "images": photos}) if words or photos else None
+
+def korea_ferry_tax_images(session, soup, source_url, max_images=3, max_bytes=4_000_000):
+    """Hash current bytes of official TAX notice images, never infer price values."""
+    if soup is None:
+        return {}
+    node = soup.select_one("#bo_v_con") or soup.select_one("#bo_v_atc") or soup.select_one("article")
+    node = node or soup
+    allowed_host = urlparse(source_url).hostname or ""
+    results = {}
+    for img in node.select("img[src]"):
+        if len(results) >= max_images:
+            break
+        url = urljoin(source_url, img.get("src", ""))
+        host = urlparse(url).hostname or ""
+        if urlparse(url).scheme != "https" or (host != allowed_host and not host.endswith("." + allowed_host)):
+            continue
+        if url in results:
+            continue
+        try:
+            with session.get(url, headers=HEADERS, timeout=TIMEOUT, stream=True, allow_redirects=True) as response:
+                final_host = urlparse(response.url).hostname or ""
+                if final_host != allowed_host and not final_host.endswith("." + allowed_host):
+                    results[url] = {"status": "redirected_offsite"}
+                    continue
+                if response.status_code != 200:
+                    results[url] = {"status": "http_error", "code": response.status_code}
+                    continue
+                if not response.headers.get("Content-Type", "").lower().startswith("image/"):
+                    results[url] = {"status": "not_an_image"}
+                    continue
+                digest = hashlib.sha256()
+                total = 0
+                for chunk in response.iter_content(chunk_size=65536):
+                    if chunk:
+                        total += len(chunk)
+                        if total > max_bytes:
+                            break
+                        digest.update(chunk)
+                if total == 0:
+                    results[url] = {"status": "empty"}
+                elif total > max_bytes:
+                    results[url] = {"status": "too_large"}
+                else:
+                    results[url] = {"status": "ok", "sha256": digest.hexdigest(), "bytes": total}
+        except requests.RequestException as exc:
+            results[url] = {"status": "fetch_failed", "error": type(exc).__name__}
+    return results
 
 def scan_existing_site(cfg):
     scans = []
@@ -249,7 +297,17 @@ def run(today=None, offline=False):
     k_url = cfg["koreaferry_tax_notice"]
     soup, source = fetch(session, k_url)
     source["semantic_fingerprint"] = semantic_document(soup, "koreaferry")
+    source["image_digests"] = korea_ferry_tax_images(session, soup, k_url)
     report["sources"]["koreaferry_tax_notice"] = source
+    previous_images = previous.get("sources", {}).get("koreaferry_tax_notice", {}).get("image_digests", {})
+    for image_url, info in source["image_digests"].items():
+        old_image = previous_images.get(image_url, {})
+        if old_image.get("status") == "ok" and info.get("status") == "ok" and old_image.get("sha256") != info.get("sha256"):
+            report["review_items"].append({"kind": "quarterly_tax_image_changed", "route": "fukuoka",
+                "message": "Official TAX image at the same URL has changed: manually verify the amount and date", "url": image_url})
+        elif info.get("status") != "ok":
+            report["review_items"].append({"kind": "quarterly_tax_image_unverified", "route": "fukuoka",
+                "message": "Cannot safely compare current official TAX image", "url": image_url})
     old_fingerprint = previous.get("sources", {}).get("koreaferry_tax_notice", {}).get("semantic_fingerprint")
     if old_fingerprint and source["semantic_fingerprint"] and old_fingerprint != source["semantic_fingerprint"]:
         report["review_items"].append({"kind": "quarterly_tax_notice_edited", "route": "fukuoka",
