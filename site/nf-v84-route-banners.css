@@ -66,6 +66,6 @@ body.nf-premium-v2 .nf84-home__meta a{color:#17658b}
  body.nf-premium-v2 .nf84-home__content h2{font-size:clamp(31px,8vw,41px)}
  body.nf-premium-v2 .nf84-home__content p{font-size:17px}
  body.nf-premium-v2 .nf84-home__content a{font-size:16px}
- body.nf-premium-v2 .nf84-home__meta{font-size:14px;line-height:1.75}
+ body.nf-premium-v2 .nf84-home__meta{font-size:14px;line-height:1.75;padding-right:70px;padding-bottom:18px}
 }
 @media(prefers-reduced-motion:reduce){body.nf-premium-v2 .nf84-route img{transition:none}}
