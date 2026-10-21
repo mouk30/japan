@@ -1,0 +1,35 @@
+name: V99 GA4 operator attribution integrity
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v99_ga4_attribution_qa.py'
+      - 'tests/test_v99_ga4_attribution_qa.py'
+      - '.github/workflows/v99-ga4-attribution-qa.yml'
+permissions:
+  contents: read
+jobs:
+  taxonomy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify route/operator/booking-step integrity without actual visitor data
+        run: python -m unittest discover -s tests -p 'test_v99_ga4_attribution_qa.py' -v
+      - name: Confirm no GA4 data does not imply zero bookings
+        run: |
+          python scripts/v99_ga4_attribution_qa.py --output private-analytics/v99-no-data
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path=Path('private-analytics/v99-no-data/report.json')
+          value=json.loads(path.read_text('utf8'))
+          assert value['operator_clicks'] is None
+          assert value['problem_events'] is None
+          assert value['status']=='awaiting_real_ga4_data'
+          print('V99 real event data absent: all result counts remain unknown.')
+          PY
