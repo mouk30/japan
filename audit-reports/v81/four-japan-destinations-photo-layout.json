@@ -1,0 +1,72 @@
+{
+  "version": "V81",
+  "date": "2026-10-21",
+  "scope": "existing /japan/ destination hub only",
+  "page": "https://www.nipponferry.com/japan/",
+  "new_posts": 0,
+  "status": "published_and_checked_PC_mobile",
+  "changes": [
+    "Added four photo-first cards for Tokyo, Okinawa, Fukuoka, Nagasaki before old directory",
+    "Kept all existing hub links, article pages, canonical, metadata, favicon and original directory",
+    "Desktop two columns and mobile single column with readable text, large buttons and photo attribution"
+  ],
+  "photo_policy": "Photographs depict their exact named tourist attractions; they do not show cruise terminals, berths or real-time operating conditions",
+  "photos": [
+    {
+      "destination": "Tokyo",
+      "image": "/images/venues/tokyo-city-night-real.webp",
+      "depicts": "Tokyo Tower and Minato City skyline",
+      "year": 2025,
+      "photographer": "David Kernan",
+      "rights": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower,_Minato_City.jpg",
+      "link": "/japan/tokyo/"
+    },
+    {
+      "destination": "Okinawa",
+      "image": "/images/venues/naha-shureimon.webp",
+      "depicts": "Shureimon gate in Naha, not a cruise terminal",
+      "year": 2006,
+      "photographer": "nnh",
+      "rights": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Shurei-mon.jpeg",
+      "link": "/okinawa/"
+    },
+    {
+      "destination": "Fukuoka",
+      "image": "/images/venues/fukuoka-ohori-park.webp",
+      "depicts": "Ukimido pavilion at Ohori Park, not Hakata Port",
+      "year": 2026,
+      "photographer": "Hirho",
+      "rights": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%8Chori_Park_The_view_NNE_from_Ukimid%C5%8D_%C5%8Chorik%C5%8Den_Ch%C5%AB%C5%8D-ku_Fukuoka_20260609_154008.jpg",
+      "link": "/japan/fukuoka/"
+    },
+    {
+      "destination": "Nagasaki",
+      "image": "/images/venues/nagasaki-glover-garden.webp",
+      "depicts": "Former Ringer House at Glover Garden, not Matsugae berth",
+      "year": 2007,
+      "photographer": "Fg2",
+      "rights": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5384.jpg",
+      "link": "/things-to-do/nagasaki-matsugae-glover-garden-cruise-access/"
+    }
+  ],
+  "qa": {
+    "run": "https://github.com/mouk30/japan/actions/runs/39526354032",
+    "desktop": "PASS (1440×900)",
+    "mobile": "PASS (390×844)",
+    "cards": "4/4 images loaded and source links rendered",
+    "css": "published and parsed",
+    "mobile_overflow": false,
+    "canonical": "https://www.nipponferry.com/japan/",
+    "screenshots": "Artifact: v81-four-japan-destinations-pc-mobile (8 cards plus two sections)",
+    "large_button_height": "71.25 px",
+    "limitations": [
+      "Actual automated browser screenshot renders verified; physical smartphone models not checked",
+      "Photo rights depend on original Commons author declarations; current street views and transport operations not proven",
+      "Nagasaki regional travel page /japan/nagasaki/ does not exist; card reuses existing cruise-port walk guide rather than creating a new page"
+    ]
+  }
+}
