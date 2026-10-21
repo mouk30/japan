@@ -1,0 +1,80 @@
+name: V103 four route official source-link audit
+on:
+  workflow_dispatch:
+  schedule:
+    # Around 11:43 KST, GitHub scheduled jobs may start late.
+    - cron: '43 2 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'site/ferry/index.html'
+      - 'site/booking/japan-cruise/index.html'
+      - 'site/guide/busan-**/index.html'
+      - 'scripts/v90_booking_link_targets.json'
+      - 'scripts/v103_core_official_links.py'
+      - 'tests/test_v103_core_official_links.py'
+      - '.github/workflows/v103-ferry-official-source-qa.yml'
+permissions:
+  contents: read
+  issues: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install HTTP source verification dependencies
+        run: python -m pip install requests
+      - name: Validate source URL completeness and live check classifications
+        run: python -m unittest discover -s tests -p 'test_v103_core_official_links.py' -v
+      - name: Probe each distinct official source once, distinguishing blocked/uncertain from broken
+        run: python scripts/v103_core_official_links.py --live
+      - name: Publish source audit status in GitHub Actions summary
+        if: always()
+        run: |
+          if [ -f audit-output/v103-official-link-inventory/summary.md ]; then
+            cat audit-output/v103-official-link-inventory/summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Open or update a single human-review issue only for actionable confirmed failures
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY' > /tmp/v103-issue.md
+          import json
+          from pathlib import Path
+          p=Path('audit-output/v103-official-link-inventory/report.json')
+          d=json.loads(p.read_text('utf8'))
+          items=d.get('review_items',[])
+          if items:
+              print('# V103: Confirmed review needed for ferry official source links')
+              print()
+              print('Open the source, verify the actual operator URL, and only then edit the indexed pages.')
+              print()
+              for x in items:
+                  print('- URL: '+x['url'])
+                  print('  - Reason: '+x['reason'])
+                  print('  - HTTP: '+str(x.get('http_status','unknown')))
+              print()
+              print('Run: https://github.com/mouk30/japan/actions/runs/'+str(${{ github.run_id }}))
+              print('Automatic scanning does not modify public booking links, fares or schedules.')
+          PY
+          if [ -s /tmp/v103-issue.md ]; then
+            existing="$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 --json number,title --jq '.[] | select(.title == "[V103] Official ferry source link needs review") | .number' | head -n1)"
+            if [ -n "$existing" ]; then
+              gh issue comment "$existing" --repo "$GITHUB_REPOSITORY" --body-file /tmp/v103-issue.md
+            else
+              gh issue create --repo "$GITHUB_REPOSITORY" --title "[V103] Official ferry source link needs review" --body-file /tmp/v103-issue.md
+            fi
+          fi
+      - name: Archive all checks including unverified access/timeout
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v103-official-operator-link-audit
+          path: audit-output/v103-official-link-inventory/
+          retention-days: 60
+          if-no-files-found: warn
