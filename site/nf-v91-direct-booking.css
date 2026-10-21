@@ -1,0 +1,35 @@
+/* V91 — conversion clarity, concise route-specific checklists and one-click operator destinations.
+   Existing canonical article routes, V86 CTAs and Kakao controls stay intact. */
+body.nf-premium-v2 .nf91-preflight{margin:17px 0 19px;padding:16px 17px;border:1px solid #c8dfeb;border-radius:13px;background:rgba(248,252,255,.98);color:#19435c}
+body.nf-premium-v2 .nf91-preflight>strong{display:block;color:#073c5a;font-size:17px;line-height:1.45;margin-bottom:11px}
+body.nf-premium-v2 .nf91-preflight ul{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;list-style:none!important;padding:0!important;margin:0!important}
+body.nf-premium-v2 .nf91-preflight li{display:flex;gap:8px;align-items:flex-start;min-width:0;padding:10px;border:1px solid #d3e3e9;border-radius:9px;background:#fff;font-size:14px;line-height:1.55;color:#244c64;word-break:keep-all}
+body.nf-premium-v2 .nf91-preflight li::before{content:'✓';flex:none;font-size:14px;font-weight:900;color:#15769b}
+body.nf-premium-v2 .nf91-preflight .nf91-preflight__fine{font-size:12px;line-height:1.6;margin:9px 0 0;color:#506e7c}
+body.nf-premium-v2 .nf91-shortcuts{margin:18px 0 8px}
+body.nf-premium-v2 .nf91-shortcuts>strong{display:block;color:#0a3c59;font-size:16px;margin-bottom:12px;line-height:1.55}
+body.nf-premium-v2 .nf91-direct-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:0 0 10px}
+body.nf-premium-v2 .nf91-direct-item{display:flex;flex-direction:column;gap:8px;min-width:0;background:#fff;border:1px solid #c9e0ea;padding:15px;border-radius:13px}
+body.nf-premium-v2 .nf91-direct-item>strong{font-size:17px;line-height:1.35;color:#0b3a58}
+body.nf-premium-v2 .nf91-direct-item>p{margin:0 0 3px;color:#49677b;font-size:14px;line-height:1.65;word-break:keep-all}
+body.nf-premium-v2 a.nf91-direct-primary{display:flex;align-items:center;justify-content:center;min-height:55px;width:100%;border-radius:10px;background:#0b456e;color:#fff!important;padding:12px;text-align:center;font-weight:900;font-size:15px;text-decoration:none!important;line-height:1.4}
+body.nf-premium-v2 a.nf91-direct-secondary{display:inline-flex;align-items:center;justify-content:center;min-height:40px;border-radius:9px;color:#0a537d!important;background:#f3f9fc;border:1px solid #d1e5ee;text-decoration:none!important;font-weight:850;font-size:14px;padding:8px 12px;line-height:1.4;text-align:center}
+body.nf-premium-v2 .nf91-shortcuts__disclaimer{margin:12px 0 0;font-size:13px;line-height:1.7;color:#466579;word-break:keep-all}
+body.nf-premium-v2 .nf91-shortcuts a:focus-visible,
+body.nf-premium-v2 .nf91-preflight a:focus-visible{outline:3px solid #d6a05e;outline-offset:3px}
+@media(max-width:740px){
+ body.nf-premium-v2 .nf91-preflight{padding:14px;margin:16px 0}
+ body.nf-premium-v2 .nf91-preflight ul{grid-template-columns:1fr;gap:6px}
+ body.nf-premium-v2 .nf91-preflight li{font-size:14px;padding:10px}
+ body.nf-premium-v2 .nf91-direct-grid{grid-template-columns:1fr;gap:11px}
+ body.nf-premium-v2 .nf91-direct-item{padding:13px}
+ body.nf-premium-v2 .nf91-direct-item>strong{font-size:16px}
+ body.nf-premium-v2 a.nf91-direct-primary{min-height:56px}
+}
+/* Booking hub's Kakao button is fixed near the right edge on narrow phones. */
+@media(max-width:680px){
+ body.nf-premium-v2 #official-ferry-routes .nf91-shortcuts .nf91-direct-grid,
+ body.nf-premium-v2 #nf91-direct-operators .nf91-direct-grid{padding-right:76px}
+ body.nf-premium-v2 #official-ferry-routes .nf91-shortcuts__disclaimer,
+ body.nf-premium-v2 #nf91-direct-operators .nf91-shortcuts__disclaimer{padding-right:76px}
+}
