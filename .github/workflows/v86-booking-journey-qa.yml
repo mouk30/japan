@@ -1,0 +1,38 @@
+name: V86 official booking journey desktop mobile QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/guide/busan-osaka-ferry/index.html'
+      - 'site/guide/busan-fukuoka-ferry/index.html'
+      - 'site/guide/busan-shimonoseki-ferry/index.html'
+      - 'site/guide/busan-tsushima-ferry/index.html'
+      - 'site/booking/japan-cruise/index.html'
+      - 'site/ferry/index.html'
+      - 'site/nf-v86-booking-journey.css'
+      - 'scripts/v86_booking_journey_browser_qa.py'
+      - '.github/workflows/v86-booking-journey-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live-v86:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Test production four operator CTA journeys on 1440 390 and 360px
+        run: python scripts/v86_booking_journey_browser_qa.py
+      - name: Save real screenshots and test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v86-official-booking-pc-mobile
+          path: audit-output/v86-booking-journey/
+          retention-days: 30
+          if-no-files-found: warn
