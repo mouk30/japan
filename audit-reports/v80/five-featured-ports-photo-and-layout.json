@@ -1,0 +1,75 @@
+{
+  "version": "V80",
+  "date": "2026-10-21",
+  "purpose": "Cruise-ports index premium 5 large cards for older readers with truthful photographed attraction provenance",
+  "changed_existing_pages": [
+    "site/things-to-do/cruise-ports/index.html"
+  ],
+  "new_posts": 0,
+  "photo_policy": "Photos show named nearby sightseeing landmarks, NOT passenger gates or cruise docks. Date, photographer and original photo rights shown in each card.",
+  "photos": [
+    {
+      "port": "Naha",
+      "photo": "/images/venues/naha-shureimon.webp",
+      "depicts": "Shureimon (Shuri Castle), NOT Naha passenger berth",
+      "source": "https://commons.wikimedia.org/wiki/File:Shurei-mon.jpeg",
+      "author": "nnh",
+      "year": 2006,
+      "license": "Public domain"
+    },
+    {
+      "port": "Hakata/Fukuoka",
+      "photo": "/images/venues/fukuoka-ohori-park.webp",
+      "depicts": "Ōhori Park Ukimidō pavilion, NOT Hakata cruise terminal",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%8Chori_Park_The_view_NNE_from_Ukimid%C5%8D_%C5%8Chorik%C5%8Den_Ch%C5%AB%C5%8D-ku_Fukuoka_20260609_154008.jpg",
+      "author": "Hirho",
+      "year": 2026,
+      "license": "CC BY 4.0"
+    },
+    {
+      "port": "Nagasaki",
+      "photo": "/images/venues/nagasaki-glover-garden.webp",
+      "depicts": "Former Ringer House at Glover Garden, NOT Matsugae Pier",
+      "source": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5384.jpg",
+      "author": "Fg2",
+      "year": 2007,
+      "license": "Public domain"
+    },
+    {
+      "port": "Ishigaki",
+      "photo": "/images/venues/ishigaki-kabira-bay.webp",
+      "depicts": "Kabira Bay glass-bottom boat and beach, NOT Shin-Port Pier",
+      "source": "https://commons.wikimedia.org/wiki/File:Kabira_Bay_Ishigaki_Island23n4500.jpg",
+      "author": "663highland",
+      "year": 2011,
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "port": "Yokohama",
+      "photo": "/images/venues/yokohama-redbrick-waterfront.webp",
+      "depicts": "Yokohama Red Brick Warehouse, NOT a cruise passenger berth",
+      "source": "https://commons.wikimedia.org/wiki/File:Yokohama_Red_Brick_Warehouse.jpg",
+      "author": "Fred Cherrygarden",
+      "year": 2024,
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "qa": {
+    "workflow": "https://github.com/mouk30/japan/actions/runs/39524124445",
+    "live_desktop_1440": "passed",
+    "live_mobile_390": "passed",
+    "photos_rendered_after_scroll": "5/5 each viewport",
+    "image_intrinsic_dimensions": "5/5",
+    "visible_card_width": "5/5",
+    "caption_original_license_links": "5/5",
+    "source_images": "5 existing real WebP images, no new photos uploaded",
+    "screenshots": "v80-five-port-real-browser artifact individual screenshots 10 + full section desktop/mobile",
+    "seo_85_pages": "https://github.com/mouk30/japan/actions/runs/39523646224"
+  },
+  "limits": [
+    "Screenshots captured from Playwright Chromium, not every physical smartphone or browser",
+    "Camera date does not certify present-day pier arrangement, transit, openings or vessel schedule",
+    "Public-domain assertion and CC claims rely on Wikimedia Commons source declarations",
+    "Two Public-domain photo original and rights links intentionally refer to the same Commons source page"
+  ]
+}
