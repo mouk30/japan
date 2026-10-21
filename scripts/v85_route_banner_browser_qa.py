@@ -94,6 +94,8 @@ with sync_playwright() as p:
                           imageLoaded:photo?.complete && photo?.naturalWidth>350,
                           imageWidth:photo?.naturalWidth,
                           captionOverlap:!!(cr && dr && cr.top < dr.bottom+8),
+                          captionTouchesButtons:!!(cr && links.some(a=>{const b=a.getBoundingClientRect();return b.bottom > cr.top-10 && b.top < cr.bottom+4;})),
+                          creditFont:caption?Number.parseFloat(getComputedStyle(caption).fontSize):null,
                           horizontalOverflow:ir && (ir.right>R.right+3 || ir.left<R.left-3),
                           buttons:links.map(a=>{
                             let b=a.getBoundingClientRect();
@@ -103,6 +105,8 @@ with sync_playwright() as p:
                     }""")
                     if not item["imageLoaded"]:record["issues"].append(f"banner {i+1} image missing")
                     if item["captionOverlap"]:record["issues"].append(f"banner {i+1} caption overlaps content")
+                    if item["captionTouchesButtons"]:record["issues"].append(f"banner {i+1} photo credit overlaps CTA buttons")
+                    if item["creditFont"] is not None and item["creditFont"] < 12:record["issues"].append(f"banner {i+1} photo credit too small ({item['creditFont']}px)")
                     if item["horizontalOverflow"]:record["issues"].append(f"banner {i+1} content outside card")
                     for button in item["buttons"]:
                         if button["left"]< -1 or button["right"]>width+1:
