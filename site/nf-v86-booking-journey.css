@@ -44,3 +44,11 @@ body.nf-premium-v2 .nf86-hub-grid a{display:flex;align-items:center;justify-cont
 body.nf-premium-v2 .nf86-hub-steps p.nf86-hub-trust{font-size:14px;color:#426177;margin:18px 0 0}
 body.nf-premium-v2 .nf86-hub-grid a:focus-visible{outline:3px solid #d6a46e;outline-offset:3px}
 @media(max-width:680px){body.nf-premium-v2 .nf86-hub-grid{grid-template-columns:1fr}body.nf-premium-v2 .nf86-hub-grid a{font-size:16px;min-height:58px}}
+
+/* V86 mobile finish: keep booking trust notes clear of persistent Kakao overlay. */
+body.nf-premium-v2 #nf86-official-entry{scroll-margin-top:108px}
+body.nf-premium-v2 #official-ferry-routes{scroll-margin-top:92px}
+@media(max-width:680px){
+ body.nf-premium-v2 #official-ferry-routes .nf86-hub-trust{padding-right:76px;padding-bottom:24px;min-height:85px}
+ body.nf-premium-v2 .nf86-hub-steps{padding-bottom:30px}
+}
