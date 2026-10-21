@@ -10,6 +10,7 @@ on:
       - 'site/guide/busan-tsushima-ferry/index.html'
       - 'site/nf-v90-booking-link-trust.css'
       - 'scripts/v90_booking_mobile_browser_qa.py'
+      - 'scripts/v90_booking_link_targets.json'
       - '.github/workflows/v90-booking-mobile-qa.yml'
 permissions:
   contents: read
