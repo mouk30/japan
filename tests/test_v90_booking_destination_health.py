@@ -51,6 +51,20 @@ class V90Tests(unittest.TestCase):
         self.assertEqual(changed["classification"],"unverified")
         self.assertEqual(changed["reason"],"route_specific_content_not_visible")
 
+    def test_long_unrelated_200_body_is_actionable_wrong_screen(self):
+        url="https://www.panstarcruise.com/product/osaka/info"
+        page="<html><title>Other products</title><body>" + ("completely unrelated entertainment shopping " * 15) + "</body></html>"
+        value=v90.evaluate_response(url,Response(200,url,text=page),cfg,"panstar","route_info")
+        self.assertEqual(value["classification"],"needs_review")
+        self.assertEqual(value["reason"],"substantial_unexpected_operator_content")
+
+    def test_long_correct_operator_wrong_route_is_actionable(self):
+        url="https://www.panstarcruise.com/product/osaka/info"
+        page="<html><title>Panstar Cruise</title><body>" + ("Tsushima Ferry departure information " * 13) + "</body></html>"
+        value=v90.evaluate_response(url,Response(200,url,text=page),cfg,"panstar","route_info")
+        self.assertEqual(value["classification"],"needs_review")
+        self.assertEqual(value["reason"],"wrong_route_or_unrelated_official_content")
+
     def test_same_domain_unrelated_page_requires_investigation(self):
         src="https://www.kampuferry.co.jp/lang_kor/reserve/"
         wrong=v90.evaluate_response(src,Response(200,src,"<html><title>Shop</title><body>limited period sale</body></html>"),cfg,"kampuferry","reservation_instructions")
