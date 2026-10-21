@@ -32,7 +32,7 @@ with sync_playwright() as p:
     check(page.locator(".nf93-consent").count()==1,"Consent dialog visible with test GA4 stream configured")
     check(page.locator(".nf93-consent").is_visible(),"No pre-opt-in hidden collection")
     check(len(ga_requests)==0,"Zero requests to Google before visitor consent")
-    check(page.evaluate("typeof window.gtag")==="undefined","No GA4 API before visitor consent")
+    check(page.evaluate("typeof window.gtag")=="undefined","No GA4 API before visitor consent")
     page.locator(".nf93-reject").click()
     check(not page.locator(".nf93-consent").is_visible(),"Reject closes opt-in prompt")
     check(len(ga_requests)==0,"No GA request after explicit refusal")
@@ -46,7 +46,7 @@ with sync_playwright() as p:
     page.locator(".nf93-manage").click()
     check(page.locator(".nf93-consent").is_visible(),"Visitor can reopen consent settings")
     page.locator(".nf93-accept").click()
-    check(page.evaluate("typeof window.gtag")==="function","GTAG API initialized after explicit consent")
+    check(page.evaluate("typeof window.gtag")=="function","GTAG API initialized after explicit consent")
     check(len(ga_requests)>=1,"GA4 library loads only after consent")
     check(not page.locator(".nf93-consent").is_visible(),"Consent prompt hidden after decision")
 
@@ -99,7 +99,7 @@ with sync_playwright() as p:
     popup.value.close()
     check(len(events(page))==before,"Previously accepted consent can be revoked; subsequent clicks not recorded")
     page.reload(wait_until="domcontentloaded")
-    check(len(ga_requests)>=1 and page.evaluate("typeof window.gtag")==="undefined",
+    check(len(ga_requests)>=1 and page.evaluate("typeof window.gtag")=="undefined",
           "After revocation and reload GA4 no longer initializes")
     check(not page.locator(".nf93-consent").is_visible(),
           "Stored explicit refusal honored on later page loads")
