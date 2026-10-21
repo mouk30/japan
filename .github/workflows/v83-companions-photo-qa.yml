@@ -1,0 +1,31 @@
+name: V83 family parents couple photo cards and 45 guides QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/nf-v83-companions-wide.css'
+      - 'scripts/v83_companions_browser_qa.py'
+      - '.github/workflows/v83-companions-photo-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Check published 3 large cards and 45-guide filters PC/mobile
+        run: python scripts/v83_companions_browser_qa.py
+      - name: Save actual desktop/mobile screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v83-companions-pc-mobile
+          path: audit-output/v83-companions/
+          if-no-files-found: warn
