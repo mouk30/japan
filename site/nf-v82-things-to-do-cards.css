@@ -1,0 +1,49 @@
+/* V82 — large trusted theme cards for NIPPONFERRY's existing Things To Do hub.
+   Every photograph is an attributed *example* of its category, not proof of a current attraction's operation. */
+body.nf-premium-v2 .nf-v82-showcase{background:linear-gradient(180deg,#f7fbfc,#fff);padding:clamp(46px,5vw,78px) 0 clamp(50px,5.5vw,84px);color:#112f47;border-bottom:1px solid #e0eaf0}
+body.nf-premium-v2 .nf-v82-shell{width:min(1360px,calc(100% - 70px));margin-inline:auto}
+body.nf-premium-v2 .nf-v82-heading{display:flex;align-items:end;justify-content:space-between;gap:26px;margin-bottom:29px}
+body.nf-premium-v2 .nf-v82-eyebrow{display:block;font-size:14px;color:#9b713f;font-weight:850;letter-spacing:.14em;line-height:1.5;margin:0 0 11px}
+body.nf-premium-v2 .nf-v82-heading h2{font-size:clamp(32px,3.7vw,51px);letter-spacing:-.05em;line-height:1.2;margin:0;color:#092e4c}
+body.nf-premium-v2 .nf-v82-heading>p{font-size:18px;line-height:1.8;color:#48687a;max-width:380px;margin:0}
+body.nf-premium-v2 .nf-v82-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+body.nf-premium-v2 .nf-v82-card{display:flex;flex-direction:column;min-width:0;background:#fff;border:1px solid #deebf0;border-radius:19px;box-shadow:0 15px 35px rgba(4,39,73,.09);overflow:hidden}
+body.nf-premium-v2 .nf-v82-media{position:relative;display:block;aspect-ratio:16/10;overflow:hidden;background:#e1edf2;text-decoration:none}
+body.nf-premium-v2 .nf-v82-media img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .26s ease}
+body.nf-premium-v2 .nf-v82-media:hover img{transform:scale(1.025)}
+body.nf-premium-v2 .nf-v82-pill{position:absolute;top:18px;left:19px;background:rgba(4,35,64,.90);color:white;font-size:16px;font-weight:850;padding:9px 15px;line-height:1.35;border-radius:40px;border:1px solid #ffffff66}
+body.nf-premium-v2 .nf-v82-photo-place{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(2,22,40,.9));color:#fff;padding:31px 21px 13px;font-size:15px;line-height:1.55;font-weight:780}
+body.nf-premium-v2 .nf-v82-body{padding:27px 28px 21px;display:flex;flex-direction:column;gap:12px;flex:1}
+body.nf-premium-v2 .nf-v82-number{color:#967244;letter-spacing:.12em;font-size:13px;font-weight:850}
+body.nf-premium-v2 .nf-v82-body h3{margin:0;font-size:clamp(29px,2.65vw,38px);line-height:1.27;color:#0b3557;letter-spacing:-.05em}
+body.nf-premium-v2 .nf-v82-body h3 a{color:inherit;text-decoration:none}
+body.nf-premium-v2 .nf-v82-body>p{font-size:18px;line-height:1.76;margin:0;color:#38596e;word-break:keep-all;flex:1}
+body.nf-premium-v2 .nf-v82-action{min-height:58px;padding:13px 18px;background:#0d4368;display:flex;align-items:center;justify-content:space-between;gap:12px;color:#fff!important;text-decoration:none;border-radius:12px;font-size:18px;font-weight:850;line-height:1.5}
+body.nf-premium-v2 .nf-v82-action span:last-child{font-size:25px}
+body.nf-premium-v2 .nf-v82-credit{padding:0 28px 23px;margin:0;color:#546b79;font-size:13px;line-height:1.75;overflow-wrap:anywhere;word-break:normal}
+body.nf-premium-v2 .nf-v82-credit a{color:#11648b;text-decoration:underline;text-underline-offset:3px}
+body.nf-premium-v2 .nf-v82-note{font-size:15px;line-height:1.75;color:#476779;margin:24px 0 0}
+body.nf-premium-v2 .nf-v82-showcase a:focus-visible{outline:3px solid #c99652;outline-offset:3px}
+@media(max-width:850px){
+ body.nf-premium-v2 .nf-v82-heading{display:block}
+ body.nf-premium-v2 .nf-v82-heading>p{max-width:700px;margin-top:13px}
+}
+@media(max-width:740px){
+ body.nf-premium-v2 .nf-v82-showcase{padding:38px 0 55px}
+ body.nf-premium-v2 .nf-v82-shell{width:calc(100% - 32px)}
+ body.nf-premium-v2 .nf-v82-heading{margin-bottom:23px}
+ body.nf-premium-v2 .nf-v82-heading h2{font-size:clamp(29px,7.7vw,39px)}
+ body.nf-premium-v2 .nf-v82-heading>p{font-size:17px}
+ body.nf-premium-v2 .nf-v82-grid{grid-template-columns:minmax(0,1fr);gap:25px}
+ body.nf-premium-v2 .nf-v82-card{width:100%;max-width:100%;border-radius:15px}
+ body.nf-premium-v2 .nf-v82-media{aspect-ratio:4/3}
+ body.nf-premium-v2 .nf-v82-pill{top:13px;left:13px;font-size:14px;padding:8px 12px}
+ body.nf-premium-v2 .nf-v82-photo-place{font-size:14px;padding:25px 15px 11px}
+ body.nf-premium-v2 .nf-v82-body{padding:22px 20px 17px;gap:11px}
+ body.nf-premium-v2 .nf-v82-body h3{font-size:28px}
+ body.nf-premium-v2 .nf-v82-body>p{font-size:17px}
+ body.nf-premium-v2 .nf-v82-action{min-height:56px;font-size:17px}
+ body.nf-premium-v2 .nf-v82-credit{padding:0 20px 19px;font-size:13px}
+ body.nf-premium-v2 .nf-v82-note{font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){body.nf-premium-v2 .nf-v82-media img{transition:none}}
