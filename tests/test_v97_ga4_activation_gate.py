@@ -24,7 +24,7 @@ class ActivationGateTests(unittest.TestCase):
             if path in m.PAGES:
                 idx = m.PAGES.index(path)
                 identifier = second_id if second_id and idx==1 else ga4
-                body = html_page(path, identifier, not missing_css)
+                body = html_page(path, identifier, bool(identifier) and not missing_css)
                 return {"ok":True,"body":body,"status":200,"final_host":"www.nipponferry.com"}
             if path.startswith("/nf-v93-booking-clicks.js"):
                 body = "ferry_operator_click and analytics_storage" if not broken_asset else "old irrelevant script"
