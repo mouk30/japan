@@ -1,0 +1,56 @@
+name: V97 GA4 Production activation verification
+on:
+  workflow_dispatch:
+    inputs:
+      require_configured:
+        description: Fail if GA4 is not installed yet (use after Vercel Production re-deploy)
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    # Daily ~09:37 KST (UTC 00:37); hosted runner queue may delay.
+    - cron: '37 0 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v97_ga4_activation_gate.py'
+      - 'tests/test_v97_ga4_activation_gate.py'
+      - 'site/nf-v93-booking-clicks.js'
+      - 'build.js'
+      - '.github/workflows/v97-ga4-activation.yml'
+permissions:
+  contents: read
+jobs:
+  production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test activated vs unconfigured and misdirected GA4 assets (no real IDs)
+        run: python -m unittest discover -s tests -p 'test_v97_ga4_activation_gate.py' -v
+      - name: Examine live site pages, ID consistency, and deployed opt-in assets
+        env:
+          REQUIRE_GA4: ${{ inputs.require_configured }}
+        run: |
+          if [ "$REQUIRE_GA4" = "true" ]; then
+            python scripts/v97_ga4_activation_gate.py --require-active
+          else
+            python scripts/v97_ga4_activation_gate.py
+          fi
+      - name: Write clear read-only activation status to GitHub Actions
+        if: always()
+        run: |
+          if [ -f audit-output/v97-ga4-activation/summary.md ]; then
+            cat audit-output/v97-ga4-activation/summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Archive real deployment readiness, never visitor click counts or GA4 credentials
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v97-ga4-production-activation-check
+          path: audit-output/v97-ga4-activation/
+          retention-days: 60
+          if-no-files-found: warn
