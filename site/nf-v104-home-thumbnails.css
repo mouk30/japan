@@ -1,0 +1,28 @@
+/* V104 homepage photo editorial labels only. Preserve all existing image aspect ratios/card dimensions. */
+body.nf-premium-v2 .v65-photo .v104-photo-origin,
+body.nf-premium-v2 .d61-home-photo .v104-photo-origin{
+  position:absolute;right:9px;bottom:9px;z-index:1;display:inline-flex;
+  align-items:center;max-width:calc(100% - 18px);padding:5px 8px;
+  border-radius:7px;background:rgba(5,31,49,.74);color:#fff;
+  font-size:10px;font-weight:750;line-height:1.4;letter-spacing:-.015em;
+  text-shadow:0 1px 3px rgba(0,0,0,.18);
+}
+body.nf-premium-v2 .d61-home-photo .v104-photo-origin{right:9px;bottom:9px}
+body.nf-premium-v2 .v65-photo img,
+body.nf-premium-v2 .d61-home-photo img,
+body.nf-premium-v2 .v63-visual img{
+  object-fit:cover;object-position:50% 50%;
+}
+body.nf-premium-v2 .v63-theme-section .v104-theme-note{
+  margin:15px 0 0;color:#60798b;font-size:12px;line-height:1.8;word-break:keep-all;
+}
+body.nf-premium-v2 .v65-card .v65-photo:focus-visible,
+body.nf-premium-v2 .d61-home-card .d61-home-photo:focus-visible,
+body.nf-premium-v2 .v63-card .v63-visual:focus-visible{
+  outline:3px solid #5fb8cc;outline-offset:3px;
+}
+@media(max-width:600px){
+ body.nf-premium-v2 .v65-photo .v104-photo-origin{bottom:8px;right:8px;font-size:9.5px}
+ body.nf-premium-v2 .d61-home-photo .v104-photo-origin{bottom:8px;right:8px;font-size:9.5px}
+ body.nf-premium-v2 .v63-theme-section .v104-theme-note{font-size:12px;padding:0 1px}
+}
