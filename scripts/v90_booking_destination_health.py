@@ -102,7 +102,7 @@ def evaluate_response(url,response,config,provider,kind):
     if original_path not in ("","/") and actual_path in ("","/"):
         result.update(classification="needs_review",reason="deep_link_redirected_to_operator_home")
         return result
-    if kind in ("route_info","booking_entry","reservation_instructions") and original_path and actual_path!=original_path:
+    if kind in ("route_info","booking_entry","booking_calendar_search","reservation_instructions") and original_path and actual_path!=original_path:
         result.update(classification="needs_review",reason="specific_booking_or_route_path_changed")
         return result
     content_type=response.headers.get("content-type","").lower()
@@ -118,6 +118,9 @@ def evaluate_response(url,response,config,provider,kind):
     result["body_length"]=len(body)
     if not marker(title+" "+body,config["minimum_expected_text"][provider]):
         result.update(classification="unverified",reason="operator_identity_not_visible_or_js_rendered")
+        return result
+    if kind=="booking_calendar_search" and not marker(title+" "+body,("공실조회","최저가 달력","departure date","vacancy inquiry","step.1")):
+        result.update(classification="unverified",reason="actual_booking_calendar_not_visible")
         return result
     if kind=="route_info":
         lowered=(title+" "+body).lower()
