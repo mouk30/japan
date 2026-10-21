@@ -61,6 +61,26 @@ class V90Tests(unittest.TestCase):
         v=v90.evaluate_response(url,Response(200,url),cfg,"kampuferry","reservation_instructions")
         self.assertEqual(v["classification"],"operator_landing_verified")
 
+    def test_new_camellia_blank_response_is_not_verified_booking(self):
+        url=cfg["routes"]["fukuoka"]["primary"]
+        empty=v90.evaluate_response(url,Response(200,url,text="<html><title></title><body></body></html>"),
+                                      cfg,"koreaferry","booking_calendar_search")
+        self.assertEqual(empty["classification"],"unverified")
+
+    def test_new_camellia_real_calendar_content_is_verified(self):
+        url=cfg["routes"]["fukuoka"]["primary"]
+        calendar=v90.evaluate_response(url,Response(200,url,
+                     text="<html><title>뉴카멜리아 온라인예약</title><body>STEP.1공실조회 최저가 달력 총 인원 검색</body></html>"),
+                     cfg,"koreaferry","booking_calendar_search")
+        self.assertEqual(calendar["classification"],"operator_landing_verified")
+
+    def test_new_camellia_wrong_page_title_only_is_unverified(self):
+        url=cfg["routes"]["fukuoka"]["primary"]
+        wrong=v90.evaluate_response(url,Response(200,url,
+                   text="<html><title>뉴카멜리아 공지사항</title><body>고려훼리 예약 안내</body></html>"),
+                   cfg,"koreaferry","booking_calendar_search")
+        self.assertEqual(wrong["reason"],"actual_booking_calendar_not_visible")
+
     def test_non_html_download_is_not_valid_landing(self):
         url="https://www.kampuferry.co.jp/yoyaku/en/"
         v=v90.evaluate_response(url,Response(200,url,"hello",ctype="application/pdf"),cfg,"kampuferry","reservation_instructions")
