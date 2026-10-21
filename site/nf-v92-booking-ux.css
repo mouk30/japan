@@ -9,7 +9,7 @@ body.nf-premium-v2 .nf92-side-note{padding-top:10px;font-size:13px!important;lin
 body.nf-premium-v2 .nf92-hub-description{font-size:14px!important;color:#3d6178;line-height:1.7;word-break:keep-all;margin:9px 0 0}
 body.nf-premium-v2 .nf91-direct-item{gap:8px}
 body.nf-premium-v2 .nf91-direct-item .nf91-direct-primary{font-size:16px;line-height:1.42;min-height:58px}
-body.nf-premium-v2 .nf91-direct-item .nf91-direct-secondary{background:transparent;border:0;color:#0b5882!important;padding:10px 2px;min-height:42px;text-decoration:underline!important;text-underline-offset:3px;font-size:14px}
+body.nf-premium-v2 .nf91-direct-item .nf91-direct-secondary{background:transparent;border:0;color:#0b5882!important;padding:12px 2px;min-height:48px;text-decoration:underline!important;text-underline-offset:3px;font-size:14px}
 body.nf-premium-v2 .nf92-end-actions a:focus-visible,body.nf-premium-v2 .nf92-side-link:focus-visible,body.nf-premium-v2 .nf91-direct-item a:focus-visible{outline:3px solid #cc9149;outline-offset:3px}
 body.nf-premium-v2 #nf91-direct-operators{scroll-margin-top:112px}
 @media(max-width:740px){
