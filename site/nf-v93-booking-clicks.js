@@ -96,11 +96,24 @@
     p.transport_type = 'beacon';
     window.gtag('event', spec.name, p);
   }
+  // No Google library is loaded before approval. The explicit default prevents
+  // accidental marketing/ad consent if another tag is later introduced.
+  var denied = { analytics_storage:'denied', ad_storage:'denied',
+                 ad_user_data:'denied', ad_personalization:'denied' };
+  var analyticsOnly = { analytics_storage:'granted', ad_storage:'denied',
+                        ad_user_data:'denied', ad_personalization:'denied' };
   function start() {
-    if (started) { enabled = true; return; }
+    if (started) {
+      // Re-accepting after rejection on the same page must undo the denied state.
+      enabled = true;
+      if (typeof window.gtag === 'function') window.gtag('consent', 'update', analyticsOnly);
+      return;
+    }
     started = true; enabled = true;
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+    window.gtag('consent', 'default', denied);
+    window.gtag('consent', 'update', analyticsOnly);
     window.gtag('js', new Date());
     window.gtag('config', measurementId, {send_page_view: true, anonymize_ip: true});
     var script = document.createElement('script');
@@ -133,7 +146,7 @@
     var control = document.createElement('button');
     control.type = 'button'; control.className = 'nf93-manage';
     control.textContent = '방문 통계 설정';
-    control.setAttribute('aria-label','익명 방문 통계 수집 동의 설정');
+    control.setAttribute('aria-label','방문 통계 수집 동의 설정');
     control.addEventListener('click', function () { dialog.hidden = false; });
     footer.appendChild(control);
 
@@ -151,7 +164,7 @@
       else {
         enabled = false;
         // Explicitly revoke data collection on subsequent interactions, including after opt-in.
-        if (typeof window.gtag === 'function') window.gtag('consent','update',{analytics_storage:'denied'});
+        if (typeof window.gtag === 'function') window.gtag('consent', 'update', denied);
       }
       dialog.hidden = true;
     }
