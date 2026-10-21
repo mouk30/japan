@@ -1,0 +1,74 @@
+{
+  "version": "V90",
+  "reviewed_at": "2026-10-21",
+  "scope": "Existing route booking CTAs only. Does not reserve seats or confirm live availability.",
+  "routes": {
+    "osaka": {
+      "primary": "https://www.panstarcruise.com/",
+      "secondary": "https://www.panstarcruise.com/product/osaka/info",
+      "provider": "panstar",
+      "primary_kind": "operator_home_search",
+      "secondary_kind": "route_info"
+    },
+    "fukuoka": {
+      "primary": "https://www.koreaferry.co.kr/rs/idv/reservation",
+      "secondary": "https://www.koreaferry.kr/",
+      "provider": "koreaferry",
+      "primary_kind": "booking_entry",
+      "secondary_kind": "operator_home"
+    },
+    "shimonoseki": {
+      "primary": "https://www.kampuferry.co.jp/lang_kor/reserve/",
+      "secondary": "https://www.kampuferry.co.jp/yoyaku/en/",
+      "provider": "kampuferry",
+      "primary_kind": "reservation_instructions",
+      "secondary_kind": "reservation_instructions"
+    },
+    "tsushima": {
+      "primary": "https://www.panstarcruise.com/",
+      "secondary": "https://www.panstarcruise.com/product/daemado/info",
+      "provider": "panstar",
+      "primary_kind": "operator_home_search",
+      "secondary_kind": "route_info"
+    }
+  },
+  "allowed_hosts": {
+    "panstar": [
+      "www.panstarcruise.com",
+      "panstarcruise.com"
+    ],
+    "koreaferry": [
+      "www.koreaferry.co.kr",
+      "koreaferry.co.kr",
+      "www.koreaferry.kr",
+      "koreaferry.kr"
+    ],
+    "kampuferry": [
+      "www.kampuferry.co.jp",
+      "kampuferry.co.jp",
+      "yoyaku.kampuferry.co.jp"
+    ]
+  },
+  "minimum_expected_text": {
+    "panstar": [
+      "panstar",
+      "팬스타",
+      "cruise"
+    ],
+    "koreaferry": [
+      "camellia",
+      "카멜리아",
+      "reservation",
+      "예약",
+      "고려훼리"
+    ],
+    "kampuferry": [
+      "kampu",
+      "관부",
+      "reservation",
+      "예약",
+      "ferry"
+    ]
+  },
+  "max_redirects": 8
+}
