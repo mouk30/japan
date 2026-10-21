@@ -1,0 +1,95 @@
+/* NIPPONFERRY V83 — companions homepage: photo-first, large touch targets, 45 existing guides preserved.
+   Credits identify exact tourist scenes; photos are NOT cruise berths and no booking is implied. */
+body.nf-premium-v2 #nf-v83-companions{padding:clamp(42px,5vw,76px) 0 clamp(42px,5vw,68px);background:linear-gradient(180deg,#f5f9fc 0%,#fff 100%);border-bottom:1px solid #dbe6ec}
+body.nf-premium-v2 #nf-v83-companions .nf83-shell{width:min(1360px,calc(100% - 70px));margin:auto}
+body.nf-premium-v2 #nf-v83-companions .nf83-head{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:29px}
+body.nf-premium-v2 #nf-v83-companions .nf83-kicker{margin:0 0 11px;font-size:14px;line-height:1.4;letter-spacing:.13em;font-weight:850;color:#9d7039}
+body.nf-premium-v2 #nf-v83-companions h2{font-size:clamp(33px,3.7vw,51px);color:#092f4b;line-height:1.18;letter-spacing:-.053em;margin:0}
+body.nf-premium-v2 #nf-v83-companions .nf83-subtitle{max-width:400px;color:#42667b;font-size:18px;line-height:1.7;margin:0}
+body.nf-premium-v2 #nf-v83-companions .nf83-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+body.nf-premium-v2 #nf-v83-companions .nf83-card{display:flex;flex-direction:column;min-width:0;border:1px solid #dae7ee;background:#fff;border-radius:19px;overflow:hidden;box-shadow:0 16px 39px #082d4917}
+body.nf-premium-v2 #nf-v83-companions .nf83-photo{position:relative;aspect-ratio:16/10;display:block;overflow:hidden;background:#dae7ec}
+body.nf-premium-v2 #nf-v83-companions .nf83-photo img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .28s ease}
+body.nf-premium-v2 #nf-v83-companions .nf83-photo:hover img{transform:scale(1.025)}
+body.nf-premium-v2 #nf-v83-companions .nf83-badge{position:absolute;top:19px;left:19px;background:#072e52e8;color:#fff;border:1px solid #ffffff66;padding:10px 15px;border-radius:50px;font-size:16px;font-weight:850;line-height:1.45}
+body.nf-premium-v2 #nf-v83-companions .nf83-scene{position:absolute;bottom:0;left:0;right:0;padding:39px 22px 15px;background:linear-gradient(transparent,#021c33e8);color:#fff;font-size:15px;font-weight:800;line-height:1.55}
+body.nf-premium-v2 #nf-v83-companions .nf83-body{display:flex;flex-direction:column;gap:13px;padding:26px 28px 20px;flex:1;min-width:0}
+body.nf-premium-v2 #nf-v83-companions .nf83-type{color:#9a703e;font-size:13px;letter-spacing:.11em;font-weight:850}
+body.nf-premium-v2 #nf-v83-companions .nf83-body h3{margin:0;font-size:clamp(29px,2.5vw,38px);line-height:1.3;letter-spacing:-.055em;color:#103d5d}
+body.nf-premium-v2 #nf-v83-companions .nf83-body h3 a{color:inherit;text-decoration:none}
+body.nf-premium-v2 #nf-v83-companions .nf83-body>p{font-size:18px;line-height:1.78;color:#395d72;margin:0;word-break:keep-all}
+body.nf-premium-v2 #nf-v83-companions .nf83-highlights{display:flex;flex-wrap:wrap;gap:9px;margin:2px 0 0}
+body.nf-premium-v2 #nf-v83-companions .nf83-highlights span{display:inline-flex;align-items:center;padding:9px 12px;border:1px solid #cfe3ea;background:#eef7fa;border-radius:9px;color:#144b67;font-size:15px;font-weight:800;line-height:1.5}
+body.nf-premium-v2 #nf-v83-companions .nf83-action{min-height:61px;display:flex;align-items:center;justify-content:space-between;gap:15px;background:#0c436a;border-radius:12px;padding:15px 18px;color:#fff!important;text-decoration:none;font-size:18px;font-weight:850;line-height:1.5;margin-top:auto}
+body.nf-premium-v2 #nf-v83-companions .nf83-action span:last-child{font-size:24px}
+body.nf-premium-v2 #nf-v83-companions .nf83-credit{margin:0;padding:0 28px 23px;font-size:13px;line-height:1.76;color:#526e7c;overflow-wrap:anywhere}
+body.nf-premium-v2 #nf-v83-companions .nf83-credit a{color:#146e8a;text-decoration:underline;text-underline-offset:3px}
+body.nf-premium-v2 #nf-v83-companions .nf83-card--parents{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.07fr) minmax(0,.93fr);background:#fdfefc;border-color:#b8cfdc}
+body.nf-premium-v2 #nf-v83-companions .nf83-card--parents .nf83-photo{grid-row:1/3;aspect-ratio:auto;min-height:495px}
+body.nf-premium-v2 #nf-v83-companions .nf83-card--parents .nf83-body{padding:36px 35px 18px;gap:16px}
+body.nf-premium-v2 #nf-v83-companions .nf83-card--parents .nf83-body h3{font-size:clamp(32px,3vw,46px)}
+body.nf-premium-v2 #nf-v83-companions .nf83-card--parents .nf83-credit{grid-column:2;grid-row:2;padding:0 35px 28px}
+body.nf-premium-v2 #nf-v83-companions .nf83-parents-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+body.nf-premium-v2 #nf-v83-companions .nf83-parents-facts div{border:1px solid #d0e3e8;background:#eef7f7;padding:12px;border-radius:11px}
+body.nf-premium-v2 #nf-v83-companions .nf83-parents-facts strong{display:block;font-size:16px;color:#0b4c63;margin-bottom:5px}
+body.nf-premium-v2 #nf-v83-companions .nf83-parents-facts span{display:block;color:#496675;font-size:14px;line-height:1.55;word-break:keep-all}
+body.nf-premium-v2 #nf-v83-companions .nf83-note{font-size:15px;line-height:1.75;color:#456879;margin:22px 0 0}
+body.nf-premium-v2 #nf-v83-companions a:focus-visible{outline:3px solid #d19a49;outline-offset:3px}
+/* Make existing 45 guide thumbnails legible while keeping dynamic filtering intact. */
+body.nf-premium-v2 .companion-main{max-width:1360px;width:min(1360px,calc(100% - 70px));padding-top:36px}
+body.nf-premium-v2 .companion-main .intro{font-size:17px;line-height:1.85;padding:25px}
+body.nf-premium-v2 .companion-main .filter-heading strong{font-size:23px}
+body.nf-premium-v2 .companion-main .filter-heading span{font-size:16px}
+body.nf-premium-v2 .companion-main .companion-switch button{font-size:17px;min-height:62px}
+body.nf-premium-v2 .companion-main .companion-switch button small{font-size:14px}
+body.nf-premium-v2 .companion-main .search-label,body.nf-premium-v2 .companion-main #companion-search{font-size:17px}
+body.nf-premium-v2 .companion-main .guide-section .guide-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+body.nf-premium-v2 .companion-main .guide-section .guide-card{padding:20px}
+body.nf-premium-v2 .companion-main .guide-section .guide-card .guide-photo{margin:-20px -20px 18px;aspect-ratio:16/10}
+body.nf-premium-v2 .companion-main .guide-section .guide-card h3{font-size:27px;line-height:1.3}
+body.nf-premium-v2 .companion-main .guide-section .guide-card p{font-size:16px;line-height:1.72}
+body.nf-premium-v2 .companion-main .guide-section .guide-card .card-footer{font-size:16px}
+body.nf-premium-v2 .companion-main .guide-section .guide-card .booking-readiness{font-size:14px;line-height:1.65}
+body.nf-premium-v2 .companion-main .section-heading h2{font-size:clamp(28px,2.8vw,37px)}
+body.nf-premium-v2 .companion-main .section-heading p{font-size:17px}
+body.nf-premium-v2 .companion-main .booking-overview{font-size:17px;line-height:1.8}
+body.nf-premium-v2 .companion-main .booking-overview p{font-size:16px!important}
+@media(max-width:940px){
+ body.nf-premium-v2 #nf-v83-companions .nf83-head{display:block}
+ body.nf-premium-v2 #nf-v83-companions .nf83-subtitle{margin-top:12px;max-width:660px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-card--parents .nf83-parents-facts{grid-template-columns:1fr}
+ body.nf-premium-v2 .companion-main .guide-section .guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:740px){
+ body.nf-premium-v2 #nf-v83-companions{padding:39px 0 54px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-shell{width:calc(100% - 32px)}
+ body.nf-premium-v2 #nf-v83-companions .nf83-head{margin-bottom:22px}
+ body.nf-premium-v2 #nf-v83-companions h2{font-size:clamp(29px,7.6vw,40px)}
+ body.nf-premium-v2 #nf-v83-companions .nf83-subtitle{font-size:17px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-cards{grid-template-columns:minmax(0,1fr);gap:25px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-card--parents{grid-column:auto;display:flex}
+ body.nf-premium-v2 #nf-v83-companions .nf83-card{width:100%;max-width:100%;border-radius:15px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-photo,
+ body.nf-premium-v2 #nf-v83-companions .nf83-card--parents .nf83-photo{aspect-ratio:4/3;min-height:0}
+ body.nf-premium-v2 #nf-v83-companions .nf83-badge{font-size:14px;top:13px;left:13px;padding:8px 12px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-scene{padding:27px 16px 11px;font-size:14px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-body,
+ body.nf-premium-v2 #nf-v83-companions .nf83-card--parents .nf83-body{padding:22px 20px 18px;gap:12px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-body h3,
+ body.nf-premium-v2 #nf-v83-companions .nf83-card--parents .nf83-body h3{font-size:29px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-body>p{font-size:17px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-highlights span{font-size:14px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-parents-facts{grid-template-columns:1fr!important}
+ body.nf-premium-v2 #nf-v83-companions .nf83-parents-facts strong{font-size:16px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-action{min-height:58px;font-size:17px}
+ body.nf-premium-v2 #nf-v83-companions .nf83-credit,
+ body.nf-premium-v2 #nf-v83-companions .nf83-card--parents .nf83-credit{padding:0 20px 21px;font-size:13px;margin:0}
+ body.nf-premium-v2 #nf-v83-companions .nf83-note{font-size:14px}
+ body.nf-premium-v2 .companion-main{width:calc(100% - 32px)}
+ body.nf-premium-v2 .companion-main .guide-section .guide-grid{grid-template-columns:minmax(0,1fr)!important;gap:19px}
+ body.nf-premium-v2 .companion-main .guide-section .guide-card h3{font-size:26px}
+ body.nf-premium-v2 .companion-main .guide-section .guide-card p{font-size:16px}
+ body.nf-premium-v2 .companion-main .companion-switch button{font-size:16px;min-height:75px;padding:11px 7px}
+ body.nf-premium-v2 .companion-main .companion-switch button small{font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){body.nf-premium-v2 #nf-v83-companions .nf83-photo img{transition:none}}
