@@ -1,0 +1,11 @@
+# Keep real analytics exports / Google service credentials out of GitHub.
+# V98 GA4 Data API stores only local private aggregate exports.
+audit-output/
+private-analytics/
+*.service-account.json
+ga4-credentials.json
+ga4-actual-*.csv
+*.ga4.actual.csv
+.env
+.env.*
+!.env.example
