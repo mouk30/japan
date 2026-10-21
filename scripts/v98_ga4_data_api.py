@@ -217,9 +217,24 @@ def main():
                 ensure_ascii=False))
             return 2 if args.strict else 0
         path=write_private_csv(rows,args.output)
-        print(json.dumps({"status":"actual_ga4_aggregate_exported",
+        # One command produces the Korean private V95 comparison dashboard from
+        # exactly the returned GA4 aggregates. Never deploy dashboard to site/.
+        try:
+            from v95_booking_comparison import summarize, write
+            from v94_booking_click_report import parse_rows
+            output_dir=path.parent/"v98-real-dashboard"
+            report=summarize(parse_rows(path),period_label=args.start+" ~ "+args.end)
+            write(report,output_dir)
+            report_status=report["status"]
+            booking_entry_clicks=report.get("booking_entry_clicks_total")
+        except (ImportError,ValueError,KeyError) as e:
+            raise AnalyticsDataError("Actual GA4 extraction worked, but comparison report failed: "+type(e).__name__) from None
+        print(json.dumps({"status":"actual_ga4_aggregates_and_private_dashboard_ready",
             "aggregate_rows":len(rows),
             "private_report_path":str(path),
+            "private_dashboard_path":str(output_dir/"dashboard.html"),
+            "analytics_status":report_status,
+            "measured_booking_entry_clicks":booking_entry_clicks,
             "date_range":{"start":args.start,"end":args.end},
             "purchase_count":None},ensure_ascii=False))
         return 0
