@@ -1,0 +1,31 @@
+name: V82 four real-photo Japan experience cards QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/nf-v82-things-to-do-cards.css'
+      - 'scripts/v82_things_to_do_browser_qa.py'
+      - '.github/workflows/v82-things-to-do-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Inspect four real-photo activity category cards at PC and mobile viewport
+        run: python scripts/v82_things_to_do_browser_qa.py
+      - name: Upload desktop and mobile cards and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v82-things-to-do-pc-mobile
+          path: audit-output/v82-activities/
+          if-no-files-found: warn
