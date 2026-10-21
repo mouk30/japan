@@ -1,0 +1,25 @@
+/* NIPPONFERRY V92 — reduce duplicated CTAs while preserving one-tap booking access. */
+body.nf-premium-v2 .nf92-route-note{margin:12px 0 0;padding:12px 14px;border:1px solid #d0e1ea;border-radius:10px;background:#f6fbfe;color:#31536b;font-size:14px;line-height:1.75;word-break:keep-all}
+body.nf-premium-v2 .nf92-route-note strong{color:#0a3e5b}
+body.nf-premium-v2 .nf92-end-actions{display:flex;align-items:center;gap:15px;flex-wrap:wrap;margin:4px 0 17px}
+body.nf-premium-v2 .nf92-end-actions>.nf86-action-primary{flex:1 1 210px;max-width:100%}
+body.nf-premium-v2 .nf92-end-actions .nf92-facts-link{display:inline-flex;align-items:center;justify-content:center;color:#0b527c;font-size:15px;font-weight:850;min-height:48px;padding:10px 12px;text-decoration:underline;text-underline-offset:3px}
+body.nf-premium-v2 .nf92-side-link{display:flex;align-items:center;justify-content:center;text-align:center;min-height:52px;padding:12px 14px;background:#0b456d;color:#fff!important;border-radius:10px;font-size:15px;font-weight:850;text-decoration:none!important;line-height:1.5}
+body.nf-premium-v2 .nf92-side-note{padding-top:10px;font-size:13px!important;line-height:1.7;color:#476579}
+body.nf-premium-v2 .nf92-hub-description{font-size:14px!important;color:#3d6178;line-height:1.7;word-break:keep-all;margin:9px 0 0}
+body.nf-premium-v2 .nf91-direct-item{gap:8px}
+body.nf-premium-v2 .nf91-direct-item .nf91-direct-primary{font-size:16px;line-height:1.42;min-height:58px}
+body.nf-premium-v2 .nf91-direct-item .nf91-direct-secondary{background:transparent;border:0;color:#0b5882!important;padding:10px 2px;min-height:42px;text-decoration:underline!important;text-underline-offset:3px;font-size:14px}
+body.nf-premium-v2 .nf92-end-actions a:focus-visible,body.nf-premium-v2 .nf92-side-link:focus-visible,body.nf-premium-v2 .nf91-direct-item a:focus-visible{outline:3px solid #cc9149;outline-offset:3px}
+body.nf-premium-v2 #nf91-direct-operators{scroll-margin-top:112px}
+@media(max-width:740px){
+ body.nf-premium-v2 .nf92-end-actions{flex-direction:column;align-items:stretch;gap:6px}
+ body.nf-premium-v2 .nf92-end-actions>.nf86-action-primary{flex:unset!important;width:100%;min-height:57px}
+ body.nf-premium-v2 .nf92-end-actions .nf92-facts-link{width:100%;justify-content:flex-start;padding:11px 2px}
+ body.nf-premium-v2 .nf92-route-note{padding:11px 12px;font-size:13px}
+ body.nf-premium-v2 .nf91-direct-item .nf91-direct-primary{min-height:58px}
+}
+@media(max-width:680px){
+ body.nf-premium-v2 #official-ferry-routes .nf92-hub-description{padding-right:75px}
+ body.nf-premium-v2 .nf92-side-note{padding-right:72px}
+}
