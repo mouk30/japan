@@ -52,3 +52,9 @@ body.nf-premium-v2 #official-ferry-routes{scroll-margin-top:92px}
  body.nf-premium-v2 #official-ferry-routes .nf86-hub-trust{padding-right:76px;padding-bottom:24px;min-height:85px}
  body.nf-premium-v2 .nf86-hub-steps{padding-bottom:30px}
 }
+
+/* Keep the fixed Kakao chat control clear of every route-choice tap target at narrow widths. */
+@media(max-width:680px){
+ body.nf-premium-v2 #official-ferry-routes .nf86-hub-grid{padding-right:76px}
+ body.nf-premium-v2 #official-ferry-routes .nf86-hub-grid a{min-width:0;padding:12px 11px;word-break:keep-all}
+}
