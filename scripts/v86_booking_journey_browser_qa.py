@@ -89,6 +89,16 @@ with sync_playwright() as p:
      root.scroll_into_view_if_needed()
      try:root.screenshot(path=str(OUT/f"{identifier}-{name}.png"),animations="disabled")
      except Exception as e:item["issues"].append(f"screenshot: {e}")
+     # Real tap-target overlap: the persistent Kakao bubble must not cover any booking choice.
+     if identifier=="booking" and w<=390:
+      bubble=page.locator(".kakao-float")
+      if bubble.count()==1 and bubble.is_visible():
+       b=bubble.bounding_box()
+       for a in links.all():
+        v=a.bounding_box()
+        if b and v:
+         intersects=max(b["x"],v["x"]) < min(b["x"]+b["width"],v["x"]+v["width"]) and max(b["y"],v["y"]) < min(b["y"]+b["height"],v["y"]+v["height"])
+         expect(not intersects,"Floating Kakao bubble overlaps a route booking button",item)
     expect("willer-travel.com/ko/ferry/" not in page.content(),"unrelated domestic ferry service remains",item)
     extent=page.evaluate('document.documentElement.scrollWidth');item["scrollWidth"]=extent
     expect(extent<=w+7,f"horizontal overflow {extent}px vs {w}px",item)
