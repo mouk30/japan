@@ -1,0 +1,13 @@
+/* V89 | show the editorial verification date without implying live ferry availability. */
+body.nf-premium-v2 .nf89-review{display:flex;align-items:center;justify-content:space-between;gap:18px;background:#eef6fa;border-bottom:1px solid #c9dee8;padding:16px 21px;color:#173f57}
+body.nf-premium-v2 .nf89-review__meta{display:flex;flex-direction:column;gap:5px;min-width:0}
+body.nf-premium-v2 .nf89-review__eyebrow{font-size:13px;font-weight:800;letter-spacing:.07em;color:#45677b}
+body.nf-premium-v2 .nf89-review__date{font-size:20px;color:#0b3552;font-weight:900}
+body.nf-premium-v2 .nf89-review__status{font-size:14px;color:#3c5e71;line-height:1.6;word-break:keep-all}
+body.nf-premium-v2 .nf89-review__link{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:11px 16px;border-radius:10px;background:#0d4669;color:white!important;text-align:center;line-height:1.4;text-decoration:none!important;font-size:15px;font-weight:850;flex:0 0 auto}
+body.nf-premium-v2 .nf89-review[data-age="review"]{background:#fff4dd;border-color:#e3cb91}
+body.nf-premium-v2 .nf89-review[data-age="review"] .nf89-review__status{color:#785112;font-weight:700}
+body.nf-premium-v2 .nf89-review[data-age="overdue"]{background:#fff0e8;border-color:#e2baa2}
+body.nf-premium-v2 .nf89-review[data-age="overdue"] .nf89-review__status{color:#873a24;font-weight:800}
+body.nf-premium-v2 .nf89-review a:focus-visible{outline:3px solid #d6a264;outline-offset:3px}
+@media(max-width:720px){body.nf-premium-v2 .nf89-review{padding:16px 17px;align-items:stretch;flex-direction:column;gap:11px}body.nf-premium-v2 .nf89-review__date{font-size:19px}body.nf-premium-v2 .nf89-review__link{width:100%;min-height:54px}}
