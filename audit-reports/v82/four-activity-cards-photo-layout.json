@@ -1,0 +1,83 @@
+{
+  "version": "V82",
+  "date": "2026-10-21",
+  "page": "https://www.nipponferry.com/things-to-do/",
+  "scope": "Enhance existing Japan Things to Do homepage; do not create new posts.",
+  "new_articles": 0,
+  "changed_files": [
+    "site/things-to-do/index.html",
+    "site/nf-v82-things-to-do-cards.css",
+    "scripts/v82_things_to_do_browser_qa.py",
+    ".github/workflows/v82-things-to-do-qa.yml"
+  ],
+  "retained": [
+    "canonical",
+    "head metadata and breadcrumb JSON-LD",
+    "existing six-category grid",
+    "all existing informational articles and outbound links",
+    "existing navigation and footer"
+  ],
+  "cards": [
+    {
+      "category": "shopping",
+      "href": "/shopping/",
+      "photo": "/images/culture-verified/shopping-city-night-guide.webp",
+      "depicts": "Osaka Dotonbori shopping street at night, February 2019",
+      "photographer": "そらみみ",
+      "source": "https://commons.wikimedia.org/wiki/File:Dotombori_Shopping_Street_at_night_20190201-2.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "category": "food",
+      "href": "/food/",
+      "photo": "/images/culture-verified/local-food-market-guide.webp",
+      "depicts": "Packaged sweets displayed at Kyoto Nishiki Market, December 31 2021; not the entire market",
+      "photographer": "Nesnad",
+      "source": "https://commons.wikimedia.org/wiki/File:Nishiki_market_-_Dec_31_2021_various_18_22_06_321000.jpeg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "category": "onsen",
+      "href": "/things-to-do/onsen/",
+      "photo": "/images/culture-verified/onsen-first-time.webp",
+      "depicts": "Takanoyu Onsen rotenburo outdoor bath, Akita; October 21 2008",
+      "photographer": "RickardA",
+      "source": "https://commons.wikimedia.org/wiki/File:Takanoyu_Onsen_Rotenburo_086.jpg",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Takanoyu_Onsen_Rotenburo_086.jpg"
+    },
+    {
+      "category": "culture",
+      "href": "/things-to-do/culture/",
+      "photo": "/images/culture-verified/traditional-experience-booking.webp",
+      "depicts": "Japanese tea ceremony demonstration by kimono-wearing person, April 2004; not a bookable activity",
+      "photographer": "Stephane D'Alu",
+      "source": "https://commons.wikimedia.org/wiki/File:Tea_ceremony_performing_2.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  ],
+  "quality_assurance": {
+    "workflow": "https://github.com/mouk30/japan/actions/runs/39527567138",
+    "desktop_1440": "PASS",
+    "mobile_390": "PASS",
+    "photo_loaded": "4/4 both viewports",
+    "source_and_license_links": "4/4 present both viewports",
+    "original_existing_category_links": "4/4",
+    "mobile_horizontal_overflow": false,
+    "canonical": "https://www.nipponferry.com/things-to-do/",
+    "old_section_preserved": true,
+    "mobile_title_font": "28px",
+    "action_button_height": "63.5px",
+    "screenshots": "GitHub Actions artifact v82-things-to-do-pc-mobile: 8 per-card screenshots, 2 section screenshots, report.json",
+    "visual_review": "Opened generated desktop and mobile screenshot collage; all 4 cards visible and legible"
+  },
+  "limits": [
+    "No direct hands-on test on all physical smartphones; Chromium simulated viewport 390px",
+    "Photo dates and metadata attest only to old snapshots, not real-time store, market, bathing or tea ceremony availability",
+    "Wikimedia Commons pages are source of copyright declarations; attribution and licenses supplied, but no independent chain-of-title legal warranty",
+    "CC BY-SA derivative/reuse terms remain applicable; image conversion and sizing are disclosed"
+  ]
+}
