@@ -42,7 +42,7 @@ python scripts/v98_ga4_data_api.py \
   --strict
 ```
 
-연결되어 있고 실제 집계 이벤트가 있으면 **실제 CSV + `private-analytics/v98/v98-real-dashboard/dashboard.html`**을 생성한다. 사이트에 공개 자동 업로드하지 않으며, 매출·완료 예약으로 표기하지 않는다. 
+연결되어 있고 실제 집계 이벤트가 있으면 **실제 CSV + `private-analytics/v98/v99-real-data-quality/report.json` 품질 검사 + `private-analytics/v98/v98-real-dashboard/dashboard.html`**을 생성한다. **항로·선사 분류가 잘못된 경우에는 V99 품질 보고서만 남기고 성과 순위를 보류한다.** 사이트에 공개 자동 업로드하지 않으며, 매출·완료 예약으로 표기하지 않는다. 
 연결되지 않았다면 `not_connected`, API 권한 오류는 `ga4_api_verification_failed`, 조회기간에 이벤트가 없으면 `no_matching_ga4_events_in_period`로 구분한다. 모두 **클릭 0건이나 예약 0건으로 단정하지 않는다.**
 
 ### 조회 이벤트 이름과 범위
