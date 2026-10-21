@@ -1,0 +1,54 @@
+/* NIPPONFERRY V81 | Premium large Japan destination cards (no new pages). */
+body.nf-premium-v2 .nf-v81-destinations{background:linear-gradient(180deg,#f6f9fd 0%,#fff 100%);padding:clamp(48px,5vw,84px) 0 clamp(54px,5vw,80px);color:#102f4a}
+body.nf-premium-v2 .nf-v81-shell{width:min(1360px,calc(100% - 70px));margin-inline:auto}
+body.nf-premium-v2 .nf-v81-header{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:32px}
+body.nf-premium-v2 .nf-v81-kicker{color:#a67d42;letter-spacing:.13em;font-size:14px;font-weight:900;line-height:1.5;margin:0 0 10px}
+body.nf-premium-v2 .nf-v81-header h2{font-size:clamp(34px,3.5vw,52px);letter-spacing:-.05em;line-height:1.18;color:#0b2e4a;margin:0}
+body.nf-premium-v2 .nf-v81-intro{font-size:18px;line-height:1.75;color:#426176;max-width:400px;margin:0}
+body.nf-premium-v2 .nf-v81-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:27px}
+body.nf-premium-v2 .nf-v81-card{min-width:0;display:flex;flex-direction:column;background:#fff;border:1px solid #dce7ec;border-radius:20px;overflow:hidden;box-shadow:0 15px 36px rgba(5,44,78,.1)}
+body.nf-premium-v2 .nf-v81-photo{position:relative;display:block;aspect-ratio:16/10;overflow:hidden;background:#dce9f1;text-decoration:none}
+body.nf-premium-v2 .nf-v81-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .25s ease}
+body.nf-premium-v2 .nf-v81-photo:hover img{transform:scale(1.025)}
+body.nf-premium-v2 .nf-v81-city{position:absolute;top:20px;left:22px;padding:10px 16px;border:1px solid #ffffff70;background:#082f53d9;border-radius:40px;color:#fff;font-size:17px;font-weight:850}
+body.nf-premium-v2 .nf-v81-scene{position:absolute;bottom:0;left:0;right:0;padding:35px 22px 15px;background:linear-gradient(transparent,#031a30dd);color:#fff;font-size:15px;font-weight:780;line-height:1.5}
+body.nf-premium-v2 .nf-v81-content{padding:26px 29px 20px;display:flex;flex:1;flex-direction:column;gap:13px}
+body.nf-premium-v2 .nf-v81-overline{color:#927045;font-size:14px;letter-spacing:.11em;font-weight:850}
+body.nf-premium-v2 .nf-v81-content h3{font-size:clamp(29px,2.65vw,39px);letter-spacing:-.052em;line-height:1.3;margin:0;color:#0b3251}
+body.nf-premium-v2 .nf-v81-content h3 a{color:inherit;text-decoration:none}
+body.nf-premium-v2 .nf-v81-content>p{font-size:18px;line-height:1.7;margin:0;color:#3a596f;word-break:keep-all;flex:1}
+body.nf-premium-v2 .nf-v81-action{display:flex;align-items:center;justify-content:space-between;gap:15px;min-height:61px;padding:15px 18px;font-size:18px;font-weight:850;color:#fff!important;background:#093e66;border-radius:12px;text-decoration:none}
+body.nf-premium-v2 .nf-v81-action span:last-child{font-size:25px}
+body.nf-premium-v2 .nf-v81-credit{font-size:13px;line-height:1.75;color:#536b7b;padding:0 29px 24px;margin:0;overflow-wrap:anywhere}
+body.nf-premium-v2 .nf-v81-credit a{color:#16688e;text-decoration:underline;text-underline-offset:3px}
+body.nf-premium-v2 .nf-v81-info{font-size:15px;line-height:1.8;color:#3e6076;margin:25px 0 0}
+body.nf-premium-v2 .nf-v81-card a:focus-visible{outline:3px solid #cf9c56;outline-offset:3px}
+@media(min-width:1100px){
+ body.nf-premium-v2 .nf-v81-destinations + main.hub-main{max-width:1360px;width:calc(100% - 70px)}
+ body.nf-premium-v2 .nf-v81-destinations + main.hub-main .directory>.wrap{max-width:100%}
+ body.nf-premium-v2 .nf-v81-destinations + main.hub-main .dirgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body.nf-premium-v2 .nf-v81-destinations + main.hub-main .dircard img{height:clamp(210px,21vw,340px);object-fit:cover}
+}
+@media(max-width:800px){
+ body.nf-premium-v2 .nf-v81-header{display:block}
+ body.nf-premium-v2 .nf-v81-intro{margin-top:13px;max-width:700px}
+}
+@media(max-width:740px){
+ body.nf-premium-v2 .nf-v81-destinations{padding:40px 0 52px}
+ body.nf-premium-v2 .nf-v81-shell{width:calc(100% - 32px)}
+ body.nf-premium-v2 .nf-v81-header{margin-bottom:23px}
+ body.nf-premium-v2 .nf-v81-header h2{font-size:clamp(30px,7.6vw,40px)}
+ body.nf-premium-v2 .nf-v81-intro{font-size:17px}
+ body.nf-premium-v2 .nf-v81-grid{grid-template-columns:minmax(0,1fr);gap:25px}
+ body.nf-premium-v2 .nf-v81-card{width:100%;max-width:100%;border-radius:15px}
+ body.nf-premium-v2 .nf-v81-photo{aspect-ratio:4/3}
+ body.nf-premium-v2 .nf-v81-city{font-size:15px;top:13px;left:13px;padding:8px 12px}
+ body.nf-premium-v2 .nf-v81-scene{font-size:14px;padding:27px 15px 12px}
+ body.nf-premium-v2 .nf-v81-content{padding:21px 21px 17px;gap:12px}
+ body.nf-premium-v2 .nf-v81-content h3{font-size:29px}
+ body.nf-premium-v2 .nf-v81-content>p{font-size:17px}
+ body.nf-premium-v2 .nf-v81-action{font-size:17px;min-height:56px}
+ body.nf-premium-v2 .nf-v81-credit{padding:0 21px 21px;font-size:13px}
+ body.nf-premium-v2 .nf-v81-info{font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){body.nf-premium-v2 .nf-v81-photo img{transition:none}}
