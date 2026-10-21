@@ -1,0 +1,12 @@
+/* NIPPONFERRY V93 | Visible only when a GA4 Measurement ID is configured. */
+.nf93-consent[hidden]{display:none!important}
+.nf93-consent{box-sizing:border-box;position:fixed;z-index:2147480000;left:16px;right:16px;bottom:16px;max-width:540px;padding:20px;border-radius:17px;background:#fff;color:#153b55;border:1px solid #b9d3e1;box-shadow:0 15px 48px rgba(10,40,61,.24);line-height:1.65;font-size:14px}
+.nf93-consent strong{font-size:19px;color:#0b3a59;display:block;margin-bottom:8px}
+.nf93-consent p{font-size:14px;line-height:1.7;margin:0 0 14px;color:#3f596a;word-break:keep-all}
+.nf93-consent-actions{display:flex;gap:9px;flex-wrap:wrap}
+.nf93-consent-actions button{flex:1 1 165px;padding:11px 15px;min-height:50px;border-radius:10px;cursor:pointer;font-size:15px;font-weight:800}
+.nf93-accept{background:#0b4e78;border:1px solid #0b4e78;color:#fff}
+.nf93-reject{background:#f5f8fb;border:1px solid #b6d1dc;color:#244c63}
+.nf93-manage{display:inline-flex;align-items:center;justify-content:center;background:transparent;border:1px solid #a7cad8;border-radius:8px;padding:7px 10px;margin:12px 8px;min-height:44px;font-size:13px;color:inherit!important;cursor:pointer}
+.nf93-manage:focus-visible,.nf93-consent button:focus-visible{outline:3px solid #ddae65;outline-offset:3px}
+@media(max-width:600px){.nf93-consent{left:10px;right:10px;bottom:12px;max-width:none;padding:16px}.nf93-consent-actions{flex-direction:column}.nf93-consent-actions button{width:100%;flex:initial}.nf93-consent{padding-right:84px}.nf93-consent-actions button{font-size:14px}}
