@@ -166,15 +166,27 @@ def summarize(rows, period_label="GA4 실제 CSV 집계 기간", threshold=100):
     }
     if not has_any_booking:
         report["status"]="insufficient_booking_step_data"
+        # The export can be filtered or the GA4 custom dimension might not be present.
+        # Lack of visible booking events is NOT proof that visitors clicked zero times.
+        report["booking_entry_clicks_total"]=None
+        report["qualified_page_order"]=[]
+        for p in report["pages"]:
+            p["booking_clicks_per_100_views"]=None
+            p["qualified_activity_rank"]=None
+            p["data_quality"]="insufficient_booking_event_data"
     return report
 
 def markup(report):
     esc=lambda s: html.escape(str(s),quote=True)
     initial=report["status"]!="real_ga4_export_compared"
     if initial:
-        cards='<article class="metric"><span>예약·날짜검색 진입 클릭</span><strong>미연결</strong><small>GA4 실제 데이터 미제공</small></article><article class="metric"><span>항로별 클릭 순위</span><strong>미확인</strong><small>가상 숫자를 표시하지 않음</small></article><article class="metric"><span>조회 대비 클릭 활동량</span><strong>미확인</strong><small>페이지 조회 분모 필요</small></article>'
+        not_connected=report["status"]=="awaiting_real_ga4_export"
+        status_title="미연결" if not_connected else "이벤트 자료 부족"
+        status_note="GA4 실제 데이터 미제공" if not_connected else "예약 진입 유형 데이터가 없음 · 0건으로 단정 불가"
+        cards='<article class="metric"><span>예약·날짜검색 진입 클릭</span><strong>'+status_title+'</strong><small>'+status_note+'</small></article><article class="metric"><span>항로별 클릭 순위</span><strong>미확인</strong><small>가상 숫자를 표시하지 않음</small></article><article class="metric"><span>조회 대비 클릭 활동량</span><strong>미확인</strong><small>페이지 조회 분모 필요</small></article>'
         rows="".join('<tr><th>'+esc(n)+'</th><td>미확인</td><td>미확인</td><td>미확인</td><td>—</td></tr>' for n in ["페리 항로 허브","예약 안내 허브","오사카 가이드","후쿠오카 가이드","시모노세키 가이드","대마도 가이드"])
-        message="실제 GA4 측정 ID가 연결되지 않았거나 GA4 탐색 CSV가 제공되지 않았습니다. 클릭 순위·클릭률은 아직 알 수 없습니다."
+        message=("실제 GA4 측정 ID가 연결되지 않았거나 GA4 탐색 CSV가 제공되지 않았습니다. 클릭 순위·클릭률은 아직 알 수 없습니다."
+                 if not_connected else "CSV는 있지만 예약 진입 유형 이벤트가 없습니다. GA4 이벤트 범위와 맞춤 측정기준을 확인할 때까지 수치를 미확인으로 표시합니다.")
         maxbar=1
         bars=""
     else:
