@@ -101,6 +101,16 @@
     script.async = true;
     script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(measurementId);
     document.head.appendChild(script);
+    // Comparable denominators for aggregate 'button clicks per page view'.
+    // These are NOT unique visitors, confirmed reservations or purchase conversions.
+    var area = pageArea();
+    if (area === 'ferry_hub' || area === 'booking_hub') {
+      track({name:'ferry_hub_view',route:'all',placement:'page',page_area:area,
+        operator:'internal',destination_step:'hub_view'});
+    } else if (area === 'route_guide') {
+      track({name:'ferry_route_view',route:cleanRoute(location.pathname),placement:'page',
+        page_area:area,operator:'internal',destination_step:'guide_view'});
+    }
   }
 
   // Prevent accidental click double count when multiple listeners/elements are nested.
