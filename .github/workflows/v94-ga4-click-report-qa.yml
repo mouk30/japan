@@ -1,0 +1,39 @@
+name: V94 GA4 booking click export report integrity
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v94_booking_click_report.py'
+      - 'tests/test_v94_booking_click_report.py'
+      - '.github/workflows/v94-ga4-click-report-qa.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test real-export parsing, segment summaries and missing denominators
+        run: python -m unittest discover -s tests -p 'test_v94_booking_click_report.py' -v
+      - name: Verify no-data reporting never fabricates counts
+        run: |
+          python scripts/v94_booking_click_report.py --output audit-output/v94-no-real-export
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('audit-output/v94-no-real-export/status.json').read_text('utf8'))
+          assert d['operator_clicks_total'] is None
+          assert d['status']=='awaiting_ga4_account_connection_and_real_csv'
+          print('No GA4 data = unknown, not reported as 0.')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v94-ga4-report-ready-no-fabrication-qa
+          path: audit-output/v94-no-real-export/
+          retention-days: 30
