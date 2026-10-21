@@ -90,6 +90,15 @@ with sync_playwright() as p:
             if now:
                 check(now[-1]["params"].get("placement")==place,f"{route} {place} correct CTA location")
 
+    # Genuine on-page fees/source click is classified as information intent, NOT a booking handoff.
+    fact=page.locator('.nf86-booking a.nf92-facts-link')
+    old_facts=len(events(page,"ferry_info_open"))
+    fact.click()
+    new_facts=events(page,"ferry_info_open")
+    check(len(new_facts)==old_facts+1,"On-page official fare facts tap produces one information-intent event")
+    if new_facts:
+        check(new_facts[-1]["params"].get("route")=="tsushima","Fare facts event has current route attribution")
+
     # Revoke permission. Old GTAG may remain loaded but no new user events may be emitted.
     page.locator(".nf93-manage").click()
     page.locator(".nf93-reject").click()
