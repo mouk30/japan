@@ -92,6 +92,21 @@ def fuel_fee_row(soup):
 def official_signature(item):
     return hashlib.sha256(json.dumps(item, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:14]
 
+def semantic_document(soup, provider):
+    """Hash stable article content and referenced image URLs, excluding visitor counters."""
+    if soup is None:
+        return None
+    if provider == "koreaferry":
+        node = soup.select_one("#bo_v_con") or soup.select_one("#bo_v_atc") or soup.select_one("article")
+    else:
+        node = soup.select_one("main") or soup.select_one("article")
+    node = node or soup.body or soup
+    for unwanted in node.select("script,style,footer,nav,.comments,#bo_vc,.bo_vc,button"):
+        unwanted.decompose()
+    words = tidy(node.get_text(" ", strip=True))
+    photos = sorted(img.get("src", "") for img in node.select("img[src]"))
+    return official_signature({"text": words, "images": photos}) if words or photos else None
+
 def scan_existing_site(cfg):
     scans = []
     current_age = (dt.date.today() - dt.date.fromisoformat(cfg["verified_as_of"])).days
@@ -171,6 +186,11 @@ def run(today=None, offline=False):
     if offline:
         return report
     session = requests.Session()
+    old_report_file = OUTPUT.parent / "previous" / "report.json"
+    try:
+        previous = json.loads(old_report_file.read_text("utf-8")) if old_report_file.is_file() else {}
+    except (OSError, ValueError):
+        previous = {}
     for kind, key, floor in [
         ("panstar", "panstar_notice_index", cfg["panstar_last_reviewed_id"]),
         ("koreaferry", "koreaferry_notice_index", cfg["koreaferry_last_reviewed_id"])
@@ -180,7 +200,13 @@ def run(today=None, offline=False):
         observed = notice_index(soup, kind)
         recent = sorted(observed.keys(), reverse=True)
         source.update({"parsed_notice_count": len(observed), "highest_id": max(recent, default=None)})
+        source["notice_titles_by_id"] = {str(k): v["title"] for k, v in sorted(observed.items(), reverse=True)[:30]}
         report["sources"][kind + "_index"] = source
+        older = previous.get("sources", {}).get(kind + "_index", {}).get("notice_titles_by_id", {})
+        for notice_id, title in source["notice_titles_by_id"].items():
+            if notice_id in older and older[notice_id] != title:
+                report["review_items"].append({"kind": "notice_edited", "route": kind,
+                    "message": f"Official notice #{notice_id} changed its title; verify before publishing", "url": url})
         if soup is None:
             report["review_items"].append({"kind": "source_unavailable", "route": kind,
                                             "message": "Could not verify official notice board (NOT a confirmed operational change)", "url": url})
@@ -211,13 +237,23 @@ def run(today=None, offline=False):
         name = "panstar_" + entry["route"]
         text_body = tidy(soup.get_text(" ", strip=True)) if soup else ""
         src["text_available"] = len(text_body) > 80
+        src["semantic_fingerprint"] = semantic_document(soup, "panstar")
         report["sources"][name] = src
+        old_fingerprint = previous.get("sources", {}).get(name, {}).get("semantic_fingerprint")
+        if old_fingerprint and src["semantic_fingerprint"] and old_fingerprint != src["semantic_fingerprint"]:
+            report["review_items"].append({"kind": "existing_notice_edited", "route": entry["route"],
+                "message": "Previously reviewed PanStar notice text changed in place; reverify effective date and rate", "url": url})
         if soup is None or not src["text_available"]:
             report["review_items"].append({"kind": "source_unavailable", "route": entry["route"],
                                             "message": "Dated official reference cannot be read", "url": url})
     k_url = cfg["koreaferry_tax_notice"]
     soup, source = fetch(session, k_url)
+    source["semantic_fingerprint"] = semantic_document(soup, "koreaferry")
     report["sources"]["koreaferry_tax_notice"] = source
+    old_fingerprint = previous.get("sources", {}).get("koreaferry_tax_notice", {}).get("semantic_fingerprint")
+    if old_fingerprint and source["semantic_fingerprint"] and old_fingerprint != source["semantic_fingerprint"]:
+        report["review_items"].append({"kind": "quarterly_tax_notice_edited", "route": "fukuoka",
+            "message": "Previously reviewed quarterly TAX body or linked graphic changed in place; inspect official image table", "url": k_url})
     if soup is None:
         report["review_items"].append({"kind": "source_unavailable", "route": "fukuoka",
                                         "message": "Quarterly TAX notice cannot be read", "url": k_url})
