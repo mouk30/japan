@@ -52,6 +52,34 @@ class V88MonitorTests(unittest.TestCase):
         self.assertNotEqual(m.semantic_document(BeautifulSoup('<div id="bo_v_con">TAX 공지 <img src="/img/q4.png"></div>', "html.parser"), "koreaferry"),
                             m.semantic_document(changed, "koreaferry"))
 
+    def test_same_url_fuel_image_byte_change_is_observable(self):
+        import hashlib
+        class Response:
+            status_code = 200
+            url = "https://koreaferry.kr/data/tax.png"
+            headers = {"Content-Type": "image/png"}
+            def __init__(self, content):
+                self.content = content
+            def __enter__(self):
+                return self
+            def __exit__(self, *args):
+                return False
+            def iter_content(self, chunk_size=65536):
+                yield self.content
+        class Session:
+            def __init__(self, payload):
+                self.payload = payload
+            def get(self, url, **kwargs):
+                return Response(self.payload)
+        doc = BeautifulSoup('<article id="bo_v_con"><img src="/data/tax.png"><img src="https://evil.example/a.png"></article>', "html.parser")
+        first = m.korea_ferry_tax_images(Session(b"image-binary-v1"), doc, "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=39")
+        second = m.korea_ferry_tax_images(Session(b"image-binary-v2"), doc, "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=39")
+        url = "https://koreaferry.kr/data/tax.png"
+        self.assertEqual(list(first), [url])
+        self.assertEqual(first[url]["status"], "ok")
+        self.assertNotEqual(first[url]["sha256"], second[url]["sha256"])
+        self.assertEqual(first[url]["sha256"], hashlib.sha256(b"image-binary-v1").hexdigest())
+
     def test_unverified_source_not_taken_as_price(self):
         self.assertIsNone(m.fuel_fee_row(None))
         self.assertEqual(m.notice_index(None,"panstar"),{})
