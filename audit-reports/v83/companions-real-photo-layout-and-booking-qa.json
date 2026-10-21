@@ -1,0 +1,82 @@
+{
+  "version": "V83",
+  "date": "2026-10-21",
+  "page": "https://www.nipponferry.com/things-to-do/travel-companions/",
+  "status": "Published and QA passed on live site via Chromium",
+  "new_posts": 0,
+  "files_changed": [
+    "site/nf-v83-companions-wide.css",
+    "site/things-to-do/travel-companions/index.html",
+    "scripts/v83_companions_browser_qa.py",
+    ".github/workflows/v83-companions-photo-qa.yml"
+  ],
+  "scope": "Three large photo-led parent/family/couple choices plus bigger existing 45 guide cards. Category-filter logic and existing 45 pages untouched.",
+  "photos": [
+    {
+      "mode": "parents",
+      "depicts": "2026 Ohori Park Ukimido Fukuoka; not Hakata cruise berth or pickup point",
+      "src": "/images/venues/fukuoka-ohori-park.webp",
+      "photographer": "Hirho",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%8Chori_Park_The_view_NNE_from_Ukimid%C5%8D_%C5%8Chorik%C5%8Den_Ch%C5%AB%C5%8D-ku_Fukuoka_20260609_154008.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "mode": "family",
+      "depicts": "Yokohama Cup Noodles Museum exterior, May 2024; not a passenger pier",
+      "src": "/images/venues/yokohama-cupnoodles-museum.webp",
+      "photographer": "Keeezawa",
+      "source": "https://commons.wikimedia.org/wiki/File:Cupnoodles_museum_yokohama.jpg",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "mode": "couple",
+      "depicts": "Kobe Nunobiki Ropeway gondola, May 2017; not the Herb Garden interior",
+      "src": "/images/venues/kobe-nunobiki-herb-ropeway.webp",
+      "photographer": "Mark Pegrum",
+      "source": "https://commons.wikimedia.org/wiki/File:Cable_car_in_Kobe,_Japan%3B_May_2017.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
+    }
+  ],
+  "parent_facts": [
+    "Actual exit and pickup/dropoff at berth for specific voyage",
+    "Short walks and seating/rest stops; no unverified walking-distance numbers",
+    "Confirm vendor inventory, admission, cancel and final ship reboarding cutoff"
+  ],
+  "qa": {
+    "workflow": "https://github.com/mouk30/japan/actions/runs/39529076726",
+    "desktop_1440": "PASS",
+    "mobile_390": "PASS",
+    "existingGuides": 45,
+    "groups": {
+      "family": 15,
+      "parents": 15,
+      "couple": 15
+    },
+    "filters": [
+      "parents",
+      "family",
+      "couple"
+    ],
+    "filter_clicks_pc_and_mobile": "3/3 each",
+    "photos": "3/3 loaded on both viewports",
+    "attribution_links": "3/3 original+license displayed on both viewports",
+    "hero_button_height_px": 66,
+    "mobile_hero_title_px": 29,
+    "mobile_detail_card_title_px": 26,
+    "mobile_detail_card_desc_px": 16,
+    "mobile_detail_card_single_column": true,
+    "mobile_horizontal_overflow": false,
+    "canonical_unchanged": true,
+    "existing_85_editorials": "https://github.com/mouk30/japan/actions/runs/39528694553",
+    "screenshots": "Action artifact v83-companions-pc-mobile includes individual 3 cards per viewport, full-section captures, first original parents guide card each viewport and JSON report"
+  },
+  "limitations": [
+    "Commons author-declared licensing and source pages were checked; independently adjudicating copyright chain not possible",
+    "Visual layout tested in simulated 1440px and 390px Chromium, not every device/browser",
+    "Actual ticket stock, prices, cruise ship docking gate, taxi pickup and final all-aboard times change per sailing; must check official sources",
+    "Photos show landmarks or scenic attraction, not photographed boarding gates or promises of availability"
+  ]
+}
