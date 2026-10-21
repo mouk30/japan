@@ -8,6 +8,7 @@ on:
       - 'site/nf-v93-booking-clicks.js'
       - 'site/nf-v93-booking-clicks.css'
       - 'scripts/v93_ga4_click_browser_qa.py'
+      - 'scripts/v93_public_ga4_readiness.py'
       - '.github/workflows/v93-ga4-booking-click-qa.yml'
 permissions:
   contents: read
@@ -57,6 +58,9 @@ jobs:
           exit 1
       - name: Real browser test of refusal, acceptance, 16 ferry clicks and permission revocation
         run: python scripts/v93_ga4_click_browser_qa.py
+      - name: Inspect production readiness without assuming GA4 is connected
+        if: always()
+        run: python scripts/v93_public_ga4_readiness.py
       - name: Archive real QA screenshots and event classification report
         if: always()
         uses: actions/upload-artifact@v4
