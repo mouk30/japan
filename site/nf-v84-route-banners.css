@@ -48,7 +48,7 @@ body.nf-premium-v2 .nf84-home__meta a{color:#17658b}
  body.nf-premium-v2 .nf84-heading h2{font-size:clamp(32px,8.5vw,42px)}
  body.nf-premium-v2 .nf84-heading>p{font-size:16px}
  body.nf-premium-v2 .nf84-list{gap:20px}
- body.nf-premium-v2 .nf84-route,body.nf-premium-v2 .nf84-route--lead{min-height:530px;border-radius:15px}
+ body.nf-premium-v2 .nf84-route,body.nf-premium-v2 .nf84-route--lead{min-height:585px;border-radius:15px}
  body.nf-premium-v2 .nf84-route img{object-position:60% center}
  body.nf-premium-v2 .nf84-route::after,body.nf-premium-v2 .nf84-route--right::after{background:linear-gradient(180deg,#041f38d0 0%,#082f50b3 52%,#04294585 100%)}
  body.nf-premium-v2 .nf84-route__inner,body.nf-premium-v2 .nf84-route--right .nf84-route__inner{width:100%;margin:0;padding:26px 22px 72px;justify-content:flex-start}
@@ -57,7 +57,7 @@ body.nf-premium-v2 .nf84-home__meta a{color:#17658b}
  body.nf-premium-v2 .nf84-route__desc{font-size:17px;line-height:1.7;margin-bottom:17px}
  body.nf-premium-v2 .nf84-route__actions{width:100%;gap:9px}
  body.nf-premium-v2 .nf84-route__cta,body.nf-premium-v2 .nf84-route__source{min-height:54px;font-size:15px;padding:12px 13px}
- body.nf-premium-v2 .nf84-route__caption{left:13px;right:13px;bottom:12px;max-width:none;font-size:11px}
+ body.nf-premium-v2 .nf84-route__caption{left:13px;right:13px;bottom:13px;max-width:none;font-size:13px;line-height:1.58}
  body.nf-premium-v2 .nf84-note{font-size:14px;padding:17px}
  body.nf-premium-v2 .nf84-home{padding:35px 0 44px}
  body.nf-premium-v2 .nf84-home__banner{min-height:490px;border-radius:15px;align-items:flex-start}
@@ -66,5 +66,6 @@ body.nf-premium-v2 .nf84-home__meta a{color:#17658b}
  body.nf-premium-v2 .nf84-home__content h2{font-size:clamp(31px,8vw,41px)}
  body.nf-premium-v2 .nf84-home__content p{font-size:17px}
  body.nf-premium-v2 .nf84-home__content a{font-size:16px}
+ body.nf-premium-v2 .nf84-home__meta{font-size:14px;line-height:1.75}
 }
 @media(prefers-reduced-motion:reduce){body.nf-premium-v2 .nf84-route img{transition:none}}
