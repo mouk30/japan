@@ -24,3 +24,14 @@ body.nf-premium-v2 .nf87-audit a:focus-visible{outline:3px solid #d3a46c;outline
  body.nf-premium-v2 .nf87-audit__alert{margin:13px 14px 0}
  body.nf-premium-v2 .nf87-audit__sources{padding:14px 18px 18px}
 }
+
+
+/* V88 official notices stay visibly distinct from permanent fares and ordinary schedules. */
+body.nf-premium-v2 .nf88-official-updates{margin:16px 19px;padding:18px;border:1px solid #ddc58a;border-radius:12px;background:#fff9e9;color:#604923}
+body.nf-premium-v2 .nf88-official-updates>strong{display:block;color:#714b11;font-size:17px;margin-bottom:10px}
+body.nf-premium-v2 .nf88-official-updates p{font-size:15px;line-height:1.8;margin:8px 0}
+body.nf-premium-v2 .nf88-official-updates a{color:#075d89;font-weight:850;text-decoration:underline;text-underline-offset:2px}
+@media(max-width:650px){
+ body.nf-premium-v2 .nf88-official-updates{margin:13px 14px;padding:15px 14px}
+ body.nf-premium-v2 .nf88-official-updates p{font-size:14px}
+}
