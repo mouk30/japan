@@ -107,6 +107,26 @@ with sync_playwright() as p:
         page.locator(".nf86-intro a.nf86-action-primary").click()
     popup.value.close()
     check(len(events(page))==before,"Previously accepted consent can be revoked; subsequent clicks not recorded")
+
+    # V97: re-accepting on the SAME page must restore consent, not merely flip a local flag.
+    page.locator(".nf93-manage").click()
+    page.locator(".nf93-accept").click()
+    last_consent=page.evaluate("""() => {
+        const all=(window.dataLayer || []).filter(x=>x[0]==='consent' && x[1]==='update');
+        return all.length ? all[all.length-1][2] : {};
+    }""")
+    check(last_consent.get("analytics_storage")=="granted",
+          "V97 re-accept after refusal explicitly restores analytics_storage consent")
+    check(last_consent.get("ad_storage")=="denied" and last_consent.get("ad_personalization")=="denied",
+          "V97 only analytics is granted, never advertising data")
+    previous=len(events(page))
+    with page.expect_popup(timeout=11000) as popup:
+        page.locator(".nf86-intro a.nf86-action-primary").click()
+    popup.value.close()
+    check(len(events(page))==previous+1,
+          "V97 official ferry click recording resumes only after same-page permission regrant")
+    page.locator(".nf93-manage").click()
+    page.locator(".nf93-reject").click()
     page.reload(wait_until="domcontentloaded")
     check(len(ga_requests)>=1 and page.evaluate("typeof window.gtag")=="undefined",
           "After revocation and reload GA4 no longer initializes")
