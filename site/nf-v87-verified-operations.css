@@ -1,0 +1,26 @@
+/* V87 verified routes: compact official evidence panels without changing article URLs, metadata or primary headings. */
+body.nf-premium-v2 .nf87-audit{border:1px solid #c4dde8;border-radius:16px;overflow:hidden;background:#f7fbfd;margin:24px 0 30px;box-shadow:0 8px 24px rgba(7,49,80,.05)}
+body.nf-premium-v2 .nf87-audit__head{background:#0d3e5d;padding:19px 23px;color:#fff}
+body.nf-premium-v2 .nf87-audit__head small{display:block;color:#a9e0ff;font-size:13px;font-weight:800;letter-spacing:.07em;margin-bottom:7px}
+body.nf-premium-v2 .nf87-audit__head h2{color:#fff;font-size:clamp(23px,2.4vw,29px);margin:0 0 7px;line-height:1.28}
+body.nf-premium-v2 .nf87-audit__head p{color:#dcecf5;font-size:14px;line-height:1.65;margin:0}
+body.nf-premium-v2 .nf87-audit__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:#d8e7ec}
+body.nf-premium-v2 .nf87-audit__fact{padding:20px;background:#fff;min-width:0}
+body.nf-premium-v2 .nf87-audit__fact strong{display:block;font-size:16px;color:#0b4667;margin-bottom:8px}
+body.nf-premium-v2 .nf87-audit__fact p{font-size:16px;line-height:1.75;margin:0;color:#31576a;word-break:keep-all}
+body.nf-premium-v2 .nf87-audit__alert{border-left:4px solid #a35825;background:#fff1e6;color:#663d22;padding:14px 18px;margin:14px 19px 0;font-size:15px;line-height:1.75}
+body.nf-premium-v2 .nf87-audit__sources{border-top:1px solid #d2e2ea;padding:15px 21px 20px}
+body.nf-premium-v2 .nf87-audit__sources strong{font-size:14px;color:#194766}
+body.nf-premium-v2 .nf87-audit__sources ul{padding-left:20px;margin:9px 0 10px;line-height:1.8}
+body.nf-premium-v2 .nf87-audit__sources li{margin:4px 0;font-size:14px}
+body.nf-premium-v2 .nf87-audit__sources a{color:#095e90;text-decoration:underline;text-underline-offset:2px}
+body.nf-premium-v2 .nf87-audit__caution{font-size:13px;color:#476579;line-height:1.8;margin:8px 0 0}
+body.nf-premium-v2 .nf87-audit a:focus-visible{outline:3px solid #d3a46c;outline-offset:3px}
+@media(max-width:650px){
+ body.nf-premium-v2 .nf87-audit__head{padding:18px}
+ body.nf-premium-v2 .nf87-audit__grid{grid-template-columns:1fr}
+ body.nf-premium-v2 .nf87-audit__fact{padding:16px 18px}
+ body.nf-premium-v2 .nf87-audit__fact p{font-size:16px}
+ body.nf-premium-v2 .nf87-audit__alert{margin:13px 14px 0}
+ body.nf-premium-v2 .nf87-audit__sources{padding:14px 18px 18px}
+}
