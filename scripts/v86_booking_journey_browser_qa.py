@@ -5,12 +5,7 @@ import json, time
 from playwright.sync_api import sync_playwright
 BASE="https://www.nipponferry.com"
 OUT=Path("audit-output/v86-booking-journey");OUT.mkdir(parents=True,exist_ok=True)
-ROUTES={
- "osaka":("https://www.panstarcruise.com/","https://www.panstarcruise.com/product/osaka/info"),
- "fukuoka":("https://www.koreaferry.co.kr/rs/idv/reservation","https://www.koreaferry.kr/"),
- "shimonoseki":("https://www.kampuferry.co.jp/lang_kor/reserve/","https://www.kampuferry.co.jp/yoyaku/en/"),
- "tsushima":("https://www.panstarcruise.com/","https://www.panstarcruise.com/product/daemado/info")
-}
+ROUTES={name:(row["primary"],row["secondary"]) for name,row in json.loads((Path(__file__).resolve().parent/"v90_booking_link_targets.json").read_text("utf8"))["routes"].items()}
 SIZES=[("desktop",1440,900),("mobile",390,844),("small-mobile",360,780)]
 report={"version":"V86","created_at_utc":time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),"tests":[],"issues":[]}
 def expect(cond,msg,detail):
