@@ -77,7 +77,7 @@ with sync_playwright() as playwright:
                         if a.count()!=1 or a.get_attribute("href")!=URLS[route]:
                             err(test,"incorrect one-click operator target for "+route)
                             continue
-                        if b.count()!=1 or b.get_attribute("href")!=f"/guide/busan-{route}-ferry/#nf86-official-entry":
+                        if b.count()!=1 or b.get_attribute("href")!=f"/guide/busan-{route}-ferry/#nf87-verified-operations":
                             err(test,"existing route detail link missing for "+route)
                         if a.get_attribute("target")!="_blank" or not {"noopener","noreferrer"}.issubset(set((a.get_attribute("rel") or "").split())):
                             err(test,"unsafe external tab for "+route)
