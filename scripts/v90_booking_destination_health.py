@@ -97,8 +97,13 @@ def evaluate_response(url,response,config,provider,kind):
     if response.status_code < 200 or response.status_code >= 400:
         result.update(classification="unverified",reason="unexpected_http_status")
         return result
-    if urlsplit(url).path.rstrip("/") not in ("","/") and urlsplit(response.url).path.rstrip("/") in ("","/"):
+    original_path=urlsplit(url).path.rstrip("/")
+    actual_path=urlsplit(response.url).path.rstrip("/")
+    if original_path not in ("","/") and actual_path in ("","/"):
         result.update(classification="needs_review",reason="deep_link_redirected_to_operator_home")
+        return result
+    if kind in ("route_info","booking_entry","reservation_instructions") and original_path and actual_path!=original_path:
+        result.update(classification="needs_review",reason="specific_booking_or_route_path_changed")
         return result
     content_type=response.headers.get("content-type","").lower()
     if content_type and not any(x in content_type for x in ("html","xhtml")):
@@ -114,6 +119,13 @@ def evaluate_response(url,response,config,provider,kind):
     if not marker(title+" "+body,config["minimum_expected_text"][provider]):
         result.update(classification="unverified",reason="operator_identity_not_visible_or_js_rendered")
         return result
+    if kind=="route_info":
+        lowered=(title+" "+body).lower()
+        terms=(("osaka","오사카") if "osaka" in original_path else
+               ("tsushima","대마도","히타카츠","이즈하라","쓰시마"))
+        if not any(word in lowered for word in terms):
+            result.update(classification="unverified",reason="route_specific_content_not_visible")
+            return result
     # All identified pages must have honest labels as homepage, instructions or booking entry.
     # A landing confirmation does not imply a date is in inventory.
     result.update(classification="operator_landing_verified",reason="provider_identity_and_path_match")
