@@ -1,0 +1,47 @@
+name: V95 actual GA4 ferry booking comparison quality
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v95_booking_comparison.py'
+      - 'scripts/v94_booking_click_report.py'
+      - 'tests/test_v95_booking_comparison.py'
+      - '.github/workflows/v95-booking-comparison-qa.yml'
+permissions:
+  contents: read
+jobs:
+  safe-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test six-page and four-route comparison on synthetic fixtures only
+        run: python -m unittest discover -s tests -p 'test_v95_booking_comparison.py' -v
+      - name: Generate PRIVATE no-real-data comparison, without invented rankings
+        run: |
+          python scripts/v95_booking_comparison.py --output audit-output/v95-private-comparison
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          out=Path('audit-output/v95-private-comparison')
+          j=json.loads((out/'status.json').read_text('utf8'))
+          html=(out/'dashboard.html').read_text('utf8')
+          assert j['booking_entry_clicks_total'] is None
+          assert j['status']=='awaiting_real_ga4_export'
+          assert 'noindex,nofollow' in html
+          assert '미확인' in html
+          assert not (out/'report.json').exists()
+          print('V95 readiness correct: no actual GA4 data means UNKNOWN, no synthetic figures published.')
+          PY
+      - name: Archive private dashboard placeholder and QA status (not published to site)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v95-private-ga4-comparison-ready
+          path: audit-output/v95-private-comparison/
+          retention-days: 60
+          if-no-files-found: warn
