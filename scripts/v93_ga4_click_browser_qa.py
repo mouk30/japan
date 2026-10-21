@@ -5,6 +5,7 @@ Tests genuine user clicks, consent denial/revocation, route/source event taxonom
 NEVER sends events to a real Google Analytics property.
 """
 import json
+import re
 from pathlib import Path
 from urllib.parse import urlsplit
 from playwright.sync_api import sync_playwright
@@ -27,6 +28,17 @@ with sync_playwright() as p:
     ctx=browser.new_context(viewport={"width":390,"height":844},has_touch=True)
     ga_requests=[]
     ctx.route("https://www.googletagmanager.com/**",lambda route:(ga_requests.append(route.request.url),route.fulfill(status=200,content_type="application/javascript",body="")))
+    # This test validates OUR click-event payload, not the availability of third-party
+    # sailing sites. Simulate operator landing content to avoid external WAF/network flakiness;
+    # V90 separately checks the REAL provider links on production.
+    official_hosts={host for group in CONF["allowed_hosts"].values() for host in group}
+    def emulate_operator_page(route):
+        hostname=(urlsplit(route.request.url).hostname or "").lower()
+        if hostname in official_hosts:
+            route.fulfill(status=200,content_type="text/html",body="<html><title>Official ferry operator mock for click analytics QA</title></html>")
+        else:
+            route.fallback()
+    ctx.route(re.compile(r"^https://"),emulate_operator_page)
     page=ctx.new_page()
     page.goto(BASE+"/ferry/",wait_until="domcontentloaded")
     check(page.locator(".nf93-consent").count()==1,"Consent dialog visible with test GA4 stream configured")
