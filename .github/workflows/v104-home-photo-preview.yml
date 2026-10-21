@@ -1,0 +1,75 @@
+name: V104 editorial photo candidate contact sheet
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v104-home-photo-preview.yml'
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pillow
+      - name: Generate preview ONLY (never used as published composite)
+        run: |
+          python - <<'PY'
+          from PIL import Image,ImageOps,ImageDraw
+          import pathlib,json
+          groups={
+          'cities':[
+             'venues/tokyo-city-night-real.webp','tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp',
+             'venues/ishigaki-kabira-bay.webp','venues/miyakojima-yonaha-maehama.webp','editorial/okinawa-kouri-bridge.webp',
+             'venues/fukuoka-tower.webp','venues/fukuoka-ohori-park.webp','fukuoka.jpg',
+             'venues/nf-v85-osaka-dotonbori-licensed.webp','venues/osaka-dotonbori.webp','venues/v62-karato-market-real.webp','editorial/mojiko-cruise-port-day-trip.webp',
+             'tsushima.jpg','venues/v62-izuhara-port-real.webp','venues/kobe-meriken-park-night.webp',
+             'venues/hakodate-kanemori-warehouses.webp','venues/hakodate-mount-ropeway.webp','hokkaido.jpg'
+          ],
+          'activities':[
+             'venues/fukuoka-ohori-park.webp','culture-verified/yatai-japanese-food-stalls.webp',
+             'venues/nf-v85-osaka-dotonbori-licensed.webp','venues/osaka-usj-entrance.webp',
+             'venues/v62-karato-market-real.webp','editorial/mojiko-cruise-port-day-trip.webp',
+             'tsushima.jpg','food-verified/tsushima-food.webp','venues/v62-izuhara-port-real.webp',
+             'venues/kobe-meriken-park-night.webp','venues/ishigaki-kabira-bay.webp'
+          ],
+          'themes':[
+             'culture-verified/yatai-japanese-food-stalls.webp','culture-verified/ramen-japanese-noodle-evolution.webp','ramen-close.jpg',
+             'tokyo-verified/tokyo-mega-donki-shibuya.webp','tokyo-verified/shibuya-mega-donki-by-floor.webp','culture-verified/shopping-city-night-guide.webp',
+             'culture-verified/hanami-japanese-cherry-blossom-picnic.webp','culture-verified/hanabi-japanese-fireworks-summer.webp',
+             'editorial/kyoto-kiyomizu-stage-structure.webp','venues/kobe-meriken-park-night.webp',
+             'venues/ishigaki-kabira-bay.webp','venues/yokohama-redbrick-waterfront.webp',
+             'culture-verified/konbini-japanese-convenience-store-life.webp','culture-verified/shotengai-japanese-shopping-arcades.webp','tokyo-verified/tokyo-shibuya-crossing-hachiko.webp'
+          ]}
+          out=pathlib.Path('audit-output/v104-photo-contact');out.mkdir(parents=True,exist_ok=True)
+          rows=[]
+          for group,names in groups.items():
+            tilew,tileh,cols=330,245,3
+            nrow=(len(names)+cols-1)//cols
+            sheet=Image.new('RGB',(cols*tilew,nrow*tileh),'#e9f1f6')
+            paint=ImageDraw.Draw(sheet)
+            for i,name in enumerate(names):
+              path=pathlib.Path('site/images')/name
+              info={'group':group,'source':'/images/'+name,'exists':path.exists()}
+              if path.exists():
+                im=Image.open(path);info['width']=im.width;info['height']=im.height;info['bytes']=path.stat().st_size
+                crop=ImageOps.fit(im.convert('RGB'),(tilew-12,190),method=Image.Resampling.LANCZOS,centering=(.5,.5))
+                x=(i%cols)*tilew+6;y=(i//cols)*tileh+4
+                sheet.paste(crop,(x,y))
+                paint.text((x+3,y+195),name[:44],fill='#102e45')
+              rows.append(info)
+            sheet.save(out/(group+'-sheet.jpg'),quality=90)
+          (out/'inventory.json').write_text(json.dumps(rows,indent=2),encoding='utf8')
+          assert all(x['exists'] for x in rows)
+          print(json.dumps({'candidates':len(rows),'groups':list(groups)},indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v104-home-photo-contact-sheets
+          path: audit-output/v104-photo-contact/
+          retention-days: 15
