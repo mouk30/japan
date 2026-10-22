@@ -51,3 +51,12 @@ jobs:
           retention-days: 45
 
 # V125: triggered after the actual ten-photo GitHub Actions publication commit.
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: v125-ten-licensed-WebP-image-set
+          path: |
+            site/images/venues/nf-v125-*-real.webp
+            audit-reports/v125/photo-plan.json
+            audit-reports/v125/README.md
+          retention-days: 45
