@@ -57,7 +57,7 @@ def run_source():
   if not any(x in page for x in ("항차별","선사 공지","귀선 마감","귀선 시간")):
    issues.append(slug+": no return-to-ship condition text")
   m=re.search(r'<meta property="og:image" content="([^"]+)"',page)
-  ld=re.search(r'<script type="application/ld\\+json">([\\s\\S]*?)</script>',page)
+  ld=re.search(r'<script type="application/ld\+json">([\s\S]*?)</script>',page)
   if not m or not ld:issues.append(slug+": missing image metadata")
   else:
    data=json.loads(ld.group(1))
