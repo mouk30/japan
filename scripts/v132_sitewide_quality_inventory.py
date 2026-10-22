@@ -37,7 +37,7 @@ class Tags(HTMLParser):
    if a.get("property")=="og:image":self.og.append(a.get("content",""))
    if a.get("name")=="description":self.desc.append(a.get("content",""))
    if a.get("name")=="robots":self.robots.append(a.get("content",""))
-  if tag=="h1":self.headings.append("")
+  if tag=="h1":self.headings.append("");self._h="h1"
  def handle_data(self,text):
   if self._atxt is not None:self.anchors[self._atxt]["text"]+=text
   if self.headings and self._h=="h1":self.headings[-1]+=text
@@ -77,8 +77,8 @@ def exists(path):
  return False
 
 def text_content(source):
- s=re.sub(r"<script\\b[^>]*>[\\s\\S]*?</script>"," ",source,flags=re.I)
- s=re.sub(r"<style\\b[^>]*>[\\s\\S]*?</style>"," ",s,flags=re.I)
+ s=re.sub(r"<script\b[^>]*>[\s\S]*?</script>"," ",source,flags=re.I)
+ s=re.sub(r"<style\b[^>]*>[\s\S]*?</style>"," ",s,flags=re.I)
  return unescape(re.sub(r"<[^>]*>"," ",s))
 
 def main():
@@ -110,7 +110,7 @@ def main():
    else:
     domain=urlsplit(link).hostname
     if domain:link_domains[domain]+=1
-   label=re.sub(r"\\s+"," ",a["text"]).strip()
+   label=re.sub(r"\s+"," ",a["text"]).strip()
    if any(x in label.lower() for x in BOOKWORDS):
     if local and (local=="/" or local.startswith("/things-to-do/")):
      booking.append({"page":url,"label":label[:100],"href":link,"why":"booking-label-links-to-nonbooking-content"})
@@ -119,17 +119,17 @@ def main():
      if host in ("www.nipponferry.com","nipponferry.com"):continue
      if urlsplit(link).path in ("","/","/index.html"):
       booking.append({"page":url,"label":label[:100],"href":link,"why":"booking-label-links-to-external-homepage-not-checkout"})
-  m=re.search(r'<img[^>]*class=["\\\'][^"\\\']*cover[^"\\\']*["\\\'][^>]*>',s)
+  m=re.search(r'<img[^>]*class=["\\'][^"\\']*cover[^"\\']*["\\'][^>]*>',s)
   cover=None
   if m:
-   cover=(re.search(r'src=["\\\']([^"\\\']+)',m.group(0)) or [None,None])[1]
+   cover=(re.search(r'src=["\\']([^"\\']+)',m.group(0)) or [None,None])[1]
   if cover:
    photos["pages_with_cover"]+=1
    full=REPO+cover if cover.startswith("/") else cover
    oldog=parse.og[0] if parse.og else ""
    if oldog and oldog!=full:
     mismatches.append({"page":url,"issue":"cover_vs_og","cover":cover,"og":oldog})
-   ld=re.findall(r'<script[^>]*type=["\\\']application/ld\\+json["\\\'][^>]*>([\\s\\S]*?)</script>',s,re.I)
+   ld=re.findall(r'<script[^>]*type=["\\']application/ld\+json["\\'][^>]*>([\s\S]*?)</script>',s,re.I)
    for raw in ld:
     try: parsed=json.loads(raw)
     except (ValueError,TypeError):continue
@@ -152,7 +152,7 @@ def main():
     no_return.append({"page":url,"reason":"no_visible_return_or_boarding_language"})
    if any(k in s for k in ("최종 셔틀","귀선 마감","마지막 버스","귀선 시간","막차")):
     photos["has_return_terms"]+=1
-  matches=re.findall(r".{0,35}(?:202[0-5]년|202[0-5][.-](?:0?[1-9]|1[0-2])(?:[.-]\\d{1,2})?|202[0-5]/\\d{1,2}).{0,90}(?:요금|운임|영업|운영|입장료|예약|시간표|할증료).{0,80}",text)
+  matches=re.findall(r".{0,35}(?:202[0-5]년|202[0-5][.-](?:0?[1-9]|1[0-2])(?:[.-]\d{1,2})?|202[0-5]/\d{1,2}).{0,90}(?:요금|운임|영업|운영|입장료|예약|시간표|할증료).{0,80}",text)
   for snippet in matches[:2]:
    time_candidates.append({"page":url,"snippet":" ".join(snippet.split())[:200],"classification":"historical_date_near_operational_claim_manual_review"})
  output={
