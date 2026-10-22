@@ -1,0 +1,403 @@
+{
+  "version": "V123",
+  "checked_utc": "2026-10-22T09:59:26.954721+00:00",
+  "pages_checked": 56,
+  "counts": {
+    "correct": 56
+  },
+  "results": [
+    {
+      "url": "https://www.nipponferry.com/busan-fukuoka-cruise/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/busan-fukuoka-cruise/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/busan-fukuoka-cruise-price/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/busan-fukuoka-cruise-price/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/busan-hitakatsu-cruise/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/busan-hitakatsu-cruise/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/busan-izuhara-cruise/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/busan-izuhara-cruise/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/busan-osaka-cruise/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/busan-osaka-cruise/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/busan-osaka-cruise-price/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/busan-osaka-cruise-price/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/busan-shimonoseki-cruise/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/busan-shimonoseki-cruise/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/busan-shimonoseki-cruise-price/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/busan-shimonoseki-cruise-price/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/busan-tsushima-cruise/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/busan-tsushima-cruise/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/busan-tsushima-cruise-price/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/busan-tsushima-cruise-price/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/fukuoka-1n2d-vs-2n3d/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/fukuoka-1n2d-vs-2n3d/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/fukuoka-arrival-first-3-hours/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/fukuoka-arrival-first-3-hours/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/fukuoka-cash-or-card/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/fukuoka-cash-or-card/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/fukuoka-esim-or-roaming/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/fukuoka-esim-or-roaming/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/fukuoka-hakata-vs-tenjin/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/fukuoka-hakata-vs-tenjin/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/fukuoka-luggage-storage/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/fukuoka-luggage-storage/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/fukuoka-what-to-wear/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/fukuoka-what-to-wear/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/hokkaido-3n4d-vs-4n5d/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/hokkaido-3n4d-vs-4n5d/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/hokkaido-arrival-first-3-hours/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/hokkaido-arrival-first-3-hours/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/hokkaido-cash-or-card/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/hokkaido-cash-or-card/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/hokkaido-esim-or-roaming/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/hokkaido-esim-or-roaming/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/hokkaido-luggage-storage/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/hokkaido-luggage-storage/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/hokkaido-sapporo-vs-otaru/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/hokkaido-sapporo-vs-otaru/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/hokkaido-train-vs-rental-car/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/hokkaido-train-vs-rental-car/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/hokkaido-what-to-wear/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/hokkaido-what-to-wear/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/japan-cruise-checkin/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/japan-cruise-checkin/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/japan-cruise-room/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/japan-cruise-room/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/japan-cruise-seasickness/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/japan-cruise-seasickness/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/kobe-arrival-first-3-hours/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/kobe-arrival-first-3-hours/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/kobe-cash-or-card/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/kobe-cash-or-card/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/kobe-daytrip-vs-1n2d/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/kobe-daytrip-vs-1n2d/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/kobe-esim-or-roaming/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/kobe-esim-or-roaming/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/kobe-luggage-storage/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/kobe-luggage-storage/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/kobe-vs-osaka/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/kobe-vs-osaka/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/kobe-what-to-wear/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/kobe-what-to-wear/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/osaka-2n3d-vs-3n4d/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/osaka-2n3d-vs-3n4d/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/osaka-arrival-first-3-hours/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/osaka-arrival-first-3-hours/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/osaka-cash-or-card/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/osaka-cash-or-card/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/osaka-cruise-vs-flight/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/osaka-cruise-vs-flight/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/osaka-esim-or-roaming/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/osaka-esim-or-roaming/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/osaka-luggage-storage/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/osaka-luggage-storage/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/osaka-namba-vs-umeda/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/osaka-namba-vs-umeda/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/osaka-what-to-wear/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/osaka-what-to-wear/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/shimonoseki-arrival-first-3-hours/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/shimonoseki-arrival-first-3-hours/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/shimonoseki-cash-or-card/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/shimonoseki-cash-or-card/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/shimonoseki-esim-or-roaming/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/shimonoseki-esim-or-roaming/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/shimonoseki-karato-vs-mojiko/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/shimonoseki-karato-vs-mojiko/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/shimonoseki-luggage-storage/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/shimonoseki-luggage-storage/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/shimonoseki-what-to-wear/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/shimonoseki-what-to-wear/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/tsushima-arrival-first-3-hours/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/tsushima-arrival-first-3-hours/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/tsushima-cash-or-card/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/tsushima-cash-or-card/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/tsushima-daytrip-vs-1n2d/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/tsushima-daytrip-vs-1n2d/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/tsushima-esim-or-roaming/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/tsushima-esim-or-roaming/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/tsushima-hitakatsu-vs-izuhara/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/tsushima-hitakatsu-vs-izuhara/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/tsushima-luggage-storage/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/tsushima-luggage-storage/",
+      "redirected": false
+    },
+    {
+      "url": "https://www.nipponferry.com/tsushima-what-to-wear/",
+      "status": "correct",
+      "http": 200,
+      "actual_canonical": "https://www.nipponferry.com/tsushima-what-to-wear/",
+      "redirected": false
+    }
+  ],
+  "notes": "HTTP/TLS/bot denial is not proof of a broken public page; 200 plus exact canonical is a verified result."
+}
