@@ -7,7 +7,7 @@ on:
       - 'scripts/v132_sitewide_quality_inventory.py'
       - '.github/workflows/v132-sitewide-content-inventory.yml'
 permissions:
-  contents: write
+  contents: read
 concurrency:
   group: v132-fullsite-current-content-inventory
   cancel-in-progress: false
@@ -26,14 +26,6 @@ jobs:
         run: python -m py_compile scripts/v132_sitewide_quality_inventory.py
       - name: Audit all current local HTML pages, covers, social images, return language and CTA
         run: python scripts/v132_sitewide_quality_inventory.py
-      - name: Record audit artifacts in audit-reports without publishing new posts
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audit-reports/v132/README.md audit-reports/v132/sitewide-inventory.json
-          git commit -m "V132 archive current full-site image link return and booking QA evidence" || true
-          git pull --rebase origin main
-          git push origin HEAD:main
       - uses: actions/upload-artifact@v4
         if: always()
         with:
