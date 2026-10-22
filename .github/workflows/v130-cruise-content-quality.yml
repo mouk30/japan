@@ -1,0 +1,47 @@
+name: V130 cruise-port 36-image hub and priority travel-info QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site/things-to-do/cruise-ports/index.html'
+      - 'scripts/v130_cruise_port_quality_qa.py'
+      - '.github/workflows/v130-cruise-content-quality.yml'
+permissions:
+  contents: read
+jobs:
+  source-quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 36 real WebP thumbnail, copyright, detail cover and core ports source check
+        run: python scripts/v130_cruise_port_quality_qa.py
+  live-quality:
+    needs: source-quality
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Validate real production image decoding 36 images x desktop/mobile and 5 port guides x desktop/mobile
+        run: |
+          for attempt in 1 2 3 4; do
+            if python scripts/v130_cruise_port_quality_qa.py --live; then exit 0; fi
+            echo "Production CDN may still be propagating; attempt ${attempt}/4"
+            if [ "$attempt" -lt 4 ]; then sleep 35; fi
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v130-cruise-hub-36-photos-and-5-key-ports-desktop-mobile
+          path: audit-output/v130/
+          retention-days: 45
