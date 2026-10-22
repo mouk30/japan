@@ -8,56 +8,64 @@
         "href": "/japan/tokyo/",
         "src": "/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp",
         "kind": "licensed_photo",
-        "alt_keyword": "센소지"
+        "alt_keyword": "센소지",
+        "git_blob_sha1": "b04e803598beca0c7d27408191bb821da272961c"
       },
       {
         "label": "오키나와",
         "href": "/okinawa/",
         "src": "/images/editorial/okinawa-kouri-bridge.webp",
         "kind": "illustrative",
-        "alt_keyword": "고우리대교"
+        "alt_keyword": "고우리대교",
+        "git_blob_sha1": "abacd79951444478e0ee54b1886235514589b0a5"
       },
       {
         "label": "후쿠오카",
         "href": "/japan/fukuoka/",
         "src": "/images/editorial/hakata-cruise-port-day-trip.webp",
         "kind": "illustrative",
-        "alt_keyword": "하카타항"
+        "alt_keyword": "하카타항",
+        "git_blob_sha1": "645a6e4a13184fcdde986651f4fbe2670bca296f"
       },
       {
         "label": "오사카",
         "href": "/japan/osaka/",
         "src": "/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
         "kind": "licensed_photo",
-        "alt_keyword": "도톤보리"
+        "alt_keyword": "도톤보리",
+        "git_blob_sha1": "ab1b1b5108007a40d8167e89937305f7ae952606"
       },
       {
         "label": "시모노세키",
         "href": "/japan/shimonoseki/",
         "src": "/images/editorial/shimonoseki-cruise-port-day-trip.webp",
         "kind": "illustrative",
-        "alt_keyword": "간몬해협"
+        "alt_keyword": "간몬해협",
+        "git_blob_sha1": "8a28e102bf88c7b9f360d7a37dc3238f5c37f31c"
       },
       {
         "label": "대마도",
         "href": "/japan/tsushima/",
         "src": "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
         "kind": "illustrative",
-        "alt_keyword": "이즈하라항"
+        "alt_keyword": "이즈하라항",
+        "git_blob_sha1": "57c4bc72ecdbbc23ab052083cb1d1b594bc56b19"
       },
       {
         "label": "고베",
         "href": "/japan/kobe/",
         "src": "/images/editorial/kobe-cruise-port-day-trip.webp",
         "kind": "illustrative",
-        "alt_keyword": "포트타워"
+        "alt_keyword": "포트타워",
+        "git_blob_sha1": "5266e7dffc2462e20d8eff11499c52ff7a5170c6"
       },
       {
         "label": "홋카이도",
         "href": "/japan/hokkaido/",
         "src": "/images/editorial/hakodate-goryokaku-fort.webp",
         "kind": "illustrative",
-        "alt_keyword": "고료카쿠"
+        "alt_keyword": "고료카쿠",
+        "git_blob_sha1": "350bbdcc4167c23573af5d194ca2be7723e9ca21"
       }
     ],
     "daytrips": [
@@ -66,28 +74,32 @@
         "href": "/things-to-do/fukuoka-one-day/",
         "src": "/images/editorial/v339_hakata-port-tenjin-sightseeing.webp",
         "kind": "illustrative",
-        "alt_keyword": "하카타항"
+        "alt_keyword": "하카타항",
+        "git_blob_sha1": "9eb99b9c4ad99102cc95a458386ec52c43b278c8"
       },
       {
         "label": "오사카",
         "href": "/things-to-do/osaka-one-day/",
         "src": "/images/culture-verified/takoyaki-osaka-street-food.webp",
         "kind": "reference",
-        "alt_keyword": "타코야키"
+        "alt_keyword": "타코야키",
+        "git_blob_sha1": "154f5790edaf82b49a58953449dfa07aa3190cfa"
       },
       {
         "label": "시모노세키",
         "href": "/things-to-do/shimonoseki-one-day/",
         "src": "/images/editorial/mojiko-cruise-port-day-trip.webp",
         "kind": "illustrative",
-        "alt_keyword": "모지코"
+        "alt_keyword": "모지코",
+        "git_blob_sha1": "bb9f8398cadf15e4fe5fccae249f138775400a59"
       },
       {
         "label": "대마도",
         "href": "/things-to-do/tsushima-one-day/",
         "src": "/images/food-verified/tsushima-food.webp",
         "kind": "reference",
-        "alt_keyword": "먹거리"
+        "alt_keyword": "먹거리",
+        "git_blob_sha1": "79e9b3494f799a2b7b8035f827f107e66803d25e"
       }
     ],
     "themes": [
@@ -96,42 +108,48 @@
         "href": "/japan/fukuoka-food/",
         "src": "/images/ramen-close.jpg",
         "kind": "reference",
-        "alt_keyword": "라멘"
+        "alt_keyword": "라멘",
+        "git_blob_sha1": "d74993d770db56efbabd8cfa72feece8c866357f"
       },
       {
         "label": "쇼핑 가이드",
         "href": "/life/don-quijote-first-guide/",
         "src": "/images/editorial/okinawa-shopping-street.webp",
         "kind": "illustrative",
-        "alt_keyword": "국제거리"
+        "alt_keyword": "국제거리",
+        "git_blob_sha1": "18ffa2842111d8791f2bad91a39eb2a6c7da5fdd"
       },
       {
         "label": "4계절·축제",
         "href": "/season/japan-summer-festival-guide/",
         "src": "/images/editorial/okinawa-eisa-dance-festival.webp",
         "kind": "illustrative",
-        "alt_keyword": "에이사"
+        "alt_keyword": "에이사",
+        "git_blob_sha1": "9ccbadbe6c17ecf37a4e88b2735b2118da677215"
       },
       {
         "label": "커플 여행",
         "href": "/couple/kyoto-romantic-date/",
         "src": "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
         "kind": "illustrative",
-        "alt_keyword": "기요미즈데라"
+        "alt_keyword": "기요미즈데라",
+        "git_blob_sha1": "d415860fe07b0f90c7f25b1776cb8188f8bee6c8"
       },
       {
         "label": "포토 스팟",
         "href": "/photo-spots/",
         "src": "/images/editorial/ishigaki-kabira-bay.webp",
         "kind": "illustrative",
-        "alt_keyword": "가비라만"
+        "alt_keyword": "가비라만",
+        "git_blob_sha1": "1e2de22bd0cc78fdd0ad6e6e5831931b21a542e1"
       },
       {
         "label": "현지 생활정보",
         "href": "/life/japan-convenience-shopping-list/",
         "src": "/images/culture-verified/japanese-vending-machine-culture.webp",
         "kind": "reference",
-        "alt_keyword": "자판기"
+        "alt_keyword": "자판기",
+        "git_blob_sha1": "756e6bd9e958cd80a07afc782ccfeb34f27bc2f8"
       }
     ]
   },
