@@ -1,0 +1,143 @@
+{
+  "version": "V114",
+  "date": "2026-10-22",
+  "target": "ten existing detailed port guides with AI hero images",
+  "source_policy": "Wikimedia Commons original file page license, author and date checked; use resized attributed local WebP; CC BY-SA transforms must honor share-alike",
+  "selected": [
+    {
+      "slug": "abashiri",
+      "region": "아바시리",
+      "filename": "Abashiri Prison Museum - 2022 Aug 9 various 14 02 36 248000.jpeg",
+      "taken": "2022-08-09",
+      "subject": "박물관 아바시리 감옥의 실제 시설·건물",
+      "author": "Nesnad",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Abashiri%20Prison%20Museum%20-%202022%20Aug%209%20various%2014%2002%2036%20248000.jpeg",
+      "output": "/images/venues/nf-v114-abashiri-real.webp",
+      "photo_role": "Real photographed tourist attraction, NOT a present-day cruise berth, ship, boarding gate or verified operating schedule"
+    },
+    {
+      "slug": "wakkanai",
+      "region": "왓카나이",
+      "filename": "防波堤ドーム-01.JPG",
+      "taken": "2008-08-13",
+      "subject": "왓카나이항 북방파제 돔의 아치 구조 외관",
+      "author": "Captain76",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:%E9%98%B2%E6%B3%A2%E5%A0%A4%E3%83%89%E3%83%BC%E3%83%A0-01.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:%E9%98%B2%E6%B3%A2%E5%A0%A4%E3%83%89%E3%83%BC%E3%83%A0-01.JPG",
+      "output": "/images/venues/nf-v114-wakkanai-real.webp",
+      "photo_role": "Real photographed tourist attraction, NOT a present-day cruise berth, ship, boarding gate or verified operating schedule"
+    },
+    {
+      "slug": "yakushima-miyanoura",
+      "region": "야쿠시마·미야노우라",
+      "filename": "Shiratani Unsuikyo (4196806304).jpg",
+      "taken": "2009-11-22",
+      "subject": "야쿠시마 시라타니 운스이쿄 삼림·이끼 계곡",
+      "author": "KimonBerlin",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Shiratani%20Unsuikyo%20(4196806304).jpg",
+      "output": "/images/venues/nf-v114-yakushima-miyanoura-real.webp",
+      "photo_role": "Real photographed tourist attraction, NOT a present-day cruise berth, ship, boarding gate or verified operating schedule"
+    },
+    {
+      "slug": "motobu",
+      "region": "오키나와·모토부",
+      "filename": "Whale shark at Churauma Aquarium, Okinawa.jpg",
+      "taken": "2018-07-07",
+      "subject": "오키나와 츄라우미 수족관의 고래상어 수조",
+      "author": "Mokkie",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Whale%20shark%20at%20Churauma%20Aquarium%2C%20Okinawa.jpg",
+      "output": "/images/venues/nf-v114-motobu-real.webp",
+      "photo_role": "Real photographed tourist attraction, NOT a present-day cruise berth, ship, boarding gate or verified operating schedule"
+    },
+    {
+      "slug": "himeji",
+      "region": "히메지",
+      "filename": "Himeji castle.jpg",
+      "taken": "2020-12-29",
+      "subject": "히메지성 천수각 외관",
+      "author": "Drivephotographer",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Himeji%20castle.jpg",
+      "output": "/images/venues/nf-v114-himeji-real.webp",
+      "photo_role": "Real photographed tourist attraction, NOT a present-day cruise berth, ship, boarding gate or verified operating schedule"
+    },
+    {
+      "slug": "tokushima-komatsushima",
+      "region": "도쿠시마·고마쓰시마",
+      "filename": "Awa-odori in Tokushima City.jpg",
+      "taken": "2010-08-12",
+      "subject": "도쿠시마시 료고쿠바시 인근 아와오도리 축제",
+      "author": "Kounosu",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Awa-odori%20in%20Tokushima%20City.jpg",
+      "output": "/images/venues/nf-v114-tokushima-komatsushima-real.webp",
+      "photo_role": "Real photographed tourist attraction, NOT a present-day cruise berth, ship, boarding gate or verified operating schedule"
+    },
+    {
+      "slug": "karatsu",
+      "region": "가라쓰",
+      "filename": "Karatsu Castle.jpg",
+      "taken": "2005-08-20",
+      "subject": "가라쓰성 천수각의 과거 외관",
+      "author": "MC MasterChef",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Karatsu%20Castle.jpg",
+      "output": "/images/venues/nf-v114-karatsu-real.webp",
+      "photo_role": "Real photographed tourist attraction, NOT a present-day cruise berth, ship, boarding gate or verified operating schedule"
+    },
+    {
+      "slug": "ibaraki-hitachinaka",
+      "region": "이바라키·히타치나카",
+      "filename": "Nemophila and a Tree in Hitachi Seaside Park.jpg",
+      "taken": "2021-04-23",
+      "subject": "국영 히타치 해변공원 미하라시 언덕의 네모필라",
+      "author": "Miyuki Meinaka",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Nemophila%20and%20a%20Tree%20in%20Hitachi%20Seaside%20Park.jpg",
+      "output": "/images/venues/nf-v114-ibaraki-hitachinaka-real.webp",
+      "photo_role": "Real photographed tourist attraction, NOT a present-day cruise berth, ship, boarding gate or verified operating schedule"
+    },
+    {
+      "slug": "wakayama-shimotsu",
+      "region": "와카야마·시모쓰",
+      "filename": "Wakayama Castle.jpg",
+      "taken": "2007-12-27",
+      "subject": "와카야마성 대천수의 과거 외관",
+      "author": "kouko0515",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Wakayama%20Castle.jpg",
+      "output": "/images/venues/nf-v114-wakayama-shimotsu-real.webp",
+      "photo_role": "Real photographed tourist attraction, NOT a present-day cruise berth, ship, boarding gate or verified operating schedule"
+    },
+    {
+      "slug": "sado-ogi",
+      "region": "사도섬·오기",
+      "filename": "Taraibune in Sado Ogi.jpg",
+      "taken": "2014-05-29",
+      "subject": "사도 오기항 인근 타라이부네 통배 체험 풍경",
+      "author": "rhodnite",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Taraibune%20in%20Sado%20Ogi.jpg",
+      "output": "/images/venues/nf-v114-sado-ogi-real.webp",
+      "photo_role": "Real photographed tourist attraction, NOT a present-day cruise berth, ship, boarding gate or verified operating schedule"
+    }
+  ],
+  "limitations": [
+    "Some photographs show historic conditions, not current facilities or seasons",
+    "AI images in other article body sections are outside this hero-photo pass",
+    "Original URL/SEO must match V114 pre-change snapshot byte for byte"
+  ]
+}
