@@ -1,0 +1,57 @@
+{
+  "version": "V124",
+  "date": "2026-10-22",
+  "scope": "Homepage three '지역별 하루 즐길거리' cards only: Osaka, Shimonoseki, Tsushima",
+  "method": "Replace current plain documentary thumbnails with curated dusk/waterfront licensed real photographs. The 3 previously generated concept illustrations are bundled separately, not misrepresented as field photographs.",
+  "preserve": [
+    "Home title",
+    "meta description",
+    "canonical",
+    "H1",
+    "JSON-LD",
+    "article URL",
+    "article bodies",
+    "other cards"
+  ],
+  "photos": [
+    {
+      "slug": "osaka",
+      "href": "/things-to-do/osaka-one-day/",
+      "filename": "Tempozan Ferris Wheel in Osaka at Dusk.jpg",
+      "subject": "덴포잔 대관람차 노을 풍경",
+      "author": "TimBray",
+      "taken": "2011-11-01",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Tempozan_Ferris_Wheel_in_Osaka_at_Dusk.jpg",
+      "old": "/images/venues/osaka-kaiyukan-aquarium.webp",
+      "output": "/images/venues/nf-v124-osaka-dusk-real.webp"
+    },
+    {
+      "slug": "shimonoseki",
+      "href": "/things-to-do/shimonoseki-one-day/",
+      "filename": "View of Kammon Strait and Mojiko Retro Area near Karato Market at dusk.jpg",
+      "subject": "가라토시장 인근에서 바라본 간몬해협과 모지코 황혼 풍경",
+      "author": "そらみみ",
+      "taken": "2016-12-06",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:View_of_Kammon_Strait_and_Mojiko_Retro_Area_near_Karato_Market_at_dusk.jpg",
+      "old": "/images/venues/v62-karato-market-real.webp",
+      "output": "/images/venues/nf-v124-shimonoseki-dusk-real.webp"
+    },
+    {
+      "slug": "tsushima",
+      "href": "/things-to-do/tsushima-one-day/",
+      "filename": "Izuhara, Tsushima-2.jpg",
+      "subject": "대마도 이즈하라항과 바다·산자락 실제 풍경",
+      "author": "Saigen Jiro",
+      "taken": "2017-08-12",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Izuhara,_Tsushima-2.jpg",
+      "old": "/images/venues/v62-izuhara-port-real.webp",
+      "output": "/images/venues/nf-v124-tsushima-harbor-real.webp"
+    }
+  ]
+}
