@@ -1,0 +1,35 @@
+name: V132 deployed 83 photo-schema repairs and 3 official booking information pages on PC mobile
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v132_public_real_photo_and_booking_qa.py'
+      - '.github/workflows/v132-production-photo-and-booking-qa.yml'
+permissions:
+  contents: read
+jobs:
+  public:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: 83 changed article photos x 2 viewports and 3 official booking panels x 2 viewports
+        run: |
+          for attempt in 1 2 3; do
+            if python scripts/v132_public_real_photo_and_booking_qa.py; then exit 0; fi
+            echo "Site could be deploying; attempt $attempt of 3"
+            if [ "$attempt" -lt 3 ]; then sleep 30; fi
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v132-83-articles-og-schema-and-booking-3-panels-desktop-mobile
+          path: audit-output/v132/
+          retention-days: 45
