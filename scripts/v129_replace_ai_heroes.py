@@ -34,7 +34,7 @@ def get_original(filename):
               "Accept":"image/jpeg,image/png,image/webp,*/*"})
             with urlopen(req,timeout=65) as resp:
                 if resp.status!=200: raise ValueError("HTTP "+str(resp.status))
-                if "image/" not in resp.headers.get("Consixt-Type",""):
+                if "image/" not in resp.headers.get("Content-Type",""):
                     raise ValueError("Not an image source")
                 data=resp.read(16000001)
                 if not 10000<len(data)<=16000000:raise ValueError("Bad image size "+str(len(data)))
