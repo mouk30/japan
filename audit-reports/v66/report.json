@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-22T03:29:35.000Z",
+  "createdAt": "2026-10-22T04:15:10.874Z",
   "widths": [
     320,
     390,
@@ -13,13 +13,13 @@
       "count": 6,
       "images": [
         {
-          "src": "/images/ramen-close.jpg",
-          "alt": "따뜻한 국물과 차슈·반숙 달걀이 담긴 일본 라멘 한 그릇",
+          "src": "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
+          "alt": "일본 돈코츠 라멘의 국물과 차슈·파·김을 보여주는 실제 음식 사진",
           "ready": true
         },
         {
-          "src": "/images/editorial/okinawa-shopping-street.webp",
-          "alt": "오키나와 국제거리 상점과 기념품 쇼핑 분위기를 표현한 여행 이미지",
+          "src": "/images/culture-verified/shotengai-japanese-shopping-arcades.webp",
+          "alt": "홋카이도 삿포로 다누키코지 상점가 입구의 돈키호테 간판과 아케이드 쇼핑거리 실제 사진",
           "ready": true
         },
         {
@@ -28,8 +28,8 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
-          "alt": "교토 기요미즈데라 청수사와 가을 단풍 여행 풍경을 표현한 이미지",
+          "src": "/images/couple.jpg",
+          "alt": "교토풍 전통 골목과 등불을 배경으로 기모노 차림 커플의 로맨틱한 산책을 표현한 연출 이미지",
           "ready": true
         },
         {
@@ -38,12 +38,12 @@
           "ready": true
         },
         {
-          "src": "/images/culture-verified/japanese-vending-machine-culture.webp",
-          "alt": "일본의 일상에서 자주 접하는 자판기와 현지 생활 풍경",
+          "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+          "alt": "일본 편의점의 음료 냉장 진열대를 실제 촬영한 현지 생활정보 참고 사진",
           "ready": true
         }
       ],
-      "linkCount": 31,
+      "linkCount": 34,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "themes-320.png"
@@ -161,7 +161,7 @@
           "ready": true
         }
       ],
-      "linkCount": 21,
+      "linkCount": 23,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-320.png"
@@ -172,13 +172,13 @@
       "count": 6,
       "images": [
         {
-          "src": "/images/ramen-close.jpg",
-          "alt": "따뜻한 국물과 차슈·반숙 달걀이 담긴 일본 라멘 한 그릇",
+          "src": "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
+          "alt": "일본 돈코츠 라멘의 국물과 차슈·파·김을 보여주는 실제 음식 사진",
           "ready": true
         },
         {
-          "src": "/images/editorial/okinawa-shopping-street.webp",
-          "alt": "오키나와 국제거리 상점과 기념품 쇼핑 분위기를 표현한 여행 이미지",
+          "src": "/images/culture-verified/shotengai-japanese-shopping-arcades.webp",
+          "alt": "홋카이도 삿포로 다누키코지 상점가 입구의 돈키호테 간판과 아케이드 쇼핑거리 실제 사진",
           "ready": true
         },
         {
@@ -187,8 +187,8 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
-          "alt": "교토 기요미즈데라 청수사와 가을 단풍 여행 풍경을 표현한 이미지",
+          "src": "/images/couple.jpg",
+          "alt": "교토풍 전통 골목과 등불을 배경으로 기모노 차림 커플의 로맨틱한 산책을 표현한 연출 이미지",
           "ready": true
         },
         {
@@ -197,12 +197,12 @@
           "ready": true
         },
         {
-          "src": "/images/culture-verified/japanese-vending-machine-culture.webp",
-          "alt": "일본의 일상에서 자주 접하는 자판기와 현지 생활 풍경",
+          "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+          "alt": "일본 편의점의 음료 냉장 진열대를 실제 촬영한 현지 생활정보 참고 사진",
           "ready": true
         }
       ],
-      "linkCount": 31,
+      "linkCount": 34,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "themes-390.png"
@@ -320,7 +320,7 @@
           "ready": true
         }
       ],
-      "linkCount": 21,
+      "linkCount": 23,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-390.png"
@@ -331,13 +331,13 @@
       "count": 6,
       "images": [
         {
-          "src": "/images/ramen-close.jpg",
-          "alt": "따뜻한 국물과 차슈·반숙 달걀이 담긴 일본 라멘 한 그릇",
+          "src": "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
+          "alt": "일본 돈코츠 라멘의 국물과 차슈·파·김을 보여주는 실제 음식 사진",
           "ready": true
         },
         {
-          "src": "/images/editorial/okinawa-shopping-street.webp",
-          "alt": "오키나와 국제거리 상점과 기념품 쇼핑 분위기를 표현한 여행 이미지",
+          "src": "/images/culture-verified/shotengai-japanese-shopping-arcades.webp",
+          "alt": "홋카이도 삿포로 다누키코지 상점가 입구의 돈키호테 간판과 아케이드 쇼핑거리 실제 사진",
           "ready": true
         },
         {
@@ -346,8 +346,8 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
-          "alt": "교토 기요미즈데라 청수사와 가을 단풍 여행 풍경을 표현한 이미지",
+          "src": "/images/couple.jpg",
+          "alt": "교토풍 전통 골목과 등불을 배경으로 기모노 차림 커플의 로맨틱한 산책을 표현한 연출 이미지",
           "ready": true
         },
         {
@@ -356,12 +356,12 @@
           "ready": true
         },
         {
-          "src": "/images/culture-verified/japanese-vending-machine-culture.webp",
-          "alt": "일본의 일상에서 자주 접하는 자판기와 현지 생활 풍경",
+          "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+          "alt": "일본 편의점의 음료 냉장 진열대를 실제 촬영한 현지 생활정보 참고 사진",
           "ready": true
         }
       ],
-      "linkCount": 31,
+      "linkCount": 34,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "themes-768.png"
@@ -479,7 +479,7 @@
           "ready": true
         }
       ],
-      "linkCount": 21,
+      "linkCount": 23,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-768.png"
@@ -490,13 +490,13 @@
       "count": 6,
       "images": [
         {
-          "src": "/images/ramen-close.jpg",
-          "alt": "따뜻한 국물과 차슈·반숙 달걀이 담긴 일본 라멘 한 그릇",
+          "src": "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
+          "alt": "일본 돈코츠 라멘의 국물과 차슈·파·김을 보여주는 실제 음식 사진",
           "ready": true
         },
         {
-          "src": "/images/editorial/okinawa-shopping-street.webp",
-          "alt": "오키나와 국제거리 상점과 기념품 쇼핑 분위기를 표현한 여행 이미지",
+          "src": "/images/culture-verified/shotengai-japanese-shopping-arcades.webp",
+          "alt": "홋카이도 삿포로 다누키코지 상점가 입구의 돈키호테 간판과 아케이드 쇼핑거리 실제 사진",
           "ready": true
         },
         {
@@ -505,8 +505,8 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
-          "alt": "교토 기요미즈데라 청수사와 가을 단풍 여행 풍경을 표현한 이미지",
+          "src": "/images/couple.jpg",
+          "alt": "교토풍 전통 골목과 등불을 배경으로 기모노 차림 커플의 로맨틱한 산책을 표현한 연출 이미지",
           "ready": true
         },
         {
@@ -515,12 +515,12 @@
           "ready": true
         },
         {
-          "src": "/images/culture-verified/japanese-vending-machine-culture.webp",
-          "alt": "일본의 일상에서 자주 접하는 자판기와 현지 생활 풍경",
+          "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+          "alt": "일본 편의점의 음료 냉장 진열대를 실제 촬영한 현지 생활정보 참고 사진",
           "ready": true
         }
       ],
-      "linkCount": 31,
+      "linkCount": 34,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "themes-1440.png"
@@ -638,7 +638,7 @@
           "ready": true
         }
       ],
-      "linkCount": 21,
+      "linkCount": 23,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-1440.png"
