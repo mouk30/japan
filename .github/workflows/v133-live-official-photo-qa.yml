@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - 'scripts/v133_public_qa.py'
+      - 'site/things-to-do/okinawa-shuri-castle/index.html'
+      - 'site/things-to-do/naha-shuri-castle-cruise-sightseeing/index.html'
+      - 'site/things-to-do/nanao-cruise-port-day-trip/index.html'
+      - 'site/things-to-do/nagasaki-cruise-port-day-trip/index.html'
       - '.github/workflows/v133-live-official-photo-qa.yml'
 permissions:
   contents: read
