@@ -103,7 +103,7 @@ def scan():
             article_hero_count+=1
             name=(hero.get("src") or "")
             alt=hero.get("alt") or ""
-            if re.search(r'AI|생성|연출|참고 이미지|generated',alt,re.I) or (
+            if re.search(r'(?<![A-Za-z])AI(?![A-Za-z])|생성|연출|참고 이미지|generated',alt,re.I) or (
                 name.startswith("/images/editorial/") and re.search(r'AI 생성|AI 여행|AI 연출',html[html.find(name):html.find(name)+350],re.I)
             ):
                 photos_ai.append({"page":url,"hero":name,"alt":alt[:170],"first_heading":"".join(p.h1)[:120]})
