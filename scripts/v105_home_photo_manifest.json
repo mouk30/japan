@@ -62,10 +62,11 @@
       {
         "label": "홋카이도",
         "href": "/japan/hokkaido/",
-        "src": "/images/editorial/hakodate-goryokaku-fort.webp",
+        "src": "/images/editorial/hakodate-snow-onsen-romantic-v106.webp",
         "kind": "illustrative",
-        "alt_keyword": "고료카쿠",
-        "git_blob_sha1": "350bbdcc4167c23573af5d194ca2be7723e9ca21"
+        "alt_keyword": "온천",
+        "git_blob_sha1": "6214badc42e506a4c48da40c5858a3d92e048b34",
+        "visual_note": "AI-generated photorealistic conceptual scene blending Hakodate-like snowy harbor and outdoor bath; not an identifiable actual inn, view or property; show staged-art label"
       }
     ],
     "daytrips": [
@@ -173,5 +174,5 @@
     "minimum_height": 360,
     "maximum_bytes": 1150000
   },
-  "review_policy": "Photo-region correspondence and third-party usage rights need human editorial verification; no automatic copyright clearance or auto replacement."
+  "review_policy": "V106 Hokkaido homepage snowy onsen is a newly generated conceptual image; no assertion of actual facility, specific city vantage or weather. Human approval and real evidence required before replacing other approved photos."
 }
