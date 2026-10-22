@@ -1,0 +1,57 @@
+name: V133 photo provenance and official 2026 operating update source QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v133_photo_provenance_audit.py'
+      - '.github/workflows/v133-photo-license-and-official-qa.yml'
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile and compare three Wikimedia original author/date/licensing records
+        run: |
+          python -m py_compile scripts/v133_photo_provenance_audit.py
+          python scripts/v133_photo_provenance_audit.py
+      - name: Verify Shuri admissions updates and Nanao conditional earthquake market hours
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          root=Path('site/things-to-do')
+          for slug in ('okinawa-shuri-castle','naha-shuri-castle-cruise-sightseeing'):
+           page=(root/slug/'index.html').read_text('utf8')
+           assert page.count('id="nf-v133-shuri-official-20261023"')==1
+           for text in ('11월 22일','11월 23일','400엔','1,000엔','760엔','370엔','30분','oki-park.jp/shurijo/ticket_guide/','귀선'):
+            assert text in page,(slug,text)
+          page=(root/'nanao-cruise-port-day-trip'/'index.html').read_text('utf8')
+          assert page.count('id="nf-v133-nanao-earthquake-market-check"')==1
+          for text in ('2007년','2024년','09:00~17:00','변경될 수','www.hot-ishikawa.jp','귀선'):
+           assert text in page,text
+          print('V133 THREE OF THREE OFFICIAL INFORMATION CARDS PRESENT WITH SOURCE LINKS')
+          PY
+      - name: Archive photo attribution candidates and verified original photo facts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v133/photo-provenance-review.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V133 record source-credit review and three independently confirmed photographer licenses"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v133-photo-origin-author-date-license-review
+          path: audit-reports/v133/
+          retention-days: 45
