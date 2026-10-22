@@ -65,6 +65,12 @@ class HomeImageQualityTests(unittest.TestCase):
         errors,_=v105.audit_assets(ROOT,info)
         self.assertTrue(any("source image not in repository" in e for e in errors),errors)
 
+    def test_same_filename_image_bytes_cannot_change_silently(self):
+        info=copy.deepcopy(self.manifest)
+        info["sections"]["popular"][0]["git_blob_sha1"]="0"*40
+        errors,_=v105.audit_assets(ROOT,info)
+        self.assertTrue(any("image bytes changed since visual approval" in e for e in errors),errors)
+
     def test_too_strict_resolution_budget_causes_explicit_review(self):
         info=copy.deepcopy(self.manifest)
         info["image_format_rules"]["minimum_width"]=5000
