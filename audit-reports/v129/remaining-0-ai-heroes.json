@@ -1,0 +1,12 @@
+{
+  "version": "V129",
+  "date": "2026-10-22",
+  "scope": "Six final explicitly AI-labelled hero covers from the tracked 36-photo V126 inventory; not a global site-wide audit of all media",
+  "before": 6,
+  "confirmed_real_photo_import": 6,
+  "remaining_explicit_AI_hero_count": 0,
+  "important_note": "Old AI WebP assets may remain in git history or repository, and this does not certify other images across whole site; count is limited to tracked explicitly AI-labelled cruise port article covers.",
+  "new_kids_content": 0,
+  "kids_status": "NIPPONFERRY KIDS concept preserved separately, all publishing deferred pending source review",
+  "items": []
+}
