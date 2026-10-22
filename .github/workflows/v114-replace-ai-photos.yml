@@ -1,0 +1,46 @@
+name: V114 replace ten AI port hero pictures with licensed real photography
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v114_replace_ai_heroes.py'
+      - 'audit-reports/v114/photo-plan.json'
+      - '.github/workflows/v114-replace-ai-photos.yml'
+permissions:
+  contents: write
+concurrency:
+  group: v114-photo-import
+  cancel-in-progress: false
+jobs:
+  import-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 42
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install WebP image conversion dependency
+        run: python -m pip install "Pillow==11.3.0"
+      - name: Import all ten correct Commons photos or change no published pages
+        run: python scripts/v114_replace_ai_heroes.py
+      - name: Commit ten different WebPs and ten existing articles together
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/venues/nf-v114-*-real.webp site/things-to-do/*-cruise-port-day-trip/index.html audit-reports/v114/import-result.json
+          if git diff --cached --quiet; then
+            echo "No imported source photographs"; exit 1
+          fi
+          git commit -m "V114 replace 10 AI port heroes with dated, attributed real photographs and preserve SEO"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v114-import-dated-original-source-record
+          path: audit-reports/v114/import-result.json
+          retention-days: 45
