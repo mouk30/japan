@@ -91,7 +91,10 @@ def main():
   text=text_content(s);is_cruise=url.startswith("/things-to-do/") and bool(re.search(r"(cruise|port|harbor|terminal)",url))
   group=url.split("/")[1] if len(url.split("/"))>1 else "/";groups[group]+=1
   pages.append(url)
-  if url not in ("/404.html",):
+  # Audit-only/photo-review pages and intentional legacy meta-refresh aliases are
+  # deliberately noindex/redirected; missing SEO text is not a public indexing defect.
+  aux="noindex" in ",".join(parse.robots).lower() or bool(re.search(r'<meta[^>]+http-equiv=["\\\']refresh["\\\']',s,re.I))
+  if url not in ("/404.html",) and not aux:
    if not parse.desc:seo.append({"page":url,"issue":"no_description"})
    if not parse.canonicals:seo.append({"page":url,"issue":"no_canonical"})
    if not parse.headings:seo.append({"page":url,"issue":"no_h1"})
@@ -154,7 +157,11 @@ def main():
     photos["has_return_terms"]+=1
   matches=re.findall(r".{0,35}(?:202[0-5]년|202[0-5][.-](?:0?[1-9]|1[0-2])(?:[.-]\d{1,2})?|202[0-5]/\d{1,2}).{0,90}(?:요금|운임|영업|운영|입장료|예약|시간표|할증료).{0,80}",text)
   for snippet in matches[:2]:
-   time_candidates.append({"page":url,"snippet":" ".join(snippet.split())[:200],"classification":"historical_date_near_operational_claim_manual_review"})
+   context=" ".join(snippet.split())
+   # Photo credit dates in a paragraph about historical images are not out-of-date
+   # current ticket/operational promises. Keep only actual customer-facing claims.
+   if any(p in context for p in ("촬영 당시","사진 원본","WebP","실사 원본","촬영자","촬영일","저작자","촬영 장소")):continue
+   time_candidates.append({"page":url,"snippet":context[:200],"classification":"historical_date_near_operational_claim_manual_review"})
  output={
  "version":"V132","generated_utc":datetime.now(timezone.utc).isoformat(),
  "scope":{"site_html_pages":len(files),"site_local_images":sum(1 for x in SITE.rglob("*") if x.is_file() and x.suffix.lower() in (".webp",".png",".jpg",".jpeg",".svg",".gif",".avif")),"regions":dict(groups.most_common())},
