@@ -1,0 +1,98 @@
+{
+  "version": "V109",
+  "reviewed": "2026-10-22",
+  "scope": "18 homepage cards plus Osaka day-trip article",
+  "counts": {
+    "all_cards": 18,
+    "photographic_or_reference_assets": 8,
+    "photographs_with_documented_source": 8,
+    "illustrative_or_staged_assets": 10,
+    "uncredited_documentary_assets": 0
+  },
+  "documentary_assets": [
+    {
+      "group": "도쿄",
+      "src": "/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Senso-ji.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "group": "오사카",
+      "src": "/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:D%C5%8Dtonbori_at_night%2C_Osaka_%2819551420339%29.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "group": "오사카",
+      "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Kaiy%C5%ABkan.jpg",
+      "license": "CC0 1.0"
+    },
+    {
+      "group": "시모노세키",
+      "src": "/images/venues/v62-karato-market-real.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "group": "대마도",
+      "src": "/images/venues/v62-izuhara-port-real.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+      "license": "CC0"
+    },
+    {
+      "group": "식도락 여행",
+      "src": "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tonkotsu_ramen_in_Tokyo.jpg",
+      "license": "CC0"
+    },
+    {
+      "group": "쇼핑 가이드",
+      "src": "/images/culture-verified/shotengai-japanese-shopping-arcades.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tanukikoji_01.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "group": "현지 생활정보",
+      "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Konbini_drink_corner_2009_%283819547946%29.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "osaka_kaiyukan": {
+    "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
+    "commons_source": "https://commons.wikimedia.org/wiki/File:Kaiy%C5%ABkan.jpg",
+    "photographer": "Sakai Yayoi",
+    "license": "CC0 1.0",
+    "captured": "2026-05-07",
+    "visual_match": true,
+    "derived_file_transform_exactly_verified": false,
+    "sha256": "27d0332a273df91d23a454176d97cf06ccc1815522d7d9c57d8076d30530be98"
+  },
+  "osaka_detail": {
+    "url": "/things-to-do/osaka-one-day/",
+    "previous": "/images/venues/osaka-dotonbori.webp",
+    "updated": "/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+    "photographer": "Kristoffer Trolle",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:D%C5%8Dtonbori_at_night%2C_Osaka_%2819551420339%29.jpg",
+    "usage": [
+      "hero-background",
+      "first-photo",
+      "og:image"
+    ],
+    "seo_preserved": [
+      "canonical",
+      "title",
+      "description",
+      "JSON-LD",
+      "URL"
+    ]
+  },
+  "limits": [
+    "Source coverage of eight photos does not mean ten generated illustrations are real location photographs.",
+    "Other article pages across the domain have not been exhaustively audited.",
+    "Older photos are not evidence of opening hours or present attractions.",
+    "Exact derivative process of existing aquarium WebP has not been independently proven."
+  ]
+}

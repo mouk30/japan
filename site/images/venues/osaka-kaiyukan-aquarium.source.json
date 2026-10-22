@@ -1,0 +1,21 @@
+{
+  "asset": "site/images/venues/osaka-kaiyukan-aquarium.webp",
+  "depicts": "Aerial view of Osaka Aquarium Kaiyukan exterior and waterfront, Japan",
+  "original": "https://commons.wikimedia.org/wiki/File:Kaiy%C5%ABkan.jpg",
+  "original_license_page": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "photographer": "Sakai Yayoi",
+  "taken": "2026-05-07",
+  "license": "CC0 1.0",
+  "original_capture_claim": "Wikimedia Commons file metadata and credit",
+  "match_review": "Visual comparison with Commons 1280px preview showed same building arrangement, waterfront and camera perspective. The exact JPEG-to-WebP transformation chain was not independently reconstructed.",
+  "modification": "Existing WebP; precise export/resize pipeline unverified",
+  "output_sha256": "27d0332a273df91d23a454176d97cf06ccc1815522d7d9c57d8076d30530be98",
+  "git_blob_sha1": "d3344df4055136ca831da376ba708538c6267ce3",
+  "size_bytes": 303826,
+  "provenance_review_date": "2026-10-22",
+  "site_uses": [
+    "/",
+    "/things-to-do/osaka-one-day/"
+  ],
+  "photo_not_proof_of_current_operating_hours": true
+}

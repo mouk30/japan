@@ -190,6 +190,19 @@ def audit_assets(root,manifest):
                    and x["kind"]=="illustrative" for x in manifest["sections"]["popular"]):
             errors.append("V106 Hakodate hero must remain explicitly staged and listed on homepage")
 
+    # V109: all 18 homepage cards classified as documentary/reference
+    # need an explicit published photo credit and source record.
+    photographed = {item["src"] for entries in manifest["sections"].values()
+                    for item in entries if item["kind"] != "illustrative"}
+    credits = [item["src"] for item in manifest.get("licensed_credits", [])]
+    if len(credits) != len(set(credits)):
+        errors.append("V109 duplicate photo attribution sources")
+    missing = sorted(photographed - set(credits))
+    if missing:
+        errors.append("V109 homepage documentary/reference photos lack source credits: " + ", ".join(missing))
+    wrong = sorted(set(credits) - photographed)
+    if wrong:
+        errors.append("V109 photo credits do not match documentary cards: " + ", ".join(wrong))
     for credit in manifest["licensed_credits"]:
         if credit.get("manifest"):
             path=root/credit["manifest"]

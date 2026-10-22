@@ -197,6 +197,13 @@
       "creator": "Saigen Jiro",
       "license": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg"
+    },
+    {
+      "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
+      "creator": "Sakai Yayoi",
+      "license": "CC0 1.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Kaiy%C5%ABkan.jpg",
+      "manifest": "site/images/venues/osaka-kaiyukan-aquarium.source.json"
     }
   ],
   "image_format_rules": {

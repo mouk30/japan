@@ -24,6 +24,35 @@ class HomeImageQualityTests(unittest.TestCase):
         self.assertEqual(r["illustrations"],10)
         self.assertEqual(r["licensed_or_reference"],8)
 
+    def test_v109_all_documentary_cards_have_origin_metadata(self):
+        photos={item["src"] for items in self.manifest["sections"].values()
+                for item in items if item["kind"]!="illustrative"}
+        credited={item["src"] for item in self.manifest["licensed_credits"]}
+        self.assertEqual(photos,credited)
+        self.assertEqual(len(photos),8)
+        image="/images/venues/osaka-kaiyukan-aquarium.webp"
+        metadata=json.loads((ROOT/"site/images/venues/osaka-kaiyukan-aquarium.source.json").read_text("utf8"))
+        self.assertEqual(metadata["git_blob_sha1"],"d3344df4055136ca831da376ba708538c6267ce3")
+        self.assertEqual(metadata["photographer"],"Sakai Yayoi")
+        self.assertEqual(metadata["license"],"CC0 1.0")
+        self.assertEqual(metadata["original"],"https://commons.wikimedia.org/wiki/File:Kaiy%C5%ABkan.jpg")
+        self.assertIn("Sakai Yayoi",self.html)
+        errors,_=v105.audit_assets(ROOT,self.manifest)
+        self.assertEqual(errors,[])
+        lacking=copy.deepcopy(self.manifest)
+        lacking["licensed_credits"]=[x for x in lacking["licensed_credits"] if x["src"]!=image]
+        errors,_=v105.audit_assets(ROOT,lacking)
+        self.assertTrue(any("V109 homepage documentary/reference photos lack source credits" in e for e in errors))
+
+    def test_v109_osaka_detail_photo_and_seo_retained(self):
+        article=(ROOT/"site/things-to-do/osaka-one-day/index.html").read_text("utf8")
+        self.assertIn('<link rel="canonical" href="https://www.nipponferry.com/things-to-do/osaka-one-day/">',article)
+        self.assertIn('application/ld+json',article)
+        self.assertIn('og:image" content="https://www.nipponferry.com/images/venues/nf-v85-osaka-dotonbori-licensed.webp"',article)
+        self.assertNotIn("/images/venues/osaka-dotonbori.webp",article)
+        self.assertIn("Kristoffer Trolle",article)
+        self.assertIn("CC BY 2.0",article)
+
     def test_v108_theme_cards_images_and_provenance(self):
         cards=v105.extract_cards(self.html)["themes"]
         expectations=[
@@ -42,7 +71,7 @@ class HomeImageQualityTests(unittest.TestCase):
                 self.assertEqual("v63-photo-disclosure" in cards[pos]["labels"],kind=="illustrative")
         for name in ("Syced","Mugu-shisai","Yuya Tamai","bryan...","Saigen Jiro"):
             self.assertIn(name,self.html)
-        self.assertEqual(len(self.manifest["licensed_credits"]),7)
+        self.assertEqual(len(self.manifest["licensed_credits"]),8)
 
     def test_v107_regional_cards_reuse_matching_existing_place_images(self):
         expected=[
