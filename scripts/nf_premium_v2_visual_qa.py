@@ -35,6 +35,7 @@ async def main():
       css:!!document.querySelector('link[href*="nf-premium-v2.css"]'),
       brand:document.querySelector('.site-header .brand strong')?.textContent?.trim(),
       navigation:[...document.querySelectorAll('.desktop-nav a')].length,
+      kidsLink:!!document.querySelector('.site-header .desktop-nav a[href="/kids/"]'),
       logo:!!document.querySelector('.nf-brand-mark'),
       overflow:document.documentElement.scrollWidth>window.innerWidth+3,
       cta:!!document.querySelector('.nf-v2-cta'),
@@ -59,8 +60,8 @@ async def main():
   await browser.close()
  failures=[]
  for r in reports:
-  if r.get("status")!=200 or not r.get("premium") or not r.get("css") or r.get("brand")!="NIPPONFERRY" or r.get("navigation")!=8 or r.get("overflow") or r.get("exception"):
-   failures.append({k:r.get(k) for k in ("name","width","status","premium","css","brand","navigation","overflow","exception")})
+  if r.get("status")!=200 or not r.get("premium") or not r.get("css") or r.get("brand")!="NIPPONFERRY" or r.get("navigation")!=9 or not r.get("kidsLink") or r.get("overflow") or r.get("exception"):
+   failures.append({k:r.get(k) for k in ("name","width","status","premium","css","brand","navigation","kidsLink","overflow","exception")})
   if r.get("width")==390 and r.get("menuVisible") and (not r.get("mobileOpen") or not r.get("escapeClosed") or r.get("expanded")!="true"):
    failures.append({"mobileMenu":r["name"],"open":r.get("mobileOpen"),"escape":r.get("escapeClosed"),"aria":r.get("expanded")})
  summary={"pages":len(PAGES),"viewports":[390,768,1440],"checks":len(reports),"failures":failures,"reports":reports,"note":"Static site rendered in real Chromium from exact post-migration files; live deployed site needs separate monitoring."}
