@@ -1,0 +1,49 @@
+name: V124 premium scenic three-card photo replacement
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit-reports/v124/photo-plan.json'
+      - 'scripts/v124_home_three_photo_import.py'
+      - '.github/workflows/v124-home-three-photos.yml'
+permissions:
+  contents: write
+concurrency:
+  group: v124-scenic-photos
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install "Pillow==11.3.0"
+      - name: Retrieve three scenic real Commons originals and replace exactly matching cards
+        run: python scripts/v124_home_three_photo_import.py
+      - name: Validate three WebPs, CC photo rights and unchanged homepage SEO
+        run: python scripts/v124_home_three_photo_qa.py
+      - name: Push images and markup as one all-or-nothing commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/index.html site/images/venues/nf-v124-*.webp audit-reports/v124/import-result.json
+          if git diff --cached --quiet; then
+            echo "No imported images, not claiming completion"
+            exit 1
+          fi
+          git commit -m "V124 upgrade three day trip cards with licensed premium scenic photographs and unchanged SEO"
+          git pull --rebase origin main
+          python scripts/v124_home_three_photo_qa.py
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v124-three-real-photo-evidence
+          path: audit-reports/v124/import-result.json
+          retention-days: 45
