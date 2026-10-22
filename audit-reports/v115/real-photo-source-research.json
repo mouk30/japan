@@ -1,0 +1,43 @@
+{
+  "version": "V115",
+  "date": "2026-10-22",
+  "stage": "licensed photo research; NOT published",
+  "approved_for_release": false,
+  "rule": "Release only after actual pixels manually reviewed against site article, all 10 independently sourced, original photo file rights/date verified, WebP integrity and PC/mobile 20 checks.",
+  "source_verified": [
+    {
+      "slug": "fukuyama",
+      "subject": "후쿠야마성",
+      "filename": "Fukuyama Castle 2025-04.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fukuyama_Castle_2025-04.jpg",
+      "photographer": "Editor0206",
+      "taken": "2025-04-03",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "visual_review": "pending pixel-level manual review"
+    },
+    {
+      "slug": "hososhima",
+      "subject": "호소시마·휴가 우마가세 해안",
+      "filename": "Umagase Hyuga 2010.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Umagase_Hyuga_2010.JPG",
+      "photographer": "Sanjo",
+      "taken": "2010-07-18",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "visual_review": "pending pixel-level manual review; historic shot"
+    }
+  ],
+  "remaining_to_source": [
+    "aokata",
+    "gamagori",
+    "hagi",
+    "hannan",
+    "hidaka",
+    "hamada",
+    "hirado-kawachi",
+    "kisarazu"
+  ],
+  "site_pages_changed": 0,
+  "photo_files_changed": 0
+}
