@@ -1,0 +1,159 @@
+{
+  "version": "V105",
+  "policy": "18 hand-reviewed homepage photo candidates; illustrated asset isn't documentary field photography",
+  "sections": {
+    "popular": [
+      {
+        "label": "도쿄",
+        "href": "/japan/tokyo/",
+        "src": "/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp",
+        "kind": "licensed_photo",
+        "alt_keyword": "센소지"
+      },
+      {
+        "label": "오키나와",
+        "href": "/okinawa/",
+        "src": "/images/editorial/okinawa-kouri-bridge.webp",
+        "kind": "illustrative",
+        "alt_keyword": "고우리대교"
+      },
+      {
+        "label": "후쿠오카",
+        "href": "/japan/fukuoka/",
+        "src": "/images/editorial/hakata-cruise-port-day-trip.webp",
+        "kind": "illustrative",
+        "alt_keyword": "하카타항"
+      },
+      {
+        "label": "오사카",
+        "href": "/japan/osaka/",
+        "src": "/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+        "kind": "licensed_photo",
+        "alt_keyword": "도톤보리"
+      },
+      {
+        "label": "시모노세키",
+        "href": "/japan/shimonoseki/",
+        "src": "/images/editorial/shimonoseki-cruise-port-day-trip.webp",
+        "kind": "illustrative",
+        "alt_keyword": "간몬해협"
+      },
+      {
+        "label": "대마도",
+        "href": "/japan/tsushima/",
+        "src": "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
+        "kind": "illustrative",
+        "alt_keyword": "이즈하라항"
+      },
+      {
+        "label": "고베",
+        "href": "/japan/kobe/",
+        "src": "/images/editorial/kobe-cruise-port-day-trip.webp",
+        "kind": "illustrative",
+        "alt_keyword": "포트타워"
+      },
+      {
+        "label": "홋카이도",
+        "href": "/japan/hokkaido/",
+        "src": "/images/editorial/hakodate-goryokaku-fort.webp",
+        "kind": "illustrative",
+        "alt_keyword": "고료카쿠"
+      }
+    ],
+    "daytrips": [
+      {
+        "label": "후쿠오카",
+        "href": "/things-to-do/fukuoka-one-day/",
+        "src": "/images/editorial/v339_hakata-port-tenjin-sightseeing.webp",
+        "kind": "illustrative",
+        "alt_keyword": "하카타항"
+      },
+      {
+        "label": "오사카",
+        "href": "/things-to-do/osaka-one-day/",
+        "src": "/images/culture-verified/takoyaki-osaka-street-food.webp",
+        "kind": "reference",
+        "alt_keyword": "타코야키"
+      },
+      {
+        "label": "시모노세키",
+        "href": "/things-to-do/shimonoseki-one-day/",
+        "src": "/images/editorial/mojiko-cruise-port-day-trip.webp",
+        "kind": "illustrative",
+        "alt_keyword": "모지코"
+      },
+      {
+        "label": "대마도",
+        "href": "/things-to-do/tsushima-one-day/",
+        "src": "/images/food-verified/tsushima-food.webp",
+        "kind": "reference",
+        "alt_keyword": "먹거리"
+      }
+    ],
+    "themes": [
+      {
+        "label": "식도락 여행",
+        "href": "/japan/fukuoka-food/",
+        "src": "/images/ramen-close.jpg",
+        "kind": "reference",
+        "alt_keyword": "라멘"
+      },
+      {
+        "label": "쇼핑 가이드",
+        "href": "/life/don-quijote-first-guide/",
+        "src": "/images/editorial/okinawa-shopping-street.webp",
+        "kind": "illustrative",
+        "alt_keyword": "국제거리"
+      },
+      {
+        "label": "4계절·축제",
+        "href": "/season/japan-summer-festival-guide/",
+        "src": "/images/editorial/okinawa-eisa-dance-festival.webp",
+        "kind": "illustrative",
+        "alt_keyword": "에이사"
+      },
+      {
+        "label": "커플 여행",
+        "href": "/couple/kyoto-romantic-date/",
+        "src": "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
+        "kind": "illustrative",
+        "alt_keyword": "기요미즈데라"
+      },
+      {
+        "label": "포토 스팟",
+        "href": "/photo-spots/",
+        "src": "/images/editorial/ishigaki-kabira-bay.webp",
+        "kind": "illustrative",
+        "alt_keyword": "가비라만"
+      },
+      {
+        "label": "현지 생활정보",
+        "href": "/life/japan-convenience-shopping-list/",
+        "src": "/images/culture-verified/japanese-vending-machine-culture.webp",
+        "kind": "reference",
+        "alt_keyword": "자판기"
+      }
+    ]
+  },
+  "licensed_credits": [
+    {
+      "src": "/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp",
+      "creator": "Felix Filnkössl",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Senso-ji.jpg"
+    },
+    {
+      "src": "/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+      "creator": "Kristoffer Trolle",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:D%C5%8Dtonbori_at_night%2C_Osaka_%2819551420339%29.jpg",
+      "manifest": "site/images/venues/nf-v85-osaka-dotonbori-licensed.source.json"
+    }
+  ],
+  "image_format_rules": {
+    "minimum_width": 640,
+    "minimum_height": 360,
+    "maximum_bytes": 1150000
+  },
+  "review_policy": "Photo-region correspondence and third-party usage rights need human editorial verification; no automatic copyright clearance or auto replacement."
+}
