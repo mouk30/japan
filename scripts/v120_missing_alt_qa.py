@@ -32,7 +32,7 @@ for file in sorted(SITE.rglob("*.html")):
   global total
   nonlocal_alt=m.group()
   if re.search(r"\balt\s*=",nonlocal_alt,re.I):return nonlocal_alt
-  a=re.search(r'\bsrc="([^"]+)"',nonlocal_alt)
+  a=re.search(r"\bsrc\s*=\s*['\"]([^'\"]+)['\"]",nonlocal_alt)
   if not a:return nonlocal_alt
   path=a.group(1)
   if path not in CAPTIONS:
