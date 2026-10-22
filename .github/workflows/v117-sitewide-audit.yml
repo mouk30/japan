@@ -1,0 +1,34 @@
+name: V117 full site inventory and original content verification
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v117_sitewide_audit.py'
+      - '.github/workflows/v117-sitewide-audit.yml'
+permissions:
+  contents: write
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit every published HTML document in NIPPONFERRY
+        run: python scripts/v117_sitewide_audit.py
+      - name: Preserve actual evidence in repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v117/sitewide-qa.json audit-reports/v117/detail-inventory.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V117 publish sitewide AI image link and SEO inventory evidence"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v117-sitewide-original-content-audit
+          path: audit-reports/v117/
+          retention-days: 45
