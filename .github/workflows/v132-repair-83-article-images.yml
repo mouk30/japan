@@ -1,0 +1,60 @@
+name: V132 repair 83 real-cover OG and structured Article image discrepancies
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v132_repair_cover_og_article_schema.py'
+      - '.github/workflows/v132-repair-83-article-images.yml'
+permissions:
+  contents: write
+concurrency:
+  group: v132-protected-83-article-image-corrections
+  cancel-in-progress: false
+jobs:
+  metadata-repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Parse and check original 83-page source inventory and patch safety
+        run: |
+          python -m py_compile scripts/v132_repair_cover_og_article_schema.py scripts/v132_sitewide_quality_inventory.py
+          python scripts/v132_repair_cover_og_article_schema.py
+      - name: Keep audit baseline and update existing article OG and Article images only
+        run: |
+          cp audit-reports/v132/sitewide-inventory.json audit-reports/v132/sitewide-inventory-before-photo-repair.json
+          python scripts/v132_repair_cover_og_article_schema.py --apply
+          python scripts/v132_sitewide_quality_inventory.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('audit-reports/v132/sitewide-inventory.json')
+          d=json.loads(p.read_text('utf8'))
+          print(d["scope"]["site_html_pages"],d["counts"]["cover_social_or_article_image_conflicts"])
+          assert d["scope"]["site_html_pages"]>=1277
+          assert d["counts"]["cover_social_or_article_image_conflicts"]==0
+          assert d["counts"]["missing_image_local_references"]==0
+          assert d["counts"]["unresolved_internal_links"]==0
+          assert json.loads(Path('audit-reports/v132/image-metadata-repair.json').read_text())["checked"]==83
+          PY
+      - name: Publish metadata corrections and reports without any new post
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/things-to-do audit-reports/v132/
+          git diff --cached --quiet && exit 1 || true
+          git commit -m "V132 fix 83 existing article preview image metadata mismatches and archive sitewide audits"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v132-original-83-photo-mismatch-and-verified-repaired-sitewide-reports
+          path: audit-reports/v132/
+          retention-days: 45
