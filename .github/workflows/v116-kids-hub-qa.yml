@@ -1,0 +1,49 @@
+name: V116 Kids independent theme source and production visual QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site/kids/**'
+      - 'site/nf-v116-kids.*'
+      - 'site/nf-premium-v2.js'
+      - 'site/nf-premium-v2.css'
+      - 'site/index.html'
+      - 'site/sitemap.xml'
+      - 'scripts/v116_kids_hub_qa.py'
+      - '.github/workflows/v116-kids-hub-qa.yml'
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate 12 links, SEO, local photos, navigation and sitemap
+        run: python scripts/v116_kids_hub_qa.py
+  browser:
+    needs: source
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Check public 1440px and 390px pages, visible images, filters and nav
+        run: |
+          for attempt in 1 2 3 4; do
+            if python scripts/v116_kids_live_qa.py; then exit 0; fi
+            echo "Public deployment not confirmed; retry $attempt/4"
+            if [ "$attempt" -lt 4 ]; then sleep 35; fi
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v116-kids-pc-mobile-visual-evidence
+          path: audit-output/v116/
+          retention-days: 45
