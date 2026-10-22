@@ -51,4 +51,9 @@
 
 ## 최종 공개 사이트 검사 결과
 
-**GitHub Actions의 최종 PC/모바일 실행 결과를 기준으로 기록한다.**
+- [V113 소스 사진·SEO·공개 PC/모바일 전체 검수 **성공**](https://github.com/mouk30/japan/actions/runs/39738896338)
+- **사진 10개**: WebP SHA-256·이미지 크기·출처 라이선스·새로운 실사/OG 정합성·기존 HTML SEO 원문 검사 **10/10 성공, 오류 0건**.
+- **공개 사이트 10개 페이지 × PC 1440px/모바일 390px = 20회**: 사진 표시·이미지 디코딩·저작권·OG·canonical·가로 넘침 검사 **20/20 성공, 오류 0건**.
+- 실제 GitHub Actions 로그: `{"passed": true, "checked": 20, "expected": 20, "errors": []}`.
+- PC·모바일 스크린샷 및 JSON 검수 보고서는 해당 Actions의 `v113-ten-real-landmark-images-pc-mobile-screens` 아티팩트에서 확인 가능.
+- **제한:** 자동화 검증은 당시 업로드된 사진의 저작자·라이선스 표시와 파일/SEO·브라우저 표시 검수다. 영업일·실제 크루즈 접안 선석 및 모든 이미지의 법적 소유권을 보증하지 않는다.
