@@ -1,0 +1,128 @@
+{
+  "version": "V126",
+  "date": "2026-10-22",
+  "task": "Exactly ten existing known AI hero photographs replaced by ten independently documented Commons original photographs",
+  "approved_source_requirement": "Original file page shows actual landmark/area, original author, shooting date, and reuse license; photo does not certify current cruise berth, passenger access, or operational status.",
+  "selected": [
+    {
+      "slug": "kawasaki-cruise-port-day-trip",
+      "region": "가나가와·가와사키",
+      "subject": "2023년 촬영한 가와사키항 실제 모습. 크루즈 당일 접안 부두·게이트가 아닐 수 있음",
+      "filename": "Kawasaki port.jpg",
+      "taken": "2023-08-09",
+      "author": "Syced",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kawasaki%20port.jpg",
+      "output": "/images/venues/nf-v126-kawasaki-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "kozushima-cruise-port-day-trip",
+      "region": "도쿄도·고즈시마",
+      "subject": "고즈시마 마을과 덴조산 실제 경관. 고즈시마항 접안시설 전용 사진 아님",
+      "filename": "Kozushima village and Mt. Tenjo (DSC03705).jpeg",
+      "taken": "2015-05-04",
+      "author": "TomazVajngerl",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kozushima%20village%20and%20Mt.%20Tenjo%20(DSC03705).jpeg",
+      "output": "/images/venues/nf-v126-kozushima-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "kumamoto-misumi-cruise-port-day-trip",
+      "region": "구마모토·미스미",
+      "subject": "미스미 서항의 옛 다카다 회조점과 역사 항만 지역. 현대 크루즈 하선부두 아님",
+      "filename": "Misumi West Port from west side.jpg",
+      "taken": "2017-01-03",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Misumi%20West%20Port%20from%20west%20side.jpg",
+      "output": "/images/venues/nf-v126-kumamoto-misumi-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "miike-miyakejima-cruise-port-day-trip",
+      "region": "도쿄도·미야케지마",
+      "subject": "2008년 촬영한 미야케지마 미이케항 실제 전경. 현재 접안 및 운항상태 보증 아님",
+      "filename": "080430 Miike port Miyakejima.JPG",
+      "taken": "2008-04-30",
+      "author": "名古屋太郎",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:080430%20Miike%20port%20Miyakejima.JPG",
+      "output": "/images/venues/nf-v126-miike-miyakejima-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "mikawa-jinno-cruise-port-day-trip",
+      "region": "아이치·도요하시",
+      "subject": "도요하시역 동쪽 버스터미널과 노면전차 승강장. 미카와 진노7호 부두 아님",
+      "filename": "Toyohashi Station Bus Terminal and Tram Stop.jpg",
+      "taken": "2009-09-04",
+      "author": "Kiyok",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Toyohashi%20Station%20Bus%20Terminal%20and%20Tram%20Stop.jpg",
+      "output": "/images/venues/nf-v126-mikawa-jinno-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "mitajiri-nakanoseki-cruise-port-day-trip",
+      "region": "야마구치·호후",
+      "subject": "2013년 촬영한 미타지리·나카노세키항 미타지리 방면 실제 전경. 당일 크루즈 선석은 별도",
+      "filename": "Mitajiri-Nakanoseki port.JPG",
+      "taken": "2013-09-13",
+      "author": "TT mk2",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Mitajiri-Nakanoseki%20port.JPG",
+      "output": "/images/venues/nf-v126-mitajiri-nakanoseki-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "nakagusuku-bay-cruise-port-day-trip",
+      "region": "오키나와·나카구스쿠",
+      "subject": "나카구스쿠성터 정문 유적. 나카구스쿠만 크루즈 부두와 다른 장소",
+      "filename": "Nakagusuku-Castle Entrance.jpg",
+      "taken": "2024-06-28",
+      "author": "MaedaAkihiko",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Nakagusuku-Castle%20Entrance.jpg",
+      "output": "/images/venues/nf-v126-nakagusuku-bay-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "nakatsu-cruise-port-day-trip",
+      "region": "오이타·나카쓰",
+      "subject": "나카쓰성 천수각 실제 촬영 모습. 나카쓰항 승객 하선시설 아님",
+      "filename": "Tenshu of Nakatsu Castle.jpg",
+      "taken": "2017-04-30",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Tenshu%20of%20Nakatsu%20Castle.jpg",
+      "output": "/images/venues/nf-v126-nakatsu-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "nanao-cruise-port-day-trip",
+      "region": "이시카와·나나오",
+      "subject": "2007년의 나나오항 사진. 2024년 노토반도 지진 이후 항만·시설 현황을 의미하지 않음",
+      "filename": "Nanao port.JPG",
+      "taken": "2007-12-25",
+      "author": "nanaoshimin",
+      "license": "Public domain (author dedication)",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Nanao_port.JPG#Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:Nanao%20port.JPG",
+      "output": "/images/venues/nf-v126-nanao-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "naoetsu-cruise-port-day-trip",
+      "region": "니가타·조에쓰",
+      "subject": "조에쓰 다카다 성터공원 서쪽 해자 2013년 촬영 당시 풍경. 나오에쓰항은 별도 위치",
+      "filename": "Takada park West Moat Niigata Japan.jpg",
+      "taken": "2013-04-15",
+      "author": "Triglav",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Takada%20park%20West%20Moat%20Niigata%20Japan.jpg",
+      "output": "/images/venues/nf-v126-naoetsu-cruise-port-day-trip-real.webp"
+    }
+  ]
+}
