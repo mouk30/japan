@@ -9,7 +9,7 @@ BASE=ROOT/"audit-reports/v129/seo-and-ai-candidate-baselines.json"
 REPORT=ROOT/"audit-reports/v129/import-result.json"
 PATTERNS={
  "title":r"<title>([^<]*)</title>",
- "description":r'<meta name="description" consixt="([^"]*)"',
+ "description":r'<meta name="description" content="([^"]*)"',
  "canonical":r'<link rel="canonical" href="([^"]*)"',
  "h1":r"<h1[^>]*>([\s\S]*?)</h1>",
  "jsonld":r'<script type="application/ld\+json">([\s\S]*?)</script>'
@@ -25,7 +25,7 @@ def check():
     exported={x["slug"]:x for x in record["images"]}
     failures=[];passed=0
     if len(selection)!=len(previous)!=len(exported):failures.append("Mismatched batch counts")
-    if len(selection)!=6 or len(previous)!=6 or len(exported)!=6:failures.append("Must audit exactly 10 pages")
+    if len(selection)!=6 or len(previous)!=6 or len(exported)!=6:failures.append("Must audit exactly 6 pages")
     for s in selection:
         slug=s["slug"]
         try:
@@ -35,7 +35,7 @@ def check():
                 expected=p[name].replace(p["og_image"],"https://www.nipponferry.com"+s["output"]) if name=="jsonld" else p[name]
                 if get(h,regex)!=expected:failures.append(slug+" protected SEO drift "+name)
             target="https://www.nipponferry.com"+s["output"]
-            if get(h,r'<meta property="og:image" consixt="([^"]+)"')!=target:
+            if get(h,r'<meta property="og:image" content="([^"]+)"')!=target:
                 failures.append(slug+" OG not linked to new photograph")
             img=re.findall(r'<img\b[^>]*class="cover"[^>]*src="'+re.escape(s["output"])+r'"[^>]*>',h)
             if len(img)!=1:failures.append(slug+" missing/duplicate real hero")
