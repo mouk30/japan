@@ -93,7 +93,7 @@ def main():
   pages.append(url)
   # Audit-only/photo-review pages and intentional legacy meta-refresh aliases are
   # deliberately noindex/redirected; missing SEO text is not a public indexing defect.
-  aux="noindex" in ",".join(parse.robots).lower() or bool(re.search(r'<meta[^>]+http-equiv=["\\\']refresh["\\\']',s,re.I))
+  aux="noindex" in ",".join(parse.robots).lower() or bool(re.search(r"""<meta[^>]+http-equiv=["']refresh["']""",s,re.I))
   if url not in ("/404.html",) and not aux:
    if not parse.desc:seo.append({"page":url,"issue":"no_description"})
    if not parse.canonicals:seo.append({"page":url,"issue":"no_canonical"})
