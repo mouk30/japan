@@ -56,7 +56,7 @@ def scan():
     files=sorted(SITE.rglob("*.html"))
     image_broken=defaultdict(list);links_broken=defaultdict(list);canonical_issues=[];photos_ai=[];alt_missing=[]
     photos_by_type=Counter();outbound=defaultdict(set)
-    metas=Counter();missing_seo=Counter();samples=[]
+    metas=Counter();missing_seo=Counter();missing_seo_pages=defaultdict(list);samples=[]
     external=Counter();article_hero_count=0
     for file in files:
         relative="/"+file.relative_to(SITE).as_posix()
@@ -71,10 +71,10 @@ def scan():
         title="".join(p.titles).strip()
         meta_desc=next((m.get("content") for m in p.meta if m.get("name")=="description"),None)
         canonical=next((l.get("href") for l in p.links if l.get("rel")=="canonical"),None)
-        if not title:missing_seo["title"]+=1
-        if not meta_desc:missing_seo["description"]+=1
-        if not canonical:missing_seo["canonical"]+=1
-        if not p.h1:missing_seo["H1"]+=1
+        if not title:missing_seo["title"]+=1;missing_seo_pages["title"].append(url)
+        if not meta_desc:missing_seo["description"]+=1;missing_seo_pages["description"].append(url)
+        if not canonical:missing_seo["canonical"]+=1;missing_seo_pages["canonical"].append(url)
+        if not p.h1:missing_seo["H1"]+=1;missing_seo_pages["H1"].append(url)
         if canonical:
             normalized=urlsplit(canonical).path
             if not normalized.endswith("/") and normalized!= "/":normalized+="/"
@@ -123,7 +123,7 @@ def scan():
     }
     detail={"ai_cover_candidates":photos_ai,"missing_local_images":{k:sorted(set(v)) for k,v in image_broken.items()},
         "broken_internal_links":{k:sorted(set(v)) for k,v in links_broken.items()},
-        "missing_img_alt":alt_missing[:600],"canonical_mismatches":canonical_issues,
+        "missing_img_alt":alt_missing[:600],"canonical_mismatches":canonical_issues,"missing_seo_pages":dict(missing_seo_pages),
         "external_links_by_host":{h:{"count":len(urls),"examples":sorted(urls)[:12]} for h,urls in sorted(outbound.items(),key=lambda p:-len(p[1]))},
         "external_link_unique_count":sum(len(v) for v in outbound.values())}
     (OUT/"sitewide-qa.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\n","utf8")
