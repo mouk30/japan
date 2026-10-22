@@ -5,6 +5,7 @@ from urllib.parse import urlsplit
 import json, re, xml.etree.ElementTree as ET
 from v117_sitewide_audit import scan,ROOT,SITE
 OUT=ROOT/"audit-reports/v121";OUT.mkdir(parents=True,exist_ok=True)
+# Recalculate from the actual current checkout, after the exact 56 V122 canonical repairs.
 data=scan()
 raw=json.loads((ROOT/"audit-reports/v117/detail-inventory.json").read_text("utf8"))
 targets=[]
