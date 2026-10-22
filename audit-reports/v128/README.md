@@ -8,7 +8,8 @@
 - 대표 이미지, 대체텍스트, 출처 figcaption, OG 및 Twitter 이미지의 사진 URL 변경. **Article JSON-LD의 image 주소만 실제 WebP URL로 동기화**, 다른 JSON-LD 키·값과 기존 SEO 보존.
 - 각 WebP 원본 파일 출처·저자·촬영일 또는 촬영 월·크레디트·사용 라이선스 및 포맷변환 고지를 게시글 아래 명시.
 - 사진과 접안부두의 관계를 설명. 관광지·철도역·오래된 항공사진이 현재 승객 하선 게이트나 당일 크루즈 접안 상태의 증거로 오인되지 않게 함.
-- **10편 GitHub 이미지 변환·파일 유효성·SEO 원본 및 속성 검사 통과, 이미지 구조/출처/동기화 정적 90개 항목 통과.**
+- **10편 GitHub 이미지 변환·파일 유효성·SEO 원본 및 속성 검사 통과, 사진 구조/출처/동기화 정적 90개 항목 통과.**
+- **공개 PC 1440px 10페이지 + 모바일 390px 10페이지 = 20/20 이미지 표시·출처·canonical 검사 성공, 오류 0건.** 구조화 Article 이미지의 실제 WebP URL 동기화는 공개 브라우저 통과 이후 추가 반영했고, GitHub 저장소의 10/10 항목이 맞는지 별도 정적 검수 완료.
 - 잔여 명시적 AI 대표 이미지: **6편**. [남은 6편 확인](./remaining-6-ai-heroes.json)
 
 ## 사진별 원본·촬영 시점·권리조건
@@ -28,7 +29,10 @@
 ## 자동 검수/다운로드
 - [V128 이미지 변환·배포 성공 GitHub Actions](https://github.com/mouk30/japan/actions/runs/39777070249)
 - [V128 WebP 사진 및 기존 게시글 교체 커밋](https://github.com/mouk30/japan/commit/9c276f0feebf4a6f90e387f6206f4f55548b8707)
-- [V128 전용 공개 PC·모바일 브라우저 검수 작업](https://github.com/mouk30/japan/actions/runs/39778061146) — 별도 진행 상태를 확인해 최종 판정
+- [V128 PC·모바일 공개 브라우저 렌더링 20/20 성공](https://github.com/mouk30/japan/actions/runs/39777286950)
+- [V128 실제 사진 WebP 10장 + 촬영일·라이선스 기록 ZIP](https://github.com/mouk30/japan/actions/runs/39777286950/artifacts/12425363082)
+- [V128 PC·모바일 실제 화면 20장 + QA 리포트 ZIP](https://github.com/mouk30/japan/actions/runs/39777286950/artifacts/12424944046)
+- [구조화 Article image 수정 후 최신 QA 실행 상태](https://github.com/mouk30/japan/actions/runs/39778061146)
 - [V128 사진 원본 출처와 권리 내역](./photo-plan.json)
 - [V128 수정 전 페이지 SEO 원본](./seo-and-ai-candidate-baselines.json)
 - [원본 JPEG 및 변환 WebP SHA256·픽셀 기록](./import-result.json)
