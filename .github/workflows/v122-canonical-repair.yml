@@ -1,0 +1,38 @@
+name: V122 safely repair 56 broken canonical destinations
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v122_fix_invalid_canonical.py'
+      - '.github/workflows/v122-canonical-repair.yml'
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Correct 56 confirmed broken canonicals to existing URLs; retain all other original SEO
+        run: python scripts/v122_fix_invalid_canonical.py
+      - name: Commit the exact 56 corrected existing pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/*/index.html audit-reports/v122/canonical-repair.json
+          if git diff --cached --quiet; then exit 1; fi
+          git commit -m "V122 repair 56 non-existent canonical URLs to their existing public articles"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v122-fifty-six-canonical-corrections-seo-preservation
+          path: audit-reports/v122/
+          retention-days: 45
