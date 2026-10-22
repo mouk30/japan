@@ -12,7 +12,7 @@ from urllib.request import Request,urlopen
 from urllib.error import HTTPError,URLError
 ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/"site"
 OUT=ROOT/"audit-reports/v119";OUT.mkdir(parents=True,exist_ok=True)
-MAX_URLS=260
+MAX_URLS=900
 UA="Mozilla/5.0 (compatible; NIPPONFERRY-Editorial-Link-Audit/1.0)"
 PRIORITY=("panstarcruise.com","koreaferry.kr","kampuferry.co.jp","pukwan.co.kr","hakataport.com","mlit.go.jp","japan.travel","city.","pref.","lg.jp")
 SKIP=("commons.wikimedia.org","creativecommons.org","wikipedia.org","youtu.be","youtube.com","instagram.com","x.com","facebook.com")
