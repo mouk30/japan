@@ -1,0 +1,113 @@
+{
+  "version": "V128",
+  "date": "2026-10-22",
+  "scope": "explicitly AI-labelled cruise port hero images only; not all pages",
+  "before": 16,
+  "successful_local_import": 10,
+  "remaining_explicit_AI_hero_count": 6,
+  "kids": "independent KIDS concept documented, publication remains held pending user's source material",
+  "items": [
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 1,
+      "page": "/things-to-do/ube-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/ube-cruise-port-day-trip.webp",
+      "headline": "우베항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 2,
+      "page": "/things-to-do/uno-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/uno-cruise-port-day-trip.webp",
+      "headline": "우노항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 3,
+      "page": "/things-to-do/uwajima-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/uwajima-cruise-port-day-trip.webp",
+      "headline": "우와지마항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 4,
+      "page": "/things-to-do/yatsushiro-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/yatsushiro-cruise-port-day-trip.webp",
+      "headline": "야쓰시로항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 5,
+      "page": "/things-to-do/yawatahama-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/yawatahama-cruise-port-day-trip.webp",
+      "headline": "야와타하마항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 6,
+      "page": "/things-to-do/yokkaichi-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/yokkaichi-cruise-port-day-trip.webp",
+      "headline": "욧카이치 크루즈 기항지 여행｜하선 부두·추천 관광·교통·귀선",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    }
+  ]
+}
