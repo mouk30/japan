@@ -1,0 +1,84 @@
+{
+  "version": "V131",
+  "date": "2026-10-22",
+  "scope": "five existing high-priority cruise port guide pages, no new articles, NIPPONFERRY KIDS remains unpublished",
+  "static_article_audit": {
+    "passed": true,
+    "checked": 5,
+    "sections": 5,
+    "all_official_sources_present": true,
+    "original_two_links_preserved": true
+  },
+  "sailing_specific_values": "UNVERIFIED: exact arriving vessel, day, assigned berth, official final boarding cutoff, final return bus/shuttle, ticket availability and cancellation policies need vessel/date/operational provider",
+  "ports": [
+    {
+      "name": "나하",
+      "slug": "naha-cruise-terminal-kokusai-dori",
+      "berth": "confirmed_multiple_berths_per_authority",
+      "berth_detail": "泊8号(若狭) / 新港12号(제2 크루즈선석)",
+      "shuttle": "ship_specific_unconfirmed; Shinko12 vehicle access and walking safety guidance verified",
+      "last_return": "unconfirmed_without_ship_date_berth",
+      "booking": "official port call public list is not passenger booking",
+      "sources": [
+        "https://nahaport.jp/users/kyakusen/",
+        "https://nahaport.jp/sp/faq/cat%3A%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+      ]
+    },
+    {
+      "name": "이시가키",
+      "slug": "ishigaki-cruise-kabira-bay-bus-taxi",
+      "berth": "shinko international wharf, distinct from island ferry terminal",
+      "shuttle": "not municipally operated; free sometimes ship-organized and paid shuttle sometimes irregular; line 9/11 from bus terminal to Kabira",
+      "last_return": "unconfirmed without day and bus direction; verify return bus and separate pier transport",
+      "booking": "NACRU berth call reservation info not passenger tickets",
+      "original_link_unverified_url": "https://www.azumabus.co.jp/localbus/",
+      "link_status": "official indexed content confirmed incl. lines 9/11, GitHub prior URLError and web direct 502; no deletion or replacement",
+      "sources": [
+        "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
+        "https://www.azumabus.co.jp/localbus/",
+        "https://www.azumabus.co.jp/"
+      ]
+    },
+    {
+      "name": "하카타",
+      "slug": "hakata-port-hakata-station-access",
+      "berth": "International terminal Okinohamamachi 14-1 differs from cruise center 24-25",
+      "shuttle": "88/BRT to international terminal, then around 500m to cruise center on foot; not guaranteed ship shuttle",
+      "last_return": "unconfirmed, timetable required for chosen return day/direction and actual ship gate",
+      "booking": "cruise center opens around one hour before planned docking; restricted area controls, passengers present passport and boarding pass; tour vehicle permissions not passenger tickets",
+      "sources": [
+        "https://hakataport.com/center/",
+        "https://hakataport.com/access/"
+      ]
+    },
+    {
+      "name": "나가사키",
+      "slug": "nagasaki-matsugae-glover-garden-cruise-access",
+      "berth": "Matsugae terminal 7-16 and Dejima berth separately identifiable",
+      "shuttle": "no ship-specific free-shuttle promise; Matsugae Oura Kaigandori tram stop ~3min walk",
+      "last_return": "unconfirmed without vessel/docking time; verify tram return and official onboard-by",
+      "booking": "2026 Apr 1 Glover Garden 1300 JPY adult/650 JPY schoolchild, Oct 12-31 08:00-20:00 standard with date-specific extension; entry times/online ticket and cancellation require official verification",
+      "original_link_unverified_url": "https://www.discover-nagasaki.com/en/transit/100790",
+      "link_status": "official English and Korean contents confirmed via public search, prior GitHub HTTP 503; keep English and add Korean, not classify as deleted",
+      "sources": [
+        "https://nagasaki-p.com/access/",
+        "https://nagasaki-p.com/cruise/",
+        "https://www.discover-nagasaki.com/en/transit/100790",
+        "https://www.discover-nagasaki.com/ko/transit/100790",
+        "https://glover-garden.jp/guide/"
+      ]
+    },
+    {
+      "name": "요코하마",
+      "slug": "yokohama-red-brick-warehouse",
+      "berth": "Osanbashi / Daikoku / Shinko are three different terminal locations",
+      "shuttle": "no universal shuttle; Daikoku to red brick warehouse should not be assumed walkable",
+      "last_return": "unconfirmed; particularly Daikoku needs confirmed ship/car return plan",
+      "booking": "official terminal pages are information not ship ticket booking; red brick attraction booking conditions per operator",
+      "sources": [
+        "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html",
+        "https://www.yokohama-akarenga.jp/"
+      ]
+    }
+  ]
+}
