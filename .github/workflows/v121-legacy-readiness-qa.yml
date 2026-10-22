@@ -1,0 +1,37 @@
+name: V121 existing-site complete audit and outstanding evidence
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v121_legacy_readiness_qa.py'
+      - '.github/workflows/v121-legacy-readiness-qa.yml'
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check all existing HTML, remaining AI heroes, alt, local links and canonical targets
+        run: python scripts/v121_legacy_readiness_qa.py
+      - name: Publish evidence and full revised inventory
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v117/ audit-reports/v121/
+          if ! git diff --cached --quiet; then
+            git commit -m "V121 record exact existing site outstanding AI photos and resolved links without false completion claims"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v121-full-site-current-source-integrity-and-photo-backlog
+          path: |
+            audit-reports/v117/
+            audit-reports/v121/
+          retention-days: 45
