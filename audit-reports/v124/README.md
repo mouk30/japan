@@ -20,5 +20,6 @@
 - 원본 파일·촬영시점·저자·Commons 라이선스 확인: [사진 계획](./photo-plan.json)
 - WebP 원본 체크섬 및 교체 내역: [사진 적용 결과](./import-result.json)
 - 실제 교체 자동화: [GitHub Actions](https://github.com/mouk30/japan/actions/runs/39768619393)
-- 1440px PC 및 390px 모바일에서 3개 카드 이미지 열기·실제 해상도·출처 링크·SEO·가로 넘침 점검: [공개 사이트 QA](https://github.com/mouk30/japan/actions/runs/39768738591)
+- 1440px PC 및 390px 모바일에서 3개 카드 이미지 열기·실제 해상도·출처 링크·SEO·가로 넘침 점검: [공개 사이트 QA](https://github.com/mouk30/japan/actions/runs/39769323534)
+- **공개 사이트 PC 1440px × 3장 + 모바일 390px × 3장 = 6/6건, 오류 0건.** [검수 화면 이미지 2장과 JSON 보고서](https://github.com/mouk30/japan/actions/runs/39769323534/artifacts/12421621735).
 - *사이트에 실사진이 게시되었다는 사실이 해당 촬영연도의 풍경이 현재까지 동일하거나 항차·시설 운영정보가 최신임을 보장하지는 않습니다.*
