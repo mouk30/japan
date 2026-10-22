@@ -1,6 +1,6 @@
 {
   "version": "V132",
-  "generated_utc": "2026-10-22T15:01:33.921756+00:00",
+  "generated_utc": "2026-10-22T15:06:00.170990+00:00",
   "scope": {
     "site_html_pages": 1277,
     "site_local_images": 1242,
@@ -93,14 +93,14 @@
   "counts": {
     "missing_image_local_references": 0,
     "unresolved_internal_links": 0,
-    "seo_fields_or_nonself_canonical": 8,
+    "seo_fields_or_nonself_canonical": 0,
     "cover_social_or_article_image_conflicts": 0,
     "likely_stale_ai_label": 0,
     "hero_photo_source_visibility_review": 289,
     "cruise_port_pages": 194,
     "cruise_return_language_missing": 0,
     "booking_cta_destination_review": 44,
-    "old_operational_date_context_review": 28,
+    "old_operational_date_context_review": 7,
     "missing_alt": 0
   },
   "limits": [
@@ -113,42 +113,7 @@
   "findings": {
     "missing_local_images": [],
     "unresolved_internal_links": [],
-    "seo": [
-      {
-        "page": "/japan/tokyo/photo-review/",
-        "issue": "no_description"
-      },
-      {
-        "page": "/japan/tokyo/photo-review/",
-        "issue": "no_canonical"
-      },
-      {
-        "page": "/route/",
-        "issue": "no_description"
-      },
-      {
-        "page": "/route/",
-        "issue": "no_h1"
-      },
-      {
-        "page": "/route/",
-        "issue": "canonical_target_different",
-        "value": "https://www.nipponferry.com/ferry/"
-      },
-      {
-        "page": "/routes/",
-        "issue": "no_description"
-      },
-      {
-        "page": "/routes/",
-        "issue": "no_h1"
-      },
-      {
-        "page": "/routes/",
-        "issue": "canonical_target_different",
-        "value": "https://www.nipponferry.com/ferry/"
-      }
-    ],
+    "seo": [],
     "image_meta_mismatch": [],
     "stale_ai_labels": [],
     "photo_source_visibility": [
@@ -1867,48 +1832,8 @@
     ],
     "historical_operational_info": [
       {
-        "page": "/japan/",
-        "snippet": "실제 장소 사진 · 2025년 촬영 · David Kernan · 사진 원본 · CC BY 4.0 · 원본 JPG→WebP 변환·크기 조정. 사진은 촬영 당시 모습으로 현재 운영 정보를 보증하지 않습니다.",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/abashiri-cruise-port-day-trip/",
-        "snippet": "촬영 장소: 박물관 아바시리 감옥의 실제 시설·건물. 촬영일 2022-08-09. 관광지의 촬영 당시 모습으로 현재 승객 하선 선석·셔틀·예약·영업정보를 증명하지 않습니다. 촬영자: Nesnad · 사진 원본·출처 · CC BY 4.0 · 원본 사진에서 WebP로 축소·형식 변환.",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/atami-cruise-port-day-trip/",
-        "snippet": "실제 촬영 장소: 아타미 선비치의 해안 풍경. 촬영일: 2024-03-14. 이 사진은 관광지의 촬영 당시 모습입니다. 현행 크루즈 접안부두·승객 게이트·셔틀·시설 운영 여부는 사진으로 확인할 수 없습니다. 사진: m-louis .® · 원본 촬영 정보 · CC BY-SA 2.0 · 원본을 WebP로 축",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/beppu-cruise-port-day-trip/",
-        "snippet": "푸다운 풍경과 지옥찜 먹거리를 만날 수 있다. 이 사진은 2022년 벳푸 우미지옥 푸른 온천수와 수증기의 실제 촬영 자료로 크루즈 접안·하선 게이트나 현재 영업 상황을 나타내지 않습니다. 사진: Bpcon98 · 원본 사진 · CC0 1.0 . WebP 크기·형식 변환. CRUISE POR",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
         "page": "/things-to-do/hakata-port-hakata-station-access/",
         "snippet": "내 ↗ 2026-10-20 공식 자료 대조 · 대표 사진은 2024년 촬영한 JR 하카타역 신칸센 승강장 실사이며 크루즈 하선 게이트 사진은 아닙니다 NIPPONFERRY · V131 공식 운영정보 대조 · 2026.10.22 실제 접안·셔틀·귀선·예약 조건 4단계 확인 ① 접안 위치 · 공식 안내: 하카타항 국제여객터미널(오키",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/himeji-cruise-port-day-trip/",
-        "snippet": "해보세요. 실제 촬영 장소: 히메지성 천수각 외관. 촬영일 2020-12-29. 관광지의 촬영 당시 모습으로 현재 승객 하선 선석·셔틀·예약·영업정보를 증명하지 않습니다. 촬영자: Drivephotographer · 사진 원본·출처 · CC0 1.0 · 원본 사진에서 WebP로 축",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/hirara-miyakojima-cruise-port-day-trip/",
-        "snippet": "어디로 가야 할지 하선 동선을 먼저 정리한다. 이 사진은 2024년 미야코지마 요나하 마에하마 해변과 백사장 (2024년 기록)의 관광지 자료입니다. 현재 크루즈 접안·하선 게이트·셔틀 운행, 관광지 영업을 보증하지 않습니다. 사진: Junyu-K · 원본 촬영 정보 · CC BY-SA 4.0 · WebP 변환·크기 조정. NIPP",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/hiroshima-miyajima-ferry-crossing/",
-        "snippet": "시글 대표 이미지는 원본 파일과 촬영 대상·라이선스를 대조한 2022년 실제 장소 사진 입니다. 촬영 대상: 미야지마섬 측 JR 페리 개찰구·매표소 촬영 시점: 2022년 10월 3일 촬영 (현재 매표·시간표 상태를 보증하지 않음) 원본 표기 라이선스: CC BY-SA 4.0 Wikimedia Commons에서 원본 사진·저작자·라이선스 직접",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/ibaraki-hitachinaka-cruise-port-day-trip/",
-        "snippet": "장소: 국영 히타치 해변공원 미하라시 언덕의 네모필라. 촬영일 2021-04-23. 관광지의 촬영 당시 모습으로 현재 승객 하선 선석·셔틀·예약·영업정보를 증명하지 않습니다. 촬영자: Miyuki Meinaka · 사진 원본·출처 · CC BY-SA 4.0 · 원본 사진에서 WebP로",
         "classification": "historical_date_near_operational_claim_manual_review"
       },
       {
@@ -1922,11 +1847,6 @@
         "classification": "historical_date_near_operational_claim_manual_review"
       },
       {
-        "page": "/things-to-do/kagoshima-cruise-port-day-trip/",
-        "snippet": "이 사진은 가고시마 이오월드 수족관 건물과 사쿠라지마 화산 (2025년 기록)의 관광지 자료입니다. 현재 크루즈 접안·하선 게이트·셔틀 운행, 관광지 영업을 보증하지 않습니다. 사진: Taiwankengo · 원본 촬영 정보 · CC BY-SA 4.0 · WebP 변환·크기 조정.",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
         "page": "/things-to-do/naha-cruise-terminal-kokusai-dori/",
         "snippet": "· 선박별 하선·귀선 시각은 별도 확인 필요 · 대표 사진은 2023년 촬영한 나하 국제거리 실사이며 크루즈 하선 부두 사진은 아닙니다 NIPPONFERRY · V131 공식 운영정보 대조 · 2026.10.22 실제 접안·셔틀·귀선·예약 조건 4단계 확인 ① 접안 위치 · 공식 안내: 도마리 8호(대형 여객선 선",
         "classification": "historical_date_near_operational_claim_manual_review"
@@ -1937,11 +1857,6 @@
         "classification": "historical_date_near_operational_claim_manual_review"
       },
       {
-        "page": "/things-to-do/niigata-cruise-port-day-trip/",
-        "snippet": "실제 촬영 장소: 니가타 시내 반다이교와 강변. 촬영일: 2025-06-12. 이 사진은 관광지의 촬영 당시 모습입니다. 현행 크루즈 접안부두·승객 게이트·셔틀·시설 운영 여부는 사진으로 확인할 수 없습니다. 사진: Mateuser · 원본 촬영 정보 · CC0 1.0 · 원본을 WebP로 축소·형식 변환",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
         "page": "/things-to-do/okinawa-shuri-castle/",
         "snippet": "실전 정보 ↗ 예약·사진 구분 입장·사진 출처 구분 2025년 복원 공사 사진은 현재 시설 모습과 다를 수 있습니다. 구매·방문 결정을 하기 전 공식 시설 사진과 운영일·가격·환불조건을 확인하세요. 공식 장소·시설 정보 확인 ↗ 기항일 최종 판단 ① 실제 하선 게이트와 선사 최종 귀선시간 ② 왕복",
         "classification": "historical_date_near_operational_claim_manual_review"
@@ -1949,61 +1864,6 @@
       {
         "page": "/things-to-do/okinawa-shuri-castle/",
         "snippet": "은 실제 접안 부두와 귀선 마감 시각이 우선입니다. 사진: 2025년 공사 사진 검증. Wikimedia Commons 원본과 CC0 조건을 확인했으나 현재 시설 상태는 별도 확인해야 합니다. 예약: 실시간 미확인. 아래는 예약 준비를 돕는 안내 페이지이며 실제 운항·잔여 좌석·예약 확정을 뜻하지 않습니다. 기항지별 이동·귀선 정보",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/sasebo-cruise-port-day-trip/",
-        "snippet": "안 부두와 최종 귀선 시간을 확인해야 합니다. 이 사진은 2020년 사세보 하우스텐보스 돔토른 탑과 유럽풍 건물 (2020년 기록)의 관광지 자료입니다. 현재 크루즈 접안·하선 게이트·셔틀 운행, 관광지 영업을 보증하지 않습니다. 사진: 663highland · 원본 촬영 정보 · CC BY 2.5 · WebP 변환·크기 조정. CRU",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/shimizu-cruise-port-day-trip/",
-        "snippet": "시미즈 S-Pulse 드림플라자 건물과 드림스카이 대관람차 (2023년 기록)의 관광지 자료입니다. 현재 크루즈 접안·하선 게이트·셔틀 운행, 관광지 영업을 보증하지 않습니다. 사진: 663highland · 원본 촬영 정보 · CC BY-SA 4.0 · WebP 변환·크기 조정. C",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/shimonoseki-cruise-port-day-trip/",
-        "snippet": "시간을 어디에 쓸지 항구 동선부터 정리한다. 이 사진은 2023년 시모노세키 가라토시장 수변 건물의 실제 촬영 자료로 크루즈 접안·하선 게이트나 현재 영업 상황을 나타내지 않습니다. 사진: bryan... · 원본 사진 · CC BY-SA 2.0 . WebP 크기·형식 변환. CRUI",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/shimonoseki-one-day/",
-        "snippet": "Wikimedia Commons · CC BY-SA 2.0 · 2023년 촬영 (WebP 리사이즈) ↗ 시장·음식 가라토시장·해협 먹거리 회·초밥·해산물 시장을 즐기는 코스. 일반 시장 영업과 주말 '이키이키 바칸가이' 판매는 구분하세요. 가라토시장 · 주말·공휴일 먹거리 행사 일정 별도 확인 가라토시장 상세 안내 → 가라토",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/shiraoi-cruise-port-day-trip/",
-        "snippet": ": 시라오이 우포포이 전통 아이누 가옥(치세) 외관. 촬영일: 2020-11-15. 이 사진은 관광지의 촬영 당시 모습입니다. 현행 크루즈 접안부두·승객 게이트·셔틀·시설 운영 여부는 사진으로 확인할 수 없습니다. 사진: Higa4 · 원본 촬영 정보 · CC0 1.0 · 원본을 WebP로 축소·형식 변환.",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/tottori-cruise-port-day-trip/",
-        "snippet": "실제 촬영 장소: 돗토리 사구 황금빛 모래 언덕. 촬영일: 2021-06-21. 이 사진은 관광지의 촬영 당시 모습입니다. 현행 크루즈 접안부두·승객 게이트·셔틀·시설 운영 여부는 사진으로 확인할 수 없습니다. 사진: Drivephotographer · 원본 촬영 정보 · CC0 1.0 · 원본을 WebP로",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/travel-companions/",
-        "snippet": "실제 장소 사진 · 2024년 촬영 · Keeezawa · 사진 원본 · CC0 1.0 · 원본 JPEG → WebP 변환·크기 조정·카드 크롭. 사진은 현재 운행·시설 운영·예약 가능 상태를 보증하지 않습니다.",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/yawatahama-cruise-port-day-trip/",
-        "snippet": "확인해 알찬 하선 여행을 준비하자. 실제 촬영 관광지: 2022년 5월 4일 실제 야와타하마항 페리터미널. 크루즈선 전용 접안 게이트가 아니며 현재 시설 모습 및 운영 조건을 보증하지 않음. 촬영일 2022-05-04. 촬영자: Olegushka · 원본·출처 · CC0 1.0 · 원본을 축소하여 We",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/yokohama-cruise-port-day-trip/",
-        "snippet": "를 중심으로 무리하지 않는 여행을 계획해보세요. 이 사진은 2024년 촬영한 요코하마 붉은 벽돌창고 건물의 실제 촬영 자료로 크루즈 접안·하선 게이트나 현재 영업 상황을 나타내지 않습니다. 사진: Fred Cherrygarden · 원본 사진 · CC BY-SA 4.0 . WebP 크기·형식 변환.",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/yokohama-red-brick-warehouse/",
-        "snippet": "운영시간은 현지 사정에 따라 달라질 수 있습니다. 대표 사진은 2024년 1월에 촬영된 실제 아카렌가 창고 외관입니다. 촬영 당시 모습이며, 현재 영업·시설 상태는 공식 안내를 확인하세요. 함께 읽으면 좋은 여행 이야기 기요미즈데라 목조 무대 구조 → 우지 뵤도인 봉황당 → 시라카와고",
-        "classification": "historical_date_near_operational_claim_manual_review"
-      },
-      {
-        "page": "/things-to-do/yokohama-red-brick-warehouse/",
-        "snippet": "각이 우선입니다. 사진: 실사 원본·라이선스 대조 완료. 2024년 1월 아카렌가 외관 사진을 원본과 비교했고 저작자·CC BY-SA 4.0 조건을 아래에 표시했습니다. 현재 행사·운영 정보는 별도로 확인해야 합니다. 예약: 실시간 미확인. 아래는 예약 준비를 돕는 안내 페이지이며 실제 운항·잔여 좌석·예약 확정을 뜻하지 않습니다. 기항지별 이동·귀선 정보",
         "classification": "historical_date_near_operational_claim_manual_review"
       }
     ]
@@ -2038,6 +1898,7 @@
     "cruise.visitokinawa.jp": 25,
     "hakataport.com": 24,
     "www.pref.aomori.lg.jp": 24,
+    "kampuferry.co.jp": 22,
     "osaka-info.jp": 20,
     "www.beppu-jigoku.com": 20,
     "www.city.miyakojima.lg.jp": 20,
@@ -2048,7 +1909,6 @@
     "www.customs.go.kr": 17,
     "www.kaiyukan.com": 17,
     "www.kagoshima-yokanavi.jp": 17,
-    "kampuferry.co.jp": 16,
     "www.city.beppu.oita.jp": 16,
     "www.mistore.jp": 15,
     "www.gourmet.gotokyo.org": 15,
