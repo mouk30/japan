@@ -1,0 +1,49 @@
+name: V118 ten sourced real photo replacements preserving original SEO
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v118_replace_ai_heroes.py'
+      - 'audit-reports/v118/photo-plan.json'
+      - '.github/workflows/v118-replace-ai-photos.yml'
+permissions:
+  contents: write
+concurrency:
+  group: v118-photo-import
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 42
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install "Pillow==11.3.0"
+      - name: Download 10 known real-place Commons photographs or leave all pages unchanged
+        run: python scripts/v118_replace_ai_heroes.py
+      - name: Verify 10 converted WebPs hash author license credit and SEO
+        run: python scripts/v118_photo_quality_audit.py
+      - name: Commit only the selected ten pages and photos after all tests pass
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/venues/nf-v118-*-real.webp audit-reports/v118/import-result.json
+          for slug in hakata-port-dazaifu-shore-excursion hakata-port-hakata-station-access hakata-port-tenjin-sightseeing naha-cruise-terminal-kokusai-dori naha-half-day-cruise-excursion nagasaki-cruise-4-6-8-hour-itinerary yokohama-osanbashi-cruise-terminal ishigaki-cruise-new-port-shuttle imari-cruise-port-day-trip goto-fukue-cruise-port-day-trip; do
+            git add "site/things-to-do/$slug/index.html"
+          done
+          if git diff --cached --quiet; then echo "No photos were converted"; exit 1; fi
+          git commit -m "V118 replace ten additional AI cruise heroes with dated licensed photographs preserving SEO"
+          git pull --rebase origin main
+          python scripts/v118_photo_quality_audit.py
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v118-ten-photo-source-and-hash-evidence
+          path: audit-reports/v118/import-result.json
+          retention-days: 45
