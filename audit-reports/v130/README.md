@@ -22,7 +22,8 @@
 - 추적한 36개 카드 × PC 1440px/모바일 390px의 이미지 로딩·디코딩 **72/72 통과**.
 - 나하, 이시가키, 하카타, 나가사키, 요코하마 핵심 5페이지 × PC/모바일 = **10/10 접근·canonical·반응형 폭 검사 통과**, 오류 0.
 - [공개 사이트 실제 화면·검수 JSON ZIP](https://github.com/mouk30/japan/actions/runs/39785631523/artifacts/12429181012)
-- 후속 사진 메타데이터와 이시가키 공지 수정까지 반영한 심화 [재검사 실행](https://github.com/mouk30/japan/actions/runs/39787282293). ※ 두 검수의 검사 시점과 범위는 구별해야 함.
+- **후속 사진 메타데이터와 이시가키 공지까지 반영한 독립 최종 [재검사](https://github.com/mouk30/japan/actions/runs/39787282293)도 성공**. 소스 36/36 카드 및 핵심 5페이지 검증, 공개 PC·모바일 이미지 72/72와 핵심 5페이지 10/10 검사, 오류 0건.
+- [최종 재검사 PC·모바일 캡처·검수 JSON ZIP](https://github.com/mouk30/japan/actions/runs/39787282293/artifacts/12430260099)
 
 ## 4. 공식 예약·교통·항만 안내 링크: 13개 표본
 - [2026-10-22 현재 GitHub HTTP 프로브 결과](https://github.com/mouk30/japan/actions/runs/39786652197)
