@@ -30,6 +30,15 @@
 - [시모노세키시 공식 관광](https://shimonoseki.travel/) — 간몬해협과 가라토시장.
 - 두 대마도 도착항의 차이는 현재 사이트의 `/tsushima-hitakatsu-vs-izuhara/` 상세 설명과 교차 확인한다.
 
+## V107 적용 커밋 및 CI 검수 결과 (2026-10-22)
+
+- [적용 소스 커밋](https://github.com/mouk30/japan/commit/3b2ec9b0d017450f5c64fc63e7ce3187daec36b1) — 6개 파일 변경.
+- [V105 이미지 무결성·유닛 테스트 + 실제 공개 홈페이지 브라우저 QA: success](https://github.com/mouk30/japan/actions/runs/39717073762)
+- [V104 인기 여행지·즐길거리·테마 카드 PC/모바일 이미지 QA: success](https://github.com/mouk30/japan/actions/runs/39717072158)
+- [V66 반응형 링크·SEO 검사: success](https://github.com/mouk30/japan/actions/runs/39717072155)
+- [공개 홈페이지 및 85개 에디토리얼 페이지 검사: success](https://github.com/mouk30/japan/actions/runs/39717072161)
+- Actions 검사 통과는 코드·배포 페이지의 자동화 항목에 대한 성공이며 **사진 촬영 권한·원본 권리관계가 확인됐다는 의미는 아니다.**
+
 ## 범위 및 남은 제한
 
 - 사람의 눈으로 저장소에 있던 세 이미지가 실제 지역·시설을 보여주는지 대조하였다. **원본 촬영자, 저작권 이용 허락, 촬영 시점 및 모든 공식 운영 정보까지 재검증한 것은 아니다.** 사용권한은 별도 확인 대상이다. `reference`는 라이선스 검증 완료라는 뜻이 아니다.
