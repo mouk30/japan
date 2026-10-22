@@ -1,0 +1,623 @@
+{
+  "version": "V125",
+  "date": "2026-10-22",
+  "starting_explicit_AI_hero_count": 46,
+  "verified_replaced_this_batch": 10,
+  "remaining_explicit_AI_hero_count": 36,
+  "all_remaining": [
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 1,
+      "page": "/things-to-do/kawasaki-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/kawasaki-cruise-port-day-trip.webp",
+      "headline": "가와사키항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 2,
+      "page": "/things-to-do/kozushima-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/kozushima-cruise-port-day-trip.webp",
+      "headline": "고즈시마항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 3,
+      "page": "/things-to-do/kumamoto-misumi-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/kumamoto-misumi-cruise-port-day-trip.webp",
+      "headline": "구마모토·미스미항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 4,
+      "page": "/things-to-do/miike-miyakejima-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/miike-miyakejima-cruise-port-day-trip.webp",
+      "headline": "미야케지마·미이케항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 5,
+      "page": "/things-to-do/mikawa-jinno-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/mikawa-jinno-cruise-port-day-trip.webp",
+      "headline": "미카와항·진노지구 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 6,
+      "page": "/things-to-do/mitajiri-nakanoseki-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/mitajiri-nakanoseki-cruise-port-day-trip.webp",
+      "headline": "미타지리·나카노세키항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 7,
+      "page": "/things-to-do/nakagusuku-bay-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/nakagusuku-bay-cruise-port-day-trip.webp",
+      "headline": "오키나와·나카구스쿠만항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 8,
+      "page": "/things-to-do/nakatsu-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/nakatsu-cruise-port-day-trip.webp",
+      "headline": "나카쓰항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 9,
+      "page": "/things-to-do/nanao-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/nanao-cruise-port-day-trip.webp",
+      "headline": "나나오항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 1,
+      "rank_within_batch": 10,
+      "page": "/things-to-do/naoetsu-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/naoetsu-cruise-port-day-trip.webp",
+      "headline": "나오에쓰항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 2,
+      "rank_within_batch": 1,
+      "page": "/things-to-do/niijima-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/niijima-cruise-port-day-trip.webp",
+      "headline": "니지마항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 2,
+      "rank_within_batch": 2,
+      "page": "/things-to-do/numazu-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/numazu-cruise-port-day-trip.webp",
+      "headline": "누마즈항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 2,
+      "rank_within_batch": 3,
+      "page": "/things-to-do/ohama-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/ohama-cruise-port-day-trip.webp",
+      "headline": "오바마항·오바마온천 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 2,
+      "rank_within_batch": 4,
+      "page": "/things-to-do/oigawa-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/oigawa-cruise-port-day-trip.webp",
+      "headline": "오이가와항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 2,
+      "rank_within_batch": 5,
+      "page": "/things-to-do/okata-izu-oshima-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/okata-izu-oshima-cruise-port-day-trip.webp",
+      "headline": "이즈오시마·오카타항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 2,
+      "rank_within_batch": 6,
+      "page": "/things-to-do/omaezaki-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/omaezaki-cruise-port-day-trip.webp",
+      "headline": "오마에자키 크루즈 기항지 여행｜하선 부두·추천 관광·교통·귀선",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 2,
+      "rank_within_batch": 7,
+      "page": "/things-to-do/rishiri-kutsugata-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/rishiri-kutsugata-cruise-port-day-trip.webp",
+      "headline": "리시리섬·굿쓰가타항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 2,
+      "rank_within_batch": 8,
+      "page": "/things-to-do/rumoi-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/rumoi-cruise-port-day-trip.webp",
+      "headline": "루모이항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 2,
+      "rank_within_batch": 9,
+      "page": "/things-to-do/saiki-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/saiki-cruise-port-day-trip.webp",
+      "headline": "사이키항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 2,
+      "rank_within_batch": 10,
+      "page": "/things-to-do/sakai-semboku-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/sakai-semboku-cruise-port-day-trip.webp",
+      "headline": "사카이·센보쿠 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 3,
+      "rank_within_batch": 1,
+      "page": "/things-to-do/sakaide-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/sakaide-cruise-port-day-trip.webp",
+      "headline": "사카이데 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 3,
+      "rank_within_batch": 2,
+      "page": "/things-to-do/shimoda-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/shimoda-cruise-port-day-trip.webp",
+      "headline": "시모다항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 3,
+      "rank_within_batch": 3,
+      "page": "/things-to-do/shingu-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/shingu-cruise-port-day-trip.webp",
+      "headline": "신구 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 3,
+      "rank_within_batch": 4,
+      "page": "/things-to-do/sukumo-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/sukumo-cruise-port-day-trip.webp",
+      "headline": "스쿠모항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 3,
+      "rank_within_batch": 5,
+      "page": "/things-to-do/tagonoura-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/tagonoura-cruise-port-day-trip.webp",
+      "headline": "다고노우라항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 3,
+      "rank_within_batch": 6,
+      "page": "/things-to-do/toba-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/toba-cruise-port-day-trip.webp",
+      "headline": "도바 크루즈 기항지 여행｜하선 부두·추천 관광·교통·귀선",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 3,
+      "rank_within_batch": 7,
+      "page": "/things-to-do/tokoname-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/tokoname-cruise-port-day-trip.webp",
+      "headline": "도코나메항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 3,
+      "rank_within_batch": 8,
+      "page": "/things-to-do/tokuyama-kudamatsu-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/tokuyama-kudamatsu-cruise-port-day-trip.webp",
+      "headline": "도쿠야마·구다마쓰항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 3,
+      "rank_within_batch": 9,
+      "page": "/things-to-do/tsugaru-ajigasawa-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/tsugaru-ajigasawa-cruise-port-day-trip.webp",
+      "headline": "쓰가루항·아지가사와 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 3,
+      "rank_within_batch": 10,
+      "page": "/things-to-do/tsuruga-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/tsuruga-cruise-port-day-trip.webp",
+      "headline": "쓰루가항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 4,
+      "rank_within_batch": 1,
+      "page": "/things-to-do/ube-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/ube-cruise-port-day-trip.webp",
+      "headline": "우베항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 4,
+      "rank_within_batch": 2,
+      "page": "/things-to-do/uno-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/uno-cruise-port-day-trip.webp",
+      "headline": "우노항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 4,
+      "rank_within_batch": 3,
+      "page": "/things-to-do/uwajima-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/uwajima-cruise-port-day-trip.webp",
+      "headline": "우와지마항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 4,
+      "rank_within_batch": 4,
+      "page": "/things-to-do/yatsushiro-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/yatsushiro-cruise-port-day-trip.webp",
+      "headline": "야쓰시로항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 4,
+      "rank_within_batch": 5,
+      "page": "/things-to-do/yawatahama-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/yawatahama-cruise-port-day-trip.webp",
+      "headline": "야와타하마항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    },
+    {
+      "priority_batch": 4,
+      "rank_within_batch": 6,
+      "page": "/things-to-do/yokkaichi-cruise-port-day-trip/",
+      "current_ai_cover": "/images/editorial/yokkaichi-cruise-port-day-trip.webp",
+      "headline": "욧카이치 크루즈 기항지 여행｜하선 부두·추천 관광·교통·귀선",
+      "required_before_publish": [
+        "Original photo shows named local subject",
+        "Original source URL and author's identity",
+        "Capture date or explicit unknown date",
+        "License permits desired use and conversion",
+        "Local WebP / OG with correct alt and visible credit",
+        "Existing page title description canonical H1 JSON-LD preserved",
+        "Production desktop and mobile verification"
+      ],
+      "status": "unverified; NOT replaced"
+    }
+  ],
+  "note": "Only original 46 explicit AI-cover candidates. Other site interior photos and Tokyo visual pending QA are outside this list.",
+  "kids_theme": "Held; no new kids articles generated"
+}
