@@ -1,0 +1,129 @@
+{
+  "version": "V118",
+  "date": "2026-10-22",
+  "reason": "Sitewide V117 56 marked AI-cover candidates. This selection replaces ten high-information existing cruise port guides; no new articles.",
+  "selection_policy": "Author, source, timestamp and CC reuse verified on Commons file page, original WebP imported only after all ten downloads succeed; no fake berth or live ferry claim.",
+  "scope_note": "AI other sections outside covers are not solved by this batch; photographed subject explicitly distinguished from current port",
+  "selected": [
+    {
+      "slug": "hakata-port-dazaifu-shore-excursion",
+      "region": "후쿠오카·다자이후",
+      "subject": "다자이후 덴만구 신사의 촬영 당시 외관",
+      "filename": "Dazaifu Tenmangu.jpg",
+      "taken": "2022-01-02",
+      "author": "Drivephotographer",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Dazaifu%20Tenmangu.jpg",
+      "output": "/images/venues/nf-v118-hakata-port-dazaifu-shore-excursion-real.webp"
+    },
+    {
+      "slug": "hakata-port-hakata-station-access",
+      "region": "후쿠오카·하카타",
+      "subject": "JR 하카타역의 신칸센 승강장 풍경",
+      "filename": "Hakata station 2024 1.jpg",
+      "taken": "2024-05-26",
+      "author": "Smiley.toerist",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Hakata%20station%202024%201.jpg",
+      "output": "/images/venues/nf-v118-hakata-port-hakata-station-access-real.webp"
+    },
+    {
+      "slug": "hakata-port-tenjin-sightseeing",
+      "region": "후쿠오카·텐진",
+      "subject": "텐진 중심가 게고공원의 실제 모습",
+      "filename": "Kego Park the view from the SSE to the NNW Tenjin 2-chōme Chūō-ku Fukuoka 20241031.jpg",
+      "taken": "2024-10-31",
+      "author": "Hirho",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kego%20Park%20the%20view%20from%20the%20SSE%20to%20the%20NNW%20Tenjin%202-ch%C5%8Dme%20Ch%C5%AB%C5%8D-ku%20Fukuoka%2020241031.jpg",
+      "output": "/images/venues/nf-v118-hakata-port-tenjin-sightseeing-real.webp"
+    },
+    {
+      "slug": "naha-cruise-terminal-kokusai-dori",
+      "region": "오키나와·나하",
+      "subject": "나하 국제거리(Kokusai-dori)의 실제 거리 풍경",
+      "filename": "Naha Kokusai Street 1.jpg",
+      "taken": "2023-10-26",
+      "author": "Zairon",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Naha%20Kokusai%20Street%201.jpg",
+      "output": "/images/venues/nf-v118-naha-cruise-terminal-kokusai-dori-real.webp"
+    },
+    {
+      "slug": "naha-half-day-cruise-excursion",
+      "region": "오키나와·나하",
+      "subject": "슈리성 정전 재건공사의 2025년 촬영 당시 모습",
+      "filename": "Shuri Castle Reconstruction.jpg",
+      "taken": "2025-02-11",
+      "author": "おにく",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Shuri%20Castle%20Reconstruction.jpg",
+      "output": "/images/venues/nf-v118-naha-half-day-cruise-excursion-real.webp"
+    },
+    {
+      "slug": "nagasaki-cruise-4-6-8-hour-itinerary",
+      "region": "나가사키",
+      "subject": "글로버가든 관광지의 실제 사진",
+      "filename": "Glover Garden.jpg",
+      "taken": "2017-10-05",
+      "author": "travel oriented",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Glover%20Garden.jpg",
+      "output": "/images/venues/nf-v118-nagasaki-cruise-4-6-8-hour-itinerary-real.webp"
+    },
+    {
+      "slug": "yokohama-osanbashi-cruise-terminal",
+      "region": "요코하마·오산바시",
+      "subject": "오산바시 국제여객터미널 내부",
+      "filename": "20250103 Osanbashi Yokohama International Passenger Terminal 105932.jpg",
+      "taken": "2025-01-03",
+      "author": "Matthide127",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:20250103%20Osanbashi%20Yokohama%20International%20Passenger%20Terminal%20105932.jpg",
+      "output": "/images/venues/nf-v118-yokohama-osanbashi-cruise-terminal-real.webp"
+    },
+    {
+      "slug": "ishigaki-cruise-new-port-shuttle",
+      "region": "오키나와·이시가키",
+      "subject": "이시가키항의 일반 항만 풍경(크루즈 신항 접안부두 증빙 아님)",
+      "filename": "Ishigaki port 24.jpg",
+      "taken": "2023-08-13",
+      "author": "Syced",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Ishigaki%20port%2024.jpg",
+      "output": "/images/venues/nf-v118-ishigaki-cruise-new-port-shuttle-real.webp"
+    },
+    {
+      "slug": "imari-cruise-port-day-trip",
+      "region": "사가·이마리",
+      "subject": "이마리 오카와치야마 도자기 마을 풍경",
+      "filename": "Okawachiyama.jpg",
+      "taken": "2012-12-13",
+      "author": "STA3816",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Okawachiyama.jpg",
+      "output": "/images/venues/nf-v118-imari-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "goto-fukue-cruise-port-day-trip",
+      "region": "나가사키·고토 후쿠에",
+      "subject": "고토 후쿠에섬 도자키 천주당 외관",
+      "filename": "Douzaki Church in Nagasaki.JPG",
+      "taken": "2005-09-13",
+      "author": "Sapphire123",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Douzaki%20Church%20in%20Nagasaki.JPG",
+      "output": "/images/venues/nf-v118-goto-fukue-cruise-port-day-trip-real.webp"
+    }
+  ]
+}
