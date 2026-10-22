@@ -21,8 +21,28 @@ class HomeImageQualityTests(unittest.TestCase):
         self.assertEqual(r["status"],"source_clean")
         self.assertEqual(r["card_counts"],{"popular":8,"daytrips":4,"themes":6})
         self.assertEqual(r["images_inspected"],18)
-        self.assertEqual(r["illustrations"],11)
-        self.assertEqual(r["licensed_or_reference"],7)
+        self.assertEqual(r["illustrations"],10)
+        self.assertEqual(r["licensed_or_reference"],8)
+
+    def test_v108_theme_cards_images_and_provenance(self):
+        cards=v105.extract_cards(self.html)["themes"]
+        expectations=[
+          (0,"돈코츠","/images/culture-verified/ramen-japanese-noodle-evolution.webp","reference"),
+          (1,"돈키호테","/images/culture-verified/shotengai-japanese-shopping-arcades.webp","reference"),
+          (2,"에이사","/images/editorial/okinawa-eisa-dance-festival.webp","illustrative"),
+          (3,"커플","/images/couple.jpg","illustrative"),
+          (4,"가비라만","/images/editorial/ishigaki-kabira-bay.webp","illustrative"),
+          (5,"편의점","/images/culture-verified/konbini-japanese-convenience-store-life.webp","reference"),
+        ]
+        for pos,subject,src,kind in expectations:
+            with self.subTest(subject=subject):
+                self.assertEqual(cards[pos]["images"][0]["src"],src)
+                self.assertIn(subject,cards[pos]["images"][0]["alt"])
+                self.assertEqual(self.manifest["sections"]["themes"][pos]["kind"],kind)
+                self.assertEqual("v63-photo-disclosure" in cards[pos]["labels"],kind=="illustrative")
+        for name in ("Syced","Mugu-shisai","Yuya Tamai","bryan...","Saigen Jiro"):
+            self.assertIn(name,self.html)
+        self.assertEqual(len(self.manifest["licensed_credits"]),7)
 
     def test_v107_regional_cards_reuse_matching_existing_place_images(self):
         expected=[
@@ -115,7 +135,7 @@ class HomeImageQualityTests(unittest.TestCase):
 
     def test_themed_staged_images_are_not_implicitly_treated_as_photos(self):
         info=copy.deepcopy(self.manifest)
-        info["sections"]["themes"][1]["kind"]="reference"
+        info["sections"]["themes"][2]["kind"]="reference"
         errors,_=v105.audit_markup(self.html,info)
         self.assertTrue(any("non-staged image incorrectly marked" in e for e in errors),errors)
 

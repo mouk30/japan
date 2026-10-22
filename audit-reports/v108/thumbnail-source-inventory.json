@@ -1,0 +1,114 @@
+{
+  "version": "V108",
+  "review_date": "2026-10-22",
+  "scope": "6 theme cards and V107 regional photo-source follow-up",
+  "theme_images": [
+    {
+      "card": "식도락 여행",
+      "src": "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tonkotsu_ramen_in_Tokyo.jpg",
+      "author": "Syced",
+      "license": "CC0",
+      "checked": "2026-10-22",
+      "captured": "2021",
+      "note": "도쿄에서 촬영된 돈코츠 라멘. 후쿠오카 현지 식당을 특정하지 않음",
+      "kind": "reference",
+      "sha1": "30de73aa613d7d5766475eea23e66a66e11510a1"
+    },
+    {
+      "card": "쇼핑 가이드",
+      "src": "/images/culture-verified/shotengai-japanese-shopping-arcades.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tanukikoji_01.jpg",
+      "author": "Mugu-shisai",
+      "license": "CC BY-SA 3.0",
+      "checked": "2026-10-22",
+      "captured": "2008",
+      "note": "삿포로 다누키코지 쇼핑거리. 2026년 현재 매장·가격·운영에 대한 근거 아님",
+      "kind": "reference",
+      "sha1": "68b64ece95b29bd96a091234bbbb09e5a692b8a6"
+    },
+    {
+      "card": "4계절·축제",
+      "src": "/images/editorial/okinawa-eisa-dance-festival.webp",
+      "kind": "illustrative",
+      "source": null,
+      "author": null,
+      "license": null,
+      "checked": "2026-10-22",
+      "note": "여름 축제 관련 연출 이미지. 개별 축제 현장 사진 아님",
+      "sha1": "9ccbadbe6c17ecf37a4e88b2735b2118da677215"
+    },
+    {
+      "card": "커플 여행",
+      "src": "/images/couple.jpg",
+      "kind": "illustrative",
+      "source": null,
+      "author": null,
+      "license": null,
+      "checked": "2026-10-22",
+      "note": "기존 사이트의 교토풍 커플 연출 이미지. 정확한 생성 원본 및 저작권 귀속 자료 미확인; 실사 오인 방지 문구 적용",
+      "sha1": "72971ff4b73897df5f05f3d1b844d0355916b8b4"
+    },
+    {
+      "card": "포토 스팟",
+      "src": "/images/editorial/ishigaki-kabira-bay.webp",
+      "kind": "illustrative",
+      "source": null,
+      "author": null,
+      "license": null,
+      "checked": "2026-10-22",
+      "note": "이시가키 가비라만 분위기 연출 이미지. 실제 지형 및 위치 보증 아님",
+      "sha1": "1e2de22bd0cc78fdd0ad6e6e5831931b21a542e1"
+    },
+    {
+      "card": "현지 생활정보",
+      "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Konbini_drink_corner_2009_%283819547946%29.jpg",
+      "author": "Yuya Tamai",
+      "license": "CC BY 2.0",
+      "checked": "2026-10-22",
+      "captured": "2009",
+      "note": "실제 편의점 냉장 진열대의 과거 촬영 사진으로 현재 가격과 상품을 증명하지 않음",
+      "kind": "reference",
+      "sha1": "f7adcfea04871bd6a125df4bfcaaaba6e380db99"
+    }
+  ],
+  "regional_photos": [
+    {
+      "card": "시모노세키",
+      "src": "/images/venues/v62-karato-market-real.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+      "author": "bryan...",
+      "license": "CC BY-SA 2.0",
+      "captured": "2023",
+      "checked": "2026-10-22",
+      "note": "가라토시장 2023년 사진; 이전 V62 원본 파일·전환 기록이 존재"
+    },
+    {
+      "card": "대마도",
+      "src": "/images/venues/v62-izuhara-port-real.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+      "author": "Saigen Jiro",
+      "license": "CC0",
+      "captured": "2017",
+      "checked": "2026-10-22",
+      "note": "이즈하라항 2017년 사진; 이전 V62 원본 파일·전환 기록이 존재"
+    },
+    {
+      "card": "오사카",
+      "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
+      "source": null,
+      "author": null,
+      "license": null,
+      "checked": "2026-10-22",
+      "note": "장소·시설 외관은 시각 대조, 별도 원본 촬영자·라이선스 출처를 이번 검사에서 확정 못함",
+      "follow_up": "원본 링크, 촬영자, 라이선스 확인 필요"
+    }
+  ],
+  "limits": [
+    "Wikimedia file pages confirm stated origin and license as of review, not current travel operations.",
+    "Converted image byte fingerprint is pinned in scripts/v105_home_photo_manifest.json.",
+    "AI/staged artwork is not proof of specific place or accommodation.",
+    "Copyright licenses may require persistent credit and share-alike treatment; source links are added to the published homepage."
+  ]
+}

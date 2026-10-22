@@ -34,12 +34,12 @@ CARDS={
             ]},
  "themes":{"anchor":"#v63-theme-title","selector":".v63-grid .v63-card","photo":".v63-visual","num":6,
            "sources":[
-             "/images/ramen-close.jpg",
-             "/images/editorial/okinawa-shopping-street.webp",
+             "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
+             "/images/culture-verified/shotengai-japanese-shopping-arcades.webp",
              "/images/editorial/okinawa-eisa-dance-festival.webp",
-             "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
+             "/images/couple.jpg",
              "/images/editorial/ishigaki-kabira-bay.webp",
-             "/images/culture-verified/japanese-vending-machine-culture.webp",
+             "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
            ]}
 }
 WIDTHS=[("pc",1440,900),("phone",390,844),("small-phone",360,780)]
@@ -80,7 +80,7 @@ with sync_playwright() as tool:
                     if len(alt)<14 or "실제 사진" in alt or "실제 촬영" in alt:
                         error(test,f"card {k}: misleading or missing alt")
                     label=visual.locator(".v104-photo-origin, .v63-photo-disclosure")
-                    is_staged=expected[k].startswith("/images/editorial/")
+                    is_staged=expected[k].startswith("/images/editorial/") or expected[k]=="/images/couple.jpg"
                     if is_staged and label.count()!=1:
                         error(test,f"card {k}: missing staged-art disclosure")
                     if not is_staged and label.count()!=0:
@@ -111,6 +111,11 @@ with sync_playwright() as tool:
                             error(test,f"card {pos}: V107 photo description does not match its destination")
                 if group_name=="themes":
                     if page.locator(".v104-theme-note").count()!=1:error(test,"themed image notice missing")
+                    for pos,word in ((0,"돈코츠"),(1,"돈키호테"),(3,"커플"),(5,"편의점")):
+                        if pos < cards.count() and word not in (cards.nth(pos).locator("img").get_attribute("alt") or ""):
+                            error(test,f"theme card {pos}: V108 photo description mismatches destination")
+                    if "Mugu-shisai" not in page.locator(".v104-theme-note").inner_text():
+                        error(test,"V108 licensed-photo source credits missing")
                 section=heading.locator("xpath=ancestor::section[1]")
                 section.scroll_into_view_if_needed(timeout=10000)
                 section.screenshot(path=str(OUT/f"{group_name}-{viewport}.png"),animations="disabled",timeout=24000)

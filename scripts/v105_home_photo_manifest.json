@@ -107,18 +107,18 @@
       {
         "label": "식도락 여행",
         "href": "/japan/fukuoka-food/",
-        "src": "/images/ramen-close.jpg",
+        "src": "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
         "kind": "reference",
-        "alt_keyword": "라멘",
-        "git_blob_sha1": "d74993d770db56efbabd8cfa72feece8c866357f"
+        "alt_keyword": "돈코츠",
+        "git_blob_sha1": "30de73aa613d7d5766475eea23e66a66e11510a1"
       },
       {
         "label": "쇼핑 가이드",
         "href": "/life/don-quijote-first-guide/",
-        "src": "/images/editorial/okinawa-shopping-street.webp",
-        "kind": "illustrative",
-        "alt_keyword": "국제거리",
-        "git_blob_sha1": "18ffa2842111d8791f2bad91a39eb2a6c7da5fdd"
+        "src": "/images/culture-verified/shotengai-japanese-shopping-arcades.webp",
+        "kind": "reference",
+        "alt_keyword": "돈키호테",
+        "git_blob_sha1": "68b64ece95b29bd96a091234bbbb09e5a692b8a6"
       },
       {
         "label": "4계절·축제",
@@ -131,10 +131,10 @@
       {
         "label": "커플 여행",
         "href": "/couple/kyoto-romantic-date/",
-        "src": "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
+        "src": "/images/couple.jpg",
         "kind": "illustrative",
-        "alt_keyword": "기요미즈데라",
-        "git_blob_sha1": "d415860fe07b0f90c7f25b1776cb8188f8bee6c8"
+        "alt_keyword": "커플",
+        "git_blob_sha1": "72971ff4b73897df5f05f3d1b844d0355916b8b4"
       },
       {
         "label": "포토 스팟",
@@ -147,10 +147,10 @@
       {
         "label": "현지 생활정보",
         "href": "/life/japan-convenience-shopping-list/",
-        "src": "/images/culture-verified/japanese-vending-machine-culture.webp",
+        "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
         "kind": "reference",
-        "alt_keyword": "자판기",
-        "git_blob_sha1": "756e6bd9e958cd80a07afc782ccfeb34f27bc2f8"
+        "alt_keyword": "편의점",
+        "git_blob_sha1": "f7adcfea04871bd6a125df4bfcaaaba6e380db99"
       }
     ]
   },
@@ -167,6 +167,36 @@
       "license": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:D%C5%8Dtonbori_at_night%2C_Osaka_%2819551420339%29.jpg",
       "manifest": "site/images/venues/nf-v85-osaka-dotonbori-licensed.source.json"
+    },
+    {
+      "src": "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
+      "creator": "Syced",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tonkotsu_ramen_in_Tokyo.jpg"
+    },
+    {
+      "src": "/images/culture-verified/shotengai-japanese-shopping-arcades.webp",
+      "creator": "Mugu-shisai",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tanukikoji_01.jpg"
+    },
+    {
+      "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+      "creator": "Yuya Tamai",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Konbini_drink_corner_2009_%283819547946%29.jpg"
+    },
+    {
+      "src": "/images/venues/v62-karato-market-real.webp",
+      "creator": "bryan...",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg"
+    },
+    {
+      "src": "/images/venues/v62-izuhara-port-real.webp",
+      "creator": "Saigen Jiro",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg"
     }
   ],
   "image_format_rules": {
