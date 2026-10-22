@@ -7,7 +7,6 @@ from pathlib import Path
 from urllib.request import Request,urlopen
 from urllib.error import HTTPError
 from concurrent.futures import ThreadPoolExecutor
-from playwright.sync_api import sync_playwright
 import argparse,json,re,datetime
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://www.nipponferry.com"
