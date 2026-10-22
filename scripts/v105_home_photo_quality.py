@@ -143,6 +143,15 @@ def audit_assets(root,manifest):
                 continue
             if local.stat().st_size>rules["maximum_bytes"]:
                 errors.append(prefix+": asset exceeded expected download size budget")
+            # A filename can remain unchanged while an unreviewed image is swapped
+            # to a different Japanese city. Require an explicit editorial update
+            # of the original reviewed binary fingerprint on ANY image replacement.
+            file_bytes=local.read_bytes()
+            git_blob=hashlib.sha1(b"blob "+str(len(file_bytes)).encode("ascii")+b"\\0"+file_bytes).hexdigest()
+            if not re.fullmatch(r"[a-f0-9]{40}",entry.get("git_blob_sha1","")):
+                errors.append(prefix+": missing pinned reviewed image fingerprint")
+            elif git_blob!=entry["git_blob_sha1"]:
+                errors.append(prefix+": image bytes changed since visual approval; re-check depicted city, license and alt before updating manifest")
             try:
                 with Image.open(local) as img:
                     img.verify()
