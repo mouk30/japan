@@ -1,0 +1,37 @@
+name: V119 official and booking source link reachability inventory
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v119_official_links_live.py'
+      - '.github/workflows/v119-official-links.yml'
+permissions:
+  contents: write
+jobs:
+  investigate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Classify official links with network and repeat 404 evidence
+        run: python scripts/v119_official_links_live.py
+      - name: Preserve link report in GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v119/official-and-editorial-link-checks.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V119 record current confirmed and inconclusive official booking and travel URL checks"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v119-current-official-outbound-url-checks
+          path: audit-reports/v119/
+          retention-days: 45
