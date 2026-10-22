@@ -173,6 +173,23 @@ def audit_assets(root,manifest):
                                    "format":encoding,"contrast":round(contrast,2),"kind":entry["kind"]})
             except (OSError,ValueError,UnidentifiedImageError) as e:
                 errors.append(prefix+": file cannot be decoded: "+type(e).__name__)
+    # V106's winter onsen is an editorially generated visualization. Require
+    # its provenance and exact published bytes; never portray it as a named,
+    # bookable Yunokawa hotel, a documentary photo or a verified vantage point.
+    hokkaido_asset=root/"site/images/editorial/hakodate-snow-onsen-romantic-v106.webp"
+    provenance=root/"site/images/editorial/hakodate-snow-onsen-romantic-v106.source.json"
+    if not provenance.is_file():
+        errors.append("V106 Hakodate winter/onsen generated illustration provenance missing")
+    else:
+        metadata=json.loads(provenance.read_text("utf8"))
+        if not metadata.get("illustrative") or metadata.get("actual_property_verified"):
+            errors.append("V106 Hakodate scenic artwork wrongly presented as real property")
+        if hokkaido_asset.exists() and metadata.get("output_sha256")!=hashlib.sha256(hokkaido_asset.read_bytes()).hexdigest():
+            errors.append("V106 generated winter onsen checksum changed without visual review")
+        if not any(x["src"]=="/images/editorial/hakodate-snow-onsen-romantic-v106.webp"
+                   and x["kind"]=="illustrative" for x in manifest["sections"]["popular"]):
+            errors.append("V106 Hakodate hero must remain explicitly staged and listed on homepage")
+
     for credit in manifest["licensed_credits"]:
         if credit.get("manifest"):
             path=root/credit["manifest"]
