@@ -1,0 +1,93 @@
+name: V105 homepage image integrity and licensed-photo maintenance
+on:
+  workflow_dispatch:
+  schedule:
+    # Weekly ~09:27 KST on Monday; GitHub schedule may run later.
+    - cron: '27 0 * * 1'
+  push:
+    branches: [main]
+    paths:
+      - 'site/index.html'
+      - 'site/nf-v104-home-thumbnails.css'
+      - 'site/images/**'
+      - 'scripts/v104_home_thumbnail_browser_qa.py'
+      - 'scripts/v105_home_photo_manifest.json'
+      - 'scripts/v105_home_photo_quality.py'
+      - 'tests/test_v105_home_photo_quality.py'
+      - '.github/workflows/v105-home-photo-integrity.yml'
+permissions:
+  contents: read
+jobs:
+  editorial-assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pillow
+      - name: Prove manifest, photo mapping, credit and image-format regressions work
+        run: python -m unittest discover -s tests -p 'test_v105_home_photo_quality.py' -v
+      - name: Audit 18 real image files, resolution, license manifests, SEO and cards
+        run: python scripts/v105_home_photo_quality.py
+      - name: Include factual source checks in Action summary
+        if: always()
+        run: |
+          if [ -f audit-output/v105-home-photo-audit/summary.md ]; then
+            cat audit-output/v105-home-photo-audit/summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Save asset inventory and review errors only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v105-photo-files-copyright-and-source-qa
+          path: audit-output/v105-home-photo-audit/
+          retention-days: 60
+          if-no-files-found: warn
+  public-website:
+    needs: editorial-assets
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Read REAL production 18 thumbnails on three actual browser widths
+        run: |
+          for attempt in 1 2 3; do
+            if python scripts/v104_home_thumbnail_browser_qa.py; then
+              exit 0
+            fi
+            echo "Public CDN may still have a previous deployment; verification retry $attempt/3"
+            if [ "$attempt" -lt 3 ]; then sleep 25; fi
+          done
+          exit 1
+      - name: Add live screenshot and 18-image status to summary
+        if: always()
+        run: |
+          if [ -f audit-output/v104-home-thumbnails/report.json ]; then
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('audit-output/v104-home-thumbnails/report.json')
+          d=json.loads(p.read_text('utf8'))
+          with open('/tmp/v105-live-summary.md','w') as f:
+              f.write("## V105 actual public home page screenshots\n\n")
+              f.write(f"Result: **{'success' if d['passed'] else 'failed'}**\n\n")
+              f.write("Device/section cases: "+str(len(d.get('scenarios',[])))+"\n\n")
+              for e in d.get('errors',[]):f.write("- "+e+"\n")
+          PY
+            cat /tmp/v105-live-summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Archive public desktop and mobile screenshots and image-response checks
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v105-live-home-images-pc-mobile
+          path: audit-output/v104-home-thumbnails/
+          retention-days: 45
+          if-no-files-found: warn
