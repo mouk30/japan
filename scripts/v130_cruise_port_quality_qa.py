@@ -31,7 +31,7 @@ def run_source():
   start=html.find(anchor);end=html.find("</a>",start)
   if start<0 or end<0 or html.count(anchor)!=1:issues.append(slug+": missing/duplicate hub link");continue
   card=html[start:end+4]
-  imgs=re.findall(r"<img\\b[^>]*>",card)
+  imgs=re.findall(r"<img\b[^>]*>",card)
   expected=p["output"]
   if len(imgs)!=1 or 'src="'+expected+'"' not in imgs[0]:issues.append(slug+": incorrect hub image")
   if 'AI 생성' in (imgs[0] if imgs else ""):issues.append(slug+": stale AI image alt")
