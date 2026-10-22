@@ -55,7 +55,7 @@ def run():
     for spec in plan:
         slug=spec["slug"]
         base=original[slug]
-        path=ROOT/"site/things-to-do"/(slug+"-cruise-port-day-trip")/"index.html"
+        path=ROOT/"site"/base["page"].lstrip("/")/"index.html"
         before=path.read_text("utf8")
         for name,regex in FIELDS.items():
             if only(before,regex,name)!=base[name]:
