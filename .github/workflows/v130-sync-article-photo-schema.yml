@@ -1,0 +1,56 @@
+name: V130 sync verified Article image for 20 previous real-photo pages
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v130_sync_prior_article_images.py'
+      - '.github/workflows/v130-sync-article-photo-schema.yml'
+permissions:
+  contents: write
+concurrency:
+  group: v130-structured-photo-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install "Pillow==11.3.0"
+      - name: Update only twenty known Article JSON-LD image references
+        run: python scripts/v130_sync_prior_article_images.py --apply
+      - name: Check exact old titles descriptions canonicals H1 and synced photo source
+        run: |
+          python scripts/v130_sync_prior_article_images.py --check
+          python scripts/v126_photo_quality_audit.py
+          python scripts/v127_photo_quality_audit.py
+      - name: Commit only twenty prior article schema image corrections
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v130/jsonld-photo-sync-result.json
+          for batch in v126 v127; do
+            :
+          done
+          for slug in kawasaki-cruise-port-day-trip kozushima-cruise-port-day-trip kumamoto-misumi-cruise-port-day-trip miike-miyakejima-cruise-port-day-trip mikawa-jinno-cruise-port-day-trip mitajiri-nakanoseki-cruise-port-day-trip nakagusuku-bay-cruise-port-day-trip nakatsu-cruise-port-day-trip nanao-cruise-port-day-trip naoetsu-cruise-port-day-trip niijima-cruise-port-day-trip numazu-cruise-port-day-trip ohama-cruise-port-day-trip oigawa-cruise-port-day-trip okata-izu-oshima-cruise-port-day-trip omaezaki-cruise-port-day-trip rishiri-kutsugata-cruise-port-day-trip rumoi-cruise-port-day-trip saiki-cruise-port-day-trip sakai-semboku-cruise-port-day-trip; do
+            git add "site/things-to-do/$slug/index.html"
+          done
+          if git diff --cached --quiet; then echo "already synced"; exit 0; fi
+          git commit -m "V130 synchronize twenty existing real photos to Article JSON-LD preserving SEO"
+          git pull --rebase origin main
+          python scripts/v130_sync_prior_article_images.py --check
+          python scripts/v126_photo_quality_audit.py
+          python scripts/v127_photo_quality_audit.py
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v130-20-prior-article-SEO-and-photo-sync
+          path: audit-reports/v130/jsonld-photo-sync-result.json
+          retention-days: 45
