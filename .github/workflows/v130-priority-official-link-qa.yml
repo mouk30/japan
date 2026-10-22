@@ -1,0 +1,27 @@
+name: V130 check official booking operators and key port information links
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v130_priority_official_link_qa.py'
+      - '.github/workflows/v130-priority-official-link-qa.yml'
+permissions:
+  contents: read
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 13 official URL checks - confirmed HTTP 404 vs network blocked
+        run: python scripts/v130_priority_official_link_qa.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v130-booking-port-official-url-check-13
+          path: audit-output/v130/official-source-link-review.json
+          retention-days: 45
