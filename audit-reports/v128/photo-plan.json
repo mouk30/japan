@@ -1,0 +1,127 @@
+{
+  "version": "V128",
+  "date": "2026-10-22",
+  "task": "Replace ten explicitly AI-labelled cruise port heroes with independently verifiable real Commons photos; preserve all existing SEO and do not publish kids section",
+  "selected": [
+    {
+      "slug": "sakaide-cruise-port-day-trip",
+      "region": "가가와·사카이데",
+      "subject": "사카이데에서 촬영한 세토대교 항공 경관. 사카이데항 크루즈 접안 선석 사진은 아님",
+      "filename": "Seto-Ohashi Bridge.jpg",
+      "taken": "2007-03-05",
+      "author": "Hideyuki KAMON",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Seto-Ohashi_Bridge.jpg",
+      "output": "/images/venues/nf-v128-sakaide-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "shimoda-cruise-port-day-trip",
+      "region": "시즈오카·시모다",
+      "subject": "2013년 항공 촬영한 시모다항 실제 전경. 현재 여객 게이트나 크루즈 선석 확정 사진은 아님",
+      "filename": "Shimoda Port Shimodau Shizuoka pref Japan01s.jpg",
+      "taken": "2013-05-12",
+      "author": "663highland",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Shimoda_Port_Shimodau_Shizuoka_pref_Japan01s.jpg",
+      "output": "/images/venues/nf-v128-shimoda-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "shingu-cruise-port-day-trip",
+      "region": "와카야마·신구",
+      "subject": "와카야마현 신구시에 있는 구마노 하야타마 신사의 신문 실제 촬영. 후쿠오카현 신구와는 다른 장소이며 신구항 접안시설 사진은 아님",
+      "filename": "Shingu Kumano Hayatama-taisha Shin-mon 2.jpg",
+      "taken": "2023-10-19",
+      "author": "Zairon",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Shingu_Kumano_Hayatama-taisha_Shin-mon_2.jpg",
+      "output": "/images/venues/nf-v128-shingu-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "sukumo-cruise-port-day-trip",
+      "region": "고치·스쿠모",
+      "subject": "2016년 고치현 스쿠모항 실제 촬영 사진. 현재 크루즈 선박 접안 게이트나 셔틀 현황을 보증하지 않음",
+      "filename": "Port of Sukumo - 宿毛港 - panoramio (4).jpg",
+      "taken": "2016-05-04",
+      "author": "z tanuki",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Port_of_Sukumo_-_%E5%AE%BF%E6%AF%9B%E6%B8%AF_-_panoramio_(4).jpg",
+      "output": "/images/venues/nf-v128-sukumo-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "tagonoura-cruise-port-day-trip",
+      "region": "시즈오카·다고노우라",
+      "subject": "2016년 아시타카산에서 내려다본 다고노우라항과 해안 실제 전경. 당일 크루즈 접안 상황과는 별도",
+      "filename": "Port of Tagonoura.jpg",
+      "taken": "2016-12-17",
+      "author": "Alpsdake",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Port_of_Tagonoura.jpg",
+      "output": "/images/venues/nf-v128-tagonoura-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "toba-cruise-port-day-trip",
+      "region": "미에·도바",
+      "subject": "2006년 항공 촬영한 도바항 실제 전경. 현행 부두와 셔틀 동선을 확인하는 사진은 아님",
+      "filename": "Toba Port 01.jpg",
+      "taken": "2006-11-22",
+      "author": "Hideyuki KAMON",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Toba_Port_01.jpg",
+      "output": "/images/venues/nf-v128-toba-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "tokoname-cruise-port-day-trip",
+      "region": "아이치·도코나메",
+      "subject": "도코나메에서 촬영한 도자기·타일 문화 풍경. 도코나메항 승객 접안부두 사진이 아님",
+      "filename": "Tokoname landscape ac (1).jpg",
+      "taken": "2020-09",
+      "author": "Asturio Cantabrio",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokoname_landscape_ac_(1).jpg",
+      "output": "/images/venues/nf-v128-tokoname-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "tokuyama-kudamatsu-cruise-port-day-trip",
+      "region": "야마구치·도쿠야마",
+      "subject": "2018년 촬영한 도쿠야마항 실제 전경. 크루즈 운항 및 접안 선석은 항차별 확인 필요",
+      "filename": "View of Tokuyama Port.jpg",
+      "taken": "2018-05-01",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:View_of_Tokuyama_Port.jpg",
+      "output": "/images/venues/nf-v128-tokuyama-kudamatsu-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "tsugaru-ajigasawa-cruise-port-day-trip",
+      "region": "아오모리·아지가사와",
+      "subject": "2019년 촬영한 아지가사와역 실제 경관. 쓰가루·아지가사와 연안 크루즈 접안부두 사진은 아니며 기차역과 하선 위치를 혼동하지 말 것",
+      "filename": "Ajigasawa Station 20190908a.jpg",
+      "taken": "2019-09-08",
+      "author": "掬茶",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Ajigasawa_Station_20190908a.jpg",
+      "output": "/images/venues/nf-v128-tsugaru-ajigasawa-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "tsuruga-cruise-port-day-trip",
+      "region": "후쿠이·쓰루가",
+      "subject": "2016년 데즈쓰산에서 바라본 쓰루가항 실제 전경. 현재 크루즈 하선 선석 및 출입 게이트는 항차별 확인 필요",
+      "filename": "Port of Tsuruga.jpg",
+      "taken": "2016-11-02",
+      "author": "Alpsdake",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Port_of_Tsuruga.jpg",
+      "output": "/images/venues/nf-v128-tsuruga-cruise-port-day-trip-real.webp"
+    }
+  ]
+}
