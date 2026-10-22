@@ -1,0 +1,62 @@
+name: V126 licensed photos desktop and mobile production QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site/images/venues/nf-v126-*-real.webp'
+      - 'site/things-to-do/*-cruise-port-day-trip/index.html'
+      - 'audit-reports/v126/import-result.json'
+      - 'scripts/v126_photo_quality_audit.py'
+      - 'scripts/v126_photo_live_qa.py'
+      - '.github/workflows/v126-photo-and-seo-qa.yml'
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install "Pillow==11.3.0"
+      - name: Validate 10 photos, pixels, hashes, attribution and original SEO
+        run: python scripts/v126_photo_quality_audit.py
+  production:
+    needs: source
+    runs-on: ubuntu-latest
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Verify 10 live pages x PC and mobile = 20 render checks
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if python scripts/v126_photo_live_qa.py; then exit 0; fi
+            echo "Public CDN may be propagating. Check attempt $attempt/5"
+            if [ "$attempt" -lt 5 ]; then sleep 30; fi
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v126-photo-live-desktop-mobile-screenshots
+          path: audit-output/v126/
+          retention-days: 45
+
+# V126: triggered after the actual ten-photo GitHub Actions publication commit.
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: v126-ten-licensed-WebP-image-set
+          path: |
+            site/images/venues/nf-v126-*-real.webp
+            audit-reports/v126/photo-plan.json
+            audit-reports/v126/README.md
+          retention-days: 45
