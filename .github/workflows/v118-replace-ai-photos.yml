@@ -24,6 +24,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install "Pillow==11.3.0"
+      - name: Check source and regression scripts syntax
+        run: python -m py_compile scripts/v118_replace_ai_heroes.py scripts/v118_photo_quality_audit.py scripts/v118_photo_live_qa.py
       - name: Download 10 known real-place Commons photographs or leave all pages unchanged
         run: python scripts/v118_replace_ai_heroes.py
       - name: Verify 10 converted WebPs hash author license credit and SEO
