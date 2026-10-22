@@ -30,7 +30,7 @@ def check():
         slug=s["slug"]
         try:
             p=previous[slug];e=exported[slug]
-            h=(ROOT/"site"/base["page"].lstrip("/")/"index.html").read_text("utf8")
+            h=(ROOT/"site"/p["page"].lstrip("/")/"index.html").read_text("utf8")
             for name,regex in PATTERNS.items():
                 if get(h,regex)!=p[name]:failures.append(slug+" protected SEO drift "+name)
             target="https://www.nipponferry.com"+s["output"]
