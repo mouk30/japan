@@ -48,7 +48,7 @@ def run():
     specs=json.loads(PLAN.read_text("utf8"))["selected"]
     original=json.loads(BASE.read_text("utf8"))["pages"]
     frozen={v["slug"]:v for v in original}
-    if len(specs)!=len(frozen)!=10:raise ValueError("V114 requires exactly 10 originals")
+    if len(specs)!=10 or len(frozen)!=10:raise ValueError("V114 requires exactly 10 originals")
     if len({x["slug"] for x in specs})!=10:raise ValueError("Duplicate selection")
     staged=[]
     for spec in specs:
