@@ -49,3 +49,5 @@ jobs:
           name: v125-photo-live-desktop-mobile-screenshots
           path: audit-output/v125/
           retention-days: 45
+
+# V125: triggered after the actual ten-photo GitHub Actions publication commit.
