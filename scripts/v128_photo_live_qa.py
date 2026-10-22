@@ -36,6 +36,10 @@ with sync_playwright() as pw:
      raise ValueError("rights attribution incomplete")
     if page.locator('meta[property="og:image"]').get_attribute("content")!="https://www.nipponferry.com"+entry["output"]:
      raise ValueError("OG mismatch")
+    schemas=json.loads(page.locator('script[type="application/ld+json"]').first.text_content())
+    articles=[obj for obj in schemas if isinstance(obj,dict) and obj.get("@type")=="Article"]
+    if len(articles)!=1 or articles[0].get("image")!=["https://www.nipponferry.com"+entry["output"]]:
+     raise ValueError("JSON-LD Article image not synced with live real WebP")
     if page.locator('link[rel="canonical"]').get_attribute("href")!=prior[slug]["canonical"]:
      raise ValueError("canonical regression")
     if page.title()!=prior[slug]["title"]:raise ValueError("page title regression")
