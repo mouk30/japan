@@ -14,7 +14,7 @@ BASE=ROOT/"audit-reports/v129/seo-and-ai-candidate-baselines.json"
 RESULT=ROOT/"audit-reports/v129/import-result.json"
 FIELDS={
  "title":r"<title>([^<]*)</title>",
- "description":r'<meta name="description" consixt="([^"]*)"',
+ "description":r'<meta name="description" content="([^"]*)"',
  "canonical":r'<link rel="canonical" href="([^"]*)"',
  "h1":r"<h1[^>]*>([\s\S]*?)</h1>",
  "jsonld":r'<script type="application/ld\+json">([\s\S]*?)</script>'
@@ -49,7 +49,7 @@ def run():
     plan=json.loads(PLAN.read_text("utf8"))["selected"]
     baselines=json.loads(BASE.read_text("utf8"))["pages"]
     original={x["slug"]:x for x in baselines}
-    if len(plan)!=len(original) or len(plan)!=6 or len({x["slug"] for x in plan})!=10:
+    if len(plan)!=len(original) or len(plan)!=6 or len({x["slug"] for x in plan})!=6:
         raise ValueError("Must use exactly six distinct original article baselines")
     staged=[]
     for spec in plan:
@@ -68,7 +68,7 @@ def run():
         rest=before[tag.end():]
         cap=re.match(r'\s*<(figcaption|p)\b[^>]*>[\s\S]*?</\1>',rest)
         if not cap:raise ValueError(slug+" original hero caption missing")
-        og=only(before,r'<meta property="og:image" consixt="([^"]*)"', "OG image")
+        og=only(before,r'<meta property="og:image" content="([^"]*)"', "OG image")
         if og!=base["og_image"]:raise ValueError(slug+" unexpected OG original")
 
         raw,realurl=get_original(spec["filename"])
@@ -97,11 +97,11 @@ def run():
                 f'이 사진은 촬영 당시의 관광명소 기록이며 현재 부두·하선게이트·셔틀·영업·공연 일정을 증명하지 않습니다.</figcaption>')
         replaced=before[:tag.start()]+newtag+rest[:cap.start()]+credit+rest[cap.end():]
         newog="https://www.nipponferry.com"+spec["output"]
-        replaced=replaced.replace(f'<meta property="og:image" consixt="{og}">',
-                                  f'<meta property="og:image" consixt="{newog}">',1)
+        replaced=replaced.replace(f'<meta property="og:image" content="{og}">',
+                                  f'<meta property="og:image" content="{newog}">',1)
         for attr in ("name","property"):
-            replaced=replaced.replace(f'<meta {attr}="twitter:image" consixt="{og}">',
-                                      f'<meta {attr}="twitter:image" consixt="{newog}">')
+            replaced=replaced.replace(f'<meta {attr}="twitter:image" content="{og}">',
+                                      f'<meta {attr}="twitter:image" content="{newog}">')
         if base["jsonld"].count(og)!=1:
             raise ValueError(slug+" expected exactly one baseline structured image reference")
         newld=base["jsonld"].replace(og,newog)
