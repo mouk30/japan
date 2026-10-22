@@ -119,17 +119,17 @@ def main():
      if host in ("www.nipponferry.com","nipponferry.com"):continue
      if urlsplit(link).path in ("","/","/index.html"):
       booking.append({"page":url,"label":label[:100],"href":link,"why":"booking-label-links-to-external-homepage-not-checkout"})
-  m=re.search(r'<img[^>]*class=["\\'][^"\\']*cover[^"\\']*["\\'][^>]*>',s)
+  m=re.search(r"""<img[^>]*class=["'][^"']*cover[^"']*["'][^>]*>""",s)
   cover=None
   if m:
-   cover=(re.search(r'src=["\\']([^"\\']+)',m.group(0)) or [None,None])[1]
+   cover=(re.search(r"""src=["']([^"']+)""",m.group(0)) or [None,None])[1]
   if cover:
    photos["pages_with_cover"]+=1
    full=REPO+cover if cover.startswith("/") else cover
    oldog=parse.og[0] if parse.og else ""
    if oldog and oldog!=full:
     mismatches.append({"page":url,"issue":"cover_vs_og","cover":cover,"og":oldog})
-   ld=re.findall(r'<script[^>]*type=["\\']application/ld\+json["\\'][^>]*>([\s\S]*?)</script>',s,re.I)
+   ld=re.findall(r"""<script[^>]*type=["']application/ld\+json["'][^>]*>([\s\S]*?)</script>""",s,re.I)
    for raw in ld:
     try: parsed=json.loads(raw)
     except (ValueError,TypeError):continue
