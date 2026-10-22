@@ -81,26 +81,26 @@
       {
         "label": "오사카",
         "href": "/things-to-do/osaka-one-day/",
-        "src": "/images/culture-verified/takoyaki-osaka-street-food.webp",
+        "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
         "kind": "reference",
-        "alt_keyword": "타코야키",
-        "git_blob_sha1": "154f5790edaf82b49a58953449dfa07aa3190cfa"
+        "alt_keyword": "가이유칸",
+        "git_blob_sha1": "d3344df4055136ca831da376ba708538c6267ce3"
       },
       {
         "label": "시모노세키",
         "href": "/things-to-do/shimonoseki-one-day/",
-        "src": "/images/editorial/mojiko-cruise-port-day-trip.webp",
-        "kind": "illustrative",
-        "alt_keyword": "모지코",
-        "git_blob_sha1": "bb9f8398cadf15e4fe5fccae249f138775400a59"
+        "src": "/images/venues/v62-karato-market-real.webp",
+        "kind": "reference",
+        "alt_keyword": "가라토시장",
+        "git_blob_sha1": "cfd031184fb99aec7a491675f9eac8c96507692e"
       },
       {
         "label": "대마도",
         "href": "/things-to-do/tsushima-one-day/",
-        "src": "/images/food-verified/tsushima-food.webp",
+        "src": "/images/venues/v62-izuhara-port-real.webp",
         "kind": "reference",
-        "alt_keyword": "먹거리",
-        "git_blob_sha1": "79e9b3494f799a2b7b8035f827f107e66803d25e"
+        "alt_keyword": "이즈하라항",
+        "git_blob_sha1": "f45ddb323c26001018b21e86e50caad3b4e9b878"
       }
     ],
     "themes": [

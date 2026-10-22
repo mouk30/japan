@@ -257,8 +257,8 @@ def main():
     lines=["# V105 — homepage editorial image quality and origin", "",
            f"Status: **{report['status']}**","",
            f"Images decoded/inspected: **{report['images_inspected']}/18**",
-           f"Staged-image disclosures expected: **{report['illustrations']}/12**",
-           f"Licensed photo / subject reference assets: **{report['licensed_or_reference']}/6**",
+           f"Staged-image disclosures expected: **{report['illustrations']}**",
+           f"Licensed photo / subject reference assets: **{report['licensed_or_reference']}**",
            f"Observed source problems: **{len(report['errors'])}**",""]
     for error in report["errors"]:lines.append("- "+error)
     lines.extend(["","**Scope:** editorial source, MIME/format, resolution, file corruption, license manifest, 8+4+6 card destination mapping and existing V104 browser QA list.",

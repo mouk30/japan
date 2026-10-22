@@ -21,8 +21,29 @@ class HomeImageQualityTests(unittest.TestCase):
         self.assertEqual(r["status"],"source_clean")
         self.assertEqual(r["card_counts"],{"popular":8,"daytrips":4,"themes":6})
         self.assertEqual(r["images_inspected"],18)
-        self.assertEqual(r["illustrations"],12)
-        self.assertEqual(r["licensed_or_reference"],6)
+        self.assertEqual(r["illustrations"],11)
+        self.assertEqual(r["licensed_or_reference"],7)
+
+    def test_v107_regional_cards_reuse_matching_existing_place_images(self):
+        expected=[
+            (1,"가이유칸","/images/venues/osaka-kaiyukan-aquarium.webp"),
+            (2,"가라토시장","/images/venues/v62-karato-market-real.webp"),
+            (3,"이즈하라항","/images/venues/v62-izuhara-port-real.webp"),
+        ]
+        actual=v105.extract_cards(self.html)["daytrips"]
+        for pos,place,src in expected:
+            with self.subTest(place=place):
+                self.assertEqual(actual[pos]["images"][0]["src"],src)
+                self.assertIn(place,actual[pos]["images"][0]["alt"])
+                self.assertEqual(self.manifest["sections"]["daytrips"][pos]["kind"],"reference")
+                self.assertNotIn("v104-photo-origin",actual[pos]["labels"])
+        for place,url,src in [
+            ("시모노세키","shimonoseki-one-day","/images/venues/v62-karato-market-real.webp"),
+            ("대마도","tsushima-one-day","/images/venues/v62-izuhara-port-real.webp"),
+        ]:
+            detail=(ROOT/"site/things-to-do"/url/"index.html").read_text("utf8")
+            with self.subTest(detail=place):
+                self.assertIn('property="og:image" content="https://www.nipponferry.com'+src+'"',detail)
 
     def test_wrong_region_image_is_rejected_from_pinned_manifest(self):
         html=self.html.replace("/images/editorial/okinawa-kouri-bridge.webp",

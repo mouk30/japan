@@ -28,9 +28,9 @@ CARDS={
  "daytrips":{"anchor":"#v36-home","selector":".d61-home-grid .d61-home-card","photo":".d61-home-photo","num":4,
            "sources":[
             "/images/editorial/v339_hakata-port-tenjin-sightseeing.webp",
-            "/images/culture-verified/takoyaki-osaka-street-food.webp",
-            "/images/editorial/mojiko-cruise-port-day-trip.webp",
-            "/images/food-verified/tsushima-food.webp",
+            "/images/venues/osaka-kaiyukan-aquarium.webp",
+            "/images/venues/v62-karato-market-real.webp",
+            "/images/venues/v62-izuhara-port-real.webp",
             ]},
  "themes":{"anchor":"#v63-theme-title","selector":".v63-grid .v63-card","photo":".v63-visual","num":6,
            "sources":[
@@ -106,8 +106,9 @@ with sync_playwright() as tool:
                     note=page.locator(".d61-home-note")
                     if note.count()!=1 or "모지코는 시모노세키와" not in note.inner_text():
                         error(test,"Mojiko vs Shimonoseki geography not clarified")
-                    if page.locator(".d61-home-card .d62-source").count()>0:
-                        error(test,"old Karato/Izuhara photo credits no longer correspond to replacement image")
+                    for pos,place in ((1,"가이유칸"),(2,"가라토시장"),(3,"이즈하라항")):
+                        if pos < cards.count() and place not in (cards.nth(pos).locator("img").get_attribute("alt") or ""):
+                            error(test,f"card {pos}: V107 photo description does not match its destination")
                 if group_name=="themes":
                     if page.locator(".v104-theme-note").count()!=1:error(test,"themed image notice missing")
                 section=heading.locator("xpath=ancestor::section[1]")
