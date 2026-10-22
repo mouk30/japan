@@ -42,6 +42,7 @@
 - 수정된 원문에서 기존 URL·제목·메타 설명·Article JSON-LD 유지; 새 게시글 0.
 - 귀선 최종 시간은 **선박명·기항일·실제 접안 선석·승선 마감·교통 복귀시간** 없이 임의로 설정하지 않음.
 - 기존 [V131 이시가키 버스](https://www.azumabus.co.jp/localbus/)와 [나가사키 관광 영문 안내](https://www.discover-nagasaki.com/en/transit/100790) 접근 제한은 여전히 기술적 미확인으로, 링크를 무작위로 삭제·치환하지 않음.
-- [V133 사진 출처 서식 감사 스크립트](../../scripts/v133_photo_provenance_audit.py)와 [GitHub 검수 절차](https://github.com/mouk30/japan/actions/workflows/v133-photo-license-and-official-qa.yml). 자동검사 실행 성공 전에는 그 결과를 완료로 단정하지 않음.
+- [V133 289개 사진 출처 후보 + 실제 Commons 원본 3개 독립 검수 성공](https://github.com/mouk30/japan/actions/runs/39805391527) · [결과 JSON](./photo-provenance-review.json) · [검수 자료 ZIP](https://github.com/mouk30/japan/actions/runs/39805391527/artifacts/12437521630). 289개 중 22개 근접 사진 출처 표기는 정상; 나머지 267개는 미검수 후보이지 고장 판정 아님.
+- [V133 공개 PC·모바일 4페이지 × 2회 추가 검사](https://github.com/mouk30/japan/actions/runs/39806217731) — 자동검사 중이며 통과 전에는 완료로 표현하지 않음.
 
 **다음 보강:** 나머지 가이드 사진의 출처·실제 촬영 장소 일치 후보를 페이지별로 선정해 원본·저자·실제 피사체를 대조. 이후 예약 CTA 중 실제로 방문자에게 '즉시 구매'처럼 표현되지만 일반 홈페이지로 이동하는 링크만 출처를 확인해 수정.
