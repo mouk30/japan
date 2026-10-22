@@ -19,7 +19,7 @@ with sync_playwright() as pw:
    slug=entry["slug"]
    label=f"{slug}@{width}"
    try:
-    url="https://www.nipponferry.com/things-to-do/"+slug+"-cruise-port-day-trip/"
+    url=prior[slug]["canonical"]
     response=page.goto(url,wait_until="domcontentloaded",timeout=60000)
     if response is None or response.status!=200:raise ValueError("live page HTTP non-200")
     image=page.locator('img.cover[src="'+entry["output"]+'"]')
