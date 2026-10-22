@@ -1,0 +1,128 @@
+{
+  "version": "V127",
+  "date": "2026-10-22",
+  "task": "Ten existing explicitly AI-labelled cruise port hero images only. Replace after exact location, photograph date and commercial reuse rights verification. Keep original SEO and URLs unchanged; kids section untouched.",
+  "selected": [
+    {
+      "slug": "niijima-cruise-port-day-trip",
+      "region": "도쿄도·니지마",
+      "subject": "니지마섬 하부시우라 해변 실제 전경. 크루즈 접안시설이나 니지마항의 하선 게이트 사진이 아님",
+      "filename": "Niijima Habushiura Beach.jpg",
+      "taken": "2008-03-09",
+      "author": "Soica2001",
+      "license": "Public domain (PD-self)",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Niijima_Habushiura_Beach.jpg#Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:Niijima_Habushiura_Beach.jpg",
+      "output": "/images/venues/nf-v127-niijima-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "numazu-cruise-port-day-trip",
+      "region": "시즈오카·누마즈",
+      "subject": "2009년 실제 누마즈항 경관. 현재 접안·셔틀 운행상황을 보증하지 않음",
+      "filename": "Numazu port.jpg",
+      "taken": "2009-09-23",
+      "author": "Syced",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Numazu_port.jpg",
+      "output": "/images/venues/nf-v127-numazu-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "ohama-cruise-port-day-trip",
+      "region": "나가사키·운젠 오바마온천",
+      "subject": "2026년 7월 촬영한 오바마온천 거리 실제 모습. 오바마항의 크루즈 접안 안벽 사진은 아님",
+      "filename": "Obama-Onsen 2026-07 ac (1).jpg",
+      "taken": "2026-07",
+      "author": "Asturio Cantabrio",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Obama-Onsen_2026-07_ac_(1).jpg",
+      "output": "/images/venues/nf-v127-ohama-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "oigawa-cruise-port-day-trip",
+      "region": "시즈오카·오이가와항",
+      "subject": "1988년 촬영한 오이가와항의 기록 항공사진. 현재 항만 구조나 크루즈 접안시설 상태를 나타내지 않음",
+      "filename": "Aerial photograph of The Port of Oigawa.jpg",
+      "taken": "1988",
+      "author": "국토교통성 (Ministry of Land, Infrastructure, Transport and Tourism, Japan)",
+      "license": "National Land Image Information attribution (reuse allowed with source credit)",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_The_Port_of_Oigawa.jpg#Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_The_Port_of_Oigawa.jpg",
+      "output": "/images/venues/nf-v127-oigawa-cruise-port-day-trip-real.webp",
+      "extra_credit": "Made based on National Land Image Information (Color Aerial Photographs), Ministry of Land, Infrastructure, Transport and Tourism. 자료 제공: 国土交通省. 참조 https://service.gsi.go.jp/map-photos/ . 1988년 사진의 색 보정 이력(2017년)을 원본 파일 설명에서 확인할 수 있습니다."
+    },
+    {
+      "slug": "okata-izu-oshima-cruise-port-day-trip",
+      "region": "도쿄도·이즈오시마 오카타항",
+      "subject": "2020년 촬영된 오카타항의 실제 여객 대합시설 전경. 크루즈별 하선 게이트 확정 사진은 아님",
+      "filename": "Oshima Port of Okata.jpg",
+      "taken": "2020-12-19",
+      "author": "Totti",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Oshima_Port_of_Okata.jpg",
+      "output": "/images/venues/nf-v127-okata-izu-oshima-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "omaezaki-cruise-port-day-trip",
+      "region": "시즈오카·오마에자키",
+      "subject": "2021년 4월 오마에자키 등대 실제 촬영 모습. 오마에자키항 크루즈 부두와 다른 장소",
+      "filename": "Omaezaki Lighthouse 2021-04 ac.jpg",
+      "taken": "2021-04",
+      "author": "Asturio Cantabrio",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Omaezaki_Lighthouse_2021-04_ac.jpg",
+      "output": "/images/venues/nf-v127-omaezaki-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "rishiri-kutsugata-cruise-port-day-trip",
+      "region": "홋카이도·리시리섬 굿쓰가타항",
+      "subject": "2010년 9월 12일 굿쓰가타항에 정박 중이던 닛폰마루 실제 촬영 기록. 오늘의 접안 상황은 아님",
+      "filename": "Kutsugata-port-with-Nipponmaru.jpg",
+      "taken": "2010-09-12",
+      "author": "しんかわな",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kutsugata-port-with-Nipponmaru.jpg",
+      "output": "/images/venues/nf-v127-rishiri-kutsugata-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "rumoi-cruise-port-day-trip",
+      "region": "홋카이도·루모이항",
+      "subject": "2015년 루모이항에 있던 해상보안청 순시선이 보이는 실제 항구 사진. 크루즈선이나 현재 운항 모습은 아님",
+      "filename": "留萌港（Rumoi Port） - panoramio.jpg",
+      "taken": "2015-08-09",
+      "author": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:%E7%95%99%E8%90%8C%E6%B8%AF%EF%BC%88Rumoi_Port%EF%BC%89_-_panoramio.jpg",
+      "output": "/images/venues/nf-v127-rumoi-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "saiki-cruise-port-day-trip",
+      "region": "오이타·사이키항",
+      "subject": "2016년 촬영된 사이키항 실제 모습. 현재 크루즈 접안 부두나 선박의 하선 상태를 보증하지 않음",
+      "filename": "Port of Saiki - 佐伯港 - panoramio (1).jpg",
+      "taken": "2016-05-04",
+      "author": "z tanuki",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Port_of_Saiki_-_%E4%BD%90%E4%BC%AF%E6%B8%AF_-_panoramio_(1).jpg",
+      "output": "/images/venues/nf-v127-saiki-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "sakai-semboku-cruise-port-day-trip",
+      "region": "오사카·사카이항",
+      "subject": "2025년 촬영한 사카이 옛 항구의 실제 잔교. 사카이·센보쿠항 전체의 현재 크루즈 접안 시설과 구별",
+      "filename": "Old Sakai Port Pier.jpg",
+      "taken": "2025-10-07",
+      "author": "ブルーノ・プラス",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Sakai_Port_Pier.jpg",
+      "output": "/images/venues/nf-v127-sakai-semboku-cruise-port-day-trip-real.webp"
+    }
+  ]
+}
