@@ -56,6 +56,19 @@ def run_source():
   if host not in page:issues.append(slug+": missing priority official-source domain")
   if not any(x in page for x in ("항차별","선사 공지","귀선 마감","귀선 시간")):
    issues.append(slug+": no return-to-ship condition text")
+  m=re.search(r'<meta property="og:image" content="([^"]+)"',page)
+  ld=re.search(r'<script type="application/ld\\+json">([\\s\\S]*?)</script>',page)
+  if not m or not ld:issues.append(slug+": missing image metadata")
+  else:
+   data=json.loads(ld.group(1))
+   article=next((x for x in (data if isinstance(data,list) else [data]) if x.get("@type")=="Article"),None)
+   if article and article.get("image") not in ([m.group(1)],m.group(1)):
+    issues.append(slug+": Article image does not match OG")
+   cover=re.search(r'<img class="cover" src="([^"]+)"',page)
+   if cover and m.group(1)!="https://www.nipponferry.com"+cover.group(1):
+    issues.append(slug+": real photo cover not synced to OG")
+  if slug=="ishigaki-cruise-kabira-bay-bus-taxi" and "nf-v130-access-control" not in page:
+   issues.append(slug+": official vehicle restriction notice missing")
  if html.count("nf-v130-photo-credit")!=36:issues.append("hub credit count != 36")
  return {"status":"pass" if not issues else "fail","checked_hub_cards":len(success),"checked_priority_pages":len(PORTS),"issue_count":len(issues),"issues":issues}
 def run_live():
@@ -94,6 +107,15 @@ def run_live():
      r=page.goto(url,wait_until="domcontentloaded",timeout=60000)
      if not r or r.status!=200:raise ValueError("page HTTP error")
      if page.locator('link[rel="canonical"]').get_attribute("href")!=url:raise ValueError("wrong canonical")
+     og=page.locator('meta[property="og:image"]').get_attribute("content")
+     schemas=json.loads(page.locator('script[type="application/ld+json"]').first.text_content())
+     art=next((o for o in (schemas if isinstance(schemas,list) else [schemas]) if o.get("@type")=="Article"),None)
+     if art and art.get("image") not in ([og],og):raise ValueError("Article image versus OG mismatch")
+     cover=page.locator("img.cover")
+     if cover.count()==1 and og!="https://www.nipponferry.com"+cover.get_attribute("src"):
+      raise ValueError("cover/OG mismatch")
+     if slug=="ishigaki-cruise-kabira-bay-bus-taxi" and page.locator("#nf-v130-access-control").count()!=1:
+      raise ValueError("Ishigaki official vehicle restriction warning missing")
      if page.evaluate("document.documentElement.scrollWidth")>width+12:raise ValueError("horizontal overflow")
      report["tested_port_pages"]+=1
     except Exception as ex:report["issues"].append(slug+"@"+str(width)+": "+str(ex)[:180])
