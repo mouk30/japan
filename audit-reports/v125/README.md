@@ -35,6 +35,7 @@
 - [GitHub Actions: 실제 변환·배포 성공](https://github.com/mouk30/japan/actions/runs/39771465603)
 - [GitHub Actions: 원본 검수 + 공개 PC·모바일 20회 통과](https://github.com/mouk30/japan/actions/runs/39771690364)
 - [실제 Chromium 화면 캡처 20장 ZIP + JSON 결과](https://github.com/mouk30/japan/actions/runs/39771690364/artifacts/12422841668)
+- [실제로 적용한 WebP 10장 + 원본·저작권 기록 ZIP](https://github.com/mouk30/japan/actions/runs/39772142531/artifacts/12423201194) — 추가 실행도 PC·모바일 20회 통과
 
 ## 잔여 품질 과제
 
