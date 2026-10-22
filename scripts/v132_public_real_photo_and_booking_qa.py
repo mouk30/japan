@@ -65,7 +65,7 @@ def scan():
       if section.locator('a[href="'+link+'"]').count()!=1:
        raise ValueError("official booking or terms link missing "+link)
      copy=section.inner_text()
-     for term in ("2개월","13","취소","신용카드","예약 안내"):
+     for term in ("2개월","오후 1시","취소","신용카드","예약 안내"):
       if term not in copy:raise ValueError("missing operative official condition: "+term)
      if pg.evaluate("document.documentElement.scrollWidth")>width+12:
       raise ValueError("booking page horizontal overflow")
