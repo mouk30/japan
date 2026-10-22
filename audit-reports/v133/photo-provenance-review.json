@@ -1,0 +1,1613 @@
+{
+  "version": "V133",
+  "checked_previous_photo_credit_candidates": 289,
+  "classifications": {
+    "unclassified": 267,
+    "visible_source_creator_license": 22
+  },
+  "independently_original_source_compared": 3,
+  "verified_originals": [
+    {
+      "page": "/things-to-do/okinawa-shuri-castle/",
+      "source": "https://commons.wikimedia.org/wiki/File:Shuri_Castle_Reconstruction.jpg",
+      "author": "おにく",
+      "date": "2025-02-11",
+      "license": "CC0 1.0",
+      "scene": "Shuri Castle main hall reconstruction, NOT a completed 2026 hall",
+      "source_link_visible": true,
+      "creator_visible": true,
+      "licence_displayed": true,
+      "historical_date_displayed": true,
+      "passed": true
+    },
+    {
+      "page": "/things-to-do/nanao-cruise-port-day-trip/",
+      "source": "https://commons.wikimedia.org/wiki/File:Nanao_port.JPG",
+      "author": "nanaoshimin",
+      "date": "2007-12-25",
+      "license": "Public domain (author release)",
+      "scene": "2007 port view, NOT post-2024-earthquake or live current berth",
+      "source_link_visible": true,
+      "creator_visible": true,
+      "licence_displayed": true,
+      "historical_date_displayed": true,
+      "passed": true
+    },
+    {
+      "page": "/things-to-do/nagasaki-cruise-port-day-trip/",
+      "source": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5384.jpg",
+      "author": "Fg2",
+      "date": "2007",
+      "license": "Public domain (author release)",
+      "scene": "Historic Ringer House in Nagasaki Glover Garden, NOT cruise terminal",
+      "source_link_visible": true,
+      "creator_visible": true,
+      "licence_displayed": true,
+      "historical_date_displayed": true,
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "HTML attribution is not proof of actual visual match or legal permission",
+    "Many older page templates credit photos elsewhere; not automatically an error",
+    "Missing attribution candidate requires inspecting original image and author license before editing",
+    "Photo depiction of facilities and operating state can change after image was taken"
+  ],
+  "pages": [
+    {
+      "page": "/couple/ferry-cabin-for-couples/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/fukuoka-couple-2n3d/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/fukuoka-night-date/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/japan-christmas-date/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/japan-confession-culture/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/japan-couple-anniversary-culture/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/japan-couple-messaging-culture/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/japan-couple-photo-trip/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/japan-couple-trip-planning/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/japan-date-cost-splitting/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/japan-ferry-couple-trip/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/japan-onsen-couple-trip/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/japan-valentine-white-day/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/japanese-women-stereotypes/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/joshiryoku-cooking-image/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/joshiryoku-fashion-makeup/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/joshiryoku-lifestyle/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/joshiryoku-meaning/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/joshiryoku-modern-japan/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/korea-japan-couple-anniversary-trip/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/korea-japan-couple-before-marriage/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/korea-japan-couple-language/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/korea-japan-couple-reality/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/korea-japan-long-distance-couple/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/kyoto-romantic-date/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/meet-japanese-partner-parents/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/ocean-view-cabin-couple/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/osaka-couple-3n4d/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/osaka-night-date/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/couple/tokyo-night-view-date/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/bugwan-ferry-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/bugwan-ferry-rooms/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-fukuoka-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-fukuoka-ferry-price/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-fukuoka-timetable/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-hitakatsu-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-izuhara-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-osaka-car-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-osaka-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-osaka-ferry-price/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-osaka-timetable/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-port-departure-process/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-shimonoseki-car-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-shimonoseki-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-shimonoseki-ferry-price/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-shimonoseki-timetable/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-station-to-port/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-tsushima-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-tsushima-ferry-price/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/busan-tsushima-timetable/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/fukuoka-busan-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/fukuoka-ferry-2n3d/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/fukuoka-ferry-3n4d/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/fukuoka-ferry-vs-flight/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/fukuoka-vs-shimonoseki-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/fukuoka-vs-tsushima-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/gimhae-airport-to-busan-port/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/hakata-port-to-hakata-station/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/hakata-port-to-tenjin/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/hitakatsu-day-trip/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/hitakatsu-port-transport/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/hitakatsu-vs-izuhara/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/how-to-take-japan-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/izuhara-1n2d/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/izuhara-port-transport/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-baggage/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-bath/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-bicycle/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-booking-passport/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-cancellation-refund/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-car/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-cheap-booking/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-checkin-time/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-day-trip-options/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-delay-cancellation/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-duty-free/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-esim/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-faq/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-first-timer/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-fuel-surcharge/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-how-early/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-live-status/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-meals/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-motorcycle/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-overnight-tips/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-overnight-value/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-packing-list/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-passport/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-peak-season-booking/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-prohibited-items/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-rainy-day/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-room-classes/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-roundtrip-vs-oneway/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-seasickness/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-seniors/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-sleep-kit/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-solo-trip/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-suitcase/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-terminal-fees/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-travel-time/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-typhoon-season/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-visit-japan-web/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-vs-flight/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-wifi/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-winter/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-ferry-with-kids/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/japan-port-arrival-process/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/new-camellia-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/new-camellia-rooms/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/new-camellia-vs-bugwan/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/nova-tsushima-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/osaka-busan-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/osaka-ferry-3n4d/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/osaka-ferry-4n5d/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/osaka-ferry-vs-flight/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/osaka-port-to-namba/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/osaka-port-to-umeda/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/panstar-miracle-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/panstar-miracle-rooms/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/panstar-vs-new-camellia/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/seaflower-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/shimonoseki-busan-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/shimonoseki-ferry-2n3d/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/shimonoseki-mojiko-2n3d/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/shimonoseki-port-to-karato/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/shimonoseki-port-to-mojiko/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/tsushima-1n2d/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/tsushima-busan-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/tsushima-day-trip/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/guide/tsushima-link-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/fukuoka-dessert/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/fukuoka-market/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/fukuoka-one-day/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/fukuoka-photo/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/fukuoka-season/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/osaka-dessert/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/osaka-market/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/osaka-one-day/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/osaka-photo/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/osaka-season/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/shimonoseki-dessert/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/shimonoseki-market/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/shimonoseki-one-day/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/shimonoseki-photo/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/shimonoseki-season/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/tsushima-dessert/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/tsushima-market/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/tsushima-one-day/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/tsushima-photo/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/japan/tsushima-season/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/aeon-maxvalu-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/don-quijote-first-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/don-quijote-late-night/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/don-quijote-shopping-list/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/don-quijote-tax-free/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-100yen-shop/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-24-hour-shops/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-card-only-travel/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-card-payment-error/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-cash-how-much/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-coin-laundry-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-coins-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-convenience-atm/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-convenience-bento/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-convenience-shopping-list/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-depachika-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-drugstore-shopping/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-exchange-vs-card/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-family-restaurant-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-game-center-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-gyudon-chain-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-kaiten-sushi-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-late-night-food/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-pachinko-first-visit/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-pachinko-what-is/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-pharmacy-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-public-toilet-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-purikura-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-rain-umbrella-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-smoking-area-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-supermarket-discount-time/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-supermarket-ready-food/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-supermarket-souvenir/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-tax-free-2026/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-tax-free-passport/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-trash-bin-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-ufo-catcher/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/japan-vending-machine-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/life-supermarket-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/lopia-supermarket-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/ok-store-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/life/pachinko-vs-game-center/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/ghibli-museum-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/hokkaido-winter-bus-tour/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-airport-bus-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-atm-cash-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-bus-seat-types/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-bus-tour-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-coin-locker-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-data-usage/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-esim-galaxy/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-esim-iphone/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-esim-setup/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-esim-troubleshooting/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-esim-vs-sim-wifi/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-half-day-tour/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-highway-bus-booking/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-ic-card-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-luggage-delivery/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-night-bus-checklist/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-power-adapter-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-sightseeing-train-couple/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-sightseeing-train-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-theme-park-couple/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-theme-park-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/japan-translation-app-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/kyoto-bus-tour-vs-free/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/kyoto-tango-kuromatsu/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/mt-fuji-day-bus-tour/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/nagashima-spaland-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/nijigen-no-mori-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/osaka-fukuoka-highway-bus/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/setsugekka-train/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/shimabara-cafe-train/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/practical/tokyo-osaka-bus-vs-shinkansen/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/asahikawa-winter-festival/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/hokkaido-winter-onsen/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/hokkaido-winter-packing/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/hokkaido-winter-photo-trip/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/hokkaido-winter-rental-car/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/hokkaido-winter-seniors/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/hokkaido-winter-solo/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/japan-autumn-food-trip/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/japan-autumn-leaves-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/japan-cherry-blossom-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/japan-fireworks-festival/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/japan-spring-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/japan-summer-festival-guide/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/japan-winter-budget/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/jozankei-winter-onsen/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/new-chitose-to-sapporo-winter/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/noboribetsu-winter-onsen/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/otaru-snow-light-couple/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/otaru-snow-light-path-2027/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/otaru-winter-day-trip/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/otaru-winter-food/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/otaru-winter-shopping/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-2027/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-2n3d/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-3n4d/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-clothes/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-couple/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-family/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-food/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-hotel-area/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-photo/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/sapporo-winter-shoes/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/sapporo-winter-souvenir/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/season/sapporo-winter-transport/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/theme/car-roadtrip-japan/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/theme/couple-ferry-trip/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/theme/family-ferry-trip/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/theme/first-ferry-romance/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/theme/night-on-ferry/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/theme/oceanview-cabins/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/theme/pet-ferry-japan/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/theme/suitcase-baggage/",
+      "reason": "cover not found",
+      "confidence": "review_required"
+    },
+    {
+      "page": "/things-to-do/hakata-cruise-couple-guide/",
+      "cover": "/images/venues/fukuoka-ohori-park.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/hakata-cruise-family-guide/",
+      "cover": "/images/venues/hakata-anpanman-host-building.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/hakata-cruise-parents-guide/",
+      "cover": "/images/venues/fukuoka-tower.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/hakata-cruise-port-day-trip/",
+      "cover": "/images/venues/fukuoka-ohori-park.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/ishigaki-cruise-couple-guide/",
+      "cover": "/images/venues/ishigaki-kabira-bay.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/ishigaki-cruise-family-guide/",
+      "cover": "/images/venues/ishigaki-kabira-bay.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/ishigaki-cruise-parents-guide/",
+      "cover": "/images/venues/ishigaki-kabira-bay.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/ishigaki-cruise-port-day-trip/",
+      "cover": "/images/venues/ishigaki-kabira-bay.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/kobe-cruise-port-day-trip/",
+      "cover": "/images/venues/kobe-meriken-park-night.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/nagasaki-cruise-couple-guide/",
+      "cover": "/images/venues/nagasaki-glover-garden.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/nagasaki-cruise-family-guide/",
+      "cover": "/images/venues/nagasaki-penguin-aquarium.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/nagasaki-cruise-parents-guide/",
+      "cover": "/images/venues/nagasaki-glover-garden.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/nagasaki-cruise-port-day-trip/",
+      "cover": "/images/venues/nagasaki-glover-garden.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/naha-cruise-couple-guide/",
+      "cover": "/images/venues/naha-kokusai-street.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/naha-cruise-family-guide/",
+      "cover": "/images/venues/naha-dmm-kariyushi-aquarium.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/naha-cruise-parents-guide/",
+      "cover": "/images/venues/naha-prefectural-museum.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/naha-cruise-port-day-trip/",
+      "cover": "/images/venues/naha-kokusai-street.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/osaka-cruise-port-day-trip/",
+      "cover": "/images/venues/osaka-kaiyukan-aquarium.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/yokohama-cruise-couple-guide/",
+      "cover": "/images/venues/yokohama-air-cabin.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/yokohama-cruise-family-guide/",
+      "cover": "/images/venues/yokohama-cupnoodles-museum.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/yokohama-cruise-parents-guide/",
+      "cover": "/images/venues/yokohama-air-cabin.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    },
+    {
+      "page": "/things-to-do/yokohama-cruise-port-day-trip/",
+      "cover": "/images/venues/yokohama-redbrick-waterfront.webp",
+      "kind": "visible_source_creator_license",
+      "commons_near_cover": true,
+      "author_near_cover": true,
+      "license_near_cover": true,
+      "somewhere_commons_link": true,
+      "note": "local caption evidence only; neither photographer rights nor correct city guaranteed"
+    }
+  ]
+}
