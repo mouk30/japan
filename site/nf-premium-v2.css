@@ -70,3 +70,16 @@ body.nf-premium-v2 a:focus-visible,body.nf-premium-v2 button:focus-visible{outli
  body.nf-premium-v2 .nf-v2-cta-wrap{width:min(1160px,calc(100% - 24px))}
 }
 @media(prefers-reduced-motion:reduce){body.nf-premium-v2 :where(.v65-card,.d61-home-card,.dircard,.v60-hub-card,.tky-card){transition:none!important}}
+
+/* V116 independent theme nav · preserve existing cruise/ferry brand */
+body.nf-premium-v2 .desktop-nav a.nf-kids-menu{color:#b0efd9!important;font-weight:850}
+body.nf-premium-v2 .mobile-menu a.nf-kids-menu{background:#e7f7ef;border-color:#abdac7;color:#175f4d!important}
+body.nf-premium-v2 .nf-v116-kids-home{background:#eff8f3;padding:38px 0;border-block:1px solid #cfe5d9}
+body.nf-premium-v2 .nf-v116-kids-home-inner{display:grid;grid-template-columns:1.4fr .6fr;gap:28px;align-items:center}
+body.nf-premium-v2 .nf-v116-kids-home small{color:#1b7c62;font-size:12px;font-weight:900;letter-spacing:.12em}
+body.nf-premium-v2 .nf-v116-kids-home h2{color:#193e36;font-size:clamp(23px,3vw,31px);margin:8px 0 9px;letter-spacing:-.04em}
+body.nf-premium-v2 .nf-v116-kids-home p{color:#496c5f;line-height:1.75;font-size:14px}
+body.nf-premium-v2 .nf-v116-kids-home a{display:inline-block;color:white;background:#116d5b;padding:12px 18px;border-radius:7px;font-weight:900;font-size:14px}
+body.nf-premium-v2 .nf-v116-kids-home img{width:100%;height:170px;object-fit:cover;border-radius:12px}
+@media(max-width:1280px) and (min-width:1001px){body.nf-premium-v2 .desktop-nav a{padding:12px 7px;font-size:12px}body.nf-premium-v2 .header-in{gap:10px}body.nf-premium-v2 .site-header .brand strong{font-size:17px}}
+@media(max-width:700px){body.nf-premium-v2 .nf-v116-kids-home-inner{grid-template-columns:1fr}body.nf-premium-v2 .nf-v116-kids-home img{max-height:200px}}
