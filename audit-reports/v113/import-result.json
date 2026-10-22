@@ -7,12 +7,12 @@
   "items": [
     {
       "slug": "shiraoi",
-      "original_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Shiraoi-upopoy_06.jpg/1920px-Shiraoi-upopoy_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
-      "orig_jpeg_sha256": "5c7a4875c35ce2661bce57f2c70a0a60e254586ecedd3be8e7effffa8ba11aa1",
-      "sha256": "f6ab30ddd6db2d395eea18d213129ec06b335ed48f78105acd598cbdd7a2a29b",
+      "original_jpeg_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiraoi-upopoy%2014.jpg",
+      "orig_jpeg_sha256": "8e58039872097ca0d977147e4917ea069df0eafcb2ce2331204aa68d143fa83b",
+      "sha256": "2466785caf46a0d91d5bff451d0465c07db9400172f3e39673ca99547b34663c",
       "width": 1333,
       "height": 1000,
-      "source": "https://commons.wikimedia.org/wiki/File:Shiraoi-upopoy%2006.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shiraoi-upopoy%2014.jpg",
       "author": "Higa4",
       "license": "CC0 1.0",
       "previous_ai_image": "/images/editorial/shiraoi-cruise-port-day-trip.webp",
@@ -145,5 +145,6 @@
       "replaced": "/images/venues/nf-v113-atami-real.webp",
       "taken": "2024-03-14"
     }
-  ]
+  ],
+  "visual_polish": "Photo 06 interior hearth corrected to Photo 14 exterior traditional Ainu cise. Ten Korean alt descriptions and visible source captions polished."
 }
