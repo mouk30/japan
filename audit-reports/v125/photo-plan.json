@@ -1,0 +1,129 @@
+{
+  "version": "V125",
+  "date": "2026-10-22",
+  "task": "10 existing AI-labelled cruise-port hero images replaced by named real Wikimedia Commons photos only after 10-source download and protected SEO checks pass",
+  "source_verification": "Original Commons file pages identify actual subject, photographer, shooting date or month, and reuse license. Distinguish current port/terminal from travel attractions. Do not infer today boarding gates/shuttles from photographs.",
+  "expected": 10,
+  "selected": [
+    {
+      "slug": "yokohama-daikoku-pier-cruise-terminal",
+      "region": "가나가와·요코하마",
+      "subject": "다이코쿠부두에서 바라본 요코하마 도심 풍경",
+      "filename": "Yokohama seen from Daikoku Pier.jpg",
+      "taken": "2023-04-02",
+      "author": "Syced",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Yokohama%20seen%20from%20Daikoku%20Pier.jpg",
+      "output": "/images/venues/nf-v125-yokohama-daikoku-pier-cruise-terminal-real.webp"
+    },
+    {
+      "slug": "amami-naze-cruise-port-day-trip",
+      "region": "가고시마·아마미오시마",
+      "subject": "아마미 나제항 본항·신항·나가하마 지구의 실제 모습",
+      "filename": "Naze port2.JPG",
+      "taken": "2012-01-20",
+      "author": "Vanquish0",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Naze%20port2.JPG",
+      "output": "/images/venues/nf-v125-amami-naze-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "fukui-cruise-port-day-trip",
+      "region": "후쿠이·사카이",
+      "subject": "후쿠이 도진보 해안의 실제 주상절리 바위",
+      "filename": "Japan Tojinbo04s4592.jpg",
+      "taken": "2008-11-01",
+      "author": "663highland",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Japan%20Tojinbo04s4592.jpg",
+      "output": "/images/venues/nf-v125-fukui-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "ito-cruise-port-day-trip",
+      "region": "시즈오카·이토",
+      "subject": "이토 조가사키 해안의 실제 절벽 풍경",
+      "filename": "Ito Jogasaki-Küste 42.jpg",
+      "taken": "2019-04-04",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Ito%20Jogasaki-K%C3%BCste%2042.jpg",
+      "output": "/images/venues/nf-v125-ito-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "kaminato-hachijojima-cruise-port-day-trip",
+      "region": "도쿄도·하치조지마",
+      "subject": "하치조지마의 실제 태평양 해안 경관 (가미나토 부두 사진은 아님)",
+      "filename": "Hachijojima.JPG",
+      "taken": "2012-07-10",
+      "author": "Matryokeshi",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Hachijojima.JPG",
+      "output": "/images/venues/nf-v125-kaminato-hachijojima-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "miyazaki-cruise-port-day-trip",
+      "region": "미야자키·아오시마",
+      "subject": "미야자키시 아오시마 신사의 촬영 당시 모습",
+      "filename": "Aoshima Shrine.jpg",
+      "taken": "2008-06-01",
+      "author": "JKT-c",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Aoshima%20Shrine.jpg",
+      "output": "/images/venues/nf-v125-miyazaki-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "niihama-cruise-port-day-trip",
+      "region": "에히메·니이하마",
+      "subject": "니이하마 마인트피아 벳시 본관의 실제 건물 (크루즈 부두 아님)",
+      "filename": "Maintopia01a.jpg",
+      "taken": "2017-04-15",
+      "author": "Dokudami",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Maintopia01a.jpg",
+      "output": "/images/venues/nf-v125-niihama-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "futami-ogasawara-cruise-port-day-trip",
+      "region": "도쿄도·오가사와라 지치지마",
+      "subject": "2000년 당시 지치지마 후타미항에 입항하는 오가사와라호",
+      "filename": "Port of Futami, Chichijima, Ogasawara.jpg",
+      "taken": "2000-08",
+      "author": "Si-take.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Port%20of%20Futami%2C%20Chichijima%2C%20Ogasawara.jpg",
+      "output": "/images/venues/nf-v125-futami-ogasawara-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "iki-gonoura-cruise-port-day-trip",
+      "region": "나가사키·이키섬",
+      "subject": "2023년 촬영한 이키섬 고노우라항 실제 항만 경관",
+      "filename": "Gonoura port.jpg",
+      "taken": "2023-01-02",
+      "author": "Tsuyoshi chiba",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gonoura%20port.jpg",
+      "output": "/images/venues/nf-v125-iki-gonoura-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "imabari-cruise-port-day-trip",
+      "region": "에히메·이마바리",
+      "subject": "이마바리성과 도도 다카토라 동상 실제 사진",
+      "filename": "Imabari Castle.jpg",
+      "taken": "2025-07-11",
+      "author": "Fred Cherrygarden",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Imabari%20Castle.jpg",
+      "output": "/images/venues/nf-v125-imabari-cruise-port-day-trip-real.webp"
+    }
+  ]
+}
