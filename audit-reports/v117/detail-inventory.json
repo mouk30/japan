@@ -1,0 +1,3578 @@
+{
+  "ai_cover_candidates": [
+    {
+      "page": "/things-to-do/amami-naze-cruise-port-day-trip/",
+      "hero": "/images/editorial/amami-naze-cruise-port-day-trip.webp",
+      "alt": "아마미·나제항 관광 풍경을 표현한 AI 생성 이미지",
+      "first_heading": "아마미·나제항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/fukui-cruise-port-day-trip/",
+      "hero": "/images/editorial/fukui-cruise-port-day-trip.webp",
+      "alt": "후쿠이항의 여행 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "후쿠이항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/futami-ogasawara-cruise-port-day-trip/",
+      "hero": "/images/editorial/futami-ogasawara-cruise-port-day-trip.webp",
+      "alt": "오가사와라·후타미항 인근 풍경을 표현한 AI 생성 여행 참고 이미지",
+      "first_heading": "오가사와라·후타미항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/goto-fukue-cruise-port-day-trip/",
+      "hero": "/images/editorial/goto-fukue-cruise-port-day-trip.webp",
+      "alt": "고토열도·후쿠에항 관광 풍경을 표현한 AI 생성 이미지",
+      "first_heading": "고토열도·후쿠에항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/hakata-port-dazaifu-shore-excursion/",
+      "hero": "/images/editorial/v340_hakata-port-dazaifu-shore-excursion.webp",
+      "alt": "하카타 크루즈 다자이후 당일 관광 관광을 표현한 AI 생성 이미지",
+      "first_heading": "하카타 크루즈 다자이후 가는 법 | 버스·시간·귀선"
+    },
+    {
+      "page": "/things-to-do/hakata-port-hakata-station-access/",
+      "hero": "/images/editorial/v338_hakata-port-hakata-station-access.webp",
+      "alt": "하카타 크루즈센터에서 하카타역 관광을 표현한 AI 생성 이미지",
+      "first_heading": "하카타 크루즈센터 하카타역 교통 | 88번·정류장·귀선"
+    },
+    {
+      "page": "/things-to-do/hakata-port-tenjin-sightseeing/",
+      "hero": "/images/editorial/v339_hakata-port-tenjin-sightseeing.webp",
+      "alt": "하카타 크루즈 텐진 쇼핑 관광 관광을 표현한 AI 생성 이미지",
+      "first_heading": "하카타 크루즈 텐진 관광 | 80번 버스·쇼핑·귀선"
+    },
+    {
+      "page": "/things-to-do/iki-gonoura-cruise-port-day-trip/",
+      "hero": "/images/editorial/iki-gonoura-cruise-port-day-trip.webp",
+      "alt": "이키섬·고노우라항 주변 관광 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "이키섬·고노우라항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/imabari-cruise-port-day-trip/",
+      "hero": "/images/editorial/imabari-cruise-port-day-trip.webp",
+      "alt": "AI 생성 기항지 참고 이미지, 이마바리 전용 이미지는 추후 적용",
+      "first_heading": "이마바리 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/imari-cruise-port-day-trip/",
+      "hero": "/images/editorial/imari-cruise-port-day-trip.webp",
+      "alt": "이마리항의 분위기를 표현한 AI 생성 여행 참고 이미지",
+      "first_heading": "이마리항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/ishigaki-cruise-new-port-shuttle/",
+      "hero": "/images/editorial/v344_ishigaki-cruise-new-port-shuttle.webp",
+      "alt": "이시가키 신항 크루즈 부두 셔틀·이동를 위해 새로 제작한 AI 생성 여행 이미지",
+      "first_heading": "이시가키 크루즈 신항 부두 | 무료·유료 셔틀·택시·도보"
+    },
+    {
+      "page": "/things-to-do/ito-cruise-port-day-trip/",
+      "hero": "/images/editorial/ito-cruise-port-day-trip.webp",
+      "alt": "이토항 인근 풍경을 표현한 AI 생성 여행 참고 이미지",
+      "first_heading": "이토항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/kaminato-hachijojima-cruise-port-day-trip/",
+      "hero": "/images/editorial/kaminato-hachijojima-cruise-port-day-trip.webp",
+      "alt": "하치조지마·가미나토항의 여행 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "하치조지마·가미나토항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/kawasaki-cruise-port-day-trip/",
+      "hero": "/images/editorial/kawasaki-cruise-port-day-trip.webp",
+      "alt": "가와사키항의 여행 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "가와사키항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/kozushima-cruise-port-day-trip/",
+      "hero": "/images/editorial/kozushima-cruise-port-day-trip.webp",
+      "alt": "고즈시마항의 여행 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "고즈시마항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/kumamoto-misumi-cruise-port-day-trip/",
+      "hero": "/images/editorial/kumamoto-misumi-cruise-port-day-trip.webp",
+      "alt": "구마모토·미스미항 관광 풍경을 표현한 AI 생성 이미지",
+      "first_heading": "구마모토·미스미항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/miike-miyakejima-cruise-port-day-trip/",
+      "hero": "/images/editorial/miike-miyakejima-cruise-port-day-trip.webp",
+      "alt": "미야케지마·미이케항의 여행 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "미야케지마·미이케항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/mikawa-jinno-cruise-port-day-trip/",
+      "hero": "/images/editorial/mikawa-jinno-cruise-port-day-trip.webp",
+      "alt": "미카와항·진노지구 관광을 주제로 제작한 AI 여행 참고 이미지",
+      "first_heading": "미카와항·진노지구 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/mitajiri-nakanoseki-cruise-port-day-trip/",
+      "hero": "/images/editorial/mitajiri-nakanoseki-cruise-port-day-trip.webp",
+      "alt": "미타지리·나카노세키항 관광을 주제로 제작한 AI 여행 참고 이미지",
+      "first_heading": "미타지리·나카노세키항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/miyazaki-cruise-port-day-trip/",
+      "hero": "/images/editorial/miyazaki-cruise-port-day-trip.webp",
+      "alt": "미야자키항 관광 풍경을 표현한 AI 생성 이미지",
+      "first_heading": "미야자키항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/nagasaki-cruise-4-6-8-hour-itinerary/",
+      "hero": "/images/editorial/v343_nagasaki-cruise-4-6-8-hour-itinerary.webp",
+      "alt": "나가사키 크루즈 4·6·8시간 관광 코스를 위해 새로 제작한 AI 생성 여행 이미지",
+      "first_heading": "나가사키 크루즈 4·6·8시간 관광 | 글로버·평화공원·귀선"
+    },
+    {
+      "page": "/things-to-do/naha-cruise-terminal-kokusai-dori/",
+      "hero": "/images/editorial/v335_naha-cruise-terminal-kokusai-dori.webp",
+      "alt": "나하 크루즈 부두에서 국제거리 이동 관광을 표현한 AI 생성 이미지",
+      "first_heading": "나하 크루즈 국제거리 가는 법 | 와카사·제2부두 비교"
+    },
+    {
+      "page": "/things-to-do/naha-half-day-cruise-excursion/",
+      "hero": "/images/editorial/v337_naha-half-day-cruise-excursion.webp",
+      "alt": "나하 크루즈 4·6·8시간 관광 관광을 표현한 AI 생성 이미지",
+      "first_heading": "나하 크루즈 4·6·8시간 관광 코스 | 귀선·우천 대안"
+    },
+    {
+      "page": "/things-to-do/nakagusuku-bay-cruise-port-day-trip/",
+      "hero": "/images/editorial/nakagusuku-bay-cruise-port-day-trip.webp",
+      "alt": "오키나와·나카구스쿠만항의 풍경을 표현한 AI 생성 관광 참고 이미지",
+      "first_heading": "오키나와·나카구스쿠만항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/nakatsu-cruise-port-day-trip/",
+      "hero": "/images/editorial/nakatsu-cruise-port-day-trip.webp",
+      "alt": "나카쓰항 관광을 주제로 제작한 AI 여행 참고 이미지",
+      "first_heading": "나카쓰항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/nanao-cruise-port-day-trip/",
+      "hero": "/images/editorial/nanao-cruise-port-day-trip.webp",
+      "alt": "나나오항의 분위기를 표현한 AI 생성 여행 참고 이미지",
+      "first_heading": "나나오항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/naoetsu-cruise-port-day-trip/",
+      "hero": "/images/editorial/naoetsu-cruise-port-day-trip.webp",
+      "alt": "나오에쓰항 인근 풍경을 표현한 AI 생성 여행 참고 이미지",
+      "first_heading": "나오에쓰항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/niihama-cruise-port-day-trip/",
+      "hero": "/images/editorial/niihama-cruise-port-day-trip.webp",
+      "alt": "니이하마항 관광을 주제로 제작한 AI 여행 참고 이미지",
+      "first_heading": "니이하마항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/niijima-cruise-port-day-trip/",
+      "hero": "/images/editorial/niijima-cruise-port-day-trip.webp",
+      "alt": "니지마항의 여행 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "니지마항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/numazu-cruise-port-day-trip/",
+      "hero": "/images/editorial/numazu-cruise-port-day-trip.webp",
+      "alt": "누마즈항의 여행 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "누마즈항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/ohama-cruise-port-day-trip/",
+      "hero": "/images/editorial/ohama-cruise-port-day-trip.webp",
+      "alt": "오바마항·오바마온천 관광을 주제로 제작한 AI 여행 참고 이미지",
+      "first_heading": "오바마항·오바마온천 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/oigawa-cruise-port-day-trip/",
+      "hero": "/images/editorial/oigawa-cruise-port-day-trip.webp",
+      "alt": "오이가와항의 여행 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "오이가와항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/okata-izu-oshima-cruise-port-day-trip/",
+      "hero": "/images/editorial/okata-izu-oshima-cruise-port-day-trip.webp",
+      "alt": "이즈오시마·오카타항 인근 풍경을 표현한 AI 생성 여행 참고 이미지",
+      "first_heading": "이즈오시마·오카타항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/omaezaki-cruise-port-day-trip/",
+      "hero": "/images/editorial/omaezaki-cruise-port-day-trip.webp",
+      "alt": "omaezaki 크루즈 기항지 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "오마에자키 크루즈 기항지 여행｜하선 부두·추천 관광·교통·귀선"
+    },
+    {
+      "page": "/things-to-do/rishiri-kutsugata-cruise-port-day-trip/",
+      "hero": "/images/editorial/rishiri-kutsugata-cruise-port-day-trip.webp",
+      "alt": "리시리섬·굿쓰가타항의 분위기를 표현한 AI 생성 여행 참고 이미지",
+      "first_heading": "리시리섬·굿쓰가타항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/rumoi-cruise-port-day-trip/",
+      "hero": "/images/editorial/rumoi-cruise-port-day-trip.webp",
+      "alt": "루모이항 인근 풍경을 표현한 AI 생성 여행 참고 이미지",
+      "first_heading": "루모이항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/saiki-cruise-port-day-trip/",
+      "hero": "/images/editorial/saiki-cruise-port-day-trip.webp",
+      "alt": "사이키항 주변 관광 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "사이키항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/sakai-semboku-cruise-port-day-trip/",
+      "hero": "/images/editorial/sakai-semboku-cruise-port-day-trip.webp",
+      "alt": "AI 생성 기항지 참고 이미지, 사카이·센보쿠 전용 이미지는 추후 적용",
+      "first_heading": "사카이·센보쿠 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/sakaide-cruise-port-day-trip/",
+      "hero": "/images/editorial/sakaide-cruise-port-day-trip.webp",
+      "alt": "AI 생성 기항지 참고 이미지, 사카이데 전용 이미지는 추후 적용",
+      "first_heading": "사카이데 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/shimoda-cruise-port-day-trip/",
+      "hero": "/images/editorial/shimoda-cruise-port-day-trip.webp",
+      "alt": "시모다항 주변 관광 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "시모다항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/shingu-cruise-port-day-trip/",
+      "hero": "/images/editorial/shingu-cruise-port-day-trip.webp",
+      "alt": "AI 생성 기항지 참고 이미지, 신구 전용 이미지는 추후 적용",
+      "first_heading": "신구 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/sukumo-cruise-port-day-trip/",
+      "hero": "/images/editorial/sukumo-cruise-port-day-trip.webp",
+      "alt": "스쿠모항 관광을 주제로 제작한 AI 여행 참고 이미지",
+      "first_heading": "스쿠모항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/tagonoura-cruise-port-day-trip/",
+      "hero": "/images/editorial/tagonoura-cruise-port-day-trip.webp",
+      "alt": "다고노우라항 인근 풍경을 표현한 AI 생성 여행 참고 이미지",
+      "first_heading": "다고노우라항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/toba-cruise-port-day-trip/",
+      "hero": "/images/editorial/toba-cruise-port-day-trip.webp",
+      "alt": "toba 크루즈 기항지 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "도바 크루즈 기항지 여행｜하선 부두·추천 관광·교통·귀선"
+    },
+    {
+      "page": "/things-to-do/tokoname-cruise-port-day-trip/",
+      "hero": "/images/editorial/tokoname-cruise-port-day-trip.webp",
+      "alt": "도코나메항의 여행 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "도코나메항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/tokuyama-kudamatsu-cruise-port-day-trip/",
+      "hero": "/images/editorial/tokuyama-kudamatsu-cruise-port-day-trip.webp",
+      "alt": "도쿠야마·구다마쓰항의 여행 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "도쿠야마·구다마쓰항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/tsugaru-ajigasawa-cruise-port-day-trip/",
+      "hero": "/images/editorial/tsugaru-ajigasawa-cruise-port-day-trip.webp",
+      "alt": "쓰가루항·아지가사와의 분위기를 표현한 AI 생성 여행 참고 이미지",
+      "first_heading": "쓰가루항·아지가사와 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/tsuruga-cruise-port-day-trip/",
+      "hero": "/images/editorial/tsuruga-cruise-port-day-trip.webp",
+      "alt": "쓰루가항의 분위기를 표현한 AI 생성 여행 참고 이미지",
+      "first_heading": "쓰루가항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/ube-cruise-port-day-trip/",
+      "hero": "/images/editorial/ube-cruise-port-day-trip.webp",
+      "alt": "우베항 관광을 주제로 제작한 AI 여행 참고 이미지",
+      "first_heading": "우베항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/uno-cruise-port-day-trip/",
+      "hero": "/images/editorial/uno-cruise-port-day-trip.webp",
+      "alt": "우노항 관광 풍경을 표현한 AI 생성 참고 이미지",
+      "first_heading": "우노항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/uwajima-cruise-port-day-trip/",
+      "hero": "/images/editorial/uwajima-cruise-port-day-trip.webp",
+      "alt": "우와지마항 인근 풍경을 표현한 AI 생성 여행 참고 이미지",
+      "first_heading": "우와지마항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/yatsushiro-cruise-port-day-trip/",
+      "hero": "/images/editorial/yatsushiro-cruise-port-day-trip.webp",
+      "alt": "야쓰시로항 관광 풍경을 표현한 AI 생성 참고 이미지",
+      "first_heading": "야쓰시로항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/yawatahama-cruise-port-day-trip/",
+      "hero": "/images/editorial/yawatahama-cruise-port-day-trip.webp",
+      "alt": "야와타하마항 관광을 주제로 제작한 AI 여행 참고 이미지",
+      "first_heading": "야와타하마항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드"
+    },
+    {
+      "page": "/things-to-do/yokkaichi-cruise-port-day-trip/",
+      "hero": "/images/editorial/yokkaichi-cruise-port-day-trip.webp",
+      "alt": "yokkaichi 크루즈 기항지 분위기를 표현한 AI 생성 참고 이미지",
+      "first_heading": "욧카이치 크루즈 기항지 여행｜하선 부두·추천 관광·교통·귀선"
+    },
+    {
+      "page": "/things-to-do/yokohama-daikoku-pier-cruise-terminal/",
+      "hero": "/images/editorial/v333_yokohama-daikoku-pier-cruise-terminal.webp",
+      "alt": "요코하마 다이코쿠부두 크루즈 터미널 관광을 표현한 AI 생성 이미지",
+      "first_heading": "요코하마 다이코쿠부두 크루즈 | 보안구역·버스·택시"
+    },
+    {
+      "page": "/things-to-do/yokohama-osanbashi-cruise-terminal/",
+      "hero": "/images/editorial/v331_yokohama-osanbashi-cruise-terminal.webp",
+      "alt": "요코하마 오산바시 크루즈 터미널 관광을 표현한 AI 생성 이미지",
+      "first_heading": "요코하마 오산바시 크루즈 터미널 | 하선·역·도보 관광"
+    }
+  ],
+  "missing_local_images": {},
+  "broken_internal_links": {
+    "/things-to-do/japanese-festival-matsuri-culture/index.html": [
+      "/things-to-do/japanese-shrine-vs-buddhist-temple/"
+    ],
+    "/things-to-do/food/index.html": [
+      "/things-to-do/okinawa-seafood-bowl/",
+      "/things-to-do/okinawa-soba/"
+    ],
+    "/things-to-do/shopping/index.html": [
+      "/things-to-do/okinawa-shopping-street/"
+    ]
+  },
+  "missing_img_alt": [
+    {
+      "page": "/busan-fukuoka-cruise/",
+      "src": "/images/ferry.jpg"
+    },
+    {
+      "page": "/busan-fukuoka-cruise/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-fukuoka-cruise/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/busan-fukuoka-cruise/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/busan-fukuoka-cruise-price/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-fukuoka-cruise-price/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-fukuoka-cruise-price/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/busan-fukuoka-cruise-price/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/busan-hitakatsu-cruise/",
+      "src": "/images/tsushima.jpg"
+    },
+    {
+      "page": "/busan-hitakatsu-cruise/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-hitakatsu-cruise/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/busan-hitakatsu-cruise/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/busan-izuhara-cruise/",
+      "src": "/images/tsushima.jpg"
+    },
+    {
+      "page": "/busan-izuhara-cruise/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-izuhara-cruise/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/busan-izuhara-cruise/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/busan-osaka-cruise/",
+      "src": "/images/ferry.jpg"
+    },
+    {
+      "page": "/busan-osaka-cruise/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-osaka-cruise/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/busan-osaka-cruise/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/busan-osaka-cruise-price/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-osaka-cruise-price/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-osaka-cruise-price/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/busan-osaka-cruise-price/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/busan-shimonoseki-cruise/",
+      "src": "/images/ferry.jpg"
+    },
+    {
+      "page": "/busan-shimonoseki-cruise/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-shimonoseki-cruise/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/busan-shimonoseki-cruise/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/busan-shimonoseki-cruise-price/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-shimonoseki-cruise-price/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-shimonoseki-cruise-price/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/busan-shimonoseki-cruise-price/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/busan-tsushima-cruise/",
+      "src": "/images/tsushima.jpg"
+    },
+    {
+      "page": "/busan-tsushima-cruise/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-tsushima-cruise/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/busan-tsushima-cruise/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/busan-tsushima-cruise-price/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-tsushima-cruise-price/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/busan-tsushima-cruise-price/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/busan-tsushima-cruise-price/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/fukuoka-1n2d-vs-2n3d/",
+      "src": "/images/fukuoka.jpg"
+    },
+    {
+      "page": "/fukuoka-1n2d-vs-2n3d/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/fukuoka-1n2d-vs-2n3d/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/fukuoka-1n2d-vs-2n3d/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/fukuoka-arrival-first-3-hours/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/fukuoka-arrival-first-3-hours/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/fukuoka-arrival-first-3-hours/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/fukuoka-arrival-first-3-hours/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/fukuoka-cash-or-card/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/fukuoka-cash-or-card/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/fukuoka-cash-or-card/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/fukuoka-cash-or-card/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/fukuoka-esim-or-roaming/",
+      "src": "/images/esim.jpg"
+    },
+    {
+      "page": "/fukuoka-esim-or-roaming/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/fukuoka-esim-or-roaming/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/fukuoka-esim-or-roaming/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/fukuoka-hakata-vs-tenjin/",
+      "src": "/images/fukuoka.jpg"
+    },
+    {
+      "page": "/fukuoka-hakata-vs-tenjin/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/fukuoka-hakata-vs-tenjin/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/fukuoka-hakata-vs-tenjin/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/fukuoka-luggage-storage/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/fukuoka-luggage-storage/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/fukuoka-luggage-storage/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/fukuoka-luggage-storage/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/fukuoka-what-to-wear/",
+      "src": "/images/season.jpg"
+    },
+    {
+      "page": "/fukuoka-what-to-wear/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/fukuoka-what-to-wear/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/fukuoka-what-to-wear/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/hokkaido-3n4d-vs-4n5d/",
+      "src": "/images/hokkaido.jpg"
+    },
+    {
+      "page": "/hokkaido-3n4d-vs-4n5d/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/hokkaido-3n4d-vs-4n5d/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/hokkaido-3n4d-vs-4n5d/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/hokkaido-arrival-first-3-hours/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/hokkaido-arrival-first-3-hours/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/hokkaido-arrival-first-3-hours/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/hokkaido-arrival-first-3-hours/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/hokkaido-cash-or-card/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/hokkaido-cash-or-card/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/hokkaido-cash-or-card/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/hokkaido-cash-or-card/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/hokkaido-esim-or-roaming/",
+      "src": "/images/esim.jpg"
+    },
+    {
+      "page": "/hokkaido-esim-or-roaming/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/hokkaido-esim-or-roaming/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/hokkaido-esim-or-roaming/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/hokkaido-luggage-storage/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/hokkaido-luggage-storage/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/hokkaido-luggage-storage/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/hokkaido-luggage-storage/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/hokkaido-sapporo-vs-otaru/",
+      "src": "/images/hokkaido.jpg"
+    },
+    {
+      "page": "/hokkaido-sapporo-vs-otaru/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/hokkaido-sapporo-vs-otaru/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/hokkaido-sapporo-vs-otaru/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/hokkaido-train-vs-rental-car/",
+      "src": "/images/car.jpg"
+    },
+    {
+      "page": "/hokkaido-train-vs-rental-car/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/hokkaido-train-vs-rental-car/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/hokkaido-train-vs-rental-car/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/hokkaido-what-to-wear/",
+      "src": "/images/season.jpg"
+    },
+    {
+      "page": "/hokkaido-what-to-wear/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/hokkaido-what-to-wear/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/hokkaido-what-to-wear/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/japan-cruise-checkin/",
+      "src": "/images/ferry.jpg"
+    },
+    {
+      "page": "/japan-cruise-checkin/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/japan-cruise-checkin/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/japan-cruise-checkin/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/japan-cruise-room/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/japan-cruise-room/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/japan-cruise-room/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/japan-cruise-room/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/japan-cruise-seasickness/",
+      "src": "/images/ferry.jpg"
+    },
+    {
+      "page": "/japan-cruise-seasickness/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/japan-cruise-seasickness/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/japan-cruise-seasickness/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/kobe-arrival-first-3-hours/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/kobe-arrival-first-3-hours/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/kobe-arrival-first-3-hours/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/kobe-arrival-first-3-hours/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/kobe-cash-or-card/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/kobe-cash-or-card/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/kobe-cash-or-card/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/kobe-cash-or-card/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/kobe-daytrip-vs-1n2d/",
+      "src": "/images/kobe.jpg"
+    },
+    {
+      "page": "/kobe-daytrip-vs-1n2d/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/kobe-daytrip-vs-1n2d/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/kobe-daytrip-vs-1n2d/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/kobe-esim-or-roaming/",
+      "src": "/images/esim.jpg"
+    },
+    {
+      "page": "/kobe-esim-or-roaming/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/kobe-esim-or-roaming/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/kobe-esim-or-roaming/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/kobe-luggage-storage/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/kobe-luggage-storage/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/kobe-luggage-storage/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/kobe-luggage-storage/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/kobe-vs-osaka/",
+      "src": "/images/kobe.jpg"
+    },
+    {
+      "page": "/kobe-vs-osaka/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/kobe-vs-osaka/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/kobe-vs-osaka/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/kobe-what-to-wear/",
+      "src": "/images/season.jpg"
+    },
+    {
+      "page": "/kobe-what-to-wear/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/kobe-what-to-wear/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/kobe-what-to-wear/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/osaka-2n3d-vs-3n4d/",
+      "src": "/images/osaka.jpg"
+    },
+    {
+      "page": "/osaka-2n3d-vs-3n4d/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/osaka-2n3d-vs-3n4d/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/osaka-2n3d-vs-3n4d/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/osaka-arrival-first-3-hours/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/osaka-arrival-first-3-hours/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/osaka-arrival-first-3-hours/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/osaka-arrival-first-3-hours/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/osaka-cash-or-card/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/osaka-cash-or-card/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/osaka-cash-or-card/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/osaka-cash-or-card/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/osaka-cruise-vs-flight/",
+      "src": "/images/osaka.jpg"
+    },
+    {
+      "page": "/osaka-cruise-vs-flight/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/osaka-cruise-vs-flight/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/osaka-cruise-vs-flight/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/osaka-esim-or-roaming/",
+      "src": "/images/esim.jpg"
+    },
+    {
+      "page": "/osaka-esim-or-roaming/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/osaka-esim-or-roaming/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/osaka-esim-or-roaming/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/osaka-luggage-storage/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/osaka-luggage-storage/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/osaka-luggage-storage/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/osaka-luggage-storage/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/osaka-namba-vs-umeda/",
+      "src": "/images/osaka.jpg"
+    },
+    {
+      "page": "/osaka-namba-vs-umeda/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/osaka-namba-vs-umeda/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/osaka-namba-vs-umeda/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/osaka-what-to-wear/",
+      "src": "/images/season.jpg"
+    },
+    {
+      "page": "/osaka-what-to-wear/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/osaka-what-to-wear/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/osaka-what-to-wear/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/shimonoseki-arrival-first-3-hours/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/shimonoseki-arrival-first-3-hours/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/shimonoseki-arrival-first-3-hours/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/shimonoseki-arrival-first-3-hours/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/shimonoseki-cash-or-card/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/shimonoseki-cash-or-card/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/shimonoseki-cash-or-card/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/shimonoseki-cash-or-card/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/shimonoseki-esim-or-roaming/",
+      "src": "/images/esim.jpg"
+    },
+    {
+      "page": "/shimonoseki-esim-or-roaming/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/shimonoseki-esim-or-roaming/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/shimonoseki-esim-or-roaming/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/shimonoseki-karato-vs-mojiko/",
+      "src": "/images/shimonoseki.jpg"
+    },
+    {
+      "page": "/shimonoseki-karato-vs-mojiko/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/shimonoseki-karato-vs-mojiko/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/shimonoseki-karato-vs-mojiko/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/shimonoseki-luggage-storage/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/shimonoseki-luggage-storage/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/shimonoseki-luggage-storage/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/shimonoseki-luggage-storage/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/shimonoseki-what-to-wear/",
+      "src": "/images/season.jpg"
+    },
+    {
+      "page": "/shimonoseki-what-to-wear/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/shimonoseki-what-to-wear/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/shimonoseki-what-to-wear/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/tsushima-arrival-first-3-hours/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/tsushima-arrival-first-3-hours/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/tsushima-arrival-first-3-hours/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/tsushima-arrival-first-3-hours/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/tsushima-cash-or-card/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/tsushima-cash-or-card/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/tsushima-cash-or-card/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/tsushima-cash-or-card/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/tsushima-daytrip-vs-1n2d/",
+      "src": "/images/tsushima.jpg"
+    },
+    {
+      "page": "/tsushima-daytrip-vs-1n2d/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/tsushima-daytrip-vs-1n2d/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/tsushima-daytrip-vs-1n2d/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/tsushima-esim-or-roaming/",
+      "src": "/images/esim.jpg"
+    },
+    {
+      "page": "/tsushima-esim-or-roaming/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/tsushima-esim-or-roaming/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/tsushima-esim-or-roaming/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/tsushima-hitakatsu-vs-izuhara/",
+      "src": "/images/tsushima.jpg"
+    },
+    {
+      "page": "/tsushima-hitakatsu-vs-izuhara/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/tsushima-hitakatsu-vs-izuhara/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/tsushima-hitakatsu-vs-izuhara/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/tsushima-luggage-storage/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/tsushima-luggage-storage/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/tsushima-luggage-storage/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/tsushima-luggage-storage/",
+      "src": "/images/transport.jpg"
+    },
+    {
+      "page": "/tsushima-what-to-wear/",
+      "src": "/images/season.jpg"
+    },
+    {
+      "page": "/tsushima-what-to-wear/",
+      "src": "/images/cash.jpg"
+    },
+    {
+      "page": "/tsushima-what-to-wear/",
+      "src": "/images/cabin.jpg"
+    },
+    {
+      "page": "/tsushima-what-to-wear/",
+      "src": "/images/transport.jpg"
+    }
+  ],
+  "canonical_mismatches": [
+    {
+      "page": "/busan-fukuoka-cruise/",
+      "canonical": "https://www.nipponferry.com/guide/busan-fukuoka-cruise/",
+      "expected": "https://www.nipponferry.com/busan-fukuoka-cruise/"
+    },
+    {
+      "page": "/busan-fukuoka-cruise-price/",
+      "canonical": "https://www.nipponferry.com/guide/busan-fukuoka-cruise-price/",
+      "expected": "https://www.nipponferry.com/busan-fukuoka-cruise-price/"
+    },
+    {
+      "page": "/busan-hitakatsu-cruise/",
+      "canonical": "https://www.nipponferry.com/guide/busan-hitakatsu-cruise/",
+      "expected": "https://www.nipponferry.com/busan-hitakatsu-cruise/"
+    },
+    {
+      "page": "/busan-izuhara-cruise/",
+      "canonical": "https://www.nipponferry.com/guide/busan-izuhara-cruise/",
+      "expected": "https://www.nipponferry.com/busan-izuhara-cruise/"
+    },
+    {
+      "page": "/busan-osaka-cruise/",
+      "canonical": "https://www.nipponferry.com/guide/busan-osaka-cruise/",
+      "expected": "https://www.nipponferry.com/busan-osaka-cruise/"
+    },
+    {
+      "page": "/busan-osaka-cruise-price/",
+      "canonical": "https://www.nipponferry.com/guide/busan-osaka-cruise-price/",
+      "expected": "https://www.nipponferry.com/busan-osaka-cruise-price/"
+    },
+    {
+      "page": "/busan-shimonoseki-cruise/",
+      "canonical": "https://www.nipponferry.com/guide/busan-shimonoseki-cruise/",
+      "expected": "https://www.nipponferry.com/busan-shimonoseki-cruise/"
+    },
+    {
+      "page": "/busan-shimonoseki-cruise-price/",
+      "canonical": "https://www.nipponferry.com/guide/busan-shimonoseki-cruise-price/",
+      "expected": "https://www.nipponferry.com/busan-shimonoseki-cruise-price/"
+    },
+    {
+      "page": "/busan-tsushima-cruise/",
+      "canonical": "https://www.nipponferry.com/guide/busan-tsushima-cruise/",
+      "expected": "https://www.nipponferry.com/busan-tsushima-cruise/"
+    },
+    {
+      "page": "/busan-tsushima-cruise-price/",
+      "canonical": "https://www.nipponferry.com/guide/busan-tsushima-cruise-price/",
+      "expected": "https://www.nipponferry.com/busan-tsushima-cruise-price/"
+    },
+    {
+      "page": "/fukuoka-1n2d-vs-2n3d/",
+      "canonical": "https://www.nipponferry.com/japan/fukuoka-1n2d-vs-2n3d/",
+      "expected": "https://www.nipponferry.com/fukuoka-1n2d-vs-2n3d/"
+    },
+    {
+      "page": "/fukuoka-arrival-first-3-hours/",
+      "canonical": "https://www.nipponferry.com/japan/fukuoka-arrival-first-3-hours/",
+      "expected": "https://www.nipponferry.com/fukuoka-arrival-first-3-hours/"
+    },
+    {
+      "page": "/fukuoka-cash-or-card/",
+      "canonical": "https://www.nipponferry.com/japan/fukuoka-cash-or-card/",
+      "expected": "https://www.nipponferry.com/fukuoka-cash-or-card/"
+    },
+    {
+      "page": "/fukuoka-esim-or-roaming/",
+      "canonical": "https://www.nipponferry.com/japan/fukuoka-esim-or-roaming/",
+      "expected": "https://www.nipponferry.com/fukuoka-esim-or-roaming/"
+    },
+    {
+      "page": "/fukuoka-hakata-vs-tenjin/",
+      "canonical": "https://www.nipponferry.com/japan/fukuoka-hakata-vs-tenjin/",
+      "expected": "https://www.nipponferry.com/fukuoka-hakata-vs-tenjin/"
+    },
+    {
+      "page": "/fukuoka-luggage-storage/",
+      "canonical": "https://www.nipponferry.com/japan/fukuoka-luggage-storage/",
+      "expected": "https://www.nipponferry.com/fukuoka-luggage-storage/"
+    },
+    {
+      "page": "/fukuoka-what-to-wear/",
+      "canonical": "https://www.nipponferry.com/japan/fukuoka-what-to-wear/",
+      "expected": "https://www.nipponferry.com/fukuoka-what-to-wear/"
+    },
+    {
+      "page": "/hokkaido-3n4d-vs-4n5d/",
+      "canonical": "https://www.nipponferry.com/japan/hokkaido-3n4d-vs-4n5d/",
+      "expected": "https://www.nipponferry.com/hokkaido-3n4d-vs-4n5d/"
+    },
+    {
+      "page": "/hokkaido-arrival-first-3-hours/",
+      "canonical": "https://www.nipponferry.com/japan/hokkaido-arrival-first-3-hours/",
+      "expected": "https://www.nipponferry.com/hokkaido-arrival-first-3-hours/"
+    },
+    {
+      "page": "/hokkaido-cash-or-card/",
+      "canonical": "https://www.nipponferry.com/japan/hokkaido-cash-or-card/",
+      "expected": "https://www.nipponferry.com/hokkaido-cash-or-card/"
+    },
+    {
+      "page": "/hokkaido-esim-or-roaming/",
+      "canonical": "https://www.nipponferry.com/japan/hokkaido-esim-or-roaming/",
+      "expected": "https://www.nipponferry.com/hokkaido-esim-or-roaming/"
+    },
+    {
+      "page": "/hokkaido-luggage-storage/",
+      "canonical": "https://www.nipponferry.com/japan/hokkaido-luggage-storage/",
+      "expected": "https://www.nipponferry.com/hokkaido-luggage-storage/"
+    },
+    {
+      "page": "/hokkaido-sapporo-vs-otaru/",
+      "canonical": "https://www.nipponferry.com/japan/hokkaido-sapporo-vs-otaru/",
+      "expected": "https://www.nipponferry.com/hokkaido-sapporo-vs-otaru/"
+    },
+    {
+      "page": "/hokkaido-train-vs-rental-car/",
+      "canonical": "https://www.nipponferry.com/japan/hokkaido-train-vs-rental-car/",
+      "expected": "https://www.nipponferry.com/hokkaido-train-vs-rental-car/"
+    },
+    {
+      "page": "/hokkaido-what-to-wear/",
+      "canonical": "https://www.nipponferry.com/japan/hokkaido-what-to-wear/",
+      "expected": "https://www.nipponferry.com/hokkaido-what-to-wear/"
+    },
+    {
+      "page": "/japan-cruise-checkin/",
+      "canonical": "https://www.nipponferry.com/guide/japan-cruise-checkin/",
+      "expected": "https://www.nipponferry.com/japan-cruise-checkin/"
+    },
+    {
+      "page": "/japan-cruise-room/",
+      "canonical": "https://www.nipponferry.com/guide/japan-cruise-room/",
+      "expected": "https://www.nipponferry.com/japan-cruise-room/"
+    },
+    {
+      "page": "/japan-cruise-seasickness/",
+      "canonical": "https://www.nipponferry.com/guide/japan-cruise-seasickness/",
+      "expected": "https://www.nipponferry.com/japan-cruise-seasickness/"
+    },
+    {
+      "page": "/kobe-arrival-first-3-hours/",
+      "canonical": "https://www.nipponferry.com/japan/kobe-arrival-first-3-hours/",
+      "expected": "https://www.nipponferry.com/kobe-arrival-first-3-hours/"
+    },
+    {
+      "page": "/kobe-cash-or-card/",
+      "canonical": "https://www.nipponferry.com/japan/kobe-cash-or-card/",
+      "expected": "https://www.nipponferry.com/kobe-cash-or-card/"
+    },
+    {
+      "page": "/kobe-daytrip-vs-1n2d/",
+      "canonical": "https://www.nipponferry.com/japan/kobe-daytrip-vs-1n2d/",
+      "expected": "https://www.nipponferry.com/kobe-daytrip-vs-1n2d/"
+    },
+    {
+      "page": "/kobe-esim-or-roaming/",
+      "canonical": "https://www.nipponferry.com/japan/kobe-esim-or-roaming/",
+      "expected": "https://www.nipponferry.com/kobe-esim-or-roaming/"
+    },
+    {
+      "page": "/kobe-luggage-storage/",
+      "canonical": "https://www.nipponferry.com/japan/kobe-luggage-storage/",
+      "expected": "https://www.nipponferry.com/kobe-luggage-storage/"
+    },
+    {
+      "page": "/kobe-vs-osaka/",
+      "canonical": "https://www.nipponferry.com/japan/kobe-vs-osaka/",
+      "expected": "https://www.nipponferry.com/kobe-vs-osaka/"
+    },
+    {
+      "page": "/kobe-what-to-wear/",
+      "canonical": "https://www.nipponferry.com/japan/kobe-what-to-wear/",
+      "expected": "https://www.nipponferry.com/kobe-what-to-wear/"
+    },
+    {
+      "page": "/osaka-2n3d-vs-3n4d/",
+      "canonical": "https://www.nipponferry.com/japan/osaka-2n3d-vs-3n4d/",
+      "expected": "https://www.nipponferry.com/osaka-2n3d-vs-3n4d/"
+    },
+    {
+      "page": "/osaka-arrival-first-3-hours/",
+      "canonical": "https://www.nipponferry.com/japan/osaka-arrival-first-3-hours/",
+      "expected": "https://www.nipponferry.com/osaka-arrival-first-3-hours/"
+    },
+    {
+      "page": "/osaka-cash-or-card/",
+      "canonical": "https://www.nipponferry.com/japan/osaka-cash-or-card/",
+      "expected": "https://www.nipponferry.com/osaka-cash-or-card/"
+    },
+    {
+      "page": "/osaka-cruise-vs-flight/",
+      "canonical": "https://www.nipponferry.com/guide/osaka-cruise-vs-flight/",
+      "expected": "https://www.nipponferry.com/osaka-cruise-vs-flight/"
+    },
+    {
+      "page": "/osaka-esim-or-roaming/",
+      "canonical": "https://www.nipponferry.com/japan/osaka-esim-or-roaming/",
+      "expected": "https://www.nipponferry.com/osaka-esim-or-roaming/"
+    },
+    {
+      "page": "/osaka-luggage-storage/",
+      "canonical": "https://www.nipponferry.com/japan/osaka-luggage-storage/",
+      "expected": "https://www.nipponferry.com/osaka-luggage-storage/"
+    },
+    {
+      "page": "/osaka-namba-vs-umeda/",
+      "canonical": "https://www.nipponferry.com/japan/osaka-namba-vs-umeda/",
+      "expected": "https://www.nipponferry.com/osaka-namba-vs-umeda/"
+    },
+    {
+      "page": "/osaka-what-to-wear/",
+      "canonical": "https://www.nipponferry.com/japan/osaka-what-to-wear/",
+      "expected": "https://www.nipponferry.com/osaka-what-to-wear/"
+    },
+    {
+      "page": "/route/",
+      "canonical": "https://www.nipponferry.com/ferry/",
+      "expected": "https://www.nipponferry.com/route/"
+    },
+    {
+      "page": "/routes/",
+      "canonical": "https://www.nipponferry.com/ferry/",
+      "expected": "https://www.nipponferry.com/routes/"
+    },
+    {
+      "page": "/shimonoseki-arrival-first-3-hours/",
+      "canonical": "https://www.nipponferry.com/japan/shimonoseki-arrival-first-3-hours/",
+      "expected": "https://www.nipponferry.com/shimonoseki-arrival-first-3-hours/"
+    },
+    {
+      "page": "/shimonoseki-cash-or-card/",
+      "canonical": "https://www.nipponferry.com/japan/shimonoseki-cash-or-card/",
+      "expected": "https://www.nipponferry.com/shimonoseki-cash-or-card/"
+    },
+    {
+      "page": "/shimonoseki-esim-or-roaming/",
+      "canonical": "https://www.nipponferry.com/japan/shimonoseki-esim-or-roaming/",
+      "expected": "https://www.nipponferry.com/shimonoseki-esim-or-roaming/"
+    },
+    {
+      "page": "/shimonoseki-karato-vs-mojiko/",
+      "canonical": "https://www.nipponferry.com/japan/shimonoseki-karato-vs-mojiko/",
+      "expected": "https://www.nipponferry.com/shimonoseki-karato-vs-mojiko/"
+    },
+    {
+      "page": "/shimonoseki-luggage-storage/",
+      "canonical": "https://www.nipponferry.com/japan/shimonoseki-luggage-storage/",
+      "expected": "https://www.nipponferry.com/shimonoseki-luggage-storage/"
+    },
+    {
+      "page": "/shimonoseki-what-to-wear/",
+      "canonical": "https://www.nipponferry.com/japan/shimonoseki-what-to-wear/",
+      "expected": "https://www.nipponferry.com/shimonoseki-what-to-wear/"
+    },
+    {
+      "page": "/tsushima-arrival-first-3-hours/",
+      "canonical": "https://www.nipponferry.com/japan/tsushima-arrival-first-3-hours/",
+      "expected": "https://www.nipponferry.com/tsushima-arrival-first-3-hours/"
+    },
+    {
+      "page": "/tsushima-cash-or-card/",
+      "canonical": "https://www.nipponferry.com/japan/tsushima-cash-or-card/",
+      "expected": "https://www.nipponferry.com/tsushima-cash-or-card/"
+    },
+    {
+      "page": "/tsushima-daytrip-vs-1n2d/",
+      "canonical": "https://www.nipponferry.com/japan/tsushima-daytrip-vs-1n2d/",
+      "expected": "https://www.nipponferry.com/tsushima-daytrip-vs-1n2d/"
+    },
+    {
+      "page": "/tsushima-esim-or-roaming/",
+      "canonical": "https://www.nipponferry.com/japan/tsushima-esim-or-roaming/",
+      "expected": "https://www.nipponferry.com/tsushima-esim-or-roaming/"
+    },
+    {
+      "page": "/tsushima-hitakatsu-vs-izuhara/",
+      "canonical": "https://www.nipponferry.com/japan/tsushima-hitakatsu-vs-izuhara/",
+      "expected": "https://www.nipponferry.com/tsushima-hitakatsu-vs-izuhara/"
+    },
+    {
+      "page": "/tsushima-luggage-storage/",
+      "canonical": "https://www.nipponferry.com/japan/tsushima-luggage-storage/",
+      "expected": "https://www.nipponferry.com/tsushima-luggage-storage/"
+    },
+    {
+      "page": "/tsushima-what-to-wear/",
+      "canonical": "https://www.nipponferry.com/japan/tsushima-what-to-wear/",
+      "expected": "https://www.nipponferry.com/tsushima-what-to-wear/"
+    }
+  ],
+  "external_links_by_host": {
+    "commons.wikimedia.org": {
+      "count": 525,
+      "examples": [
+        "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "https://commons.wikimedia.org/wiki/File:%C5%8Chori_Park_The_view_NNE_from_Ukimid%C5%8D_%C5%8Chorik%C5%8Den_Ch%C5%AB%C5%8D-ku_Fukuoka_20260609_154008.jpg",
+        "https://commons.wikimedia.org/wiki/File:%E3%81%8B%E3%81%99%E3%81%BE%E3%81%8D.png",
+        "https://commons.wikimedia.org/wiki/File:%E3%81%93%E3%81%9F%E3%81%A4_%283251928073%29.jpg",
+        "https://commons.wikimedia.org/wiki/File:%E5%85%AB%E6%99%AF%E5%B3%B6%E3%82%B7%E3%83%BC%E3%83%91%E3%83%A9%E3%83%80%E3%82%A4%E3%82%B9_%E3%82%A2%E3%82%AF%E3%82%A2%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0_-_panoramio.jpg",
+        "https://commons.wikimedia.org/wiki/File:%E5%90%8D%E6%9B%B2%E5%96%AB%E8%8C%B6%E3%83%B4%E3%82%A3%E3%82%AA%E3%83%AD%E3%83%B3.jpg",
+        "https://commons.wikimedia.org/wiki/File:%E5%AE%9A%E5%B1%B1%E6%B8%93%E9%9B%AA%E7%81%AF%E8%B7%AF2013%EF%BC%88Jozankei_snow_light_path_2013%EF%BC%89_-_panoramio.jpg",
+        "https://commons.wikimedia.org/wiki/File:%E5%AE%9A%E5%B1%B1%E6%B8%93%E9%9B%AA%E7%81%AF%E8%B7%AF2013%EF%BC%88Jozankei_snow_light_path_2013%EF%BC%89_-_panoramio_(1).jpg",
+        "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%81%8B%E6%B2%B3-%E9%9B%AA%E6%99%AF.jpg",
+        "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%9B%AA%E3%81%82%E3%81%8B%E3%82%8A%E3%81%AE%E8%B7%AF%EF%BC%88Otaru_Snow_Light_Path_Festival%EF%BC%89_-_panoramio_(2).jpg",
+        "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%9B%AA%E3%81%82%E3%81%8B%E3%82%8A%E3%81%AE%E8%B7%AF%EF%BC%88Otaru_Snow_Light_Path_Festival%EF%BC%89_-_panoramio_(3).jpg",
+        "https://commons.wikimedia.org/wiki/File:%E6%84%9B%E6%83%85%E3%82%80%E3%81%99%E3%81%B3_%285137097559%29.jpg"
+      ]
+    },
+    "www.mlit.go.jp": {
+      "count": 89,
+      "examples": [
+        "https://www.mlit.go.jp/kankocho/cruise/detail/002/index.html",
+        "https://www.mlit.go.jp/kankocho/cruise/detail/004/index.html",
+        "https://www.mlit.go.jp/kankocho/cruise/detail/009/index.html",
+        "https://www.mlit.go.jp/kankocho/cruise/detail/010/index.html",
+        "https://www.mlit.go.jp/kankocho/cruise/detail/011/index.html",
+        "https://www.mlit.go.jp/kankocho/cruise/detail/012/index.html",
+        "https://www.mlit.go.jp/kankocho/cruise/detail/020/index.html",
+        "https://www.mlit.go.jp/kankocho/cruise/detail/021/index.html",
+        "https://www.mlit.go.jp/kankocho/cruise/detail/022/index.html",
+        "https://www.mlit.go.jp/kankocho/cruise/detail/023/index.html",
+        "https://www.mlit.go.jp/kankocho/cruise/detail/024/index.html",
+        "https://www.mlit.go.jp/kankocho/cruise/detail/028/index.html"
+      ]
+    },
+    "www.japan.travel": {
+      "count": 47,
+      "examples": [
+        "https://www.japan.travel/en/destinations/kansai/kyoto/",
+        "https://www.japan.travel/en/destinations/kansai/osaka/nanba/",
+        "https://www.japan.travel/en/destinations/tokai/aichi/tokoname/",
+        "https://www.japan.travel/en/guide/august/",
+        "https://www.japan.travel/en/guide/cultural-experiences/",
+        "https://www.japan.travel/en/guide/experience-japans-local-ekiben-culture/",
+        "https://www.japan.travel/en/guide/forest-bathing/",
+        "https://www.japan.travel/en/guide/how-to-best-enjoy-onsen/",
+        "https://www.japan.travel/en/guide/japanese-festivals/",
+        "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/",
+        "https://www.japan.travel/en/guide/japanese-ryokan/",
+        "https://www.japan.travel/en/guide/shrines/"
+      ]
+    },
+    "creativecommons.org": {
+      "count": 21,
+      "examples": [
+        "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "https://creativecommons.org/licenses/by-sa/2.0",
+        "https://creativecommons.org/licenses/by-sa/2.0/",
+        "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+        "https://creativecommons.org/licenses/by-sa/2.5/",
+        "https://creativecommons.org/licenses/by-sa/3.0",
+        "https://creativecommons.org/licenses/by-sa/3.0/",
+        "https://creativecommons.org/licenses/by-sa/4.0",
+        "https://creativecommons.org/licenses/by-sa/4.0/",
+        "https://creativecommons.org/licenses/by/2.0",
+        "https://creativecommons.org/licenses/by/2.0/",
+        "https://creativecommons.org/licenses/by/2.0/de/"
+      ]
+    },
+    "www.tokyodisneyresort.jp": {
+      "count": 21,
+      "examples": [
+        "https://www.tokyodisneyresort.jp/en/",
+        "https://www.tokyodisneyresort.jp/en/hotel/",
+        "https://www.tokyodisneyresort.jp/en/hotel/dh.html",
+        "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry",
+        "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html",
+        "https://www.tokyodisneyresort.jp/en/tdl/ticket/purchase.html",
+        "https://www.tokyodisneyresort.jp/en/tdr/app.html",
+        "https://www.tokyodisneyresort.jp/en/tdr/guide/",
+        "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service.html",
+        "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/",
+        "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess",
+        "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess.html"
+      ]
+    },
+    "www.gotokyo.org": {
+      "count": 17,
+      "examples": [
+        "https://www.gotokyo.org/en/",
+        "https://www.gotokyo.org/en/destinations/central-tokyo/akihabara/index.html",
+        "https://www.gotokyo.org/en/destinations/central-tokyo/ginza/index.html",
+        "https://www.gotokyo.org/en/destinations/central-tokyo/tokyo-station-and-marunouchi/index.html",
+        "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+        "https://www.gotokyo.org/en/destinations/northern-tokyo/ueno/index.html",
+        "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/index.html",
+        "https://www.gotokyo.org/en/destinations/southern-tokyo/roppongi/index.html",
+        "https://www.gotokyo.org/en/destinations/western-tokyo/aoyama-and-omotesando/index.html",
+        "https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html",
+        "https://www.gotokyo.org/en/destinations/western-tokyo/shinjuku/index.html",
+        "https://www.gotokyo.org/en/plan/tips-for-tokyo-sightseeing/index.html"
+      ]
+    },
+    "www.panstarcruise.com": {
+      "count": 12,
+      "examples": [
+        "https://www.panstarcruise.com/",
+        "https://www.panstarcruise.com/duty-free/guide",
+        "https://www.panstarcruise.com/facility/daemado/info",
+        "https://www.panstarcruise.com/product/daemado/info",
+        "https://www.panstarcruise.com/product/osaka/info",
+        "https://www.panstarcruise.com/product/osaka/price",
+        "https://www.panstarcruise.com/product/osaka/procedure",
+        "https://www.panstarcruise.com/support/notice",
+        "https://www.panstarcruise.com/support/notice/292",
+        "https://www.panstarcruise.com/support/notice/294",
+        "https://www.panstarcruise.com/support/notice/305",
+        "https://www.panstarcruise.com/support/notice/307"
+      ]
+    },
+    "matcha-jp.com": {
+      "count": 12,
+      "examples": [
+        "https://matcha-jp.com/ko/coupon/10",
+        "https://matcha-jp.com/ko/coupon/108",
+        "https://matcha-jp.com/ko/coupon/11",
+        "https://matcha-jp.com/ko/coupon/12",
+        "https://matcha-jp.com/ko/coupon/124",
+        "https://matcha-jp.com/ko/coupon/130",
+        "https://matcha-jp.com/ko/coupon/15",
+        "https://matcha-jp.com/ko/coupon/27",
+        "https://matcha-jp.com/ko/coupon/72",
+        "https://matcha-jp.com/ko/coupon/73",
+        "https://matcha-jp.com/ko/coupon/9",
+        "https://matcha-jp.com/ko/japan-coupon"
+      ]
+    },
+    "www.discover-nagasaki.com": {
+      "count": 9,
+      "examples": [
+        "https://www.discover-nagasaki.com/en/",
+        "https://www.discover-nagasaki.com/en/featured-topics/about-tsushima",
+        "https://www.discover-nagasaki.com/en/featured-topics/fromnagasakiport",
+        "https://www.discover-nagasaki.com/en/featured-topics/sasebo_cruise",
+        "https://www.discover-nagasaki.com/en/itinerary/detail19-nagasakiport",
+        "https://www.discover-nagasaki.com/en/itinerary/detail6-nagasakiport",
+        "https://www.discover-nagasaki.com/en/transit/100790",
+        "https://www.discover-nagasaki.com/ko/sightseeing/100790",
+        "https://www.discover-nagasaki.com/ko/transit/100790"
+      ]
+    },
+    "www.viator.com": {
+      "count": 9,
+      "examples": [
+        "https://www.viator.com/Hakodate-tours/Port-Transfers/d4697-g24-c4032",
+        "https://www.viator.com/en-CA/tours/Kobe/Perfect-Kobe-Full-Day-Private-Tour-by-Van-with-Local-Guide/d27432-5545966P2",
+        "https://www.viator.com/en-HK/tours/Shizuoka/Sightseeing-around-Shimizu-Port-for-cruise-ship-passengers/d50686-22184P5",
+        "https://www.viator.com/tours/Aomori/Aomori-Half-Day-Private-Trip-with-Nationally-Licensed-Guide/d50829-92136P192",
+        "https://www.viator.com/tours/Fukuoka/Fukuoka-Half-day-Private-Custom-Tour-with-National-Licensed-Guide/d4660-92136P64",
+        "https://www.viator.com/tours/Kagoshima/Port-pick-up-Kagoshima-Tour-with-Licensed-Guide-and-vehicle/d4663-92136P102",
+        "https://www.viator.com/tours/Kanazawa/E-Bike-Cycling-Guided-Private-Tour-of-KANAZAWA-Main-and-NINJA-Temple/d4699-457551P6",
+        "https://www.viator.com/tours/Naha/Port-pick-up-Naha-tour-with-Licensed-Guide-and-vehicle/d4666-92136P300",
+        "https://www.viator.com/tours/Tokyo/Full-Day-Private-Shore-Tour-in-Nagasaki-from-Nagasaki-Cruise-Port/d334-320728P2296"
+      ]
+    },
+    "cruise.visitokinawa.jp": {
+      "count": 8,
+      "examples": [
+        "https://cruise.visitokinawa.jp/ad_sys/wp-content/themes/cruiseokinawa/assets/pdf/cruise-guidemap_en.pdf",
+        "https://cruise.visitokinawa.jp/ad_sys/wp-content/themes/cruiseokinawa/assets/pdf/okinawacruiseguide_2025_en.pdf",
+        "https://cruise.visitokinawa.jp/en/",
+        "https://cruise.visitokinawa.jp/en/hiraraport/course01/",
+        "https://cruise.visitokinawa.jp/en/ishigakiport/",
+        "https://cruise.visitokinawa.jp/en/nahaport/",
+        "https://cruise.visitokinawa.jp/en/shipping_company/port-details/",
+        "https://cruise.visitokinawa.jp/nahaport/"
+      ]
+    },
+    "osaka-info.jp": {
+      "count": 8,
+      "examples": [
+        "https://osaka-info.jp/",
+        "https://osaka-info.jp/en/",
+        "https://osaka-info.jp/en/information/area-map-download/",
+        "https://osaka-info.jp/en/spot/legoland-discovery-center-osaka/",
+        "https://osaka-info.jp/en/spot/tempozan-harbor-village/",
+        "https://osaka-info.jp/experience/en/osaka/spot/613",
+        "https://osaka-info.jp/ko/spot/dotonbori/",
+        "https://osaka-info.jp/ko/spot/osaka-aquarium-kaiyukan/"
+      ]
+    },
+    "www.gofukuoka.jp": {
+      "count": 7,
+      "examples": [
+        "https://www.gofukuoka.jp/",
+        "https://www.gofukuoka.jp/about/directions/",
+        "https://www.gofukuoka.jp/articles/detail/50aa39a8-3834-4509-b0c0-28d770dba42a",
+        "https://www.gofukuoka.jp/ko/articles/detail/bd826e2d-881e-418a-be12-952491de1304",
+        "https://www.gofukuoka.jp/ko/route/detail/43ac4ead-b709-4d00-98db-7fd88da6d885",
+        "https://www.gofukuoka.jp/spots/detail/26800",
+        "https://www.gofukuoka.jp/todos"
+      ]
+    },
+    "visitkanazawa.jp": {
+      "count": 7,
+      "examples": [
+        "https://visitkanazawa.jp/",
+        "https://visitkanazawa.jp/en/activities/detail_1688.html",
+        "https://visitkanazawa.jp/en/activities/detail_1691.html",
+        "https://visitkanazawa.jp/en/getting-around-kanazawa",
+        "https://visitkanazawa.jp/en/itineraries/detail_147.html",
+        "https://visitkanazawa.jp/en/know-before-you-go/detail_636.html",
+        "https://visitkanazawa.jp/kr/spot/detail_50544.html"
+      ]
+    },
+    "oki-park.jp": {
+      "count": 7,
+      "examples": [
+        "https://oki-park.jp/shurijo/",
+        "https://oki-park.jp/shurijo/access/9751",
+        "https://oki-park.jp/shurijo/en/",
+        "https://oki-park.jp/shurijo/en/ticket_guide/",
+        "https://oki-park.jp/shurijo/qa",
+        "https://oki-park.jp/shurijo/ticket_guide/",
+        "https://oki-park.jp/shurijo/ticket_guide/11413"
+      ]
+    },
+    "koreaferry.kr": {
+      "count": 6,
+      "examples": [
+        "https://koreaferry.kr/bbs/content.php?co_id=car",
+        "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice",
+        "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=39",
+        "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=40",
+        "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=42",
+        "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=43"
+      ]
+    },
+    "www.donki.com": {
+      "count": 6,
+      "examples": [
+        "https://www.donki.com/",
+        "https://www.donki.com/en/store/",
+        "https://www.donki.com/en/store/shop_detail.php?shop_id=29",
+        "https://www.donki.com/en/store/shop_detail.php?shop_id=442",
+        "https://www.donki.com/en/store/shop_detail.php?shop_id=655",
+        "https://www.donki.com/store/"
+      ]
+    },
+    "www.mistore.jp": {
+      "count": 6,
+      "examples": [
+        "https://www.mistore.jp/store/ginza.html",
+        "https://www.mistore.jp/store/nihombashi.html",
+        "https://www.mistore.jp/store/shinjuku.html",
+        "https://www.mistore.jp/store/shinjuku/shops.html",
+        "https://www.mistore.jp/store/shinjuku/shops/mainfloor1.html",
+        "https://www.mistore.jp/store/shinjuku/shops/mainfloorB1.html"
+      ]
+    },
+    "aomori-tourism.com": {
+      "count": 6,
+      "examples": [
+        "https://aomori-tourism.com/",
+        "https://aomori-tourism.com/en/itineraries/detail_56.html",
+        "https://aomori-tourism.com/en/spot/detail_122.html",
+        "https://aomori-tourism.com/en/spot/detail_3698.html",
+        "https://aomori-tourism.com/feature/detail_230.html",
+        "https://aomori-tourism.com/kr/spot/detail_98.html"
+      ]
+    },
+    "www.jreast.co.jp": {
+      "count": 5,
+      "examples": [
+        "https://www.jreast.co.jp/e/",
+        "https://www.jreast.co.jp/en/e/stations/e1039.html",
+        "https://www.jreast.co.jp/en/e/stations/e788.html",
+        "https://www.jreast.co.jp/ko/estation/stations/866.html",
+        "https://www.jreast.co.jp/multi/en/nex/"
+      ]
+    },
+    "www.kotsu.metro.tokyo.jp": {
+      "count": 5,
+      "examples": [
+        "https://www.kotsu.metro.tokyo.jp/eng/",
+        "https://www.kotsu.metro.tokyo.jp/eng/maps/subway/",
+        "https://www.kotsu.metro.tokyo.jp/eng/services/streetcar.html",
+        "https://www.kotsu.metro.tokyo.jp/eng/subway_stations/",
+        "https://www.kotsu.metro.tokyo.jp/eng/subway_stations/otemachi.html"
+      ]
+    },
+    "www.pearlsea.jp": {
+      "count": 5,
+      "examples": [
+        "https://www.pearlsea.jp/en/",
+        "https://www.pearlsea.jp/en/access/",
+        "https://www.pearlsea.jp/en/faqp/",
+        "https://www.pearlsea.jp/faqp/",
+        "https://www.pearlsea.jp/pin/pin_15409/"
+      ]
+    },
+    "hakataport.com": {
+      "count": 4,
+      "examples": [
+        "https://hakataport.com/",
+        "https://hakataport.com/Access/",
+        "https://hakataport.com/access/",
+        "https://hakataport.com/center/"
+      ]
+    },
+    "www.feel-kobe.jp": {
+      "count": 4,
+      "examples": [
+        "https://www.feel-kobe.jp/en/",
+        "https://www.feel-kobe.jp/en/access/inside.html",
+        "https://www.feel-kobe.jp/en/stories/firsttime",
+        "https://www.feel-kobe.jp/ko/"
+      ]
+    },
+    "shimonoseki.travel": {
+      "count": 4,
+      "examples": [
+        "https://shimonoseki.travel/",
+        "https://shimonoseki.travel/about-en/",
+        "https://shimonoseki.travel/about-kr/",
+        "https://shimonoseki.travel/kr/gourmet/"
+      ]
+    },
+    "www.tokyometro.jp": {
+      "count": 4,
+      "examples": [
+        "https://www.tokyometro.jp/en/subwaymap/",
+        "https://www.tokyometro.jp/en/subwaymap/index.html",
+        "https://www.tokyometro.jp/en/ticket/travel/index.html",
+        "https://www.tokyometro.jp/lang_en/station/index.html"
+      ]
+    },
+    "www.nta.go.jp": {
+      "count": 4,
+      "examples": [
+        "https://www.nta.go.jp/",
+        "https://www.nta.go.jp/english/taxes/consumption_tax/02.htm",
+        "https://www.nta.go.jp/publication/pamph/shohi/menzei/",
+        "https://www.nta.go.jp/publication/pamph/shohi/menzei/201805/format/002.htm"
+      ]
+    },
+    "www.loft.co.jp": {
+      "count": 4,
+      "examples": [
+        "https://www.loft.co.jp/",
+        "https://www.loft.co.jp/shop_list/",
+        "https://www.loft.co.jp/shop_list/detail.php?shop_id=189",
+        "https://www.loft.co.jp/shop_list/index.php?area=area_tokyo"
+      ]
+    },
+    "www.takashimaya.co.jp": {
+      "count": 4,
+      "examples": [
+        "https://www.takashimaya.co.jp/nihombashi/",
+        "https://www.takashimaya.co.jp/shinjuku/",
+        "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_09.html",
+        "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_b1.html"
+      ]
+    },
+    "www.tokyo-skytree.jp": {
+      "count": 4,
+      "examples": [
+        "https://www.tokyo-skytree.jp/",
+        "https://www.tokyo-skytree.jp/en/",
+        "https://www.tokyo-skytree.jp/en/access/",
+        "https://www.tokyo-skytree.jp/ticket/"
+      ]
+    },
+    "www.city.ishigaki.okinawa.jp": {
+      "count": 4,
+      "examples": [
+        "https://www.city.ishigaki.okinawa.jp/",
+        "https://www.city.ishigaki.okinawa.jp/kurashi_gyosei/shigoto_sangyo/kaihatsu_kenchiku/2033.html",
+        "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
+        "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/index.html"
+      ]
+    },
+    "nahaport.jp": {
+      "count": 4,
+      "examples": [
+        "https://nahaport.jp/english/introduction/cruise_promotion/",
+        "https://nahaport.jp/english/users/guide/",
+        "https://nahaport.jp/sp/faq/cat%3A%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+        "https://nahaport.jp/sp/faq/cat:%E9%82%A3%E8%A6%87%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"
+      ]
+    },
+    "www.beppu-jigoku.com": {
+      "count": 4,
+      "examples": [
+        "https://www.beppu-jigoku.com/",
+        "https://www.beppu-jigoku.com/access/",
+        "https://www.beppu-jigoku.com/discount/index.html",
+        "https://www.beppu-jigoku.com/fee/index.html"
+      ]
+    },
+    "www.hakodate.travel": {
+      "count": 4,
+      "examples": [
+        "https://www.hakodate.travel/en/",
+        "https://www.hakodate.travel/en/information/mt-hakodate/",
+        "https://www.hakodate.travel/en/sightseeing-spots/museum/seikan-ferry-memorial-ship-mashu-maru/",
+        "https://www.hakodate.travel/en/sightseeing-spots/view/view-of-hakodate-port/"
+      ]
+    },
+    "www.city.hakodate.hokkaido.jp": {
+      "count": 4,
+      "examples": [
+        "https://www.city.hakodate.hokkaido.jp/",
+        "https://www.city.hakodate.hokkaido.jp/docs/2014031100439/",
+        "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/",
+        "https://www.city.hakodate.hokkaido.jp/docs/2026032600023/"
+      ]
+    },
+    "hiroshima-minato.jp": {
+      "count": 4,
+      "examples": [
+        "https://hiroshima-minato.jp/accessujina/",
+        "https://hiroshima-minato.jp/enaccessitsukaichi/",
+        "https://hiroshima-minato.jp/enaccessujina/",
+        "https://hiroshima-minato.jp/enkankoujina/"
+      ]
+    },
+    "kanazawa-kankou.jp": {
+      "count": 4,
+      "examples": [
+        "https://kanazawa-kankou.jp/en/",
+        "https://kanazawa-kankou.jp/en/3f_en/",
+        "https://kanazawa-kankou.jp/experience/gold/",
+        "https://kanazawa-kankou.jp/wagashi/"
+      ]
+    },
+    "glover-garden.jp": {
+      "count": 4,
+      "examples": [
+        "https://glover-garden.jp/",
+        "https://glover-garden.jp/destination/",
+        "https://glover-garden.jp/event-and-news/26532/",
+        "https://glover-garden.jp/guide/"
+      ]
+    },
+    "www.dream-plaza.co.jp": {
+      "count": 4,
+      "examples": [
+        "https://www.dream-plaza.co.jp/about/",
+        "https://www.dream-plaza.co.jp/kids/",
+        "https://www.dream-plaza.co.jp/shop/shimizu-marina-circus/",
+        "https://www.dream-plaza.co.jp/special/deep-en/"
+      ]
+    },
+    "www.city.yokohama.lg.jp": {
+      "count": 4,
+      "examples": [
+        "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/2026.html",
+        "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/terminal.html",
+        "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/for_cruisecompanies.html",
+        "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html"
+      ]
+    },
+    "www.cupnoodles-museum.jp": {
+      "count": 4,
+      "examples": [
+        "https://www.cupnoodles-museum.jp/en/yokohama/",
+        "https://www.cupnoodles-museum.jp/en/yokohama/guide/faq/",
+        "https://www.cupnoodles-museum.jp/ko/yokohama/guide/access/",
+        "https://www.cupnoodles-museum.jp/reservation/yokohama/?lang=en"
+      ]
+    },
+    "kampuferry.co.jp": {
+      "count": 3,
+      "examples": [
+        "https://kampuferry.co.jp/fare/",
+        "https://kampuferry.co.jp/reserve/",
+        "https://kampuferry.co.jp/yoyaku/en/reservation.html"
+      ]
+    },
+    "www.busanpa.com": {
+      "count": 3,
+      "examples": [
+        "https://www.busanpa.com/bpt/index.bpa?menuCd=DOM_000000401003000000",
+        "https://www.busanpa.com/bpt/index.bpa?menuCd=DOM_000000401005000000",
+        "https://www.busanpa.com/bpt/index.bpa?menuCd=DOM_000000401007001000"
+      ]
+    },
+    "www.city.fukuoka.lg.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+        "https://www.city.fukuoka.lg.jp/kowan/koei/hakata-port/terminal.html",
+        "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html"
+      ]
+    },
+    "gofukuoka.jp": {
+      "count": 3,
+      "examples": [
+        "https://gofukuoka.jp/en/spots/detail/26825",
+        "https://gofukuoka.jp/ko/todos/yatai",
+        "https://gofukuoka.jp/ko/yatai-howto.html"
+      ]
+    },
+    "www.karatoichiba.com": {
+      "count": 3,
+      "examples": [
+        "https://www.karatoichiba.com/",
+        "https://www.karatoichiba.com/bakangai/",
+        "https://www.karatoichiba.com/calendars/"
+      ]
+    },
+    "www.daimaru.co.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.daimaru.co.jp/tokyo/floor/",
+        "https://www.daimaru.co.jp/tokyo/floor/10f.html",
+        "https://www.daimaru.co.jp/tokyo/floor/12f.html"
+      ]
+    },
+    "www.tobu-dept.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.tobu-dept.jp/ikebukuro/",
+        "https://www.tobu-dept.jp/ikebukuro/floormap/",
+        "https://www.tobu-dept.jp/ikebukuro/tnb/language/english.html"
+      ]
+    },
+    "www.english.metro.tokyo.lg.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.english.metro.tokyo.lg.jp/w/000-101-000542",
+        "https://www.english.metro.tokyo.lg.jp/w/016-101-003992",
+        "https://www.english.metro.tokyo.lg.jp/w/016-101-011706"
+      ]
+    },
+    "www.tsushima-net.org": {
+      "count": 3,
+      "examples": [
+        "https://www.tsushima-net.org/news/tsushima-no-shoku",
+        "https://www.tsushima-net.org/souvenir/asaduma/",
+        "https://www.tsushima-net.org/souvenir/nihonkankobussankan"
+      ]
+    },
+    "www.camellia-line.co.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.camellia-line.co.jp/fare/",
+        "https://www.camellia-line.co.jp/newcamellia/",
+        "https://www.camellia-line.co.jp/rs/idv/reservation/calendar_index/2/"
+      ]
+    },
+    "gocruise.co.kr": {
+      "count": 3,
+      "examples": [
+        "https://gocruise.co.kr/",
+        "https://gocruise.co.kr/support/notice",
+        "https://gocruise.co.kr/support/notice/294"
+      ]
+    },
+    "www.fujiq.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.fujiq.jp/en/schedule/",
+        "https://www.fujiq.jp/en/ticket/",
+        "https://www.fujiq.jp/en/ticket/mokuteki_admission.html"
+      ]
+    },
+    "www.kaiyukan.com": {
+      "count": 3,
+      "examples": [
+        "https://www.kaiyukan.com/",
+        "https://www.kaiyukan.com/about/news/20582.html",
+        "https://www.kaiyukan.com/info/ticket/kaiyukan/"
+      ]
+    },
+    "www.city.beppu.oita.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.city.beppu.oita.jp/",
+        "https://www.city.beppu.oita.jp/sangyou/kankou/detail9.html",
+        "https://www.city.beppu.oita.jp/sisetu/siyakusyo_syuttyousyo/04siyakusyo_04-01beppu.html"
+      ]
+    },
+    "act.shigira.com": {
+      "count": 3,
+      "examples": [
+        "https://act.shigira.com/top/hotspring?lng=ja-JP",
+        "https://act.shigira.com/top/products/0cffd460-6283-59c8-9050-63b97b6bf410?lng=ja-JP",
+        "https://act.shigira.com/top?lng=ja-JP"
+      ]
+    },
+    "shigira.com": {
+      "count": 3,
+      "examples": [
+        "https://shigira.com/en",
+        "https://shigira.com/en/onsen",
+        "https://shigira.com/ko"
+      ]
+    },
+    "www.town.yakushima.kagoshima.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.town.yakushima.kagoshima.jp/kanko/English/1/2387.html",
+        "https://www.town.yakushima.kagoshima.jp/soshiki/kanko_machizukuri/kankosushin/kankosite_English/2/6/743.html",
+        "https://www.town.yakushima.kagoshima.jp/soshiki/kanko_machizukuri/kankosushin/kankosite_English/2/756.html"
+      ]
+    },
+    "www.senganen.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.senganen.jp/en/",
+        "https://www.senganen.jp/en/kagoshima-cultural-experiences-at-sengan-en/",
+        "https://www.senganen.jp/en/recommended-course-at-sengan-en/"
+      ]
+    },
+    "www.city.kagoshima.lg.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.city.kagoshima.lg.jp/",
+        "https://www.city.kagoshima.lg.jp/sakurajima-ferry/",
+        "https://www.city.kagoshima.lg.jp/sakurajima-ferry/access/noriba-akusesu.html"
+      ]
+    },
+    "www.port-of-nagoya.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.port-of-nagoya.jp/english/aboutport/1001854/1001521.html",
+        "https://www.port-of-nagoya.jp/kanko/senpaku/1002548/index.html",
+        "https://www.port-of-nagoya.jp/kanko/senpaku/cruiseguide/1004445.html"
+      ]
+    },
+    "www.okinawastory.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.okinawastory.jp/",
+        "https://www.okinawastory.jp/access/11123100/",
+        "https://www.okinawastory.jp/spot/1388"
+      ]
+    },
+    "oki-churaumi.jp": {
+      "count": 3,
+      "examples": [
+        "https://oki-churaumi.jp/en/faq/",
+        "https://oki-churaumi.jp/kr/faq/",
+        "https://oki-churaumi.jp/kr/guide/info/"
+      ]
+    },
+    "www.churaumi.okinawa": {
+      "count": 3,
+      "examples": [
+        "https://www.churaumi.okinawa/en/",
+        "https://www.churaumi.okinawa/sp/en/guide/info/",
+        "https://www.churaumi.okinawa/sp/kr/guide/hour/"
+      ]
+    },
+    "churaumi.okinawa": {
+      "count": 3,
+      "examples": [
+        "https://churaumi.okinawa/",
+        "https://churaumi.okinawa/en/faq/",
+        "https://churaumi.okinawa/en/guide/hour/"
+      ]
+    },
+    "www.city.osaka.lg.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.city.osaka.lg.jp/port/page/0000002874.html",
+        "https://www.city.osaka.lg.jp/port/page/0000442982.html",
+        "https://www.city.osaka.lg.jp/port/page/0000453890.html"
+      ]
+    },
+    "www.city.sasebo.lg.jp": {
+      "count": 3,
+      "examples": [
+        "https://www.city.sasebo.lg.jp/benrimap/shisetsu/kanko/053.html",
+        "https://www.city.sasebo.lg.jp/kouwan/cruise/documents/02_english_map_uragasira.pdf",
+        "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html"
+      ]
+    },
+    "www.hakoneyuryo.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.hakoneyuryo.jp/english/",
+        "https://www.hakoneyuryo.jp/english/spa/hotspring/"
+      ]
+    },
+    "kyoto.travel": {
+      "count": 2,
+      "examples": [
+        "https://kyoto.travel/en/news/autumn-sightseeing-tips/",
+        "https://kyoto.travel/ko/news/sightseeing-guidelines/"
+      ]
+    },
+    "www.visit-hokkaido.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.visit-hokkaido.jp/kr/",
+        "https://www.visit-hokkaido.jp/kr/access/in_hokkaido.html"
+      ]
+    },
+    "discover.osaka-info.jp": {
+      "count": 2,
+      "examples": [
+        "https://discover.osaka-info.jp/en/",
+        "https://discover.osaka-info.jp/en/about_osaka"
+      ]
+    },
+    "ginza6.tokyo": {
+      "count": 2,
+      "examples": [
+        "https://ginza6.tokyo/",
+        "https://ginza6.tokyo/shops/"
+      ]
+    },
+    "tokyo-haneda.com": {
+      "count": 2,
+      "examples": [
+        "https://tokyo-haneda.com/en/access/",
+        "https://tokyo-haneda.com/en/access/train/index.html"
+      ]
+    },
+    "www.ghibli-museum.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.ghibli-museum.jp/en/",
+        "https://www.ghibli-museum.jp/ticket/"
+      ]
+    },
+    "www.tokyo-park.or.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.tokyo-park.or.jp/",
+        "https://www.tokyo-park.or.jp/park/kiyosumi/index.html"
+      ]
+    },
+    "www.narita-airport.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.narita-airport.jp/en/access/",
+        "https://www.narita-airport.jp/en/access/train/"
+      ]
+    },
+    "shibuya.parco.jp": {
+      "count": 2,
+      "examples": [
+        "https://shibuya.parco.jp/",
+        "https://shibuya.parco.jp/floor/"
+      ]
+    },
+    "www.yurikamome.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.yurikamome.co.jp/",
+        "https://www.yurikamome.co.jp/en/"
+      ]
+    },
+    "www.tokyodisneyresort.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.tokyodisneyresort.co.jp/en/tdl/access",
+        "https://www.tokyodisneyresort.co.jp/en/tdr/access"
+      ]
+    },
+    "hands.net": {
+      "count": 2,
+      "examples": [
+        "https://hands.net/",
+        "https://hands.net/shop/"
+      ]
+    },
+    "www.metro.tokyo.lg.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.metro.tokyo.lg.jp/",
+        "https://www.metro.tokyo.lg.jp/information/press/2026/01/2026013016"
+      ]
+    },
+    "www.tokyoeki-1bangai.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.tokyoeki-1bangai.co.jp/",
+        "https://www.tokyoeki-1bangai.co.jp/tokyocharacterstreet/"
+      ]
+    },
+    "www.shibuya-scramble-square.com": {
+      "count": 2,
+      "examples": [
+        "https://www.shibuya-scramble-square.com/sky/",
+        "https://www.shibuya-scramble-square.com/sky/ticket/"
+      ]
+    },
+    "www.tsukiji.or.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.tsukiji.or.jp/english/",
+        "https://www.tsukiji.or.jp/english/plattsukiji/"
+      ]
+    },
+    "teamlabplanets.dmm.com": {
+      "count": 2,
+      "examples": [
+        "https://teamlabplanets.dmm.com/en",
+        "https://teamlabplanets.dmm.com/en/guide/access_method"
+      ]
+    },
+    "www.panstar.co.kr": {
+      "count": 2,
+      "examples": [
+        "https://www.panstar.co.kr/",
+        "https://www.panstar.co.kr/business/cruise/miracle"
+      ]
+    },
+    "www.sevenbank.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.sevenbank.co.jp/intlcard/card3.html",
+        "https://www.sevenbank.co.jp/intlcard/service3.html"
+      ]
+    },
+    "www.fujikyu-railway.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.fujikyu-railway.jp/en/ticket/fujiq.php",
+        "https://www.fujikyu-railway.jp/ko/ticket/fujiq.php"
+      ]
+    },
+    "www.customs.go.kr": {
+      "count": 2,
+      "examples": [
+        "https://www.customs.go.kr/",
+        "https://www.customs.go.kr/kcs/cm/cntnts/cntntsView.do?cntntsId=829&mi=2837"
+      ]
+    },
+    "www.crossroadfukuoka.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.crossroadfukuoka.jp/kr/articles/omiyage",
+        "https://www.crossroadfukuoka.jp/kr/spot/11265"
+      ]
+    },
+    "www.pref.aomori.lg.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
+        "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/files/261001_2026cruise.pdf"
+      ]
+    },
+    "www.umitamago.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.umitamago.jp/",
+        "https://www.umitamago.jp/access-en/"
+      ]
+    },
+    "www.kyoto-nishiki.or.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.kyoto-nishiki.or.jp/en/manner/",
+        "https://www.kyoto-nishiki.or.jp/en/map/"
+      ]
+    },
+    "www.fukuokatower.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.fukuokatower.co.jp/",
+        "https://www.fukuokatower.co.jp/faq/"
+      ]
+    },
+    "334.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://334.co.jp/news/2026/0406-22668/",
+        "https://334.co.jp/ropeway/advance-ticket/"
+      ]
+    },
+    "www.goryokaku-tower.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.goryokaku-tower.co.jp/en/",
+        "https://www.goryokaku-tower.co.jp/en/eventtopics/20251214-11055/"
+      ]
+    },
+    "visitokinawajapan.com": {
+      "count": 2,
+      "examples": [
+        "https://visitokinawajapan.com/",
+        "https://visitokinawajapan.com/plan-your-trip/recommended-trips/three-days-miyako-island/"
+      ]
+    },
+    "miyako-guide.net": {
+      "count": 2,
+      "examples": [
+        "https://miyako-guide.net/spots/spots-119/",
+        "https://miyako-guide.net/spots/spots-74/"
+      ]
+    },
+    "www.azumabus.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.azumabus.co.jp/home/",
+        "https://www.azumabus.co.jp/localbus/"
+      ]
+    },
+    "www.pref.yamaguchi.lg.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.pref.yamaguchi.lg.jp/soshiki/91/21621.html",
+        "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/57474.pdf"
+      ]
+    },
+    "www.rinya.maff.go.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.rinya.maff.go.jp/j/sanson/kassei/sangyou/shinrin-yoku.html",
+        "https://www.rinya.maff.go.jp/j/sin_riyou/morigyo/forest_activity/info/shinrin-yoku.html"
+      ]
+    },
+    "www.pref.kagoshima.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.pref.kagoshima.jp/ah09/cruise-basukanri.html",
+        "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html"
+      ]
+    },
+    "www.kagoshima-yokanavi.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.kagoshima-yokanavi.jp/en/",
+        "https://www.kagoshima-yokanavi.jp/ko/activity/20180"
+      ]
+    },
+    "www.kagoshima-kankou.com": {
+      "count": 2,
+      "examples": [
+        "https://www.kagoshima-kankou.com/cruise",
+        "https://www.kagoshima-kankou.com/cruise/minato/top"
+      ]
+    },
+    "www.kanazawa-cruise.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.kanazawa-cruise.jp/access/",
+        "https://www.kanazawa-cruise.jp/en/"
+      ]
+    },
+    "www.kobeherb.com": {
+      "count": 2,
+      "examples": [
+        "https://www.kobeherb.com/en/",
+        "https://www.kobeherb.com/kr/"
+      ]
+    },
+    "www.kobe-meriken.or.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.kobe-meriken.or.jp/en/terminal/kobe.html",
+        "https://www.kobe-meriken.or.jp/en/terminal/naka.html"
+      ]
+    },
+    "www.kobe-anpanman.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.kobe-anpanman.jp/",
+        "https://www.kobe-anpanman.jp/guide/index.html"
+      ]
+    },
+    "en.at-nagasaki.jp": {
+      "count": 2,
+      "examples": [
+        "https://en.at-nagasaki.jp/barrierfree/64125",
+        "https://en.at-nagasaki.jp/mice/facilities/65292"
+      ]
+    },
+    "www.at-nagasaki.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.at-nagasaki.jp/course/jp-cruise1",
+        "https://www.at-nagasaki.jp/spot/101"
+      ]
+    },
+    "kariyushi-aquarium.com": {
+      "count": 2,
+      "examples": [
+        "https://kariyushi-aquarium.com/access/",
+        "https://kariyushi-aquarium.com/faq/"
+      ]
+    },
+    "www.usj.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.usj.co.jp/web/en/us",
+        "https://www.usj.co.jp/web/ko/kr"
+      ]
+    },
+    "otaru.gr.jp": {
+      "count": 2,
+      "examples": [
+        "https://otaru.gr.jp/tourist/2026otarucruisekyakusenyotei2026",
+        "https://otaru.gr.jp/tourist/asukasa3-2026-9-26"
+      ]
+    },
+    "www.city.sakaiminato.lg.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.city.sakaiminato.lg.jp/",
+        "https://www.city.sakaiminato.lg.jp/index.php?view=11736"
+      ]
+    },
+    "www.huistenbosch.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.huistenbosch.co.jp/ticket/",
+        "https://www.huistenbosch.co.jp/ticket/flow.html"
+      ]
+    },
+    "english.huistenbosch.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://english.huistenbosch.co.jp/",
+        "https://english.huistenbosch.co.jp/ticket/"
+      ]
+    },
+    "ropeway.shizutetsu.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://ropeway.shizutetsu.co.jp/",
+        "https://ropeway.shizutetsu.co.jp/information/"
+      ]
+    },
+    "www.shimizu-port.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.shimizu-port.jp/kanko_shop.html",
+        "https://www.shimizu-port.jp/map.html"
+      ]
+    },
+    "www.shimizu-cruise.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.shimizu-cruise.co.jp/access/",
+        "https://www.shimizu-cruise.co.jp/en/spot/"
+      ]
+    },
+    "www.shikokuferry.com": {
+      "count": 2,
+      "examples": [
+        "https://www.shikokuferry.com/route2",
+        "https://www.shikokuferry.com/route4"
+      ]
+    },
+    "www.seaparadise.co.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.seaparadise.co.jp/en/access/index.html",
+        "https://www.seaparadise.co.jp/en/price/index.html"
+      ]
+    },
+    "www.welcome.city.yokohama.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.welcome.city.yokohama.jp/",
+        "https://www.welcome.city.yokohama.jp/cruise/terminal/osanbashi/"
+      ]
+    },
+    "osanbashi.jp": {
+      "count": 2,
+      "examples": [
+        "https://osanbashi.jp/en/",
+        "https://osanbashi.jp/en/other/"
+      ]
+    },
+    "www.aomori-museum.jp": {
+      "count": 2,
+      "examples": [
+        "https://www.aomori-museum.jp/en/visit/",
+        "https://www.aomori-museum.jp/visit/"
+      ]
+    },
+    "open.kakao.com": {
+      "count": 1,
+      "examples": [
+        "https://open.kakao.com/o/g4ilP4Ji"
+      ]
+    },
+    "willer-travel.com": {
+      "count": 1,
+      "examples": [
+        "https://willer-travel.com/ko/ferry/"
+      ]
+    },
+    "www.koreaferry.kr": {
+      "count": 1,
+      "examples": [
+        "https://www.koreaferry.kr/"
+      ]
+    },
+    "www.koreaferry.co.kr": {
+      "count": 1,
+      "examples": [
+        "https://www.koreaferry.co.kr/rs/idv/reservation/calendar_index/1/2?country=2"
+      ]
+    },
+    "www.pukwan.co.kr": {
+      "count": 1,
+      "examples": [
+        "https://www.pukwan.co.kr/"
+      ]
+    },
+    "subway.city.fukuoka.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://subway.city.fukuoka.lg.jp/appeal/"
+      ]
+    },
+    "yokanavi.com": {
+      "count": 1,
+      "examples": [
+        "https://yokanavi.com/"
+      ]
+    },
+    "www.kanmon-kisen.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.kanmon-kisen.co.jp/en/route/kanmon.html"
+      ]
+    },
+    "www.senso-ji.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.senso-ji.jp/"
+      ]
+    },
+    "store.tsite.jp": {
+      "count": 1,
+      "examples": [
+        "https://store.tsite.jp/daikanyama/"
+      ]
+    },
+    "gardenplace.jp": {
+      "count": 1,
+      "examples": [
+        "https://gardenplace.jp/"
+      ]
+    },
+    "www.imn.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.imn.jp/en/floorguide"
+      ]
+    },
+    "www.muji.com": {
+      "count": 1,
+      "examples": [
+        "https://www.muji.com/jp/ja/shop/detail/046604"
+      ]
+    },
+    "shop.muji.com": {
+      "count": 1,
+      "examples": [
+        "https://shop.muji.com/jp/ginza/en/"
+      ]
+    },
+    "www.keisei.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/"
+      ]
+    },
+    "mitsui-shopping-park.com": {
+      "count": 1,
+      "examples": [
+        "https://mitsui-shopping-park.com/divercity-tokyo/"
+      ]
+    },
+    "www.pasmo.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.pasmo.co.jp/visitors/en/"
+      ]
+    },
+    "www.nact.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.nact.jp/english/"
+      ]
+    },
+    "www.gourmet.gotokyo.org": {
+      "count": 1,
+      "examples": [
+        "https://www.gourmet.gotokyo.org/"
+      ]
+    },
+    "www.tokyoport.or.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.tokyoport.or.jp/en/"
+      ]
+    },
+    "www.tptc.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.tptc.co.jp/terminal/guide/cruise"
+      ]
+    },
+    "www.caa.go.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.caa.go.jp/en/"
+      ]
+    },
+    "www.pmda.go.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.pmda.go.jp/english/"
+      ]
+    },
+    "www.mhlw.go.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.mhlw.go.jp/english/"
+      ]
+    },
+    "www.jcia.org": {
+      "count": 1,
+      "examples": [
+        "https://www.jcia.org/en/"
+      ]
+    },
+    "www.edo-tokyo-museum.or.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.edo-tokyo-museum.or.jp/en/"
+      ]
+    },
+    "www.biccamera.com": {
+      "count": 1,
+      "examples": [
+        "https://www.biccamera.com/"
+      ]
+    },
+    "www.kabukiweb.net": {
+      "count": 1,
+      "examples": [
+        "https://www.kabukiweb.net/"
+      ]
+    },
+    "www.yokoso.metro.tokyo.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.yokoso.metro.tokyo.lg.jp/en/tenbou/"
+      ]
+    },
+    "www.tnm.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.tnm.jp/?lang=en"
+      ]
+    },
+    "ticket.tokyotower.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://ticket.tokyotower.co.jp/en/"
+      ]
+    },
+    "shibuya-scramble-square.com": {
+      "count": 1,
+      "examples": [
+        "https://shibuya-scramble-square.com/en/"
+      ]
+    },
+    "www.wbgt.env.go.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.wbgt.env.go.jp/en/"
+      ]
+    },
+    "www.sumo.or.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.sumo.or.jp/En/"
+      ]
+    },
+    "www.teamlab.art": {
+      "count": 1,
+      "examples": [
+        "https://www.teamlab.art/"
+      ]
+    },
+    "www.tokyo-zoo.net": {
+      "count": 1,
+      "examples": [
+        "https://www.tokyo-zoo.net/en/ueno/visitor-info/index.html"
+      ]
+    },
+    "en.tokyotower.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://en.tokyotower.co.jp/fee/index.html"
+      ]
+    },
+    "www.shijou.metro.tokyo.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.shijou.metro.tokyo.lg.jp/info/0/kenngaku/kenngaku1"
+      ]
+    },
+    "www.city.tsushima.nagasaki.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.tsushima.nagasaki.jp/gyousei/soshiki/hoken/kenkouzoushin/shokuiku_land/970.html"
+      ]
+    },
+    "www.sej.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.sej.co.jp/services/cash.html"
+      ]
+    },
+    "www.aeonretail.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.aeonretail.jp/shop/"
+      ]
+    },
+    "www.vill.tokashiki.okinawa.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.vill.tokashiki.okinawa.jp/sempakujoho/3027.html"
+      ]
+    },
+    "www.pref.okinawa.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.pref.okinawa.jp/machizukuri/kowankuko/1013146/1022459/1013179.html"
+      ]
+    },
+    "www.zamamitourism.com": {
+      "count": 1,
+      "examples": [
+        "https://www.zamamitourism.com/en/aboutboat"
+      ]
+    },
+    "www.ocvb.or.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.ocvb.or.jp/foreign/cruise/en"
+      ]
+    },
+    "www.vill.zamami.okinawa.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.vill.zamami.okinawa.jp/ship/"
+      ]
+    },
+    "www.fukuoka-airport.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.fukuoka-airport.jp/en/access/"
+      ]
+    },
+    "faq.japan-travel.jnto.go.jp": {
+      "count": 1,
+      "examples": [
+        "https://faq.japan-travel.jnto.go.jp/en/plan/wifi-and-connectivity/"
+      ]
+    },
+    "customs.go.kr": {
+      "count": 1,
+      "examples": [
+        "https://customs.go.kr/"
+      ]
+    },
+    "www.qia.go.kr": {
+      "count": 1,
+      "examples": [
+        "https://www.qia.go.kr/"
+      ]
+    },
+    "www.mafra.go.kr": {
+      "count": 1,
+      "examples": [
+        "https://www.mafra.go.kr/bbs/home/792/578526/artclView.do"
+      ]
+    },
+    "www.city.nichinan.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.nichinan.lg.jp/"
+      ]
+    },
+    "www.pref.miyazaki.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.pref.miyazaki.lg.jp/"
+      ]
+    },
+    "www.selion-akita.com": {
+      "count": 1,
+      "examples": [
+        "https://www.selion-akita.com/"
+      ]
+    },
+    "www.nyuto-onsenkyo.com": {
+      "count": 1,
+      "examples": [
+        "https://www.nyuto-onsenkyo.com/"
+      ]
+    },
+    "www.city.akita.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.akita.lg.jp/kanko/event/1002252.html"
+      ]
+    },
+    "pub.pref.aomori.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://pub.pref.aomori.lg.jp/kouji/2026_aomori-kendigi-expo/index.html"
+      ]
+    },
+    "www.apic-aomori.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.apic-aomori.jp/ja/aomori-port-acsess.html"
+      ]
+    },
+    "asamushi-aqua.com": {
+      "count": 1,
+      "examples": [
+        "https://asamushi-aqua.com/"
+      ]
+    },
+    "hakkoda-ropeway.jp": {
+      "count": 1,
+      "examples": [
+        "https://hakkoda-ropeway.jp/en/"
+      ]
+    },
+    "www.nebuta.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.nebuta.jp/warasse/"
+      ]
+    },
+    "www.city.atami.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.atami.lg.jp/"
+      ]
+    },
+    "www.pref.oita.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.pref.oita.jp/site/beppu17003/2026cruising.html"
+      ]
+    },
+    "www.beppu-ropeway.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.beppu-ropeway.co.jp/en/"
+      ]
+    },
+    "www.kijima-kogen.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.kijima-kogen.jp/"
+      ]
+    },
+    "www.expedia.com": {
+      "count": 1,
+      "examples": [
+        "https://www.expedia.com/en/things-to-do/port-pickup-beppu-private-tour-with-licensed-guide-and-vehicle.a52960941.activity-details"
+      ]
+    },
+    "www.info-toyama.com": {
+      "count": 1,
+      "examples": [
+        "https://www.info-toyama.com/"
+      ]
+    },
+    "www.city.goto.nagasaki.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.goto.nagasaki.jp/"
+      ]
+    },
+    "www.ohorikouen.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.ohorikouen.jp/"
+      ]
+    },
+    "www.fukuoka-anpanman.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.fukuoka-anpanman.jp/en/"
+      ]
+    },
+    "www.fukuokacity-kagakukan.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.fukuokacity-kagakukan.jp/"
+      ]
+    },
+    "www.hakata-riverainmall.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.hakata-riverainmall.jp/"
+      ]
+    },
+    "www.nishitetsu.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.nishitetsu.jp/en/bus/dazaihu_liner.html"
+      ]
+    },
+    "www.hakataport.com": {
+      "count": 1,
+      "examples": [
+        "https://www.hakataport.com/english/access.html"
+      ]
+    },
+    "hakodate-kanemori.com": {
+      "count": 1,
+      "examples": [
+        "https://hakodate-kanemori.com/"
+      ]
+    },
+    "www.hakobura.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.hakobura.jp/"
+      ]
+    },
+    "www.city.miyakojima.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html"
+      ]
+    },
+    "www.mof.go.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.mof.go.jp/public_relations/finance/202601/202601n.html"
+      ]
+    },
+    "jr-miyajimaferry.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://jr-miyajimaferry.co.jp/en/timetable/"
+      ]
+    },
+    "miyajima-matsudai.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://miyajima-matsudai.co.jp/en/schedule.html"
+      ]
+    },
+    "yaeyama.or.jp": {
+      "count": 1,
+      "examples": [
+        "https://yaeyama.or.jp/information/%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E8%88%B9%E3%80%80%E4%B9%97%E5%AE%A2%E3%81%AE%E7%9A%86%E6%A7%98%E3%81%B8/"
+      ]
+    },
+    "ooritoori-ishigaki.com": {
+      "count": 1,
+      "examples": [
+        "https://ooritoori-ishigaki.com/en_gb/kabira-bay/"
+      ]
+    },
+    "www.ishigaki-airport.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.ishigaki-airport.co.jp/en/access/bus-taxi/index.html"
+      ]
+    },
+    "www.city.iwakuni.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.iwakuni.lg.jp/"
+      ]
+    },
+    "pubmed.ncbi.nlm.nih.gov": {
+      "count": 1,
+      "examples": [
+        "https://pubmed.ncbi.nlm.nih.gov/41756503/"
+      ]
+    },
+    "shop.pokemon.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://shop.pokemon.co.jp/en/"
+      ]
+    },
+    "www.visit-gunma.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.visit-gunma.jp/en/"
+      ]
+    },
+    "www.gov-online.go.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202008/202008_07_en.html"
+      ]
+    },
+    "folklife.si.edu": {
+      "count": 1,
+      "examples": [
+        "https://folklife.si.edu/magazine/japanese-kintsugi-yuko-gunji"
+      ]
+    },
+    "urasoe-artmuseum.jp": {
+      "count": 1,
+      "examples": [
+        "https://urasoe-artmuseum.jp/event_topic/experience-kintsugi2026/"
+      ]
+    },
+    "www.japanhouselondon.uk": {
+      "count": 1,
+      "examples": [
+        "https://www.japanhouselondon.uk/discover/noren/"
+      ]
+    },
+    "www.japan-guide.com": {
+      "count": 1,
+      "examples": [
+        "https://www.japan-guide.com/e/e2004.html"
+      ]
+    },
+    "ioworld.jp": {
+      "count": 1,
+      "examples": [
+        "https://ioworld.jp/"
+      ]
+    },
+    "www.k-port.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.k-port.jp/access/"
+      ]
+    },
+    "www.kanazawa21.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.kanazawa21.jp/data_list.php?g=10&lng=e"
+      ]
+    },
+    "www.city.karatsu.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.karatsu.lg.jp/"
+      ]
+    },
+    "www.hyogo-tourism.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.hyogo-tourism.jp/"
+      ]
+    },
+    "www.city.kobe.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html"
+      ]
+    },
+    "cruise-kobe.com": {
+      "count": 1,
+      "examples": [
+        "https://cruise-kobe.com/access/"
+      ]
+    },
+    "www.kobe-oukoku.com": {
+      "count": 1,
+      "examples": [
+        "https://www.kobe-oukoku.com/"
+      ]
+    },
+    "visitkochijapan.com": {
+      "count": 1,
+      "examples": [
+        "https://visitkochijapan.com/en/"
+      ]
+    },
+    "kumamoto.guide": {
+      "count": 1,
+      "examples": [
+        "https://kumamoto.guide/en/"
+      ]
+    },
+    "www.city.kure.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.kure.lg.jp/"
+      ]
+    },
+    "yamato-museum.com": {
+      "count": 1,
+      "examples": [
+        "https://yamato-museum.com/"
+      ]
+    },
+    "www.iyotetsu.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.iyotetsu.co.jp/"
+      ]
+    },
+    "dogo.jp": {
+      "count": 1,
+      "examples": [
+        "https://dogo.jp/"
+      ]
+    },
+    "www.kanko-miyazaki.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.kanko-miyazaki.jp/"
+      ]
+    },
+    "www.city.kitakyushu.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.kitakyushu.lg.jp/contents/30400002.html"
+      ]
+    },
+    "ja.kyoto.travel": {
+      "count": 1,
+      "examples": [
+        "https://ja.kyoto.travel/flower/momiji/"
+      ]
+    },
+    "inasayama.info": {
+      "count": 1,
+      "examples": [
+        "https://inasayama.info/ropeway/"
+      ]
+    },
+    "www.nagasaki-port.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.nagasaki-port.jp/nagasaki_cruiseschedule/R08_cruiseschedule.pdf"
+      ]
+    },
+    "penguin-aqua.jp": {
+      "count": 1,
+      "examples": [
+        "https://penguin-aqua.jp/access/"
+      ]
+    },
+    "www.naga-den.com": {
+      "count": 1,
+      "examples": [
+        "https://www.naga-den.com/"
+      ]
+    },
+    "www.pref.nagasaki.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.pref.nagasaki.jp/"
+      ]
+    },
+    "nagasaki-p.com": {
+      "count": 1,
+      "examples": [
+        "https://nagasaki-p.com/access/"
+      ]
+    },
+    "book.kariyushi-aquarium.com": {
+      "count": 1,
+      "examples": [
+        "https://book.kariyushi-aquarium.com/top/products/dd39bc1a-167a-5434-8222-f74d0b2fa84e?lng=ja-JP"
+      ]
+    },
+    "www.city.naha.okinawa.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.naha.okinawa.jp/kurasitetuduki/life/1002177/1007375/1002185/1002191/1002192.html"
+      ]
+    },
+    "okimu.jp": {
+      "count": 1,
+      "examples": [
+        "https://okimu.jp/en/museum/"
+      ]
+    },
+    "www.nahaport.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.nahaport.jp/"
+      ]
+    },
+    "www.city.niigata.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.niigata.lg.jp/"
+      ]
+    },
+    "www.busena-marinepark.com": {
+      "count": 1,
+      "examples": [
+        "https://www.busena-marinepark.com/"
+      ]
+    },
+    "www.maedamisaki.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.maedamisaki.jp/ko/"
+      ]
+    },
+    "www.gyokusendo.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.gyokusendo.co.jp/okinawaworld/"
+      ]
+    },
+    "www.katsuren-jo.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.katsuren-jo.jp/"
+      ]
+    },
+    "www.nakagusuku-jo.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.nakagusuku-jo.jp/"
+      ]
+    },
+    "www.nakijinjoseki-osi.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.nakijinjoseki-osi.jp/"
+      ]
+    },
+    "www.city.nanjo.okinawa.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.nanjo.okinawa.jp/"
+      ]
+    },
+    "shurijocastle.okinawa": {
+      "count": 1,
+      "examples": [
+        "https://shurijocastle.okinawa/"
+      ]
+    },
+    "www.oppa.or.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.oppa.or.jp/ship/"
+      ]
+    },
+    "www.legolanddiscoverycenter.com": {
+      "count": 1,
+      "examples": [
+        "https://www.legolanddiscoverycenter.com/osaka/en/tickets-passes/"
+      ]
+    },
+    "cms.osaka.legolanddiscoverycenter.com": {
+      "count": 1,
+      "examples": [
+        "https://cms.osaka.legolanddiscoverycenter.com/osaka/en/tickets-passes/"
+      ]
+    },
+    "www.city.otaru.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.otaru.lg.jp/docs/2020112000642/"
+      ]
+    },
+    "www.sakaiminato.net": {
+      "count": 1,
+      "examples": [
+        "https://www.sakaiminato.net/"
+      ]
+    },
+    "www.tottori-guide.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.tottori-guide.jp/"
+      ]
+    },
+    "www.royalcaribbean.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.royalcaribbean.jp/area/asia/SGR/"
+      ]
+    },
+    "www.sasebo-pearl-sea.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.sasebo-pearl-sea.co.jp/en/"
+      ]
+    },
+    "www.umikirara.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.umikirara.jp/en/information/"
+      ]
+    },
+    "www.uminomori.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.uminomori.jp/umino/info/"
+      ]
+    },
+    "www.hinode-dream.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.hinode-dream.jp/access"
+      ]
+    },
+    "www.chibimarukochan-land.com": {
+      "count": 1,
+      "examples": [
+        "https://www.chibimarukochan-land.com/guide/"
+      ]
+    },
+    "kashinoichi.com": {
+      "count": 1,
+      "examples": [
+        "https://kashinoichi.com/access/"
+      ]
+    },
+    "www.shimizu-explorer.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.shimizu-explorer.jp/en/how/ropeway/index.html"
+      ]
+    },
+    "www.city.shizuoka.lg.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.shizuoka.lg.jp/"
+      ]
+    },
+    "www.kotoden.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.kotoden.co.jp/"
+      ]
+    },
+    "www.my-kagawa.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.my-kagawa.jp/"
+      ]
+    },
+    "www.awanavi.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.awanavi.jp/"
+      ]
+    },
+    "www.jptmk.com": {
+      "count": 1,
+      "examples": [
+        "https://www.jptmk.com/"
+      ]
+    },
+    "www.city.tomakomai.hokkaido.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.city.tomakomai.hokkaido.jp/"
+      ]
+    },
+    "tsushima-gbt.com": {
+      "count": 1,
+      "examples": [
+        "https://tsushima-gbt.com/access-en"
+      ]
+    },
+    "www.wakayama-kanko.or.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.wakayama-kanko.or.jp/"
+      ]
+    },
+    "yokohama-air-cabin.jp": {
+      "count": 1,
+      "examples": [
+        "https://yokohama-air-cabin.jp/"
+      ]
+    },
+    "cosmoworld.jp": {
+      "count": 1,
+      "examples": [
+        "https://cosmoworld.jp/"
+      ]
+    },
+    "www.yokohama-akarenga.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.yokohama-akarenga.jp/"
+      ]
+    },
+    "yokohama.cruise-friendly.jp": {
+      "count": 1,
+      "examples": [
+        "https://yokohama.cruise-friendly.jp/route"
+      ]
+    },
+    "www.hammerhead.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.hammerhead.co.jp/terminal/"
+      ]
+    },
+    "jcation.com": {
+      "count": 1,
+      "examples": [
+        "https://jcation.com/omusubi/kabiramarine/"
+      ]
+    },
+    "www.kabiramarine.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.kabiramarine.jp/"
+      ]
+    },
+    "www.e-tix.jp": {
+      "count": 1,
+      "examples": [
+        "https://www.e-tix.jp/cupnoodles-museum.jp/en/"
+      ]
+    },
+    "ticket.huistenbosch.co.jp": {
+      "count": 1,
+      "examples": [
+        "https://ticket.huistenbosch.co.jp/ticket/"
+      ]
+    }
+  },
+  "external_link_unique_count": 1265
+}
