@@ -1,0 +1,37 @@
+name: V124 3 premium travel cards public desktop mobile QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site/images/venues/nf-v124-*.webp'
+      - 'site/index.html'
+      - 'scripts/v124_home_three_photo_live_qa.py'
+      - '.github/workflows/v124-three-photo-live-qa.yml'
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright Pillow
+      - run: python -m playwright install chromium --with-deps
+      - name: Check all three updated site cards on real desktop/mobile public URLs
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if python scripts/v124_home_three_photo_live_qa.py; then exit 0; fi
+            echo "Deployment might be propagating - $attempt/5"
+            if [ "$attempt" -lt 5 ]; then sleep 30; fi
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v124-daytrip-three-cards-1440-390-evidence
+          path: audit-output/v124/
+          retention-days: 45
