@@ -1,0 +1,72 @@
+{
+  "version": "V129",
+  "date": "2026-10-22",
+  "pages": [
+    {
+      "slug": "ube-cruise-port-day-trip",
+      "page": "/things-to-do/ube-cruise-port-day-trip/",
+      "current_hero": "/images/editorial/ube-cruise-port-day-trip.webp",
+      "title": "우베항 크루즈 기항지 | 접안·하선·관광·귀선 | 일본페리",
+      "description": "우베항 크루즈 기항지. 시바나카 서부 1호 부두, 도키와공원·조각문화·우베시 교통과 귀선.",
+      "canonical": "https://www.nipponferry.com/things-to-do/ube-cruise-port-day-trip/",
+      "h1": "우베항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "jsonld": "[{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"우베항 크루즈 기항지 | 접안·하선·관광·귀선 | 일본페리\",\"description\":\"우베항 크루즈 기항지. 시바나카 서부 1호 부두, 도키와공원·조각문화·우베시 교통과 귀선.\",\"inLanguage\":\"ko\",\"datePublished\":\"2026-10-12\",\"dateModified\":\"2026-10-13\",\"mainEntityOfPage\":\"https://www.nipponferry.com/things-to-do/ube-cruise-port-day-trip/\",\"image\":[\"https://www.nipponferry.com/images/editorial/ube-cruise-port-day-trip.webp\"],\"author\":{\"@type\":\"Organization\",\"name\":\"일본페리 | NIPPONFERRY\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"NIPPONFERRY\",\"url\":\"https://www.nipponferry.com\"}},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"홈\",\"item\":\"https://www.nipponferry.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"크루즈 기항지\",\"item\":\"https://www.nipponferry.com/things-to-do/cruise-ports/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"우베항\",\"item\":\"https://www.nipponferry.com/things-to-do/ube-cruise-port-day-trip/\"}]},{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"우베항 크루즈에서 하선하려면 어느 부두를 이용하나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"국토교통성 크루즈 항만 가이드는 우베항의 시바나카 서부 1호 부두(Shibanaka West No.1 Wharf)를 소개한다. 이 항구는 석탄·시멘트 등 지역 산업과 연결된 작업 항만이므로 개별 크루즈 입항 여부와 지정 게이트를 항차별로 확인한다. 정확한 승객용 출입구와 셔틀 정류장은 선사가 항차별로 공지합니다.\"}},{\"@type\":\"Question\",\"name\":\"우베항에서 기항시간이 짧다면 무엇부터 관광하나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"우베항 하선 → 우베시 시내·간단한 식사 → 귀선 교통·현지 영업시간과 선사의 최종 귀선 마감에 맞춰 한두 장소만 고르세요.\"}},{\"@type\":\"Question\",\"name\":\"크루즈 출항 시간까지 관광해도 되나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"안 됩니다. 선사 승객 최종 귀선시간은 출항 시각보다 빠를 수 있으므로 차량 복귀와 승선수속에 여유를 두어야 합니다.\"}}]}]",
+      "og_image": "https://www.nipponferry.com/images/editorial/ube-cruise-port-day-trip.webp"
+    },
+    {
+      "slug": "uno-cruise-port-day-trip",
+      "page": "/things-to-do/uno-cruise-port-day-trip/",
+      "current_hero": "/images/editorial/uno-cruise-port-day-trip.webp",
+      "title": "우노항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드 | NIPPONFERRY",
+      "description": "우노항 크루즈 기항지 여행 가이드. 나오시마·세토내해 예술, 실제 접안 부두 확인 방법과 하선 교통·반나절 관광·안전한 귀선 체크리스트.",
+      "canonical": "https://www.nipponferry.com/things-to-do/uno-cruise-port-day-trip/",
+      "h1": "우노항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "jsonld": "[{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"우노항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드 | NIPPONFERRY\",\"description\":\"우노항 크루즈 기항지 여행 가이드. 나오시마·세토내해 예술, 실제 접안 부두 확인 방법과 하선 교통·반나절 관광·안전한 귀선 체크리스트.\",\"inLanguage\":\"ko\",\"datePublished\":\"2026-10-11\",\"dateModified\":\"2026-10-13\",\"mainEntityOfPage\":\"https://www.nipponferry.com/things-to-do/uno-cruise-port-day-trip/\",\"image\":[\"https://www.nipponferry.com/images/editorial/uno-cruise-port-day-trip.webp\"],\"author\":{\"@type\":\"Organization\",\"name\":\"NIPPONFERRY\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"NIPPONFERRY\",\"url\":\"https://www.nipponferry.com\"}},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"홈\",\"item\":\"https://www.nipponferry.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"크루즈 기항지\",\"item\":\"https://www.nipponferry.com/things-to-do/cruise-ports/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"우노항\",\"item\":\"https://www.nipponferry.com/things-to-do/uno-cruise-port-day-trip/\"}]},{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"우노항 기항 시 하선 후 바로 도보 관광이 가능한가요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"선박별 배정 부두·터미널 출입구와 셔틀 제공 여부에 따라 달라집니다. 항차별 하선 안내를 먼저 확인하세요.\"}},{\"@type\":\"Question\",\"name\":\"우노항의 당일 관광 추천 코스는 무엇인가요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"짧은 기항에는 나오시마 아트 여행 중심으로 일정을 구성하고, 시간이 충분하면 우노항 산책 방문을 검토하세요.\"}},{\"@type\":\"Question\",\"name\":\"귀선 시간은 출항 시각과 같나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"다릅니다. 선사 안내문의 승객 최종 귀선 마감 시각을 우선 지켜야 합니다.\"}}]}]",
+      "og_image": "https://www.nipponferry.com/images/editorial/uno-cruise-port-day-trip.webp"
+    },
+    {
+      "slug": "uwajima-cruise-port-day-trip",
+      "page": "/things-to-do/uwajima-cruise-port-day-trip/",
+      "current_hero": "/images/editorial/uwajima-cruise-port-day-trip.webp",
+      "title": "우와지마항 크루즈 기항지 | 접안·하선·당일 관광·귀선 | 일본페리",
+      "description": "우와지마항 크루즈 기항지. 사카시즈 제2호 안벽, 우와지마성·기사이야 광장·덴샤엔 동선과 귀선.",
+      "canonical": "https://www.nipponferry.com/things-to-do/uwajima-cruise-port-day-trip/",
+      "h1": "우와지마항 크루즈 기항지｜접안 부두·하선·관광·귀선 가이드",
+      "jsonld": "[{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"우와지마항 크루즈 기항지 | 접안·하선·당일 관광·귀선 | 일본페리\",\"description\":\"우와지마항 크루즈 기항지. 사카시즈 제2호 안벽, 우와지마성·기사이야 광장·덴샤엔 동선과 귀선.\",\"inLanguage\":\"ko\",\"datePublished\":\"2026-10-11\",\"dateModified\":\"2026-10-13\",\"mainEntityOfPage\":\"https://www.nipponferry.com/things-to-do/uwajima-cruise-port-day-trip/\",\"image\":[\"https://www.nipponferry.com/images/editorial/uwajima-cruise-port-day-trip.webp\"],\"author\":{\"@type\":\"Organization\",\"name\":\"일본페리 | NIPPONFERRY\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"NIPPONFERRY\",\"url\":\"https://www.nipponferry.com\"}},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"홈\",\"item\":\"https://www.nipponferry.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"크루즈 기항지\",\"item\":\"https://www.nipponferry.com/things-to-do/cruise-ports/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"우와지마항\",\"item\":\"https://www.nipponferry.com/things-to-do/uwajima-cruise-port-day-trip/\"}]},{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"우와지마항 크루즈 접안 부두는 어디인가요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"국토교통성의 우와지마항 크루즈 항만 안내는 사카시즈 제2호 안벽(坂下津第2号岸壁)을 소개한다. 시내 역·우와지마성·기타 항만 부두와는 별도 위치이므로 선사의 차량 출입과 승객 이동 경로를 확인한다. 정확한 하선 출입구와 셔틀 정류장은 항차별 승객 안내가 최우선입니다.\"}},{\"@type\":\"Question\",\"name\":\"우와지마항 짧은 기항에는 어떤 동선을 추천하나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"사카시즈 제2호 부두 → 기사이야 광장 또는 우와지마 시내 → 귀선 관광지 운영시간과 실제 왕복 교통 시간을 확인한 후 한두 곳만 선택하는 것이 안전합니다.\"}},{\"@type\":\"Question\",\"name\":\"출항 시각까지 관광해도 되나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"아니요. 선사가 지정한 승객 최종 귀선 마감은 출항시간보다 빠를 수 있습니다. 시내 교통과 부두 보안·탑승 수속을 고려해 여유 있게 귀선하세요.\"}}]}]",
+      "og_image": "https://www.nipponferry.com/images/editorial/uwajima-cruise-port-day-trip.webp"
+    },
+    {
+      "slug": "yatsushiro-cruise-port-day-trip",
+      "page": "/things-to-do/yatsushiro-cruise-port-day-trip/",
+      "current_hero": "/images/editorial/yatsushiro-cruise-port-day-trip.webp",
+      "title": "야쓰시로항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드 | NIPPONFERRY",
+      "description": "야쓰시로항 크루즈 기항지 여행 가이드. 구마모토성·역사 여행, 실제 접안 부두 확인 방법과 하선 교통·반나절 관광·안전한 귀선 체크리스트.",
+      "canonical": "https://www.nipponferry.com/things-to-do/yatsushiro-cruise-port-day-trip/",
+      "h1": "야쓰시로항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드",
+      "jsonld": "[{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"야쓰시로항 크루즈 기항지｜접안 부두·당일 관광·교통·귀선 가이드 | NIPPONFERRY\",\"description\":\"야쓰시로항 크루즈 기항지 여행 가이드. 구마모토성·역사 여행, 실제 접안 부두 확인 방법과 하선 교통·반나절 관광·안전한 귀선 체크리스트.\",\"inLanguage\":\"ko\",\"datePublished\":\"2026-10-11\",\"dateModified\":\"2026-10-13\",\"mainEntityOfPage\":\"https://www.nipponferry.com/things-to-do/yatsushiro-cruise-port-day-trip/\",\"image\":[\"https://www.nipponferry.com/images/editorial/yatsushiro-cruise-port-day-trip.webp\"],\"author\":{\"@type\":\"Organization\",\"name\":\"NIPPONFERRY\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"NIPPONFERRY\",\"url\":\"https://www.nipponferry.com\"}},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"홈\",\"item\":\"https://www.nipponferry.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"크루즈 기항지\",\"item\":\"https://www.nipponferry.com/things-to-do/cruise-ports/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"야쓰시로항\",\"item\":\"https://www.nipponferry.com/things-to-do/yatsushiro-cruise-port-day-trip/\"}]},{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"야쓰시로항 기항 시 하선 후 바로 도보 관광이 가능한가요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"선박별 배정 부두·터미널 출입구와 셔틀 제공 여부에 따라 달라집니다. 항차별 하선 안내를 먼저 확인하세요.\"}},{\"@type\":\"Question\",\"name\":\"야쓰시로항의 당일 관광 추천 코스는 무엇인가요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"짧은 기항에는 구마모토성 중심으로 일정을 구성하고, 시간이 충분하면 야쓰시로 시내 방문을 검토하세요.\"}},{\"@type\":\"Question\",\"name\":\"귀선 시간은 출항 시각과 같나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"다릅니다. 선사 안내문의 승객 최종 귀선 마감 시각을 우선 지켜야 합니다.\"}}]}]",
+      "og_image": "https://www.nipponferry.com/images/editorial/yatsushiro-cruise-port-day-trip.webp"
+    },
+    {
+      "slug": "yawatahama-cruise-port-day-trip",
+      "page": "/things-to-do/yawatahama-cruise-port-day-trip/",
+      "current_hero": "/images/editorial/yawatahama-cruise-port-day-trip.webp",
+      "title": "야와타하마항 크루즈 기항지 | 접안·하선·관광·귀선 | 일본페리",
+      "description": "야와타하마항 크루즈 기항지. 여객터미널·미낫토·야와타하마 짬뽕·계단식 감귤밭과 귀선.",
+      "canonical": "https://www.nipponferry.com/things-to-do/yawatahama-cruise-port-day-trip/",
+      "h1": "야와타하마항 크루즈 기항지｜접안 부두·하선·당일 관광·귀선 가이드",
+      "jsonld": "[{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"야와타하마항 크루즈 기항지 | 접안·하선·관광·귀선 | 일본페리\",\"description\":\"야와타하마항 크루즈 기항지. 여객터미널·미낫토·야와타하마 짬뽕·계단식 감귤밭과 귀선.\",\"inLanguage\":\"ko\",\"datePublished\":\"2026-10-12\",\"dateModified\":\"2026-10-13\",\"mainEntityOfPage\":\"https://www.nipponferry.com/things-to-do/yawatahama-cruise-port-day-trip/\",\"image\":[\"https://www.nipponferry.com/images/editorial/yawatahama-cruise-port-day-trip.webp\"],\"author\":{\"@type\":\"Organization\",\"name\":\"일본페리 | NIPPONFERRY\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"NIPPONFERRY\",\"url\":\"https://www.nipponferry.com\"}},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"홈\",\"item\":\"https://www.nipponferry.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"크루즈 기항지\",\"item\":\"https://www.nipponferry.com/things-to-do/cruise-ports/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"야와타하마항\",\"item\":\"https://www.nipponferry.com/things-to-do/yawatahama-cruise-port-day-trip/\"}]},{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"야와타하마항 크루즈에서 하선하려면 어느 부두를 이용하나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"국토교통성 크루즈 항만 가이드는 에히메현 야와타하마시 데지마 지역의 여객항을 소개한다. 이 항구는 규슈행 정기 페리의 출발지이기도 하지만 크루즈 승객이 정기선 터미널의 같은 게이트를 사용하는지 여부는 선사 하선 안내로 확정해야 한다. 정확한 승객용 출입구와 셔틀 정류장은 선사가 항차별로 공지합니다.\"}},{\"@type\":\"Question\",\"name\":\"야와타하마항에서 기항시간이 짧다면 무엇부터 관광하나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"야와타하마항 하선 → 야와타하마 미낫토·지역 점심 → 귀선 교통·현지 영업시간과 선사의 최종 귀선 마감에 맞춰 한두 장소만 고르세요.\"}},{\"@type\":\"Question\",\"name\":\"크루즈 출항 시간까지 관광해도 되나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"안 됩니다. 선사 승객 최종 귀선시간은 출항 시각보다 빠를 수 있으므로 차량 복귀와 승선수속에 여유를 두어야 합니다.\"}}]}]",
+      "og_image": "https://www.nipponferry.com/images/editorial/yawatahama-cruise-port-day-trip.webp"
+    },
+    {
+      "slug": "yokkaichi-cruise-port-day-trip",
+      "page": "/things-to-do/yokkaichi-cruise-port-day-trip/",
+      "current_hero": "/images/editorial/yokkaichi-cruise-port-day-trip.webp",
+      "title": "욧카이치 크루즈 기항지 여행｜하선 부두·추천 관광·교통·귀선 | NIPPONFERRY",
+      "description": "욧카이치 크루즈 기항지 가이드. 욧카이치항 수변·욧카이치 산업 경관 관광, 실제 접안 부두 확인법, 반나절 동선과 귀선 체크리스트.",
+      "canonical": "https://www.nipponferry.com/things-to-do/yokkaichi-cruise-port-day-trip/",
+      "h1": "욧카이치 크루즈 기항지 여행｜하선 부두·추천 관광·교통·귀선",
+      "jsonld": "[{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"욧카이치 크루즈 기항지 여행｜하선 부두·추천 관광·교통·귀선\",\"description\":\"욧카이치 크루즈 기항지 가이드. 욧카이치항 수변·욧카이치 산업 경관 관광, 실제 접안 부두 확인법, 반나절 동선과 귀선 체크리스트.\",\"inLanguage\":\"ko\",\"datePublished\":\"2026-10-10\",\"dateModified\":\"2026-10-13\",\"mainEntityOfPage\":\"https://www.nipponferry.com/things-to-do/yokkaichi-cruise-port-day-trip/\",\"image\":[\"https://www.nipponferry.com/images/editorial/yokkaichi-cruise-port-day-trip.webp\"],\"author\":{\"@type\":\"Organization\",\"name\":\"NIPPONFERRY\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"NIPPONFERRY\",\"url\":\"https://www.nipponferry.com\"}},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"홈\",\"item\":\"https://www.nipponferry.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"크루즈 기항지\",\"item\":\"https://www.nipponferry.com/things-to-do/cruise-ports/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"욧카이치\",\"item\":\"https://www.nipponferry.com/things-to-do/yokkaichi-cruise-port-day-trip/\"}]},{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"욧카이치항에서 내려 바로 관광할 수 있나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"실제 접안 지점과 선사 셔틀 안내에 따라 다릅니다. 욧카이치항 선박 지정 부두 확인.\"}},{\"@type\":\"Question\",\"name\":\"욧카이치 크루즈 당일 관광에서 가장 중요한 것은?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"최종 귀선 마감시간을 확인하고 욧카이치항 수변·욧카이치 산업 경관 중 한 권역을 골라 복귀 수단을 확보하는 것입니다.\"}}]}]",
+      "og_image": "https://www.nipponferry.com/images/editorial/yokkaichi-cruise-port-day-trip.webp"
+    }
+  ]
+}
