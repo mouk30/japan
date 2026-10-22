@@ -60,3 +60,5 @@ jobs:
             audit-reports/v128/photo-plan.json
             audit-reports/v128/import-result.json
           retention-days: 45
+
+# V128 second pass: trigger source and public-site QA after ten real WebP files are committed.
