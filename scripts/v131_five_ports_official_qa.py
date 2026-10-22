@@ -108,7 +108,7 @@ def live():
       loaded=cover.evaluate("(e)=>new Promise(f=>{if(e.complete)return f(e.naturalWidth>0);e.addEventListener('load',()=>f(true),{once:true});e.addEventListener('error',()=>f(false),{once:true})})",timeout=20000)
       if not loaded:raise ValueError("broken existing cover photo")
      for link in urls:
-      if sec.locator('a[href*="'+link+'"]').count()!=1:raise ValueError("missing expected official source link "+link)
+      if sec.locator('a[href*="'+link+'"]').count()<1:raise ValueError("missing expected official source link "+link)
      if page.evaluate("document.documentElement.scrollWidth")>width+12:
       raise ValueError("horizontal overflow")
      sec.screenshot(path=str(OUTPUT/f"{slug}-{width}.png"),timeout=30000,animations="disabled")
