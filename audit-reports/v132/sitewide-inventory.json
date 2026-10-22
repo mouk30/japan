@@ -1,0 +1,2896 @@
+{
+  "version": "V132",
+  "generated_utc": "2026-10-22T14:58:18.585772+00:00",
+  "scope": {
+    "site_html_pages": 1277,
+    "site_local_images": 1242,
+    "regions": {
+      "things-to-do": 465,
+      "japan": 369,
+      "guide": 100,
+      "life": 49,
+      "practical": 41,
+      "couple": 35,
+      "season": 34,
+      "stay": 28,
+      "shopping": 22,
+      "booking": 18,
+      "okinawa": 13,
+      "plan": 11,
+      "japan-cruise": 10,
+      "theme": 8,
+      "seasons": 5,
+      "voucher": 2,
+      "404.html": 1,
+      "busan-fukuoka-cruise": 1,
+      "busan-fukuoka-cruise-price": 1,
+      "busan-hitakatsu-cruise": 1,
+      "busan-izuhara-cruise": 1,
+      "busan-osaka-cruise": 1,
+      "busan-osaka-cruise-price": 1,
+      "busan-shimonoseki-cruise": 1,
+      "busan-shimonoseki-cruise-price": 1,
+      "busan-tsushima-cruise": 1,
+      "busan-tsushima-cruise-price": 1,
+      "contents": 1,
+      "explore": 1,
+      "ferry": 1,
+      "food": 1,
+      "fukuoka-1n2d-vs-2n3d": 1,
+      "fukuoka-arrival-first-3-hours": 1,
+      "fukuoka-cash-or-card": 1,
+      "fukuoka-esim-or-roaming": 1,
+      "fukuoka-hakata-vs-tenjin": 1,
+      "fukuoka-luggage-storage": 1,
+      "fukuoka-what-to-wear": 1,
+      "hokkaido-3n4d-vs-4n5d": 1,
+      "hokkaido-arrival-first-3-hours": 1,
+      "hokkaido-cash-or-card": 1,
+      "hokkaido-esim-or-roaming": 1,
+      "hokkaido-luggage-storage": 1,
+      "hokkaido-sapporo-vs-otaru": 1,
+      "hokkaido-train-vs-rental-car": 1,
+      "hokkaido-what-to-wear": 1,
+      "": 1,
+      "japan-cruise-checkin": 1,
+      "japan-cruise-room": 1,
+      "japan-cruise-seasickness": 1,
+      "kids": 1,
+      "kobe-arrival-first-3-hours": 1,
+      "kobe-cash-or-card": 1,
+      "kobe-daytrip-vs-1n2d": 1,
+      "kobe-esim-or-roaming": 1,
+      "kobe-luggage-storage": 1,
+      "kobe-vs-osaka": 1,
+      "kobe-what-to-wear": 1,
+      "osaka-2n3d-vs-3n4d": 1,
+      "osaka-arrival-first-3-hours": 1,
+      "osaka-cash-or-card": 1,
+      "osaka-cruise-vs-flight": 1,
+      "osaka-esim-or-roaming": 1,
+      "osaka-luggage-storage": 1,
+      "osaka-namba-vs-umeda": 1,
+      "osaka-what-to-wear": 1,
+      "photo-spots": 1,
+      "route": 1,
+      "routes": 1,
+      "shimonoseki-arrival-first-3-hours": 1,
+      "shimonoseki-cash-or-card": 1,
+      "shimonoseki-esim-or-roaming": 1,
+      "shimonoseki-karato-vs-mojiko": 1,
+      "shimonoseki-luggage-storage": 1,
+      "shimonoseki-what-to-wear": 1,
+      "tips": 1,
+      "tsushima-arrival-first-3-hours": 1,
+      "tsushima-cash-or-card": 1,
+      "tsushima-daytrip-vs-1n2d": 1,
+      "tsushima-esim-or-roaming": 1,
+      "tsushima-hitakatsu-vs-izuhara": 1,
+      "tsushima-luggage-storage": 1,
+      "tsushima-what-to-wear": 1
+    }
+  },
+  "counts": {
+    "missing_image_local_references": 0,
+    "unresolved_internal_links": 0,
+    "seo_fields_or_nonself_canonical": 8,
+    "cover_social_or_article_image_conflicts": 101,
+    "likely_stale_ai_label": 0,
+    "hero_photo_source_visibility_review": 289,
+    "cruise_port_pages": 194,
+    "cruise_return_language_missing": 0,
+    "booking_cta_destination_review": 44,
+    "old_operational_date_context_review": 28,
+    "missing_alt": 0
+  },
+  "limits": [
+    "Photo-place truth and reuse rights require original image/site-specific human validation",
+    "External HTTP reachable is not a booking-confirmation test",
+    "Ship-specific final boarding, berths and shuttles are unavailable without vessel/date/official operator notice",
+    "Year-near-operating-information is a review candidate, not proof of expired price",
+    "No automatic replacement of unclear official sources"
+  ],
+  "findings": {
+    "missing_local_images": [],
+    "unresolved_internal_links": [],
+    "seo": [
+      {
+        "page": "/japan/tokyo/photo-review/",
+        "issue": "no_description"
+      },
+      {
+        "page": "/japan/tokyo/photo-review/",
+        "issue": "no_canonical"
+      },
+      {
+        "page": "/route/",
+        "issue": "no_description"
+      },
+      {
+        "page": "/route/",
+        "issue": "no_h1"
+      },
+      {
+        "page": "/route/",
+        "issue": "canonical_target_different",
+        "value": "https://www.nipponferry.com/ferry/"
+      },
+      {
+        "page": "/routes/",
+        "issue": "no_description"
+      },
+      {
+        "page": "/routes/",
+        "issue": "no_h1"
+      },
+      {
+        "page": "/routes/",
+        "issue": "canonical_target_different",
+        "value": "https://www.nipponferry.com/ferry/"
+      }
+    ],
+    "image_meta_mismatch": [
+      {
+        "page": "/things-to-do/abashiri-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v114-abashiri-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/abashiri-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/amami-naze-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v125-amami-naze-cruise-port-day-trip-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/amami-naze-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/aokata-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v115-aokata-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/aokata-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/aomori-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/aomori-nebuta-warasse.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/aomori-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/atami-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v113-atami-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/atami-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/beppu-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/beppu-umi-jigoku.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/beppu-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/fukui-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v125-fukui-cruise-port-day-trip-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/fukui-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/fukuyama-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v115-fukuyama-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/fukuyama-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/fushiki-toyama-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v113-fushiki-toyama-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/fushiki-toyama-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/futami-ogasawara-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v125-futami-ogasawara-cruise-port-day-trip-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/futami-ogasawara-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/gamagori-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v115-gamagori-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/gamagori-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/goto-fukue-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v118-goto-fukue-cruise-port-day-trip-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/goto-fukue-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hagi-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v115-hagi-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/hagi-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hakata-cruise-couple-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/fukuoka-ohori-park.webp",
+        "og": "https://www.nipponferry.com/images/editorial/hakata-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/hakata-cruise-couple-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/fukuoka-ohori-park.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/hakata-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hakata-cruise-family-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/hakata-anpanman-host-building.webp",
+        "og": "https://www.nipponferry.com/images/editorial/hakata-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/hakata-cruise-family-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/hakata-anpanman-host-building.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/hakata-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hakata-cruise-parents-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/fukuoka-tower.webp",
+        "og": "https://www.nipponferry.com/images/editorial/hakata-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/hakata-cruise-parents-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/fukuoka-tower.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/hakata-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hakata-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/fukuoka-ohori-park.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/hakata-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hakata-port-dazaifu-shore-excursion/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v118-hakata-port-dazaifu-shore-excursion-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/v340_hakata-port-dazaifu-shore-excursion.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hakata-port-tenjin-sightseeing/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v118-hakata-port-tenjin-sightseeing-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/v339_hakata-port-tenjin-sightseeing.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hakodate-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/hakodate-goryokaku-tower.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/hakodate-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hamada-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v115-hamada-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/hamada-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hannan-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v115-hannan-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/hannan-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hidaka-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v115-hidaka-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/hidaka-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/himeji-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v114-himeji-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/himeji-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hirado-kawachi-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v115-hirado-kawachi-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/hirado-kawachi-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hirara-miyakojima-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/miyakojima-yonaha-maehama.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/hirara-miyakojima-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/hososhima-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v115-hososhima-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/hososhima-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/ibaraki-hitachinaka-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v114-ibaraki-hitachinaka-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/ibaraki-hitachinaka-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/iki-gonoura-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v125-iki-gonoura-cruise-port-day-trip-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/iki-gonoura-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/imabari-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v125-imabari-cruise-port-day-trip-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/imabari-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/imari-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v118-imari-cruise-port-day-trip-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/imari-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-couple-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/ishigaki-kabira-bay.webp",
+        "og": "https://www.nipponferry.com/images/editorial/ishigaki-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-couple-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/ishigaki-kabira-bay.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/ishigaki-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-family-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/ishigaki-kabira-bay.webp",
+        "og": "https://www.nipponferry.com/images/editorial/ishigaki-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-family-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/ishigaki-kabira-bay.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/ishigaki-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-new-port-shuttle/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v118-ishigaki-cruise-new-port-shuttle-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/v344_ishigaki-cruise-new-port-shuttle.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-parents-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/ishigaki-kabira-bay.webp",
+        "og": "https://www.nipponferry.com/images/editorial/ishigaki-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-parents-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/ishigaki-kabira-bay.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/ishigaki-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/ishigaki-kabira-bay.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/ishigaki-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/ito-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v125-ito-cruise-port-day-trip-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/ito-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/kagoshima-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/kagoshima-ioworld-aquarium.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/kagoshima-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/kaminato-hachijojima-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v125-kaminato-hachijojima-cruise-port-day-trip-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/kaminato-hachijojima-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/kanazawa-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/kanazawa-higashi-chaya.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/kanazawa-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/karatsu-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v114-karatsu-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/karatsu-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/kisarazu-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v115-kisarazu-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/kisarazu-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/kobe-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/kobe-meriken-park-night.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/kobe-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/kushiro-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v113-kushiro-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/kushiro-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/miyazaki-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v125-miyazaki-cruise-port-day-trip-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/miyazaki-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/motobu-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v114-motobu-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/motobu-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/muroran-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v113-muroran-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/muroran-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/nagasaki-cruise-4-6-8-hour-itinerary/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v118-nagasaki-cruise-4-6-8-hour-itinerary-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/v343_nagasaki-cruise-4-6-8-hour-itinerary.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/nagasaki-cruise-couple-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/nagasaki-glover-garden.webp",
+        "og": "https://www.nipponferry.com/images/editorial/nagasaki-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/nagasaki-cruise-couple-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nagasaki-glover-garden.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/nagasaki-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/nagasaki-cruise-family-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/nagasaki-penguin-aquarium.webp",
+        "og": "https://www.nipponferry.com/images/editorial/nagasaki-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/nagasaki-cruise-family-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nagasaki-penguin-aquarium.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/nagasaki-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/nagasaki-cruise-parents-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/nagasaki-glover-garden.webp",
+        "og": "https://www.nipponferry.com/images/editorial/nagasaki-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/nagasaki-cruise-parents-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nagasaki-glover-garden.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/nagasaki-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/nagasaki-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nagasaki-glover-garden.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/nagasaki-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/naha-cruise-couple-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/naha-kokusai-street.webp",
+        "og": "https://www.nipponferry.com/images/editorial/naha-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/naha-cruise-couple-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/naha-kokusai-street.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/naha-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/naha-cruise-family-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/naha-dmm-kariyushi-aquarium.webp",
+        "og": "https://www.nipponferry.com/images/editorial/naha-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/naha-cruise-family-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/naha-dmm-kariyushi-aquarium.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/naha-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/naha-cruise-parents-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/naha-prefectural-museum.webp",
+        "og": "https://www.nipponferry.com/images/editorial/naha-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/naha-cruise-parents-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/naha-prefectural-museum.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/naha-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/naha-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/naha-kokusai-street.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/naha-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/naha-half-day-cruise-excursion/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v118-naha-half-day-cruise-excursion-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/v337_naha-half-day-cruise-excursion.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/naha-shuri-castle-cruise-sightseeing/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/naha-shureimon.webp",
+        "og": "https://www.nipponferry.com/images/editorial/v336_naha-shuri-castle-cruise-sightseeing.webp"
+      },
+      {
+        "page": "/things-to-do/naha-shuri-castle-cruise-sightseeing/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/naha-shureimon.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/v336_naha-shuri-castle-cruise-sightseeing.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/niigata-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v113-niigata-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/niigata-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/niihama-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v125-niihama-cruise-port-day-trip-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/niihama-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/osaka-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/osaka-kaiyukan-aquarium.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/osaka-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/sado-ogi-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v114-sado-ogi-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/sado-ogi-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/sakata-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v113-sakata-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/sakata-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/sasebo-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/sasebo-huis-ten-bosch.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/sasebo-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/sendai-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v113-sendai-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/sendai-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/shimizu-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/shimizu-chibi-maruko-host-building.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/shimizu-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/shimonoseki-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/v62-karato-market-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/shimonoseki-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/shiraoi-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v113-shiraoi-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/shiraoi-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/tokushima-komatsushima-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v114-tokushima-komatsushima-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/tokushima-komatsushima-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/tomakomai-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v113-tomakomai-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/tomakomai-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/tottori-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v113-tottori-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/tottori-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/tsushima-izuhara-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/v62-izuhara-port-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/wakayama-shimotsu-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v114-wakayama-shimotsu-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/wakayama-shimotsu-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/wakkanai-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v114-wakkanai-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/wakkanai-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/yakushima-miyanoura-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v114-yakushima-miyanoura-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/yakushima-miyanoura-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/yokohama-cruise-couple-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/yokohama-air-cabin.webp",
+        "og": "https://www.nipponferry.com/images/editorial/yokohama-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/yokohama-cruise-couple-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/yokohama-air-cabin.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/yokohama-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/yokohama-cruise-family-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/yokohama-cupnoodles-museum.webp",
+        "og": "https://www.nipponferry.com/images/editorial/yokohama-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/yokohama-cruise-family-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/yokohama-cupnoodles-museum.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/yokohama-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/yokohama-cruise-parents-guide/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/yokohama-air-cabin.webp",
+        "og": "https://www.nipponferry.com/images/editorial/yokohama-cruise-port-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/yokohama-cruise-parents-guide/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/yokohama-air-cabin.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/yokohama-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/yokohama-cruise-port-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/yokohama-redbrick-waterfront.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/yokohama-cruise-port-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/yokohama-daikoku-pier-cruise-terminal/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v125-yokohama-daikoku-pier-cruise-terminal-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/v333_yokohama-daikoku-pier-cruise-terminal.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/yokohama-minato-mirai-cruise-day-trip/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/yokohama-air-cabin.webp",
+        "og": "https://www.nipponferry.com/images/editorial/v334_yokohama-minato-mirai-cruise-day-trip.webp"
+      },
+      {
+        "page": "/things-to-do/yokohama-minato-mirai-cruise-day-trip/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/yokohama-air-cabin.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/v334_yokohama-minato-mirai-cruise-day-trip.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/yokohama-osanbashi-cruise-terminal/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/nf-v118-yokohama-osanbashi-cruise-terminal-real.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/v331_yokohama-osanbashi-cruise-terminal.webp"
+        ]
+      },
+      {
+        "page": "/things-to-do/yokohama-shinko-pier-cruise-area/",
+        "issue": "cover_vs_og",
+        "cover": "/images/venues/yokohama-redbrick-waterfront.webp",
+        "og": "https://www.nipponferry.com/images/editorial/v332_yokohama-shinko-pier-cruise-area.webp"
+      },
+      {
+        "page": "/things-to-do/yokohama-shinko-pier-cruise-area/",
+        "issue": "cover_vs_article_schema",
+        "cover": "/images/venues/yokohama-redbrick-waterfront.webp",
+        "article_images": [
+          "https://www.nipponferry.com/images/editorial/v332_yokohama-shinko-pier-cruise-area.webp"
+        ]
+      }
+    ],
+    "stale_ai_labels": [],
+    "photo_source_visibility": [
+      {
+        "page": "/couple/ferry-cabin-for-couples/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/fukuoka-couple-2n3d/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/couple/fukuoka-night-date/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/couple/japan-christmas-date/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/japan-confession-culture/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/japan-couple-anniversary-culture/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/japan-couple-messaging-culture/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/japan-couple-photo-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/japan-couple-trip-planning/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/japan-date-cost-splitting/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/japan-ferry-couple-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/japan-onsen-couple-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/japan-valentine-white-day/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/japanese-women-stereotypes/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/joshiryoku-cooking-image/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/joshiryoku-fashion-makeup/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/joshiryoku-lifestyle/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/joshiryoku-meaning/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/joshiryoku-modern-japan/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/korea-japan-couple-anniversary-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/korea-japan-couple-before-marriage/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/korea-japan-couple-language/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/korea-japan-couple-reality/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/korea-japan-long-distance-couple/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/kyoto-romantic-date/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/meet-japanese-partner-parents/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/ocean-view-cabin-couple/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/couple/osaka-couple-3n4d/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/couple/osaka-night-date/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/couple/tokyo-night-view-date/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/guide/bugwan-ferry-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/bugwan-ferry-rooms/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/cabin.jpg"
+      },
+      {
+        "page": "/guide/busan-fukuoka-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/guide/busan-fukuoka-ferry-price/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/guide/busan-fukuoka-timetable/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/guide/busan-hitakatsu-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/busan-izuhara-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/busan-osaka-car-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/guide/busan-osaka-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/guide/busan-osaka-ferry-price/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/guide/busan-osaka-timetable/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/guide/busan-port-departure-process/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/guide/busan-shimonoseki-car-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/shimonoseki.jpg"
+      },
+      {
+        "page": "/guide/busan-shimonoseki-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/shimonoseki.jpg"
+      },
+      {
+        "page": "/guide/busan-shimonoseki-ferry-price/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/shimonoseki.jpg"
+      },
+      {
+        "page": "/guide/busan-shimonoseki-timetable/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/shimonoseki.jpg"
+      },
+      {
+        "page": "/guide/busan-station-to-port/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/guide/busan-tsushima-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/busan-tsushima-ferry-price/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/busan-tsushima-timetable/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/fukuoka-busan-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/guide/fukuoka-ferry-2n3d/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/guide/fukuoka-ferry-3n4d/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/guide/fukuoka-ferry-vs-flight/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/guide/fukuoka-vs-shimonoseki-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/guide/fukuoka-vs-tsushima-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/guide/gimhae-airport-to-busan-port/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/guide/hakata-port-to-hakata-station/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/guide/hakata-port-to-tenjin/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/guide/hitakatsu-day-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/hitakatsu-port-transport/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/hitakatsu-vs-izuhara/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/how-to-take-japan-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/izuhara-1n2d/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/izuhara-port-transport/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-baggage/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-bath/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-bicycle/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/car.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-booking-passport/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-cancellation-refund/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-car/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/car.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-cheap-booking/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-checkin-time/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-day-trip-options/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-delay-cancellation/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-duty-free/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-esim/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/esim.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-faq/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-first-timer/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-fuel-surcharge/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-how-early/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-live-status/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-meals/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-motorcycle/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/car.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-overnight-tips/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-overnight-value/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/onsen.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-packing-list/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-passport/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-peak-season-booking/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/season.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-prohibited-items/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-rainy-day/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-room-classes/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/cabin.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-roundtrip-vs-oneway/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-seasickness/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-seniors/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-sleep-kit/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-solo-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-suitcase/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-terminal-fees/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-travel-time/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-typhoon-season/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/season.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-visit-japan-web/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-vs-flight/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-wifi/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/esim.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-winter/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/guide/japan-ferry-with-kids/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/japan-port-arrival-process/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/guide/new-camellia-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/new-camellia-rooms/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/cabin.jpg"
+      },
+      {
+        "page": "/guide/new-camellia-vs-bugwan/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/nova-tsushima-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/osaka-busan-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/guide/osaka-ferry-3n4d/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/guide/osaka-ferry-4n5d/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/guide/osaka-ferry-vs-flight/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/guide/osaka-port-to-namba/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/guide/osaka-port-to-umeda/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/guide/panstar-miracle-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/panstar-miracle-rooms/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/cabin.jpg"
+      },
+      {
+        "page": "/guide/panstar-vs-new-camellia/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/guide/seaflower-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/guide/shimonoseki-busan-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/shimonoseki.jpg"
+      },
+      {
+        "page": "/guide/shimonoseki-ferry-2n3d/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/shimonoseki.jpg"
+      },
+      {
+        "page": "/guide/shimonoseki-mojiko-2n3d/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/shimonoseki.jpg"
+      },
+      {
+        "page": "/guide/shimonoseki-port-to-karato/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/shimonoseki.jpg"
+      },
+      {
+        "page": "/guide/shimonoseki-port-to-mojiko/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/shimonoseki.jpg"
+      },
+      {
+        "page": "/guide/tsushima-1n2d/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/tsushima-busan-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/tsushima-day-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/guide/tsushima-link-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/japan/fukuoka-dessert/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/editorial/wagashi-japanese-seasonal-sweets.webp"
+      },
+      {
+        "page": "/japan/fukuoka-market/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Yanagibashi_Rengo_Ichiba_by_LWY_in_Fukuoka.jpg"
+      },
+      {
+        "page": "/japan/fukuoka-one-day/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/japan/fukuoka-photo/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/japan/fukuoka-season/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/japan/osaka-dessert/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/editorial/wagashi-japanese-seasonal-sweets.webp"
+      },
+      {
+        "page": "/japan/osaka-market/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Osaka_market.jpg"
+      },
+      {
+        "page": "/japan/osaka-one-day/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/japan/osaka-photo/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/japan/osaka-season/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/japan/shimonoseki-dessert/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/editorial/wagashi-japanese-seasonal-sweets.webp"
+      },
+      {
+        "page": "/japan/shimonoseki-market/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Karato_market%2C_Shimonoseki.jpg"
+      },
+      {
+        "page": "/japan/shimonoseki-one-day/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/shimonoseki.jpg"
+      },
+      {
+        "page": "/japan/shimonoseki-photo/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/shimonoseki.jpg"
+      },
+      {
+        "page": "/japan/shimonoseki-season/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/shimonoseki.jpg"
+      },
+      {
+        "page": "/japan/tsushima-dessert/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/food-verified/tsushima-dessert.webp"
+      },
+      {
+        "page": "/japan/tsushima-market/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hub-thumbnails/food-tsushima-market.svg"
+      },
+      {
+        "page": "/japan/tsushima-one-day/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/japan/tsushima-photo/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/japan/tsushima-season/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/tsushima.jpg"
+      },
+      {
+        "page": "/life/aeon-maxvalu-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/don-quijote-first-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/don-quijote-late-night/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/don-quijote-shopping-list/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/don-quijote-tax-free/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/japan-100yen-shop/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-24-hour-shops/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-card-only-travel/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/cash.jpg"
+      },
+      {
+        "page": "/life/japan-card-payment-error/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/cash.jpg"
+      },
+      {
+        "page": "/life/japan-cash-how-much/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/cash.jpg"
+      },
+      {
+        "page": "/life/japan-coin-laundry-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-coins-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-convenience-atm/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/cash.jpg"
+      },
+      {
+        "page": "/life/japan-convenience-bento/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/convenience.jpg"
+      },
+      {
+        "page": "/life/japan-convenience-shopping-list/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/japan-depachika-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-drugstore-shopping/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/japan-exchange-vs-card/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/cash.jpg"
+      },
+      {
+        "page": "/life/japan-family-restaurant-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-game-center-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-gyudon-chain-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-kaiten-sushi-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-late-night-food/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/food.jpg"
+      },
+      {
+        "page": "/life/japan-pachinko-first-visit/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-pachinko-what-is/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-pharmacy-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-public-toilet-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-purikura-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-rain-umbrella-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-smoking-area-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-supermarket-discount-time/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/japan-supermarket-ready-food/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/food.jpg"
+      },
+      {
+        "page": "/life/japan-supermarket-souvenir/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/japan-tax-free-2026/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/japan-tax-free-passport/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/japan-trash-bin-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-ufo-catcher/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/japan-vending-machine-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/life/life-supermarket-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/lopia-supermarket-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/ok-store-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/local.jpg"
+      },
+      {
+        "page": "/life/pachinko-vs-game-center/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/practical/ghibli-museum-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/practical/hokkaido-winter-bus-tour/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/practical/japan-airport-bus-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/transport.jpg"
+      },
+      {
+        "page": "/practical/japan-atm-cash-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/cash.jpg"
+      },
+      {
+        "page": "/practical/japan-bus-seat-types/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/transport.jpg"
+      },
+      {
+        "page": "/practical/japan-bus-tour-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/transport.jpg"
+      },
+      {
+        "page": "/practical/japan-coin-locker-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/practical/japan-data-usage/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/practical/japan-esim-galaxy/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/esim.jpg"
+      },
+      {
+        "page": "/practical/japan-esim-iphone/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/esim.jpg"
+      },
+      {
+        "page": "/practical/japan-esim-setup/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/esim.jpg"
+      },
+      {
+        "page": "/practical/japan-esim-troubleshooting/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/esim.jpg"
+      },
+      {
+        "page": "/practical/japan-esim-vs-sim-wifi/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/esim.jpg"
+      },
+      {
+        "page": "/practical/japan-half-day-tour/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/practical/japan-highway-bus-booking/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/transport.jpg"
+      },
+      {
+        "page": "/practical/japan-ic-card-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/transport.jpg"
+      },
+      {
+        "page": "/practical/japan-luggage-delivery/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/practical/japan-night-bus-checklist/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/transport.jpg"
+      },
+      {
+        "page": "/practical/japan-power-adapter-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/practical/japan-sightseeing-train-couple/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/practical/japan-sightseeing-train-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/transport.jpg"
+      },
+      {
+        "page": "/practical/japan-theme-park-couple/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/practical/japan-theme-park-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/practical/japan-translation-app-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/practical/kyoto-bus-tour-vs-free/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/transport.jpg"
+      },
+      {
+        "page": "/practical/kyoto-tango-kuromatsu/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/transport.jpg"
+      },
+      {
+        "page": "/practical/mt-fuji-day-bus-tour/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/transport.jpg"
+      },
+      {
+        "page": "/practical/nagashima-spaland-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/practical/nijigen-no-mori-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/practical/osaka-fukuoka-highway-bus/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/fukuoka.jpg"
+      },
+      {
+        "page": "/practical/setsugekka-train/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/transport.jpg"
+      },
+      {
+        "page": "/practical/shimabara-cafe-train/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/transport.jpg"
+      },
+      {
+        "page": "/practical/tokyo-osaka-bus-vs-shinkansen/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/osaka.jpg"
+      },
+      {
+        "page": "/season/asahikawa-winter-festival/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/hokkaido-winter-onsen/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/seasons/v29-season-19.webp"
+      },
+      {
+        "page": "/season/hokkaido-winter-packing/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/hokkaido-winter-photo-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/hokkaido-winter-rental-car/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/hokkaido-winter-seniors/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/hokkaido-winter-solo/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/japan-autumn-food-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/food.jpg"
+      },
+      {
+        "page": "/season/japan-autumn-leaves-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/season.jpg"
+      },
+      {
+        "page": "/season/japan-cherry-blossom-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/season.jpg"
+      },
+      {
+        "page": "/season/japan-fireworks-festival/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/season.jpg"
+      },
+      {
+        "page": "/season/japan-spring-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/season.jpg"
+      },
+      {
+        "page": "/season/japan-summer-festival-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/season.jpg"
+      },
+      {
+        "page": "/season/japan-winter-budget/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/jozankei-winter-onsen/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/new-chitose-to-sapporo-winter/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/noboribetsu-winter-onsen/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/otaru-snow-light-couple/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/otaru-snow-light-path-2027/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/otaru-winter-day-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/otaru-winter-food/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/otaru-winter-shopping/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/sapporo-snow-festival-2027/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/sapporo-snow-festival-2n3d/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/sapporo-snow-festival-3n4d/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/sapporo-snow-festival-clothes/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/sapporo-snow-festival-couple/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/sapporo-snow-festival-family/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/sapporo-snow-festival-food/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/sapporo-snow-festival-hotel-area/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/sapporo-snow-festival-photo/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/sapporo-winter-shoes/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/sapporo-winter-souvenir/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/season/sapporo-winter-transport/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/hokkaido.jpg"
+      },
+      {
+        "page": "/theme/car-roadtrip-japan/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/car.jpg"
+      },
+      {
+        "page": "/theme/couple-ferry-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/couple.jpg"
+      },
+      {
+        "page": "/theme/family-ferry-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/theme/first-ferry-romance/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/theme/night-on-ferry/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/theme/oceanview-cabins/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/cabin.jpg"
+      },
+      {
+        "page": "/theme/pet-ferry-japan/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/ferry.jpg"
+      },
+      {
+        "page": "/theme/suitcase-baggage/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/city.jpg"
+      },
+      {
+        "page": "/things-to-do/hakata-cruise-couple-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/fukuoka-ohori-park.webp"
+      },
+      {
+        "page": "/things-to-do/hakata-cruise-family-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/hakata-anpanman-host-building.webp"
+      },
+      {
+        "page": "/things-to-do/hakata-cruise-parents-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/fukuoka-tower.webp"
+      },
+      {
+        "page": "/things-to-do/hakata-cruise-port-day-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/fukuoka-ohori-park.webp"
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-couple-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/ishigaki-kabira-bay.webp"
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-family-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/ishigaki-kabira-bay.webp"
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-parents-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/ishigaki-kabira-bay.webp"
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-port-day-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/ishigaki-kabira-bay.webp"
+      },
+      {
+        "page": "/things-to-do/kobe-cruise-port-day-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/kobe-meriken-park-night.webp"
+      },
+      {
+        "page": "/things-to-do/nagasaki-cruise-couple-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/nagasaki-glover-garden.webp"
+      },
+      {
+        "page": "/things-to-do/nagasaki-cruise-family-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/nagasaki-penguin-aquarium.webp"
+      },
+      {
+        "page": "/things-to-do/nagasaki-cruise-parents-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/nagasaki-glover-garden.webp"
+      },
+      {
+        "page": "/things-to-do/nagasaki-cruise-port-day-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/nagasaki-glover-garden.webp"
+      },
+      {
+        "page": "/things-to-do/naha-cruise-couple-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/naha-kokusai-street.webp"
+      },
+      {
+        "page": "/things-to-do/naha-cruise-family-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/naha-dmm-kariyushi-aquarium.webp"
+      },
+      {
+        "page": "/things-to-do/naha-cruise-parents-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/naha-prefectural-museum.webp"
+      },
+      {
+        "page": "/things-to-do/naha-cruise-port-day-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/naha-kokusai-street.webp"
+      },
+      {
+        "page": "/things-to-do/osaka-cruise-port-day-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/osaka-kaiyukan-aquarium.webp"
+      },
+      {
+        "page": "/things-to-do/yokohama-cruise-couple-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/yokohama-air-cabin.webp"
+      },
+      {
+        "page": "/things-to-do/yokohama-cruise-family-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/yokohama-cupnoodles-museum.webp"
+      },
+      {
+        "page": "/things-to-do/yokohama-cruise-parents-guide/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/yokohama-air-cabin.webp"
+      },
+      {
+        "page": "/things-to-do/yokohama-cruise-port-day-trip/",
+        "issue": "hero_missing_nearby_photo_source",
+        "cover": "/images/venues/yokohama-redbrick-waterfront.webp"
+      }
+    ],
+    "cruise_return_language_missing": [],
+    "booking_cta_destination_review": [
+      {
+        "page": "/guide/busan-fukuoka-ferry/",
+        "label": "고려훼리 뉴카멜리아 운항·예약 방법 확인 ↗",
+        "href": "https://www.koreaferry.kr/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/japan/tokyo/tokyo-asakusa-sensoji-kaminarimon/",
+        "label": "운임·예약·여행정보 확인 ↗www.senso-ji.jp",
+        "href": "https://www.senso-ji.jp/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/japan/tokyo/tokyo-metropolitan-government-free-view/",
+        "label": "운임·예약·여행정보 확인 ↗www.metro.tokyo.lg.jp",
+        "href": "https://www.metro.tokyo.lg.jp/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/japan/tokyo/tokyo-ramen-best-areas/",
+        "label": "운임·예약·여행정보 확인 ↗www.tokyoeki-1bangai.co.jp",
+        "href": "https://www.tokyoeki-1bangai.co.jp/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/japan/tokyo/tokyo-skytree-tickets/",
+        "label": "운임·예약·여행정보 확인 ↗www.tokyo-skytree.jp",
+        "href": "https://www.tokyo-skytree.jp/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/japan/tokyo/tokyo-tsukishima-monjayaki/",
+        "label": "운임·예약·여행정보 확인 ↗www.gotokyo.org",
+        "href": "https://www.gourmet.gotokyo.org/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/japan/tokyo/tokyo-ueno-park-museums-zoo/",
+        "label": "운임·예약·여행정보 확인 ↗www.tnm.jp",
+        "href": "https://www.tnm.jp/?lang=en",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/japan-cruise/panstar-miracle-osaka-cabin-types/",
+        "label": "팬스타 공식 미라클 객실·예약 안내 ↗",
+        "href": "https://gocruise.co.kr/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/okinawa/naha-cruise-port/",
+        "label": "슈리성: 유이레일·공개 일정·예약 →",
+        "href": "/things-to-do/naha-shuri-castle-cruise-sightseeing/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/okinawa/naha-half-day/",
+        "label": "슈리성: 유이레일·공개 일정·예약 →",
+        "href": "/things-to-do/naha-shuri-castle-cruise-sightseeing/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/aburatsu-cruise-port-day-trip/",
+        "label": "입장·예약 운영기관 안내 확인 ↗",
+        "href": "https://www.city.nichinan.lg.jp/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/things-to-do/aomori-cruise-family-guide/",
+        "label": "공식 시설·예약 정보 확인 →",
+        "href": "https://asamushi-aqua.com/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/things-to-do/beppu-cruise-family-guide/",
+        "label": "공식 시설·예약 정보 확인 →",
+        "href": "https://www.umitamago.jp/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/things-to-do/beppu-cruise-family-guide/",
+        "label": "공식 시설·예약 정보 확인 →",
+        "href": "https://www.beppu-jigoku.com/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/things-to-do/cruise-ports/",
+        "label": "CRUISE PORT DEEP DIVE나하 크루즈 슈리성 관광유이레일·예약·귀선부두·교통·관광 상세 가이드 →",
+        "href": "/things-to-do/naha-shuri-castle-cruise-sightseeing/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/experience-booking-checklist/",
+        "label": "전통 체험 예약 →",
+        "href": "/things-to-do/traditional-experience-booking/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/",
+        "label": "문화체험 · CULTURE실제 사진: 일본 다도 시연 · 특정 예약 상품 아님",
+        "href": "/things-to-do/culture/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/",
+        "label": "CULTURE & HERITAGE일본 전통문화·체험 →일본 사찰·신사·전통거리·공예·기모노 체험을 여행 일정에 넣는 방법과 관람 예절, 예약 전 체크사항.",
+        "href": "/things-to-do/culture/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/",
+        "label": "🌊 일본 체험다이빙건강·예약·해상 날씨상세 가이드 바로 보기 →",
+        "href": "/things-to-do/japan-diving-first-time/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/",
+        "label": "주제 실사 · 출처 본문PRACTICAL GUIDE다도·기모노·공예 체험 예약체험 언어·포함 내역·반납·취소조건자세히 보기 →",
+        "href": "/things-to-do/traditional-experience-booking/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/",
+        "label": "주제 실사 · 출처 본문PRACTICAL GUIDE항구 도착 후 즐길거리 일정표반나절·하루·1박 여행 설계와 예약자세히 보기 →",
+        "href": "/things-to-do/port-to-experience-planner/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/",
+        "label": "주제 실사 · 출처 본문OCEAN & OUTDOORS · IN-DEPTH GUIDE일본 다이빙, 처음이라면 어디서 어떻게 시작할까?입문자를 위한 지역 선택·건강과 안전·운영사 예약",
+        "href": "/things-to-do/japan-diving-first-time/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/",
+        "label": "주제 실사 · 출처 본문SEARCH INTENT GUIDE혼자 일본여행 문화 체험1인 예약·전통체험·도보 여행자세히 보기 →",
+        "href": "/things-to-do/solo-cultural-day/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/",
+        "label": "주제 실사 · 출처 본문SEARCH INTENT GUIDE일본 체험 예약 체크리스트취소 수수료·집합장소·우천 대비자세히 보기 →",
+        "href": "/things-to-do/experience-booking-checklist/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/",
+        "label": "WEATHER · RAINY DAY비 오는 날 즐길거리 →일본 여행 중 비가 올 때 미술관·수족관·쇼핑몰·온천 등 실내 즐길거리를 고르는 방법과 교통·예약 체크리스트.",
+        "href": "/things-to-do/rainy-day/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/japanese-tea-ceremony-culture/",
+        "label": "전통문화 체험 예약 가이드 →",
+        "href": "/things-to-do/traditional-experience-booking/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/kagoshima-cruise-family-guide/",
+        "label": "공식 시설·예약 정보 확인 →",
+        "href": "https://ioworld.jp/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      },
+      {
+        "page": "/things-to-do/kimono-vs-yukata-culture/",
+        "label": "전통문화 체험 예약하기 전 체크 →",
+        "href": "/things-to-do/traditional-experience-booking/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/kimono-vs-yukata-culture/",
+        "label": "기모노 체험 예약 →",
+        "href": "/things-to-do/traditional-experience-booking/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/naha-cruise-port-day-trip/",
+        "label": "슈리성: 유이레일·공개 일정·예약 →",
+        "href": "/things-to-do/naha-shuri-castle-cruise-sightseeing/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/naha-half-day-cruise-excursion/",
+        "label": "슈리성 교통·예약 →",
+        "href": "/things-to-do/naha-shuri-castle-cruise-sightseeing/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/nature/",
+        "label": "체험 다이빙 건강·예약 조건 보기 →",
+        "href": "/things-to-do/japan-diving-first-time/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/solo-cultural-day/",
+        "label": "전통문화 예약 →",
+        "href": "/things-to-do/traditional-experience-booking/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/travel-companions/",
+        "label": "사진 출처·라이선스: 상세 가이드FAMILY · NIPPONFERRY요코하마컵누들 뮤지엄 · 요코하마 코스모월드🎟️ 공식 예매 방식 · 귀선 시간 계산전문 가이드 읽기 →",
+        "href": "/things-to-do/yokohama-cruise-family-guide/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/travel-companions/",
+        "label": "사진 출처·라이선스: 상세 가이드FAMILY · NIPPONFERRY오사카가이유칸 · 레고랜드 디스커버리센터 오사카🎟️ 공식 예매 방식 · 귀선 시간 계산전문 가이드 읽기 →",
+        "href": "/things-to-do/osaka-cruise-family-guide/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/travel-companions/",
+        "label": "사진 출처·라이선스: 상세 가이드FAMILY · NIPPONFERRY고베고베 호빵맨 어린이 박물관 · 고베 애니멀킹덤🎟️ 공식 예매 방식 · 귀선 시간 계산전문 가이드 읽기 →",
+        "href": "/things-to-do/kobe-cruise-family-guide/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/travel-companions/",
+        "label": "사진 출처·라이선스: 상세 가이드FAMILY · NIPPONFERRY하코다테고료카쿠 타워 · 가네모리 붉은 벽돌 창고🎟️ 공식 예매 방식 · 귀선 시간 계산전문 가이드 읽기 →",
+        "href": "/things-to-do/hakodate-cruise-family-guide/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/travel-companions/",
+        "label": "사진 출처·라이선스: 상세 가이드FAMILY · NIPPONFERRY사세보우미키라라 · 구주쿠시마 유람선🎟️ 공식 예매 방식 · 귀선 시간 계산전문 가이드 읽기 →",
+        "href": "/things-to-do/sasebo-cruise-family-guide/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/travel-companions/",
+        "label": "사진 출처·라이선스: 상세 가이드COUPLE · NIPPONFERRY요코하마요코하마 에어캐빈 · 코스모월드 대관람차🎟️ 공식 예매 방식 · 귀선 시간 계산전문 가이드 읽기 →",
+        "href": "/things-to-do/yokohama-cruise-couple-guide/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/travel-companions/",
+        "label": "사진 출처·라이선스: 상세 가이드COUPLE · NIPPONFERRY오사카덴포잔 대관람차 · 도톤보리🎟️ 공식 예매 방식 · 귀선 시간 계산전문 가이드 읽기 →",
+        "href": "/things-to-do/osaka-cruise-couple-guide/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/travel-companions/",
+        "label": "사진 출처·라이선스: 상세 가이드COUPLE · NIPPONFERRY고베메리켄파크·하버랜드 · 누노비키 허브정원🎟️ 공식 예매 방식 · 귀선 시간 계산전문 가이드 읽기 →",
+        "href": "/things-to-do/kobe-cruise-couple-guide/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/travel-companions/",
+        "label": "사진 출처·라이선스: 상세 가이드COUPLE · NIPPONFERRY하코다테가네모리 붉은 벽돌 창고 · 모토마치 언덕🎟️ 공식 예매 방식 · 귀선 시간 계산전문 가이드 읽기 →",
+        "href": "/things-to-do/hakodate-cruise-couple-guide/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/things-to-do/travel-companions/",
+        "label": "사진 출처·라이선스: 상세 가이드COUPLE · NIPPONFERRY사세보구주쿠시마 · 하우스텐보스🎟️ 공식 예매 방식 · 귀선 시간 계산전문 가이드 읽기 →",
+        "href": "/things-to-do/sasebo-cruise-couple-guide/",
+        "why": "booking-label-links-to-nonbooking-content"
+      },
+      {
+        "page": "/voucher/cruise-ports/",
+        "label": "공식 사이트에서 입장권 구매 ↗",
+        "href": "https://www.fukuokatower.co.jp/",
+        "why": "booking-label-links-to-external-homepage-not-checkout"
+      }
+    ],
+    "historical_operational_info": [
+      {
+        "page": "/japan/",
+        "snippet": "실제 장소 사진 · 2025년 촬영 · David Kernan · 사진 원본 · CC BY 4.0 · 원본 JPG→WebP 변환·크기 조정. 사진은 촬영 당시 모습으로 현재 운영 정보를 보증하지 않습니다.",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/abashiri-cruise-port-day-trip/",
+        "snippet": "촬영 장소: 박물관 아바시리 감옥의 실제 시설·건물. 촬영일 2022-08-09. 관광지의 촬영 당시 모습으로 현재 승객 하선 선석·셔틀·예약·영업정보를 증명하지 않습니다. 촬영자: Nesnad · 사진 원본·출처 · CC BY 4.0 · 원본 사진에서 WebP로 축소·형식 변환.",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/atami-cruise-port-day-trip/",
+        "snippet": "실제 촬영 장소: 아타미 선비치의 해안 풍경. 촬영일: 2024-03-14. 이 사진은 관광지의 촬영 당시 모습입니다. 현행 크루즈 접안부두·승객 게이트·셔틀·시설 운영 여부는 사진으로 확인할 수 없습니다. 사진: m-louis .® · 원본 촬영 정보 · CC BY-SA 2.0 · 원본을 WebP로 축",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/beppu-cruise-port-day-trip/",
+        "snippet": "푸다운 풍경과 지옥찜 먹거리를 만날 수 있다. 이 사진은 2022년 벳푸 우미지옥 푸른 온천수와 수증기의 실제 촬영 자료로 크루즈 접안·하선 게이트나 현재 영업 상황을 나타내지 않습니다. 사진: Bpcon98 · 원본 사진 · CC0 1.0 . WebP 크기·형식 변환. CRUISE POR",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/hakata-port-hakata-station-access/",
+        "snippet": "내 ↗ 2026-10-20 공식 자료 대조 · 대표 사진은 2024년 촬영한 JR 하카타역 신칸센 승강장 실사이며 크루즈 하선 게이트 사진은 아닙니다 NIPPONFERRY · V131 공식 운영정보 대조 · 2026.10.22 실제 접안·셔틀·귀선·예약 조건 4단계 확인 ① 접안 위치 · 공식 안내: 하카타항 국제여객터미널(오키",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/himeji-cruise-port-day-trip/",
+        "snippet": "해보세요. 실제 촬영 장소: 히메지성 천수각 외관. 촬영일 2020-12-29. 관광지의 촬영 당시 모습으로 현재 승객 하선 선석·셔틀·예약·영업정보를 증명하지 않습니다. 촬영자: Drivephotographer · 사진 원본·출처 · CC0 1.0 · 원본 사진에서 WebP로 축",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/hirara-miyakojima-cruise-port-day-trip/",
+        "snippet": "어디로 가야 할지 하선 동선을 먼저 정리한다. 이 사진은 2024년 미야코지마 요나하 마에하마 해변과 백사장 (2024년 기록)의 관광지 자료입니다. 현재 크루즈 접안·하선 게이트·셔틀 운행, 관광지 영업을 보증하지 않습니다. 사진: Junyu-K · 원본 촬영 정보 · CC BY-SA 4.0 · WebP 변환·크기 조정. NIPP",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/hiroshima-miyajima-ferry-crossing/",
+        "snippet": "시글 대표 이미지는 원본 파일과 촬영 대상·라이선스를 대조한 2022년 실제 장소 사진 입니다. 촬영 대상: 미야지마섬 측 JR 페리 개찰구·매표소 촬영 시점: 2022년 10월 3일 촬영 (현재 매표·시간표 상태를 보증하지 않음) 원본 표기 라이선스: CC BY-SA 4.0 Wikimedia Commons에서 원본 사진·저작자·라이선스 직접",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/ibaraki-hitachinaka-cruise-port-day-trip/",
+        "snippet": "장소: 국영 히타치 해변공원 미하라시 언덕의 네모필라. 촬영일 2021-04-23. 관광지의 촬영 당시 모습으로 현재 승객 하선 선석·셔틀·예약·영업정보를 증명하지 않습니다. 촬영자: Miyuki Meinaka · 사진 원본·출처 · CC BY-SA 4.0 · 원본 사진에서 WebP로",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/",
+        "snippet": "공식 버스 노선 안내 ↗ · 오키나와 크루즈 공식 가이드(2025년판·과거 자료) ↗ 자료 확인: 2026-10-18 · 실제 부두·연결편·운행시간·귀선 마감은 확인 필요 · 실시간 예약 가능 여부 미확인 이시가키 크루즈 입항 직후 차량 픽업 주의 이시가키시 공식 안내에 따르면 크루즈 안벽 앞 주차장은 버스·택시 등 대",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/",
+        "snippet": "크루즈 입항·주차장 공지 확인 ↗ 시청 공지 표시 업데이트 2025-03-14 · NIPPONFERRY 재확인 2026-10-22 · 귀선시간·셔틀운영과 별개 이시가키 신항: 무료 셔틀은 확정 교통편이 아닙니다 이시가키시 공식 항만 FAQ 는 신항 크루즈 부두에서 유그레나 이시가키항",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/kagoshima-cruise-port-day-trip/",
+        "snippet": "이 사진은 가고시마 이오월드 수족관 건물과 사쿠라지마 화산 (2025년 기록)의 관광지 자료입니다. 현재 크루즈 접안·하선 게이트·셔틀 운행, 관광지 영업을 보증하지 않습니다. 사진: Taiwankengo · 원본 촬영 정보 · CC BY-SA 4.0 · WebP 변환·크기 조정.",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/naha-cruise-terminal-kokusai-dori/",
+        "snippet": "· 선박별 하선·귀선 시각은 별도 확인 필요 · 대표 사진은 2023년 촬영한 나하 국제거리 실사이며 크루즈 하선 부두 사진은 아닙니다 NIPPONFERRY · V131 공식 운영정보 대조 · 2026.10.22 실제 접안·셔틀·귀선·예약 조건 4단계 확인 ① 접안 위치 · 공식 안내: 도마리 8호(대형 여객선 선",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/nanao-cruise-port-day-trip/",
+        "snippet": "정이 어긋날 수 있다. 5. 크루즈 귀선 전 확인할 점 2024년 노토반도 지진 등의 영향으로 교통·관광시설 운영이 변경될 수 있다. 크루즈 입항 가능 여부, 시장·온천 개장 여부를 항만·시청·시설의 최신 공지로 확인한다. 최종 체크리스트 ① 실제 접",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/niigata-cruise-port-day-trip/",
+        "snippet": "실제 촬영 장소: 니가타 시내 반다이교와 강변. 촬영일: 2025-06-12. 이 사진은 관광지의 촬영 당시 모습입니다. 현행 크루즈 접안부두·승객 게이트·셔틀·시설 운영 여부는 사진으로 확인할 수 없습니다. 사진: Mateuser · 원본 촬영 정보 · CC0 1.0 · 원본을 WebP로 축소·형식 변환",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/okinawa-shuri-castle/",
+        "snippet": "실전 정보 ↗ 예약·사진 구분 입장·사진 출처 구분 2025년 복원 공사 사진은 현재 시설 모습과 다를 수 있습니다. 구매·방문 결정을 하기 전 공식 시설 사진과 운영일·가격·환불조건을 확인하세요. 공식 장소·시설 정보 확인 ↗ 기항일 최종 판단 ① 실제 하선 게이트와 선사 최종 귀선시간 ② 왕복",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/okinawa-shuri-castle/",
+        "snippet": "은 실제 접안 부두와 귀선 마감 시각이 우선입니다. 사진: 2025년 공사 사진 검증. Wikimedia Commons 원본과 CC0 조건을 확인했으나 현재 시설 상태는 별도 확인해야 합니다. 예약: 실시간 미확인. 아래는 예약 준비를 돕는 안내 페이지이며 실제 운항·잔여 좌석·예약 확정을 뜻하지 않습니다. 기항지별 이동·귀선 정보",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/sasebo-cruise-port-day-trip/",
+        "snippet": "안 부두와 최종 귀선 시간을 확인해야 합니다. 이 사진은 2020년 사세보 하우스텐보스 돔토른 탑과 유럽풍 건물 (2020년 기록)의 관광지 자료입니다. 현재 크루즈 접안·하선 게이트·셔틀 운행, 관광지 영업을 보증하지 않습니다. 사진: 663highland · 원본 촬영 정보 · CC BY 2.5 · WebP 변환·크기 조정. CRU",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/shimizu-cruise-port-day-trip/",
+        "snippet": "시미즈 S-Pulse 드림플라자 건물과 드림스카이 대관람차 (2023년 기록)의 관광지 자료입니다. 현재 크루즈 접안·하선 게이트·셔틀 운행, 관광지 영업을 보증하지 않습니다. 사진: 663highland · 원본 촬영 정보 · CC BY-SA 4.0 · WebP 변환·크기 조정. C",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/shimonoseki-cruise-port-day-trip/",
+        "snippet": "시간을 어디에 쓸지 항구 동선부터 정리한다. 이 사진은 2023년 시모노세키 가라토시장 수변 건물의 실제 촬영 자료로 크루즈 접안·하선 게이트나 현재 영업 상황을 나타내지 않습니다. 사진: bryan... · 원본 사진 · CC BY-SA 2.0 . WebP 크기·형식 변환. CRUI",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/shimonoseki-one-day/",
+        "snippet": "Wikimedia Commons · CC BY-SA 2.0 · 2023년 촬영 (WebP 리사이즈) ↗ 시장·음식 가라토시장·해협 먹거리 회·초밥·해산물 시장을 즐기는 코스. 일반 시장 영업과 주말 '이키이키 바칸가이' 판매는 구분하세요. 가라토시장 · 주말·공휴일 먹거리 행사 일정 별도 확인 가라토시장 상세 안내 → 가라토",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/shiraoi-cruise-port-day-trip/",
+        "snippet": ": 시라오이 우포포이 전통 아이누 가옥(치세) 외관. 촬영일: 2020-11-15. 이 사진은 관광지의 촬영 당시 모습입니다. 현행 크루즈 접안부두·승객 게이트·셔틀·시설 운영 여부는 사진으로 확인할 수 없습니다. 사진: Higa4 · 원본 촬영 정보 · CC0 1.0 · 원본을 WebP로 축소·형식 변환.",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/tottori-cruise-port-day-trip/",
+        "snippet": "실제 촬영 장소: 돗토리 사구 황금빛 모래 언덕. 촬영일: 2021-06-21. 이 사진은 관광지의 촬영 당시 모습입니다. 현행 크루즈 접안부두·승객 게이트·셔틀·시설 운영 여부는 사진으로 확인할 수 없습니다. 사진: Drivephotographer · 원본 촬영 정보 · CC0 1.0 · 원본을 WebP로",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/travel-companions/",
+        "snippet": "실제 장소 사진 · 2024년 촬영 · Keeezawa · 사진 원본 · CC0 1.0 · 원본 JPEG → WebP 변환·크기 조정·카드 크롭. 사진은 현재 운행·시설 운영·예약 가능 상태를 보증하지 않습니다.",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/yawatahama-cruise-port-day-trip/",
+        "snippet": "확인해 알찬 하선 여행을 준비하자. 실제 촬영 관광지: 2022년 5월 4일 실제 야와타하마항 페리터미널. 크루즈선 전용 접안 게이트가 아니며 현재 시설 모습 및 운영 조건을 보증하지 않음. 촬영일 2022-05-04. 촬영자: Olegushka · 원본·출처 · CC0 1.0 · 원본을 축소하여 We",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/yokohama-cruise-port-day-trip/",
+        "snippet": "를 중심으로 무리하지 않는 여행을 계획해보세요. 이 사진은 2024년 촬영한 요코하마 붉은 벽돌창고 건물의 실제 촬영 자료로 크루즈 접안·하선 게이트나 현재 영업 상황을 나타내지 않습니다. 사진: Fred Cherrygarden · 원본 사진 · CC BY-SA 4.0 . WebP 크기·형식 변환.",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/yokohama-red-brick-warehouse/",
+        "snippet": "운영시간은 현지 사정에 따라 달라질 수 있습니다. 대표 사진은 2024년 1월에 촬영된 실제 아카렌가 창고 외관입니다. 촬영 당시 모습이며, 현재 영업·시설 상태는 공식 안내를 확인하세요. 함께 읽으면 좋은 여행 이야기 기요미즈데라 목조 무대 구조 → 우지 뵤도인 봉황당 → 시라카와고",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      },
+      {
+        "page": "/things-to-do/yokohama-red-brick-warehouse/",
+        "snippet": "각이 우선입니다. 사진: 실사 원본·라이선스 대조 완료. 2024년 1월 아카렌가 외관 사진을 원본과 비교했고 저작자·CC BY-SA 4.0 조건을 아래에 표시했습니다. 현재 행사·운영 정보는 별도로 확인해야 합니다. 예약: 실시간 미확인. 아래는 예약 준비를 돕는 안내 페이지이며 실제 운항·잔여 좌석·예약 확정을 뜻하지 않습니다. 기항지별 이동·귀선 정보",
+        "classification": "historical_date_near_operational_claim_manual_review"
+      }
+    ]
+  },
+  "external_link_hosts_by_anchor_count": {
+    "commons.wikimedia.org": 835,
+    "willer-travel.com": 598,
+    "open.kakao.com": 549,
+    "creativecommons.org": 456,
+    "www.mlit.go.jp": 336,
+    "www.japan.travel": 239,
+    "www.gotokyo.org": 118,
+    "www.panstarcruise.com": 113,
+    "www.tokyodisneyresort.jp": 105,
+    "visitokinawajapan.com": 82,
+    "www.city.yokohama.lg.jp": 65,
+    "www.city.ishigaki.okinawa.jp": 50,
+    "www.city.fukuoka.lg.jp": 46,
+    "www.tokyometro.jp": 46,
+    "www.city.hakodate.hokkaido.jp": 45,
+    "www.city.osaka.lg.jp": 43,
+    "www.city.sasebo.lg.jp": 43,
+    "www.discover-nagasaki.com": 41,
+    "aomori-tourism.com": 40,
+    "www.pref.kagoshima.jp": 39,
+    "www.kanazawa-cruise.jp": 35,
+    "nahaport.jp": 34,
+    "www.shimizu-port.jp": 30,
+    "oki-park.jp": 28,
+    "www.pref.oita.jp": 27,
+    "www.city.kobe.lg.jp": 27,
+    "cruise.visitokinawa.jp": 25,
+    "hakataport.com": 24,
+    "www.pref.aomori.lg.jp": 24,
+    "osaka-info.jp": 20,
+    "www.beppu-jigoku.com": 20,
+    "www.city.miyakojima.lg.jp": 20,
+    "visitkanazawa.jp": 20,
+    "www.hakodate.travel": 19,
+    "koreaferry.kr": 18,
+    "www.jreast.co.jp": 18,
+    "www.customs.go.kr": 17,
+    "www.kaiyukan.com": 17,
+    "www.kagoshima-yokanavi.jp": 17,
+    "kampuferry.co.jp": 16,
+    "www.city.beppu.oita.jp": 16,
+    "www.mistore.jp": 15,
+    "www.gourmet.gotokyo.org": 15,
+    "shigira.com": 15,
+    "www.kobe-meriken.or.jp": 15,
+    "www.gofukuoka.jp": 14,
+    "www.donki.com": 14,
+    "www.pearlsea.jp": 14,
+    "www.koreaferry.kr": 13,
+    "www.kotsu.metro.tokyo.jp": 13,
+    "www.pref.okinawa.jp": 13,
+    "www.qia.go.kr": 13,
+    "www.hyogo-tourism.jp": 13,
+    "www.nta.go.jp": 12,
+    "glover-garden.jp": 12,
+    "matcha-jp.com": 12,
+    "www.karatoichiba.com": 11,
+    "kanazawa-kankou.jp": 11,
+    "www.dream-plaza.co.jp": 11,
+    "www.viator.com": 10,
+    "www.yokohama-akarenga.jp": 10,
+    "www.pukwan.co.kr": 9,
+    "ginza6.tokyo": 9,
+    "miyako-guide.net": 9,
+    "www.kobeherb.com": 9,
+    "www.busanpa.com": 8,
+    "gofukuoka.jp": 8,
+    "www.tptc.co.jp": 8,
+    "www.yurikamome.co.jp": 8,
+    "teamlabplanets.dmm.com": 8,
+    "www.sevenbank.co.jp": 8,
+    "334.co.jp": 8,
+    "www.goryokaku-tower.co.jp": 8,
+    "en.at-nagasaki.jp": 8,
+    "www.okinawastory.jp": 8,
+    "kariyushi-aquarium.com": 8,
+    "www.cupnoodles-museum.jp": 8,
+    "www.feel-kobe.jp": 7,
+    "www.daimaru.co.jp": 7,
+    "www.tokyo-skytree.jp": 7,
+    "www.english.metro.tokyo.lg.jp": 7,
+    "www.fukuokatower.co.jp": 7,
+    "hakodate-kanemori.com": 7,
+    "www.senganen.jp": 7,
+    "www.k-port.jp": 7,
+    "shimonoseki.travel": 6,
+    "tokyo-haneda.com": 6,
+    "www.loft.co.jp": 6,
+    "www.narita-airport.jp": 6,
+    "www.takashimaya.co.jp": 6,
+    "www.tobu-dept.jp": 6,
+    "www.tsukiji.or.jp": 6,
+    "www.fujiq.jp": 6,
+    "www.azumabus.co.jp": 6,
+    "www.kagoshima-kankou.com": 6,
+    "book.kariyushi-aquarium.com": 6,
+    "www.churaumi.okinawa": 6,
+    "www.oppa.or.jp": 6,
+    "ropeway.shizutetsu.co.jp": 6,
+    "yokohama-air-cabin.jp": 6,
+    "yokohama.cruise-friendly.jp": 6,
+    "www.koreaferry.co.kr": 5,
+    "www.hakoneyuryo.jp": 5,
+    "www.visit-hokkaido.jp": 5,
+    "www.muji.com": 5,
+    "www.tsushima-net.org": 5,
+    "faq.japan-travel.jnto.go.jp": 5,
+    "pub.pref.aomori.lg.jp": 5,
+    "www.ohorikouen.jp": 5,
+    "act.shigira.com": 5
+  }
+}
