@@ -1,0 +1,51 @@
+name: V125 replace ten AI cruise-hero images with verified real photographs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v125_replace_ai_heroes.py'
+      - 'audit-reports/v125/photo-plan.json'
+      - '.github/workflows/v125-replace-ai-photos.yml'
+permissions:
+  contents: write
+concurrency:
+  group: v125-ten-verified-real-photos
+  cancel-in-progress: false
+jobs:
+  import-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install "Pillow==11.3.0"
+      - name: Compile import and verification scripts
+        run: python -m py_compile scripts/v125_replace_ai_heroes.py scripts/v125_photo_quality_audit.py scripts/v125_photo_live_qa.py
+      - name: Require all ten real Commons source photos and unchanged legacy SEO
+        run: python scripts/v125_replace_ai_heroes.py
+      - name: Verify ten photos, rights, hashes, WebP, canonical, descriptions, H1 and JSON-LD
+        run: python scripts/v125_photo_quality_audit.py
+      - name: Commit exactly ten new real photos and updated existing articles
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/venues/nf-v125-*-real.webp audit-reports/v125/import-result.json
+          for slug in yokohama-daikoku-pier-cruise-terminal amami-naze-cruise-port-day-trip fukui-cruise-port-day-trip ito-cruise-port-day-trip kaminato-hachijojima-cruise-port-day-trip miyazaki-cruise-port-day-trip niihama-cruise-port-day-trip futami-ogasawara-cruise-port-day-trip iki-gonoura-cruise-port-day-trip imabari-cruise-port-day-trip; do
+            git add "site/things-to-do/$slug/index.html"
+          done
+          if git diff --cached --quiet; then echo "Photo replacement not staged"; exit 1; fi
+          git commit -m "V125 replace ten AI cruise photos with named real Commons photos and preserve existing SEO"
+          git pull --rebase origin main
+          python scripts/v125_photo_quality_audit.py
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v125-real-photo-source-and-SEO-evidence
+          path: audit-reports/v125/import-result.json
+          retention-days: 45
