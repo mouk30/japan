@@ -13,6 +13,21 @@ from urllib.error import HTTPError,URLError
 ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/"site"
 OUT=ROOT/"audit-reports/v119";OUT.mkdir(parents=True,exist_ok=True)
 MAX_URLS=900
+# Previously reproducible HTTP 404 references that must remain absent from public articles.
+RETIRED_404=(
+ "https://www.japan.travel/en/things-to-do/food-and-drink/",
+ "https://www.japan.travel/en/destinations/tokai/aichi/tokoname/",
+ "https://www.japan.travel/en/guide/japanese-festivals/",
+ "https://www.japan.travel/en/guide/shrines/",
+ "https://www.japan.travel/en/guide/temples/",
+ "https://www.japan.travel/en/spot/1655/",
+ "https://www.japan.travel/ko/things-to-do/guide/diving/",
+ "https://www.city.sasebo.lg.jp/kouwan/cruise/documents/02_english_map_uragasira.pdf",
+ "https://www.mhlw.go.jp/english/",
+ "https://www.senganen.jp/en/",
+ "https://www.japanhouselondon.uk/discover/noren/",
+)
+
 UA="Mozilla/5.0 (compatible; NIPPONFERRY-Editorial-Link-Audit/1.0)"
 PRIORITY=("panstarcruise.com","koreaferry.kr","kampuferry.co.jp","pukwan.co.kr","hakataport.com","mlit.go.jp","japan.travel","city.","pref.","lg.jp")
 SKIP=("commons.wikimedia.org","creativecommons.org","wikipedia.org","youtu.be","youtube.com","instagram.com","x.com","facebook.com")
@@ -65,11 +80,13 @@ def verify(item):
  return {"url":url,"pages":sorted(pages)[:15],"classification":status,"head_status":head["status"],"final_status":result["status"],"redirected_to":result["final"] if result["final"]!=url else None,"error":result["error"]}
 def main():
  all_=load()
+ retired_present=[u for u in RETIRED_404 if u in all_]
+ if retired_present:raise ValueError("Confirmed 404 URL(s) reintroduced to published pages: "+repr(retired_present))
  eligible=sorted((p for p in all_.items() if rank(p[0])<100),key=lambda x:(rank(x[0]),-len(x[1]),x[0]))
  selected=eligible[:MAX_URLS]
  with concurrent.futures.ThreadPoolExecutor(max_workers=12) as pool:rows=list(pool.map(verify,selected))
  counts=Counter(x["classification"] for x in rows)
- report={"version":"V119","checked_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"total_external_urls":len(all_),"eligible_non_media_urls":len(eligible),"probed":len(rows),"remaining_unprobed":len(all_)-len(rows),"counts":dict(counts),"definition":"HTTP reachable does not prove booking success or valid entrance/fee; 403,429,5xx,tls failure remain unverified.","confirmed_broken":[x for x in rows if x["classification"]=="confirmed_broken"],"unverified":[x for x in rows if x["classification"]=="unverified"],"results":rows}
+ report={"version":"V119","checked_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"total_external_urls":len(all_),"eligible_non_media_urls":len(eligible),"probed":len(rows),"remaining_unprobed":len(all_)-len(rows),"old_404_removed":len(RETIRED_404),"all_nonmedia_sources_checked":len(eligible)==len(rows),"counts":dict(counts),"definition":"HTTP reachable does not prove booking success or valid entrance/fee; 403,429,5xx,tls failure remain unverified.","confirmed_broken":[x for x in rows if x["classification"]=="confirmed_broken"],"unverified":[x for x in rows if x["classification"]=="unverified"],"results":rows}
  (OUT/"official-and-editorial-link-checks.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n","utf8")
  print(json.dumps({k:report[k] for k in ("total_external_urls","eligible_non_media_urls","probed","remaining_unprobed","counts")},ensure_ascii=False))
  print("CONFIRMED_404_410",json.dumps(report["confirmed_broken"][:30],ensure_ascii=False))
