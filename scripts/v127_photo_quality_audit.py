@@ -32,7 +32,8 @@ def check():
             p=previous[slug];e=exported[slug]
             h=(ROOT/"site"/p["page"].lstrip("/")/"index.html").read_text("utf8")
             for name,regex in PATTERNS.items():
-                if get(h,regex)!=p[name]:failures.append(slug+" protected SEO drift "+name)
+                expected=p[name].replace(p["og_image"],"https://www.nipponferry.com"+s["output"]) if name=="jsonld" else p[name]
+                if get(h,regex)!=expected:failures.append(slug+" protected SEO drift "+name)
             target="https://www.nipponferry.com"+s["output"]
             if get(h,r'<meta property="og:image" content="([^"]+)"')!=target:
                 failures.append(slug+" OG not linked to new photograph")
