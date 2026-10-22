@@ -338,18 +338,7 @@
     }
   ],
   "missing_local_images": {},
-  "broken_internal_links": {
-    "/things-to-do/japanese-festival-matsuri-culture/index.html": [
-      "/things-to-do/japanese-shrine-vs-buddhist-temple/"
-    ],
-    "/things-to-do/food/index.html": [
-      "/things-to-do/okinawa-seafood-bowl/",
-      "/things-to-do/okinawa-soba/"
-    ],
-    "/things-to-do/shopping/index.html": [
-      "/things-to-do/okinawa-shopping-street/"
-    ]
-  },
+  "broken_internal_links": {},
   "missing_img_alt": [
     {
       "page": "/busan-fukuoka-cruise/",
@@ -1540,6 +1529,20 @@
       "expected": "https://www.nipponferry.com/tsushima-what-to-wear/"
     }
   ],
+  "missing_seo_pages": {
+    "description": [
+      "/japan/tokyo/photo-review/",
+      "/route/",
+      "/routes/"
+    ],
+    "canonical": [
+      "/japan/tokyo/photo-review/"
+    ],
+    "H1": [
+      "/route/",
+      "/routes/"
+    ]
+  },
   "external_links_by_host": {
     "commons.wikimedia.org": {
       "count": 525,

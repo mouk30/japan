@@ -13,7 +13,7 @@
     "note": "Confirmed AI cover candidates inferred from explicit generated AI alt/caption, not all AI pixels sitewide"
   },
   "links": {
-    "missing_internal_targets": 3,
+    "missing_internal_targets": 0,
     "distinct_external_hosts": 283,
     "note": "Static local path checks only; network availability of external reservations requires separate checks"
   },
@@ -209,18 +209,7 @@
       }
     ],
     "missing_image": {},
-    "broken_internal_link": {
-      "/things-to-do/japanese-festival-matsuri-culture/index.html": [
-        "/things-to-do/japanese-shrine-vs-buddhist-temple/"
-      ],
-      "/things-to-do/food/index.html": [
-        "/things-to-do/okinawa-seafood-bowl/",
-        "/things-to-do/okinawa-soba/"
-      ],
-      "/things-to-do/shopping/index.html": [
-        "/things-to-do/okinawa-shopping-street/"
-      ]
-    },
+    "broken_internal_link": {},
     "canonical": [
       {
         "page": "/busan-fukuoka-cruise/",
