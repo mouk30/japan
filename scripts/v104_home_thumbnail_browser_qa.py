@@ -77,10 +77,10 @@ with sync_playwright() as tool:
                     if img.get_attribute("src")!=expected[k]:
                         error(test,f"card {k}: unexpected image src")
                     alt=img.get_attribute("alt") or ""
-                    if len(alt)<14 or "실제 사진" in alt or "실제 촬영" in alt:
+                    is_staged=expected[k].startswith("/images/editorial/") or expected[k]=="/images/couple.jpg"
+                    if len(alt)<14 or (is_staged and ("실제 사진" in alt or "실제 촬영" in alt)):
                         error(test,f"card {k}: misleading or missing alt")
                     label=visual.locator(".v104-photo-origin, .v63-photo-disclosure")
-                    is_staged=expected[k].startswith("/images/editorial/") or expected[k]=="/images/couple.jpg"
                     if is_staged and label.count()!=1:
                         error(test,f"card {k}: missing staged-art disclosure")
                     if not is_staged and label.count()!=0:
