@@ -38,4 +38,5 @@
 - [V105 썸네일 18개 소스 검증·라이선스 출처·공개 홈페이지 브라우저 QA 성공](https://github.com/mouk30/japan/actions/runs/39721518357)
 - [V66 기존 메인페이지 SEO 및 반응형 링크 검사 성공](https://github.com/mouk30/japan/actions/runs/39721275361)
 - [공개 홈페이지 및 85개 에디토리얼 페이지 검사 성공](https://github.com/mouk30/japan/actions/runs/39721275551)
-- 추가 관찰: V108 첫 시도 당시 V78 비주얼 워크플로는 PC에서 예전 배경 이미지/스타일을 읽어 실패했다. V108 대표 이미지 변경과는 별도 영역이며 재검사를 요청하였다. 성공 검증 전에는 V78까지 통과했다고 보고하지 않는다.
+- [V78 메인 비주얼 PC·모바일 QA 재검사 성공 (2차 시도)](https://github.com/mouk30/japan/actions/runs/39721275301): 첫 실행에서는 PC 측에서 이전 배경 스타일을 읽었지만 재실행에서 통과.
+- [V85 항로 파노라마 배너 PC·모바일 검사 성공](https://github.com/mouk30/japan/actions/runs/39721275262)
