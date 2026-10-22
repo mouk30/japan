@@ -23,3 +23,12 @@
 - 향후 검색 유입이 높은 상세페이지 10편씩 실물 사진의 출처 미기록 여부를 확인한다. 원본·라이선스 확인이 되지 않으면 사진을 교체하고, SEO와 URL은 보호한다.
 
 ## GitHub 커밋 및 CI 결과
+- [V109 사진 출처 보강·상세 이미지 교체 커밋](https://github.com/mouk30/japan/commit/6228130821b33ca4a54f86cb7113d0b7b51cc14e)
+- [V105 18개 이미지·출처·SHA-256 무결성 + 공개 홈페이지 PC/모바일 검증: 성공](https://github.com/mouk30/japan/actions/runs/39725984360)
+- [V104 18개 썸네일 1440/390/360px 검증: 성공](https://github.com/mouk30/japan/actions/runs/39725984508)
+- [V66 메인 SEO·반응형·링크 검증: 성공](https://github.com/mouk30/japan/actions/runs/39725984469)
+- [V78 크루즈 메인 비주얼 PC·모바일: 성공](https://github.com/mouk30/japan/actions/runs/39725984448)
+- [V85 파노라마 배너 PC·모바일: 성공](https://github.com/mouk30/japan/actions/runs/39725984455)
+- [홈·에디토리얼 85편 링크/배포 점검: 성공](https://github.com/mouk30/japan/actions/runs/39725984382)
+
+**검증 범위:** 자동화는 사진의 라이선스 기록·파일 무결성 및 표시·링크 회귀를 검사한다. 권리자의 법적 소유 증명이나 사이트 전체 모든 사진의 허락을 보증하지 않는다.
