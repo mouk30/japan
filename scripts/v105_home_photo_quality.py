@@ -147,7 +147,7 @@ def audit_assets(root,manifest):
             # to a different Japanese city. Require an explicit editorial update
             # of the original reviewed binary fingerprint on ANY image replacement.
             file_bytes=local.read_bytes()
-            git_blob=hashlib.sha1(b"blob "+str(len(file_bytes)).encode("ascii")+b"\\0"+file_bytes).hexdigest()
+            git_blob=hashlib.sha1(b"blob "+str(len(file_bytes)).encode("ascii")+b"\0"+file_bytes).hexdigest()
             if not re.fullmatch(r"[a-f0-9]{40}",entry.get("git_blob_sha1","")):
                 errors.append(prefix+": missing pinned reviewed image fingerprint")
             elif git_blob!=entry["git_blob_sha1"]:
