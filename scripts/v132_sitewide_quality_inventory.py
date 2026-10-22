@@ -147,7 +147,14 @@ def main():
    if "/images/venues/" in cover and any(x in text for x in ("대표 이미지는 AI 생성","대표 사진은 AI 생성","사진은 AI 생성")):
     ai_candidates.append({"page":url,"issue":"stale_AI_disclosure_on_real_cover","cover":cover})
    around=s[m.end():m.end()+1400]
-   if "figcaption" not in around and "촬영자" not in around:
+   # Legacy page templates often put a true author and CC source inside a <p>
+   # rather than a <figcaption>. Avoid mislabeling credited real photos.
+   credited=bool(
+    "figcaption" in around or
+    (("commons.wikimedia.org" in around or "사진 원본" in around) and
+     any(z in around for z in ("creativecommons.org","CC BY","CC0","촬영자","사진:","저작자")))
+   )
+   if not credited:
     credit.append({"page":url,"issue":"hero_missing_nearby_photo_source","cover":cover})
   if is_cruise:
    photos["cruise_pages"]+=1
