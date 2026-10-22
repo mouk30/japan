@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-21T04:57:38.639Z",
+  "createdAt": "2026-10-22T00:06:15.911Z",
   "widths": [
     320,
     390,
@@ -13,33 +13,33 @@
       "count": 6,
       "images": [
         {
-          "src": "/images/culture-verified/yatai-japanese-food-stalls.webp",
-          "alt": "일본 야타이 음식 문화의 이해를 돕는 참고 이미지",
+          "src": "/images/ramen-close.jpg",
+          "alt": "따뜻한 국물과 차슈·반숙 달걀이 담긴 일본 라멘 한 그릇",
           "ready": true
         },
         {
-          "src": "/images/venues/naha-kokusai-street.webp",
-          "alt": "오키나와 나하 국제거리 실제 상점가 풍경",
+          "src": "/images/editorial/okinawa-shopping-street.webp",
+          "alt": "오키나와 국제거리 상점과 기념품 쇼핑 분위기를 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/culture-verified/hanabi-japanese-fireworks-summer.webp",
-          "alt": "여름 일본 불꽃놀이를 보여주는 여행 주제 참고 이미지",
+          "src": "/images/editorial/okinawa-eisa-dance-festival.webp",
+          "alt": "일본 여름축제 오키나와 에이사 춤과 북 공연 분위기를 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/kobe-meriken-park-night.webp",
-          "alt": "고베 메리켄파크의 실제 야경과 항구 풍경",
+          "src": "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
+          "alt": "교토 기요미즈데라 청수사와 가을 단풍 여행 풍경을 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/yokohama-redbrick-waterfront.webp",
-          "alt": "요코하마 붉은벽돌 창고 앞 해안 산책로 실제 풍경",
+          "src": "/images/editorial/ishigaki-kabira-bay.webp",
+          "alt": "오키나와 이시가키 가비라만의 푸른 바다 전망을 표현한 포토 스팟 이미지",
           "ready": true
         },
         {
-          "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
-          "alt": "일본 편의점 이용 방식 참고 이미지",
+          "src": "/images/culture-verified/japanese-vending-machine-culture.webp",
+          "alt": "일본의 일상에서 자주 접하는 자판기와 현지 생활 풍경",
           "ready": true
         }
       ],
@@ -90,47 +90,47 @@
       "count": 8,
       "images": [
         {
-          "src": "/images/venues/tokyo-city-night-real.webp",
-          "alt": "실제 촬영된 도쿄타워와 도쿄 야경",
+          "src": "/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp",
+          "alt": "도쿄 아사쿠사 센소지 가미나리몬의 커다란 붉은 등과 참배객 풍경",
           "ready": true
         },
         {
-          "src": "/images/venues/naha-shureimon.webp",
-          "alt": "오키나와 나하 슈레이몬 역사 유적의 실제 사진",
+          "src": "/images/editorial/okinawa-kouri-bridge.webp",
+          "alt": "오키나와 고우리대교와 에메랄드빛 바다 여행 풍경을 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/fukuoka-tower.webp",
-          "alt": "후쿠오카 타워의 실제 외관과 전망 명소 풍경",
+          "src": "/images/editorial/hakata-cruise-port-day-trip.webp",
+          "alt": "후쿠오카 하카타항과 항구도시 스카이라인을 표현한 크루즈 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
-          "alt": "오사카 덴포잔 가이유칸 수족관의 실제 시설 사진",
+          "src": "/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+          "alt": "오사카 도톤보리 강변의 글리코 간판과 네온 야경",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-karato-market-real.webp",
-          "alt": "2023년 현장 촬영한 시모노세키 가라토시장 외관 사진",
+          "src": "/images/editorial/shimonoseki-cruise-port-day-trip.webp",
+          "alt": "시모노세키 간몬해협의 다리와 크루즈 기항 분위기를 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-izuhara-port-real.webp",
-          "alt": "대마도 이즈하라항 실제 여객선 터미널 사진",
+          "src": "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
+          "alt": "대마도 이즈하라항과 초록 산자락 여행 분위기를 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/kobe-kitano-weathercock.webp",
-          "alt": "고베 기타노 이진칸 거리의 풍향계의 집 실제 사진",
+          "src": "/images/editorial/kobe-cruise-port-day-trip.webp",
+          "alt": "고베항 포트타워와 국제항 크루즈 풍경을 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/hakodate-goryokaku-tower.webp",
-          "alt": "홋카이도 하코다테 고료카쿠 타워 실제 사진",
+          "src": "/images/editorial/hakodate-goryokaku-fort.webp",
+          "alt": "홋카이도 하코다테 고료카쿠 오각형 성곽의 여행 풍경을 표현한 이미지",
           "ready": true
         }
       ],
-      "linkCount": 25,
+      "linkCount": 27,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-320.png"
@@ -141,27 +141,27 @@
       "count": 4,
       "images": [
         {
-          "src": "/images/venues/fukuoka-ohori-park.webp",
-          "alt": "후쿠오카 오호리공원의 호수와 산책로",
+          "src": "/images/editorial/v339_hakata-port-tenjin-sightseeing.webp",
+          "alt": "후쿠오카 하카타항에 입항하는 크루즈와 도심 해안 풍경을 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/osaka-dotonbori.webp",
-          "alt": "오사카 도톤보리의 상징적인 거리와 간판 풍경",
+          "src": "/images/culture-verified/takoyaki-osaka-street-food.webp",
+          "alt": "오사카 대표 길거리 음식 타코야키를 가까이서 보여주는 사진",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-karato-market-real.webp",
-          "alt": "2023년 실제 촬영된 시모노세키 가라토시장 외관",
+          "src": "/images/editorial/mojiko-cruise-port-day-trip.webp",
+          "alt": "시모노세키 간몬해협 건너편 모지코 레트로의 항구 야경을 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-izuhara-port-real.webp",
-          "alt": "2017년 실제 촬영된 대마도 이즈하라 여객선 항구 터미널",
+          "src": "/images/food-verified/tsushima-food.webp",
+          "alt": "대마도 여행에서 만나는 섬 지역 먹거리 참고 사진",
           "ready": true
         }
       ],
-      "linkCount": 23,
+      "linkCount": 21,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-320.png"
@@ -172,33 +172,33 @@
       "count": 6,
       "images": [
         {
-          "src": "/images/culture-verified/yatai-japanese-food-stalls.webp",
-          "alt": "일본 야타이 음식 문화의 이해를 돕는 참고 이미지",
+          "src": "/images/ramen-close.jpg",
+          "alt": "따뜻한 국물과 차슈·반숙 달걀이 담긴 일본 라멘 한 그릇",
           "ready": true
         },
         {
-          "src": "/images/venues/naha-kokusai-street.webp",
-          "alt": "오키나와 나하 국제거리 실제 상점가 풍경",
+          "src": "/images/editorial/okinawa-shopping-street.webp",
+          "alt": "오키나와 국제거리 상점과 기념품 쇼핑 분위기를 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/culture-verified/hanabi-japanese-fireworks-summer.webp",
-          "alt": "여름 일본 불꽃놀이를 보여주는 여행 주제 참고 이미지",
+          "src": "/images/editorial/okinawa-eisa-dance-festival.webp",
+          "alt": "일본 여름축제 오키나와 에이사 춤과 북 공연 분위기를 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/kobe-meriken-park-night.webp",
-          "alt": "고베 메리켄파크의 실제 야경과 항구 풍경",
+          "src": "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
+          "alt": "교토 기요미즈데라 청수사와 가을 단풍 여행 풍경을 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/yokohama-redbrick-waterfront.webp",
-          "alt": "요코하마 붉은벽돌 창고 앞 해안 산책로 실제 풍경",
+          "src": "/images/editorial/ishigaki-kabira-bay.webp",
+          "alt": "오키나와 이시가키 가비라만의 푸른 바다 전망을 표현한 포토 스팟 이미지",
           "ready": true
         },
         {
-          "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
-          "alt": "일본 편의점 이용 방식 참고 이미지",
+          "src": "/images/culture-verified/japanese-vending-machine-culture.webp",
+          "alt": "일본의 일상에서 자주 접하는 자판기와 현지 생활 풍경",
           "ready": true
         }
       ],
@@ -249,47 +249,47 @@
       "count": 8,
       "images": [
         {
-          "src": "/images/venues/tokyo-city-night-real.webp",
-          "alt": "실제 촬영된 도쿄타워와 도쿄 야경",
+          "src": "/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp",
+          "alt": "도쿄 아사쿠사 센소지 가미나리몬의 커다란 붉은 등과 참배객 풍경",
           "ready": true
         },
         {
-          "src": "/images/venues/naha-shureimon.webp",
-          "alt": "오키나와 나하 슈레이몬 역사 유적의 실제 사진",
+          "src": "/images/editorial/okinawa-kouri-bridge.webp",
+          "alt": "오키나와 고우리대교와 에메랄드빛 바다 여행 풍경을 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/fukuoka-tower.webp",
-          "alt": "후쿠오카 타워의 실제 외관과 전망 명소 풍경",
+          "src": "/images/editorial/hakata-cruise-port-day-trip.webp",
+          "alt": "후쿠오카 하카타항과 항구도시 스카이라인을 표현한 크루즈 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
-          "alt": "오사카 덴포잔 가이유칸 수족관의 실제 시설 사진",
+          "src": "/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+          "alt": "오사카 도톤보리 강변의 글리코 간판과 네온 야경",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-karato-market-real.webp",
-          "alt": "2023년 현장 촬영한 시모노세키 가라토시장 외관 사진",
+          "src": "/images/editorial/shimonoseki-cruise-port-day-trip.webp",
+          "alt": "시모노세키 간몬해협의 다리와 크루즈 기항 분위기를 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-izuhara-port-real.webp",
-          "alt": "대마도 이즈하라항 실제 여객선 터미널 사진",
+          "src": "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
+          "alt": "대마도 이즈하라항과 초록 산자락 여행 분위기를 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/kobe-kitano-weathercock.webp",
-          "alt": "고베 기타노 이진칸 거리의 풍향계의 집 실제 사진",
+          "src": "/images/editorial/kobe-cruise-port-day-trip.webp",
+          "alt": "고베항 포트타워와 국제항 크루즈 풍경을 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/hakodate-goryokaku-tower.webp",
-          "alt": "홋카이도 하코다테 고료카쿠 타워 실제 사진",
+          "src": "/images/editorial/hakodate-goryokaku-fort.webp",
+          "alt": "홋카이도 하코다테 고료카쿠 오각형 성곽의 여행 풍경을 표현한 이미지",
           "ready": true
         }
       ],
-      "linkCount": 25,
+      "linkCount": 27,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-390.png"
@@ -300,27 +300,27 @@
       "count": 4,
       "images": [
         {
-          "src": "/images/venues/fukuoka-ohori-park.webp",
-          "alt": "후쿠오카 오호리공원의 호수와 산책로",
+          "src": "/images/editorial/v339_hakata-port-tenjin-sightseeing.webp",
+          "alt": "후쿠오카 하카타항에 입항하는 크루즈와 도심 해안 풍경을 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/osaka-dotonbori.webp",
-          "alt": "오사카 도톤보리의 상징적인 거리와 간판 풍경",
+          "src": "/images/culture-verified/takoyaki-osaka-street-food.webp",
+          "alt": "오사카 대표 길거리 음식 타코야키를 가까이서 보여주는 사진",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-karato-market-real.webp",
-          "alt": "2023년 실제 촬영된 시모노세키 가라토시장 외관",
+          "src": "/images/editorial/mojiko-cruise-port-day-trip.webp",
+          "alt": "시모노세키 간몬해협 건너편 모지코 레트로의 항구 야경을 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-izuhara-port-real.webp",
-          "alt": "2017년 실제 촬영된 대마도 이즈하라 여객선 항구 터미널",
+          "src": "/images/food-verified/tsushima-food.webp",
+          "alt": "대마도 여행에서 만나는 섬 지역 먹거리 참고 사진",
           "ready": true
         }
       ],
-      "linkCount": 23,
+      "linkCount": 21,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-390.png"
@@ -331,33 +331,33 @@
       "count": 6,
       "images": [
         {
-          "src": "/images/culture-verified/yatai-japanese-food-stalls.webp",
-          "alt": "일본 야타이 음식 문화의 이해를 돕는 참고 이미지",
+          "src": "/images/ramen-close.jpg",
+          "alt": "따뜻한 국물과 차슈·반숙 달걀이 담긴 일본 라멘 한 그릇",
           "ready": true
         },
         {
-          "src": "/images/venues/naha-kokusai-street.webp",
-          "alt": "오키나와 나하 국제거리 실제 상점가 풍경",
+          "src": "/images/editorial/okinawa-shopping-street.webp",
+          "alt": "오키나와 국제거리 상점과 기념품 쇼핑 분위기를 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/culture-verified/hanabi-japanese-fireworks-summer.webp",
-          "alt": "여름 일본 불꽃놀이를 보여주는 여행 주제 참고 이미지",
+          "src": "/images/editorial/okinawa-eisa-dance-festival.webp",
+          "alt": "일본 여름축제 오키나와 에이사 춤과 북 공연 분위기를 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/kobe-meriken-park-night.webp",
-          "alt": "고베 메리켄파크의 실제 야경과 항구 풍경",
+          "src": "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
+          "alt": "교토 기요미즈데라 청수사와 가을 단풍 여행 풍경을 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/yokohama-redbrick-waterfront.webp",
-          "alt": "요코하마 붉은벽돌 창고 앞 해안 산책로 실제 풍경",
+          "src": "/images/editorial/ishigaki-kabira-bay.webp",
+          "alt": "오키나와 이시가키 가비라만의 푸른 바다 전망을 표현한 포토 스팟 이미지",
           "ready": true
         },
         {
-          "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
-          "alt": "일본 편의점 이용 방식 참고 이미지",
+          "src": "/images/culture-verified/japanese-vending-machine-culture.webp",
+          "alt": "일본의 일상에서 자주 접하는 자판기와 현지 생활 풍경",
           "ready": true
         }
       ],
@@ -408,47 +408,47 @@
       "count": 8,
       "images": [
         {
-          "src": "/images/venues/tokyo-city-night-real.webp",
-          "alt": "실제 촬영된 도쿄타워와 도쿄 야경",
+          "src": "/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp",
+          "alt": "도쿄 아사쿠사 센소지 가미나리몬의 커다란 붉은 등과 참배객 풍경",
           "ready": true
         },
         {
-          "src": "/images/venues/naha-shureimon.webp",
-          "alt": "오키나와 나하 슈레이몬 역사 유적의 실제 사진",
+          "src": "/images/editorial/okinawa-kouri-bridge.webp",
+          "alt": "오키나와 고우리대교와 에메랄드빛 바다 여행 풍경을 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/fukuoka-tower.webp",
-          "alt": "후쿠오카 타워의 실제 외관과 전망 명소 풍경",
+          "src": "/images/editorial/hakata-cruise-port-day-trip.webp",
+          "alt": "후쿠오카 하카타항과 항구도시 스카이라인을 표현한 크루즈 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
-          "alt": "오사카 덴포잔 가이유칸 수족관의 실제 시설 사진",
+          "src": "/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+          "alt": "오사카 도톤보리 강변의 글리코 간판과 네온 야경",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-karato-market-real.webp",
-          "alt": "2023년 현장 촬영한 시모노세키 가라토시장 외관 사진",
+          "src": "/images/editorial/shimonoseki-cruise-port-day-trip.webp",
+          "alt": "시모노세키 간몬해협의 다리와 크루즈 기항 분위기를 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-izuhara-port-real.webp",
-          "alt": "대마도 이즈하라항 실제 여객선 터미널 사진",
+          "src": "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
+          "alt": "대마도 이즈하라항과 초록 산자락 여행 분위기를 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/kobe-kitano-weathercock.webp",
-          "alt": "고베 기타노 이진칸 거리의 풍향계의 집 실제 사진",
+          "src": "/images/editorial/kobe-cruise-port-day-trip.webp",
+          "alt": "고베항 포트타워와 국제항 크루즈 풍경을 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/hakodate-goryokaku-tower.webp",
-          "alt": "홋카이도 하코다테 고료카쿠 타워 실제 사진",
+          "src": "/images/editorial/hakodate-goryokaku-fort.webp",
+          "alt": "홋카이도 하코다테 고료카쿠 오각형 성곽의 여행 풍경을 표현한 이미지",
           "ready": true
         }
       ],
-      "linkCount": 25,
+      "linkCount": 27,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-768.png"
@@ -459,27 +459,27 @@
       "count": 4,
       "images": [
         {
-          "src": "/images/venues/fukuoka-ohori-park.webp",
-          "alt": "후쿠오카 오호리공원의 호수와 산책로",
+          "src": "/images/editorial/v339_hakata-port-tenjin-sightseeing.webp",
+          "alt": "후쿠오카 하카타항에 입항하는 크루즈와 도심 해안 풍경을 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/osaka-dotonbori.webp",
-          "alt": "오사카 도톤보리의 상징적인 거리와 간판 풍경",
+          "src": "/images/culture-verified/takoyaki-osaka-street-food.webp",
+          "alt": "오사카 대표 길거리 음식 타코야키를 가까이서 보여주는 사진",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-karato-market-real.webp",
-          "alt": "2023년 실제 촬영된 시모노세키 가라토시장 외관",
+          "src": "/images/editorial/mojiko-cruise-port-day-trip.webp",
+          "alt": "시모노세키 간몬해협 건너편 모지코 레트로의 항구 야경을 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-izuhara-port-real.webp",
-          "alt": "2017년 실제 촬영된 대마도 이즈하라 여객선 항구 터미널",
+          "src": "/images/food-verified/tsushima-food.webp",
+          "alt": "대마도 여행에서 만나는 섬 지역 먹거리 참고 사진",
           "ready": true
         }
       ],
-      "linkCount": 23,
+      "linkCount": 21,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-768.png"
@@ -490,33 +490,33 @@
       "count": 6,
       "images": [
         {
-          "src": "/images/culture-verified/yatai-japanese-food-stalls.webp",
-          "alt": "일본 야타이 음식 문화의 이해를 돕는 참고 이미지",
+          "src": "/images/ramen-close.jpg",
+          "alt": "따뜻한 국물과 차슈·반숙 달걀이 담긴 일본 라멘 한 그릇",
           "ready": true
         },
         {
-          "src": "/images/venues/naha-kokusai-street.webp",
-          "alt": "오키나와 나하 국제거리 실제 상점가 풍경",
+          "src": "/images/editorial/okinawa-shopping-street.webp",
+          "alt": "오키나와 국제거리 상점과 기념품 쇼핑 분위기를 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/culture-verified/hanabi-japanese-fireworks-summer.webp",
-          "alt": "여름 일본 불꽃놀이를 보여주는 여행 주제 참고 이미지",
+          "src": "/images/editorial/okinawa-eisa-dance-festival.webp",
+          "alt": "일본 여름축제 오키나와 에이사 춤과 북 공연 분위기를 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/kobe-meriken-park-night.webp",
-          "alt": "고베 메리켄파크의 실제 야경과 항구 풍경",
+          "src": "/images/editorial/kyoto-kiyomizu-stage-structure.webp",
+          "alt": "교토 기요미즈데라 청수사와 가을 단풍 여행 풍경을 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/yokohama-redbrick-waterfront.webp",
-          "alt": "요코하마 붉은벽돌 창고 앞 해안 산책로 실제 풍경",
+          "src": "/images/editorial/ishigaki-kabira-bay.webp",
+          "alt": "오키나와 이시가키 가비라만의 푸른 바다 전망을 표현한 포토 스팟 이미지",
           "ready": true
         },
         {
-          "src": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
-          "alt": "일본 편의점 이용 방식 참고 이미지",
+          "src": "/images/culture-verified/japanese-vending-machine-culture.webp",
+          "alt": "일본의 일상에서 자주 접하는 자판기와 현지 생활 풍경",
           "ready": true
         }
       ],
@@ -567,47 +567,47 @@
       "count": 8,
       "images": [
         {
-          "src": "/images/venues/tokyo-city-night-real.webp",
-          "alt": "실제 촬영된 도쿄타워와 도쿄 야경",
+          "src": "/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp",
+          "alt": "도쿄 아사쿠사 센소지 가미나리몬의 커다란 붉은 등과 참배객 풍경",
           "ready": true
         },
         {
-          "src": "/images/venues/naha-shureimon.webp",
-          "alt": "오키나와 나하 슈레이몬 역사 유적의 실제 사진",
+          "src": "/images/editorial/okinawa-kouri-bridge.webp",
+          "alt": "오키나와 고우리대교와 에메랄드빛 바다 여행 풍경을 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/fukuoka-tower.webp",
-          "alt": "후쿠오카 타워의 실제 외관과 전망 명소 풍경",
+          "src": "/images/editorial/hakata-cruise-port-day-trip.webp",
+          "alt": "후쿠오카 하카타항과 항구도시 스카이라인을 표현한 크루즈 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/osaka-kaiyukan-aquarium.webp",
-          "alt": "오사카 덴포잔 가이유칸 수족관의 실제 시설 사진",
+          "src": "/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+          "alt": "오사카 도톤보리 강변의 글리코 간판과 네온 야경",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-karato-market-real.webp",
-          "alt": "2023년 현장 촬영한 시모노세키 가라토시장 외관 사진",
+          "src": "/images/editorial/shimonoseki-cruise-port-day-trip.webp",
+          "alt": "시모노세키 간몬해협의 다리와 크루즈 기항 분위기를 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-izuhara-port-real.webp",
-          "alt": "대마도 이즈하라항 실제 여객선 터미널 사진",
+          "src": "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
+          "alt": "대마도 이즈하라항과 초록 산자락 여행 분위기를 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/kobe-kitano-weathercock.webp",
-          "alt": "고베 기타노 이진칸 거리의 풍향계의 집 실제 사진",
+          "src": "/images/editorial/kobe-cruise-port-day-trip.webp",
+          "alt": "고베항 포트타워와 국제항 크루즈 풍경을 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/hakodate-goryokaku-tower.webp",
-          "alt": "홋카이도 하코다테 고료카쿠 타워 실제 사진",
+          "src": "/images/editorial/hakodate-goryokaku-fort.webp",
+          "alt": "홋카이도 하코다테 고료카쿠 오각형 성곽의 여행 풍경을 표현한 이미지",
           "ready": true
         }
       ],
-      "linkCount": 25,
+      "linkCount": 27,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-1440.png"
@@ -618,27 +618,27 @@
       "count": 4,
       "images": [
         {
-          "src": "/images/venues/fukuoka-ohori-park.webp",
-          "alt": "후쿠오카 오호리공원의 호수와 산책로",
+          "src": "/images/editorial/v339_hakata-port-tenjin-sightseeing.webp",
+          "alt": "후쿠오카 하카타항에 입항하는 크루즈와 도심 해안 풍경을 표현한 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/osaka-dotonbori.webp",
-          "alt": "오사카 도톤보리의 상징적인 거리와 간판 풍경",
+          "src": "/images/culture-verified/takoyaki-osaka-street-food.webp",
+          "alt": "오사카 대표 길거리 음식 타코야키를 가까이서 보여주는 사진",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-karato-market-real.webp",
-          "alt": "2023년 실제 촬영된 시모노세키 가라토시장 외관",
+          "src": "/images/editorial/mojiko-cruise-port-day-trip.webp",
+          "alt": "시모노세키 간몬해협 건너편 모지코 레트로의 항구 야경을 표현한 여행 이미지",
           "ready": true
         },
         {
-          "src": "/images/venues/v62-izuhara-port-real.webp",
-          "alt": "2017년 실제 촬영된 대마도 이즈하라 여객선 항구 터미널",
+          "src": "/images/food-verified/tsushima-food.webp",
+          "alt": "대마도 여행에서 만나는 섬 지역 먹거리 참고 사진",
           "ready": true
         }
       ],
-      "linkCount": 23,
+      "linkCount": 21,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-1440.png"
@@ -647,6 +647,6 @@
   "errors": [],
   "warnings": [],
   "source": "site/index.html",
-  "checkedInternalLinks": 95,
+  "checkedInternalLinks": 96,
   "passed": true
 }
