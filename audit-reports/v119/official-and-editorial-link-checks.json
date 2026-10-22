@@ -1,0 +1,3528 @@
+{
+  "version": "V119",
+  "checked_utc": "2026-10-22T09:39:13.550894+00:00",
+  "total_external_urls": 1275,
+  "eligible_non_media_urls": 719,
+  "probed": 260,
+  "remaining_unprobed": 1015,
+  "counts": {
+    "reachable": 246,
+    "unverified": 5,
+    "confirmed_broken": 9
+  },
+  "definition": "HTTP reachable does not prove booking success or valid entrance/fee; 403,429,5xx,tls failure remain unverified.",
+  "confirmed_broken": [
+    {
+      "url": "https://www.japan.travel/en/things-to-do/food-and-drink/",
+      "pages": [
+        "/things-to-do/dashi-japanese-umami-stock/",
+        "/things-to-do/miso-japanese-fermented-soy/",
+        "/things-to-do/okonomiyaki-osaka-hiroshima/",
+        "/things-to-do/onigiri-japanese-rice-ball/",
+        "/things-to-do/regional-soba-japanese-buckwheat/",
+        "/things-to-do/sushi-edo-japanese-food-history/",
+        "/things-to-do/takoyaki-osaka-street-food/",
+        "/things-to-do/tempura-japanese-fried-food/",
+        "/things-to-do/udon-japanese-regional-noodles/",
+        "/things-to-do/yakitori-japanese-skewer-culture/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/destinations/tokai/aichi/tokoname/",
+      "pages": [
+        "/things-to-do/japanese-maneki-neko-lucky-cat/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/japanese-festivals/",
+      "pages": [
+        "/things-to-do/japanese-matsuri-festival-culture/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/shrines/",
+      "pages": [
+        "/things-to-do/japanese-shrine-vs-buddhist-temple/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/temples/",
+      "pages": [
+        "/things-to-do/japanese-shrine-vs-buddhist-temple/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/1655/",
+      "pages": [
+        "/things-to-do/japanese-maneki-neko-lucky-cat/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/ko/things-to-do/guide/diving/",
+      "pages": [
+        "/things-to-do/japan-diving-first-time/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": "https://www.japan.travel/en/things-to-do/guide/diving/",
+      "error": null
+    },
+    {
+      "url": "https://www.city.sasebo.lg.jp/kouwan/cruise/documents/02_english_map_uragasira.pdf",
+      "pages": [
+        "/things-to-do/sasebo-cruise-couple-guide/",
+        "/things-to-do/sasebo-cruise-family-guide/",
+        "/things-to-do/sasebo-cruise-parents-guide/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mhlw.go.jp/english/",
+      "pages": [
+        "/japan/tokyo/tokyo-drugstore-cosmetics/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 403,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    }
+  ],
+  "unverified": [
+    {
+      "url": "https://kampuferry.co.jp/reserve/",
+      "pages": [
+        "/booking/japan-cruise/",
+        "/ferry/",
+        "/guide/busan-shimonoseki-ferry-price/",
+        "/guide/busan-shimonoseki-ferry/",
+        "/guide/busan-shimonoseki-timetable/"
+      ],
+      "classification": "unverified",
+      "head_status": null,
+      "final_status": null,
+      "redirected_to": null,
+      "error": "URLError"
+    },
+    {
+      "url": "https://kampuferry.co.jp/fare/",
+      "pages": [
+        "/guide/busan-shimonoseki-ferry-price/",
+        "/guide/busan-shimonoseki-ferry/",
+        "/guide/busan-shimonoseki-timetable/"
+      ],
+      "classification": "unverified",
+      "head_status": null,
+      "final_status": null,
+      "redirected_to": null,
+      "error": "URLError"
+    },
+    {
+      "url": "https://kampuferry.co.jp/yoyaku/en/reservation.html",
+      "pages": [
+        "/guide/busan-shimonoseki-ferry/"
+      ],
+      "classification": "unverified",
+      "head_status": null,
+      "final_status": null,
+      "redirected_to": null,
+      "error": "URLError"
+    },
+    {
+      "url": "https://www.pukwan.co.kr/",
+      "pages": [
+        "/booking/shimonoseki/",
+        "/busan-shimonoseki-cruise-price/",
+        "/busan-shimonoseki-cruise/",
+        "/guide/bugwan-ferry-guide/",
+        "/guide/shimonoseki-port-to-karato/",
+        "/japan-cruise/bukan-ferry-shimonoseki-price/",
+        "/japan/shimonoseki/"
+      ],
+      "classification": "unverified",
+      "head_status": null,
+      "final_status": null,
+      "redirected_to": null,
+      "error": "URLError"
+    },
+    {
+      "url": "https://www.kanazawa-cruise.jp/en/",
+      "pages": [
+        "/things-to-do/kanazawa-cruise-couple-guide/",
+        "/things-to-do/kanazawa-cruise-family-guide/",
+        "/things-to-do/kanazawa-cruise-parents-guide/",
+        "/things-to-do/kanazawa-cruise-port-day-trip/",
+        "/things-to-do/kanazawa-port-day-trip/"
+      ],
+      "classification": "unverified",
+      "head_status": 503,
+      "final_status": 503,
+      "redirected_to": null,
+      "error": null
+    }
+  ],
+  "results": [
+    {
+      "url": "https://www.panstarcruise.com/product/osaka/info",
+      "pages": [
+        "/booking/osaka/",
+        "/busan-osaka-cruise-price/",
+        "/busan-osaka-cruise/",
+        "/ferry/",
+        "/guide/busan-osaka-ferry-price/",
+        "/guide/busan-osaka-ferry/",
+        "/guide/busan-osaka-timetable/",
+        "/guide/osaka-busan-ferry/",
+        "/guide/osaka-ferry-3n4d/",
+        "/guide/osaka-ferry-4n5d/",
+        "/guide/osaka-ferry-vs-flight/",
+        "/guide/osaka-port-to-namba/",
+        "/guide/osaka-port-to-umeda/",
+        "/guide/panstar-miracle-guide/",
+        "/guide/panstar-miracle-rooms/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.panstarcruise.com/support/notice",
+      "pages": [
+        "/guide/busan-osaka-ferry-price/",
+        "/guide/busan-osaka-ferry/",
+        "/guide/busan-osaka-timetable/",
+        "/guide/busan-tsushima-ferry-price/",
+        "/guide/busan-tsushima-ferry/",
+        "/guide/busan-tsushima-timetable/",
+        "/guide/hitakatsu-day-trip/",
+        "/guide/hitakatsu-port-transport/",
+        "/guide/hitakatsu-vs-izuhara/",
+        "/guide/izuhara-1n2d/",
+        "/guide/izuhara-port-transport/",
+        "/guide/nova-tsushima-guide/",
+        "/guide/tsushima-1n2d/",
+        "/guide/tsushima-busan-ferry/",
+        "/guide/tsushima-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.panstarcruise.com/product/daemado/info",
+      "pages": [
+        "/booking/tsushima/",
+        "/busan-hitakatsu-cruise/",
+        "/busan-izuhara-cruise/",
+        "/busan-tsushima-cruise-price/",
+        "/busan-tsushima-cruise/",
+        "/ferry/",
+        "/guide/busan-tsushima-ferry-price/",
+        "/guide/busan-tsushima-ferry/",
+        "/guide/busan-tsushima-timetable/",
+        "/japan/tsushima-hotel-area/",
+        "/japan/tsushima-shopping-list/",
+        "/japan/tsushima-transport/",
+        "/japan/tsushima/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.panstarcruise.com/support/notice/292",
+      "pages": [
+        "/guide/busan-tsushima-ferry-price/",
+        "/guide/busan-tsushima-ferry/",
+        "/guide/busan-tsushima-timetable/",
+        "/guide/hitakatsu-day-trip/",
+        "/guide/hitakatsu-port-transport/",
+        "/guide/hitakatsu-vs-izuhara/",
+        "/guide/izuhara-1n2d/",
+        "/guide/izuhara-port-transport/",
+        "/guide/nova-tsushima-guide/",
+        "/guide/tsushima-1n2d/",
+        "/guide/tsushima-busan-ferry/",
+        "/guide/tsushima-day-trip/",
+        "/guide/tsushima-link-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.panstarcruise.com/support/notice/307",
+      "pages": [
+        "/guide/busan-tsushima-ferry-price/",
+        "/guide/busan-tsushima-ferry/",
+        "/guide/busan-tsushima-timetable/",
+        "/guide/hitakatsu-day-trip/",
+        "/guide/hitakatsu-port-transport/",
+        "/guide/hitakatsu-vs-izuhara/",
+        "/guide/izuhara-1n2d/",
+        "/guide/izuhara-port-transport/",
+        "/guide/nova-tsushima-guide/",
+        "/guide/tsushima-1n2d/",
+        "/guide/tsushima-busan-ferry/",
+        "/guide/tsushima-day-trip/",
+        "/guide/tsushima-link-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.panstarcruise.com/support/notice/294",
+      "pages": [
+        "/guide/busan-osaka-ferry-price/",
+        "/guide/busan-osaka-ferry/",
+        "/guide/busan-osaka-timetable/",
+        "/guide/osaka-busan-ferry/",
+        "/guide/osaka-ferry-3n4d/",
+        "/guide/osaka-ferry-4n5d/",
+        "/guide/osaka-ferry-vs-flight/",
+        "/guide/osaka-port-to-namba/",
+        "/guide/osaka-port-to-umeda/",
+        "/guide/panstar-miracle-guide/",
+        "/guide/panstar-miracle-rooms/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.panstarcruise.com/",
+      "pages": [
+        "/booking/japan-cruise/",
+        "/ferry/",
+        "/guide/busan-osaka-ferry-price/",
+        "/guide/busan-osaka-ferry/",
+        "/guide/busan-osaka-timetable/",
+        "/guide/busan-tsushima-ferry/",
+        "/guide/osaka-port-to-namba/",
+        "/guide/panstar-miracle-guide/",
+        "/guide/panstar-miracle-rooms/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.panstarcruise.com/duty-free/guide",
+      "pages": [
+        "/shopping/cruise-duty-free/",
+        "/shopping/ferry-duty-free/",
+        "/shopping/osaka-specialties/",
+        "/shopping/panstar-duty-free/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.panstarcruise.com/support/notice/305",
+      "pages": [
+        "/guide/busan-osaka-ferry-price/",
+        "/guide/busan-osaka-ferry/",
+        "/guide/busan-osaka-timetable/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.panstarcruise.com/facility/daemado/info",
+      "pages": [
+        "/shopping/panstar-duty-free/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.panstarcruise.com/product/osaka/price",
+      "pages": [
+        "/japan-cruise/panstar-miracle-osaka-cabin-types/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.panstarcruise.com/product/osaka/procedure",
+      "pages": [
+        "/japan/osaka/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.koreaferry.kr/",
+      "pages": [
+        "/booking/fukuoka/",
+        "/busan-fukuoka-cruise-price/",
+        "/busan-fukuoka-cruise/",
+        "/ferry/",
+        "/guide/busan-fukuoka-ferry-price/",
+        "/guide/busan-fukuoka-ferry/",
+        "/guide/busan-fukuoka-timetable/",
+        "/guide/hakata-port-to-hakata-station/",
+        "/guide/new-camellia-guide/",
+        "/guide/new-camellia-rooms/",
+        "/japan/fukuoka/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://koreaferry.kr/bbs/content.php?co_id=car",
+      "pages": [
+        "/guide/busan-fukuoka-ferry-price/",
+        "/guide/busan-fukuoka-ferry/",
+        "/guide/busan-fukuoka-timetable/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice",
+      "pages": [
+        "/guide/busan-fukuoka-ferry-price/",
+        "/guide/busan-fukuoka-ferry/",
+        "/guide/busan-fukuoka-timetable/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=39",
+      "pages": [
+        "/guide/busan-fukuoka-ferry-price/",
+        "/guide/busan-fukuoka-ferry/",
+        "/guide/busan-fukuoka-timetable/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=40",
+      "pages": [
+        "/guide/busan-fukuoka-ferry-price/",
+        "/guide/busan-fukuoka-ferry/",
+        "/guide/busan-fukuoka-timetable/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=42",
+      "pages": [
+        "/guide/busan-fukuoka-ferry-price/",
+        "/guide/busan-fukuoka-ferry/",
+        "/guide/busan-fukuoka-timetable/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=43",
+      "pages": [
+        "/guide/busan-fukuoka-ferry-price/",
+        "/guide/busan-fukuoka-ferry/",
+        "/guide/busan-fukuoka-timetable/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://kampuferry.co.jp/reserve/",
+      "pages": [
+        "/booking/japan-cruise/",
+        "/ferry/",
+        "/guide/busan-shimonoseki-ferry-price/",
+        "/guide/busan-shimonoseki-ferry/",
+        "/guide/busan-shimonoseki-timetable/"
+      ],
+      "classification": "unverified",
+      "head_status": null,
+      "final_status": null,
+      "redirected_to": null,
+      "error": "URLError"
+    },
+    {
+      "url": "https://kampuferry.co.jp/fare/",
+      "pages": [
+        "/guide/busan-shimonoseki-ferry-price/",
+        "/guide/busan-shimonoseki-ferry/",
+        "/guide/busan-shimonoseki-timetable/"
+      ],
+      "classification": "unverified",
+      "head_status": null,
+      "final_status": null,
+      "redirected_to": null,
+      "error": "URLError"
+    },
+    {
+      "url": "https://kampuferry.co.jp/yoyaku/en/reservation.html",
+      "pages": [
+        "/guide/busan-shimonoseki-ferry/"
+      ],
+      "classification": "unverified",
+      "head_status": null,
+      "final_status": null,
+      "redirected_to": null,
+      "error": "URLError"
+    },
+    {
+      "url": "https://www.pukwan.co.kr/",
+      "pages": [
+        "/booking/shimonoseki/",
+        "/busan-shimonoseki-cruise-price/",
+        "/busan-shimonoseki-cruise/",
+        "/guide/bugwan-ferry-guide/",
+        "/guide/shimonoseki-port-to-karato/",
+        "/japan-cruise/bukan-ferry-shimonoseki-price/",
+        "/japan/shimonoseki/"
+      ],
+      "classification": "unverified",
+      "head_status": null,
+      "final_status": null,
+      "redirected_to": null,
+      "error": "URLError"
+    },
+    {
+      "url": "https://hakataport.com/center/",
+      "pages": [
+        "/guide/hakata-port-to-hakata-station/",
+        "/guide/hakata-port-to-tenjin/",
+        "/things-to-do/hakata-cruise-port-day-trip/",
+        "/things-to-do/hakata-port-dazaifu-shore-excursion/",
+        "/things-to-do/hakata-port-hakata-station-access/",
+        "/things-to-do/hakata-port-tenjin-sightseeing/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://hakataport.com/",
+      "pages": [
+        "/things-to-do/hakata-port-dazaifu-shore-excursion/",
+        "/things-to-do/hakata-port-hakata-station-access/",
+        "/things-to-do/hakata-port-tenjin-sightseeing/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://hakataport.com/Access/",
+      "pages": [
+        "/things-to-do/hakata-cruise-port-day-trip/",
+        "/things-to-do/hakata-port-hakata-station-access/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://hakataport.com/access/",
+      "pages": [
+        "/things-to-do/hakata-port-hakata-station-access/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.hakataport.com/english/access.html",
+      "pages": [
+        "/things-to-do/hakata-port-tenjin-sightseeing/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/list/index.html",
+      "pages": [
+        "/things-to-do/atami-cruise-port-day-trip/",
+        "/things-to-do/fukuyama-cruise-port-day-trip/",
+        "/things-to-do/gamagori-cruise-port-day-trip/",
+        "/things-to-do/hidaka-cruise-port-day-trip/",
+        "/things-to-do/himeji-cruise-port-day-trip/",
+        "/things-to-do/imabari-cruise-port-day-trip/",
+        "/things-to-do/kobe-cruise-port-day-trip/",
+        "/things-to-do/kochi-cruise-port-day-trip/",
+        "/things-to-do/matsuyama-cruise-port-day-trip/",
+        "/things-to-do/nagoya-cruise-port-day-trip/",
+        "/things-to-do/omaezaki-cruise-port-day-trip/",
+        "/things-to-do/osaka-cruise-port-day-trip/",
+        "/things-to-do/sakai-semboku-cruise-port-day-trip/",
+        "/things-to-do/sakaide-cruise-port-day-trip/",
+        "/things-to-do/shimizu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/list/index.html",
+      "pages": [
+        "/things-to-do/atami-cruise-port-day-trip/",
+        "/things-to-do/iki-gonoura-cruise-port-day-trip/",
+        "/things-to-do/ishigaki-cruise-port-day-trip/",
+        "/things-to-do/kumamoto-cruise-port-day-trip/",
+        "/things-to-do/naha-cruise-port-day-trip/",
+        "/things-to-do/saiki-cruise-port-day-trip/",
+        "/things-to-do/shimoda-cruise-port-day-trip/",
+        "/things-to-do/shimonoseki-cruise-port-day-trip/",
+        "/things-to-do/tottori-cruise-port-day-trip/",
+        "/things-to-do/tsushima-izuhara-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/058/index.html",
+      "pages": [
+        "/things-to-do/nagasaki-cruise-couple-guide/",
+        "/things-to-do/nagasaki-cruise-family-guide/",
+        "/things-to-do/nagasaki-cruise-parents-guide/",
+        "/things-to-do/nagasaki-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/064/index.html",
+      "pages": [
+        "/things-to-do/sasebo-cruise-couple-guide/",
+        "/things-to-do/sasebo-cruise-family-guide/",
+        "/things-to-do/sasebo-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/020/index.html",
+      "pages": [
+        "/things-to-do/niigata-cruise-port-day-trip/",
+        "/things-to-do/niigata-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/002/index.html",
+      "pages": [
+        "/things-to-do/tomakomai-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/004/index.html",
+      "pages": [
+        "/things-to-do/hakodate-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/009/index.html",
+      "pages": [
+        "/things-to-do/rishiri-kutsugata-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/010/index.html",
+      "pages": [
+        "/things-to-do/aomori-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/011/index.html",
+      "pages": [
+        "/things-to-do/ishinomaki-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/012/index.html",
+      "pages": [
+        "/things-to-do/akita-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/021/index.html",
+      "pages": [
+        "/things-to-do/fushiki-toyama-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/022/index.html",
+      "pages": [
+        "/things-to-do/kanazawa-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/023/index.html",
+      "pages": [
+        "/things-to-do/nanao-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/024/index.html",
+      "pages": [
+        "/things-to-do/tsuruga-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/028/index.html",
+      "pages": [
+        "/things-to-do/maizuru-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/036/index.html",
+      "pages": [
+        "/things-to-do/sakaiminato-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/039/index.html",
+      "pages": [
+        "/things-to-do/hiroshima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/048/index.html",
+      "pages": [
+        "/things-to-do/tokushima-komatsushima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/049/index.html",
+      "pages": [
+        "/things-to-do/takamatsu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/053/index.html",
+      "pages": [
+        "/things-to-do/sukumo-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/056/index.html",
+      "pages": [
+        "/things-to-do/karatsu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/057/index.html",
+      "pages": [
+        "/things-to-do/imari-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/059/index.html",
+      "pages": [
+        "/things-to-do/hirado-kawachi-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/060/index.html",
+      "pages": [
+        "/things-to-do/goto-fukue-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/061/index.html",
+      "pages": [
+        "/things-to-do/aokata-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/065/index.html",
+      "pages": [
+        "/things-to-do/kumamoto-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/066/index.html",
+      "pages": [
+        "/things-to-do/beppu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/067/index.html",
+      "pages": [
+        "/things-to-do/miyazaki-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/069/index.html",
+      "pages": [
+        "/things-to-do/hososhima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/070/index.html",
+      "pages": [
+        "/things-to-do/kagoshima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/071/index.html",
+      "pages": [
+        "/things-to-do/amami-naze-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/072/index.html",
+      "pages": [
+        "/things-to-do/yakushima-miyanoura-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/073/index.html",
+      "pages": [
+        "/things-to-do/motobu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/074/index.html",
+      "pages": [
+        "/okinawa/naha-cruise-port/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/075/index.html",
+      "pages": [
+        "/things-to-do/hirara-miyakojima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/080/index.html",
+      "pages": [
+        "/things-to-do/sado-ogi-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/082/index.html",
+      "pages": [
+        "/things-to-do/tokuyama-kudamatsu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/083/index.html",
+      "pages": [
+        "/things-to-do/mitajiri-nakanoseki-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/084/index.html",
+      "pages": [
+        "/things-to-do/ube-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/089/index.html",
+      "pages": [
+        "/things-to-do/kumamoto-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/090/index.html",
+      "pages": [
+        "/things-to-do/kumamoto-misumi-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/096/index.html",
+      "pages": [
+        "/things-to-do/numazu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/098/index.html",
+      "pages": [
+        "/things-to-do/kisarazu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/099/index.html",
+      "pages": [
+        "/things-to-do/oigawa-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/103/index.html",
+      "pages": [
+        "/things-to-do/niihama-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/104/index.html",
+      "pages": [
+        "/things-to-do/nakatsu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/105/index.html",
+      "pages": [
+        "/things-to-do/hannan-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/107/index.html",
+      "pages": [
+        "/things-to-do/kawasaki-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/108/index.html",
+      "pages": [
+        "/things-to-do/ohama-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/113/index.html",
+      "pages": [
+        "/things-to-do/nakagusuku-bay-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/114/index.html",
+      "pages": [
+        "/things-to-do/mikawa-jinno-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/116/index.html",
+      "pages": [
+        "/things-to-do/fukui-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/118/index.html",
+      "pages": [
+        "/things-to-do/kaminato-hachijojima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/120/index.html",
+      "pages": [
+        "/things-to-do/tokoname-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/121/index.html",
+      "pages": [
+        "/things-to-do/niijima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/122/index.html",
+      "pages": [
+        "/things-to-do/kozushima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/123/index.html",
+      "pages": [
+        "/things-to-do/miike-miyakejima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/detail/125/index.html",
+      "pages": [
+        "/things-to-do/yawatahama-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/001/index.html",
+      "pages": [
+        "/things-to-do/muroran-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/003/index.html",
+      "pages": [
+        "/things-to-do/wakkanai-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/006/",
+      "pages": [
+        "/things-to-do/kushiro-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/007/index.html",
+      "pages": [
+        "/things-to-do/rumoi-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/008/index.html",
+      "pages": [
+        "/things-to-do/abashiri-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/013/index.html",
+      "pages": [
+        "/things-to-do/noshiro-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/014/index.html",
+      "pages": [
+        "/things-to-do/funagawa-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/015/index.html",
+      "pages": [
+        "/things-to-do/sakata-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/016/",
+      "pages": [
+        "/things-to-do/ibaraki-hitachinaka-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/017/index.html",
+      "pages": [
+        "/things-to-do/tateyama-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/018/index.html",
+      "pages": [
+        "/things-to-do/tokyo-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/037/index.html",
+      "pages": [
+        "/things-to-do/hamada-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/074/index.html",
+      "pages": [
+        "/things-to-do/naha-cruise-terminal-kokusai-dori/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/077/index.html",
+      "pages": [
+        "/things-to-do/hachinohe-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/078/index.html",
+      "pages": [
+        "/things-to-do/ominato-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/079/index.html",
+      "pages": [
+        "/things-to-do/ofunato-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/085/index.html",
+      "pages": [
+        "/things-to-do/hagi-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/087/index.html",
+      "pages": [
+        "/things-to-do/kuji-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/088/index.html",
+      "pages": [
+        "/things-to-do/miyako-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/092/index.html",
+      "pages": [
+        "/things-to-do/tagonoura-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/094/index.html",
+      "pages": [
+        "/things-to-do/ito-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/097/index.html",
+      "pages": [
+        "/things-to-do/onahama-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/102/index.html",
+      "pages": [
+        "/things-to-do/uwajima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/110/index.html",
+      "pages": [
+        "/things-to-do/sendai-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/112/index.html",
+      "pages": [
+        "/things-to-do/shiraoi-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/115/index.html",
+      "pages": [
+        "/things-to-do/soma-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/117/index.html",
+      "pages": [
+        "/things-to-do/okata-izu-oshima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/119/index.html",
+      "pages": [
+        "/things-to-do/futami-ogasawara-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/detail/124/index.html",
+      "pages": [
+        "/things-to-do/naoetsu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mlit.go.jp/kankocho/cruise/jp/pfs/pfs/area/area-pdf/02/02_14_04_tsugaru.pdf",
+      "pages": [
+        "/things-to-do/tsugaru-ajigasawa-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/things-to-do/culture/",
+      "pages": [
+        "/things-to-do/aizome-japanese-indigo-dye/",
+        "/things-to-do/bento-japanese-lunchbox-everyday/",
+        "/things-to-do/bonsai-japanese-miniature-trees/",
+        "/things-to-do/bunraku-japanese-puppet-theater/",
+        "/things-to-do/edo-kiriko-cut-glass/",
+        "/things-to-do/ema-japanese-wish-wooden-plaques/",
+        "/things-to-do/furoshiki-japanese-wrapping-cloth/",
+        "/things-to-do/futon-japanese-bedding-culture/",
+        "/things-to-do/goshuin-temple-shrine-stamps/",
+        "/things-to-do/hanabi-japanese-fireworks-summer/",
+        "/things-to-do/hanami-japanese-cherry-blossom-picnic/",
+        "/things-to-do/hatsumode-japanese-first-shrine-visit/",
+        "/things-to-do/hinamatsuri-japanese-dolls/",
+        "/things-to-do/ikebana-japanese-flower-arrangement/",
+        "/things-to-do/izakaya-japanese-afterwork-culture/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/ko/things-to-do/",
+      "pages": [
+        "/things-to-do/accessible-slow-travel/",
+        "/things-to-do/experience-booking-checklist/",
+        "/things-to-do/family-with-kids/",
+        "/things-to-do/japan-diving-first-time/",
+        "/things-to-do/japan-four-shopping-experiences/",
+        "/things-to-do/japan-free-low-budget/",
+        "/things-to-do/japanese-tea-ceremony-culture/",
+        "/things-to-do/local-food-market-guide/",
+        "/things-to-do/nature-outdoor-checklist/",
+        "/things-to-do/onsen-first-time/",
+        "/things-to-do/port-to-experience-planner/",
+        "/things-to-do/shopping-city-night-guide/",
+        "/things-to-do/solo-cultural-day/",
+        "/things-to-do/traditional-experience-booking/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": "https://www.japan.travel/en/us/",
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/plan/",
+      "pages": [
+        "/things-to-do/depachika-japanese-department-food/",
+        "/things-to-do/japan-trash-bin-shortage/",
+        "/things-to-do/japanese-hightech-public-toilets/",
+        "/things-to-do/japanese-queue-culture/",
+        "/things-to-do/japanese-sento-public-bath-manners/",
+        "/things-to-do/japanese-train-manners-quiet-car/",
+        "/things-to-do/japanese-vending-machine-culture/",
+        "/things-to-do/kissaten-japanese-retro-coffee/",
+        "/things-to-do/konbini-japanese-convenience-store-life/",
+        "/things-to-do/shotengai-japanese-shopping-arcades/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/plan/getting-around/",
+      "pages": [
+        "/things-to-do/japan-night-train-travel/",
+        "/things-to-do/japan-rail-pass-why-changes/",
+        "/things-to-do/japan-railway-platform-melodies/",
+        "/things-to-do/japan-railway-station-stamps/",
+        "/things-to-do/japan-station-bento-vending/",
+        "/things-to-do/japan-tram-streetcars-history/",
+        "/things-to-do/japanese-ferries-islands-life/",
+        "/things-to-do/japanese-local-train-one-man/",
+        "/things-to-do/japanese-ropeways-mountain-access/",
+        "/things-to-do/shinkansen-bullet-train-history/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/things-to-do/food-and-drink/",
+      "pages": [
+        "/things-to-do/dashi-japanese-umami-stock/",
+        "/things-to-do/miso-japanese-fermented-soy/",
+        "/things-to-do/okonomiyaki-osaka-hiroshima/",
+        "/things-to-do/onigiri-japanese-rice-ball/",
+        "/things-to-do/regional-soba-japanese-buckwheat/",
+        "/things-to-do/sushi-edo-japanese-food-history/",
+        "/things-to-do/takoyaki-osaka-street-food/",
+        "/things-to-do/tempura-japanese-fried-food/",
+        "/things-to-do/udon-japanese-regional-noodles/",
+        "/things-to-do/yakitori-japanese-skewer-culture/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/things-to-do/nature/",
+      "pages": [
+        "/things-to-do/japan-bamboo-grove-ecology/",
+        "/things-to-do/japan-coral-okinawa-islands/",
+        "/things-to-do/japan-geothermal-steam-hells/",
+        "/things-to-do/japan-sea-of-japan-coast/",
+        "/things-to-do/japan-snow-country-architecture/",
+        "/things-to-do/japan-snow-monkeys-hot-springs/",
+        "/things-to-do/japan-terraced-rice-fields/",
+        "/things-to-do/japan-volcanic-onsen-geology/",
+        "/things-to-do/japan-volcano-mount-aso/",
+        "/things-to-do/japan-yakushima-ancient-cedars/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/ko/plan/japans-tax-exemption/",
+      "pages": [
+        "/japan/fukuoka-taxfree/",
+        "/japan/hokkaido-taxfree/",
+        "/japan/kobe-taxfree/",
+        "/japan/osaka-taxfree/",
+        "/japan/shimonoseki-taxfree/",
+        "/japan/tsushima-taxfree/",
+        "/life/don-quijote-first-guide/",
+        "/life/don-quijote-tax-free/",
+        "/life/japan-tax-free-2026/",
+        "/shopping/japan-tax-free-2026/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": "https://www.japan.travel/en/plan/japans-tax-exemption/",
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/375/",
+      "pages": [
+        "/things-to-do/ishigaki-cruise-couple-guide/",
+        "/things-to-do/ishigaki-cruise-family-guide/",
+        "/things-to-do/ishigaki-cruise-parents-guide/",
+        "/things-to-do/ishigaki-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/ko/",
+      "pages": [
+        "/things-to-do/hiroshima-miyajima-ferry-crossing/",
+        "/things-to-do/port-half-day/",
+        "/things-to-do/rainy-day/",
+        "/things-to-do/shodoshima-ferry-island-access/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": "https://www.japan.travel/en/us/",
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/533/",
+      "pages": [
+        "/things-to-do/ishigaki-cruise-couple-guide/",
+        "/things-to-do/ishigaki-cruise-family-guide/",
+        "/things-to-do/ishigaki-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/see-and-do/cherry-blossom-forecast/",
+      "pages": [
+        "/things-to-do/hanami-japanese-cherry-blossom-picnic/",
+        "/things-to-do/seasonal/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/destinations/kansai/kyoto/",
+      "pages": [
+        "/things-to-do/maizuru-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/destinations/kansai/osaka/nanba/",
+      "pages": [
+        "/things-to-do/japan-small-streets/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/destinations/tokai/aichi/tokoname/",
+      "pages": [
+        "/things-to-do/japanese-maneki-neko-lucky-cat/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/august/",
+      "pages": [
+        "/season/japan-summer-festival-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/cultural-experiences/",
+      "pages": [
+        "/things-to-do/kimono-vs-yukata-culture/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/experience-japans-local-ekiben-culture/",
+      "pages": [
+        "/things-to-do/japanese-ekiben-railway-bento-culture/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/forest-bathing/",
+      "pages": [
+        "/things-to-do/japan-forest-bathing-shinrin-yoku/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/how-to-best-enjoy-onsen/",
+      "pages": [
+        "/things-to-do/why-japanese-onsen-special/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/japanese-festivals/",
+      "pages": [
+        "/things-to-do/japanese-matsuri-festival-culture/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/",
+      "pages": [
+        "/things-to-do/japanese-omiyage-souvenir-gift-culture/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/japanese-ryokan/",
+      "pages": [
+        "/things-to-do/ryokan-vs-hotel/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/shrines/",
+      "pages": [
+        "/things-to-do/japanese-shrine-vs-buddhist-temple/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/tea-ceremony/",
+      "pages": [
+        "/things-to-do/japanese-tea-ceremony-culture/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/temples/",
+      "pages": [
+        "/things-to-do/japanese-shrine-vs-buddhist-temple/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/understanding-and-mastering-japanese-manners-and-etiquette/",
+      "pages": [
+        "/things-to-do/why-japanese-onsen-special/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/in/accommodation/",
+      "pages": [
+        "/things-to-do/ryokan-vs-hotel/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/japan-magazine/2002_konbini/",
+      "pages": [
+        "/things-to-do/japan-konbini-culture/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/plan/getting-around/ferry-cruise-ships/",
+      "pages": [
+        "/things-to-do/why-travel-japan-by-sea/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/see-and-do/festivals-and-events/",
+      "pages": [
+        "/season/japan-summer-festival-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/see-and-do/japanese-garden/",
+      "pages": [
+        "/things-to-do/japanese-garden-stone-water-moss/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/sg/guide/guide-enjoy-kimono-and-yukata-experience/",
+      "pages": [
+        "/things-to-do/kimono-vs-yukata-culture/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/sg/story/train-dining/",
+      "pages": [
+        "/things-to-do/japanese-ekiben-railway-bento-culture/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/1134/",
+      "pages": [
+        "/things-to-do/japanese-garden-stone-water-moss/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/1157/",
+      "pages": [
+        "/things-to-do/japanese-garden-stone-water-moss/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/1291/",
+      "pages": [
+        "/things-to-do/japanese-daruma-doll-wishes/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/1303/",
+      "pages": [
+        "/things-to-do/shimizu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/1353/",
+      "pages": [
+        "/things-to-do/shimizu-cruise-couple-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/1655/",
+      "pages": [
+        "/things-to-do/japanese-maneki-neko-lucky-cat/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/2354/",
+      "pages": [
+        "/things-to-do/kimono-vs-yukata-culture/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/70/",
+      "pages": [
+        "/things-to-do/japanese-garden-stone-water-moss/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/731/",
+      "pages": [
+        "/things-to-do/tsushima-one-day/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/spot/742/",
+      "pages": [
+        "/things-to-do/nagasaki-cruise-peace-park-tram/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/things-to-do/festivals-and-events/",
+      "pages": [
+        "/things-to-do/japanese-matsuri-festival-culture/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/en/us/blog/4-tokyo-yokocho-where-you-can-experience-the-1950s/",
+      "pages": [
+        "/things-to-do/japan-small-streets/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/ko/things-to-do/guide/diving/",
+      "pages": [
+        "/things-to-do/japan-diving-first-time/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": "https://www.japan.travel/en/things-to-do/guide/diving/",
+      "error": null
+    },
+    {
+      "url": "https://www.japan.travel/national-parks/plan-your-visit/guides-and-stories/forest-bathing-in-japans-national-parks/",
+      "pages": [
+        "/things-to-do/japan-forest-bathing-shinrin-yoku/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/terminal_info.html",
+      "pages": [
+        "/things-to-do/yokohama-cruise-couple-guide/",
+        "/things-to-do/yokohama-cruise-family-guide/",
+        "/things-to-do/yokohama-cruise-parents-guide/",
+        "/things-to-do/yokohama-cruise-port-day-trip/",
+        "/things-to-do/yokohama-daikoku-pier-cruise-terminal/",
+        "/things-to-do/yokohama-minato-mirai-cruise-day-trip/",
+        "/things-to-do/yokohama-osanbashi-cruise-terminal/",
+        "/things-to-do/yokohama-port-day-trip/",
+        "/things-to-do/yokohama-red-brick-warehouse/",
+        "/things-to-do/yokohama-shinko-pier-cruise-area/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
+      "pages": [
+        "/okinawa/ishigaki-cruise-port/",
+        "/things-to-do/ishigaki-cruise-couple-guide/",
+        "/things-to-do/ishigaki-cruise-family-guide/",
+        "/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/",
+        "/things-to-do/ishigaki-cruise-new-port-shuttle/",
+        "/things-to-do/ishigaki-cruise-parents-guide/",
+        "/things-to-do/ishigaki-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.fukuoka.lg.jp/kowan/somu/hakata-port/access.html",
+      "pages": [
+        "/things-to-do/fukuoka-one-day/",
+        "/things-to-do/hakata-cruise-couple-guide/",
+        "/things-to-do/hakata-cruise-family-guide/",
+        "/things-to-do/hakata-cruise-parents-guide/",
+        "/things-to-do/hakata-cruise-port-day-trip/",
+        "/things-to-do/hakata-port-hakata-station-access/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.fukuoka.lg.jp/kowan/koei/hakata-port/terminal.html",
+      "pages": [
+        "/japan/fukuoka-transport/",
+        "/japan/fukuoka/",
+        "/things-to-do/hakata-cruise-couple-guide/",
+        "/things-to-do/hakata-cruise-family-guide/",
+        "/things-to-do/hakata-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.beppu.oita.jp/sangyou/kankou/detail9.html",
+      "pages": [
+        "/things-to-do/beppu-cruise-couple-guide/",
+        "/things-to-do/beppu-cruise-family-guide/",
+        "/things-to-do/beppu-cruise-parents-guide/",
+        "/things-to-do/beppu-port-onsen-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2026032600023/",
+      "pages": [
+        "/things-to-do/hakodate-cruise-couple-guide/",
+        "/things-to-do/hakodate-cruise-family-guide/",
+        "/things-to-do/hakodate-cruise-parents-guide/",
+        "/things-to-do/hakodate-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.ishigaki.okinawa.jp/",
+      "pages": [
+        "/things-to-do/ishigaki-cruise-family-guide/",
+        "/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/",
+        "/things-to-do/ishigaki-cruise-new-port-shuttle/",
+        "/things-to-do/ishigaki-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.kobe.lg.jp/a14075/kanko/leisure/harbor/passenger/schedule/index.html",
+      "pages": [
+        "/things-to-do/kobe-cruise-couple-guide/",
+        "/things-to-do/kobe-cruise-family-guide/",
+        "/things-to-do/kobe-cruise-parents-guide/",
+        "/things-to-do/kobe-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.osaka.lg.jp/port/page/0000442982.html",
+      "pages": [
+        "/things-to-do/osaka-cruise-couple-guide/",
+        "/things-to-do/osaka-cruise-family-guide/",
+        "/things-to-do/osaka-cruise-parents-guide/",
+        "/things-to-do/osaka-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.beppu.oita.jp/",
+      "pages": [
+        "/things-to-do/beppu-cruise-couple-guide/",
+        "/things-to-do/beppu-cruise-parents-guide/",
+        "/things-to-do/beppu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.beppu.oita.jp/sisetu/siyakusyo_syuttyousyo/04siyakusyo_04-01beppu.html",
+      "pages": [
+        "/things-to-do/beppu-cruise-couple-guide/",
+        "/things-to-do/beppu-cruise-family-guide/",
+        "/things-to-do/beppu-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html",
+      "pages": [
+        "/things-to-do/hakata-cruise-couple-guide/",
+        "/things-to-do/hakata-cruise-family-guide/",
+        "/things-to-do/hakata-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014031100439/",
+      "pages": [
+        "/things-to-do/hakodate-cruise-couple-guide/",
+        "/things-to-do/hakodate-cruise-family-guide/",
+        "/things-to-do/hakodate-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2026030900040/",
+      "pages": [
+        "/things-to-do/hakodate-cruise-couple-guide/",
+        "/things-to-do/hakodate-cruise-family-guide/",
+        "/things-to-do/hakodate-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.ishigaki.okinawa.jp/kurashi_gyosei/shigoto_sangyo/kaihatsu_kenchiku/2033.html",
+      "pages": [
+        "/things-to-do/ishigaki-cruise-couple-guide/",
+        "/things-to-do/ishigaki-cruise-family-guide/",
+        "/things-to-do/ishigaki-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/kensetsu/kouwan/oshirase/2024-0222-0902-121.html",
+      "pages": [
+        "/things-to-do/hirara-miyakojima-cruise-couple-guide/",
+        "/things-to-do/hirara-miyakojima-cruise-family-guide/",
+        "/things-to-do/hirara-miyakojima-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.naha.okinawa.jp/kurasitetuduki/life/1002177/1007375/1002185/1002191/1002192.html",
+      "pages": [
+        "/things-to-do/naha-cruise-couple-guide/",
+        "/things-to-do/naha-cruise-family-guide/",
+        "/things-to-do/naha-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.osaka.lg.jp/port/page/0000002874.html",
+      "pages": [
+        "/things-to-do/osaka-cruise-couple-guide/",
+        "/things-to-do/osaka-cruise-family-guide/",
+        "/things-to-do/osaka-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.osaka.lg.jp/port/page/0000453890.html",
+      "pages": [
+        "/things-to-do/osaka-cruise-couple-guide/",
+        "/things-to-do/osaka-cruise-family-guide/",
+        "/things-to-do/osaka-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.sasebo.lg.jp/kouwan/cruise/documents/02_english_map_uragasira.pdf",
+      "pages": [
+        "/things-to-do/sasebo-cruise-couple-guide/",
+        "/things-to-do/sasebo-cruise-family-guide/",
+        "/things-to-do/sasebo-cruise-parents-guide/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 404,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.sasebo.lg.jp/kouwan/koukanri/terminal-info.html",
+      "pages": [
+        "/things-to-do/sasebo-cruise-couple-guide/",
+        "/things-to-do/sasebo-cruise-family-guide/",
+        "/things-to-do/sasebo-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/nyuko/2026.html",
+      "pages": [
+        "/things-to-do/yokohama-cruise-couple-guide/",
+        "/things-to-do/yokohama-cruise-family-guide/",
+        "/things-to-do/yokohama-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.yokohama.lg.jp/kanko-bunka/minato/kyakusen/terminal.html",
+      "pages": [
+        "/things-to-do/yokohama-cruise-port-day-trip/",
+        "/things-to-do/yokohama-daikoku-pier-cruise-terminal/",
+        "/things-to-do/yokohama-minato-mirai-cruise-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/access/noriba-akusesu.html",
+      "pages": [
+        "/things-to-do/kagoshima-cruise-port-day-trip/",
+        "/things-to-do/kagoshima-port-sakurajima-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://subway.city.fukuoka.lg.jp/appeal/",
+      "pages": [
+        "/japan/fukuoka/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.akita.lg.jp/kanko/event/1002252.html",
+      "pages": [
+        "/things-to-do/akita-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.atami.lg.jp/",
+      "pages": [
+        "/things-to-do/atami-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.goto.nagasaki.jp/",
+      "pages": [
+        "/things-to-do/goto-fukue-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.hakodate.hokkaido.jp/",
+      "pages": [
+        "/things-to-do/hakodate-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/index.html",
+      "pages": [
+        "/things-to-do/ishigaki-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.iwakuni.lg.jp/",
+      "pages": [
+        "/things-to-do/iwakuni-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.kagoshima.lg.jp/",
+      "pages": [
+        "/things-to-do/kagoshima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/",
+      "pages": [
+        "/things-to-do/kagoshima-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.karatsu.lg.jp/",
+      "pages": [
+        "/things-to-do/karatsu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/30400002.html",
+      "pages": [
+        "/things-to-do/mojiko-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.kure.lg.jp/",
+      "pages": [
+        "/things-to-do/kure-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.nanjo.okinawa.jp/",
+      "pages": [
+        "/things-to-do/okinawa-sefa-utaki/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.nichinan.lg.jp/",
+      "pages": [
+        "/things-to-do/aburatsu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.niigata.lg.jp/",
+      "pages": [
+        "/things-to-do/niigata-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.otaru.lg.jp/docs/2020112000642/",
+      "pages": [
+        "/things-to-do/otaru-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.sakaiminato.lg.jp/",
+      "pages": [
+        "/things-to-do/sakaiminato-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.sakaiminato.lg.jp/index.php?view=11736",
+      "pages": [
+        "/things-to-do/sakaiminato-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.sasebo.lg.jp/benrimap/shisetsu/kanko/053.html",
+      "pages": [
+        "/things-to-do/sasebo-cruise-family-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.shizuoka.lg.jp/",
+      "pages": [
+        "/things-to-do/shimizu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.tomakomai.hokkaido.jp/",
+      "pages": [
+        "/things-to-do/tomakomai-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.tsushima.nagasaki.jp/gyousei/soshiki/hoken/kenkouzoushin/shokuiku_land/970.html",
+      "pages": [
+        "/japan/tsushima-food/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.city.yokohama.lg.jp/lang/overseas/port/cruise/for_cruisecompanies.html",
+      "pages": [
+        "/things-to-do/yokohama-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.welcome.city.yokohama.jp/",
+      "pages": [
+        "/things-to-do/yokohama-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 307,
+      "final_status": 307,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.welcome.city.yokohama.jp/cruise/terminal/osanbashi/",
+      "pages": [
+        "/things-to-do/yokohama-osanbashi-cruise-terminal/"
+      ],
+      "classification": "reachable",
+      "head_status": 307,
+      "final_status": 307,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.pref.okinawa.jp/machizukuri/kowankuko/1013146/1022459/1013179.html",
+      "pages": [
+        "/okinawa/cruise-price/",
+        "/okinawa/cruise/",
+        "/okinawa/ishigaki-cruise-port/",
+        "/okinawa/miyako-ishigaki/",
+        "/okinawa/miyakojima-hirara-port/",
+        "/things-to-do/hirara-miyakojima-cruise-couple-guide/",
+        "/things-to-do/hirara-miyakojima-cruise-family-guide/",
+        "/things-to-do/hirara-miyakojima-cruise-parents-guide/",
+        "/things-to-do/ishigaki-cruise-port-day-trip/",
+        "/things-to-do/naha-cruise-couple-guide/",
+        "/things-to-do/naha-cruise-family-guide/",
+        "/things-to-do/naha-cruise-parents-guide/",
+        "/things-to-do/naha-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/2023-aomori-cruise.html",
+      "pages": [
+        "/things-to-do/aomori-cruise-couple-guide/",
+        "/things-to-do/aomori-cruise-family-guide/",
+        "/things-to-do/aomori-cruise-parents-guide/",
+        "/things-to-do/aomori-port-nebuta-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://pub.pref.aomori.lg.jp/kouji/2026_aomori-kendigi-expo/index.html",
+      "pages": [
+        "/things-to-do/aomori-cruise-couple-guide/",
+        "/things-to-do/aomori-cruise-family-guide/",
+        "/things-to-do/aomori-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/kowan/files/261001_2026cruise.pdf",
+      "pages": [
+        "/things-to-do/aomori-cruise-couple-guide/",
+        "/things-to-do/aomori-cruise-family-guide/",
+        "/things-to-do/aomori-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.pref.kagoshima.jp/ah09/cruise-basukanri.html",
+      "pages": [
+        "/things-to-do/kagoshima-cruise-couple-guide/",
+        "/things-to-do/kagoshima-cruise-family-guide/",
+        "/things-to-do/kagoshima-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.pref.kagoshima.jp/ah09/infra/port/minato/marineport/gaiyo/mpkaccess.html",
+      "pages": [
+        "/things-to-do/kagoshima-cruise-couple-guide/",
+        "/things-to-do/kagoshima-cruise-family-guide/",
+        "/things-to-do/kagoshima-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.pref.oita.jp/site/beppu17003/2026cruising.html",
+      "pages": [
+        "/things-to-do/beppu-cruise-couple-guide/",
+        "/things-to-do/beppu-cruise-family-guide/",
+        "/things-to-do/beppu-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.pref.miyazaki.lg.jp/",
+      "pages": [
+        "/things-to-do/aburatsu-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.pref.nagasaki.jp/",
+      "pages": [
+        "/things-to-do/nagasaki-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.pref.yamaguchi.lg.jp/soshiki/91/21621.html",
+      "pages": [
+        "/things-to-do/iwakuni-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/57474.pdf",
+      "pages": [
+        "/things-to-do/iwakuni-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.english.metro.tokyo.lg.jp/w/000-101-000542",
+      "pages": [
+        "/japan/tokyo/tokyo-metropolitan-government-free-view/",
+        "/japan/tokyo/tokyo-night-view-observation-comparison/",
+        "/japan/tokyo/tokyo-shinjuku-night-sightseeing/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.english.metro.tokyo.lg.jp/w/016-101-003992",
+      "pages": [
+        "/japan/tokyo/tokyo-toyosu-market-auction-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.english.metro.tokyo.lg.jp/w/016-101-011706",
+      "pages": [
+        "/japan/tokyo/tokyo-toyosu-market-auction-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.metro.tokyo.lg.jp/",
+      "pages": [
+        "/japan/tokyo/tokyo-metropolitan-government-free-view/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/01/2026013016",
+      "pages": [
+        "/japan/tokyo/tokyo-subway-ticket-24-48-72/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.shijou.metro.tokyo.lg.jp/info/0/kenngaku/kenngaku1",
+      "pages": [
+        "/japan/tokyo/tokyo-toyosu-market-auction-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.yokoso.metro.tokyo.lg.jp/en/tenbou/",
+      "pages": [
+        "/japan/tokyo/tokyo-metropolitan-government-free-view/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.nta.go.jp/",
+      "pages": [
+        "/shopping/ferry-last-day-shopping/",
+        "/shopping/japan-customs-checklist/",
+        "/shopping/japan-souvenir-gift-guide/",
+        "/shopping/japan-souvenir-packing/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://faq.japan-travel.jnto.go.jp/en/plan/wifi-and-connectivity/",
+      "pages": [
+        "/practical/japan-data-usage/",
+        "/practical/japan-esim-setup/",
+        "/practical/japan-esim-vs-sim-wifi/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.caa.go.jp/en/",
+      "pages": [
+        "/japan/tokyo/tokyo-department-bento/",
+        "/japan/tokyo/tokyo-food-allergy-japanese/",
+        "/japan/tokyo/tokyo-soba-vs-udon/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mof.go.jp/public_relations/finance/202601/202601n.html",
+      "pages": [
+        "/things-to-do/hirara-miyakojima-cruise-couple-guide/",
+        "/things-to-do/hirara-miyakojima-cruise-family-guide/",
+        "/things-to-do/hirara-miyakojima-cruise-parents-guide/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.nta.go.jp/publication/pamph/shohi/menzei/201805/format/002.htm",
+      "pages": [
+        "/life/don-quijote-tax-free/",
+        "/life/japan-tax-free-2026/",
+        "/shopping/japan-tax-free-2026/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.nta.go.jp/publication/pamph/shohi/menzei/",
+      "pages": [
+        "/japan/tokyo/donki-taxfree-passport/",
+        "/japan/tokyo/tokyo-lastday-taxfree-baggage/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202008/202008_07_en.html",
+      "pages": [
+        "/things-to-do/japanese-kintsugi-gold-repair-culture/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.mhlw.go.jp/english/",
+      "pages": [
+        "/japan/tokyo/tokyo-drugstore-cosmetics/"
+      ],
+      "classification": "confirmed_broken",
+      "head_status": 403,
+      "final_status": 404,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.nta.go.jp/english/taxes/consumption_tax/02.htm",
+      "pages": [
+        "/shopping/japan-tax-free-2026/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.pmda.go.jp/english/",
+      "pages": [
+        "/japan/tokyo/tokyo-drugstore-contact-lens/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.rinya.maff.go.jp/j/sanson/kassei/sangyou/shinrin-yoku.html",
+      "pages": [
+        "/things-to-do/japan-forest-bathing-shinrin-yoku/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.rinya.maff.go.jp/j/sin_riyou/morigyo/forest_activity/info/shinrin-yoku.html",
+      "pages": [
+        "/things-to-do/japan-forest-bathing-shinrin-yoku/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.wbgt.env.go.jp/en/",
+      "pages": [
+        "/japan/tokyo/tokyo-summer-heat-indoor/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/subwaymap/index.html",
+      "pages": [
+        "/japan/tokyo/akasaka-nagatacho-connection/",
+        "/japan/tokyo/chiyoda-line-stations/",
+        "/japan/tokyo/fukutoshin-line-stations/",
+        "/japan/tokyo/ginza-line-stations/",
+        "/japan/tokyo/ginza-three-lines/",
+        "/japan/tokyo/hanzomon-line-stations/",
+        "/japan/tokyo/hibiya-line-stations/",
+        "/japan/tokyo/ikebukuro-east-west/",
+        "/japan/tokyo/kasumigaseki-government/",
+        "/japan/tokyo/kudanshita-budokan/",
+        "/japan/tokyo/marunouchi-line-stations/",
+        "/japan/tokyo/metro-elevator-stroller/",
+        "/japan/tokyo/namboku-line-stations/",
+        "/japan/tokyo/otemachi-transfer-five/",
+        "/japan/tokyo/tokyo-one-day-best-route/"
+      ],
+      "classification": "reachable",
+      "head_status": 403,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess.html",
+      "pages": [
+        "/japan/tokyo/disney-1day-admission-vs-dpa/",
+        "/japan/tokyo/disney-dpa-app-purchase/",
+        "/japan/tokyo/disney-dpa-price-attractions/",
+        "/japan/tokyo/disneyland-baymax-happy-ride/",
+        "/japan/tokyo/disneyland-beauty-beast-ride/",
+        "/japan/tokyo/disneyland-big-thunder-mountain/",
+        "/japan/tokyo/disneyland-haunted-mansion-season/",
+        "/japan/tokyo/disneyland-monsters-inc/",
+        "/japan/tokyo/disneyland-pooh-hunny-hunt/",
+        "/japan/tokyo/disneyland-splash-mountain/",
+        "/japan/tokyo/disneysea-frozen-ever-after/",
+        "/japan/tokyo/disneysea-journey-center-earth/",
+        "/japan/tokyo/disneysea-peter-pan-adventure/",
+        "/japan/tokyo/disneysea-rapunzel-lantern/",
+        "/japan/tokyo/disneysea-soaring-flight/"
+      ],
+      "classification": "reachable",
+      "head_status": null,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess",
+      "pages": [
+        "/japan/tokyo/disney-1day-admission-vs-dpa/",
+        "/japan/tokyo/disney-dpa-app-purchase/",
+        "/japan/tokyo/disney-dpa-parade-show/",
+        "/japan/tokyo/disney-dpa-price-attractions/",
+        "/japan/tokyo/disney-ride-height-safety/",
+        "/japan/tokyo/disneyland-baymax-happy-ride/",
+        "/japan/tokyo/disneyland-beauty-beast-ride/",
+        "/japan/tokyo/disneyland-big-thunder-mountain/",
+        "/japan/tokyo/disneyland-haunted-mansion-season/",
+        "/japan/tokyo/disneyland-monsters-inc/",
+        "/japan/tokyo/disneyland-pooh-hunny-hunt/",
+        "/japan/tokyo/disneyland-splash-mountain/",
+        "/japan/tokyo/disneysea-soaring-flight/",
+        "/japan/tokyo/disneysea-tower-of-terror/",
+        "/japan/tokyo/disneysea-toy-story-mania/"
+      ],
+      "classification": "reachable",
+      "head_status": null,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.tokyometro.jp/en/subwaymap/",
+      "pages": [
+        "/japan/tokyo/chiyoda-line-stations/",
+        "/japan/tokyo/fukutoshin-line-stations/",
+        "/japan/tokyo/ginza-line-stations/",
+        "/japan/tokyo/hanzomon-line-stations/",
+        "/japan/tokyo/hibiya-line-stations/",
+        "/japan/tokyo/marunouchi-line-stations/",
+        "/japan/tokyo/metro-24h-vs-subway-pass/",
+        "/japan/tokyo/metro-elevator-stroller/",
+        "/japan/tokyo/namboku-line-stations/",
+        "/japan/tokyo/tokyo-subway-route-map-korean/",
+        "/japan/tokyo/tozai-line-stations/",
+        "/japan/tokyo/yurakucho-line-stations/"
+      ],
+      "classification": "reachable",
+      "head_status": 403,
+      "final_status": 200,
+      "redirected_to": "https://www.tokyometro.jp/en/subwaymap/index.html",
+      "error": null
+    },
+    {
+      "url": "https://www.jreast.co.jp/e/",
+      "pages": [
+        "/japan/tokyo/akihabara-station-gates/",
+        "/japan/tokyo/kanda-jr-ginza-transfer/",
+        "/japan/tokyo/pasmo-vs-suica-card/",
+        "/japan/tokyo/shibuya-hachiko-miyamasuzaka/",
+        "/japan/tokyo/shinagawa-keikyu-jr/",
+        "/japan/tokyo/tokyo-haneda-airport-train-guide/",
+        "/japan/tokyo/tokyo-keiyo-platform/",
+        "/japan/tokyo/tokyo-shopping-luggage-locker/",
+        "/japan/tokyo/tokyo-station-character-street/",
+        "/japan/tokyo/tokyo-yamanote-line-transfer-guide/",
+        "/japan/tokyo/ueno-park-ameyoko/"
+      ],
+      "classification": "reachable",
+      "head_status": 403,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service.html",
+      "pages": [
+        "/japan/tokyo/disney-1day-admission-vs-dpa/",
+        "/japan/tokyo/disney-dpa-app-purchase/",
+        "/japan/tokyo/disney-dpa-parade-show/",
+        "/japan/tokyo/disney-dpa-price-attractions/",
+        "/japan/tokyo/disney-entry-request-show/",
+        "/japan/tokyo/disney-mobile-order-food/",
+        "/japan/tokyo/disney-park-app-ticket-share/",
+        "/japan/tokyo/disney-priority-pass-free/",
+        "/japan/tokyo/disney-priority-seating-restaurants/",
+        "/japan/tokyo/disney-standby-pass-store/"
+      ],
+      "classification": "reachable",
+      "head_status": null,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/ticket/index.html",
+      "pages": [
+        "/japan/tokyo/disney-children-ticket-age/",
+        "/japan/tokyo/disney-disability-passport/",
+        "/japan/tokyo/disney-hopper-limited-period/",
+        "/japan/tokyo/disney-ticket-date-change/",
+        "/japan/tokyo/disney-ticket-sold-out/",
+        "/japan/tokyo/tokyo-cruise-disney-possible/",
+        "/japan/tokyo/tokyo-disneyland-ticket-guide/",
+        "/japan/tokyo/tokyo-three-day-highlights/"
+      ],
+      "classification": "reachable",
+      "head_status": null,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.tokyometro.jp/lang_en/station/index.html",
+      "pages": [
+        "/japan/tokyo/asakusa-operators/",
+        "/japan/tokyo/ikebukuro-east-west/",
+        "/japan/tokyo/kasumigaseki-government/",
+        "/japan/tokyo/kudanshita-budokan/",
+        "/japan/tokyo/omotesando-three-subways/",
+        "/japan/tokyo/roppongi-museum-exits/",
+        "/japan/tokyo/tokyo-parents-flat-route/",
+        "/japan/tokyo/tsukiji-two-stations/"
+      ],
+      "classification": "reachable",
+      "head_status": 403,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://oki-park.jp/shurijo/",
+      "pages": [
+        "/things-to-do/naha-cruise-couple-guide/",
+        "/things-to-do/naha-cruise-family-guide/",
+        "/things-to-do/naha-cruise-parents-guide/",
+        "/things-to-do/naha-cruise-port-day-trip/",
+        "/things-to-do/okinawa-shuri-castle-heritage/",
+        "/things-to-do/okinawa-shuri-castle/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.tokyodisneyresort.jp/en/hotel/dh.html",
+      "pages": [
+        "/japan/tokyo/disney-ambassador-hotel/",
+        "/japan/tokyo/disney-fantasy-springs-hotel/",
+        "/japan/tokyo/disney-hotel-park-ticket-bundle/",
+        "/japan/tokyo/disney-miracosta-hotel/",
+        "/japan/tokyo/disney-ticket-sold-out/",
+        "/japan/tokyo/disney-vacation-package-vs-regular/"
+      ],
+      "classification": "reachable",
+      "head_status": null,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.tptc.co.jp/terminal/guide/cruise",
+      "pages": [
+        "/japan/tokyo/tokyo-cruise-odaiba-3hours/",
+        "/japan/tokyo/tokyo-cruise-shuttle-vs-train/",
+        "/japan/tokyo/tokyo-cruise-to-skytree/",
+        "/japan/tokyo/tokyo-family-cruise-shore-plan/",
+        "/japan/tokyo/tokyo-odaiba-waterfront-yurikamome/",
+        "/things-to-do/tokyo-cruise-port-day-trip/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://cruise.visitokinawa.jp/en/",
+      "pages": [
+        "/okinawa/3n4d/",
+        "/okinawa/cruise-price/",
+        "/okinawa/cruise/",
+        "/okinawa/miyako-ishigaki/",
+        "/okinawa/miyakojima-hirara-port/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://nahaport.jp/english/introduction/cruise_promotion/",
+      "pages": [
+        "/things-to-do/naha-cruise-couple-guide/",
+        "/things-to-do/naha-cruise-family-guide/",
+        "/things-to-do/naha-cruise-parents-guide/",
+        "/things-to-do/naha-cruise-port-day-trip/",
+        "/things-to-do/naha-cruise-terminal-kokusai-dori/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.kanazawa-cruise.jp/en/",
+      "pages": [
+        "/things-to-do/kanazawa-cruise-couple-guide/",
+        "/things-to-do/kanazawa-cruise-family-guide/",
+        "/things-to-do/kanazawa-cruise-parents-guide/",
+        "/things-to-do/kanazawa-cruise-port-day-trip/",
+        "/things-to-do/kanazawa-port-day-trip/"
+      ],
+      "classification": "unverified",
+      "head_status": 503,
+      "final_status": 503,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.kotsu.metro.tokyo.jp/eng/",
+      "pages": [
+        "/japan/tokyo/toei-asakusa-line-stations/",
+        "/japan/tokyo/toei-mita-line-stations/",
+        "/japan/tokyo/toei-oedo-line-stations/",
+        "/japan/tokyo/toei-one-day-pass/",
+        "/japan/tokyo/toei-shinjuku-line-stations/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
+      "url": "https://www.kotsu.metro.tokyo.jp/eng/subway_stations/",
+      "pages": [
+        "/japan/tokyo/toei-asakusa-line-stations/",
+        "/japan/tokyo/toei-mita-line-stations/",
+        "/japan/tokyo/toei-oedo-line-stations/",
+        "/japan/tokyo/toei-one-day-pass/",
+        "/japan/tokyo/toei-shinjuku-line-stations/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    }
+  ]
+}
