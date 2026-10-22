@@ -23,7 +23,7 @@ CARDS={
              "/images/editorial/shimonoseki-cruise-port-day-trip.webp",
              "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
              "/images/editorial/kobe-cruise-port-day-trip.webp",
-             "/images/editorial/hakodate-goryokaku-fort.webp",
+             "/images/editorial/hakodate-snow-onsen-romantic-v106.webp",
             ]},
  "daytrips":{"anchor":"#v36-home","selector":".d61-home-grid .d61-home-card","photo":".d61-home-photo","num":4,
            "sources":[
