@@ -1,0 +1,33 @@
+name: V104 homepage destination imagery PC and mobile QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site/index.html'
+      - 'site/nf-v104-home-thumbnails.css'
+      - 'scripts/v104_home_thumbnail_browser_qa.py'
+      - '.github/workflows/v104-home-thumbnail-qa.yml'
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Verify actual deployed 18 travel thumbnails and source disclosures on 3 widths
+        run: python scripts/v104_home_thumbnail_browser_qa.py
+      - name: Archive nine real screenshots and source/dimension checks
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v104-home-18-thumbnail-production-qa
+          path: audit-output/v104-home-thumbnails/
+          retention-days: 45
+          if-no-files-found: warn
