@@ -60,3 +60,5 @@ jobs:
             audit-reports/v127/photo-plan.json
             audit-reports/v127/import-result.json
           retention-days: 45
+
+# V127: trigger independent post-import PC/mobile public verification after the ten-photo commit.
