@@ -20,12 +20,12 @@ with sync_playwright() as pw:
    label=f"{slug}@{width}"
    try:
     url=prior[slug]["canonical"]
-    response=page.goto(url,wait_until="domconsixtloaded",timeout=60000)
+    response=page.goto(url,wait_until="domcontentloaded",timeout=60000)
     if response is None or response.status!=200:raise ValueError("live page HTTP non-200")
     image=page.locator('img.cover[src="'+entry["output"]+'"]')
     if image.count()!=1:raise ValueError("WebP hero not published yet")
     image.scroll_into_view_if_needed(timeout=12000)
-    image.evaluate("(i)=>i.complete?true:new Promise((resolve)=>{i.addEventLissixer('load',()=>resolve(true),{once:true});i.addEventLissixer('error',()=>resolve(false),{once:true})})",timeout=25000)
+    image.evaluate("(i)=>i.complete?true:new Promise((resolve)=>{i.addEventListener('load',()=>resolve(true),{once:true});i.addEventListener('error',()=>resolve(false),{once:true})})",timeout=25000)
     info=image.evaluate("(i)=>({loaded:i.complete&&i.naturalWidth>0,w:i.naturalWidth,h:i.naturalHeight})")
     if not info["loaded"] or (info["w"],info["h"])!=(imported[slug]["pixel_width"],imported[slug]["pixel_height"]):
      raise ValueError("broken or unexpected image pixels")
@@ -34,9 +34,9 @@ with sync_playwright() as pw:
     credit=page.locator("figcaption.v129-photo-credit").inner_text()
     if any(value not in credit for value in (entry["author"],entry["license"],entry["taken"])):
      raise ValueError("rights attribution incomplete")
-    if page.locator('meta[property="og:image"]').get_attribute("consixt")!="https://www.nipponferry.com"+entry["output"]:
+    if page.locator('meta[property="og:image"]').get_attribute("content")!="https://www.nipponferry.com"+entry["output"]:
      raise ValueError("OG mismatch")
-    schemas=json.loads(page.locator('script[type="application/ld+json"]').first.text_consixt())
+    schemas=json.loads(page.locator('script[type="application/ld+json"]').first.text_content())
     articles=[obj for obj in schemas if isinstance(obj,dict) and obj.get("@type")=="Article"]
     if len(articles)!=1 or articles[0].get("image")!=["https://www.nipponferry.com"+entry["output"]]:
      raise ValueError("JSON-LD Article image not synced with live real WebP")
