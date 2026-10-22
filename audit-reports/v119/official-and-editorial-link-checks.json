@@ -1,40 +1,18 @@
 {
   "version": "V119",
-  "checked_utc": "2026-10-22T09:52:39.675041+00:00",
+  "checked_utc": "2026-10-22T09:56:30.400099+00:00",
   "total_external_urls": 1274,
   "eligible_non_media_urls": 718,
   "probed": 718,
   "remaining_unprobed": 556,
+  "old_404_removed": 11,
+  "all_nonmedia_sources_checked": true,
   "counts": {
-    "reachable": 612,
-    "unverified": 104,
-    "confirmed_broken": 2
+    "reachable": 621,
+    "unverified": 97
   },
   "definition": "HTTP reachable does not prove booking success or valid entrance/fee; 403,429,5xx,tls failure remain unverified.",
-  "confirmed_broken": [
-    {
-      "url": "https://www.senganen.jp/en/",
-      "pages": [
-        "/things-to-do/kagoshima-cruise-couple-guide/"
-      ],
-      "classification": "confirmed_broken",
-      "head_status": 404,
-      "final_status": 404,
-      "redirected_to": null,
-      "error": null
-    },
-    {
-      "url": "https://www.japanhouselondon.uk/discover/noren/",
-      "pages": [
-        "/things-to-do/japanese-noren-curtain-shop-culture/"
-      ],
-      "classification": "confirmed_broken",
-      "head_status": 404,
-      "final_status": 404,
-      "redirected_to": null,
-      "error": null
-    }
-  ],
+  "confirmed_broken": [],
   "unverified": [
     {
       "url": "https://kampuferry.co.jp/reserve/",
@@ -102,10 +80,10 @@
         "/things-to-do/kanazawa-port-day-trip/"
       ],
       "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "head_status": 503,
+      "final_status": 503,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://gofukuoka.jp/ko/yatai-howto.html",
@@ -130,10 +108,10 @@
         "/things-to-do/kanazawa-cruise-port-day-trip/"
       ],
       "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "head_status": 503,
+      "final_status": 503,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://en.at-nagasaki.jp/mice/facilities/65292",
@@ -219,19 +197,6 @@
         "/japan/shimonoseki-market/",
         "/things-to-do/shimonoseki-cruise-port-day-trip/",
         "/things-to-do/shimonoseki-one-day/"
-      ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
-      "redirected_to": null,
-      "error": "URLError"
-    },
-    {
-      "url": "https://www.nagasaki-port.jp/nagasaki_cruiseschedule/R08_cruiseschedule.pdf",
-      "pages": [
-        "/things-to-do/nagasaki-cruise-couple-guide/",
-        "/things-to-do/nagasaki-cruise-family-guide/",
-        "/things-to-do/nagasaki-cruise-parents-guide/"
       ],
       "classification": "unverified",
       "head_status": null,
@@ -688,6 +653,17 @@
       "error": "URLError"
     },
     {
+      "url": "https://www.kagoshima-yokanavi.jp/en/spot/10006",
+      "pages": [
+        "/things-to-do/kagoshima-cruise-couple-guide/"
+      ],
+      "classification": "unverified",
+      "head_status": 503,
+      "final_status": 503,
+      "redirected_to": null,
+      "error": null
+    },
+    {
       "url": "https://www.kagoshima-yokanavi.jp/ko/activity/20180",
       "pages": [
         "/voucher/cruise-ports/"
@@ -710,17 +686,6 @@
       "error": "URLError"
     },
     {
-      "url": "https://www.maedamisaki.jp/ko/",
-      "pages": [
-        "/things-to-do/okinawa-cape-maeda/"
-      ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
-      "redirected_to": null,
-      "error": "TimeoutError"
-    },
-    {
       "url": "https://www.nahaport.jp/",
       "pages": [
         "/things-to-do/naha-cruise-port-day-trip/"
@@ -730,17 +695,6 @@
       "final_status": null,
       "redirected_to": null,
       "error": "URLError"
-    },
-    {
-      "url": "https://www.sumo.or.jp/En/",
-      "pages": [
-        "/japan/tokyo/tokyo-sumo-ryogoku/"
-      ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
-      "redirected_to": null,
-      "error": "TimeoutError"
     },
     {
       "url": "https://www.takashimaya.co.jp/shinjuku/floor/building_01/floor_09.html",
@@ -820,52 +774,6 @@
       "error": null
     },
     {
-      "url": "https://www.customs.go.kr/",
-      "pages": [
-        "/shopping/ferry-duty-free-vs-local/",
-        "/shopping/ferry-last-day-shopping/",
-        "/shopping/ferry-shopping-checklist/",
-        "/shopping/ferry-shopping-timeline/",
-        "/shopping/ferry-souvenir-packing/",
-        "/shopping/japan-customs-checklist/",
-        "/shopping/japan-food-bring-korea/",
-        "/shopping/japan-souvenir-buying-guide/",
-        "/shopping/japan-souvenir-gift-guide/",
-        "/shopping/japan-souvenir-gifts/",
-        "/shopping/japan-souvenir-packing/",
-        "/shopping/korea-customs-return/",
-        "/shopping/return-shopping-checklist/"
-      ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
-      "redirected_to": null,
-      "error": "URLError"
-    },
-    {
-      "url": "https://www.qia.go.kr/",
-      "pages": [
-        "/shopping/ferry-duty-free-vs-local/",
-        "/shopping/ferry-last-day-shopping/",
-        "/shopping/ferry-shopping-checklist/",
-        "/shopping/ferry-shopping-timeline/",
-        "/shopping/ferry-souvenir-packing/",
-        "/shopping/japan-customs-checklist/",
-        "/shopping/japan-food-bring-korea/",
-        "/shopping/japan-souvenir-buying-guide/",
-        "/shopping/japan-souvenir-gift-guide/",
-        "/shopping/japan-souvenir-gifts/",
-        "/shopping/japan-souvenir-packing/",
-        "/shopping/korea-customs-return/",
-        "/shopping/return-shopping-checklist/"
-      ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
-      "redirected_to": null,
-      "error": "URLError"
-    },
-    {
       "url": "https://www.discover-nagasaki.com/en/featured-topics/fromnagasakiport",
       "pages": [
         "/things-to-do/nagasaki-cruise-4-6-8-hour-itinerary/",
@@ -917,23 +825,10 @@
         "/japan/shimonoseki-transport/"
       ],
       "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "head_status": 403,
+      "final_status": 403,
       "redirected_to": null,
-      "error": "URLError"
-    },
-    {
-      "url": "https://www.customs.go.kr/kcs/cm/cntnts/cntntsView.do?cntntsId=829&mi=2837",
-      "pages": [
-        "/shopping/japan-food-bring-korea/",
-        "/shopping/japan-souvenir-buying-guide/",
-        "/shopping/korea-customs-return/"
-      ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
-      "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://www.donki.com/en/store/",
@@ -973,31 +868,6 @@
       "final_status": 503,
       "redirected_to": null,
       "error": null
-    },
-    {
-      "url": "https://www.mafra.go.kr/bbs/home/792/578526/artclView.do",
-      "pages": [
-        "/shopping/japan-food-bring-korea/",
-        "/shopping/japan-souvenir-buying-guide/",
-        "/shopping/korea-customs-return/"
-      ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
-      "redirected_to": null,
-      "error": "URLError"
-    },
-    {
-      "url": "https://customs.go.kr/",
-      "pages": [
-        "/shopping/cruise-duty-free/",
-        "/shopping/ferry-duty-free/"
-      ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
-      "redirected_to": null,
-      "error": "URLError"
     },
     {
       "url": "https://www.discover-nagasaki.com/en/featured-topics/about-tsushima",
@@ -1097,10 +967,10 @@
         "/japan/shimonoseki-food/"
       ],
       "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "head_status": 403,
+      "final_status": 403,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://shimonoseki.travel/about-kr/",
@@ -1108,10 +978,10 @@
         "/shopping/shimonoseki-specialties/"
       ],
       "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "head_status": 403,
+      "final_status": 403,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://shimonoseki.travel/kr/gourmet/",
@@ -1120,9 +990,9 @@
       ],
       "classification": "unverified",
       "head_status": null,
-      "final_status": null,
+      "final_status": 403,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://visitkochijapan.com/en/",
@@ -4245,6 +4115,17 @@
       "error": null
     },
     {
+      "url": "https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202009/202009_05_en.html",
+      "pages": [
+        "/things-to-do/japanese-noren-curtain-shop-culture/"
+      ],
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": null,
+      "error": null
+    },
+    {
       "url": "https://www.nta.go.jp/english/taxes/consumption_tax/02.htm",
       "pages": [
         "/shopping/japan-tax-free-2026/"
@@ -4572,10 +4453,10 @@
         "/things-to-do/kanazawa-port-day-trip/"
       ],
       "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "head_status": 503,
+      "final_status": 503,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://www.kotsu.metro.tokyo.jp/eng/",
@@ -4745,10 +4626,10 @@
         "/things-to-do/kanazawa-cruise-port-day-trip/"
       ],
       "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "head_status": 503,
+      "final_status": 503,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html",
@@ -5128,7 +5009,7 @@
         "/japan/tokyo/shibuya-loft-stationery/"
       ],
       "classification": "reachable",
-      "head_status": 200,
+      "head_status": null,
       "final_status": 200,
       "redirected_to": null,
       "error": null
@@ -5140,11 +5021,11 @@
         "/things-to-do/nagasaki-cruise-family-guide/",
         "/things-to-do/nagasaki-cruise-parents-guide/"
       ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://www.narita-airport.jp/en/access/train/",
@@ -7042,6 +6923,17 @@
       "error": null
     },
     {
+      "url": "https://www.kagoshima-yokanavi.jp/en/spot/10006",
+      "pages": [
+        "/things-to-do/kagoshima-cruise-couple-guide/"
+      ],
+      "classification": "unverified",
+      "head_status": 503,
+      "final_status": 503,
+      "redirected_to": null,
+      "error": null
+    },
+    {
       "url": "https://www.kagoshima-yokanavi.jp/ko/activity/20180",
       "pages": [
         "/voucher/cruise-ports/"
@@ -7190,7 +7082,7 @@
         "/japan/tokyo/ikebukuro-loft-floors/"
       ],
       "classification": "reachable",
-      "head_status": 200,
+      "head_status": null,
       "final_status": 200,
       "redirected_to": null,
       "error": null
@@ -7211,11 +7103,11 @@
       "pages": [
         "/things-to-do/okinawa-cape-maeda/"
       ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
       "redirected_to": null,
-      "error": "TimeoutError"
+      "error": null
     },
     {
       "url": "https://www.mistore.jp/store/nihombashi.html",
@@ -7504,17 +7396,6 @@
       "error": null
     },
     {
-      "url": "https://www.senganen.jp/en/",
-      "pages": [
-        "/things-to-do/kagoshima-cruise-couple-guide/"
-      ],
-      "classification": "confirmed_broken",
-      "head_status": 404,
-      "final_status": 404,
-      "redirected_to": null,
-      "error": null
-    },
-    {
       "url": "https://www.senganen.jp/en/recommended-course-at-sengan-en/",
       "pages": [
         "/things-to-do/kagoshima-cruise-parents-guide/"
@@ -7552,11 +7433,11 @@
       "pages": [
         "/japan/tokyo/tokyo-sumo-ryogoku/"
       ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
       "redirected_to": null,
-      "error": "TimeoutError"
+      "error": null
     },
     {
       "url": "https://www.takashimaya.co.jp/nihombashi/",
@@ -8052,11 +7933,11 @@
         "/shopping/korea-customs-return/",
         "/shopping/return-shopping-checklist/"
       ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://www.qia.go.kr/",
@@ -8075,11 +7956,11 @@
         "/shopping/korea-customs-return/",
         "/shopping/return-shopping-checklist/"
       ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
-      "redirected_to": null,
-      "error": "URLError"
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
+      "redirected_to": "https://www.apqa.go.kr/listindexWebAction.do",
+      "error": null
     },
     {
       "url": "https://www.gotokyo.org/en/see-and-do/shopping/index.html",
@@ -8358,10 +8239,10 @@
         "/japan/shimonoseki-transport/"
       ],
       "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "head_status": 403,
+      "final_status": 403,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://shop.muji.com/jp/ginza/en/",
@@ -8449,9 +8330,9 @@
         "/guide/busan-shimonoseki-timetable/"
       ],
       "classification": "reachable",
-      "head_status": null,
+      "head_status": 200,
       "final_status": 200,
-      "redirected_to": null,
+      "redirected_to": "https://www.busanpa.com/err/error.html",
       "error": null
     },
     {
@@ -8461,11 +8342,11 @@
         "/shopping/japan-souvenir-buying-guide/",
         "/shopping/korea-customs-return/"
       ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://www.donki.com/en/store/",
@@ -8617,11 +8498,11 @@
         "/shopping/japan-souvenir-buying-guide/",
         "/shopping/korea-customs-return/"
       ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://www.zamamitourism.com/en/aboutboat",
@@ -8691,11 +8572,11 @@
         "/shopping/cruise-duty-free/",
         "/shopping/ferry-duty-free/"
       ],
-      "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "classification": "reachable",
+      "head_status": 200,
+      "final_status": 200,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://hakodate-kanemori.com/",
@@ -9432,10 +9313,10 @@
         "/japan/shimonoseki-food/"
       ],
       "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "head_status": 403,
+      "final_status": 403,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://shimonoseki.travel/about-kr/",
@@ -9443,10 +9324,10 @@
         "/shopping/shimonoseki-specialties/"
       ],
       "classification": "unverified",
-      "head_status": null,
-      "final_status": null,
+      "head_status": 403,
+      "final_status": 403,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://shimonoseki.travel/kr/gourmet/",
@@ -9455,9 +9336,9 @@
       ],
       "classification": "unverified",
       "head_status": null,
-      "final_status": null,
+      "final_status": 403,
       "redirected_to": null,
-      "error": "URLError"
+      "error": null
     },
     {
       "url": "https://shurijocastle.okinawa/",
@@ -9742,17 +9623,6 @@
       "classification": "reachable",
       "head_status": 200,
       "final_status": 200,
-      "redirected_to": null,
-      "error": null
-    },
-    {
-      "url": "https://www.japanhouselondon.uk/discover/noren/",
-      "pages": [
-        "/things-to-do/japanese-noren-curtain-shop-culture/"
-      ],
-      "classification": "confirmed_broken",
-      "head_status": 404,
-      "final_status": 404,
       "redirected_to": null,
       "error": null
     },
