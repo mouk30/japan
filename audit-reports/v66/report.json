@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-22T04:15:10.874Z",
+  "createdAt": "2026-10-22T05:05:41.895Z",
   "widths": [
     320,
     390,
@@ -161,7 +161,7 @@
           "ready": true
         }
       ],
-      "linkCount": 23,
+      "linkCount": 24,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-320.png"
@@ -320,7 +320,7 @@
           "ready": true
         }
       ],
-      "linkCount": 23,
+      "linkCount": 24,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-390.png"
@@ -479,7 +479,7 @@
           "ready": true
         }
       ],
-      "linkCount": 23,
+      "linkCount": 24,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-768.png"
@@ -638,7 +638,7 @@
           "ready": true
         }
       ],
-      "linkCount": 23,
+      "linkCount": 24,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-1440.png"
