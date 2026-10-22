@@ -1,0 +1,129 @@
+{
+  "version": "V130",
+  "checked": 20,
+  "updated_now": 20,
+  "verified": true,
+  "issues": [],
+  "pages": [
+    {
+      "slug": "kawasaki-cruise-port-day-trip",
+      "v": "126",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v126-kawasaki-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "kozushima-cruise-port-day-trip",
+      "v": "126",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v126-kozushima-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "kumamoto-misumi-cruise-port-day-trip",
+      "v": "126",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v126-kumamoto-misumi-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "miike-miyakejima-cruise-port-day-trip",
+      "v": "126",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v126-miike-miyakejima-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "mikawa-jinno-cruise-port-day-trip",
+      "v": "126",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v126-mikawa-jinno-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "mitajiri-nakanoseki-cruise-port-day-trip",
+      "v": "126",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v126-mitajiri-nakanoseki-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "nakagusuku-bay-cruise-port-day-trip",
+      "v": "126",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v126-nakagusuku-bay-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "nakatsu-cruise-port-day-trip",
+      "v": "126",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v126-nakatsu-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "nanao-cruise-port-day-trip",
+      "v": "126",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v126-nanao-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "naoetsu-cruise-port-day-trip",
+      "v": "126",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v126-naoetsu-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "niijima-cruise-port-day-trip",
+      "v": "127",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v127-niijima-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "numazu-cruise-port-day-trip",
+      "v": "127",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v127-numazu-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "ohama-cruise-port-day-trip",
+      "v": "127",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v127-ohama-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "oigawa-cruise-port-day-trip",
+      "v": "127",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v127-oigawa-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "okata-izu-oshima-cruise-port-day-trip",
+      "v": "127",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v127-okata-izu-oshima-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "omaezaki-cruise-port-day-trip",
+      "v": "127",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v127-omaezaki-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "rishiri-kutsugata-cruise-port-day-trip",
+      "v": "127",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v127-rishiri-kutsugata-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "rumoi-cruise-port-day-trip",
+      "v": "127",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v127-rumoi-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "saiki-cruise-port-day-trip",
+      "v": "127",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v127-saiki-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    },
+    {
+      "slug": "sakai-semboku-cruise-port-day-trip",
+      "v": "127",
+      "image_url": "https://www.nipponferry.com/images/venues/nf-v127-sakai-semboku-cruise-port-day-trip-real.webp",
+      "post_state": "synced"
+    }
+  ]
+}
