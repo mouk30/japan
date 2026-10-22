@@ -1,0 +1,49 @@
+name: V110 ten port photo sources and responsive SEO QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site/things-to-do/*-cruise-port-day-trip/index.html'
+      - 'audit-reports/v110/**'
+      - 'scripts/v110_ten_port_photo_audit.py'
+      - 'scripts/v110_ten_port_photo_live.py'
+      - '.github/workflows/v110-ten-port-photo-qa.yml'
+permissions:
+  contents: read
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pillow
+      - name: Audit all ten image rights, local WebP bytes and original SEO
+        run: python scripts/v110_ten_port_photo_audit.py
+  production:
+    needs: integrity
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Verify all ten live public pages on desktop and mobile
+        run: |
+          for n in 1 2 3; do
+            if python scripts/v110_ten_port_photo_live.py; then exit 0; fi
+            if [ "$n" -lt 3 ]; then sleep 25; fi
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v110-ten-port-real-photo-mobile-qa
+          path: audit-output/v110/
+          retention-days: 45
