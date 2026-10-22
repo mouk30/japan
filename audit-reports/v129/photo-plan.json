@@ -1,0 +1,79 @@
+{
+  "version": "V129",
+  "date": "2026-10-22",
+  "task": "Final six explicitly AI-labelled cruise port article hero images. Use original Commons photos with verified location, date, photographer, reuse license, and visibly disclose berth/operational limitations; only Article image JSON-LD URL is updated. No new posts or kids site.",
+  "selected": [
+    {
+      "slug": "ube-cruise-port-day-trip",
+      "region": "야마구치현·우베",
+      "subject": "2010년 실제 우베항에서 촬영한 당시 항만 전경. 현재 크루즈 접안 선석·하선 게이트·선박 운영 상황의 사진은 아님",
+      "filename": "Ube Port.JPG",
+      "taken": "2010-07-18",
+      "author": "OAzipper",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Ube_Port.JPG",
+      "output": "/images/venues/nf-v129-ube-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "uno-cruise-port-day-trip",
+      "region": "오카야마현·다마노 우노항",
+      "subject": "2015년 오카야마현 다마노시 우노항의 실제 촬영 전경. 현재 크루즈 접안·여객 동선과 별도로 확인 필요",
+      "filename": "150505 Uno Port Tamano Okayama pref Japan03s3.jpg",
+      "taken": "2015-05-05",
+      "author": "663highland",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:150505_Uno_Port_Tamano_Okayama_pref_Japan03s3.jpg",
+      "output": "/images/venues/nf-v129-uno-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "uwajima-cruise-port-day-trip",
+      "region": "에히메현·우와지마",
+      "subject": "2019년 실제 우와지마성 천수각 전면 모습. 우와지마항 크루즈 부두와는 다른 관광지",
+      "filename": "Uwajima Castle castle tower, from the front.jpg",
+      "taken": "2019-05-03",
+      "author": "Tōjichi",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Uwajima_Castle_castle_tower%2C_from_the_front.jpg",
+      "output": "/images/venues/nf-v129-uwajima-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "yatsushiro-cruise-port-day-trip",
+      "region": "구마모토현·야쓰시로항",
+      "subject": "2024년 10월 13일 야쓰시로항에 실제 정박한 크루즈선 스펙트럼 오브 더 시즈. 해당 날짜의 사진이며 현재 접안·항차·승객 게이트를 보증하지 않음",
+      "filename": "Spectrum of the Seas 20241013 01.jpg",
+      "taken": "2024-10-13",
+      "author": "Sanjo",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Spectrum_of_the_Seas_20241013_01.jpg",
+      "output": "/images/venues/nf-v129-yatsushiro-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "yawatahama-cruise-port-day-trip",
+      "region": "에히메현·야와타하마",
+      "subject": "2022년 5월 4일 실제 야와타하마항 페리터미널. 크루즈선 전용 접안 게이트가 아니며 현재 시설 모습 및 운영 조건을 보증하지 않음",
+      "filename": "YawatahamaFerryTerminal 20220504.jpg",
+      "taken": "2022-05-04",
+      "author": "Olegushka",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:YawatahamaFerryTerminal_20220504.jpg",
+      "output": "/images/venues/nf-v129-yawatahama-cruise-port-day-trip-real.webp"
+    },
+    {
+      "slug": "yokkaichi-cruise-port-day-trip",
+      "region": "미에현·욧카이치",
+      "subject": "2013년 실제 욧카이치항 주변의 항만 전경. 사진에 보이는 시설 및 당시 모습은 현재 접안·하선 상황과 다를 수 있음",
+      "filename": "Yokkaichi Port - panoramio.jpg",
+      "taken": "2013-05-01",
+      "author": "carloshonda",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Yokkaichi_Port_-_panoramio.jpg",
+      "output": "/images/venues/nf-v129-yokkaichi-cruise-port-day-trip-real.webp"
+    }
+  ]
+}
