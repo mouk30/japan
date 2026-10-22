@@ -1,0 +1,677 @@
+{
+  "version": "V132",
+  "mode": "apply",
+  "checked": 83,
+  "changed": 83,
+  "already_correct": 0,
+  "og_fixed": 18,
+  "article_schema_fixed": 83,
+  "protected_seo": "title, description, canonical and H1 preserved exactly; all non-image JSON-LD untouched",
+  "issues": [],
+  "pages": [
+    {
+      "page": "/things-to-do/abashiri-cruise-port-day-trip/",
+      "before_sha256": "fa0e4bb404f4cb59460a7bc02715b29d5445c2d6d74a35f0ca52133a6497ebe1",
+      "after_sha256": "b3b3cf2d501cbd7f67503561720df6c239433bee5db085c33ed5f9d0277cc591",
+      "cover": "/images/venues/nf-v114-abashiri-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/amami-naze-cruise-port-day-trip/",
+      "before_sha256": "411464fe0da5bdd89bcdcaca95d19d349bdf328d8231a41e723d9bcc28dfbf4e",
+      "after_sha256": "2a6f5748dde3ea48510da82d698707fe1abeeb61cbd2d1abc8747ec0055d52d9",
+      "cover": "/images/venues/nf-v125-amami-naze-cruise-port-day-trip-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/aokata-cruise-port-day-trip/",
+      "before_sha256": "eaccd2c3842ef0641ee2751fb598e7aa1de7188c64f4bad014a7e981181d7dcd",
+      "after_sha256": "e6109aa934681048bb79c277d8cd21630ee1e8a905a7ecf40a24da99b08fa97a",
+      "cover": "/images/venues/nf-v115-aokata-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/aomori-cruise-port-day-trip/",
+      "before_sha256": "43d66f5afa7131a3429f2c10c801bc4fbad48d45baaebf08f26ed8a7bc97fc65",
+      "after_sha256": "47909052ac37ab3395f441e5478ac8209f268ba67ec99add4de9b67410c92328",
+      "cover": "/images/venues/aomori-nebuta-warasse.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/atami-cruise-port-day-trip/",
+      "before_sha256": "ccc68ba3a7719872e6e669e3722a594ffc132d1f5c034123af6d194e0989c62c",
+      "after_sha256": "a6d241957c1c24cec575378aa5900e99516b2e7ab9ca73fbf464ab6315e87f9b",
+      "cover": "/images/venues/nf-v113-atami-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/beppu-cruise-port-day-trip/",
+      "before_sha256": "18d83f01332087cc9dbb08cdc6af88549f22d471b0e01e5c90b1dcba9d9adbbc",
+      "after_sha256": "4f0f58eaa0e2ee1ad1328a3e60c95d06e62bf98eb4175a211d2a5cef73882b66",
+      "cover": "/images/venues/beppu-umi-jigoku.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/fukui-cruise-port-day-trip/",
+      "before_sha256": "7b548113d9407791772334fdfd1b147cc946138eca0e9758e2a9398800cf05a9",
+      "after_sha256": "ada25778595973dd590e7de0de048a66e71b3cffc685c4bb3971644614174c1c",
+      "cover": "/images/venues/nf-v125-fukui-cruise-port-day-trip-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/fukuyama-cruise-port-day-trip/",
+      "before_sha256": "8f6a4246481b14194ffe2cb7c391fc01c2544c88d9ac043d79d320e90f735286",
+      "after_sha256": "a505c977ffb408998e627b310184343bd3828c1fe03f9ce859f260e054c196c0",
+      "cover": "/images/venues/nf-v115-fukuyama-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/fushiki-toyama-cruise-port-day-trip/",
+      "before_sha256": "12cfb1e8174d0ad09d43a4574747146df7605538d78c18f5d420203c52f4817a",
+      "after_sha256": "154e6f651afc975a6c0db34b7170bd22e9deaeec77b394f550dd64da6f731386",
+      "cover": "/images/venues/nf-v113-fushiki-toyama-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/futami-ogasawara-cruise-port-day-trip/",
+      "before_sha256": "1fa7730739fc6f0e55dbc40c1601707777e5f15567cdae546e1a9ffd14d4739d",
+      "after_sha256": "c07c37f828d632f75c823f2743d9ea3081ed7ca6d5c1ad1773b487f53ae550fb",
+      "cover": "/images/venues/nf-v125-futami-ogasawara-cruise-port-day-trip-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/gamagori-cruise-port-day-trip/",
+      "before_sha256": "6d7a555970b65bb30fffe18e951d0db43022993feb78fd738f35bb41627fb393",
+      "after_sha256": "cb61c01df2997395051a5e1c618c9952c436d3ad4c8b52dd444503c793b76146",
+      "cover": "/images/venues/nf-v115-gamagori-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/goto-fukue-cruise-port-day-trip/",
+      "before_sha256": "35481a63bd3980526ac445ca8ea319dc6ea0bc7035047d2be87cc71575b1f983",
+      "after_sha256": "66bc51bf7d3ac3f102ab026c9af4d33e332df852b10441616bfe4352ddd488e2",
+      "cover": "/images/venues/nf-v118-goto-fukue-cruise-port-day-trip-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hagi-cruise-port-day-trip/",
+      "before_sha256": "e8e6b2a642e80e7789ba8be94b98ee7422ff22f8ca461221222e343319f02037",
+      "after_sha256": "dc62473dca3cf220cbdf0e49da8fe5091ba142905621137406f0016f38c9e90c",
+      "cover": "/images/venues/nf-v115-hagi-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hakata-cruise-couple-guide/",
+      "before_sha256": "b54cbcf73a04c75dd7e03834f6e87f9c108ed45b6bc56ec75a57e193d10e70ff",
+      "after_sha256": "d30260a38d7750f3f3ee5398d8e04cba96fcf6912d19700f504b34ce58f65213",
+      "cover": "/images/venues/fukuoka-ohori-park.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hakata-cruise-family-guide/",
+      "before_sha256": "54f09f2cae36b1f78e86b53e482799658358b77e37dcc076f29424ae685a5084",
+      "after_sha256": "53573ad8a55488652c8e1c36e47c9ea7148ffd9b8a760de073d66494d0382b4d",
+      "cover": "/images/venues/hakata-anpanman-host-building.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hakata-cruise-parents-guide/",
+      "before_sha256": "ac8e741af6f7fc530557e49c4cb6dfe481340f33f79abc1b7c905a0180ed4c02",
+      "after_sha256": "51edc11d7c07f5a09a266b18e999191882e958463226e3b9fc2f727d81ca9859",
+      "cover": "/images/venues/fukuoka-tower.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hakata-cruise-port-day-trip/",
+      "before_sha256": "13c58e1bdbad15f4a5742fd3acb0deb190560877cdd22263e737b7c15a2206b6",
+      "after_sha256": "514b3ab8b5bfa6f84b0f57f1739c0de57233490dea5115efc431ed6d7472b66d",
+      "cover": "/images/venues/fukuoka-ohori-park.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hakata-port-dazaifu-shore-excursion/",
+      "before_sha256": "cc1ff1e1fe5e4dfd1fc2f148351b4d4d5479ab33f54ff45c0f27cd4751e7088b",
+      "after_sha256": "ed152f1dfe668ce7b601f6b0b1c7aef4d8c1912412ef6c50d753fe8b60cb76bd",
+      "cover": "/images/venues/nf-v118-hakata-port-dazaifu-shore-excursion-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hakata-port-tenjin-sightseeing/",
+      "before_sha256": "b7d9db801dc0467a51f86fb52e4b7a14f2e8fd2b932c9b1beb76ad68590e7a33",
+      "after_sha256": "b8c71c0e28558da8eaee2f5b852cd9af8fe8e3e7bb45a5128828d3d99ec1e273",
+      "cover": "/images/venues/nf-v118-hakata-port-tenjin-sightseeing-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hakodate-cruise-port-day-trip/",
+      "before_sha256": "4a05af8b9306a82de6356c3d89f7a6e53a0ba2a5677659c05225582a6b788fe6",
+      "after_sha256": "6d43f7d53cd2d43d87907abbcbac77cfa11f23e7ebe1c5c9b6a80067b0bf3645",
+      "cover": "/images/venues/hakodate-goryokaku-tower.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hamada-cruise-port-day-trip/",
+      "before_sha256": "8ac45a64531f8ff9d8d31cffaf3fd98c2f0be546fb9a1dae467fb13303e1efb1",
+      "after_sha256": "03855a614a1d9f1a820faeae5994d842fa22106c932ed5be08386df35e6c8d81",
+      "cover": "/images/venues/nf-v115-hamada-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hannan-cruise-port-day-trip/",
+      "before_sha256": "e8ed588c753f9e43e96dcd355181101ffb78431d33f0313f160dcdcdc9de3ffe",
+      "after_sha256": "89efce5466ad0b02e1daa4f72bc126d93d6ee624e7267592af6f4a788efe1fdf",
+      "cover": "/images/venues/nf-v115-hannan-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hidaka-cruise-port-day-trip/",
+      "before_sha256": "89c2e8fb62faffac19a8e4521e1ecf4a57c206bee9a8318586a86389855d5b24",
+      "after_sha256": "aaf6a363ffca64b2abd02754af6f88b8816f9ef65c5b6883282a3ec821b80f28",
+      "cover": "/images/venues/nf-v115-hidaka-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/himeji-cruise-port-day-trip/",
+      "before_sha256": "3a45e1e0e7872e9722d8710d0afe274d3f9a0c4e9972f3b547210da4af20f124",
+      "after_sha256": "cb47025f81f6a33dbf16f0e09254d9b3dd9a8d59038521fa89815d7fcc484c53",
+      "cover": "/images/venues/nf-v114-himeji-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hirado-kawachi-cruise-port-day-trip/",
+      "before_sha256": "cb619a9179cf44f3e3bf9b530eb9fce7eefd9dc3f757010440d638c4e6a220f8",
+      "after_sha256": "900fa03cb491dc4831d1171595ed3392f149f6f588417e3347efd5a7f199aa28",
+      "cover": "/images/venues/nf-v115-hirado-kawachi-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hirara-miyakojima-cruise-port-day-trip/",
+      "before_sha256": "610a8c0fc10578ae5fbf3eabe5e0fc9df64bdb8cadef3c50dc3d371c79819b83",
+      "after_sha256": "85f2d40f3608e95471a217dd56d1d590b16e593c7a839d8fc663bf832881f48b",
+      "cover": "/images/venues/miyakojima-yonaha-maehama.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/hososhima-cruise-port-day-trip/",
+      "before_sha256": "8cf829fe36141c840008c5b13b6e6ad0989d131eea7bce5357ab293c0c52b003",
+      "after_sha256": "ecff6b9f758fb5c576da249ae72888171efcc163c89b63eeda1851c851a62e39",
+      "cover": "/images/venues/nf-v115-hososhima-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/ibaraki-hitachinaka-cruise-port-day-trip/",
+      "before_sha256": "72c137704e0e046af777d721c005e959516c343b26a73d7859ab65a7d96b38fb",
+      "after_sha256": "9887ebbd0cef51debf031fa3fb7d32dc845a2abaf4c48b373b36cfcfbf1e5d92",
+      "cover": "/images/venues/nf-v114-ibaraki-hitachinaka-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/iki-gonoura-cruise-port-day-trip/",
+      "before_sha256": "c81502f4cc5a15908559652ac546b75533ba8a1b6278af31a91cfc178e590ced",
+      "after_sha256": "18bbe20e95d0d2a0dba38187c1792d9de9413083cc3f04de9c309dcb21b7798a",
+      "cover": "/images/venues/nf-v125-iki-gonoura-cruise-port-day-trip-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/imabari-cruise-port-day-trip/",
+      "before_sha256": "9d0cb7adf25bb49bc1adc3e96083c8a5abf870411c85e99e2ae026201214273a",
+      "after_sha256": "acc4f4c6fdddbedd440165eb3575dccf07d73accf2110e64f6f4f24f03982e1b",
+      "cover": "/images/venues/nf-v125-imabari-cruise-port-day-trip-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/imari-cruise-port-day-trip/",
+      "before_sha256": "aa5f9ff6065703619d721071c9a7b4435a099b1a3372fd20cdfd42e5505f26f7",
+      "after_sha256": "3567bb7c3aa0c626211ba88583f35bdf2c51e027535c846577497e63885654b3",
+      "cover": "/images/venues/nf-v118-imari-cruise-port-day-trip-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/ishigaki-cruise-couple-guide/",
+      "before_sha256": "2cc690fc452f5ee290c8e7cb9f198e74d0417a307f122315e155b7be7d35503f",
+      "after_sha256": "5d011cee2294f39116ed05a9a01799b9b2a34108e610ec4af95f1ac3493b5bbe",
+      "cover": "/images/venues/ishigaki-kabira-bay.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/ishigaki-cruise-family-guide/",
+      "before_sha256": "ffb5ce69802190cd086dac06c081852a3c2e9a50b8fdda14efe37cc4d0871960",
+      "after_sha256": "ee7b38cd564709c7834f7085f76d717825909a1a682cb3ab6c452253cc8a9bc5",
+      "cover": "/images/venues/ishigaki-kabira-bay.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/ishigaki-cruise-new-port-shuttle/",
+      "before_sha256": "4351664d67e07b9b352e88ca0f9d1bac2d06e8176590048c83c9f37244f4ed77",
+      "after_sha256": "57e2f7b4429eb650a1fd5564f0ac93624aae2b9cc14aa0774cd6b1201b79373b",
+      "cover": "/images/venues/nf-v118-ishigaki-cruise-new-port-shuttle-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/ishigaki-cruise-parents-guide/",
+      "before_sha256": "d09cfde48a245768e10e9b92310e5156c1273d2170cb0da7943eca1a8499cb0c",
+      "after_sha256": "1eea9eeea7a201e5a221e3ffc3c4fd224b72b91b8dd89fb63073550ddf4e9906",
+      "cover": "/images/venues/ishigaki-kabira-bay.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/ishigaki-cruise-port-day-trip/",
+      "before_sha256": "c685f28ea8dbe40bf021002c1c77148c58b02c859c9b35ecf9e149ca0ec093b9",
+      "after_sha256": "a3b6baebcefc2d26945f82173e44543e8c31acb98c944dda6f59e39a3a84a728",
+      "cover": "/images/venues/ishigaki-kabira-bay.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/ito-cruise-port-day-trip/",
+      "before_sha256": "0ab93a3f352fd707c4cae1beb8cac825540c2258ed3922b11b93d676256bf2ac",
+      "after_sha256": "7f2d22e1ed701fa7d61b807b90f07c54273cf3bdc06bfdd6d7978fdb10a75dfe",
+      "cover": "/images/venues/nf-v125-ito-cruise-port-day-trip-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/kagoshima-cruise-port-day-trip/",
+      "before_sha256": "010cbb6bb03f500489bdfb5f078b8ab73acccd202cb7af8a5049f1c5d7d75313",
+      "after_sha256": "ffa586257cf991524f9f14670196c34ceafb498b6d344b900a9608f1a7c76178",
+      "cover": "/images/venues/kagoshima-ioworld-aquarium.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/kaminato-hachijojima-cruise-port-day-trip/",
+      "before_sha256": "b71482c6609897e6a39f14a12c881e11f05f272d5a2b8eb26edccdcc8df86b6e",
+      "after_sha256": "031485850e5550da851d35b3fb855a02fdde62c0b6987da186c14a0cc54a0e55",
+      "cover": "/images/venues/nf-v125-kaminato-hachijojima-cruise-port-day-trip-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/kanazawa-cruise-port-day-trip/",
+      "before_sha256": "56637916fb11b3ab2f5aae8ebe2bfb64aa756c0155dfd6e1c0b3b2dca74fb722",
+      "after_sha256": "4a0aa6bdab29f52c8210d326d7587766286c7e677beaf794e0756abe6448f40b",
+      "cover": "/images/venues/kanazawa-higashi-chaya.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/karatsu-cruise-port-day-trip/",
+      "before_sha256": "43aac492cc6b5d8ea4024a72d6a5339a35106333f42f125e56422641c7fd4f39",
+      "after_sha256": "35a4d8948c5f1143c45a5dc21eb8a03cc55246866d615cc77f0ef58287a09e9a",
+      "cover": "/images/venues/nf-v114-karatsu-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/kisarazu-cruise-port-day-trip/",
+      "before_sha256": "d83311a3ca7a46ebabc7c5d7b37bce7f08fb3e80c8207277f03cb5484841a910",
+      "after_sha256": "48ae65c8894bbcd6aaedac92576a678a457520513e5363df4f229b551f78b456",
+      "cover": "/images/venues/nf-v115-kisarazu-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/kobe-cruise-port-day-trip/",
+      "before_sha256": "0b492c9be8db93aab78d92cfe096be1107ba43c097037238dcf532a6091b377d",
+      "after_sha256": "e9eef9854a24ede7448fe74d1de8994bad089f7c5087663d3cc8601edcb2d314",
+      "cover": "/images/venues/kobe-meriken-park-night.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/kushiro-cruise-port-day-trip/",
+      "before_sha256": "4308b1ad6b708b19cc8cec0b530e1a8228e806eec239bd0cc6bd9c5aba7fbc68",
+      "after_sha256": "86c022aa00cfbb96289cc8c95e3d0945b457b5e096d81328ce736a2e56265732",
+      "cover": "/images/venues/nf-v113-kushiro-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/miyazaki-cruise-port-day-trip/",
+      "before_sha256": "5d53cc9900771070b4c62c50be88fab6d3de659042ad9e66c5b18a00148f8feb",
+      "after_sha256": "7de00a285cb3eb54444a6a340eb6def00d07b5583f89fd1039fb8ef5c508d954",
+      "cover": "/images/venues/nf-v125-miyazaki-cruise-port-day-trip-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/motobu-cruise-port-day-trip/",
+      "before_sha256": "7ec0a0b2ee73673f3ad2d526f0d19f35daa0c0394b5d036e6a14c1069fdf0a65",
+      "after_sha256": "e3c41935cd45a5bb8703f933b322c3fe3e6309893d981befa71fc2854a70cafa",
+      "cover": "/images/venues/nf-v114-motobu-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/muroran-cruise-port-day-trip/",
+      "before_sha256": "0950d0c765926192278fe435d9d145cc0d35c77f3fba984d8b95317a1a0af625",
+      "after_sha256": "72c8577b77db50af3d52c20643ad2f71c67fac9a98580573ea61833139762d76",
+      "cover": "/images/venues/nf-v113-muroran-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/nagasaki-cruise-4-6-8-hour-itinerary/",
+      "before_sha256": "e1992eea25714a8726f7376df7409adc612cf9fd591b00a4ff135e799314977e",
+      "after_sha256": "3d817cbce8bfaad5f9daf81a3f614367094a786cb08948dedfc6141949418300",
+      "cover": "/images/venues/nf-v118-nagasaki-cruise-4-6-8-hour-itinerary-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/nagasaki-cruise-couple-guide/",
+      "before_sha256": "42e2e12093749e5febb1a84b5bcb9451de69da52c3f499bd51800fa08fb0d95e",
+      "after_sha256": "d624a7ac4b580722f66f634ec71acffb77b5c53e32a76fd581b0e767ce7a8d49",
+      "cover": "/images/venues/nagasaki-glover-garden.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/nagasaki-cruise-family-guide/",
+      "before_sha256": "18ba7ba5cb33e6c53e185e9333c0aaa866e960e85a85d619084b7679ed8bba63",
+      "after_sha256": "97abb4cfb3819bc22cb59c03712f19c647a80de786fde6f6e94dd925c4784501",
+      "cover": "/images/venues/nagasaki-penguin-aquarium.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/nagasaki-cruise-parents-guide/",
+      "before_sha256": "9f8e3d87be40053c8f70c694235b30d007f1985f9cccf0ea1b2d9aca23111987",
+      "after_sha256": "f7c7a749d9e8f75b6357df089f16ae0082555d390803b76fb0b64c77ed01e967",
+      "cover": "/images/venues/nagasaki-glover-garden.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/nagasaki-cruise-port-day-trip/",
+      "before_sha256": "22a8bb745b653bd4515f2d54ce4917f7de5fdf7f001fa7be3c25ee3c3ba3469b",
+      "after_sha256": "fd1a6a64d8f62d2f027b03b73d38531611d78d2d50c0a11007d2b1944969a51a",
+      "cover": "/images/venues/nagasaki-glover-garden.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/naha-cruise-couple-guide/",
+      "before_sha256": "66025f0f90108fa7f7670acb359c74ef6f3e82a5f667cf1b1cb9ae250d007c7d",
+      "after_sha256": "d97e299e072e5f157357fa4edb44d0d9991d6d888cdcf1246731db8cd4044308",
+      "cover": "/images/venues/naha-kokusai-street.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/naha-cruise-family-guide/",
+      "before_sha256": "da508924c8e9e6d56fba242c131bd8d7552e6b3f82001ae2301e76fad26117f8",
+      "after_sha256": "618c4fff2ae5773e0f523dc5b6925deaae894fbadd642f698932e11def2facd2",
+      "cover": "/images/venues/naha-dmm-kariyushi-aquarium.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/naha-cruise-parents-guide/",
+      "before_sha256": "4e90110dc6573861c2a349d121072d7ec844ee3fcc31324b8a78ba481a58abf5",
+      "after_sha256": "e9cc6a70a90aa042b9be2e3b38e4aad473fb16ff7a79aec5acb6f038ed0776b6",
+      "cover": "/images/venues/naha-prefectural-museum.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/naha-cruise-port-day-trip/",
+      "before_sha256": "ccaf50c3ed546d7c1a04bf8d8d537a4b88c0178ba132674355889eaae5816658",
+      "after_sha256": "a440e0c254ea595c8045945fcb6c335c33fc455a68de8f8180cf746d66bcc980",
+      "cover": "/images/venues/naha-kokusai-street.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/naha-half-day-cruise-excursion/",
+      "before_sha256": "66e73c9b374625ef4a538ed956910be87da95dc785e9e660ed1a5491b04f8841",
+      "after_sha256": "c7b6742f310f1596852eb745b73474762a2dbb68ab7308873d302ccf895e7807",
+      "cover": "/images/venues/nf-v118-naha-half-day-cruise-excursion-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/naha-shuri-castle-cruise-sightseeing/",
+      "before_sha256": "b3b026fccebf68a12bc0036b92e1770a36a97261ffb61079145879fbef905bb6",
+      "after_sha256": "f483866d985759f530cc9bfa1139e8e1dc2392ee12f5ed4c00d8fd2570a1b17c",
+      "cover": "/images/venues/naha-shureimon.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/niigata-cruise-port-day-trip/",
+      "before_sha256": "88dab1c08f10bc675af9acfead169ff508102e0d2eb421dba0cf30cab0167711",
+      "after_sha256": "4a38b77fecbf6cb9958993937ea62d88808ce5ef7c4f74e565c9530d0b9134ac",
+      "cover": "/images/venues/nf-v113-niigata-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/niihama-cruise-port-day-trip/",
+      "before_sha256": "d6e009dd6dca454ff795c50e9528610a640f66b6bb11fb379dc83394a70c1fc8",
+      "after_sha256": "30139d2403a5a6327498be5e9b9bca6c0187ea44a9c128ed3dc12db48ca1a6a7",
+      "cover": "/images/venues/nf-v125-niihama-cruise-port-day-trip-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/osaka-cruise-port-day-trip/",
+      "before_sha256": "0cbc579b3f5eaaf9ddb1e7d89835a8b34a68b9469d973cdcd0fbd37a4d96b94c",
+      "after_sha256": "77103a990a3d534e9b9d228f611de5eaec72cba112dcbeb5ca20bd6eedd12ff9",
+      "cover": "/images/venues/osaka-kaiyukan-aquarium.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/sado-ogi-cruise-port-day-trip/",
+      "before_sha256": "cab3f2c4ce58c3d1e88a8d99c4f32512b1302b9939662879f1a5c9d09ef30796",
+      "after_sha256": "b6d0b5400fd804b60d837f549cb055d0f228348a098257025b270496048e1ba7",
+      "cover": "/images/venues/nf-v114-sado-ogi-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/sakata-cruise-port-day-trip/",
+      "before_sha256": "a3742c540696edd893c39c6fe5d066ad04045f26b53df70f37ef578458135173",
+      "after_sha256": "84ea2d1eb03d59a26bf2a32be2b84d1bf78f554b9edbb28979baf23d13534c1a",
+      "cover": "/images/venues/nf-v113-sakata-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/sasebo-cruise-port-day-trip/",
+      "before_sha256": "6535f8c4839b8beda0509bc5818bc8060b019de605f693b9840c9250633fa5d9",
+      "after_sha256": "73e7c461cfeb38e78b1f1825050c08c556d518525fac057d76f85b9c7978713d",
+      "cover": "/images/venues/sasebo-huis-ten-bosch.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/sendai-cruise-port-day-trip/",
+      "before_sha256": "2ef040256c0882379b7db09226c78723f137b8007ac2be2490e897797ec3d59c",
+      "after_sha256": "4fb84b86ccaa36564b33873054c7a834a757f6d4ff2e6e556bba9d2f9cb3790b",
+      "cover": "/images/venues/nf-v113-sendai-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/shimizu-cruise-port-day-trip/",
+      "before_sha256": "63f61e1f8d7323e77ede2305abdb8807d91eb1a33c81712e595318defd56aa21",
+      "after_sha256": "7dfad04ebcc73ecc83eec29c57f43ddaa5f805a1324e06ba8c5b015578c5f275",
+      "cover": "/images/venues/shimizu-chibi-maruko-host-building.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/shimonoseki-cruise-port-day-trip/",
+      "before_sha256": "4cc6e50b1c01b0270ceb3fb9aa4080980af6d1c52fd605002842e7585e06ad91",
+      "after_sha256": "08d509f3a37bb0b0c0693ebc7b00436d4025d11ab4c290e3b11889ee33d8e41e",
+      "cover": "/images/venues/v62-karato-market-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/shiraoi-cruise-port-day-trip/",
+      "before_sha256": "416f666dba4de199ae597d63f6e04c4f3c0714a08782c7cd9785d93313e96f7c",
+      "after_sha256": "742c56e5186cb53666a878f7ceb59356a795ed09e7ccf2f0a1df4c0de9436bee",
+      "cover": "/images/venues/nf-v113-shiraoi-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/tokushima-komatsushima-cruise-port-day-trip/",
+      "before_sha256": "a1179e9fb4ea93093b3e662c1c13a922dbbb98bba408199dcee6061f3b436981",
+      "after_sha256": "ca7904fa9c31fa492544b9980d966eb3e5529d639c63e2fe9b039e301ad70eb9",
+      "cover": "/images/venues/nf-v114-tokushima-komatsushima-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/tomakomai-cruise-port-day-trip/",
+      "before_sha256": "9b3895078526f1b1b551cff8e3092c1e7d72fbc6662db105baeddf4c34290772",
+      "after_sha256": "98c0813c18ca416c1d1a044845bea4ff0c70d203f575d7c0f585db6b11c180fc",
+      "cover": "/images/venues/nf-v113-tomakomai-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/tottori-cruise-port-day-trip/",
+      "before_sha256": "b0fbafec9d6cf24d5c60629bc18780efe7941ed9d06a3be7f406c57dced52780",
+      "after_sha256": "632fa66f3af92d5d64d8397ce5cc9b277cc14bedc76fc30669dfdfc269806ba6",
+      "cover": "/images/venues/nf-v113-tottori-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/tsushima-izuhara-cruise-port-day-trip/",
+      "before_sha256": "0f5dce88f253f493f94bc3cf565c021ed55fe949cc3aac8249b58f18bd29807b",
+      "after_sha256": "1170927650d497d844030ee1e8ffc26ba58f24f41ae958bd0f0fa8fe7c08aa5e",
+      "cover": "/images/venues/v62-izuhara-port-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/wakayama-shimotsu-cruise-port-day-trip/",
+      "before_sha256": "502772b02eaadff3813c24acdd08679862f8858eb9ba8bc32413e5b892046f5c",
+      "after_sha256": "06598783be69a2f961c46dd5122083c8a8ee256ed4efdfae17456883bd0da116",
+      "cover": "/images/venues/nf-v114-wakayama-shimotsu-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/wakkanai-cruise-port-day-trip/",
+      "before_sha256": "9eb85e050c3f3a6e4761c124782f27b7c493a18117649c30451be381d265ac4c",
+      "after_sha256": "d795493753fb09528bb8adebd4d441423e9c1af4450431f0c7da83e493441cb7",
+      "cover": "/images/venues/nf-v114-wakkanai-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/yakushima-miyanoura-cruise-port-day-trip/",
+      "before_sha256": "5bcc01ad5f8c3bff89f5c5ab973248bec87b34600c3ba93cf0317b280fb86670",
+      "after_sha256": "5bd6c9e01fdc56e22a10b93761a0502beab49179b968c32aa1c2bd66a758aebd",
+      "cover": "/images/venues/nf-v114-yakushima-miyanoura-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/yokohama-cruise-couple-guide/",
+      "before_sha256": "9e9bcfef20d6ef1f060a18ad8a73dc56489cebb8cf17be0c00f8dbe66fd114a6",
+      "after_sha256": "dfc1932ccc488d3d19c4cc77c130c67c95f43009a9b97dbbedff3431b4d0c36b",
+      "cover": "/images/venues/yokohama-air-cabin.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/yokohama-cruise-family-guide/",
+      "before_sha256": "73e343473fd12a01de83df7b102dd0ce0b13c6ae31de8e7820653c1b670a9f1f",
+      "after_sha256": "92230394bf49af55986375a9a9bf0a34f65b884e0fc0f8c4aa46096498b77d77",
+      "cover": "/images/venues/yokohama-cupnoodles-museum.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/yokohama-cruise-parents-guide/",
+      "before_sha256": "ee947d31cd808142492fc32077c37f2e4514e505c2844d1a75d6bdd9286d0db8",
+      "after_sha256": "9c28ee51ab0b7a2b98a2749f93f7f72ebf1d0ea7f993c1803eee35a1498781bf",
+      "cover": "/images/venues/yokohama-air-cabin.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/yokohama-cruise-port-day-trip/",
+      "before_sha256": "261db81f65a13992c58a235be28f28191388c4d414aca00ad32a6bc283a940c5",
+      "after_sha256": "703ac7fcfc408935d6fd25db365210dd14329d980939af8b7cf5c261508be818",
+      "cover": "/images/venues/yokohama-redbrick-waterfront.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/yokohama-daikoku-pier-cruise-terminal/",
+      "before_sha256": "2ac8458fb30f948687fdb3a703d690778aaaac183b60bae9ce64cfe3107b593b",
+      "after_sha256": "8aed0be8263471bedbf229f20f9ee916a1bc5a9e72cea87b7ccd3b40a5e648d7",
+      "cover": "/images/venues/nf-v125-yokohama-daikoku-pier-cruise-terminal-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/yokohama-minato-mirai-cruise-day-trip/",
+      "before_sha256": "90f6f54ae39f9861a7f123fea04b42079ed9c8ee36f0ee4a76fee7775ec61a7f",
+      "after_sha256": "ef6333078fc3b7b6aa5737bcc7c7cb24371c0f64366a5fd0aac012cdab483ab2",
+      "cover": "/images/venues/yokohama-air-cabin.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/yokohama-osanbashi-cruise-terminal/",
+      "before_sha256": "88a2498c45e54ac470fd14c380db9b16bf749457716b9e3117244a381b09a962",
+      "after_sha256": "77f65f244e0f56a15b0c0de7a266ec4d0bae929400cc57203bd84b6bd36af85a",
+      "cover": "/images/venues/nf-v118-yokohama-osanbashi-cruise-terminal-real.webp",
+      "og_fixed": false,
+      "schema_fixed": 1
+    },
+    {
+      "page": "/things-to-do/yokohama-shinko-pier-cruise-area/",
+      "before_sha256": "d89f043282877ae291176048a2f61cf3e0b4fbc1ff85a0f347c9892b195269e0",
+      "after_sha256": "93b3e26ad05013ea01e0b89e0c4012e49855281b9e3a8929df5af479e1a69c55",
+      "cover": "/images/venues/yokohama-redbrick-waterfront.webp",
+      "og_fixed": true,
+      "schema_fixed": 1
+    }
+  ]
+}

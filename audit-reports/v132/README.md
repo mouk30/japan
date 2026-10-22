@@ -7,7 +7,7 @@
 | missing_image_local_references | 0 | HTML img src와 로컬 파일 존재 |
 | unresolved_internal_links | 0 | HTML a href와 내부 경로 존재 |
 | seo_fields_or_nonself_canonical | 8 | meta description/canonical/H1 기초 구조 |
-| cover_social_or_article_image_conflicts | 101 | 상세사진과 OG·Article 이미지 문자열 비교 |
+| cover_social_or_article_image_conflicts | 0 | 상세사진과 OG·Article 이미지 문자열 비교 |
 | likely_stale_ai_label | 0 | 실사 교체 후 AI 문구 잔존 추정 |
 | hero_photo_source_visibility_review | 289 | 대표사진 뒤 표기 여부만 판별(진위 검증 아님) |
 | cruise_port_pages | 194 |  |
