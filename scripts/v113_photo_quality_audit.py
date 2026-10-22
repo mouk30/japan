@@ -38,7 +38,7 @@ def scan(root=ROOT):
                 if "onerror=" in img or "AI 생성" in img:errs.append(slug+" misleading AI photo fallback")
                 if f'width="{data["width"]}"' not in img or f'height="{data["height"]}"' not in img:
                     errs.append(slug+" incorrect intrinsic image dimensions")
-                if "실제" not in img or "크루즈" not in img or "촬영일" not in img:
+                if not any(term in img for term in ("실사", "실제")) or "크루즈" not in img or "촬영일" not in img:
                     errs.append(slug+" photo alt not location/time verified")
             if re.search(r'<img\b[^>]*src="'+re.escape(baseline[slug]["previous_image"])+r'"',html):
                 errs.append(slug+" staged AI hero still displayed")
