@@ -1,0 +1,52 @@
+{
+  "version": "V124",
+  "converted": 3,
+  "card_updates": 3,
+  "home_seo_preserved": true,
+  "photographs_not_ai_generated": true,
+  "note": "Original generated three mood studies are independent concept art; deployed images are sourced actual photos.",
+  "images": [
+    {
+      "slug": "osaka",
+      "output": "/images/venues/nf-v124-osaka-dusk-real.webp",
+      "sha256": "9368c4954e411ebf42b6b809660b885c743ee6d877bdcd654a28396216f15fd4",
+      "source_sha256": "104c268cd4bb557b73dc5a4f9e6aad91b38693b74ff68bec62bf542d509bd389",
+      "bytes": 165612,
+      "width": 1200,
+      "height": 800,
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Tempozan_Ferris_Wheel_in_Osaka_at_Dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+      "source": "https://commons.wikimedia.org/wiki/File:Tempozan_Ferris_Wheel_in_Osaka_at_Dusk.jpg",
+      "date": "2011-11-01",
+      "license": "CC BY-SA 4.0",
+      "author": "TimBray"
+    },
+    {
+      "slug": "shimonoseki",
+      "output": "/images/venues/nf-v124-shimonoseki-dusk-real.webp",
+      "sha256": "00c42e8e8382c1f073aa1c5dcd54087a7cf62008abe1c00361ea633efa6f4891",
+      "source_sha256": "e7f7d81cc078bde7f8dbb8f7c6009c68b38910cb5c2646b1a8a8298284755b00",
+      "bytes": 139296,
+      "width": 1200,
+      "height": 800,
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/View_of_Kammon_Strait_and_Mojiko_Retro_Area_near_Karato_Market_at_dusk.jpg/1920px-View_of_Kammon_Strait_and_Mojiko_Retro_Area_near_Karato_Market_at_dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:View_of_Kammon_Strait_and_Mojiko_Retro_Area_near_Karato_Market_at_dusk.jpg",
+      "date": "2016-12-06",
+      "license": "CC BY-SA 4.0",
+      "author": "そらみみ"
+    },
+    {
+      "slug": "tsushima",
+      "output": "/images/venues/nf-v124-tsushima-harbor-real.webp",
+      "sha256": "40949ba61a5b1ce0de40befae541e5f297af6c5fcf3e8687401c7ff114e9f90f",
+      "source_sha256": "bdf21f092dbb5a39df9bcda0fc4dad005428554be62fd2abe2c154572d60f9d5",
+      "bytes": 169948,
+      "width": 1200,
+      "height": 800,
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Izuhara%2C_Tsushima-2.jpg/1920px-Izuhara%2C_Tsushima-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Izuhara,_Tsushima-2.jpg",
+      "date": "2017-08-12",
+      "license": "CC0 1.0",
+      "author": "Saigen Jiro"
+    }
+  ]
+}
