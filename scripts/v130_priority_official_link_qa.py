@@ -56,5 +56,9 @@ def run():
  target=ROOT/"audit-output/v130/official-source-link-review.json";target.parent.mkdir(parents=True,exist_ok=True)
  target.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n","utf8")
  print(json.dumps({"checked":len(rows),"counts":counts,"requires_review":len(out["requires_manual_review"]),"confirmed_404_or_missing_anchors":len(issues),"url_review_not_operations_confirmation":True},ensure_ascii=False))
+ for row in out["requires_manual_review"]:
+  print("UNVERIFIED",row["url"],"HTTP",row["http_status"],"ERROR",row["error_type"])
+ for row in issues:
+  print("CONFIRMED_ISSUE",row["url"],row["classification"])
  return not issues
 if __name__=="__main__":raise SystemExit(0 if run() else 1)
