@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """V132: reproducible source-only inventory of the complete current NIPPONFERRY site.
 
-This audit searches for *candidates*. It does NOT certify:
+This audit searches for *candidates* based on a 2026-10-22 live repository snapshot. It does NOT certify:
 - whether an image truthfully depicts a site (human/provenance verification needed);
 - whether an external ticket link actually completes a booking;
 - actual ship-specific berths, shuttles, cutoff times or current fee schedules.
