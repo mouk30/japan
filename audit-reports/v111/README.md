@@ -57,3 +57,8 @@
 
 ## GitHub 적용 및 최종 검사
 
+- [V111 최종 GitHub Actions (소스·SEO + 공개 PC·모바일) — 성공](https://github.com/mouk30/japan/actions/runs/39731698193)
+- **실사 출처·WebP 파일 무결성 + SEO 회귀 검사:** **10/10 성공, 오류 0건**.
+- **공개 사이트 10편 × PC 1440px / 모바일 390px:** **20/20 성공, 오류 0건**. 운영 브라우저 테스트 실제 로그: `{"passed": true, "checked": 20, "expected": 20, "errors": []}`.
+- **교체한 사진 4편 × 2개 화면** 스크린샷 8개와 보고 JSON은 위 Actions 아티팩트 `v111-photo-source-and-mobile-evidence`로 확인할 수 있다.
+- [V111 작업 결과 및 CI 워크플로](https://github.com/mouk30/japan/actions/workflows/v111-ten-port-photo-qa.yml) · 실제 배포 검수는 촬영자 법적 소유권의 보증이나 현재 관광시설 운영 확인을 의미하지 않는다.
