@@ -1,0 +1,346 @@
+{
+  "version": "V122",
+  "corrected_canonicals": 56,
+  "existing_pages_changed": 56,
+  "new_articles_created": 0,
+  "preserved": "all existing title, description, H1, JSON-LD, article body and current URLs",
+  "exceptions": "Two purpose-built /route/ and /routes/ redirects canonicalize /ferry/ intentionally and were not touched",
+  "pages": [
+    {
+      "page": "/busan-fukuoka-cruise/",
+      "previous_invalid": "https://www.nipponferry.com/guide/busan-fukuoka-cruise/",
+      "corrected_self": "https://www.nipponferry.com/busan-fukuoka-cruise/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/busan-fukuoka-cruise-price/",
+      "previous_invalid": "https://www.nipponferry.com/guide/busan-fukuoka-cruise-price/",
+      "corrected_self": "https://www.nipponferry.com/busan-fukuoka-cruise-price/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/busan-hitakatsu-cruise/",
+      "previous_invalid": "https://www.nipponferry.com/guide/busan-hitakatsu-cruise/",
+      "corrected_self": "https://www.nipponferry.com/busan-hitakatsu-cruise/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/busan-izuhara-cruise/",
+      "previous_invalid": "https://www.nipponferry.com/guide/busan-izuhara-cruise/",
+      "corrected_self": "https://www.nipponferry.com/busan-izuhara-cruise/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/busan-osaka-cruise/",
+      "previous_invalid": "https://www.nipponferry.com/guide/busan-osaka-cruise/",
+      "corrected_self": "https://www.nipponferry.com/busan-osaka-cruise/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/busan-osaka-cruise-price/",
+      "previous_invalid": "https://www.nipponferry.com/guide/busan-osaka-cruise-price/",
+      "corrected_self": "https://www.nipponferry.com/busan-osaka-cruise-price/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/busan-shimonoseki-cruise/",
+      "previous_invalid": "https://www.nipponferry.com/guide/busan-shimonoseki-cruise/",
+      "corrected_self": "https://www.nipponferry.com/busan-shimonoseki-cruise/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/busan-shimonoseki-cruise-price/",
+      "previous_invalid": "https://www.nipponferry.com/guide/busan-shimonoseki-cruise-price/",
+      "corrected_self": "https://www.nipponferry.com/busan-shimonoseki-cruise-price/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/busan-tsushima-cruise/",
+      "previous_invalid": "https://www.nipponferry.com/guide/busan-tsushima-cruise/",
+      "corrected_self": "https://www.nipponferry.com/busan-tsushima-cruise/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/busan-tsushima-cruise-price/",
+      "previous_invalid": "https://www.nipponferry.com/guide/busan-tsushima-cruise-price/",
+      "corrected_self": "https://www.nipponferry.com/busan-tsushima-cruise-price/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/fukuoka-1n2d-vs-2n3d/",
+      "previous_invalid": "https://www.nipponferry.com/japan/fukuoka-1n2d-vs-2n3d/",
+      "corrected_self": "https://www.nipponferry.com/fukuoka-1n2d-vs-2n3d/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/fukuoka-arrival-first-3-hours/",
+      "previous_invalid": "https://www.nipponferry.com/japan/fukuoka-arrival-first-3-hours/",
+      "corrected_self": "https://www.nipponferry.com/fukuoka-arrival-first-3-hours/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/fukuoka-cash-or-card/",
+      "previous_invalid": "https://www.nipponferry.com/japan/fukuoka-cash-or-card/",
+      "corrected_self": "https://www.nipponferry.com/fukuoka-cash-or-card/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/fukuoka-esim-or-roaming/",
+      "previous_invalid": "https://www.nipponferry.com/japan/fukuoka-esim-or-roaming/",
+      "corrected_self": "https://www.nipponferry.com/fukuoka-esim-or-roaming/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/fukuoka-hakata-vs-tenjin/",
+      "previous_invalid": "https://www.nipponferry.com/japan/fukuoka-hakata-vs-tenjin/",
+      "corrected_self": "https://www.nipponferry.com/fukuoka-hakata-vs-tenjin/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/fukuoka-luggage-storage/",
+      "previous_invalid": "https://www.nipponferry.com/japan/fukuoka-luggage-storage/",
+      "corrected_self": "https://www.nipponferry.com/fukuoka-luggage-storage/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/fukuoka-what-to-wear/",
+      "previous_invalid": "https://www.nipponferry.com/japan/fukuoka-what-to-wear/",
+      "corrected_self": "https://www.nipponferry.com/fukuoka-what-to-wear/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/hokkaido-3n4d-vs-4n5d/",
+      "previous_invalid": "https://www.nipponferry.com/japan/hokkaido-3n4d-vs-4n5d/",
+      "corrected_self": "https://www.nipponferry.com/hokkaido-3n4d-vs-4n5d/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/hokkaido-arrival-first-3-hours/",
+      "previous_invalid": "https://www.nipponferry.com/japan/hokkaido-arrival-first-3-hours/",
+      "corrected_self": "https://www.nipponferry.com/hokkaido-arrival-first-3-hours/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/hokkaido-cash-or-card/",
+      "previous_invalid": "https://www.nipponferry.com/japan/hokkaido-cash-or-card/",
+      "corrected_self": "https://www.nipponferry.com/hokkaido-cash-or-card/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/hokkaido-esim-or-roaming/",
+      "previous_invalid": "https://www.nipponferry.com/japan/hokkaido-esim-or-roaming/",
+      "corrected_self": "https://www.nipponferry.com/hokkaido-esim-or-roaming/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/hokkaido-luggage-storage/",
+      "previous_invalid": "https://www.nipponferry.com/japan/hokkaido-luggage-storage/",
+      "corrected_self": "https://www.nipponferry.com/hokkaido-luggage-storage/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/hokkaido-sapporo-vs-otaru/",
+      "previous_invalid": "https://www.nipponferry.com/japan/hokkaido-sapporo-vs-otaru/",
+      "corrected_self": "https://www.nipponferry.com/hokkaido-sapporo-vs-otaru/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/hokkaido-train-vs-rental-car/",
+      "previous_invalid": "https://www.nipponferry.com/japan/hokkaido-train-vs-rental-car/",
+      "corrected_self": "https://www.nipponferry.com/hokkaido-train-vs-rental-car/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/hokkaido-what-to-wear/",
+      "previous_invalid": "https://www.nipponferry.com/japan/hokkaido-what-to-wear/",
+      "corrected_self": "https://www.nipponferry.com/hokkaido-what-to-wear/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/japan-cruise-checkin/",
+      "previous_invalid": "https://www.nipponferry.com/guide/japan-cruise-checkin/",
+      "corrected_self": "https://www.nipponferry.com/japan-cruise-checkin/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/japan-cruise-room/",
+      "previous_invalid": "https://www.nipponferry.com/guide/japan-cruise-room/",
+      "corrected_self": "https://www.nipponferry.com/japan-cruise-room/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/japan-cruise-seasickness/",
+      "previous_invalid": "https://www.nipponferry.com/guide/japan-cruise-seasickness/",
+      "corrected_self": "https://www.nipponferry.com/japan-cruise-seasickness/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/kobe-arrival-first-3-hours/",
+      "previous_invalid": "https://www.nipponferry.com/japan/kobe-arrival-first-3-hours/",
+      "corrected_self": "https://www.nipponferry.com/kobe-arrival-first-3-hours/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/kobe-cash-or-card/",
+      "previous_invalid": "https://www.nipponferry.com/japan/kobe-cash-or-card/",
+      "corrected_self": "https://www.nipponferry.com/kobe-cash-or-card/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/kobe-daytrip-vs-1n2d/",
+      "previous_invalid": "https://www.nipponferry.com/japan/kobe-daytrip-vs-1n2d/",
+      "corrected_self": "https://www.nipponferry.com/kobe-daytrip-vs-1n2d/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/kobe-esim-or-roaming/",
+      "previous_invalid": "https://www.nipponferry.com/japan/kobe-esim-or-roaming/",
+      "corrected_self": "https://www.nipponferry.com/kobe-esim-or-roaming/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/kobe-luggage-storage/",
+      "previous_invalid": "https://www.nipponferry.com/japan/kobe-luggage-storage/",
+      "corrected_self": "https://www.nipponferry.com/kobe-luggage-storage/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/kobe-vs-osaka/",
+      "previous_invalid": "https://www.nipponferry.com/japan/kobe-vs-osaka/",
+      "corrected_self": "https://www.nipponferry.com/kobe-vs-osaka/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/kobe-what-to-wear/",
+      "previous_invalid": "https://www.nipponferry.com/japan/kobe-what-to-wear/",
+      "corrected_self": "https://www.nipponferry.com/kobe-what-to-wear/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/osaka-2n3d-vs-3n4d/",
+      "previous_invalid": "https://www.nipponferry.com/japan/osaka-2n3d-vs-3n4d/",
+      "corrected_self": "https://www.nipponferry.com/osaka-2n3d-vs-3n4d/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/osaka-arrival-first-3-hours/",
+      "previous_invalid": "https://www.nipponferry.com/japan/osaka-arrival-first-3-hours/",
+      "corrected_self": "https://www.nipponferry.com/osaka-arrival-first-3-hours/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/osaka-cash-or-card/",
+      "previous_invalid": "https://www.nipponferry.com/japan/osaka-cash-or-card/",
+      "corrected_self": "https://www.nipponferry.com/osaka-cash-or-card/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/osaka-cruise-vs-flight/",
+      "previous_invalid": "https://www.nipponferry.com/guide/osaka-cruise-vs-flight/",
+      "corrected_self": "https://www.nipponferry.com/osaka-cruise-vs-flight/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/osaka-esim-or-roaming/",
+      "previous_invalid": "https://www.nipponferry.com/japan/osaka-esim-or-roaming/",
+      "corrected_self": "https://www.nipponferry.com/osaka-esim-or-roaming/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/osaka-luggage-storage/",
+      "previous_invalid": "https://www.nipponferry.com/japan/osaka-luggage-storage/",
+      "corrected_self": "https://www.nipponferry.com/osaka-luggage-storage/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/osaka-namba-vs-umeda/",
+      "previous_invalid": "https://www.nipponferry.com/japan/osaka-namba-vs-umeda/",
+      "corrected_self": "https://www.nipponferry.com/osaka-namba-vs-umeda/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/osaka-what-to-wear/",
+      "previous_invalid": "https://www.nipponferry.com/japan/osaka-what-to-wear/",
+      "corrected_self": "https://www.nipponferry.com/osaka-what-to-wear/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/shimonoseki-arrival-first-3-hours/",
+      "previous_invalid": "https://www.nipponferry.com/japan/shimonoseki-arrival-first-3-hours/",
+      "corrected_self": "https://www.nipponferry.com/shimonoseki-arrival-first-3-hours/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/shimonoseki-cash-or-card/",
+      "previous_invalid": "https://www.nipponferry.com/japan/shimonoseki-cash-or-card/",
+      "corrected_self": "https://www.nipponferry.com/shimonoseki-cash-or-card/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/shimonoseki-esim-or-roaming/",
+      "previous_invalid": "https://www.nipponferry.com/japan/shimonoseki-esim-or-roaming/",
+      "corrected_self": "https://www.nipponferry.com/shimonoseki-esim-or-roaming/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/shimonoseki-karato-vs-mojiko/",
+      "previous_invalid": "https://www.nipponferry.com/japan/shimonoseki-karato-vs-mojiko/",
+      "corrected_self": "https://www.nipponferry.com/shimonoseki-karato-vs-mojiko/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/shimonoseki-luggage-storage/",
+      "previous_invalid": "https://www.nipponferry.com/japan/shimonoseki-luggage-storage/",
+      "corrected_self": "https://www.nipponferry.com/shimonoseki-luggage-storage/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/shimonoseki-what-to-wear/",
+      "previous_invalid": "https://www.nipponferry.com/japan/shimonoseki-what-to-wear/",
+      "corrected_self": "https://www.nipponferry.com/shimonoseki-what-to-wear/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/tsushima-arrival-first-3-hours/",
+      "previous_invalid": "https://www.nipponferry.com/japan/tsushima-arrival-first-3-hours/",
+      "corrected_self": "https://www.nipponferry.com/tsushima-arrival-first-3-hours/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/tsushima-cash-or-card/",
+      "previous_invalid": "https://www.nipponferry.com/japan/tsushima-cash-or-card/",
+      "corrected_self": "https://www.nipponferry.com/tsushima-cash-or-card/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/tsushima-daytrip-vs-1n2d/",
+      "previous_invalid": "https://www.nipponferry.com/japan/tsushima-daytrip-vs-1n2d/",
+      "corrected_self": "https://www.nipponferry.com/tsushima-daytrip-vs-1n2d/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/tsushima-esim-or-roaming/",
+      "previous_invalid": "https://www.nipponferry.com/japan/tsushima-esim-or-roaming/",
+      "corrected_self": "https://www.nipponferry.com/tsushima-esim-or-roaming/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/tsushima-hitakatsu-vs-izuhara/",
+      "previous_invalid": "https://www.nipponferry.com/japan/tsushima-hitakatsu-vs-izuhara/",
+      "corrected_self": "https://www.nipponferry.com/tsushima-hitakatsu-vs-izuhara/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/tsushima-luggage-storage/",
+      "previous_invalid": "https://www.nipponferry.com/japan/tsushima-luggage-storage/",
+      "corrected_self": "https://www.nipponferry.com/tsushima-luggage-storage/",
+      "other_content_and_seo_unchanged": true
+    },
+    {
+      "page": "/tsushima-what-to-wear/",
+      "previous_invalid": "https://www.nipponferry.com/japan/tsushima-what-to-wear/",
+      "corrected_self": "https://www.nipponferry.com/tsushima-what-to-wear/",
+      "other_content_and_seo_unchanged": true
+    }
+  ]
+}
