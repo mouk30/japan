@@ -30,4 +30,12 @@
 
 **제한:** 이미지 주제·공개 Commons 원본·라이선스 표기를 확인했더라도 현재 여행 운영정보 또는 외부 저작권 분쟁의 부재를 보증하지 않습니다. WebP 재생성은 하지 않았고, 기존 저장소의 WebP 및 사이트 JPG 한 장을 재사용했습니다. 커플·에이사·가비라만 이미지는 생성/연출된 관광 분위기 이미지로 문구를 유지했습니다. 기존 18개 카드와 URL은 유지합니다.
 
-## 실행 결과
+## GitHub 적용 및 자동 검사 결과
+
+- [V108 콘텐츠·출처 커밋](https://github.com/mouk30/japan/commit/d8530916e1cd5beffdb848b186547c158c701301)
+- [V108 실제 사진의 alt 검증 조건 수정](https://github.com/mouk30/japan/commit/f48fc72a1e9d0c995a35a66d64f065fbc6caf53c): 실제 사진에 대한 설명과 연출 이미지를 구분.
+- [V104 PC 1440px / 모바일 390px / 소형 360px 공개 사이트 썸네일 QA 성공](https://github.com/mouk30/japan/actions/runs/39721518395)
+- [V105 썸네일 18개 소스 검증·라이선스 출처·공개 홈페이지 브라우저 QA 성공](https://github.com/mouk30/japan/actions/runs/39721518357)
+- [V66 기존 메인페이지 SEO 및 반응형 링크 검사 성공](https://github.com/mouk30/japan/actions/runs/39721275361)
+- [공개 홈페이지 및 85개 에디토리얼 페이지 검사 성공](https://github.com/mouk30/japan/actions/runs/39721275551)
+- 추가 관찰: V108 첫 시도 당시 V78 비주얼 워크플로는 PC에서 예전 배경 이미지/스타일을 읽어 실패했다. V108 대표 이미지 변경과는 별도 영역이며 재검사를 요청하였다. 성공 검증 전에는 V78까지 통과했다고 보고하지 않는다.
