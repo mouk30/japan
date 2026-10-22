@@ -1,0 +1,40 @@
+name: V123 live verify 56 repaired production SEO canonicals
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v123_live_canonical_qa.py'
+      - '.github/workflows/v123-live-canonical-qa.yml'
+permissions:
+  contents: write
+jobs:
+  public:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch all 56 production routes and compare public canonical tags
+        run: python scripts/v123_live_canonical_qa.py
+      - name: Publish detailed result
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v123/live-canonical-56.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V123 publish measured current production canonical 56-route results"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v123-live-public-56-canonical-results
+          path: audit-reports/v123/live-canonical-56.json
+          retention-days: 45
