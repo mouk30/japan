@@ -1,0 +1,34 @@
+name: V139 compact photo credits rights and SEO QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/v139-photo-credit-qa.yml
+      - scripts/v139_photo_credits.cjs
+      - scripts/v139_photo_credits_qa.cjs
+      - site/nf-v139-photo-credits.css
+      - build.js
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect-credits:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build all pages with compact photo source panels
+        run: npm run build
+      - name: Check photo copyright details and representative pages
+        run: node scripts/v139_photo_credits_qa.cjs
+      - name: Save photo credit and SEO integrity audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v139-photo-credits-rights-qa
+          path: audit-reports/v139/report.json
+          retention-days: 30
+          if-no-files-found: warn
