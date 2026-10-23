@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - site/v301-nav.css
+      - site/v301-nav.js
       - scripts/v141_nav_large_readability_qa.py
       - .github/workflows/v141-nav-published-qa.yml
   workflow_dispatch:
