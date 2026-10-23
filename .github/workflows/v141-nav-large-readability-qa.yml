@@ -1,0 +1,42 @@
+name: V141 premium large navigation browser typography QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - site/v301-nav.css
+      - scripts/v141_nav_large_readability_qa.py
+      - .github/workflows/v141-nav-large-readability-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  nav-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 26
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Install Chromium browser
+        run: |
+          python -m pip install playwright
+          python -m playwright install chromium
+      - name: Build all original pages with common header
+        run: npm run build
+      - name: Test 20 built browser screens and menu typography
+        run: |
+          python -m http.server 8771 --bind 127.0.0.1 --directory dist >/tmp/v141-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          python scripts/v141_nav_large_readability_qa.py
+      - name: Archive screenshots and detailed report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v141-premium-nav-large-typography-screenshots
+          path: audit-output/v141/
+          retention-days: 30
+          if-no-files-found: warn
