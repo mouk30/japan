@@ -1,0 +1,55 @@
+{
+  "version": "V134",
+  "pages": [
+    {
+      "slug": "busan-fukuoka-ferry",
+      "picture": "new-camellia",
+      "old_cover": "/images/fukuoka.jpg",
+      "title": "부산 후쿠오카 배편 예약·가격·운항시간 | 일본 페리 가이드 | NIPPONFERRY",
+      "description": "부산 후쿠오카 배편을 준비한다면 하카타항에서 하카타역 이동과 시내 숙박까지 연결. 항로별 가격, 시간표, 객실과 예약 전 체크사항을 확인하세요.",
+      "canonical": "https://www.nipponferry.com/guide/busan-fukuoka-ferry/",
+      "h1": null,
+      "sha": "6fe4d9e9b132a3fd07d5d20ec27f20c2e142fe64"
+    },
+    {
+      "slug": "busan-fukuoka-ferry-price",
+      "picture": "new-camellia",
+      "old_cover": "/images/fukuoka.jpg",
+      "title": "부산 후쿠오카 페리 가격 가이드 | 일본페리여행",
+      "description": "부산 후쿠오카 페리 가격 가이드. 예약 전 확인사항과 실제 여행 준비 포인트를 정리합니다.",
+      "canonical": "https://www.nipponferry.com/guide/busan-fukuoka-ferry-price/",
+      "h1": null,
+      "sha": "4feff2231bb7fb8270812decdbbbc52fbebd40c2"
+    },
+    {
+      "slug": "busan-fukuoka-timetable",
+      "picture": "new-camellia",
+      "old_cover": "/images/fukuoka.jpg",
+      "title": "부산 후쿠오카 페리 시간표 보는 법 | 일본페리여행",
+      "description": "부산 후쿠오카 페리 시간표 보는 법. 예약 전 확인사항과 실제 여행 준비 포인트를 정리합니다.",
+      "canonical": "https://www.nipponferry.com/guide/busan-fukuoka-timetable/",
+      "h1": null,
+      "sha": "3a1f2fe7fe4672c1988e24b4800ffdc34ee7dfb6"
+    },
+    {
+      "slug": "busan-hitakatsu-ferry",
+      "picture": "hitakatsu-terminal",
+      "old_cover": "/images/tsushima.jpg",
+      "title": "부산 히타카츠 페리 가이드 | 일본페리여행",
+      "description": "부산 히타카츠 페리 가이드. 예약 전 확인사항과 실제 여행 준비 포인트를 정리합니다.",
+      "canonical": "https://www.nipponferry.com/guide/busan-hitakatsu-ferry/",
+      "h1": null,
+      "sha": "39aa5eb2df759bb0563ea0ce91b139d00edb6f87"
+    },
+    {
+      "slug": "busan-izuhara-ferry",
+      "picture": "izuhara-terminal",
+      "old_cover": "/images/tsushima.jpg",
+      "title": "부산 이즈하라 페리 가이드 | 일본페리여행",
+      "description": "부산 이즈하라 페리 가이드. 예약 전 확인사항과 실제 여행 준비 포인트를 정리합니다.",
+      "canonical": "https://www.nipponferry.com/guide/busan-izuhara-ferry/",
+      "h1": null,
+      "sha": "765caa075c4a5b30065c76f6efa23003dd03d970"
+    }
+  ]
+}
