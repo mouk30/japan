@@ -1,0 +1,49 @@
+name: V140 Okinawa visual correction import
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/v140_kouri_visual_fix.py
+      - .github/workflows/v140-kouri-visual-fix.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  safe-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - name: Fix Okinawa crop by importing better location-verified real photo
+        run: python scripts/v140_kouri_visual_fix.py
+      - name: Verify locally staged HTML and photo bytes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          d=json.loads(Path('audit-reports/v140/import-report.json').read_text('utf8'))
+          x=next(z for z in d['source_photos'] if z['key']=='okinawa')
+          path=Path('site')/x['dest'].lstrip('/')
+          assert hashlib.sha256(path.read_bytes()).hexdigest()==x['sha256']
+          assert x['author']=='Takuya ASADA'
+          h=Path('site/index.html').read_text('utf8')
+          assert h.count('src="'+x['dest']+'"')==1
+          assert h.count('href="'+x['source']+'"')==1
+          assert '<link rel="canonical" href="https://www.nipponferry.com/">' in h
+          print("V140 Okinawa visual fix source/photo/credit PASS")
+          PY
+      - name: Commit corrected photo and source
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/index.html audit-reports/v140/import-report.json site/images/venues/nf-v140-okinawa-kouri-bridge-view-2014-real.webp
+          git diff --cached --quiet && exit 0
+          git commit -m "fix(v140): show Kouri Bridge itself instead of beach crop"
+          git pull --rebase origin main
+          git push origin HEAD:main
