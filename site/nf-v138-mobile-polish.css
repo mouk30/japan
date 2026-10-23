@@ -1,0 +1,157 @@
+/* V138 — mobile second-pass polish. 2026-10-23.
+   Scope: home responsive components, navigation and touch ergonomics only.
+   No photography, URLs, structured data or SEO edits. */
+@media (max-width:1150px){
+ body.nf-premium-v2 .site-header .mobile-menu{
+   max-height:calc(100dvh - 78px);
+   overflow-y:auto;
+   overscroll-behavior:contain;
+   -webkit-overflow-scrolling:touch;
+ }
+}
+@media (max-width:650px){
+ /* Preserve recognizable brand while reserving a reliable 44px menu target. */
+ body.nf-premium-v2 .site-header .header-in{
+   width:calc(100% - 28px);
+   gap:9px;
+   min-width:0;
+ }
+ body.nf-premium-v2 .site-header .brand{
+   flex:1 1 auto;
+   min-width:0;
+   gap:9px;
+   overflow:hidden;
+ }
+ body.nf-premium-v2 .site-header .brand>span:last-child{
+   flex:1 1 auto;
+   min-width:0;
+ }
+ body.nf-premium-v2 .site-header .brand strong{
+   font-size:clamp(15px,4.6vw,18px);
+   letter-spacing:.025em;
+   white-space:nowrap;
+   overflow:hidden;
+   text-overflow:ellipsis;
+ }
+ body.nf-premium-v2 .site-header .brand small{
+   max-width:100%;
+   white-space:nowrap;
+   overflow:hidden;
+   text-overflow:ellipsis;
+ }
+ body.nf-premium-v2 .site-header .menu-toggle{
+   display:inline-flex!important;
+   align-items:center;
+   justify-content:center;
+   flex:0 0 auto;
+   min-width:46px;
+   min-height:46px;
+   margin-left:auto;
+   padding:8px 9px;
+   line-height:1.2;
+ }
+ body.nf-premium-v2 .site-header .mobile-menu{
+   max-height:calc(100dvh - 70px);
+   overflow-y:auto;
+   grid-template-columns:repeat(2,minmax(0,1fr));
+   left:10px;right:10px;
+ }
+ body.nf-premium-v2 .site-header .mobile-menu a{
+   min-width:0;
+   min-height:48px;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   line-height:1.4;
+   word-break:keep-all;
+   text-align:center;
+ }
+ /* Longer Korean headings wrap on word boundaries instead of splitting syllables. */
+ body.nf-premium-v2 :is(.section-head h2,.nf-maritime-heading h2,.nf84-home__content h2){
+   word-break:keep-all;
+   overflow-wrap:break-word;
+ }
+ body.nf-premium-v2 .nf-maritime-panel{padding:32px 0 43px}
+ body.nf-premium-v2 .nf-maritime-heading{margin-bottom:16px}
+ body.nf-premium-v2 .nf-v79-maritime-grid{gap:18px}
+ body.nf-premium-v2 .nf-v79-maritime-grid .nf-maritime-card{
+   min-height:310px;
+   height:auto;
+   aspect-ratio:auto;
+   padding:24px 21px 25px;
+ }
+ body.nf-premium-v2 .nf-v79-maritime-grid .nf-maritime-card small{font-size:13px;letter-spacing:.06em}
+ body.nf-premium-v2 .nf-v79-maritime-grid .nf-maritime-card strong{
+   font-size:clamp(25px,7vw,32px)!important;
+   max-width:100%;
+   word-break:keep-all;
+ }
+ body.nf-premium-v2 .nf-v79-maritime-grid .nf-maritime-card em{
+   max-width:calc(100% - 33px);
+   font-size:15px!important;
+   word-break:keep-all;
+ }
+ body.nf-premium-v2 .nf-v79-photo-credit{
+   overflow-wrap:anywhere;
+   font-size:12px;
+   line-height:1.7;
+ }
+ /* Banner text and image remain together, without an unnecessarily tall card. */
+ body.nf-premium-v2 .nf84-home__banner{
+   min-height:400px;
+   height:auto;
+ }
+ body.nf-premium-v2 .nf84-home__content{
+   padding:34px 22px 39px;
+   max-width:100%;
+ }
+ body.nf-premium-v2 .nf84-home__content h2{
+   font-size:clamp(29px,7.7vw,39px);
+   line-height:1.19;
+   margin-bottom:15px;
+ }
+ body.nf-premium-v2 .nf84-home__content p{
+   font-size:16px;
+   line-height:1.65;
+   word-break:keep-all;
+ }
+ body.nf-premium-v2 .nf84-home__content a{
+   min-height:48px;
+   line-height:1.5;
+   font-size:16px;
+   max-width:100%;
+   white-space:normal;
+ }
+ /* Consistent CTAs and photo captions on route/destination/theme tiles. */
+ body.nf-premium-v2 :is(.d61-home-cta,.v63-cta,.v64-primary,.v65-actions a:first-child){
+   min-height:48px;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   line-height:1.55;
+   text-align:center;
+   word-break:keep-all;
+ }
+ body.nf-premium-v2 :is(.v65-actions,.d61-home-links,.v63-subnav) a{
+   min-height:32px;
+   display:inline-flex;
+   align-items:center;
+   overflow-wrap:anywhere;
+ }
+ body.nf-premium-v2 :is(.v65-note,.d61-home-note,.v63-note){
+   font-size:13px;
+   line-height:1.7;
+   overflow-wrap:anywhere;
+ }
+ body.nf-premium-v2 :is(.nf84-home__meta,.nf-v79-photo-credit){
+   padding-right:55px;
+ }
+}
+@media (max-width:360px){
+ body.nf-premium-v2 .site-header .header-in{width:calc(100% - 20px);gap:5px}
+ body.nf-premium-v2 .site-header .brand{gap:6px}
+ body.nf-premium-v2 .site-header .brand strong{font-size:15px;letter-spacing:0}
+ body.nf-premium-v2 .site-header .brand small{font-size:8px}
+ body.nf-premium-v2 .site-header .menu-toggle{min-width:43px;padding:7px}
+ body.nf-premium-v2 .nf-v79-maritime-grid .nf-maritime-card{min-height:325px}
+}
