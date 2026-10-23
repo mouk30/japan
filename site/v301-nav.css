@@ -410,3 +410,14 @@
    color:#082e4a!important;
  }
 }
+
+/* V142 consistency: an old :hover fallback was forcing display:block even when
+   JavaScript set aria-expanded=false. Visibility now follows state on every page. */
+@media(min-width:1200px){
+ .nf301-header .nf301-item[data-dropdown][data-open="false"]>.nf301-flyout{
+   display:none!important;
+ }
+ .nf301-header .nf301-item[data-dropdown][data-open="true"]>.nf301-flyout{
+   display:block!important;
+ }
+}
