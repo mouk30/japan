@@ -172,10 +172,11 @@ def safe_replace(path,slug,kind):
   fixed=re.sub(r'alt="[^"]+"','alt="2014년 삿포로 눈축제 행사장에서 촬영한 실제 눈조각"',fixed)
   updated=updated.replace(img_tag.group(),fixed+"<figcaption>실제 삿포로 눈축제 현장 촬영(2014-02-05). 사진: <a href='"+SOURCE+"' target='_blank' rel='noopener noreferrer'>t-konno / Wikimedia Commons</a> · <a href='"+LIC+"' target='_blank' rel='noopener noreferrer'>CC BY-SA 3.0</a> · WebP 변환·크기 조정. <strong>2027년 축제 현장 사진은 아닙니다.</strong></figcaption></figure>")
  else:
-  old='<img class="article-cover" src="/images/esim.jpg"'
+  selected_old_cover="/images/city.jpg" if slug=="japan-data-usage" else "/images/esim.jpg"
+  old='<img class="article-cover" src="'+selected_old_cover+'"'
   assert updated.count(old)==1,(slug,"practical cover unexpected")
   # Replace topic-mismatched generic photograph with topic-specific accessible diagram.
-  pat=r'<img class="article-cover" src="/images/esim.jpg"[^>]*>'
+  pat=r'<img class="article-cover" src="'+re.escape(selected_old_cover)+r'"[^>]*>'
   updated,count=re.subn(pat,compare_visual(slug,title,parts),updated,count=1)
   assert count==1
  # Replace repeated unrelated external NEXT QUESTION + OPEN THE MAP section with
@@ -273,7 +274,8 @@ def main():
   p=SITE/kind/slug/"index.html"
   if not p.exists():raise RuntimeError("target page missing "+str(p))
   txt=p.read_text("utf8")
-  assert '<section class="article-card">' in txt and ('/images/hokkaido.jpg' if kind=="season" else '/images/esim.jpg') in txt,slug
+  expected=('/images/hokkaido.jpg' if kind=="season" else ('/images/city.jpg' if slug=="japan-data-usage" else '/images/esim.jpg'))
+  assert '<section class="article-card">' in txt and expected in txt,slug
  # Download before altering HTML. Do not publish unverified cover substitution.
  photo=get_image()
  updates=[]
