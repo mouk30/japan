@@ -1,0 +1,2379 @@
+{
+  "version": "V135",
+  "date": "2026-10-23",
+  "backlog_start": 259,
+  "existing_guide_pages_provenance_verified_and_photo_replaced": 10,
+  "unique_verified_original_photos": 2,
+  "remaining_review_candidates": 249,
+  "remaining_by_category": {
+    "couple": 30,
+    "guide": 85,
+    "japan": 17,
+    "life": 42,
+    "practical": 33,
+    "season": 34,
+    "theme": 8
+  },
+  "top_reused_generic_covers": [
+    {
+      "image": "/images/ferry.jpg",
+      "candidate_pages": 40
+    },
+    {
+      "image": "/images/city.jpg",
+      "candidate_pages": 36
+    },
+    {
+      "image": "/images/couple.jpg",
+      "candidate_pages": 29
+    },
+    {
+      "image": "/images/hokkaido.jpg",
+      "candidate_pages": 29
+    },
+    {
+      "image": "/images/tsushima.jpg",
+      "candidate_pages": 16
+    },
+    {
+      "image": "/images/local.jpg",
+      "candidate_pages": 15
+    },
+    {
+      "image": "/images/fukuoka.jpg",
+      "candidate_pages": 14
+    },
+    {
+      "image": "/images/transport.jpg",
+      "candidate_pages": 12
+    },
+    {
+      "image": "/images/osaka.jpg",
+      "candidate_pages": 11
+    },
+    {
+      "image": "/images/shimonoseki.jpg",
+      "candidate_pages": 7
+    },
+    {
+      "image": "/images/esim.jpg",
+      "candidate_pages": 7
+    },
+    {
+      "image": "/images/season.jpg",
+      "candidate_pages": 7
+    },
+    {
+      "image": "/images/cash.jpg",
+      "candidate_pages": 6
+    },
+    {
+      "image": "/images/cabin.jpg",
+      "candidate_pages": 5
+    },
+    {
+      "image": "/images/car.jpg",
+      "candidate_pages": 4
+    },
+    {
+      "image": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+      "candidate_pages": 3
+    }
+  ],
+  "processed": [
+    {
+      "page": "/guide/busan-osaka-ferry/",
+      "old_cover": "/images/osaka.jpg",
+      "changed": true
+    },
+    {
+      "page": "/guide/busan-osaka-ferry-price/",
+      "old_cover": "/images/osaka.jpg",
+      "changed": true
+    },
+    {
+      "page": "/guide/busan-osaka-timetable/",
+      "old_cover": "/images/osaka.jpg",
+      "changed": true
+    },
+    {
+      "page": "/guide/busan-shimonoseki-ferry/",
+      "old_cover": "/images/shimonoseki.jpg",
+      "changed": true
+    },
+    {
+      "page": "/guide/busan-shimonoseki-ferry-price/",
+      "old_cover": "/images/shimonoseki.jpg",
+      "changed": true
+    },
+    {
+      "page": "/guide/busan-shimonoseki-timetable/",
+      "old_cover": "/images/shimonoseki.jpg",
+      "changed": true
+    },
+    {
+      "page": "/guide/osaka-busan-ferry/",
+      "old_cover": "/images/osaka.jpg",
+      "changed": true
+    },
+    {
+      "page": "/guide/osaka-port-to-namba/",
+      "old_cover": "/images/osaka.jpg",
+      "changed": true
+    },
+    {
+      "page": "/guide/shimonoseki-busan-ferry/",
+      "old_cover": "/images/shimonoseki.jpg",
+      "changed": true
+    },
+    {
+      "page": "/guide/shimonoseki-port-to-karato/",
+      "old_cover": "/images/shimonoseki.jpg",
+      "changed": true
+    }
+  ],
+  "pages": [
+    {
+      "page": "/couple/ferry-cabin-for-couples/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/fukuoka-couple-2n3d/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/fukuoka-night-date/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/japan-christmas-date/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/japan-confession-culture/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/japan-couple-anniversary-culture/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/japan-couple-messaging-culture/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/japan-couple-photo-trip/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/japan-couple-trip-planning/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/japan-date-cost-splitting/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/japan-ferry-couple-trip/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/japan-onsen-couple-trip/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/japan-valentine-white-day/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/japanese-women-stereotypes/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/joshiryoku-cooking-image/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/joshiryoku-fashion-makeup/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/joshiryoku-lifestyle/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/joshiryoku-meaning/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/joshiryoku-modern-japan/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/korea-japan-couple-anniversary-trip/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/korea-japan-couple-before-marriage/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/korea-japan-couple-language/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/korea-japan-couple-reality/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/korea-japan-long-distance-couple/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/kyoto-romantic-date/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/meet-japanese-partner-parents/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/ocean-view-cabin-couple/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/osaka-couple-3n4d/",
+      "old_cover": "/images/osaka.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/osaka-night-date/",
+      "old_cover": "/images/osaka.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/couple/tokyo-night-view-date/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "couple",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/bugwan-ferry-guide/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/bugwan-ferry-rooms/",
+      "old_cover": "/images/cabin.jpg",
+      "cover_used_in_remaining_pages": 5,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/busan-osaka-car-ferry/",
+      "old_cover": "/images/osaka.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/busan-port-departure-process/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/busan-shimonoseki-car-ferry/",
+      "old_cover": "/images/shimonoseki.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/busan-station-to-port/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/busan-tsushima-ferry/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/busan-tsushima-ferry-price/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/busan-tsushima-timetable/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/fukuoka-busan-ferry/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/fukuoka-ferry-2n3d/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/fukuoka-ferry-3n4d/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/fukuoka-ferry-vs-flight/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/fukuoka-vs-shimonoseki-ferry/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/fukuoka-vs-tsushima-ferry/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/gimhae-airport-to-busan-port/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/hakata-port-to-hakata-station/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/hakata-port-to-tenjin/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/hitakatsu-day-trip/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/hitakatsu-port-transport/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/hitakatsu-vs-izuhara/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/how-to-take-japan-ferry/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/izuhara-1n2d/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/izuhara-port-transport/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-baggage/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-bath/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-bicycle/",
+      "old_cover": "/images/car.jpg",
+      "cover_used_in_remaining_pages": 4,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-booking-passport/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-cancellation-refund/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-car/",
+      "old_cover": "/images/car.jpg",
+      "cover_used_in_remaining_pages": 4,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-cheap-booking/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-checkin-time/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-day-trip-options/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-delay-cancellation/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-duty-free/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-esim/",
+      "old_cover": "/images/esim.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-faq/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-first-timer/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-fuel-surcharge/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-how-early/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-live-status/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-meals/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-motorcycle/",
+      "old_cover": "/images/car.jpg",
+      "cover_used_in_remaining_pages": 4,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-overnight-tips/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-overnight-value/",
+      "old_cover": "/images/onsen.jpg",
+      "cover_used_in_remaining_pages": 1,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-packing-list/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-passport/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-peak-season-booking/",
+      "old_cover": "/images/season.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-prohibited-items/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-rainy-day/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-room-classes/",
+      "old_cover": "/images/cabin.jpg",
+      "cover_used_in_remaining_pages": 5,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-roundtrip-vs-oneway/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-seasickness/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-seniors/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-sleep-kit/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-solo-trip/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-suitcase/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-terminal-fees/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-travel-time/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-typhoon-season/",
+      "old_cover": "/images/season.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-visit-japan-web/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-vs-flight/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-wifi/",
+      "old_cover": "/images/esim.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-winter/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-ferry-with-kids/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/japan-port-arrival-process/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/new-camellia-guide/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/new-camellia-rooms/",
+      "old_cover": "/images/cabin.jpg",
+      "cover_used_in_remaining_pages": 5,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/new-camellia-vs-bugwan/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/nova-tsushima-guide/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/osaka-ferry-3n4d/",
+      "old_cover": "/images/osaka.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/osaka-ferry-4n5d/",
+      "old_cover": "/images/osaka.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/osaka-ferry-vs-flight/",
+      "old_cover": "/images/osaka.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/osaka-port-to-umeda/",
+      "old_cover": "/images/osaka.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/panstar-miracle-guide/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/panstar-miracle-rooms/",
+      "old_cover": "/images/cabin.jpg",
+      "cover_used_in_remaining_pages": 5,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/panstar-vs-new-camellia/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/seaflower-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/shimonoseki-ferry-2n3d/",
+      "old_cover": "/images/shimonoseki.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/shimonoseki-mojiko-2n3d/",
+      "old_cover": "/images/shimonoseki.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/shimonoseki-port-to-mojiko/",
+      "old_cover": "/images/shimonoseki.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/tsushima-1n2d/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/tsushima-busan-ferry/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/tsushima-day-trip/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/guide/tsushima-link-guide/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "guide",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P1-ferry-primary",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/fukuoka-dessert/",
+      "old_cover": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+      "cover_used_in_remaining_pages": 3,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/fukuoka-one-day/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/fukuoka-photo/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/fukuoka-season/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/osaka-dessert/",
+      "old_cover": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+      "cover_used_in_remaining_pages": 3,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/osaka-one-day/",
+      "old_cover": "/images/osaka.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/osaka-photo/",
+      "old_cover": "/images/osaka.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/osaka-season/",
+      "old_cover": "/images/osaka.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/shimonoseki-dessert/",
+      "old_cover": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+      "cover_used_in_remaining_pages": 3,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/shimonoseki-one-day/",
+      "old_cover": "/images/shimonoseki.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/shimonoseki-photo/",
+      "old_cover": "/images/shimonoseki.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/shimonoseki-season/",
+      "old_cover": "/images/shimonoseki.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/tsushima-dessert/",
+      "old_cover": "/images/food-verified/tsushima-dessert.webp",
+      "cover_used_in_remaining_pages": 1,
+      "category": "japan",
+      "status": "attribution_near_photo_present_source_license_not_independently_verified",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/tsushima-market/",
+      "old_cover": "/images/hub-thumbnails/food-tsushima-market.svg",
+      "cover_used_in_remaining_pages": 1,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/tsushima-one-day/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/tsushima-photo/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/japan/tsushima-season/",
+      "old_cover": "/images/tsushima.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "japan",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/aeon-maxvalu-guide/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/don-quijote-first-guide/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/don-quijote-late-night/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/don-quijote-shopping-list/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/don-quijote-tax-free/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-100yen-shop/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-24-hour-shops/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-card-only-travel/",
+      "old_cover": "/images/cash.jpg",
+      "cover_used_in_remaining_pages": 6,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-card-payment-error/",
+      "old_cover": "/images/cash.jpg",
+      "cover_used_in_remaining_pages": 6,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-cash-how-much/",
+      "old_cover": "/images/cash.jpg",
+      "cover_used_in_remaining_pages": 6,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-coin-laundry-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-coins-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-convenience-atm/",
+      "old_cover": "/images/cash.jpg",
+      "cover_used_in_remaining_pages": 6,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-convenience-bento/",
+      "old_cover": "/images/convenience.jpg",
+      "cover_used_in_remaining_pages": 1,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-convenience-shopping-list/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-depachika-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-drugstore-shopping/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-exchange-vs-card/",
+      "old_cover": "/images/cash.jpg",
+      "cover_used_in_remaining_pages": 6,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-family-restaurant-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-game-center-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-gyudon-chain-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-kaiten-sushi-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-late-night-food/",
+      "old_cover": "/images/food.jpg",
+      "cover_used_in_remaining_pages": 3,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-pachinko-first-visit/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-pachinko-what-is/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-pharmacy-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-public-toilet-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-purikura-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-rain-umbrella-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-smoking-area-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-supermarket-discount-time/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-supermarket-ready-food/",
+      "old_cover": "/images/food.jpg",
+      "cover_used_in_remaining_pages": 3,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-supermarket-souvenir/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-tax-free-2026/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-tax-free-passport/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-trash-bin-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-ufo-catcher/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/japan-vending-machine-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/life-supermarket-guide/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/lopia-supermarket-guide/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/ok-store-guide/",
+      "old_cover": "/images/local.jpg",
+      "cover_used_in_remaining_pages": 15,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/life/pachinko-vs-game-center/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "life",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/ghibli-museum-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/hokkaido-winter-bus-tour/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-airport-bus-guide/",
+      "old_cover": "/images/transport.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-atm-cash-guide/",
+      "old_cover": "/images/cash.jpg",
+      "cover_used_in_remaining_pages": 6,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-bus-seat-types/",
+      "old_cover": "/images/transport.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-bus-tour-guide/",
+      "old_cover": "/images/transport.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-coin-locker-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-data-usage/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-esim-galaxy/",
+      "old_cover": "/images/esim.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-esim-iphone/",
+      "old_cover": "/images/esim.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-esim-setup/",
+      "old_cover": "/images/esim.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-esim-troubleshooting/",
+      "old_cover": "/images/esim.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-esim-vs-sim-wifi/",
+      "old_cover": "/images/esim.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-half-day-tour/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-highway-bus-booking/",
+      "old_cover": "/images/transport.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-ic-card-guide/",
+      "old_cover": "/images/transport.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-luggage-delivery/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-night-bus-checklist/",
+      "old_cover": "/images/transport.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-power-adapter-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-sightseeing-train-couple/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-sightseeing-train-guide/",
+      "old_cover": "/images/transport.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-theme-park-couple/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-theme-park-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/japan-translation-app-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/kyoto-bus-tour-vs-free/",
+      "old_cover": "/images/transport.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/kyoto-tango-kuromatsu/",
+      "old_cover": "/images/transport.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/mt-fuji-day-bus-tour/",
+      "old_cover": "/images/transport.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/nagashima-spaland-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/nijigen-no-mori-guide/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/osaka-fukuoka-highway-bus/",
+      "old_cover": "/images/fukuoka.jpg",
+      "cover_used_in_remaining_pages": 14,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/setsugekka-train/",
+      "old_cover": "/images/transport.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/shimabara-cafe-train/",
+      "old_cover": "/images/transport.jpg",
+      "cover_used_in_remaining_pages": 12,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/practical/tokyo-osaka-bus-vs-shinkansen/",
+      "old_cover": "/images/osaka.jpg",
+      "cover_used_in_remaining_pages": 16,
+      "category": "practical",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/asahikawa-winter-festival/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/hokkaido-winter-onsen/",
+      "old_cover": "/images/seasons/v29-season-19.webp",
+      "cover_used_in_remaining_pages": 1,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/hokkaido-winter-packing/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/hokkaido-winter-photo-trip/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/hokkaido-winter-rental-car/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/hokkaido-winter-seniors/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/hokkaido-winter-solo/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/japan-autumn-food-trip/",
+      "old_cover": "/images/food.jpg",
+      "cover_used_in_remaining_pages": 3,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/japan-autumn-leaves-guide/",
+      "old_cover": "/images/season.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/japan-cherry-blossom-guide/",
+      "old_cover": "/images/season.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/japan-fireworks-festival/",
+      "old_cover": "/images/season.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/japan-spring-guide/",
+      "old_cover": "/images/season.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/japan-summer-festival-guide/",
+      "old_cover": "/images/season.jpg",
+      "cover_used_in_remaining_pages": 7,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/japan-winter-budget/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/jozankei-winter-onsen/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/new-chitose-to-sapporo-winter/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/noboribetsu-winter-onsen/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/otaru-snow-light-couple/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/otaru-snow-light-path-2027/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/otaru-winter-day-trip/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/otaru-winter-food/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/otaru-winter-shopping/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-2027/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-2n3d/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-3n4d/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-clothes/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-couple/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-family/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-food/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-hotel-area/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/sapporo-snow-festival-photo/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/sapporo-winter-shoes/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/sapporo-winter-souvenir/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/season/sapporo-winter-transport/",
+      "old_cover": "/images/hokkaido.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "season",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P2-location-exact",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/theme/car-roadtrip-japan/",
+      "old_cover": "/images/car.jpg",
+      "cover_used_in_remaining_pages": 4,
+      "category": "theme",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/theme/couple-ferry-trip/",
+      "old_cover": "/images/couple.jpg",
+      "cover_used_in_remaining_pages": 29,
+      "category": "theme",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/theme/family-ferry-trip/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "theme",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/theme/first-ferry-romance/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "theme",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/theme/night-on-ferry/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "theme",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/theme/oceanview-cabins/",
+      "old_cover": "/images/cabin.jpg",
+      "cover_used_in_remaining_pages": 5,
+      "category": "theme",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/theme/pet-ferry-japan/",
+      "old_cover": "/images/ferry.jpg",
+      "cover_used_in_remaining_pages": 40,
+      "category": "theme",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    },
+    {
+      "page": "/theme/suitcase-baggage/",
+      "old_cover": "/images/city.jpg",
+      "cover_used_in_remaining_pages": 36,
+      "category": "theme",
+      "status": "original_provenance_not_identified_from_page",
+      "review_priority": "P3-generic-context",
+      "note": "not proof of image/place mismatch or infringement; locate originals, attribution, photographer, license, date, visual match before replacing"
+    }
+  ],
+  "note": "The remaining candidates are NOT confirmed incorrect or unauthorized; each requires original photographer, date, location, license, and image-topic verification. No new posts or Kids."
+}
