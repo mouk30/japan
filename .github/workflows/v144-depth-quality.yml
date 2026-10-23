@@ -1,0 +1,98 @@
+name: V144 strengthen 51 existing detailed guides and photo matching
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/v144_apply_editorial_depth.cjs
+      - scripts/v144_season_specifics.json
+      - scripts/v144_practical_specifics.json
+      - site/nf-v144-topic-depth.css
+      - .github/workflows/v144-depth-quality.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: v144-depth-quality
+  cancel-in-progress: false
+jobs:
+  apply-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Enrich exactly 51 untouched legacy originals
+        run: |
+          if [ -f audit-reports/v144/editorial-image-provenance-report.json ]; then
+            echo "Already applied; preserve editorial original and verify below."
+          else
+            node scripts/v144_apply_editorial_depth.cjs
+          fi
+      - name: Verify 51 unique guides and retained SEO/booking
+        run: |
+          node - <<'NODE'
+          const fs=require('fs'),path=require('path'),assert=require('assert');
+          const original=JSON.parse(fs.readFileSync('audit-reports/v144/repetition-inventory.json','utf8'));
+          const report=JSON.parse(fs.readFileSync('audit-reports/v144/editorial-image-provenance-report.json','utf8'));
+          assert.strictEqual(report.edited_pages.length,51);
+          assert.strictEqual(report.images_replaced_with_diagrams,51);
+          const counts={season:0,practical:0},seen=new Set(),titles=new Set();
+          for(const p of report.edited_pages){
+            assert(!seen.has(p.url));seen.add(p.url);
+            const parts=p.url.split('/').filter(Boolean),group=parts[0],slug=parts[1];
+            const expected=original.targets[group].find(x=>x.slug===slug);
+            assert(expected,p.url);counts[group]++;
+            const html=fs.readFileSync(path.join('site',group,slug,'index.html'),'utf8');
+            assert.strictEqual((html.match(/data-v144-detail=/g)||[]).length,1);
+            assert.strictEqual((html.match(/data-v144-visual=/g)||[]).length,1);
+            assert.strictEqual((html.match(/class="v144-action"/g)||[]).length,3);
+            assert(html.includes('nf-v144-topic-depth.css'),p.url);
+            assert(html.includes('<link rel="canonical" href="https://www.nipponferry.com'+p.url+'"'),p.url);
+            assert(html.includes('<title>')&&html.includes('content="'+expected.description+'"'),p.url);
+            assert(html.includes('https://willer-travel.com/ko/ferry/'));
+            assert(html.includes('article-card related'));
+            assert(!html.includes('<img class="article-cover" src="'+p.old_cover+'"'),p.url);
+            assert(html.includes('실제 관광지·차량·시설 촬영 사진이 아닙니다.'),p.url);
+            assert(!html.includes(group==='season'?'계절 이벤트는 날짜와 날씨 변수의 영향을 크게 받습니다.':'서비스·교통·시설은 노선, 기기, 날짜와 지역에 따라 조건이 달라질 수 있습니다.'));
+            titles.add(expected.title);
+          }
+          assert.deepEqual(counts,{season:24,practical:27});assert.strictEqual(titles.size,51);
+          console.log('V144 24 seasonal + 27 practical original guides, contextual diagrams, SEO + booking PASS');
+          NODE
+      - name: Verify all site navigation/SEO output and old generic link removal
+        run: |
+          npm run build
+          node scripts/v143_contextual_link_audit.cjs
+          node - <<'NODE'
+          const fs=require('fs'),assert=require('assert'),path=require('path');
+          const r=JSON.parse(fs.readFileSync('audit-reports/v144/editorial-image-provenance-report.json','utf8'));
+          for(const page of r.edited_pages){
+            const rel=page.url.replace(/^\//,'');
+            const h=fs.readFileSync(path.join('dist',rel,'index.html'),'utf8');
+            assert(h.includes('data-v144-detail="true"')&&h.includes('v144-topic-visual'));
+            assert(h.includes('data-nf301="v305"'));
+            assert(h.includes('nf-v144-topic-depth.css'));
+          }
+          console.log('V144 site-wide build and 51 upgraded pages PASS');
+          NODE
+      - name: Commit only existing pages and V144 audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/season/ site/practical/ audit-reports/v144/editorial-image-provenance-report.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'V144 improve 51 existing guides with accurate subject-specific steps and infographic cover'
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v144-updated-51-guide-provenance-and-qa
+          path: audit-reports/v144/
+          retention-days: 40
+          if-no-files-found: warn
