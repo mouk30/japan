@@ -60,7 +60,7 @@ with sync_playwright() as pw:
         naturalratio=metrics["natural"][0]/metrics["natural"][1]
         crop=1-min(displayratio/naturalratio,naturalratio/displayratio)
         if crop>0.31:raise RuntimeError(x["key"]+f": excessive crop {crop:.2%}")
-        if credit.locator("a").filter(has_text=x["author"]).count()!=1:raise RuntimeError(x["key"]+": missing author attribution")
+        if x["author"] not in credit.locator('a[href="'+x["src_url"]+'"]').inner_text():raise RuntimeError(x["key"]+": missing author attribution")
         if credit.locator('a[href="'+x["src_url"]+'"]').count()!=1:raise RuntimeError(x["key"]+": wrong/missing original source")
         if credit.locator('a[href="'+x["license_url"]+'"]').count()==0:raise RuntimeError(x["key"]+": no license link")
         full_photo=OUT/f'{x["key"]}-{width}.png'
