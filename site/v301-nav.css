@@ -372,3 +372,41 @@
    pointer-events:none!important;
  }
 }
+
+/* V142 — active-category wayfinding without changing the large V141 type.
+   Closed panels remain hidden; active group and disclosure are unmistakable. */
+@media (max-width:1199px){
+ .nf301-header .nf301-mob-group:has(.nf301-mob-options[data-open="true"])>.nf301-mob-heading{
+   background:#eaf4fa!important;
+   border-left:4px solid #1474a1!important;
+   border-radius:10px 10px 0 0;
+   padding-left:7px!important;
+ }
+ .nf301-header .nf301-mob-heading>a.nf301-active{
+   color:#064d75!important;
+   text-decoration:none!important;
+ }
+ .nf301-header .nf301-mob-expand[aria-expanded="true"]{
+   border-color:#398bb5!important;
+   background:#d4ebf7!important;
+   box-shadow:inset 0 0 0 1px #a7cbdc;
+ }
+ .nf301-header .nf301-mob-options[data-open="true"]{
+   border-left:4px solid #1474a1!important;
+   border-radius:0 0 12px 12px;
+ }
+ .nf301-header .nf301-mob-options a:focus-visible{
+   outline:3px solid #136c98!important;
+   outline-offset:1px!important;
+ }
+}
+@media (prefers-contrast:more){
+ .nf301-header .nf301-flygrid>a,
+ .nf301-header .nf301-mob-options a{
+   border-color:#41677c!important;
+ }
+ .nf301-header .nf301-flygrid>a>span,
+ .nf301-header .nf301-mob-options a{
+   color:#082e4a!important;
+ }
+}
