@@ -1,0 +1,178 @@
+{
+  "version": "V139",
+  "date": "2026-10-23",
+  "scope": "Homepage popular destinations, local things to do, recommended travel themes",
+  "total_cards": 18,
+  "sections": [
+    {
+      "section": "인기 여행지",
+      "cards": 8
+    },
+    {
+      "section": "지역별 즐길거리",
+      "cards": 4
+    },
+    {
+      "section": "추천 테마 여행",
+      "cards": 6
+    }
+  ],
+  "verified_original_pages": 3,
+  "notes": [
+    "Commons source pages independently checked for Tokyo Senso-ji, Osaka Tempozan Ferris Wheel, Tokyo tonkotsu ramen.",
+    "Source metadata review does not prove that the deployed WebP bytes derive from those originals; pixel/hash matching is a separate step.",
+    "The Tokyo ramen image is an illustrative dish shot taken in Tokyo, not proof of Fukuoka location.",
+    "Staged imagery must not be described as documentary photos; source/license of staged imagery is not automatically inferred.",
+    "Mobile V137/V138 CSS, page URLs, SEO, canonical and booking links left untouched."
+  ],
+  "replaced_images": 0,
+  "modified_homepage": 0,
+  "new_articles": 0,
+  "kids_changes": 0,
+  "entries": [
+    {
+      "section": "인기 여행지",
+      "image": "/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp",
+      "alt": "도쿄 아사쿠사 센소지 가미나리몬의 커다란 붉은 등과 참배객 풍경",
+      "status": "original_page_checked",
+      "original": "https://commons.wikimedia.org/wiki/File:Senso-ji.jpg",
+      "action": "retain; confirm WebP derivative hash separately"
+    },
+    {
+      "section": "인기 여행지",
+      "image": "/images/editorial/okinawa-kouri-bridge.webp",
+      "alt": "오키나와 고우리대교와 에메랄드빛 바다 여행 풍경을 표현한 이미지",
+      "status": "staged_image_disclosed",
+      "original": null,
+      "action": "retain disclosure; replace only with provenance-verified real photograph"
+    },
+    {
+      "section": "인기 여행지",
+      "image": "/images/editorial/hakata-cruise-port-day-trip.webp",
+      "alt": "후쿠오카 하카타항과 항구도시 스카이라인을 표현한 크루즈 여행 이미지",
+      "status": "staged_image_disclosed",
+      "original": null,
+      "action": "retain disclosure; replace only with provenance-verified real photograph"
+    },
+    {
+      "section": "인기 여행지",
+      "image": "/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+      "alt": "오사카 도톤보리 강변의 글리코 간판과 네온 야경",
+      "status": "source_link_or_original_needs_review",
+      "original": null,
+      "action": "verify exact original, photographer, date, license and pixel match before any replacement"
+    },
+    {
+      "section": "인기 여행지",
+      "image": "/images/editorial/shimonoseki-cruise-port-day-trip.webp",
+      "alt": "시모노세키 간몬해협의 다리와 크루즈 기항 분위기를 표현한 여행 이미지",
+      "status": "staged_image_disclosed",
+      "original": null,
+      "action": "retain disclosure; replace only with provenance-verified real photograph"
+    },
+    {
+      "section": "인기 여행지",
+      "image": "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
+      "alt": "대마도 이즈하라항과 초록 산자락 여행 분위기를 표현한 이미지",
+      "status": "staged_image_disclosed",
+      "original": null,
+      "action": "retain disclosure; replace only with provenance-verified real photograph"
+    },
+    {
+      "section": "인기 여행지",
+      "image": "/images/editorial/kobe-cruise-port-day-trip.webp",
+      "alt": "고베항 포트타워와 국제항 크루즈 풍경을 표현한 여행 이미지",
+      "status": "staged_image_disclosed",
+      "original": null,
+      "action": "retain disclosure; replace only with provenance-verified real photograph"
+    },
+    {
+      "section": "인기 여행지",
+      "image": "/images/editorial/hakodate-snow-onsen-romantic-v106.webp",
+      "alt": "하코다테 항구 야경을 배경으로 눈 덮인 노천온천에 수증기가 피어오르는 낭만적인 홋카이도 겨울 설경을 표현한 연출 이미지",
+      "status": "staged_image_disclosed",
+      "original": null,
+      "action": "retain disclosure; replace only with provenance-verified real photograph"
+    },
+    {
+      "section": "지역별 즐길거리",
+      "image": "/images/editorial/v339_hakata-port-tenjin-sightseeing.webp",
+      "alt": "후쿠오카 하카타항에 입항하는 크루즈와 도심 해안 풍경을 표현한 이미지",
+      "status": "staged_image_disclosed",
+      "original": null,
+      "action": "retain disclosure; replace only with provenance-verified real photograph"
+    },
+    {
+      "section": "지역별 즐길거리",
+      "image": "/images/venues/nf-v124-osaka-dusk-real.webp",
+      "alt": "덴포잔 대관람차 노을 풍경 (실제 촬영 2011-11-01, 당시 풍경)",
+      "status": "original_page_checked",
+      "original": "https://commons.wikimedia.org/wiki/File:Tempozan_Ferris_Wheel_in_Osaka_at_Dusk.jpg",
+      "action": "retain; confirm WebP derivative hash separately"
+    },
+    {
+      "section": "지역별 즐길거리",
+      "image": "/images/venues/nf-v124-shimonoseki-dusk-real.webp",
+      "alt": "가라토시장 인근에서 바라본 간몬해협과 모지코 황혼 풍경 (실제 촬영 2016-12-06, 당시 풍경)",
+      "status": "source_link_or_original_needs_review",
+      "original": null,
+      "action": "verify exact original, photographer, date, license and pixel match before any replacement"
+    },
+    {
+      "section": "지역별 즐길거리",
+      "image": "/images/venues/nf-v124-tsushima-harbor-real.webp",
+      "alt": "대마도 이즈하라항과 바다·산자락 실제 풍경 (실제 촬영 2017-08-12, 당시 풍경)",
+      "status": "source_link_or_original_needs_review",
+      "original": null,
+      "action": "verify exact original, photographer, date, license and pixel match before any replacement"
+    },
+    {
+      "section": "추천 테마 여행",
+      "image": "/images/culture-verified/ramen-japanese-noodle-evolution.webp",
+      "alt": "일본 돈코츠 라멘의 국물과 차슈·파·김을 보여주는 실제 음식 사진",
+      "status": "original_page_checked",
+      "original": "https://commons.wikimedia.org/wiki/File:Tonkotsu_ramen_in_Tokyo.jpg",
+      "action": "retain; confirm WebP derivative hash separately"
+    },
+    {
+      "section": "추천 테마 여행",
+      "image": "/images/culture-verified/shotengai-japanese-shopping-arcades.webp",
+      "alt": "홋카이도 삿포로 다누키코지 상점가 입구의 돈키호테 간판과 아케이드 쇼핑거리 실제 사진",
+      "status": "source_link_or_original_needs_review",
+      "original": null,
+      "action": "verify exact original, photographer, date, license and pixel match before any replacement"
+    },
+    {
+      "section": "추천 테마 여행",
+      "image": "/images/editorial/okinawa-eisa-dance-festival.webp",
+      "alt": "일본 여름축제 오키나와 에이사 춤과 북 공연 분위기를 표현한 이미지",
+      "status": "staged_image_disclosed",
+      "original": null,
+      "action": "retain disclosure; replace only with provenance-verified real photograph"
+    },
+    {
+      "section": "추천 테마 여행",
+      "image": "/images/couple.jpg",
+      "alt": "교토풍 전통 골목과 등불을 배경으로 기모노 차림 커플의 로맨틱한 산책을 표현한 연출 이미지",
+      "status": "staged_image_disclosed",
+      "original": null,
+      "action": "retain disclosure; replace only with provenance-verified real photograph"
+    },
+    {
+      "section": "추천 테마 여행",
+      "image": "/images/editorial/ishigaki-kabira-bay.webp",
+      "alt": "오키나와 이시가키 가비라만의 푸른 바다 전망을 표현한 포토 스팟 이미지",
+      "status": "staged_image_disclosed",
+      "original": null,
+      "action": "retain disclosure; replace only with provenance-verified real photograph"
+    },
+    {
+      "section": "추천 테마 여행",
+      "image": "/images/culture-verified/konbini-japanese-convenience-store-life.webp",
+      "alt": "일본 편의점의 음료 냉장 진열대를 실제 촬영한 현지 생활정보 참고 사진",
+      "status": "source_link_or_original_needs_review",
+      "original": null,
+      "action": "verify exact original, photographer, date, license and pixel match before any replacement"
+    }
+  ]
+}
