@@ -1,0 +1,164 @@
+/* V137 | NIPPONFERRY mobile reading and editorial-photo layout.
+   Homepage only. Existing URLs, photography, SEO metadata and desktop layout preserved. */
+@media (max-width:900px) {
+  /* The former 38%-width picture clipped the model's face on narrow screens.
+     Show the full card width first; keep the photo itself unchanged. */
+  body.nf-premium-v2 .discovery-v33 .v33-feature.v34-feature {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    min-height:0;
+    overflow:hidden;
+    border-radius:18px;
+  }
+  body.nf-premium-v2 .discovery-v33 .v33-feature.v34-feature > img {
+    display:block;
+    width:100%;
+    height:auto;
+    aspect-ratio:16/10;
+    object-fit:cover;
+    object-position:center 32%;
+    flex:none;
+  }
+  body.nf-premium-v2 .discovery-v33 .v33-feature.v34-feature > div {
+    min-width:0;
+    padding:22px 23px 25px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:8px;
+  }
+  body.nf-premium-v2 .discovery-v33 .v33-feature.v34-feature small {
+    font-size:12px;
+    line-height:1.4;
+    letter-spacing:.07em;
+    overflow-wrap:normal;
+  }
+  body.nf-premium-v2 .discovery-v33 .v33-feature.v34-feature h3 {
+    font-size:clamp(24px,5.8vw,31px);
+    line-height:1.3;
+    letter-spacing:-.045em;
+    margin:1px 0;
+    color:#133650;
+    word-break:keep-all;
+  }
+  body.nf-premium-v2 .discovery-v33 .v33-feature.v34-feature p {
+    font-size:16px;
+    line-height:1.68;
+    color:#455f72;
+    margin:0 0 4px;
+    word-break:keep-all;
+  }
+  body.nf-premium-v2 .discovery-v33 .v33-feature.v34-feature strong {
+    font-size:16px;
+    line-height:1.55;
+    color:#075b90;
+  }
+}
+@media (max-width:650px) {
+  /* Shorter first-screen hero with legible contrast over the actual ship. */
+  body.nf-premium-v2 .nf-premium-hero {
+    min-height:0;
+    background-image:
+      linear-gradient(180deg,rgba(3,27,48,.88),rgba(5,34,57,.76) 49%,rgba(5,35,61,.60)),
+      url('/images/hero-blue.jpg');
+    background-size:cover,cover;
+    background-position:center,65% center;
+  }
+  body.nf-premium-v2 .nf-premium-hero.nf-arrival-hero {
+    background-image:
+      linear-gradient(180deg,rgba(3,27,48,.88),rgba(5,34,57,.75) 49%,rgba(5,35,61,.60)),
+      url('/images/nipponferry-hero-cruise-arrival.webp');
+    background-position:center,64% center;
+    background-size:cover,cover;
+  }
+  body.nf-premium-v2 .nf-premium-hero > .wrap {
+    width:calc(100% - 40px);
+    max-width:520px;
+    padding:42px 0 56px;
+  }
+  body.nf-premium-v2 .nf-premium-hero .nf-overline {
+    font-size:10px;
+    line-height:1.55;
+    letter-spacing:.09em;
+    font-weight:850;
+    margin-bottom:22px;
+    max-width:100%;
+  }
+  body.nf-premium-v2 .nf-premium-hero h1 {
+    font-size:clamp(30px,8.2vw,40px)!important;
+    line-height:1.18!important;
+    letter-spacing:-.055em;
+    max-width:100%;
+    margin:0 0 18px;
+    word-break:keep-all;
+    overflow-wrap:normal;
+    text-wrap:pretty;
+  }
+  body.nf-premium-v2 .nf-premium-hero h1 span {color:#f3d6a0}
+  body.nf-premium-v2 .nf-premium-hero h1 .nf-mobile-no-split {white-space:nowrap}
+  body.nf-premium-v2 .nf-premium-hero p {
+    max-width:420px;
+    font-size:16px!important;
+    line-height:1.67!important;
+    font-weight:500;
+    color:#f1f5f8;
+    margin:0 0 24px;
+    word-break:keep-all;
+  }
+  body.nf-premium-v2 .nf-premium-hero p br {display:none}
+  body.nf-premium-v2 .nf-hero-actions {
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    gap:10px;
+    max-width:480px;
+  }
+  body.nf-premium-v2 .nf-hero-actions a {
+    width:100%;
+    min-height:56px;
+    border-radius:10px;
+    padding:14px 17px!important;
+    font-size:17px!important;
+    line-height:1.45;
+    font-weight:850;
+    text-align:center;
+    white-space:normal;
+  }
+  body.nf-premium-v2 .nf-hero-chips {display:none}
+  /* Better scannability across the homepage, not just the two screenshots. */
+  body.nf-premium-v2 .section-head {align-items:flex-start;flex-wrap:wrap;gap:10px}
+  body.nf-premium-v2 .section-head p {font-size:16px!important;line-height:1.65!important;word-break:keep-all}
+  body.nf-premium-v2 .section-head a {font-size:16px;line-height:1.5;white-space:normal;min-height:40px;display:inline-flex;align-items:center}
+  body.nf-premium-v2 .discovery-v33 {padding:34px 0 46px}
+  body.nf-premium-v2 .discovery-v33 .wrap {width:calc(100% - 32px)}
+  body.nf-premium-v2 .discovery-v33 .v33-feature.v34-feature > img {
+    aspect-ratio:16/10;
+    object-position:center 30%;
+  }
+  body.nf-premium-v2 .discovery-v33 .v33-feature.v34-feature > div {padding:20px 20px 23px}
+  body.nf-premium-v2 .discovery-v33 .v33-feature.v34-feature small {font-size:11px;letter-spacing:.055em}
+  body.nf-premium-v2 .discovery-v33 .v33-feature.v34-feature p {font-size:16px;line-height:1.65}
+  /* Keep important place photography wide and reduce unnecessary vertical scroll. */
+  body.nf-premium-v2 :is(.d61-home-photo,.v65-photo,.v63-visual,.v64-photo) {
+    min-height:0!important;
+    aspect-ratio:16/10!important;
+  }
+  body.nf-premium-v2 :is(.d61-home-photo,.v65-photo,.v63-visual,.v64-photo) img {
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+  body.nf-premium-v2 :is(.v65-info,.v63-copy,.v64-body) p {line-height:1.7!important;word-break:keep-all}
+  body.nf-premium-v2 :is(.v65-info,.v63-copy,.v64-body) a {overflow-wrap:break-word}
+  body.nf-premium-v2 :is(.d61-home-type,.v65-type,.v63-visual-label) {font-size:12px!important;line-height:1.45}
+}
+@media (max-width:370px) {
+  body.nf-premium-v2 .nf-premium-hero > .wrap {width:calc(100% - 32px)}
+  body.nf-premium-v2 .nf-premium-hero h1 {font-size:30px!important}
+  body.nf-premium-v2 .nf-premium-hero p {font-size:15.5px!important}
+  body.nf-premium-v2 .nf-hero-actions a {font-size:16px!important}
+}
+@media (prefers-reduced-motion:reduce) {
+  body.nf-premium-v2 .discovery-v33 .v33-feature.v34-feature > img {transition:none}
+}
