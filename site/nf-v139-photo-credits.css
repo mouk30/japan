@@ -1,0 +1,69 @@
+/* V139 — clean consumer pages while preserving exact author/license/source text.
+   Attribution is one click away near the bottom, instead of displayed below every photo. */
+.nf-photo-credits-panel{
+  box-sizing:border-box;
+  width:min(1220px,calc(100% - 32px));
+  margin:24px auto 14px;
+  color:#52697a;
+  font:400 12px/1.7 Pretendard,'Noto Sans KR',system-ui,sans-serif;
+}
+.nf-photo-credits-panel summary{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  cursor:pointer;
+  list-style:none;
+  width:max-content;
+  max-width:100%;
+  border:1px solid #dde5ec;
+  background:#f8fafb;
+  border-radius:7px;
+  color:#50697a;
+  padding:7px 11px;
+  font-size:12px;
+  font-weight:650;
+  letter-spacing:-.015em;
+}
+.nf-photo-credits-panel summary::-webkit-details-marker{display:none}
+.nf-photo-credits-panel summary::after{content:'⌄';font-size:15px;line-height:1;color:#658294}
+.nf-photo-credits-panel[open] summary::after{content:'⌃'}
+.nf-photo-credits-panel summary:focus-visible{
+  outline:3px solid #1684bf;outline-offset:3px;
+}
+.nf-photo-credits-panel__list{
+  list-style:none;
+  padding:15px;
+  margin:9px 0 0;
+  border:1px solid #e3eaf0;
+  border-radius:12px;
+  background:#fff;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));
+  gap:9px 18px;
+}
+.nf-photo-credits-panel__list li{
+  min-width:0;
+  padding:9px 0;
+  border-bottom:1px solid #ecf1f5;
+  font-size:12px;
+  line-height:1.7;
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+.nf-photo-credits-panel__list li strong{
+  display:block;
+  font-size:12px;
+  color:#33576e;
+  font-weight:750;
+  margin-bottom:3px;
+}
+.nf-photo-credits-panel__list a{
+  color:#165d88!important;
+  text-decoration:underline!important;
+  text-underline-offset:2px;
+}
+@media(max-width:650px){
+ .nf-photo-credits-panel{width:calc(100% - 32px);margin:18px auto 12px}
+ .nf-photo-credits-panel__list{grid-template-columns:minmax(0,1fr);padding:13px}
+ .nf-photo-credits-panel summary{padding:7px 9px;font-size:11px}
+}
