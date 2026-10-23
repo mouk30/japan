@@ -1,0 +1,1920 @@
+{
+  "date": "2026-10-23",
+  "source": "V143 left-behind generic-body exact phrase scan",
+  "counts": {
+    "season": 24,
+    "practical": 27
+  },
+  "targets": {
+    "season": [
+      {
+        "slug": "asahikawa-winter-festival",
+        "title": "아사히카와 겨울축제 가이드",
+        "description": "대형 눈·얼음 조각과 야간 조명을 즐기는 홋카이도 겨울축제.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "hokkaido-winter-packing",
+        "title": "홋카이도 겨울 여행 준비물",
+        "description": "방한복·신발·보조배터리·보습용품 등 겨울 여행 준비물.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "hokkaido-winter-photo-trip",
+        "title": "홋카이도 겨울 사진여행",
+        "description": "설경·야경·온천마을을 중심으로 촬영 동선을 만드는 여행.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "hokkaido-winter-rental-car",
+        "title": "홋카이도 겨울 렌터카 주의사항",
+        "description": "눈길 운전과 장거리 이동을 고려해 렌터카 여부를 결정하는 기준.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "hokkaido-winter-seniors",
+        "title": "홋카이도 겨울 부모님 여행",
+        "description": "보행거리와 추위 노출을 줄이고 온천과 실내 일정을 섞는 방법.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "hokkaido-winter-solo",
+        "title": "홋카이도 겨울 혼자여행",
+        "description": "대중교통 중심으로 무리 없이 움직이는 혼자 여행 구성.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-autumn-food-trip",
+        "title": "일본 가을 먹거리 여행",
+        "description": "수확철 지역 음식과 시장, 온천을 묶어 즐기는 가을 식도락 여행.",
+        "image": "/images/food.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/japan-winter-budget/",
+            "text": "일본 겨울여행 가성비 팁 →"
+          },
+          {
+            "href": "/season/japan-spring-guide/",
+            "text": "일본 봄여행 완벽 가이드 →"
+          },
+          {
+            "href": "/season/japan-cherry-blossom-guide/",
+            "text": "일본 벚꽃여행 준비 가이드 →"
+          },
+          {
+            "href": "/season/japan-summer-festival-guide/",
+            "text": "일본 여름축제 여행 가이드 →"
+          },
+          {
+            "href": "/season/japan-fireworks-festival/",
+            "text": "일본 불꽃축제 여행 팁 →"
+          },
+          {
+            "href": "/season/japan-autumn-leaves-guide/",
+            "text": "일본 가을 단풍여행 가이드 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-autumn-leaves-guide",
+        "title": "일본 가을 단풍여행 가이드",
+        "description": "지역별 단풍 시기 차이를 고려해 이동 동선과 숙소를 잡는 가을 여행.",
+        "image": "/images/season.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/japan-winter-budget/",
+            "text": "일본 겨울여행 가성비 팁 →"
+          },
+          {
+            "href": "/season/japan-spring-guide/",
+            "text": "일본 봄여행 완벽 가이드 →"
+          },
+          {
+            "href": "/season/japan-cherry-blossom-guide/",
+            "text": "일본 벚꽃여행 준비 가이드 →"
+          },
+          {
+            "href": "/season/japan-summer-festival-guide/",
+            "text": "일본 여름축제 여행 가이드 →"
+          },
+          {
+            "href": "/season/japan-fireworks-festival/",
+            "text": "일본 불꽃축제 여행 팁 →"
+          },
+          {
+            "href": "/season/japan-autumn-food-trip/",
+            "text": "일본 가을 먹거리 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-cherry-blossom-guide",
+        "title": "일본 벚꽃여행 준비 가이드",
+        "description": "개화시기 변동을 고려해 지역과 일정에 여유를 두는 벚꽃 여행 준비.",
+        "image": "/images/season.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/japan-winter-budget/",
+            "text": "일본 겨울여행 가성비 팁 →"
+          },
+          {
+            "href": "/season/japan-spring-guide/",
+            "text": "일본 봄여행 완벽 가이드 →"
+          },
+          {
+            "href": "/season/japan-summer-festival-guide/",
+            "text": "일본 여름축제 여행 가이드 →"
+          },
+          {
+            "href": "/season/japan-fireworks-festival/",
+            "text": "일본 불꽃축제 여행 팁 →"
+          },
+          {
+            "href": "/season/japan-autumn-leaves-guide/",
+            "text": "일본 가을 단풍여행 가이드 →"
+          },
+          {
+            "href": "/season/japan-autumn-food-trip/",
+            "text": "일본 가을 먹거리 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-fireworks-festival",
+        "title": "일본 불꽃축제 여행 팁",
+        "description": "혼잡·교통·관람장소를 미리 계획하는 일본 불꽃축제 여행.",
+        "image": "/images/season.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/japan-winter-budget/",
+            "text": "일본 겨울여행 가성비 팁 →"
+          },
+          {
+            "href": "/season/japan-spring-guide/",
+            "text": "일본 봄여행 완벽 가이드 →"
+          },
+          {
+            "href": "/season/japan-cherry-blossom-guide/",
+            "text": "일본 벚꽃여행 준비 가이드 →"
+          },
+          {
+            "href": "/season/japan-summer-festival-guide/",
+            "text": "일본 여름축제 여행 가이드 →"
+          },
+          {
+            "href": "/season/japan-autumn-leaves-guide/",
+            "text": "일본 가을 단풍여행 가이드 →"
+          },
+          {
+            "href": "/season/japan-autumn-food-trip/",
+            "text": "일본 가을 먹거리 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-spring-guide",
+        "title": "일본 봄여행 완벽 가이드",
+        "description": "벚꽃·봄축제·온화한 날씨를 중심으로 일본 봄여행을 준비하는 허브.",
+        "image": "/images/season.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/japan-winter-budget/",
+            "text": "일본 겨울여행 가성비 팁 →"
+          },
+          {
+            "href": "/season/japan-cherry-blossom-guide/",
+            "text": "일본 벚꽃여행 준비 가이드 →"
+          },
+          {
+            "href": "/season/japan-summer-festival-guide/",
+            "text": "일본 여름축제 여행 가이드 →"
+          },
+          {
+            "href": "/season/japan-fireworks-festival/",
+            "text": "일본 불꽃축제 여행 팁 →"
+          },
+          {
+            "href": "/season/japan-autumn-leaves-guide/",
+            "text": "일본 가을 단풍여행 가이드 →"
+          },
+          {
+            "href": "/season/japan-autumn-food-trip/",
+            "text": "일본 가을 먹거리 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-summer-festival-guide",
+        "title": "일본 여름축제 여행 가이드",
+        "description": "마쓰리·불꽃놀이·유카타·여름 먹거리를 중심으로 즐기는 일본 여름.",
+        "image": "/images/season.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/japan-winter-budget/",
+            "text": "일본 겨울여행 가성비 팁 →"
+          },
+          {
+            "href": "/season/japan-spring-guide/",
+            "text": "일본 봄여행 완벽 가이드 →"
+          },
+          {
+            "href": "/season/japan-cherry-blossom-guide/",
+            "text": "일본 벚꽃여행 준비 가이드 →"
+          },
+          {
+            "href": "/season/japan-fireworks-festival/",
+            "text": "일본 불꽃축제 여행 팁 →"
+          },
+          {
+            "href": "/season/japan-autumn-leaves-guide/",
+            "text": "일본 가을 단풍여행 가이드 →"
+          },
+          {
+            "href": "/season/japan-autumn-food-trip/",
+            "text": "일본 가을 먹거리 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-winter-budget",
+        "title": "일본 겨울여행 가성비 팁",
+        "description": "항공·숙박·교통·식비를 분리해 겨울 성수기 비용을 관리하는 법.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "jozankei-winter-onsen",
+        "title": "조잔케이 겨울 온천 가이드",
+        "description": "삿포로에서 접근하기 좋은 온천 지역을 겨울 일정에 넣는 방법.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "new-chitose-to-sapporo-winter",
+        "title": "신치토세공항에서 삿포로 겨울 이동",
+        "description": "겨울철 공항 도착 후 삿포로 시내로 이동할 때 여유 시간을 잡는 방법.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "noboribetsu-winter-onsen",
+        "title": "노보리베츠 겨울 온천 가이드",
+        "description": "온천과 설경, 료칸 숙박을 중심으로 보는 겨울 여행.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "otaru-snow-light-couple",
+        "title": "오타루 눈빛거리 커플 여행",
+        "description": "운하 조명·카페·오르골·디저트를 묶은 겨울 데이트 코스.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "otaru-snow-light-path-2027",
+        "title": "오타루 눈빛거리 2027 가이드",
+        "description": "2027년 2월 6~13일, 오타루 운하와 옛 테미야선 일대를 중심으로 열리는 겨울 행사.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "otaru-winter-day-trip",
+        "title": "오타루 겨울 당일치기",
+        "description": "삿포로에서 출발해 운하·상점가·야경을 보고 돌아오는 당일 일정.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "otaru-winter-food",
+        "title": "오타루 겨울 먹거리",
+        "description": "초밥·해산물·디저트와 겨울 산책을 연결한 식도락 가이드.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "otaru-winter-shopping",
+        "title": "오타루 겨울 기념품",
+        "description": "오르골·유리공예·디저트 등 오타루다운 기념품 선택.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "sapporo-winter-shoes",
+        "title": "삿포로 겨울 신발 추천 기준",
+        "description": "눈길·빙판에서 미끄러짐을 줄이는 방수·접지 중심의 겨울 신발 선택.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-2n3d/",
+            "text": "삿포로 눈축제 2박3일 코스 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "sapporo-winter-souvenir",
+        "title": "삿포로 겨울 기념품",
+        "description": "홋카이도 과자·유제품·지역 한정 상품을 중심으로 보는 겨울 쇼핑.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "sapporo-winter-transport",
+        "title": "삿포로 겨울 교통 팁",
+        "description": "눈길과 지연 가능성을 고려한 지하철·JR·도보 이동 계획.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "한눈에 보기",
+          "언제 가는 게 좋을까",
+          "현장에서 중요한 것",
+          "먹거리와 쇼핑도 같이 보기"
+        ],
+        "existingRelated": [
+          {
+            "href": "/season/sapporo-snow-festival-2027/",
+            "text": "삿포로 눈축제 2027 완벽 가이드 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-hotel-area/",
+            "text": "삿포로 눈축제 숙소 위치 추천 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-clothes/",
+            "text": "삿포로 눈축제 옷차림 →"
+          },
+          {
+            "href": "/season/sapporo-winter-shoes/",
+            "text": "삿포로 겨울 신발 추천 기준 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-couple/",
+            "text": "삿포로 눈축제 커플 여행 →"
+          },
+          {
+            "href": "/season/sapporo-snow-festival-family/",
+            "text": "삿포로 눈축제 가족 여행 →"
+          }
+        ],
+        "genericText": true
+      }
+    ],
+    "practical": [
+      {
+        "slug": "ghibli-museum-guide",
+        "title": "지브리 미술관 처음 가는 법",
+        "description": "예약이 필요한 인기 시설을 일정에 넣을 때 확인할 기본사항.",
+        "image": "/images/city.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-theme-park-guide/",
+            "text": "일본 테마파크 여행 가이드 →"
+          },
+          {
+            "href": "/practical/fujiq-highland-guide/",
+            "text": "후지큐 하이랜드 여행 가이드 →"
+          },
+          {
+            "href": "/practical/nagashima-spaland-guide/",
+            "text": "나가시마 스파랜드 여행 가이드 →"
+          },
+          {
+            "href": "/practical/nijigen-no-mori-guide/",
+            "text": "니지겐노모리 여행 가이드 →"
+          },
+          {
+            "href": "/practical/japan-theme-park-couple/",
+            "text": "일본 테마파크 커플 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "hokkaido-winter-bus-tour",
+        "title": "홋카이도 겨울 버스투어 가이드",
+        "description": "눈길 운전을 피하면서 설경·온천·관광지를 연결하는 겨울 버스투어.",
+        "image": "/images/hokkaido.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-bus-tour-guide/",
+            "text": "일본 버스투어 처음 예약하는 법 →"
+          },
+          {
+            "href": "/practical/mt-fuji-day-bus-tour/",
+            "text": "후지산 당일 버스투어 가이드 →"
+          },
+          {
+            "href": "/practical/kyoto-bus-tour-vs-free/",
+            "text": "교토 하루 버스투어 vs 자유여행 →"
+          },
+          {
+            "href": "/practical/japan-half-day-tour/",
+            "text": "일본 반일투어 활용법 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-airport-bus-guide",
+        "title": "일본 공항버스 처음 타는 법",
+        "description": "공항 도착 후 승차권·정류장·짐 보관·하차 위치를 확인하는 기본 순서.",
+        "image": "/images/transport.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-atm-cash-guide",
+        "title": "일본 편의점 ATM 현금인출 팁",
+        "description": "여행 중 현금이 필요할 때 ATM과 해외결제 카드를 사용하는 기본 체크.",
+        "image": "/images/cash.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-bus-seat-types",
+        "title": "일본 버스 좌석 종류 고르는 법",
+        "description": "프라이버시·리클라이닝·다리공간·충전 여부를 기준으로 좌석을 비교.",
+        "image": "/images/transport.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-bus-tour-guide",
+        "title": "일본 버스투어 처음 예약하는 법",
+        "description": "당일·반일·1박 이상 투어를 일정과 포함사항 기준으로 고르는 방법.",
+        "image": "/images/transport.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-coin-locker-guide",
+        "title": "일본 짐보관 코인락커 가이드",
+        "description": "역 코인락커 크기·빈자리·보관시간을 고려해 캐리어를 맡기는 방법.",
+        "image": "/images/city.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-half-day-tour",
+        "title": "일본 반일투어 활용법",
+        "description": "도착일·출국일처럼 애매한 시간에 반일투어를 활용하는 방법.",
+        "image": "/images/city.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-highway-bus-booking",
+        "title": "일본 고속버스 처음 예약하는 법",
+        "description": "출발지·도착지·좌석·야간 이동 여부를 기준으로 고속버스를 고르는 방법.",
+        "image": "/images/transport.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-ic-card-guide",
+        "title": "일본 교통카드 처음 쓰는 법",
+        "description": "전철·버스·편의점에서 쓰는 교통계 IC카드의 기본 사용법과 충전.",
+        "image": "/images/transport.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-luggage-delivery",
+        "title": "일본 캐리어 배송 서비스 활용법",
+        "description": "공항·호텔·다음 숙소 사이에서 큰 짐을 보내 여행 동선을 가볍게 만드는 법.",
+        "image": "/images/city.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-night-bus-checklist",
+        "title": "일본 야간버스 타기 전 체크리스트",
+        "description": "목베개·충전·휴게소·수면·짐 위치 등 장거리 야간 이동 준비.",
+        "image": "/images/transport.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-power-adapter-guide",
+        "title": "일본 여행 충전기·돼지코 준비",
+        "description": "전압·플러그·USB 충전 환경을 고려해 전자기기 충전 준비를 하는 법.",
+        "image": "/images/city.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-sightseeing-train-couple",
+        "title": "일본 관광열차 커플 여행",
+        "description": "좌석·식사·풍경을 중심으로 기념일이나 커플 일정에 넣는 방법.",
+        "image": "/images/couple.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-sightseeing-train-guide",
+        "title": "일본 관광열차 여행 입문",
+        "description": "이동 자체가 여행이 되는 일본 관광열차의 예약과 좌석 선택 기본.",
+        "image": "/images/transport.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-theme-park-couple",
+        "title": "일본 테마파크 커플 여행",
+        "description": "대기시간·사진·야간 분위기·숙소 위치를 고려한 커플 일정.",
+        "image": "/images/couple.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-theme-park-guide",
+        "title": "일본 테마파크 여행 가이드",
+        "description": "입장권·교통·숙소·오픈런을 함께 계획하는 일본 테마파크 여행 기본.",
+        "image": "/images/city.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "japan-translation-app-guide",
+        "title": "일본 여행 번역앱 활용법",
+        "description": "메뉴·표지판·대화를 번역할 때 카메라와 음성 번역을 효율적으로 쓰는 방법.",
+        "image": "/images/city.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-esim-setup/",
+            "text": "일본 eSIM 처음 개통하는 법 →"
+          },
+          {
+            "href": "/practical/japan-esim-iphone/",
+            "text": "일본 eSIM 아이폰 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-galaxy/",
+            "text": "일본 eSIM 갤럭시 설정 가이드 →"
+          },
+          {
+            "href": "/practical/japan-esim-troubleshooting/",
+            "text": "일본 eSIM 안될 때 체크리스트 →"
+          },
+          {
+            "href": "/practical/japan-esim-vs-sim-wifi/",
+            "text": "일본 eSIM vs 유심 vs 포켓와이파이 →"
+          },
+          {
+            "href": "/practical/japan-data-usage/",
+            "text": "일본 여행 데이터 몇 GB 필요할까 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "kyoto-bus-tour-vs-free",
+        "title": "교토 하루 버스투어 vs 자유여행",
+        "description": "짧은 일정에서 주요 명소를 묶는 투어와 자유여행의 차이를 비교.",
+        "image": "/images/transport.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/kyoto-tango-kuromatsu/",
+            "text": "교토 단고 쿠로마츠 열차 여행 →"
+          },
+          {
+            "href": "/practical/japan-bus-tour-guide/",
+            "text": "일본 버스투어 처음 예약하는 법 →"
+          },
+          {
+            "href": "/practical/mt-fuji-day-bus-tour/",
+            "text": "후지산 당일 버스투어 가이드 →"
+          },
+          {
+            "href": "/practical/hokkaido-winter-bus-tour/",
+            "text": "홋카이도 겨울 버스투어 가이드 →"
+          },
+          {
+            "href": "/practical/japan-half-day-tour/",
+            "text": "일본 반일투어 활용법 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "kyoto-tango-kuromatsu",
+        "title": "교토 단고 쿠로마츠 열차 여행",
+        "description": "바다 풍경과 식사를 함께 즐기는 교토 단고 지역 관광열차 여행.",
+        "image": "/images/transport.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-sightseeing-train-guide/",
+            "text": "일본 관광열차 여행 입문 →"
+          },
+          {
+            "href": "/practical/setsugekka-train/",
+            "text": "에치고 토키메키 설월화 열차 →"
+          },
+          {
+            "href": "/practical/shimabara-cafe-train/",
+            "text": "시마바라 카페트레인 여행 →"
+          },
+          {
+            "href": "/practical/japan-sightseeing-train-couple/",
+            "text": "일본 관광열차 커플 여행 →"
+          },
+          {
+            "href": "/practical/kyoto-bus-tour-vs-free/",
+            "text": "교토 하루 버스투어 vs 자유여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "mt-fuji-day-bus-tour",
+        "title": "후지산 당일 버스투어 가이드",
+        "description": "도쿄 출발 기준으로 후지산·호수 지역을 하루에 둘러보는 투어 선택법.",
+        "image": "/images/transport.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-bus-tour-guide/",
+            "text": "일본 버스투어 처음 예약하는 법 →"
+          },
+          {
+            "href": "/practical/hokkaido-winter-bus-tour/",
+            "text": "홋카이도 겨울 버스투어 가이드 →"
+          },
+          {
+            "href": "/practical/kyoto-bus-tour-vs-free/",
+            "text": "교토 하루 버스투어 vs 자유여행 →"
+          },
+          {
+            "href": "/practical/japan-half-day-tour/",
+            "text": "일본 반일투어 활용법 →"
+          },
+          {
+            "href": "/practical/fujiq-highland-guide/",
+            "text": "후지큐 하이랜드 여행 가이드 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "nagashima-spaland-guide",
+        "title": "나가시마 스파랜드 여행 가이드",
+        "description": "놀이공원과 온천·아울렛을 함께 묶을 수 있는 나가시마 여행.",
+        "image": "/images/city.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-theme-park-guide/",
+            "text": "일본 테마파크 여행 가이드 →"
+          },
+          {
+            "href": "/practical/fujiq-highland-guide/",
+            "text": "후지큐 하이랜드 여행 가이드 →"
+          },
+          {
+            "href": "/practical/ghibli-museum-guide/",
+            "text": "지브리 미술관 처음 가는 법 →"
+          },
+          {
+            "href": "/practical/nijigen-no-mori-guide/",
+            "text": "니지겐노모리 여행 가이드 →"
+          },
+          {
+            "href": "/practical/japan-theme-park-couple/",
+            "text": "일본 테마파크 커플 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "nijigen-no-mori-guide",
+        "title": "니지겐노모리 여행 가이드",
+        "description": "애니메이션·캐릭터 테마 체험과 아와지시마 여행을 함께 즐기는 방법.",
+        "image": "/images/city.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-theme-park-guide/",
+            "text": "일본 테마파크 여행 가이드 →"
+          },
+          {
+            "href": "/practical/fujiq-highland-guide/",
+            "text": "후지큐 하이랜드 여행 가이드 →"
+          },
+          {
+            "href": "/practical/nagashima-spaland-guide/",
+            "text": "나가시마 스파랜드 여행 가이드 →"
+          },
+          {
+            "href": "/practical/ghibli-museum-guide/",
+            "text": "지브리 미술관 처음 가는 법 →"
+          },
+          {
+            "href": "/practical/japan-theme-park-couple/",
+            "text": "일본 테마파크 커플 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "osaka-fukuoka-highway-bus",
+        "title": "오사카 후쿠오카 고속버스 여행",
+        "description": "장거리 버스로 두 도시를 이동할 때 시간·휴식·도착 후 동선을 정리.",
+        "image": "/images/fukuoka.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-airport-bus-guide/",
+            "text": "일본 공항버스 처음 타는 법 →"
+          },
+          {
+            "href": "/practical/japan-highway-bus-booking/",
+            "text": "일본 고속버스 처음 예약하는 법 →"
+          },
+          {
+            "href": "/practical/japan-night-bus-checklist/",
+            "text": "일본 야간버스 타기 전 체크리스트 →"
+          },
+          {
+            "href": "/practical/tokyo-osaka-bus-vs-shinkansen/",
+            "text": "도쿄 오사카 야간버스 vs 신칸센 →"
+          },
+          {
+            "href": "/practical/japan-bus-seat-types/",
+            "text": "일본 버스 좌석 종류 고르는 법 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "setsugekka-train",
+        "title": "에치고 토키메키 설월화 열차",
+        "description": "산과 바다 풍경, 지역 식재료를 함께 즐기는 니가타 리조트 열차.",
+        "image": "/images/transport.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-sightseeing-train-guide/",
+            "text": "일본 관광열차 여행 입문 →"
+          },
+          {
+            "href": "/practical/kyoto-tango-kuromatsu/",
+            "text": "교토 단고 쿠로마츠 열차 여행 →"
+          },
+          {
+            "href": "/practical/shimabara-cafe-train/",
+            "text": "시마바라 카페트레인 여행 →"
+          },
+          {
+            "href": "/practical/japan-sightseeing-train-couple/",
+            "text": "일본 관광열차 커플 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "shimabara-cafe-train",
+        "title": "시마바라 카페트레인 여행",
+        "description": "시마바라 반도의 풍경과 카페 경험을 함께 즐기는 관광열차.",
+        "image": "/images/transport.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-sightseeing-train-guide/",
+            "text": "일본 관광열차 여행 입문 →"
+          },
+          {
+            "href": "/practical/kyoto-tango-kuromatsu/",
+            "text": "교토 단고 쿠로마츠 열차 여행 →"
+          },
+          {
+            "href": "/practical/setsugekka-train/",
+            "text": "에치고 토키메키 설월화 열차 →"
+          },
+          {
+            "href": "/practical/japan-sightseeing-train-couple/",
+            "text": "일본 관광열차 커플 여행 →"
+          }
+        ],
+        "genericText": true
+      },
+      {
+        "slug": "tokyo-osaka-bus-vs-shinkansen",
+        "title": "도쿄 오사카 야간버스 vs 신칸센",
+        "description": "가격·시간·숙박 대체효과를 기준으로 야간버스와 신칸센을 비교.",
+        "image": "/images/osaka.jpg",
+        "currentHeadings": [
+          "핵심부터 보기",
+          "여행 전에 확인하세요",
+          "현지에서 막히면"
+        ],
+        "existingRelated": [
+          {
+            "href": "/practical/japan-airport-bus-guide/",
+            "text": "일본 공항버스 처음 타는 법 →"
+          },
+          {
+            "href": "/practical/japan-highway-bus-booking/",
+            "text": "일본 고속버스 처음 예약하는 법 →"
+          },
+          {
+            "href": "/practical/japan-night-bus-checklist/",
+            "text": "일본 야간버스 타기 전 체크리스트 →"
+          },
+          {
+            "href": "/practical/osaka-fukuoka-highway-bus/",
+            "text": "오사카 후쿠오카 고속버스 여행 →"
+          },
+          {
+            "href": "/practical/japan-bus-seat-types/",
+            "text": "일본 버스 좌석 종류 고르는 법 →"
+          }
+        ],
+        "genericText": true
+      }
+    ]
+  }
+}
