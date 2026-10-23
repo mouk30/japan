@@ -1,0 +1,35 @@
+name: V134 five verified Commons ferry cover photographs public desktop mobile QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v134_live_real_ferry_qa.py'
+      - '.github/workflows/v134-five-guide-public-image-qa.yml'
+permissions:
+  contents: read
+jobs:
+  production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Verify 5 original pages with photo, actual source and license in PC 1440 and mobile 390
+        run: |
+          for attempt in 1 2 3; do
+            if python scripts/v134_live_real_ferry_qa.py; then exit 0; fi
+            echo "V134 production deployment attempt $attempt of 3"
+            if [ "$attempt" -lt 3 ]; then sleep 30; fi
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v134-five-ferry-real-photos-pc-mobile-10-screenshots
+          path: audit-output/v134/
+          retention-days: 45
