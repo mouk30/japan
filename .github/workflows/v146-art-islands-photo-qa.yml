@@ -7,7 +7,7 @@ on:
       - "scripts/v146_*.py"
   workflow_dispatch:
 concurrency:
-  group: v146-art-islands-photo
+  group: v146-art-islands-photo-final
   cancel-in-progress: true
 permissions:
   contents: write
