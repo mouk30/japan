@@ -17,11 +17,12 @@ from urllib.request import Request, urlopen
 
 ORIGIN="https://www.nipponferry.com"
 PORTS={
+    # Real photo of Kokusai-dori (not the Naha passenger berth). Keep that distinction in the article.
     "naha-cruise-terminal-kokusai-dori": {
         "official": "https://nahaport.jp/english/introduction/cruise_promotion/",
         "required": ["관리조합 사무소", "실제 접안 선석"],
         "forbidden": ["나하 크루즈터미널의 주소를 나하시 돈도초 2-1로 안내합니다"],
-        "image_kind": "ai",
+        "image_kind": "real",
     },
     "ishigaki-cruise-kabira-bay-bus-taxi": {
         "official": "https://www.city.ishigaki.okinawa.jp/soshiki/kowan/kuruzusenn/370.html",
@@ -29,11 +30,12 @@ PORTS={
         "forbidden": [],
         "image_kind": "real",
     },
+    # Real Hakata Station photograph (not the cruise terminal). Do not demand obsolete AI disclosure.
     "hakata-port-hakata-station-access": {
         "official": "https://hakataport.com/center/",
         "required": ["국제여객터미널", "추가 도보 약 500m"],
         "forbidden": [],
-        "image_kind": "ai",
+        "image_kind": "real",
     },
     "nagasaki-matsugae-glover-garden-cruise-access": {
         "official": "https://www.discover-nagasaki.com/en/transit/100790",
