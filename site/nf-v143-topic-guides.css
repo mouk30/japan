@@ -1,0 +1,48 @@
+/* V143 — Topic-first information, photo rights and mobile readability.
+   This sheet only affects 15 existing deep guides that opt in to .v143-*.
+*/
+.v143-topic{border:1px solid #d8e5eb!important;border-radius:18px!important;padding:clamp(20px,3vw,32px)!important;background:#fff!important;box-shadow:0 9px 30px rgba(12,48,73,.06)}
+.v143-topic>h2{font-size:clamp(23px,2.5vw,31px)!important;line-height:1.35!important;letter-spacing:-.04em;color:#123b57!important;font-weight:850!important;margin:0 0 9px!important}
+.v143-topic>.v143-lead{color:#49687b!important;font-size:clamp(16px,1.3vw,18px)!important;line-height:1.65!important;margin:0 0 22px!important;word-break:keep-all}
+.v143-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:0 0 23px}
+.v143-guide-step{position:relative;min-width:0;background:#f5fafc;border:1px solid #dce8ee;border-radius:14px;padding:19px 20px 21px;overflow-wrap:break-word}
+.v143-guide-step .v143-no{display:inline-flex;align-items:center;justify-content:center;background:#dfedf4;border-radius:7px;min-width:32px;height:30px;padding:0 6px;color:#164e6b;font-size:13px;font-weight:900;letter-spacing:.04em;margin-bottom:10px}
+.v143-guide-step h3{color:#123d59!important;font-size:clamp(19px,1.6vw,22px)!important;line-height:1.38!important;font-weight:850!important;margin:0 0 10px!important;letter-spacing:-.045em;word-break:keep-all}
+.v143-guide-step p{font-size:16px!important;line-height:1.75!important;color:#3f5d6c!important;margin:0!important;word-break:keep-all}
+.v143-verified-links{background:#f4f8f1;border:1px solid #cbdcc6;border-radius:12px;padding:17px 20px;color:#234e3c;font-size:16px;line-height:1.7}
+.v143-verified-links strong{display:block;color:#193f31;font-size:17px;margin:0 0 9px}
+.v143-verified-links a{display:inline-flex;align-items:center;padding:9px 13px;margin:0 9px 8px 0;border-radius:9px;border:1px solid #a8c4b6;background:white;color:#124f65!important;font-weight:800!important;font-size:15px;text-decoration:underline;text-underline-offset:3px}
+.v143-verified-links p{font-size:14px!important;line-height:1.7!important;color:#506a5e!important;margin:8px 0 0!important;word-break:keep-all}
+.v143-snow-photo{margin:4px 0 24px;overflow:hidden;border-radius:15px;background:#f2f5f7;border:1px solid #d8e5eb}
+.content-main .v143-snow-photo .article-cover{display:block;width:100%!important;height:auto!important;max-height:475px!important;aspect-ratio:4/3!important;object-fit:cover!important;object-position:center 47%;border-radius:0!important;margin:0!important}
+.v143-snow-photo figcaption{font-size:13px!important;line-height:1.65!important;padding:12px 18px;background:#f9fbfc;color:#4a6577;word-break:keep-all}
+.v143-snow-photo figcaption a{color:#075d86!important;text-decoration:underline;text-underline-offset:3px}
+.v143-explainer{width:100%;margin:3px 0 24px;padding:22px;border-radius:17px;background:linear-gradient(130deg,#0c3552,#1a5d78);color:#fff;border:1px solid #1b5876;box-sizing:border-box}
+.v143-visual-head{display:flex;flex-direction:column;gap:9px;margin:0 0 20px}
+.v143-visual-head>span{font-size:12px;letter-spacing:.12em;font-weight:850;color:#c8dfe9}
+.v143-visual-head>strong{font-size:clamp(22px,2.5vw,32px);font-weight:900;letter-spacing:-.05em;line-height:1.35;word-break:keep-all}
+.v143-visual-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.v143-visual-cols>div{display:flex;flex-direction:column;gap:14px;min-height:115px;justify-content:center;align-items:center;text-align:center;padding:15px 11px;border:1px solid rgba(228,245,252,.32);background:rgba(255,255,255,.12);border-radius:13px}
+.v143-visual-cols b{font-size:clamp(22px,2.8vw,32px);letter-spacing:-.04em;color:#ffe2a9;line-height:1.25}
+.v143-visual-cols span{font-size:15px;line-height:1.5;font-weight:700;color:#f4f7fa;word-break:keep-all}
+.v143-explainer figcaption{font-size:13px;line-height:1.7;color:#e2ecf1;margin-top:17px}
+.v143-next{padding:22px;margin:24px 0;background:#f8fafb;border:1px solid #dae6ea;border-radius:17px}
+.v143-next h2{font-size:clamp(20px,2vw,25px)!important;font-weight:900!important;color:#143b56!important;margin:0 0 15px!important}
+.v143-next>a{display:flex;justify-content:space-between;align-items:center;min-height:49px;padding:11px 14px;margin:9px 0;border:1px solid #d4e3ea;border-radius:10px;background:white;color:#075f88!important;font-weight:800;font-size:16px!important;line-height:1.55;text-decoration:none;word-break:keep-all}
+.v143-next>a:hover,.v143-next>a:focus-visible{background:#e8f3fa!important;border-color:#76afc9;outline-offset:2px}
+@media(max-width:700px){
+ .v143-topic{padding:18px 15px!important}
+ .v143-guide-grid{grid-template-columns:minmax(0,1fr);gap:12px}
+ .v143-guide-step{padding:17px}
+ .v143-guide-step h3{font-size:20px!important}
+ .v143-guide-step p{font-size:16px!important;line-height:1.75!important}
+ .v143-visual-cols{grid-template-columns:1fr;gap:9px}
+ .v143-visual-cols>div{min-height:70px;flex-direction:row;justify-content:flex-start;gap:14px;text-align:left;padding:15px}
+ .v143-visual-cols b{font-size:23px;min-width:74px;text-align:center}
+ .v143-explainer{padding:17px}
+ .v143-verified-links{padding:15px}
+ .v143-snow-photo figcaption{font-size:12px!important;padding:11px 13px}
+ .content-main .v143-snow-photo .article-cover{max-height:380px!important}
+ .v143-next{padding:16px 12px}
+ .v143-next>a{font-size:16px!important}
+}
