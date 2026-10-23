@@ -1,0 +1,52 @@
+name: V145 Aokata berth and church factual correction
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/v145_correct_aokata_official_sources.cjs
+      - .github/workflows/v145-aokata-factual-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  factcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Correct only Aokata related-source links and advance-visit rule
+        run: node scripts/v145_correct_aokata_official_sources.cjs
+      - name: Verify source, preserved page SEO and original ten-page QA
+        run: |
+          node - <<'NODE'
+          const fs=require('fs'),assert=require('assert'),crypto=require('crypto');
+          const h=fs.readFileSync('site/things-to-do/aokata-cruise-port-day-trip/index.html','utf8');
+          const r=JSON.parse(fs.readFileSync('audit-reports/v145/verified-maritime-content-audit.json','utf8'));
+          const m=JSON.parse(fs.readFileSync('scripts/v145_maritime_content.json','utf8'));
+          const x=r.updated.find(x=>x.url==='/things-to-do/aokata-cruise-port-day-trip/');
+          assert.strictEqual(crypto.createHash('sha256').update(h).digest('hex'),x.newSha256);
+          assert(h.includes('실제 내부 방문에는 사전 연락이 필요하다는'));
+          assert(h.includes('https://shinkamigoto.nagasaki-tabinet.com/junrei/10239'));
+          assert(h.includes('https://www.mlit.go.jp/kankocho/cruise/detail/061/index.html'));
+          assert.strictEqual(m.entries['aokata-cruise-port-day-trip'].sources[1][1],
+            'https://shinkamigoto.nagasaki-tabinet.com/junrei/10239');
+          assert.strictEqual((h.match(/class="nf145-step"/g)||[]).length,5);
+          assert.strictEqual(r.updated.length,10);
+          console.log('Aokata factual correction + 10 guide manifest PASS');
+          NODE
+          npm run build
+          node scripts/v143_contextual_link_audit.cjs
+      - name: Commit factual correction and synchronized audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/v145_maritime_content.json site/things-to-do/aokata-cruise-port-day-trip/index.html audit-reports/v145/verified-maritime-content-audit.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'V145 correct Aokata berth official info and church advance contact'
+          git pull --rebase origin main
+          git push origin HEAD:main
