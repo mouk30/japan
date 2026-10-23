@@ -1,5 +1,15 @@
 /* V143 — replace generic NEXT QUESTION cards with genuinely related in-site links.
    Only links already present in each page's related section; no new URLs. */
+const fs=require('fs');
+const path=require('path');
+const DIST=path.resolve(__dirname,'../dist');
+function existsTarget(href){
+ const clean=href.split(/[?#]/)[0].replace(/^\/+/, '');
+ const full=path.resolve(DIST,clean);
+ if(!full.startsWith(DIST+path.sep))return false;
+ return fs.existsSync(full) && fs.statSync(full).isFile() ||
+   fs.existsSync(path.join(full,'index.html'));
+}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
 function plain(s){return s.replace(/<[^>]*>/g,'').replace(/\s+/g,' ').replace(/[→↗]+$/g,'').trim()}
 function transformJourney(html,pathname){
@@ -8,7 +18,7 @@ function transformJourney(html,pathname){
  if(!related)return {html,changed:false};
  const options=[...related[1].matchAll(/<a\s+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)]
   .map(m=>({href:m[1],name:plain(m[2])}))
-  .filter(x=>/^\/[a-z]/i.test(x.href)&&x.href!==pathname&&x.name.length>=5);
+  .filter(x=>/^\/[a-z]/i.test(x.href)&&x.href!==pathname&&x.name.length>=5&&existsTarget(x.href));
  const unique=new Map();
  for(const x of options){if(!unique.has(x.href))unique.set(x.href,x)}
  const links=[...unique.values()].slice(0,3);
