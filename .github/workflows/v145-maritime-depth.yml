@@ -1,0 +1,98 @@
+name: V145 ten original maritime destination guide upgrades
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/v145_maritime_content.json
+      - scripts/v145_apply_maritime_depth.cjs
+      - scripts/v145_maritime_browser_qa.py
+      - site/nf-v145-maritime-deep.css
+      - .github/workflows/v145-maritime-depth.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: v145-maritime-depth
+  cancel-in-progress: false
+jobs:
+  modify-verify-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Add verified topic-specific steps to 10 original articles
+        run: |
+          if [ -f audit-reports/v145/verified-maritime-content-audit.json ]; then
+            echo "V145 already applied; do not overwrite existing enhanced content."
+          else
+            node scripts/v145_apply_maritime_depth.cjs
+          fi
+      - name: Validate exact ten URLs, original photo nodes, SEO and internal links
+        run: |
+          node - <<'NODE'
+          const fs=require('fs'),assert=require('assert'),path=require('path'),crypto=require('crypto');
+          const r=JSON.parse(fs.readFileSync('audit-reports/v145/verified-maritime-content-audit.json','utf8'));
+          const entries=JSON.parse(fs.readFileSync('scripts/v145_maritime_content.json','utf8')).entries;
+          assert.strictEqual(r.updated.length,10);
+          assert.strictEqual(r.added_steps,50);
+          assert.strictEqual(r.images_modified,0);
+          assert.strictEqual(r.new_posts,0);
+          for(const page of r.updated){
+            const name=page.url.split('/').filter(Boolean).pop();
+            const f=path.join('site/things-to-do',name,'index.html');
+            const s=fs.readFileSync(f,'utf8');
+            assert.strictEqual(crypto.createHash('sha256').update(s).digest('hex'),page.newSha256);
+            assert(s.includes('data-nf145="10-existing-guides"'));
+            assert(s.includes('<link rel="canonical" href="https://www.nipponferry.com'+page.url+'"'));
+            assert.strictEqual((s.match(/class="nf145-step"/g)||[]).length,5);
+            assert.strictEqual((s.match(/class="nf145-official-links"/g)||[]).length,1);
+            assert.strictEqual((s.match(/class="nf145-related"/g)||[]).length,1);
+            for(const rel of entries[name].related) {
+              const target=path.join('site/things-to-do',rel,'index.html');
+              assert(fs.existsSync(target),'Missing internal: '+rel);
+            }
+          }
+          console.log('V145 10 existing pages x five unique travel/return steps PASS');
+          NODE
+      - name: Build existing site, recheck all contextual links and SEO
+        run: |
+          npm run build
+          node scripts/v143_contextual_link_audit.cjs
+      - name: Install Chromium for responsive QA
+        run: |
+          python -m pip install playwright
+          python -m playwright install chromium
+      - name: Run 30 live HTML browser checks at 320 390 1440 widths
+        run: |
+          python -m http.server 8789 --bind 127.0.0.1 --directory dist >/tmp/v145-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 2
+          python scripts/v145_maritime_browser_qa.py
+      - name: Commit only enhanced pages and audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/things-to-do/ audit-reports/v145/verified-maritime-content-audit.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'V145 enrich 10 existing Setouchi Amami Goto Shikoku articles with port-to-return guidance'
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Upload screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v145-existing-10-maritime-browser-and-seo-qa
+          path: |
+            audit-output/v145/
+            audit-reports/v145/verified-maritime-content-audit.json
+          retention-days: 40
+          if-no-files-found: warn
