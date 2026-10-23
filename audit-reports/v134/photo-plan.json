@@ -1,0 +1,62 @@
+{
+  "version": "V134",
+  "date": "2026-10-23",
+  "scope": "Five first route-guide pages chosen from remaining 267 photo-attribution candidates; three distinct location-verified Commons photos. No added articles or KIDS pages. New Camellia is as seen 2026 not proof of present sailing.",
+  "entries": [
+    {
+      "slug": "busan-fukuoka-ferry",
+      "picture": "new-camellia"
+    },
+    {
+      "slug": "busan-fukuoka-ferry-price",
+      "picture": "new-camellia"
+    },
+    {
+      "slug": "busan-fukuoka-timetable",
+      "picture": "new-camellia"
+    },
+    {
+      "slug": "busan-hitakatsu-ferry",
+      "picture": "hitakatsu-terminal"
+    },
+    {
+      "slug": "busan-izuhara-ferry",
+      "picture": "izuhara-terminal"
+    }
+  ],
+  "photos": [
+    {
+      "key": "new-camellia",
+      "filename": "釜山港ニューかめりあ.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%E9%87%9C%E5%B1%B1%E6%B8%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%8B%E3%82%81%E3%82%8A%E3%81%82.jpg",
+      "date": "2026-07-01",
+      "author": "Midnight cadet",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "subject": "2026년 7월 1일 부산항에서 촬영한 뉴카멜리아 국제여객선. 객실·승선게이트·당일 출항 확인 사진은 아닙니다.",
+      "output": "/images/venues/nf-v134-new-camellia-busan-2026-real.webp"
+    },
+    {
+      "key": "hitakatsu-terminal",
+      "filename": "International Terminal of Hitakatsu Port.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:International_Terminal_of_Hitakatsu_Port.jpg",
+      "date": "2017-09-24",
+      "author": "Ackeyyama",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "2017년 촬영한 대마도 히타카츠항 국제터미널 실제 건물. 2026년 운영시간·선사 입국심사 동선의 증거는 아닙니다.",
+      "output": "/images/venues/nf-v134-hitakatsu-international-terminal-real.webp"
+    },
+    {
+      "key": "izuhara-terminal",
+      "filename": "Izuhara port, terminal.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Izuhara_port%2C_terminal.jpg",
+      "date": "2017-08-12",
+      "author": "Saigen Jiro",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "subject": "2017년 촬영한 대마도 이즈하라항 터미널 실제 모습. 사진은 당시 시설 기록이며 현재 국제선 접안·출입국 업무를 보증하지 않습니다.",
+      "output": "/images/venues/nf-v134-izuhara-terminal-real.webp"
+    }
+  ]
+}
