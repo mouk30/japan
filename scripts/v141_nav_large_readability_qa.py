@@ -7,9 +7,10 @@ from playwright.sync_api import sync_playwright
 import json,os
 root=Path(__file__).resolve().parents[1]
 out=root/"audit-output/v141";out.mkdir(parents=True,exist_ok=True)
+BASE=os.environ.get("NF_NAV_QA_BASE","http://127.0.0.1:8771").rstrip("/")
 urls=["/","/japan/tokyo/","/things-to-do/cruise-ports/","/food/"]
 widths=[320,390,768,1200,1440]
-report={"version":"V141","date":"2026-10-23","sites":urls,"widths":widths,"results":[],"errors":[],"screenshots":[]}
+report={"version":"V141","date":"2026-10-23","base":BASE,"sites":urls,"widths":widths,"results":[],"errors":[],"screenshots":[]}
 with sync_playwright() as pw:
  browser=pw.chromium.launch(headless=True,args=["--no-sandbox"])
  for url in urls:
@@ -17,7 +18,7 @@ with sync_playwright() as pw:
    page=browser.new_page(viewport={"width":width,"height":900},device_scale_factor=1)
    issues=[]
    try:
-    response=page.goto("http://127.0.0.1:8771"+url,wait_until="domcontentloaded",timeout=45000)
+    response=page.goto(BASE+url,wait_until="domcontentloaded",timeout=45000)
     if response.status!=200:issues.append("HTTP "+str(response.status))
     header=page.locator(".nf301-header")
     if header.count()!=1:raise RuntimeError("no unified header")
@@ -70,6 +71,9 @@ with sync_playwright() as pw:
       toggle.click()
       panel=page.locator("#nf301-mobile-panel")
       if panel.get_attribute("data-open")!="true":issues.append("mobile menu failed to open")
+      if page.locator(".kakao-float").count()>0:
+        hidden=page.locator(".kakao-float").evaluate("(e)=>getComputedStyle(e).visibility==='hidden'")
+        if not hidden:issues.append("floating Kakao button still covers open mobile menu")
       group=panel.locator('.nf301-mob-group[data-mob-group="japan"]')
       btn=group.locator(".nf301-mob-expand")
       btn.click()
