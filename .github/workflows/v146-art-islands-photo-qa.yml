@@ -1,11 +1,14 @@
 name: "V146 art-islands photos and responsive QA"
 on:
-  push:
-    branches:
-      - v146-art-islands-pilot-20261023
+  pull_request:
+    branches: [main]
     paths:
       - ".github/workflows/v146-art-islands-photo-qa.yml"
+      - "scripts/v146_*.py"
   workflow_dispatch:
+concurrency:
+  group: v146-art-islands-photo
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
