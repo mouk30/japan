@@ -1,0 +1,39 @@
+name: V144 public site 51 specific guide and image matching QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/v144_public_guide_qa.py
+      - .github/workflows/v144-public-depth-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Chromium
+        run: |
+          python -m pip install playwright
+          python -m playwright install chromium
+      - name: Verify actual 51 published pages, links and visual/SEO
+        run: |
+          for attempt in 1 2; do
+            if python scripts/v144_public_guide_qa.py; then exit 0; fi
+            echo "V144 production QA attempt $attempt did not pass"
+            if [ "$attempt" -lt 2 ]; then sleep 25; fi
+          done
+          exit 1
+      - name: Store rendered mobile and desktop screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v144-public-51-section-visual-and-depth-QA
+          path: audit-output/v144/
+          retention-days: 40
+          if-no-files-found: warn
