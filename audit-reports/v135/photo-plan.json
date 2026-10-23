@@ -1,0 +1,71 @@
+{
+  "version": "V135",
+  "review_date": "2026-10-23",
+  "scope": "Existing ten guide pages, five Shimonoseki and five Osaka; two independently photographed location-confirmed Commons assets; original SEO untouched, neither current operation nor exact passenger gate guaranteed.",
+  "photos": [
+    {
+      "key": "shimonoseki-international-terminal",
+      "filename": "Shimonoseki International Terminal 2021.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shimonoseki_International_Terminal_2021.jpg",
+      "date": "2021-03-09",
+      "author": "なしはな",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "2021년 3월 촬영한 시모노세키항 국제터미널 실제 전경. 특정 선박의 2026년 접안 게이트·현장 승선수속·셔틀운행 증거는 아닙니다.",
+      "output": "/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp"
+    },
+    {
+      "key": "osaka-nanko-ferry-terminal",
+      "filename": "Osaka South Port Ferry Terminal 20190130.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Osaka_South_Port_Ferry_Terminal_20190130.jpg",
+      "date": "2019-01-30",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "2019년 1월 촬영한 오사카 남항 일반 페리터미널 실제 사진. 판스타 부산 국제선 전용 승선 장소·코스모스퀘어 셔틀 집결지의 사진으로 혼동하지 말 것.",
+      "output": "/images/venues/nf-v135-osaka-nanko-ferry-terminal-2019-real.webp"
+    }
+  ],
+  "entries": [
+    {
+      "slug": "busan-shimonoseki-ferry",
+      "picture": "shimonoseki-international-terminal"
+    },
+    {
+      "slug": "busan-shimonoseki-ferry-price",
+      "picture": "shimonoseki-international-terminal"
+    },
+    {
+      "slug": "busan-shimonoseki-timetable",
+      "picture": "shimonoseki-international-terminal"
+    },
+    {
+      "slug": "shimonoseki-busan-ferry",
+      "picture": "shimonoseki-international-terminal"
+    },
+    {
+      "slug": "shimonoseki-port-to-karato",
+      "picture": "shimonoseki-international-terminal"
+    },
+    {
+      "slug": "busan-osaka-ferry",
+      "picture": "osaka-nanko-ferry-terminal"
+    },
+    {
+      "slug": "busan-osaka-ferry-price",
+      "picture": "osaka-nanko-ferry-terminal"
+    },
+    {
+      "slug": "busan-osaka-timetable",
+      "picture": "osaka-nanko-ferry-terminal"
+    },
+    {
+      "slug": "osaka-busan-ferry",
+      "picture": "osaka-nanko-ferry-terminal"
+    },
+    {
+      "slug": "osaka-port-to-namba",
+      "picture": "osaka-nanko-ferry-terminal"
+    }
+  ]
+}
