@@ -26,7 +26,13 @@ jobs:
       - name: Prepare photograph verification and WebP renderer
         run: python -m pip install pillow
       - name: Import licensed original and deepen 15 existing pages
-        run: python scripts/v143_deep_section_content.py
+        run: |
+          if [ -f audit-reports/v143/sitewide-content-and-image-audit.json ] &&
+             [ -f site/images/venues/nf-v143-sapporo-snow-festival-2014-real.webp ]; then
+            echo "V143 already applied; preserve verified original files and validate them below"
+          else
+            python scripts/v143_deep_section_content.py
+          fi
       - name: Validate page sources, document links and image provenance
         run: |
           python - <<'PY'
