@@ -43,7 +43,7 @@ with sync_playwright() as pw:
       if data["sub"]["display"]=="none":issues.append("subrow hidden")
       for group in ["japan","things","people","practical"]:
         item=page.locator(f'.nf301-item[data-dropdown="{group}"]')
-        await item.locator(".nf301-mainlink").hover()
+        item.locator(".nf301-mainlink").hover()
         fly=item.locator(".nf301-flyout")
         try:fly.wait_for(state="visible",timeout=2000)
         except:issues.append(group+" menu didn't open");continue
@@ -67,12 +67,12 @@ with sync_playwright() as pw:
     else:
       toggle=header.locator(".nf301-toggle")
       if not toggle.is_visible():issues.append("mobile hamburger not visible")
-      await toggle.click()
+      toggle.click()
       panel=page.locator("#nf301-mobile-panel")
       if panel.get_attribute("data-open")!="true":issues.append("mobile menu failed to open")
       group=panel.locator('.nf301-mob-group[data-mob-group="japan"]')
       btn=group.locator(".nf301-mob-expand")
-      await btn.click()
+      btn.click()
       opts=group.locator(".nf301-mob-options")
       if opts.get_attribute("data-open")!="true":issues.append("mobile submenu did not expand")
       font=opts.locator("a").first.evaluate("(e)=>parseFloat(getComputedStyle(e).fontSize)")
@@ -82,7 +82,7 @@ with sync_playwright() as pw:
       if url=="/" and width in (320,390):
         panel.screenshot(path=str(out/f"home-mobile-menu-{width}.png"),animations="disabled",timeout=30000)
         report["screenshots"].append(f"home-mobile-menu-{width}.png")
-      await page.keyboard.press("Escape")
+      page.keyboard.press("Escape")
       if panel.get_attribute("data-open")!="false":issues.append("mobile Escape not closing")
     report["results"].append({"path":url,"width":width,"issues":issues})
    except Exception as e:
