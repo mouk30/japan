@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-23T04:01:18.991Z",
+  "date": "2026-10-23T09:18:30.935Z",
   "siteTotal": 1276,
   "unifiedHeaders": 1270,
   "withoutOriginalHeader": 6,
@@ -92,8 +92,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": null,
@@ -111,8 +111,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": null,
@@ -206,8 +206,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
@@ -225,8 +225,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
@@ -235,7 +235,7 @@
     {
       "pathname": "/japan/tokyo/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -249,9 +249,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/",
@@ -322,8 +320,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
@@ -341,8 +339,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
@@ -351,7 +349,7 @@
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -365,9 +363,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
@@ -438,8 +434,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
@@ -457,8 +453,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
@@ -467,7 +463,7 @@
     {
       "pathname": "/japan-cruise/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -481,9 +477,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/japan-cruise/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/japan-cruise/",
@@ -554,8 +548,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/japan-cruise/",
@@ -573,8 +567,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/japan-cruise/",
@@ -583,7 +577,7 @@
     {
       "pathname": "/booking/japan-cruise/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -597,9 +591,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": null,
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/booking/japan-cruise/",
@@ -670,8 +662,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": null,
@@ -689,8 +681,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": null,
@@ -699,7 +691,7 @@
     {
       "pathname": "/things-to-do/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -713,9 +705,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/",
@@ -786,8 +776,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
@@ -805,8 +795,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
@@ -815,7 +805,7 @@
     {
       "pathname": "/things-to-do/cruise-ports/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -829,9 +819,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/cruise-ports/",
@@ -902,8 +890,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
@@ -921,8 +909,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
@@ -931,7 +919,7 @@
     {
       "pathname": "/things-to-do/travel-companions/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -945,9 +933,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/travel-companions/",
@@ -1018,8 +1004,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/travel-companions/",
@@ -1037,8 +1023,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/travel-companions/",
@@ -1047,7 +1033,7 @@
     {
       "pathname": "/things-to-do/naha-cruise-port-day-trip/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1061,9 +1047,7 @@
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/things-to-do/naha-cruise-port-day-trip/",
@@ -1134,8 +1118,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
@@ -1153,8 +1137,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 2,
       "matched": "/things-to-do/cruise-ports/",
@@ -1248,8 +1232,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 43,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
@@ -1267,8 +1251,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 43,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
@@ -1362,8 +1346,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
@@ -1381,8 +1365,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/things-to-do/",
@@ -1391,7 +1375,7 @@
     {
       "pathname": "/food/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1405,9 +1389,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/food/",
@@ -1478,8 +1460,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
@@ -1497,8 +1479,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
@@ -1507,7 +1489,7 @@
     {
       "pathname": "/shopping/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1521,9 +1503,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/shopping/",
@@ -1594,8 +1574,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
@@ -1613,8 +1593,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
@@ -1623,7 +1603,7 @@
     {
       "pathname": "/seasons/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1637,9 +1617,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/seasons/",
@@ -1710,8 +1688,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
@@ -1729,8 +1707,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
@@ -1739,7 +1717,7 @@
     {
       "pathname": "/photo-spots/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1753,9 +1731,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/photo-spots/",
@@ -1826,8 +1802,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
@@ -1845,8 +1821,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/",
@@ -1855,7 +1831,7 @@
     {
       "pathname": "/voucher/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1869,9 +1845,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/practical/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/voucher/",
@@ -1942,8 +1916,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/practical/",
@@ -1961,8 +1935,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/practical/",
@@ -1971,7 +1945,7 @@
     {
       "pathname": "/practical/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -1985,9 +1959,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/practical/",
@@ -2058,8 +2030,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
@@ -2077,8 +2049,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
@@ -2087,7 +2059,7 @@
     {
       "pathname": "/couple/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -2101,9 +2073,7 @@
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/travel-companions/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/couple/",
@@ -2174,8 +2144,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/travel-companions/",
@@ -2193,8 +2163,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 1,
       "matched": "/things-to-do/travel-companions/",
@@ -2203,7 +2173,7 @@
     {
       "pathname": "/life/don-quijote-first-guide/",
       "width": 320,
-      "doc": 328,
+      "doc": 320,
       "screen": 320,
       "headerWidth": 320,
       "primaryDisplay": "none",
@@ -2217,9 +2187,7 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
-      "issues": [
-        "horizontal overflow 328"
-      ]
+      "issues": []
     },
     {
       "pathname": "/life/don-quijote-first-guide/",
@@ -2290,8 +2258,8 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
@@ -2309,32 +2277,15 @@
       "controlsDisplay": "none",
       "mainCount": 6,
       "subCount": 8,
-      "logoWidth": 39,
-      "barHeight": 73,
+      "logoWidth": 42,
+      "barHeight": 78,
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/practical/",
       "issues": []
     }
   ],
-  "errors": [
-    "/japan/tokyo/ 320: horizontal overflow 328",
-    "/japan/tokyo/disney-dpa-app-purchase/ 320: horizontal overflow 328",
-    "/japan-cruise/ 320: horizontal overflow 328",
-    "/booking/japan-cruise/ 320: horizontal overflow 328",
-    "/things-to-do/ 320: horizontal overflow 328",
-    "/things-to-do/cruise-ports/ 320: horizontal overflow 328",
-    "/things-to-do/travel-companions/ 320: horizontal overflow 328",
-    "/things-to-do/naha-cruise-port-day-trip/ 320: horizontal overflow 328",
-    "/food/ 320: horizontal overflow 328",
-    "/shopping/ 320: horizontal overflow 328",
-    "/seasons/ 320: horizontal overflow 328",
-    "/photo-spots/ 320: horizontal overflow 328",
-    "/voucher/ 320: horizontal overflow 328",
-    "/practical/ 320: horizontal overflow 328",
-    "/couple/ 320: horizontal overflow 328",
-    "/life/don-quijote-first-guide/ 320: horizontal overflow 328"
-  ],
+  "errors": [],
   "warnings": [],
   "navDestinations": [
     "/",
@@ -2370,5 +2321,5 @@
     "V304",
     "V305"
   ],
-  "passed": false
+  "passed": true
 }
