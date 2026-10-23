@@ -48,15 +48,23 @@
 
 **실제 게시 원칙**: 유효한 현장 촬영 사진을 배포 경로 `site/images/editorial/` 내 로컬 WebP로 보관하고, 원본저작자·촬영연도·원본링크·CC 조건과 변환/크롭 사실을 화면에 표시. AI 재현·콜라주·원본 불명 사진 사용 금지. 이미지가 준비되기 전에 이미지 경로를 HTML에 추가하지 않음.
 
-## 발행 전 검수 미완료 항목
-- [x] 두 시범 HTML 원고와 상호링크·기존 페이지 연결
-- [x] 각 원고 공식원문·귀선 체크리스트·canonical·JSON-LD
-- [x] 2개 신규 URL 사이트맵 작업 브랜치에 등록
-- [x] GitHub 기존 프리미엄 기사 수 검사: 81 + 2편 = 83 처리
-- [ ] 사진 원본 내려받기 / WebP 4:3 변환 / 각 페이지 실제 이미지 연결 / 공개 이미지 200 응답
-- [ ] 실제 모바일·태블릿·PC 렌더링 및 키보드 접근성, 외부링크 검사
-- [ ] GitHub Actions 전체 초록 상태 재확인; 나하·하카타 기존 이미지 안내 QA 실패 별도 처리
-- [ ] 배포 후 공개 URL HTTP/SEO/반응형 확인
-- [ ] 발행 여부 판단: 해당 링크 방문자와 예약 CTA 성과를 먼저 관찰하고, 성과가 확인된 경우만 후속 신규 주제를 선별
+## V146 사진·모바일 QA 결과 (2026-10-23)
+- **실사 두 장 로컬 WebP 적용 완료:** 이미지 원본을 Wikimedia Commons에서 확인하여 GitHub Actions 러너가 직접 다운로드하고 중심 4:3 크롭·1200×900 WebP 변환. `site/images/editorial/v146-naoshima-miyanoura-ferry-terminal-2025.webp`, `site/images/editorial/v146-teshima-art-museum-exterior-2013.webp`
+- 두 페이지의 ALT, 저작자·촬영시점·원본 URL·CC 라이선스·4:3 크롭 및 WebP 변환 표시, OG/Twitter image, JSON-LD Article.image 반영
+- **Chromium 실화면 QA 8/8 통과:** 320 / 390 / 768 / 1440px × 나오시마·데시마 2편. 이미지 실제 로딩·1200×900·4:3 표시·가로 넘침 없음·H1·JSON-LD·공식링크·귀선 점검표 확인
+- 실행 결과와 실화면 캡처: https://github.com/mouk30/japan/actions/runs/39964084631 (v146-photo-mobile-qa artifact)
+- **기존 5개 기항지 검사의 구형 AI 이미지 조건 보정:** 실사로 교체된 나하 국제거리·하카타역 글을 AI 이미지로 분류하던 `qa_port_trust_5_live.py` 설정을 현실과 일치시켜 교정. 'Published homepage and 85 editorial pages QA' 작업 브랜치 검사 통과 확인
+- 현지 배편·미술관·버스 정보는 공식 원문과 비교했으나 특정 여행일의 실시간 잔여 좌석, 결항·승선 마감은 보증하지 않음
 
-이 문서는 **PR 검토용 기준**이며 실제 홈페이지 발행 완료를 뜻하지 않는다.
+## 발행 전 최종 체크
+- [x] 두 시범 HTML 원고, 귀선 확인표, 5단계 동선과 관련 안내 링크
+- [x] 공식 원문 URL, canonical, Article/BreadcrumbList/FAQPage 구조화 데이터
+- [x] 신규 URL 2개 사이트맵 등록 및 기존 페이지 내부 링크 연결
+- [x] 실제 장소 실사 2장 로컬 4:3 WebP 변환·원본·라이선스 표시·HTML 연결
+- [x] Chromium 화면 테스트 320/390/768/1440px 8/8 통과 및 캡처 보관
+- [x] 기존 나하·하카타 AI 이미지 오탐 검사 코드 교정 (별도 항차 정보는 불변)
+- [ ] PR 머지 이후 **공개 URL** HTML/image HTTP 200, CDN 캐시, 모바일 실화면 최종 확인
+- [ ] 방문일 선사 운항현황·미술관 예약 가능 시간·버스 최신표 최종 확인 (여행일마다 재확인)
+- [ ] 실측 조회·예약 클릭 지표를 기준으로 후속 콘텐츠 확대 여부 결정
+
+**현재 상태:** 별도 GitHub 검토용 Draft PR. 공개 배포 완료로 표시하지 않는다.
