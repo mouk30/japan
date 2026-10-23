@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const {enhanceDocument}=require('./scripts/v301-v305-nav.cjs');
 const {compactPhotoAttribution}=require('./scripts/v139_photo_credits.cjs');
+const {transformJourney}=require('./scripts/v143_contextual_related.cjs');
 const src = path.join(__dirname, 'site');
 const out = path.join(__dirname, 'dist');
 fs.rmSync(out, {recursive:true, force:true});
@@ -23,7 +24,7 @@ if (ga4Id && !/^G-[A-Z0-9]{7,15}$/.test(ga4Id)) {
   throw new Error('Invalid GA4_MEASUREMENT_ID format. Expected a GA4 web stream G- ID.');
 }
 const pages=walk(out);
-let unifiedHeaders=0, legacyWithoutHeader=0, compactedPhotoCaptions=0, photoPages=0;
+let unifiedHeaders=0, legacyWithoutHeader=0, compactedPhotoCaptions=0, photoPages=0, contextualJourneys=0;
 for(const file of pages) {
   let h=fs.readFileSync(file,'utf8');
   h=h.split('href="/#ferry"').join('href="/ferry/"');
@@ -75,6 +76,12 @@ for(const file of pages) {
     h=h.replace(/<\/body>/i,src+'</body>');
   }
   if(nav.modified)unifiedHeaders++;else legacyWithoutHeader++;
+  // Topic continuity: reuse each article's own related article links, not
+  // generic English NEXT QUESTION/CITY MAP links unrelated to the article.
+  const fileRoute='/'+path.relative(out,file).replaceAll('\\','/').replace(/index\.html$/,'');
+  const journey=transformJourney(h,fileRoute);
+  h=journey.html;
+  if(journey.changed)contextualJourneys++;
   const creditPanel=compactPhotoAttribution(h);
   h=creditPanel.html;
   compactedPhotoCaptions+=creditPanel.credits;
@@ -83,3 +90,4 @@ for(const file of pages) {
 }
 console.log('Built',pages.length,'HTML pages; V301–V305 unified headers:',unifiedHeaders,'pages; others:',legacyWithoutHeader);
 console.log('V139 compact photo attributions:',compactedPhotoCaptions,'across',photoPages,'pages; original rights metadata retained in details panels.');
+console.log('V143 contextual next-step sections:',contextualJourneys,'pages; existing topic-specific link destinations preserved.');
