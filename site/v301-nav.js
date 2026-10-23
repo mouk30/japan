@@ -48,6 +48,23 @@ header.querySelector('.nf301-primary')?.addEventListener('pointermove',e=>{
  const item=e.target?.closest?.('.nf301-item[data-dropdown]');
  if(item){cancelFlyClose(item);if(item.dataset.open!=='true'){closeFly();setFly(item,true,'hover')}}
 });
+/* V142: one accordion state manager for buttons and matching link panels. */
+function setMobileGroup(button,open){
+ const panel=button&&document.getElementById(button.getAttribute('aria-controls'));
+ if(!panel)return;
+ header.querySelectorAll('.nf301-mob-expand').forEach(other=>{
+  const child=document.getElementById(other.getAttribute('aria-controls'));
+  const active=other===button&&open;
+  other.setAttribute('aria-expanded',String(active));
+  other.setAttribute('aria-label',other.getAttribute('aria-label').replace(/펼치기|접기/g,active?'접기':'펼치기'));
+  if(child)child.dataset.open=String(active);
+ });
+}
+function expandCurrentMobileGroup(){
+ const active=mobile?.querySelector('.nf301-mob-group .nf301-mob-heading > a.nf301-active');
+ const btn=active?.parentElement?.querySelector('.nf301-mob-expand');
+ if(btn&&btn.getAttribute('aria-expanded')!=='true')setMobileGroup(btn,true);
+}
 function mobileOpen(next,restoreFocus=false){
  if(!mobile||!mobileToggle)return;
  mobile.dataset.open=next?'true':'false';
@@ -56,6 +73,9 @@ function mobileOpen(next,restoreFocus=false){
  mobile.inert=!next;
  document.documentElement.classList.toggle('nf301-menu-open',next&&matchMedia('(max-width:1199px)').matches);
  if(next){
+  /* Deep pages show their relevant section without requiring an extra tap. */
+  expandCurrentMobileGroup();
+  mobile.scrollTop=0;
   const first=mobile.querySelector('a');
   first?.focus({preventScroll:true});
  }else if(restoreFocus)mobileToggle.focus({preventScroll:true});
@@ -64,14 +84,7 @@ mobileToggle?.addEventListener('click',()=>mobileOpen(mobile.dataset.open!=='tru
 for(const btn of header.querySelectorAll('.nf301-mob-expand')){
  btn.addEventListener('click',()=>{
   const panel=document.getElementById(btn.getAttribute('aria-controls'));
-  if(!panel)return;
-  const next=panel.dataset.open!=='true';
-  header.querySelectorAll('.nf301-mob-expand').forEach(other=>{
-   if(other!==btn){other.setAttribute('aria-expanded','false');document.getElementById(other.getAttribute('aria-controls'))?.setAttribute('data-open','false')}
-  });
-  panel.dataset.open=next?'true':'false';
-  btn.setAttribute('aria-expanded',String(next));
-  btn.setAttribute('aria-label',btn.getAttribute('aria-label').replace(/펼치기|접기/g,next?'접기':'펼치기'));
+  if(panel)setMobileGroup(btn,panel.dataset.open!=='true');
  });
 }
 document.addEventListener('click',e=>{
@@ -82,6 +95,16 @@ document.addEventListener('keydown',e=>{
   const wasOpen=mobile?.dataset.open==='true';
   closeFly();
   if(wasOpen){mobileOpen(false,true);e.preventDefault()}
+ }
+ /* When the navigation covers the screen, Tab stays inside its visible
+    brand, booking action, close button and links — not behind the overlay. */
+ if(e.key==='Tab'&&mobile?.dataset.open==='true'&&matchMedia('(max-width:1199px)').matches){
+  const visible=[...header.querySelectorAll('a[href],button:not([disabled])')].filter(el=>
+   el.getClientRects().length>0&&getComputedStyle(el).visibility!=='hidden'&&!el.closest('[inert]'));
+  if(!visible.length)return;
+  const first=visible[0],last=visible[visible.length-1],here=document.activeElement;
+  if(e.shiftKey&&(here===first||!visible.includes(here))){e.preventDefault();last.focus()}
+  else if(!e.shiftKey&&(here===last||!visible.includes(here))){e.preventDefault();first.focus()}
  }
 });
 window.addEventListener('resize',()=>{
@@ -96,8 +119,7 @@ mobile?.addEventListener('click',e=>{
 if(location.hash&&['#family','#couple','#parents'].includes(location.hash)){
  const btn=header.querySelector('.nf301-mob-group[data-mob-group="people"] .nf301-mob-expand');
  if(btn){
-  const panel=document.getElementById(btn.getAttribute('aria-controls'));
-  panel.dataset.open='true';btn.setAttribute('aria-expanded','true');
+  setMobileGroup(btn,true);
  }
 }
 })();
