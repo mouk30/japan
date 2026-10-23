@@ -26,7 +26,6 @@ with sync_playwright() as pw:
  for route,active_group in SAMPLES:
   for width in WIDTHS:
    page=browser.new_page(viewport={"width":width,"height":900},device_scale_factor=1)
-   page.add_init_script("window.__nf142Trace=[]")
    errors=[];info={"route":route,"width":width}
    try:
     response=page.goto(BASE+route,wait_until="domcontentloaded",timeout=45000)
@@ -101,10 +100,14 @@ with sync_playwright() as pw:
       later=item.evaluate("""(e)=>({open:e.dataset.open,source:e.dataset.openSource,
        aria:e.querySelector('.nf301-disclose').getAttribute('aria-expanded'),
        css:getComputedStyle(e.querySelector('.nf301-flyout')).display})""")
-      trace=page.evaluate("window.__nf142Trace||[]")
-      raise RuntimeError("desktop trace="+str(trace[-10:])+" before="+str(state)+" after="+str(later)) from exc
+      raise RuntimeError("desktop disclosure state before="+str(state)+" after="+str(later)) from exc
      if button.get_attribute("aria-expanded")!="true":errors.append("desktop aria-expanded didn't sync")
      if fly.locator('.nf301-flygrid a').count()!=8:errors.append("destination links missing in flyout")
+     # A deliberately clicked dropdown must not vanish on incidental hover
+     # over a neighboring top category (the V142 production regression).
+     header.locator('.nf301-item[data-dropdown="things"]>.nf301-mainlink').hover()
+     if button.get_attribute("aria-expanded")!="true" or not fly.is_visible():
+      errors.append("clicked desktop menu was overwritten by adjacent hover")
      if width==1440 and route=="/":
       pic="home-japan-desktop-1440.png"
       fly.screenshot(path=str(OUT/pic),animations="disabled",timeout=20000)
