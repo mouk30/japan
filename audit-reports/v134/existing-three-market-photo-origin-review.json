@@ -1,0 +1,39 @@
+{
+  "version": "V134",
+  "date": "2026-10-23",
+  "checked": 3,
+  "original_web_descriptions_checked": true,
+  "scope": "Three source descriptions, user page caption, author, capture year and Creative Commons license compared. No assumption of currently open shops.",
+  "records": [
+    {
+      "page": "/japan/fukuoka-market/",
+      "source": "https://commons.wikimedia.org/wiki/File:Yanagibashi_Rengo_Ichiba_by_LWY_in_Fukuoka.jpg",
+      "scene": "후쿠오카 야나기바시 연합시장 (원본에 장소 구체적)",
+      "author": "LWY",
+      "taken": "2008-01-19",
+      "license": "CC BY 2.0",
+      "source_location_status": "original explicitly names Yanagibashi Rengo Ichiba and Fukuoka",
+      "decision": "original_subject_author_license_match_existing_credit; image unchanged"
+    },
+    {
+      "page": "/japan/osaka-market/",
+      "source": "https://commons.wikimedia.org/wiki/File:Osaka_market.jpg",
+      "scene": "오사카 시장 사진 (원본에 특정 시장 이름 없음)",
+      "author": "SungMinSeung",
+      "taken": "2018-05-04",
+      "license": "CC BY-SA 4.0",
+      "source_location_status": "original only confirms Osaka market, not precise Kuromon identity",
+      "decision": "corrected title-alternative image alt and caption; image unchanged because city-level subject supports Osaka-market topic"
+    },
+    {
+      "page": "/japan/shimonoseki-market/",
+      "source": "https://commons.wikimedia.org/wiki/File:Karato_market,_Shimonoseki.jpg",
+      "scene": "시모노세키 가라토시장 판매 스시",
+      "author": "Maria-Yamaguchi",
+      "taken": "2019-03-12",
+      "license": "CC BY-SA 4.0",
+      "source_location_status": "original names Karato market, Shimonoseki, nigiri display",
+      "decision": "original_subject_author_license_match_existing_credit; image unchanged"
+    }
+  ]
+}
