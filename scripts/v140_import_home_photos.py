@@ -12,7 +12,7 @@ root=Path(__file__).resolve().parents[1]
 spec=[
 dict(key='okinawa',file='JP 沖繩 Okinawa Nago Kouri Road Bridge n Beach January 2026 N13P 01.jpg',old='/images/editorial/okinawa-kouri-bridge.webp',dest='/images/venues/nf-v140-okinawa-kouri-bridge-2026-real.webp',alt='2026년 1월 실제 촬영한 오키나와 고우리대교와 해변 풍경',author='NORTLAUKAU 26088 JP',date='2026-01-30',license='CC0 1.0',licurl='https://creativecommons.org/publicdomain/zero/1.0/'),
 dict(key='fukuoka',file='Hakata Port from Fukuoka Tower.jpg',old='/images/editorial/hakata-cruise-port-day-trip.webp',dest='/images/venues/nf-v140-fukuoka-hakata-port-2017-real.webp',alt='2017년 6월 후쿠오카타워에서 실제 촬영한 하카타항 방향 전망',author='そらみみ',date='2017-06-18',license='CC BY-SA 4.0',licurl='https://creativecommons.org/licenses/by-sa/4.0/'),
-dict(key='kobe',file='Kobe Port Tower in November 2025 at night 06.jpg',old='/images/editorial/kobe-cruise-port-day-trip.webp',dest='/images/venues/nf-v140-kobe-port-tower-2025-real.webp',alt='2025년 11월 실제 촬영한 고베 포트타워 야경',author='ノボホショコロトソ',date='2025-11-02',license='CC BY 4.0',licurl='https://creativecommons.org/licenses/by/4.0/')]
+dict(key='kobe',file='Kobe Port Tower in November 2025 at night 06.jpg',old='/images/editorial/kobe-cruise-port-day-trip.webp',dest='/images/venues/nf-v140-kobe-port-tower-2025-real.webp',alt='2025년 11월 실제 촬영한 고베 포트타워 야경',author='ノボホショコロトソ',date='2025-11-02',license='CC BY 4.0',licurl='https://creativecommons.org/licenses/by/4.0/')
 ]
 htmlfile=root/'site/index.html'
 old=htmlfile.read_text(encoding='utf-8')
