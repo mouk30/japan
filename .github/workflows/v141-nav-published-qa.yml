@@ -1,0 +1,41 @@
+name: V141 published premium navigation visual QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - site/v301-nav.css
+      - scripts/v141_nav_large_readability_qa.py
+      - .github/workflows/v141-nav-published-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  production-navigation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Install browser
+        run: |
+          python -m pip install playwright
+          python -m playwright install chromium
+      - name: Check real public 4 sections at five viewport widths
+        env:
+          NF_NAV_QA_BASE: https://www.nipponferry.com
+        run: |
+          for attempt in 1 2 3; do
+            if python scripts/v141_nav_large_readability_qa.py; then exit 0; fi
+            echo "Live nav QA not complete on pass $attempt"
+            if [ "$attempt" -lt 3 ]; then sleep 20; fi
+          done
+          exit 1
+      - name: Archive live desktop and mobile screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v141-public-nav-mobile-desktop-screenshots
+          path: audit-output/v141/
+          retention-days: 35
+          if-no-files-found: warn
