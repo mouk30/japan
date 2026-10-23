@@ -1,0 +1,41 @@
+name: V145 production 10 maritime guide mobile and desktop verification
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/v145_maritime_browser_qa.py
+      - .github/workflows/v145-public-maritime-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-maritime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 23
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser dependencies
+        run: |
+          python -m pip install playwright
+          python -m playwright install chromium
+      - name: Check production ten existing guides 320 390 1440
+        env:
+          NF_V145_BASE: https://www.nipponferry.com
+        run: |
+          for attempt in 1 2; do
+            if python scripts/v145_maritime_browser_qa.py; then exit 0; fi
+            echo "V145 public deployment or QA not ready, pass $attempt/2"
+            if [ "$attempt" -lt 2 ]; then sleep 20; fi
+          done
+          exit 1
+      - name: Upload production screen captures and test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v145-production-10-island-port-guide-visual-check
+          path: audit-output/v145/
+          retention-days: 35
+          if-no-files-found: warn
