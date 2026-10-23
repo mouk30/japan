@@ -1,0 +1,31 @@
+/* V145 — actionable maritime itinerary dossier for ten original pages.
+   Scoped; SEO headers, photography, third-party links and common site header untouched. */
+.nf145-maritime{margin:28px 0 38px;padding:clamp(21px,3.3vw,36px);background:#fff!important;border:1px solid #cfdfe8;border-radius:20px;box-shadow:0 12px 35px rgba(13,45,68,.08);color:#143d55;max-width:100%;box-sizing:border-box;scroll-margin-top:105px}
+.nf145-maritime *, .nf145-maritime *::before, .nf145-maritime *::after{box-sizing:border-box}
+.nf145-topline{font-size:12px!important;letter-spacing:.12em;font-weight:900!important;line-height:1.5;color:#27718f}
+.nf145-maritime>h2{margin:9px 0 13px!important;font-size:clamp(26px,3vw,35px)!important;color:#0c3552!important;font-weight:900!important;letter-spacing:-.055em;line-height:1.31!important;word-break:keep-all}
+.nf145-maritime>.nf145-summary{margin:0 0 18px!important;font-size:clamp(17px,1.7vw,19px)!important;font-weight:600;line-height:1.75!important;color:#47677b!important;word-break:keep-all}
+.nf145-nav{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 25px!important}
+.nf145-nav>a{display:inline-flex;align-items:center;justify-content:center;padding:11px 14px!important;min-height:44px;border-radius:9px;background:#eff7fb;color:#15577b!important;border:1px solid #c9e0eb;text-decoration:none!important;font-weight:850!important;font-size:14px!important;line-height:1.5!important}
+.nf145-nav>a:hover,.nf145-nav>a:focus-visible{background:#ddf0fa;border-color:#328bb5;outline-offset:3px}
+.nf145-steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:0 0 19px;scroll-margin-top:105px}
+.nf145-step{margin:0!important;min-width:0!important;min-height:0;border:1px solid #dae7ed!important;background:#f7fafc!important;border-radius:14px!important;padding:19px!important;display:flex;align-items:flex-start;gap:15px;box-shadow:none!important}
+.nf145-step:last-child{grid-column:1/-1}
+.nf145-step-num{display:flex;align-items:center;justify-content:center;flex:none;width:36px;height:35px;border-radius:9px;background:#dceef7;font-size:13px!important;font-weight:900!important;color:#185978}
+.nf145-step>div:last-child{flex:1;min-width:0}
+.nf145-step h3{font-size:clamp(18px,1.6vw,21px)!important;color:#103d59!important;line-height:1.38!important;letter-spacing:-.035em;font-weight:900!important;margin:0 0 9px!important;word-break:keep-all}
+.nf145-step p{font-size:16px!important;line-height:1.76!important;font-weight:500;color:#466374!important;margin:0!important;word-break:keep-all}
+.nf145-return{margin:18px 0!important;padding:21px 22px!important;background:#fff9ef!important;border:1px solid #edd6ac!important;border-left:5px solid #bf9860!important;border-radius:12px}
+.nf145-return strong{display:block;font-size:19px!important;line-height:1.4!important;color:#744721!important;letter-spacing:-.035em}
+.nf145-return p{font-size:15px!important;line-height:1.74!important;color:#725c43!important;margin:9px 0 0!important;word-break:keep-all}
+.nf145-official{padding:22px 0 0;scroll-margin-top:105px}
+.nf145-official h3,.nf145-related h3{font-size:clamp(20px,2vw,25px)!important;color:#103d58!important;line-height:1.35!important;font-weight:900!important;margin:0 0 9px!important}
+.nf145-official p{font-size:15px!important;line-height:1.7!important;color:#4b697a!important;margin:0 0 15px!important}
+.nf145-official-links,.nf145-related>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.nf145-official-links a,.nf145-related a{min-width:0;min-height:65px;padding:14px 15px!important;display:flex;align-items:center;justify-content:space-between;gap:9px;border:1px solid #cddfe7;background:#fff;border-radius:10px;color:#105c83!important;text-decoration:none!important;font-size:15px!important;line-height:1.55!important;font-weight:850!important;word-break:keep-all;overflow-wrap:break-word}
+.nf145-official-links a:hover,.nf145-related a:hover,.nf145-official-links a:focus-visible,.nf145-related a:focus-visible{background:#eaf5fa!important;border-color:#4c9bc2;outline-offset:2px}
+.nf145-related{margin-top:22px;scroll-margin-top:105px}
+.nf145-photo-note{margin:23px 0 0!important;font-size:13px!important;line-height:1.75!important;padding:14px 16px;border-radius:9px;background:#f0f5f7;color:#50687a!important;word-break:keep-all}
+.nf145-photo-note strong{color:#254a63}
+@media(max-width:700px){.nf145-maritime{padding:20px 16px;margin:25px 0 31px;border-radius:16px}.nf145-maritime>h2{font-size:clamp(25px,6vw,31px)!important}.nf145-maritime>.nf145-summary{font-size:17px!important}.nf145-steps{grid-template-columns:minmax(0,1fr)}.nf145-step:last-child{grid-column:auto}.nf145-step{padding:17px 14px!important;gap:11px}.nf145-step h3{font-size:19px!important}.nf145-step p{font-size:16px!important}.nf145-official-links,.nf145-related>div{grid-template-columns:minmax(0,1fr)}.nf145-nav{display:grid;grid-template-columns:1fr 1fr;gap:7px}.nf145-nav>a{font-size:13px!important}.nf145-nav>a:last-child{grid-column:1/-1}.nf145-return{padding:17px 15px!important}.nf145-return strong{font-size:18px!important}.nf145-return p{font-size:15px!important}.nf145-official-links a,.nf145-related a{min-height:57px;font-size:16px!important}.nf145-maritime>*{max-width:100%}}
+@media(max-width:360px){.nf145-maritime{padding:17px 12px}.nf145-nav{grid-template-columns:1fr}.nf145-nav>a:last-child{grid-column:auto}}
