@@ -68,8 +68,12 @@ with sync_playwright() as pw:
         img=Image.open(full_photo).convert('RGB')
         stdev=sum(ImageStat.Stat(img.resize((96,96))).stddev)/3
         if stdev<6:raise RuntimeError(x["key"]+": image snapshot appears nearly blank")
+        # Exclude the category badge near the bottom so an unloaded pale background cannot falsely pass.
+        region=img.crop((int(img.width*.12),int(img.height*.07),int(img.width*.88),int(img.height*.75)))
+        region_stdev=sum(ImageStat.Stat(region.resize((100,80))).stddev)/3
+        if region_stdev<8:raise RuntimeError(x["key"]+f": photo subject appears visually blank, region_stdev={region_stdev:.1f}")
         report["screenshots"].append(str(full_photo.relative_to(OUT)))
-        record={"key":x["key"],"width":width,"decoded":True,"resolution":metrics["natural"],"photo_display":[round(v,1) for v in metrics["display"]],"focal_crop_fraction":round(crop,3),"object_position":metrics["position"],"image_screenshot_stddev":round(stdev,1),"source_verified_on_page":True,"license_verified_on_page":True,"passed":True}
+        record={"key":x["key"],"width":width,"decoded":True,"resolution":metrics["natural"],"photo_display":[round(v,1) for v in metrics["display"]],"focal_crop_fraction":round(crop,3),"object_position":metrics["position"],"image_screenshot_stddev":round(stdev,1),"subject_region_stddev":round(region_stdev,1),"source_verified_on_page":True,"license_verified_on_page":True,"passed":True}
         report["checks"].append(record)
         if width==1440:
           response=page.request.get(report["target"].rstrip('/')+src,timeout=30000)
