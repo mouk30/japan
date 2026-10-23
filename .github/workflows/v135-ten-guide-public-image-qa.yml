@@ -1,11 +1,11 @@
-name: V1310 ten verified Commons ferry cover photographs public desktop mobile QA
+name: V135 ten verified Commons ferry cover photographs public desktop mobile QA
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - 'scripts/v135_live_real_ferry_qa.py'
-      - '.github/workflows/v1310-ten-guide-public-image-qa.yml'
+      - '.github/workflows/v135-ten-guide-public-image-qa.yml'
 permissions:
   contents: read
 jobs:
@@ -23,13 +23,13 @@ jobs:
         run: |
           for attempt in 1 2 3; do
             if python scripts/v135_live_real_ferry_qa.py; then exit 0; fi
-            echo "V1310 production deployment attempt $attempt of 3"
+            echo "V135 production deployment attempt $attempt of 3"
             if [ "$attempt" -lt 3 ]; then sleep 30; fi
           done
           exit 1
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: v1310-ten-ferry-real-photos-pc-mobile-20-screenshots
+          name: v135-ten-ferry-real-photos-pc-mobile-20-screenshots
           path: audit-output/v135/
           retention-days: 45
