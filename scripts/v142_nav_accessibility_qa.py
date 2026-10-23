@@ -90,7 +90,17 @@ with sync_playwright() as pw:
      button=item.locator('.nf301-disclose')
      button.click()
      fly=item.locator('.nf301-flyout')
-     fly.wait_for(state="visible",timeout=3500)
+     state=item.evaluate("""(e)=>({open:e.dataset.open,source:e.dataset.openSource,
+       aria:e.querySelector('.nf301-disclose').getAttribute('aria-expanded'),
+       css:getComputedStyle(e.querySelector('.nf301-flyout')).display,
+       hovered:e.matches(':hover'),focused:e.contains(document.activeElement),
+       scripts:document.querySelectorAll('script[src*="v301-nav.js"]').length})""")
+     try:fly.wait_for(state="visible",timeout=3500)
+     except Exception as exc:
+      later=item.evaluate("""(e)=>({open:e.dataset.open,source:e.dataset.openSource,
+       aria:e.querySelector('.nf301-disclose').getAttribute('aria-expanded'),
+       css:getComputedStyle(e.querySelector('.nf301-flyout')).display})""")
+      raise RuntimeError("desktop disclosure diagnostic before="+str(state)+" after="+str(later)) from exc
      if button.get_attribute("aria-expanded")!="true":errors.append("desktop aria-expanded didn't sync")
      if fly.locator('.nf301-flygrid a').count()!=8:errors.append("destination links missing in flyout")
      if width==1440 and route=="/":
