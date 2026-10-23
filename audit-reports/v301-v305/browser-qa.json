@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-23T09:33:41.067Z",
+  "date": "2026-10-23T09:36:48.841Z",
   "siteTotal": 1276,
   "unifiedHeaders": 1270,
   "withoutOriginalHeader": 6,
@@ -135,7 +135,10 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": []
+      "issues": [
+        "mobile submenu aria",
+        "Tokyo mobile region link invisible"
+      ]
     },
     {
       "pathname": "/japan/",
@@ -154,7 +157,10 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": []
+      "issues": [
+        "mobile submenu aria",
+        "Tokyo mobile region link invisible"
+      ]
     },
     {
       "pathname": "/japan/",
@@ -173,7 +179,10 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": []
+      "issues": [
+        "mobile submenu aria",
+        "Tokyo mobile region link invisible"
+      ]
     },
     {
       "pathname": "/japan/",
@@ -192,7 +201,10 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": []
+      "issues": [
+        "mobile submenu aria",
+        "Tokyo mobile region link invisible"
+      ]
     },
     {
       "pathname": "/japan/",
@@ -249,7 +261,10 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": []
+      "issues": [
+        "mobile submenu aria",
+        "Tokyo mobile region link invisible"
+      ]
     },
     {
       "pathname": "/japan/tokyo/",
@@ -268,7 +283,10 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": []
+      "issues": [
+        "mobile submenu aria",
+        "Tokyo mobile region link invisible"
+      ]
     },
     {
       "pathname": "/japan/tokyo/",
@@ -287,7 +305,10 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": []
+      "issues": [
+        "mobile submenu aria",
+        "Tokyo mobile region link invisible"
+      ]
     },
     {
       "pathname": "/japan/tokyo/",
@@ -306,7 +327,10 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": []
+      "issues": [
+        "mobile submenu aria",
+        "Tokyo mobile region link invisible"
+      ]
     },
     {
       "pathname": "/japan/tokyo/",
@@ -363,7 +387,10 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": []
+      "issues": [
+        "mobile submenu aria",
+        "Tokyo mobile region link invisible"
+      ]
     },
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
@@ -382,7 +409,10 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": []
+      "issues": [
+        "mobile submenu aria",
+        "Tokyo mobile region link invisible"
+      ]
     },
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
@@ -401,7 +431,10 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": []
+      "issues": [
+        "mobile submenu aria",
+        "Tokyo mobile region link invisible"
+      ]
     },
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
@@ -420,7 +453,10 @@
       "navCount": 1,
       "pageCurrent": 0,
       "matched": "/japan/",
-      "issues": []
+      "issues": [
+        "mobile submenu aria",
+        "Tokyo mobile region link invisible"
+      ]
     },
     {
       "pathname": "/japan/tokyo/disney-dpa-app-purchase/",
@@ -2285,7 +2321,32 @@
       "issues": []
     }
   ],
-  "errors": [],
+  "errors": [
+    "/japan/ 320: mobile submenu aria",
+    "/japan/ 320: Tokyo mobile region link invisible",
+    "/japan/ 390: mobile submenu aria",
+    "/japan/ 390: Tokyo mobile region link invisible",
+    "/japan/ 768: mobile submenu aria",
+    "/japan/ 768: Tokyo mobile region link invisible",
+    "/japan/ 1024: mobile submenu aria",
+    "/japan/ 1024: Tokyo mobile region link invisible",
+    "/japan/tokyo/ 320: mobile submenu aria",
+    "/japan/tokyo/ 320: Tokyo mobile region link invisible",
+    "/japan/tokyo/ 390: mobile submenu aria",
+    "/japan/tokyo/ 390: Tokyo mobile region link invisible",
+    "/japan/tokyo/ 768: mobile submenu aria",
+    "/japan/tokyo/ 768: Tokyo mobile region link invisible",
+    "/japan/tokyo/ 1024: mobile submenu aria",
+    "/japan/tokyo/ 1024: Tokyo mobile region link invisible",
+    "/japan/tokyo/disney-dpa-app-purchase/ 320: mobile submenu aria",
+    "/japan/tokyo/disney-dpa-app-purchase/ 320: Tokyo mobile region link invisible",
+    "/japan/tokyo/disney-dpa-app-purchase/ 390: mobile submenu aria",
+    "/japan/tokyo/disney-dpa-app-purchase/ 390: Tokyo mobile region link invisible",
+    "/japan/tokyo/disney-dpa-app-purchase/ 768: mobile submenu aria",
+    "/japan/tokyo/disney-dpa-app-purchase/ 768: Tokyo mobile region link invisible",
+    "/japan/tokyo/disney-dpa-app-purchase/ 1024: mobile submenu aria",
+    "/japan/tokyo/disney-dpa-app-purchase/ 1024: Tokyo mobile region link invisible"
+  ],
   "warnings": [],
   "navDestinations": [
     "/",
@@ -2321,5 +2382,5 @@
     "V304",
     "V305"
   ],
-  "passed": true
+  "passed": false
 }
