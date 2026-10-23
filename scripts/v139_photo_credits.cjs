@@ -4,7 +4,7 @@
  * are preserved byte-for-byte inside a native, accessible disclosure near the footer.
  * Content/operations citations and general notes are not suppressed.
  */
-const CLASS_HINT = '(?:photo[-_]?credit|photo[-_]?source|photo[-_]?provenance|image[-_]?credit|image[-_]?source|nf-v\\d+-credit|nf\\d+-credit|nf84-home__meta|nf83-credit|d62-source|v65-note)';
+const CLASS_HINT = '(?:photo[-_]?credit|photo[-_]?source|photo[-_]?provenance|image[-_]?credit|image[-_]?source|nf-v\\d+-credit|nf\\d+-credit|nf84-home__meta|nf83-credit|d62-source|v65-note|d61-home-note|v104-theme-note)';
 const CREDIT_BLOCK = new RegExp('<(p|figcaption|div|a|small)\\b([^>]*\\bclass\\s*=\\s*"[^"]*' + CLASS_HINT + '[^"]*"[^>]*)>([\\s\\S]*?)<\\/\\1>', 'gi');
 const FIGCAPTION = /<figcaption\b([^>]*)>([\s\S]*?)<\/figcaption>/gi;
 const LICENSE_CLUES = /commons\.wikimedia\.org|creativecommons\.org|CC\s*BY|Public\s+domain|저작권|사진|촬영|이미지|원본|출처|WebP|photo/i;
@@ -25,7 +25,7 @@ function compactPhotoAttribution(html){
     const cls=attrs.match(/\bclass\s*=\s*"([^"]+)"/i)?.[1]||'';
     if (!LICENSE_CLUES.test(body))return full;
     // A regional note is only photo-only when original photographic source links exist.
-    if (/\bv65-note\b/.test(cls)&&!/commons\.wikimedia\.org/.test(body))return full;
+    if (/(?:^|\s)(?:v65-note|d61-home-note|v104-theme-note)(?:\s|$)/.test(cls)&&!/commons\.wikimedia\.org/.test(body))return full;
     // Don't move potentially complex cards or structural navigation containers.
     if(tag.toLowerCase()==='div'&&/<(?:div|section|article|nav)\b/i.test(body))return full;
     if(body.length>12000)return full;
