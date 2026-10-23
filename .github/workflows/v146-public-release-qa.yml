@@ -1,0 +1,29 @@
+name: V146 public release HTTP QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/v146-public-release-qa.yml"
+      - "scripts/qa_v146_public_release.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-art-island:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v146-public-release-qa-20261023
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check actual production pages and images
+        run: python scripts/qa_v146_public_release.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v146-public-http-report
+          path: audit-output/v146-public/
+          if-no-files-found: warn
