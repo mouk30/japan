@@ -6,6 +6,11 @@ const mobile=header.querySelector('#nf301-mobile-panel');
 const mobileToggle=header.querySelector('.nf301-toggle');
 const flyouts=[...header.querySelectorAll('.nf301-item[data-dropdown]')];
 const leaveTimers=new WeakMap();
+/* Keep an explicitly clicked mega-menu open while the pointer crosses
+   neighboring navigation tabs. Hover-only menus remain switchable. */
+function hasClickLockedFlyout(){
+ return flyouts.some(i=>i.dataset.open==='true'&&i.dataset.openSource==='click');
+}
 function cancelFlyClose(item){const id=leaveTimers.get(item);if(id)clearTimeout(id);leaveTimers.delete(item)}
 function scheduleFlyClose(item){
  cancelFlyClose(item);
@@ -19,10 +24,6 @@ function scheduleFlyClose(item){
  },260));
 }
 function setFly(item,on,reason=''){
- if(Array.isArray(window.__nf142Trace)){
-  window.__nf142Trace.push({time:performance.now(),label:item.dataset.dropdown,open:on,reason,
-   stack:(new Error()).stack?.split('\n').slice(2,4).join(' | ')||''});
- }
  item.dataset.openSource=on?reason:'';
  const btn=item.querySelector('.nf301-disclose');
  item.dataset.open=on?'true':'false';
@@ -38,9 +39,18 @@ flyouts.forEach(item=>{
   closeFly();
   if(!explicit)setFly(item,true,'click');
  });
- item.addEventListener('mouseenter',()=>{cancelFlyClose(item);if(matchMedia('(min-width: 1200px)').matches){closeFly();setFly(item,true,'hover')}});
+ item.addEventListener('mouseenter',()=>{
+  cancelFlyClose(item);
+  if(matchMedia('(min-width: 1200px)').matches&&!hasClickLockedFlyout()){
+   closeFly();setFly(item,true,'hover');
+  }
+ });
  item.addEventListener('mouseleave',()=>{if(matchMedia('(min-width: 1200px)').matches)scheduleFlyClose(item)});
- item.addEventListener('focusin',()=>{if(matchMedia('(min-width: 1200px)').matches&&item.dataset.open!=='true'){closeFly();setFly(item,true,'focus')}});
+ item.addEventListener('focusin',()=>{
+  if(matchMedia('(min-width: 1200px)').matches&&item.dataset.open!=='true'&&!hasClickLockedFlyout()){
+   closeFly();setFly(item,true,'focus');
+  }
+ });
  item.addEventListener('focusout',e=>{
   /* A pointer-activated flyout must not disappear when focus momentarily
      leaves its narrow trigger. Escape, second click or outside click closes. */
@@ -52,7 +62,10 @@ flyouts.forEach(item=>{
 header.querySelector('.nf301-primary')?.addEventListener('pointermove',e=>{
  if(e.pointerType!=='mouse'||!matchMedia('(min-width:1200px)').matches)return;
  const item=e.target?.closest?.('.nf301-item[data-dropdown]');
- if(item){cancelFlyClose(item);if(item.dataset.open!=='true'){closeFly();setFly(item,true,'hover')}}
+ if(item&&!hasClickLockedFlyout()){
+  cancelFlyClose(item);
+  if(item.dataset.open!=='true'){closeFly();setFly(item,true,'hover')}
+ }
 });
 /* V142: one accordion state manager for buttons and matching link panels. */
 function setMobileGroup(button,open){
