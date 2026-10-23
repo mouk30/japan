@@ -74,7 +74,7 @@ for(const slug of slugs){
  const newImageNodes=[...insertion.matchAll(/<img\b[^>]*>/g)].map(x=>x[0]);
  if(JSON.stringify(oldImageNodes)!==JSON.stringify(newImageNodes))throw Error('Image source changed '+slug);
  const locallinks=[...insertion.matchAll(/<a href="(\/things-to-do\/[^"]+)"/g)].map(x=>x[1]);
- for(const url of locallinks.filter(x=>d.related.some(t=>url===pageURL(t))))if(!linkExists(url))throw Error('Unavailable link '+url);
+ for(const url of locallinks.filter(x=>d.related.some(t=>x===pageURL(t))))if(!linkExists(url))throw Error('Unavailable link '+url);
  staged.push({file,html:insertion,slug,original:html});
  audit.updated.push({url:pageURL(slug),region:d.region,kind:d.kind,originalSha256:sha(html),newSha256:sha(insertion),steps:5,sources:d.sources,related:d.related.map(pageURL),imageStatus:d.photoNote,seoPreserved:true,originalImagesPreserved:true});
  audit.added_steps+=5;
