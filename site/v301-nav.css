@@ -363,3 +363,12 @@
  .nf301-header .nf301-mob-heading>a{font-size:18px!important}
  .nf301-header .nf301-brandcopy strong{font-size:15px!important}
 }
+
+/* V141 tidy overlay: never let the floating Kakao shortcut cover an open mobile menu. */
+@media(max-width:1199px){
+ html.nf301-menu-open .kakao-float{
+   visibility:hidden!important;
+   opacity:0!important;
+   pointer-events:none!important;
+ }
+}
