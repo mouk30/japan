@@ -9,7 +9,8 @@ OUT=Path("audit-output/v146/mobile")
 OUT.mkdir(parents=True,exist_ok=True)
 results=[]
 with sync_playwright() as pw:
-  browser=pw.chromium.launch(headless=True,args=["--no-sandbox"])
+  chrome=next((str(p) for p in (Path("/usr/bin/google-chrome"),Path("/usr/bin/google-chrome-stable"),Path("/opt/google/chrome/chrome")) if p.exists()),None)
+  browser=pw.chromium.launch(headless=True,args=["--no-sandbox"],executable_path=chrome)
   for slug in SLUGS:
     for width in WIDTHS:
       page=browser.new_page(viewport={"width":width,"height":850},device_scale_factor=1)
