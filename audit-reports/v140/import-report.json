@@ -7,20 +7,20 @@
   "source_photos": [
     {
       "key": "okinawa",
-      "file": "JP 沖繩 Okinawa Nago Kouri Road Bridge n Beach January 2026 N13P 01.jpg",
+      "file": "Kouri Bridge (15130568259).jpg",
       "old": "/images/editorial/okinawa-kouri-bridge.webp",
-      "dest": "/images/venues/nf-v140-okinawa-kouri-bridge-2026-real.webp",
-      "alt": "2026년 1월 실제 촬영한 오키나와 고우리대교와 해변 풍경",
-      "author": "NORTLAUKAU 26088 JP",
-      "date": "2026-01-30",
-      "license": "CC0 1.0",
-      "licurl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "dest": "/images/venues/nf-v140-okinawa-kouri-bridge-view-2014-real.webp",
+      "alt": "2014년 9월 고우리 오션타워에서 촬영한 오키나와 고우리대교와 에메랄드빛 바다의 실제 전경",
+      "author": "Takuya ASADA",
+      "date": "2014-09-21",
+      "license": "CC BY 2.0",
+      "licurl": "https://creativecommons.org/licenses/by/2.0/",
       "size": [
-        1333,
-        1000
+        1400,
+        933
       ],
-      "sha256": "50b67c222de70b9a1917046acd370447dfc603ae5459ad155a089f63f4ead9fb",
-      "source": "https://commons.wikimedia.org/wiki/File:JP_%E6%B2%96%E7%B9%A9_Okinawa_Nago_Kouri_Road_Bridge_n_Beach_January_2026_N13P_01.jpg"
+      "sha256": "6ab494eba6d0c7cb06fda7b4fd39e9b715d270d7ee77477abe6319ae4fe5d22a",
+      "source": "https://commons.wikimedia.org/wiki/File:Kouri_Bridge_(15130568259).jpg"
     },
     {
       "key": "fukuoka",
@@ -57,5 +57,13 @@
       "source": "https://commons.wikimedia.org/wiki/File:Kobe_Port_Tower_in_November_2025_at_night_06.jpg"
     }
   ],
-  "seo_preserved": true
+  "seo_preserved": true,
+  "visual_correction": "V140 public screenshot review: first Okinawa photo showed beach foreground, Kouri Bridge not recognizable; replaced with bridge-focused original.",
+  "superseded_okinawa_photo": {
+    "path": "/images/venues/nf-v140-okinawa-kouri-bridge-2026-real.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:JP_%E6%B2%96%E7%B9%A9_Okinawa_Nago_Kouri_Road_Bridge_n_Beach_January_2026_N13P_01.jpg",
+    "author": "NORTLAUKAU 26088 JP",
+    "license": "CC0 1.0",
+    "file_retained_in_repo": true
+  }
 }
