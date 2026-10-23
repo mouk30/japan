@@ -1,0 +1,113 @@
+{
+  "version": "V135",
+  "status": "webp created and five source pages updated",
+  "photos": [
+    {
+      "key": "shimonoseki-international-terminal",
+      "source": "https://commons.wikimedia.org/wiki/File:Shimonoseki_International_Terminal_2021.jpg",
+      "author": "なしはな",
+      "date": "2021-03-09",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "output": "/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp",
+      "subject": "2021년 3월 촬영한 시모노세키항 국제터미널 실제 전경. 특정 선박의 2026년 접안 게이트·현장 승선수속·셔틀운행 증거는 아닙니다.",
+      "raw_sha256": "c0f963edd89b28434b4a5670378024169d1a40a3771168969cd5d1571f3ab2b1",
+      "webp_sha256": "37c7936d1c2d24ddcd2da5f757997b5d2ba3d3659f4aedcbb0f7cf6ee517596f",
+      "width": 1333,
+      "height": 1000,
+      "bytes": 180522,
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Shimonoseki_International_Terminal_2021.jpg/1920px-Shimonoseki_International_Terminal_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    {
+      "key": "osaka-nanko-ferry-terminal",
+      "source": "https://commons.wikimedia.org/wiki/File:Osaka_South_Port_Ferry_Terminal_20190130.jpg",
+      "author": "そらみみ",
+      "date": "2019-01-30",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "output": "/images/venues/nf-v135-osaka-nanko-ferry-terminal-2019-real.webp",
+      "subject": "2019년 1월 촬영한 오사카 남항 일반 페리터미널 실제 사진. 판스타 부산 국제선 전용 승선 장소·코스모스퀘어 셔틀 집결지의 사진으로 혼동하지 말 것.",
+      "raw_sha256": "9aa4be9596d69d93997f08df5bd6b40d8cc9a5dd15814c91dd8cfb95cb7c31bf",
+      "webp_sha256": "97a048295cf9b81a50bbcc73ca472a09321dfe2f72fca215f0e70a5812113389",
+      "width": 1333,
+      "height": 1000,
+      "bytes": 202278,
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Osaka_South_Port_Ferry_Terminal_20190130.jpg/1920px-Osaka_South_Port_Ferry_Terminal_20190130.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "busan-shimonoseki-ferry",
+      "output": "/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp",
+      "author": "なしはな",
+      "license": "CC BY-SA 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:Shimonoseki_International_Terminal_2021.jpg"
+    },
+    {
+      "slug": "busan-shimonoseki-ferry-price",
+      "output": "/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp",
+      "author": "なしはな",
+      "license": "CC BY-SA 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:Shimonoseki_International_Terminal_2021.jpg"
+    },
+    {
+      "slug": "busan-shimonoseki-timetable",
+      "output": "/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp",
+      "author": "なしはな",
+      "license": "CC BY-SA 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:Shimonoseki_International_Terminal_2021.jpg"
+    },
+    {
+      "slug": "shimonoseki-busan-ferry",
+      "output": "/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp",
+      "author": "なしはな",
+      "license": "CC BY-SA 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:Shimonoseki_International_Terminal_2021.jpg"
+    },
+    {
+      "slug": "shimonoseki-port-to-karato",
+      "output": "/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp",
+      "author": "なしはな",
+      "license": "CC BY-SA 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:Shimonoseki_International_Terminal_2021.jpg"
+    },
+    {
+      "slug": "busan-osaka-ferry",
+      "output": "/images/venues/nf-v135-osaka-nanko-ferry-terminal-2019-real.webp",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:Osaka_South_Port_Ferry_Terminal_20190130.jpg"
+    },
+    {
+      "slug": "busan-osaka-ferry-price",
+      "output": "/images/venues/nf-v135-osaka-nanko-ferry-terminal-2019-real.webp",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:Osaka_South_Port_Ferry_Terminal_20190130.jpg"
+    },
+    {
+      "slug": "busan-osaka-timetable",
+      "output": "/images/venues/nf-v135-osaka-nanko-ferry-terminal-2019-real.webp",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:Osaka_South_Port_Ferry_Terminal_20190130.jpg"
+    },
+    {
+      "slug": "osaka-busan-ferry",
+      "output": "/images/venues/nf-v135-osaka-nanko-ferry-terminal-2019-real.webp",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:Osaka_South_Port_Ferry_Terminal_20190130.jpg"
+    },
+    {
+      "slug": "osaka-port-to-namba",
+      "output": "/images/venues/nf-v135-osaka-nanko-ferry-terminal-2019-real.webp",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:Osaka_South_Port_Ferry_Terminal_20190130.jpg"
+    }
+  ],
+  "updated_pages": 10,
+  "distinct_real_source_photos": 2,
+  "preserved_existing_seo": 10
+}
