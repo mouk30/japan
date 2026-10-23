@@ -1,0 +1,1603 @@
+{
+  "date": "2026-10-23",
+  "after": "V144 replace 51 ambiguous cover instances with accurate information visuals; 3 additional Commons documentary photos",
+  "source_html_scanned": 1276,
+  "reason": "Unresolved image-original/licensing/provenance follow-up; photo repetition itself is NOT evidence of error",
+  "groups": [
+    {
+      "cover": "/images/ferry.jpg",
+      "count": 40,
+      "pages": [
+        {
+          "url": "/guide/bugwan-ferry-guide/",
+          "title": "부관훼리 이용 가이드",
+          "alt": "부관훼리 이용 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/how-to-take-japan-ferry/",
+          "title": "일본 페리 여행 처음 타는 법",
+          "alt": "일본 페리 여행 처음 타는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-baggage/",
+          "title": "일본 페리 수하물 규정 가이드",
+          "alt": "일본 페리 수하물 규정 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-bath/",
+          "title": "일본 페리 샤워·대욕장 이용 팁",
+          "alt": "일본 페리 샤워·대욕장 이용 팁",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-booking-passport/",
+          "title": "일본 페리 예약에 여권이 필요한가요?",
+          "alt": "일본 페리 예약에 여권이 필요한가요?",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/japan-ferry-cancellation-refund/",
+          "title": "일본 페리 취소·환불 가이드",
+          "alt": "일본 페리 취소·환불 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-cheap-booking/",
+          "title": "일본 페리 싸게 예약하는 법",
+          "alt": "일본 페리 싸게 예약하는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-checkin-time/",
+          "title": "일본 페리 체크인 시간",
+          "alt": "일본 페리 체크인 시간",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-day-trip-options/",
+          "title": "일본 페리 당일치기 가능한 곳",
+          "alt": "일본 페리 당일치기 가능한 곳",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-delay-cancellation/",
+          "title": "페리 지연·결항 확인 방법",
+          "alt": "페리 지연·결항 확인 방법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-faq/",
+          "title": "일본 페리 여행 FAQ 20",
+          "alt": "일본 페리 여행 FAQ 20",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-first-timer/",
+          "title": "일본 페리 초보자 노선 선택 가이드",
+          "alt": "일본 페리 초보자 노선 선택 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-fuel-surcharge/",
+          "title": "일본 페리 유류할증료 가이드",
+          "alt": "일본 페리 유류할증료 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-how-early/",
+          "title": "일본 페리 출항 몇 시간 전 도착?",
+          "alt": "일본 페리 출항 몇 시간 전 도착?",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-live-status/",
+          "title": "일본 페리 최신 운항정보 확인법",
+          "alt": "일본 페리 최신 운항정보 확인법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-meals/",
+          "title": "일본 페리 선내 식사 가이드",
+          "alt": "일본 페리 선내 식사 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-overnight-tips/",
+          "title": "일본 페리 야간 운항 이용 팁",
+          "alt": "일본 페리 야간 운항 이용 팁",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-packing-list/",
+          "title": "일본 페리 여행 준비물 체크리스트",
+          "alt": "일본 페리 여행 준비물 체크리스트",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-passport/",
+          "title": "일본 페리 여행 여권 준비",
+          "alt": "일본 페리 여행 여권 준비",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/japan-ferry-prohibited-items/",
+          "title": "일본 페리 반입 금지 물품",
+          "alt": "일본 페리 반입 금지 물품",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-rainy-day/",
+          "title": "일본 페리 우천 시 여행 팁",
+          "alt": "일본 페리 우천 시 여행 팁",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-roundtrip-vs-oneway/",
+          "title": "일본 페리 왕복 vs 편도 예약",
+          "alt": "일본 페리 왕복 vs 편도 예약",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-seasickness/",
+          "title": "페리 멀미 준비물과 좌석 팁",
+          "alt": "페리 멀미 준비물과 좌석 팁",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-seniors/",
+          "title": "일본 페리 부모님 여행 가이드",
+          "alt": "일본 페리 부모님 여행 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-sleep-kit/",
+          "title": "일본 페리 잠잘 때 준비물",
+          "alt": "일본 페리 잠잘 때 준비물",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-solo-trip/",
+          "title": "일본 페리 혼자 여행 가이드",
+          "alt": "일본 페리 혼자 여행 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-suitcase/",
+          "title": "일본 페리 캐리어 가져가기",
+          "alt": "일본 페리 캐리어 가져가기",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-terminal-fees/",
+          "title": "일본 페리 터미널 이용료·세금",
+          "alt": "일본 페리 터미널 이용료·세금",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-travel-time/",
+          "title": "일본 페리 몇 시간 걸리나요?",
+          "alt": "일본 페리 몇 시간 걸리나요?",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-visit-japan-web/",
+          "title": "일본 페리 여행 Visit Japan Web 가이드",
+          "alt": "일본 페리 여행 Visit Japan Web 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-vs-flight/",
+          "title": "일본 페리 vs 비행기 비교",
+          "alt": "일본 페리 vs 비행기 비교",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-with-kids/",
+          "title": "아이와 일본 페리 여행 가이드",
+          "alt": "아이와 일본 페리 여행 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/new-camellia-guide/",
+          "title": "뉴카멜리아 이용 가이드",
+          "alt": "뉴카멜리아 이용 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/new-camellia-vs-bugwan/",
+          "title": "뉴카멜리아 vs 부관훼리 비교",
+          "alt": "뉴카멜리아 vs 부관훼리 비교",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/panstar-miracle-guide/",
+          "title": "팬스타 미라클 이용 가이드",
+          "alt": "팬스타 미라클 이용 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/panstar-vs-new-camellia/",
+          "title": "팬스타 vs 뉴카멜리아 비교",
+          "alt": "팬스타 vs 뉴카멜리아 비교",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/theme/family-ferry-trip/",
+          "title": "아이·부모님과 페리 여행",
+          "alt": "아이·부모님과 페리 여행",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/theme/first-ferry-romance/",
+          "title": "비행기 대신 배를 타는 이유",
+          "alt": "비행기 대신 배를 타는 이유",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/theme/night-on-ferry/",
+          "title": "배에서 하룻밤, 실제로 뭐하지?",
+          "alt": "배에서 하룻밤, 실제로 뭐하지?",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/theme/pet-ferry-japan/",
+          "title": "강아지와 배 타고 일본 갈 수 있을까?",
+          "alt": "강아지와 배 타고 일본 갈 수 있을까?",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/couple.jpg",
+      "count": 27,
+      "pages": [
+        {
+          "url": "/couple/ferry-cabin-for-couples/",
+          "title": "커플 페리 객실 고르는 법",
+          "alt": "커플 페리 객실 고르는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-christmas-date/",
+          "title": "일본 크리스마스 데이트 문화",
+          "alt": "일본 크리스마스 데이트 문화",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-confession-culture/",
+          "title": "일본 연애에서 고백은 왜 중요할까",
+          "alt": "일본 연애에서 고백은 왜 중요할까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-couple-anniversary-culture/",
+          "title": "일본 커플 기념일 문화",
+          "alt": "일본 커플 기념일 문화",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-couple-messaging-culture/",
+          "title": "일본 커플은 연락을 얼마나 할까",
+          "alt": "일본 커플은 연락을 얼마나 할까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-couple-photo-trip/",
+          "title": "일본 커플여행 사진 잘 남기는 법",
+          "alt": "일본 커플여행 사진 잘 남기는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-couple-trip-planning/",
+          "title": "일본 커플여행 싸우지 않는 일정 짜기",
+          "alt": "일본 커플여행 싸우지 않는 일정 짜기",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-date-cost-splitting/",
+          "title": "일본 데이트 비용, 더치페이가 일반적일까",
+          "alt": "일본 데이트 비용, 더치페이가 일반적일까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-ferry-couple-trip/",
+          "title": "페리 타고 일본 커플여행",
+          "alt": "페리 타고 일본 커플여행",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-onsen-couple-trip/",
+          "title": "일본 온천 커플여행 가이드",
+          "alt": "일본 온천 커플여행 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-valentine-white-day/",
+          "title": "일본 발렌타인데이와 화이트데이",
+          "alt": "일본 발렌타인데이와 화이트데이",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japanese-women-stereotypes/",
+          "title": "일본 여성이라는 하나의 이미지로 보면 안 되는 이유",
+          "alt": "일본 여성이라는 하나의 이미지로 보면 안 되는 이유",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/joshiryoku-cooking-image/",
+          "title": "일본 여자력과 요리 이미지",
+          "alt": "일본 여자력과 요리 이미지",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/joshiryoku-fashion-makeup/",
+          "title": "일본 여자력과 패션·메이크업",
+          "alt": "일본 여자력과 패션·메이크업",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/joshiryoku-lifestyle/",
+          "title": "일본 여자력과 생활관리 이미지",
+          "alt": "일본 여자력과 생활관리 이미지",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/joshiryoku-meaning/",
+          "title": "일본에서 말하는 여자력(女子力)이란?",
+          "alt": "일본에서 말하는 여자력(女子力)이란?",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/joshiryoku-modern-japan/",
+          "title": "여자력이라는 말, 요즘 일본에서는 어떻게 보나",
+          "alt": "여자력이라는 말, 요즘 일본에서는 어떻게 보나",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/korea-japan-couple-anniversary-trip/",
+          "title": "한일커플 기념일 여행 아이디어",
+          "alt": "한일커플 기념일 여행 아이디어",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/korea-japan-couple-before-marriage/",
+          "title": "한일커플 결혼 전 이야기할 것들",
+          "alt": "한일커플 결혼 전 이야기할 것들",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/korea-japan-couple-language/",
+          "title": "한일커플 언어가 다를 때 대화하는 법",
+          "alt": "한일커플 언어가 다를 때 대화하는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/korea-japan-couple-reality/",
+          "title": "한일커플 현실, 문화차이는 어디서 느낄까",
+          "alt": "한일커플 현실, 문화차이는 어디서 느낄까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/korea-japan-long-distance-couple/",
+          "title": "한일커플 장거리연애 현실적인 팁",
+          "alt": "한일커플 장거리연애 현실적인 팁",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/kyoto-romantic-date/",
+          "title": "교토 감성 데이트 코스",
+          "alt": "교토 감성 데이트 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/meet-japanese-partner-parents/",
+          "title": "일본인 연인 부모님 처음 만날 때",
+          "alt": "일본인 연인 부모님 처음 만날 때",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/ocean-view-cabin-couple/",
+          "title": "오션뷰 객실, 커플여행에서 값어치 있을까",
+          "alt": "오션뷰 객실, 커플여행에서 값어치 있을까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/tokyo-night-view-date/",
+          "title": "도쿄 야경 데이트 가이드",
+          "alt": "도쿄 야경 데이트 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/theme/couple-ferry-trip/",
+          "title": "둘이 떠나는 일본 페리 여행",
+          "alt": "둘이 떠나는 일본 페리 여행",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/city.jpg",
+      "count": 26,
+      "pages": [
+        {
+          "url": "/guide/busan-port-departure-process/",
+          "title": "부산항 국제여객터미널 출국 수속",
+          "alt": "부산항 국제여객터미널 출국 수속",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/busan-station-to-port/",
+          "title": "부산역에서 부산항 국제여객터미널 가는 법",
+          "alt": "부산역에서 부산항 국제여객터미널 가는 법",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/gimhae-airport-to-busan-port/",
+          "title": "김해공항에서 부산항 가는 법",
+          "alt": "김해공항에서 부산항 가는 법",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/japan-port-arrival-process/",
+          "title": "일본 항구 입국 수속 가이드",
+          "alt": "일본 항구 입국 수속 가이드",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/seaflower-guide/",
+          "title": "씨플라워 이용 가이드",
+          "alt": "씨플라워 이용 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-100yen-shop/",
+          "title": "일본 100엔샵 뭐 사면 좋을까",
+          "alt": "일본 100엔샵 뭐 사면 좋을까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-24-hour-shops/",
+          "title": "일본 24시간 가게 뭐가 있을까",
+          "alt": "일본 24시간 가게 뭐가 있을까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-coin-laundry-guide/",
+          "title": "일본 코인세탁방 처음 쓰는 법",
+          "alt": "일본 코인세탁방 처음 쓰는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-coins-guide/",
+          "title": "일본 엔화 동전 처리하는 법",
+          "alt": "일본 엔화 동전 처리하는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-depachika-guide/",
+          "title": "일본 데파치카 백화점 지하식품관 가이드",
+          "alt": "일본 데파치카 백화점 지하식품관 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-family-restaurant-guide/",
+          "title": "일본 패밀리레스토랑 여행 활용법",
+          "alt": "일본 패밀리레스토랑 여행 활용법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-game-center-guide/",
+          "title": "일본 게임센터 처음 가는 법",
+          "alt": "일본 게임센터 처음 가는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-gyudon-chain-guide/",
+          "title": "일본 규동 체인 처음 가는 법",
+          "alt": "일본 규동 체인 처음 가는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-kaiten-sushi-guide/",
+          "title": "일본 회전초밥 처음 가는 법",
+          "alt": "일본 회전초밥 처음 가는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-pachinko-first-visit/",
+          "title": "일본 파친코 처음 들어가면 알아둘 것",
+          "alt": "일본 파친코 처음 들어가면 알아둘 것",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-pachinko-what-is/",
+          "title": "일본 파친코는 뭐 하는 곳일까",
+          "alt": "일본 파친코는 뭐 하는 곳일까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-pharmacy-guide/",
+          "title": "일본 여행 중 약국 찾는 법",
+          "alt": "일본 여행 중 약국 찾는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-public-toilet-guide/",
+          "title": "일본 공중화장실 찾는 법",
+          "alt": "일본 공중화장실 찾는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-purikura-guide/",
+          "title": "일본 프리쿠라 처음 찍는 법",
+          "alt": "일본 프리쿠라 처음 찍는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-rain-umbrella-guide/",
+          "title": "일본 여행 중 비 오면 우산 어디서 살까",
+          "alt": "일본 여행 중 비 오면 우산 어디서 살까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-smoking-area-guide/",
+          "title": "일본 흡연구역 찾는 법",
+          "alt": "일본 흡연구역 찾는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-trash-bin-guide/",
+          "title": "일본에서 쓰레기통 찾기",
+          "alt": "일본에서 쓰레기통 찾기",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-ufo-catcher/",
+          "title": "일본 UFO캐처 뽑기방 문화",
+          "alt": "일본 UFO캐처 뽑기방 문화",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-vending-machine-guide/",
+          "title": "일본 자판기 문화 가이드",
+          "alt": "일본 자판기 문화 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/pachinko-vs-game-center/",
+          "title": "파친코와 일본 게임센터 차이",
+          "alt": "파친코와 일본 게임센터 차이",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/theme/suitcase-baggage/",
+          "title": "28인치 캐리어도 괜찮을까?",
+          "alt": "28인치 캐리어도 괜찮을까?",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/tsushima.jpg",
+      "count": 16,
+      "pages": [
+        {
+          "url": "/guide/busan-tsushima-ferry/",
+          "title": "부산 대마도 페리 완벽 가이드",
+          "alt": "부산 대마도 페리 완벽 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/busan-tsushima-ferry-price/",
+          "title": "부산 대마도 페리 가격 가이드",
+          "alt": "부산 대마도 페리 가격 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/busan-tsushima-timetable/",
+          "title": "부산 대마도 페리 시간표 보는 법",
+          "alt": "부산 대마도 페리 시간표 보는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/hitakatsu-day-trip/",
+          "title": "히타카츠 당일치기 코스",
+          "alt": "히타카츠 당일치기 코스",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/hitakatsu-port-transport/",
+          "title": "히타카츠항 교통 가이드",
+          "alt": "히타카츠항 교통 가이드",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/hitakatsu-vs-izuhara/",
+          "title": "히타카츠 vs 이즈하라 어디로?",
+          "alt": "히타카츠 vs 이즈하라 어디로?",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/izuhara-1n2d/",
+          "title": "이즈하라 1박2일 코스",
+          "alt": "이즈하라 1박2일 코스",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/izuhara-port-transport/",
+          "title": "이즈하라항 교통 가이드",
+          "alt": "이즈하라항 교통 가이드",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/nova-tsushima-guide/",
+          "title": "NOVA 대마도 페리 가이드",
+          "alt": "NOVA 대마도 페리 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/tsushima-1n2d/",
+          "title": "대마도 1박2일 페리 여행",
+          "alt": "대마도 1박2일 페리 여행",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/tsushima-busan-ferry/",
+          "title": "대마도 부산 페리 귀국 가이드",
+          "alt": "대마도 부산 페리 귀국 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/tsushima-day-trip/",
+          "title": "대마도 당일치기 페리 여행",
+          "alt": "대마도 당일치기 페리 여행",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/tsushima-link-guide/",
+          "title": "쓰시마링크호 이용 가이드",
+          "alt": "쓰시마링크호 이용 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/japan/tsushima-one-day/",
+          "title": "대마도 당일치기 코스",
+          "alt": "대마도 당일치기 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/japan/tsushima-photo/",
+          "title": "대마도 사진 명소",
+          "alt": "대마도 사진 명소",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/japan/tsushima-season/",
+          "title": "대마도 계절별 여행",
+          "alt": "대마도 계절별 여행",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/local.jpg",
+      "count": 15,
+      "pages": [
+        {
+          "url": "/guide/japan-ferry-duty-free/",
+          "title": "페리 면세점 쇼핑 가이드",
+          "alt": "페리 면세점 쇼핑 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/aeon-maxvalu-guide/",
+          "title": "일본 이온·맥스밸류 쇼핑 가이드",
+          "alt": "일본 이온·맥스밸류 쇼핑 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/don-quijote-first-guide/",
+          "title": "돈키호테 쇼핑 처음 가는 법",
+          "alt": "돈키호테 쇼핑 처음 가는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/don-quijote-late-night/",
+          "title": "돈키호테 심야 쇼핑 괜찮을까",
+          "alt": "돈키호테 심야 쇼핑 괜찮을까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/don-quijote-shopping-list/",
+          "title": "돈키호테 쇼핑리스트 추천",
+          "alt": "돈키호테 쇼핑리스트 추천",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/don-quijote-tax-free/",
+          "title": "돈키호테 면세 계산 팁",
+          "alt": "돈키호테 면세 계산 팁",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-convenience-shopping-list/",
+          "title": "일본 편의점 쇼핑리스트",
+          "alt": "일본 편의점 쇼핑리스트",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-drugstore-shopping/",
+          "title": "일본 드럭스토어 쇼핑 가이드",
+          "alt": "일본 드럭스토어 쇼핑 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-supermarket-discount-time/",
+          "title": "일본 마트 반값 할인 시간대",
+          "alt": "일본 마트 반값 할인 시간대",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-supermarket-souvenir/",
+          "title": "일본 로컬마트 기념품 찾기",
+          "alt": "일본 로컬마트 기념품 찾기",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-tax-free-2026/",
+          "title": "일본 면세 쇼핑 2026 제도 변경",
+          "alt": "일본 면세 쇼핑 2026 제도 변경",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-tax-free-passport/",
+          "title": "일본 면세점에서 여권 꼭 필요할까",
+          "alt": "일본 면세점에서 여권 꼭 필요할까",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/life/life-supermarket-guide/",
+          "title": "일본 LIFE 라이프 마트 쇼핑 가이드",
+          "alt": "일본 LIFE 라이프 마트 쇼핑 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/lopia-supermarket-guide/",
+          "title": "일본 로피아 마트 쇼핑 가이드",
+          "alt": "일본 로피아 마트 쇼핑 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/ok-store-guide/",
+          "title": "일본 OK스토어 쇼핑 가이드",
+          "alt": "일본 OK스토어 쇼핑 가이드",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/fukuoka.jpg",
+      "count": 13,
+      "pages": [
+        {
+          "url": "/couple/fukuoka-couple-2n3d/",
+          "title": "후쿠오카 커플여행 2박3일",
+          "alt": "후쿠오카 커플여행 2박3일",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/fukuoka-night-date/",
+          "title": "후쿠오카 야경 데이트 코스",
+          "alt": "후쿠오카 야경 데이트 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/fukuoka-busan-ferry/",
+          "title": "후쿠오카 부산 페리 귀국 가이드",
+          "alt": "후쿠오카 부산 페리 귀국 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/fukuoka-ferry-2n3d/",
+          "title": "배 타고 후쿠오카 2박3일 코스",
+          "alt": "배 타고 후쿠오카 2박3일 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/fukuoka-ferry-3n4d/",
+          "title": "배 타고 후쿠오카 3박4일 코스",
+          "alt": "배 타고 후쿠오카 3박4일 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/fukuoka-ferry-vs-flight/",
+          "title": "후쿠오카 페리 vs 항공 비교",
+          "alt": "후쿠오카 페리 vs 항공 비교",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/fukuoka-vs-shimonoseki-ferry/",
+          "title": "후쿠오카 vs 시모노세키 페리 여행",
+          "alt": "후쿠오카 vs 시모노세키 페리 여행",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/fukuoka-vs-tsushima-ferry/",
+          "title": "후쿠오카 vs 대마도 배여행",
+          "alt": "후쿠오카 vs 대마도 배여행",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/hakata-port-to-hakata-station/",
+          "title": "하카타항에서 하카타역 가는 법",
+          "alt": "하카타항에서 하카타역 가는 법",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/hakata-port-to-tenjin/",
+          "title": "하카타항에서 텐진 가는 법",
+          "alt": "하카타항에서 텐진 가는 법",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/japan/fukuoka-one-day/",
+          "title": "후쿠오카 당일치기 코스",
+          "alt": "후쿠오카 당일치기 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/japan/fukuoka-photo/",
+          "title": "후쿠오카 사진 명소",
+          "alt": "후쿠오카 사진 명소",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/japan/fukuoka-season/",
+          "title": "후쿠오카 계절별 여행",
+          "alt": "후쿠오카 계절별 여행",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/osaka.jpg",
+      "count": 10,
+      "pages": [
+        {
+          "url": "/couple/osaka-couple-3n4d/",
+          "title": "오사카 커플여행 3박4일",
+          "alt": "오사카 커플여행 3박4일",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/osaka-night-date/",
+          "title": "오사카 밤 데이트 어디가 좋을까",
+          "alt": "오사카 밤 데이트 어디가 좋을까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/busan-osaka-car-ferry/",
+          "title": "부산 오사카 자동차 페리 여행",
+          "alt": "부산 오사카 자동차 페리 여행",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/osaka-ferry-3n4d/",
+          "title": "배 타고 오사카 3박4일 코스",
+          "alt": "배 타고 오사카 3박4일 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/osaka-ferry-4n5d/",
+          "title": "배 타고 오사카 4박5일 코스",
+          "alt": "배 타고 오사카 4박5일 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/osaka-ferry-vs-flight/",
+          "title": "오사카 페리 vs 항공 비교",
+          "alt": "오사카 페리 vs 항공 비교",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/osaka-port-to-umeda/",
+          "title": "오사카항에서 우메다 가는 법",
+          "alt": "오사카항에서 우메다 가는 법",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/japan/osaka-one-day/",
+          "title": "오사카 당일치기 코스",
+          "alt": "오사카 당일치기 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/japan/osaka-photo/",
+          "title": "오사카 사진 명소",
+          "alt": "오사카 사진 명소",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/japan/osaka-season/",
+          "title": "오사카 계절별 여행",
+          "alt": "오사카 계절별 여행",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/shimonoseki.jpg",
+      "count": 7,
+      "pages": [
+        {
+          "url": "/guide/busan-shimonoseki-car-ferry/",
+          "title": "부산 시모노세키 자동차 페리 여행",
+          "alt": "부산 시모노세키 자동차 페리 여행",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/shimonoseki-ferry-2n3d/",
+          "title": "배 타고 시모노세키 2박3일 코스",
+          "alt": "배 타고 시모노세키 2박3일 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/shimonoseki-mojiko-2n3d/",
+          "title": "시모노세키·모지코 2박3일 코스",
+          "alt": "시모노세키·모지코 2박3일 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/shimonoseki-port-to-mojiko/",
+          "title": "시모노세키항에서 모지코 가는 법",
+          "alt": "시모노세키항에서 모지코 가는 법",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/japan/shimonoseki-one-day/",
+          "title": "시모노세키 당일치기 코스",
+          "alt": "시모노세키 당일치기 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/japan/shimonoseki-photo/",
+          "title": "시모노세키 사진 명소",
+          "alt": "시모노세키 사진 명소",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/japan/shimonoseki-season/",
+          "title": "시모노세키 계절별 여행",
+          "alt": "시모노세키 계절별 여행",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/cabin.jpg",
+      "count": 5,
+      "pages": [
+        {
+          "url": "/guide/bugwan-ferry-rooms/",
+          "title": "부관훼리 객실 총정리",
+          "alt": "부관훼리 객실 총정리",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-room-classes/",
+          "title": "일본행 페리 객실 등급 비교",
+          "alt": "일본행 페리 객실 등급 비교",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/new-camellia-rooms/",
+          "title": "뉴카멜리아 객실 총정리",
+          "alt": "뉴카멜리아 객실 총정리",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/panstar-miracle-rooms/",
+          "title": "팬스타 미라클 객실 총정리",
+          "alt": "팬스타 미라클 객실 총정리",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/theme/oceanview-cabins/",
+          "title": "오션뷰 객실, 돈값 할까?",
+          "alt": "오션뷰 객실, 돈값 할까?",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/cash.jpg",
+      "count": 5,
+      "pages": [
+        {
+          "url": "/life/japan-card-only-travel/",
+          "title": "일본에서 카드만 들고 여행 가능할까",
+          "alt": "일본에서 카드만 들고 여행 가능할까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-card-payment-error/",
+          "title": "일본 해외카드 결제 오류 대처",
+          "alt": "일본 해외카드 결제 오류 대처",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-cash-how-much/",
+          "title": "일본여행 현금 얼마 필요할까",
+          "alt": "일본여행 현금 얼마 필요할까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-convenience-atm/",
+          "title": "일본 편의점 ATM 현금인출 가이드",
+          "alt": "일본 편의점 ATM 현금인출 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-exchange-vs-card/",
+          "title": "일본 환전 vs 해외카드 뭐가 나을까",
+          "alt": "일본 환전 vs 해외카드 뭐가 나을까",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/car.jpg",
+      "count": 4,
+      "pages": [
+        {
+          "url": "/guide/japan-ferry-bicycle/",
+          "title": "일본 페리 자전거 선적 가이드",
+          "alt": "일본 페리 자전거 선적 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-car/",
+          "title": "일본 페리 자동차 선적 가이드",
+          "alt": "일본 페리 자동차 선적 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-motorcycle/",
+          "title": "일본 페리 오토바이 선적 가이드",
+          "alt": "일본 페리 오토바이 선적 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/theme/car-roadtrip-japan/",
+          "title": "내 차 싣고 일본 로드트립",
+          "alt": "내 차 싣고 일본 로드트립",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/esim.jpg",
+      "count": 2,
+      "pages": [
+        {
+          "url": "/guide/japan-ferry-esim/",
+          "title": "일본 페리 eSIM 언제 개통할까",
+          "alt": "일본 페리 eSIM 언제 개통할까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-wifi/",
+          "title": "일본 페리 선내 와이파이·통신",
+          "alt": "일본 페리 선내 와이파이·통신",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/season.jpg",
+      "count": 2,
+      "pages": [
+        {
+          "url": "/guide/japan-ferry-peak-season-booking/",
+          "title": "일본 페리 성수기 예약 팁",
+          "alt": "일본 페리 성수기 예약 팁",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-typhoon-season/",
+          "title": "태풍 시즌 일본 페리 여행",
+          "alt": "태풍 시즌 일본 페리 여행",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/food.jpg",
+      "count": 2,
+      "pages": [
+        {
+          "url": "/life/japan-late-night-food/",
+          "title": "일본 심야에 밥 먹을 곳 찾기",
+          "alt": "일본 심야에 밥 먹을 곳 찾기",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-supermarket-ready-food/",
+          "title": "일본 마트에서 사먹기 좋은 음식",
+          "alt": "일본 마트에서 사먹기 좋은 음식",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/onsen.jpg",
+      "count": 1,
+      "pages": [
+        {
+          "url": "/guide/japan-ferry-overnight-value/",
+          "title": "일본 페리 숙박비 절약 효과 계산",
+          "alt": "일본 페리 숙박비 절약 효과 계산",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/hokkaido.jpg",
+      "count": 1,
+      "pages": [
+        {
+          "url": "/guide/japan-ferry-winter/",
+          "title": "겨울 일본 페리 여행 주의사항",
+          "alt": "겨울 일본 페리 여행 주의사항",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/convenience.jpg",
+      "count": 1,
+      "pages": [
+        {
+          "url": "/life/japan-convenience-bento/",
+          "title": "일본 편의점 도시락 추천 기준",
+          "alt": "일본 편의점 도시락 추천 기준",
+          "priority": "general editorial topic"
+        }
+      ]
+    }
+  ],
+  "headline": [
+    {
+      "cover": "/images/ferry.jpg",
+      "count": 40,
+      "first_8": [
+        {
+          "url": "/guide/bugwan-ferry-guide/",
+          "title": "부관훼리 이용 가이드",
+          "alt": "부관훼리 이용 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/how-to-take-japan-ferry/",
+          "title": "일본 페리 여행 처음 타는 법",
+          "alt": "일본 페리 여행 처음 타는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-baggage/",
+          "title": "일본 페리 수하물 규정 가이드",
+          "alt": "일본 페리 수하물 규정 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-bath/",
+          "title": "일본 페리 샤워·대욕장 이용 팁",
+          "alt": "일본 페리 샤워·대욕장 이용 팁",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-booking-passport/",
+          "title": "일본 페리 예약에 여권이 필요한가요?",
+          "alt": "일본 페리 예약에 여권이 필요한가요?",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/japan-ferry-cancellation-refund/",
+          "title": "일본 페리 취소·환불 가이드",
+          "alt": "일본 페리 취소·환불 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-cheap-booking/",
+          "title": "일본 페리 싸게 예약하는 법",
+          "alt": "일본 페리 싸게 예약하는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/japan-ferry-checkin-time/",
+          "title": "일본 페리 체크인 시간",
+          "alt": "일본 페리 체크인 시간",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/couple.jpg",
+      "count": 27,
+      "first_8": [
+        {
+          "url": "/couple/ferry-cabin-for-couples/",
+          "title": "커플 페리 객실 고르는 법",
+          "alt": "커플 페리 객실 고르는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-christmas-date/",
+          "title": "일본 크리스마스 데이트 문화",
+          "alt": "일본 크리스마스 데이트 문화",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-confession-culture/",
+          "title": "일본 연애에서 고백은 왜 중요할까",
+          "alt": "일본 연애에서 고백은 왜 중요할까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-couple-anniversary-culture/",
+          "title": "일본 커플 기념일 문화",
+          "alt": "일본 커플 기념일 문화",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-couple-messaging-culture/",
+          "title": "일본 커플은 연락을 얼마나 할까",
+          "alt": "일본 커플은 연락을 얼마나 할까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-couple-photo-trip/",
+          "title": "일본 커플여행 사진 잘 남기는 법",
+          "alt": "일본 커플여행 사진 잘 남기는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-couple-trip-planning/",
+          "title": "일본 커플여행 싸우지 않는 일정 짜기",
+          "alt": "일본 커플여행 싸우지 않는 일정 짜기",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/japan-date-cost-splitting/",
+          "title": "일본 데이트 비용, 더치페이가 일반적일까",
+          "alt": "일본 데이트 비용, 더치페이가 일반적일까",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/city.jpg",
+      "count": 26,
+      "first_8": [
+        {
+          "url": "/guide/busan-port-departure-process/",
+          "title": "부산항 국제여객터미널 출국 수속",
+          "alt": "부산항 국제여객터미널 출국 수속",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/busan-station-to-port/",
+          "title": "부산역에서 부산항 국제여객터미널 가는 법",
+          "alt": "부산역에서 부산항 국제여객터미널 가는 법",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/gimhae-airport-to-busan-port/",
+          "title": "김해공항에서 부산항 가는 법",
+          "alt": "김해공항에서 부산항 가는 법",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/japan-port-arrival-process/",
+          "title": "일본 항구 입국 수속 가이드",
+          "alt": "일본 항구 입국 수속 가이드",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/seaflower-guide/",
+          "title": "씨플라워 이용 가이드",
+          "alt": "씨플라워 이용 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-100yen-shop/",
+          "title": "일본 100엔샵 뭐 사면 좋을까",
+          "alt": "일본 100엔샵 뭐 사면 좋을까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-24-hour-shops/",
+          "title": "일본 24시간 가게 뭐가 있을까",
+          "alt": "일본 24시간 가게 뭐가 있을까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-coin-laundry-guide/",
+          "title": "일본 코인세탁방 처음 쓰는 법",
+          "alt": "일본 코인세탁방 처음 쓰는 법",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/tsushima.jpg",
+      "count": 16,
+      "first_8": [
+        {
+          "url": "/guide/busan-tsushima-ferry/",
+          "title": "부산 대마도 페리 완벽 가이드",
+          "alt": "부산 대마도 페리 완벽 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/busan-tsushima-ferry-price/",
+          "title": "부산 대마도 페리 가격 가이드",
+          "alt": "부산 대마도 페리 가격 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/busan-tsushima-timetable/",
+          "title": "부산 대마도 페리 시간표 보는 법",
+          "alt": "부산 대마도 페리 시간표 보는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/hitakatsu-day-trip/",
+          "title": "히타카츠 당일치기 코스",
+          "alt": "히타카츠 당일치기 코스",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/hitakatsu-port-transport/",
+          "title": "히타카츠항 교통 가이드",
+          "alt": "히타카츠항 교통 가이드",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/hitakatsu-vs-izuhara/",
+          "title": "히타카츠 vs 이즈하라 어디로?",
+          "alt": "히타카츠 vs 이즈하라 어디로?",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/izuhara-1n2d/",
+          "title": "이즈하라 1박2일 코스",
+          "alt": "이즈하라 1박2일 코스",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/guide/izuhara-port-transport/",
+          "title": "이즈하라항 교통 가이드",
+          "alt": "이즈하라항 교통 가이드",
+          "priority": "site-specific place or service named"
+        }
+      ]
+    },
+    {
+      "cover": "/images/local.jpg",
+      "count": 15,
+      "first_8": [
+        {
+          "url": "/guide/japan-ferry-duty-free/",
+          "title": "페리 면세점 쇼핑 가이드",
+          "alt": "페리 면세점 쇼핑 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/aeon-maxvalu-guide/",
+          "title": "일본 이온·맥스밸류 쇼핑 가이드",
+          "alt": "일본 이온·맥스밸류 쇼핑 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/don-quijote-first-guide/",
+          "title": "돈키호테 쇼핑 처음 가는 법",
+          "alt": "돈키호테 쇼핑 처음 가는 법",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/don-quijote-late-night/",
+          "title": "돈키호테 심야 쇼핑 괜찮을까",
+          "alt": "돈키호테 심야 쇼핑 괜찮을까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/don-quijote-shopping-list/",
+          "title": "돈키호테 쇼핑리스트 추천",
+          "alt": "돈키호테 쇼핑리스트 추천",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/don-quijote-tax-free/",
+          "title": "돈키호테 면세 계산 팁",
+          "alt": "돈키호테 면세 계산 팁",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-convenience-shopping-list/",
+          "title": "일본 편의점 쇼핑리스트",
+          "alt": "일본 편의점 쇼핑리스트",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/life/japan-drugstore-shopping/",
+          "title": "일본 드럭스토어 쇼핑 가이드",
+          "alt": "일본 드럭스토어 쇼핑 가이드",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/fukuoka.jpg",
+      "count": 13,
+      "first_8": [
+        {
+          "url": "/couple/fukuoka-couple-2n3d/",
+          "title": "후쿠오카 커플여행 2박3일",
+          "alt": "후쿠오카 커플여행 2박3일",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/fukuoka-night-date/",
+          "title": "후쿠오카 야경 데이트 코스",
+          "alt": "후쿠오카 야경 데이트 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/fukuoka-busan-ferry/",
+          "title": "후쿠오카 부산 페리 귀국 가이드",
+          "alt": "후쿠오카 부산 페리 귀국 가이드",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/fukuoka-ferry-2n3d/",
+          "title": "배 타고 후쿠오카 2박3일 코스",
+          "alt": "배 타고 후쿠오카 2박3일 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/fukuoka-ferry-3n4d/",
+          "title": "배 타고 후쿠오카 3박4일 코스",
+          "alt": "배 타고 후쿠오카 3박4일 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/fukuoka-ferry-vs-flight/",
+          "title": "후쿠오카 페리 vs 항공 비교",
+          "alt": "후쿠오카 페리 vs 항공 비교",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/fukuoka-vs-shimonoseki-ferry/",
+          "title": "후쿠오카 vs 시모노세키 페리 여행",
+          "alt": "후쿠오카 vs 시모노세키 페리 여행",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/fukuoka-vs-tsushima-ferry/",
+          "title": "후쿠오카 vs 대마도 배여행",
+          "alt": "후쿠오카 vs 대마도 배여행",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/osaka.jpg",
+      "count": 10,
+      "first_8": [
+        {
+          "url": "/couple/osaka-couple-3n4d/",
+          "title": "오사카 커플여행 3박4일",
+          "alt": "오사카 커플여행 3박4일",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/couple/osaka-night-date/",
+          "title": "오사카 밤 데이트 어디가 좋을까",
+          "alt": "오사카 밤 데이트 어디가 좋을까",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/busan-osaka-car-ferry/",
+          "title": "부산 오사카 자동차 페리 여행",
+          "alt": "부산 오사카 자동차 페리 여행",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/osaka-ferry-3n4d/",
+          "title": "배 타고 오사카 3박4일 코스",
+          "alt": "배 타고 오사카 3박4일 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/osaka-ferry-4n5d/",
+          "title": "배 타고 오사카 4박5일 코스",
+          "alt": "배 타고 오사카 4박5일 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/osaka-ferry-vs-flight/",
+          "title": "오사카 페리 vs 항공 비교",
+          "alt": "오사카 페리 vs 항공 비교",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/osaka-port-to-umeda/",
+          "title": "오사카항에서 우메다 가는 법",
+          "alt": "오사카항에서 우메다 가는 법",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/japan/osaka-one-day/",
+          "title": "오사카 당일치기 코스",
+          "alt": "오사카 당일치기 코스",
+          "priority": "general editorial topic"
+        }
+      ]
+    },
+    {
+      "cover": "/images/shimonoseki.jpg",
+      "count": 7,
+      "first_8": [
+        {
+          "url": "/guide/busan-shimonoseki-car-ferry/",
+          "title": "부산 시모노세키 자동차 페리 여행",
+          "alt": "부산 시모노세키 자동차 페리 여행",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/shimonoseki-ferry-2n3d/",
+          "title": "배 타고 시모노세키 2박3일 코스",
+          "alt": "배 타고 시모노세키 2박3일 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/shimonoseki-mojiko-2n3d/",
+          "title": "시모노세키·모지코 2박3일 코스",
+          "alt": "시모노세키·모지코 2박3일 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/guide/shimonoseki-port-to-mojiko/",
+          "title": "시모노세키항에서 모지코 가는 법",
+          "alt": "시모노세키항에서 모지코 가는 법",
+          "priority": "site-specific place or service named"
+        },
+        {
+          "url": "/japan/shimonoseki-one-day/",
+          "title": "시모노세키 당일치기 코스",
+          "alt": "시모노세키 당일치기 코스",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/japan/shimonoseki-photo/",
+          "title": "시모노세키 사진 명소",
+          "alt": "시모노세키 사진 명소",
+          "priority": "general editorial topic"
+        },
+        {
+          "url": "/japan/shimonoseki-season/",
+          "title": "시모노세키 계절별 여행",
+          "alt": "시모노세키 계절별 여행",
+          "priority": "general editorial topic"
+        }
+      ]
+    }
+  ],
+  "priority": "Confirm exact photograph, date, venue, photographer, license, and credit before any replacement; never infer current 2026 operations from historical photograph.",
+  "confirmed_image_errors": 0,
+  "possible_mismatches_are_unverified": true
+}
