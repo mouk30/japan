@@ -1,0 +1,27 @@
+name: V140 Okinawa Kouri actual bridge scene comparison
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/v140_kouri_photo_comparison.py
+      - .github/workflows/v140-kouri-visual-selection.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bridge-comparison:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python scripts/v140_kouri_photo_comparison.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v140-kouri-verified-original-comparison
+          path: audit-output/v140-okinawa-candidates/
+          retention-days: 14
