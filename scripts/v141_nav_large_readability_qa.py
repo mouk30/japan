@@ -46,8 +46,15 @@ with sync_playwright() as pw:
         item=page.locator(f'.nf301-item[data-dropdown="{group}"]')
         item.locator(".nf301-mainlink").hover()
         fly=item.locator(".nf301-flyout")
-        try:fly.wait_for(state="visible",timeout=2000)
-        except:issues.append(group+" menu didn't open");continue
+        # Hover remains a convenience. The disclosure button is the explicit
+        # accessible toggle: test it too and measure only while visibly open.
+        disclosure=item.locator(".nf301-disclose")
+        disclosure.click()
+        try:fly.wait_for(state="visible",timeout=2500)
+        except:issues.append(group+" menu didn't open via disclosure");continue
+        if disclosure.get_attribute("aria-expanded")!="true":
+          issues.append(group+" aria-expanded did not sync")
+        disclosure.focus()
         colors=fly.locator(".nf301-flygrid>a").first.evaluate("""(e)=>{
           let title=e.querySelector('span'),small=e.querySelector('small'),rect=e.getBoundingClientRect(),fly=e.closest('.nf301-flyout').getBoundingClientRect();
           return{title:parseFloat(getComputedStyle(title).fontSize),
