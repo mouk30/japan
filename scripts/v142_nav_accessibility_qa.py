@@ -114,7 +114,7 @@ with sync_playwright() as pw:
      info["desktop"]="dropdown/aria/Escape"
     info["errors"]=errors
    except Exception as e:
-    errors.append("browser error: "+str(e)[:200])
+    errors.append("browser error: "+str(e)[:1600])
     info["errors"]=errors
    report["results"].append(info)
    report["errors"].extend(f"{route} {width}px: {e}" for e in errors)
