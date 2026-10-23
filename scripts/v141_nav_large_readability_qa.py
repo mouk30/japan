@@ -44,7 +44,7 @@ with sync_playwright() as pw:
       if data["sub"]["display"]=="none":issues.append("subrow hidden")
       for group in ["japan","things","people","practical"]:
         item=page.locator(f'.nf301-item[data-dropdown="{group}"]')
-        item.locator(".nf301-mainlink").hover()
+        # Click the explicit disclosure control directly (hover is separately tested).
         fly=item.locator(".nf301-flyout")
         # Hover remains a convenience. The disclosure button is the explicit
         # accessible toggle: test it too and measure only while visibly open.
@@ -83,7 +83,8 @@ with sync_playwright() as pw:
         if not hidden:issues.append("floating Kakao button still covers open mobile menu")
       group=panel.locator('.nf301-mob-group[data-mob-group="japan"]')
       btn=group.locator(".nf301-mob-expand")
-      btn.click()
+      if btn.get_attribute('aria-expanded')!='true':
+        btn.click()
       opts=group.locator(".nf301-mob-options")
       if opts.get_attribute("data-open")!="true":issues.append("mobile submenu did not expand")
       font=opts.locator("a").first.evaluate("(e)=>parseFloat(getComputedStyle(e).fontSize)")
