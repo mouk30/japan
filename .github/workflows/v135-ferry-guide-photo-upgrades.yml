@@ -24,10 +24,10 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install "Pillow==11.3.0"
       - name: Compile exact source and SEO guarded importer
-        run: python -m py_compile scripts/v135_replace_generic_ferry_heroes.py
-      - name: Download actual photo sources into separately resized WebP and update five old guide heroes
-        run: python scripts/v135_replace_generic_ferry_heroes.py
-      - name: Verify 2 source WebP bytes and 5 article attributions + SEO
+        run: python -m py_compile scripts/v135_replace_generic_route_heroes.py
+      - name: Download actual photo sources into separately resized WebP and update ten existing guide photos
+        run: python scripts/v135_replace_generic_route_heroes.py
+      - name: Verify 2 source WebP bytes and 10 article attributions + SEO
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -50,7 +50,7 @@ jobs:
             assert re.search(rgx,html).group(1)==info[key],(slug,key)
           print('V135: TEN GUIDES, TWO LICENSED REAL SOURCES, TEN PROTECTED SEO CHECKS PASSED')
           PY
-      - name: Publish exactly 5 existing guides, 2 unique photos and one proof report
+      - name: Publish exactly 10 existing guides, 2 unique photos and one proof report
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
