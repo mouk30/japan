@@ -1,0 +1,33 @@
+name: V143 whole-site contextual detail navigation QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - build.js
+      - scripts/v143_contextual_related.cjs
+      - scripts/v143_contextual_link_audit.cjs
+      - site/nf-v143-topic-guides.css
+      - .github/workflows/v143-contextual-links-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit-site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build all published pages
+        run: npm run build
+      - name: Check all contextual next-step links and original SEO
+        run: node scripts/v143_contextual_link_audit.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v143-contextual-navigation-whole-site-audit
+          path: audit-reports/v143/contextual-links-build-qa.json
+          retention-days: 40
+          if-no-files-found: warn
