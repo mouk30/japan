@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-23T03:36:55.087Z",
+  "createdAt": "2026-10-23T06:13:52.728Z",
   "widths": [
     320,
     390,
@@ -110,13 +110,13 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/shimonoseki-cruise-port-day-trip.webp",
-          "alt": "시모노세키 간몬해협의 다리와 크루즈 기항 분위기를 표현한 여행 이미지",
+          "src": "/images/venues/nf-v124-shimonoseki-dusk-real.webp",
+          "alt": "2016년 촬영한 시모노세키 가라토시장 인근 간몬해협과 모지코 일대의 실제 황혼 풍경",
           "ready": true
         },
         {
-          "src": "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
-          "alt": "대마도 이즈하라항과 초록 산자락 여행 분위기를 표현한 이미지",
+          "src": "/images/venues/nf-v124-tsushima-harbor-real.webp",
+          "alt": "2017년 촬영한 대마도 이즈하라항과 해안의 실제 풍경",
           "ready": true
         },
         {
@@ -130,7 +130,7 @@
           "ready": true
         }
       ],
-      "linkCount": 27,
+      "linkCount": 31,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-320.png"
@@ -269,13 +269,13 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/shimonoseki-cruise-port-day-trip.webp",
-          "alt": "시모노세키 간몬해협의 다리와 크루즈 기항 분위기를 표현한 여행 이미지",
+          "src": "/images/venues/nf-v124-shimonoseki-dusk-real.webp",
+          "alt": "2016년 촬영한 시모노세키 가라토시장 인근 간몬해협과 모지코 일대의 실제 황혼 풍경",
           "ready": true
         },
         {
-          "src": "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
-          "alt": "대마도 이즈하라항과 초록 산자락 여행 분위기를 표현한 이미지",
+          "src": "/images/venues/nf-v124-tsushima-harbor-real.webp",
+          "alt": "2017년 촬영한 대마도 이즈하라항과 해안의 실제 풍경",
           "ready": true
         },
         {
@@ -289,7 +289,7 @@
           "ready": true
         }
       ],
-      "linkCount": 27,
+      "linkCount": 31,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-390.png"
@@ -428,13 +428,13 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/shimonoseki-cruise-port-day-trip.webp",
-          "alt": "시모노세키 간몬해협의 다리와 크루즈 기항 분위기를 표현한 여행 이미지",
+          "src": "/images/venues/nf-v124-shimonoseki-dusk-real.webp",
+          "alt": "2016년 촬영한 시모노세키 가라토시장 인근 간몬해협과 모지코 일대의 실제 황혼 풍경",
           "ready": true
         },
         {
-          "src": "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
-          "alt": "대마도 이즈하라항과 초록 산자락 여행 분위기를 표현한 이미지",
+          "src": "/images/venues/nf-v124-tsushima-harbor-real.webp",
+          "alt": "2017년 촬영한 대마도 이즈하라항과 해안의 실제 풍경",
           "ready": true
         },
         {
@@ -448,7 +448,7 @@
           "ready": true
         }
       ],
-      "linkCount": 27,
+      "linkCount": 31,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-768.png"
@@ -587,13 +587,13 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/shimonoseki-cruise-port-day-trip.webp",
-          "alt": "시모노세키 간몬해협의 다리와 크루즈 기항 분위기를 표현한 여행 이미지",
+          "src": "/images/venues/nf-v124-shimonoseki-dusk-real.webp",
+          "alt": "2016년 촬영한 시모노세키 가라토시장 인근 간몬해협과 모지코 일대의 실제 황혼 풍경",
           "ready": true
         },
         {
-          "src": "/images/editorial/tsushima-izuhara-cruise-port-day-trip.webp",
-          "alt": "대마도 이즈하라항과 초록 산자락 여행 분위기를 표현한 이미지",
+          "src": "/images/venues/nf-v124-tsushima-harbor-real.webp",
+          "alt": "2017년 촬영한 대마도 이즈하라항과 해안의 실제 풍경",
           "ready": true
         },
         {
@@ -607,7 +607,7 @@
           "ready": true
         }
       ],
-      "linkCount": 27,
+      "linkCount": 31,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-1440.png"
