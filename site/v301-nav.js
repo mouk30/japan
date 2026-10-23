@@ -121,9 +121,13 @@ document.addEventListener('keydown',e=>{
   const visible=[...header.querySelectorAll('a[href],button:not([disabled])')].filter(el=>
    el.getClientRects().length>0&&getComputedStyle(el).visibility!=='hidden'&&!el.closest('[inert]'));
   if(!visible.length)return;
-  const first=visible[0],last=visible[visible.length-1],here=document.activeElement;
+  const first=header.querySelector('.nf301-brand')||visible[0];
+  const last=mobile.querySelector('.nf301-mobile-foot a:last-child')||visible[visible.length-1];
+  const here=document.activeElement;
   if(e.shiftKey&&(here===first||!visible.includes(here))){e.preventDefault();last.focus()}
-  else if(!e.shiftKey&&(here===last||!visible.includes(here))){e.preventDefault();first.focus()}
+  else if(!e.shiftKey&&(here===last||here===visible[visible.length-1]||!visible.includes(here))){
+   e.preventDefault();first.focus();
+  }
  }
 });
 window.addEventListener('resize',()=>{
