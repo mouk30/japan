@@ -1,0 +1,29 @@
+name: V147 published existing guides HTTP QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/qa_v147_public_existing.py"
+      - ".github/workflows/v147-public-existing-guide-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-published-v147:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe real public domain after previous V147 content release
+        run: |
+          python -m py_compile scripts/qa_v147_public_existing.py
+          python scripts/qa_v147_public_existing.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v147-public-8-existing-pages
+          path: audit-output/v147-public/
+          if-no-files-found: warn
