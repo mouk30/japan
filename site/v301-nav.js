@@ -19,6 +19,10 @@ function scheduleFlyClose(item){
  },260));
 }
 function setFly(item,on,reason=''){
+ if(Array.isArray(window.__nf142Trace)){
+  window.__nf142Trace.push({time:performance.now(),label:item.dataset.dropdown,open:on,reason,
+   stack:(new Error()).stack?.split('\n').slice(2,4).join(' | ')||''});
+ }
  item.dataset.openSource=on?reason:'';
  const btn=item.querySelector('.nf301-disclose');
  item.dataset.open=on?'true':'false';
