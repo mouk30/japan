@@ -38,7 +38,9 @@ flyouts.forEach(item=>{
  item.addEventListener('mouseleave',()=>{if(matchMedia('(min-width: 1200px)').matches)scheduleFlyClose(item)});
  item.addEventListener('focusin',()=>{if(matchMedia('(min-width: 1200px)').matches&&item.dataset.open!=='true'){closeFly();setFly(item,true,'focus')}});
  item.addEventListener('focusout',e=>{
-  if(!item.contains(e.relatedTarget))setFly(item,false);
+  /* A pointer-activated flyout must not disappear when focus momentarily
+     leaves its narrow trigger. Escape, second click or outside click closes. */
+  if(!item.contains(e.relatedTarget)&&item.dataset.openSource!=='click')setFly(item,false);
  });
 });
 // Restore dropdown on actual mouse motion when a page-specific style or browser
