@@ -1,0 +1,834 @@
+{
+  "version": "V144",
+  "date": "2026-10-23",
+  "intended_pages": 51,
+  "edited_pages": [
+    {
+      "url": "/season/asahikawa-winter-festival/",
+      "title": "아사히카와 겨울축제 가이드",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "6f95ca406bfac8bf73303c727db6de6e40b7c7ff5302e38a1c5be805900ea89b",
+      "new_sha256": "8c7e2b2775520e6efe691dca0920205890adf9c4cf22555cd53a0e3954bcb139"
+    },
+    {
+      "url": "/season/hokkaido-winter-packing/",
+      "title": "홋카이도 겨울 여행 준비물",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "6ec88c7c44b1a8f4b4825679a920d58b5208e3a4cf165263621b6ff00ddc1626",
+      "new_sha256": "ff47d9395e9015c9e04b8a86fd81b5047d815f40acbf2aaac47eb1195b8439d4"
+    },
+    {
+      "url": "/season/hokkaido-winter-photo-trip/",
+      "title": "홋카이도 겨울 사진여행",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "b8ac94c707e5b880148b3e083169866b392909f87f4ca46bf86cc17377894aae",
+      "new_sha256": "6f8e33ed037355cd605f324b5ae9cfaa6110d4175ffd24b753192866499a19e8"
+    },
+    {
+      "url": "/season/hokkaido-winter-rental-car/",
+      "title": "홋카이도 겨울 렌터카 주의사항",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "79565a4b4c1c7d0c19f2b75aa96beab7870bfcfb46e6efa1a0f660dea0437715",
+      "new_sha256": "b1e29e60797642e593fd5eac782ac3bee47ac2ebaab51e021f3d90c3e4bac3de"
+    },
+    {
+      "url": "/season/hokkaido-winter-seniors/",
+      "title": "홋카이도 겨울 부모님 여행",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "6de4adc79b7fc1caee5e3a206c0f726bf987dbaff1f0eee90de5b3e2a784756a",
+      "new_sha256": "13fca3e8e02651015384f8522ae0500c245ddd30ba5a8c3be8f3f34fa8331f1d"
+    },
+    {
+      "url": "/season/hokkaido-winter-solo/",
+      "title": "홋카이도 겨울 혼자여행",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "071214a56fa3ac07c1a815a11d3c728d757ab94f501e1f7d407c76aa4da221be",
+      "new_sha256": "1dc6de276d62ef976672d0bee308ae1cdad82cc7870139f5f3cffa6e31955db8"
+    },
+    {
+      "url": "/season/japan-autumn-food-trip/",
+      "title": "일본 가을 먹거리 여행",
+      "old_cover": "/images/food.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "8f99c80f3a8b17eb8abf630bc5e1845c9915f081a1485759b70a98482842f9e3",
+      "new_sha256": "8f6769d41b4b6c9749d99d1687577198e3d58db975105ee12b23c4dacf06c72e"
+    },
+    {
+      "url": "/season/japan-autumn-leaves-guide/",
+      "title": "일본 가을 단풍여행 가이드",
+      "old_cover": "/images/season.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "b302e00d80c38aa998f0d56c9ab1edb1a63bfcb7b9208810ec7f1fdef252d53a",
+      "new_sha256": "e0f0f2c5e69c65b9e708489ddc97c68171b329936db17196606dc5398712ebd6"
+    },
+    {
+      "url": "/season/japan-cherry-blossom-guide/",
+      "title": "일본 벚꽃여행 준비 가이드",
+      "old_cover": "/images/season.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "f351ae1dca8ce0c76bae89c77d9dcf3c8550b2b01e83818f832b987bbc309bf0",
+      "new_sha256": "6e4b6db1a01e9aad47d2b526c2e30e52a9a2cb0ae89f6d61e5af3a8e50d29e88"
+    },
+    {
+      "url": "/season/japan-fireworks-festival/",
+      "title": "일본 불꽃축제 여행 팁",
+      "old_cover": "/images/season.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "a83d79f58ec7991d90682a4390d7230e95cdce49257575b65f7dc8d89d957f2c",
+      "new_sha256": "bcfcdee64519c3e513e4046371360f114ca7de556148f7026cd77c679515d394"
+    },
+    {
+      "url": "/season/japan-spring-guide/",
+      "title": "일본 봄여행 완벽 가이드",
+      "old_cover": "/images/season.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "d37a1b58606947f474d1793e48b0fd27e8fa00ec3069fc5cec7fc4d4e723730d",
+      "new_sha256": "9a598818228ec059637ff375db2b2153ee010c9d570cd29fe38774671f79196f"
+    },
+    {
+      "url": "/season/japan-summer-festival-guide/",
+      "title": "일본 여름축제 여행 가이드",
+      "old_cover": "/images/season.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "d34a29eab09667370cc2723bd671080421e6f6ed0ef733192ee1f648ac7eb4df",
+      "new_sha256": "7e57e15044c8df5fd4ee05c2cc57967aafb44f6f8df8268458ba14777b928217"
+    },
+    {
+      "url": "/season/japan-winter-budget/",
+      "title": "일본 겨울여행 가성비 팁",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "1e5ebe3908c9876e3ab89140c1351f46596fb48266ac10b8b331e356dd6dacf2",
+      "new_sha256": "b0c204b563883af56d6225e5a337e852d0d85fd3a88e7395635db8a27f9d5258"
+    },
+    {
+      "url": "/season/jozankei-winter-onsen/",
+      "title": "조잔케이 겨울 온천 가이드",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "54bc58e9deca83ba303be31d5146e6c5a9765bbc9aa641bf3b12687d523ad531",
+      "new_sha256": "1d27cc7532d764f58e0e34a966b1f3f80f68e40239b614f49f1f7a399eb79fd9"
+    },
+    {
+      "url": "/season/new-chitose-to-sapporo-winter/",
+      "title": "신치토세공항에서 삿포로 겨울 이동",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "00de42094df97149227c6ddc7b212086d9182c0a527b900e462678a3abb9ff3c",
+      "new_sha256": "abb3c5cd4445d3322123277ec80fd8056d4550b7cecac5c23b3806d94eb8c965"
+    },
+    {
+      "url": "/season/noboribetsu-winter-onsen/",
+      "title": "노보리베츠 겨울 온천 가이드",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "879b9808aba926f0e2d5b7d2255e22ecbad84a95a5fce95a94cdfec1bb441747",
+      "new_sha256": "8f14831853dcd389cf171b3d074cd38545d8e6b6ed69a82ea5dbeb90aa99f832"
+    },
+    {
+      "url": "/season/otaru-snow-light-couple/",
+      "title": "오타루 눈빛거리 커플 여행",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "585b15c9b3158a25b76c5e933c088d552a873acd3b38da9c19c20fef5bc39bbe",
+      "new_sha256": "72d31ec0d14d8ae512bbd2b9068360e716cff5122c5a5288485382015c3d6a90"
+    },
+    {
+      "url": "/season/otaru-snow-light-path-2027/",
+      "title": "오타루 눈빛거리 2027 가이드",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "29bd266e320c0d49c6ab13fd92bc05a470cda935d22784b03f49fdfa95e24e04",
+      "new_sha256": "d1202700fdafc7a3d5a807c3542c6b93d77ac728afae69f154ffeb63fc5bd802"
+    },
+    {
+      "url": "/season/otaru-winter-day-trip/",
+      "title": "오타루 겨울 당일치기",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "11eb8f1145d4afc64482c0972d75747b20b1ccfa748778fe9b69d1c587475dc9",
+      "new_sha256": "ae39c15b5a184a87d635eef4c28973d200cb6c6e8689618e58ae4b729a7efc14"
+    },
+    {
+      "url": "/season/otaru-winter-food/",
+      "title": "오타루 겨울 먹거리",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "7b5687f48234fa36ff48e01dc0d83c18c40fd25645e869adc511d4430e40f6c5",
+      "new_sha256": "77fc1f1d52fe1d8b0654b0c0f656a3f0c4bf891a596eb4f534a81f4cc375bc32"
+    },
+    {
+      "url": "/season/otaru-winter-shopping/",
+      "title": "오타루 겨울 기념품",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "e471fd1191fd11a968e907ff0d32fbb80ce73c2d9a9b56b6c0b0780fffaaea07",
+      "new_sha256": "fad9cfdf6ebcf8a492fc130b36649b12856f2fd599ad20997052e732f2037028"
+    },
+    {
+      "url": "/season/sapporo-winter-shoes/",
+      "title": "삿포로 겨울 신발 추천 기준",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "8252bf1bec2406fcfcfb176e563ef51d614864f768607a5335807e7d7546b349",
+      "new_sha256": "7fe39c2241442a25a104b040de8f7599e104a604882d3fe806e6776b0f917c19"
+    },
+    {
+      "url": "/season/sapporo-winter-souvenir/",
+      "title": "삿포로 겨울 기념품",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "4243ccc405b282a92635dbdcb630b083fda90836c0a5d511b1dd5a06f305f955",
+      "new_sha256": "ddd847dcc2bcc095717a432af887fec5504cf4b4243305af4529994b28b19ddd"
+    },
+    {
+      "url": "/season/sapporo-winter-transport/",
+      "title": "삿포로 겨울 교통 팁",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "bcdae696cfbadf79d5c54b01fcbe455e803cd88a64f470dd0914fd1920a50372",
+      "new_sha256": "d3fb56d0b72e14f1c92eceb02e8073e79f89182382ac77a7dbd708863571661f"
+    },
+    {
+      "url": "/practical/ghibli-museum-guide/",
+      "title": "지브리 미술관 처음 가는 법",
+      "old_cover": "/images/city.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "aa6ca1422b1470d492d74a96bbc948a173185e18c5a8ac3220b5b85896571804",
+      "new_sha256": "cf0c8c9ba9a58beb3d50cfa10c09487568b6edf3e8a0ea0a037c384d455a7322"
+    },
+    {
+      "url": "/practical/hokkaido-winter-bus-tour/",
+      "title": "홋카이도 겨울 버스투어 가이드",
+      "old_cover": "/images/hokkaido.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "32ccb63e283cf97ddeb6cf52a6de8a50ed743d406352959430881c5ad1ef1edb",
+      "new_sha256": "f6d194716d7f3005520a3fa26aab3d6966d5f726026114dd00446c82d31a902f"
+    },
+    {
+      "url": "/practical/japan-airport-bus-guide/",
+      "title": "일본 공항버스 처음 타는 법",
+      "old_cover": "/images/transport.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "7417da23258de49677995bb749e1c2290cfbd2dfc5a01383755e96364ee42b61",
+      "new_sha256": "77e790b9a6d60af834bc34dec0893349625807dfc63c88cf33e761eeda5769ee"
+    },
+    {
+      "url": "/practical/japan-atm-cash-guide/",
+      "title": "일본 편의점 ATM 현금인출 팁",
+      "old_cover": "/images/cash.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "1037908b47c1c118193295ac045c542f8e23c1630894097cef3370b11b683896",
+      "new_sha256": "29463b87ec3a696326a7127a3e9fd06403e4d7fe57edab3c9716f7659badb753"
+    },
+    {
+      "url": "/practical/japan-bus-seat-types/",
+      "title": "일본 버스 좌석 종류 고르는 법",
+      "old_cover": "/images/transport.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "5122664d23f20749b9ee32482b03f3dd4f01d1ac421e356ae19b2c487b4d7c73",
+      "new_sha256": "4486762ec82c1ed1315a91523323eac04128d8cfa2bd4206c12ab77983d3bf4e"
+    },
+    {
+      "url": "/practical/japan-bus-tour-guide/",
+      "title": "일본 버스투어 처음 예약하는 법",
+      "old_cover": "/images/transport.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "ffe6910e4cedeb5e0eafc4572a0b5b06d82972712cadd5053c936924b109a06f",
+      "new_sha256": "1807b551cee130f2cc3c7dc9c57bae37cdb3edffe718301f248aa4435c6f1a69"
+    },
+    {
+      "url": "/practical/japan-coin-locker-guide/",
+      "title": "일본 짐보관 코인락커 가이드",
+      "old_cover": "/images/city.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "0b2bf5251489c151b5da2221149ed9aa665ea0a61f0730f33d43125740180fdf",
+      "new_sha256": "255e7675aab241980ac005f7c59fbf5a6cacf5eb5b46e2eef65070a45e1c1507"
+    },
+    {
+      "url": "/practical/japan-half-day-tour/",
+      "title": "일본 반일투어 활용법",
+      "old_cover": "/images/city.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "47ca56482d2dbaa8515cf55c29ea9f01e40a90bcef21dceb5f393f081c9945ae",
+      "new_sha256": "83840ed00055d5f75cc385ae74047af7e2e460f8fc59826298075ef449966821"
+    },
+    {
+      "url": "/practical/japan-highway-bus-booking/",
+      "title": "일본 고속버스 처음 예약하는 법",
+      "old_cover": "/images/transport.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "f962d9985215f32c847a425a325c8a804a2853f991ea096069b6a118fe0a41b6",
+      "new_sha256": "cca4469c667fc7e1509f47de3e82c9e38e01d6f5ecbf310ca42162d45ac33cd9"
+    },
+    {
+      "url": "/practical/japan-ic-card-guide/",
+      "title": "일본 교통카드 처음 쓰는 법",
+      "old_cover": "/images/transport.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "e8395f8bdd0993ba4f78250f94193794bce8bb2ba41237f200ade09e1c250e2e",
+      "new_sha256": "70f99d9fea33ec3ebd7fb315bffc6212ab0a17c8fd96fb2b02916c53f69ce147"
+    },
+    {
+      "url": "/practical/japan-luggage-delivery/",
+      "title": "일본 캐리어 배송 서비스 활용법",
+      "old_cover": "/images/city.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "8dc9b4d743ffb12752bba24d65743cf59a61e6a619b37f85edb7a5b37ae26f9e",
+      "new_sha256": "05816ff6b5fc5a8ffe6eee0ffd99e154cd30d8fea2e8ca0e738fb388de57b38c"
+    },
+    {
+      "url": "/practical/japan-night-bus-checklist/",
+      "title": "일본 야간버스 타기 전 체크리스트",
+      "old_cover": "/images/transport.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "0d216b6b5e9ed78c404e5128dfd6e84440bfc0747ec46dbf92d877d5e90d8a91",
+      "new_sha256": "e84e4a88ccb07c9fd3247a2007282cfc117a00cc6bbfd154cba222b07983a829"
+    },
+    {
+      "url": "/practical/japan-power-adapter-guide/",
+      "title": "일본 여행 충전기·돼지코 준비",
+      "old_cover": "/images/city.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "fd71f96eb39d054421798d836eb35f52dba5772044f0a3bddedb42686fa7c989",
+      "new_sha256": "76145d6c91447b85037aa5619bdaf5bba7c301d312f54bbfb47bf30b9bbbf148"
+    },
+    {
+      "url": "/practical/japan-sightseeing-train-couple/",
+      "title": "일본 관광열차 커플 여행",
+      "old_cover": "/images/couple.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "cd00aa5d73e239694634fd2b7a0ea28c76f28c50adb5d5293f4d3e554c0128fa",
+      "new_sha256": "7447be59348df3e397e8c88f7aca2b1b2ce057b2d2eaed96eb82754321ad39b7"
+    },
+    {
+      "url": "/practical/japan-sightseeing-train-guide/",
+      "title": "일본 관광열차 여행 입문",
+      "old_cover": "/images/transport.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "b2f5873212b573dda702e6e46b98252df6a61fa390625f4f7b5233cf647dbaa6",
+      "new_sha256": "e720a82be6ec48d2f442ad507c519cc51becc79ac2fde1bd117c4de27c481d94"
+    },
+    {
+      "url": "/practical/japan-theme-park-couple/",
+      "title": "일본 테마파크 커플 여행",
+      "old_cover": "/images/couple.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "fa4d364d13a33b6971d66d6732c0bc326355c7e0c255f48806ca0c7185ffccea",
+      "new_sha256": "4767e6dd80b8dd0d8fc30f19367ca44b04b24e73f9d40c7decf65591e2e506c1"
+    },
+    {
+      "url": "/practical/japan-theme-park-guide/",
+      "title": "일본 테마파크 여행 가이드",
+      "old_cover": "/images/city.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "a8bab1fe7d553ad9080320bdcd255c4d89c9bbb29f6ac1954a7c9839ea59f733",
+      "new_sha256": "c04a16b9df27d9319fc4d42509648c23ba4db025fc4df9c38d513228f1683e48"
+    },
+    {
+      "url": "/practical/japan-translation-app-guide/",
+      "title": "일본 여행 번역앱 활용법",
+      "old_cover": "/images/city.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "52df1ce4c35cfbd772fe5d6630f6fd69bb8cd4f8e4f08bb516cde0fb9f736eec",
+      "new_sha256": "2556325ca2eda8cc21dccd61877325f20c718ead5e9fe2c2242b11adc7c8de8e"
+    },
+    {
+      "url": "/practical/kyoto-bus-tour-vs-free/",
+      "title": "교토 하루 버스투어 vs 자유여행",
+      "old_cover": "/images/transport.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "bdb2aabc74b483e25711cb48759165c898123f6e20e7128e7f373db29422cf2e",
+      "new_sha256": "4a5338082c5a3f9636c1fe168aec54dc49d5a430867c2f79056afb509dec7a0a"
+    },
+    {
+      "url": "/practical/kyoto-tango-kuromatsu/",
+      "title": "교토 단고 쿠로마츠 열차 여행",
+      "old_cover": "/images/transport.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "37cb8bd06352df01b0e35a987a32e59af1cf188f53c9557cd82fded23d43913c",
+      "new_sha256": "72fb47a912512caaacbad8908d4c69f82e450badaa9ef7c184e2c322608860e7"
+    },
+    {
+      "url": "/practical/mt-fuji-day-bus-tour/",
+      "title": "후지산 당일 버스투어 가이드",
+      "old_cover": "/images/transport.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "806b7de9fe06e03f0752de2af769603f422575bc9fe0fc5e584e99b4349b5c5c",
+      "new_sha256": "f7755e59f29535f91e89cc9fea7e89fc8a937b13b16b7c38165da1300c875142"
+    },
+    {
+      "url": "/practical/nagashima-spaland-guide/",
+      "title": "나가시마 스파랜드 여행 가이드",
+      "old_cover": "/images/city.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "c89b2e46c080a363491351a90b99d429dcf3a57536d69d6d36be7cc58c059f17",
+      "new_sha256": "769b55ad4ff05335de4c39db7e805837766290da1d48f80b1ad6ae10fb616359"
+    },
+    {
+      "url": "/practical/nijigen-no-mori-guide/",
+      "title": "니지겐노모리 여행 가이드",
+      "old_cover": "/images/city.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "2aacf18468cea0eda5ac15f1eba4bc22c1dfafa2e34b397e374696aeb51b932d",
+      "new_sha256": "992fbfb32058b3c9ea75e663fa53cfb7fd1e60ef5f35251dec9501e66595b058"
+    },
+    {
+      "url": "/practical/osaka-fukuoka-highway-bus/",
+      "title": "오사카 후쿠오카 고속버스 여행",
+      "old_cover": "/images/fukuoka.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "97dff26002e86eb6cee4f8949ecda28d2c09d50fb5aa0f977679835dcc8163da",
+      "new_sha256": "498f1b453050187f59989f5be638d6d8bfb595c7ca75ae4cf885444b9db3f46c"
+    },
+    {
+      "url": "/practical/setsugekka-train/",
+      "title": "에치고 토키메키 설월화 열차",
+      "old_cover": "/images/transport.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "090c4eab36bda36662d02a954a2a375190c590f8cfc3a44c2290fda471b6362a",
+      "new_sha256": "009fa599f157c1ab25ddedbece374102e33461ba8cd28cd70d68ed75584b0f32"
+    },
+    {
+      "url": "/practical/shimabara-cafe-train/",
+      "title": "시마바라 카페트레인 여행",
+      "old_cover": "/images/transport.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "6ad09079b793c8889afacdb011adf228a76efb81563b631210e6520da761fb7b",
+      "new_sha256": "752039531b8d385635f643a6d5a71308c47314ef41133280c21f092604d2273f"
+    },
+    {
+      "url": "/practical/tokyo-osaka-bus-vs-shinkansen/",
+      "title": "도쿄 오사카 야간버스 vs 신칸센",
+      "old_cover": "/images/osaka.jpg",
+      "new_visual": "v144-topic-visual; per-page information diagram",
+      "detail_step_count": 3,
+      "seo_unchanged": true,
+      "old_sha256": "c2ee611ae1aaca8cbdab8377997b88c36dadad3aaf1f211e225e25e445289706",
+      "new_sha256": "563e660f31a98389f6c69441341092b9b5bf0f2122b980a67249f25aa06a6490"
+    }
+  ],
+  "image_followups": [
+    {
+      "url": "/season/asahikawa-winter-festival/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/hokkaido-winter-packing/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/hokkaido-winter-photo-trip/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/hokkaido-winter-rental-car/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/hokkaido-winter-seniors/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/hokkaido-winter-solo/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/japan-autumn-food-trip/",
+      "old_cover": "/images/food.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "medium"
+    },
+    {
+      "url": "/season/japan-autumn-leaves-guide/",
+      "old_cover": "/images/season.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "medium"
+    },
+    {
+      "url": "/season/japan-cherry-blossom-guide/",
+      "old_cover": "/images/season.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "medium"
+    },
+    {
+      "url": "/season/japan-fireworks-festival/",
+      "old_cover": "/images/season.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "medium"
+    },
+    {
+      "url": "/season/japan-spring-guide/",
+      "old_cover": "/images/season.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "medium"
+    },
+    {
+      "url": "/season/japan-summer-festival-guide/",
+      "old_cover": "/images/season.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "medium"
+    },
+    {
+      "url": "/season/japan-winter-budget/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/jozankei-winter-onsen/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/new-chitose-to-sapporo-winter/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/noboribetsu-winter-onsen/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/otaru-snow-light-couple/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/otaru-snow-light-path-2027/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/otaru-winter-day-trip/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/otaru-winter-food/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/otaru-winter-shopping/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/sapporo-winter-shoes/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/sapporo-winter-souvenir/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/season/sapporo-winter-transport/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/ghibli-museum-guide/",
+      "old_cover": "/images/city.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/hokkaido-winter-bus-tour/",
+      "old_cover": "/images/hokkaido.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-airport-bus-guide/",
+      "old_cover": "/images/transport.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-atm-cash-guide/",
+      "old_cover": "/images/cash.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "medium"
+    },
+    {
+      "url": "/practical/japan-bus-seat-types/",
+      "old_cover": "/images/transport.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-bus-tour-guide/",
+      "old_cover": "/images/transport.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-coin-locker-guide/",
+      "old_cover": "/images/city.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-half-day-tour/",
+      "old_cover": "/images/city.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-highway-bus-booking/",
+      "old_cover": "/images/transport.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-ic-card-guide/",
+      "old_cover": "/images/transport.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-luggage-delivery/",
+      "old_cover": "/images/city.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-night-bus-checklist/",
+      "old_cover": "/images/transport.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-power-adapter-guide/",
+      "old_cover": "/images/city.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-sightseeing-train-couple/",
+      "old_cover": "/images/couple.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-sightseeing-train-guide/",
+      "old_cover": "/images/transport.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-theme-park-couple/",
+      "old_cover": "/images/couple.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-theme-park-guide/",
+      "old_cover": "/images/city.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/japan-translation-app-guide/",
+      "old_cover": "/images/city.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/kyoto-bus-tour-vs-free/",
+      "old_cover": "/images/transport.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/kyoto-tango-kuromatsu/",
+      "old_cover": "/images/transport.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/mt-fuji-day-bus-tour/",
+      "old_cover": "/images/transport.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/nagashima-spaland-guide/",
+      "old_cover": "/images/city.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/nijigen-no-mori-guide/",
+      "old_cover": "/images/city.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/osaka-fukuoka-highway-bus/",
+      "old_cover": "/images/fukuoka.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "medium"
+    },
+    {
+      "url": "/practical/setsugekka-train/",
+      "old_cover": "/images/transport.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/shimabara-cafe-train/",
+      "old_cover": "/images/transport.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "high"
+    },
+    {
+      "url": "/practical/tokyo-osaka-bus-vs-shinkansen/",
+      "old_cover": "/images/osaka.jpg",
+      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
+      "rephotograph_priority": "medium"
+    }
+  ],
+  "preserved": {
+    "seo": true,
+    "canonical": true,
+    "booking": true,
+    "new_articles": 0,
+    "original_images_retained_in_repository": true
+  },
+  "note": "51 covers become explicitly labeled self-authored informative visuals. Real location-verified photos remain a separate follow-up; unverified photos not passed off as location documentary.",
+  "images_replaced_with_diagrams": 51
+}
