@@ -1,0 +1,94 @@
+{
+  "version": "V134",
+  "status": "webp created and five source pages updated",
+  "photos": [
+    {
+      "key": "new-camellia",
+      "source": "https://commons.wikimedia.org/wiki/File:%E9%87%9C%E5%B1%B1%E6%B8%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%8B%E3%82%81%E3%82%8A%E3%81%82.jpg",
+      "author": "Midnight cadet",
+      "date": "2026-07-01",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "output": "/images/venues/nf-v134-new-camellia-busan-2026-real.webp",
+      "subject": "2026년 7월 1일 부산항에서 촬영한 뉴카멜리아 국제여객선. 객실·승선게이트·당일 출항 확인 사진은 아닙니다.",
+      "raw_sha256": "79c320affb2db325ef81bf8eeeff3d26897a11ad9243eade0dbf5c40447fcb59",
+      "webp_sha256": "9d5a4fa6345e8b7066dae661ca688f74ecbc6794a3a81b5e7a17a939b4c4cb11",
+      "width": 1400,
+      "height": 934,
+      "bytes": 117746,
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E9%87%9C%E5%B1%B1%E6%B8%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%8B%E3%82%81%E3%82%8A%E3%81%82.jpg/1920px-%E9%87%9C%E5%B1%B1%E6%B8%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%8B%E3%82%81%E3%82%8A%E3%81%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    {
+      "key": "hitakatsu-terminal",
+      "source": "https://commons.wikimedia.org/wiki/File:International_Terminal_of_Hitakatsu_Port.jpg",
+      "author": "Ackeyyama",
+      "date": "2017-09-24",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "output": "/images/venues/nf-v134-hitakatsu-international-terminal-real.webp",
+      "subject": "2017년 촬영한 대마도 히타카츠항 국제터미널 실제 건물. 2026년 운영시간·선사 입국심사 동선의 증거는 아닙니다.",
+      "raw_sha256": "d34c3792efe779f7b50c066341eef602252c029324a025f38177f9856841d44e",
+      "webp_sha256": "a618f402cd960147a7f7cec5fcba03ccef53d2cd0deb060f02b18073499ca524",
+      "width": 1025,
+      "height": 609,
+      "bytes": 68336,
+      "download": "https://upload.wikimedia.org/wikipedia/commons/7/71/International_Terminal_of_Hitakatsu_Port.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    {
+      "key": "izuhara-terminal",
+      "source": "https://commons.wikimedia.org/wiki/File:Izuhara_port%2C_terminal.jpg",
+      "author": "Saigen Jiro",
+      "date": "2017-08-12",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "output": "/images/venues/nf-v134-izuhara-terminal-real.webp",
+      "subject": "2017년 촬영한 대마도 이즈하라항 터미널 실제 모습. 사진은 당시 시설 기록이며 현재 국제선 접안·출입국 업무를 보증하지 않습니다.",
+      "raw_sha256": "d42f679c38224313f60f47d7caa29166a36eaed55ec90a3bc48ee3b5922d57f5",
+      "webp_sha256": "9507781fed6ed657aeb03bdef7e661a66469a99f28ac6d041e829a763028ccc9",
+      "width": 1400,
+      "height": 925,
+      "bytes": 212088,
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Izuhara_port%2C_terminal.jpg/1920px-Izuhara_port%2C_terminal.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "busan-fukuoka-ferry",
+      "output": "/images/venues/nf-v134-new-camellia-busan-2026-real.webp",
+      "author": "Midnight cadet",
+      "license": "CC BY 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:%E9%87%9C%E5%B1%B1%E6%B8%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%8B%E3%82%81%E3%82%8A%E3%81%82.jpg"
+    },
+    {
+      "slug": "busan-fukuoka-ferry-price",
+      "output": "/images/venues/nf-v134-new-camellia-busan-2026-real.webp",
+      "author": "Midnight cadet",
+      "license": "CC BY 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:%E9%87%9C%E5%B1%B1%E6%B8%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%8B%E3%82%81%E3%82%8A%E3%81%82.jpg"
+    },
+    {
+      "slug": "busan-fukuoka-timetable",
+      "output": "/images/venues/nf-v134-new-camellia-busan-2026-real.webp",
+      "author": "Midnight cadet",
+      "license": "CC BY 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:%E9%87%9C%E5%B1%B1%E6%B8%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%8B%E3%82%81%E3%82%8A%E3%81%82.jpg"
+    },
+    {
+      "slug": "busan-hitakatsu-ferry",
+      "output": "/images/venues/nf-v134-hitakatsu-international-terminal-real.webp",
+      "author": "Ackeyyama",
+      "license": "CC BY-SA 4.0",
+      "original": "https://commons.wikimedia.org/wiki/File:International_Terminal_of_Hitakatsu_Port.jpg"
+    },
+    {
+      "slug": "busan-izuhara-ferry",
+      "output": "/images/venues/nf-v134-izuhara-terminal-real.webp",
+      "author": "Saigen Jiro",
+      "license": "CC0 1.0",
+      "original": "https://commons.wikimedia.org/wiki/File:Izuhara_port%2C_terminal.jpg"
+    }
+  ],
+  "updated_pages": 5,
+  "distinct_real_source_photos": 3,
+  "preserved_existing_seo": 5
+}
