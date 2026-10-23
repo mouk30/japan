@@ -1,0 +1,52 @@
+name: "V146 art-islands photos and responsive QA"
+on:
+  push:
+    branches:
+      - v146-art-islands-pilot-20261023
+    paths:
+      - ".github/workflows/v146-art-islands-photo-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  real-photography-and-mobile:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v146-art-islands-pilot-20261023
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install imaging and browser test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "Pillow>=10,<13" "playwright>=1.50,<2"
+          python -m playwright install --with-deps chromium
+      - name: Retrieve Commons originals and create licensed local WebP
+        run: python scripts/v146_finalize_images.py
+      - name: Commit local WebP and correctly credited editorial HTML to review branch
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/editorial/v146-*.webp site/things-to-do/naoshima-art-ferry-return/index.html site/things-to-do/teshima-art-ferry-return/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "V146: publish verified Commons photos locally to review branch with attribution"
+            git push origin HEAD:v146-art-islands-pilot-20261023
+          fi
+      - name: Run Chromium browser QA in local static server
+        shell: bash
+        run: |
+          python -m http.server 8800 --bind 127.0.0.1 --directory site >/tmp/v146-http.log 2>&1 &
+          echo $! >/tmp/v146-http.pid
+          sleep 3
+          python scripts/v146_mobile_qa.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v146-photo-mobile-qa
+          path: audit-output/v146/
+          if-no-files-found: warn
