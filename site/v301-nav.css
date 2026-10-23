@@ -214,7 +214,7 @@
  .nf301-header .nf301-flygrid>a{
    position:relative;
    min-width:0;
-   min-height:99px;
+   min-height:99px!important;
    display:flex!important;
    flex-direction:column;
    justify-content:center!important;
