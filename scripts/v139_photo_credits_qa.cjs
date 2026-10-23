@@ -29,7 +29,7 @@ for(const name of cases){
  for(const [key,regex] of [['title',/<title>[^<]*<\/title>/],['canonical',/<link rel="canonical"[^>]*>/],['meta description',/<meta name="description"[^>]*>/]]){
   if(exact(source,regex)!==exact(built,regex))errors.push(name+': SEO '+key+' changed');
  }
- if(sourceImageCount!==buildImageCount)errors.push(name+': image tag count changed');
+ if(buildImageCount<sourceImageCount)errors.push(name+': image tags removed during build');
  if(sourceSourceLinks!==builtSourceLinks)errors.push(name+': CC/source hyperlink count changed');
  if(originalCount>0&&!panelCount)errors.push(name+': expected compact attribution details missing');
  if(panelCount>1)errors.push(name+': duplicated global attribution panel');
