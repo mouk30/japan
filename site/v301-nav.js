@@ -129,7 +129,7 @@ document.addEventListener('keydown',e=>{
    e.preventDefault();first.focus();
   }
  }
-});
+},true); // Capture Tab/Escape before legacy page handlers can intercept them.
 window.addEventListener('resize',()=>{
  if(matchMedia('(min-width:1200px)').matches&&mobile.dataset.open==='true')mobileOpen(false,false);
 });
