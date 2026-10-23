@@ -1,0 +1,734 @@
+{
+  "version": "V143",
+  "verified_at": "2026-10-23",
+  "modified_pages": [
+    {
+      "page": "/season/sapporo-snow-festival-2027/",
+      "title": "2027 눈축제 실제 방문 순서",
+      "cards": 5,
+      "image_status": "verified 2014 documentary photograph",
+      "seo_preserved": true
+    },
+    {
+      "page": "/season/sapporo-snow-festival-family/",
+      "title": "아이와 함께 보는 눈축제 코스",
+      "cards": 4,
+      "image_status": "verified 2014 documentary photograph",
+      "seo_preserved": true
+    },
+    {
+      "page": "/season/sapporo-snow-festival-couple/",
+      "title": "연인 동행: 야간과 휴식을 함께",
+      "cards": 4,
+      "image_status": "verified 2014 documentary photograph",
+      "seo_preserved": true
+    },
+    {
+      "page": "/season/sapporo-snow-festival-2n3d/",
+      "title": "2박 3일, 회장별로 나누는 일정",
+      "cards": 4,
+      "image_status": "verified 2014 documentary photograph",
+      "seo_preserved": true
+    },
+    {
+      "page": "/season/sapporo-snow-festival-3n4d/",
+      "title": "3박 4일, 관람과 휴식을 분리",
+      "cards": 4,
+      "image_status": "verified 2014 documentary photograph",
+      "seo_preserved": true
+    },
+    {
+      "page": "/season/sapporo-snow-festival-clothes/",
+      "title": "눈축제에서 덜 춥고 덜 미끄럽게",
+      "cards": 4,
+      "image_status": "verified 2014 documentary photograph",
+      "seo_preserved": true
+    },
+    {
+      "page": "/season/sapporo-snow-festival-hotel-area/",
+      "title": "숙소는 회장명보다 역 출입구를 확인",
+      "cards": 4,
+      "image_status": "verified 2014 documentary photograph",
+      "seo_preserved": true
+    },
+    {
+      "page": "/season/sapporo-snow-festival-photo/",
+      "title": "눈조각과 사람을 함께 담는 촬영 팁",
+      "cards": 4,
+      "image_status": "verified 2014 documentary photograph",
+      "seo_preserved": true
+    },
+    {
+      "page": "/season/sapporo-snow-festival-food/",
+      "title": "축제 관람과 지역 먹거리 묶기",
+      "cards": 4,
+      "image_status": "verified 2014 documentary photograph",
+      "seo_preserved": true
+    },
+    {
+      "page": "/practical/japan-esim-vs-sim-wifi/",
+      "title": "통신수단 3가지, 상황별 선택",
+      "cards": 4,
+      "image_status": "custom topic-specific information illustration",
+      "seo_preserved": true
+    },
+    {
+      "page": "/practical/japan-data-usage/",
+      "title": "여행 데이터 용량을 정하는 순서",
+      "cards": 4,
+      "image_status": "custom topic-specific information illustration",
+      "seo_preserved": true
+    },
+    {
+      "page": "/practical/japan-esim-setup/",
+      "title": "eSIM 구매 후 설치·현지 연결 순서",
+      "cards": 4,
+      "image_status": "custom topic-specific information illustration",
+      "seo_preserved": true
+    },
+    {
+      "page": "/practical/japan-esim-iphone/",
+      "title": "아이폰 eSIM 설정 체크",
+      "cards": 4,
+      "image_status": "custom topic-specific information illustration",
+      "seo_preserved": true
+    },
+    {
+      "page": "/practical/japan-esim-galaxy/",
+      "title": "갤럭시 eSIM 설정 체크",
+      "cards": 4,
+      "image_status": "custom topic-specific information illustration",
+      "seo_preserved": true
+    },
+    {
+      "page": "/practical/japan-esim-troubleshooting/",
+      "title": "eSIM이 안 될 때 순서대로",
+      "cards": 4,
+      "image_status": "custom topic-specific information illustration",
+      "seo_preserved": true
+    }
+  ],
+  "modified_count": 15,
+  "new_articles": 0,
+  "new_urls": 0,
+  "image_original": {
+    "local_path": "/images/venues/nf-v143-sapporo-snow-festival-2014-real.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:%E7%AC%AC65%E5%9B%9E%E3%81%95%E3%81%A3%E3%81%BD%E3%82%8D%E9%9B%AA%E3%81%BE%E3%81%A4%E3%82%8A%EF%BC%88SAPPORO_SNOW_FESTIVAL_65th%EF%BC%89_-_panoramio_(1).jpg",
+    "captured": "2014-02-05",
+    "author": "t-konno",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "derivative": "resized and WebP converted; source event photo is NOT 2027",
+    "dimensions": [
+      1440,
+      960
+    ],
+    "sha256": "d8a5d1c81eb0719af1f24dae510b90ee6469bf0f30a1458aeb2d41c4a92fd021"
+  },
+  "official_date_source": "https://www.snowfes.com/",
+  "official_tourism_source": "https://www.sapporo.travel/en/event/event-list/sapporo_snow_festival/",
+  "separate_active_snow_festival_date": "2027-02-04 to 2027-02-11",
+  "qa_requires": {
+    "full_site_inventory": true,
+    "browser_mobile_desktop": true,
+    "production_crawl_after_deploy": true
+  },
+  "global_audit": {
+    "scan_count": 1277,
+    "generic_repetitions": {
+      "계절 이벤트는 날짜와 날씨 변수의 영향을 크게 받습니다.": {
+        "count": 24,
+        "example_paths": [
+          "/season/japan-fireworks-festival/",
+          "/season/japan-summer-festival-guide/",
+          "/season/hokkaido-winter-seniors/",
+          "/season/noboribetsu-winter-onsen/",
+          "/season/asahikawa-winter-festival/",
+          "/season/sapporo-winter-transport/",
+          "/season/sapporo-winter-shoes/",
+          "/season/japan-cherry-blossom-guide/",
+          "/season/japan-autumn-food-trip/",
+          "/season/japan-winter-budget/",
+          "/season/hokkaido-winter-rental-car/",
+          "/season/otaru-winter-shopping/",
+          "/season/sapporo-winter-souvenir/",
+          "/season/hokkaido-winter-packing/",
+          "/season/hokkaido-winter-photo-trip/",
+          "/season/japan-spring-guide/",
+          "/season/new-chitose-to-sapporo-winter/",
+          "/season/japan-autumn-leaves-guide/",
+          "/season/jozankei-winter-onsen/",
+          "/season/hokkaido-winter-solo/"
+        ]
+      },
+      "서비스·교통·시설은 노선, 기기, 날짜와 지역에 따라 조건이 달라질 수 있습니다.": {
+        "count": 27,
+        "example_paths": [
+          "/practical/japan-night-bus-checklist/",
+          "/practical/japan-translation-app-guide/",
+          "/practical/kyoto-tango-kuromatsu/",
+          "/practical/japan-highway-bus-booking/",
+          "/practical/osaka-fukuoka-highway-bus/",
+          "/practical/tokyo-osaka-bus-vs-shinkansen/",
+          "/practical/nagashima-spaland-guide/",
+          "/practical/japan-atm-cash-guide/",
+          "/practical/japan-sightseeing-train-guide/",
+          "/practical/japan-bus-tour-guide/",
+          "/practical/japan-airport-bus-guide/",
+          "/practical/japan-coin-locker-guide/",
+          "/practical/setsugekka-train/",
+          "/practical/mt-fuji-day-bus-tour/",
+          "/practical/kyoto-bus-tour-vs-free/",
+          "/practical/japan-bus-seat-types/",
+          "/practical/japan-power-adapter-guide/",
+          "/practical/japan-luggage-delivery/",
+          "/practical/japan-half-day-tour/",
+          "/practical/japan-ic-card-guide/"
+        ]
+      },
+      "행사만 보고 끝내기보다 지역 음식, 시장, 기념품, 카페와 함께": {
+        "count": 24,
+        "example_paths": [
+          "/season/japan-fireworks-festival/",
+          "/season/japan-summer-festival-guide/",
+          "/season/hokkaido-winter-seniors/",
+          "/season/noboribetsu-winter-onsen/",
+          "/season/asahikawa-winter-festival/",
+          "/season/sapporo-winter-transport/",
+          "/season/sapporo-winter-shoes/",
+          "/season/japan-cherry-blossom-guide/",
+          "/season/japan-autumn-food-trip/",
+          "/season/japan-winter-budget/",
+          "/season/hokkaido-winter-rental-car/",
+          "/season/otaru-winter-shopping/",
+          "/season/sapporo-winter-souvenir/",
+          "/season/hokkaido-winter-packing/",
+          "/season/hokkaido-winter-photo-trip/",
+          "/season/japan-spring-guide/",
+          "/season/new-chitose-to-sapporo-winter/",
+          "/season/japan-autumn-leaves-guide/",
+          "/season/jozankei-winter-onsen/",
+          "/season/hokkaido-winter-solo/"
+        ]
+      },
+      "NEXT QUESTION": {
+        "count": 253,
+        "example_paths": [
+          "/practical/japan-night-bus-checklist/",
+          "/practical/japan-translation-app-guide/",
+          "/practical/kyoto-tango-kuromatsu/",
+          "/practical/japan-highway-bus-booking/",
+          "/practical/fujiq-highland-guide/",
+          "/practical/osaka-fukuoka-highway-bus/",
+          "/practical/tokyo-osaka-bus-vs-shinkansen/",
+          "/practical/nagashima-spaland-guide/",
+          "/practical/japan-atm-cash-guide/",
+          "/practical/japan-sightseeing-train-guide/",
+          "/practical/japan-bus-tour-guide/",
+          "/practical/japan-airport-bus-guide/",
+          "/practical/japan-coin-locker-guide/",
+          "/practical/setsugekka-train/",
+          "/practical/mt-fuji-day-bus-tour/",
+          "/practical/kyoto-bus-tour-vs-free/",
+          "/practical/japan-bus-seat-types/",
+          "/practical/japan-power-adapter-guide/",
+          "/practical/japan-luggage-delivery/",
+          "/practical/japan-half-day-tour/"
+        ]
+      },
+      "현장에서는 방한과 미끄럼 대비": {
+        "count": 0,
+        "example_paths": []
+      },
+      "여행 전에 확인하세요": {
+        "count": 27,
+        "example_paths": [
+          "/practical/japan-night-bus-checklist/",
+          "/practical/japan-translation-app-guide/",
+          "/practical/kyoto-tango-kuromatsu/",
+          "/practical/japan-highway-bus-booking/",
+          "/practical/osaka-fukuoka-highway-bus/",
+          "/practical/tokyo-osaka-bus-vs-shinkansen/",
+          "/practical/nagashima-spaland-guide/",
+          "/practical/japan-atm-cash-guide/",
+          "/practical/japan-sightseeing-train-guide/",
+          "/practical/japan-bus-tour-guide/",
+          "/practical/japan-airport-bus-guide/",
+          "/practical/japan-coin-locker-guide/",
+          "/practical/setsugekka-train/",
+          "/practical/mt-fuji-day-bus-tour/",
+          "/practical/kyoto-bus-tour-vs-free/",
+          "/practical/japan-bus-seat-types/",
+          "/practical/japan-power-adapter-guide/",
+          "/practical/japan-luggage-delivery/",
+          "/practical/japan-half-day-tour/",
+          "/practical/japan-ic-card-guide/"
+        ]
+      }
+    },
+    "shared_covers": [
+      {
+        "path": "/images/ferry.jpg",
+        "count": 40,
+        "sample_paths": [
+          "/theme/night-on-ferry/",
+          "/theme/pet-ferry-japan/",
+          "/theme/first-ferry-romance/",
+          "/theme/family-ferry-trip/",
+          "/guide/japan-ferry-cancellation-refund/",
+          "/guide/japan-ferry-meals/",
+          "/guide/japan-ferry-roundtrip-vs-oneway/",
+          "/guide/japan-ferry-suitcase/",
+          "/guide/japan-ferry-cheap-booking/",
+          "/guide/new-camellia-vs-bugwan/",
+          "/guide/japan-ferry-fuel-surcharge/",
+          "/guide/japan-ferry-travel-time/"
+        ]
+      },
+      {
+        "path": "/images/city.jpg",
+        "count": 35,
+        "sample_paths": [
+          "/practical/japan-translation-app-guide/",
+          "/practical/nagashima-spaland-guide/",
+          "/practical/japan-coin-locker-guide/",
+          "/practical/japan-power-adapter-guide/",
+          "/practical/japan-luggage-delivery/",
+          "/practical/japan-half-day-tour/",
+          "/practical/ghibli-museum-guide/",
+          "/practical/japan-theme-park-guide/",
+          "/practical/nijigen-no-mori-guide/",
+          "/theme/suitcase-baggage/",
+          "/life/japan-kaiten-sushi-guide/",
+          "/life/japan-family-restaurant-guide/"
+        ]
+      },
+      {
+        "path": "/images/couple.jpg",
+        "count": 29,
+        "sample_paths": [
+          "/practical/japan-sightseeing-train-couple/",
+          "/practical/japan-theme-park-couple/",
+          "/theme/couple-ferry-trip/",
+          "/couple/japan-couple-anniversary-culture/",
+          "/couple/japan-couple-messaging-culture/",
+          "/couple/joshiryoku-cooking-image/",
+          "/couple/japan-ferry-couple-trip/",
+          "/couple/japan-couple-photo-trip/",
+          "/couple/japan-christmas-date/",
+          "/couple/korea-japan-couple-anniversary-trip/",
+          "/couple/japan-valentine-white-day/",
+          "/couple/japan-onsen-couple-trip/"
+        ]
+      },
+      {
+        "path": "/images/hokkaido.jpg",
+        "count": 20,
+        "sample_paths": [
+          "/practical/hokkaido-winter-bus-tour/",
+          "/season/hokkaido-winter-seniors/",
+          "/season/noboribetsu-winter-onsen/",
+          "/season/asahikawa-winter-festival/",
+          "/season/sapporo-winter-transport/",
+          "/season/sapporo-winter-shoes/",
+          "/season/japan-winter-budget/",
+          "/season/hokkaido-winter-rental-car/",
+          "/season/otaru-winter-shopping/",
+          "/season/sapporo-winter-souvenir/",
+          "/season/hokkaido-winter-packing/",
+          "/season/hokkaido-winter-photo-trip/"
+        ]
+      },
+      {
+        "path": "/images/tsushima.jpg",
+        "count": 16,
+        "sample_paths": [
+          "/guide/busan-tsushima-ferry/",
+          "/guide/tsushima-link-guide/",
+          "/guide/tsushima-busan-ferry/",
+          "/guide/izuhara-1n2d/",
+          "/guide/nova-tsushima-guide/",
+          "/guide/hitakatsu-port-transport/",
+          "/guide/tsushima-1n2d/",
+          "/guide/hitakatsu-day-trip/",
+          "/guide/izuhara-port-transport/",
+          "/guide/busan-tsushima-ferry-price/",
+          "/guide/hitakatsu-vs-izuhara/",
+          "/guide/tsushima-day-trip/"
+        ]
+      },
+      {
+        "path": "/images/local.jpg",
+        "count": 15,
+        "sample_paths": [
+          "/life/lopia-supermarket-guide/",
+          "/life/life-supermarket-guide/",
+          "/life/aeon-maxvalu-guide/",
+          "/life/japan-tax-free-2026/",
+          "/life/japan-convenience-shopping-list/",
+          "/life/don-quijote-late-night/",
+          "/life/japan-supermarket-discount-time/",
+          "/life/japan-tax-free-passport/",
+          "/life/ok-store-guide/",
+          "/life/japan-supermarket-souvenir/",
+          "/life/don-quijote-first-guide/",
+          "/life/don-quijote-tax-free/"
+        ]
+      },
+      {
+        "path": "/images/fukuoka.jpg",
+        "count": 14,
+        "sample_paths": [
+          "/practical/osaka-fukuoka-highway-bus/",
+          "/couple/fukuoka-night-date/",
+          "/couple/fukuoka-couple-2n3d/",
+          "/guide/fukuoka-busan-ferry/",
+          "/guide/fukuoka-vs-shimonoseki-ferry/",
+          "/guide/hakata-port-to-tenjin/",
+          "/guide/hakata-port-to-hakata-station/",
+          "/guide/fukuoka-vs-tsushima-ferry/",
+          "/guide/fukuoka-ferry-2n3d/",
+          "/guide/fukuoka-ferry-3n4d/",
+          "/guide/fukuoka-ferry-vs-flight/",
+          "/japan/fukuoka-photo/"
+        ]
+      },
+      {
+        "path": "/images/transport.jpg",
+        "count": 12,
+        "sample_paths": [
+          "/practical/japan-night-bus-checklist/",
+          "/practical/kyoto-tango-kuromatsu/",
+          "/practical/japan-highway-bus-booking/",
+          "/practical/japan-sightseeing-train-guide/",
+          "/practical/japan-bus-tour-guide/",
+          "/practical/japan-airport-bus-guide/",
+          "/practical/setsugekka-train/",
+          "/practical/mt-fuji-day-bus-tour/",
+          "/practical/kyoto-bus-tour-vs-free/",
+          "/practical/japan-bus-seat-types/",
+          "/practical/japan-ic-card-guide/",
+          "/practical/shimabara-cafe-train/"
+        ]
+      },
+      {
+        "path": "/images/osaka.jpg",
+        "count": 11,
+        "sample_paths": [
+          "/practical/tokyo-osaka-bus-vs-shinkansen/",
+          "/couple/osaka-couple-3n4d/",
+          "/couple/osaka-night-date/",
+          "/guide/osaka-ferry-3n4d/",
+          "/guide/osaka-port-to-umeda/",
+          "/guide/busan-osaka-car-ferry/",
+          "/guide/osaka-ferry-4n5d/",
+          "/guide/osaka-ferry-vs-flight/",
+          "/japan/osaka-photo/",
+          "/japan/osaka-one-day/",
+          "/japan/osaka-season/"
+        ]
+      },
+      {
+        "path": "/images/venues/nf-v143-sapporo-snow-festival-2014-real.webp",
+        "count": 9,
+        "sample_paths": [
+          "/season/sapporo-snow-festival-clothes/",
+          "/season/sapporo-snow-festival-food/",
+          "/season/sapporo-snow-festival-family/",
+          "/season/sapporo-snow-festival-2n3d/",
+          "/season/sapporo-snow-festival-3n4d/",
+          "/season/sapporo-snow-festival-hotel-area/",
+          "/season/sapporo-snow-festival-photo/",
+          "/season/sapporo-snow-festival-2027/",
+          "/season/sapporo-snow-festival-couple/"
+        ]
+      },
+      {
+        "path": "/images/season.jpg",
+        "count": 7,
+        "sample_paths": [
+          "/season/japan-fireworks-festival/",
+          "/season/japan-summer-festival-guide/",
+          "/season/japan-cherry-blossom-guide/",
+          "/season/japan-spring-guide/",
+          "/season/japan-autumn-leaves-guide/",
+          "/guide/japan-ferry-peak-season-booking/",
+          "/guide/japan-ferry-typhoon-season/"
+        ]
+      },
+      {
+        "path": "/images/shimonoseki.jpg",
+        "count": 7,
+        "sample_paths": [
+          "/guide/shimonoseki-mojiko-2n3d/",
+          "/guide/shimonoseki-ferry-2n3d/",
+          "/guide/shimonoseki-port-to-mojiko/",
+          "/guide/busan-shimonoseki-car-ferry/",
+          "/japan/shimonoseki-season/",
+          "/japan/shimonoseki-one-day/",
+          "/japan/shimonoseki-photo/"
+        ]
+      },
+      {
+        "path": "/images/cash.jpg",
+        "count": 6,
+        "sample_paths": [
+          "/practical/japan-atm-cash-guide/",
+          "/life/japan-cash-how-much/",
+          "/life/japan-convenience-atm/",
+          "/life/japan-card-only-travel/",
+          "/life/japan-exchange-vs-card/",
+          "/life/japan-card-payment-error/"
+        ]
+      },
+      {
+        "path": "/images/cabin.jpg",
+        "count": 5,
+        "sample_paths": [
+          "/theme/oceanview-cabins/",
+          "/guide/japan-ferry-room-classes/",
+          "/guide/new-camellia-rooms/",
+          "/guide/bugwan-ferry-rooms/",
+          "/guide/panstar-miracle-rooms/"
+        ]
+      },
+      {
+        "path": "/images/venues/nf-v135-osaka-nanko-ferry-terminal-2019-real.webp",
+        "count": 5,
+        "sample_paths": [
+          "/guide/busan-osaka-ferry-price/",
+          "/guide/osaka-port-to-namba/",
+          "/guide/osaka-busan-ferry/",
+          "/guide/busan-osaka-timetable/",
+          "/guide/busan-osaka-ferry/"
+        ]
+      },
+      {
+        "path": "/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp",
+        "count": 5,
+        "sample_paths": [
+          "/guide/shimonoseki-port-to-karato/",
+          "/guide/busan-shimonoseki-timetable/",
+          "/guide/shimonoseki-busan-ferry/",
+          "/guide/busan-shimonoseki-ferry-price/",
+          "/guide/busan-shimonoseki-ferry/"
+        ]
+      },
+      {
+        "path": "/images/car.jpg",
+        "count": 4,
+        "sample_paths": [
+          "/theme/car-roadtrip-japan/",
+          "/guide/japan-ferry-motorcycle/",
+          "/guide/japan-ferry-bicycle/",
+          "/guide/japan-ferry-car/"
+        ]
+      },
+      {
+        "path": "/images/food.jpg",
+        "count": 3,
+        "sample_paths": [
+          "/season/japan-autumn-food-trip/",
+          "/life/japan-late-night-food/",
+          "/life/japan-supermarket-ready-food/"
+        ]
+      },
+      {
+        "path": "/images/venues/nf-v134-new-camellia-busan-2026-real.webp",
+        "count": 3,
+        "sample_paths": [
+          "/guide/busan-fukuoka-ferry-price/",
+          "/guide/busan-fukuoka-timetable/",
+          "/guide/busan-fukuoka-ferry/"
+        ]
+      },
+      {
+        "path": "/images/editorial/wagashi-japanese-seasonal-sweets.webp",
+        "count": 3,
+        "sample_paths": [
+          "/japan/shimonoseki-dessert/",
+          "/japan/fukuoka-dessert/",
+          "/japan/osaka-dessert/"
+        ]
+      },
+      {
+        "path": "/images/esim.jpg",
+        "count": 2,
+        "sample_paths": [
+          "/guide/japan-ferry-wifi/",
+          "/guide/japan-ferry-esim/"
+        ]
+      },
+      {
+        "path": "/images/venues/fujiq-highland-panorama-ccby2.webp",
+        "count": 1,
+        "sample_paths": [
+          "/practical/fujiq-highland-guide/"
+        ]
+      },
+      {
+        "path": "/images/seasons/v29-season-19.webp",
+        "count": 1,
+        "sample_paths": [
+          "/season/hokkaido-winter-onsen/"
+        ]
+      },
+      {
+        "path": "/images/convenience.jpg",
+        "count": 1,
+        "sample_paths": [
+          "/life/japan-convenience-bento/"
+        ]
+      },
+      {
+        "path": "/images/venues/nf-v134-izuhara-terminal-real.webp",
+        "count": 1,
+        "sample_paths": [
+          "/guide/busan-izuhara-ferry/"
+        ]
+      },
+      {
+        "path": "/images/onsen.jpg",
+        "count": 1,
+        "sample_paths": [
+          "/guide/japan-ferry-overnight-value/"
+        ]
+      },
+      {
+        "path": "/images/venues/nf-v134-hitakatsu-international-terminal-real.webp",
+        "count": 1,
+        "sample_paths": [
+          "/guide/busan-hitakatsu-ferry/"
+        ]
+      },
+      {
+        "path": "/images/hub-thumbnails/food-tsushima-market.svg",
+        "count": 1,
+        "sample_paths": [
+          "/japan/tsushima-market/"
+        ]
+      },
+      {
+        "path": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Karato_market%2C_Shimonoseki.jpg",
+        "count": 1,
+        "sample_paths": [
+          "/japan/shimonoseki-market/"
+        ]
+      },
+      {
+        "path": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Osaka_market.jpg",
+        "count": 1,
+        "sample_paths": [
+          "/japan/osaka-market/"
+        ]
+      },
+      {
+        "path": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Yanagibashi_Rengo_Ichiba_by_LWY_in_Fukuoka.jpg",
+        "count": 1,
+        "sample_paths": [
+          "/japan/fukuoka-market/"
+        ]
+      },
+      {
+        "path": "/images/food-verified/tsushima-dessert.webp",
+        "count": 1,
+        "sample_paths": [
+          "/japan/tsushima-dessert/"
+        ]
+      }
+    ],
+    "short_article_card_sample": [
+      "/practical/japan-night-bus-checklist/",
+      "/practical/japan-translation-app-guide/",
+      "/practical/kyoto-tango-kuromatsu/",
+      "/practical/japan-highway-bus-booking/",
+      "/practical/osaka-fukuoka-highway-bus/",
+      "/practical/tokyo-osaka-bus-vs-shinkansen/",
+      "/practical/nagashima-spaland-guide/",
+      "/practical/japan-atm-cash-guide/",
+      "/practical/japan-sightseeing-train-guide/",
+      "/practical/japan-bus-tour-guide/",
+      "/practical/japan-airport-bus-guide/",
+      "/practical/japan-coin-locker-guide/",
+      "/practical/setsugekka-train/",
+      "/practical/mt-fuji-day-bus-tour/",
+      "/practical/kyoto-bus-tour-vs-free/",
+      "/practical/japan-bus-seat-types/",
+      "/practical/japan-power-adapter-guide/",
+      "/practical/japan-luggage-delivery/",
+      "/practical/japan-half-day-tour/",
+      "/practical/japan-ic-card-guide/",
+      "/practical/shimabara-cafe-train/",
+      "/practical/ghibli-museum-guide/",
+      "/practical/japan-theme-park-guide/",
+      "/practical/japan-sightseeing-train-couple/",
+      "/practical/japan-theme-park-couple/",
+      "/practical/nijigen-no-mori-guide/",
+      "/practical/hokkaido-winter-bus-tour/",
+      "/couple/japan-couple-anniversary-culture/",
+      "/couple/japan-couple-messaging-culture/",
+      "/couple/fukuoka-night-date/",
+      "/couple/japan-ferry-couple-trip/",
+      "/couple/japan-couple-photo-trip/",
+      "/couple/japan-christmas-date/",
+      "/couple/korea-japan-couple-anniversary-trip/",
+      "/couple/osaka-couple-3n4d/",
+      "/couple/japan-valentine-white-day/",
+      "/couple/japan-onsen-couple-trip/",
+      "/couple/ocean-view-cabin-couple/",
+      "/couple/korea-japan-couple-reality/",
+      "/couple/ferry-cabin-for-couples/",
+      "/couple/fukuoka-couple-2n3d/",
+      "/couple/korea-japan-couple-before-marriage/",
+      "/couple/osaka-night-date/",
+      "/couple/meet-japanese-partner-parents/",
+      "/couple/japan-couple-trip-planning/",
+      "/couple/tokyo-night-view-date/",
+      "/couple/korea-japan-couple-language/",
+      "/couple/kyoto-romantic-date/",
+      "/couple/japan-date-cost-splitting/",
+      "/couple/japan-confession-culture/",
+      "/couple/korea-japan-long-distance-couple/",
+      "/life/lopia-supermarket-guide/",
+      "/life/japan-kaiten-sushi-guide/",
+      "/life/japan-family-restaurant-guide/",
+      "/life/life-supermarket-guide/",
+      "/life/japan-ufo-catcher/",
+      "/life/aeon-maxvalu-guide/",
+      "/life/japan-late-night-food/",
+      "/life/japan-24-hour-shops/",
+      "/life/japan-smoking-area-guide/",
+      "/life/japan-tax-free-2026/",
+      "/life/japan-convenience-shopping-list/",
+      "/life/japan-depachika-guide/",
+      "/life/don-quijote-late-night/",
+      "/life/japan-coin-laundry-guide/",
+      "/life/japan-supermarket-discount-time/",
+      "/life/japan-convenience-atm/",
+      "/life/japan-public-toilet-guide/",
+      "/life/japan-vending-machine-guide/",
+      "/life/japan-trash-bin-guide/",
+      "/life/japan-purikura-guide/",
+      "/life/japan-tax-free-passport/",
+      "/life/ok-store-guide/",
+      "/life/japan-coins-guide/",
+      "/life/japan-supermarket-souvenir/",
+      "/life/don-quijote-first-guide/",
+      "/life/don-quijote-tax-free/",
+      "/life/japan-game-center-guide/",
+      "/life/japan-pharmacy-guide/",
+      "/life/japan-100yen-shop/",
+      "/life/japan-convenience-bento/",
+      "/life/japan-gyudon-chain-guide/",
+      "/life/japan-rain-umbrella-guide/",
+      "/life/japan-exchange-vs-card/",
+      "/life/japan-supermarket-ready-food/",
+      "/life/don-quijote-shopping-list/",
+      "/life/japan-card-payment-error/",
+      "/life/japan-drugstore-shopping/"
+    ],
+    "short_article_card_sample_size": 88,
+    "article_without_standard_cover_sample": [],
+    "limits": "HTML heuristic audit: detects repeated text/images, not proof that a photo is from wrong place. Only pages in modified_pages were edited."
+  }
+}
