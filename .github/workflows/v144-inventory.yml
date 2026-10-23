@@ -1,0 +1,28 @@
+name: V144 Inventory 51 generic legacy guides
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/v144_repetition_inventory.cjs
+      - .github/workflows/v144-inventory.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/v144_repetition_inventory.cjs
+      - name: Save provenance queue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v144/repetition-inventory.json
+          git diff --cached --quiet && exit 0
+          git commit -m "audit(v144): baseline all 51 thin seasonal and practical guides"
+          git pull --rebase origin main
+          git push origin HEAD:main
