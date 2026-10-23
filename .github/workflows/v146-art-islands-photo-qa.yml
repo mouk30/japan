@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 concurrency:
   group: v146-art-islands-photo
-  cancel-in-progress: false
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
@@ -27,7 +27,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install "Pillow>=10,<13" "playwright>=1.50,<2"
-          python -m playwright install --with-deps chromium
+          if ! command -v google-chrome >/dev/null && ! command -v google-chrome-stable >/dev/null; then
+            python -m playwright install chromium
+          fi
+          which google-chrome || which google-chrome-stable || true
       - name: Retrieve Commons originals and create licensed local WebP
         run: python scripts/v146_finalize_images.py
       - name: Commit local WebP and correctly credited editorial HTML to review branch
