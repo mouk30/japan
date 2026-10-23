@@ -9,6 +9,10 @@ const leaveTimers=new WeakMap();
 function cancelFlyClose(item){const id=leaveTimers.get(item);if(id)clearTimeout(id);leaveTimers.delete(item)}
 function scheduleFlyClose(item){
  cancelFlyClose(item);
+ // Explicit arrow-button activation must remain open while the user
+ // moves from the narrow top navigation to the much larger mega-panel.
+ // Only a second button click, Escape or outside click closes it.
+ if(item.dataset.openSource==='click')return;
  leaveTimers.set(item,setTimeout(()=>{
   if(!item.matches(':hover')&&!item.contains(document.activeElement))setFly(item,false);
   leaveTimers.delete(item);
