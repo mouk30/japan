@@ -186,3 +186,18 @@ a.brand > img, a.brand img{
 .hub-main .dircard .dirin p{font-size:13px;line-height:1.7;margin:0;color:#5c7384;overflow-wrap:anywhere}
 @media(max-width:900px){.hub-main .dirgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}}
 @media(max-width:560px){.hub-main .dirgrid{grid-template-columns:1fr;gap:13px}.hub-main .dircard .dirin{padding:14px 16px 17px}.hub-main .dircard .dirin h2{font-size:18px}}
+
+
+/* V137 mobile baseline — existing subpages retain content, links and desktop layout.
+   More readable article typography and a smaller, edge-aligned Kakao contact shortcut. */
+@media (max-width:640px){
+ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+ body{font-size:16px;line-height:1.7}
+ .page-hero h1{font-size:clamp(29px,7.8vw,40px);line-height:1.23;word-break:keep-all}
+ .page-hero p{font-size:16px;line-height:1.7;word-break:keep-all}
+ .box p,.box li,.flow-a,.booking-cta p,.related a{font-size:16px;line-height:1.75;word-break:keep-all}
+ :is(.hubcard,.c,.toolcard,.lifecard,.couplecard,.season-card,.theme) p{font-size:16px;line-height:1.7;word-break:keep-all}
+ .section-head a{white-space:normal;line-height:1.5}
+ .kakao-float{right:max(8px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom));width:50px;height:50px;opacity:.96;box-shadow:0 7px 20px rgba(0,0,0,.2)}
+ .kakao-float:focus-visible{outline:3px solid #104f81;outline-offset:3px}
+}
