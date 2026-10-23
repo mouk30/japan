@@ -163,16 +163,16 @@
       "region": "고토열도 · 신카미고토 아오카타",
       "kind": "cruise-port",
       "originalSha256": "e6109aa934681048bb79c277d8cd21630ee1e8a905a7ecf40a24da99b08fa97a",
-      "newSha256": "c1f5dcd47eeae37492d53a30eab26a7c012574ed6517c5eb5b15d0e360d1760e",
+      "newSha256": "1cf4195da0ba4178738981ffcc410237d0b2ded2d73d367818a3dd655e97151f",
       "steps": 5,
       "sources": [
         [
-          "JNTO 고토열도 섬 여행과 배편",
-          "https://www.japan.travel/en/spot/732/"
+          "국토교통성 크루즈항 공식 아오카타항·선석 안내",
+          "https://www.mlit.go.jp/kankocho/cruise/detail/061/index.html"
         ],
         [
-          "JNTO 고토열도 문화유산 안내",
-          "https://www.japan.travel/en/japans-local-treasures/fukue-island-attractions-2020/"
+          "신카미고토 관광협회 가시라가시마 성당 사전 연락·방문조건",
+          "https://shinkamigoto.nagasaki-tabinet.com/junrei/10239"
         ]
       ],
       "related": [
@@ -276,5 +276,6 @@
     "Original imagery remains unchanged; for entries without confirmed image provenance do not call images documentary photographs.",
     "No live ship berth, last bus, real-time booking inventory, or ticket price asserted."
   ],
-  "added_steps": 50
+  "added_steps": 50,
+  "fact_check_note": "Aokata port official cruise-berth and Kashiragashima church advance contact verified; Fukue-specific links removed from the Aokata V145 section."
 }
