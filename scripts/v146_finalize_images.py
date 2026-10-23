@@ -40,7 +40,7 @@ def get_jpeg(item):
        try:
         with urlopen(Request(url,headers={"User-Agent":UA,"Referer":"https://commons.wikimedia.org/"}), timeout=35) as response:
          blob=response.read(16_000_000)
-         if response.status!=200 or not blob.startswith(b"\\xff\\xd8\\xff"): raise ValueError("not JPEG")
+         if response.status!=200 or not blob.startswith(b"\xff\xd8\xff"): raise ValueError("not JPEG")
          img=Image.open(BytesIO(blob));img.verify()
          return blob,url
        except Exception as err:
@@ -95,7 +95,7 @@ def patch_html(path,item):
       for x in (obj if isinstance(obj,list) else [obj]):
         if x.get("@type")=="Article":x["image"]=[absolute]
       return '<script type="application/ld+json">'+json.dumps(obj,ensure_ascii=False).replace("<","\\u003c")+'</script>'
-    html,n=re.subn(r'<script type="application/ld\\+json">([\\s\\S]*?)</script>',add_image_to_schema,html,count=1)
+    html,n=re.subn(r'<script type="application/ld\+json">([\s\S]*?)</script>',add_image_to_schema,html,count=1)
     if n!=1:raise ValueError("No JSON-LD")
     path.write_text(html,encoding="utf-8")
     assert html.count('class="v146-hero"')==1
