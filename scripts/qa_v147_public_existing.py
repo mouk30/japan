@@ -47,7 +47,7 @@ for item in BOOKING+list(PORTS):
   tests={"HTTP_200":status==200,"HTML_type":"html" in ctype,
     "canonical_exact":page.canonical==[url],"one_h1":page.h1==1,
     "has_local_image":any(src.startswith("/") for src in page.img),
-    "noindex_absent":not bool(re.search(r'<meta[^>]*name=["\\\']robots["\\\'][^>]*noindex',text,re.I))}
+    "noindex_absent":not ("content=\"noindex" in text.lower() or "content=\'noindex" in text.lower())}
   if item in BOOKING:
    tests.update({"Kampu_official_notice":NOTICE in page.links,
      "notice_one":page.ids.count("nf-v147-kampu-20261023")==1,
