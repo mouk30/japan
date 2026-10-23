@@ -1,0 +1,73 @@
+name: V134 real ferry vessels and port photos source rights and 5-guide SEO QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v134_replace_generic_ferry_heroes.py'
+      - '.github/workflows/v134-ferry-guide-photo-upgrades.yml'
+permissions:
+  contents: write
+concurrency:
+  group: v134-three-real-port-and-vessel-source-import
+  cancel-in-progress: false
+jobs:
+  five-ferry-guides:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install "Pillow==11.3.0"
+      - name: Compile exact source and SEO guarded importer
+        run: python -m py_compile scripts/v134_replace_generic_ferry_heroes.py
+      - name: Download actual photo sources into separately resized WebP and update five old guide heroes
+        run: python scripts/v134_replace_generic_ferry_heroes.py
+      - name: Verify 3 source WebP bytes and 5 article attributions + SEO
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,re
+          root=Path('.'); plan=json.loads(Path('audit-reports/v134/photo-plan.json').read_text())
+          original={x['slug']:x for x in json.loads(Path('audit-reports/v134/original-protected-metadata.json').read_text())['pages']}
+          for src in plan['photos']:
+           p=root/'site'/src['output'].lstrip('/')
+           b=p.read_bytes()
+           assert b[:4]==b'RIFF' and b[8:12]==b'WEBP',(p,len(b))
+          photo_by_key={x['key']:x for x in plan['photos']}
+          for ent in plan['entries']:
+           slug=ent['slug'];info=original[slug];src=photo_by_key[ent['picture']]
+           html=(root/'site/guide'/slug/'index.html').read_text('utf8')
+           assert 'class="article-cover" src="'+src['output']+'"' in html
+           assert html.count('nf-v134-photo-credit')==1
+           assert src['author'] in html and src['source'].replace('&','&amp;') in html and src['license_url'] in html
+           assert ('<meta property="og:image" content="https://www.nipponferry.com'+src['output']+'"') in html
+           for key,rgx in [('title',r'<title>([^<]*)</title>'),('description',r'<meta name="description" content="([^"]*)'),('canonical',r'<link rel="canonical" href="([^"]*)')]:
+            assert re.search(rgx,html).group(1)==info[key],(slug,key)
+          print('V134: FIVE GUIDES, THREE LICENSED REAL SOURCES, FIVE PROTECTED SEO CHECKS PASSED')
+          PY
+      - name: Publish exactly 5 existing guides, 3 unique photos and one proof report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v134/photo-import-result.json
+          for slug in busan-fukuoka-ferry busan-fukuoka-ferry-price busan-fukuoka-timetable busan-hitakatsu-ferry busan-izuhara-ferry; do
+            git add "site/guide/$slug/index.html"
+          done
+          git add site/images/venues/nf-v134-*.webp
+          git commit -m "V134 replace 5 generic route heroes with 3 rights-verified ferry and port photographs"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v134-five-ferry-guides-three-real-webp-images-license-and-seo
+          path: |
+            site/images/venues/nf-v134-*.webp
+            audit-reports/v134/photo-import-result.json
+            audit-reports/v134/photo-plan.json
+          retention-days: 45
