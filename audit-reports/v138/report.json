@@ -1,0 +1,484 @@
+{
+  "version": "V138",
+  "generated_at": "2026-10-23T03:43:54.551Z",
+  "viewports": [
+    {
+      "width": 320,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "hero": {
+        "rect": {
+          "x": 0,
+          "y": 67,
+          "w": 320,
+          "h": 463.40625,
+          "right": 320
+        },
+        "titleRect": {
+          "x": 16,
+          "y": 162,
+          "w": 288,
+          "h": 70.78125,
+          "right": 304
+        },
+        "titleFont": 30,
+        "titleText": "바다를 따라 만나는 일본,\n크루즈·연안페리 여행",
+        "background": "linear-gradient(rgba(3, 27, 48, 0.88), rgba(5, 34, 57, 0.75) 49%, rgba(5, 35, 61, 0.6)), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
+        "mainLink": "/japan-cruise/"
+      },
+      "menu": {
+        "buttonVisible": true,
+        "buttonRect": {
+          "x": 241,
+          "y": 10,
+          "w": 69,
+          "h": 46,
+          "right": 310
+        },
+        "navDisplay": "none",
+        "navMaxHeight": "830px"
+      },
+      "content": {
+        "cardDisplay": "flex",
+        "cardDirection": "column",
+        "cardRect": {
+          "x": 16,
+          "y": 4514.0625,
+          "w": 288,
+          "h": 404.296875,
+          "right": 304
+        },
+        "photoRect": {
+          "x": 17,
+          "y": 4515.0625,
+          "w": 286,
+          "h": 178.75,
+          "right": 303
+        },
+        "photoFit": "cover",
+        "photoNaturalWidth": 1600,
+        "photoAlt": "유카타 차림으로 일본 여행을 즐기는 여행자",
+        "cardHeading": "일본 즐길거리"
+      },
+      "maritime": {
+        "columns": "284px",
+        "cardRect": {
+          "x": 18,
+          "y": 739.1875,
+          "w": 284,
+          "h": 325,
+          "right": 302
+        }
+      },
+      "kakao": {
+        "x": 262,
+        "y": 836,
+        "w": 50,
+        "h": 50,
+        "right": 312
+      },
+      "bookingExists": true,
+      "desktopNavVisible": false,
+      "problems": []
+    },
+    {
+      "width": 360,
+      "viewport": 360,
+      "scrollWidth": 360,
+      "hero": {
+        "rect": {
+          "x": 0,
+          "y": 67,
+          "w": 360,
+          "h": 422.03125,
+          "right": 360
+        },
+        "titleRect": {
+          "x": 16,
+          "y": 146.5,
+          "w": 328,
+          "h": 70.78125,
+          "right": 344
+        },
+        "titleFont": 30,
+        "titleText": "바다를 따라 만나는 일본,\n크루즈·연안페리 여행",
+        "background": "linear-gradient(rgba(3, 27, 48, 0.88), rgba(5, 34, 57, 0.75) 49%, rgba(5, 35, 61, 0.6)), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
+        "mainLink": "/japan-cruise/"
+      },
+      "menu": {
+        "buttonVisible": true,
+        "buttonRect": {
+          "x": 281,
+          "y": 10,
+          "w": 69,
+          "h": 46,
+          "right": 350
+        },
+        "navDisplay": "none",
+        "navMaxHeight": "830px"
+      },
+      "content": {
+        "cardDisplay": "flex",
+        "cardDirection": "column",
+        "cardRect": {
+          "x": 16,
+          "y": 4406.609375,
+          "w": 328,
+          "h": 429.296875,
+          "right": 344
+        },
+        "photoRect": {
+          "x": 17,
+          "y": 4407.609375,
+          "w": 326,
+          "h": 203.75,
+          "right": 343
+        },
+        "photoFit": "cover",
+        "photoNaturalWidth": 1600,
+        "photoAlt": "유카타 차림으로 일본 여행을 즐기는 여행자",
+        "cardHeading": "일본 즐길거리"
+      },
+      "maritime": {
+        "columns": "324px",
+        "cardRect": {
+          "x": 18,
+          "y": 670.625,
+          "w": 324,
+          "h": 325,
+          "right": 342
+        }
+      },
+      "kakao": {
+        "x": 302,
+        "y": 836,
+        "w": 50,
+        "h": 50,
+        "right": 352
+      },
+      "bookingExists": true,
+      "desktopNavVisible": false,
+      "problems": []
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "hero": {
+        "rect": {
+          "x": 0,
+          "y": 67,
+          "w": 390,
+          "h": 428.40625,
+          "right": 390
+        },
+        "titleRect": {
+          "x": 20,
+          "y": 146.5,
+          "w": 350,
+          "h": 75.46875,
+          "right": 370
+        },
+        "titleFont": 31.98,
+        "titleText": "바다를 따라 만나는 일본,\n크루즈·연안페리 여행",
+        "background": "linear-gradient(rgba(3, 27, 48, 0.88), rgba(5, 34, 57, 0.75) 49%, rgba(5, 35, 61, 0.6)), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
+        "mainLink": "/japan-cruise/"
+      },
+      "menu": {
+        "buttonVisible": true,
+        "buttonRect": {
+          "x": 303,
+          "y": 10,
+          "w": 73,
+          "h": 46,
+          "right": 376
+        },
+        "navDisplay": "none",
+        "navMaxHeight": "830px"
+      },
+      "content": {
+        "cardDisplay": "flex",
+        "cardDirection": "column",
+        "cardRect": {
+          "x": 16,
+          "y": 4325.5,
+          "w": 358,
+          "h": 448.046875,
+          "right": 374
+        },
+        "photoRect": {
+          "x": 17,
+          "y": 4326.5,
+          "w": 356,
+          "h": 222.5,
+          "right": 373
+        },
+        "photoFit": "cover",
+        "photoNaturalWidth": 1600,
+        "photoAlt": "유카타 차림으로 일본 여행을 즐기는 여행자",
+        "cardHeading": "일본 즐길거리"
+      },
+      "maritime": {
+        "columns": "354px",
+        "cardRect": {
+          "x": 18,
+          "y": 681,
+          "w": 354,
+          "h": 310,
+          "right": 372
+        }
+      },
+      "kakao": {
+        "x": 332,
+        "y": 836,
+        "w": 50,
+        "h": 50,
+        "right": 382
+      },
+      "bookingExists": true,
+      "desktopNavVisible": false,
+      "problems": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "scrollWidth": 430,
+      "hero": {
+        "rect": {
+          "x": 0,
+          "y": 67,
+          "w": 430,
+          "h": 436.15625,
+          "right": 430
+        },
+        "titleRect": {
+          "x": 20,
+          "y": 146.5,
+          "w": 390,
+          "h": 83.21875,
+          "right": 410
+        },
+        "titleFont": 35.26,
+        "titleText": "바다를 따라 만나는 일본,\n크루즈·연안페리 여행",
+        "background": "linear-gradient(rgba(3, 27, 48, 0.88), rgba(5, 34, 57, 0.75) 49%, rgba(5, 35, 61, 0.6)), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
+        "mainLink": "/japan-cruise/"
+      },
+      "menu": {
+        "buttonVisible": true,
+        "buttonRect": {
+          "x": 343,
+          "y": 10,
+          "w": 73,
+          "h": 46,
+          "right": 416
+        },
+        "navDisplay": "none",
+        "navMaxHeight": "830px"
+      },
+      "content": {
+        "cardDisplay": "flex",
+        "cardDirection": "column",
+        "cardRect": {
+          "x": 16,
+          "y": 4243.015625,
+          "w": 398,
+          "h": 447.875,
+          "right": 414
+        },
+        "photoRect": {
+          "x": 17,
+          "y": 4244.015625,
+          "w": 396,
+          "h": 247.5,
+          "right": 413
+        },
+        "photoFit": "cover",
+        "photoNaturalWidth": 1600,
+        "photoAlt": "유카타 차림으로 일본 여행을 즐기는 여행자",
+        "cardHeading": "일본 즐길거리"
+      },
+      "maritime": {
+        "columns": "394px",
+        "cardRect": {
+          "x": 18,
+          "y": 696.1875,
+          "w": 394,
+          "h": 310,
+          "right": 412
+        }
+      },
+      "kakao": {
+        "x": 372,
+        "y": 836,
+        "w": 50,
+        "h": 50,
+        "right": 422
+      },
+      "bookingExists": true,
+      "desktopNavVisible": false,
+      "problems": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "hero": {
+        "rect": {
+          "x": 0,
+          "y": 71,
+          "w": 768,
+          "h": 576,
+          "right": 768
+        },
+        "titleRect": {
+          "x": 20,
+          "y": 215.59375,
+          "w": 728,
+          "h": 98.25,
+          "right": 748
+        },
+        "titleFont": 42,
+        "titleText": "바다를 따라 만나는 일본,\n크루즈·연안페리 여행",
+        "background": "linear-gradient(90deg, rgba(3, 26, 50, 0.88) 0%, rgba(5, 37, 69, 0.69) 35%, rgba(4, 43, 77, 0.17) 65%, rgba(4, 38, 70, 0.04) 100%), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
+        "mainLink": "/japan-cruise/"
+      },
+      "menu": {
+        "buttonVisible": true,
+        "buttonRect": {
+          "x": 669,
+          "y": 11,
+          "w": 79,
+          "h": 48,
+          "right": 748
+        },
+        "navDisplay": "none",
+        "navMaxHeight": "822px"
+      },
+      "content": {
+        "cardDisplay": "flex",
+        "cardDirection": "column",
+        "cardRect": {
+          "x": 20,
+          "y": 3713.359375,
+          "w": 728,
+          "h": 641.515625,
+          "right": 748
+        },
+        "photoRect": {
+          "x": 21,
+          "y": 3714.359375,
+          "w": 726,
+          "h": 453.75,
+          "right": 747
+        },
+        "photoFit": "cover",
+        "photoNaturalWidth": 1600,
+        "photoAlt": "유카타 차림으로 일본 여행을 즐기는 여행자",
+        "cardHeading": "일본 즐길거리"
+      },
+      "maritime": {
+        "columns": "728px",
+        "cardRect": {
+          "x": 20,
+          "y": 816.21875,
+          "w": 728,
+          "h": 420,
+          "right": 748
+        }
+      },
+      "kakao": {
+        "x": 686,
+        "y": 818,
+        "w": 62,
+        "h": 62,
+        "right": 748
+      },
+      "bookingExists": true,
+      "desktopNavVisible": false,
+      "problems": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "hero": {
+        "rect": {
+          "x": 0,
+          "y": 79,
+          "w": 1440,
+          "h": 595.25,
+          "right": 1440
+        },
+        "titleRect": {
+          "x": 40,
+          "y": 196.140625,
+          "w": 760,
+          "h": 154.96875,
+          "right": 800
+        },
+        "titleFont": 66.24,
+        "titleText": "바다를 따라 만나는 일본,\n크루즈·연안페리 여행",
+        "background": "linear-gradient(90deg, rgba(3, 26, 50, 0.88) 0%, rgba(5, 37, 69, 0.69) 35%, rgba(4, 43, 77, 0.17) 65%, rgba(4, 38, 70, 0.04) 100%), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
+        "mainLink": "/japan-cruise/"
+      },
+      "menu": {
+        "buttonVisible": false,
+        "buttonRect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0
+        },
+        "navDisplay": "none",
+        "navMaxHeight": "650px"
+      },
+      "content": {
+        "cardDisplay": "grid",
+        "cardDirection": "row",
+        "cardRect": {
+          "x": 40,
+          "y": 3254.484375,
+          "w": 1360,
+          "h": 273.578125,
+          "right": 1400
+        },
+        "photoRect": {
+          "x": 41,
+          "y": 3255.484375,
+          "w": 434.546875,
+          "h": 271.578125,
+          "right": 475.546875
+        },
+        "photoFit": "cover",
+        "photoNaturalWidth": 1600,
+        "photoAlt": "유카타 차림으로 일본 여행을 즐기는 여행자",
+        "cardHeading": "일본 즐길거리"
+      },
+      "maritime": {
+        "columns": "668px 668px",
+        "cardRect": {
+          "x": 40,
+          "y": 862.09375,
+          "w": 668,
+          "h": 460.796875,
+          "right": 708
+        }
+      },
+      "kakao": {
+        "x": 1358,
+        "y": 818,
+        "w": 62,
+        "h": 62,
+        "right": 1420
+      },
+      "bookingExists": true,
+      "desktopNavVisible": true,
+      "problems": []
+    }
+  ],
+  "errors": [],
+  "source": "site/index.html",
+  "image_policy": "existing images unchanged",
+  "passed": true
+}
