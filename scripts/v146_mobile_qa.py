@@ -29,6 +29,7 @@ with sync_playwright() as pw:
           windowWidth:window.innerWidth,
           jsonld:document.querySelectorAll('script[type="application/ld+json"]').length,
           checklist:!!document.getElementById('checklist'),
+          bookingUrl:document.querySelector('#v146-official-reservation a[href]')?.href||"",
           officialLinks:[...document.querySelectorAll('#official a[href]')].length,
           brokenLocal:[...document.querySelectorAll('a[href^="/"]')].filter(a=>!a.getAttribute('href')).length
         };
@@ -37,7 +38,8 @@ with sync_playwright() as pw:
           and report["imageLoaded"] and report["imageAlt"]>20
           and abs(report["imageAspect"]-4/3)<.035
           and report["scrollWidth"]<=report["windowWidth"]+2
-          and report["checklist"] and report["officialLinks"]>=5 and report["jsonld"]==1)
+          and report["checklist"] and "benesse-artsite.eventos.tokyo/web/portal/" in report["bookingUrl"]
+          and report["officialLinks"]>=5 and report["jsonld"]==1)
       shot=OUT/f"{slug}-{width}.png"
       page.screenshot(path=str(shot),full_page=True,animations="disabled")
       results.append(dict(slug=slug,width=width,pass_=ok,screenshot=str(shot),**report))
