@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - scripts/v145_maritime_browser_qa.py
+      - site/things-to-do/aokata-cruise-port-day-trip/index.html
+      - scripts/v145_maritime_content.json
       - .github/workflows/v145-public-maritime-qa.yml
   workflow_dispatch:
 permissions:
