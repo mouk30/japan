@@ -1,0 +1,61 @@
+{
+  "version": "V140",
+  "date": "2026-10-23",
+  "new_verified_photo_imports": 3,
+  "prior_site_images_reused": 2,
+  "total_home_cards_changed": 5,
+  "source_photos": [
+    {
+      "key": "okinawa",
+      "file": "JP 沖繩 Okinawa Nago Kouri Road Bridge n Beach January 2026 N13P 01.jpg",
+      "old": "/images/editorial/okinawa-kouri-bridge.webp",
+      "dest": "/images/venues/nf-v140-okinawa-kouri-bridge-2026-real.webp",
+      "alt": "2026년 1월 실제 촬영한 오키나와 고우리대교와 해변 풍경",
+      "author": "NORTLAUKAU 26088 JP",
+      "date": "2026-01-30",
+      "license": "CC0 1.0",
+      "licurl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "size": [
+        1333,
+        1000
+      ],
+      "sha256": "50b67c222de70b9a1917046acd370447dfc603ae5459ad155a089f63f4ead9fb",
+      "source": "https://commons.wikimedia.org/wiki/File:JP_%E6%B2%96%E7%B9%A9_Okinawa_Nago_Kouri_Road_Bridge_n_Beach_January_2026_N13P_01.jpg"
+    },
+    {
+      "key": "fukuoka",
+      "file": "Hakata Port from Fukuoka Tower.jpg",
+      "old": "/images/editorial/hakata-cruise-port-day-trip.webp",
+      "dest": "/images/venues/nf-v140-fukuoka-hakata-port-2017-real.webp",
+      "alt": "2017년 6월 후쿠오카타워에서 실제 촬영한 하카타항 방향 전망",
+      "author": "そらみみ",
+      "date": "2017-06-18",
+      "license": "CC BY-SA 4.0",
+      "licurl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "size": [
+        1333,
+        1000
+      ],
+      "sha256": "04cd69e267e8a6b8fd97c2bd977ab99bfd66b03a9b2cd3ab832924aacb50e64b",
+      "source": "https://commons.wikimedia.org/wiki/File:Hakata_Port_from_Fukuoka_Tower.jpg"
+    },
+    {
+      "key": "kobe",
+      "file": "Kobe Port Tower in November 2025 at night 06.jpg",
+      "old": "/images/editorial/kobe-cruise-port-day-trip.webp",
+      "dest": "/images/venues/nf-v140-kobe-port-tower-2025-real.webp",
+      "alt": "2025년 11월 실제 촬영한 고베 포트타워 야경",
+      "author": "ノボホショコロトソ",
+      "date": "2025-11-02",
+      "license": "CC BY 4.0",
+      "licurl": "https://creativecommons.org/licenses/by/4.0/",
+      "size": [
+        1333,
+        1000
+      ],
+      "sha256": "4c4b4084aa187870d3b0b7534373d6740fcbbb4aa25bf409ec9e2c7002f2efa6",
+      "source": "https://commons.wikimedia.org/wiki/File:Kobe_Port_Tower_in_November_2025_at_night_06.jpg"
+    }
+  ],
+  "seo_preserved": true
+}
