@@ -41,7 +41,7 @@ for item in BOOKING+["things-to-do/"+x for x in PORT]:
   checks.update({"official_suspension_notice":notice in a.links,
     "emergency_notice_once":a.ids.count("nf-v147-kampu-20261023")==1,
     "official_email":any("support@kampuferry.co.jp" in x for x in a.links),
-    "retired_online_booking_links":not re.search(r'href=["\\\']https?://(?:www\\.)?kampuferry\\.co\\.jp/(?:reserve/|yoyaku/)',txt),
+    "retired_online_booking_links":all(u not in txt for u in ['href="https://kampuferry.co.jp/reserve/"','href="https://kampuferry.co.jp/yoyaku/','href="https://www.kampuferry.co.jp/yoyaku/']),
     "international_booking_copy":"해외(국제) 고객" in txt and "발송만으로 예약 확정이 아닙니다" in txt,
     "safe_return_copy":"귀국편" in txt and "수속 마감" in txt})
  else:
