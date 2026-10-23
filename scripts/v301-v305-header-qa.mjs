@@ -113,7 +113,8 @@ try{
      if(await toggle.getAttribute('aria-expanded')!=='true')issues.push('mobile toggle aria');
      try{await pg.locator('#nf301-mobile-panel').waitFor({state:'visible',timeout:2400})}catch{issues.push('mobile panel not visible')}
      const subBtn=pg.locator('.nf301-mob-group[data-mob-group="japan"] .nf301-mob-expand');
-     await subBtn.click();
+     // V142 auto-opens the current category; do not mistakenly click it shut.
+     if(await subBtn.getAttribute('aria-expanded')!=='true')await subBtn.click();
      if(await subBtn.getAttribute('aria-expanded')!=='true')issues.push('mobile submenu aria');
      if(!await pg.locator('#nf301-mob-japan a[href="/japan/tokyo/"]').isVisible())issues.push('Tokyo mobile region link invisible');
      if(pathname==='/'&&[320,390,768].includes(width))await pg.screenshot({path:OUT+'/v303-mobile-menu-'+width+'.png',fullPage:false});
