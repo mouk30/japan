@@ -1,0 +1,92 @@
+name: V143 section-detail rescue and image-source audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/v143_deep_section_content.py
+      - site/nf-v143-topic-guides.css
+      - .github/workflows/v143-section-depth-and-image-audit.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: v143-section-depth-and-image-audit
+  cancel-in-progress: false
+jobs:
+  verify-and-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare photograph verification and WebP renderer
+        run: python -m pip install pillow
+      - name: Import licensed original and deepen 15 existing pages
+        run: python scripts/v143_deep_section_content.py
+      - name: Validate page sources, document links and image provenance
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib,re
+          root=Path('site')
+          report=json.loads(Path('audit-reports/v143/sitewide-content-and-image-audit.json').read_text('utf8'))
+          assert report['modified_count']==15,report['modified_count']
+          assert report['new_articles']==0 and report['new_urls']==0
+          img=report['image_original']
+          file=root/img['local_path'].lstrip('/')
+          assert file.is_file() and hashlib.sha256(file.read_bytes()).hexdigest()==img['sha256']
+          for page in report['modified_pages']:
+            p=root/page['page'].lstrip('/')/'index.html'
+            html=p.read_text('utf8')
+            assert html.count('data-v143=')==1
+            assert html.count('class=\'v143-next\'')==1
+            assert 'nf-v143-topic-guides.css' in html
+            assert '<link rel="canonical"' in html
+            assert page['cards']==4 or page['cards']==5
+            assert 'https://willer-travel.com/ko/ferry/' in html
+            if page['image_status'].startswith('verified'):
+              assert html.count(img['local_path'])==1 and img['source'] in html
+              assert '2027년 축제 현장 사진은 아닙니다.' in html
+            else:
+              assert 'v143-explainer' in html and '자체 제작 정보 도식' in html
+            for href in re.findall(r'href="(/[a-z][^"#?]*)"',html):
+              target=root/href.lstrip('/')
+              assert target.is_file() or (target/'index.html').is_file() or href.startswith('/#'), (page['page'],href)
+          print('V143 changed 15 existing pages; SEO + photo rights + link targets PASS')
+          PY
+      - name: Build and verify output count
+        run: |
+          npm run build
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          r=json.loads(Path('audit-reports/v143/sitewide-content-and-image-audit.json').read_text('utf8'))
+          assert len(list(Path('dist').rglob('*.html')))==r['global_audit']['scan_count']
+          for x in r['modified_pages']:
+            p=Path('dist')/x['page'].lstrip('/')/'index.html'
+            h=p.read_text('utf8')
+            assert 'data-nf301="v305"' in h
+            assert 'data-v143' in h
+          print('V143 built source/SEO/common nav regression PASS')
+          PY
+      - name: Commit updated originals + audit report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/season/ site/practical/ site/images/venues/nf-v143-sapporo-snow-festival-2014-real.webp audit-reports/v143/sitewide-content-and-image-audit.json
+          git diff --cached --quiet && exit 0
+          git commit -m "V143: deepen 15 existing guides with verified Sapporo photo and unique data diagrams"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Preserve inventory as CI artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v143-whole-site-generic-text-and-photo-audit
+          path: audit-reports/v143/
+          retention-days: 45
+          if-no-files-found: warn
