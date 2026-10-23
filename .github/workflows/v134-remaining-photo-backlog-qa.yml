@@ -1,0 +1,39 @@
+name: V134 inventory the remaining 262 generic photo attribution review candidates
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v134_remaining_photo_queue.py'
+      - '.github/workflows/v134-remaining-photo-backlog-qa.yml'
+permissions:
+  contents: write
+jobs:
+  queue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Classify exactly 262 unreviewed prior photo candidates without inventing author rights
+        run: |
+          python -m py_compile scripts/v134_remaining_photo_queue.py
+          python scripts/v134_remaining_photo_queue.py
+      - name: Commit categorized candidate queue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-reports/v134/remaining-262-provenance-queue.json
+          git commit -m "V134 archive prioritized 262 historical hero photo provenance candidates"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v134-remaining-262-photo-provenance-candidates
+          path: audit-reports/v134/remaining-262-provenance-queue.json
+          retention-days: 45
