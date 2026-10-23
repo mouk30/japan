@@ -1,0 +1,37 @@
+name: V147 existing booking and port return QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/booking/japan-cruise/index.html"
+      - "site/ferry/index.html"
+      - "site/guide/busan-shimonoseki-ferry/index.html"
+      - "site/things-to-do/**/index.html"
+      - "scripts/qa_v147_existing_booking_return.py"
+      - ".github/workflows/v147-existing-guide-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  existing-pages-only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate booking suspension and five port visitor-action sections
+        run: |
+          python -m py_compile scripts/qa_v147_existing_booking_return.py
+          python scripts/qa_v147_existing_booking_return.py
+      - name: Preserve existing five-port SEO image and official-fact checks
+        run: python scripts/qa_port_trust_5_live.py --mode static --root site
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v147-existing-guides-quality
+          path: |
+            audit-output/v147/
+            audit-output/port-trust-live/
+          if-no-files-found: warn
