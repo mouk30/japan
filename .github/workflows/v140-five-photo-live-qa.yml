@@ -1,0 +1,40 @@
+name: V140 five region production image desktop and mobile QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/v140_five_photo_public_browser_qa.py
+      - .github/workflows/v140-five-photo-live-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verified-production-cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser and screenshot dependencies
+        run: |
+          python -m pip install playwright Pillow
+          python -m playwright install chromium
+      - name: Production homepage image and credit QA (320, 390, 768, 1440)
+        id: publicqa
+        run: |
+          for attempt in 1 2 3; do
+            if python scripts/v140_five_photo_public_browser_qa.py; then exit 0; fi
+            echo "Production validation not passed; attempt $attempt/3"
+            if [ "$attempt" -lt 3 ]; then sleep 25; fi
+          done
+          exit 1
+      - name: Upload real browser screenshot evidence and JSON
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v140-production-five-photos-visual-evidence
+          path: audit-output/v140-public-five/
+          retention-days: 45
+          if-no-files-found: warn
