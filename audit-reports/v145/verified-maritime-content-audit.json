@@ -1,0 +1,280 @@
+{
+  "version": "V145",
+  "date": "2026-10-23",
+  "scope": "10 previously published maritime articles",
+  "expected": 10,
+  "updated": [
+    {
+      "url": "/things-to-do/shodoshima-ferry-island-access/",
+      "region": "세토내해 · 쇼도시마",
+      "kind": "island-ferry",
+      "originalSha256": "7e22b3d2b68596bf04a65f3fbfabb39b3449d734530f324e413e584f05494d25",
+      "newSha256": "c417e252de3c5019684cfb712e0e15c83b74ae6f551382c27024e0e0c37b9e94",
+      "steps": 5,
+      "sources": [
+        [
+          "쇼도시마 페리 공식 시간표·승선장",
+          "https://www.shikokuferry.com/route2"
+        ],
+        [
+          "엔젤로드 간조 및 관광 소개 (JNTO)",
+          "https://www.japan.travel/ko/spot/219/"
+        ]
+      ],
+      "related": [
+        "/things-to-do/takamatsu-cruise-port-day-trip/",
+        "/things-to-do/tomonoura-setouchi-port/"
+      ],
+      "imageStatus": "기존 도노쇼항 페리 사진은 2010년 촬영 실사로 표시되어 있으며, 현재 운항 선박이나 출항편을 보증하지 않습니다.",
+      "seoPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "url": "/things-to-do/takamatsu-cruise-port-day-trip/",
+      "region": "세토내해 · 다카마쓰",
+      "kind": "cruise-port",
+      "originalSha256": "5320d7053a0c552d310c2d55cb7349ee045d5d6a704fa1683ace7685f557d115",
+      "newSha256": "458ab68d1340665d15a1bd00ee5852064b80688887737be2cce7bc0fb3b93957",
+      "steps": 5,
+      "sources": [
+        [
+          "JNTO 다카마쓰 지역 공식 관광",
+          "https://www.japan.travel/ko/destinations/shikoku/kagawa/takamatsu-area/"
+        ],
+        [
+          "쇼도시마행 페리 공식 시간표",
+          "https://www.shikokuferry.com/route2"
+        ],
+        [
+          "리쓰린공원·가가와현 관광",
+          "https://www.my-kagawa.jp/"
+        ]
+      ],
+      "related": [
+        "/things-to-do/shodoshima-ferry-island-access/",
+        "/things-to-do/japan-kagawa-udon-pilgrimage/"
+      ],
+      "imageStatus": "현재 대표사진은 리쓰린공원의 과거 실경이지 크루즈 접안 선석의 사진이 아닙니다.",
+      "seoPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "url": "/things-to-do/tomonoura-setouchi-port/",
+      "region": "세토내해 · 도모노우라",
+      "kind": "historic-port",
+      "originalSha256": "7f8236054b41d9c65a09364df4f0506e3188489c0c1a9ef356b12bc0ff73663e",
+      "newSha256": "8c3386750192843c417029eee31b859289a23fab13c1b1ce62dc7e5cf6179f8c",
+      "steps": 5,
+      "sources": [
+        [
+          "JNTO 도모노우라 옛 항구·접근",
+          "https://www.japan.travel/ko/spot/875/"
+        ],
+        [
+          "JNTO 도모노우라 역사 거리와 버스",
+          "https://www.japan.travel/en/japans-local-treasures/tomonoura-walk-through-historical-town-2020/"
+        ]
+      ],
+      "related": [
+        "/things-to-do/takamatsu-cruise-port-day-trip/",
+        "/things-to-do/shodoshima-ferry-island-access/"
+      ],
+      "imageStatus": "기존 이미지는 ‘AI 생성 참고 이미지’로 표시됩니다. 실제 촬영 사진으로 오해시키지 않으며 검증된 저작권·장소 일치 실사를 찾기 전까지 이미지 교체를 보류합니다.",
+      "seoPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "url": "/things-to-do/amami-naze-cruise-port-day-trip/",
+      "region": "아마미 · 나제항",
+      "kind": "cruise-port",
+      "originalSha256": "2a6f5748dde3ea48510da82d698707fe1abeeb61cbd2d1abc8747ec0055d52d9",
+      "newSha256": "fe7d9729e7deeae06c0db10ff620e3cf569485118051e85e9c6f30864771b6af",
+      "steps": 5,
+      "sources": [
+        [
+          "JNTO 아마미오시마 생태·체험",
+          "https://www.japan.travel/en/japans-local-treasures/amami-oshima-island/"
+        ],
+        [
+          "JNTO 아마미 교통·생활문화",
+          "https://www.japan.travel/en/spot/613/"
+        ]
+      ],
+      "related": [
+        "/things-to-do/japan-amami-oshima-tsumugi/",
+        "/things-to-do/goto-fukue-cruise-port-day-trip/"
+      ],
+      "imageStatus": "현재 대표사진은 역사적 나제항 지역 촬영본으로, 최신 크루즈 접안 선석 또는 여객 출입구를 보증하지 않습니다.",
+      "seoPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "url": "/things-to-do/japan-amami-oshima-tsumugi/",
+      "region": "아마미 · 오시마쓰무기",
+      "kind": "craft-trip",
+      "originalSha256": "fabfd2d79a9a36aa0e5fc36d88a0208e58de53b028d452fb1a6f6d57c2b657a8",
+      "newSha256": "ff110276d119da9f1bfd339e1f641718686afa0e4e6b37f09ed8e26f47d4c220",
+      "steps": 5,
+      "sources": [
+        [
+          "JNTO 오시마쓰무기 체험 문화",
+          "https://www.japan.travel/en/japans-local-treasures/amami-oshima-island/"
+        ],
+        [
+          "JNTO 아마미 염색·직조 역사",
+          "https://www.japan.travel/en/luxury/detail/weaving-tradition-a-journey-through-kagoshimas-culture/"
+        ]
+      ],
+      "related": [
+        "/things-to-do/amami-naze-cruise-port-day-trip/",
+        "/things-to-do/goto-fukue-cruise-port-day-trip/"
+      ],
+      "imageStatus": "기존 전통 직물 관련 대표 이미지는 주제·저작권 표기 상태를 유지하며, 새 실사 사진은 제작 공정과 촬영 장소가 확인되는 경우에만 연결합니다.",
+      "seoPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "url": "/things-to-do/goto-fukue-cruise-port-day-trip/",
+      "region": "고토열도 · 후쿠에섬",
+      "kind": "cruise-port",
+      "originalSha256": "66bc51bf7d3ac3f102ab026c9af4d33e332df852b10441616bfe4352ddd488e2",
+      "newSha256": "abf27a8731190da5431962853513ea7bbee957fcb8cef07f8261ecb3f68b5039",
+      "steps": 5,
+      "sources": [
+        [
+          "JNTO 후쿠에섬 관광·섬 접근",
+          "https://www.japan.travel/en/spot/732/"
+        ],
+        [
+          "JNTO 후쿠에섬 차량 여행·교회",
+          "https://www.japan.travel/en/japans-local-treasures/fukue-island-attractions-2020/"
+        ]
+      ],
+      "related": [
+        "/things-to-do/aokata-cruise-port-day-trip/",
+        "/things-to-do/amami-naze-cruise-port-day-trip/"
+      ],
+      "imageStatus": "현재 대표사진이 어떤 관광 대상을 보여주는지 원본·ALT를 유지하고, 후쿠에항 접안 사진이라고 단정하지 않습니다.",
+      "seoPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "url": "/things-to-do/aokata-cruise-port-day-trip/",
+      "region": "고토열도 · 신카미고토 아오카타",
+      "kind": "cruise-port",
+      "originalSha256": "e6109aa934681048bb79c277d8cd21630ee1e8a905a7ecf40a24da99b08fa97a",
+      "newSha256": "c1f5dcd47eeae37492d53a30eab26a7c012574ed6517c5eb5b15d0e360d1760e",
+      "steps": 5,
+      "sources": [
+        [
+          "JNTO 고토열도 섬 여행과 배편",
+          "https://www.japan.travel/en/spot/732/"
+        ],
+        [
+          "JNTO 고토열도 문화유산 안내",
+          "https://www.japan.travel/en/japans-local-treasures/fukue-island-attractions-2020/"
+        ]
+      ],
+      "related": [
+        "/things-to-do/goto-fukue-cruise-port-day-trip/",
+        "/things-to-do/tokushima-komatsushima-cruise-port-day-trip/"
+      ],
+      "imageStatus": "기존 가시라가시마 천주당 실제 사진은 2016년 관광지 촬영본입니다. 현재 크루즈 부두나 입장 가능성을 증명하지 않습니다.",
+      "seoPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "url": "/things-to-do/matsuyama-cruise-port-day-trip/",
+      "region": "시코쿠 · 마쓰야마",
+      "kind": "cruise-port",
+      "originalSha256": "03ad29cbd8261cb313694c8df7373f0bcb348476fe4bd5cad95508c10729b07e",
+      "newSha256": "cd58b26b76a9493ebe44cbb2155d43250fe4ef904c819baa354cbcfddef5ff9e",
+      "steps": 5,
+      "sources": [
+        [
+          "JNTO 도고온천 관광·교통",
+          "https://www.japan.travel/ko/spot/821/"
+        ],
+        [
+          "JNTO 마쓰야마성 접근",
+          "https://www.japan.travel/ko/spot/819/"
+        ],
+        [
+          "도고온천 지역 공식 안내",
+          "https://dogo.jp/"
+        ]
+      ],
+      "related": [
+        "/things-to-do/takamatsu-cruise-port-day-trip/",
+        "/things-to-do/tokushima-komatsushima-cruise-port-day-trip/"
+      ],
+      "imageStatus": "기존 도고온천 본관 대표사진은 과거 촬영본으로 표시되며, 현재 입장 대기·운영 상태를 보증하지 않습니다.",
+      "seoPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "url": "/things-to-do/japan-kagawa-udon-pilgrimage/",
+      "region": "시코쿠 · 가가와 미식",
+      "kind": "food-trip",
+      "originalSha256": "263abfdb242d97173632cfb470028eaa1b77ae62a228941fabe0de13f6f4982c",
+      "newSha256": "cc2784aa9db82f047b9dd2ad7f380f6683ef1f69b3ec5277c989431230d9327c",
+      "steps": 5,
+      "sources": [
+        [
+          "JNTO 가가와 사누키 우동·지역 명물",
+          "https://www.japan.travel/en/destinations/shikoku/kagawa/"
+        ],
+        [
+          "JNTO 다카마쓰 시내·미식",
+          "https://www.japan.travel/ko/destinations/shikoku/kagawa/takamatsu-area/"
+        ]
+      ],
+      "related": [
+        "/things-to-do/takamatsu-cruise-port-day-trip/",
+        "/things-to-do/shodoshima-ferry-island-access/"
+      ],
+      "imageStatus": "기존 가가와 사누키 우동 사진은 실제 음식 촬영 이미지로 표기되어 있으며, 사진만으로 현재 특정 식당의 메뉴·가격을 보증하지 않습니다.",
+      "seoPreserved": true,
+      "originalImagesPreserved": true
+    },
+    {
+      "url": "/things-to-do/tokushima-komatsushima-cruise-port-day-trip/",
+      "region": "시코쿠 · 도쿠시마·고마쓰시마",
+      "kind": "cruise-port",
+      "originalSha256": "ca7904fa9c31fa492544b9980d966eb3e5529d639c63e2fe9b039e301ad70eb9",
+      "newSha256": "f5b6775787a4eba40e150226cb783ca398eec88cd6d179b004b5849edba57ac6",
+      "steps": 5,
+      "sources": [
+        [
+          "JNTO 아와오도리 회관",
+          "https://www.japan.travel/en/spot/844/"
+        ],
+        [
+          "JNTO 비잔 전망·로프웨이",
+          "https://www.japan.travel/en/spot/211/"
+        ],
+        [
+          "JNTO 도쿠시마 지역 접근",
+          "https://www.japan.travel/en/destinations/shikoku/tokushima/"
+        ]
+      ],
+      "related": [
+        "/things-to-do/matsuyama-cruise-port-day-trip/",
+        "/things-to-do/japan-kagawa-udon-pilgrimage/"
+      ],
+      "imageStatus": "기존 대표 이미지는 2010년 도쿠시마 아와오도리 실제 축제 촬영본으로, 현재 항만 하선 게이트 사진은 아닙니다.",
+      "seoPreserved": true,
+      "originalImagesPreserved": true
+    }
+  ],
+  "title_meta_canonical_preserved": true,
+  "structured_data_preserved": true,
+  "images_modified": 0,
+  "new_posts": 0,
+  "verified_timetable_realtime": false,
+  "limitations": [
+    "Original imagery remains unchanged; for entries without confirmed image provenance do not call images documentary photographs.",
+    "No live ship berth, last bus, real-time booking inventory, or ticket price asserted."
+  ],
+  "added_steps": 50
+}
