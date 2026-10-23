@@ -11,7 +11,8 @@
       "detail_step_count": 3,
       "seo_unchanged": true,
       "old_sha256": "6f95ca406bfac8bf73303c727db6de6e40b7c7ff5302e38a1c5be805900ea89b",
-      "new_sha256": "8c7e2b2775520e6efe691dca0920205890adf9c4cf22555cd53a0e3954bcb139"
+      "new_sha256": "8c7e2b2775520e6efe691dca0920205890adf9c4cf22555cd53a0e3954bcb139",
+      "additional_real_photo": "/images/venues/nf-v144-asahikawa-snow-2007-real.webp"
     },
     {
       "url": "/season/hokkaido-winter-packing/",
@@ -181,7 +182,8 @@
       "detail_step_count": 3,
       "seo_unchanged": true,
       "old_sha256": "29bd266e320c0d49c6ab13fd92bc05a470cda935d22784b03f49fdfa95e24e04",
-      "new_sha256": "d1202700fdafc7a3d5a807c3542c6b93d77ac728afae69f154ffeb63fc5bd802"
+      "new_sha256": "d1202700fdafc7a3d5a807c3542c6b93d77ac728afae69f154ffeb63fc5bd802",
+      "additional_real_photo": "/images/venues/nf-v144-otaru-snow-light-2014-real.webp"
     },
     {
       "url": "/season/otaru-winter-day-trip/",
@@ -441,7 +443,8 @@
       "detail_step_count": 3,
       "seo_unchanged": true,
       "old_sha256": "37cb8bd06352df01b0e35a987a32e59af1cf188f53c9557cd82fded23d43913c",
-      "new_sha256": "72fb47a912512caaacbad8908d4c69f82e450badaa9ef7c184e2c322608860e7"
+      "new_sha256": "72fb47a912512caaacbad8908d4c69f82e450badaa9ef7c184e2c322608860e7",
+      "additional_real_photo": "/images/venues/nf-v144-kyoto-tango-akamatsu-kuromatsu-2019-real.webp"
     },
     {
       "url": "/practical/mt-fuji-day-bus-tour/",
@@ -515,12 +518,6 @@
     }
   ],
   "image_followups": [
-    {
-      "url": "/season/asahikawa-winter-festival/",
-      "old_cover": "/images/hokkaido.jpg",
-      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
-      "rephotograph_priority": "high"
-    },
     {
       "url": "/season/hokkaido-winter-packing/",
       "old_cover": "/images/hokkaido.jpg",
@@ -613,12 +610,6 @@
     },
     {
       "url": "/season/otaru-snow-light-couple/",
-      "old_cover": "/images/hokkaido.jpg",
-      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
-      "rephotograph_priority": "high"
-    },
-    {
-      "url": "/season/otaru-snow-light-path-2027/",
       "old_cover": "/images/hokkaido.jpg",
       "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
       "rephotograph_priority": "high"
@@ -774,12 +765,6 @@
       "rephotograph_priority": "high"
     },
     {
-      "url": "/practical/kyoto-tango-kuromatsu/",
-      "old_cover": "/images/transport.jpg",
-      "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
-      "rephotograph_priority": "high"
-    },
-    {
       "url": "/practical/mt-fuji-day-bus-tour/",
       "old_cover": "/images/transport.jpg",
       "provenance": "Not verified as a photograph of page-specific attraction/scene; keep file in repository and prioritize actual source/license search",
@@ -830,5 +815,59 @@
     "original_images_retained_in_repository": true
   },
   "note": "51 covers become explicitly labeled self-authored informative visuals. Real location-verified photos remain a separate follow-up; unverified photos not passed off as location documentary.",
-  "images_replaced_with_diagrams": 51
+  "images_replaced_with_diagrams": 51,
+  "verified_documentary_photo_additions": [
+    {
+      "page": "/season/asahikawa-winter-festival/",
+      "image": "/images/venues/nf-v144-asahikawa-snow-2007-real.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Asahikawa_Winter_Festival_Snow_Statue_1.jpg",
+      "author": "京浜にけ",
+      "capture_date": "2007-02-11",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "description": "2007년 아사히카와 겨울축제 현장에서 촬영한 실제 대형 눈조각",
+      "historical_notice": "과거 행사 기록 사진이며 2026·2027년 현장 조각이나 운영 정보를 보여주지 않습니다.",
+      "size": [
+        1319,
+        1000
+      ],
+      "sha256": "d904433140851c4c5b3e6fd7d6188d2099ef1eba69a1abb1c741421f3b50847f",
+      "transformations": "resized, converted to WebP"
+    },
+    {
+      "page": "/season/otaru-snow-light-path-2027/",
+      "image": "/images/venues/nf-v144-otaru-snow-light-2014-real.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%9B%AA%E3%81%82%E3%81%8B%E3%82%8A%E3%81%AE%E8%B7%AF%EF%BC%88Otaru_Snow_Light_Path_Festival%EF%BC%89_-_panoramio.jpg",
+      "author": "t-konno",
+      "capture_date": "2014-02-14",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "description": "2014년 오타루 눈빛거리 행사 실제 현장을 촬영한 겨울 촛불 풍경",
+      "historical_notice": "2014년 실제 기록 사진으로 2027년 행사 설치물·일정을 보여주는 사진이 아닙니다.",
+      "size": [
+        1500,
+        1000
+      ],
+      "sha256": "86b86fed2c7f62e54bb37a620ae0b34fea9b46540dd4a6e16804ca3b5cecc9de",
+      "transformations": "resized, converted to WebP"
+    },
+    {
+      "page": "/practical/kyoto-tango-kuromatsu/",
+      "image": "/images/venues/nf-v144-kyoto-tango-akamatsu-kuromatsu-2019-real.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:%E4%BA%AC%E9%83%BD%E4%B8%B9%E5%BE%8C%E9%89%84%E9%81%93%E8%A6%B3%E5%85%89%E5%88%97%E8%BB%8A%E3%80%8C%E3%81%82%E3%81%8B%E3%81%BE%E3%81%A4%E3%80%8D%E3%80%8C%E3%81%8F%E3%82%8D%E3%81%BE%E3%81%A4%E3%80%8D.jpg",
+      "author": "おのののの",
+      "capture_date": "2019-03-21",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "description": "2019년 교토탄고철도 미야마이선에서 아카마츠와 쿠로마츠 관광열차가 교행하는 실제 사진",
+      "historical_notice": "두 열차가 함께 보이는 과거 기록 사진입니다. 현재 운행일·코스·식사 서비스는 별도 확인해야 합니다.",
+      "size": [
+        1333,
+        1000
+      ],
+      "sha256": "207d334c28fa8aed8283abb70b80f49ff00cdb6efb6af9e2e03a85cfd2e4e5b7",
+      "transformations": "resized, converted to WebP"
+    }
+  ],
+  "verified_real_photo_count": 3
 }
