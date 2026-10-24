@@ -1,0 +1,29 @@
+name: V157 five public cruise port current operations QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/qa_v157_public_five_ports.py"
+      - ".github/workflows/v157-public-current-ports.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actual-public-seasonal-cruise-operations:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check true production cruise guides, original licensed images and sitemap
+        run: |
+          python -m py_compile scripts/qa_v157_public_five_ports.py
+          python scripts/qa_v157_public_five_ports.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v157-five-real-public-ports-current-operating
+          path: audit-output/v157-public/
+          if-no-files-found: warn
