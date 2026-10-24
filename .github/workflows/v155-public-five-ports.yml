@@ -1,0 +1,29 @@
+name: V155 public five-port booking and return QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/qa_v155_public_five_ports.py"
+      - ".github/workflows/v155-public-five-ports.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actual-public-port-gates-and-return-guides:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate five published passenger return guides, discovery hub, indexed URLs
+        run: |
+          python -m py_compile scripts/qa_v155_public_five_ports.py
+          python scripts/qa_v155_public_five_ports.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v155-five-port-public-http-qa
+          path: audit-output/v155-public/
+          if-no-files-found: warn
