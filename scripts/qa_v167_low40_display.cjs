@@ -29,7 +29,7 @@ const rows=[];let next=0;
      await Promise.race([Promise.all(imgs.map(x=>x.decode().catch(()=>null))),new Promise(ok=>setTimeout(ok,3000))]);
      return imgs.map(im=>{
       const b=im.getBoundingClientRect(),nW=im.naturalWidth,nH=im.naturalHeight,fit=getComputedStyle(im).objectFit;
-      const base=fit==='contain'||fit==='scale-down'?Math.min(b.width/nW,b.height/nH):Math.max(b.width/nW,b.height/nH);
+      const base=fit==='scale-down'?Math.min(1,b.width/nW,b.height/nH):fit==='contain'?Math.min(b.width/nW,b.height/nH):Math.max(b.width/nW,b.height/nH);
       return{src:im.getAttribute('src'),alt:im.alt,width:nW,height:nH,
        drawW:Math.round(b.width),drawH:Math.round(b.height),fit,scale:(nW&&nH)?Math.round(base*100)/100:null};
      });
