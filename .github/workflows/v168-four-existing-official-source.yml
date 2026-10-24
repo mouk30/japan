@@ -1,0 +1,40 @@
+name: V168 existing four official schedules booking and ship return QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/amami-naze-cruise-port-day-trip/index.html"
+      - "site/things-to-do/naha-cruise-port-day-trip/index.html"
+      - "site/things-to-do/motobu-cruise-port-day-trip/index.html"
+      - "site/things-to-do/kagoshima-cruise-port-day-trip/index.html"
+      - "scripts/qa_v168_four_existing_source.py"
+      - ".github/workflows/v168-four-existing-official-source.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verified-ferry-operator-booking-vs-ocean-return:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Compare original canonical, source photos and official links
+        run: |
+          python -m py_compile scripts/qa_v168_four_existing_source.py
+          python scripts/qa_v168_four_existing_source.py
+      - name: Build original site
+        run: node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v168-four-real-ferry-operator-original-SEO-photo
+          path: audit-output/v168/
+          if-no-files-found: warn
