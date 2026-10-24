@@ -114,5 +114,45 @@ report={
 (out/"sitewide-image-dimensions-repeat-source-audit.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
 summary={"site_html":len(files),"images":len(assets),"local_references":local_n,"unique_references":len(usage),"missing":len(missing),"within_page_duplicate_candidates":len(same_page),"small_image_candidates":len(low_candidates),"priority_fails":len(errors),"priority_rules":results,"high_repeat":highest_repeat[:12],"low_images":sorted(low_candidates,key=lambda x:-x["usage"])[:12]}
 (out/"v167-image-audit-summary.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding="utf-8")
+# V167 finish: triage each of the 40 original-dimension candidates by
+# observed HTML use, actual dimensions and entry-page exposure. This does NOT
+# claim photographic subject/copyright inspection; reserve that for source review.
+priority_pages={
+ "site/index.html","site/japan/index.html","site/japan/hokkaido/index.html",
+ "site/japan/osaka/index.html","site/busan-osaka-cruise/index.html"
+}
+ranked=[]
+for c in low_candidates:
+ asset_url="/"+str(Path(c["path"]).relative_to(ROOT))
+ u=usage.get(asset_url,[])
+ entry=[x for x in u if x["html"] in priority_pages]
+ region=[x for x in u if x["html"].count("/")==3 and
+         ("/japan/" in x["html"] or "/things-to-do/" in x["html"])]
+ if entry:
+  label="P0_ENTRY";action="licensed hi-res original and subject match needed before replacement"
+ elif u and (len(u)>=5 or c["px"][0]<480) and region:
+  label="P1_CATEGORY";action="inspect visible card render and subject/license"
+ elif u:
+  label="P2_DETAIL";action="check effective CSS display width and source/license"
+ else:
+  label="P3_UNUSED_IMG_TAG";action="do not replace until CSS/background usage is ruled out"
+ ranked.append({
+  "priority":label,"url":asset_url,"dimensions":c["px"],"bytes":c["bytes"],
+  "html_uses":len(u),"entry_uses":len(entry),
+  "example_html":[{"page":x["html"],"alt":x["alt"][:95]}
+                   for x in (entry+region+u)[:6]],
+  "action":action
+ })
+ranked.sort(key=lambda x:(
+ {"P0_ENTRY":0,"P1_CATEGORY":1,"P2_DETAIL":2,"P3_UNUSED_IMG_TAG":3}[x["priority"]],
+ -x["html_uses"], x["dimensions"][0]
+))
+(out/"v167-low-resolution-40-priorities.json").write_text(
+ json.dumps({"count":len(ranked),"criteria":"Small dimension is a candidate; check actual visual upscale, photo subject, and licenses before changing URLs.","items":ranked},ensure_ascii=False,indent=2),encoding="utf-8"
+)
+print("LOW_RES_40_PRIORITIES_BEGIN",flush=True)
+for row in ranked:
+ print(json.dumps({k:row[k] for k in ("priority","url","dimensions","html_uses","entry_uses","example_html")},ensure_ascii=False),flush=True)
+print("LOW_RES_40_PRIORITIES_END",flush=True)
 print(json.dumps(summary,ensure_ascii=False,indent=2),flush=True)
 if errors or missing:raise SystemExit(1)
