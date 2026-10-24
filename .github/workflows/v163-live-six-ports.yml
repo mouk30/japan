@@ -1,0 +1,35 @@
+name: V163 public six existing cruise ports photos sitemap HTTP QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/sado-ogi-cruise-port-day-trip/index.html"
+      - "site/things-to-do/naoetsu-cruise-port-day-trip/index.html"
+      - "site/things-to-do/yakushima-miyanoura-cruise-port-day-trip/index.html"
+      - "site/things-to-do/osaka-cruise-port-day-trip/index.html"
+      - "site/things-to-do/nagasaki-cruise-port-day-trip/index.html"
+      - "site/things-to-do/aokata-cruise-port-day-trip/index.html"
+      - "scripts/qa_v163_live_six_ports.py"
+      - ".github/workflows/v163-live-six-ports.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-operator-booking-content-images-sitemap:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify real published port cards, photos and sitemap
+        run: |
+          python -m py_compile scripts/qa_v163_live_six_ports.py
+          python scripts/qa_v163_live_six_ports.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v163-six-original-cruise-ports-live-http
+          path: audit-output/v163-public/
+          if-no-files-found: warn
