@@ -41,7 +41,9 @@ def panel(s):
 errors=[];checks=[]
 org=old(PORT);current=PORT.read_text(encoding="utf-8")
 original_credits=[scrub(m.group(0)) for m in CREDIT.finditer(org)]
-q(len(original_credits)==36,"expected 36 old on-card photo credit rows, got "+str(len(original_credits)))
+q(len(original_credits) in (0,36),"expected initial 36 or already-compacted 0 original on-card photo credit rows, got "+str(len(original_credits)))
+if len(original_credits)==0:
+ q(panel(org).count("기항지 카드 ·")==36,"existing V149 baseline missing 36 preserved photo-credit entries")
 q(len(CREDIT.findall(current))==0,"photo author labels still on visible cards")
 p=panel(current)
 q(bool(p),"missing preserved V148 CC photo credits disclosure")
