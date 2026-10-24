@@ -1,0 +1,49 @@
+name: V164 seven existing ports official ferry booking return QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/kagoshima-cruise-port-day-trip/index.html"
+      - "site/things-to-do/uno-cruise-port-day-trip/index.html"
+      - "site/things-to-do/takamatsu-cruise-port-day-trip/index.html"
+      - "site/things-to-do/kobe-cruise-port-day-trip/index.html"
+      - "site/things-to-do/niihama-cruise-port-day-trip/index.html"
+      - "site/things-to-do/yawatahama-cruise-port-day-trip/index.html"
+      - "site/things-to-do/tokushima-komatsushima-cruise-port-day-trip/index.html"
+      - "scripts/qa_v164_seven_official_originals.py"
+      - ".github/workflows/v164-seven-existing-official-qa.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/*-cruise-port-day-trip/index.html"
+      - "scripts/qa_v164_seven_official_originals.py"
+      - ".github/workflows/v164-seven-existing-official-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verified-sources-existing-photo-SEO-and-final-return:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Compare all original images, links, licenses, metadata and 3-action panels
+        run: |
+          python -m py_compile scripts/qa_v164_seven_official_originals.py
+          python scripts/qa_v164_seven_official_originals.py
+      - name: Original site build
+        run: node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v164-seven-originals-seo-photo-ferry-official-audit
+          path: audit-output/v164/
+          if-no-files-found: warn
