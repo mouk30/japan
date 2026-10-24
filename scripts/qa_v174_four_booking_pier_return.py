@@ -31,7 +31,7 @@ results=[]
 for slug,(keywords,links) in D.items():
  path=Path("site/things-to-do")/(slug+"-cruise-port-day-trip")/"index.html"
  now=path.read_text("utf-8");old=subprocess.check_output(["git","show",BASE+":"+str(path)],text=True);a,b=p(now),p(old)
- block=now[now.index('id="nf-v174-'+slug+'"'):]:][:7000].replace("&amp;","&")
+ block=now[now.index('id="nf-v174-'+slug+'"'):][:7000].replace("&amp;","&")
  checks={
  "source_claims":all(k in block for k in keywords),
  "three_specific_operator_links":all(x in block for x in links),
