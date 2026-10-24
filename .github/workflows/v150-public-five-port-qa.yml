@@ -1,0 +1,29 @@
+name: V150 public 5-port booking transport and return QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/qa_v150_public_five_ports.py"
+      - ".github/workflows/v150-public-five-port-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  published-five-existing-guides:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify eight actual public URLs for booking transfer and safe return
+        run: |
+          python -m py_compile scripts/qa_v150_public_five_ports.py
+          python scripts/qa_v150_public_five_ports.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v150-public-five-port-release
+          path: audit-output/v150-public/
+          if-no-files-found: warn
