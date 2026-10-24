@@ -1,0 +1,29 @@
+name: V154 public 3 booking transport return guides QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/qa_v154_public_three_guides.py"
+      - ".github/workflows/v154-public-three-guides.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-three-guide-live-site:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate live official booking and return details with photo rights and sitemap
+        run: |
+          python -m py_compile scripts/qa_v154_public_three_guides.py
+          python scripts/qa_v154_public_three_guides.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v154-public-official-booking-and-return
+          path: audit-output/v154-public/
+          if-no-files-found: warn
