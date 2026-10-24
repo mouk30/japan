@@ -1,0 +1,36 @@
+name: V166 seven actual public cruise pages photos sitemap QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/wakkanai-cruise-port-day-trip/index.html"
+      - "site/things-to-do/rishiri-kutsugata-cruise-port-day-trip/index.html"
+      - "site/things-to-do/iki-gonoura-cruise-port-day-trip/index.html"
+      - "site/things-to-do/tsushima-izuhara-cruise-port-day-trip/index.html"
+      - "site/things-to-do/hakodate-cruise-port-day-trip/index.html"
+      - "site/things-to-do/aomori-cruise-port-day-trip/index.html"
+      - "site/things-to-do/niigata-cruise-port-day-trip/index.html"
+      - "scripts/qa_v166_public_seven_ports.py"
+      - ".github/workflows/v166-live-seven-ports.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  existing-cruise-pages-licensed-images-sitemap-live:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify actual HTML, original WebP and sitemap from production
+        run: |
+          python -m py_compile scripts/qa_v166_public_seven_ports.py
+          python scripts/qa_v166_public_seven_ports.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v166-real-seven-original-cruise-guides-images-sitemap
+          path: audit-output/v166-public/
+          if-no-files-found: warn
