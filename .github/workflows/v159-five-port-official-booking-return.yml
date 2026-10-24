@@ -1,0 +1,50 @@
+name: V159 five existing ports official booking return QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/shimizu-cruise-port-day-trip/index.html"
+      - "site/things-to-do/osaka-cruise-port-day-trip/index.html"
+      - "site/things-to-do/sasebo-cruise-port-day-trip/index.html"
+      - "site/things-to-do/sakaiminato-cruise-port-day-trip/index.html"
+      - "site/things-to-do/otaru-cruise-port-day-trip/index.html"
+      - "scripts/qa_v159_five_official_booking_return.py"
+      - ".github/workflows/v159-five-port-official-booking-return.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/*-cruise-port-day-trip/index.html"
+      - "scripts/qa_v159_five_official_booking_return.py"
+      - ".github/workflows/v159-five-port-official-booking-return.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-official-source-original-seo-and-safe-ship-return:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify all original sources SEO photos and official action links
+        run: |
+          python -m py_compile scripts/qa_v159_five_official_booking_return.py
+          python scripts/qa_v159_five_official_booking_return.py
+      - name: Preserve original site build and link QA
+        run: |
+          node build.js
+          python scripts/qa_v150_existing_port_bookings.py
+          python scripts/qa_v155_public_five_ports.py || echo "Historical live QA requires public deployment; not a local build requirement"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v159-official-ports-source-photo-seo-qa
+          path: audit-output/v159/
+          if-no-files-found: warn
