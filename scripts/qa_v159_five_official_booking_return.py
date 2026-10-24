@@ -12,7 +12,7 @@ ROOT = Path("site")
 BASE = "c2b89eb78003d5730da3fa95864df88065127ce6"
 CASES = {
  "shimizu": {
-  "links": ["https://www.shimizu-port.jp/shipinfo_R08.html", "https://www.shimizu-cruise.co.jp/news/detail/934", "https://www.shimizu-cruise.co.jp/fare/"],
+  "links": ["https://www.portofshimizu.com/overview/%E5%AE%A2%E8%88%B9-%E5%B8%86%E8%88%B9/", "https://www.shimizu-cruise.co.jp/news/detail/934", "https://www.shimizu-cruise.co.jp/fare/"],
   "facts": ["2026년 11월 1일", "1,000엔", "500엔", "귀선"]},
  "osaka": {
   "links": ["https://www.city.osaka.lg.jp/port/page/0000442982.html", "https://www.kaiyukan.com/info/ticket/kaiyukan/", "https://www.city.osaka.lg.jp/port/page/0000002874.html"],
