@@ -1,4 +1,4 @@
-name: V167 real 390 768 1440 public photo screen QA
+name: V167 21 real 390 768 1440 public photo screen QA
 on:
   push:
     branches: [main]
@@ -25,7 +25,7 @@ jobs:
         run: |
           npm install --no-save playwright
           npx playwright install --with-deps chromium
-      - name: Twelve production UI screenshot and image load checks
+      - name: Twenty-one UI screens, portrait crop/upscale and image load checks
         run: node scripts/qa_v167_public_visual.cjs
       - uses: actions/upload-artifact@v4
         if: always()
