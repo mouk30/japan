@@ -1,0 +1,52 @@
+name: V148 compact sitewide photo credits
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/v148_compact_photo_credits.py"
+      - ".github/workflows/v148-photo-credit-cleanup.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: v148-photo-credit-cleanup
+  cancel-in-progress: false
+jobs:
+  collapse-attributions:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v148-compact-sitewide-photo-credits-20261024
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch unchanged main sources for safe regeneration and rollback comparison
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main
+      - name: Safely compact source notes while preserving licensed photo attributions
+        run: |
+          python -m py_compile scripts/v148_compact_photo_credits.py scripts/qa_v148_credit_folded.py
+          if grep -q 'id="nf-v148-photo-credits"' site/index.html; then
+            echo "Previously transformed credits detected: verify only; never overwrite reviewed HTML."
+          else
+            python scripts/v148_compact_photo_credits.py
+          fi
+      - name: Audit original source links, guide navigation, image URLs and SEO sitewide
+        run: python scripts/qa_v148_credit_folded.py
+      - name: Commit only existing site HTML updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -u site/
+          if ! git diff --cached --quiet; then
+            git commit -m "V148: simplify visible photo captions across existing pages, preserve CC credits"
+            git push origin HEAD:v148-compact-sitewide-photo-credits-20261024
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v148-sitewide-compact-credits-audit
+          path: audit-output/v148/
+          if-no-files-found: warn
