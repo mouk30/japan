@@ -1,0 +1,29 @@
+name: V148 public photo-credit display QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/qa_v148_public_photo_credits.py"
+      - ".github/workflows/v148-public-photo-credits-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test-live-photo-credits:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe production HTML, collapsed CC details and Tokyo links
+        run: |
+          python -m py_compile scripts/qa_v148_public_photo_credits.py
+          python scripts/qa_v148_public_photo_credits.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v148-production-photo-credit-qa
+          path: audit-output/v148-public/
+          if-no-files-found: warn
