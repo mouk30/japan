@@ -1,0 +1,29 @@
+name: V149 published port routing and photo credit QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/qa_v149_public_routes.py"
+      - ".github/workflows/v149-public-route-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live-visitor-route:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test actually published hubs and linked existing guides
+        run: |
+          python -m py_compile scripts/qa_v149_public_routes.py
+          python scripts/qa_v149_public_routes.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v149-published-visitor-navigation
+          path: audit-output/v149-public/
+          if-no-files-found: warn
