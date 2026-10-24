@@ -1,0 +1,29 @@
+name: V158 public five cruise port live operating changes QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/qa_v158_live_five_port_changes.py"
+      - ".github/workflows/v158-public-five-ports.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-live-pier-and-return-notices:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Real deployed five pages, photos and sitemap QA
+        run: |
+          python -m py_compile scripts/qa_v158_live_five_port_changes.py
+          python scripts/qa_v158_live_five_port_changes.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v158-real-public-port-and-booking
+          path: audit-output/v158-public/
+          if-no-files-found: warn
