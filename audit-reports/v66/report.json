@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-23T06:13:52.728Z",
+  "createdAt": "2026-10-24T00:26:34.800Z",
   "widths": [
     320,
     390,
@@ -43,7 +43,7 @@
           "ready": true
         }
       ],
-      "linkCount": 34,
+      "linkCount": 31,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "themes-320.png"
@@ -95,13 +95,13 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/okinawa-kouri-bridge.webp",
-          "alt": "오키나와 고우리대교와 에메랄드빛 바다 여행 풍경을 표현한 이미지",
+          "src": "/images/venues/nf-v140-okinawa-kouri-bridge-view-2014-real.webp",
+          "alt": "2014년 9월 고우리 오션타워에서 촬영한 오키나와 고우리대교와 에메랄드빛 바다의 실제 전경",
           "ready": true
         },
         {
-          "src": "/images/editorial/hakata-cruise-port-day-trip.webp",
-          "alt": "후쿠오카 하카타항과 항구도시 스카이라인을 표현한 크루즈 여행 이미지",
+          "src": "/images/venues/nf-v140-fukuoka-hakata-port-2017-real.webp",
+          "alt": "2017년 6월 후쿠오카타워에서 실제 촬영한 하카타항 방향 전망",
           "ready": true
         },
         {
@@ -120,8 +120,8 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/kobe-cruise-port-day-trip.webp",
-          "alt": "고베항 포트타워와 국제항 크루즈 풍경을 표현한 여행 이미지",
+          "src": "/images/venues/nf-v140-kobe-port-tower-2025-real.webp",
+          "alt": "2025년 11월 실제 촬영한 고베 포트타워 야경",
           "ready": true
         },
         {
@@ -130,7 +130,7 @@
           "ready": true
         }
       ],
-      "linkCount": 31,
+      "linkCount": 25,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-320.png"
@@ -161,7 +161,7 @@
           "ready": true
         }
       ],
-      "linkCount": 27,
+      "linkCount": 21,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-320.png"
@@ -202,7 +202,7 @@
           "ready": true
         }
       ],
-      "linkCount": 34,
+      "linkCount": 31,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "themes-390.png"
@@ -254,13 +254,13 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/okinawa-kouri-bridge.webp",
-          "alt": "오키나와 고우리대교와 에메랄드빛 바다 여행 풍경을 표현한 이미지",
+          "src": "/images/venues/nf-v140-okinawa-kouri-bridge-view-2014-real.webp",
+          "alt": "2014년 9월 고우리 오션타워에서 촬영한 오키나와 고우리대교와 에메랄드빛 바다의 실제 전경",
           "ready": true
         },
         {
-          "src": "/images/editorial/hakata-cruise-port-day-trip.webp",
-          "alt": "후쿠오카 하카타항과 항구도시 스카이라인을 표현한 크루즈 여행 이미지",
+          "src": "/images/venues/nf-v140-fukuoka-hakata-port-2017-real.webp",
+          "alt": "2017년 6월 후쿠오카타워에서 실제 촬영한 하카타항 방향 전망",
           "ready": true
         },
         {
@@ -279,8 +279,8 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/kobe-cruise-port-day-trip.webp",
-          "alt": "고베항 포트타워와 국제항 크루즈 풍경을 표현한 여행 이미지",
+          "src": "/images/venues/nf-v140-kobe-port-tower-2025-real.webp",
+          "alt": "2025년 11월 실제 촬영한 고베 포트타워 야경",
           "ready": true
         },
         {
@@ -289,7 +289,7 @@
           "ready": true
         }
       ],
-      "linkCount": 31,
+      "linkCount": 25,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-390.png"
@@ -320,7 +320,7 @@
           "ready": true
         }
       ],
-      "linkCount": 27,
+      "linkCount": 21,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-390.png"
@@ -361,7 +361,7 @@
           "ready": true
         }
       ],
-      "linkCount": 34,
+      "linkCount": 31,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "themes-768.png"
@@ -413,13 +413,13 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/okinawa-kouri-bridge.webp",
-          "alt": "오키나와 고우리대교와 에메랄드빛 바다 여행 풍경을 표현한 이미지",
+          "src": "/images/venues/nf-v140-okinawa-kouri-bridge-view-2014-real.webp",
+          "alt": "2014년 9월 고우리 오션타워에서 촬영한 오키나와 고우리대교와 에메랄드빛 바다의 실제 전경",
           "ready": true
         },
         {
-          "src": "/images/editorial/hakata-cruise-port-day-trip.webp",
-          "alt": "후쿠오카 하카타항과 항구도시 스카이라인을 표현한 크루즈 여행 이미지",
+          "src": "/images/venues/nf-v140-fukuoka-hakata-port-2017-real.webp",
+          "alt": "2017년 6월 후쿠오카타워에서 실제 촬영한 하카타항 방향 전망",
           "ready": true
         },
         {
@@ -438,8 +438,8 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/kobe-cruise-port-day-trip.webp",
-          "alt": "고베항 포트타워와 국제항 크루즈 풍경을 표현한 여행 이미지",
+          "src": "/images/venues/nf-v140-kobe-port-tower-2025-real.webp",
+          "alt": "2025년 11월 실제 촬영한 고베 포트타워 야경",
           "ready": true
         },
         {
@@ -448,7 +448,7 @@
           "ready": true
         }
       ],
-      "linkCount": 31,
+      "linkCount": 25,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-768.png"
@@ -479,7 +479,7 @@
           "ready": true
         }
       ],
-      "linkCount": 27,
+      "linkCount": 21,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-768.png"
@@ -520,7 +520,7 @@
           "ready": true
         }
       ],
-      "linkCount": 34,
+      "linkCount": 31,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "themes-1440.png"
@@ -572,13 +572,13 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/okinawa-kouri-bridge.webp",
-          "alt": "오키나와 고우리대교와 에메랄드빛 바다 여행 풍경을 표현한 이미지",
+          "src": "/images/venues/nf-v140-okinawa-kouri-bridge-view-2014-real.webp",
+          "alt": "2014년 9월 고우리 오션타워에서 촬영한 오키나와 고우리대교와 에메랄드빛 바다의 실제 전경",
           "ready": true
         },
         {
-          "src": "/images/editorial/hakata-cruise-port-day-trip.webp",
-          "alt": "후쿠오카 하카타항과 항구도시 스카이라인을 표현한 크루즈 여행 이미지",
+          "src": "/images/venues/nf-v140-fukuoka-hakata-port-2017-real.webp",
+          "alt": "2017년 6월 후쿠오카타워에서 실제 촬영한 하카타항 방향 전망",
           "ready": true
         },
         {
@@ -597,8 +597,8 @@
           "ready": true
         },
         {
-          "src": "/images/editorial/kobe-cruise-port-day-trip.webp",
-          "alt": "고베항 포트타워와 국제항 크루즈 풍경을 표현한 여행 이미지",
+          "src": "/images/venues/nf-v140-kobe-port-tower-2025-real.webp",
+          "alt": "2025년 11월 실제 촬영한 고베 포트타워 야경",
           "ready": true
         },
         {
@@ -607,7 +607,7 @@
           "ready": true
         }
       ],
-      "linkCount": 31,
+      "linkCount": 25,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "destinations-1440.png"
@@ -638,7 +638,7 @@
           "ready": true
         }
       ],
-      "linkCount": 27,
+      "linkCount": 21,
       "buttonsOverflow": [],
       "failures": [],
       "screenshot": "port-day-trips-1440.png"
