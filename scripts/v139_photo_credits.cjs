@@ -19,6 +19,9 @@ function textOnly(s){
 }
 function compactPhotoAttribution(html){
   if (typeof html !== 'string'||!html.includes('</body>'))return {html,credits:0};
+  // V148 has already moved all CC/photo provenance to one explicit disclosure.
+  // Never turn its inner credit text into additional V139 panels or remove anchors.
+  if (html.includes('id="nf-v148-photo-credits"'))return {html,credits:0};
   if (html.includes('class="nf-photo-credits-panel"'))return {html,credits:0};
   const entries=[];
   let result=html.replace(CREDIT_BLOCK,(full,tag,attrs,body)=>{
