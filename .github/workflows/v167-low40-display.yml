@@ -1,0 +1,42 @@
+name: V167 40 candidate real rendered pixel scaling screen audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/qa_v167_low40_display.cjs"
+      - ".github/workflows/v167-low40-display.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect-forty-not-just-file-size:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Produce source-dimension and use-site list for all 40 candidates
+        run: |
+          python -m pip install --disable-pip-version-check 'Pillow>=11.0'
+          python scripts/qa_v167_image_quality.py > audit-v167.txt
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Measure original image pixels vs actual displayed image content
+        run: node scripts/qa_v167_low40_display.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v167-40-candidate-real-pixel-display-scale
+          path: |
+            audit-output/v167-low40-visual/
+            audit-output/v167/v167-low-resolution-40-priorities.json
+          if-no-files-found: warn
