@@ -1,0 +1,76 @@
+name: V153 three pilot discovery and consent funnel QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/index.html"
+      - "site/things-to-do/cruise-ports/index.html"
+      - "site/things-to-do/food-experience/index.html"
+      - "site/food/index.html"
+      - "site/nf-v93-booking-clicks.js"
+      - "build.js"
+      - "scripts/qa_v153_three_pilot_hubs.cjs"
+      - ".github/workflows/v153-pilot-hub-funnel.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-existing-article-discovery-and-privacy:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch main to compare original hub titles, SEO and existing image rights
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main
+      - name: Verify 8 pilot cards, real 4:3 images, CC and direct routes, GA4 consent simulation
+        run: |
+          node --check site/nf-v93-booking-clicks.js
+          node scripts/qa_v153_three_pilot_hubs.cjs
+          node scripts/qa_v152_pilot_measurement.cjs
+      - name: No configured GA4 ID means zero injected GA4 tags
+        env:
+          GA4_MEASUREMENT_ID: ""
+        run: |
+          node build.js
+          node -e '
+            const fs=require("fs");
+            const names=["things-to-do/index.html","things-to-do/cruise-ports/index.html",
+              "things-to-do/food-experience/index.html","food/index.html"];
+            for(const name of names){
+              const html=fs.readFileSync("dist/"+name,"utf8");
+              if(html.includes("data-nf-ga4="))throw Error("Tracking tag should not load without owner ID: "+name);
+              if(!html.includes("data-nf-pilot-entry="))throw Error("Featured links disappeared: "+name);
+            }
+            console.log("PASS all four hubs and disabled analytics with missing ID");
+          '
+      - name: With TEST ID, exactly one consent loader, existing ferry and credit QA
+        env:
+          GA4_MEASUREMENT_ID: "G-TEST123456"
+        run: |
+          node build.js
+          node -e '
+            const fs=require("fs");
+            const names=["things-to-do/index.html","things-to-do/cruise-ports/index.html",
+              "things-to-do/food-experience/index.html","food/index.html"];
+            for(const name of names){
+              const h=fs.readFileSync("dist/"+name,"utf8");
+              const tags=h.match(/<script defer src="\/nf-v93-booking-clicks\.js\?v=20261024-v153" data-nf-ga4="G-TEST123456"><\/script>/g)||[];
+              if(tags.length!==1)throw Error("Expected one V153 consent loader, found "+tags.length+" "+name);
+              if(!h.includes("data-nf-pilot-entry="))throw Error("Pilot cards not built: "+name);
+            }
+            console.log("PASS: test GA4 build and all four hub CTA cards");
+          '
+          node scripts/qa_v148_build_no_doublefold.cjs
+          python scripts/qa_v147_existing_booking_return.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v153-pilot-discovery-qa
+          path: audit-output/v153/
+          if-no-files-found: warn
