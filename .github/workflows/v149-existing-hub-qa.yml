@@ -1,0 +1,43 @@
+name: V149 existing port hub route and photo-credit QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/index.html"
+      - "site/japan/index.html"
+      - "site/things-to-do/cruise-ports/index.html"
+      - "site/style.css"
+      - "scripts/qa_v149_hub_routes_credits.py"
+      - ".github/workflows/v149-existing-hub-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-links-and-visitor-journey:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Fetch unchanged main for strict SEO and source comparison
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main
+      - name: Audit actual cards, authors, CC licenses and exact destination anchors
+        run: |
+          python -m py_compile scripts/qa_v149_hub_routes_credits.py
+          python scripts/qa_v149_hub_routes_credits.py
+      - name: Build and check deployed-equivalent photo-credit panels
+        run: |
+          node build.js
+          node scripts/qa_v148_build_no_doublefold.cjs
+          python scripts/qa_v147_existing_booking_return.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v149-hub-routes-and-credits
+          path: audit-output/v149/
+          if-no-files-found: warn
