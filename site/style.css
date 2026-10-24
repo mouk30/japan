@@ -201,3 +201,10 @@ a.brand > img, a.brand img{
  .kakao-float{right:max(8px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom));width:50px;height:50px;opacity:.96;box-shadow:0 7px 20px rgba(0,0,0,.2)}
  .kakao-float:focus-visible{outline:3px solid #104f81;outline-offset:3px}
 }
+
+/* V149 — land directly on existing, source-checked arrival/return instructions. */
+#nf-v147-port-visitor{scroll-margin-top:96px}
+#nf-refreshed-port-guides-20261019 a:focus-visible,
+#nf-v80-featured-ports a:focus-visible{outline:3px solid #087d9d;outline-offset:4px}
+#nf-refreshed-port-guides-20261019 a span{font-size:15px!important;line-height:1.65!important}
+@media(max-width:600px){#nf-v147-port-visitor{scroll-margin-top:84px}#nf-refreshed-port-guides-20261019 a span{font-size:16px!important}}
