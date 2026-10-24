@@ -1,0 +1,48 @@
+name: V155 five core ports official booking transport and return QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/naha-shuri-castle-cruise-sightseeing/index.html"
+      - "site/things-to-do/ishigaki-cruise-new-port-shuttle/index.html"
+      - "site/things-to-do/yokohama-daikoku-pier-cruise-terminal/index.html"
+      - "site/things-to-do/hakata-port-tenjin-sightseeing/index.html"
+      - "site/things-to-do/nagasaki-cruise-peace-park-tram/index.html"
+      - "site/things-to-do/cruise-ports/index.html"
+      - "scripts/qa_v155_official_gate_booking_return.py"
+      - "scripts/qa_v150_existing_port_bookings.py"
+      - ".github/workflows/v155-official-gate-return.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  existing-port-guides-and-SEO:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Fetch real main baseline for original image canonical links and sitemap
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main
+      - name: V155 five existing port official gates transit ticket and return panels
+        run: |
+          python -m py_compile scripts/qa_v155_official_gate_booking_return.py
+          python scripts/qa_v155_official_gate_booking_return.py
+      - name: Existing V147-V150 regression and attribution verification
+        run: |
+          python scripts/qa_v150_existing_port_bookings.py
+          python scripts/qa_v149_hub_routes_credits.py
+          python scripts/qa_v147_existing_booking_return.py
+          node build.js
+          node scripts/qa_v148_build_no_doublefold.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v155-official-five-port-qa
+          path: audit-output/v155/
+          if-no-files-found: warn

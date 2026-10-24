@@ -75,7 +75,8 @@ hub_checks={
  "hub_photo_credits_unchanged":hub.count('id="nf-v148-photo-credits"')==oldhub.count('id="nf-v148-photo-credits"')==1,
  "hub_five_links":all('/things-to-do/'+slug+'/#nf-v150-visitor-check' in new.anchors for slug in DATA),
  "hub_no_old_links":all('/things-to-do/'+slug+'/' not in new.anchors for slug in DATA),
- "hub_link_total_unchanged":Counter(new.anchors)>=Counter(orig.anchors) and len(new.anchors)==len(orig.anchors)+(9 if 'id="nf-v153-pilot-hub"' in hub and 'id="nf-v153-pilot-hub"' not in oldhub else 0),
+ "hub_link_total_unchanged":Counter(new.anchors)>=Counter(orig.anchors) and len(new.anchors)==len(orig.anchors)+(9 if 'id="nf-v153-pilot-hub"' in hub and 'id="nf-v153-pilot-hub"' not in oldhub else 0)+(5 if 'id="nf-v155-port-shortcuts"' in hub and 'id="nf-v155-port-shortcuts"' not in oldhub else 0),
+ "hub_V155_five_gate_shortcuts":all('/things-to-do/'+slug+'/#nf-v155-dayof-check' in new.anchors for slug in DATA) if 'id="nf-v155-port-shortcuts"' in hub else True,
 }
 for k,v in hub_checks.items():
  if not v:errors.append(("cruise_hub",k))
