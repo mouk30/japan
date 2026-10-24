@@ -53,7 +53,7 @@ jobs:
             const fs=require("fs");
             for(const slug of ["naoshima-art-ferry-return","teshima-art-ferry-return","takamatsu-cruise-udon-market-return"]){
               const h=fs.readFileSync("dist/things-to-do/"+slug+"/index.html","utf8");
-              const tags=h.match(/<script defer src="\/nf-v93-booking-clicks\.js\?v=20261024-v152" data-nf-ga4="G-TEST123456"><\/script>/g)||[];
+              const tags=h.match(/<script defer src="\/nf-v93-booking-clicks\.js\?v=20261024-v153" data-nf-ga4="G-TEST123456"><\/script>/g)||[];
               if(tags.length!==1)throw Error("Exactly one correctly closed consent script expected "+slug+" found "+tags.length);
               if(!h.includes("data-nf-pilot-action="))throw Error("Pilot intent links absent "+slug);
             }
