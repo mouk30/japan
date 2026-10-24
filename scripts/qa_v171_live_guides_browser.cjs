@@ -39,7 +39,7 @@ const nap=ms=>new Promise(r=>setTimeout(r,ms));
         stepLinkCount:actions.length,
         smallestLinkHeight:Math.min(...actions.map(a=>a.getBoundingClientRect().height),999),
         photoSrc:hero?.getAttribute('src'),photoSize:[hero?.naturalWidth||0,hero?.naturalHeight||0],
-        originalAttribution:document.body.innerText.includes('CC BY')&&!!document.querySelector('a[href*="commons.wikimedia.org"]')
+        originalAttribution:document.body.textContent.includes('CC BY')&&!!document.querySelector('a[href*="commons.wikimedia.org"]')
       };
     },target);
     const checks={
