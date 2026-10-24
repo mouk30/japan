@@ -1,0 +1,42 @@
+name: V163 six existing port official changes and last return QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/sado-ogi-cruise-port-day-trip/index.html"
+      - "site/things-to-do/naoetsu-cruise-port-day-trip/index.html"
+      - "site/things-to-do/yakushima-miyanoura-cruise-port-day-trip/index.html"
+      - "site/things-to-do/osaka-cruise-port-day-trip/index.html"
+      - "site/things-to-do/nagasaki-cruise-port-day-trip/index.html"
+      - "site/things-to-do/aokata-cruise-port-day-trip/index.html"
+      - "scripts/qa_v163_six_operator_return.py"
+      - ".github/workflows/v163-six-operator-original-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preserve-original-six-seo-photos-and-official-steps:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate six original SEO photo and direct official links
+        run: |
+          python -m py_compile scripts/qa_v163_six_operator_return.py
+          python scripts/qa_v163_six_operator_return.py
+      - name: Site build regression
+        run: node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v163-six-port-source-photo-seo-qa
+          path: audit-output/v163/
+          if-no-files-found: warn
