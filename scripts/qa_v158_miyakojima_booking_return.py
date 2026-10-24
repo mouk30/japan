@@ -36,7 +36,7 @@ checks={
  "operator_real_booking_portal":"https://act.shigira.com/top/filedleisure?lng=en-US" in p.links,
  "confirmed_operational_details":all(x in panel for x in ["렌터카 인도","2026년 9월 28일","12월 28일","선박검사","귀선","집합장소","취소 조건"]),
  "no_undocumented_ship_pickup":all(x in panel for x in ["항만 구내가 아닌","크루즈 승객 전용 귀선 교통이 아닙니다"]),
- "all_external_links_newtab_safe":all('rel="noopener noreferrer"' in a for a in re.findall(r'<a\\b[^>]*href="https?[^"]+"[^>]*>',panel)),
+ "all_external_links_newtab_safe":all('rel="noopener noreferrer"' in a for a in re.findall(r'<a\b[^>]*href="https?[^"]+"[^>]*>',panel)),
  "no_fake_reservation_assertions":not any(x in panel for x in ["예약 확정","실시간 잔여석 확보","무료 셔틀 보장"]),
  "single_h1":p.h1==1,
  "original_canonical":p.canon==["https://www.nipponferry.com/things-to-do/hirara-miyakojima-cruise-port-day-trip/"],
