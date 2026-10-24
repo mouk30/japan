@@ -1,0 +1,36 @@
+name: V158 Miyakojima official booking and ship return QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/hirara-miyakojima-cruise-port-day-trip/index.html"
+      - "scripts/qa_v158_miyakojima_booking_return.py"
+      - ".github/workflows/v158-miyakojima-official-qa.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/hirara-miyakojima-cruise-port-day-trip/index.html"
+      - "scripts/qa_v158_miyakojima_booking_return.py"
+      - ".github/workflows/v158-miyakojima-official-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  miyakojima-port-official-booking-and-return:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify original SEO and photo, official operations and safe return
+        run: |
+          python -m py_compile scripts/qa_v158_miyakojima_booking_return.py
+          python scripts/qa_v158_miyakojima_booking_return.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v158-miyakojima-official-operational-qa
+          path: audit-output/v158/miyakojima-official-gate-closed-tour-return.json
+          if-no-files-found: warn
