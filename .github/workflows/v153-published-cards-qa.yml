@@ -1,0 +1,29 @@
+name: V153 published 8 pilot-cards and analytics-readiness QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/qa_v153_public_discovery.py"
+      - ".github/workflows/v153-published-cards-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  published-four-hubs-and-three-pilots:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate 12 published URLs including all WebP, original CC and 3 consent events
+        run: |
+          python -m py_compile scripts/qa_v153_public_discovery.py
+          python scripts/qa_v153_public_discovery.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v153-real-public-12-resources
+          path: audit-output/v153-public/
+          if-no-files-found: warn
