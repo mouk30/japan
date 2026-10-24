@@ -84,8 +84,8 @@ function runConsentTest(page,consent,target,declared,trust=true){
  const dialog=body.children.find(el=>el.className==="nf93-consent");
  if(!dialog)throw Error("consent dialog missing");
  const links={
-  good:{href:origin+target,getAttribute(n){return n==="data-nf-pilot-entry"?declared:null;}},
-  malicious:{href:"https://example.org"+target,getAttribute(n){return n==="data-nf-pilot-entry"?declared:null;}}
+  good:{href:origin+target,getAttribute(n){return n==="data-nf-pilot-entry"?declared:null;},closest(){return null;},classList:{contains(){return false;}}},
+  malicious:{href:"https://example.org"+target,getAttribute(n){return n==="data-nf-pilot-entry"?declared:null;},closest(){return null;},classList:{contains(){return false;}}}
  };
  function send(link,isTrusted=true){
   events.click({isTrusted,target:{closest(){return link;}}});
