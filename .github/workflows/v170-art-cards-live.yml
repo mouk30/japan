@@ -1,0 +1,35 @@
+name: V170 public real landscape 4-3 art cards 8 screen QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/index.html"
+      - "site/things-to-do/cruise-ports/index.html"
+      - "scripts/qa_v170_art_cards_live.cjs"
+      - ".github/workflows/v170-art-cards-live.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check-real-horizontal-layout-two-pages:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install browser for real screen comparison
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Verify real landscape shape, actual subjects, and card links
+        run: |
+          node --check scripts/qa_v170_art_cards_live.cjs
+          node scripts/qa_v170_art_cards_live.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v170-real-4-by-3-art-island-cards-8-screens
+          path: audit-output/v170-public/
+          if-no-files-found: warn
