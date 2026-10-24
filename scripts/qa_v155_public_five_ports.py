@@ -54,7 +54,7 @@ for slug,sources in PORTS.items():
    "official_sources":all(x in h.links for x in sources),
    "preexisting_v150_checks":h.ids.count("nf-v150-visitor-check")==1,
    "v155_before_v150":0<pos<html.index('id="nf-v150-visitor-check"'),
-   "real_photo_alt_retained":len(h.images)>0 and all(len(alt)>15 for src,alt in h.images[:1]),
+   "real_photo_alt_retained":any(src.startswith("/images/") and len(alt)>15 for src,alt in h.images),
    "return_clock_and_stoprule":all(x in panel for x in ["중단 기준","__:__","귀선","실시간"]),
    "mobile_and_48px_links":'@media(max-width:610px)' in html and "min-height:48px" in html,
    "no_fabricated_booking_confirmation":"예약 완료 확인" not in panel}
