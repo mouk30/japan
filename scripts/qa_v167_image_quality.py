@@ -50,7 +50,7 @@ for p in KEY:
  c("h1_count_unchanged",a.h1==b.h1==1)
  c("all_original_navigation_links_kept",set(b.links).issubset(set(a.links)))
  if p.endswith("/japan/hokkaido/index.html"):
-  hi=s[s.indexOf('<section class="city-section" id="highlights">'):s.indexOf("</section>",s.indexOf('<section class="city-section" id="highlights">'))]
+  hi=s[s.index('<section class="city-section" id="highlights">'):s.index("</section>",s.index('<section class="city-section" id="highlights">'))]
   photos=[x[0] for x in parse(hi).img]
   c("three_unique_cards",len(photos)==3 and len(set(photos))==3)
   c("snow_festival_is_actual_Sapporo",photos[0]=="/images/venues/nf-v143-sapporo-snow-festival-2014-real.webp")
@@ -61,7 +61,7 @@ for p in KEY:
   c("real_photo_license_visible","Noboribetsu_Onsen_hot_spring.jpg" in s and "Lawsonstu" in s and "CC0" in s)
   c("card_aspect_4_3",".city-card img{display:block;width:100%;height:auto;aspect-ratio:4/3" in s)
  elif p.endswith("/japan/osaka/index.html"):
-  block=s[s.indexOf('<section class="os-section" id="cruise">'):s.indexOf("</section>",s.indexOf('<section class="os-section" id="cruise">'))]
+  block=s[s.index('<section class="os-section" id="cruise">'):s.index("</section>",s.index('<section class="os-section" id="cruise">'))]
   c("official_actual_PanStar_Miracle","https://www.panstar.co.kr/uploads/media/cruise-miracle-ship.jpg" in block)
   c("wrong_legacy_ship_no_longer_shown",'/images/ferry.jpg' not in block)
   c("operator_credits_and_original","https://www.panstar.co.kr/business/cruise/miracle" in block and "ⓒ PanStar" in block)
