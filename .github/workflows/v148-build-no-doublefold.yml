@@ -1,0 +1,25 @@
+name: V148 build photo-credit no double fold QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/v139_photo_credits.cjs"
+      - "scripts/qa_v148_build_no_doublefold.cjs"
+      - ".github/workflows/v148-build-no-doublefold.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-single-credit-panel:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build exact site and check photo credit DOM
+        run: |
+          node --check scripts/v139_photo_credits.cjs
+          node build.js
+          node scripts/qa_v148_build_no_doublefold.cjs
