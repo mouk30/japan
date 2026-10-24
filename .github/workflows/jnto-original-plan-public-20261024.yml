@@ -1,0 +1,29 @@
+name: JNTO original plan public 21-guide and sitemap QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/qa_jnto_public_20261024.py"
+      - ".github/workflows/jnto-original-plan-public-20261024.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-real-public-guide-links:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify published content, officials, licensed image and sitemap
+        run: |
+          python -m py_compile scripts/qa_jnto_public_20261024.py
+          python scripts/qa_jnto_public_20261024.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jnto-public-existing20-and-one-pilot
+          path: audit-output/jnto-plan-public/
+          if-no-files-found: warn
