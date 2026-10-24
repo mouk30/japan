@@ -32,6 +32,12 @@ for path in sorted(ROOT.rglob("*.html")):
   for p in META:
     if re.findall(p,src,re.I|re.S)!=re.findall(p,original,re.I|re.S):
       failures.append((str(path),"image/SEO metadata changed "+p))
+  original_ids=Counter(re.findall(r'\\bid=["\\\']([^"\\\']+)["\\\']',original,re.I))
+  current_ids=Counter(re.findall(r'\\bid=["\\\']([^"\\\']+)["\\\']',src,re.I))
+  for k in (ID,"nf-v148-credit-style"):current_ids.pop(k,None)
+  if current_ids!=original_ids:
+    failures.append((str(path),"original document anchor IDs removed/duplicated"))
+
   if Counter(LINK.findall(src))!=Counter(LINK.findall(original)):
     failures.append((str(path),"original links missing or duplicated"))
   # Protect narrative, booking and return instructions, not source-only sentences.
