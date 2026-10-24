@@ -1,0 +1,61 @@
+name: V174 4 existing ticket paths and port return public 16-screen QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/yokohama-cruise-port-day-trip/index.html"
+      - "site/things-to-do/kanazawa-cruise-port-day-trip/index.html"
+      - "site/things-to-do/akita-cruise-port-day-trip/index.html"
+      - "site/things-to-do/kushiro-cruise-port-day-trip/index.html"
+      - "scripts/qa_v174_four_booking_pier_return.py"
+      - "scripts/qa_v174_live_sixteen.cjs"
+      - ".github/workflows/v174-four-official-booking-return.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-immutable-seo-and-originals:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compare original 4 files / photo and SEO metadata / build
+        run: |
+          python -m py_compile scripts/qa_v174_four_booking_pier_return.py
+          python scripts/qa_v174_four_booking_pier_return.py
+          node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v174-original-source-4
+          path: audit-output/v174/
+  verify-public-sixteen:
+    needs: verify-immutable-seo-and-originals
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Test production at 390 768 945 1440 px
+        run: |
+          node --check scripts/qa_v174_live_sixteen.cjs
+          node scripts/qa_v174_live_sixteen.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v174-public-four-port-sixteen-screens
+          path: audit-output/v174-live/
