@@ -1,0 +1,29 @@
+name: V152 public three-pilot GA4 measurement readiness
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/qa_v152_live_pilot_readiness.py"
+      - ".github/workflows/v152-public-measurement-readiness.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actual-live-pages-no-invented-metrics:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify 3 published pilot pages and whether live Vercel GA4 tag exists
+        run: |
+          python -m py_compile scripts/qa_v152_live_pilot_readiness.py
+          python scripts/qa_v152_live_pilot_readiness.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v152-actual-live-three-pilot-readiness
+          path: audit-output/v152-public/
+          if-no-files-found: warn
