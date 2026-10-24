@@ -1,0 +1,42 @@
+name: JNTO original V145-V148 core20 and pilot QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/**"
+      - "site/sitemap.xml"
+      - "scripts/qa_jnto_original_plan_20261024.py"
+      - ".github/workflows/jnto-original-plan-20261024.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preserve-photos-official-links-seo:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Compare with main for title/CC/image/URL preservation
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main
+      - name: Validate 20 improved guides and unique third pilot
+        run: |
+          python -m py_compile scripts/qa_jnto_original_plan_20261024.py
+          python scripts/qa_jnto_original_plan_20261024.py
+      - name: Build actual production equivalent and verify old photo/port checks
+        run: |
+          node build.js
+          node scripts/qa_v148_build_no_doublefold.cjs
+          python scripts/qa_v147_existing_booking_return.py
+          python scripts/qa_v150_existing_port_bookings.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jnto-20261024-plan-and-site-quality
+          path: audit-output/jnto-plan-20261024/
+          if-no-files-found: warn
