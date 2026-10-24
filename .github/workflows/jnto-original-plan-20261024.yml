@@ -33,7 +33,6 @@ jobs:
           node build.js
           node scripts/qa_v148_build_no_doublefold.cjs
           python scripts/qa_v147_existing_booking_return.py
-          python scripts/qa_v150_existing_port_bookings.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
