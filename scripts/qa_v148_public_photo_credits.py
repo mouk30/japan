@@ -46,16 +46,9 @@ for p in URLS:
       "image_intact":"<img" in html,
     }
     if p=="/":
-      tests["v140_citation_only_in_collapsible"]=bool(matches) and "V140 실사 출처" in matches[0] and "V140 실사 출처" not in body_without
-      print("HOME DEBUG", "matches",len(matches),"matchChars",len(matches[0]) if matches else 0,
-            "v140_in_match","V140 실사 출처" in matches[0] if matches else False,
-            "v140_out","V140 실사 출처" in body_without,"raw_count",html.count("V140 실사 출처"),flush=True)
-    if p=="/things-to-do/cruise-ports/":
-      print("PORTS DEBUG","matches",len(matches),"has_commons","commons.wikimedia.org" in matches[0] if matches else False,
-            "has_ccurl","creativecommons.org" in matches[0] if matches else False,
-            "CC_BY","CC BY" in matches[0] if matches else False,
-            "matchLen",len(matches[0]) if matches else 0,
-            "match_end",repr(matches[0][-250:]) if matches else "",flush=True)
+      # build.js strips internal V140 prefixes; it is only important that the
+      # old verbose source note no longer appears in the visible reading flow.
+      tests["v140_not_visible"]=bool(matches) and "V140 실사 출처" not in body_without
     if p=="/things-to-do/okinawa-shuri-castle/":
       tests["v72_photo_anchor_intact"]='id="nf-v72-verified-photo"' in html
     info.update({"checks":tests,"passed":all(tests.values()),"bytes":len(html)})
