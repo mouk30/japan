@@ -1,0 +1,44 @@
+name: V154 pilot booking transport and safe ship return QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/naoshima-art-ferry-return/index.html"
+      - "site/things-to-do/teshima-art-ferry-return/index.html"
+      - "site/things-to-do/takamatsu-cruise-udon-market-return/index.html"
+      - "scripts/qa_v154_pilot3_official_steps.py"
+      - ".github/workflows/v154-pilot-booking-return-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-official-booking-transport-return-original-photos:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Preserve original licenses links and SEO versus main
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main
+      - name: Check three original pages with V154 official ticket route and return details
+        run: |
+          python -m py_compile scripts/qa_v154_pilot3_official_steps.py
+          python scripts/qa_v154_pilot3_official_steps.py
+          node scripts/qa_v152_pilot_measurement.cjs
+      - name: Build and protect existing photo rights and five return guides
+        run: |
+          node build.js
+          node scripts/qa_v148_build_no_doublefold.cjs
+          python scripts/qa_v147_existing_booking_return.py
+          python scripts/qa_v150_existing_port_bookings.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v154-official-booking-local-transport-return
+          path: audit-output/v154/
+          if-no-files-found: warn
