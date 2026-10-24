@@ -41,7 +41,7 @@ for slug,(claims,links) in S.items():
  "original_photo_license_links":all(x in a.links for x in b.links if "commons.wikimedia.org" in x or "creativecommons.org" in x),
  "original_all_links_preserved":Counter(a.links)>=Counter(b.links),
  "original_meta_canonical_title_H1":a.title==b.title and a.meta==b.meta and a.canon==b.canon and a.h1==b.h1==1,
- "all_original_DOM_ids_unchanged":set(a.ids)-{"nf-v172-official-"+slug}==set(b.ids) and len(a.ids)==len(set(a.ids)),
+ "all_original_DOM_ids_unchanged":set(a.ids)-{"nf-v172-official-"+slug,"nf-v172-verified-boarding-return-style"}==set(b.ids) and len(a.ids)==len(set(a.ids)),
  "responsive_tall_CTA":"nf-v172-verified-boarding-return-style" in now and "min-height:52px" in now and "@media(max-width:630px)" in now
  }
  passed=all(test.values());rows.append({"slug":slug,"pass":passed,"checks":test});print("PASS" if passed else "FAIL",slug,test,flush=True)
