@@ -46,7 +46,7 @@ for slug,(pilot,minimum) in PILOTS.items():
    "cta_instrumentation":len(parser.actions)>=minimum,
    "correct_script_when_configured":not parser.gtag_scripts or (
       len(parser.gtag_scripts)==1 and re.fullmatch(r"G-[A-Z0-9]{7,15}",parser.gtag_scripts[0]) is not None and
-      any("nf-v93-booking-clicks.js?v=20261024-v152" in js for js in parser.js)),
+      any("nf-v93-booking-clicks.js?v=20261024-v153" in js for js in parser.js)),
    "no_GA4_network_before_consent":not any("googletagmanager.com/gtag/js" in js for js in parser.js),
    "photo_source_retained":'id="nf-v148-photo-credits"' in html}
   record.update({"checks":checks,"pass":all(checks.values()),"readiness":readiness,
@@ -57,7 +57,7 @@ for slug,(pilot,minimum) in PILOTS.items():
     "failed",[k for k,v in record.get("checks",{}).items() if not v],flush=True)
  rows.append(record)
 try:
- status,ctype,script=fetch("/nf-v93-booking-clicks.js?v=20261024-v152")
+ status,ctype,script=fetch("/nf-v93-booking-clicks.js?v=20261024-v153")
  asset={"pass":status==200 and "nf_pilot_guide_view" in script and "nf_pilot_action_click" in script,
        "status":status,"consent_only":"consentKey" in script and "if (!event.isTrusted || !enabled)" in script}
  asset["pass"]=asset["pass"] and asset["consent_only"]

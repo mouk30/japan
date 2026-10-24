@@ -42,6 +42,32 @@
     };
     return allowed[path] || null;
   }
+  // V153: distinguish the entry from the hub from actions on the pilot itself.
+  // Only explicit on-site editorial cards and their known destinations are counted.
+  function pilotEntryClick(link) {
+    if (!link || !link.getAttribute) return null;
+    var declared = link.getAttribute('data-nf-pilot-entry');
+    if (!declared) return null;
+    var targets = {
+      'naoshima': '/things-to-do/naoshima-art-ferry-return/',
+      'teshima': '/things-to-do/teshima-art-ferry-return/',
+      'shikoku_food': '/things-to-do/takamatsu-cruise-udon-market-return/'
+    };
+    var page = (location.pathname || '/').replace(/\\/g, '/').replace(/\/+$/, '') + '/';
+    var hubs = {
+      '/things-to-do/': 'things_to_do',
+      '/things-to-do/cruise-ports/': 'cruise_ports',
+      '/things-to-do/food-experience/': 'food_experience',
+      '/food/': 'food'
+    };
+    if (!targets[declared] || !hubs[page]) return null;
+    var dest;
+    try { dest = new URL(link.href, location.href); } catch (_) { return null; }
+    if (dest.hostname.toLowerCase() !== location.hostname.toLowerCase() ||
+        dest.pathname !== targets[declared] || dest.search || dest.hash) return null;
+    return {name:'nf_pilot_entry_click',pilot_id:declared,pilot_action:'guide_open',
+      page_area:hubs[page],destination_step:'pilot_guide'};
+  }
   function pilotClick(link) {
     var id = pilotId();
     if (!id || !link || !link.getAttribute) return null;
@@ -165,7 +191,7 @@
     if (!event.isTrusted || !enabled) return;
     var link = event.target && event.target.closest ? event.target.closest('a[href]') : null;
     if (!link) return;
-    track(pilotClick(link) || categorize(link));
+    track(pilotEntryClick(link) || pilotClick(link) || categorize(link));
   }, true);
 
   function render() {
@@ -183,7 +209,7 @@
     dialog.setAttribute('role', 'dialog');
     dialog.setAttribute('aria-label', '방문 통계 수집 선택');
     dialog.innerHTML = '<strong>예약 안내 이용 통계</strong>' +
-      '<p>페리 예약 안내·미술관 시간 지정 확인·공식 배편·귀선 정보 링크의 클릭을 집계해 여행 안내를 개선합니다. 클릭은 실제 예약 완료를 의미하지 않습니다. 동의하면 Google Analytics가 방문·클릭 정보를 처리합니다. 여권·이름·예약일·결제정보는 이벤트에 보내지 않습니다. 동의하지 않아도 예약 링크를 이용할 수 있습니다.</p>' +
+      '<p>페리 예약 안내·일본 미술섬·시코쿠 여행 가이드 진입, 공식 입장 예약·배편·귀선 링크의 클릭을 집계해 여행 안내를 개선합니다. 클릭은 실제 예약 완료를 의미하지 않습니다. 동의하면 Google Analytics가 방문·클릭 정보를 처리합니다. 여권·이름·예약일·결제정보는 이벤트에 보내지 않습니다. 동의하지 않아도 예약 링크를 이용할 수 있습니다.</p>' +
       '<div class="nf93-consent-actions"><button type="button" class="nf93-accept">통계 수집 허용</button><button type="button" class="nf93-reject">허용 안 함</button></div>';
     document.body.appendChild(dialog);
     function decide(value) {

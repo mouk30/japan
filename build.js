@@ -68,7 +68,7 @@ for(const file of pages) {
   // Analytics is optional: production without an ID is visibly 'not connected' in QA.
   if (ga4Id) {
     const css = '<link rel="stylesheet" href="/nf-v93-booking-clicks.css?v=20261021">';
-    const src = '<script defer src="/nf-v93-booking-clicks.js?v=20261024-v152" data-nf-ga4="' + ga4Id + '"><\/script>';
+    const src = '<script defer src="/nf-v93-booking-clicks.js?v=20261024-v153" data-nf-ga4="' + ga4Id + '"><\/script>';
     if (!/<\/head>/i.test(h) || !/<\/body>/i.test(h)) {
       throw new Error('V93 cannot install GA4 consent safely: malformed HTML ' + file);
     }

@@ -35,7 +35,7 @@ for(const [slug,id] of Object.entries(slugs)){
 const build=fs.readFileSync("build.js","utf8");
 assert.ok(build.includes("process.env.GA4_MEASUREMENT_ID"),"env GA4 source");
 assert.ok(build.includes("if (ga4Id)"),"ID gated");
-assert.ok(build.includes("/nf-v93-booking-clicks.js?v=20261024-v152"),"cachebuster");
+assert.ok(build.includes("/nf-v93-booking-clicks.js?v=20261024-v153"),"cachebuster");
 const analytics=fs.readFileSync("site/nf-v93-booking-clicks.js","utf8");
 assert.ok(!/function\s+eval\s*\(/.test(analytics));
 assert.ok(analytics.includes("nf_pilot_guide_view")&&analytics.includes("nf_pilot_action_click"));
