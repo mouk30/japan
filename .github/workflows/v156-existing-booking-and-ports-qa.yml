@@ -1,0 +1,45 @@
+name: V156 genuine official ferry and port return QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/shimonoseki-cruise-port-day-trip/index.html"
+      - "site/things-to-do/sado-ogi-cruise-port-day-trip/index.html"
+      - "site/guide/busan-shimonoseki-ferry/index.html"
+      - "site/booking/japan-cruise/index.html"
+      - "scripts/qa_v156_existing_official_booking_return.py"
+      - ".github/workflows/v156-existing-booking-and-ports-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  real-official-booking-transport-return-original-content:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Fetch original deployed source baseline for all images links and canonicals
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main
+      - name: V156 four original pages exact official sources and travel return QA
+        run: |
+          python -m py_compile scripts/qa_v156_existing_official_booking_return.py
+          python scripts/qa_v156_existing_official_booking_return.py
+      - name: Build and keep earlier route, privacy, image/SEO regressions
+        run: |
+          node build.js
+          python scripts/qa_v147_existing_booking_return.py
+          python scripts/qa_v150_existing_port_bookings.py
+          node scripts/qa_v152_pilot_measurement.cjs
+          node scripts/qa_v148_build_no_doublefold.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v156-real-official-booking-ferry-cruise-gate-and-taxi
+          path: audit-output/v156/
+          if-no-files-found: warn
