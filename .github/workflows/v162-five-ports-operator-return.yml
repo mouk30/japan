@@ -1,0 +1,47 @@
+name: V162 five existing Okinawa Amami source booking return QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/hirara-miyakojima-cruise-port-day-trip/index.html"
+      - "site/things-to-do/motobu-cruise-port-day-trip/index.html"
+      - "site/things-to-do/ishigaki-cruise-port-day-trip/index.html"
+      - "site/things-to-do/naha-cruise-port-day-trip/index.html"
+      - "site/things-to-do/amami-naze-cruise-port-day-trip/index.html"
+      - "scripts/qa_v162_official_five_booking_return.py"
+      - ".github/workflows/v162-five-ports-operator-return.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/*-cruise-port-day-trip/index.html"
+      - "scripts/qa_v162_official_five_booking_return.py"
+      - ".github/workflows/v162-five-ports-operator-return.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  unchanged-photos-seo-official-changes-return:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Compare all original content against V161 baseline
+        run: |
+          python -m py_compile scripts/qa_v162_official_five_booking_return.py
+          python scripts/qa_v162_official_five_booking_return.py
+      - name: Site build and baseline regression
+        run: node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v162-original-photos-and-official-port-return-qa
+          path: audit-output/v162/
+          if-no-files-found: warn
