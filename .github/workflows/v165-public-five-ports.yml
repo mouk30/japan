@@ -1,0 +1,34 @@
+name: V165 public five real port pages photos sitemap HTTP QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/goto-fukue-cruise-port-day-trip/index.html"
+      - "site/things-to-do/aokata-cruise-port-day-trip/index.html"
+      - "site/things-to-do/sasebo-cruise-port-day-trip/index.html"
+      - "site/things-to-do/hakata-cruise-port-day-trip/index.html"
+      - "site/things-to-do/yakushima-miyanoura-cruise-port-day-trip/index.html"
+      - "scripts/qa_v165_public_five_ports.py"
+      - ".github/workflows/v165-public-five-ports.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live-cruise-content-original-photo-sitemap:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Real HTTP 5 pages 5 photographs and sitemap
+        run: |
+          python -m py_compile scripts/qa_v165_public_five_ports.py
+          python scripts/qa_v165_public_five_ports.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v165-real-site-five-pages-original-photos-sitemap
+          path: audit-output/v165-public/
+          if-no-files-found: warn
