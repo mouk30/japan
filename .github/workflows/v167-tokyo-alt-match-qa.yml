@@ -1,0 +1,47 @@
+name: V167 11 Tokyo real photo alt-to-subject correction and SEO QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/qa_v167_tokyo_alt_match.py"
+      - ".github/workflows/v167-tokyo-alt-match-qa.yml"
+      - "site/japan/tokyo/tokyo-autumn-gardens/index.html"
+      - "site/japan/tokyo/tokyo-firsttime-east-west/index.html"
+      - "site/japan/tokyo/tokyo-electronics-bic-yodobashi/index.html"
+      - "site/japan/tokyo/tokyo-tsukemen-howto/index.html"
+      - "site/japan/tokyo/disneyland-beauty-beast-ride/index.html"
+      - "site/japan/tokyo/shibuya-parco-floor-guide/index.html"
+      - "site/japan/tokyo/daikanyama-bookshops/index.html"
+      - "site/japan/tokyo/shinjuku-kabukicho-donki/index.html"
+      - "site/japan/tokyo/donki-roppongi-night-check/index.html"
+      - "site/japan/tokyo/tokyo-summer-heat-indoor/index.html"
+      - "site/japan/tokyo/asakusa-operators/index.html"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  no-changed-original-photo-or-seo-just-matched-alt:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Compare all 11 page bytes to immutable pre-correction original
+        run: |
+          python -m py_compile scripts/qa_v167_tokyo_alt_match.py
+          python scripts/qa_v167_tokyo_alt_match.py
+      - name: Ensure original site still builds
+        run: node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v167-tokyo-eleven-subject-matched-verified-photo-SEO-QA
+          path: audit-output/v167-alt/
+          if-no-files-found: warn
