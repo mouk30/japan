@@ -20,7 +20,7 @@ CASES={
 "https://www.sado-bus.com/sightseeing/",
 "https://www.sado-bus.com/news/5492/",
 "https://www.sado-bus.com/route/ogi/"],
-"facts":["운행중단","11월 30일","15:30","예약","오가항" if False else "오기항","귀선"]},
+"facts":["운행중단","11월 30일","15:30","예약","오기항","귀선"]},
 "guide/busan-shimonoseki-ferry/index.html":{
 "id":"nf-v156-kampu-guide","source":[
 "https://www.kampuferry.co.jp/news/20261023systemmaintenance.html",
@@ -59,7 +59,7 @@ for path,conf in CASES.items():
  "three_operational_steps":chunk.count('class="nf-v156-step"')==3,
  "proven_operator_sources":all(url in p.links for url in conf["source"]),
  "specific_gate_or_booking_facts":all(f in chunk for f in conf["facts"]),
- "callout_above_other_details":loc>0 and loc<s.index("nf-v148-photo-credits") if "nf-v148-photo-credits" in s else loc>0,
+ "callout_above_other_details":loc>0 and (loc<s.index('id="nf-v148-photo-credits"') if 'id="nf-v148-photo-credits"' in s else True),
  "original_images_alt_and_dimensions_retained":p.images==o.images,
  "original_real_photos_exist":all((ROOT/src.lstrip("/").split("?")[0]).is_file() for src,alt,w,h in p.images if src and src.startswith("/") and not src.startswith("//")),
  "original_links_retained":Counter(p.links)>=Counter(o.links),
