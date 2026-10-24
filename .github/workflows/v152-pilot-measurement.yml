@@ -1,0 +1,69 @@
+name: V152 three-pilot consent GA4 tracking and SEO QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "build.js"
+      - "site/nf-v93-booking-clicks.js"
+      - "site/things-to-do/naoshima-art-ferry-return/index.html"
+      - "site/things-to-do/teshima-art-ferry-return/index.html"
+      - "site/things-to-do/takamatsu-cruise-udon-market-return/index.html"
+      - "scripts/qa_v152_pilot_measurement.cjs"
+      - ".github/workflows/v152-pilot-measurement.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-real-3-pilot-links-consent-and-ga4-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch main baseline to preserve source links images and SEO
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main
+      - name: Syntax check and simulate analytics consent and revocation
+        run: |
+          node --check site/nf-v93-booking-clicks.js
+          node scripts/qa_v152_pilot_measurement.cjs
+      - name: Without GA4 measurement ID cannot insert or start analytics
+        env:
+          GA4_MEASUREMENT_ID: ""
+        run: |
+          node build.js
+          node -e '
+            const fs=require("fs");
+            for(const slug of ["naoshima-art-ferry-return","teshima-art-ferry-return","takamatsu-cruise-udon-market-return"]){
+              const html=fs.readFileSync("dist/things-to-do/"+slug+"/index.html","utf8");
+              if(html.includes("data-nf-ga4=")||html.includes("<script defer src=\"/nf-v93-booking-clicks.js"))throw Error("Unexpected GA4 injection "+slug);
+            }
+            console.log("PASS: three pilot pages do not initialize analytics without real web measurement ID");
+          '
+      - name: Simulated valid GA4 ID must add exactly one consent loader per pilot
+        env:
+          GA4_MEASUREMENT_ID: "G-TEST123456"
+        run: |
+          node build.js
+          node -e '
+            const fs=require("fs");
+            for(const slug of ["naoshima-art-ferry-return","teshima-art-ferry-return","takamatsu-cruise-udon-market-return"]){
+              const h=fs.readFileSync("dist/things-to-do/"+slug+"/index.html","utf8");
+              const tags=h.match(/<script defer src="\/nf-v93-booking-clicks\.js\?v=20261024-v152" data-nf-ga4="G-TEST123456"><\/script>/g)||[];
+              if(tags.length!==1)throw Error("Exactly one correctly closed consent script expected "+slug+" found "+tags.length);
+              if(!h.includes("data-nf-pilot-action="))throw Error("Pilot intent links absent "+slug);
+            }
+            console.log("PASS: simulated GA4 compile, one loader tag per pilot");
+          '
+          node scripts/qa_v148_build_no_doublefold.cjs
+          python scripts/qa_v147_existing_booking_return.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v152-pilot-tracking-privacy-and-seo
+          path: audit-output/v152/
+          if-no-files-found: warn

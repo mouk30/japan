@@ -31,6 +31,27 @@
     if (p.indexOf('/guide/busan-') === 0) return 'route_guide';
     return 'editorial';
   }
+  // V152: exactly three editorial pilots. No URL/query/date/person values in GA4 params.
+  // These are intent and official-link clicks, never confirmed bookings or sales.
+  function pilotId() {
+    var path = (location.pathname || '/').replace(/\\/g, '/').replace(/\/+$/, '') + '/';
+    var allowed = {
+      '/things-to-do/naoshima-art-ferry-return/': 'naoshima',
+      '/things-to-do/teshima-art-ferry-return/': 'teshima',
+      '/things-to-do/takamatsu-cruise-udon-market-return/': 'shikoku_food'
+    };
+    return allowed[path] || null;
+  }
+  function pilotClick(link) {
+    var id = pilotId();
+    if (!id || !link || !link.getAttribute) return null;
+    var action = link.getAttribute('data-nf-pilot-action');
+    var actions = ['museum_ticket','museum_info','ferry_schedule',
+      'island_transport','return_plan','port_return','booking_guide','official_food'];
+    if (actions.indexOf(action) < 0) return null;
+    return {name:'nf_pilot_action_click', pilot_id:id, pilot_action:action,
+      page_area:'pilot', destination_step:'information_handoff'};
+  }
   function getPlacement(link) {
     if (link.closest('#nf91-direct-operators')) return 'hub_card';
     if (link.closest('.nf86-intro')) return 'guide_hero';
@@ -90,7 +111,9 @@
   }
   function track(spec) {
     if (!enabled || !started || typeof window.gtag !== 'function' || !spec) return;
-    var allowed = ['route','placement','page_area','operator','destination_step'];
+    var allowed = spec.name.indexOf('nf_pilot_') === 0
+      ? ['pilot_id','pilot_action','page_area','destination_step']
+      : ['route','placement','page_area','operator','destination_step'];
     var p = {};
     allowed.forEach(function (k) { p[k] = spec[k] || 'unknown'; });
     p.transport_type = 'beacon';
@@ -122,6 +145,11 @@
     document.head.appendChild(script);
     // Comparable denominators for aggregate 'button clicks per page view'.
     // These are NOT unique visitors, confirmed reservations or purchase conversions.
+    var pilot = pilotId();
+    if (pilot) {
+      track({name:'nf_pilot_guide_view',pilot_id:pilot,pilot_action:'page_view',
+        page_area:'pilot',destination_step:'guide_view'});
+    }
     var area = pageArea();
     if (area === 'ferry_hub' || area === 'booking_hub') {
       track({name:'ferry_hub_view',route:'all',placement:'page',page_area:area,
@@ -137,7 +165,7 @@
     if (!event.isTrusted || !enabled) return;
     var link = event.target && event.target.closest ? event.target.closest('a[href]') : null;
     if (!link) return;
-    track(categorize(link));
+    track(pilotClick(link) || categorize(link));
   }, true);
 
   function render() {
@@ -155,7 +183,7 @@
     dialog.setAttribute('role', 'dialog');
     dialog.setAttribute('aria-label', '방문 통계 수집 선택');
     dialog.innerHTML = '<strong>예약 안내 이용 통계</strong>' +
-      '<p>어떤 항로의 공식 예약 버튼이 눌리는지 집계해 안내를 개선합니다. 동의하면 Google Analytics가 방문·클릭 정보를 처리합니다. 여권·이름·예약일·결제정보는 이벤트에 보내지 않습니다. 동의하지 않아도 예약 링크를 이용할 수 있습니다.</p>' +
+      '<p>페리 예약 안내·미술관 시간 지정 확인·공식 배편·귀선 정보 링크의 클릭을 집계해 여행 안내를 개선합니다. 클릭은 실제 예약 완료를 의미하지 않습니다. 동의하면 Google Analytics가 방문·클릭 정보를 처리합니다. 여권·이름·예약일·결제정보는 이벤트에 보내지 않습니다. 동의하지 않아도 예약 링크를 이용할 수 있습니다.</p>' +
       '<div class="nf93-consent-actions"><button type="button" class="nf93-accept">통계 수집 허용</button><button type="button" class="nf93-reject">허용 안 함</button></div>';
     document.body.appendChild(dialog);
     function decide(value) {

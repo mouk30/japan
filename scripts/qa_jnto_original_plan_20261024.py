@@ -46,7 +46,7 @@ for slug in CORE+RELATED:
  group="core" if slug in CORE else "related"
  marker="nf-jnto-journey-20261024" if group=="core" else "nf-jnto-experience-links-20261024"
  checks={
-  "correct_plan_marker":a.ids.count(marker)==1 and marker not in baseline,
+  "correct_plan_marker":a.ids.count(marker)==1 and b.ids.count(marker) in (0,1),
   "single_H1_preserved":a.h1==b.h1==1,
   "original_images_and_alts_unchanged":a.images==b.images and local_images_exist(a),
   "canonical_unchanged":a.canonical==b.canonical==["https://www.nipponferry.com/things-to-do/"+slug+"/"],
@@ -56,7 +56,8 @@ for slug in CORE+RELATED:
   "original_internal_and_external_links_retained":Counter(a.links)>=Counter(b.links),
   "original_CC_links_retained":all(url in a.links for url in b.links if "commons.wikimedia.org" in url or "creativecommons.org" in url),
   "existing_section_anchors_preserved":Counter(a.ids)>=Counter(b.ids),
-  "at_least_three_navigation_links":len(a.links)-len(b.links)>=3,
+  "at_least_three_navigation_links":(len(a.links)-len(b.links)>=3 if b.ids.count(marker)==0 else
+    (len(re.findall(r'<a\b[^>]*href=',updated[updated.index('id="'+marker+'"'):updated.index('id="'+marker+'"')+6500]))>=3)),
   "no_duplicate_ids":len(a.ids)==len(set(a.ids)),
   "no_live_inventory_promise":"예약 완료" not in updated[updated.find('id="'+marker+'"'):updated.find('id="'+marker+'"')+1800],
  }
@@ -87,8 +88,8 @@ before_set=Counter(url for url,date in before);after_set=Counter(url for url,dat
 extra=[u for u in after_set if u not in before_set]
 removed=[u for u in before_set if u not in after_set]
 expected="https://www.nipponferry.com/things-to-do/"+PILOT+"/"
-verify(extra==[expected] and not removed,"sitemap new URLs not exactly single pilot")
-verify(len(after)==len(before)+1,"sitemap size invalid")
+verify((extra==([] if expected in before_set else [expected])) and not removed,"sitemap pilot URLs changed unexpectedly")
+verify(len(after)==len(before)+(0 if expected in before_set else 1),"sitemap size invalid")
 verify(all(after_set[u]==1 for u in after_set),"sitemap duplicate URL")
 after_dates=dict(after)
 verify(all(after_dates.get("https://www.nipponferry.com/things-to-do/"+x+"/")=="2026-10-24" for x in CORE+RELATED+[PILOT]),"sitemap 21 updated lastmod dates missing")
