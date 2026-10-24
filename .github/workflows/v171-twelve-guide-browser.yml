@@ -1,0 +1,33 @@
+name: V171 public 3 guide notices 12 responsive screenshots QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/qa_v171_live_guides_browser.cjs"
+      - ".github/workflows/v171-twelve-guide-browser.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  real-live-3-guides-at-4-widths:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install real Chromium responsive browser
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Confirm visible official notices and preserve photographs at 390 768 945 1440
+        run: |
+          node --check scripts/qa_v171_live_guides_browser.cjs
+          node scripts/qa_v171_live_guides_browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v171-public-3-guides-12-screens
+          path: audit-output/v171-browser/
+          if-no-files-found: warn
