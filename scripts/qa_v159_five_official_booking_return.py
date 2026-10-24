@@ -67,7 +67,7 @@ for slug, info in CASES.items():
   "placed_above_original_guide":begin>=0 and old_section in txt and begin < txt.index(old_section),
   "official_sources_direct":all(url in p.links and url in fragment for url in info["links"]),
   "source_backed_facts":all(f in fragment for f in info["facts"]),
-  "new_links_open_securely":all('rel="noopener noreferrer"' in a and 'target="_blank"' in a for a in re.findall(r'<a\\b[^>]+href="https?[^"]+"[^>]*>',fragment)),
+  "new_links_open_securely":all('rel="noopener noreferrer"' in a and 'target="_blank"' in a for a in re.findall(r'<a\b[^>]+href="https?[^"]+"[^>]*>',fragment)),
   "photos_src_alt_size_unchanged":p.img==q.img,
   "all_local_images_present":all((ROOT/src.lstrip("/").split("?")[0]).is_file() for src,alt,w,h in p.img if src and src.startswith("/") and not src.startswith("//")),
   "preserve_licence_origins":all(link in p.links for link in q.links if "commons.wikimedia.org" in link or "creativecommons.org" in link),
