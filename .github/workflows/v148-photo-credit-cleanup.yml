@@ -29,7 +29,7 @@ jobs:
         run: |
           python -m py_compile scripts/v148_compact_photo_credits.py scripts/qa_v148_credit_folded.py
           if grep -q 'id="nf-v148-photo-credits"' site/index.html; then
-            python scripts/v148_compact_photo_credits.py --rewrite-from-main
+            echo "Previously transformed credits detected: verify only; never overwrite reviewed HTML."
           else
             python scripts/v148_compact_photo_credits.py
           fi
