@@ -1,0 +1,29 @@
+name: V156 production official booking and safe return QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/qa_v156_public_four_journeys.py"
+      - ".github/workflows/v156-public-four-journeys.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  published-ferry-and-cruise-ports:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify live 4 original guides, 3 licensed WebP images and sitemap
+        run: |
+          python -m py_compile scripts/qa_v156_public_four_journeys.py
+          python scripts/qa_v156_public_four_journeys.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v156-public-verified-official-reservation-and-return
+          path: audit-output/v156-live/
+          if-no-files-found: warn
