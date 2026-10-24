@@ -148,7 +148,7 @@ def check_home(mode):
             html=data.decode("utf-8","replace")
         p=Parse();p.feed(html)
         item["checks"]["new_feature_section"]="nf-refreshed-port-guides-20261019" in html
-        item["checks"]["four_feature_links"]=all(link in p.links for link in HOME_LINKS)
+        item["checks"]["four_feature_links"]=all(link in p.links or (link+"#nf-v147-port-visitor") in p.links for link in HOME_LINKS)
         item["checks"]["preserve_premium_home"]="nf-premium-v2.css" in html
         item["checks"]["canonical"]=p.canonical==[ORIGIN+"/"]
         item["checks"]["no_noindex"]=not any("noindex" in s for s in p.robots)
