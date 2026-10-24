@@ -1,0 +1,47 @@
+name: V160 five existing cruise port weather and booking QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/ishigaki-cruise-port-day-trip/index.html"
+      - "site/things-to-do/motobu-cruise-port-day-trip/index.html"
+      - "site/things-to-do/naha-cruise-port-day-trip/index.html"
+      - "site/things-to-do/sasebo-cruise-port-day-trip/index.html"
+      - "site/things-to-do/hakata-cruise-port-day-trip/index.html"
+      - "scripts/qa_v160_five_weather_booking_return.py"
+      - ".github/workflows/v160-verified-weather-booking-return.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/*-cruise-port-day-trip/index.html"
+      - "scripts/qa_v160_five_weather_booking_return.py"
+      - ".github/workflows/v160-verified-weather-booking-return.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-official-cancellations-original-photos-and-ship-return:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check dated official changes, booking links and existing SEO/photos
+        run: |
+          python -m py_compile scripts/qa_v160_five_weather_booking_return.py
+          python scripts/qa_v160_five_weather_booking_return.py
+      - name: Site build regression
+        run: node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v160-five-existing-cruise-guides-audit
+          path: audit-output/v160/
+          if-no-files-found: warn
