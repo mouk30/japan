@@ -57,7 +57,7 @@ for slug in CORE+RELATED:
   "original_CC_links_retained":all(url in a.links for url in b.links if "commons.wikimedia.org" in url or "creativecommons.org" in url),
   "existing_section_anchors_preserved":Counter(a.ids)>=Counter(b.ids),
   "at_least_three_navigation_links":(len(a.links)-len(b.links)>=3 if b.ids.count(marker)==0 else
-    (len(re.findall(r'<a\\b[^>]*href=',updated[updated.index('id="'+marker+'"'):updated.index('id="'+marker+'"')+6500]))>=3)),
+    (len(re.findall(r'<a\b[^>]*href=',updated[updated.index('id="'+marker+'"'):updated.index('id="'+marker+'"')+6500]))>=3)),
   "no_duplicate_ids":len(a.ids)==len(set(a.ids)),
   "no_live_inventory_promise":"예약 완료" not in updated[updated.find('id="'+marker+'"'):updated.find('id="'+marker+'"')+1800],
  }
