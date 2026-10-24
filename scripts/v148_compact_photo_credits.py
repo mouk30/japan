@@ -53,20 +53,24 @@ def is_photo_credit(attrs: str, body: str)->bool:
     if "ai 생성" in body.lower() or "생성 참고 이미지" in body:return False
     return True
 
+def preserve_anchor(attrs:str):
+    match=re.search(r'\\bid=["\\\']([^"\\\']+)["\\\']',attrs,re.I)
+    return '<span id="'+match.group(1)+'" hidden></span>' if match else ""
+
 def move_credits(src: str):
     found=[]
     def move_aside(m):
         attrs,body=m.group(1),m.group(2)
         if CREDIT_CLASS.search(attrs) and is_photo_credit(attrs,body):
             found.append(("aside",body))
-            return ""
+            return preserve_anchor(attrs)
         return m.group(0)
     src=ASIDE.sub(move_aside,src)
     def move_item(m):
         tag,attrs,body=m.group(1),m.group(2),m.group(3)
         if is_photo_credit(attrs,body):
             found.append((tag.lower(),body))
-            return ""
+            return preserve_anchor(attrs)
         return m.group(0)
     src=TAG.sub(move_item,src)
     return src,found
