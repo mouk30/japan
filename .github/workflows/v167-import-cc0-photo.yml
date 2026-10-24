@@ -1,0 +1,36 @@
+name: V167 import CC0 Noboribetsu real photo as local quality WebP
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/v167_import_cc0_noboribetsu.py"
+      - ".github/workflows/v167-import-cc0-photo.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  licensed-photo-webp:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pillow for image resampling
+        run: python -m pip install --disable-pip-version-check pillow>=11.0.0
+      - name: Fetch exact Wikimedia CC0 original, validate pixels and convert to 88Q WebP
+        run: |
+          python scripts/v167_import_cc0_noboribetsu.py
+          python - <<'PY'
+          from PIL import Image
+          p="site/images/v167/noboribetsu-onsen-lawsonstu-cc0-2015.webp"
+          im=Image.open(p);print("LOCAL VERIFIED PHOTO",im.size, im.format)
+          assert im.width>=1200 and im.height>=675 and im.format=="WEBP"
+          PY
+      - name: Commit approved CC0 photo and source license ledger
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/v167/noboribetsu-onsen-lawsonstu-cc0-2015.webp site/images/v167/noboribetsu-onsen-lawsonstu-cc0-2015.source.json
+          if git diff --cached --quiet; then echo "Photo already uploaded"; else git commit -m "V167: add 2015 actual Noboribetsu hot spring 1800px CC0 WebP with license"; git push origin HEAD:main; fi
