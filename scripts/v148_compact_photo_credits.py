@@ -54,7 +54,7 @@ def is_photo_credit(attrs: str, body: str)->bool:
     return True
 
 def preserve_anchor(attrs:str):
-    match=re.search(r'\\bid=["\\\']([^"\\\']+)["\\\']',attrs,re.I)
+    match=re.search(r'\bid=["\']([^"\']+)["\']',attrs,re.I)
     return '<span id="'+match.group(1)+'" hidden></span>' if match else ""
 
 def move_credits(src: str):
