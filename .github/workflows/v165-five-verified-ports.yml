@@ -1,0 +1,41 @@
+name: V165 five existing ports latest ship operations and booking QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/goto-fukue-cruise-port-day-trip/index.html"
+      - "site/things-to-do/aokata-cruise-port-day-trip/index.html"
+      - "site/things-to-do/sasebo-cruise-port-day-trip/index.html"
+      - "site/things-to-do/hakata-cruise-port-day-trip/index.html"
+      - "site/things-to-do/yakushima-miyanoura-cruise-port-day-trip/index.html"
+      - "scripts/qa_v165_five_original_port_bookings.py"
+      - ".github/workflows/v165-five-verified-ports.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  official-booking-and-unchanged-original-media-SEO:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check original pages against immutable pre-V165 baseline
+        run: |
+          python -m py_compile scripts/qa_v165_five_original_port_bookings.py
+          python scripts/qa_v165_five_original_port_bookings.py
+      - name: Ensure existing site still builds
+        run: node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v165-five-port-official-booking-SEO-originals
+          path: audit-output/v165/
+          if-no-files-found: warn
