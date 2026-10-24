@@ -1,0 +1,61 @@
+name: V173 four old port booking ticket return source and 16 live screens
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/beppu-cruise-port-day-trip/index.html"
+      - "site/things-to-do/otaru-cruise-port-day-trip/index.html"
+      - "site/things-to-do/shimizu-cruise-port-day-trip/index.html"
+      - "site/things-to-do/hiroshima-cruise-port-day-trip/index.html"
+      - "scripts/qa_v173_four_booking_paths.py"
+      - "scripts/qa_v173_sixteen_live_screens.cjs"
+      - ".github/workflows/v173-existing-bookings-live.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-original-and-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check 4 original pages, original SEO, licensed WebP, exact ticket links, and site build
+        run: |
+          python -m py_compile scripts/qa_v173_four_booking_paths.py
+          python scripts/qa_v173_four_booking_paths.py
+          node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v173-four-booking-source
+          path: audit-output/v173/
+  public-four-guides-sixteen-screens:
+    needs: source-original-and-build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Check live pages at 390 768 945 1440 and archive 16 screenshots
+        run: |
+          node --check scripts/qa_v173_sixteen_live_screens.cjs
+          node scripts/qa_v173_sixteen_live_screens.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v173-original-four-sixteen-public-screens
+          path: audit-output/v173-live/
