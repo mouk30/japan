@@ -82,8 +82,12 @@ def process(path:Path, audit_only:bool, source_override=None):
         return None
     # These full prose blocks were source acknowledgments, not the picture itself.
     entries="".join('<div class="nf-v148-credit-entry">'+body+'</div>' for _,body in found)
-    panel=CSS+'<details id="'+MARKER+'" class="nf-v148-credit-details">'+\
+    panel='<details id="'+MARKER+'" class="nf-v148-credit-details">'+\
         '<summary>사진 출처 보기</summary><div class="nf-v148-credit-inner">'+entries+'</div></details>'
+    if "</head>" in new:
+        new=new.replace("</head>",CSS+"</head>",1)
+    else:
+        panel=CSS+panel
     # Attribution remains accessible at the end of the existing page.
     if "</main>" in new:
         new=new.replace("</main>",panel+"</main>",1)
