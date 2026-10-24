@@ -48,7 +48,6 @@ for(const [path,ids] of Object.entries(hubs)){
   test(path+":"+id+":photo_and_license_link",panel.includes('href="'+c.src+'"')&&panel.includes('href="'+c.license+'"'));
   const fpath='site/'+c.img.replace(/^\//,'');
   test(path+":"+id+":local_webp_exists",fs.existsSync(fpath));
-  test(path+":"+id+":not_fabricated_photo","@".length>=1); // fixed repository image provenance validated above
  }
  test(path+":no_extra_pilot_targets",tagged.every(x=>ids.includes(x[1])));
  console.log("HUB PASS",path,ids.length,"pilot cards; existing canonical/h1/JSON-LD/images preserved");
