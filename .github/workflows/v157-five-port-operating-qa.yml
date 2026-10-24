@@ -1,0 +1,45 @@
+name: V157 five cruise ports official operating changes and return QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/aomori-cruise-port-day-trip/index.html"
+      - "site/things-to-do/hakodate-cruise-port-day-trip/index.html"
+      - "site/things-to-do/kagoshima-cruise-port-day-trip/index.html"
+      - "site/things-to-do/beppu-cruise-port-day-trip/index.html"
+      - "site/things-to-do/kanazawa-cruise-port-day-trip/index.html"
+      - "scripts/qa_v157_five_port_operating_facts.py"
+      - ".github/workflows/v157-five-port-operating-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preserve-original-pages-and-update-operating-conditions:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Fetch main baseline for original photos copyright canonical and links
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main
+      - name: Check official 2026 season closures ship berths tickets transit and return
+        run: |
+          python -m py_compile scripts/qa_v157_five_port_operating_facts.py
+          python scripts/qa_v157_five_port_operating_facts.py
+      - name: Preserve old reservation return and SEO build
+        run: |
+          node build.js
+          python scripts/qa_v150_existing_port_bookings.py
+          python scripts/qa_v147_existing_booking_return.py
+          node scripts/qa_v148_build_no_doublefold.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v157-five-port-official-operating-and-return-facts
+          path: audit-output/v157/
+          if-no-files-found: warn
