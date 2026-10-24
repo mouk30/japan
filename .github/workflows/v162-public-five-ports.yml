@@ -1,0 +1,34 @@
+name: V162 real public five ports photos sitemap HTTP QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/hirara-miyakojima-cruise-port-day-trip/index.html"
+      - "site/things-to-do/motobu-cruise-port-day-trip/index.html"
+      - "site/things-to-do/ishigaki-cruise-port-day-trip/index.html"
+      - "site/things-to-do/naha-cruise-port-day-trip/index.html"
+      - "site/things-to-do/amami-naze-cruise-port-day-trip/index.html"
+      - "scripts/qa_v162_public_five_ports.py"
+      - ".github/workflows/v162-public-five-ports.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-original-port-photos-sitemap:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify public site and all original real-venue WebP
+        run: |
+          python -m py_compile scripts/qa_v162_public_five_ports.py
+          python scripts/qa_v162_public_five_ports.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v162-original-pages-licensed-photos-public-qa
+          path: audit-output/v162-public/
+          if-no-files-found: warn
