@@ -58,6 +58,7 @@ for slug,item in D.items():
    "single_v161_panel":p.ids.count("nf-v161-"+slug)==1,
    "three_real_action_cards":frag.count('class="nf-v161-item"')==3,
    "official_booking_status_and_port_links":all(u in p.links and u in frag for u in item["official"]),
+   "direct_real_ticket_booking_for_all_six":"https://www.tokaikisenyoyaku.com/app/web-front/precautions" in p.links and "https://www.tokaikisenyoyaku.com/app/web-front/precautions" in frag,
    "source_date_and_last_return_facts":all(f in frag for f in item["facts"]),
    "original_local_license_photo_and_alt":any(img==item["photo"] and len(alt)>20 for img,alt in p.images),
    "original_licence_links_present":any("commons.wikimedia.org" in (v or "") for v in p.links),
