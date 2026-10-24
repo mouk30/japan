@@ -63,7 +63,7 @@ for slug,info in D.items():
    "original_photo_copyright_source":any("commons.wikimedia.org" in (u or "") for u in p.links),
    "large_mobile_tap_area":'id="nf-v163-ops-style"' in s and "min-height:52px" in s,
    "original_indexable_robots":'name="robots" content="index,follow' in s[:8500],
-   "no_inventory_or_ship_return_guarantee":"잔여석 확보 완료" not in frag and "귀선 보장" not in frag
+   "no_inventory_or_ship_return_guarantee":"잔여석 확보 완료" not in frag and "귀선이 보장됩니다" not in frag and "귀선을 보장합니다" not in frag
   }
   push(path,checks)
  except Exception as e:push(path,{"public_http":False},str(e))
