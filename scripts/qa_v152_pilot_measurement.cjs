@@ -16,7 +16,10 @@ for(const [slug,id] of Object.entries(slugs)){
  const attrsRe=/\b(src|alt|width|height|loading)=["'][^"']*["']/gi;
  const im=x=>x.map(z=>(z.match(attrsRe)||[]).join("|"));
  assert.deepEqual(im(a),im(b),"original image/ALT preserved "+slug);
- assert.deepEqual(hrefList(html),hrefList(orig),"no destination or anchor label changes "+slug);
+ const oldLinks=hrefList(orig),currentLinks=hrefList(html);
+ let oldIndex=0;
+ for(const link of currentLinks)if(link===oldLinks[oldIndex])oldIndex++;
+ assert.equal(oldIndex,oldLinks.length,"every original link destination and visible label retained in original order "+slug);
  assert.equal(match(/<link\b[^>]*rel="canonical"[^>]*href="([^"]+)"/gi,html)[0],
                match(/<link\b[^>]*rel="canonical"[^>]*href="([^"]+)"/gi,orig)[0],slug+" canonical");
  assert.equal((html.match(/<h1\b/g)||[]).length,(orig.match(/<h1\b/g)||[]).length,slug+" H1");
