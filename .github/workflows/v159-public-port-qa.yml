@@ -1,0 +1,29 @@
+name: V159 public five port booking and return HTTP QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/qa_v159_public_ports.py"
+      - ".github/workflows/v159-public-port-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  production-existing-cruise-guides-photos-sitemap:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify real public HTTP HTML images and sitemap
+        run: |
+          python -m py_compile scripts/qa_v159_public_ports.py
+          python scripts/qa_v159_public_ports.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v159-real-production-port-photo-qa
+          path: audit-output/v159-public/
+          if-no-files-found: warn
