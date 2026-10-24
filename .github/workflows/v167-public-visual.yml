@@ -1,0 +1,35 @@
+name: V167 real 390 768 1440 public photo screen QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/qa_v167_public_visual.cjs"
+      - ".github/workflows/v167-public-visual.yml"
+      - "site/japan/hokkaido/index.html"
+      - "site/japan/osaka/index.html"
+      - "site/japan/index.html"
+      - "site/busan-osaka-cruise/index.html"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live-desktop-mobile-photo-screenshot:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Browser install
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Twelve production UI screenshot and image load checks
+        run: node scripts/qa_v167_public_visual.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v167-screenshots-390-768-1440-and-results
+          path: audit-output/v167-browser/
+          if-no-files-found: warn
