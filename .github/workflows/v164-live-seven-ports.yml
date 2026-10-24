@@ -1,0 +1,36 @@
+name: V164 public seven existing cruise guides photos sitemap HTTP QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/kagoshima-cruise-port-day-trip/index.html"
+      - "site/things-to-do/uno-cruise-port-day-trip/index.html"
+      - "site/things-to-do/takamatsu-cruise-port-day-trip/index.html"
+      - "site/things-to-do/kobe-cruise-port-day-trip/index.html"
+      - "site/things-to-do/niihama-cruise-port-day-trip/index.html"
+      - "site/things-to-do/yawatahama-cruise-port-day-trip/index.html"
+      - "site/things-to-do/tokushima-komatsushima-cruise-port-day-trip/index.html"
+      - "scripts/qa_v164_public_seven_ports.py"
+      - ".github/workflows/v164-live-seven-ports.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  production-operator-facts-original-photos-sitemap:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check published seven pages, original licensed WebP and sitemap
+        run: |
+          python -m py_compile scripts/qa_v164_public_seven_ports.py
+          python scripts/qa_v164_public_seven_ports.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v164-public-seven-original-pages-webp-sitemap
+          path: audit-output/v164-public/
+          if-no-files-found: warn
