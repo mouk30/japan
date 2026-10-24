@@ -90,7 +90,7 @@ function runConsentTest(page,consent,target,declared,trust=true){
  function send(link,isTrusted=true){
   events.click({isTrusted,target:{closest(){return link;}}});
  }
- send(links.good,trust);
+ if(consent!=="yes")send(links.good,trust);
  let hits=window.dataLayer?window.dataLayer.map(x=>Array.from(x)).filter(x=>x[0]==="event"&&x[1]==="nf_pilot_entry_click"):[];
  if(consent!=="yes")test("no_link_event_before_consent:"+page, hits.length===0);
  if(consent===null)dialog.querySelector(".nf93-accept").fire("click");
