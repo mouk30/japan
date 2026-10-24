@@ -25,6 +25,8 @@ S={
  "kaminato-hachijojima":{"official":["https://www.tokaikisen.co.jp/news/826444/","https://www.tokaikisen.co.jp/news/836684/","https://www.tokaikisen.co.jp/schedule/"],
           "facts":["소코도","야에네","04996-2-1211","귀선"]},
 }
+BOOKING_PORTAL="https://www.tokaikisenyoyaku.com/app/web-front/precautions"
+EXTRA_BOOKING={"okata-izu-oshima","kozushima","miike-miyakejima","kaminato-hachijojima"}
 class Parse(HTMLParser):
  def __init__(self):
   super().__init__();self.ids=[];self.images=[];self.links=[];self.canon=[];self.descriptions=[];self.title=[];self.in_title=False;self.h1=0
@@ -59,13 +61,13 @@ for slug,info in S.items():
   "placed_before_original_sections":oldguide in a.ids and 0<pos<body.find('id="'+oldguide+'"'),
   "three_action_cards":frag.count('class="nf-v161-item"')==3,
   "all_actual_operator_links":all(u in frag and u in a.links for u in info["official"]),
-  "three_secure_external_links":frag.count('rel="noopener noreferrer"')==3 and frag.count('target="_blank"')==3,
+  "secure_operator_links":frag.count('rel="noopener noreferrer"')==(4 if slug in EXTRA_BOOKING else 3) and frag.count('target="_blank"')==(4 if slug in EXTRA_BOOKING else 3),
   "date_and_return_facts":all(f in frag for f in info["facts"]),
   "original_photo_alt_size_unchanged":a.images==b.images,
   "original_webp_files_exist":all((ROOT/src.lstrip("/").split("?")[0]).is_file() for src,alt,w,h in a.images if src.startswith("/") and not src.startswith("//")),
   "photo_license_source_links_kept":all(u in a.links for u in b.links if "commons.wikimedia.org" in u or "creativecommons.org" in u),
   "existing_links_preserved":Counter(a.links)>=Counter(b.links),
-  "three_new_links_not_new_pages":len(a.links)==len(b.links)+3,
+  "three_step_links_plus_booking_entrance":len(a.links)==len(b.links)+(4 if slug in EXTRA_BOOKING else 3) and (BOOKING_PORTAL in frag if slug in EXTRA_BOOKING else True),
   "SEO_title_meta_canonical_unchanged":a.title==b.title and a.descriptions==b.descriptions and a.canon==b.canon==["https://www.nipponferry.com/things-to-do/"+slug+"-cruise-port-day-trip/"] and a.h1==b.h1==1,
   "no_duplicate_ids":len(a.ids)==len(set(a.ids)),
   "mobile_52px_tap_target":'id="nf-v161-operator-css"' in body and '@media(max-width:620px)' in body and 'min-height:52px' in body,
