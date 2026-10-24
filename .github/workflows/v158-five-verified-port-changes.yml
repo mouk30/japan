@@ -1,0 +1,45 @@
+name: V158 five cruise port actual berth and return operator QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/kochi-cruise-port-day-trip/index.html"
+      - "site/things-to-do/matsuyama-cruise-port-day-trip/index.html"
+      - "site/things-to-do/niigata-cruise-port-day-trip/index.html"
+      - "site/things-to-do/hiroshima-cruise-port-day-trip/index.html"
+      - "site/things-to-do/kobe-cruise-port-day-trip/index.html"
+      - "scripts/qa_v158_five_port_operator_changes.py"
+      - ".github/workflows/v158-five-verified-port-changes.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-evidence-transport-returns-and-original-SEO:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Load main baseline
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main
+      - name: Audit real official notices and original photo/SEO
+        run: |
+          python -m py_compile scripts/qa_v158_five_port_operator_changes.py
+          python scripts/qa_v158_five_port_operator_changes.py
+      - name: Build and older content safety regression
+        run: |
+          node build.js
+          python scripts/qa_v150_existing_port_bookings.py
+          python scripts/qa_v147_existing_booking_return.py
+          node scripts/qa_v148_build_no_doublefold.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v158-five-official-pier-and-return-audit
+          path: audit-output/v158/
+          if-no-files-found: warn
