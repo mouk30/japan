@@ -17,6 +17,9 @@ KEY=[
 "site/japan/hokkaido/index.html",
 "site/japan/index.html",
 "site/busan-osaka-cruise/index.html",
+"site/things-to-do/hakodate-cruise-port-day-trip/index.html",
+"site/things-to-do/kobe-cruise-port-day-trip/index.html",
+"site/things-to-do/shamisen-japanese-three-string-instrument/index.html",
 ]
 class ImgParser(HTMLParser):
  def __init__(self):
@@ -73,6 +76,16 @@ for p in KEY:
  elif p.endswith("/busan-osaka-cruise/index.html"):
   c("correct_ship_operator_photo",'src="https://www.panstar.co.kr/uploads/media/cruise-miracle-ship.jpg"' in s)
   c("legacy_image_removed_from_ship_card", "class='im' src='/images/ferry.jpg'" not in s)
+ elif any(p.endswith("/"+slug+"/index.html") for slug in
+          ("hakodate-cruise-port-day-trip","kobe-cruise-port-day-trip",
+           "shamisen-japanese-three-string-instrument")):
+  c("same_original_photo_and_alt",a.img==b.img)
+  c("all_original_rights_links_retained",a.links==b.links)
+  c("no_crop_or_upscale_portrait_hero", 'id="nf-v167-portrait-no-blur"' in s
+    and "nf167-portrait-photo" in s and "object-fit:contain" in s
+    and "--nf167-photo:url(" in s)
+  c("soft_background_not_fake_replacement",
+    'filter:blur(22px)' in s and "opacity:.28" in s)
  results.append({"page":p,"passed":sum(rules.values()),"total":len(rules),"failed":[k for k,v in rules.items() if not v]})
 
 # Full site image audit: never confuse the same standard logo with content duplicates
@@ -121,19 +134,27 @@ priority_pages={
  "site/index.html","site/japan/index.html","site/japan/hokkaido/index.html",
  "site/japan/osaka/index.html","site/busan-osaka-cruise/index.html"
 }
+category_pages={
+ "site/seasons/index.html","site/practical/index.html","site/couple/index.html",
+ "site/things-to-do/index.html","site/things-to-do/culture/index.html",
+ "site/things-to-do/travel-companions/index.html"
+}
 ranked=[]
 for c in low_candidates:
  asset_url="/"+str(Path(c["path"]).relative_to(ROOT))
  u=usage.get(asset_url,[])
  entry=[x for x in u if x["html"] in priority_pages]
+ category=[x for x in u if x["html"] in category_pages]
  region=[x for x in u if x["html"].count("/")==3 and
          ("/japan/" in x["html"] or "/things-to-do/" in x["html"])]
- if entry:
-  label="P0_ENTRY";action="licensed hi-res original and subject match needed before replacement"
- elif u and (len(u)>=5 or c["px"][0]<480) and region:
-  label="P1_CATEGORY";action="inspect visible card render and subject/license"
+ if any(word in asset_url.lower() for word in ("kakao","favicon","apple-touch-icon")):
+  label="P3_UI_ASSET";action="small dimension is intentional for UI icons, verify rendered CSS not photo replacement"
+ elif entry:
+  label="P0_ENTRY";action="verify actual thumbnail display scale and original attribution before swapping"
+ elif category or (u and (len(u)>=5 or c["px"][0]<480) and region):
+  label="P1_CATEGORY";action="check category card subject, natural pixels vs CSS crop, and license"
  elif u:
-  label="P2_DETAIL";action="check effective CSS display width and source/license"
+  label="P2_DETAIL";action="check original photo portrait ratio, effective CSS cover and attribution"
  else:
   label="P3_UNUSED_IMG_TAG";action="do not replace until CSS/background usage is ruled out"
  ranked.append({
@@ -144,7 +165,7 @@ for c in low_candidates:
   "action":action
  })
 ranked.sort(key=lambda x:(
- {"P0_ENTRY":0,"P1_CATEGORY":1,"P2_DETAIL":2,"P3_UNUSED_IMG_TAG":3}[x["priority"]],
+ {"P0_ENTRY":0,"P1_CATEGORY":1,"P2_DETAIL":2,"P3_UNUSED_IMG_TAG":3,"P3_UI_ASSET":3}[x["priority"]],
  -x["html_uses"], x["dimensions"][0]
 ))
 (out/"v167-low-resolution-40-priorities.json").write_text(
