@@ -114,3 +114,38 @@
   .tky-card .tky-card-photo>img{transition:none!important}
   .tky-card:hover .tky-card-photo>img{transform:none!important}
 }
+
+/* V167 targeted low-resolution Tokyo photo display.
+   Verified small real-scene originals: show subject whole at native pixels;
+   NEVER magnify or cut a small portrait to a forced 16:9 hero.
+   Other 200+ Tokyo photographs and all canonical/metadata remain unchanged. */
+.tokyo-article-photo-v1 img[src$="/tokyo-summer-heat-indoor.webp"],
+.tokyo-article-photo-v1 img[src$="/tokyo-tower-tickets.webp"],
+.tokyo-article-photo-v1 img[src$="/tokyo-autumn-gardens.webp"],
+.tokyo-article-photo-v1 img[src$="/tokyo-firsttime-east-west.webp"],
+.tokyo-article-photo-v1 img[src$="/tokyo-electronics-bic-yodobashi.webp"],
+.tokyo-article-photo-v1 img[src$="/tsukiji-two-stations.webp"],
+.tokyo-article-photo-v1 img[src$="/kanda-jr-ginza-transfer.webp"],
+.tokyo-article-photo-v1 img[src$="/donki-roppongi-night-check.webp"],
+.tokyo-article-photo-v1 img[src$="/tokyo-skytree-tickets.webp"],
+.tokyo-article-photo-v1 img[src$="/shinjuku-kabukicho-donki.webp"],
+.tokyo-article-photo-v1 img[src$="/tokyo-donki-shinjuku-kabukicho.webp"],
+.tokyo-article-photo-v1 img[src$="/tokyo-ghibli-museum-booking.webp"],
+.tokyo-article-photo-v1 img[src$="/asakusa-operators.webp"],
+.tokyo-article-photo-v1 img[src$="/shibuya-parco-floor-guide.webp"],
+.tokyo-article-photo-v1 img[src$="/disney-mobile-order-food.webp"],
+.tokyo-article-photo-v1 img[src$="/tokyo-teamlab-planets-ticket-guide.webp"],
+.tokyo-article-photo-v1 img[src$="/tokyo-tsukemen-howto.webp"],
+.tokyo-article-photo-v1 img[src$="/disneyland-beauty-beast-ride.webp"],
+.tokyo-article-photo-v1 img[src$="/daikanyama-bookshops.webp"],
+.tokyo-article-photo-v1 img[src$="/ueno-ameyoko-budget-shopping.webp"]{
+  display:block;
+  width:100%;
+  height:clamp(270px,45vw,480px);
+  max-height:none;
+  aspect-ratio:auto;
+  object-fit:scale-down;
+  object-position:center;
+  border-radius:16px;
+  background:linear-gradient(120deg,#dceaf1,#f8fbfc 53%,#d7e6ef);
+}
