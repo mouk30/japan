@@ -1,0 +1,45 @@
+name: V150 verified existing port booking and return QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/things-to-do/naha-shuri-castle-cruise-sightseeing/index.html"
+      - "site/things-to-do/ishigaki-cruise-new-port-shuttle/index.html"
+      - "site/things-to-do/yokohama-daikoku-pier-cruise-terminal/index.html"
+      - "site/things-to-do/hakata-port-tenjin-sightseeing/index.html"
+      - "site/things-to-do/nagasaki-cruise-peace-park-tram/index.html"
+      - "site/things-to-do/cruise-ports/index.html"
+      - "scripts/qa_v150_existing_port_bookings.py"
+      - ".github/workflows/v150-existing-port-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  official-source-seo-and-return:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Compare against main before changes
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main
+      - name: Verify official claims, existing bookings, round trips, licensed images and canonical
+        run: |
+          python -m py_compile scripts/qa_v150_existing_port_bookings.py
+          python scripts/qa_v150_existing_port_bookings.py
+      - name: Rebuild existing site and run earlier safe-return and photo regressions
+        run: |
+          node build.js
+          node scripts/qa_v148_build_no_doublefold.cjs
+          python scripts/qa_v147_existing_booking_return.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v150-five-ports-quality
+          path: audit-output/v150/
+          if-no-files-found: warn
