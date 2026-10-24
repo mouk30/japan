@@ -1,0 +1,61 @@
+name: V172 4 existing official port pages source and public 16-screen QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/kure-cruise-port-day-trip/index.html"
+      - "site/things-to-do/fukuyama-cruise-port-day-trip/index.html"
+      - "site/things-to-do/sakaide-cruise-port-day-trip/index.html"
+      - "site/things-to-do/maizuru-cruise-port-day-trip/index.html"
+      - "scripts/qa_v172_existing_four_official.py"
+      - "scripts/qa_v172_public_four_browser.cjs"
+      - ".github/workflows/v172-four-ports-official-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-sources-immutable-seo:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Inspect exact original image SEO and official operational pages
+        run: |
+          python -m py_compile scripts/qa_v172_existing_four_official.py
+          python scripts/qa_v172_existing_four_official.py
+          node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v172-original-four-source
+          path: audit-output/v172/
+  public-four-ports-sixteen-screens:
+    needs: validate-sources-immutable-seo
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Check Vercel production 4 original URLs on 390 768 945 1440
+        run: |
+          node --check scripts/qa_v172_public_four_browser.cjs
+          node scripts/qa_v172_public_four_browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v172-original-four-public-16-screens
+          path: audit-output/v172-public/
