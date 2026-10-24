@@ -23,14 +23,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Verify script syntax and audit possible source moves
+      - name: Fetch unchanged main sources for safe regeneration and rollback comparison
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main
+      - name: Safely compact source notes while preserving licensed photo attributions
         run: |
-          python -m py_compile scripts/v148_compact_photo_credits.py
-          python scripts/v148_compact_photo_credits.py --audit-only
-      - name: Apply reversible licensed-photo attribution cleanup to existing pages
-        run: |
-          python scripts/v148_compact_photo_credits.py
-          python scripts/v148_compact_photo_credits.py --audit-only || true
+          python -m py_compile scripts/v148_compact_photo_credits.py scripts/qa_v148_credit_folded.py
+          if grep -q 'id="nf-v148-photo-credits"' site/index.html; then
+            python scripts/v148_compact_photo_credits.py --rewrite-from-main
+          else
+            python scripts/v148_compact_photo_credits.py
+          fi
+      - name: Audit original source links, guide navigation, image URLs and SEO sitewide
+        run: python scripts/qa_v148_credit_folded.py
       - name: Commit only existing site HTML updates
         run: |
           git config user.name "github-actions[bot]"
