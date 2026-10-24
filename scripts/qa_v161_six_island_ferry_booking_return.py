@@ -53,7 +53,7 @@ for slug,info in S.items():
  pos=body.find('id="'+idval+'"')
  stop=body.find("</section>",pos)+len("</section>") if pos>=0 else -1
  frag=body[pos:stop] if stop>pos>=0 else ""
- oldguide=b.ids[0] if b.ids else ""
+ oldguide="v74-verification" if slug=="tokyo" else ("v73-verification" if slug in ("okata-izu-oshima","niijima") else "v72-verification")
  checks={
   "one_v161_panel":a.ids.count(idval)==1,
   "placed_before_original_sections":oldguide in a.ids and 0<pos<body.find('id="'+oldguide+'"'),
