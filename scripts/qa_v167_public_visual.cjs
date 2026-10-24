@@ -5,7 +5,10 @@ const sites=[
  ['hokkaido','/japan/hokkaido/','#highlights','#highlights .city-card img',3],
  ['osaka','/japan/osaka/','#cruise','#cruise .nf167-panstar-photo img',1],
  ['directory','/japan/','.dirgrid','a[href^="/japan/fukuoka"] img',19],
- ['busan','/busan-osaka-cruise/','.nf167-miracle-photo','.nf167-miracle-photo img',1]
+ ['busan','/busan-osaka-cruise/','.nf167-miracle-photo','.nf167-miracle-photo img',1],
+ ['hakodate-portrait','/things-to-do/hakodate-cruise-port-day-trip/','.nf167-portrait-photo','.nf167-portrait-photo img',1],
+ ['kobe-portrait','/things-to-do/kobe-cruise-port-day-trip/','.nf167-portrait-photo','.nf167-portrait-photo img',1],
+ ['shamisen-portrait','/things-to-do/shamisen-japanese-three-string-instrument/','.nf167-portrait-photo','.nf167-portrait-photo img',1]
 ];
 const widths=[390,768,1440],out='audit-output/v167-browser';
 fs.mkdirSync(out,{recursive:true});
@@ -33,7 +36,13 @@ const sleep=(ms)=>new Promise(resolve=>setTimeout(resolve,ms));
       await Promise.race([completed,new Promise(done=>setTimeout(done,5000))]);
       return {screen:window.innerWidth,doc:document.documentElement.scrollWidth,
        images:elements.map(img=>({width:img.naturalWidth,height:img.naturalHeight,
-        draw:Math.round(img.getBoundingClientRect().width),src:img.currentSrc,alt:img.alt}))};
+        draw:Math.round(img.getBoundingClientRect().width),
+        drawH:Math.round(img.getBoundingClientRect().height),fit:getComputedStyle(img).objectFit,
+        scale:(()=>{const rect=img.getBoundingClientRect(),w=img.naturalWidth,h=img.naturalHeight;
+          if(!w||!h)return 999;
+          const f=getComputedStyle(img).objectFit;
+          return (f==='contain'||f==='scale-down')?Math.min(rect.width/w,rect.height/h):Math.max(rect.width/w,rect.height/h);
+        })(),src:img.currentSrc,alt:img.alt}))};
      },selector);
      const check={
       http:r.status()===200,
@@ -41,7 +50,9 @@ const sleep=(ms)=>new Promise(resolve=>setTimeout(resolve,ms));
       load:report.images.length>0 && report.images.every(img=>img.width>0),
       layout:report.doc<=report.screen+4,
       large_photo:!['hokkaido','osaka','busan'].includes(name)||report.images.every(img=>img.width>=900),
-      no_upscale:name!=='hokkaido'||report.images.every(img=>img.width>=img.draw),
+      no_upscale:(name==='hokkaido'?report.images.every(img=>img.width>=img.draw):
+        name.endsWith('-portrait')?report.images.every(img=>img.scale<=1.01 && img.fit==='contain'):true),
+      portrait_not_cropped:!name.endsWith('-portrait')||report.images.every(img=>img.fit==='contain'),
       distinct:name!=='hokkaido'||new Set(report.images.map(img=>img.src)).size===3,
       varied:name!=='directory'||new Set(report.images.map(img=>img.src)).size>=10
      };
