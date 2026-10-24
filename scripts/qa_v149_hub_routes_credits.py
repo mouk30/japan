@@ -52,7 +52,7 @@ q(p.count("기항지 카드 ·")==36,"not all 36 license credit records placed i
 origLink=parse(org);currLink=parse(current)
 images_iter=iter(currLink.images)
 q(all(any(img==original_img for img in images_iter) for original_img in origLink.images),"an original cruise-port photo or alt was lost/altered")
-new_card_images=3 if 'id="nf-v153-pilot-hub"' in current else 0
+new_card_images=3 if 'id="nf-v153-pilot-hub"' in current and 'id="nf-v153-pilot-hub"' not in org else 0
 q(len(currLink.images)==len(origLink.images)+new_card_images,"unexpected cruise-port thumbnail addition/removal")
 q(origLink.h1==currLink.h1==1,"cruise port H1 changed")
 q(origLink.canonical==currLink.canonical,"cruise port canonical changed")
