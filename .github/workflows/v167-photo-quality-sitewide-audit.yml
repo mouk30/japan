@@ -1,0 +1,42 @@
+name: V167 original SEO photo quality and whole-site image audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/japan/osaka/index.html"
+      - "site/japan/hokkaido/index.html"
+      - "site/japan/index.html"
+      - "site/busan-osaka-cruise/index.html"
+      - "scripts/qa_v167_image_quality.py"
+      - ".github/workflows/v167-photo-quality-sitewide-audit.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  before-after-real-place-original-seo-image-dimensions:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install image size verifier
+        run: python -m pip install --disable-pip-version-check 'Pillow>=11.0.0'
+      - name: Inspect every HTML and asset, verify priority pages and historic SEO
+        run: |
+          python -m py_compile scripts/qa_v167_image_quality.py
+          python scripts/qa_v167_image_quality.py
+      - name: Site build regression
+        run: node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v167-entire-site-thumbnail-mismatch-pixel-audit
+          path: audit-output/v167/
+          if-no-files-found: warn
