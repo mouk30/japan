@@ -60,7 +60,7 @@ for slug,requirements in P.items():
  "original_links_kept":Counter(now.links)>=Counter(before.links),
  "three_extra_action_links_only":len(now.links)==len(before.links)+3,
  "original_photo_src_alt_dimensions_untouched":now.images==before.images,
- "original_webp_exists_locally":all((ROOT[src.lstrip("/").split("?")[0]]).is_file() for src,alt,w,h in now.images if src.startswith("/") and not src.startswith("//")),
+ "original_webp_exists_locally":all(((ROOT / src.lstrip("/").split("?")[0])).is_file() for src,alt,w,h in now.images if src.startswith("/") and not src.startswith("//")),
  "original_license_and_wikimedia_attribution":all(x in now.links for x in before.links if "commons.wikimedia.org" in x or "creativecommons.org" in x),
  "unchanged_original_H1_title_description_canonical":now.h1==before.h1==1 and now.title==before.title and now.meta==before.meta and now.canonical==before.canonical==["https://www.nipponferry.com/things-to-do/"+slug+"-cruise-port-day-trip/"],
  "no_repeated_html_ids":len(now.ids)==len(set(now.ids)),
