@@ -69,7 +69,7 @@ for slug,item in DATA.items():
 hub=PORT.read_text(encoding="utf-8");oldhub=base(PORT);orig=parse(oldhub);new=parse(hub)
 hub_checks={
  "hub_images_unchanged":all(any(photo==old_image for photo in new.images) for old_image in orig.images) and all(old in new.images for old in orig.images),
- "hub_exact_three_V153_extra_images":len(new.images)==len(orig.images)+(3 if 'id="nf-v153-pilot-hub"' in hub else 0),
+ "hub_exact_three_V153_extra_images":len(new.images)==len(orig.images)+(3 if 'id="nf-v153-pilot-hub"' in hub and 'id="nf-v153-pilot-hub"' not in oldhub else 0),
  "hub_canonical_unchanged":new.canonical==orig.canonical,
  "hub_h1_unchanged":new.h1==orig.h1==1,
  "hub_photo_credits_unchanged":hub.count('id="nf-v148-photo-credits"')==oldhub.count('id="nf-v148-photo-credits"')==1,
