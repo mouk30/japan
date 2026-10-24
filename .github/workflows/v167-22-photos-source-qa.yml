@@ -1,0 +1,42 @@
+name: V167 final native photo scale original SEO and rights QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/tokyo-guide.css"
+      - "site/things-to-do/hakata-cruise-parents-guide/index.html"
+      - "site/things-to-do/tatami-floor-japanese-living/index.html"
+      - "site/things-to-do/hakodate-cruise-port-day-trip/index.html"
+      - "site/things-to-do/kobe-cruise-port-day-trip/index.html"
+      - "site/things-to-do/shamisen-japanese-three-string-instrument/index.html"
+      - "scripts/qa_v167_22_photo_source_preserve.py"
+      - ".github/workflows/v167-22-photos-source-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  twenty-two-real-scene-original-photo-pixel-protection:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify photo original, subject alts, rights and indexable metadata
+        run: |
+          python -m py_compile scripts/qa_v167_22_photo_source_preserve.py
+          python scripts/qa_v167_22_photo_source_preserve.py
+      - name: Build full existing site
+        run: node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v167-original-content-22-scaled-photo-qa
+          path: audit-output/v167-final/
+          if-no-files-found: warn
