@@ -3,6 +3,12 @@ on:
   push:
     branches: [main]
     paths:
+      - "site/things-to-do/tokyo-cruise-port-day-trip/index.html"
+      - "site/things-to-do/okata-izu-oshima-cruise-port-day-trip/index.html"
+      - "site/things-to-do/niijima-cruise-port-day-trip/index.html"
+      - "site/things-to-do/kozushima-cruise-port-day-trip/index.html"
+      - "site/things-to-do/miike-miyakejima-cruise-port-day-trip/index.html"
+      - "site/things-to-do/kaminato-hachijojima-cruise-port-day-trip/index.html"
       - "scripts/qa_v161_live_six_island_ports.py"
       - ".github/workflows/v161-live-six-ports.yml"
   workflow_dispatch:
