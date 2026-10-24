@@ -1,0 +1,38 @@
+name: V170 art island three 4-3 cards original photo SEO QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/index.html"
+      - "site/things-to-do/cruise-ports/index.html"
+      - "scripts/qa_v170_art_islands_source.py"
+      - ".github/workflows/v170-art-islands-source-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  original-photos-and-lifecycle:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify 6 existing photography cards and unchanged canonical/credits
+        run: |
+          python -m py_compile scripts/qa_v170_art_islands_source.py
+          python scripts/qa_v170_art_islands_source.py
+      - name: Existing site build unchanged
+        run: node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v170-three-cards-two-existing-hubs-source-SEO
+          path: audit-output/v170/
+          if-no-files-found: warn
