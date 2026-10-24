@@ -1,0 +1,53 @@
+name: V171 official art islands bookings and 2027 closures QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/naoshima-art-ferry-return/index.html"
+      - "site/things-to-do/teshima-art-ferry-return/index.html"
+      - "site/things-to-do/takamatsu-cruise-udon-market-return/index.html"
+      - "scripts/qa_v171_originals_and_release.py"
+      - ".github/workflows/v171-three-guide-official-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-original-seo-booking:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compare three guides against immutable V170 original and protect original SEO photos
+        run: |
+          python -m py_compile scripts/qa_v171_originals_and_release.py
+          python scripts/qa_v171_originals_and_release.py source
+          node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v171-three-guide-source-official-qa
+          path: audit-output/v171/source.json
+  production-three-guides:
+    needs: [source-original-seo-booking]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Wait for public Vercel release and inspect three production HTML pages
+        run: python scripts/qa_v171_originals_and_release.py live
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v171-live-three-guides-html
+          path: audit-output/v171/live.json
