@@ -11,7 +11,7 @@ Run: python scripts/v148_compact_photo_credits.py
      python scripts/v148_compact_photo_credits.py --audit-only
 """
 from __future__ import annotations
-import argparse, hashlib, json, re
+import argparse, hashlib, json, re, subprocess
 from pathlib import Path
 
 ROOT=Path("site")
@@ -41,6 +41,11 @@ max-height:min(65vh,650px);overflow-y:auto}
 </style>'''
 def is_photo_credit(attrs: str, body: str)->bool:
     txt=(attrs+" "+body).lower()
+    # Never hide navigational links/buttons to actual travel guides inside credit disclosures.
+    if re.search(r'href=["\\\']/[^"\\\']+["\\\']',body,re.I) or "게시글 보기" in body:
+        return False
+    if re.search(r'class=["\\\'][^"\\\']*actions[^"\\\']*["\\\']',attrs,re.I):
+        return False
     if "http" not in txt: return False
     if not any(domain in txt for domain in ASSET_SOURCES):return False
     if not any(term in txt for term in PHOTO_WORDS):return False
@@ -66,12 +71,15 @@ def move_credits(src: str):
     src=TAG.sub(move_item,src)
     return src,found
 
-def process(path:Path, audit_only:bool):
-    old=path.read_text(encoding="utf-8")
+def process(path:Path, audit_only:bool, source_override=None):
+    old=path.read_text(encoding="utf-8") if source_override is None else source_override
     if f'id="{MARKER}"' in old:
         return None
     new,found=move_credits(old)
-    if not found: return None
+    if not found:
+        if source_override is not None and not audit_only:
+            path.write_text(old,encoding="utf-8")
+        return None
     # These full prose blocks were source acknowledgments, not the picture itself.
     entries="".join('<div class="nf-v148-credit-entry">'+body+'</div>' for _,body in found)
     panel=CSS+'<details id="'+MARKER+'" class="nf-v148-credit-details">'+\
@@ -107,11 +115,17 @@ def process(path:Path, audit_only:bool):
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("--audit-only",action="store_true")
+    ap.add_argument("--rewrite-from-main",action="store_true",help="Rebuild only existing folded pages from their unchanged main-branch originals")
     args=ap.parse_args()
     rows=[]; total=0; errors=[]
     for p in sorted(ROOT.rglob("*.html")):
         try:
-            item=process(p,args.audit_only)
+            raw=None
+            if args.rewrite_from_main:
+                if f'id="{MARKER}"' not in p.read_text(encoding="utf-8"):
+                    continue
+                raw=subprocess.check_output(["git","show","origin/main:"+p.as_posix()],text=True)
+            item=process(p,args.audit_only,source_override=raw)
             if item: rows.append(item);total+=item["moved"]
         except Exception as err:
             errors.append(f"{p}: {err}")
