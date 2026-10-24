@@ -1,0 +1,29 @@
+name: V160 public existing five cruise port HTTP QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/qa_v160_live_five_ports.py"
+      - ".github/workflows/v160-live-five-port-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actual-public-content-photos-and-sitemap:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify publicly served pages, WebP and sitemap
+        run: |
+          python -m py_compile scripts/qa_v160_live_five_ports.py
+          python scripts/qa_v160_live_five_ports.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v160-five-real-public-pages-photos-sitemap
+          path: audit-output/v160-public/
+          if-no-files-found: warn
