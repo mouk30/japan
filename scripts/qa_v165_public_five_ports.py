@@ -23,15 +23,15 @@ PORTS={
 "sasebo":{
  "photo":"/images/venues/sasebo-huis-ten-bosch.webp",
  "official":["https://kyusho.co.jp/status","https://kyusho.co.jp/reserve","https://kyusho.co.jp/shuttle"],
- "facts":["10월 25일","12:05","15:50","나라오","귀선"]},
+ "facts":["10월 25일","17:35","08:35","12:05","15:50","16:55","전편 결항","나라오","귀선"]},
 "hakata":{
  "photo":"/images/venues/fukuoka-ohori-park.webp",
  "official":["https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html","https://hakataport.com/Access/"],
  "facts":["10월 24일","11월 3일","LUMINARA","하코자키","귀선"]},
 "yakushima-miyanoura":{
  "photo":"/images/venues/nf-v114-yakushima-miyanoura-real.webp",
- "official":["https://www.yakushimaferry.com/2026/08/24/post-163/","https://www.yakushimaferry.com/flight_status/"],
- "facts":["10월 5일","11월 15일","42일","부겐빌레아","귀선"]}
+ "official":["https://www.yakushimaferry.com/2026/08/24/post-163/","https://www.yakushimaferry.com/bougenbilia-basic-information/"],
+ "facts":["10월 5일","11월 15일","42일","부겐빌레아","차량 운전자","12명","동승자는","귀선"]}
 }
 class Page(HTMLParser):
  def __init__(self):
@@ -73,6 +73,8 @@ for slug,item in PORTS.items():
    "three_actual_decision_cards":panel.count('class="nf-v165-card"')==3,
    "official_booking_status_urls_rendered":all(u in panel and u in p.links for u in item["official"]),
    "dated_operational_and_safe_return_facts":all(t in panel for t in item["facts"]),
+   "latest_sasebo_not_stale":"14:28" not in panel if slug=="sasebo" else True,
+   "yakushima_cargo_passenger_restriction":("일반 관광객 승선권" in panel and "최대 12명" in panel if slug=="yakushima-miyanoura" else True),
    "original_venue_photo_and_accessible_alt":any(src==item["photo"] and len(alt)>20 for src,alt in p.img),
    "original_photo_attribution":any("commons.wikimedia.org" in (u or "") for u in p.links),
    "52px_mobile_tap_targets":'id="nf-v165-ops-css"' in html and "@media(max-width:620px)" in html and "min-height:52px" in html,
