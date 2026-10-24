@@ -13,9 +13,9 @@ ROOT=Path("site")
 PORTS={
  "goto-fukue":{"urls":["https://goto-ryokyakusen.com/","https://kyusho.co.jp/reserve"],"facts":["15:20","10월 24일","17:15","10/25~26","귀선"]},
  "aokata":{"urls":["https://www.nomo.co.jp/taiko/news/status.html","https://www.mlit.go.jp/kankocho/cruise/detail/061/index.html"],"facts":["10월 25일","11월 23일","11월 8~9일","아오카타","귀선"]},
- "sasebo":{"urls":["https://kyusho.co.jp/status","https://kyusho.co.jp/reserve","https://kyusho.co.jp/shuttle"],"facts":["14:28","12:05","15:50","나라오","귀선"]},
+ "sasebo":{"urls":["https://kyusho.co.jp/status","https://kyusho.co.jp/reserve","https://kyusho.co.jp/shuttle"],"facts":["17:35","08:35","12:05","15:50","16:55","전편 결항","나라오","귀선"]},
  "hakata":{"urls":["https://www.city.fukuoka.lg.jp/kowan/k-kikaku/hakata-port/cruise1.html","https://hakataport.com/Access/"],"facts":["10월 24일","11월 3일","LUMINARA","하코자키","21:00","귀선"]},
- "yakushima-miyanoura":{"urls":["https://www.yakushimaferry.com/2026/08/24/post-163/","https://www.yakushimaferry.com/flight_status/","https://www.mlit.go.jp/kankocho/cruise/detail/072/index.html"],"facts":["10월 5일","11월 15일","42일","부겐빌레아","귀선"]}
+ "yakushima-miyanoura":{"urls":["https://www.yakushimaferry.com/2026/08/24/post-163/","https://www.yakushimaferry.com/bougenbilia-basic-information/","https://www.mlit.go.jp/kankocho/cruise/detail/072/index.html"],"facts":["10월 5일","11월 15일","42일","부겐빌레아","차량 운전자","12명","동승자는","귀선"]}
 }
 class Parser(HTMLParser):
  def __init__(self):
@@ -52,6 +52,8 @@ for slug,source in PORTS.items():
  "official_links_direct_from_panel":all(url in panel and url in p.links for url in source["urls"]),
  "dated_operator_facts_and_last_ship_return":all(s in panel for s in source["facts"]),
  "three_secure_blank_target_links":panel.count('target="_blank"')==3 and panel.count('rel="noopener noreferrer"')==3,
+ "no_stale_operator_notice":("14:28" not in panel if slug=="sasebo" else True),
+ "cargo_ferry_not_sold_as_tourist_ticket":("일반 관광객 승선권" in panel and "최대 12명" in panel and "동승자는" in panel if slug=="yakushima-miyanoura" else True),
  "all_existing_links_unmodified":Counter(p.links)>=Counter(q.links),
  "three_extra_action_links_only":len(p.links)==len(q.links)+3,
  "original_image_sources_alts_sizes_unchanged":p.images==q.images,
