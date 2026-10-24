@@ -6,7 +6,9 @@
     "aspectErrors": [],
     "hiddenCredits": [],
     "horizontalOverflow": false,
-    "pageErrors": []
+    "pageErrors": [
+      "Failed to execute 'insertBefore' on 'Node': The node before which the new node is to be inserted is not a child of this node."
+    ]
   },
   "390": {
     "cards": 220,
@@ -15,7 +17,9 @@
     "aspectErrors": [],
     "hiddenCredits": [],
     "horizontalOverflow": false,
-    "pageErrors": []
+    "pageErrors": [
+      "Failed to execute 'insertBefore' on 'Node': The node before which the new node is to be inserted is not a child of this node."
+    ]
   },
   "768": {
     "cards": 220,
@@ -24,7 +28,9 @@
     "aspectErrors": [],
     "hiddenCredits": [],
     "horizontalOverflow": false,
-    "pageErrors": []
+    "pageErrors": [
+      "Failed to execute 'insertBefore' on 'Node': The node before which the new node is to be inserted is not a child of this node."
+    ]
   },
   "1440": {
     "cards": 220,
@@ -33,6 +39,8 @@
     "aspectErrors": [],
     "hiddenCredits": [],
     "horizontalOverflow": false,
-    "pageErrors": []
+    "pageErrors": [
+      "Failed to execute 'insertBefore' on 'Node': The node before which the new node is to be inserted is not a child of this node."
+    ]
   }
 }
