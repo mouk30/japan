@@ -1,0 +1,61 @@
+name: V179 existing 4 port closure and actual tickets 16 live screens
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/nagoya-cruise-port-day-trip/index.html"
+      - "site/things-to-do/kumamoto-cruise-port-day-trip/index.html"
+      - "site/things-to-do/yatsushiro-cruise-port-day-trip/index.html"
+      - "site/things-to-do/shingu-cruise-port-day-trip/index.html"
+      - "scripts/qa_v179_existing_port_info.py"
+      - "scripts/qa_v179_sixteen_public.cjs"
+      - ".github/workflows/v179-four-existing-port-booking-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  original-seo-photo-and-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate four modified originals booking and public build
+        run: |
+          python -m py_compile scripts/qa_v179_existing_port_info.py
+          python scripts/qa_v179_existing_port_info.py
+          node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v179-original-source-audit
+          path: audit-output/v179/
+  public-chromium-16-screens:
+    needs: original-seo-photo-and-build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Run live production responsive 16 screen checks
+        run: |
+          node --check scripts/qa_v179_sixteen_public.cjs
+          node scripts/qa_v179_sixteen_public.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v179-public-four-sixteen-screens
+          path: audit-output/v179-live/
