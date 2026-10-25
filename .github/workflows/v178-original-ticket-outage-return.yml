@@ -1,0 +1,61 @@
+name: V178 four original port tickets outage and return live QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/ofunato-cruise-port-day-trip/index.html"
+      - "site/things-to-do/tsuruga-cruise-port-day-trip/index.html"
+      - "site/things-to-do/sakaiminato-cruise-port-day-trip/index.html"
+      - "site/things-to-do/shimonoseki-cruise-port-day-trip/index.html"
+      - "scripts/qa_v178_original_tickets.py"
+      - "scripts/qa_v178_sixteen_live.cjs"
+      - ".github/workflows/v178-original-ticket-outage-return.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preserve-originals-and-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test preserved originals official links and build
+        run: |
+          python -m py_compile scripts/qa_v178_original_tickets.py
+          python scripts/qa_v178_original_tickets.py
+          node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v178-original-source-audit
+          path: audit-output/v178/
+  test-public-screens:
+    needs: preserve-originals-and-build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 21
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Check deployed 4 pages in 16 viewport screenshots
+        run: |
+          node --check scripts/qa_v178_sixteen_live.cjs
+          node scripts/qa_v178_sixteen_live.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v178-four-public-sixteen-screens
+          path: audit-output/v178-live/
