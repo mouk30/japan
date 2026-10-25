@@ -1,0 +1,61 @@
+name: V180 original 4 ports official booking and public 16 screens
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/himeji-cruise-port-day-trip/index.html"
+      - "site/things-to-do/tokoname-cruise-port-day-trip/index.html"
+      - "site/things-to-do/onahama-cruise-port-day-trip/index.html"
+      - "site/things-to-do/abashiri-cruise-port-day-trip/index.html"
+      - "scripts/qa_v180_official_source_regression.py"
+      - "scripts/qa_v180_public_16.cjs"
+      - ".github/workflows/v180-four-ports-tickets-live-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  original-photo-seo-and-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Ensure original SEO photos licenses links and booking checks
+        run: |
+          python -m py_compile scripts/qa_v180_official_source_regression.py
+          python scripts/qa_v180_official_source_regression.py
+          node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v180-original-source-audit
+          path: audit-output/v180/
+  public-chromium-screens:
+    needs: original-photo-seo-and-build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 21
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Verify 4 publicly deployed pages at 390 768 945 1440
+        run: |
+          node --check scripts/qa_v180_public_16.cjs
+          node scripts/qa_v180_public_16.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v180-live-four-sixteen-screens
+          path: audit-output/v180-public/
