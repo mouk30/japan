@@ -1,0 +1,61 @@
+name: V177 four existing ports real ticket conditions return production QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/things-to-do/muroran-cruise-port-day-trip/index.html"
+      - "site/things-to-do/mojiko-cruise-port-day-trip/index.html"
+      - "site/things-to-do/sakata-cruise-port-day-trip/index.html"
+      - "site/things-to-do/sendai-cruise-port-day-trip/index.html"
+      - "scripts/qa_v177_four_official_tickets.py"
+      - "scripts/qa_v177_sixteen_public.cjs"
+      - ".github/workflows/v177-four-ports-live-booking.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preserve-originals-and-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify official booking links plus immutable photos SEO and static build
+        run: |
+          python -m py_compile scripts/qa_v177_four_official_tickets.py
+          python scripts/qa_v177_four_official_tickets.py
+          node build.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v177-source-preservation
+          path: audit-output/v177/
+  production-16-screens:
+    needs: preserve-originals-and-build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 19
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Capture and check public 390 768 945 1440 pixel guide screens
+        run: |
+          node --check scripts/qa_v177_sixteen_public.cjs
+          node scripts/qa_v177_sixteen_public.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v177-public-four-sixteen-screens
+          path: audit-output/v177-live/
