@@ -1,10 +1,10 @@
 {
-  "run_utc": "2026-10-19T10:17:40.117213+00:00",
+  "run_utc": "2026-10-26T10:31:31.682928+00:00",
   "summary": {
     "pages": 220,
     "official_url_count": 81,
-    "external_urls_http_200": 49,
-    "urls_unknown_or_blocked": 32,
+    "external_urls_http_200": 46,
+    "urls_unknown_or_blocked": 35,
     "local_photos": 8,
     "live_webp_http_ok": 8,
     "hub_http": {
@@ -3252,14 +3252,12 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.tobu-dept.jp/ikebukuro/tnb/language/english.html": {
-          "http_status": 200,
-          "final_url": "https://www.tobu-dept.jp/ikebukuro/tnb/language/english.html",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": null,
+          "reachability": "unknown_network_error",
+          "error": "<urlopen error timed out>"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -3281,14 +3279,12 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.tobu-dept.jp/ikebukuro/tnb/language/english.html": {
-          "http_status": 200,
-          "final_url": "https://www.tobu-dept.jp/ikebukuro/tnb/language/english.html",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": null,
+          "reachability": "unknown_network_error",
+          "error": "<urlopen error timed out>"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -3310,14 +3306,12 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.tobu-dept.jp/ikebukuro/floormap/": {
-          "http_status": 200,
-          "final_url": "https://www.tobu-dept.jp/ikebukuro/floormap/",
-          "content_type": "text/html; charset=utf-8",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": null,
+          "reachability": "unknown_network_error",
+          "error": "<urlopen error timed out>"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -3715,14 +3709,11 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -4366,14 +4357,11 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -4395,14 +4383,11 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -4593,14 +4578,11 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -4706,14 +4688,11 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -4793,14 +4772,11 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -5189,11 +5165,8 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         },
         "https://www.tokyoeki-1bangai.co.jp/": {
           "http_status": 200,
@@ -5203,7 +5176,7 @@
           "reachability": "ok"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -5423,14 +5396,11 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -5496,14 +5466,11 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -5846,14 +5813,11 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -6029,14 +5993,11 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -6103,14 +6064,11 @@
           "reachability": "ok"
         },
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -6203,14 +6161,11 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -6261,14 +6216,11 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -6291,11 +6243,8 @@
       "status": "missing_unique_verified_photo",
       "external_sources_http": {
         "https://www.gourmet.gotokyo.org/": {
-          "http_status": 200,
-          "final_url": "https://www.gourmet.gotokyo.org/",
-          "content_type": "text/html",
-          "valid_webp_header": null,
-          "reachability": "ok"
+          "http_status": 503,
+          "reachability": "http_error"
         },
         "https://www.gotokyo.org/en/": {
           "http_status": 200,
@@ -6305,7 +6254,7 @@
           "reachability": "ok"
         }
       },
-      "external_source_all_http_200": true,
+      "external_source_all_http_200": false,
       "live_photo_http": null,
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
