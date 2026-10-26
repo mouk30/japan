@@ -20,7 +20,39 @@ jobs:
       - uses: actions/checkout@v4
       - name: Inventory 220 source and thumbnail coverage
         run: python3 scripts/audit_tokyo_220_photo_sources.py
+      - name: Publish diagnostic summary even when inventory fails
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          pages = list(Path("site/japan/tokyo").glob("*/index.html"))
+          credits_path = Path("site/tokyo-photo-credits.json")
+          print(f"Tokyo article files: {len(pages)}")
+          print(f"Photo credit manifest exists: {credits_path.is_file()}")
+          if credits_path.is_file():
+              try:
+                  data = json.loads(credits_path.read_text(encoding="utf-8"))
+                  print(f"Photo credit entries: {len(data)}")
+              except (ValueError, OSError) as exc:
+                  print(f"Photo credit manifest error: {exc}")
+          report = Path("audit-reports/tokyo-220-photo-source-audit.json")
+          if report.is_file():
+              print("Audit report produced:", report)
+          with open(__import__("os").environ["GITHUB_STEP_SUMMARY"], "a") as out:
+              out.write(f"Tokyo HTML pages found: {len(pages)}\\n\\n")
+              out.write(f"Photo manifest present: {credits_path.is_file()}\\n\\n")
+              out.write(f"Audit report produced: {report.is_file()}\\n")
+          PY
+      - name: Upload audit report even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tokyo-220-photo-source-diagnostics
+          path: audit-reports/tokyo-220-photo-source-audit.json
+          if-no-files-found: ignore
       - name: Commit audit data
+        if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
