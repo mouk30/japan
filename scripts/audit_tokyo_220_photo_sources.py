@@ -3,7 +3,10 @@
 import json,re,html,pathlib,urllib.request,urllib.error,concurrent.futures
 root=pathlib.Path("site")
 pages=sorted((root/"japan/tokyo").glob("*/index.html"))
-assert len(pages)==220, f"Expected 220, got {len(pages)}"
+expected_pages=220
+count_mismatch=len(pages)!=expected_pages
+if count_mismatch:
+ print(f"WARNING: Expected {expected_pages} Tokyo articles, got {len(pages)}")
 credits=json.loads((root/"tokyo-photo-credits.json").read_text(encoding="utf-8"))
 photos={x["slug"]:x for x in credits}
 report=[]
@@ -26,7 +29,7 @@ for p in pages:
  "photo_source":photo["source"] if present else None,
  "photo_in_live_browser":"not checked",
  "status":"photo_file_checked_only" if present else "missing_unique_verified_photo"})
-counts={"pages":len(report),"valid_local_webp":sum(x["photo_file_valid"] for x in report),
+counts={"pages":len(report),"expected_pages":expected_pages,"page_count_mismatch":count_mismatch,"valid_local_webp":sum(x["photo_file_valid"] for x in report),
 "need_verified_photos":sum(not x["photo_file_valid"] for x in report),
 "with_external_reference":sum(bool(x["related_official_or_reference_urls"]) for x in report),
 "official_conditions_individually_verified":0,
@@ -35,3 +38,9 @@ out=pathlib.Path("audit-reports/tokyo-220-photo-source-audit.json")
 out.parent.mkdir(exist_ok=True)
 out.write_text(json.dumps({"summary":counts,"note":"Do not equate existing external hyperlinks with officially verified operational conditions. Photo names and licences must be checked against original." ,"items":report},ensure_ascii=False,indent=2),encoding="utf-8")
 print(json.dumps(counts,ensure_ascii=False))
+
+priority=sorted((x for x in report if not x["photo_file_valid"]),key=lambda x:(0 if any(k in x["slug"] for k in ("disney","asakusa","shibuya","shinjuku","tokyo-station")) else 1,x["slug"]))
+queue=pathlib.Path("audit-reports/tokyo-photo-review-priority.json")
+queue.write_text(json.dumps({"note":"Local file validation only; photo identity and rights require manual verification","page_count_mismatch":count_mismatch,"items":[{"page":x["page"],"title":x["title"],"reason":x["status"]} for x in priority]},ensure_ascii=False,indent=2),encoding="utf-8")
+if count_mismatch:
+ print("WARNING: Page count mismatch remains unresolved; editorial QA is NOT complete.")
