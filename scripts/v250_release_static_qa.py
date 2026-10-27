@@ -185,7 +185,8 @@ for file in built_files:
    else:counts[tag+'_resources_checked']+=1
  for image in out.images:
   counts['images_checked']+=1
-  if not image.get('alt'):counts['images_without_alt']+=1
+  if 'alt' not in image:counts['images_missing_alt_attribute']+=1;record('image_without_alt_attribute',page+' → '+str(image.get('src','')))
+  elif image.get('alt')=='':counts['decorative_images_empty_alt']+=1
   url=image.get('src') or image.get('data-src')
   if not url:continue
   resolved=normalize_href(page,url)
@@ -194,6 +195,17 @@ for file in built_files:
   if not ok:
    counts['images_missing']+=1
    record('missing_image',page+' → '+url,True)
+
+# Inventory superseded booking notices across the whole existing site, not just new cards.
+stale_operator_pages=[]
+for file in built_files:
+ text=file.read_text('utf-8')
+ if '20261023systemmaintenance.html' in text:
+  stale_operator_pages.append(route_for(file))
+counts['pages_linking_old_kampu_notice']=len(stale_operator_pages)
+if stale_operator_pages:
+ record('old_kampu_notice_legacy_pages',
+        ', '.join(stale_operator_pages[:35]))
 
 # Homepage SEO compared to the exact pre-V246 Git commit (not a model memory).
 try:
