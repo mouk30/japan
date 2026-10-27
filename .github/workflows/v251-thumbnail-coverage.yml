@@ -1,0 +1,70 @@
+name: V251 Tokyo and sitewide image thumbnail release QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/japan/tokyo/index.html'
+      - 'site/japan-cruise/index.html'
+      - 'site/okinawa/index.html'
+      - 'site/nf-v251-card-thumbnails.css'
+      - 'scripts/v251_thumbnail_sitewide_qa.py'
+      - 'scripts/v251_thumbnail_browser_qa.mjs'
+      - '.github/workflows/v251-thumbnail-coverage.yml'
+      - 'build.js'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  whole-site-image-paths:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build unchanged routes into production output
+        run: npm run build
+      - name: Verify image files, card counts, ALT attributes and missing thumbnail inventory
+        run: python3 scripts/v251_thumbnail_sitewide_qa.py
+      - name: Upload sitewide image coverage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v251-all-pages-thumbnail-inventory
+          path: audit-reports/v251/
+          retention-days: 45
+  browser-image-decode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright with existing runner Chrome
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          if command -v google-chrome >/dev/null 2>&1; then
+            echo "NF251_BROWSER_PATH=$(command -v google-chrome)" >> "$GITHUB_ENV"
+          elif command -v chromium >/dev/null 2>&1; then
+            echo "NF251_BROWSER_PATH=$(command -v chromium)" >> "$GITHUB_ENV"
+          else
+            npx playwright install chromium
+          fi
+      - name: Build production HTML
+        run: npm run build
+      - name: Verify seven hubs at 390 and 1440 pixels
+        run: |
+          python3 -m http.server 8768 --bind 127.0.0.1 --directory dist >/tmp/nf251-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 3
+          node scripts/v251_thumbnail_browser_qa.mjs
+      - name: Upload screenshots and real image decode results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v251-hub-browser-image-qa
+          path: audit-reports/v251/
+          retention-days: 45
