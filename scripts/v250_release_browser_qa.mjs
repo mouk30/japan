@@ -141,7 +141,12 @@ try{
   const image=cards.locator('.v65-destinations .v65-photo img').first();
   await image.scrollIntoViewIfNeeded();
   await image.waitFor({state:'visible',timeout:15000});
-  check(await image.evaluate(el=>el.complete&&el.naturalWidth>0),'First editorial destination image failed to load');
+  await image.evaluate(el=>{el.loading='eager'});
+  const photoLoaded=await cards.waitForFunction(()=>{
+   const el=document.querySelector('.v65-destinations .v65-photo img');
+   return !!(el&&el.complete&&el.naturalWidth>0);
+  },null,{timeout:15000}).then(()=>true).catch(()=>false);
+  check(photoLoaded,'First editorial destination image failed to load after 15s');
   check((await cards.locator('.v65-destinations .nf248-photo-note a').getAttribute('href'))==='#nf-v148-photo-credits','Photo credit disclosure missing');
   report.flows.push({name:'V248 editorial cards + image credits',passed:count===8&&themes===6});
  }catch(err){fail('Destination/theme card image flow '+String(err).slice(0,360))}
