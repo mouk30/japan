@@ -96,13 +96,27 @@ for card in p.cards:
 from collections import Counter
 used=Counter(images.values())
 reused={img:n for img,n in used.items() if n>1}
+# Coverage does not imply a topic-exact photograph. List generic images explicitly.
+GENERIC_MARKERS=('아닙니다','아님','참고 사진','관련 역 사진','관련 장소','정보형','실사진 아님')
+subject_mismatch=[]
+for card in p.cards:
+ slug=card['href'].rstrip('/').rsplit('/',1)[-1]
+ if not card['images']:continue
+ alt=card['images'][0].get('alt','')
+ credit=' '.join(card['labels'])
+ if any(w in alt or w in credit for w in GENERIC_MARKERS):
+  subject_mismatch.append({'slug':slug,'image':card['images'][0].get('src',''),
+                           'alt':alt,'credit':credit[:200]})
+subject_image_reuse=[{'image':img,'count':n,'slugs':[slug for slug,src in images.items() if src==img]}
+                    for img,n in sorted(reused.items(),key=lambda item:-item[1])]
+
 src_has_svg=any('.svg' in s for s in images.values())
 if src_has_svg:ISSUES.append('SVG_photographs_remaining')
 report={
  'version':'V252','generated_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),
  'source_commit':subprocess.run(['git','rev-parse','HEAD'],cwd=ROOT,text=True,capture_output=True).stdout.strip(),
  'passed':not ISSUES,'tokyo_hub_cards':len(p.cards),'tokyo_article_pages_checked':len(seen),
- 'image_assets_distinct':len(used),'reused_photos':reused,'issues':ISSUES,
+ 'image_assets_distinct':len(used),'reused_photos':reused,'topic_mismatch_needs_review':subject_mismatch,'repeated_subject_images':subject_image_reuse,'issues':ISSUES,
  'limitations':['Photographic validity and precise subject matching require photo-by-photo visual/editorial review.',
  'A generic related photo is not proof of an exact attraction, store, ticket or current operating condition.']
 }
