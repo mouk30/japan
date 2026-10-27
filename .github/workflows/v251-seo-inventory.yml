@@ -8,6 +8,10 @@ on:
       - 'site/sitemap.xml'
       - 'site/404.html'
       - 'site/index.html'
+      - 'site/japan/tokyo/index.html'
+      - 'site/japan-cruise/index.html'
+      - 'site/okinawa/index.html'
+      - 'site/nf-v251-card-thumbnails.css'
   workflow_dispatch:
 permissions:
   contents: read
