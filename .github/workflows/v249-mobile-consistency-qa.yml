@@ -1,0 +1,45 @@
+name: V249 mobile navigation touch readability and responsive QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/index.html'
+      - 'site/nf-v249-mobile-consistency.css'
+      - 'site/nf-v249-mobile-consistency.js'
+      - 'build.js'
+      - 'scripts/v249_mobile_consistency_qa.mjs'
+      - '.github/workflows/v249-mobile-consistency-qa.yml'
+      - 'scripts/v301-v305-nav.cjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  mobile-consistency-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install real Chromium mobile QA
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build published homepage and shared headers
+        run: npm run build
+      - name: Test header focus, responsive menu, tap targets and card readability
+        run: |
+          python3 -m http.server 8766 --bind 127.0.0.1 --directory dist >/tmp/nf249-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 3
+          node scripts/v249_mobile_consistency_qa.mjs
+      - name: Archive V249 desktop/mobile screen captures and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v249-mobile-navigation-and-readability
+          path: audit-reports/v249/
+          retention-days: 30
+          if-no-files-found: warn
