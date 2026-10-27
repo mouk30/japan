@@ -100,7 +100,7 @@ function enhanceDocument(html,file,out){
  // V246: the homepage has its own accessible maritime navigation.
  // Keep V301–V305 unified headers on every other page; never overwrite the
  // home-only hero/header refresh during the Vercel build.
- if(pathname==='/' && /<header\\b[^>]*class=[\"'][^\"']*\\bnf246-header\\b/.test(html)){
+ if(pathname==='/' && /<header\b[^>]*class=["'][^"']*\bnf246-header\b/.test(html)){
   return {html,modified:false,pathname};
  }
  const hasSiteHeader=/<header\b[^>]*class=["'][^"']*\bsite-header\b/.test(html);
