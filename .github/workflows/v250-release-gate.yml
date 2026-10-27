@@ -18,6 +18,9 @@ on:
       - 'build.js'
       - 'site/nf-v249-mobile-consistency.css'
       - 'site/nf-v249-mobile-consistency.js'
+      - 'site/nf-premium-v2.js'
+      - 'site/v301-nav.js'
+      - 'scripts/v301-v305-nav.cjs'
   workflow_dispatch:
 permissions:
   contents: read
