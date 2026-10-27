@@ -7,7 +7,8 @@ const ORIGIN='http://127.0.0.1:8767';
 const pages=[
  '/','/ferry/','/japan-cruise/','/booking/','/booking/japan-cruise/',
  '/guide/busan-osaka-ferry/','/guide/busan-fukuoka-ferry/','/guide/busan-shimonoseki-ferry/',
- '/guide/busan-tsushima-ferry/','/japan/tokyo/','/japan/osaka/','/japan/fukuoka/',
+ '/guide/busan-tsushima-ferry/','/guide/busan-shimonoseki-ferry-price/','/guide/busan-shimonoseki-timetable/',
+ '/things-to-do/shimonoseki-cruise-port-day-trip/','/japan/tokyo/','/japan/osaka/','/japan/fukuoka/',
  '/okinawa/','/things-to-do/','/things-to-do/cruise-ports/','/things-to-do/travel-companions/'
 ];
 const widths=[320,390,768,1199,1440];
@@ -46,7 +47,7 @@ try{
     if(pathname==='/' || pathname==='/guide/busan-shimonoseki-ferry/'||pathname==='/ferry/'||pathname==='/booking/japan-cruise/'){
      assert(state.h1===1,'Primary travel page H1 count '+state.h1);
     }
-    if(pathname==='/guide/busan-shimonoseki-ferry/'||pathname==='/ferry/'||pathname==='/booking/japan-cruise/'){
+    if(['/guide/busan-shimonoseki-ferry/','/guide/busan-shimonoseki-ferry-price/','/guide/busan-shimonoseki-timetable/','/things-to-do/shimonoseki-cruise-port-day-trip/','/ferry/','/booking/japan-cruise/'].includes(pathname)){
      const booking=await page.evaluate(()=>{
       const h=document.documentElement.innerHTML;
       const all=[...document.querySelectorAll('a[href*="kampuferry.co.jp"]')];
@@ -156,5 +157,5 @@ if(runtimeEvents.length)report.warnings.push({kind:'page_runtime_exceptions_obse
 report.passed=report.errors.length===0;
 fs.writeFileSync(OUT+'/browser-audit.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({passed:report.passed,checks:report.checks.length,passedChecks:report.checks.filter(r=>r.passed).length,
- flowCount:report.flows.length,screenshots:report.screenshots.length,errors:report.errors.slice(0,35),runtimeWarnings:runtimeEvents.length},null,2));
+ flowCount:report.flows.length,screenshots:report.screenshots.length,errors:report.errors.slice(0,35),runtimeWarnings:runtimeEvents.length,runtimeExamples:runtimeEvents.slice(0,6)},null,2));
 if(!report.passed)process.exitCode=1;
