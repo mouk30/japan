@@ -14,8 +14,8 @@ ROOT=Path(__file__).resolve().parents[1]
 SITE="https://www.nipponferry.com"
 CONFIG=ROOT/"scripts/v90_booking_link_targets.json"
 OLD="https://www.kampuferry.co.jp/lang_kor/reserve/"
-NEW="https://kampuferry.co.jp/reserve/"
-EN="https://kampuferry.co.jp/yoyaku/en/reservation.html"
+NEW="https://kampuferry.co.jp/news/20261023systemmaintenance.html"
+EN="https://kampuferry.co.jp/news/20261023systemmaintenance.html"
 SOURCE_PAGES=[
 "site/guide/busan-shimonoseki-ferry/index.html",
 "site/guide/busan-shimonoseki-ferry-price/index.html",
@@ -50,15 +50,15 @@ def verify_sources(root=ROOT):
     cfg=json.loads((root/"scripts/v90_booking_link_targets.json").read_text("utf8"))
     ferry=cfg["routes"]["shimonoseki"]
     if ferry["primary"]!=NEW or ferry["secondary"]!=EN or cfg["hub_route_info"]["shimonoseki"]!=NEW:
-        issues.append("single-source official reservation target registry mismatch")
+        issues.append("single-source official suspension notice target registry mismatch")
     for path in SOURCE_PAGES:
         text=(root/path).read_text("utf8")
         for old in SOURCES_TO_AVOID:
             if old in text:issues.append(path+" still contains refused or unverified Kampu URL "+old)
         parsed=Links();parsed.feed(text)
-        if NEW not in parsed.links:issues.append(path+" missing working official Kampu reservation fallback")
+        if NEW not in parsed.links:issues.append(path+" missing current official Kampu reservation suspension notice")
         if path.endswith("shimonoseki-ferry/index.html"):
-            if EN not in parsed.links:issues.append(path+" missing working official English conditions backup")
+            if EN not in parsed.links:issues.append(path+" missing current official suspension notice")
             if "051-464-2700" not in text:issues.append(path+" missing official 부산 예약 contact fallback")
         if path=="site/ferry/index.html" and len(parsed.canonical)!=1:
             issues.append("ferry hub lost canonical SEO URL")
