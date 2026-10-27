@@ -24,7 +24,7 @@
       "logo": true,
       "overflow": false,
       "cta": false,
-      "headerHeight": 67,
+      "headerHeight": 69,
       "menuVisible": true,
       "status": 200,
       "mobileOpen": true,
@@ -216,7 +216,7 @@
       "logo": true,
       "overflow": false,
       "cta": false,
-      "headerHeight": 71,
+      "headerHeight": 73,
       "menuVisible": true,
       "status": 200,
       "errors": []
@@ -384,7 +384,7 @@
       "logo": true,
       "overflow": false,
       "cta": false,
-      "headerHeight": 79,
+      "headerHeight": 83,
       "menuVisible": false,
       "status": 200,
       "errors": []
