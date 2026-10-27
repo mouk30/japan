@@ -28,7 +28,18 @@ jobs:
       - name: Install link inspection dependencies
         run: python -m pip install requests beautifulsoup4
       - name: Run offline tests for HTTPS operator destinations and error classifications
-        run: python -m unittest discover -s tests -p 'test_v90_booking_destination_health.py' -v
+        run: |
+          set -o pipefail
+          python -m unittest discover -s tests -p 'test_v90_booking_destination_health.py' -v 2>&1 | tee /tmp/v90-offline-tests.log
+      - name: Archive exact offline assertion failures
+        if: always()
+        run: |
+          mkdir -p audit-reports/v90/current
+          if [ -f /tmp/v90-offline-tests.log ]; then
+            cp /tmp/v90-offline-tests.log audit-reports/v90/current/offline-tests.log
+            echo '### V90 exact unittest failures' >> "$GITHUB_STEP_SUMMARY"
+            tail -n 65 /tmp/v90-offline-tests.log >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Diagnose local CTA markup after test failure
         if: failure()
         run: |
