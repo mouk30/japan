@@ -12,7 +12,7 @@ body.nf-premium-v2 :is(.nf246-header,.nf246-hero,.nf247-finder,.v65-destinations
 body.nf-premium-v2 .nf246-header .menu-toggle{
  border:1px solid rgba(243,221,182,.62)!important;
  border-radius:9px!important;background:rgba(255,255,255,.09)!important;
- color:#fff!important;font-size:15px!important;line-height:1.3;
+ color:#fff!important;font-family:inherit!important;font-size:15px!important;line-height:1.3;
  font-weight:810;min-width:52px;min-height:48px;
 }
 body.nf-premium-v2 .nf246-header .nf-toggle-symbol{display:inline-block;min-width:20px;text-align:center;font-size:21px;line-height:1;vertical-align:middle;margin-right:0}
