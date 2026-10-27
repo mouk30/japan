@@ -97,14 +97,14 @@ for slug,photo in results.items():
  start=hub.find('<span class="tky-card-photo">',at)
  end=hub.find('</span></span>',start)+len('</span></span>')
  if start<0 or end<14 or start>at+400:raise RuntimeError("unexpected Tokyo card: "+slug)
- figure='<span class="tky-card-photo"><img src="'+attr(photo["src"])+
+ figure=('<span class="tky-card-photo"><img src="'+attr(photo["src"])+
    '" alt="'+attr(photo["alt"])+
    '" width="720" height="405" loading="lazy" decoding="async"><span class="tky-photo-label">'+
    html.escape(photo["caption"])+'</span></span>'
  hub=hub[:start]+figure+hub[end:]
  f=SITE/"japan/tokyo"/slug/"index.html"
  page=f.read_text("utf-8")
- figure='<figure class="tokyo-article-photo-v1"><img src="'+attr(photo["src"])+
+ figure=('<figure class="tokyo-article-photo-v1"><img src="'+attr(photo["src"])+
    '" alt="'+attr(photo["alt"])+
    '" width="1280" height="720" loading="lazy" decoding="async"><figcaption>'+
    html.escape(photo["caption"])+
