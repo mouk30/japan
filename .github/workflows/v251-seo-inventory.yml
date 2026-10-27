@@ -1,0 +1,36 @@
+name: V251 SEO legacy exceptions and pre-renewal metadata inventory
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v251_seo_exception_audit.py'
+      - '.github/workflows/v251-seo-inventory.yml'
+      - 'site/sitemap.xml'
+      - 'site/404.html'
+      - 'site/index.html'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  legacy-seo-inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build the actual deployed HTML tree
+        run: npm run build
+      - name: Inventory missing SEO fields and compare against pre-V246 source
+        run: python3 scripts/v251_seo_exception_audit.py
+      - name: Retain precise route-by-route evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v251-seo-inventory
+          path: audit-reports/v251/
+          retention-days: 45
+          if-no-files-found: warn
