@@ -1,0 +1,49 @@
+{
+  "replaced": {
+    "tokyo-subway-ticket-24-48-72": {
+      "src": "/images/tokyo-verified/v253-tokyo-subway-ticket-24-48-72.webp",
+      "alt": "2014년 12월 촬영된 도쿄 지하철 3일권 실물 사진. 역사적 디자인 자료이며 2026년 판매권·현행 가격을 나타내지 않습니다.",
+      "caption": "사진: Wei-Te Wong  from Taipei City, Taiwan, Republic of China · CC BY-SA 2.0 · Wikimedia Commons · 2014년 12월 촬영된 도쿄 지하철 3일권 실물 사진. 역사적 디자인 자료이며 2026년 판매권·현행 가격을 나타내지 않습니다.",
+      "source": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E5%9C%B0%E9%90%B5%E4%B8%89%E6%97%A5%E5%88%B8_(16017281139).jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Wei-Te Wong  from Taipei City, Taiwan, Republic of China",
+      "source_file": "File:東京地鐵三日券 (16017281139).jpg",
+      "editorial_note": "2014년 12월 촬영된 도쿄 지하철 3일권 실물 사진. 역사적 디자인 자료이며 2026년 판매권·현행 가격을 나타내지 않습니다."
+    },
+    "disneysea-rapunzel-lantern": {
+      "src": "/images/tokyo-verified/v253-disneysea-rapunzel-lantern.webp",
+      "alt": "2024년 도쿄 디즈니씨 판타지 스프링스 라푼젤의 숲 구역 실제 사진. 랜턴 페스티벌 탑승 장면은 아닙니다.",
+      "caption": "사진: Fred Cherrygarden · CC BY-SA 4.0 · Wikimedia Commons · 2024년 도쿄 디즈니씨 판타지 스프링스 라푼젤의 숲 구역 실제 사진. 랜턴 페스티벌 탑승 장면은 아닙니다.",
+      "source": "https://commons.wikimedia.org/wiki/File:Fantasy_Springs_-_Rapunzel%E2%80%99s_Forest.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Fred Cherrygarden",
+      "source_file": "File:Fantasy Springs - Rapunzel’s Forest.jpg",
+      "editorial_note": "2024년 도쿄 디즈니씨 판타지 스프링스 라푼젤의 숲 구역 실제 사진. 랜턴 페스티벌 탑승 장면은 아닙니다."
+    },
+    "tokyo-mega-donki-shibuya": {
+      "src": "/images/tokyo-verified/v253-tokyo-mega-donki-shibuya.webp",
+      "alt": "시부야 MEGA 돈키호테 본점의 실제 외관 사진(2018년 촬영). 현재 내부 상품과 운영상태는 다를 수 있습니다.",
+      "caption": "사진: WhisperToMe · CC0 · Wikimedia Commons · 시부야 MEGA 돈키호테 본점의 실제 외관 사진(2018년 촬영). 현재 내부 상품과 운영상태는 다를 수 있습니다.",
+      "source": "https://commons.wikimedia.org/wiki/File:Shibuyamegadonkihonten.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "WhisperToMe",
+      "source_file": "File:Shibuyamegadonkihonten.jpg",
+      "editorial_note": "시부야 MEGA 돈키호테 본점의 실제 외관 사진(2018년 촬영). 현재 내부 상품과 운영상태는 다를 수 있습니다."
+    },
+    "muji-ginza-4f-taxfree": {
+      "src": "/images/tokyo-verified/v253-muji-ginza-4f-taxfree.webp",
+      "alt": "2023년 무인양품 긴자점 매장 내 여행가방 진열 사진. 4층 면세 창구 사진은 아닙니다.",
+      "caption": "사진: Nick-D · CC BY-SA 4.0 · Wikimedia Commons · 2023년 무인양품 긴자점 매장 내 여행가방 진열 사진. 4층 면세 창구 사진은 아닙니다.",
+      "source": "https://commons.wikimedia.org/wiki/File:Suitcases_in_the_Muji_Ginza_store_November_2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Nick-D",
+      "source_file": "File:Suitcases in the Muji Ginza store November 2023.jpg",
+      "editorial_note": "2023년 무인양품 긴자점 매장 내 여행가방 진열 사진. 4층 면세 창구 사진은 아닙니다."
+    }
+  },
+  "failures": {}
+}
