@@ -35,6 +35,7 @@ jobs:
       - name: Verify all old refused operator URLs eliminated in repository
         run: python -m unittest discover -s tests -p 'test_v102_kampu_reservation_recovery.py' -v
       - name: Inspect what visitors actually see on five real public pages
+        if: always()
         env:
           REQUIRE_DEPLOYED: ${{ inputs.require_deployed }}
         run: |
