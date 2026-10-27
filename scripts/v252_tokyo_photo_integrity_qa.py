@@ -50,6 +50,13 @@ if '/images/tokyo-editorial/' in html:ISSUES.append('SVG_editorial_assets_refere
 if 'https://www.nipponferry.com/japan/tokyo/' not in html:ISSUES.append('canonical_missing')
 seen={}
 images={}
+# V252 exact licensed subjects must not silently regress to generic placeholder art.
+REQUIRED_EXACT={
+ 'tokyo-melonpan-bakery':'/images/tokyo-verified/v252-tokyo-melonpan-bakery.webp',
+ 'sugamo-jizo-shopping':'/images/tokyo-verified/v252-sugamo-jizo-shopping.webp',
+ 'tokyo-hands-diy-gifts':'/images/tokyo-verified/v252-tokyo-hands-diy-gifts.webp',
+ 'tokyo-drugstore-cosmetics':'/images/tokyo-verified/v252-tokyo-drugstore-cosmetics.webp',
+}
 for card in p.cards:
  href=card['href']
  slug=href.rstrip('/').rsplit('/',1)[-1]
@@ -61,6 +68,8 @@ for card in p.cards:
  img=card['images'][0]
  src=img.get('src','')
  images[slug]=src
+ if slug in REQUIRED_EXACT and src!=REQUIRED_EXACT[slug]:
+  ISSUES.append('exact_subject_photo_regressed:'+slug+':'+src)
  if not src.startswith('/images/') or not src.endswith(('.webp','.jpg','.jpeg','.png')):
   ISSUES.append('card_not_photo:'+slug+':'+src)
  elif not (DIST/src.lstrip('/')).is_file():ISSUES.append('missing_asset:'+slug+':'+src)
@@ -75,6 +84,8 @@ for card in p.cards:
  a=re.search(r'<img\b[^>]*src="([^"]+)"[^>]*>',figure.group(1))
  if not a:ISSUES.append('article_no_image:'+slug);continue
  hero_src=a.group(1)
+ if slug in REQUIRED_EXACT and hero_src!=REQUIRED_EXACT[slug]:
+  ISSUES.append('exact_subject_article_photo_regressed:'+slug+':'+hero_src)
  if not hero_src.startswith('/images/') or not hero_src.endswith(('.webp','.jpg','.jpeg','.png')):
   ISSUES.append('article_non_photo:'+slug+':'+hero_src)
  elif not (DIST/hero_src.lstrip('/')).is_file():ISSUES.append('article_missing_asset:'+slug)
