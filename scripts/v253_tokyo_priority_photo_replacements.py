@@ -20,8 +20,8 @@ SOURCES={
   "File:東京地鐵三日券 (16017281139).jpg",
   "2014년 12월 촬영된 도쿄 지하철 3일권 실물 사진. 역사적 디자인 자료이며 2026년 판매권·현행 가격을 나타내지 않습니다."),
  "disneysea-rapunzel-lantern":(
-  "File:Rapunzel’s Lantern Festival.jpg",
-  "2024년 도쿄 디즈니씨 라푼젤 랜턴 페스티벌 어트랙션의 실제 안내 표지판 사진. 탑승 장면은 아닙니다."),
+  "File:Fantasy Springs - Rapunzel’s Forest.jpg",
+  "2024년 도쿄 디즈니씨 판타지 스프링스 라푼젤의 숲 구역 실제 사진. 랜턴 페스티벌 탑승 장면은 아닙니다."),
  "tokyo-mega-donki-shibuya":(
   "File:Shibuyamegadonkihonten.jpg",
   "시부야 MEGA 돈키호테 본점의 실제 외관 사진(2018년 촬영). 현재 내부 상품과 운영상태는 다를 수 있습니다."),
@@ -79,7 +79,8 @@ for slug,(title,description) in SOURCES.items():
 if failures:
  (OUT/"tokyo-subject-photo-import-errors.json").write_text(
   json.dumps({"downloaded":list(results),"failures":failures},ensure_ascii=False,indent=2)+"\n")
- raise SystemExit("ABORT: Commons provenance/import needs correction: "+str(failures))
+ if len(results)<3:raise SystemExit("ABORT: fewer than three licensed photo replacements verified: "+str(failures))
+ print("V253_PARTIAL_IMPORT",json.dumps(failures,ensure_ascii=False))
 jsfile=SITE/"tokyo-card-photos.js"
 js=jsfile.read_text("utf-8")
 before,tail=js.split("const map=",1)
@@ -125,5 +126,5 @@ jsfile.write_text(before+"const map="+json.dumps(mapping,ensure_ascii=False,sepa
                   ";document.querySelectorAll"+after,"utf-8")
 summary={slug:{k:v for k,v in p.items() if k!="data"} for slug,p in results.items()}
 (OUT/"tokyo-subject-licensed-photos.json").write_text(
- json.dumps({"replaced":summary,"failures":{}},ensure_ascii=False,indent=2)+"\n","utf-8")
-print("V253_SUBJECT_PHOTOS",json.dumps({"replaced":list(summary),"errors":[]},ensure_ascii=False))
+ json.dumps({"replaced":summary,"failures":failures},ensure_ascii=False,indent=2)+"\n","utf-8")
+print("V253_SUBJECT_PHOTOS",json.dumps({"replaced":list(summary),"errors":failures},ensure_ascii=False))
