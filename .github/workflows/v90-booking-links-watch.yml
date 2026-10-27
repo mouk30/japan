@@ -57,6 +57,7 @@ jobs:
                   f.write("- "+json.dumps(item,ensure_ascii=False)+"\\n")
           PY
       - name: Check current operator destinations and 4 route CTA panels
+        if: always()
         id: inspect
         run: python scripts/v90_booking_destination_health.py
       - name: Save full link response and redirect report
