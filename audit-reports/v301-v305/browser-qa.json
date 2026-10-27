@@ -1,50 +1,86 @@
 {
-  "date": "2026-10-27T11:45:24.336Z",
+  "date": "2026-10-27T11:47:33.750Z",
   "siteTotal": 1279,
-  "unifiedHeaders": 1273,
+  "unifiedHeaders": 1272,
   "withoutOriginalHeader": 6,
   "screens": [
     {
       "pathname": "/",
       "width": 320,
-      "issues": [
-        "browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
-      ]
+      "doc": 320,
+      "screen": 320,
+      "navCount": 1,
+      "desktop": "none",
+      "mobile": "flex",
+      "h1": 1,
+      "actions": 2,
+      "quick": 3,
+      "issues": []
     },
     {
       "pathname": "/",
       "width": 390,
-      "issues": [
-        "browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
-      ]
+      "doc": 390,
+      "screen": 390,
+      "navCount": 1,
+      "desktop": "none",
+      "mobile": "flex",
+      "h1": 1,
+      "actions": 2,
+      "quick": 3,
+      "issues": []
     },
     {
       "pathname": "/",
       "width": 768,
-      "issues": [
-        "browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
-      ]
+      "doc": 768,
+      "screen": 768,
+      "navCount": 1,
+      "desktop": "none",
+      "mobile": "block",
+      "h1": 1,
+      "actions": 2,
+      "quick": 3,
+      "issues": []
     },
     {
       "pathname": "/",
       "width": 1024,
-      "issues": [
-        "browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
-      ]
+      "doc": 1024,
+      "screen": 1024,
+      "navCount": 1,
+      "desktop": "none",
+      "mobile": "block",
+      "h1": 1,
+      "actions": 2,
+      "quick": 3,
+      "issues": []
     },
     {
       "pathname": "/",
       "width": 1200,
-      "issues": [
-        "browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
-      ]
+      "doc": 1200,
+      "screen": 1200,
+      "navCount": 1,
+      "desktop": "flex",
+      "mobile": "none",
+      "h1": 1,
+      "actions": 2,
+      "quick": 3,
+      "issues": []
     },
     {
       "pathname": "/",
       "width": 1440,
-      "issues": [
-        "browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
-      ]
+      "doc": 1440,
+      "screen": 1440,
+      "navCount": 1,
+      "desktop": "flex",
+      "mobile": "none",
+      "h1": 1,
+      "actions": 2,
+      "quick": 3,
+      "issues": []
     },
     {
       "pathname": "/japan/",
@@ -2213,23 +2249,13 @@
       "issues": []
     }
   ],
-  "errors": [
-    "index.html: original header not upgraded",
-    "index.html: header duplication",
-    "index.html: CSS/JS not loaded",
-    "index.html: 2nd nav missing",
-    "/ 320: browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n",
-    "/ 390: browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n",
-    "/ 768: browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n",
-    "/ 1024: browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n",
-    "/ 1200: browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n",
-    "/ 1440: browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
-  ],
+  "errors": [],
   "warnings": [],
   "navDestinations": [
     "/",
     "/booking/japan-cruise/",
     "/couple/",
+    "/ferry/",
     "/food/",
     "/japan-cruise/",
     "/japan/",
@@ -2240,6 +2266,7 @@
     "/japan/shimonoseki/",
     "/japan/tokyo/",
     "/japan/tsushima/",
+    "/kids/",
     "/life/",
     "/okinawa/",
     "/photo-spots/",
@@ -2260,5 +2287,6 @@
     "V304",
     "V305"
   ],
-  "passed": false
+  "homeV246": true,
+  "passed": true
 }
