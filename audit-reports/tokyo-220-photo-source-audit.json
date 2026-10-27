@@ -1,10 +1,13 @@
 {
   "summary": {
-    "pages": 221,
+    "pages": 220,
     "expected_pages": 220,
-    "page_count_mismatch": true,
+    "page_count_mismatch": false,
+    "excluded_non_article_pages": [
+      "photo-review"
+    ],
     "valid_local_webp": 8,
-    "need_verified_photos": 213,
+    "need_verified_photos": 212,
     "with_external_reference": 220,
     "official_conditions_individually_verified": 0,
     "live_browser_render_checked": 0
@@ -1646,19 +1649,6 @@
         "https://www.jreast.co.jp/e/",
         "https://www.pasmo.co.jp/visitors/en/"
       ],
-      "source_reachable": "not checked",
-      "photo_file_valid": false,
-      "photo_path": null,
-      "photo_license": null,
-      "photo_source": null,
-      "photo_in_live_browser": "not checked",
-      "status": "missing_unique_verified_photo"
-    },
-    {
-      "slug": "photo-review",
-      "title": "도쿄 여행 사진 원본 대조 검수판",
-      "page": "/japan/tokyo/photo-review/",
-      "related_official_or_reference_urls": [],
       "source_reachable": "not checked",
       "photo_file_valid": false,
       "photo_path": null,

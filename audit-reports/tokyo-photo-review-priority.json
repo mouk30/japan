@@ -1,6 +1,6 @@
 {
   "note": "Local file validation only; photo identity and rights require manual verification",
-  "page_count_mismatch": true,
+  "page_count_mismatch": false,
   "items": [
     {
       "page": "/japan/tokyo/asakusa-nakamise-backstreets/",
@@ -610,11 +610,6 @@
     {
       "page": "/japan/tokyo/pasmo-vs-suica-card/",
       "title": "PASMO·Suica 충전·구입·환불과 모바일 호환",
-      "reason": "missing_unique_verified_photo"
-    },
-    {
-      "page": "/japan/tokyo/photo-review/",
-      "title": "도쿄 여행 사진 원본 대조 검수판",
       "reason": "missing_unique_verified_photo"
     },
     {
