@@ -1,0 +1,91 @@
+name: V252 all-site regression and Tokyo 220 photographic release gate
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/japan/tokyo/**'
+      - 'site/tokyo-card-photos.js'
+      - 'site/japan-cruise/**'
+      - 'site/okinawa/**'
+      - 'site/nf-v252-article-media.css'
+      - 'scripts/v252_tokyo_photo_integrity_qa.py'
+      - 'scripts/v252_tokyo_220_photo_browser_qa.mjs'
+      - '.github/workflows/v252-holistic-photo-and-seo-release.yml'
+      - 'build.js'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  full-site-seo-booking-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build exact deployment output
+        run: npm run build
+      - name: Re-run V250 all pages SEO internal links and booking
+        run: python3 scripts/v250_release_static_qa.py
+      - name: Re-run V251 image files and seven hub thumbnail cohorts
+        run: python3 scripts/v251_thumbnail_sitewide_qa.py
+      - name: Block all remaining Tokyo non-photographic card and article heroes
+        run: python3 scripts/v252_tokyo_photo_integrity_qa.py
+      - name: Retain complete release audit artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v252-sitewide-static-and-tokyo-220
+          path: |
+            audit-reports/v250/
+            audit-reports/v251/
+            audit-reports/v252/
+          retention-days: 45
+  complete-tokyo-photo-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright and select runner Chrome
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          if command -v google-chrome >/dev/null 2>&1; then
+            echo "NF252_BROWSER_PATH=$(command -v google-chrome)" >> "$GITHUB_ENV"
+            echo "NF250_BROWSER_PATH=$(command -v google-chrome)" >> "$GITHUB_ENV"
+          elif command -v chromium >/dev/null 2>&1; then
+            echo "NF252_BROWSER_PATH=$(command -v chromium)" >> "$GITHUB_ENV"
+            echo "NF250_BROWSER_PATH=$(command -v chromium)" >> "$GITHUB_ENV"
+          else
+            npx playwright install chromium
+          fi
+      - name: Build deployment output
+        run: npm run build
+      - name: Decode all 220 Tokyo thumbnails at both phone and desktop widths
+        run: |
+          python3 -m http.server 8772 --bind 127.0.0.1 --directory dist >/tmp/nf252-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 3
+          node scripts/v252_tokyo_220_photo_browser_qa.mjs
+      - name: Re-run V250 mobile headers and traveler booking journeys
+        run: |
+          python3 -m http.server 8767 --bind 127.0.0.1 --directory dist >/tmp/nf250-v252-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 3
+          node scripts/v250_release_browser_qa.mjs
+      - name: Retain browser screenshots and runtime exception evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v252-tokyo-220-browser-and-mobile-booking
+          path: |
+            audit-reports/v252/
+            audit-reports/v250/browser-audit.json
+          retention-days: 45
