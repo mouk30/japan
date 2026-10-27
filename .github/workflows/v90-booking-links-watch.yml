@@ -75,7 +75,7 @@ jobs:
             cat audit-reports/v90/current/summary.md >> "$GITHUB_STEP_SUMMARY"
           fi
       - name: Open or update issue only for actionable broken/misdirected links
-        if: steps.inspect.outputs.attention == 'true'
+        if: always() && steps.inspect.outputs.attention == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           FINGERPRINT: ${{ steps.inspect.outputs.fingerprint }}
