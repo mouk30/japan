@@ -100,7 +100,7 @@ for slug,photo in results.items():
  figure=('<span class="tky-card-photo"><img src="'+attr(photo["src"])+
    '" alt="'+attr(photo["alt"])+
    '" width="720" height="405" loading="lazy" decoding="async"><span class="tky-photo-label">'+
-   html.escape(photo["caption"])+'</span></span>'
+   html.escape(photo["caption"])+'</span></span>')
  hub=hub[:start]+figure+hub[end:]
  f=SITE/"japan/tokyo"/slug/"index.html"
  page=f.read_text("utf-8")
@@ -109,7 +109,7 @@ for slug,photo in results.items():
    '" width="1280" height="720" loading="lazy" decoding="async"><figcaption>'+
    html.escape(photo["caption"])+
    ' · <a href="'+attr(photo["source"])+
-   '" target="_blank" rel="noopener noreferrer">사진 원본 및 이용허가</a></figcaption></figure>'
+   '" target="_blank" rel="noopener noreferrer">사진 원본 및 이용허가</a></figcaption></figure>')
  page,count=re.subn(r'<figure class="tokyo-article-photo-v1">[\s\S]*?</figure>',
                    lambda _:figure,page,count=1)
  if count!=1:raise RuntimeError("article lead figure missing: "+slug)
