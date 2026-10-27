@@ -23,8 +23,8 @@ class V90Tests(unittest.TestCase):
     def test_v101_previous_refused_korean_link_is_no_longer_used(self):
         old = "https://www.kampuferry.co.jp/lang_kor/reserve/"
         self.assertNotEqual(cfg["routes"]["shimonoseki"]["primary"],old)
-        self.assertEqual(cfg["routes"]["shimonoseki"]["primary"],"https://kampuferry.co.jp/reserve/")
-        self.assertEqual(cfg["routes"]["shimonoseki"]["secondary"],"https://kampuferry.co.jp/yoyaku/en/reservation.html")
+        self.assertEqual(cfg["routes"]["shimonoseki"]["primary"],"https://kampuferry.co.jp/news/20261023systemmaintenance.html")
+        self.assertEqual(cfg["routes"]["shimonoseki"]["secondary"],"https://kampuferry.co.jp/news/20261023systemmaintenance.html")
         for path in [
           "site/guide/busan-shimonoseki-ferry/index.html",
           "site/guide/busan-shimonoseki-ferry-price/index.html",
