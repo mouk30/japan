@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'site/index.html'
+      - 'site/sitemap.xml'
       - 'site/ferry/index.html'
       - 'site/booking/japan-cruise/index.html'
       - 'site/guide/busan-shimonoseki-ferry/index.html'
