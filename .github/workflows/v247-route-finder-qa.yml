@@ -1,0 +1,45 @@
+name: V247 route explorer real-browser and link QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/index.html'
+      - 'site/nf-v247-routes.css'
+      - 'site/nf-v247-routes.js'
+      - 'scripts/v247_route_finder_qa.mjs'
+      - '.github/workflows/v247-route-finder-qa.yml'
+      - 'build.js'
+      - 'scripts/v301-v305-nav.cjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  route-finder-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install route finder browser QA tools
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build the actual published site
+        run: npm run build
+      - name: Verify real selectors, 18 route links and six screen widths
+        run: |
+          python3 -m http.server 8764 --bind 127.0.0.1 --directory dist >/tmp/nf247-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 3
+          node scripts/v247_route_finder_qa.mjs
+      - name: Archive V247 screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v247-route-explorer-ui-and-trust
+          path: audit-reports/v247/
+          retention-days: 30
+          if-no-files-found: warn
