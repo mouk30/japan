@@ -50,6 +50,13 @@ try{
     const name=path.replaceAll('/','-').replace(/^-|-$/g,'')+'-'+width+'.png';
     await page.screenshot({path:OUT+'/'+name,fullPage:false,animations:'disabled'});
     screenshots.push(name);
+    // Explicit card-grid screenshot: verifies thumbnails rather than only the hero.
+    if(n>0){
+     await imgs.first().scrollIntoViewIfNeeded();
+     const gridName=name.replace('.png','-cards.png');
+     await page.screenshot({path:OUT+'/'+gridName,fullPage:false,animations:'disabled'});
+     screenshots.push(gridName);
+    }
     results.push({path,width,pictured:n,expected,samples_checked:samples.length,passed:cases.length===0,issues:cases});
     for(const x of cases)errors.push(path+' @ '+width+': '+x);
    }catch(e){errors.push(path+' @ '+width+': browser exception '+String(e).slice(0,380));results.push({path,width,passed:false,issues:[String(e)]})}
