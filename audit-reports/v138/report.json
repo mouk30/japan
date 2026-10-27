@@ -1,6 +1,6 @@
 {
   "version": "V138",
-  "generated_at": "2026-10-24T00:46:34.557Z",
+  "generated_at": "2026-10-27T11:50:36.946Z",
   "viewports": [
     {
       "width": 320,
@@ -11,29 +11,29 @@
           "x": 0,
           "y": 67,
           "w": 320,
-          "h": 463.40625,
+          "h": 650,
           "right": 320
         },
         "titleRect": {
           "x": 16,
-          "y": 162,
+          "y": 169.9375,
           "w": 288,
           "h": 70.78125,
           "right": 304
         },
         "titleFont": 30,
-        "titleText": "바다를 따라 만나는 일본,\n크루즈·연안페리 여행",
-        "background": "linear-gradient(rgba(3, 27, 48, 0.88), rgba(5, 34, 57, 0.75) 49%, rgba(5, 35, 61, 0.6)), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
+        "titleText": "일본으로 떠나는 여행,\n바다에서 시작됩니다.",
+        "background": "linear-gradient(rgba(4, 27, 46, 0.86) 0%, rgba(5, 32, 54, 0.7) 53%, rgba(5, 35, 58, 0.64) 100%), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
         "mainLink": "/japan-cruise/"
       },
       "menu": {
         "buttonVisible": true,
         "buttonRect": {
-          "x": 241,
-          "y": 10,
-          "w": 69,
-          "h": 46,
-          "right": 310
+          "x": 221,
+          "y": 11,
+          "w": 75,
+          "h": 44,
+          "right": 296
         },
         "navDisplay": "none",
         "navMaxHeight": "830px"
@@ -43,14 +43,14 @@
         "cardDirection": "column",
         "cardRect": {
           "x": 16,
-          "y": 4270,
+          "y": 4456.59375,
           "w": 288,
           "h": 404.296875,
           "right": 304
         },
         "photoRect": {
           "x": 17,
-          "y": 4271,
+          "y": 4457.59375,
           "w": 286,
           "h": 178.75,
           "right": 303
@@ -64,7 +64,7 @@
         "columns": "284px",
         "cardRect": {
           "x": 18,
-          "y": 739.1875,
+          "y": 925.78125,
           "w": 284,
           "h": 325,
           "right": 302
@@ -90,29 +90,29 @@
           "x": 0,
           "y": 67,
           "w": 360,
-          "h": 422.03125,
+          "h": 650,
           "right": 360
         },
         "titleRect": {
           "x": 16,
-          "y": 146.5,
+          "y": 169.9375,
           "w": 328,
           "h": 70.78125,
           "right": 344
         },
         "titleFont": 30,
-        "titleText": "바다를 따라 만나는 일본,\n크루즈·연안페리 여행",
-        "background": "linear-gradient(rgba(3, 27, 48, 0.88), rgba(5, 34, 57, 0.75) 49%, rgba(5, 35, 61, 0.6)), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
+        "titleText": "일본으로 떠나는 여행,\n바다에서 시작됩니다.",
+        "background": "linear-gradient(rgba(4, 27, 46, 0.86) 0%, rgba(5, 32, 54, 0.7) 53%, rgba(5, 35, 58, 0.64) 100%), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
         "mainLink": "/japan-cruise/"
       },
       "menu": {
         "buttonVisible": true,
         "buttonRect": {
-          "x": 281,
-          "y": 10,
-          "w": 69,
-          "h": 46,
-          "right": 350
+          "x": 261,
+          "y": 11,
+          "w": 75,
+          "h": 44,
+          "right": 336
         },
         "navDisplay": "none",
         "navMaxHeight": "830px"
@@ -122,14 +122,14 @@
         "cardDirection": "column",
         "cardRect": {
           "x": 16,
-          "y": 4207.4375,
+          "y": 4435.40625,
           "w": 328,
           "h": 429.296875,
           "right": 344
         },
         "photoRect": {
           "x": 17,
-          "y": 4208.4375,
+          "y": 4436.40625,
           "w": 326,
           "h": 203.75,
           "right": 343
@@ -143,7 +143,7 @@
         "columns": "324px",
         "cardRect": {
           "x": 18,
-          "y": 670.625,
+          "y": 898.59375,
           "w": 324,
           "h": 325,
           "right": 342
@@ -169,29 +169,29 @@
           "x": 0,
           "y": 67,
           "w": 390,
-          "h": 428.40625,
+          "h": 650,
           "right": 390
         },
         "titleRect": {
           "x": 20,
-          "y": 146.5,
+          "y": 171.5,
           "w": 350,
           "h": 75.46875,
           "right": 370
         },
         "titleFont": 31.98,
-        "titleText": "바다를 따라 만나는 일본,\n크루즈·연안페리 여행",
-        "background": "linear-gradient(rgba(3, 27, 48, 0.88), rgba(5, 34, 57, 0.75) 49%, rgba(5, 35, 61, 0.6)), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
+        "titleText": "일본으로 떠나는 여행,\n바다에서 시작됩니다.",
+        "background": "linear-gradient(rgba(4, 27, 46, 0.86) 0%, rgba(5, 32, 54, 0.7) 53%, rgba(5, 35, 58, 0.64) 100%), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
         "mainLink": "/japan-cruise/"
       },
       "menu": {
         "buttonVisible": true,
         "buttonRect": {
-          "x": 303,
-          "y": 10,
-          "w": 73,
-          "h": 46,
-          "right": 376
+          "x": 287,
+          "y": 11,
+          "w": 79,
+          "h": 44,
+          "right": 366
         },
         "navDisplay": "none",
         "navMaxHeight": "830px"
@@ -201,14 +201,14 @@
         "cardDirection": "column",
         "cardRect": {
           "x": 16,
-          "y": 4126.328125,
+          "y": 4347.921875,
           "w": 358,
           "h": 448.046875,
           "right": 374
         },
         "photoRect": {
           "x": 17,
-          "y": 4127.328125,
+          "y": 4348.921875,
           "w": 356,
           "h": 222.5,
           "right": 373
@@ -222,7 +222,7 @@
         "columns": "354px",
         "cardRect": {
           "x": 18,
-          "y": 681,
+          "y": 902.59375,
           "w": 354,
           "h": 310,
           "right": 372
@@ -248,29 +248,29 @@
           "x": 0,
           "y": 67,
           "w": 430,
-          "h": 436.15625,
+          "h": 650,
           "right": 430
         },
         "titleRect": {
           "x": 20,
-          "y": 146.5,
+          "y": 171.5,
           "w": 390,
           "h": 83.21875,
           "right": 410
         },
         "titleFont": 35.26,
-        "titleText": "바다를 따라 만나는 일본,\n크루즈·연안페리 여행",
-        "background": "linear-gradient(rgba(3, 27, 48, 0.88), rgba(5, 34, 57, 0.75) 49%, rgba(5, 35, 61, 0.6)), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
+        "titleText": "일본으로 떠나는 여행,\n바다에서 시작됩니다.",
+        "background": "linear-gradient(rgba(4, 27, 46, 0.86) 0%, rgba(5, 32, 54, 0.7) 53%, rgba(5, 35, 58, 0.64) 100%), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
         "mainLink": "/japan-cruise/"
       },
       "menu": {
         "buttonVisible": true,
         "buttonRect": {
-          "x": 343,
-          "y": 10,
-          "w": 73,
-          "h": 46,
-          "right": 416
+          "x": 327,
+          "y": 11,
+          "w": 79,
+          "h": 44,
+          "right": 406
         },
         "navDisplay": "none",
         "navMaxHeight": "830px"
@@ -280,14 +280,14 @@
         "cardDirection": "column",
         "cardRect": {
           "x": 16,
-          "y": 4068.34375,
+          "y": 4282.1875,
           "w": 398,
           "h": 447.875,
           "right": 414
         },
         "photoRect": {
           "x": 17,
-          "y": 4069.34375,
+          "y": 4283.1875,
           "w": 396,
           "h": 247.5,
           "right": 413
@@ -301,7 +301,7 @@
         "columns": "394px",
         "cardRect": {
           "x": 18,
-          "y": 696.1875,
+          "y": 910.03125,
           "w": 394,
           "h": 310,
           "right": 412
@@ -327,29 +327,29 @@
           "x": 0,
           "y": 71,
           "w": 768,
-          "h": 576,
+          "h": 680,
           "right": 768
         },
         "titleRect": {
           "x": 20,
-          "y": 215.59375,
+          "y": 233.796875,
           "w": 728,
           "h": 98.25,
           "right": 748
         },
         "titleFont": 42,
-        "titleText": "바다를 따라 만나는 일본,\n크루즈·연안페리 여행",
-        "background": "linear-gradient(90deg, rgba(3, 26, 50, 0.88) 0%, rgba(5, 37, 69, 0.69) 35%, rgba(4, 43, 77, 0.17) 65%, rgba(4, 38, 70, 0.04) 100%), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
+        "titleText": "일본으로 떠나는 여행,\n바다에서 시작됩니다.",
+        "background": "linear-gradient(95deg, rgba(4, 27, 46, 0.94) 0%, rgba(5, 35, 60, 0.79) 36%, rgba(5, 41, 67, 0.24) 72%, rgba(4, 29, 48, 0.08) 100%), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
         "mainLink": "/japan-cruise/"
       },
       "menu": {
         "buttonVisible": true,
         "buttonRect": {
-          "x": 669,
+          "x": 665,
           "y": 11,
           "w": 79,
           "h": 48,
-          "right": 748
+          "right": 744
         },
         "navDisplay": "none",
         "navMaxHeight": "822px"
@@ -359,14 +359,14 @@
         "cardDirection": "column",
         "cardRect": {
           "x": 20,
-          "y": 3600.671875,
+          "y": 3704.671875,
           "w": 728,
           "h": 641.515625,
           "right": 748
         },
         "photoRect": {
           "x": 21,
-          "y": 3601.671875,
+          "y": 3705.671875,
           "w": 726,
           "h": 453.75,
           "right": 747
@@ -380,7 +380,7 @@
         "columns": "728px",
         "cardRect": {
           "x": 20,
-          "y": 816.21875,
+          "y": 920.21875,
           "w": 728,
           "h": 420,
           "right": 748
@@ -404,21 +404,21 @@
       "hero": {
         "rect": {
           "x": 0,
-          "y": 79,
+          "y": 83,
           "w": 1440,
-          "h": 595.25,
+          "h": 735.703125,
           "right": 1440
         },
         "titleRect": {
-          "x": 40,
-          "y": 196.140625,
-          "w": 760,
+          "x": 60,
+          "y": 238.796875,
+          "w": 780,
           "h": 154.96875,
-          "right": 800
+          "right": 840
         },
         "titleFont": 66.24,
-        "titleText": "바다를 따라 만나는 일본,\n크루즈·연안페리 여행",
-        "background": "linear-gradient(90deg, rgba(3, 26, 50, 0.88) 0%, rgba(5, 37, 69, 0.69) 35%, rgba(4, 43, 77, 0.17) 65%, rgba(4, 38, 70, 0.04) 100%), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
+        "titleText": "일본으로 떠나는 여행,\n바다에서 시작됩니다.",
+        "background": "linear-gradient(95deg, rgba(4, 27, 46, 0.94) 0%, rgba(5, 35, 60, 0.79) 36%, rgba(5, 41, 67, 0.24) 72%, rgba(4, 29, 48, 0.08) 100%), url(\"http://127.0.0.1:8757/images/nipponferry-hero-cruise-arrival.webp\")",
         "mainLink": "/japan-cruise/"
       },
       "menu": {
@@ -438,14 +438,14 @@
         "cardDirection": "row",
         "cardRect": {
           "x": 40,
-          "y": 3196.640625,
+          "y": 3341.09375,
           "w": 1360,
           "h": 273.578125,
           "right": 1400
         },
         "photoRect": {
           "x": 41,
-          "y": 3197.640625,
+          "y": 3342.09375,
           "w": 434.546875,
           "h": 271.578125,
           "right": 475.546875
@@ -459,7 +459,7 @@
         "columns": "668px 668px",
         "cardRect": {
           "x": 40,
-          "y": 862.09375,
+          "y": 1006.546875,
           "w": 668,
           "h": 460.796875,
           "right": 708
