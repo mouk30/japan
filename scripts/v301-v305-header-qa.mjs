@@ -21,6 +21,20 @@ for(const file of pages){
  const built=fs.readFileSync(file,'utf8');
  const src=fs.existsSync(original)?fs.readFileSync(original,'utf8'):'';
  const origHeader=/<header\b[^>]*class=["'][^"']*\bsite-header\b/.test(src);
+ if(rel==='index.html' && built.includes('nf246-header')){
+  report.homeV246=true;
+  if(!built.includes('<link rel="stylesheet" href="/nf-v246-home.css?v=20261027">'))report.errors.push('home: V246 stylesheet missing');
+  if(!built.includes('class="nf-premium-hero nf246-hero"'))report.errors.push('home: V246 hero missing');
+  if(!built.includes('id="nf-mobile-menu"'))report.errors.push('home: mobile menu missing');
+  if(!built.includes('href="/booking/japan-cruise/"'))report.errors.push('home: booking guidance missing');
+  const srcCan=src.match(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)/)?.[1];
+  const buildCan=built.match(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)/)?.[1];
+  if(srcCan!==buildCan)report.errors.push('home: changed canonical');
+  if(src.match(/<title>(.*?)<\/title>/)?.[1]!==built.match(/<title>(.*?)<\/title>/)?.[1])report.errors.push('home: changed title');
+  const head=built.match(/<header\b[^>]*class=["'][^"']*nf246-header[\s\S]*?<\/header>/)?.[0]||'';
+  for(const m of head.matchAll(/<a\b[^>]*href="([^"]+)"/g))urls.add(m[1].split('#')[0].split('?')[0]);
+  continue;
+ }
  if(origHeader||rel.startsWith('things-to-do/')){
   report.unifiedHeaders++;
   if(!built.includes('data-nf301="v305"'))report.errors.push(rel+': original header not upgraded');
@@ -51,6 +65,43 @@ try{
    const issues=[];
    try{
     const res=await pg.goto('http://127.0.0.1:8763'+pathname,{waitUntil:'domcontentloaded',timeout:24000});
+    if(pathname==='/'){
+     await pg.locator('.nf246-header').waitFor({timeout:9000});
+     const v=await pg.evaluate(()=>({
+      doc:document.documentElement.scrollWidth,screen:innerWidth,
+      navCount:document.querySelectorAll('.nf246-header').length,
+      desktop:getComputedStyle(document.querySelector('.nf246-header .desktop-nav')).display,
+      mobile:getComputedStyle(document.querySelector('.nf246-header .menu-toggle')).display,
+      h1:document.querySelectorAll('.nf246-hero h1').length,
+      actions:document.querySelectorAll('.nf246-hero .nf-hero-actions a').length,
+      quick:document.querySelectorAll('.nf246-hero-rail a').length
+     }));
+     if(res.status()!==200)issues.push('HTTP '+res.status());
+     if(v.doc>width+2)issues.push('horizontal overflow '+v.doc);
+     if(v.navCount!==1||v.h1!==1||v.actions!==2||v.quick!==3)issues.push('V246 header/hero structure');
+     if(width>=1200){
+      if(v.desktop==='none'||v.mobile!=='none')issues.push('V246 desktop nav visibility');
+      const topic=pg.locator('.nf246-topic');
+      await topic.locator('summary').click();
+      if(!await topic.locator('.nf246-topic-links a[href="/kids/"]').isVisible())issues.push('V246 theme dropdown unavailable');
+      await pg.keyboard.press('Escape');
+      if(await topic.getAttribute('open')!==null)issues.push('V246 Escape did not close dropdown');
+      if(width===1440)await pg.screenshot({path:OUT+'/v246-home-desktop-1440.png',fullPage:false});
+     }else{
+      if(v.desktop!=='none'||v.mobile==='none')issues.push('V246 mobile nav visibility');
+      const toggle=pg.locator('.nf246-header .menu-toggle');
+      await toggle.click();
+      if(await toggle.getAttribute('aria-expanded')!=='true')issues.push('V246 mobile aria not expanded');
+      if(!await pg.locator('#nf-mobile-menu a[href="/kids/"]').isVisible())issues.push('V246 mobile kids link hidden');
+      if([320,390,768].includes(width))await pg.screenshot({path:OUT+'/v246-mobile-menu-'+width+'.png',fullPage:false});
+      await pg.keyboard.press('Escape');
+      if(await toggle.getAttribute('aria-expanded')!=='false')issues.push('V246 mobile Escape aria');
+     }
+     report.screens.push({pathname,width,...v,issues});
+     for(const msg of issues)report.errors.push(pathname+' '+width+': '+msg);
+     await pg.close();
+     continue;
+    }
     await pg.locator('.nf301-header').waitFor({timeout:9000});
     const el=await pg.evaluate(()=>{
      const h=document.querySelector('.nf301-header'),
