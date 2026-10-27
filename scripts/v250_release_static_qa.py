@@ -205,8 +205,8 @@ for file in built_files:
 counts['pages_linking_old_kampu_notice']=len(stale_operator_pages)
 print('V250_STALE_OPERATOR_NOTICE_PAGES',json.dumps(stale_operator_pages,ensure_ascii=False))
 if stale_operator_pages:
- record('old_kampu_notice_legacy_pages',
-        ', '.join(stale_operator_pages[:35]))
+ record('outdated_operator_notice_link',
+        ', '.join(stale_operator_pages[:35]),True)
 
 # Homepage SEO compared to the exact pre-V246 Git commit (not a model memory).
 try:
