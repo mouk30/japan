@@ -1,0 +1,46 @@
+name: V253 verified Tokyo subject photos and duplicate cleanup
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v253_tokyo_priority_photo_replacements.py'
+      - '.github/workflows/v253-tokyo-subject-photo-import.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: v253-tokyo-photo-import
+  cancel-in-progress: false
+jobs:
+  licensed-photo-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install image conversion library
+        run: pip install pillow
+      - name: License and subject-verify then create optimized photographic assets
+        run: python scripts/v253_tokyo_priority_photo_replacements.py
+      - name: Publish verified image assets and update existing Tokyo routes only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/tokyo-verified/v253-*.webp site/tokyo-card-photos.js site/japan/tokyo/index.html site/japan/tokyo/*/index.html audit-reports/v253/tokyo-subject-licensed-photos.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V253: replace four Tokyo repeated thumbnails with licensed relevant photographs"
+            git pull --rebase origin main
+            git push
+          fi
+      - name: Preserve source licenses, import status and attribution details
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v253-tokyo-photo-license-provenance
+          path: audit-reports/v253/*.json
+          retention-days: 45
+          if-no-files-found: warn
