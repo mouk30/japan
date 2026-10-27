@@ -1,7 +1,7 @@
 {
   "version": "V101",
-  "reviewed_at": "2026-10-22",
-  "scope": "Existing route booking CTAs only. Does not reserve seats or confirm live availability.",
+  "reviewed_at": "2026-10-27",
+  "scope": "Existing route booking CTAs only. Kampu internet booking suspended since 2026-10-23; notice directs customers to current phone/email channels. Does not reserve seats or confirm availability.",
   "routes": {
     "osaka": {
       "primary": "https://www.panstarcruise.com/",
@@ -18,8 +18,8 @@
       "secondary_kind": "operator_home"
     },
     "shimonoseki": {
-      "primary": "https://kampuferry.co.jp/reserve/",
-      "secondary": "https://kampuferry.co.jp/yoyaku/en/reservation.html",
+      "primary": "https://kampuferry.co.jp/news/20261023systemmaintenance.html",
+      "secondary": "https://kampuferry.co.jp/news/20261023systemmaintenance.html",
       "provider": "kampuferry",
       "primary_kind": "reservation_instructions",
       "secondary_kind": "reservation_instructions"
@@ -76,7 +76,7 @@
   "hub_route_info": {
     "osaka": "https://www.panstarcruise.com/product/osaka/info",
     "fukuoka": "https://www.koreaferry.kr/",
-    "shimonoseki": "https://kampuferry.co.jp/reserve/",
+    "shimonoseki": "https://kampuferry.co.jp/news/20261023systemmaintenance.html",
     "tsushima": "https://www.panstarcruise.com/product/daemado/info"
   }
 }
