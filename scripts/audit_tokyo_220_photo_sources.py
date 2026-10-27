@@ -2,7 +2,9 @@
 """Audit every Tokyo page for exact image availability and source links; fail closed."""
 import json,re,html,pathlib,urllib.request,urllib.error,concurrent.futures
 root=pathlib.Path("site")
-pages=sorted((root/"japan/tokyo").glob("*/index.html"))
+# noindex photo-review workbench is not a public travel article
+excluded_workbench={"photo-review"}
+pages=sorted(p for p in (root/"japan/tokyo").glob("*/index.html") if p.parent.name not in excluded_workbench)
 expected_pages=220
 count_mismatch=len(pages)!=expected_pages
 if count_mismatch:
@@ -29,7 +31,7 @@ for p in pages:
  "photo_source":photo["source"] if present else None,
  "photo_in_live_browser":"not checked",
  "status":"photo_file_checked_only" if present else "missing_unique_verified_photo"})
-counts={"pages":len(report),"expected_pages":expected_pages,"page_count_mismatch":count_mismatch,"valid_local_webp":sum(x["photo_file_valid"] for x in report),
+counts={"pages":len(report),"expected_pages":expected_pages,"page_count_mismatch":count_mismatch,"excluded_non_article_pages":sorted(excluded_workbench),"valid_local_webp":sum(x["photo_file_valid"] for x in report),
 "need_verified_photos":sum(not x["photo_file_valid"] for x in report),
 "with_external_reference":sum(bool(x["related_official_or_reference_urls"]) for x in report),
 "official_conditions_individually_verified":0,
