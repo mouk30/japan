@@ -44,8 +44,8 @@ for(const uri of urls){
  }
  report.localLinks++;
 }
-check(section.includes('kampuferry.co.jp/news/20261023systemmaintenance.html'),'Kampu system notice not linked');
-check(!section.includes('kampuferry.co.jp/reserve/'),'Suspended Kampu booking URL exposed');
+check(section.includes('kampuferry.co.jp/news/20261027systemmaintenance.html'),'Current Kampu reservation resumption notice not linked');
+check(!section.includes('kampuferry.co.jp/news/20261023systemmaintenance.html'),'Old Kampu suspension notice still linked');
 for(const external of ['https://www.panstarcruise.com/product/osaka/info','https://www.panstarcruise.com/product/daemado/info'])check(section.includes(external),'Expected official operator guide missing '+external);
 const widths=[320,375,390,768,1024,1440];
 const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
