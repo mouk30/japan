@@ -53,6 +53,9 @@ try{
    }
    for(const slug of [formerSvgSlugs[0],formerSvgSlugs[3],formerSvgSlugs[9],formerSvgSlugs[13],formerSvgSlugs[17],formerSvgSlugs[18],formerSvgSlugs[20]]){
     const card=page.locator('a.tky-card[href="/japan/tokyo/'+slug+'/"]');
+    // Later Tokyo reference cards live inside initially closed <details> groups.
+    // Expand the enclosing collection before screenshotting its actual image.
+    await card.evaluate(el=>{const section=el.closest('details');if(section)section.open=true});
     await card.scrollIntoViewIfNeeded();
     await card.locator('img').evaluate(async img=>{
      try{await img.decode()}catch(e){throw new Error('Card displayed without decoded photo: '+img.src)}
