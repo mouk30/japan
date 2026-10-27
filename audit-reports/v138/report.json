@@ -1,6 +1,6 @@
 {
   "version": "V138",
-  "generated_at": "2026-10-27T12:34:20.611Z",
+  "generated_at": "2026-10-27T12:50:06.020Z",
   "viewports": [
     {
       "width": 320,
@@ -9,14 +9,14 @@
       "hero": {
         "rect": {
           "x": 0,
-          "y": 67,
+          "y": 69,
           "w": 320,
           "h": 650,
           "right": 320
         },
         "titleRect": {
           "x": 16,
-          "y": 169.9375,
+          "y": 171.9375,
           "w": 288,
           "h": 70.78125,
           "right": 304
@@ -29,28 +29,28 @@
       "menu": {
         "buttonVisible": true,
         "buttonRect": {
-          "x": 221,
-          "y": 11,
-          "w": 75,
-          "h": 44,
-          "right": 296
+          "x": 229,
+          "y": 10,
+          "w": 78,
+          "h": 48,
+          "right": 307
         },
         "navDisplay": "none",
-        "navMaxHeight": "830px"
+        "navMaxHeight": "820px"
       },
       "content": {
         "cardDisplay": "flex",
         "cardDirection": "column",
         "cardRect": {
           "x": 16,
-          "y": 6779.421875,
+          "y": 6938.53125,
           "w": 288,
           "h": 404.296875,
           "right": 304
         },
         "photoRect": {
           "x": 17,
-          "y": 6780.421875,
+          "y": 6939.53125,
           "w": 286,
           "h": 178.75,
           "right": 303
@@ -64,7 +64,7 @@
         "columns": "284px",
         "cardRect": {
           "x": 18,
-          "y": 3248.609375,
+          "y": 3407.71875,
           "w": 284,
           "h": 325,
           "right": 302
@@ -88,14 +88,14 @@
       "hero": {
         "rect": {
           "x": 0,
-          "y": 67,
+          "y": 69,
           "w": 360,
           "h": 650,
           "right": 360
         },
         "titleRect": {
           "x": 16,
-          "y": 169.9375,
+          "y": 171.9375,
           "w": 328,
           "h": 70.78125,
           "right": 344
@@ -108,28 +108,28 @@
       "menu": {
         "buttonVisible": true,
         "buttonRect": {
-          "x": 261,
-          "y": 11,
-          "w": 75,
-          "h": 44,
-          "right": 336
+          "x": 267,
+          "y": 10,
+          "w": 80,
+          "h": 48,
+          "right": 347
         },
         "navDisplay": "none",
-        "navMaxHeight": "830px"
+        "navMaxHeight": "820px"
       },
       "content": {
         "cardDisplay": "flex",
         "cardDirection": "column",
         "cardRect": {
           "x": 16,
-          "y": 6464.71875,
+          "y": 6791.421875,
           "w": 328,
           "h": 429.296875,
           "right": 344
         },
         "photoRect": {
           "x": 17,
-          "y": 6465.71875,
+          "y": 6792.421875,
           "w": 326,
           "h": 203.75,
           "right": 343
@@ -143,7 +143,7 @@
         "columns": "324px",
         "cardRect": {
           "x": 18,
-          "y": 2927.90625,
+          "y": 3254.609375,
           "w": 324,
           "h": 325,
           "right": 342
@@ -167,14 +167,14 @@
       "hero": {
         "rect": {
           "x": 0,
-          "y": 67,
+          "y": 69,
           "w": 390,
           "h": 650,
           "right": 390
         },
         "titleRect": {
           "x": 20,
-          "y": 171.5,
+          "y": 173.5,
           "w": 350,
           "h": 75.46875,
           "right": 370
@@ -187,28 +187,28 @@
       "menu": {
         "buttonVisible": true,
         "buttonRect": {
-          "x": 287,
-          "y": 11,
-          "w": 79,
-          "h": 44,
-          "right": 366
+          "x": 297,
+          "y": 10,
+          "w": 80,
+          "h": 48,
+          "right": 377
         },
         "navDisplay": "none",
-        "navMaxHeight": "830px"
+        "navMaxHeight": "820px"
       },
       "content": {
         "cardDisplay": "flex",
         "cardDirection": "column",
         "cardRect": {
           "x": 16,
-          "y": 6268.734375,
+          "y": 6534.140625,
           "w": 358,
           "h": 448.046875,
           "right": 374
         },
         "photoRect": {
           "x": 17,
-          "y": 6269.734375,
+          "y": 6535.140625,
           "w": 356,
           "h": 222.5,
           "right": 373
@@ -222,7 +222,7 @@
         "columns": "354px",
         "cardRect": {
           "x": 18,
-          "y": 2823.40625,
+          "y": 3088.8125,
           "w": 354,
           "h": 310,
           "right": 372
@@ -246,14 +246,14 @@
       "hero": {
         "rect": {
           "x": 0,
-          "y": 67,
+          "y": 69,
           "w": 430,
           "h": 650,
           "right": 430
         },
         "titleRect": {
           "x": 20,
-          "y": 171.5,
+          "y": 173.5,
           "w": 390,
           "h": 83.21875,
           "right": 410
@@ -266,28 +266,28 @@
       "menu": {
         "buttonVisible": true,
         "buttonRect": {
-          "x": 327,
-          "y": 11,
-          "w": 79,
-          "h": 44,
-          "right": 406
+          "x": 337,
+          "y": 10,
+          "w": 80,
+          "h": 48,
+          "right": 417
         },
         "navDisplay": "none",
-        "navMaxHeight": "830px"
+        "navMaxHeight": "820px"
       },
       "content": {
         "cardDisplay": "flex",
         "cardDirection": "column",
         "cardRect": {
           "x": 16,
-          "y": 5999.171875,
+          "y": 6242.703125,
           "w": 398,
           "h": 447.875,
           "right": 414
         },
         "photoRect": {
           "x": 17,
-          "y": 6000.171875,
+          "y": 6243.703125,
           "w": 396,
           "h": 247.5,
           "right": 413
@@ -301,7 +301,7 @@
         "columns": "394px",
         "cardRect": {
           "x": 18,
-          "y": 2627.015625,
+          "y": 2870.546875,
           "w": 394,
           "h": 310,
           "right": 412
@@ -325,14 +325,14 @@
       "hero": {
         "rect": {
           "x": 0,
-          "y": 71,
+          "y": 73,
           "w": 768,
           "h": 680,
           "right": 768
         },
         "titleRect": {
           "x": 20,
-          "y": 233.796875,
+          "y": 235.796875,
           "w": 728,
           "h": 98.25,
           "right": 748
@@ -345,28 +345,28 @@
       "menu": {
         "buttonVisible": true,
         "buttonRect": {
-          "x": 665,
-          "y": 11,
-          "w": 79,
+          "x": 662,
+          "y": 12,
+          "w": 82,
           "h": 48,
           "right": 744
         },
         "navDisplay": "none",
-        "navMaxHeight": "822px"
+        "navMaxHeight": "812px"
       },
       "content": {
         "cardDisplay": "flex",
         "cardDirection": "column",
         "cardRect": {
           "x": 20,
-          "y": 5140.65625,
+          "y": 5142.65625,
           "w": 728,
           "h": 641.515625,
           "right": 748
         },
         "photoRect": {
           "x": 21,
-          "y": 5141.65625,
+          "y": 5143.65625,
           "w": 726,
           "h": 453.75,
           "right": 747
@@ -380,7 +380,7 @@
         "columns": "728px",
         "cardRect": {
           "x": 20,
-          "y": 2356.203125,
+          "y": 2358.203125,
           "w": 728,
           "h": 420,
           "right": 748
