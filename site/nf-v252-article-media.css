@@ -1,0 +1,35 @@
+/* V252: topic-relevant media on existing cruise and Okinawa article pages.
+   Visual-only: headings, page route, links and copy remain unchanged. */
+.nf252-article-photo {
+  margin: 0 0 23px;
+  padding: 0;
+  width: 100%;
+  min-width: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #d8e8ef;
+  background: #f1f6f8;
+}
+.nf252-article-photo img {
+  display: block;
+  width: 100%;
+  max-height: 430px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
+.nf252-article-photo figcaption {
+  padding: 8px 13px 10px;
+  margin: 0;
+  color: #496b7c;
+  background: #f1f6f8;
+  font-size: 12px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 560px) {
+  .nf252-article-photo { border-radius: 11px; margin-bottom: 17px; }
+  .nf252-article-photo img { max-height: none; }
+  .nf252-article-photo figcaption { padding: 8px 10px; font-size: 11px; }
+}
