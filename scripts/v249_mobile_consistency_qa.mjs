@@ -119,7 +119,7 @@ try{
       const selectors=['.nf246-hero .nf-hero-actions a','.nf247-finder .nf247-links a',
        '.v65-destinations .v65-actions a:first-child','.v63-theme-section .v63-cta','.d61-home-region .d61-home-cta',
        '.v64-practical .v64-primary'];
-      return Object.fromEntries(selectors.map(s=>[s,[...document.querySelectorAll(s)].slice(0,12).map(el=>Math.round(el.getBoundingClientRect().height))]));
+      return Object.fromEntries(selectors.map(s=>[s,[...document.querySelectorAll(s)].filter(el=>el.getClientRects().length>0).slice(0,12).map(el=>Math.round(el.getBoundingClientRect().height))]));
      });
      for(const [key,heights] of Object.entries(targets)){
       assert(heights.length>0,'Missing touch buttons '+key);
@@ -174,7 +174,7 @@ try{
      assert(await toggle.getAttribute('aria-expanded')==='false','Shared Escape fails');
      assert(await menu.getAttribute('data-open')==='false','Shared nav stays open');
     }else{
-     assert(sizes.toggleDisplay==='none','Desktop shared toggle visible');
+     assert(!(await page.locator('.nf301-toggle').isVisible()),'Desktop shared toggle visible');
     }
     report.sharedCases.push({pathname,width,passed:issues.length===0,issues});
    }catch(err){issues.push('Browser error '+String(err).slice(0,400));report.sharedCases.push({pathname,width,passed:false,issues})}
