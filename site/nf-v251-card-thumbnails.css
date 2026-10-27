@@ -1,0 +1,49 @@
+/* V251: show existing, topic-matched photographs directly in hub card HTML.
+   The cards remain ordinary links to the same indexed URLs; no JS required. */
+.jc-grid>.jc-card,.og>.oc{
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+  overflow:hidden;
+  padding:0;
+  border-radius:15px;
+}
+.jc-grid>.jc-card>.nf251-card-photo,.og>.oc>.nf251-card-photo{
+  display:block;
+  flex:none;
+  width:100%;
+  aspect-ratio:16/9;
+  overflow:hidden;
+  background:#eaf2f6;
+}
+.jc-grid>.jc-card>.nf251-card-photo img,.og>.oc>.nf251-card-photo img{
+  display:block;
+  width:100%;
+  height:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+  object-position:center;
+  transition:transform .22s ease;
+}
+.jc-grid>.jc-card:hover>.nf251-card-photo img,.og>.oc:hover>.nf251-card-photo img{
+  transform:scale(1.035);
+}
+.jc-grid>.jc-card>small,.jc-grid>.jc-card>h3,.jc-grid>.jc-card>p,.jc-grid>.jc-card>strong,
+.og>.oc>small,.og>.oc>h3,.og>.oc>p,.og>.oc>strong{
+  display:block;
+  margin-left:18px;
+  margin-right:18px;
+}
+.jc-grid>.jc-card>small,.og>.oc>small{margin-top:17px}
+.jc-grid>.jc-card>h3,.og>.oc>h3{margin-top:8px;margin-bottom:10px}
+.jc-grid>.jc-card>p,.og>.oc>p{flex:1;margin-top:0;margin-bottom:14px}
+.jc-grid>.jc-card>strong,.og>.oc>strong{margin-top:auto;margin-bottom:18px}
+@media(max-width:600px){
+  .jc-grid>.jc-card>small,.jc-grid>.jc-card>h3,.jc-grid>.jc-card>p,.jc-grid>.jc-card>strong,
+  .og>.oc>small,.og>.oc>h3,.og>.oc>p,.og>.oc>strong{margin-left:15px;margin-right:15px}
+}
+@media(prefers-reduced-motion:reduce){
+  .jc-grid>.jc-card>.nf251-card-photo img,.og>.oc>.nf251-card-photo img{transition:none}
+  .jc-grid>.jc-card:hover>.nf251-card-photo img,.og>.oc:hover>.nf251-card-photo img{transform:none}
+}
