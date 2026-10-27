@@ -53,6 +53,14 @@ try{
     // Explicit card-grid screenshot: verifies thumbnails rather than only the hero.
     if(n>0){
      await imgs.first().scrollIntoViewIfNeeded();
+     // A lazy image can be decoded but not yet composited at capture time.
+     // Confirm that the card now in view has an actual decoded image, then
+     // allow two paint frames before archiving the visual evidence.
+     await imgs.first().evaluate(async el=>{
+      el.loading='eager';
+      if(el.decode){try{await el.decode()}catch(e){throw new Error('Visible card image failed to decode: '+el.src)}}
+      await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+     });
      const gridName=name.replace('.png','-cards.png');
      await page.screenshot({path:OUT+'/'+gridName,fullPage:false,animations:'disabled'});
      screenshots.push(gridName);
