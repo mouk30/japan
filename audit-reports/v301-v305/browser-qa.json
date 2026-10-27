@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27T11:45:20.151Z",
+  "date": "2026-10-27T11:45:24.336Z",
   "siteTotal": 1279,
   "unifiedHeaders": 1273,
   "withoutOriginalHeader": 6,
@@ -7,116 +7,44 @@
     {
       "pathname": "/",
       "width": 320,
-      "doc": 320,
-      "screen": 320,
-      "headerWidth": 320,
-      "primaryDisplay": "none",
-      "secondaryDisplay": "none",
-      "toggleDisplay": "flex",
-      "controlsDisplay": "flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 32,
-      "barHeight": 66,
-      "navCount": 1,
-      "pageCurrent": 0,
-      "matched": null,
-      "issues": []
+      "issues": [
+        "browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
+      ]
     },
     {
       "pathname": "/",
       "width": 390,
-      "doc": 390,
-      "screen": 390,
-      "headerWidth": 390,
-      "primaryDisplay": "none",
-      "secondaryDisplay": "none",
-      "toggleDisplay": "flex",
-      "controlsDisplay": "flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 32,
-      "barHeight": 66,
-      "navCount": 1,
-      "pageCurrent": 0,
-      "matched": null,
-      "issues": []
+      "issues": [
+        "browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
+      ]
     },
     {
       "pathname": "/",
       "width": 768,
-      "doc": 768,
-      "screen": 768,
-      "headerWidth": 768,
-      "primaryDisplay": "none",
-      "secondaryDisplay": "none",
-      "toggleDisplay": "flex",
-      "controlsDisplay": "flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 36,
-      "barHeight": 66,
-      "navCount": 1,
-      "pageCurrent": 0,
-      "matched": null,
-      "issues": []
+      "issues": [
+        "browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
+      ]
     },
     {
       "pathname": "/",
       "width": 1024,
-      "doc": 1024,
-      "screen": 1024,
-      "headerWidth": 1024,
-      "primaryDisplay": "none",
-      "secondaryDisplay": "none",
-      "toggleDisplay": "flex",
-      "controlsDisplay": "flex",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 36,
-      "barHeight": 66,
-      "navCount": 1,
-      "pageCurrent": 0,
-      "matched": null,
-      "issues": []
+      "issues": [
+        "browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
+      ]
     },
     {
       "pathname": "/",
       "width": 1200,
-      "doc": 1200,
-      "screen": 1200,
-      "headerWidth": 1200,
-      "primaryDisplay": "flex",
-      "secondaryDisplay": "block",
-      "toggleDisplay": "inline-flex",
-      "controlsDisplay": "none",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 42,
-      "barHeight": 78,
-      "navCount": 1,
-      "pageCurrent": 0,
-      "matched": null,
-      "issues": []
+      "issues": [
+        "browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
+      ]
     },
     {
       "pathname": "/",
       "width": 1440,
-      "doc": 1440,
-      "screen": 1440,
-      "headerWidth": 1440,
-      "primaryDisplay": "flex",
-      "secondaryDisplay": "block",
-      "toggleDisplay": "inline-flex",
-      "controlsDisplay": "none",
-      "mainCount": 6,
-      "subCount": 8,
-      "logoWidth": 42,
-      "barHeight": 78,
-      "navCount": 1,
-      "pageCurrent": 0,
-      "matched": null,
-      "issues": []
+      "issues": [
+        "browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
+      ]
     },
     {
       "pathname": "/japan/",
@@ -2285,7 +2213,18 @@
       "issues": []
     }
   ],
-  "errors": [],
+  "errors": [
+    "index.html: original header not upgraded",
+    "index.html: header duplication",
+    "index.html: CSS/JS not loaded",
+    "index.html: 2nd nav missing",
+    "/ 320: browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n",
+    "/ 390: browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n",
+    "/ 768: browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n",
+    "/ 1024: browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n",
+    "/ 1200: browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n",
+    "/ 1440: browser TimeoutError: locator.waitFor: Timeout 9000ms exceeded.\nCall log:\n  - waiting for locator('.nf301-header') to be visible\n"
+  ],
   "warnings": [],
   "navDestinations": [
     "/",
@@ -2321,5 +2260,5 @@
     "V304",
     "V305"
   ],
-  "passed": true
+  "passed": false
 }
