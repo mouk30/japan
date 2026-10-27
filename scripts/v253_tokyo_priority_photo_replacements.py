@@ -1,0 +1,129 @@
+#!/usr/bin/env python3
+"""V253: replace four repeated/wrong-theme Tokyo photo fallbacks with licensed Commons subjects.
+
+Only accepts Commons-hosted CC BY/CC BY-SA/CC0 photos and preserves attribution.
+Download and validate all four BEFORE modifying any pages; exact subject claims are caption-limited. No new URLs/pages.
+"""
+from pathlib import Path
+from urllib.parse import urlencode
+from urllib.request import Request,urlopen
+from PIL import Image,ImageOps
+import json,html,re,io,time
+SITE=Path("site")
+OUT=Path("audit-reports/v253")
+OUT.mkdir(parents=True,exist_ok=True)
+HEADERS={"User-Agent":"NipponferryV253TokyoSubjectMatch/1.0 (https://www.nipponferry.com; editorial QA)",
+         "Accept":"application/json,image/*"}
+# Actual licensed Commons photographs, with accurate time/location caveats.
+SOURCES={
+ "tokyo-subway-ticket-24-48-72":(
+  "File:東京地鐵三日券 (16017281139).jpg",
+  "2014년 12월 촬영된 도쿄 지하철 3일권 실물 사진. 역사적 디자인 자료이며 2026년 판매권·현행 가격을 나타내지 않습니다."),
+ "disneysea-rapunzel-lantern":(
+  "File:Rapunzel’s Lantern Festival.jpg",
+  "2024년 도쿄 디즈니씨 라푼젤 랜턴 페스티벌 어트랙션의 실제 안내 표지판 사진. 탑승 장면은 아닙니다."),
+ "tokyo-mega-donki-shibuya":(
+  "File:Shibuyamegadonkihonten.jpg",
+  "시부야 MEGA 돈키호테 본점의 실제 외관 사진(2018년 촬영). 현재 내부 상품과 운영상태는 다를 수 있습니다."),
+ "muji-ginza-4f-taxfree":(
+  "File:Suitcases in the Muji Ginza store November 2023.jpg",
+  "2023년 무인양품 긴자점 매장 내 여행가방 진열 사진. 4층 면세 창구 사진은 아닙니다."),
+}
+def cleaned(text):
+ return html.unescape(re.sub(r"<[^>]*>"," ",str(text))).strip()
+def get(url,timeout=60):
+ req=Request(url,headers=HEADERS)
+ with urlopen(req,timeout=timeout) as response:
+  return response.read()
+def attr(v):return html.escape(str(v),quote=True)
+results={}
+failures={}
+# First phase: downloads and license checks. No repo writes yet.
+for slug,(title,description) in SOURCES.items():
+ try:
+  url="https://commons.wikimedia.org/w/api.php?"+urlencode({
+   "action":"query","format":"json","titles":title,"prop":"imageinfo",
+   "iiprop":"url|extmetadata|size","iiurlwidth":1280})
+  data=json.loads(get(url,45))
+  page=next(iter(data["query"]["pages"].values()))
+  if page.get("missing") or not page.get("imageinfo"):
+   raise ValueError("Commons source not found: "+title)
+  info=page["imageinfo"][0]
+  meta=info.get("extmetadata",{})
+  license_name=cleaned(meta.get("LicenseShortName",{}).get("value",""))
+  license_url=meta.get("LicenseUrl",{}).get("value","")
+  artist=cleaned(meta.get("Artist",{}).get("value",""))[:100] or "Wikimedia Commons contributor"
+  if not (license_name.startswith("CC BY") or license_name in ("CC0","Public domain")):
+   raise ValueError("license not yet verified: "+license_name)
+  if not (info.get("descriptionurl","").startswith("https://commons.wikimedia.org/")):
+   raise ValueError("source URL not Commons")
+  raw=get(info.get("thumburl") or info["url"],90)
+  image=Image.open(io.BytesIO(raw))
+  image.load()
+  if min(image.size)<550:raise ValueError("image too small")
+  image=ImageOps.exif_transpose(image).convert("RGB")
+  image=ImageOps.fit(image,(1280,720),method=Image.Resampling.LANCZOS)
+  output=io.BytesIO()
+  image.save(output,"WEBP",quality=84,method=5)
+  if len(output.getvalue())<9000:raise ValueError("photo too small after conversion")
+  results[slug]={
+   "data":output.getvalue(),"src":"/images/tokyo-verified/v253-"+slug+".webp",
+   "alt":description,"caption":"사진: "+artist+" · "+license_name+
+       " · Wikimedia Commons · "+description,
+   "source":info["descriptionurl"],"license":license_name,
+   "license_url":license_url,"author":artist,"source_file":page["title"],
+   "editorial_note":description}
+ except Exception as exc:
+  failures[slug]=str(exc)[:360]
+ time.sleep(0.5)
+if failures:
+ (OUT/"tokyo-subject-photo-import-errors.json").write_text(
+  json.dumps({"downloaded":list(results),"failures":failures},ensure_ascii=False,indent=2)+"\n")
+ raise SystemExit("ABORT: Commons provenance/import needs correction: "+str(failures))
+jsfile=SITE/"tokyo-card-photos.js"
+js=jsfile.read_text("utf-8")
+before,tail=js.split("const map=",1)
+maptext,after=tail.split(";document.querySelectorAll",1)
+mapping=json.loads(maptext)
+hubfile=SITE/"japan/tokyo/index.html"
+hub=hubfile.read_text("utf-8")
+article_updates={}
+for slug,photo in results.items():
+ p={k:v for k,v in photo.items() if k!="data"}
+ mapping[slug]=p
+ marker='href="/japan/tokyo/'+slug+'/"'
+ at=hub.find(marker)
+ if at<0:raise RuntimeError("Tokyo hub card missing: "+slug)
+ start=hub.find('<span class="tky-card-photo">',at)
+ end=hub.find('</span></span>',start)+len('</span></span>')
+ if start<0 or end<14 or start>at+400:raise RuntimeError("unexpected Tokyo card: "+slug)
+ figure=('<span class="tky-card-photo"><img src="'+attr(photo["src"])+
+   '" alt="'+attr(photo["alt"])+
+   '" width="720" height="405" loading="lazy" decoding="async"><span class="tky-photo-label">'+
+   html.escape(photo["caption"])+'</span></span>')
+ hub=hub[:start]+figure+hub[end:]
+ f=SITE/"japan/tokyo"/slug/"index.html"
+ page=f.read_text("utf-8")
+ figure=('<figure class="tokyo-article-photo-v1"><img src="'+attr(photo["src"])+
+   '" alt="'+attr(photo["alt"])+
+   '" width="1280" height="720" loading="lazy" decoding="async"><figcaption>'+
+   html.escape(photo["caption"])+
+   ' · <a href="'+attr(photo["source"])+
+   '" target="_blank" rel="noopener noreferrer">사진 원본 및 이용허가</a></figcaption></figure>')
+ page,count=re.subn(r'<figure class="tokyo-article-photo-v1">[\s\S]*?</figure>',
+                   lambda _:figure,page,count=1)
+ if count!=1:raise RuntimeError("article lead figure missing: "+slug)
+ article_updates[f]=page
+# All validity checks complete: write files and sync JS + HTML + photos.
+for slug,photo in results.items():
+ target=SITE/photo["src"].lstrip("/")
+ target.parent.mkdir(parents=True,exist_ok=True)
+ target.write_bytes(photo["data"])
+for f,page in article_updates.items():f.write_text(page,"utf-8")
+hubfile.write_text(hub,"utf-8")
+jsfile.write_text(before+"const map="+json.dumps(mapping,ensure_ascii=False,separators=(",",":"))+
+                  ";document.querySelectorAll"+after,"utf-8")
+summary={slug:{k:v for k,v in p.items() if k!="data"} for slug,p in results.items()}
+(OUT/"tokyo-subject-licensed-photos.json").write_text(
+ json.dumps({"replaced":summary,"failures":{}},ensure_ascii=False,indent=2)+"\n","utf-8")
+print("V253_SUBJECT_PHOTOS",json.dumps({"replaced":list(summary),"errors":[]},ensure_ascii=False))
