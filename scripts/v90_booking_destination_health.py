@@ -202,6 +202,8 @@ def main():
            "Local CTA errors: "+str(len(local["errors"])),"Actionable destination issues: "+str(len(report["issues"])),
            "Unverifiable due to bot/login/JS/temporary errors: "+str(len(report["uncertain"])), "",
            "HTTP 200 confirms only a response, not a purchasable sailing. 403/429 are not proof of a broken reservation page.",""]
+    for issue in local["errors"]:
+        lines.append("- LOCAL CTA ERROR | "+json.dumps(issue,ensure_ascii=False))
     for v in urls:
         lines.append("- "+v["classification"]+" | "+v["source_url"]+" → "+str(v.get("final_url","unknown"))+" | "+str(v["reason"]))
     (OUT/"summary.md").write_text("\n".join(lines)+"\n","utf8")
