@@ -1,0 +1,46 @@
+name: V252 four exact licensed Tokyo subject photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v252_tokyo_four_exact_commons_photos.py'
+      - '.github/workflows/v252-tokyo-exact-photo-import.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: v252-tokyo-exact-photo-import
+  cancel-in-progress: false
+jobs:
+  validate-and-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install licensed photo conversion dependencies
+        run: pip install pillow
+      - name: Download four exact Wikimedia photos and verify image licensing
+        run: python scripts/v252_tokyo_four_exact_commons_photos.py
+      - name: Commit real topic photography and matching hub/article metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/images/tokyo-verified/v252-*.webp site/tokyo-card-photos.js site/japan/tokyo audit-reports/v252/tokyo-exact-licensed-photos.json
+          if ! git diff --cached --quiet; then
+            git commit -m "V252: use four subject-accurate Commons photos with attribution on Tokyo hub and articles"
+            git pull --rebase origin main
+            git push
+          fi
+      - name: Upload provenance and errors for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v252-exact-Tokyo-licensed-photo-provenance
+          path: audit-reports/v252/tokyo-exact-photo-*.json
+          retention-days: 45
+          if-no-files-found: warn
