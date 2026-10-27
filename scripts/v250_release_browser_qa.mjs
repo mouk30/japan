@@ -17,12 +17,13 @@ const fail=(msg)=>report.errors.push(msg);
 const check=(ok,msg)=>{if(!ok)fail(msg)};
 const browser=await chromium.launch({headless:true,executablePath:process.env.NF250_BROWSER_PATH||undefined,args:['--no-sandbox']});
 const runtimeEvents=[];
+let runtimeEventCount=0;
 try{
  for(const pathname of pages){
   for(const width of widths){
    const page=await browser.newPage({viewport:{width,height:900},deviceScaleFactor:1,reducedMotion:'reduce'});
    const issues=[];const assert=(ok,s)=>{if(!ok)issues.push(s)};
-   page.on('pageerror',err=>{if(runtimeEvents.length<35)runtimeEvents.push({pathname,width,error:String(err).slice(0,260)})});
+   page.on('pageerror',err=>{runtimeEventCount++;if(runtimeEvents.length<35)runtimeEvents.push({pathname,width,error:String(err).slice(0,260)})});
    try{
     const res=await page.goto(ORIGIN+pathname,{waitUntil:'domcontentloaded',timeout:30000});
     assert(res?.status()===200,'HTTP '+res?.status());
@@ -153,7 +154,10 @@ try{
  }catch(err){fail('Destination/theme card image flow '+String(err).slice(0,360))}
  await cards.close();
 }finally{await browser.close()}
-if(runtimeEvents.length)report.warnings.push({kind:'page_runtime_exceptions_observed',count:runtimeEvents.length,examples:runtimeEvents.slice(0,8)});
+if(runtimeEventCount){
+ report.warnings.push({kind:'page_runtime_exceptions_observed',count:runtimeEventCount,examples:runtimeEvents.slice(0,8)});
+ fail('JavaScript pageerror in '+runtimeEventCount+' route/viewport cases: '+JSON.stringify(runtimeEvents.slice(0,3)));
+}
 report.passed=report.errors.length===0;
 fs.writeFileSync(OUT+'/browser-audit.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({passed:report.passed,checks:report.checks.length,passedChecks:report.checks.filter(r=>r.passed).length,
