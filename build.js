@@ -63,11 +63,12 @@ for(const file of pages) {
   h=h.replaceAll('NIPPONFERRY · V68 SOURCED GUIDE ·', 'NIPPONFERRY · 공식 자료 점검 ·');
   const nav=enhanceDocument(h,file,out);
   h=nav.html;
-  // V249: shared mobile navigation + reading controls on V301 pages.
-  // The homepage links this stylesheet in its source, so avoid duplicates.
-  if (/<header\\b[^>]*class=["'][^"']*\\b(?:nf301-header|nf246-header)\\b/.test(h) &&
+  // V249: add the navigation/reading layer only to pages with a site header.
+  // The homepage includes it in source, so keep it single-loaded.
+  if ((h.includes('class="site-header nf301-header"') ||
+       h.includes('class="site-header nf246-header"')) &&
       !h.includes('/nf-v249-mobile-consistency.css')) {
-    h=h.replace(/<\\/head>/i,'<link rel="stylesheet" href="/nf-v249-mobile-consistency.css?v=20261027"></head>');
+    h=h.replace('</head>','<link rel="stylesheet" href="/nf-v249-mobile-consistency.css?v=20261027"></head>');
   }
   // Track outbound ferry CTAs only when the owner has configured a real GA4 ID.
   // No GA4 library, cookies, requests or consent banner start before visitor opt-in.
