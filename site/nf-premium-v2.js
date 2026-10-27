@@ -2,6 +2,8 @@
    Capture-phase click handler works on both old and new templates, avoiding
    duplicate legacy toggles while retaining the existing markup contract. */
 (()=>{"use strict";
+/* The V301 shared header owns its menu and keyboard behavior in v301-nav.js.\n   Do not run the legacy link injector against nested V301 dropdown links: a\n   descendant is not a direct insertBefore reference and raises NotFoundError. */
+if(document.querySelector(".site-header.nf301-header"))return;
 /* V116 independent kids theme: add to existing shared desktop/mobile menus only if absent.
    Legacy pages keep their existing title, canonical and search-indexed article content. */
 for(const nav of document.querySelectorAll(".site-header .desktop-nav, .site-header .mobile-menu")){
@@ -9,7 +11,7 @@ for(const nav of document.querySelectorAll(".site-header .desktop-nav, .site-hea
   const kids=document.createElement("a");
   kids.href="/kids/";kids.className="nf-kids-menu";kids.textContent="키즈여행";
   const before=nav.querySelector('a[href="/things-to-do/travel-companions/"]')||nav.querySelector(".nf-nav-reserve");
-  if(before)nav.insertBefore(kids,before);else nav.appendChild(kids);
+  if(before&&before.parentNode===nav)nav.insertBefore(kids,before);else nav.appendChild(kids);
  }
 }
 const btn=document.querySelector(".site-header .menu-toggle");
