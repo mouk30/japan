@@ -1,0 +1,44 @@
+name: V248 premium destination and theme cards QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/index.html'
+      - 'site/nf-v248-editorial-cards.css'
+      - 'scripts/v248_editorial_cards_qa.mjs'
+      - '.github/workflows/v248-editorial-cards-qa.yml'
+      - 'build.js'
+      - 'scripts/v301-v305-nav.cjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  editorial-cards-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium for responsive visual QA
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build actual deployable site
+        run: npm run build
+      - name: Verify 8 destinations, 6 themes, image provenance, links and six viewport widths
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist >/tmp/nf248-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 3
+          node scripts/v248_editorial_cards_qa.mjs
+      - name: Save responsive before-next-step image screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v248-editorial-card-desktop-tablet-mobile
+          path: audit-reports/v248/
+          retention-days: 30
+          if-no-files-found: warn
