@@ -1,0 +1,49 @@
+{
+  "replaced": {
+    "tokyo-melonpan-bakery": {
+      "src": "/images/tokyo-verified/v252-tokyo-melonpan-bakery.webp",
+      "alt": "일본의 실제 멜론빵을 촬영한 사진(2006년). 아사쿠사 특정 가게 사진은 아닙니다.",
+      "caption": "사진: Sakurai Midori · CC BY-SA 3.0 · Wikimedia Commons · 일본의 실제 멜론빵을 촬영한 사진(2006년). 아사쿠사 특정 가게 사진은 아닙니다.",
+      "source": "https://commons.wikimedia.org/wiki/File:Melonpan.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Sakurai Midori",
+      "source_file": "File:Melonpan.jpg",
+      "editorial_note": "일본의 실제 멜론빵을 촬영한 사진(2006년). 아사쿠사 특정 가게 사진은 아닙니다."
+    },
+    "sugamo-jizo-shopping": {
+      "src": "/images/tokyo-verified/v252-sugamo-jizo-shopping.webp",
+      "alt": "도쿄 스가모 지조도리 상점가를 촬영한 사진(2009년). 현재 매장 배치와 다를 수 있습니다.",
+      "caption": "사진: Kentin · CC BY-SA 3.0 · Wikimedia Commons · 도쿄 스가모 지조도리 상점가를 촬영한 사진(2009년). 현재 매장 배치와 다를 수 있습니다.",
+      "source": "https://commons.wikimedia.org/wiki/File:Sugamo_jizodori.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Kentin",
+      "source_file": "File:Sugamo jizodori.jpg",
+      "editorial_note": "도쿄 스가모 지조도리 상점가를 촬영한 사진(2009년). 현재 매장 배치와 다를 수 있습니다."
+    },
+    "tokyo-hands-diy-gifts": {
+      "src": "/images/tokyo-verified/v252-tokyo-hands-diy-gifts.webp",
+      "alt": "도쿄 시부야 핸즈 매장을 2022년에 촬영한 사진. 현재 매장 구성과 다를 수 있습니다.",
+      "caption": "사진: RuinDig/Yuki Uchida · CC BY 4.0 · Wikimedia Commons · 도쿄 시부야 핸즈 매장을 2022년에 촬영한 사진. 현재 매장 구성과 다를 수 있습니다.",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyu-Hands-Shibuya-2022-11-04_04.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "RuinDig/Yuki Uchida",
+      "source_file": "File:Tokyu-Hands-Shibuya-2022-11-04 04.jpg",
+      "editorial_note": "도쿄 시부야 핸즈 매장을 2022년에 촬영한 사진. 현재 매장 구성과 다를 수 있습니다."
+    },
+    "tokyo-drugstore-cosmetics": {
+      "src": "/images/tokyo-verified/v252-tokyo-drugstore-cosmetics.webp",
+      "alt": "도쿄 다케시타 거리 마쓰모토키요시 드러그스토어 실제 사진(2019년). 현재 상품 구성은 다릅니다.",
+      "caption": "사진: Another Believer · CC BY-SA 4.0 · Wikimedia Commons · 도쿄 다케시타 거리 마쓰모토키요시 드러그스토어 실제 사진(2019년). 현재 상품 구성은 다릅니다.",
+      "source": "https://commons.wikimedia.org/wiki/File:Shinjuku_Matsumoto_Kiyoshi_Takeshita_Street_store_in_Tokyo,_2019_-_129.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Another Believer",
+      "source_file": "File:Shinjuku Matsumoto Kiyoshi Takeshita Street store in Tokyo, 2019 - 129.jpg",
+      "editorial_note": "도쿄 다케시타 거리 마쓰모토키요시 드러그스토어 실제 사진(2019년). 현재 상품 구성은 다릅니다."
+    }
+  },
+  "failures": {}
+}
