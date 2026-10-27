@@ -42,7 +42,7 @@ check(navPages.length>=900,'Expected production shared headers missing: '+navPag
 const samples=['/','/japan/tokyo/','/ferry/','/guide/busan-shimonoseki-ferry/','/things-to-do/cruise-ports/','/booking/japan-cruise/'];
 const widths=[320,360,390,430,650,768,1024,1150,1199,1200,1440];
 const report={generatedAt:new Date().toISOString(),homepageCases:[],sharedCases:[],navPages:navPages.length,checks:{v246:true,v247:true,v248:true},screenshots:[],errors:[],warnings};
-const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
+const browser=await chromium.launch({headless:true,executablePath:process.env.NF249_BROWSER_PATH||undefined,args:['--no-sandbox']});
 try{
  for(const width of widths){
   const page=await browser.newPage({viewport:{width,height:900},deviceScaleFactor:1,reducedMotion:'reduce'});
