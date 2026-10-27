@@ -114,8 +114,8 @@ def verify_bytes():
   counts['image_files']+=1
   try:
    b=f.open('rb').read(24)
-   valid=({'.jpg':b.startswith(b'\\xff\\xd8\\xff'),'.jpeg':b.startswith(b'\\xff\\xd8\\xff'),
-           '.png':b.startswith(b'\\x89PNG\\r\\n\\x1a\\n'),
+   valid=({'.jpg':b.startswith(bytes([255,216,255])),'.jpeg':b.startswith(bytes([255,216,255])),
+           '.png':b.startswith(bytes([137,80,78,71,13,10,26,10])),
            '.webp':b.startswith(b'RIFF') and b[8:12]==b'WEBP',
            '.gif':b.startswith((b'GIF87a',b'GIF89a')),
            '.avif':b'ftypavif' in b or b'ftypavis' in b,
