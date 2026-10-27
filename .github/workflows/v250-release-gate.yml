@@ -1,0 +1,79 @@
+name: V250 final SEO internal links booking and mobile release gate
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/index.html'
+      - 'site/ferry/index.html'
+      - 'site/booking/japan-cruise/index.html'
+      - 'site/guide/busan-shimonoseki-ferry/index.html'
+      - 'scripts/v250_release_static_qa.py'
+      - 'scripts/v250_release_browser_qa.mjs'
+      - 'scripts/v247_route_finder_qa.mjs'
+      - '.github/workflows/v250-release-gate.yml'
+      - 'build.js'
+      - 'site/nf-v249-mobile-consistency.css'
+      - 'site/nf-v249-mobile-consistency.js'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  full-site-seo-and-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build exact deployment output (no publishing from QA)
+        run: npm run build
+      - name: Verify pre-V246 SEO, all local links, canonicals, sitemap and booking trust
+        run: python3 scripts/v250_release_static_qa.py
+      - name: Archive complete release SEO, link and official booking evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v250-sitewide-seo-links-booking
+          path: audit-reports/v250/
+          retention-days: 45
+          if-no-files-found: warn
+  cross-device-traveler-journeys:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Use runner Chrome instead of slow browser download
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          if command -v google-chrome >/dev/null 2>&1; then
+            echo "NF250_BROWSER_PATH=$(command -v google-chrome)" >> "$GITHUB_ENV"
+            google-chrome --version
+          elif command -v chromium >/dev/null 2>&1; then
+            echo "NF250_BROWSER_PATH=$(command -v chromium)" >> "$GITHUB_ENV"
+            chromium --version
+          else
+            npx playwright install chromium
+          fi
+      - name: Build the actual deployable site
+        run: npm run build
+      - name: Verify booking transitions, headers and responsive priority paths
+        run: |
+          python3 -m http.server 8767 --bind 127.0.0.1 --directory dist >/tmp/nf250-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 3
+          node scripts/v250_release_browser_qa.mjs
+      - name: Archive responsive screenshots and booking flows
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v250-browser-priority-journeys
+          path: audit-reports/v250/
+          retention-days: 45
+          if-no-files-found: warn
