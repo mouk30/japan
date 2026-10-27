@@ -29,6 +29,22 @@ jobs:
         run: python -m pip install requests beautifulsoup4
       - name: Run offline tests for HTTPS operator destinations and error classifications
         run: python -m unittest discover -s tests -p 'test_v90_booking_destination_health.py' -v
+      - name: Diagnose local CTA markup after test failure
+        if: failure()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts.v90_booking_destination_health import examine_local
+          config=json.loads(Path("scripts/v90_booking_link_targets.json").read_text(encoding="utf-8"))
+          result=examine_local(config)
+          print(json.dumps({"pages_checked":result["pages_checked"],"errors":result["errors"]},ensure_ascii=False,indent=2))
+          with open(__import__("os").environ["GITHUB_STEP_SUMMARY"],"a",encoding="utf-8") as f:
+              f.write("### V90 offline test failure diagnostics\\n")
+              f.write(f"Local CTA markup errors: {len(result['errors'])}\\n")
+              for item in result["errors"][:30]:
+                  f.write("- "+json.dumps(item,ensure_ascii=False)+"\\n")
+          PY
       - name: Check current operator destinations and 4 route CTA panels
         id: inspect
         run: python scripts/v90_booking_destination_health.py
