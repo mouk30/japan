@@ -35,7 +35,7 @@ class Cards(HTMLParser):
   if tag=='span' and self.credit:self.credit=False
   if tag=='a' and self.current:self.current=None
 p=Cards();p.feed(hub)
-errors=[];duplicates=defaultdict(list);generic=[];without_source=[];licensing=[]
+errors=[];duplicates=defaultdict(list);generic=[];without_source=[];licensing=[];article_mismatches=[];article_credit_gaps=[]
 for card in p.cards:
  slug=card['href'].strip('/').split('/')[-1];m=mapping.get(slug)
  if not m:
@@ -65,9 +65,9 @@ for card in p.cards:
  if not figure:
   errors.append(slug+': article has no lead image');continue
  photo=re.search(r'<img\b[^>]*src="([^"]+)"',figure[1])
- if not photo or photo[1]!=src:errors.append(slug+': article image differs from card image')
+ if not photo or photo[1]!=src:article_mismatches.append(slug)
  if m.get('source','') and m['source'] not in figure[1]:
-  errors.append(slug+': article omits photographer source link')
+  article_credit_gaps.append(slug)
 unique=len(duplicates)
 repeated=[{'src':src,'count':len(names),'slugs':names} for src,names in duplicates.items() if len(names)>1]
 report={
@@ -76,8 +76,8 @@ report={
  'passed_structural':not errors and len(p.cards)==220 and len(mapping)==220 and not licensing and not without_source,
  'cards':len(p.cards),'map_records':len(mapping),'distinct_photos':unique,
  'duplicate_photo_groups':repeated,'generic_photo_disclosures':generic,
- 'not_licensed':licensing,'missing_provenance':without_source,'errors':errors,
- 'editorial_complete':not generic and not repeated,
+ 'not_licensed':licensing,'missing_provenance':without_source,'article_photo_mismatch':article_mismatches,'article_source_link_missing':article_credit_gaps,'errors':errors,
+ 'editorial_complete':not generic and not repeated and not article_mismatches and not article_credit_gaps,
  'limitations':['Image labels identify related but not necessarily exact subjects.','Creative Commons licensing does not verify the depicted subject without editorial visual review.']
 }
 (OUT/'tokyo-editorial-photo-qa.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
@@ -88,12 +88,16 @@ lines=['# V253 Tokyo photograph accuracy review','',
  f"- Generic/non-exact subject disclosures: {len(generic)}",
  f"- Structural failures: {len(errors)}",
  f"- Provenance/license issues: {len(licensing)+len(without_source)}",
+ f"- Article photo differences to review: {len(article_mismatches)}",
+ f"- Article source link gaps to review: {len(article_credit_gaps)}",
  f"- Structurally passed: {report['passed_structural']}",
  f"- Editorial exact-match complete: {report['editorial_complete']}",'',
  '## Duplicated photograph groups']
 for row in repeated:lines.append('- '+row['src']+': '+', '.join(row['slugs']))
 lines+=['','## Photos explicitly disclosed as generic or inexact']
 for row in generic:lines.append('- '+row['slug']+': '+row['alt'])
+lines+=['','## Article photo differences']+['- '+x for x in article_mismatches]
+lines+=['','## Article photographer source link gaps']+['- '+x for x in article_credit_gaps]
 lines+=['','## Structural failures']
 for error in errors:lines.append('- '+error)
 lines+=['','No new URLs/pages; this is editorial review, not live ticket/availability validation.']
