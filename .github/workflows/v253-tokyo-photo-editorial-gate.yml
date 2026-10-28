@@ -1,0 +1,31 @@
+name: V253 Tokyo 220 editorial photography consistency gate
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/japan/tokyo/**'
+      - 'site/tokyo-card-photos.js'
+      - 'site/images/tokyo-verified/**'
+      - 'scripts/v253_tokyo_editorial_photo_qa.py'
+      - '.github/workflows/v253-tokyo-photo-editorial-gate.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tokyo-image-provenance-and-consistency:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check all Tokyo card source, license, photographer, articles and mismatches
+        run: python3 scripts/v253_tokyo_editorial_photo_qa.py
+      - name: Publish unresolved subject-photo review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v253-tokyo-220-editorial-qa
+          path: audit-reports/v253/tokyo-editorial-photo-qa.*
+          retention-days: 45
