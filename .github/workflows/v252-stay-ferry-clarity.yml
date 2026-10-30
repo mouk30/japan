@@ -20,3 +20,9 @@ jobs:
         run: node scripts/check-v251-stay-kids-boundary.mjs
       - name: Validate V252 stay guide content and internal links
         run: node scripts/check-v252-stay-ferry-clarity.mjs
+      - name: Install Playwright Chromium for responsive UX
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Browser test real CTA in three stay templates at 390 768 and 1440px
+        run: node scripts/browser-qa-v252-stay-ferry.mjs
