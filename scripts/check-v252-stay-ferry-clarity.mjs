@@ -19,7 +19,7 @@ for(const file of files){
  assert.match(html,/<meta name=['"]robots['"] content=['"]index,follow/i,'Index policy modified '+file);
  assert.ok(sitemap.includes('<loc>'+expectedCanonical+'</loc>'),'Sitemap missing '+file);
  assert.match(html,/<h1\b/i,'H1 missing '+file);
- assert.equal(html.split('class=\\'stay-ferry-note\\'').length-1,1,'Visible contextual note missing or duplicated '+file);
+ assert.equal(html.split("class='stay-ferry-note'").length-1,1,'Visible contextual note missing or duplicated '+file);
  assert.ok(html.includes('숙소·객실 예약이 아닌 일본 국내 페리 항로 조회'),'Lodging/ferry distinction missing '+file);
  assert.equal(html.split("href='"+target+"'").length-1,1,'Source external ferry URL changed '+file);
  assert.ok(html.includes("rel='noopener noreferrer' aria-label='WILLER TRAVEL에서 일본 국내 페리 항로와 요금 조회 (새 창)'"),'External accessible-label missing '+file);
