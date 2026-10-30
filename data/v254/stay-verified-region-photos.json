@@ -1,0 +1,191 @@
+{
+  "version": "V254",
+  "checkedDate": "2026-10-31",
+  "principles": [
+    "Image location proven by source page, not file name",
+    "Current hotel's rooms are NOT certified by tourism photographs",
+    "No photos generated, no uploads from unlicensed sources",
+    "No new articles or booking changes",
+    "CC licenses require credit and webp resize disclosure"
+  ],
+  "images": {
+    "shiro": {
+      "src": "/images/venues/kagoshima-shiroyama-view.webp",
+      "label": "가고시마 시로야마 전망",
+      "author": "Masahiko OHKUBO",
+      "license": "CC BY 2.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kagoshima_view_from_Shiroyama_-_Dec_31,_2009.jpg",
+      "scene": "가고시마시 시로야마에서 촬영한 2009년 도시 전경",
+      "gitBlobSha": "dfc9b10a89790e171b2d332e1ea54f27f3d42ffa"
+    },
+    "tenmon": {
+      "src": "/images/venues/kagoshima-tenmonkan.webp",
+      "label": "가고시마 텐몬칸 G3",
+      "author": "Sanjo",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Tenmonkan_G3_Kagoshima_Japan.jpg",
+      "scene": "가고시마 텐몬칸 G3 아케이드 2007년 실제 촬영",
+      "gitBlobSha": "cc05e78b6dfb9a8c2d6a7fcb9fc15311e48d7fff"
+    },
+    "kouri": {
+      "src": "/images/venues/nf-v140-okinawa-kouri-bridge-view-2014-real.webp",
+      "label": "오키나와 고우리대교",
+      "author": "Takuya ASADA",
+      "license": "CC BY 2.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kouri_Bridge_(15130568259).jpg",
+      "scene": "오키나와 북부 고우리 오션타워에서 본 고우리대교 2014년 촬영",
+      "gitBlobSha": "b9516a429cfa60d6d7c239c0e3b71700953da8ed"
+    },
+    "naha": {
+      "src": "/images/venues/naha-kokusai-street.webp",
+      "label": "나하 국제거리",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "licenseURL": "https://creativecommons.org/licenses/by/2.5/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kokusai-dori05ss4272.jpg",
+      "scene": "오키나와 나하 국제거리 2009년 실제 촬영",
+      "gitBlobSha": "e50879ac86c57155af8771ea1d01c7ec9418a09b"
+    },
+    "nagoya": {
+      "src": "/images/venues/nagoya-v27-real-location.webp",
+      "label": "나고야항 수족관",
+      "author": "(WT-shared) Onyo",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Nagoya_Port_Aquarium.jpg",
+      "scene": "나고야항 수족관 2007년 실제 촬영; 원본 768×576, 나고야역·사카에 아님",
+      "gitBlobSha": "72a080f0c56326cf337dd5d1f17b91b19afa800b"
+    },
+    "sendai": {
+      "src": "/images/venues/nf-v113-sendai-real.webp",
+      "label": "미야기 마쓰시마만",
+      "author": "KimonBerlin",
+      "license": "CC BY-SA 2.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:The_islands_of_Matsushima_from_Saigyo_Modoshi_No_Matsu_park_(2456102064).jpg",
+      "scene": "센다이 인근 미야기현 마쓰시마만 실경; 센다이역·고쿠분초 아님",
+      "gitBlobSha": "34189c87cb8f882a7f9e70f887831c592834ede5"
+    },
+    "hiro": {
+      "src": "/images/venues/hiroshima-v26b5-real-location.webp",
+      "label": "히로시마 평화기념공원",
+      "author": "SRP1998",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Bomb_Dome_and_Peace_Park.jpg",
+      "scene": "히로시마 평화기념공원과 원폭돔 2025년 실제 촬영",
+      "gitBlobSha": "6059f28ef2f5206033a8f825192104465b0d2f31"
+    },
+    "miya": {
+      "src": "/images/v72-verified/v72-miyajima-island-jr-ferry-gate.webp",
+      "label": "미야지마 섬 측 JR 페리 승선구",
+      "author": "MaedaAkihiko",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Miyajima-Ferry-STA_JR-Gate.jpg",
+      "scene": "히로시마현 미야지마 섬 측 JR 페리 승선구 2022년 실제 촬영; 숙소 아님",
+      "gitBlobSha": "685fc1dd9ad4e83533ba3c18a7371f1cd09c9cea"
+    }
+  },
+  "pages": {
+    "kagoshima": {
+      "hero": "shiro",
+      "main": "shiro",
+      "cardOverrides": {
+        "텐몬칸": [
+          "tenmon",
+          "가고시마 텐몬칸 G3 아케이드 실제 촬영 · 2007년, 숙박시설 사진 아님"
+        ],
+        "사쿠라지마 뷰": [
+          "shiro",
+          "시로야마에서 본 가고시마 풍경 · 해당 호텔 객실에서 본 전망은 아님"
+        ]
+      },
+      "photoKeys": [
+        "shiro",
+        "tenmon"
+      ],
+      "scopeNote": "실제 촬영 지역은 시로야마 전망대·텐몬칸입니다. 개별 호텔 객실이나 객실 전망을 보증하지 않습니다."
+    },
+    "okinawa": {
+      "hero": "kouri",
+      "main": "kouri",
+      "cardOverrides": {
+        "나하": [
+          "naha",
+          "오키나와 나하 국제거리 실제 사진 · 2009년, 호텔 객실 사진 아님"
+        ],
+        "차탄": [
+          null,
+          "숙박 유형 참고 이미지 · 차탄 현장 및 실제 객실 촬영 확인 전"
+        ],
+        "온나손·북부": [
+          "kouri",
+          "오키나와 북부 고우리대교 실사 · 온나손의 특정 숙소나 객실 전망 사진 아님"
+        ]
+      },
+      "photoKeys": [
+        "kouri",
+        "naha"
+      ],
+      "scopeNote": "고우리대교는 오키나와 북부의 실제 관광 풍경으로 온나손 숙소 현장이 아니며, 나하 국제거리는 나하시 촬영입니다. 차탄 카드의 객실 사진은 여전히 미검증 참고 이미지입니다."
+    },
+    "nagoya": {
+      "hero": null,
+      "main": "nagoya",
+      "cardOverrides": {
+        "사카에": [
+          null,
+          "숙박 유형 참고 이미지 · 사카에 현장 및 실제 객실 촬영 확인 전"
+        ]
+      },
+      "photoKeys": [
+        "nagoya"
+      ],
+      "scopeNote": "나고야항 수족관의 실제 사진만 확인되었습니다. 원본 768×576px이므로 큰 히어로 배경으로 확대하지 않고 단색 배경을 유지합니다. 역·사카에 현장 사진은 미확보입니다."
+    },
+    "sendai": {
+      "hero": null,
+      "main": "sendai",
+      "cardOverrides": {
+        "고쿠분초": [
+          null,
+          "숙박 유형 참고 이미지 · 고쿠분초 현장 및 실제 객실 촬영 확인 전"
+        ]
+      },
+      "photoKeys": [
+        "sendai"
+      ],
+      "scopeNote": "마쓰시마 사진은 미야기현의 실제 장소지만 센다이 시내가 아닙니다. 시내 사진으로 오해될 큰 히어로 사용을 보류하고, 근교 관광권 참고임을 분명히 표시합니다."
+    },
+    "hiroshima": {
+      "hero": "hiro",
+      "main": "hiro",
+      "cardOverrides": {
+        "혼도리": [
+          null,
+          "숙박 유형 참고 이미지 · 혼도리 실제 시설 촬영 검증 전"
+        ],
+        "미야지마": [
+          "miya",
+          "히로시마현 미야지마 섬 쪽 JR 페리 승선구 실제 사진 · 2022년, 호텔 객실 사진 아님"
+        ]
+      },
+      "photoKeys": [
+        "hiro",
+        "miya"
+      ],
+      "scopeNote": "히로시마 도심의 평화기념공원과 미야지마 섬 측 페리 승선구 현장 사진입니다. 혼도리·호텔 객실·온천 시설의 현장사진은 아닙니다."
+    }
+  },
+  "knownUnresolved": [
+    "generic /stay/assets/hotel.jpg still has no established photo provenance",
+    "Nagoya city center high-resolution photo not sourced",
+    "Sendai city center photo not sourced; Matsushima photo is explicitly outside Sendai",
+    "Chatan and Hondori specific photos not verified",
+    "Existing 28-page stay collection source image license audit remains open"
+  ]
+}
