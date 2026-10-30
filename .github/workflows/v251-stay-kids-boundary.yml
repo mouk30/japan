@@ -1,0 +1,20 @@
+name: NIPPONFERRY V251 stay family kids boundary QA
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  existing-pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate existing stay/family/kids links and SEO, prevent unverified KidsStay cross-link
+        run: node scripts/check-v251-stay-kids-boundary.mjs
