@@ -42,7 +42,7 @@ try{
    assert.ok(box?.height>=44,'Touch target too small at '+width+'px '+url+' height '+box?.height);
    const style=await link.evaluate(el=>({height:getComputedStyle(el).minHeight,display:getComputedStyle(el).display}));
    assert.equal(style.height,'44px');
-   assert.equal(style.display,'inline-flex');
+   assert.ok(['flex','inline-flex'].includes(style.display),'Button must retain a flex alignment context: '+style.display);
    const ctaOverflow=await cta.evaluate(el=>el.scrollWidth-el.clientWidth);
    assert.ok(ctaOverflow<=2,'CTA horizontal overflow '+width+'px '+url+' '+ctaOverflow);
    await ctx.close();console.log('V252 browser PASS '+width+'px '+url);
