@@ -1,0 +1,116 @@
+{
+  "schema": "nipponferry-v253-stay-photo-audit@1",
+  "checkedDate": "2026-10-30",
+  "existingStayPages": 28,
+  "oldPhotoAssetPaths": [
+    "/stay/assets/fuji.jpg",
+    "/stay/assets/fukuoka.jpg",
+    "/stay/assets/hakone.jpg",
+    "/stay/assets/hokkaido.jpg",
+    "/stay/assets/hotel.jpg",
+    "/stay/assets/kyoto.jpg",
+    "/stay/assets/osaka.jpg",
+    "/stay/assets/ryokan.jpg",
+    "/stay/assets/tokyo.jpg"
+  ],
+  "declaredOriginalPhotoLicensesConfirmed": 0,
+  "uniqueOldImageBlobs": 7,
+  "duplicateAssetGroup": {
+    "sha": "2e4076a63488479907075bfb5f2c8ceded43bcd6",
+    "paths": [
+      "/stay/assets/fuji.jpg",
+      "/stay/assets/hakone.jpg",
+      "/stay/assets/ryokan.jpg"
+    ]
+  },
+  "findings": [
+    {
+      "page": "/stay/kagoshima/",
+      "evidence": "Fuji backdrop reused for Sakurajima-view content",
+      "risk": "confirmed_visual_mismatch",
+      "status": "reference_photo_disclosure_applied"
+    },
+    {
+      "page": "/stay/okinawa/",
+      "evidence": "Fuji and onsen backdrop reused for Okinawa resorts",
+      "risk": "confirmed_visual_mismatch",
+      "status": "reference_photo_disclosure_applied"
+    },
+    {
+      "page": "/stay/nagoya/",
+      "evidence": "Tokyo Tower hotel scene reused for Nagoya",
+      "risk": "confirmed_visual_mismatch",
+      "status": "reference_photo_disclosure_applied"
+    },
+    {
+      "page": "/stay/sendai/",
+      "evidence": "Tokyo Tower hotel scene reused for Sendai",
+      "risk": "confirmed_visual_mismatch",
+      "status": "reference_photo_disclosure_applied"
+    },
+    {
+      "page": "/stay/hiroshima/",
+      "evidence": "Kyoto street scene reused for Hiroshima",
+      "risk": "confirmed_visual_mismatch",
+      "status": "reference_photo_disclosure_applied"
+    },
+    {
+      "page": "/stay/nagasaki/",
+      "evidence": "Fukuoka-style hotel scene reused for Nagasaki",
+      "risk": "unverified_place_reuse",
+      "status": "reference_photo_disclosure_applied"
+    },
+    {
+      "page": "/stay/shimonoseki/",
+      "evidence": "Fukuoka-style hotel scene reused for Shimonoseki",
+      "risk": "unverified_place_reuse",
+      "status": "reference_photo_disclosure_applied"
+    },
+    {
+      "page": "/stay/tsushima/",
+      "evidence": "Fukuoka-style hotel scene reused for Tsushima",
+      "risk": "unverified_place_reuse",
+      "status": "reference_photo_disclosure_applied"
+    },
+    {
+      "page": "/stay/yokohama/",
+      "evidence": "Tokyo Tower scene reused for Yokohama",
+      "risk": "confirmed_visual_mismatch",
+      "status": "reference_photo_disclosure_applied"
+    },
+    {
+      "page": "/stay/kobe/",
+      "evidence": "Osaka-named legacy image reused for Kobe",
+      "risk": "unverified_place_reuse",
+      "status": "reference_photo_disclosure_applied"
+    }
+  ],
+  "sourceImageReview": {
+    "jpegPixels": "CI reads original bytes and reports native width/height. File size and high pixel dimensions do not prove location/photographer/license.",
+    "peopleClaimedInSource": 0,
+    "licenseVerificationIndependentOfAppearance": true,
+    "previousFileProvenanceStatus": "UNVERIFIED"
+  },
+  "verifiedPlacePhotoReused": {
+    "targetPage": "/stay/hokkaido/",
+    "card": "노보리베쓰",
+    "src": "/images/v167/noboribetsu-onsen-lawsonstu-cc0-2015.webp",
+    "location": "Noboribetsu Onsen hot spring landscape (not a room/hotel photo)",
+    "photographer": "Lawsonstu",
+    "captured": "2015-04-07",
+    "license": "CC0-1.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Noboribetsu_Onsen_hot_spring.jpg",
+    "sourceMetadata": "site/images/v167/noboribetsu-onsen-lawsonstu-cc0-2015.source.json",
+    "realLicensedPhotoSwaps": 1
+  },
+  "heldChanges": {
+    "otherOriginalPhotosReplaced": 0,
+    "noNewPosts": true,
+    "canonicalAndMetaPreserved": true,
+    "unverifiedPhotoImagesNotAdvertisedAsRealHotelRooms": true,
+    "actualHotelPhotoRightsStillUnverified": true,
+    "existingBookingsUntouched": true,
+    "kidsStayUnchanged": true
+  },
+  "nextPass": "Replace each unverified geographic hotel image only with site-consistent, verified-license, correct-location and source-attributed real photographs. No AI-generated or unauthorized images."
+}
