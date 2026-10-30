@@ -1,0 +1,22 @@
+name: NIPPONFERRY V252 stay ferry context and mobile CTA QA
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v252-clarity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Preserve V251 stay family kids boundaries
+        run: node scripts/check-v251-stay-kids-boundary.mjs
+      - name: Validate V252 stay guide content and internal links
+        run: node scripts/check-v252-stay-ferry-clarity.mjs
