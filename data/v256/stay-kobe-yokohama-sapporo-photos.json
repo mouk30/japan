@@ -1,0 +1,87 @@
+{
+  "version": "V256",
+  "date": "2026-10-31",
+  "baseMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "scope": "3 previously existing city stay pages, no new article",
+  "modifiedPages": [
+    {
+      "slug": "kobe",
+      "sha": "e2ebc398bbc1f023dda54b49440571647f05073d",
+      "realPhoto": "/images/venues/nf-v140-kobe-port-tower-2025-real.webp",
+      "placeholderCount": 3
+    },
+    {
+      "slug": "yokohama",
+      "sha": "ae96ec5e4f62022b92f7064793b3b692b7d83a27",
+      "realPhoto": "/images/venues/yokohama-redbrick-waterfront.webp",
+      "placeholderCount": 3
+    },
+    {
+      "slug": "sapporo",
+      "sha": "c24ea7853c11abe3c2f42c1f7351dcca29cbf4e9",
+      "realPhoto": "/images/venues/nf-v143-sapporo-snow-festival-2014-real.webp",
+      "placeholderCount": 3
+    }
+  ],
+  "images": {
+    "kobe": {
+      "src": "/images/venues/nf-v140-kobe-port-tower-2025-real.webp",
+      "photographer": "ノボホショコロトソ",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kobe_Port_Tower_in_November_2025_at_night_06.jpg",
+      "place": "고베 메리켄파크의 고베 포트타워",
+      "date": "2025-11-02",
+      "blob": "49a6d8dbc3cedaf6a3fc14c866abc6d6d2970486",
+      "headings": [
+        "산노미야",
+        "하버랜드",
+        "아리마온천"
+      ],
+      "note": "고베 포트타워를 촬영한 관광지 실사입니다. 산노미야 역·하버랜드 숙소·아리마온천 시설이나 객실을 촬영한 사진이 아닙니다."
+    },
+    "yokohama": {
+      "src": "/images/venues/yokohama-redbrick-waterfront.webp",
+      "photographer": "Fred Cherrygarden",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Yokohama_Red_Brick_Warehouse.jpg",
+      "place": "요코하마 신코 지구 붉은벽돌 창고",
+      "date": "2024-01-12",
+      "blob": "226acdebdbf293777bcde9a27aa22191bea906d3",
+      "headings": [
+        "미나토미라이",
+        "요코하마역",
+        "차이나타운 권역"
+      ],
+      "note": "요코하마 붉은벽돌 창고를 촬영한 관광지 실사입니다. 요코하마역·차이나타운·특정 호텔 객실의 사진이 아니며 미나토미라이 숙소의 현장사진도 아닙니다."
+    },
+    "sapporo": {
+      "src": "/images/venues/nf-v143-sapporo-snow-festival-2014-real.webp",
+      "photographer": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:第65回さっぽろ雪まつり（SAPPORO_SNOW_FESTIVAL_65th）_-_panoramio_(1).jpg",
+      "place": "2014년 삿포로 눈축제 현장",
+      "date": "2014-02-05",
+      "blob": "8ee4b444d79c652bea7d293c4f75dde75bf98e32",
+      "headings": [
+        "삿포로역",
+        "오도리",
+        "스스키노"
+      ],
+      "note": "2014년 삿포로 눈축제를 촬영한 과거 행사 사진입니다. 현재 축제 모습, 삿포로역·스스키노 거리, 실제 숙소 객실을 보여주는 사진은 아닙니다."
+    }
+  },
+  "rights": [
+    "Photo links and named authors/CC licenses independently checked against Wikimedia Commons file pages",
+    "Displayed real photos are tourism landmarks/old event, not particular hotels, authorized rooms, or current conditions",
+    "Non-exact stay-neighborhood cards replaced with CSS holding notices rather than misleading images",
+    "Existing booking URLs, KidsStay, canonical, robots, title, SEO and 28-article count must remain unchanged"
+  ],
+  "knownUnresolved": [
+    "Original 9 stay/assets JPG sources remain unverified elsewhere in the stay collection",
+    "Actual accommodation/room photo usage rights not yet obtained",
+    "V256 needs mandatory CI and live protected Vercel Preview inspection before merge"
+  ]
+}
