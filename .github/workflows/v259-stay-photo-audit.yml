@@ -1,0 +1,30 @@
+name: NIPPONFERRY V259 existing stay 28-page photo provenance audit
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v259-stay-html-photo-inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate 28 existing stay pages and original JPEG audit regressions
+        run: |
+          node scripts/check-v251-stay-kids-boundary.mjs
+          node scripts/check-v252-stay-ferry-clarity.mjs
+          node scripts/check-v253-stay-images.mjs
+          node scripts/check-v254-stay-local-verified.mjs
+      - name: Inventory every image tag and CSS URL with blob SHA evidence
+        run: node scripts/check-v259-stay-photo-inventory.mjs
+      - name: Preserve detailed 28-page audit artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: v259-stay-image-refs-28-pages
+          path: audit-reports/v259-stay-photo-inventory.generated.json
+          if-no-files-found: error
