@@ -1,0 +1,49 @@
+{
+  "version": "V261",
+  "baseline": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "pages": [
+    {
+      "path": "site/stay/hotel/index.html",
+      "originalAssetReferences": [
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/tokyo.jpg",
+        "/stay/assets/osaka.jpg",
+        "/stay/assets/fukuoka.jpg"
+      ],
+      "originalCssHero": "/stay/assets/hotel.jpg",
+      "withheldImgPositions": 4,
+      "withheldCssHeroPositions": 1,
+      "originalCardLinks": [
+        "/stay/tokyo/",
+        "/stay/osaka/",
+        "/stay/fukuoka/"
+      ],
+      "originalH1": "일본 호텔 추천 | 도시별 숙소 위치 선택 가이드",
+      "originalCanonical": "https://www.nipponferry.com/stay/hotel/",
+      "originalBlobSha": "1181289a8135800c94339ab38e98cadec90efe84"
+    },
+    {
+      "path": "site/stay/ryokan/index.html",
+      "originalAssetReferences": [
+        "/stay/assets/ryokan.jpg",
+        "/stay/assets/ryokan.jpg",
+        "/stay/assets/kyoto.jpg",
+        "/stay/assets/fuji.jpg"
+      ],
+      "originalCssHero": "/stay/assets/ryokan.jpg",
+      "withheldImgPositions": 4,
+      "withheldCssHeroPositions": 1,
+      "originalCardLinks": [
+        "/stay/hakone/",
+        "/stay/kyoto/",
+        "/stay/fuji/"
+      ],
+      "originalH1": "일본 료칸 추천 | 온천·가이세키·전통숙박 가이드",
+      "originalCanonical": "https://www.nipponferry.com/stay/ryokan/",
+      "originalBlobSha": "2ced58a9c8b3a31b4993b0af9b4cd9b0f6db17ce"
+    }
+  ],
+  "policy": "Remove unverified hotel/ryokan imagery including CSS hero; do not substitute destination scenes or imply hotel rooms; existing SEO/booking/links unchanged",
+  "licenseEvidence": "No verified original photographer, exact location, and reuse permission for the referenced legacy /stay/assets JPGs in baseline; all withheld",
+  "preview": "pending authenticated independent inspection; protected preview may return 403"
+}
