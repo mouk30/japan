@@ -1,0 +1,36 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+const a=JSON.parse(fs.readFileSync('data/v255/stay-three-regions-photo-origin.json','utf8'));
+assert.equal(a.version,'V255');
+const slugs=['nagasaki','shimonoseki','tsushima'];
+assert.deepEqual(Object.keys(a.photos).sort(),slugs.slice().sort());
+const total=['site/stay/index.html',...fs.readdirSync('site/stay',{withFileTypes:true}).filter(d=>d.isDirectory()&&fs.existsSync('site/stay/'+d.name+'/index.html')).map(d=>'site/stay/'+d.name+'/index.html')];
+assert.equal(total.length,28,'No new stay articles allowed');
+for(const slug of slugs) {
+ const photo=a.photos[slug];
+ const pathName='site'+photo.src;
+ const h=fs.readFileSync('site/stay/'+slug+'/index.html','utf8');
+ assert.ok(fs.existsSync(pathName),'Image asset missing '+slug);
+ const content=fs.readFileSync(pathName);
+ assert.equal(content.toString('ascii',0,4),'RIFF','Not a RIFF file '+slug);
+ assert.equal(content.toString('ascii',8,12),'WEBP','Not a WebP file '+slug);
+ assert.equal(crypto.createHash('sha1').update(Buffer.from('blob '+content.length+'\0')).update(content).digest('hex'),photo.blob,'Photo bytes changed without new provenance '+slug);
+ assert.ok(h.includes(photo.src),'Photo not actually displayed '+slug);
+ assert.ok(h.includes(photo.original)&&h.includes(photo.licenseURL),'Missing source/license '+slug);
+ assert.ok(h.includes(photo.credit)&&h.includes(photo.place),'Missing creator/place '+slug);
+ assert.equal((h.match(/class="nf-v253-photo-notice"/g)||[]).length,1);
+ assert.equal((h.match(/class="nf-v253-photo-credit nf-v255-real-location-credit"/g)||[]).length,1);
+ assert.ok(h.includes('촬영지·사용 권한 검증 전'));
+ assert.equal((h.match(/class='sv-v255-unverified-photo'/g)||[]).length,slug==='nagasaki'?3:2,'Unverified photo placeholders missing '+slug);
+ assert.equal((h.match(/<img class='sv-img'/g)||[]).length,1);
+ assert.ok(!/\/stay\/assets\/[^'") >]+/.test(h),'Legacy photo unexpectedly shown in '+slug);
+ assert.ok(h.includes('https://www.nipponferry.com/stay/'+slug+'/'),'Canonical changed '+slug);
+ assert.match(h,/<meta name=['"]robots['"] content=['"]index,follow/i,'Robots changed '+slug);
+ assert.ok(!/kids-stay\.com|kidsstay-v5\.vercel\.app/i.test(h),'Unapproved KidsStay link '+slug);
+ const hero=h.match(/\.sv-hero:before\{[^}]*\}/)?.[0]||'';
+ assert.ok(hero.includes(photo.src),'Wrong location hero '+slug);
+ assert.ok(h.includes("숙박시설의 공식 객실 사진과 예약 가능 여부는 별도 확인"),'Misleading hotel photo claims '+slug);
+}
+console.log('PASS V255: 28 existing stay pages preserved; 3 local-photo provenances; 7 neutral unverified placeholders; no licensed unknown hotel/JPEG, preserved canonical/robots/kids boundary.');
