@@ -5,7 +5,7 @@ const sitemap=fs.readFileSync('site/sitemap.xml','utf8');
 const robots=fs.readFileSync('site/robots.txt','utf8');
 assert.match(robots,/Sitemap:\s*https:\/\/www\.nipponferry\.com\/sitemap\.xml/);
 assert.equal(report.pages.length,1);
-assert.equal(report.pages.reduce((n,p)=>n+p.withheldImgPositions+p.withheldCssHeroPositions,0undefined
+assert.equal(report.pages.reduce((n,p)=>n+p.withheldImgPositions+p.withheldCssHeroPositions,0),5);
 for(const item of report.pages){
  const html=fs.readFileSync(item.path,'utf8');
  const url='/stay/'+item.path.split('/')[2]+'/';
@@ -19,7 +19,7 @@ for(const item of report.pages){
  assert.equal((html.match(/role='img' aria-label='숙박 예시 사진 게시 보류/g)||[]).length,4,'4 holds required '+url);
  assert.equal((html.match(/class='sv-photo-hold sv-photo-hold--card'/g)||[]).length,3,'3 card holds required '+url);
  assert.equal((html.match(/class='sv-img sv-photo-hold sv-photo-hold--feature'/g)||[]).length,1,'feature hold required '+url);
- assert.equal((html.match(/id="nf-v262-photo-hold-style"/g)||[]).length,1,'CSS missing '+url);
+ assert.equal((html.match(/id="nf-v263-photo-hold-style"/g)||[]).length,1,'CSS missing '+url);
  assert.ok(html.includes('이 페이지의 숙박 예시 사진 4곳과 상단 배경 사진 1곳은 원본 저작자'),'truthful notice missing '+url);
  const hero=html.match(/\.sv-hero:before\{[^}]+\}/)?.[0]||'';
  assert.ok(hero.includes('linear-gradient')&&!hero.includes('url('),'unverified hero image '+url);
