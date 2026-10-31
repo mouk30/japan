@@ -1,28 +1,408 @@
 {
   "stage": "V259",
-  "scope": "Existing 28 /stay/ pages only",
-  "baseline": "c17fec39626600b9b83c7890d8a0857ea19d661e",
-  "evidence": [
+  "status": "28-page original HTML/CSS inventory performed against unmerged main; photo rights still pending; PR review/preview and CI pending",
+  "auditDate": "2026-10-31",
+  "sourceRepo": "mouk30/japan",
+  "ref": "main",
+  "refCommit": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "scope": {
+    "existingPages": 28,
+    "newPosts": 0,
+    "staticHtmlAndInlineCssOnly": true,
+    "reportedImageCountUnit": "every <img src> and CSS url() reference to /stay/assets/ (repeated references counted)",
+    "legacyReferences": 143,
+    "uniqueLegacyPaths": 9,
+    "uniqueLegacyGitBlobs": 7
+  },
+  "rights": {
+    "legacyOriginalPhotographerConfirmed": 0,
+    "legacyOriginalLicenseConfirmed": 0,
+    "legacyOriginalLocationConfirmed": 0,
+    "duplicateImageGroup": [
+      "/stay/assets/fuji.jpg",
+      "/stay/assets/hakone.jpg",
+      "/stay/assets/ryokan.jpg"
+    ],
+    "reuseRisk": "Same photo reused as distinct Fuji/Hakone/ryokan; source/location and usage permission not established"
+  },
+  "knownAuthorizedPhotoRecords": [
+    "data/v253/stay-photo-audit.json",
+    "data/v254/stay-verified-region-photos.json"
+  ],
+  "knownPhotoCaveat": "Verified tourism location images are NOT operator-approved hotel or room photos. The contact icon /images/kakao-talk.jpg is UI media, not a hotel image.",
+  "pages": [
     {
-      "source": "data/v253/stay-photo-audit.json",
-      "finding": "9 legacy asset paths; 7 unique blobs; 0 confirmed original photo licenses; fuji/hakone/ryokan same blob",
-      "classification": "previously documented; not independently reverified in this commit"
+      "page": "/stay/",
+      "file": "site/stay/index.html",
+      "gitBlobSha": "d9d1bebd283d7d946b1dead777fa7b6f91c78f50",
+      "unverifiedLegacyReferences": 14,
+      "legacyPhotoPaths": [
+        "/stay/assets/ryokan.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/fuji.jpg",
+        "/stay/assets/hakone.jpg",
+        "/stay/assets/kyoto.jpg",
+        "/stay/assets/hokkaido.jpg",
+        "/stay/assets/tokyo.jpg",
+        "/stay/assets/osaka.jpg",
+        "/stay/assets/fukuoka.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
     },
     {
-      "source": "data/v254/stay-verified-region-photos.json",
-      "finding": "Source/author/license records for selected regional tourism scenes; not proof of hotel or room photography",
-      "classification": "existing manifest"
+      "page": "/stay/area/",
+      "file": "site/stay/area/index.html",
+      "gitBlobSha": "e7d489966334e7b312b2a24d03eb837b51753231",
+      "unverifiedLegacyReferences": 15,
+      "legacyPhotoPaths": [
+        "/stay/assets/hokkaido.jpg",
+        "/stay/assets/tokyo.jpg",
+        "/stay/assets/osaka.jpg",
+        "/stay/assets/kyoto.jpg",
+        "/stay/assets/fukuoka.jpg",
+        "/stay/assets/ryokan.jpg",
+        "/stay/assets/fuji.jpg",
+        "/stay/assets/hotel.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/beppu/",
+      "file": "site/stay/beppu/index.html",
+      "gitBlobSha": "80bcc5efd013c584d2c06151b7b8ff691def876a",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/ryokan.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/fuji.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/couple/",
+      "file": "site/stay/couple/index.html",
+      "gitBlobSha": "57b0ef871f03a80cb417cf3672740de6b1142ada",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/ryokan.jpg",
+        "/stay/assets/tokyo.jpg",
+        "/stay/assets/fuji.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/family/",
+      "file": "site/stay/family/index.html",
+      "gitBlobSha": "900662978d2cd2354c8710f3dbf09e857a89a442",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/ryokan.jpg",
+        "/stay/assets/fuji.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/first-trip/",
+      "file": "site/stay/first-trip/index.html",
+      "gitBlobSha": "43e2d4564528ab968d8dbe3358a4b10114800def",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/tokyo.jpg",
+        "/stay/assets/fukuoka.jpg",
+        "/stay/assets/osaka.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/fuji/",
+      "file": "site/stay/fuji/index.html",
+      "gitBlobSha": "b63b00e17d9871fbfd39ba1a54b3a8c61fc3c08b",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/fuji.jpg",
+        "/stay/assets/hakone.jpg",
+        "/stay/assets/ryokan.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/fukuoka/",
+      "file": "site/stay/fukuoka/index.html",
+      "gitBlobSha": "61a9ede89dc66b3db4a4a4f290dbb4370e79c75e",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/fukuoka.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/osaka.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/hakodate/",
+      "file": "site/stay/hakodate/index.html",
+      "gitBlobSha": "0d7b7ac8e5db059a071b709235d33e163db0e443",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/hokkaido.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/ryokan.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/hakone/",
+      "file": "site/stay/hakone/index.html",
+      "gitBlobSha": "06911e3913c3a32efd47e0e8f8b056a18c9a2fba",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/hakone.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/ryokan.jpg",
+        "/stay/assets/fuji.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/hiroshima/",
+      "file": "site/stay/hiroshima/index.html",
+      "gitBlobSha": "c9e8a4f9e827cd2b58ee3e9ac77d12c3fc2e68c2",
+      "unverifiedLegacyReferences": 2,
+      "legacyPhotoPaths": [
+        "/stay/assets/hotel.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/hokkaido/",
+      "file": "site/stay/hokkaido/index.html",
+      "gitBlobSha": "69681f70f82237bb9bd774e786008f3e91c8c0d1",
+      "unverifiedLegacyReferences": 4,
+      "legacyPhotoPaths": [
+        "/stay/assets/hokkaido.jpg",
+        "/stay/assets/ryokan.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/hotel/",
+      "file": "site/stay/hotel/index.html",
+      "gitBlobSha": "1181289a8135800c94339ab38e98cadec90efe84",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/tokyo.jpg",
+        "/stay/assets/osaka.jpg",
+        "/stay/assets/fukuoka.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/kagoshima/",
+      "file": "site/stay/kagoshima/index.html",
+      "gitBlobSha": "c4cbf315ee90e531fdca0920ba038a62e0f950ca",
+      "unverifiedLegacyReferences": 1,
+      "legacyPhotoPaths": [
+        "/stay/assets/hotel.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/kobe/",
+      "file": "site/stay/kobe/index.html",
+      "gitBlobSha": "0108cb55debba5e953317eaf7f353d4b544aac85",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/osaka.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/ryokan.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/kyoto/",
+      "file": "site/stay/kyoto/index.html",
+      "gitBlobSha": "f4454a9c49384e5515a2b5c8a085aa77eec623a4",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/kyoto.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/ryokan.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/nagasaki/",
+      "file": "site/stay/nagasaki/index.html",
+      "gitBlobSha": "b4bd0090814036b030a36ddad410c4b1d0b6473a",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/fukuoka.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/tokyo.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/nagoya/",
+      "file": "site/stay/nagoya/index.html",
+      "gitBlobSha": "df2dad836c90788e3e1400a1aeb2efc147aac15d",
+      "unverifiedLegacyReferences": 3,
+      "legacyPhotoPaths": [
+        "/stay/assets/hotel.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/okinawa/",
+      "file": "site/stay/okinawa/index.html",
+      "gitBlobSha": "c40be18be72aca4d179603a6102c5e71f0bf9006",
+      "unverifiedLegacyReferences": 1,
+      "legacyPhotoPaths": [
+        "/stay/assets/hotel.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/osaka/",
+      "file": "site/stay/osaka/index.html",
+      "gitBlobSha": "03cc91015cb8f02fce9df62c9b36ffc9ac0bb3c2",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/osaka.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/tokyo.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/otaru/",
+      "file": "site/stay/otaru/index.html",
+      "gitBlobSha": "92f922993704cc8b04af6f88a39bff4edb8f7c14",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/hokkaido.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/ryokan.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/ryokan/",
+      "file": "site/stay/ryokan/index.html",
+      "gitBlobSha": "2ced58a9c8b3a31b4993b0af9b4cd9b0f6db17ce",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/ryokan.jpg",
+        "/stay/assets/kyoto.jpg",
+        "/stay/assets/fuji.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/sapporo/",
+      "file": "site/stay/sapporo/index.html",
+      "gitBlobSha": "55bdea9d6e8918917c95a046f9dd6ff91f2d165f",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/hokkaido.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/tokyo.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/sendai/",
+      "file": "site/stay/sendai/index.html",
+      "gitBlobSha": "14478e88f683c27dfddaec2cb69dc3cddd82a070",
+      "unverifiedLegacyReferences": 3,
+      "legacyPhotoPaths": [
+        "/stay/assets/hotel.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/shimonoseki/",
+      "file": "site/stay/shimonoseki/index.html",
+      "gitBlobSha": "66360cb8fce8b341b54df15db352ca5ec5cc8694",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/fukuoka.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/osaka.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/tokyo/",
+      "file": "site/stay/tokyo/index.html",
+      "gitBlobSha": "4265075f5a26182ffb16188ce682616057892b80",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/tokyo.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/kyoto.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/tsushima/",
+      "file": "site/stay/tsushima/index.html",
+      "gitBlobSha": "3f12e92fad99b3bb90f6edefa2ca4a5b26c4ffd2",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/fukuoka.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/tokyo.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
+    },
+    {
+      "page": "/stay/yokohama/",
+      "file": "site/stay/yokohama/index.html",
+      "gitBlobSha": "c022117b9396b8387da1f372869913bffdfcab08",
+      "unverifiedLegacyReferences": 5,
+      "legacyPhotoPaths": [
+        "/stay/assets/tokyo.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/fukuoka.jpg"
+      ],
+      "review": "legacy JPG source copyright/location UNVERIFIED; separate known provenance tourist photos where displayed"
     }
   ],
-  "unverified": [
-    "Complete per-page img and CSS background inventory for all 28 pages",
-    "Original author/license/location of legacy JPGs",
-    "Protected Vercel Preview actual page inspection",
-    "Partner hotel and room image permission"
+  "activeUnmergedProposals": [
+    {
+      "pr": 58,
+      "scope": "Unverified hotel image hold on five city pages"
+    },
+    {
+      "pr": 59,
+      "scope": "Nagasaki, Shimonoseki, Tsushima"
+    },
+    {
+      "pr": 60,
+      "scope": "Kobe, Yokohama, Sapporo"
+    },
+    {
+      "pr": 61,
+      "scope": "Osaka, Kyoto, Tokyo"
+    },
+    {
+      "pr": 62,
+      "scope": "Landing hub/area image holds; changes NOT in main baseline"
+    }
   ],
-  "rules": [
-    "No image substitution without exact provenance",
-    "No changes to booking, SEO, KidsStay or live deployment"
+  "remaining": [
+    "Obtain original authors and rights for legacy JPG files from the actual creators/owners; current manifest cannot establish rights.",
+    "Verify all actual hotel/room photography separately with each lodging operator.",
+    "Independently authenticate and visually inspect protected Vercel Preview (access 403) prior to any merge.",
+    "Stage and test independent fixes in separate PRs without overwriting this baseline manifest."
   ],
-  "status": "partial evidence register; comprehensive inventory and tests pending"
+  "boundary": {
+    "kidsStay": "untouched",
+    "bookingUrls": "untouched",
+    "seoTitlesCanonicalsRobots": "untouched",
+    "liveDeployment": "unchanged"
+  },
+  "validation": "scripts/check-v259-stay-photo-inventory.mjs computes full image tag, alt, CSS background references for all pages and emits a detailed source inventory artifact"
 }
