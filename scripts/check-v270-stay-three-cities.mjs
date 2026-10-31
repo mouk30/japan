@@ -25,7 +25,7 @@ for(const p of audit.pages){
  const cards=[...html.matchAll(/<a class='sv-card' href='([^']+)'/g)].map(m=>m[1]);
  assert.deepEqual(cards,p.originalCardLinks,'card links changed '+p.slug);
  assert.equal(cards.length,3);
- assert.equal((html.match(/<div class='sv-photo-hold sv-photo-hold--card'/g)||[]).length,p.withheldLegacyInlinePositions-p.withheldLegacyHeroPositions===3?3:(p.slug==='hiroshima'?2:3),'card holds '+p.slug);
+ assert.equal((html.match(/<div class='sv-photo-hold sv-photo-hold--card'/g)||[]).length,p.slug==='hiroshima'?2:3,'card holds '+p.slug);
  assert.equal((html.match(/class='sv-img sv-photo-hold sv-photo-hold--feature'/g)||[]).length,p.slug==='hiroshima'?0:1,'feature hold '+p.slug);
  assert.equal((html.match(/role='img' aria-label='숙박 참고 사진 게시 보류/g)||[]).length,p.withheldLegacyInlinePositions,'hold accessibility labels '+p.slug);
  assert.equal((html.match(/id="nf-v270-photo-hold-style"/g)||[]).length,1,'responsive hold style '+p.slug);
