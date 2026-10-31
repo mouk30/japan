@@ -1,0 +1,42 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+
+const report=JSON.parse(fs.readFileSync('audit-reports/v266-stay-sapporo-otaru-photo-rights.json','utf8'));
+const sitemap=fs.readFileSync('site/sitemap.xml','utf8');
+const robots=fs.readFileSync('site/robots.txt','utf8');
+assert.match(robots,/Sitemap:\s*https:\/\/www\.nipponferry\.com\/sitemap\.xml/);
+assert.equal(report.pages.length,2);
+assert.deepEqual(report.pages.map(p=>p.path),['site/stay/sapporo/index.html','site/stay/otaru/index.html']);
+assert.equal(report.pages.reduce((n,p)=>n+p.withheldImgPositions+p.withheldCssHeroPositions,0),10);
+for(const item of report.pages){
+ const html=fs.readFileSync(item.path,'utf8');
+ assert.ok(html.includes('<title>'+item.originalTitle+'</title>'),'title changed '+item.path);
+ assert.ok(html.includes("name='description' content='"+item.originalDescription+"'"),'description changed '+item.path);
+ assert.ok(html.includes('<h1>'+item.originalH1+'</h1>'),'H1 changed '+item.path);
+ assert.ok(html.includes("rel='canonical' href='"+item.originalCanonical+"'"),'canonical changed '+item.path);
+ assert.ok(html.includes("name='robots' content='"+item.originalRobots+"'"),'robots changed '+item.path);
+ assert.ok(sitemap.includes('<loc>'+item.originalCanonical+'</loc>'),'sitemap entry missing '+item.path);
+ assert.doesNotMatch(html,/\/stay\/assets\//,'unverified photo still rendered '+item.path);
+ assert.equal((html.match(/role='img' aria-label='숙박 예시 사진 게시 보류/g)||[]).length,4,'4 holds required '+item.path);
+ assert.equal((html.match(/<div class='sv-photo-hold sv-photo-hold--card'/g)||[]).length,3,'3 card holds required '+item.path);
+ assert.equal((html.match(/<div class='sv-img sv-photo-hold sv-photo-hold--feature'/g)||[]).length,1,'feature hold required '+item.path);
+ assert.equal((html.match(/id="nf-v266-photo-hold-style"/g)||[]).length,1,'hold style missing '+item.path);
+ assert.ok(html.includes('숙박 참고 이미지 4곳과 상단 배경 1곳은 원본 저작자'),'notice missing '+item.path);
+ assert.ok(html.includes('해당 도시의 실제 호텔·객실을 촬영했다는 증빙이 없습니다'),'V253 source uncertainty missing');
+ const hero=html.match(/\.sv-hero:before\{[^}]+\}/)?.[0]||'';
+ assert.ok(hero.includes('linear-gradient')&&!hero.includes('url('),'unverified hero photo '+item.path);
+ const cards=[...html.matchAll(/<a class='sv-card' href='([^']+)'/g)].map(m=>m[1]);
+ assert.deepEqual(cards,item.originalCardLinks,'card destinations changed '+item.path);
+ const anchors=[...html.matchAll(/<a\b[^>]*\bhref=['"]([^'"]+)['"]/g)].map(m=>m[1]);
+ assert.deepEqual(anchors,item.originalAnchorHrefs,'anchor destinations changed '+item.path);
+ assert.equal(anchors.length,item.originalAnchorCount,'anchor count changed '+item.path);
+ assert.equal((html.match(/<img\b[^>]*>/g)||[]).length,1,'unexpected unverified image '+item.path);
+ assert.ok(html.includes('src="/images/kakao-talk.jpg"'),'Kakao UI image missing');
+ assert.ok(html.includes('href="/booking/japan-cruise/"'),'ferry booking guide removed');
+ assert.ok(html.includes('https://willer-travel.com/ko/ferry/'),'ferry CTA removed');
+ assert.doesNotMatch(html,/kidsstay-v5\.vercel\.app|kids-stay\.com/i,'unverified KidsStay referral');
+ console.log('V266 STATIC PASS '+item.path+' | 4 legacy photos and 1 CSS hero held; original 33 anchors/SEO/CTA preserved');
+}
+const dirs=fs.readdirSync('site/stay',{withFileTypes:true}).filter(x=>x.isDirectory()&&fs.existsSync('site/stay/'+x.name+'/index.html'));
+assert.equal(dirs.length+1,28,'28 existing stay pages must remain unchanged');
+console.log('V266 STATIC PASS: 2 existing pages, 10 unverified photo placements held, no new pages.');
