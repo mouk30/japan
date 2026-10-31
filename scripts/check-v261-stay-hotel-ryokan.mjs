@@ -27,7 +27,7 @@ for(const item of cases){
  assert.ok(hero.includes('linear-gradient')&&!hero.includes('url('),'unverified hero image: '+file);
  const cards=[...html.matchAll(/<a class='sv-card' href='([^']+)'/g)].map(m=>m[1]);
  assert.deepEqual(cards,item.cards,'card destinations changed: '+file);
- assert.ok(html.includes("href='/booking/japan-cruise/'"),'original booking guide changed: '+file);
+ assert.ok(html.includes('href="/booking/japan-cruise/"'),'original booking guide changed: '+file);
  assert.ok(html.includes('https://willer-travel.com/ko/ferry/'),'ferry CTA removed: '+file);
  assert.ok(html.includes('숙소·객실 예약이 아닌 일본 국내 페리 항로 조회'),'ferry/room booking distinction lost: '+file);
  assert.doesNotMatch(html,/kidsstay-v5\.vercel\.app|kids-stay\.com/i,'unverified KidsStay referral: '+file);
