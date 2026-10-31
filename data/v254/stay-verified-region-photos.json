@@ -6,7 +6,8 @@
     "Current hotel's rooms are NOT certified by tourism photographs",
     "No photos generated, no uploads from unlicensed sources",
     "No new articles or booking changes",
-    "CC licenses require credit and webp resize disclosure"
+    "CC licenses require credit and webp resize disclosure",
+    "V254 follow-up: ten unverified hotel.jpg card images removed; neutral CSS placeholders only"
   ],
   "images": {
     "shiro": {
@@ -120,7 +121,7 @@
         ],
         "차탄": [
           null,
-          "숙박 유형 참고 이미지 · 차탄 현장 및 실제 객실 촬영 확인 전"
+          "사진 미게시 · 차탄 현장 및 실제 객실 촬영 확인 전"
         ],
         "온나손·북부": [
           "kouri",
@@ -131,7 +132,7 @@
         "kouri",
         "naha"
       ],
-      "scopeNote": "고우리대교는 오키나와 북부의 실제 관광 풍경으로 온나손 숙소 현장이 아니며, 나하 국제거리는 나하시 촬영입니다. 차탄 카드의 객실 사진은 여전히 미검증 참고 이미지입니다."
+      "scopeNote": "고우리대교는 오키나와 북부의 실제 관광 풍경으로 온나손 숙소 현장이 아니며, 나하 국제거리는 나하시 촬영입니다. 차탄 카드에는 출처·사용 권한 미확인 사진 대신 중립 안내를 표시합니다."
     },
     "nagoya": {
       "hero": null,
@@ -139,13 +140,13 @@
       "cardOverrides": {
         "사카에": [
           null,
-          "숙박 유형 참고 이미지 · 사카에 현장 및 실제 객실 촬영 확인 전"
+          "사진 미게시 · 사카에 현장 및 실제 객실 촬영 확인 전"
         ]
       },
       "photoKeys": [
         "nagoya"
       ],
-      "scopeNote": "나고야항 수족관의 실제 사진만 확인되었습니다. 원본 768×576px이므로 큰 히어로 배경으로 확대하지 않고 단색 배경을 유지합니다. 역·사카에 현장 사진은 미확보입니다."
+      "scopeNote": "나고야항 수족관의 실제 사진만 확인되었습니다. 원본 768×576px이므로 큰 히어로 배경으로 확대하지 않고 단색 배경을 유지합니다. 나고야역·사카에·가나야마 숙소 사진은 검증 전까지 게시하지 않습니다."
     },
     "sendai": {
       "hero": null,
@@ -153,13 +154,13 @@
       "cardOverrides": {
         "고쿠분초": [
           null,
-          "숙박 유형 참고 이미지 · 고쿠분초 현장 및 실제 객실 촬영 확인 전"
+          "사진 미게시 · 고쿠분초 현장 및 실제 객실 촬영 확인 전"
         ]
       },
       "photoKeys": [
         "sendai"
       ],
-      "scopeNote": "마쓰시마 사진은 미야기현의 실제 장소지만 센다이 시내가 아닙니다. 시내 사진으로 오해될 큰 히어로 사용을 보류하고, 근교 관광권 참고임을 분명히 표시합니다."
+      "scopeNote": "마쓰시마 사진은 미야기현의 실제 장소지만 센다이 시내가 아닙니다. 시내 사진으로 오해될 큰 히어로 사용을 보류하고, 센다이역·고쿠분초 등 숙소 사진은 검증 전까지 게시하지 않습니다."
     },
     "hiroshima": {
       "hero": "hiro",
@@ -167,7 +168,7 @@
       "cardOverrides": {
         "혼도리": [
           null,
-          "숙박 유형 참고 이미지 · 혼도리 실제 시설 촬영 검증 전"
+          "사진 미게시 · 혼도리 실제 시설 촬영 검증 전"
         ],
         "미야지마": [
           "miya",
@@ -178,11 +179,11 @@
         "hiro",
         "miya"
       ],
-      "scopeNote": "히로시마 도심의 평화기념공원과 미야지마 섬 측 페리 승선구 현장 사진입니다. 혼도리·호텔 객실·온천 시설의 현장사진은 아닙니다."
+      "scopeNote": "히로시마 도심의 평화기념공원과 미야지마 섬 측 페리 승선구 현장 사진입니다. 히로시마역·혼도리 숙소 사진은 검증 전까지 게시하지 않습니다."
     }
   },
   "knownUnresolved": [
-    "generic /stay/assets/hotel.jpg still has no established photo provenance",
+    "generic /stay/assets/hotel.jpg has unverified provenance; removed from all five V254 pages, but legacy use elsewhere in the 28-page stay collection still needs review",
     "Nagoya city center high-resolution photo not sourced",
     "Sendai city center photo not sourced; Matsushima photo is explicitly outside Sendai",
     "Chatan and Hondori specific photos not verified",
