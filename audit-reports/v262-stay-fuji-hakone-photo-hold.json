@@ -1,0 +1,76 @@
+{
+  "version": "V262",
+  "scope": "2 of 28 existing /stay/ guides, zero new articles",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "evidenceSources": [
+    "data/v253/stay-photo-audit.json",
+    "audit-reports/v259-stay-photo-provenance-evidence.json on PR #63",
+    "original HTML from main"
+  ],
+  "duplicateImageEvidence": {
+    "paths": [
+      "/stay/assets/fuji.jpg",
+      "/stay/assets/hakone.jpg",
+      "/stay/assets/ryokan.jpg"
+    ],
+    "sameGitBlobSha": "2e4076a63488479907075bfb5f2c8ceded43bcd6",
+    "conclusion": "Same unverified blob reused as Fuji, Hakone and ryokan; not proof of a hotel/room or specific region"
+  },
+  "pages": [
+    {
+      "path": "site/stay/fuji/index.html",
+      "originalBlobSha": "b63b00e17d9871fbfd39ba1a54b3a8c61fc3c08b",
+      "originalH1": "후지산 근처 숙소 추천 | 가와구치코·야마나카코 료칸·호텔",
+      "originalCanonical": "https://www.nipponferry.com/stay/fuji/",
+      "originalAssetReferences": [
+        "/stay/assets/fuji.jpg",
+        "/stay/assets/fuji.jpg",
+        "/stay/assets/hakone.jpg",
+        "/stay/assets/ryokan.jpg"
+      ],
+      "originalCssHero": "/stay/assets/fuji.jpg",
+      "withheldImgPositions": 4,
+      "withheldCssHeroPositions": 1,
+      "originalCardLinks": [
+        "/stay/fuji/",
+        "/stay/hakone/",
+        "/stay/couple/"
+      ],
+      "originalAnchorCount": 33
+    },
+    {
+      "path": "site/stay/hakone/index.html",
+      "originalBlobSha": "06911e3913c3a32efd47e0e8f8b056a18c9a2fba",
+      "originalH1": "하코네 료칸 추천 | 도쿄 근교 온천숙소 가이드",
+      "originalCanonical": "https://www.nipponferry.com/stay/hakone/",
+      "originalAssetReferences": [
+        "/stay/assets/hakone.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/ryokan.jpg",
+        "/stay/assets/fuji.jpg"
+      ],
+      "originalCssHero": "/stay/assets/hakone.jpg",
+      "withheldImgPositions": 4,
+      "withheldCssHeroPositions": 1,
+      "originalCardLinks": [
+        "/stay/hakone/",
+        "/stay/ryokan/",
+        "/stay/fuji/"
+      ],
+      "originalAnchorCount": 38
+    }
+  ],
+  "rights": {
+    "legacyPhotographer": "unverified",
+    "exactLocation": "unverified",
+    "licenseAndPermission": "unverified",
+    "replacementPhotosAdded": 0
+  },
+  "policy": "Withhold all 10 unverified image placements (8 img, 2 CSS hero); no fabricated Fuji/Hakone room/location or usage rights; preserve original metadata, links, booking, KidsStay and sitemap.",
+  "verification": {
+    "localStatic": "to be run by GitHub Actions",
+    "localBrowser": "to be run by GitHub Actions at 320,390,768,1440",
+    "authenticatedVercelPreview": "pending independent authentication; SSO-protected previews previously 403",
+    "merge": "blocked pending all CI and authenticated preview"
+  }
+}
