@@ -1,0 +1,28 @@
+{
+  "stage": "V259",
+  "scope": "Existing 28 /stay/ pages only",
+  "baseline": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "evidence": [
+    {
+      "source": "data/v253/stay-photo-audit.json",
+      "finding": "9 legacy asset paths; 7 unique blobs; 0 confirmed original photo licenses; fuji/hakone/ryokan same blob",
+      "classification": "previously documented; not independently reverified in this commit"
+    },
+    {
+      "source": "data/v254/stay-verified-region-photos.json",
+      "finding": "Source/author/license records for selected regional tourism scenes; not proof of hotel or room photography",
+      "classification": "existing manifest"
+    }
+  ],
+  "unverified": [
+    "Complete per-page img and CSS background inventory for all 28 pages",
+    "Original author/license/location of legacy JPGs",
+    "Protected Vercel Preview actual page inspection",
+    "Partner hotel and room image permission"
+  ],
+  "rules": [
+    "No image substitution without exact provenance",
+    "No changes to booking, SEO, KidsStay or live deployment"
+  ],
+  "status": "partial evidence register; comprehensive inventory and tests pending"
+}
