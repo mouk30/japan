@@ -1,0 +1,31 @@
+name: NIPPONFERRY V256 stay photo origin license and responsive QA
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v256-three-stay-region-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 26
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run existing V251 V252 V253 safeguards
+        run: |
+          node scripts/check-v251-stay-kids-boundary.mjs
+          node scripts/check-v252-stay-ferry-clarity.mjs
+          node scripts/check-v253-stay-images.mjs
+      - name: Validate 3 real images, original licenses, 28 pages and SEO invariants
+        run: node scripts/check-v256-stay-regional-photo-qa.mjs
+      - name: Install local Chromium
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Browser tests 3 pages at 320 390 768 and 1440 px
+        run: node scripts/browser-qa-v256-stay-regional-photo.mjs
