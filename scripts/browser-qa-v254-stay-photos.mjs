@@ -27,6 +27,10 @@ try{
    assert.equal(await page.locator('h1').count(),1);
    assert.equal(await page.locator('.nf-v254-verified-photo-credit').count(),1);
    assert.ok((await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth))<=2,'Horizontal overflow at '+slug+' '+width);
+   assert.equal(await page.locator('img[src="/stay/assets/hotel.jpg"]').count(),0,'Unverified hotel image rendered '+slug);
+   const placeholders=page.locator('.sv-card-photo-placeholder');
+   assert.equal(await placeholders.count(),({kagoshima:1,okinawa:1,nagoya:3,sendai:3,hiroshima:2})[slug],'Neutral placeholder count '+slug);
+   assert.ok(await placeholders.first().isVisible(),'Placeholder not visible '+slug+' '+width);
    const first=page.locator('img.sv-img');
    assert.equal(await first.count(),1);
    assert.ok(await first.evaluate(el=>el.complete&&el.naturalWidth>0&&el.naturalHeight>0),'Broken real photo '+slug);
