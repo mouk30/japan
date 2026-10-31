@@ -43,7 +43,7 @@ for(const item of audit.pages){
   assert.equal(licensed.src,v254.src,'tourism photo altered '+item.slug);
   const hero=html.match(/\.sv-hero:before\{[^}]+\}/)?.[0]||'';
   assert.ok(hero.includes('linear-gradient')&&!hero.includes('url('),'unverified hero image '+item.slug);
-  assert.ok(html.includes("href='/booking/japan-cruise/'"),'ferry booking link missing '+item.slug);
+  assert.match(html,/href=['"]\/booking\/japan-cruise\/['"]/,'ferry booking link missing '+item.slug);
   assert.ok(html.includes('https://willer-travel.com/ko/ferry/'),'ferry CTA missing '+item.slug);
   assert.doesNotMatch(html,/kidsstay-v5\.vercel\.app|kids-stay\.com/i,'KidsStay boundary violated '+item.slug);
   console.log('V269 STATIC PASS '+item.slug+' | 3 holds, 1 licensed non-hotel tourist scene, '+anchors.length+' anchors, SEO/CTA retained');
