@@ -1,0 +1,37 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+const manifest=JSON.parse(fs.readFileSync('data/v256/stay-kobe-yokohama-sapporo-photos.json','utf8'));
+const slugs=['kobe','yokohama','sapporo'];
+assert.equal(manifest.version,'V256');
+assert.deepEqual(Object.keys(manifest.images).sort(),slugs.slice().sort());
+const stayPages=['site/stay/index.html',...fs.readdirSync('site/stay',{withFileTypes:true}).filter(d=>d.isDirectory()&&fs.existsSync('site/stay/'+d.name+'/index.html')).map(d=>'site/stay/'+d.name+'/index.html')];
+assert.equal(stayPages.length,28,'Stay pages count changed');
+for(const slug of slugs){
+ const p=manifest.images[slug];
+ const file='site'+p.src;
+ assert.ok(fs.existsSync(file),'Missing licensed asset: '+file);
+ const bytes=fs.readFileSync(file);
+ assert.equal(bytes.toString('ascii',0,4),'RIFF','Not RIFF '+slug);
+ assert.equal(bytes.toString('ascii',8,12),'WEBP','Not WebP '+slug);
+ const sha=crypto.createHash('sha1').update(Buffer.from('blob '+bytes.length+'\0')).update(bytes).digest('hex');
+ assert.equal(sha,p.blob,'Blob changed without new attribution: '+slug);
+ const h=fs.readFileSync('site/stay/'+slug+'/index.html','utf8');
+ assert.equal((h.match(/nf-v256-region-photo-credit/g)||[]).length,1,'One photo credit '+slug);
+ assert.equal((h.match(/class='sv-v256-photo-placeholder'/g)||[]).length,3,'Three reserved areas '+slug);
+ assert.ok(h.includes(p.place)&&h.includes(p.photographer)&&h.includes(p.license),'Location/author/license missing '+slug);
+ assert.ok(h.includes(p.source)&&h.includes(p.licenseUrl),'Required credit links missing '+slug);
+ assert.ok(h.includes(p.src),'Original proofed image missing '+slug);
+ assert.ok(h.includes('호텔 객실·숙박 사업자 촬영 허가는 확인되지 않았습니다'),'False hotel endorsement');
+ assert.ok(h.includes('https://www.nipponferry.com/stay/'+slug+'/'),'Canonical altered '+slug);
+ assert.match(h,/<meta name='robots' content='index,follow,max-image-preview:large'>/,'Robots altered '+slug);
+ assert.ok(!/\/stay\/assets\/[^'" )>]+/.test(h),'Unverified legacy JPG still used '+slug);
+ assert.ok(!/kids-stay\.com|kidsstay-v5\.vercel\.app/i.test(h),'KidsStay unauthorized integration');
+ const hero=h.match(/\.sv-hero:before\{[^}]*\}/)?.[0]||'';
+ assert.ok(hero.includes(p.src),'Unverified hero image: '+slug);
+ assert.equal((h.match(/<img class='sv-img'/g)||[]).length,1,'Detailed tourism image broken structure: '+slug);
+ assert.equal((h.match(/<a class='sv-card'/g)||[]).length,3,'Lost stay guides: '+slug);
+ for(const area of p.headings)assert.ok(h.includes('<h3>'+area+'</h3>'),'Existing area removed '+slug+': '+area);
+}
+console.log('V256 PASS: 28 unchanged stay pages, 3 verified photo blob SHAs, license/author/locations, 9 safe placeholders, preserved canonical/robots/KidsStay boundary.');
