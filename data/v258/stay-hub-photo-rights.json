@@ -1,0 +1,249 @@
+{
+  "version": "V258",
+  "date": "2026-10-31",
+  "originMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "scope": "2 existing landing pages, 28 total existing /stay/ guides, 0 new posts",
+  "images": {
+    "shiro": {
+      "src": "/images/venues/kagoshima-shiroyama-view.webp",
+      "place": "가고시마 시로야마 전망",
+      "author": "Masahiko OHKUBO",
+      "license": "CC BY 2.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kagoshima_view_from_Shiroyama_-_Dec_31,_2009.jpg",
+      "scene": "가고시마시 시로야마에서 촬영한 2009년 도시 전경",
+      "blob": "dfc9b10a89790e171b2d332e1ea54f27f3d42ffa"
+    },
+    "tenmon": {
+      "src": "/images/venues/kagoshima-tenmonkan.webp",
+      "place": "가고시마 텐몬칸 G3",
+      "author": "Sanjo",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Tenmonkan_G3_Kagoshima_Japan.jpg",
+      "scene": "가고시마 텐몬칸 G3 아케이드 2007년 실제 촬영",
+      "blob": "cc05e78b6dfb9a8c2d6a7fcb9fc15311e48d7fff"
+    },
+    "kouri": {
+      "src": "/images/venues/nf-v140-okinawa-kouri-bridge-view-2014-real.webp",
+      "place": "오키나와 고우리대교",
+      "author": "Takuya ASADA",
+      "license": "CC BY 2.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kouri_Bridge_(15130568259).jpg",
+      "scene": "오키나와 북부 고우리 오션타워에서 본 고우리대교 2014년 촬영",
+      "blob": "b9516a429cfa60d6d7c239c0e3b71700953da8ed"
+    },
+    "naha": {
+      "src": "/images/venues/naha-kokusai-street.webp",
+      "place": "나하 국제거리",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "licenseURL": "https://creativecommons.org/licenses/by/2.5/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kokusai-dori05ss4272.jpg",
+      "scene": "오키나와 나하 국제거리 2009년 실제 촬영",
+      "blob": "e50879ac86c57155af8771ea1d01c7ec9418a09b"
+    },
+    "nagoya": {
+      "src": "/images/venues/nagoya-v27-real-location.webp",
+      "place": "나고야항 수족관",
+      "author": "(WT-shared) Onyo",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Nagoya_Port_Aquarium.jpg",
+      "scene": "나고야항 수족관 2007년 실제 촬영; 원본 768×576, 나고야역·사카에 아님",
+      "blob": "72a080f0c56326cf337dd5d1f17b91b19afa800b"
+    },
+    "sendai": {
+      "src": "/images/venues/nf-v113-sendai-real.webp",
+      "place": "미야기 마쓰시마만",
+      "author": "KimonBerlin",
+      "license": "CC BY-SA 2.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:The_islands_of_Matsushima_from_Saigyo_Modoshi_No_Matsu_park_(2456102064).jpg",
+      "scene": "센다이 인근 미야기현 마쓰시마만 실경; 센다이역·고쿠분초 아님",
+      "blob": "34189c87cb8f882a7f9e70f887831c592834ede5"
+    },
+    "hiro": {
+      "src": "/images/venues/hiroshima-v26b5-real-location.webp",
+      "place": "히로시마 평화기념공원",
+      "author": "SRP1998",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Bomb_Dome_and_Peace_Park.jpg",
+      "scene": "히로시마 평화기념공원과 원폭돔 2025년 실제 촬영",
+      "blob": "6059f28ef2f5206033a8f825192104465b0d2f31"
+    },
+    "miya": {
+      "src": "/images/v72-verified/v72-miyajima-island-jr-ferry-gate.webp",
+      "place": "미야지마 섬 측 JR 페리 승선구",
+      "author": "MaedaAkihiko",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Miyajima-Ferry-STA_JR-Gate.jpg",
+      "scene": "히로시마현 미야지마 섬 측 JR 페리 승선구 2022년 실제 촬영; 숙소 아님",
+      "blob": "685fc1dd9ad4e83533ba3c18a7371f1cd09c9cea"
+    },
+    "fukuoka": {
+      "src": "/images/venues/nf-v140-fukuoka-hakata-port-2017-real.webp",
+      "place": "후쿠오카타워에서 본 하카타항",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Hakata_Port_from_Fukuoka_Tower.jpg",
+      "scene": "2017년 후쿠오카타워에서 바라본 하카타항·주변 수변 전망, 숙소 아님",
+      "blob": "d0c72be0a7b96b68920fccf5ad7d02bbc026e358"
+    },
+    "kobe": {
+      "src": "/images/venues/nf-v140-kobe-port-tower-2025-real.webp",
+      "place": "고베 포트타워",
+      "author": "ノボホショコロトソ",
+      "license": "CC BY 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kobe_Port_Tower_in_November_2025_at_night_06.jpg",
+      "scene": "2025년 고베 포트타워 야경, 산노미야·숙소 사진 아님",
+      "blob": "49a6d8dbc3cedaf6a3fc14c866abc6d6d2970486"
+    },
+    "tokyo": {
+      "src": "/images/tokyo-verified/tokyo-shibuya-crossing-hachiko.webp",
+      "place": "도쿄 시부야 스크램블교차로",
+      "author": "Gatorfan252525",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Shibuya_Crossing_in_July_2026.jpg",
+      "scene": "2026년 7월 시부야 교차로, 특정 숙소·객실이 아님",
+      "blob": "38aa644862243be40d25795e5c8ac1f97d037c30"
+    },
+    "osaka": {
+      "src": "/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+      "place": "오사카 도톤보리·난바",
+      "author": "Kristoffer Trolle",
+      "license": "CC BY 2.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:D%C5%8Dtonbori_at_night%2C_Osaka_%2819551420339%29.jpg",
+      "scene": "2015년 도톤보리 관광지 야경, 호텔 아님",
+      "blob": "ab1b1b5108007a40d8167e89937305f7ae952606"
+    },
+    "kyoto": {
+      "src": "/images/culture-verified/japan-sudare-bamboo-blinds.webp",
+      "place": "교토 기온 신바시도리 전통건물 창문",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Facade_of_a_dwelling_with_sudare%2C_wooden_balustrades_and_yellow_lamp%2C_Shinbashi-dori%2C_Gion%2C_Kyoto%2C_Japan.jpg",
+      "scene": "2019년 교토 기온 건물 외관의 일부, 호텔·료칸이 아님",
+      "blob": "f5ac81ceb7f04005ce7d419e75a1c14d622a6d1c"
+    },
+    "yokohama": {
+      "src": "/images/venues/yokohama-redbrick-waterfront.webp",
+      "place": "요코하마 붉은벽돌 창고",
+      "author": "Fred Cherrygarden",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Yokohama_Red_Brick_Warehouse.jpg",
+      "scene": "요코하마 신코지구 붉은벽돌 창고 관광지, 호텔 객실 아님",
+      "blob": "226acdebdbf293777bcde9a27aa22191bea906d3"
+    },
+    "shimonoseki": {
+      "src": "/images/venues/v62-karato-market-real.webp",
+      "place": "시모노세키 가라토시장",
+      "author": "bryan...",
+      "license": "CC BY-SA 2.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+      "scene": "2023년 가라토시장 모습, 항구·호텔 사진 아님",
+      "blob": "cfd031184fb99aec7a491675f9eac8c96507692e"
+    },
+    "nagasaki": {
+      "src": "/images/venues/nagasaki-glover-garden.webp",
+      "place": "나가사키 글로버정원",
+      "author": "Fg2",
+      "license": "Public domain (Wikimedia 원본)",
+      "licenseURL": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5384.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5384.jpg",
+      "scene": "나가사키 글로버정원 관광 시설, 특정 숙소 촬영 아님",
+      "blob": "634cc67e2626c4a340d4976f41654f39f38fb3c7"
+    },
+    "tsushima": {
+      "src": "/images/venues/v62-izuhara-port-real.webp",
+      "place": "대마도 이즈하라항 터미널",
+      "author": "Saigen Jiro",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+      "scene": "2017년 이즈하라항 터미널, 호텔·히타카츠항 사진 아님",
+      "blob": "f45ddb323c26001018b21e86e50caad3b4e9b878"
+    },
+    "sapporo": {
+      "src": "/images/venues/nf-v143-sapporo-snow-festival-2014-real.webp",
+      "place": "삿포로 눈축제 현장",
+      "author": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:第65回さっぽろ雪まつり（SAPPORO_SNOW_FESTIVAL_65th）_-_panoramio_(1).jpg",
+      "scene": "2014년 삿포로 눈축제, 현재 행사·호텔·객실 사진 아님",
+      "blob": "8ee4b444d79c652bea7d293c4f75dde75bf98e32"
+    }
+  },
+  "cardMapping": {
+    "": {
+      "/stay/ryokan/": null,
+      "/stay/hotel/": null,
+      "/stay/fuji/": null,
+      "/stay/hakone/": null,
+      "/stay/kyoto/": "kyoto",
+      "/stay/hokkaido/": null,
+      "/stay/tokyo/": "tokyo",
+      "/stay/osaka/": "osaka",
+      "/stay/fukuoka/": "fukuoka",
+      "/stay/family/": null,
+      "/stay/couple/": null,
+      "/stay/first-trip/": null
+    },
+    "area": {
+      "/stay/sapporo/": "sapporo",
+      "/stay/otaru/": null,
+      "/stay/hakodate/": null,
+      "/stay/sendai/": null,
+      "/stay/yokohama/": "yokohama",
+      "/stay/nagoya/": "nagoya",
+      "/stay/kobe/": "kobe",
+      "/stay/hiroshima/": "hiro",
+      "/stay/shimonoseki/": "shimonoseki",
+      "/stay/beppu/": null,
+      "/stay/nagasaki/": "nagasaki",
+      "/stay/kagoshima/": "shiro",
+      "/stay/tsushima/": "tsushima",
+      "/stay/okinawa/": "kouri"
+    }
+  },
+  "changes": [
+    {
+      "page": "/stay/",
+      "changedCards": 12,
+      "verifiedPhotoCards": 4,
+      "placeholderCards": 8,
+      "commit": "38f491b0a9be0ea4ec7ce18679bce11b10079e5c",
+      "oldLegacyCardPhotos": 12
+    },
+    {
+      "page": "/stay/area/",
+      "changedCards": 14,
+      "verifiedPhotoCards": 10,
+      "placeholderCards": 4,
+      "commit": "145fda8f6934befb3f72f2ea3c92f7c405986383",
+      "oldLegacyCardPhotos": 14
+    }
+  ],
+  "principles": [
+    "No unverified legacy stay JPEG photos or room claims on modified landing pages",
+    "Source photographer and license from existing verified records, exact place not assumed from basename",
+    "Unverified locations render a CSS non-photo state",
+    "Original page links, CTA, canonical, robots, SEO title and page counts unchanged"
+  ],
+  "unresolved": [
+    "Other 26 existing /stay/ pages still contain legacy /stay/assets/*.jpg references; source and rights must be audited",
+    "All PR #58-#61 still open when V258 began; previews 403 due access scope",
+    "No merge without full GitHub CI and authenticated preview inspection"
+  ]
+}

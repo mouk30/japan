@@ -29,7 +29,21 @@ for(const file of pages){
   }
  }
 }
-assert.ok(totalImageTags>=100,'Not all legacy photo alt descriptions reviewed');
+// V258 removes only the 27 unverified legacy IMG tags from the two stay landing pages
+// (13 on /stay/, including the Fuji feature, and 14 on /stay/area/). Retain an
+// explicit remaining-image threshold while V258's stricter QA locks 26 guide cards.
+const v258Present=fs.existsSync('data/v258/stay-hub-photo-rights.json');
+if(v258Present){
+  const v258=JSON.parse(fs.readFileSync('data/v258/stay-hub-photo-rights.json','utf8'));
+  assert.equal(v258.version,'V258');
+  assert.equal(v258.changes.length,2);
+  assert.equal(v258.changes.reduce((n,x)=>n+x.oldLegacyCardPhotos,0),26);
+  for(const page of ['site/stay/index.html','site/stay/area/index.html']){
+    const content=fs.readFileSync(page,'utf8');
+    assert.ok(!content.includes('/stay/assets/'),'V258 verified stay hub regressed to legacy photo '+page);
+  }
+}
+assert.ok(totalImageTags>=100-(v258Present?27:0),'Unexpected loss of remaining legacy source-photo audit references');
 const shaGroups=new Map();
 const sizeRows=[];
 function imageSize(buf){
