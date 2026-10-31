@@ -1,0 +1,35 @@
+{
+  "stage": "V269",
+  "status": "partial audit; remediation and browser QA pending",
+  "baseline": "main at branch creation",
+  "pages": [
+    {
+      "path": "site/stay/nagoya/index.html",
+      "blob": "df2dad836c90788e3e1400a1aeb2efc147aac15d",
+      "tourismImage": "/images/venues/nagoya-v27-real-location.webp",
+      "actualSubject": "Nagoya Port Aquarium, not Nagoya Station/Sakae or hotel",
+      "unverifiedHotelImages": 3,
+      "unverifiedHotelPath": "/stay/assets/hotel.jpg"
+    },
+    {
+      "path": "site/stay/sendai/index.html",
+      "blob": "14478e88f683c27dfddaec2cb69dc3cddd82a070",
+      "tourismImage": "/images/venues/nf-v113-sendai-real.webp",
+      "actualSubject": "Matsushima Bay in Miyagi Prefecture, not Sendai Station/Kokubuncho or hotel",
+      "unverifiedHotelImages": 3,
+      "unverifiedHotelPath": "/stay/assets/hotel.jpg"
+    }
+  ],
+  "findings": [
+    "Tourism image ALT explicitly disclaims hotel/room and different city-center location",
+    "Legacy hotel.jpg appears 3 times on each page; original author, exact shooting location and permission remain unverified",
+    "Do not label tourism imagery as accommodation photography"
+  ],
+  "pending": [
+    "Check original source, author and license metadata for each tourism image",
+    "Remove or replace six unverified hotel.jpg placements in separately tested HTML patch",
+    "Verify image rendering and preserved booking/SEO on authenticated Preview; currently protected 403",
+    "Run dedicated V269 and regression CI"
+  ],
+  "safety": "No live page, image, booking, SEO, canonical, robots, sitemap or KidsStay changes in this audit-only commit"
+}
