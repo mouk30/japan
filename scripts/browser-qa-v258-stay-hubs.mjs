@@ -30,7 +30,8 @@ try{for(const width of [320,390,768,1440])for(const slug of ['','area']){
   assert.equal(await actualPhoto.count(),Object.values(map[slug]).filter(Boolean).length);
   for(const index of Array.from({length:await actualPhoto.count()},(_,i)=>i)){
    const img=actualPhoto.nth(index);
-   assert.ok(await img.evaluate(el=>el.complete&&el.naturalWidth>0&&el.naturalHeight>0),'Broken copyright-verified photo '+slug+' '+width+' #'+index);
+   await img.scrollIntoViewIfNeeded();
+   assert.ok(await img.evaluate(async el=>{try{await el.decode();return el.complete&&el.naturalWidth>0&&el.naturalHeight>0}catch{return false}}),'Broken copyright-verified photo '+slug+' '+width+' #'+index);
    photos++;
   }
   const hold=page.locator('.sv-v258-safe-visual:not(.large)');
