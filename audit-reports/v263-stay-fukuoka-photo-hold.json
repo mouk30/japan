@@ -1,0 +1,51 @@
+{
+  "version": "V263",
+  "scope": "1 of 28 existing /stay/ guides, zero new articles",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "evidenceSources": [
+    "site/stay/fukuoka/index.html on main",
+    "data/v253/stay-photo-audit.json",
+    "V262 tested photo-hold pattern (PR #66)"
+  ],
+  "geography": [
+    "Hakata",
+    "Tenjin",
+    "Nakasu"
+  ],
+  "pages": [
+    {
+      "path": "site/stay/fukuoka/index.html",
+      "originalBlobSha": "61a9ede89dc66b3db4a4a4f290dbb4370e79c75e",
+      "originalH1": "후쿠오카 숙소 추천 | 하카타·텐진·나카스 호텔 가이드",
+      "originalCanonical": "https://www.nipponferry.com/stay/fukuoka/",
+      "originalAssetReferences": [
+        "/stay/assets/fukuoka.jpg",
+        "/stay/assets/fukuoka.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/osaka.jpg"
+      ],
+      "originalCssHero": "/stay/assets/fukuoka.jpg",
+      "withheldImgPositions": 4,
+      "withheldCssHeroPositions": 1,
+      "originalCardLinks": [
+        "/stay/fukuoka/",
+        "/stay/fukuoka/",
+        "/stay/fukuoka/"
+      ],
+      "originalAnchorCount": 33
+    }
+  ],
+  "rights": {
+    "legacyPhotographer": "unverified",
+    "exactLocation": "unverified",
+    "licenseAndPermission": "unverified",
+    "replacementPhotosAdded": 0
+  },
+  "policy": "Withhold 4 unverified img and 1 CSS hero; do not portray tourist scenes as real hotel rooms in Hakata, Tenjin, Nakasu; retain original H1, canonical, links, ferry CTA and KidsStay boundary.",
+  "verification": {
+    "localStatic": "pending GitHub Actions",
+    "localBrowser": "pending GitHub Actions at 320,390,768,1440",
+    "authenticatedVercelPreview": "pending team/project SSO; earlier preview 403",
+    "merge": "blocked until all required CI and independent authenticated Preview verification"
+  }
+}
