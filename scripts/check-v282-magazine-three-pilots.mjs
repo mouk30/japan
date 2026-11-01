@@ -63,7 +63,7 @@ for(const r of registry.modified){
   const details=h.indexOf('</details>',h.indexOf('<details class="nf-v282-archive"'));
   assert.ok(details>=0&&details<marker,'Original dated operational archive must close before other content '+r.path);
   const between=h.slice(details+'</details>'.length,marker);
-  assert.ok(between===''||(/^<section class="nf-v283-topic-details"[\\s\\S]*<\\/section>$/.test(between)&&between.includes('id="nf-v283-hakata-ohori"')&&between.includes('id="nf-v283-hakata-riverain"')&&between.includes('id="nf-v283-hakata-harbor"')),'Only the three exact place-specific V283 explanations may appear between operational archive and older content '+r.path);
+  assert.ok(between===''||(between.startsWith('<section class="nf-v283-topic-details"')&&between.endsWith('</section>')&&between.includes('id="nf-v283-hakata-ohori"')&&between.includes('id="nf-v283-hakata-riverain"')&&between.includes('id="nf-v283-hakata-harbor"')),'Only the exact V283 three-place details may appear between the preserved archive and older content '+r.path);
  }
  assert.equal((h.match(/class="nf-v282-card-grid"/g)||[]).length,1);
 }
