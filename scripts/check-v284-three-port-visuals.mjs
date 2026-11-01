@@ -23,7 +23,10 @@ for(const c of m.changes){
  assert.equal((newHtml.match(/class="nf-v282-license nf-v284-license"/g)||[]).length,1,"Photo attribution section");
  assert.ok(newHtml.includes('class="nf-premium-v2 nf-v282 nf-v284"'));
  for(const name of ["/v282-magazine.css","/v283-topic-targets.css","/v284-cruise-ports-magazine.css"])assert.ok(newHtml.includes(name));
- assert.ok(newHtml.includes("승객 최종 귀선")&&newHtml.includes("출항 시간과 귀선 마감 시각은 다를 수 있다"));
+ assert.ok(newHtml.includes("귀선")&&newHtml.includes("접안")&&newHtml.includes('id="v69-berth-qa"'),"Original return and berth safety topic missing");
+ const marker=orig.indexOf('id="v69-berth-qa"');
+ assert.ok(marker>=0,"Original port safety dossier unavailable");
+ assert.ok(newHtml.includes(orig.slice(marker,marker+470)),"Original official berth/operator notice changed or removed");
  const originalIds=[...orig.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);
  const allIds=[...newHtml.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);
  const ids=new Set(allIds);assert.equal(ids.size,allIds.length,"Duplicate document IDs");
