@@ -157,11 +157,11 @@ const report={
   'An accessible-name approximation is used, not a full accessibility-tree or screen-reader audit.',
   'The first Tab key tests initial keyboard navigation, not full focus order.',
   'Image presence and alt do not prove original author, exact shooting location, copyright or permissions.',
-  'Draft PRs for earlier V260-V276 stages are unmerged; their HTML is not represented in this main-based audit.',
+  'Draft PRs for earlier V260-V277 stages are unmerged; their HTML is not represented in this main-based audit.',
   'Protected Vercel Preview is not verified; no merge or deployment is authorized.'
  ]
 };
 fs.mkdirSync('audit-reports',{recursive:true});
 fs.writeFileSync('audit-reports/v278-stay-tablet-desktop-generated.json',JSON.stringify(report,null,2)+'\n');
-console.log('V278 LOCAL MOBILE AUDIT '+JSON.stringify(summary));
+console.log('V278 LOCAL TABLET DESKTOP AUDIT '+JSON.stringify(summary));
 console.log('V278 report audit-reports/v278-stay-tablet-desktop-generated.json; findings need separate remediation');
