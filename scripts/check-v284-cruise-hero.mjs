@@ -8,6 +8,8 @@ assert.match(html,/href="\/japan-cruise\/first-trip\/">처음 타는 법 알아�
 assert.match(html,/href="\/booking\/japan-cruise\/">항로·예약 가이드/);
 assert.match(html,/@media\(max-width:600px\)/);
 assert.match(html,/background-position:62% center/);
-assert.ok(html.includes("url('/images/nipponferry-cruise-hero-visual.webp')"),'Approved WebP must be used');
-assert.ok(fs.existsSync('site/images/nipponferry-cruise-hero-visual.webp'),'Approved WebP file missing');
-console.log('V284 PASS: responsive CSS, CTA, canonical, robots preserved; approved WebP linked and present');
+assert.ok(html.includes("url('/images/nipponferry-hero-cruise-arrival.webp')"),'Text-free WebP must be used');
+assert.ok(fs.existsSync('site/images/nipponferry-hero-cruise-arrival.webp'),'Clean ship WebP missing');
+for (const page of ['site/booking/index.html','site/booking/japan-cruise/index.html','site/booking/fukuoka/index.html','site/booking/osaka/index.html','site/booking/shimonoseki/index.html','site/booking/tsushima/index.html']) { const content=fs.readFileSync(page,'utf8'); assert.ok(content.includes("url('/images/nipponferry-hero-cruise-arrival.webp')"), `${page} clean image missing`); assert.ok(!content.includes("url('/images/ferry.jpg')"), `${page} still uses blurry image`); }
+assert.ok(!html.includes("url('/images/nipponferry-cruise-hero-visual.webp')"),'Baked-text image must not be displayed');
+console.log('V285 PASS: clean hero on cruise and booking pages, responsive CSS, CTA and SEO preserved');
