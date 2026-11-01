@@ -1,0 +1,27 @@
+name: V289 cruise operator image and booking SEO link audit
+on:
+  pull_request:
+    paths:
+      - 'site/booking/**'
+      - 'site/japan-cruise/**'
+      - 'scripts/qa_v289_cruise_booking_links.py'
+      - '.github/workflows/v289-cruise-booking-links.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  cruise-booking-audit:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check seven existing cruise booking entry pages
+        run: python scripts/qa_v289_cruise_booking_links.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v289-cruise-booking-links-seo
+          path: audit-output/v289/
+          if-no-files-found: warn
