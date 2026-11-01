@@ -24,7 +24,7 @@ CASES={
 "guide/busan-shimonoseki-ferry/index.html":{
 "id":"nf-v156-kampu-guide","source":[
 "https://www.kampuferry.co.jp/news/20261027systemmaintenance.html",
-"https://www.kampuferry.co.jp/lang_kor/passenger_info/t_access/"],
+"https://www.kampuferry.co.jp/lang_kor/passenger_info/t_access/checkin.html"],
 "facts":["2026년 10월 27일","예약","객실","승선","귀국"]},
 "booking/japan-cruise/index.html":{
 "id":"nf-v156-kampu-booking","source":[
@@ -47,7 +47,7 @@ class P(HTMLParser):
 def parse(s):
  p=P();p.feed(s);return p
 def base(p):
- return subprocess.check_output(["git","show","origin/main:"+str(p)],text=True)
+ try:\n  return subprocess.check_output(["git","show","origin/main:"+str(p)],text=True,stderr=subprocess.DEVNULL)\n except subprocess.CalledProcessError:\n  subprocess.run(["git","fetch","--quiet","--depth=1","origin","main:refs/remotes/origin/main"],check=True)\n  return subprocess.check_output(["git","show","origin/main:"+str(p)],text=True)
 results=[];fail=[]
 for path,conf in CASES.items():
  fp=ROOT/path
