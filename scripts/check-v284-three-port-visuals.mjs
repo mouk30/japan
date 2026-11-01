@@ -39,8 +39,8 @@ for(const c of m.changes){
   assert.ok(ids.has(item.id));
   assert.ok(newHtml.includes('<h3 id="'+item.id+'-title">'+item.title+'</h3>'));
   const at=newHtml.indexOf('id="'+item.id+'"');
-  const content=newHtml.slice(at,at+1250);
-  assert.ok(content.includes('nf-v284-topic')&&content.includes("<p>"),"Missing relevant place explanation "+item.id);
+  const content=newHtml.slice(Math.max(0,at-180),at+1500);
+  assert.ok(content.includes('class="nf-v283-topic nf-v284-topic"')&&content.includes("<p>"),"Missing relevant place explanation "+item.id);
   const photo=m.photos[item.photo];assert.ok(photo);
   assert.ok(thumbs[i][2].includes(photo.src),"Photographed place does not match title "+item.title);
   assert.ok(newHtml.includes('href="'+photo.origin+'"')&&newHtml.includes('href="'+photo.licenseUrl+'"')&&newHtml.includes(photo.author),"Original photo credit missing "+item.photo);
