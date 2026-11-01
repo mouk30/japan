@@ -1,0 +1,18 @@
+{
+  "version": "V275",
+  "date": "2026-11-01",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "scope": "28 existing /stay/ guides only",
+  "change": "Change only the red CTA visible text from '예약 준비 가이드 →' to '크루즈·페리 예약 준비 가이드 →'; preserve every original /booking/ destination and the WILLER ferry lookup URL.",
+  "qa": [
+    "Exact byte-for-byte HTML restoration to pinned main after reversing CTA text",
+    "V251–V254 regressions",
+    "Local Chromium 28 × 320/390/768/1440 CTA visibility and minimum 44px touch target"
+  ],
+  "limitations": [
+    "WILLER link is ferry lookup, not hotel booking",
+    "No current external booking/availability verification",
+    "Existing photo rights unresolved; earlier PRs unmerged",
+    "Vercel protected authenticated Preview not verified; no merge or deploy"
+  ]
+}

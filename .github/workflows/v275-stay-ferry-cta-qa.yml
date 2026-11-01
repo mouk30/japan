@@ -1,0 +1,56 @@
+name: NIPPONFERRY V275 28 stay ferry CTA clarity and browser QA
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v275-static-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: V251-V254 existing stay photo booking and KidsStay regressions
+        run: |
+          node scripts/check-v251-stay-kids-boundary.mjs
+          node scripts/check-v252-stay-ferry-clarity.mjs
+          node scripts/check-v253-stay-images.mjs
+          node scripts/check-v254-stay-local-verified.mjs
+      - name: V275 exact original HTML byte comparison and CTA intent
+        run: node scripts/check-v275-stay-ferry-cta.mjs
+      - name: Upload exact-page V275 CTA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v275-stay-cta-static-evidence
+          path: audit-reports/v275-stay-cta-generated.json
+          if-no-files-found: warn
+          retention-days: 30
+  v275-responsive-chromium:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: V275 28 existing pages at 320 390 768 1440
+        run: node scripts/browser-qa-v275-stay-ferry-cta.mjs
+      - name: Upload local responsive V275 evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v275-stay-cta-viewport-evidence
+          path: audit-reports/v275-stay-cta-viewport-generated.json
+          if-no-files-found: warn
+          retention-days: 30
