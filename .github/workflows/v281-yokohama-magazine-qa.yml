@@ -1,0 +1,35 @@
+name: NIPPONFERRY V281 photo-first Yokohama magazine pilot
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v281-visual-pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Photo origin, source and SEO/return-safe static assertions
+        run: node scripts/check-v281-yokohama-magazine.mjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Browser test actual visual design and safety details at 320 390 768 1440px
+        run: node scripts/browser-qa-v281-yokohama-magazine.mjs
+      - name: Save Chromium screenshots and browser QA JSON
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v281-yokohama-magazine-browser-screenshots
+          path: |
+            audit-reports/v281/screenshots/
+            audit-reports/v281/browser-qa-result.json
+          if-no-files-found: warn
