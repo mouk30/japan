@@ -47,7 +47,11 @@ class P(HTMLParser):
 def parse(s):
  p=P();p.feed(s);return p
 def base(p):
- try:\n  return subprocess.check_output(["git","show","origin/main:"+str(p)],text=True,stderr=subprocess.DEVNULL)\n except subprocess.CalledProcessError:\n  subprocess.run(["git","fetch","--quiet","--depth=1","origin","main:refs/remotes/origin/main"],check=True)\n  return subprocess.check_output(["git","show","origin/main:"+str(p)],text=True)
+ try:
+  return subprocess.check_output(["git","show","origin/main:"+str(p)],text=True,stderr=subprocess.DEVNULL)
+ except subprocess.CalledProcessError:
+  subprocess.run(["git","fetch","--quiet","--depth=1","origin","main:refs/remotes/origin/main"],check=True)
+  return subprocess.check_output(["git","show","origin/main:"+str(p)],text=True)
 results=[];fail=[]
 for path,conf in CASES.items():
  fp=ROOT/path
