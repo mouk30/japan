@@ -1,0 +1,189 @@
+{
+  "version": "V284",
+  "date": "2026-11-01",
+  "dependsOnPRs": [
+    77,
+    80
+  ],
+  "baseCommit": "42f7ed4d2f77cb4dd22210f9f7c3b164aadaafb2",
+  "scope": "Three existing cruise port detail guides, no new posts",
+  "changes": [
+    {
+      "path": "site/things-to-do/nagasaki-cruise-port-day-trip/index.html",
+      "oldFileBlob": "7679c8c1493c2a3eb976686b8daee37153efb487",
+      "commit": "d8f600d89dc288a00d7268defedbc92418ccaea3",
+      "hero": "nagasaki-glover",
+      "cards": [
+        {
+          "id": "nf-v284-nagasaki-glover",
+          "title": "글로버정원",
+          "photo": "nagasaki-glover",
+          "support": "#sights"
+        },
+        {
+          "id": "nf-v284-nagasaki-inasa",
+          "title": "이나사산 로프웨이",
+          "photo": "nagasaki-inasa",
+          "support": "#route"
+        },
+        {
+          "id": "nf-v284-nagasaki-peace",
+          "title": "평화공원",
+          "photo": "nagasaki-peace",
+          "support": "#transport"
+        }
+      ]
+    },
+    {
+      "path": "site/things-to-do/naha-cruise-port-day-trip/index.html",
+      "oldFileBlob": "4780efddf14a630eb58583456363bcc912e63a3d",
+      "commit": "38ffe7e6dfcd350f94f69c53ecd0224649ef451b",
+      "hero": "naha-kokusai",
+      "cards": [
+        {
+          "id": "nf-v284-naha-kokusai",
+          "title": "나하 국제거리",
+          "photo": "naha-kokusai",
+          "support": "#evergreen-decision-guide"
+        },
+        {
+          "id": "nf-v284-naha-shureimon",
+          "title": "슈리성공원 수례문",
+          "photo": "naha-shurei",
+          "support": "#v69-berth-qa"
+        },
+        {
+          "id": "nf-v284-naha-aquarium",
+          "title": "DMM 가리유시 수족관",
+          "photo": "naha-aquarium",
+          "support": "#v52-voucher-connect"
+        }
+      ]
+    },
+    {
+      "path": "site/things-to-do/kagoshima-cruise-port-day-trip/index.html",
+      "oldFileBlob": "c66c794c8e7ab2efe641a836c03907dde744a217",
+      "commit": "5d53fb16ac921bb2bf360194d823c72fac1f34d3",
+      "hero": "kagoshima-ioworld",
+      "cards": [
+        {
+          "id": "nf-v284-kagoshima-senganen",
+          "title": "센간엔 정원",
+          "photo": "kagoshima-senganen",
+          "support": "#sights"
+        },
+        {
+          "id": "nf-v284-kagoshima-shiroyama",
+          "title": "시로야마 전망",
+          "photo": "kagoshima-shiroyama",
+          "support": "#route"
+        },
+        {
+          "id": "nf-v284-kagoshima-ioworld",
+          "title": "이오월드 수족관",
+          "photo": "kagoshima-ioworld",
+          "support": "#transport"
+        }
+      ]
+    }
+  ],
+  "photos": {
+    "nagasaki-glover": {
+      "src": "/images/venues/nagasaki-glover-garden.webp",
+      "sha": "634cc67e2626c4a340d4976f41654f39f38fb3c7",
+      "place": "나가사키 글로버정원 옛 링거 주택",
+      "author": "Fg2",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5384.jpg",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5384.jpg",
+      "date": "2007"
+    },
+    "nagasaki-inasa": {
+      "src": "/images/venues/nagasaki-inasa-ropeway.webp",
+      "sha": "9c4b73cadb4321c1f0db86fba00ec730d9925ddf",
+      "place": "나가사키 이나사산 로프웨이",
+      "author": "ブルーノ・プラス",
+      "license": "CC BY-SA 4.0",
+      "origin": "https://commons.wikimedia.org/wiki/File:Mt.Inasa_Ropeway.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "원본 촬영 시점 별도 확인"
+    },
+    "nagasaki-peace": {
+      "src": "/images/venues/nagasaki-peace-park.webp",
+      "sha": "74ce8338197c204bad0861a70aa9f52c356bd202",
+      "place": "나가사키 평화공원 평화기념상",
+      "author": "Balon Greyjoy",
+      "license": "CC0 1.0",
+      "origin": "https://commons.wikimedia.org/wiki/File:20190202_Nagasaki_Peace_Park_Statue_of_Peace-2.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2019"
+    },
+    "naha-kokusai": {
+      "src": "/images/venues/naha-kokusai-street.webp",
+      "sha": "e50879ac86c57155af8771ea1d01c7ec9418a09b",
+      "place": "나하 국제거리 야간 상점가",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "origin": "https://commons.wikimedia.org/wiki/File:Kokusai-dori05ss4272.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+      "date": "원본 촬영 시점 별도 확인"
+    },
+    "naha-shurei": {
+      "src": "/images/venues/naha-shureimon.webp",
+      "sha": "3dc11e2b89d6bf39cd3173cc56c3bc479ca8bf17",
+      "place": "나하 슈리성공원의 수례문",
+      "author": "nnh",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Shurei-mon.jpeg",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Shurei-mon.jpeg",
+      "date": "원본 촬영 시점 별도 확인"
+    },
+    "naha-aquarium": {
+      "src": "/images/venues/naha-dmm-kariyushi-aquarium.webp",
+      "sha": "27ceb4c3a1bc0dee566ce5de64e1f256fe5d7d53",
+      "place": "도미구스쿠 DMM 가리유시 수족관",
+      "author": "Kugel~commonswiki",
+      "license": "CC BY-SA 4.0",
+      "origin": "https://commons.wikimedia.org/wiki/File:DMM_Kariyushi_Aquarium_202106_14.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2021"
+    },
+    "kagoshima-ioworld": {
+      "src": "/images/venues/kagoshima-ioworld-aquarium.webp",
+      "sha": "bd1cbd1f658114aed190950e1cd52578fb7d0455",
+      "place": "가고시마 이오월드 수족관 건물과 사쿠라지마",
+      "author": "Taiwankengo",
+      "license": "CC BY-SA 4.0",
+      "origin": "https://commons.wikimedia.org/wiki/File:2025_Kagoshima_Aquarium_and_Sakurajima.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2025"
+    },
+    "kagoshima-senganen": {
+      "src": "/images/venues/kagoshima-senganen.webp",
+      "sha": "2386ddc8869d213521f6acc582a9469c7f46a85b",
+      "place": "가고시마 센간엔 정원",
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "origin": "https://commons.wikimedia.org/wiki/File:Sengan-en_1.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "원본 촬영 시점 별도 확인"
+    },
+    "kagoshima-shiroyama": {
+      "src": "/images/venues/kagoshima-shiroyama-view.webp",
+      "sha": "dfc9b10a89790e171b2d332e1ea54f27f3d42ffa",
+      "place": "가고시마 시로야마 전망대에서 본 풍경",
+      "author": "Masahiko OHKUBO",
+      "license": "CC BY-SA 2.0",
+      "origin": "https://commons.wikimedia.org/wiki/File:Kagoshima_view_from_Shiroyama_-_Dec_31,_2009.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "date": "2009"
+    }
+  },
+  "design": "Large 4:3 photo-first cards linked to unique individual in-page attraction explanations; original operator information remains below",
+  "safety": [
+    "Photos not evidence of berth or current operating conditions",
+    "Distinct terminals including marine port / ferry port / city attractions are not conflated",
+    "Original title, meta, canonical, JSON-LD, official operator links and existing article sections remain unchanged",
+    "No merge to production without passed required CI and real authenticated Vercel preview inspection"
+  ]
+}
