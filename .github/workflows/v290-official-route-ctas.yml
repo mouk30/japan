@@ -1,0 +1,26 @@
+name: V290 official route booking CTA and image integrity
+on:
+  pull_request:
+    paths:
+      - 'site/booking/fukuoka/index.html'
+      - 'site/booking/osaka/index.html'
+      - 'site/booking/shimonoseki/index.html'
+      - 'site/booking/tsushima/index.html'
+      - 'scripts/qa_v290_official_route_ctas.py'
+      - '.github/workflows/v290-official-route-ctas.yml'
+  workflow_dispatch:
+jobs:
+  route-cta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/qa_v290_official_route_ctas.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v290-official-route-cta-audit
+          path: audit-output/v290/official-route-cta.json
+          if-no-files-found: ignore
