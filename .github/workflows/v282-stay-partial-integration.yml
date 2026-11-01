@@ -1,0 +1,26 @@
+name: NIPPONFERRY V282 partial stay integration QA
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  stay-integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify V258+V275 28-page scope and CTA
+        run: node scripts/check-v282-stay-partial-integration.mjs
+      - name: Preserve V251 KidsStay boundary
+        run: node scripts/check-v251-stay-kids-boundary.mjs
+      - name: Preserve V252 ferry context
+        run: node scripts/check-v252-stay-ferry-clarity.mjs
+      - name: Preserve V253 image provenance checks
+        run: node scripts/check-v253-stay-image-origin.mjs
+      - name: Preserve V254 verified regional photo checks
+        run: node scripts/check-v254-stay-verified-region-photos.mjs
