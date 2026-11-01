@@ -12,6 +12,7 @@ const WIDTHS=[390,768,1440,1920];
 const OUT='audit-output/v288-browser';
 fs.mkdirSync(OUT,{recursive:true});
 const assetVerified=fs.existsSync(ASSET)&&crypto.createHash('sha256').update(fs.readFileSync(ASSET)).digest('hex')===EXPECTED;
+// The CSS can reference a nonexistent file and still pass layout checks; verify the actual decoded image.
 (async()=>{
  const browser=await chromium.launch({headless:true});
  const results=[];
@@ -48,6 +49,12 @@ const assetVerified=fs.existsSync(ASSET)&&crypto.createHash('sha256').update(fs.
       const l=entry.layout;
       entry.checks.photoNotCropped=l.backgroundSize.includes('contain');
       entry.checks.correctImage=l.background.includes('panstar-cruise-clean-2048.webp');
+      entry.checks.photoDecoded=await page.evaluate(async()=>{
+       const image=new Image();
+       image.src='/images/panstar-cruise-clean-2048.webp';
+       try{await image.decode();return image.naturalWidth===2048&&image.naturalHeight===682;}catch{return false;}
+      });
+      entry.checks.approvedImageHash=assetVerified;
       entry.checks.photoBandPositive=l.bandHeight>80;
       entry.checks.textBelowPhoto=l.contentTop!==null&&l.contentTop>=l.heroTop+l.bandHeight-3;
       entry.checks.noHorizontalOverflow=l.pageOverflow<=3;
@@ -66,6 +73,6 @@ const assetVerified=fs.existsSync(ASSET)&&crypto.createHash('sha256').update(fs.
  }finally{await browser.close();}
  const report={scope:'V288 desktop/mobile responsive hero screenshot QA',assetVerified,assetExpectedSha256:EXPECTED,imagesChecked:ROUTES.length,viewports:WIDTHS,passed:results.filter(x=>x.pass).length,total:results.length,results,limitations:['Photo rights not proven','Image identity and route relevance require human verification','No live booking availability tested']};
  fs.writeFileSync(path.join(OUT,'report.json'),JSON.stringify(report,null,2));
- if(!assetVerified)console.error('BLOCK: approved PanStar WebP absent or SHA-256 mismatch; screenshots cannot be accepted as final.');
+ if(!assetVerified)console.error('BLOCK: approved PanStar WebP absent or SHA-256 mismatch; 28 CSS-only screenshots are not evidence of a rendered photograph.');
  if(!assetVerified||report.passed!==report.total)process.exitCode=1;
 })().catch(e=>{console.error(e);process.exitCode=1;});
