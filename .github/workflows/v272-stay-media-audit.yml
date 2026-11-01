@@ -1,0 +1,54 @@
+name: NIPPONFERRY V272 28-page stay media SHA and responsive audit
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v272-media-bytes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: V251-V254 stay booking image and KidsStay regression
+        run: |
+          node scripts/check-v251-stay-kids-boundary.mjs
+          node scripts/check-v252-stay-ferry-clarity.mjs
+          node scripts/check-v253-stay-images.mjs
+          node scripts/check-v254-stay-local-verified.mjs
+      - name: V272 real image bytes, native dimensions, SHA, CSS and ratio audit
+        run: node scripts/audit-v272-stay-media.mjs
+      - name: Upload V272 source and duplicate evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v272-stay-media-bytes
+          path: audit-reports/v272-stay-media-generated.json
+          if-no-files-found: warn
+          retention-days: 30
+  v272-responsive-chromium:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium for local viewport audit
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: V272 28 existing guides x 320 390 768 1440
+        run: node scripts/browser-audit-v272-stay-media.mjs
+      - name: Upload V272 viewport evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v272-stay-viewport-observations
+          path: audit-reports/v272-stay-viewport-generated.json
+          if-no-files-found: warn
+          retention-days: 30
