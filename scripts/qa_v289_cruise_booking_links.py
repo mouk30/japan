@@ -13,6 +13,22 @@ ROUTES = (
     "/booking/fukuoka/", "/booking/osaka/", "/booking/shimonoseki/", "/booking/tsushima/",
 )
 DOMAIN = "www.nipponferry.com"
+REQUIRED_OFFICIAL_LINKS = {
+    "/booking/osaka/": (
+        "https://www.panstarcruise.com/support/notice/273",
+        "https://www.panstarcruise.com/product/osaka/info",
+        "https://www.panstarcruise.com/support/notice/310",
+    ),
+    "/booking/tsushima/": (
+        "https://www.panstarcruise.com/support/notice",
+        "https://www.panstarcruise.com/support/notice/309",
+    ),
+    "/booking/shimonoseki/": (
+        "https://www.kampuferry.co.jp/news/20261027systemmaintenance.html",
+        "https://www.kampuferry.co.jp/news/newyear_schedule.html",
+        "https://www.kampuferry.co.jp/reserve/",
+    ),
+}
 OUT = Path("audit-output/v289")
 OUT.mkdir(parents=True, exist_ok=True)
 
@@ -83,6 +99,9 @@ for route in ROUTES:
         errors.append("accidental_noindex")
     if "nf-v289-hero-caption" not in raw or "연출 이미지" not in raw:
         errors.append("illustrative_image_not_labeled")
+    for official_url in REQUIRED_OFFICIAL_LINKS.get(route, ()):
+        if not any(a["href"] == official_url for a in parser.links):
+            errors.append("required_operator_notice_link_missing:" + official_url)
     missing = []
     for a in parser.links:
         target = target_for(a["href"])
