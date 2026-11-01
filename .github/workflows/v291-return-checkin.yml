@@ -1,0 +1,19 @@
+name: V291 operator return and check-in source QA
+on:
+  pull_request:
+    paths:
+      - 'site/booking/osaka/index.html'
+      - 'site/booking/tsushima/index.html'
+      - 'scripts/qa_v291_return_checkin.py'
+      - '.github/workflows/v291-return-checkin.yml'
+  workflow_dispatch:
+jobs:
+  official-return-checkin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify return guidance and preserved booking SEO
+        run: python scripts/qa_v291_return_checkin.py
