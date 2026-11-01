@@ -1,0 +1,19 @@
+name: V294 return boarding source clarity QA
+on:
+  pull_request:
+    paths:
+      - 'site/booking/fukuoka/index.html'
+      - 'site/booking/shimonoseki/index.html'
+      - 'site/booking/osaka/index.html'
+      - 'scripts/qa_v294_return_boarding_source_clarity.py'
+      - '.github/workflows/v294-return-boarding-source-clarity.yml'
+  workflow_dispatch:
+jobs:
+  return-source-clarity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/qa_v294_return_boarding_source_clarity.py
