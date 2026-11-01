@@ -37,6 +37,7 @@ try{
      assert.ok(await dest.isVisible(),'Clicked destination not visible '+t.id);
      const text=await dest.innerText();
      assert.ok(text.includes(t.mustInclude),'Destination content mismatch '+t.id);
+     await page.waitForFunction(id=>{const el=document.getElementById(id);if(!el)return false;const rect=el.getBoundingClientRect();return rect.top>-70&&rect.top<innerHeight-10;},t.id,{timeout:7000});
      const pos=await dest.evaluate(el=>el.getBoundingClientRect().top);
      assert.ok(pos>-70&&pos<880,'Clicked destination outside scroll position '+width+' '+t.id+' top='+pos);
      await page.evaluate(()=>window.scrollTo(0,0));
