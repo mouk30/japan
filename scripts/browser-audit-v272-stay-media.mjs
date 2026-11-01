@@ -66,7 +66,7 @@ try{
       horizontalOverflowPx:Math.max(0,document.documentElement.scrollWidth-innerWidth),
       brokenLoadedImages:images.filter(x=>x.loaded&&x.naturalWidth===0).map(x=>x.src),
       upscaledCardImages:images.filter(x=>x.inCard&&x.upscaled!==null&&x.upscaled>1.5).map(x=>({src:x.src,scale:x.upscaled})),
-      unusuallyShapedCards:cards.filter(x=>x.width>0&&x.height>0&&(x.width/x.height<0.7||x.width/x.height>2.6)).length};
+      cardImageAspectDeviations:images.filter(x=>x.inCard&&x.renderedHeight>0&&Math.abs(x.renderedWidth/x.renderedHeight-4/3)>0.12).map(x=>({src:x.src,ratio:Number((x.renderedWidth/x.renderedHeight).toFixed(3))}))};
     });
     assert.equal(data.h1Count,1,'H1 changed '+slug+' '+width);
     assert.ok(data.canonical?.endsWith(slug),'Canonical changed '+slug+' '+width);
@@ -81,12 +81,14 @@ const summary={pageCount:28,viewportWidths:[320,390,768,1440],checks:observation
  overflowCases:observations.filter(x=>x.horizontalOverflowPx>2).length,
  brokenLoadedImageCases:observations.filter(x=>x.brokenLoadedImages.length).length,
  cardUpscaleCases:observations.filter(x=>x.upscaledCardImages.length).length,
- unusuallyShapedCardCases:observations.filter(x=>x.unusuallyShapedCards>0).length};
+ cardAspectDeviationCases:observations.filter(x=>x.cardImageAspectDeviations.length>0).length,
+ cardImageAspectDeviations:observations.reduce((n,x)=>n+x.cardImageAspectDeviations.length,0)};
 const report={stage:'V272',generatedAt:new Date().toISOString(),kind:'local Chromium only',
  summary,observations,
  caveats:['Third-party resources blocked for deterministic local rendering.',
   'An audit run finishing is not a claim that every image is sharp, correctly licensed or location-accurate.',
-  'Loaded broken image candidates, horizontal overflow and upscaling are recorded as findings, not silently ignored.',
+  'Loaded broken image candidates, horizontal overflow, upscaling and card image ratio deviations are recorded as review findings.',
+  '4:3 ratio deviation uses rendered card IMAGE geometry, not the entire text+image card height; it is not an automatic failure.',
   'Vercel Preview still requires separate authenticated human-visible inspection before merge.']};
 const output='audit-reports/v272-stay-viewport-generated.json';
 fs.writeFileSync(output,JSON.stringify(report,null,2)+'\n');
