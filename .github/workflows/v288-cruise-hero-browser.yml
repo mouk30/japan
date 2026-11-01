@@ -1,0 +1,36 @@
+name: V288 PanStar hero browser 390 768 1440 1920
+on:
+  pull_request:
+    paths:
+      - 'site/booking/**'
+      - 'site/japan-cruise/**'
+      - 'site/images/panstar-cruise-clean-2048.webp'
+      - 'scripts/qa_v288_cruise_hero_browser.cjs'
+      - '.github/workflows/v288-cruise-hero-browser.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  responsive-hero:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Serve site and inspect seven hero pages
+        run: |
+          python3 -m http.server 8765 --directory site > /tmp/v288-http.log 2>&1 &
+          sleep 2
+          node scripts/qa_v288_cruise_hero_browser.cjs
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v288-seven-heroes-four-viewports
+          path: audit-output/v288-browser/
+          if-no-files-found: warn
