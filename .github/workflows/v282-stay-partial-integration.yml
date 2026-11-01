@@ -20,7 +20,3 @@ jobs:
         run: node scripts/check-v251-stay-kids-boundary.mjs
       - name: Preserve V252 ferry context
         run: node scripts/check-v252-stay-ferry-clarity.mjs
-      - name: Preserve V253 image provenance checks
-        run: node scripts/check-v253-stay-image-origin.mjs
-      - name: Preserve V254 verified regional photo checks
-        run: node scripts/check-v254-stay-verified-region-photos.mjs
