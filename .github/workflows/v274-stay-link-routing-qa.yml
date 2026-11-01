@@ -1,0 +1,32 @@
+name: NIPPONFERRY V274 28 stay guide route and booking intent audit
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v274-stay-link-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: V251-V254 existing stay, photo and KidsStay boundary regressions
+        run: |
+          node scripts/check-v251-stay-kids-boundary.mjs
+          node scripts/check-v252-stay-ferry-clarity.mjs
+          node scripts/check-v253-stay-images.mjs
+          node scripts/check-v254-stay-local-verified.mjs
+      - name: V274 28 existing stay routes, in-page hashes and booking intent
+        run: node scripts/audit-v274-stay-links.mjs
+      - name: Upload page-by-page V274 route and intent evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v274-stay-link-intent-evidence
+          path: audit-reports/v274-stay-links-generated.json
+          if-no-files-found: warn
+          retention-days: 30
