@@ -1,0 +1,65 @@
+{
+  "version": "V281",
+  "scope": "Existing Yokohama cruise couple guide only, no new pages",
+  "baseline": {
+    "main": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+    "htmlBlob": "1d7cf0ed174b30646776462c86b24c5c43469255",
+    "url": "/things-to-do/yokohama-cruise-couple-guide/",
+    "title": "요코하마 크루즈 연인 데이트｜산책·풍경·식사·귀선 가이드 | NIPPONFERRY",
+    "description": "요코하마 커플 크루즈 데이트: 요코하마 에어캐빈·코스모월드 대관람차·붉은벽돌 창고·수변 로맨틱 장소와 식사·산책·귀선 코스.",
+    "canonical": "https://www.nipponferry.com/things-to-do/yokohama-cruise-couple-guide/"
+  },
+  "cards": [
+    {
+      "id": "nf-v281-stop-air-cabin",
+      "name": "요코하마 에어캐빈",
+      "src": "/images/venues/yokohama-air-cabin.webp",
+      "sha": "d61ded401582084138e8a0aff22249faeb2dac91",
+      "original": "https://commons.wikimedia.org/wiki/File:YOKOHAMA_AIR_CABIN_-_Carrier.jpg",
+      "author": "NEO-NEED",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "nf-v281-stop-cosmo",
+      "name": "코스모월드 대관람차",
+      "src": "/images/venues/yokohama-cosmo-world.webp",
+      "sha": "040adb55ba4025bf88ecde06c14a9379dcef688c",
+      "original": "https://commons.wikimedia.org/wiki/File:Yokohama_Cosmo_World_and_Clock_Ferris_Wheel_(4611157059).jpg",
+      "author": "Jorge Láscar",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    {
+      "id": "nf-v281-stop-redbrick",
+      "name": "붉은벽돌 창고",
+      "src": "/images/venues/yokohama-redbrick-waterfront.webp",
+      "sha": "226acdebdbf293777bcde9a27aa22191bea906d3",
+      "original": "https://commons.wikimedia.org/wiki/File:Yokohama_Red_Brick_Warehouse.jpg",
+      "author": "Fred Cherrygarden",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "designChanges": [
+    "Large real Yokohama attraction photo in masthead",
+    "3 image-first 4:3 place cards connected to original detailed attraction cards",
+    "Basic berth/return warning always visible",
+    "Long original 3-check and 30-second guidance accessible in native details",
+    "Responsive 320/390/768/1440 tested locally by CI; accessibility, link targets, screenshot artifacts"
+  ],
+  "unchanged": [
+    "All original booking, city port, airline, activity links",
+    "Existing entry conditions and last passenger return cutoff safety language",
+    "Existing 3 tourist photos originals and original credit details",
+    "Original SEO title, meta description, canonical, robots, OG and JSON-LD",
+    "No fake booking availability or location claims",
+    "No unrelated stay/KidsStay site work"
+  ],
+  "constraints": [
+    "Tourism photos are not ship terminal scenes; arrival berth may vary by sailing",
+    "Night view depends on ship's call time",
+    "Vercel protected preview requires independently authenticated direct page review before merge"
+  ],
+  "state": "PR branch only until CI passes and actual authorized Vercel Preview visual QA"
+}
