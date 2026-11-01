@@ -15,6 +15,14 @@
 /* V285: clean ship photograph with complete hull visible; mobile text stays separate. */
 .bk-hero{background:#062b55}.bk-hero:before{background-image:url('/images/nipponferry-hero-cruise-arrival.webp');background-position:right center;background-size:auto 100%;background-repeat:no-repeat}.bk-hero:after{background:linear-gradient(90deg,rgba(3,28,62,.98) 0%,rgba(3,38,78,.88) 42%,rgba(7,80,150,.06) 90%)}
 @media(max-width:600px){.bk-hero{min-height:570px;align-items:flex-end}.bk-hero:before{background-position:center top;background-size:100% auto}.bk-hero:after{background:linear-gradient(0deg,rgba(3,28,62,.99) 0%,rgba(3,38,78,.92) 44%,rgba(7,80,150,.02) 100%)}.bk-hi{padding:250px 0 40px}}
+
+/* V287: full-width PanStar image ABOVE independent booking title and CTA. */
+.bk-hero{display:flex!important;flex-direction:column;align-items:stretch!important;min-height:0!important;background:#062b55!important;overflow:hidden}
+.bk-hero:before{content:"";position:relative!important;inset:auto!important;display:block;width:100%;height:auto;aspect-ratio:3 / 1;flex:none;background:#062b55 url('/images/panstar-cruise-clean-2048.webp') center/contain no-repeat!important;opacity:1!important}
+.bk-hero:after{display:none!important}
+.bk-hi{position:relative!important;width:100%;padding:28px 0 42px!important;box-sizing:border-box}
+.bk-hero h1{font-size:clamp(32px,3.5vw,50px)!important;line-height:1.18!important;max-width:100%;overflow-wrap:break-word}
+@media(max-width:600px){.bk-hero:before{aspect-ratio:2.2 / 1}.bk-hi{padding:24px 0 36px!important}.bk-hero h1{font-size:clamp(29px,8vw,40px)!important}}
 </style>
 <link rel="stylesheet" href="/nf-premium-v2.css?v=20261018"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="alternate icon" href="/favicon.ico"><link rel="stylesheet" href="/nf-v86-booking-journey.css?v=20261021"><link rel="stylesheet" href="/nf-v91-direct-booking.css?v=20261021"><link rel="stylesheet" href="/nf-v92-booking-ux.css?v=20261021b"><style id="nf-v156-journey-style">
 .nf-v156-panel{box-sizing:border-box;max-width:1170px;width:calc(100% - 28px);margin:20px auto 24px;padding:clamp(18px,3vw,28px);border:1px solid #bfd8e4;border-left:5px solid #147493;border-radius:17px;background:linear-gradient(140deg,#f1f9fc,#fff);color:#183f55;box-shadow:0 6px 21px #0e547b12}
