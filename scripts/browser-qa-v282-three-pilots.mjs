@@ -34,7 +34,7 @@ try{
     assert.equal(await page.locator('a.nf-v282-card').count(),3);
     assert.ok(await page.locator('.nf-v282-warning').isVisible(),'Visible berth/return safety missing');
     for(const c of conf.cards){
-     const link=page.locator('a.nf-v282-card[href="'+c.href+'"]');
+     const link=page.locator('a.nf-v282-card[href="'+c.href+'"]').filter({hasText:c.title});
      assert.equal(await link.count(),1,'Card incorrect target '+c.href);
      const img=link.locator('img');await img.scrollIntoViewIfNeeded();
      const decoded=await img.evaluate(async el=>{try{await el.decode();return el.naturalWidth>0&&el.naturalHeight>0}catch{return false}});
