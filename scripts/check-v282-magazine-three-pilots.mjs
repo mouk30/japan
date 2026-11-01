@@ -60,8 +60,10 @@ for(const r of registry.modified){
   assert.equal((h.match(/<details class="nf-v282-archive"/g)||[]).length,1,'Archive absent '+r.path);
   assert.ok(h.includes('최종 승객 귀선'),'Required passenger return safety missing '+r.path);
   const marker=h.indexOf('<section class="v69-port"');
-  const details=h.indexOf('</details><section class="v69-port"');
-  assert.ok(details>=0&&details===marker-10,'Archive not closed before remaining content '+r.path);
+  const details=h.indexOf('</details>',h.indexOf('<details class="nf-v282-archive"'));
+  assert.ok(details>=0&&details<marker,'Original dated operational archive must close before other content '+r.path);
+  const between=h.slice(details+'</details>'.length,marker);
+  assert.ok(between===''||(between.startsWith('<section class="nf-v283-topic-details"')&&between.endsWith('</section>')&&between.includes('id="nf-v283-hakata-ohori"')&&between.includes('id="nf-v283-hakata-riverain"')&&between.includes('id="nf-v283-hakata-harbor"')),'Only the exact V283 three-place details may appear between the preserved archive and older content '+r.path);
  }
  assert.equal((h.match(/class="nf-v282-card-grid"/g)||[]).length,1);
 }

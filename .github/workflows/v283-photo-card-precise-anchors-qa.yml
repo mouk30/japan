@@ -1,0 +1,46 @@
+name: NIPPONFERRY V283 precise photo-card targets and legacy QA compatibility
+on:
+  pull_request:
+    branches: [main, v282-three-cruise-dest-photo-first-pilot]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v283-exact-attraction-navigation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 27
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Existing V282 baseline images, SEO and booking URLs regression
+        run: node scripts/check-v282-magazine-three-pilots.mjs
+      - name: Nine distinct original-place description targets; original SEO, links, schema
+        run: node scripts/check-v283-photo-card-anchors.mjs
+      - name: Compare original historical V158 V160 V164 QA on main and V283
+        run: node scripts/check-v283-legacy-qa-compat.mjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Actual 3 x 4 viewport photo gallery, old operational archive QA
+        run: node scripts/browser-qa-v282-three-pilots.mjs
+      - name: Click all 9 photo cards in 4 viewports to verify 36 exact destinations
+        run: node scripts/browser-qa-v283-card-navigation.mjs
+      - name: Preserve evidence for manual review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v283-9-precise-card-targets-and-historical-QA
+          path: |
+            audit-reports/v283/historical-compatibility-results.json
+            audit-reports/v283/browser-card-navigation-results.json
+            audit-reports/v282/browser-screens/
+            audit-reports/v282/browser-qa-result.json
+          if-no-files-found: warn

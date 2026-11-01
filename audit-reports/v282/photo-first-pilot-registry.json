@@ -14,17 +14,20 @@
         {
           "title": "메리켄파크 산책",
           "src": "/images/venues/kobe-meriken-park-night.webp",
-          "href": "#sights"
+          "href": "#nf-v283-kobe-meriken",
+          "originalV282Href": "#sights"
         },
         {
           "title": "누노비키 로프웨이",
           "src": "/images/venues/kobe-nunobiki-herb-ropeway.webp",
-          "href": "#v54-voucher-connect"
+          "href": "#nf-v283-kobe-ropeway",
+          "originalV282Href": "#v54-voucher-connect"
         },
         {
           "title": "기타노 이진칸",
           "src": "/images/venues/kobe-kitano-weathercock.webp",
-          "href": "#route"
+          "href": "#nf-v283-kobe-kitano",
+          "originalV282Href": "#route"
         }
       ],
       "originalSha": "ac554cf4b6fa95527fc608eb9e0009c8522fd536"
@@ -39,17 +42,20 @@
         {
           "title": "오호리공원",
           "src": "/images/venues/fukuoka-ohori-park.webp",
-          "href": "#evergreen-decision-guide"
+          "href": "#nf-v283-hakata-ohori",
+          "originalV282Href": "#evergreen-decision-guide"
         },
         {
           "title": "하카타 리바레인",
           "src": "/images/venues/hakata-anpanman-host-building.webp",
-          "href": "#v4-travel-companions"
+          "href": "#nf-v283-hakata-riverain",
+          "originalV282Href": "#v4-travel-companions"
         },
         {
           "title": "하카타항 방향 전망",
           "src": "/images/venues/nf-v140-fukuoka-hakata-port-2017-real.webp",
-          "href": "#v69-berth-qa"
+          "href": "#nf-v283-hakata-harbor",
+          "originalV282Href": "#v69-berth-qa"
         }
       ],
       "originalSha": "d94f449a98294b7d06b2cd41f0a1af4a375cad66"
@@ -64,17 +70,20 @@
         {
           "title": "메리켄파크 수변",
           "src": "/images/venues/kobe-meriken-park-night.webp",
-          "href": "#highlights"
+          "href": "#nf-v283-city-meriken",
+          "originalV282Href": "#highlights"
         },
         {
           "title": "누노비키 로프웨이",
           "src": "/images/venues/kobe-nunobiki-herb-ropeway.webp",
-          "href": "#course"
+          "href": "#nf-v283-city-ropeway",
+          "originalV282Href": "#course"
         },
         {
           "title": "기타노 이진칸",
           "src": "/images/venues/kobe-kitano-weathercock.webp",
-          "href": "#course"
+          "href": "#nf-v283-city-kitano",
+          "originalV282Href": "#course"
         }
       ],
       "originalSha": "efddc0762bae23617e5555f07e09367c53bf5c4d"
@@ -159,5 +168,11 @@
     "Protected Vercel previews require real authenticated inspection before merge",
     "Old ancillary city section images/links not fully audited by this limited pilot"
   ],
-  "photoCorrectionNote": "The original Commons file identifies Manish Prabhune as its author and CC BY 4.0, not the older credit from site/things-to-do/kobe-cruise-couple-guide. Only the two V282 pages and registry are corrected; older pages are separately queued for origin/credit audit."
+  "photoCorrectionNote": "The original Commons file identifies Manish Prabhune as its author and CC BY 4.0, not the older credit from site/things-to-do/kobe-cruise-couple-guide. Only the two V282 pages and registry are corrected; older pages are separately queued for origin/credit audit.",
+  "v283CardAnchorCompatibility": {
+    "extends": "V282 photo-first pilot",
+    "originalMainImmutable": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+    "v282OriginalBranchHead": "09fa904af5c848b39a8abf0628eade32585c6bc6",
+    "changes": "All 9 cards navigate to distinct attraction-specific explanatory targets, preserving original SEO links, photos and operator notices."
+  }
 }

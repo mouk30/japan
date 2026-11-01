@@ -1,0 +1,13 @@
+/* V283: precise content anchors beneath 4:3 photo cards on only three V282 pilot pages. */
+body.nf-v282 [id^="nf-v283-"]{scroll-margin-top:92px}
+body.nf-v282 .nf-v283-topic-details{max-width:1160px;margin:20px auto 26px;padding:clamp(18px,3vw,29px);background:#fff;border:1px solid #d5e5ec;border-radius:17px;box-shadow:0 9px 25px #1846670a}
+body.nf-v282 .nf-v283-topic-heading h2{font-size:clamp(22px,3vw,30px);margin:0 0 8px;line-height:1.35;color:#123f57}
+body.nf-v282 .nf-v283-topic-heading>p:last-child{font-size:14px;line-height:1.7;color:#536f7d;margin:0 0 16px}
+body.nf-v282 .nf-v283-topic{padding:17px 18px;border:1px solid #d9e7ef;border-radius:13px;background:#f8fbfd;margin:11px 0;scroll-margin-top:90px}
+body.nf-v282 .nf-v283-topic:target,body.nf-v282 [id^="nf-v283-kobe-"]:target{outline:3px solid #0094ac;outline-offset:3px;background:#effafe}
+body.nf-v282 .nf-v283-topic small{display:block;font-size:11px;letter-spacing:.08em;font-weight:900;color:#117a93;margin:0 0 6px}
+body.nf-v282 .nf-v283-topic h3{font-size:clamp(17px,2.3vw,23px);color:#124362;margin:0 0 7px;line-height:1.4}
+body.nf-v282 .nf-v283-topic p{font-size:14px;line-height:1.8;color:#496777;margin:0 0 10px}
+body.nf-v282 .nf-v283-topic a{display:inline-flex;align-items:center;min-height:44px;font-size:13px;font-weight:850;color:#046c89;text-decoration:underline;text-underline-offset:3px}
+body.nf-v282 .nf-v283-card-focus-note{font-size:13px;color:#355c6d}
+@media(max-width:620px){body.nf-v282 .nf-v283-topic-details{margin:16px 0 22px;padding:17px 13px}body.nf-v282 .nf-v283-topic{padding:15px 12px}body.nf-v282 [id^="nf-v283-"]{scroll-margin-top:76px}}
