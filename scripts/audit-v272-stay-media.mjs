@@ -19,6 +19,8 @@ const existing=['site/stay/index.html',...fs.readdirSync('site/stay',{withFileTy
 assert.equal(existing.length,28,'Scope must remain exactly 28 existing /stay/ guides');
 assert.ok(fs.existsSync('site/sitemap.xml')&&fs.existsSync('site/robots.txt'),'SEO files missing');
 const authorizedTourism=new Map(Object.values(v254.images).map(x=>[x.src,x]));
+const cc0=old.verifiedPlacePhotoReused;
+authorizedTourism.set(cc0.src,{src:cc0.src,author:cc0.photographer,source:cc0.sourcePage,license:cc0.license,gitBlobSha:null,scene:cc0.location});
 const files=new Map();
 const sha1=b=>crypto.createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex');
 const sha256=b=>crypto.createHash('sha256').update(b).digest('hex');
@@ -78,18 +80,23 @@ function asset(src){
  if(!files.has(r.cleaned)){
   const b=fs.readFileSync(r.full),dim=imageSize(b),sha=sha1(b),isPhoto=/\.(?:jpe?g|webp|png|gif)(?:$)/i.test(r.cleaned)&&r.cleaned!=='/images/kakao-talk.jpg';
   const record=authorizedTourism.get(r.cleaned);
-  if(record)assert.equal(sha,record.gitBlobSha,'Verified tourism photo bytes changed '+r.cleaned);
+  if(record?.gitBlobSha)assert.equal(sha,record.gitBlobSha,'Verified tourism photo bytes changed '+r.cleaned);
+  const originalPixels=record?.scene?.match(/원본\s*(\d+)\s*[×x]\s*(\d+)/);
+  const originalWidth=originalPixels?Number(originalPixels[1]):null;
+  const originalHeight=originalPixels?Number(originalPixels[2]):null;
   files.set(r.cleaned,{src:r.cleaned,bytes:b.length,gitBlobSha:sha,sha256:sha256(b),...dim,
    aspectRatio:dim.width&&dim.height?Number((dim.width/dim.height).toFixed(4)):null,
    role:r.cleaned.startsWith('/stay/assets/')?'UNVERIFIED_LEGACY_LODGING_REFERENCE':
     record?'SOURCED_TOURISM_NOT_HOTEL':r.cleaned==='/images/kakao-talk.jpg'?'UI_ICON':'OTHER_UNVERIFIED_MEDIA',
    author:record?.author??null,source:record?.source??null,license:record?.license??null,
+   declaredOriginalWidth:originalWidth,declaredOriginalHeight:originalHeight,
    photo:isPhoto,
    risk:{
     smallForCard:isPhoto&&dim.width!==null&&(dim.width<720||dim.height<420),
     smallForLargeHero:isPhoto&&dim.width!==null&&(dim.width<1200||dim.height<500),
     unusualForLandscapeCard:isPhoto&&dim.width!==null&&(dim.width/dim.height<1.1||dim.width/dim.height>2.4),
-    dimensionsUnparsed:isPhoto&&(dim.width===null||dim.height===null)
+    dimensionsUnparsed:isPhoto&&(dim.width===null||dim.height===null),
+    largerThanDeclaredSourcePixels:isPhoto&&originalWidth!==null&&dim.width!==null&&(dim.width>originalWidth||dim.height>originalHeight)
    }});
  }
  return files.get(r.cleaned);
@@ -132,7 +139,18 @@ const duplicates=[...groups.entries()].filter(([,sources])=>sources.length>1)
 const known=old.duplicateAssetGroup.paths.slice().sort();
 assert.ok(duplicates.some(x=>JSON.stringify(x.sources)===JSON.stringify(known)),
  'Known Fuji/Hakone/Ryokan duplicate hash no longer matches baseline');
-const assets=[...files.values()].sort((a,b)=>a.src.localeCompare(b.src)).map(a=>({...a,references:counts.get(a.src)||0}));
+const heroCounts=new Map();
+for(const p of pages){
+ const html=fs.readFileSync(p.file,'utf8');
+ const hero=html.match(/\.sv-hero:before\{[^}]+\}/)?.[0]??'';
+ for(const m of hero.matchAll(/url\(\s*['\"]?([^)'\"]+)['\"]?\s*\)/gi)){
+  const src=m[1].trim();heroCounts.set(src,(heroCounts.get(src)||0)+1);
+ }
+}
+const assets=[...files.values()].sort((a,b)=>a.src.localeCompare(b.src)).map(a=>({
+ ...a,references:counts.get(a.src)||0,heroUses:heroCounts.get(a.src)||0,
+ risk:{...a.risk,smallForActualHero:(heroCounts.get(a.src)||0)>0&&a.risk.smallForLargeHero}
+}));
 const photos=assets.filter(a=>a.photo);
 const report={
  stage:'V272',generatedAt:new Date().toISOString(),scope:'28 existing /stay/ HTML pages on main baseline',
@@ -143,13 +161,16 @@ const report={
  summary:{pages:pages.length,imgTags:imgCount,inlineCssUrlReferences:cssCount,
   legacyUnverifiedReferences:legacyRefs,uniqueMediaAssets:assets.length,uniquePhotoAssets:photos.length,
   duplicatedPhotoByteGroups:duplicates.length,smallForCard:photos.filter(a=>a.risk.smallForCard).length,
-  smallForLargeHero:photos.filter(a=>a.risk.smallForLargeHero).length,
+  smallForLargeHeroIfUsed:photos.filter(a=>a.risk.smallForLargeHero).length,
+  smallForActualHero:photos.filter(a=>a.risk.smallForActualHero).length,
+  largerThanDeclaredSourcePixels:photos.filter(a=>a.risk.largerThanDeclaredSourcePixels).length,
   unusualLandscapeRatio:photos.filter(a=>a.risk.unusualForLandscapeCard).length,
   unparsedPhotoDimensions:photos.filter(a=>a.risk.dimensionsUnparsed).length},
  duplicateSha256Groups:duplicates,assets,pages,
  limitations:['Git blob SHA and SHA-256 show byte identity, not copyright or scene identity.',
   'Tourism photos are NOT proof of a hotel or room; metadata is an existing registry claim, not fresh rights permission.',
   'Image size thresholds are review flags, not proof of a visually broken card.',
+  'Declared source pixel dimensions are taken from existing V254 metadata, not freshly downloaded originals.',
   'CSS URL enumeration covers inline HTML; shared CSS computed display is audited separately in Chromium.',
   'Unmerged V258-V271 Draft PRs are not in main; compare before merge.',
   'This local audit is NOT authenticated Vercel Preview; deployment protection remains enforced.']
