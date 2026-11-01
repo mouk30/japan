@@ -1,0 +1,41 @@
+name: NIPPONFERRY V284 photo-first Nagasaki Naha Kagoshima pilot
+on:
+  pull_request:
+    branches:
+      - main
+      - v283-photo-cards-direct-attraction-details-compat-qa
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v284-three-port-places:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Existing V282/V283 site pilot SEO and photo-card regression
+        run: |
+          node scripts/check-v282-magazine-three-pilots.mjs
+          node scripts/check-v283-photo-card-anchors.mjs
+      - name: Source image SHA, licensed author, original booking URLs and SEO for three ports
+        run: node scripts/check-v284-three-port-visuals.mjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Test 3 ports by 4 viewport sizes and all 36 exact photo-card clicks
+        run: node scripts/browser-qa-v284-three-port-cards.mjs
+      - name: Preserve 12 screenshots and JSON report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v284-nagasaki-naha-kagoshima-12-browser-screens
+          path: |
+            audit-reports/v284/browser-screens/
+            audit-reports/v284/browser-qa-results.json
+          if-no-files-found: warn
