@@ -111,11 +111,13 @@
     "kitano": {
       "src": "/images/venues/kobe-kitano-weathercock.webp",
       "sha": "f7d36744bc2b4986a2ac3b643fe9ff3b5ea7d416",
-      "author": "Wikimedia Commons contributor",
-      "license": "CC BY-SA 3.0 (기존 출처 안내)",
+      "author": "Manish Prabhune",
+      "license": "CC BY 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Weathercock_House_Kobe_Kitano_Ijinkan_%E9%A2%A8%E8%A6%8B%E9%B6%8F%E3%81%AE%E9%A4%A8%EF%BC%88%E6%97%A7%E3%83%88%E3%83%BC%E3%83%9E%E3%82%B9%E4%BD%8F%E5%AE%85%EF%BC%89.jpg",
-      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "place": "고베 기타노 풍향계의 집 외관"
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "place": "고베 기타노 풍향계의 집 외관",
+      "originalTaken": "2011-05-31",
+      "originalCurrentSourceChecked": "2026-11-01"
     },
     "ohori": {
       "src": "/images/venues/fukuoka-ohori-park.webp",
@@ -156,5 +158,6 @@
     "Main stays untouched, pending PR #76 V281 distinct",
     "Protected Vercel previews require real authenticated inspection before merge",
     "Old ancillary city section images/links not fully audited by this limited pilot"
-  ]
+  ],
+  "photoCorrectionNote": "The original Commons file identifies Manish Prabhune as its author and CC BY 4.0, not the older credit from site/things-to-do/kobe-cruise-couple-guide. Only the two V282 pages and registry are corrected; older pages are separately queued for origin/credit audit."
 }
