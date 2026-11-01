@@ -1,0 +1,30 @@
+name: NIPPONFERRY V280 final stay release gate (blocked until evidence)
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v280-evidence-only-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check 28 existing guides and evidence-gated NOT-READY decision
+        run: node scripts/check-v280-stay-final-release-gate.mjs
+      - name: Confirm zero changes to site, SEO, booking and KidsStay
+        run: |
+          git fetch origin main
+          git diff --exit-code origin/main...HEAD -- site
+      - name: Preserve existing stay/kids/booking/photo regression
+        run: |
+          node scripts/check-v251-stay-kids-boundary.mjs
+          node scripts/check-v252-stay-ferry-clarity.mjs
+          node scripts/check-v253-stay-images.mjs
+          node scripts/check-v254-stay-local-verified.mjs
