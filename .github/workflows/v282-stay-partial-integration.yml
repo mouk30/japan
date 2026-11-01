@@ -20,3 +20,5 @@ jobs:
         run: node scripts/check-v251-stay-kids-boundary.mjs
       - name: Preserve V252 ferry context
         run: node scripts/check-v252-stay-ferry-clarity.mjs
+      - name: Verify V260 family couple first-trip photo holds
+        run: node scripts/check-v260-stay-three-guides.mjs
