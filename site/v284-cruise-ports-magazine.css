@@ -1,0 +1,21 @@
+/* V284: only Nagasaki, Naha and Kagoshima existing cruise guides.
+   Reuse audited V282 cards and V283 precise photo-to-description target styling. */
+body.nf-v284{background:#edf5f8}
+body.nf-v284 main{max-width:1190px}
+body.nf-v284 article>header.nf-v284-hero{border-radius:22px}
+body.nf-v284 .nf-v284-photo-figure{position:absolute;inset:0;margin:0;padding:0;width:100%;height:100%}
+body.nf-v284 .nf-v284-photo-figure img.cover{display:block;width:100%;height:100%;max-width:none;max-height:none;border:0;border-radius:0;object-fit:cover;object-position:center 50%;box-shadow:none;margin:0;padding:0}
+body.nf-v284 .nf-v284-gallery{margin:0 0 19px}
+body.nf-v284 .nf-v284-gallery .nf-v282-card-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+body.nf-v284 .nf-v284-card .nf-v282-card-media img{aspect-ratio:4/3;object-fit:cover}
+body.nf-v284 .nf-v284-card .nf-v282-card-desc{min-height:3.2em}
+body.nf-v284 .nf-v284-warning{margin:18px 0;background:#e1f3f5}
+body.nf-v284 .nf-v284-warning strong{font-size:14px}
+body.nf-v284 .nf-v284-topic-details{margin:18px 0 22px;padding:clamp(17px,3vw,26px)}
+body.nf-v284 .nf-v284-topic{scroll-margin-top:90px}
+body.nf-v284 .nf-v284-topic p{line-height:1.8}
+body.nf-v284 .nf-v284-license{max-width:100%;line-height:1.85;margin:12px 0 25px}
+body.nf-v284 .nf-v284-license span{display:inline-block;margin-right:9px}
+body.nf-v284 .nf-v284-card:focus-visible,body.nf-v284 .nf-v284-warning a:focus-visible,body.nf-v284 .nf-v284-topic a:focus-visible{outline:3px solid #ffca69;outline-offset:3px}
+@media(max-width:900px){body.nf-v284 .nf-v284-gallery .nf-v282-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){body.nf-v284 main{padding:15px 13px 60px}body.nf-v284 article>header.nf-v284-hero{min-height:440px;border-radius:16px}body.nf-v284 .nf-v284-gallery .nf-v282-card-grid{grid-template-columns:1fr}body.nf-v284 .nf-v284-card .nf-v282-card-desc{min-height:0}body.nf-v284 .nf-v284-warning{margin:14px 0;padding:14px}body.nf-v284 .nf-v284-topic-details{margin:15px 0;padding:14px 12px}body.nf-v284 .nf-v284-license{font-size:11px}}
