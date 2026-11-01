@@ -1,0 +1,132 @@
+{
+  "version": "V283",
+  "created": "2026-11-01",
+  "featureBranch": "v283-photo-cards-direct-attraction-details-compat-qa",
+  "dependsOnPR": 77,
+  "dependsOnBranch": "v282-three-cruise-dest-photo-first-pilot",
+  "baseHead": "09fa904af5c848b39a8abf0628eade32585c6bc6",
+  "scope": "3 pre-existing pages, nine photo travel cards, no new posts",
+  "pages": [
+    {
+      "path": "site/things-to-do/kobe-cruise-port-day-trip/index.html",
+      "targets": [
+        {
+          "id": "nf-v283-kobe-meriken",
+          "label": "메리켄파크 산책",
+          "mustInclude": "메리켄파크",
+          "location": "Original h3 in existing sights section",
+          "type": "original-heading"
+        },
+        {
+          "id": "nf-v283-kobe-ropeway",
+          "label": "누노비키 로프웨이",
+          "mustInclude": "누노비키",
+          "location": "Original official ticket information heading",
+          "type": "original-heading"
+        },
+        {
+          "id": "nf-v283-kobe-kitano",
+          "label": "기타노 이진칸",
+          "mustInclude": "기타노이진칸",
+          "location": "Original h3 in existing sights section",
+          "type": "original-heading"
+        }
+      ]
+    },
+    {
+      "path": "site/things-to-do/hakata-cruise-port-day-trip/index.html",
+      "targets": [
+        {
+          "id": "nf-v283-hakata-ohori",
+          "label": "오호리공원",
+          "mustInclude": "오호리공원",
+          "type": "new-scoped-detail",
+          "supportingAnchor": "evergreen-decision-guide"
+        },
+        {
+          "id": "nf-v283-hakata-riverain",
+          "label": "하카타 리바레인",
+          "mustInclude": "하카타 리바레인",
+          "type": "new-scoped-detail",
+          "supportingAnchor": "v52-voucher-connect"
+        },
+        {
+          "id": "nf-v283-hakata-harbor",
+          "label": "하카타항 방향 전망",
+          "mustInclude": "하카타항",
+          "type": "new-scoped-detail",
+          "supportingAnchor": "v69-berth-qa"
+        }
+      ]
+    },
+    {
+      "path": "site/japan/kobe/index.html",
+      "targets": [
+        {
+          "id": "nf-v283-city-meriken",
+          "label": "메리켄파크 수변",
+          "mustInclude": "메리켄파크",
+          "type": "new-scoped-detail",
+          "supportingAnchor": "highlights"
+        },
+        {
+          "id": "nf-v283-city-ropeway",
+          "label": "누노비키 로프웨이",
+          "mustInclude": "누노비키",
+          "type": "new-scoped-detail"
+        },
+        {
+          "id": "nf-v283-city-kitano",
+          "label": "기타노 이진칸",
+          "mustInclude": "기타노",
+          "type": "new-scoped-detail"
+        }
+      ]
+    }
+  ],
+  "legacyQA": {
+    "comparison": "Run V158, V160, V164 historical validators on unchanged main and feature branch and compare their actual failure sets; new failures allowed only for visual card count/legacy hero-image identity checks, and only for kobe/hakata",
+    "permittedOnly": [
+      [
+        "v158",
+        "kobe",
+        "original_image_src_alt_dimensions_same"
+      ],
+      [
+        "v158",
+        "kobe",
+        "new_links_just_four"
+      ],
+      [
+        "v160",
+        "hakata",
+        "original_photo_src_alt_size"
+      ],
+      [
+        "v160",
+        "hakata",
+        "new_three_destination_links"
+      ],
+      [
+        "v164",
+        "kobe",
+        "exactly_original_imgs_alt_and_dimensions"
+      ],
+      [
+        "v164",
+        "kobe",
+        "exactly_three_new_links"
+      ]
+    ],
+    "neverAllow": "Any new failures outside the above narrow legacy counts or visual image identity, including official sources, tickets, gate, final return, SEO, sitemap, ID uniqueness or original link retention"
+  },
+  "safety": [
+    "No new article pages",
+    "All original official booking and related links retained",
+    "All original SEO tags canonical, title, description, OG and schema preserved",
+    "No fake realtime reservation or ferry return guarantee",
+    "Vercel authenticated visual preview and all required CI still gate merges",
+    "Do not conceal unrelated existing legacy QA failures; classify and report"
+  ],
+  "state": "code changes prepared; independent GitHub Actions and Vercel preview verification pending"
+}
