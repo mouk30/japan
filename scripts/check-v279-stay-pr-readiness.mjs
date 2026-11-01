@@ -1,0 +1,37 @@
+#!/usr/bin/env node
+// V279: validates a dated evidence snapshot. It does NOT query live GitHub or Vercel.
+import { readFileSync } from 'node:fs';
+import assert from 'node:assert/strict';
+const evidence = JSON.parse(readFileSync(new URL('../audit-reports/v279-stay-pr-ci-preview-readiness.json', import.meta.url), 'utf8'));
+assert.equal(evidence.stage, 'V279');
+assert.equal(evidence.repository, 'mouk30/japan');
+assert.equal(evidence.scope.existingStayGuides, 28);
+assert.equal(evidence.scope.paths.length, 28);
+assert.equal(new Set(evidence.scope.paths).size, 28);
+assert(evidence.scope.paths.every(p => /^site\/stay\/(?:[a-z-]+\/)?index\.html$/.test(p)));
+assert.equal(evidence.scope.newArticles, 0);
+const { records, total, stayRelated, excludedOutsideStay } = evidence.openPRs;
+assert.equal(total, 29);
+assert.equal(stayRelated, 25);
+assert.equal(records.length, 25);
+assert.deepEqual(excludedOutsideStay, [76, 77, 80, 84]);
+assert.equal(new Set(records.map(x => x.pr)).size, records.length);
+assert(records.every(x => x.state === 'open' && !x.merged));
+assert(records.every(x => /^[a-f0-9]{40}$/.test(x.headSha)));
+assert(records.every(x => x.headCi.allReportedCompletedSuccess && x.headCi.reportedRuns >= 4 && Number.isInteger(x.headCi.stageRunId)));
+assert(records.every(x => x.changedStayPages.every(p => ['_hub', '_area', ...evidence.scope.paths.map(s => s.replace(/^site\/stay\//,'').replace(/\/index\.html$/,'').replace(/^index\.html$/, '_hub'))].includes(p))));
+const seen = new Map();
+for (const pr of records) for (const page of pr.changedStayPages) seen.set(page, [...(seen.get(page) || []), pr.pr]);
+const actual = [...seen.entries()].filter(([, prs]) => prs.length > 1).map(([page, prs]) => [page, prs.join(',')]).sort((a,b) => a[0].localeCompare(b[0]));
+const declared = evidence.overlapEvidence.pageOverlaps.map(({page,prs}) => [page, prs.join(',')]).sort((a,b) => a[0].localeCompare(b[0]));
+assert.deepEqual(actual, declared);
+assert.equal(actual.length, 28);
+assert.equal(evidence.vercel.projectLookup, '403 forbidden');
+assert.equal(evidence.vercel.authenticatedPreviewRendered, false);
+assert.equal(evidence.otherGates.integratedCIBeforeMerge, 'not run');
+assert.equal(evidence.decision.mergeReady, false);
+assert.equal(evidence.decision.productionReady, false);
+assert.equal(evidence.decision.mergePerformed, false);
+assert.equal(evidence.decision.productionDeploymentPerformed, false);
+assert.equal(evidence.decision.stageComplete, false);
+console.log('V279 snapshot integrity OK:', records.length, 'open stay PRs;', records.reduce((sum,p) => sum + p.headCi.reportedRuns,0), 'per-head successful workflow records;', actual.length, 'overlapping stay pages. Merge/production remain blocked.');
