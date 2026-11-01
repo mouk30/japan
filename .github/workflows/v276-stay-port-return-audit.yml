@@ -1,0 +1,34 @@
+name: NIPPONFERRY V276 existing stay port and last-return evidence audit
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v276-port-return-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: V251-V254 original stay/photo/booking/KidsStay regressions
+        run: |
+          node scripts/check-v251-stay-kids-boundary.mjs
+          node scripts/check-v252-stay-ferry-clarity.mjs
+          node scripts/check-v253-stay-images.mjs
+          node scripts/check-v254-stay-local-verified.mjs
+      - name: V276 actual existing-page port/return claims and exact baseline byte audit
+        run: node scripts/audit-v276-stay-port-return.mjs
+      - name: Upload per-page V276 review candidates and limitations
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v276-stay-port-return-evidence
+          path: audit-reports/v276-stay-port-return-generated.json
+          if-no-files-found: warn
+          retention-days: 30
