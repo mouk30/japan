@@ -13,8 +13,8 @@ OUT=Path("audit-output/v89-review-age");OUT.mkdir(parents=True,exist_ok=True)
 EXPECTED={
 "osaka": ("https://www.panstarcruise.com/support/notice","25,000원"),
 "fukuoka":("https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice","14,000원"),
-"shimonoseki":("https://www.kampuferry.co.jp/lang_kor/fare/basic/","19,000원"),
-"tsushima":("https://www.panstarcruise.com/support/notice","15,000원")
+"shimonoseki":("https://kampuferry.co.jp/fare/","19,000원"),
+"tsushima":("https://www.panstarcruise.com/support/notice","16,000원")
 }
 SIZES=[("desktop",1440,900),("small-mobile",360,780)]
 report={"version":"V89","checked_utc":dt.datetime.now(dt.timezone.utc).isoformat(),"checked":[],"errors":[],"simulation":{}}
