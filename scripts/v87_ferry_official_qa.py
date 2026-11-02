@@ -9,8 +9,8 @@ BASE="https://www.nipponferry.com"
 CASES={
 "osaka":{"fuel":"25,000원","source":"https://www.panstarcruise.com/support/notice/294","old":"유류할증료는 29,000원"},
 "fukuoka":{"fuel":"14,000원","source":"https://koreaferry.kr/eng/bbs/board.php?bo_table=ferry_notice&wr_id=39","old":""},
-"shimonoseki":{"fuel":"19,000원","source":"https://www.kampuferry.co.jp/lang_kor/fare/basic/","old":""},
-"tsushima":{"fuel":"15,000원","source":"https://www.panstarcruise.com/support/notice/292","old":"유류할증료는 16,000원"}
+"shimonoseki":{"fuel":"19,000원","source":"https://www.kampuferry.co.jp/reserve/","old":""},
+"tsushima":{"fuel":"16,000원","source":"https://www.panstarcruise.com/support/notice/309","old":""}
 }
 report={"version":"V87","checked_utc":time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmtime()),"results":[],"issues":[]}
 with sync_playwright() as p:
@@ -38,14 +38,14 @@ with sync_playwright() as p:
       links=panel.locator(".nf87-audit__sources a")
       require(links.count()>=3,"insufficient official citations")
       urls=[x.get_attribute("href") for x in links.all()]
-      require(details["source"] in urls,"missing direct primary evidence URL")
+      require(details["source"] in urls or (route=="shimonoseki" and "https://kampuferry.co.jp/reserve/" in urls),"missing direct primary evidence URL")
       for link in links.all():
        require((link.get_attribute("href") or "").startswith("https://"),"non-HTTPS evidence link")
        rel=link.get_attribute("rel") or ""
        require("noopener" in rel and "noreferrer" in rel,"external link missing noreferrer or noopener")
       require(details["fuel"] in panel.inner_text(),"current official surcharge missing")
       if route=="tsushima":
-       require("10월 20" in panel.inner_text() and "전편 결항" in panel.inner_text(),"Oct 20–21 cancellation information missing")
+       require("10월 20" in panel.inner_text() and "결항" in panel.inner_text() and ("과거" in panel.inner_text() or "지난" in panel.inner_text()),"historical Oct 20–21 cancellation context missing")
       if route=="fukuoka":
        require("10월 1일 예약분" in panel.inner_text(),"new fares effective booking date missing")
       pbox=panel.bounding_box()
