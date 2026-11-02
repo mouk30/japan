@@ -1,0 +1,24 @@
+name: V296 official international booking CTAs
+on:
+  pull_request:
+    paths:
+      - 'site/booking/fukuoka/index.html'
+      - 'site/booking/osaka/index.html'
+      - 'site/booking/shimonoseki/index.html'
+      - 'site/booking/tsushima/index.html'
+      - 'scripts/qa_v296_intl_booking_cta.py'
+      - '.github/workflows/v296-intl-booking-links.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  route-ctas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          python -m py_compile scripts/qa_v296_intl_booking_cta.py
+          python scripts/qa_v296_intl_booking_cta.py
