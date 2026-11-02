@@ -8,6 +8,11 @@ on:
       - 'site/nf-v84-route-banners.css'
       - 'scripts/v85_route_banner_browser_qa.py'
       - '.github/workflows/v85-route-banners-qa.yml'
+  pull_request:
+    paths:
+      - 'site/ferry/index.html'
+      - 'scripts/v85_route_banner_browser_qa.py'
+      - '.github/workflows/v85-route-banners-qa.yml'
   workflow_dispatch:
 permissions:
   contents: read
@@ -22,8 +27,20 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install playwright
       - run: python -m playwright install chromium --with-deps
-      - name: Test production PC tablet mobile images layout and internal CTAs
-        run: python scripts/v85_route_banner_browser_qa.py
+      - name: Build PR deployment output for pre-merge browser QA
+        if: github.event_name == 'pull_request'
+        run: npm run build
+      - name: Test production or PR build PC tablet mobile images layout and internal CTAs
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            python3 -m http.server 8767 --bind 127.0.0.1 --directory dist >/tmp/nf85-http.log 2>&1 &
+            PID=$!
+            trap 'kill $PID || true' EXIT
+            sleep 3
+            NF85_BASE_URL=http://127.0.0.1:8767 python scripts/v85_route_banner_browser_qa.py
+          else
+            python scripts/v85_route_banner_browser_qa.py
+          fi
       - name: Archive browser screenshots and machine-readable QA results
         if: always()
         uses: actions/upload-artifact@v4
