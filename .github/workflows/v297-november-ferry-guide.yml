@@ -1,0 +1,24 @@
+name: V297 official November fees and return guide QA
+on:
+  pull_request:
+    paths:
+      - 'site/guide/busan-osaka-ferry/index.html'
+      - 'site/guide/busan-tsushima-ferry/index.html'
+      - 'scripts/qa_v297_november_ferry_guide.py'
+      - '.github/workflows/v297-november-ferry-guide.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  november-guide:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate existing guides and source links
+        run: |
+          python -m py_compile scripts/qa_v297_november_ferry_guide.py
+          python scripts/qa_v297_november_ferry_guide.py
+          python scripts/qa_v296_intl_booking_cta.py
