@@ -1,5 +1,12 @@
 name: V103 four route official source-link audit
 on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/guide/busan-**/index.html'
+      - 'site/booking/japan-cruise/index.html'
+      - 'scripts/v103_core_official_links.py'
+      - '.github/workflows/v103-ferry-official-source-qa.yml'
   workflow_dispatch:
   schedule:
     # Around 11:43 KST, GitHub scheduled jobs may start late.
@@ -39,7 +46,7 @@ jobs:
             cat audit-output/v103-official-link-inventory/summary.md >> "$GITHUB_STEP_SUMMARY"
           fi
       - name: Open or update a single human-review issue only for actionable confirmed failures
-        if: success()
+        if: success() && github.event_name != 'pull_request'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
