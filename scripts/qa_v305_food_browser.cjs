@@ -15,6 +15,9 @@ fs.mkdirSync(out,{recursive:true});
     assert.equal(await page.locator("h1").count(),1);
     assert.equal(await page.locator(".hub-main .dirgrid > a.dircard").count(),16);
     assert.equal(await page.locator('#nf-v153-pilot-hub .nf-v153-pilot-card').count(),1);
+    // Force existing lazy cards to load before screenshot; record external hotlink failures separately.
+    await page.evaluate(()=>document.querySelectorAll(".hub-main .dircard img").forEach(img=>img.loading="eager"));
+    await page.waitForTimeout(3000);
     const shikoku=page.locator('#nf-v153-pilot-hub figure img');
     await shikoku.scrollIntoViewIfNeeded();
     await shikoku.evaluate(el=>el.decode());
@@ -35,7 +38,9 @@ fs.mkdirSync(out,{recursive:true});
       photo:rect(photo),copy:rect(copy),cta:rect(cta),
       featurePhotoReady:photo.complete&&photo.naturalWidth>0,
       featurePhotoSrc:photo.getAttribute("src"),featureLink:cta.getAttribute("href"),
-      photoNotes:cards.filter(c=>c.querySelector(".v36-food-photo-note")).length};
+      photoNotes:cards.filter(c=>c.querySelector(".v36-food-photo-note")).length,
+      imageLoaded:cards.filter(c=>c.querySelector("img").naturalWidth>0).length,
+      imageBroken:cards.filter(c=>{const i=c.querySelector("img");return i.complete&&i.naturalWidth===0}).map(c=>c.querySelector("img").getAttribute("src"))};
     });
     assert.ok(data.css,"scoped CSS not loaded");
     assert.ok(!data.overflow,"horizontal overflow at "+width);
@@ -55,6 +60,7 @@ fs.mkdirSync(out,{recursive:true});
     await page.screenshot({path:path.join(out,"food-top-"+width+".png")});
     await page.locator(".hub-main .dirgrid").screenshot({path:path.join(out,"food-grid-"+width+".png")});
     rows.push({width,...data});
+    console.log("V305 image availability",width,data.imageLoaded,"of 16, broken",data.imageBroken.length);
     console.log("V305 PASS",width,"columns",data.columns);
    }finally{await page.close()}
   }
