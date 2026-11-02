@@ -48,7 +48,15 @@ fs.mkdirSync(out,{recursive:true});
    if(slug==="")assert.equal(data.routes,4,"4 real/AI contextual route thumbnails");
    if(slug==="things-to-do/travel-companions")assert.ok(data.first&&data.first.width>170,"guide images too small");
    assert.equal(data.bannerFit||"contain","contain",slug+" whole ship cropped");
-   await page.evaluate(()=>window.scrollTo(0,0));
+   // Disable smooth scrolling for the QA capture; otherwise scrollTo(0,0)
+   // can still be animating and screenshots misleadingly start halfway down.
+   const scrollY=await page.evaluate(()=>{
+    document.documentElement.style.scrollBehavior="auto";
+    document.body.style.scrollBehavior="auto";
+    window.scrollTo({top:0,left:0,behavior:"instant"});
+    return window.scrollY;
+   });
+   assert.ok(scrollY<2,slug+" screenshot did not return to page top: "+scrollY);
    await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
    await page.screenshot({path:path.join(out,(slug||"home").replaceAll("/","-")+"-"+width+".png")});
    report.push({page:slug||"/",width,checkedThumbs,...data});
