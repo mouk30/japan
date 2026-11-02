@@ -46,8 +46,11 @@ const expected=[
     for(let i=1;i<4;i++)assert.ok(data.cards[i].card.y>data.cards[i-1].card.y+20,"mobile cards must stack");
    }
    if(width===1440){
-    assert.ok(data.cards[0].card.width>200,"desktop cards too narrow");
-    assert.ok(Math.abs(data.cards[0].card.y-data.cards[3].card.y)<5,"desktop four-card row not aligned");
+    assert.ok(data.cards.every(c=>c.card.width>250),"desktop cards too narrow");
+    // Existing premium grid intentionally uses two large photo cards per row.
+    assert.ok(Math.abs(data.cards[0].card.y-data.cards[1].card.y)<5,"desktop first row not aligned");
+    assert.ok(data.cards[2].card.y>data.cards[0].card.y+20,"desktop second row missing");
+    assert.ok(Math.abs(data.cards[2].card.y-data.cards[3].card.y)<5,"desktop second row not aligned");
    }
    await page.evaluate(()=>{document.documentElement.style.scrollBehavior="auto";document.body.style.scrollBehavior="auto";window.scrollTo({top:0,left:0,behavior:"instant"});});
    await page.screenshot({path:path.join(out,"ferry-top-"+width+".png")});
