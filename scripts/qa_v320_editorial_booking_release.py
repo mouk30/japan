@@ -53,7 +53,7 @@ for slug,conf in M.items():
  else:
   removed=Counter(x.get("src") for x in b.images)-Counter(x.get("src") for x in a.images)
   added=Counter(x.get("src") for x in a.images)-Counter(x.get("src") for x in b.images)
-  assert removed==Counter({"/images/ferry.jpg":1}) and not added,(slug,"unlicensed photo removal only")
+  # Post-V320 main already contains the approved removal; a later PR must preserve it.\n  assert (not removed and not added) or (removed==Counter({"/images/ferry.jpg":1}) and not added),(slug,"unlicensed photo removal or preservation only")
   assert "nf319-visual-truth" in s and "nf319-official-booking" in s,(slug,"source transparency panel lost")
   assert "nf-v319-source-first-guides.css" in s,(slug,"visual style link lost")
  assert not (Counter(b.links)-Counter(a.links)-Counter({"https://willer-travel.com/ko/ferry/":2})),(slug,"unrelated old navigation lost")
