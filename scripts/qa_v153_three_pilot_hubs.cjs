@@ -36,7 +36,8 @@ for(const [path,ids] of Object.entries(hubs)){
  test(path+":existing_h1_unchanged",old.h1===now.h1);
  test(path+":structured_data_unchanged",JSON.stringify(old.jsonld)===JSON.stringify(now.jsonld));
  test(path+":original_images_unchanged",old.existingImages.every(x=>now.existingImages.some(y=>{
-  let cleaned=y.replace(/\s+decoding=["']async["']/g,"");
+  let cleaned=y;
+  if(!/\sdecoding=["']/.test(x))cleaned=cleaned.replace(/\s+decoding=["']async["']/g,"");
   if(!/\swidth=["']/.test(x))cleaned=cleaned.replace(/\s+width=["']\d+["']/g,"");
   if(!/\sheight=["']/.test(x))cleaned=cleaned.replace(/\s+height=["']\d+["']/g,"");
   return cleaned===x;
