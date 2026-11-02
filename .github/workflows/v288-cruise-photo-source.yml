@@ -1,0 +1,29 @@
+name: V288 booking photo rights and legacy priority QA
+on:
+  pull_request:
+    paths:
+      - 'site/japan-cruise/index.html'
+      - 'scripts/qa_v286_cruise_image_inventory.py'
+      - 'scripts/qa_v288_cruise_card_photo.py'
+      - '.github/workflows/v288-cruise-photo-source.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  image-and-source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify real ferry attribution and inventory
+        run: |
+          python -m py_compile scripts/qa_v288_cruise_card_photo.py scripts/qa_v286_cruise_image_inventory.py
+          python scripts/qa_v288_cruise_card_photo.py
+          python scripts/qa_v286_cruise_image_inventory.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v288-prioritized-image-review
+          path: audit-output/v288/

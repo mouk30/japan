@@ -28,3 +28,23 @@ out=Path('audit-output/v286');out.mkdir(parents=True,exist_ok=True)
 print('V286 image inventory:',len(rows),'cruise/ferry/booking pages,',len(old),'legacy ferry images,',len(baked),'baked-text images,',len(missing),'missing refs,',len(clip),'cover-crop candidates')
 assert not any(p in baked for p in ['site/japan-cruise/index.html','site/booking/japan-cruise/index.html'])
 assert not any(p in old for p in ['site/booking/index.html','site/booking/japan-cruise/index.html','site/booking/fukuoka/index.html','site/booking/osaka/index.html','site/booking/shimonoseki/index.html','site/booking/tsushima/index.html'])
+
+
+# V288: prioritize inspection of legacy photo use, rather than blindly replacing 108 images.
+def legacy_priority(path):
+ if path.startswith('site/japan-cruise/') or path.startswith('site/booking/'):return (1,path)
+ if path.startswith('site/ferry/') or path.startswith('site/guide/'):return (2,path)
+ if '/cruise-' in path or '/ferry-' in path or '/cruise/' in path:return (3,path)
+ return (4,path)
+ranked=sorted(old,key=legacy_priority)
+tier_counts={str(n):sum(legacy_priority(x)[0]==n for x in ranked) for n in range(1,5)}
+v288=Path('audit-output/v288');v288.mkdir(parents=True,exist_ok=True)
+(v288/'legacy-ferry-priority.json').write_text(json.dumps(
+ {'total_legacy_pages':len(ranked),'priority_tiers':tier_counts,
+  'first_50_candidates':[{'priority':legacy_priority(p)[0],'page':p} for p in ranked[:50]],
+  'cover_crop_candidates':sorted(clip),
+  'review_note':'These are automated inspection candidates. Image identity, age, rights and real crop require manual verification.'},
+ ensure_ascii=False,indent=2),encoding='utf-8')
+print('V288 legacy priority tiers',tier_counts)
+for page in ranked[:28]:
+ print('V288 REVIEW',legacy_priority(page)[0],page)
