@@ -15,8 +15,15 @@ fs.mkdirSync(out,{recursive:true});
    const res=await page.goto("http://127.0.0.1:8765/"+(slug?slug+"/":""),{waitUntil:"load"});
    assert.equal(res.status(),200,slug+" HTML missing");
    await page.locator("body.nf300-editorial").waitFor();
-   const preload=page.locator(".bk-case-card img,.nf247-route-photo img,.companion-main .guide-photo img,.jc-card .nf251-card-photo img").first();
-   if(await preload.count()){await preload.scrollIntoViewIfNeeded();await preload.evaluate(img=>img.decode());}
+   // Trigger and verify the first six real lazy-loaded card images, not just the first.
+   // Without this, a screenshot can show gray placeholders despite a passing gate.
+   const thumbs=page.locator(".bk-case-card img,.nf247-route-photo img,.companion-main .guide-photo img,.jc-card .nf251-card-photo img");
+   const checkedThumbs=Math.min(await thumbs.count(),6);
+   for(let i=0;i<checkedThumbs;i++){
+    const img=thumbs.nth(i);
+    await img.scrollIntoViewIfNeeded();
+    await img.evaluate(el=>el.decode());
+   }
    const data=await page.evaluate(()=>{
     const box=e=>{const b=e?.getBoundingClientRect();return b?{x:b.x,y:b.y,width:b.width,height:b.height}:null};
     const hero=document.querySelector(".bk-hero>.bk-hi,.jc-hero>.jc-w");
@@ -42,8 +49,9 @@ fs.mkdirSync(out,{recursive:true});
    if(slug==="things-to-do/travel-companions")assert.ok(data.first&&data.first.width>170,"guide images too small");
    assert.equal(data.bannerFit||"contain","contain",slug+" whole ship cropped");
    await page.evaluate(()=>window.scrollTo(0,0));
+   await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
    await page.screenshot({path:path.join(out,(slug||"home").replaceAll("/","-")+"-"+width+".png")});
-   report.push({page:slug||"/",width,...data});
+   report.push({page:slug||"/",width,checkedThumbs,...data});
    await page.close();
    console.log("PASS",slug||"/",width);
   }
