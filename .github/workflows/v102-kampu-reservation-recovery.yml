@@ -7,6 +7,11 @@ on:
         required: false
         default: false
         type: boolean
+  pull_request:
+    paths:
+      - 'scripts/v102_kampu_reservation_recovery.py'
+      - 'tests/test_v102_kampu_reservation_recovery.py'
+      - '.github/workflows/v102-kampu-reservation-recovery.yml'
   schedule:
     - cron: '47 0 * * *'
   push:
