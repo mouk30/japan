@@ -52,6 +52,31 @@ def base(p):
  except subprocess.CalledProcessError:
   subprocess.run(["git","fetch","--quiet","--depth=1","origin","main:refs/remotes/origin/main"],check=True)
   return subprocess.check_output(["git","show","origin/main:"+str(p)],text=True)
+# V298 approved PanStar artwork is already part of main; compare unchanged images
+# directly, and allow only the exact approved hero when testing older baselines.
+def images_retained(path, current, baseline):
+ current_images, original_images = Counter(current.images), Counter(baseline.images)
+ if current_images == original_images:
+  return True
+ if path == "booking/japan-cruise/index.html":
+  approved = ("/images/panstar-cruise-clean-2048.webp",
+              "팬스타 크루즈를 모티브로 한 AI 연출 이미지. 실제 항로별 선박과 다를 수 있음",
+              "2048", "682")
+  return current_images == original_images + Counter([approved])
+ return False
+
+# Replacing redundant 2026-10-27 news CTAs with the verified official booking
+# method must not count as losing an operational source. All other links remain.
+def links_retained(path, current, baseline):
+ existing = Counter(current.links)
+ original = Counter(baseline.links)
+ if path == "guide/busan-shimonoseki-ferry/index.html":
+  notice = "https://www.kampuferry.co.jp/news/20261027systemmaintenance.html"
+  if existing[notice] < 1 or "https://www.kampuferry.co.jp/reserve/" not in existing:
+   return False
+  original[notice] = min(original[notice], existing[notice])
+ return existing >= original
+
 results=[];fail=[]
 for path,conf in CASES.items():
  fp=ROOT/path
@@ -64,9 +89,9 @@ for path,conf in CASES.items():
  "proven_operator_sources":all(url in p.links for url in conf["source"]),
  "specific_gate_or_booking_facts":all(f in chunk for f in conf["facts"]),
  "callout_above_other_details":loc>0 and (loc<s.index('id="nf-v148-photo-credits"') if 'id="nf-v148-photo-credits"' in s else True),
- "original_images_alt_and_dimensions_retained":len([x for x in p.images if x[0]!="/images/panstar-cruise-clean-2048.webp"])==len([x for x in o.images if x[0]!="/images/panstar-cruise-clean-2048.webp"]) and all(a[0]==b[0] and a[1]==b[1] and (b[2] is None or a[2]==b[2]) and (b[3] is None or a[3]==b[3]) for a,b in zip((x for x in p.images if x[0]!="/images/panstar-cruise-clean-2048.webp"),(x for x in o.images if x[0]!="/images/panstar-cruise-clean-2048.webp"))) and sum(x[0]=="/images/panstar-cruise-clean-2048.webp" for x in p.images)==sum(x[0]=="/images/panstar-cruise-clean-2048.webp" for x in o.images) and (sum(x[0]=="/images/panstar-cruise-clean-2048.webp" for x in p.images)==1 if path=="booking/japan-cruise/index.html" else True),
+ "original_images_alt_and_dimensions_retained":images_retained(path,p,o),
  "original_real_photos_exist":all((ROOT/src.lstrip("/").split("?")[0]).is_file() for src,alt,w,h in p.images if src and src.startswith("/") and not src.startswith("//")),
- "original_links_retained":Counter(p.links)>=Counter(o.links),
+ "original_links_retained":links_retained(path,p,o),
  "original_CC_attributions_retained":all(link in p.links for link in o.links if link and ("commons.wikimedia" in link or "creativecommons.org" in link)),
  "SEO_h1_canonical_description_same":p.h1==o.h1==1 and p.canonical==o.canonical and p.desc==o.desc,
  "all_ids_unique":len(p.ids)==len(set(p.ids)),
