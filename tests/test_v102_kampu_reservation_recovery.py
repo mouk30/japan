@@ -17,6 +17,13 @@ class KampuTests(unittest.TestCase):
         doc='<a href="'+q.NEW+'">Japanese official reservations</a>'
         self.assertEqual(q.inspect_deployed_html(doc,q.NEW,"test")["status"],"corrected_link_visible")
 
+    def test_dated_restart_notice_alone_is_not_a_booking_handoff(self):
+        doc='<a href="'+q.EN+'">2026-10-27 dated notice</a>'
+        self.assertEqual(q.inspect_deployed_html(doc,q.NEW,"test")["status"],"replacement_not_visible")
+
+    def test_valid_checkin_reference_is_not_a_refused_booking_url(self):
+        self.assertNotIn("https://www.kampuferry.co.jp/lang_kor/passenger_info/t_access/checkin.html",q.SOURCES_TO_AVOID)
+
     def test_missing_target_detected_as_deployment_incomplete(self):
         self.assertEqual(q.inspect_deployed_html("<html></html>",q.NEW,"test")["status"],"replacement_not_visible")
 
