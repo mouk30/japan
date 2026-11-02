@@ -1,0 +1,74 @@
+name: V303 existing detail photo and booking CTA QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/nf-v303-detail-photo-cta.css'
+      - 'site/things-to-do/naha-cruise-terminal-kokusai-dori/index.html'
+      - 'site/things-to-do/hakata-port-hakata-station-access/index.html'
+      - 'site/things-to-do/nagasaki-matsugae-glover-garden-cruise-access/index.html'
+      - 'site/things-to-do/ishigaki-cruise-kabira-bay-bus-taxi/index.html'
+      - 'site/things-to-do/yokohama-red-brick-warehouse/index.html'
+      - 'site/guide/busan-osaka-ferry/index.html'
+      - 'site/guide/busan-fukuoka-ferry/index.html'
+      - 'site/guide/busan-shimonoseki-ferry/index.html'
+      - 'scripts/qa_v303_details_presentation.py'
+      - 'scripts/qa_v303_details_browser.cjs'
+      - '.github/workflows/v303-detail-photos-cta.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  existing-pages-source-seo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify preserved image rights, original metadata and approved hero image
+        run: |
+          git fetch --depth=1 origin main:refs/remotes/origin/main
+          python -m py_compile scripts/qa_v303_details_presentation.py
+          python scripts/qa_v303_details_presentation.py
+          python scripts/qa_v156_existing_official_booking_return.py
+          python scripts/qa_v296_intl_booking_cta.py
+          test -f site/images/panstar-cruise-clean-2048.webp
+          echo 'bbcfa65a0e670060b5ce6fe79b2a9ea3272874b4d96f96799800ec9ccb631bdd  site/images/panstar-cruise-clean-2048.webp' | sha256sum -c -
+      - name: Confirm no new HTML pages
+        run: |
+          if git diff --name-only --diff-filter=A origin/main...HEAD | grep -E '^site/.*\.html$'; then
+            echo 'Blocked: V303 must not add pages'
+            exit 1
+          fi
+  browser-390-768-1440:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Run 24 viewport checks with screenshots
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory site > /tmp/nf303-http.log 2>&1 &
+          for i in 1 2 3 4 5 6 7 8; do
+            if curl -sf http://127.0.0.1:8765/ >/dev/null; then break; fi
+            sleep 1
+          done
+          node scripts/qa_v303_details_browser.cjs
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v303-24-screenshots-and-qa
+          path: audit-output/v303/
+          retention-days: 7
+          if-no-files-found: ignore
