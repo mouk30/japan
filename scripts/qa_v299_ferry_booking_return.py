@@ -59,7 +59,7 @@ for slug, expected in GUIDES.items():
     assert "nf-v148-photo-credits" in html, (slug, "photo attribution missing")
     assert "site/images/panstar-cruise-clean-2048.webp" not in html, (slug, "unrelated PanStar image")
     if slug == "busan-shimonoseki-ferry":
-        assert page.primary == [expected["official"]], (slug, "primary CTA must lead to official reservation method")
+        assert page.primary and all(link == expected["official"] for link in page.primary), (slug, "all primary CTAs must lead to official reservation method")
         assert page.secondary == [NOTICE], (slug, "secondary CTA must lead to dated resumption notice")
         assert "2026년 10월 27일 인터넷 예약 재개" in html, (slug, "official resumption context")
         assert "실시간 예약 조회가 아닙니다" in html, (slug, "live availability disclaimer")
