@@ -1,0 +1,35 @@
+/* V305 — scoped to the existing /food/ directory. No image/source/SEO edits. */
+body.nf-premium-v2 .page-hero .wrap{text-align:center}
+body.nf-premium-v2 .page-hero p{margin-inline:auto;max-width:800px;line-height:1.75}
+body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single{width:min(1160px,calc(100% - 32px));max-width:none;padding:clamp(20px,3vw,38px);margin:28px auto 36px}
+body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single .nf-v153-pilot-cards{max-width:none;grid-template-columns:minmax(0,1fr)}
+body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single .nf-v153-pilot-card{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);align-items:stretch;min-width:0}
+body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single figure{margin:0;min-width:0;display:flex;flex-direction:column;background:#edf3f5}
+body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single figure img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block}
+body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single .nf-v153-pilot-photo-credit{margin-top:auto;overflow-wrap:anywhere}
+body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single .nf-v153-pilot-copy{min-width:0;display:flex;flex-direction:column;justify-content:center;padding:clamp(23px,3.8vw,48px)}
+body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single .nf-v153-pilot-copy h3{font-size:clamp(27px,3vw,39px);line-height:1.28}
+body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single .nf-v153-pilot-cta{justify-content:center;min-height:52px;font-size:16px;text-align:center}
+body.nf-premium-v2 .hub-main .dirgrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch}
+body.nf-premium-v2 .hub-main .dircard{display:flex;flex-direction:column;min-width:0;height:100%;border-radius:14px}
+body.nf-premium-v2 .hub-main .dircard>img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;object-position:center;flex:0 0 auto}
+body.nf-premium-v2 .hub-main .dircard .v36-food-photo-note{font-size:12px;line-height:1.5;min-height:34px;display:flex;align-items:center}
+body.nf-premium-v2 .hub-main .dircard .dirin{flex:1;display:flex;flex-direction:column;min-width:0;padding:20px 21px 22px;gap:8px}
+body.nf-premium-v2 .hub-main .dircard .dirin h2{font-size:clamp(20px,2vw,24px);line-height:1.35;margin:3px 0}
+body.nf-premium-v2 .hub-main .dircard .dirin p{font-size:15px;line-height:1.75;margin:0}
+body.nf-premium-v2 .hub-main .dircard .dirin::after{content:"여행 가이드 보기 →";display:block;margin-top:auto;padding-top:19px;color:#125773;font-size:14px;font-weight:850}
+body.nf-premium-v2 .hub-main .dircard:focus-visible{outline:3px solid #b8924f;outline-offset:3px}
+@media(max-width:900px){
+ body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single .nf-v153-pilot-card{grid-template-columns:minmax(0,1fr)}
+ body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single .nf-v153-pilot-copy{padding:23px}
+ body.nf-premium-v2 .hub-main .dirgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+}
+@media(max-width:650px){
+ body.nf-premium-v2 .page-hero{padding:36px 0}
+ body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single{width:calc(100% - 20px);padding:15px;margin:19px auto 26px}
+ body.nf-premium-v2 #nf-v153-pilot-hub.nf-v153-single .nf-v153-pilot-copy{padding:20px 17px 23px}
+ body.nf-premium-v2 .hub-main .dirgrid{grid-template-columns:minmax(0,1fr);gap:18px}
+ body.nf-premium-v2 .hub-main .dircard .dirin{padding:18px 18px 20px}
+ body.nf-premium-v2 .hub-main .dircard .dirin h2{font-size:22px}
+ body.nf-premium-v2 .hub-main .dircard .dirin p{font-size:15px}
+}
