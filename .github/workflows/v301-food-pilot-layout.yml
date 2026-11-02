@@ -1,0 +1,50 @@
+name: V301 Shikoku single-card photo layout and rights QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/things-to-do/food-experience/index.html'
+      - 'scripts/qa_v301_food_pilot.py'
+      - 'scripts/qa_v301_food_browser.cjs'
+      - '.github/workflows/v301-food-pilot-layout.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  food-photo-and-seo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/qa_v301_food_pilot.py
+  responsive-browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Check licensed Shikoku photo at 390 / 768 / 1440 px
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory site > /tmp/nf301-server.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8765/things-to-do/food-experience/ >/dev/null; then break; fi
+            sleep 0.3
+          done
+          curl -fsS http://127.0.0.1:8765/things-to-do/food-experience/ >/dev/null
+          node scripts/qa_v301_food_browser.cjs
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v301-food-responsive-screenshots
+          path: audit-output/v301/
+          if-no-files-found: ignore
