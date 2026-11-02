@@ -1,0 +1,20 @@
+name: V301 Shikoku single-card photo layout and rights QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/things-to-do/food-experience/index.html'
+      - 'scripts/qa_v301_food_pilot.py'
+      - '.github/workflows/v301-food-pilot-layout.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  food-photo-and-seo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/qa_v301_food_pilot.py
