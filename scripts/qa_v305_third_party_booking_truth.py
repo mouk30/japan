@@ -5,6 +5,7 @@ direct official booking handoff and original metadata. New articles: ZERO.
 from html.parser import HTMLParser
 from pathlib import Path
 from hashlib import sha256
+import subprocess
 import re
 ROOT=Path("site")
 HOME=ROOT/"index.html"
@@ -39,8 +40,14 @@ for slug,s in [("",home),("booking/",booking),("guide/busan-osaka-ferry/",guide)
  assert a.canonical==["https://www.nipponferry.com/"+slug],(slug,"canonical changed")
  assert len(a.descriptions)==1 and a.descriptions[0],(slug,"SEO description lost")
  assert not any("noindex" in v for v in a.robots),(slug,"noindexed")
- assert a.jsonld>=1,(slug,"structured data lost")
- assert 'id="nf-v148-photo-credits"' in s,(slug,"photo provenance panel lost")
+ original=subprocess.check_output(["git","show","origin/main:site/"+("index.html" if not slug else slug+"index.html")],text=True)
+ baseline=parse(original)
+ assert a.jsonld==baseline.jsonld,(slug,"original JSON-LD modified/dropped")
+ assert a.descriptions==baseline.descriptions and a.robots==baseline.robots,(slug,"SEO metadata changed")
+ if slug!="booking/":
+  assert 'id="nf-v148-photo-credits"' in s,(slug,"photo provenance panel lost")
+ else:
+  assert "/ferry/#nf-v148-photo-credits" in a.links,(slug,"booking photo attribution not reachable")
  for src in (x.get("src","") for x in a.images):
   if src.startswith("/") and not src.startswith("//"):
    assert (ROOT/src.lstrip("/").split("?")[0]).is_file(),(slug,"broken image",src)
