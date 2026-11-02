@@ -7,6 +7,7 @@ on:
       - 'site/booking/**'
       - 'site/images/panstar-cruise-clean-2048.webp'
       - 'scripts/qa_v298_approved_cruise_hero.py'
+      - 'scripts/qa_v298_visual.cjs'
       - '.github/workflows/v298-approved-hero.yml'
   workflow_dispatch:
 permissions:
@@ -27,4 +28,28 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: v298-cruise-image-and-cta
+          path: audit-output/v298/
+
+  browser-no-crop:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Playwright and Chromium
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Run 21 real 390/768/1440px no-crop visual checks
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory site > /tmp/v298-serve.log 2>&1 &
+          node scripts/qa_v298_visual.cjs
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v298-panstar-21-browser-screenshots
           path: audit-output/v298/
