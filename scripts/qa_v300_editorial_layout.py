@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 """V300: existing-page only responsive editorial + route-photo/source regression."""
 from pathlib import Path
+from hashlib import sha256
 from html.parser import HTMLParser
 import re
 ROOT=Path("site")
+PANSTAR=ROOT/"images/panstar-cruise-clean-2048.webp"
+assert PANSTAR.is_file(),"Approved PanStar original missing: do not merge or deploy"
+assert sha256(PANSTAR.read_bytes()).hexdigest()=="bbcfa65a0e670060b5ce6fe79b2a9ea3272874b4d96f96799800ec9ccb631bdd","Approved original PanStar SHA-256 differs: DO NOT MERGE"
 PAGES=[
     "", "booking", "booking/osaka", "booking/fukuoka", "booking/shimonoseki",
     "booking/tsushima", "booking/japan-cruise", "japan-cruise",
