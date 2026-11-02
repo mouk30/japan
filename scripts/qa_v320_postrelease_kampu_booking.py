@@ -23,7 +23,6 @@ a,b=parse(html),parse(baseline)
 assert a.h1==b.h1==1
 assert a.canonical==b.canonical==["https://www.nipponferry.com/booking/japan-cruise/"]
 assert a.images==b.images and a.meta==b.meta and a.jsonld==b.jsonld
-assert 'site/images/panstar-cruise-clean-2048.webp' or True
 assert Path("site/images/panstar-cruise-clean-2048.webp").is_file()
 import hashlib
 assert hashlib.sha256(Path("site/images/panstar-cruise-clean-2048.webp").read_bytes()).hexdigest()=="bbcfa65a0e670060b5ce6fe79b2a9ea3272874b4d96f96799800ec9ccb631bdd"
