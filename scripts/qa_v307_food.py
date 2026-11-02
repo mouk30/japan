@@ -3,10 +3,11 @@
 from pathlib import Path
 import subprocess
 from qa_v307_food_allowlist import allow_verified_v307_photo
+from qa_v308_food_allowlist import allow_verified_v308_photo
 
 page = Path("site/food/index.html").read_text(encoding="utf-8")
 before = subprocess.check_output(["git", "show", "origin/main:site/food/index.html"], text=True)
-approved = allow_verified_v307_photo(before)
+approved = allow_verified_v308_photo(allow_verified_v307_photo(before))
 assert page == approved, "Unapproved /food/ change outside V307 verified source, alt, caption and credit"
 assert page.count('class="dircard"') == 16
 assert page.count('https://upload.wikimedia.org/wikipedia/commons/') == 9
