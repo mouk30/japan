@@ -1,0 +1,49 @@
+/* V304 — existing /explore/ map: readable editorial guide list and resilient navigation.
+   This does not assert live sailing, return times, or ticket availability. */
+body.nf304-explore .page-hero{text-align:center}
+body.nf304-explore .page-hero .wrap{max-width:1060px;margin:0 auto}
+body.nf304-explore .page-hero h1{font-size:clamp(33px,4.2vw,54px);line-height:1.26;letter-spacing:-.045em;word-break:keep-all}
+body.nf304-explore .page-hero p{font-size:clamp(16px,1.7vw,20px)}
+body.nf304-explore .explore-grid{width:min(1320px,100%);margin:0 auto;grid-template-columns:minmax(0,1.4fr) minmax(320px,1fr);align-items:stretch;min-height:590px}
+body.nf304-explore #exploreMap{min-height:590px;background:#e9f1f5}
+body.nf304-explore .explore-list{min-width:0;max-height:670px;overflow:auto;padding:22px;background:#f7fbfd}
+body.nf304-explore .regiontabs{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 17px}
+body.nf304-explore .regiontabs button{border:1px solid #bfd6e1;border-radius:999px;background:#fff;color:#164b65;min-height:44px;padding:9px 13px;font-size:13px;font-weight:800;cursor:pointer}
+body.nf304-explore .regiontabs button.active{background:#0c5476;border-color:#0c5476;color:#fff}
+body.nf304-explore .nf304-help{font-size:14px;line-height:1.7;color:#496778;margin:0 0 13px}
+body.nf304-explore .nf304-map-status{font-size:13px;line-height:1.6;padding:11px 13px;background:#e8f4f7;color:#235c70;border-radius:9px}
+body.nf304-explore .nf304-map-status:empty{display:none}
+body.nf304-explore .nf304-city-list{display:grid;grid-template-columns:minmax(0,1fr);gap:11px}
+body.nf304-explore .nf304-place{min-width:0;border:1px solid #d2e3eb;border-radius:14px;background:#fff;padding:15px;display:flex;align-items:center;gap:11px;box-shadow:0 5px 16px rgba(7,51,76,.04)}
+body.nf304-explore .nf304-place-main{min-width:0;flex:1;display:flex;flex-direction:column;justify-content:center;gap:5px;min-height:50px;color:#0b4966;text-decoration:none}
+body.nf304-explore .nf304-place-main strong{font-size:18px;line-height:1.4;word-break:keep-all}
+body.nf304-explore .nf304-place-main small{font-size:13px;line-height:1.55;color:#5c7482;word-break:keep-all}
+body.nf304-explore .nf304-place-map{flex:none;border:1px solid #b8d4e0;border-radius:10px;background:#edf7fa;color:#0b536e;font-size:13px;font-weight:800;min-height:46px;padding:10px 13px;cursor:pointer}
+body.nf304-explore .nf304-place-map:disabled{opacity:.55;cursor:not-allowed}
+body.nf304-explore :is(.regiontabs button,.nf304-place a,.nf304-place button):focus-visible{outline:3px solid #c99140;outline-offset:3px}
+@media(max-width:900px){
+ body.nf304-explore .explore-grid{grid-template-columns:minmax(0,1fr)}
+ body.nf304-explore #exploreMap{min-height:420px}
+ body.nf304-explore .explore-list{max-height:none;overflow:visible;padding:18px}
+ body.nf304-explore .nf304-city-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body.nf304-explore .nf304-place{flex-direction:column;align-items:stretch}
+ body.nf304-explore .nf304-place-map{width:100%}
+}
+@media(max-width:600px){
+ body.nf304-explore .page-hero h1{font-size:clamp(30px,7.5vw,39px)}
+ body.nf304-explore #exploreMap{min-height:310px}
+ body.nf304-explore .explore-list{padding:13px}
+ body.nf304-explore .nf304-city-list{grid-template-columns:minmax(0,1fr)}
+ body.nf304-explore .nf304-place{flex-direction:row;align-items:center;padding:13px}
+ body.nf304-explore .nf304-place-map{width:auto;min-width:88px}
+ body.nf304-explore .nf304-place-main strong{font-size:17px}
+ body.nf304-explore .regiontabs button{font-size:12px;padding:9px 11px}
+}
+@media(prefers-reduced-motion:reduce){body.nf304-explore *{scroll-behavior:auto!important}}
+
+/* Hide the empty map canvas when the optional external map library is unavailable. */
+body.nf304-explore.nf304-map-unavailable .explore-grid{grid-template-columns:minmax(0,1fr);max-width:1040px;min-height:0}
+body.nf304-explore.nf304-map-unavailable #exploreMap{display:none}
+body.nf304-explore.nf304-map-unavailable .explore-list{max-height:none;overflow:visible}
+body.nf304-explore.nf304-map-unavailable .nf304-city-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:600px){body.nf304-explore.nf304-map-unavailable .nf304-city-list{grid-template-columns:minmax(0,1fr)}}

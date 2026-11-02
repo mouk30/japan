@@ -1,0 +1,62 @@
+name: V304 existing explore map links and mobile navigation QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/explore/index.html'
+      - 'site/nf-v304-explore-map.css'
+      - 'scripts/qa_v304_explore_links.py'
+      - 'scripts/qa_v304_explore_browser.cjs'
+      - '.github/workflows/v304-explore-map.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  existing-links-seo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify 17 actual destinations and unchanged SEO and photos
+        run: |
+          git fetch --depth=1 origin main:refs/remotes/origin/main
+          python -m py_compile scripts/qa_v304_explore_links.py
+          python scripts/qa_v304_explore_links.py
+          python scripts/qa_v156_existing_official_booking_return.py
+          python scripts/qa_v296_intl_booking_cta.py
+          test -f site/images/panstar-cruise-clean-2048.webp
+          echo 'bbcfa65a0e670060b5ce6fe79b2a9ea3272874b4d96f96799800ec9ccb631bdd  site/images/panstar-cruise-clean-2048.webp' | sha256sum -c -
+  responsive-browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Run 390 768 1440 browser QA with CDN blocked
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory site > /tmp/nf304-http.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8765/explore/ >/dev/null; then break; fi
+            sleep 0.3
+          done
+          curl -fsS http://127.0.0.1:8765/explore/ >/dev/null
+          node scripts/qa_v304_explore_browser.cjs
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v304-explore-responsive-and-offline-qa
+          path: audit-output/v304/
+          retention-days: 7
+          if-no-files-found: ignore
