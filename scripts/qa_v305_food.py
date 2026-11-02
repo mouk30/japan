@@ -5,6 +5,7 @@ from html.parser import HTMLParser
 import re
 import subprocess
 from qa_v307_food_allowlist import allow_verified_v307_photo
+from qa_v308_food_allowlist import allow_verified_v308_photo
 
 page = Path("site/food/index.html").read_text(encoding="utf-8")
 css = Path("site/nf-v305-food.css").read_text(encoding="utf-8")
@@ -13,7 +14,7 @@ link = '<link rel="stylesheet" href="/nf-v305-food.css">'
 assert page.count(link) == 1, "scoped CSS must be loaded exactly once"
 # V305 is already merged into main; only V306's scoped script tag may be added.
 v306_script = '<script src="/nf-v306-food-images.js" defer></script>'
-approved = allow_verified_v307_photo(before)
+approved = allow_verified_v308_photo(allow_verified_v307_photo(before))
 assert page == approved or page.replace(v306_script, "") == approved, "Unexpected food content, SEO, image or license change"
 assert len(re.findall(r'<a class="dircard" href="(/[^"]+/)"', page)) == 16, "food cards changed"
 assert len(set(re.findall(r'<a class="dircard" href="(/[^"]+/)"', page))) == 16, "duplicate food destinations"
