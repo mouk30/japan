@@ -64,7 +64,7 @@ for path,conf in CASES.items():
  "proven_operator_sources":all(url in p.links for url in conf["source"]),
  "specific_gate_or_booking_facts":all(f in chunk for f in conf["facts"]),
  "callout_above_other_details":loc>0 and (loc<s.index('id="nf-v148-photo-credits"') if 'id="nf-v148-photo-credits"' in s else True),
- "original_images_alt_and_dimensions_retained":len(p.images)==len(o.images) and all(a[0]==b[0] and a[1]==b[1] and (b[2] is None or a[2]==b[2]) and (b[3] is None or a[3]==b[3]) for a,b in zip(p.images,o.images)),
+ "original_images_alt_and_dimensions_retained":len([x for x in p.images if x[0]!="/images/panstar-cruise-clean-2048.webp"])==len(o.images) and all(a[0]==b[0] and a[1]==b[1] and (b[2] is None or a[2]==b[2]) and (b[3] is None or a[3]==b[3]) for a,b in zip((x for x in p.images if x[0]!="/images/panstar-cruise-clean-2048.webp"),o.images)) and sum(x[0]=="/images/panstar-cruise-clean-2048.webp" for x in p.images)==(1 if path=="booking/japan-cruise/index.html" else 0),
  "original_real_photos_exist":all((ROOT/src.lstrip("/").split("?")[0]).is_file() for src,alt,w,h in p.images if src and src.startswith("/") and not src.startswith("//")),
  "original_links_retained":Counter(p.links)>=Counter(o.links),
  "original_CC_attributions_retained":all(link in p.links for link in o.links if link and ("commons.wikimedia" in link or "creativecommons.org" in link)),
