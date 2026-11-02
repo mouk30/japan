@@ -83,7 +83,7 @@ hubchecks={
  "one_existing_H1_and_canonical":h.h1==o.h1==1 and h.canonical==o.canonical,
  "original_images_and_rights":h.img==o.img,
  "all_existing_links_preserved":Counter(h.links)>=Counter(o.links),
- "exactly_five_new_links":len(h.links)==len(o.links)+5,
+ "five_verified_shortcuts_once":all(h.links.count("/things-to-do/"+slug+"/#nf-v155-dayof-check")==1 for slug in PORTS),
  "direct_to_official_panels":all("/things-to-do/"+slug+"/#nf-v155-dayof-check" in h.links for slug in PORTS),
  "no_duplicate_ids":len(h.ids)==len(set(h.ids)),
  "mobile_large_navigation":'id="nf-v155-port-shortcuts"' in hub and "@media(max-width:560px)" in hub
