@@ -38,7 +38,7 @@ const widths=[390,768,1440],out="audit-output/v310";fs.mkdirSync(out,{recursive:
     if(width===390)assert.equal(data.columns,1,slug+" mobile not stacked");
     if(width===1440)assert.equal(data.columns,3,slug+" desktop not 3 columns");
     await panel.screenshot({path:path.join(out,slug+"-"+width+".png")});
-    report.push({slug,width,columns,steps:data.steps,buttons:data.buttons.length});
+    report.push({slug,width,columns:data.columns,steps:data.steps,buttons:data.buttons.length});
     console.log("PASS",slug,width,"official CTAs & card grid");
    }finally{await pg.close();}
   }
