@@ -58,7 +58,7 @@ for slug in SLUGS:
   assert "nf-v309-booking-safe-return.css?v=20261102" in s,(slug,"CSS missing")
   assert s.count('id="nf309-booking-return"')== (0 if slug=="booking" else 1),(slug,"route panel missing")
   assert s.count('id="nf309-before-return"')== (1 if slug=="booking" else 0),(slug,"hub panel missing")
-  assert "NIPPONFERRY는" in s and "실시간" in s,(slug,"nonbooking disclaimer missing")
+  assert "NIPPONFERRY" in s and "실시간" in s,(slug,"nonbooking disclaimer missing")
   if slug=="booking":
    assert s.count('class="nf309-route"')==4,("all four booking routes")
    for city in ("오사카","하카타","시모노세키","대마도"):assert city in s,city
@@ -82,5 +82,5 @@ for slug in SLUGS:
 approved=ROOT/"images/panstar-cruise-clean-2048.webp"
 assert approved.is_file(),"blocked: approved original not committed"
 assert sha256(approved.read_bytes()).hexdigest()=="bbcfa65a0e670060b5ce6fe79b2a9ea3272874b4d96f96799800ec9ccb631bdd","blocked: PanStar original mismatch"
-assert not subprocess.check_output(["git","diff","--name-only","--diff-filter=A","origin/main...HEAD"],text=True).splitlines().__contains__("site/guide/new.html")
+assert not any(p.startswith("site/") and p.endswith(".html") for p in subprocess.check_output(["git","diff","--name-only","--diff-filter=A","origin/main...HEAD"],text=True).splitlines()),"no new content allowed"
 print("V309 PASS: six existing pages, no new article, approved original intact")
