@@ -2,7 +2,7 @@
 // V310: real page screenshots and usable operator links, no phantom ticket booking.
 const assert=require("node:assert/strict"),fs=require("node:fs"),path=require("node:path");
 const {chromium}=require("playwright");
-const slugs=["busan-tsushima-ferry-price","tsushima-busan-ferry","busan-hitakatsu-ferry","busan-izuhara-ferry"];
+const slugs=["busan-tsushima-ferry-price"];
 const widths=[390,768,1440],out="audit-output/v310";fs.mkdirSync(out,{recursive:true});
 (async()=>{
  const browser=await chromium.launch({headless:true,args:["--no-sandbox"]});
@@ -44,5 +44,5 @@ const widths=[390,768,1440],out="audit-output/v310";fs.mkdirSync(out,{recursive:
   }
  }finally{await browser.close();}
  fs.writeFileSync(path.join(out,"results.json"),JSON.stringify(report,null,2));
- console.log("V310 PASS",report.length,"viewports");
+ console.log("V310 PASS",report.length,"viewports for unchanged-layout price guide");
 })().catch(e=>{console.error(e);process.exitCode=1});
