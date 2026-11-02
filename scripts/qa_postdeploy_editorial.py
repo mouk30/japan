@@ -129,8 +129,13 @@ def check_page(route,mode):
             item["hero_image"]=editorial
             item["checks"]["editorial_image_live"]=bool(editorial) and image_check(editorial,mode) is True
         item["premium_css_marker"]="nf-editorial-premium-v2.css" in html
-        item["expert_premium_marker"]=bool("nf-premium-v2.css" in html and
-                                           'class="nf-premium-v2"' in html)
+        # CSS class lists can contain multiple opt-in classes (V303 detail pages).
+        # Require nf-premium-v2 as an actual body class token, not an exact attribute string.
+        import re
+        body_tag=re.search(r'<body\\b[^>]*>',html,re.I)
+        body_classes=re.search(r'class\\s*=\\s*["\\']([^"\\']+)["\\']',body_tag.group(0),re.I) if body_tag else None
+        premium_body=bool(body_classes and "nf-premium-v2" in body_classes.group(1).split())
+        item["expert_premium_marker"]=bool("nf-premium-v2.css" in html and premium_body)
         item["checks"]["has_premium_design"]=(item["premium_css_marker"] or
                                              item["expert_premium_marker"])
     except Exception as exc:item["errors"].append(str(exc))
