@@ -54,7 +54,16 @@ for slug,kind in SLUGS.items():
  assert cur.canonical==base.canonical==["https://www.nipponferry.com/"+slug+"/"],(slug,"canonical changed")
  assert cur.desc==base.desc and cur.robots==base.robots,(slug,"meta changed")
  assert cur.scripts==base.scripts,(slug,"JSON-LD changed")
- assert Counter(cur.links)>=Counter(base.links),(slug,"original links/attribution lost")
+ missing=Counter(base.links)-Counter(cur.links)
+ if slug=="guide/busan-shimonoseki-ferry" and missing:
+  # V322 replaces only two outdated booking CTAs; the dated notice remains as historical evidence.
+  historical="https://www.kampuferry.co.jp/news/20261027systemmaintenance.html"
+  current="https://www.kampuferry.co.jp/reserve/"
+  assert set(missing)=={historical} and missing[historical]<=2,(slug,"unapproved original links lost",missing)
+  assert cur.links.count(current)>=base.links.count(current)+missing[historical],(slug,"current official booking CTA missing")
+  assert historical in cur.links,(slug,"historical notice reference lost")
+ else:
+  assert not missing,(slug,"original links/attribution lost",missing)
  assert len(cur.ids)==len(set(cur.ids)),(slug,"duplicate ID")
  assert cur.images==base.images,(slug,"photo/alt/dimension changed")
  for img in cur.images:
