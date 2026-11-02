@@ -99,7 +99,7 @@ for path in [HOME,JAPAN]:
               "/images/venues/v62-karato-market-real.webp",
               "/images/venues/nf-v124-tsushima-harbor-real.webp"]:
    q((ROOT/url.lstrip("/")).is_file(),"missing licensed destination file: "+url)
-  q('히타카츠와 다른 장소' in s and '선박 아님' in s,
+  q('히타카츠항과 다른 장소' in s and '선박 아님' in s,
     "real place/vessel separation labels missing")
  else:
   q(a.images==b.images,str(path)+": image changed")
