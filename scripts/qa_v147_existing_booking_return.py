@@ -12,7 +12,7 @@ BOOKING=["booking/japan-cruise","ferry","guide/busan-shimonoseki-ferry"]
 PORT=["naha-cruise-terminal-kokusai-dori","ishigaki-cruise-kabira-bay-bus-taxi",
       "hakata-port-hakata-station-access","nagasaki-matsugae-glover-garden-cruise-access",
       "yokohama-red-brick-warehouse"]
-notice="https://kampuferry.co.jp/news/20261023systemmaintenance.html"
+notice="https://www.kampuferry.co.jp/news/20261027systemmaintenance.html"
 source={"naha-cruise-terminal-kokusai-dori":"https://cruise.visitokinawa.jp/en/nahaport/",
  "ishigaki-cruise-kabira-bay-bus-taxi":"https://www.azumabus.co.jp/localbus/",
  "hakata-port-hakata-station-access":"https://hakataport.com/center/",
@@ -38,11 +38,11 @@ for item in BOOKING+["things-to-do/"+x for x in PORT]:
     "image_present":bool(a.images) and all((ROOT/x.lstrip("/").split("?")[0]).is_file() for x in a.images if x.startswith("/")),
     "no_duplicate_ids":len(a.ids)==len(set(a.ids))}
  if item in BOOKING:
-  checks.update({"official_suspension_notice":notice in a.links,
+  checks.update({"official_resumption_notice":notice in a.links,
     "emergency_notice_once":a.ids.count("nf-v147-kampu-20261023")==1,
-    "official_email":any("support@kampuferry.co.jp" in x for x in a.links),
-    "retired_online_booking_links":all(u not in txt for u in ['href="https://kampuferry.co.jp/reserve/"','href="https://kampuferry.co.jp/yoyaku/','href="https://www.kampuferry.co.jp/yoyaku/']),
-    "international_booking_copy":"해외(국제) 고객" in txt and "발송만으로 예약 확정이 아닙니다" in txt,
+    "official_booking_guidance":any("kampuferry.co.jp/reserve/" in x for x in a.links),
+    "no_unverified_booking_confirmation":"예약 확정되었습니다" not in txt and "잔여석 확보 완료" not in txt,
+    "booking_conditions_copy":"예약" in txt and "결제" in txt and "취소" in txt,
     "safe_return_copy":"귀국편" in txt and "수속 마감" in txt})
  else:
   slug=item.rsplit("/",1)[1]

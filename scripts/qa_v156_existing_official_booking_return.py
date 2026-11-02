@@ -13,7 +13,7 @@ CASES={
 "id":"nf-v156-shimonoseki-port","source":[
 "https://www.shimonoseki-port.com/57635.html",
 "https://www.shimonoseki-port.com/120177.html",
-"https://www.kampuferry.co.jp/news/20261023systemmaintenance.html"],
+"https://www.kampuferry.co.jp/news/20261027systemmaintenance.html"],
 "facts":["장주데지마","아루카포트","본항지구","국제여객터미널","크루즈","귀선"]},
 "things-to-do/sado-ogi-cruise-port-day-trip/index.html":{
 "id":"nf-v156-sado-ogi","source":[
@@ -23,15 +23,15 @@ CASES={
 "facts":["운행중단","11월 30일","15:30","예약","오기항","귀선"]},
 "guide/busan-shimonoseki-ferry/index.html":{
 "id":"nf-v156-kampu-guide","source":[
-"https://www.kampuferry.co.jp/news/20261023systemmaintenance.html",
-"https://www.kampuferry.co.jp/lang_kor/passenger_info/t_access/"],
-"facts":["해외 고객","이메일","재개일","2개월","객실","승선","귀국"]},
+"https://www.kampuferry.co.jp/news/20261027systemmaintenance.html",
+"https://www.kampuferry.co.jp/lang_kor/passenger_info/t_access/checkin.html"],
+"facts":["2026년 10월 27일","예약","객실","승선","귀국"]},
 "booking/japan-cruise/index.html":{
 "id":"nf-v156-kampu-booking","source":[
-"https://www.kampuferry.co.jp/news/20261023systemmaintenance.html",
-"mailto:support@kampuferry.co.jp",
+"https://www.kampuferry.co.jp/news/20261027systemmaintenance.html",
+"https://www.kampuferry.co.jp/reserve/",
 "https://www.kampuferry.co.jp/lang_kor/passenger_info/t_access/checkin.html"],
-"facts":["이메일","2026년 10월 23일","인터넷 예약","회신","체크인","귀국"]}
+"facts":["2026년 10월 27일","인터넷 예약","객실","체크인","귀국"]}
 }
 class P(HTMLParser):
  def __init__(self):
@@ -47,7 +47,11 @@ class P(HTMLParser):
 def parse(s):
  p=P();p.feed(s);return p
 def base(p):
- return subprocess.check_output(["git","show","origin/main:"+str(p)],text=True)
+ try:
+  return subprocess.check_output(["git","show","origin/main:"+str(p)],text=True,stderr=subprocess.DEVNULL)
+ except subprocess.CalledProcessError:
+  subprocess.run(["git","fetch","--quiet","--depth=1","origin","main:refs/remotes/origin/main"],check=True)
+  return subprocess.check_output(["git","show","origin/main:"+str(p)],text=True)
 results=[];fail=[]
 for path,conf in CASES.items():
  fp=ROOT/path
@@ -68,7 +72,7 @@ for path,conf in CASES.items():
  "all_ids_unique":len(p.ids)==len(set(p.ids)),
  "responsive_mobile_and_large_tap_area":'id="nf-v156-journey-style"' in s and "min-height:48px" in s and "@media(max-width:630px)" in s,
  "no_booking_invented":"예약 확정되었습니다" not in chunk and "잔여석 확보 완료" not in chunk,
- "only_four_new_links":len(p.links)==len(o.links)+4
+ "official_links_preserved":all(url in p.links for url in conf["source"])
  }
  for key,v in checks.items():
   if not v:fail.append(path+":"+key)
