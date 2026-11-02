@@ -1,0 +1,66 @@
+name: V306 existing food external photo fallback QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/food/index.html'
+      - 'site/nf-v305-food.css'
+      - 'site/nf-v306-food-images.js'
+      - 'scripts/qa_v305_food.py'
+      - 'scripts/qa_v306_food.py'
+      - 'scripts/qa_v306_food_browser.cjs'
+      - '.github/workflows/v306-food-images.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v306-static:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Preserve food photos, rights, SEO and existing pages
+        run: |
+          git fetch --depth=1 origin main:refs/remotes/origin/main
+          python -m py_compile scripts/qa_v305_food.py scripts/qa_v306_food.py
+          python scripts/qa_v305_food.py
+          python scripts/qa_v306_food.py
+          python scripts/qa_v301_food_pilot.py
+          python scripts/qa_v156_existing_official_booking_return.py
+          python scripts/qa_v296_intl_booking_cta.py
+          test -f site/images/panstar-cruise-clean-2048.webp
+          echo 'bbcfa65a0e670060b5ce6fe79b2a9ea3272874b4d96f96799800ec9ccb631bdd  site/images/panstar-cruise-clean-2048.webp' | sha256sum -c -
+  v306-browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Test failed Commons images at 390 768 1440
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory site > /tmp/nf306-server.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8765/food/ >/dev/null; then break; fi
+            sleep 0.3
+          done
+          curl -fsS http://127.0.0.1:8765/food/ >/dev/null
+          node scripts/qa_v306_food_browser.cjs
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v306-food-fallback-390-768-1440
+          path: audit-output/v306/
+          retention-days: 7
+          if-no-files-found: ignore
