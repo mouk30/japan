@@ -29,7 +29,7 @@ fs.mkdirSync(out,{recursive:true});
      const a=img.getBoundingClientRect(),b=content.getBoundingClientRect();
      const t=title.getBoundingClientRect(),f=hero.getBoundingClientRect();
      return {missing:false,src:img.getAttribute("src"),naturalWidth:img.naturalWidth,
-      naturalHeight:img.naturalHeight,photoWidth:a.width,photoHeight:a.height,
+      naturalHeight:img.naturalHeight,htmlWidth:Number(img.getAttribute('width')),htmlHeight:Number(img.getAttribute('height')),photoWidth:a.width,photoHeight:a.height,
       separate:a.bottom<=b.top+2,objectFit:getComputedStyle(img).objectFit,
       imageInsideViewport:a.left>=-2&&a.right<=innerWidth+2,
       titleInsideViewport:t.left>=-2&&t.right<=innerWidth+2,
@@ -38,6 +38,7 @@ fs.mkdirSync(out,{recursive:true});
     });
     assert(!data.missing,slug+": missing image, caption, heading or content");
     assert(data.naturalWidth>200&&data.naturalHeight>100,slug+": image not loaded");
+    assert(data.htmlWidth===data.naturalWidth&&data.htmlHeight===data.naturalHeight,slug+": intrinsic size attributes mismatch");
     assert(data.separate,slug+": photo overlaps booking title/CTA");
     assert.equal(data.objectFit,"contain",slug+": photograph must never crop");
     assert(data.imageInsideViewport&&data.titleInsideViewport,slug+": image/title out of viewport");
