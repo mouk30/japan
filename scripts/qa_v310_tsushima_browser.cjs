@@ -16,6 +16,14 @@ const widths=[390,768,1440],out="audit-output/v310";fs.mkdirSync(out,{recursive:
     const panel=pg.locator("#nf310-travel-check");await panel.waitFor();
     assert.equal(await panel.count(),1,"one panel");
     await panel.scrollIntoViewIfNeeded();
+    // Keep the facts visible below the fixed site header, including screenshots.
+    await pg.evaluate(()=>{
+      const el=document.querySelector("#nf310-travel-check");
+      const header=document.querySelector(".site-header");
+      const top=Math.max(110,(header?.getBoundingClientRect().height||0)+18);
+      window.scrollTo({top:Math.max(0,window.scrollY+el.getBoundingClientRect().top-top),behavior:"instant"});
+    });
+    await pg.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
     const data=await pg.evaluate(()=>{
       const p=document.querySelector("#nf310-travel-check"),rect=p.getBoundingClientRect();
       const cards=[...p.querySelectorAll(".nf310-step")],ctas=[...p.querySelectorAll(".nf310-links a")];
@@ -31,6 +39,7 @@ const widths=[390,768,1440],out="audit-output/v310";fs.mkdirSync(out,{recursive:
     assert.equal(data.h1,1,slug+" h1");
     assert.ok(data.scrollWidth<=width+4,slug+" horizontal overflow "+data.scrollWidth+"/"+width);
     assert.ok(data.rect.x>=-4&&data.rect.x+data.rect.w<=width+4,slug+" panel outside viewport");
+    assert.ok(data.rect.y>=75,slug+" sticky header obscures price heading");
     assert.equal(data.steps,3,slug+" decision cards");
     assert.equal(data.buttons.length,2,"two distinct official operator CTAs");
     assert.ok(data.sourceOk&&data.disclosure,"operator truthful routes/disclosure");
