@@ -1,0 +1,22 @@
+name: V297 existing booking guide CTA and hero integrity
+on:
+  pull_request:
+    paths:
+      - 'site/booking/**'
+      - 'scripts/qa_v297_booking_guide_ctas.py'
+      - '.github/workflows/v297-booking-guide-cta-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  booking-and-image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Confirm truthful Busan booking paths, preserved SEO and credited full-ship image
+        run: |
+          python -m py_compile scripts/qa_v297_booking_guide_ctas.py
+          python scripts/qa_v297_booking_guide_ctas.py
