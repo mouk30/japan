@@ -1,0 +1,22 @@
+name: V302 ferry operator thumbnails and booking link QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/ferry/index.html'
+      - 'scripts/qa_v302_ferry_operator_thumbnails.py'
+      - '.github/workflows/v302-ferry-operator-thumbnails.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ferry-photos-booking:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          python scripts/qa_v302_ferry_operator_thumbnails.py
+          python scripts/qa_v296_intl_booking_cta.py
