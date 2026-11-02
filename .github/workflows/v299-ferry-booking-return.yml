@@ -1,0 +1,26 @@
+name: V299 existing ferry booking and return CTA QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/guide/busan-fukuoka-ferry/index.html'
+      - 'site/guide/busan-shimonoseki-ferry/index.html'
+      - 'scripts/qa_v299_ferry_booking_return.py'
+      - '.github/workflows/v299-ferry-booking-return.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  official-booking-return:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check existing ferry pages and old official return guards
+        run: |
+          python -m py_compile scripts/qa_v299_ferry_booking_return.py
+          python scripts/qa_v299_ferry_booking_return.py
+          python scripts/qa_v156_existing_official_booking_return.py
+          python scripts/qa_v296_intl_booking_cta.py
