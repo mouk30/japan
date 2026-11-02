@@ -66,7 +66,7 @@ for slug in PAGES:
         assert html.count('class="nf247-route-photo"')==4
         assert html.count('class="nf305-photo-rights"')==4,("route photo rights")
         assert 'data-nf247-finder' in html,("route chooser JS contract changed")
-        assert "www.kampuferry.co.jp/reserve/" in parsed.links,("official Shimonoseki reservation method")
+        assert "https://www.kampuferry.co.jp/reserve/" in parsed.links,("official Shimonoseki reservation method")
         assert "www.koreaferry.co.kr/rs/idv/reservation/" in "\n".join(parsed.links),("official New Camellia search")
     if slug=="things-to-do/travel-companions":
         assert html.count('class="guide-card"')>=45,("guides dropped")
