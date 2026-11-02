@@ -1,0 +1,59 @@
+name: V333 Visit Japan Web and car international ferry CTA browser QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/guide/japan-ferry-visit-japan-web/index.html'
+      - 'site/guide/japan-ferry-car/index.html'
+      - 'scripts/qa_v333_international_cta.cjs'
+      - '.github/workflows/v333-international-cta.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  international-official-cta-and-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify approved PanStar WebP SHA-256 and AI disclosure
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib
+          path=Path('site/images/panstar-cruise-clean-2048.webp')
+          expected='bbcfa65a0e670060b5ce6fe79b2a9ea3272874b4d96f96799800ec9ccb631bdd'
+          assert path.is_file() and hashlib.sha256(path.read_bytes()).hexdigest()==expected
+          assert 'AI 연출' in Path('site/japan-cruise/index.html').read_text('utf8')
+          print('Approved PanStar WebP and AI disclosure verified')
+          PY
+      - name: Build actual deployable site
+        run: npm run build
+      - name: Install browser runner
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          if command -v google-chrome >/dev/null 2>&1; then
+            echo "NF333_BROWSER_PATH=$(command -v google-chrome)" >> "$GITHUB_ENV"
+          elif command -v chromium >/dev/null 2>&1; then
+            echo "NF333_BROWSER_PATH=$(command -v chromium)" >> "$GITHUB_ENV"
+          else
+            npx playwright install --with-deps chromium
+          fi
+      - name: Browser QA at 390 768 1440
+        run: |
+          python3 -m http.server 8777 --bind 127.0.0.1 --directory dist >/tmp/nf333-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 3
+          node scripts/qa_v333_international_cta.cjs
+      - name: Archive six screenshots and results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v333-international-cta-browser
+          path: audit-reports/v333/
+          retention-days: 30
+          if-no-files-found: warn
