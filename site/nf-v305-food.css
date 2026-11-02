@@ -33,3 +33,14 @@ body.nf-premium-v2 .hub-main .dircard:focus-visible{outline:3px solid #b8924f;ou
  body.nf-premium-v2 .hub-main .dircard .dirin h2{font-size:22px}
  body.nf-premium-v2 .hub-main .dircard .dirin p{font-size:15px}
 }
+
+/* V306 — preserve 4:3 geometry if an external Commons image fails to load. */
+body.nf-premium-v2 .hub-main .dircard.nf-v306-photo-failed>img{display:none!important}
+body.nf-premium-v2 .hub-main .dircard .nf-v306-image-fallback{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;
+  width:100%;aspect-ratio:4/3;min-height:0;padding:18px;box-sizing:border-box;
+  text-align:center;background:linear-gradient(145deg,#edf4f8,#dbeaf1);
+  color:#31596d;border-bottom:1px solid #d2e3eb;
+}
+body.nf-premium-v2 .hub-main .dircard .nf-v306-image-fallback strong{font-size:clamp(15px,1.5vw,19px);line-height:1.5}
+body.nf-premium-v2 .hub-main .dircard .nf-v306-image-fallback small{font-size:12px;line-height:1.6;max-width:24ch}
