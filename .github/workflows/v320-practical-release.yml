@@ -1,0 +1,75 @@
+name: V316-V320 practical booking release and sitewide audit
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/guide/busan-osaka-timetable/index.html'
+      - 'site/guide/busan-tsushima-timetable/index.html'
+      - 'site/guide/busan-fukuoka-timetable/index.html'
+      - 'site/guide/japan-ferry-booking-passport/index.html'
+      - 'site/guide/japan-ferry-seasickness/index.html'
+      - 'site/booking/trip-cost-calculator/index.html'
+      - 'site/guide/busan-osaka-ferry-price/index.html'
+      - 'site/guide/busan-tsushima-ferry-price/index.html'
+      - 'site/guide/busan-fukuoka-ferry-price/index.html'
+      - 'site/guide/japan-ferry-fuel-surcharge/index.html'
+      - 'site/guide/japan-ferry-checkin-time/index.html'
+      - 'site/nf-v319-source-first-guides.css'
+      - 'scripts/qa_v320_editorial_booking_release.py'
+      - 'scripts/qa_v320_editorial_browser.cjs'
+      - '.github/workflows/v320-practical-release.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  existing-seo-photo-booking-and-site-inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Historical official fare references and approved source image integrity
+        run: |
+          git fetch --quiet --depth=1 origin main:refs/remotes/origin/main
+          python -m py_compile scripts/qa_v320_editorial_booking_release.py
+          python scripts/qa_v320_editorial_booking_release.py
+          python scripts/qa_v310_v315_return_integrity.py
+          python scripts/qa_v309_traveler_booking_return.py
+          python scripts/qa_v305_third_party_booking_truth.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v320-existing-booking-link-inventory
+          path: audit-output/v320/remaining-willer-operator-link-candidates.json
+          if-no-files-found: ignore
+  browser-390-768-1440-and-calculator:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Screenshot 11 existing pages in 3 viewports; verify calculation arithmetic
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory site >/tmp/nf320-server.log 2>&1 &
+          for i in 1 2 3 4 5 6 7 8; do
+            if curl -sf http://127.0.0.1:8765/ >/dev/null; then break; fi
+            sleep 1
+          done
+          node scripts/qa_v320_editorial_browser.cjs
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v320-33-device-screenshots
+          path: audit-output/v320/
+          if-no-files-found: ignore
