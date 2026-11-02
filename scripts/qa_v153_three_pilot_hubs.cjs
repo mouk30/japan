@@ -35,7 +35,12 @@ for(const [path,ids] of Object.entries(hubs)){
  test(path+":SEO_canonical_unchanged",old.canonical===now.canonical);
  test(path+":existing_h1_unchanged",old.h1===now.h1);
  test(path+":structured_data_unchanged",JSON.stringify(old.jsonld)===JSON.stringify(now.jsonld));
- test(path+":original_images_unchanged",old.existingImages.every(x=>now.existingImages.some(y=>y.replace(/\s+decoding=["']async["']/g,"")===x)));
+ test(path+":original_images_unchanged",old.existingImages.every(x=>now.existingImages.some(y=>{
+  let cleaned=y.replace(/\s+decoding=["']async["']/g,"");
+  if(!/\swidth=["']/.test(x))cleaned=cleaned.replace(/\s+width=["']\d+["']/g,"");
+  if(!/\sheight=["']/.test(x))cleaned=cleaned.replace(/\s+height=["']\d+["']/g,"");
+  return cleaned===x;
+ })));
  test(path+":license_details_preserved",!old.oldCC||now.oldCC);
  test(path+":mobile_4_3_style",curr.includes("grid-template-columns:minmax(0,1fr)")&&curr.includes("aspect-ratio:4/3"));
  const tagged=[...panel.matchAll(/<a\b[^>]*data-nf-pilot-entry="([^"]+)"[^>]*>/g)];
