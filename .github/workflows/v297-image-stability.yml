@@ -1,0 +1,30 @@
+name: V297 image layout stability and SEO regression
+on:
+  pull_request:
+    paths:
+      - 'site/index.html'
+      - 'site/booking/**'
+      - 'site/guide/busan-*ferry/index.html'
+      - 'site/things-to-do/cruise-ports/index.html'
+      - 'scripts/qa_v297_image_layout_stability.py'
+      - '.github/workflows/v297-image-stability.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  image-layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify image aspect ratios, async decode and canonical
+        run: |
+          python -m py_compile scripts/qa_v297_image_layout_stability.py
+          python scripts/qa_v297_image_layout_stability.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v297-image-stability
+          path: audit-output/v297/
