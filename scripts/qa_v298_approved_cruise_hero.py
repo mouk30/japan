@@ -12,7 +12,7 @@ expect={
  'booking/osaka/':(asset,2048,682),
  'booking/fukuoka/':('/images/venues/nf-v134-new-camellia-busan-2026-real.webp',1400,934),
  'booking/shimonoseki/':('/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp',1333,1000),
- 'booking/tsushima/':('/images/venues/nf-v124-tsushima-harbor-real.webp',720,450),
+ 'booking/tsushima/':('/images/venues/nf-v124-tsushima-harbor-real.webp',1200,800),
 }
 class Parse(HTMLParser):
  def __init__(self):
