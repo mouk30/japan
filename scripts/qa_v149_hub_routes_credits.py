@@ -71,7 +71,21 @@ for card, target in NAV:
 for path in [HOME,JAPAN]:
  s=path.read_text(encoding="utf-8");o=old(path)
  a,b=parse(s),parse(o)
- q(a.images==b.images,str(path)+": image changed")
+ if path==HOME and 'class="nf247-route-photo"' in s:
+  # V300 adds only four approved-context guide thumbnails; all original images + alt remain intact.
+  approved={
+   ("/images/panstar-cruise-clean-2048.webp","팬스타 크루즈를 모티브로 한 AI 연출 이미지"),
+   ("/images/venues/nf-v134-new-camellia-busan-2026-real.webp","2026년 부산항 뉴카멜리아 국제여객선 실제 사진"),
+   ("/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp","시모노세키 국제터미널 실제 사진"),
+   ("/images/venues/nf-v124-tsushima-harbor-real.webp","대마도 항구 실제 풍경 사진")
+  }
+  added=Counter(a.images)-Counter(b.images)
+  removed=Counter(b.images)-Counter(a.images)
+  q(not removed and sum(added.values())==4 and set(added)==approved,"homepage photo/alt changed outside V300 approved route set")
+  q(s.count('class="nf247-route-photo"')==4,"unexpected homepage route photo count")
+  q('AI 연출 이미지' in s and '선박 사진 아님' in s,"operator/terminal photo disclosure dropped")
+ else:
+  q(a.images==b.images,str(path)+": image changed")
  q(a.canonical==b.canonical,str(path)+": canonical changed")
  q(a.h1==b.h1==1,str(path)+": H1 changed")
  q(s.count('id="nf-v148-photo-credits"')==1,str(path)+": original credits missing")
