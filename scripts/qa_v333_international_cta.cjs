@@ -38,7 +38,7 @@ fs.mkdirSync(out,{recursive:true});
      sidebar:document.querySelector('.sidebar .primary-btn')?.getAttribute('href'),
      disclosure:document.querySelector('.booking')?.textContent.includes('실시간 운항·좌석 조회·결제·승선권 발권 기능이 없습니다'),
      returnCheck:document.querySelector('.booking')?.textContent.includes('미확인'),
-     officialEvidence:[...document.querySelectorAll('.article-card a[href^="https://www."]')].length,
+     officialEvidence:[...document.querySelectorAll('.article-card a[href^="https://"]')].length,
      verifiedDate:document.querySelector('.article-card')?.textContent.includes('공식 원문 대조일: 2026-11-03'),
      topicalLinks:[...document.querySelectorAll('.article-card a')].map(a=>a.href),
      h1Text:document.querySelector('h1')?.textContent.trim()
