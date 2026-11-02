@@ -36,11 +36,18 @@ for(const [path,ids] of Object.entries(hubs)){
  test(path+":existing_h1_unchanged",old.h1===now.h1);
  test(path+":structured_data_unchanged",JSON.stringify(old.jsonld)===JSON.stringify(now.jsonld));
  test(path+":original_images_unchanged",old.existingImages.every(x=>now.existingImages.some(y=>{
+  // V307: one independently source-verified Karato Market photo replaces a 436x654 image.
+  // Keep the original-image equality gate strict for every other card and hub.
+  let expected=x;
+  if(path==="site/food/index.html" && expected.includes('src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Karato_market%2C_Shimonoseki.jpg"')){
+   expected=expected.replace('alt="시모노세키 가라토시장의 초밥 실제 사진"','alt="시모노세키 가라토시장 외관 · 2023년 6월 촬영"')
+     .replace('src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Karato_market%2C_Shimonoseki.jpg"','src="https://upload.wikimedia.org/wikipedia/commons/0/00/Karato_Fish_Market%2C_Shimonoseki_-_Jun_24%2C_2023.jpg"');
+  }
   let cleaned=y;
   if(!/\sdecoding=["']/.test(x))cleaned=cleaned.replace(/\s+decoding=["']async["']/g,"");
   if(!/\swidth=["']/.test(x))cleaned=cleaned.replace(/\s+width=["']\d+["']/g,"");
   if(!/\sheight=["']/.test(x))cleaned=cleaned.replace(/\s+height=["']\d+["']/g,"");
-  return cleaned===x;
+  return cleaned===expected;
  })));
  test(path+":license_details_preserved",!old.oldCC||now.oldCC);
  test(path+":mobile_4_3_style",curr.includes("grid-template-columns:minmax(0,1fr)")&&curr.includes("aspect-ratio:4/3"));
