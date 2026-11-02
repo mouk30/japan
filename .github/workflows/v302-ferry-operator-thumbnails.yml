@@ -5,6 +5,7 @@ on:
     paths:
       - 'site/ferry/index.html'
       - 'scripts/qa_v302_ferry_operator_thumbnails.py'
+      - 'scripts/qa_v302_ferry_browser.cjs'
       - '.github/workflows/v302-ferry-operator-thumbnails.yml'
   workflow_dispatch:
 permissions:
@@ -20,3 +21,32 @@ jobs:
       - run: |
           python scripts/qa_v302_ferry_operator_thumbnails.py
           python scripts/qa_v296_intl_booking_cta.py
+  responsive-browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Check ferry operator photos at 390 / 768 / 1440 px
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory site > /tmp/nf302-server.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8765/ferry/ >/dev/null; then break; fi
+            sleep 0.3
+          done
+          curl -fsS http://127.0.0.1:8765/ferry/ >/dev/null
+          node scripts/qa_v302_ferry_browser.cjs
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v302-ferry-responsive-screenshots
+          path: audit-output/v302/
+          if-no-files-found: ignore
