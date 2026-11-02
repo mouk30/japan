@@ -36,9 +36,10 @@ class Parse(HTMLParser):
         super().__init__()
         self.h1=0;self.title="";self._title=False
         self.canonical=[];self.description=[];self.robots=[]
-        self.images=[];self.links=[];self.jsonld=[];self._ld=None
+        self.images=[];self.links=[];self.jsonld=[];self._ld=None;self.body_classes=[]
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
+        if tag=="body":self.body_classes=a.get("class","").split()
         if tag=="h1":self.h1+=1
         if tag=="title":self._title=True
         if tag=="link" and "canonical" in a.get("rel",""):self.canonical.append(a.get("href",""))
@@ -129,13 +130,10 @@ def check_page(route,mode):
             item["hero_image"]=editorial
             item["checks"]["editorial_image_live"]=bool(editorial) and image_check(editorial,mode) is True
         item["premium_css_marker"]="nf-editorial-premium-v2.css" in html
-        # CSS class lists can contain multiple opt-in classes (V303 detail pages).
-        # Require nf-premium-v2 as an actual body class token, not an exact attribute string.
-        import re
-        body_tag=re.search(r'<body\\b[^>]*>',html,re.I)
-        body_classes=re.search(r'class\\s*=\\s*["\\']([^"\\']+)["\\']',body_tag.group(0),re.I) if body_tag else None
-        premium_body=bool(body_classes and "nf-premium-v2" in body_classes.group(1).split())
-        item["expert_premium_marker"]=bool("nf-premium-v2.css" in html and premium_body)
+        # Keep the existing premium stylesheet AND the nf-premium-v2 body-class token.
+        # Another scoped class on the same body must not trigger a false failure.
+        item["expert_premium_marker"]=bool("nf-premium-v2.css" in html and
+                                           "nf-premium-v2" in p.body_classes)
         item["checks"]["has_premium_design"]=(item["premium_css_marker"] or
                                              item["expert_premium_marker"])
     except Exception as exc:item["errors"].append(str(exc))
