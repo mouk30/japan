@@ -21,6 +21,11 @@ on:
       - 'site/nf-premium-v2.js'
       - 'site/v301-nav.js'
       - 'scripts/v301-v305-nav.cjs'
+  pull_request:
+    paths:
+      - 'site/ferry/index.html'
+      - 'scripts/v250_release_browser_qa.mjs'
+      - '.github/workflows/v250-release-gate.yml'
   workflow_dispatch:
 permissions:
   contents: read
