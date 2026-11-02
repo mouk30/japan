@@ -63,6 +63,7 @@ assert 'aria-live="polite"' in html and 'aria-pressed="true"' in html
 assert 'typeof L!=="undefined"' in html, "Leaflet fallback guard removed"
 assert 'list.replaceChildren()' in html, "accessible link rendering removed"
 assert 'locate.disabled=!map' in html, "map fallback buttons must be disabled"
+assert html.count('document.body.classList.add("nf304-map-unavailable")') == 2, "blank-map fallback not hidden"
 assert 'onclick=' not in html, "inline onclick would bypass accessible event handling"
 assert "@media(max-width:900px)" in css and "@media(max-width:600px)" in css
 assert "grid-template-columns:minmax(0,1fr)" in css, "mobile single-column cards missing"
