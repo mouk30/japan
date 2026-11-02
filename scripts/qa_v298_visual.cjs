@@ -17,7 +17,9 @@ fs.mkdirSync(out,{recursive:true});
   for(const slug of items){
    for(const width of widths){
     const page=await browser.newPage({viewport:{width,height:900},deviceScaleFactor:1});
-    const response=await page.goto("http://127.0.0.1:8765/"+slug+"/",{waitUntil:"load"});
+    const response=await page.goto("http://127.0.0.1:8765/"+slug+"/",{waitUntil:"domcontentloaded",timeout:30000});
+    // Third-party widgets and fonts may never finish the load event. Validate the actual local hero image instead.
+    await page.waitForFunction(()=>{const img=document.querySelector(".jc-hero .nf298-banner-img,.bk-hero .nf298-banner-img");return !!img&&img.complete&&img.naturalWidth>200&&img.naturalHeight>100;},undefined,{timeout:20000});
     assert.equal(response.status(),200,slug+" HTTP status");
     const data=await page.evaluate(()=>{
      const hero=document.querySelector(".jc-hero,.bk-hero");
