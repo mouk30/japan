@@ -43,6 +43,12 @@ for(const [path,ids] of Object.entries(hubs)){
    expected=expected.replace('alt="시모노세키 가라토시장의 초밥 실제 사진"','alt="시모노세키 가라토시장 외관 · 2023년 6월 촬영"')
      .replace('src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Karato_market%2C_Shimonoseki.jpg"','src="https://upload.wikimedia.org/wikipedia/commons/0/00/Karato_Fish_Market%2C_Shimonoseki_-_Jun_24%2C_2023.jpg"');
   }
+  // V308: replace only the 500px fugu card with a 1280px Commons thumbnail
+  // verified as Yamaguchi cuisine; do not claim a Shimonoseki shooting location.
+  if(path==="site/food/index.html" && expected.includes('src="https://upload.wikimedia.org/wikipedia/commons/4/42/Fugo-sashimi.jpg"')){
+   expected=expected.replace('alt="일본 복어회 사진 · 시모노세키 현지 촬영 아님"','alt="야마구치현에서 촬영된 복어회 · 시모노세키 현지 촬영 아님"')
+     .replace('src="https://upload.wikimedia.org/wikipedia/commons/4/42/Fugo-sashimi.jpg"','src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Fugu_sashimi_%2832738795990%29.jpg/1280px-Fugu_sashimi_%2832738795990%29.jpg"');
+  }
   let cleaned=y;
   if(!/\sdecoding=["']/.test(x))cleaned=cleaned.replace(/\s+decoding=["']async["']/g,"");
   if(!/\swidth=["']/.test(x))cleaned=cleaned.replace(/\s+width=["']\d+["']/g,"");

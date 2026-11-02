@@ -4,6 +4,7 @@ from pathlib import Path
 import re
 import subprocess
 from qa_v307_food_allowlist import allow_verified_v307_photo
+from qa_v308_food_allowlist import allow_verified_v308_photo
 
 html = Path("site/food/index.html").read_text(encoding="utf-8")
 css = Path("site/nf-v305-food.css").read_text(encoding="utf-8")
@@ -11,7 +12,7 @@ js = Path("site/nf-v306-food-images.js").read_text(encoding="utf-8")
 before = subprocess.check_output(["git", "show", "origin/main:site/food/index.html"], text=True)
 tag = '<script src="/nf-v306-food-images.js" defer></script>'
 assert html.count(tag) == 1
-approved = allow_verified_v307_photo(before)
+approved = allow_verified_v308_photo(allow_verified_v307_photo(before))
 assert html == approved or html.replace(tag, "") == approved, "Only the V307 verified market photo/source change is permitted"
 assert html.count('class="dircard"') == 16
 assert html.count('https://upload.wikimedia.org/wikipedia/commons/') == 9
