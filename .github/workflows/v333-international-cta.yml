@@ -1,4 +1,4 @@
-name: V333 international ferry live-status baggage official CTA and browser QA
+name: V333 Visit Japan Web and car international ferry CTA browser QA
 on:
   pull_request:
     branches: [main]
@@ -44,7 +44,7 @@ jobs:
           fi
       - name: Browser QA at 390 768 1440
         run: |
-          python3 -m http.server 8777 --bind 127.0.0.1 --directory dist >/tmp/nf332-http.log 2>&1 &
+          python3 -m http.server 8777 --bind 127.0.0.1 --directory dist >/tmp/nf333-http.log 2>&1 &
           PID=$!
           trap "kill $PID || true" EXIT
           sleep 3
