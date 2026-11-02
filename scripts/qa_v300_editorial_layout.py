@@ -18,6 +18,9 @@ PHOTO_MAP={
     "/images/venues/nf-v134-new-camellia-busan-2026-real.webp":"real",
     "/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp":"real",
     "/images/venues/nf-v124-tsushima-harbor-real.webp":"real",
+    "/images/venues/nf-v85-osaka-dotonbori-licensed.webp":"real",
+    "/images/venues/fukuoka-ohori-park.webp":"real",
+    "/images/venues/v62-karato-market-real.webp":"real",
 }
 class Tags(HTMLParser):
     def __init__(self):
@@ -54,11 +57,17 @@ for slug in PAGES:
         assert html.count('class="bk-case-card"')==4
         for link in ["/booking/osaka/","/booking/fukuoka/","/booking/shimonoseki/","/booking/tsushima/"]:
             assert link in parsed.links,(slug,"missing route link",link)
-        assert "AI 제작 연출 이미지" in html
-        assert "시모노세키 국제터미널 실사" in html
+        assert "AI 제작 연출 이미지" in html,("approved banner illustration disclosure lost")
+        assert "시모노세키 가라토시장 실사" in html,("destination thumbnail missing")
+        assert "이 사이트는 실시간 좌석 검색" in html,("false booking capability implication")
+        assert html.count('class="bk-case-photo"')==4,("booking photo count")
+        assert "/ferry/#nf-v148-photo-credits" in parsed.links,("license/source link lost")
     if not slug:
         assert html.count('class="nf247-route-photo"')==4
+        assert html.count('class="nf305-photo-rights"')==4,("route photo rights")
         assert 'data-nf247-finder' in html,("route chooser JS contract changed")
+        assert "https://www.kampuferry.co.jp/reserve/" in parsed.links,("official Shimonoseki reservation method")
+        assert "www.koreaferry.co.kr/rs/idv/reservation/" in "\n".join(parsed.links),("official New Camellia search")
     if slug=="things-to-do/travel-companions":
         assert html.count('class="guide-card"')>=45,("guides dropped")
         assert all('href="/things-to-do/' in html for _ in [0])

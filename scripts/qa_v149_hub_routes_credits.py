@@ -72,18 +72,35 @@ for path in [HOME,JAPAN]:
  s=path.read_text(encoding="utf-8");o=old(path)
  a,b=parse(s),parse(o)
  if path==HOME and 'class="nf247-route-photo"' in s:
-  # V300 adds only four approved-context guide thumbnails; all original images + alt remain intact.
-  approved={
-   ("/images/panstar-cruise-clean-2048.webp","팬스타 크루즈를 모티브로 한 AI 연출 이미지"),
-   ("/images/venues/nf-v134-new-camellia-busan-2026-real.webp","2026년 부산항 뉴카멜리아 국제여객선 실제 사진"),
-   ("/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp","시모노세키 국제터미널 실제 사진"),
-   ("/images/venues/nf-v124-tsushima-harbor-real.webp","대마도 항구 실제 풍경 사진")
-  }
+  # V305: the four existing route cards now use licensed destination photography,
+  # not illustrative PanStar artwork or a misleading ferry-terminal screenshot.
+  # The old-to-new comparison is exact and refuses any unrelated photo changes.
+  approved_removed=Counter({
+   ("/images/panstar-cruise-clean-2048.webp","팬스타 크루즈를 모티브로 한 AI 연출 이미지"):1,
+   ("/images/venues/nf-v134-new-camellia-busan-2026-real.webp","2026년 부산항 뉴카멜리아 국제여객선 실제 사진"):1,
+   ("/images/venues/nf-v135-shimonoseki-international-terminal-2021-real.webp","시모노세키 국제터미널 실제 사진"):1,
+   ("/images/venues/nf-v124-tsushima-harbor-real.webp","대마도 항구 실제 풍경 사진"):1
+  })
+  approved_added=Counter({
+   ("/images/venues/nf-v85-osaka-dotonbori-licensed.webp","2015년 촬영한 오사카 도톤보리 실제 야경과 수로. 페리 선박·승선 부두 사진 아님"):1,
+   ("/images/venues/fukuoka-ohori-park.webp","2026년 촬영한 후쿠오카 오호리공원 실제 풍경. 뉴카멜리아 선박·하카타항 사진 아님"):1,
+   ("/images/venues/v62-karato-market-real.webp","2023년 촬영한 시모노세키 가라토시장 실제 모습. 국제여객선 터미널·선박 사진 아님"):1,
+   ("/images/venues/nf-v124-tsushima-harbor-real.webp","2017년 촬영한 대마도 이즈하라항과 항구마을 실제 풍경. 히타카츠항과 다른 장소"):1
+  })
   added=Counter(a.images)-Counter(b.images)
   removed=Counter(b.images)-Counter(a.images)
-  q(not removed and sum(added.values())==4 and set(added)==approved,"homepage photo/alt changed outside V300 approved route set")
+  q((added==approved_added and removed==approved_removed) or (not added and not removed),
+    "homepage photo/alt changed outside exactly four V305 approved real-place replacements")
   q(s.count('class="nf247-route-photo"')==4,"unexpected homepage route photo count")
-  q('AI 연출 이미지' in s and '선박 사진 아님' in s,"operator/terminal photo disclosure dropped")
+  q(s.count('class="nf305-photo-rights"')==0 or s.count('class="nf305-photo-rights"')==4,
+    "photo provenance missing from a route card")
+  for url in ["/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+              "/images/venues/fukuoka-ohori-park.webp",
+              "/images/venues/v62-karato-market-real.webp",
+              "/images/venues/nf-v124-tsushima-harbor-real.webp"]:
+   q((ROOT/url.lstrip("/")).is_file(),"missing licensed destination file: "+url)
+  q('히타카츠항과 다른 장소' in s and '선박 아님' in s,
+    "real place/vessel separation labels missing")
  else:
   q(a.images==b.images,str(path)+": image changed")
  q(a.canonical==b.canonical,str(path)+": canonical changed")
