@@ -1,0 +1,71 @@
+name: V309 traveler-first booking and safe return factual QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/booking/index.html'
+      - 'site/booking/osaka/index.html'
+      - 'site/booking/fukuoka/index.html'
+      - 'site/booking/shimonoseki/index.html'
+      - 'site/booking/tsushima/index.html'
+      - 'site/guide/busan-tsushima-ferry/index.html'
+      - 'site/nf-v309-booking-safe-return.css'
+      - 'scripts/qa_v309_traveler_booking_return.py'
+      - 'scripts/qa_v309_booking_return_browser.cjs'
+      - '.github/workflows/v309-traveler-booking-return.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  official-facts-seo-originals:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Original HTML, exact approved cruise photo, source and dated return facts
+        run: |
+          git fetch --quiet --depth=1 origin main:refs/remotes/origin/main
+          python -m py_compile scripts/qa_v309_traveler_booking_return.py
+          python scripts/qa_v309_traveler_booking_return.py
+          python scripts/qa_v300_editorial_layout.py
+          python scripts/qa_v305_third_party_booking_truth.py
+          python scripts/qa_v296_intl_booking_cta.py
+      - name: New indexed article gate
+        run: |
+          if git diff --name-only --diff-filter=A origin/main...HEAD | grep -E '^site/.*\.html$'; then
+            echo 'New page blocked; existing content only'
+            exit 1
+          fi
+  responsive-390-768-1440:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Six pages x three widths
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory site > /tmp/nf309-server.log 2>&1 &
+          for i in 1 2 3 4 5 6 7 8; do
+            if curl -sf http://127.0.0.1:8765/ >/dev/null; then break; fi
+            sleep 1
+          done
+          node scripts/qa_v309_booking_return_browser.cjs
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v309-official-booking-return-screenshots
+          path: audit-output/v309/
+          retention-days: 10
+          if-no-files-found: ignore
