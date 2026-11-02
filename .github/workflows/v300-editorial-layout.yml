@@ -1,0 +1,60 @@
+name: V300 editorial layout and photo-first responsive QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/index.html'
+      - 'site/booking/**'
+      - 'site/japan-cruise/index.html'
+      - 'site/things-to-do/travel-companions/index.html'
+      - 'site/nf-v300-editorial-rebalance.css'
+      - 'scripts/qa_v300_editorial_layout.py'
+      - 'scripts/qa_v300_editorial_browser.cjs'
+      - '.github/workflows/v300-editorial-layout.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  structure-and-booking:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Editorial layout, canonical, original photos and links
+        run: |
+          python -m py_compile scripts/qa_v300_editorial_layout.py
+          python scripts/qa_v300_editorial_layout.py
+          python scripts/qa_v298_approved_cruise_hero.py
+          python scripts/qa_v296_intl_booking_cta.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v300-static-and-booking-qa
+          path: audit-output/v298/
+          if-no-files-found: ignore
+  responsive-browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Check 9 existing pages at 390 / 768 / 1440 px
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory site > /tmp/nf300-server.log 2>&1 &
+          node scripts/qa_v300_editorial_browser.cjs
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v300-27-editorial-screenshots
+          path: audit-output/v300/
+          if-no-files-found: ignore
