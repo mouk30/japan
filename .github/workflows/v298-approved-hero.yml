@@ -1,0 +1,30 @@
+name: V298 approved PanStar and operator-correct cruise hero
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/japan-cruise/**'
+      - 'site/booking/**'
+      - 'site/images/panstar-cruise-clean-2048.webp'
+      - 'scripts/qa_v298_approved_cruise_hero.py'
+      - '.github/workflows/v298-approved-hero.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  approved-hero:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify approved image, 7 route-accurate banners, links and SEO
+        run: |
+          python -m py_compile scripts/qa_v298_approved_cruise_hero.py
+          python scripts/qa_v298_approved_cruise_hero.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v298-cruise-image-and-cta
+          path: audit-output/v298/
