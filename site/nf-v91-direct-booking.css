@@ -36,3 +36,7 @@ body.nf-premium-v2 .nf91-preflight a:focus-visible{outline:3px solid #d6a05e;out
 
 /* V323: historical system notices are references, not competing booking/detail actions. */
 body.nf-premium-v2 a.nf91-direct-history{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:8px 10px;color:#536b7b!important;font-size:12px;line-height:1.5;text-decoration:underline;text-underline-offset:3px;text-align:center;word-break:keep-all}
+
+/* V324: keep dated operator notices outside the primary booking decision card. */
+body.nf-premium-v2 .nf91-shortcuts__history{margin:10px 0 4px;color:#627789;font-size:12px;line-height:1.65;word-break:keep-all}
+body.nf-premium-v2 .nf91-shortcuts__history a{color:#365d79;text-decoration:underline;text-underline-offset:3px}
