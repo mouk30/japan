@@ -125,8 +125,9 @@ try{
   const route=intPage.locator('.nf247-card[data-nf247-from="busan"][data-nf247-kind="international"]');
   const shimo=route.filter({hasText:'부산 → 시모노세키'});
   const href=await shimo.locator('.nf247-booking').getAttribute('href');
-  check(href==='https://www.kampuferry.co.jp/news/20261027systemmaintenance.html','Outbound restart notice URL changed');
-  check((await shimo.locator('.nf247-booking').textContent()).includes('재개'),'Restart button label inaccurate');
+  check(href==='https://www.kampuferry.co.jp/reserve/','Official booking methods URL changed');
+  check((await shimo.locator('.nf247-booking').textContent()).includes('공식 예약'),'Official booking CTA label inaccurate');
+  check(await shimo.locator('.nf247-card-note a[href*="20261027systemmaintenance.html"]').count()===1,'Dated restart notice must remain a separate reference');
   await shimo.locator('.nf247-guide').click();
   check(new URL(intPage.url()).pathname==='/guide/busan-shimonoseki-ferry/','Busan international route guide broken');
   check(await intPage.locator('a[href="https://www.kampuferry.co.jp/reserve/"]').count()>0,'Guide lacks official booking information');

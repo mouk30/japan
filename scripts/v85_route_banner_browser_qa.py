@@ -2,11 +2,11 @@
 """V85: live production V84 banner responsive/image/link/provenance QA (read-only).
 Artifacts: screenshots and machine-readable report; never auto-confirms bookings.
 """
-import json, time, traceback
+import json, time, traceback, os
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
-BASE="https://www.nipponferry.com"
+BASE=os.environ.get("NF85_BASE_URL","https://www.nipponferry.com").rstrip("/")
 OUT=Path("audit-output/v85-route-banners")
 OUT.mkdir(parents=True,exist_ok=True)
 SIZES=[("desktop",1440,900),("laptop",1024,768),("tablet",768,1024),("mobile",390,844),("small-mobile",360,780)]

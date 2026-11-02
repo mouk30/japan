@@ -21,6 +21,11 @@ on:
       - 'site/nf-premium-v2.js'
       - 'site/v301-nav.js'
       - 'scripts/v301-v305-nav.cjs'
+  pull_request:
+    paths:
+      - 'site/ferry/index.html'
+      - 'scripts/v250_release_browser_qa.mjs'
+      - '.github/workflows/v250-release-gate.yml'
   workflow_dispatch:
 permissions:
   contents: read
@@ -35,6 +40,19 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Verify approved PanStar WebP SHA-256 and AI illustration disclosure
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib
+          path=Path('site/images/panstar-cruise-clean-2048.webp')
+          expected='bbcfa65a0e670060b5ce6fe79b2a9ea3272874b4d96f96799800ec9ccb631bdd'
+          assert path.is_file(), 'Approved PanStar WebP missing'
+          assert hashlib.sha256(path.read_bytes()).hexdigest()==expected, 'Approved PanStar WebP changed'
+          page=Path('site/japan-cruise/index.html').read_text('utf8')
+          assert 'panstar-cruise-clean-2048.webp' in page and 'AI 연출' in page, 'Approved PanStar illustration disclosure missing'
+          print('Approved PanStar WebP SHA-256 and AI illustration disclosure verified')
+          PY
       - name: Build exact deployment output (no publishing from QA)
         run: npm run build
       - name: Verify pre-V246 SEO, all local links, canonicals, sitemap and booking trust
