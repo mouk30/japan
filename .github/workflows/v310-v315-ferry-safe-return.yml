@@ -1,0 +1,57 @@
+name: V310-V315 correct Japan-to-Busan booking and safe return
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/guide/**'
+      - 'site/nf-v310-return-proof.css'
+      - 'scripts/qa_v310_v315_return_integrity.py'
+      - 'scripts/qa_v310_v315_return_browser.cjs'
+      - '.github/workflows/v310-v315-ferry-safe-return.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  official-links-fares-seo-photo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check 6 old guides against current official source decisions
+        run: |
+          git fetch --quiet --depth=1 origin main:refs/remotes/origin/main
+          python scripts/qa_v310_v315_return_integrity.py
+          python scripts/qa_v305_third_party_booking_truth.py
+          python scripts/qa_v296_intl_booking_cta.py
+          python scripts/qa_v309_traveler_booking_return.py
+  desktop-tablet-mobile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Check 390/768/1440 actual viewport images
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory site >/tmp/nf315-server.log 2>&1 &
+          for i in 1 2 3 4 5 6 7 8; do
+            if curl -sf http://127.0.0.1:8765/ >/dev/null; then break; fi
+            sleep 1
+          done
+          node scripts/qa_v310_v315_return_browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v310-v315-source-and-return-screenshots
+          path: audit-output/v315/
+          if-no-files-found: ignore
