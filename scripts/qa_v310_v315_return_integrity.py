@@ -42,7 +42,11 @@ for slug,c in CASES.items():
  h,p=parse(s),parse(old)
  assert h.h1==p.h1==1,(slug,"H1 changed")
  assert h.canonical==p.canonical==["https://www.nipponferry.com/guide/"+slug+"/"],(slug,"canonical")
- assert h.desc==p.desc and h.robots==p.robots and h.jsonld==p.jsonld,(slug,"SEO data changed")
+ assert h.robots==p.robots and h.jsonld==p.jsonld,(slug,"robots or JSON-LD changed")
+ if slug in {"osaka-busan-ferry","tsushima-busan-ferry"}:
+  assert len(h.desc)==1 and len(h.desc[0])>=60 and "공식 예약 경로" in h.desc[0],(slug,"approved return-guide SEO description missing")
+ else:
+  assert h.desc==p.desc,(slug,"unexpected SEO description change")
  assert h.img==p.img,(slug,"original real photo or ALT changed")
  assert not (Counter(p.links)-Counter(h.links)-Counter({"https://willer-travel.com/ko/ferry/":2})),(slug,"original link unexpectedly lost")
  assert len(h.ids)==len(set(h.ids)),(slug,"duplicate anchor")
