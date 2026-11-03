@@ -1,0 +1,66 @@
+name: V338 seniors and kids official ferry CTA browser QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/guide/japan-ferry-seniors/index.html'
+      - 'site/guide/japan-ferry-with-kids/index.html'
+      - 'scripts/qa_v338_international_cta.cjs'
+      - '.github/workflows/v338-international-cta.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  official-cta-and-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify approved PanStar WebP SHA-256 and original AI notice
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib
+          p=Path('site/images/panstar-cruise-clean-2048.webp')
+          expected='bbcfa65a0e670060b5ce6fe79b2a9ea3272874b4d96f96799800ec9ccb631bdd'
+          assert p.is_file() and hashlib.sha256(p.read_bytes()).hexdigest()==expected
+          assert 'AI 연출' in Path('site/japan-cruise/index.html').read_text('utf8')
+          print('Approved original image and AI notice verified')
+          PY
+      - name: Check SEO infrastructure and original guide covers
+        run: |
+          test -f site/robots.txt
+          test -f site/sitemap.xml
+          test -f site/images/ferry.jpg
+          test -f site/guide/japan-ferry-seniors/index.html
+          test -f site/guide/japan-ferry-with-kids/index.html
+      - name: Build deployable site
+        run: npm run build
+      - name: Install browser runner
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          if command -v google-chrome >/dev/null 2>&1; then
+            echo "NF338_BROWSER_PATH=$(command -v google-chrome)" >> "$GITHUB_ENV"
+          elif command -v chromium >/dev/null 2>&1; then
+            echo "NF338_BROWSER_PATH=$(command -v chromium)" >> "$GITHUB_ENV"
+          else
+            npx playwright install --with-deps chromium
+          fi
+      - name: Real browser QA 390 768 1440
+        run: |
+          python3 -m http.server 8777 --bind 127.0.0.1 --directory dist >/tmp/nf338-http.log 2>&1 &
+          PID=$!
+          trap "kill $PID || true" EXIT
+          sleep 3
+          node scripts/qa_v338_international_cta.cjs
+      - name: Archive six screenshots and result JSON
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v338-international-cta-browser
+          path: audit-reports/v338/
+          retention-days: 30
+          if-no-files-found: warn
