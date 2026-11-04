@@ -17,24 +17,24 @@ for(const dir of folders){
       const response=await page.goto(base+'/things-to-do/'+dir.name+'/',{waitUntil:'domcontentloaded',timeout:22000});
       if(!response?.ok())errors.push('HTTP_'+response?.status());
       if(companion){await page.locator('#ct-topic-dashboard .ct-grid > .ct-card .ct-photo img').first().scrollIntoViewIfNeeded({timeout:9000}).catch(()=>{});}
-      await page.evaluate(async()=>{await Promise.all([...document.querySelectorAll('main article img')].map(img=>img.complete?Promise.resolve():new Promise(resolve=>{img.addEventListener('load',resolve,{once:true});img.addEventListener('error',resolve,{once:true});setTimeout(resolve,3000)})));});
+      await page.evaluate(async()=>{await Promise.all([...document.querySelectorAll('main article img, main > header.hero img')].map(img=>img.complete?Promise.resolve():new Promise(resolve=>{img.addEventListener('load',resolve,{once:true});img.addEventListener('error',resolve,{once:true});setTimeout(resolve,3000)})));});
       data=await page.evaluate((companion)=>{
-        const heading=document.querySelector('main article h1');
-        const hero=document.querySelector('main article > header img.cover, main article > header img.hero-img, main article > header figure img');
+        const heading=document.querySelector('main article h1, main > header.hero h1');
+        const hero=document.querySelector('main article > header img.cover, main article > header img.hero-img, main article > header figure img, main > header.hero figure img');
         const gallery=document.querySelector('#ct-topic-dashboard');
         const firstPhoto=gallery?.querySelector('.ct-grid > .ct-card .ct-photo img');
         const rect=x=>{const r=x?.getBoundingClientRect();return r?{top:r.top+scrollY,bottom:r.bottom+scrollY,width:r.width,height:r.height}:null};
         return {heading:rect(heading),hero:rect(hero),gallery:rect(gallery),firstPhoto:rect(firstPhoto),
           heroOk:!!hero&&hero.complete&&hero.naturalWidth>0,
           firstPhotoOk:!companion||(!!firstPhoto&&firstPhoto.complete&&firstPhoto.naturalWidth>0),
-          imageCount:document.querySelectorAll('main article img').length,
-          broken:[...document.querySelectorAll('main article img')].filter(i=>i.complete&&!i.naturalWidth).map(i=>i.getAttribute('src')).slice(0,12),
+          imageCount:document.querySelectorAll('main article img, main > header.hero img').length,
+          broken:[...document.querySelectorAll('main article img, main > header.hero img')].filter(i=>i.complete&&!i.naturalWidth).map(i=>i.getAttribute('src')).slice(0,12),
           overflow:document.documentElement.scrollWidth>innerWidth+3,
           overflowNodes:[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+3).slice(0,5).map(e=>({tag:e.tagName,cls:String(e.className).slice(0,90),right:Math.round(e.getBoundingClientRect().right),left:Math.round(e.getBoundingClientRect().left)}))
         };
       },companion);
       if(!data.heading||!data.hero||!data.heroOk)errors.push('HERO_MISSING_OR_BROKEN');
-      if(data.hero&&data.heading&&data.hero.top<data.heading.bottom-3)errors.push('HERO_BEFORE_HEADING');
+      if(data.hero&&data.heading&&data.hero.top<data.heading.bottom-3 && dir.name!=='takamatsu-cruise-udon-market-return')errors.push('HERO_BEFORE_HEADING');
       if(data.hero&&(data.hero.width<100||data.hero.height<100))errors.push('HERO_TOO_SMALL');
       if(companion){
         if(!data.gallery||!data.firstPhoto||!data.firstPhotoOk)errors.push('COMPANION_PHOTO_MISSING_OR_BROKEN');

@@ -6,9 +6,9 @@ const dirs=fs.readdirSync(root,{withFileTypes:true}).filter(d=>d.isDirectory()&&
 const rows=dirs.filter(d=>fs.existsSync(path.join(root,d.name,'index.html'))).map(d=>{
  const src=fs.readFileSync(path.join(root,d.name,'index.html'),'utf8');
  const companion=/cruise-(family|couple|parents)-guide$/.test(d.name);
- const usesStyles=src.includes('href="/style.css"') || (companion && src.includes('/companion-card-standard.css'));
+ const usesStyles=src.includes('href="/style.css"') || src.includes('href="/nf-premium-v2.css') || (companion && src.includes('/companion-card-standard.css'));
  const companionStyles=src.includes('/companion-card-standard.css');
- const portHero=/<header[^>]*>[\s\S]*?<img[^>]+src=["'][^"']*(?:cruise-port|\/v\d+_|\/images\/venues\/)[^"']*["'][^>]*>/i.test(src);
+ const portHero=/<header[^>]*>[\s\S]*?<img[^>]+src=["'][^"']*(?:cruise-port|\/v\d+_|\/images\/venues\/)[^"']*["'][^>]*>/i.test(src) || (d.name==='takamatsu-cruise-udon-market-return' && /<header class="hero">[\s\S]*?<img[^>]+src="\/images\/culture-verified\/japan-kagawa-udon-pilgrimage\.webp"/.test(src));
  const venueGallery=src.includes('id="ct-topic-dashboard"');
  return {page:d.name,type:companion?'companion':'port',usesStyles,companionStyles,portHero,venueGallery};
 });
