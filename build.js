@@ -70,6 +70,14 @@ for(const file of pages) {
       !h.includes('/nf-v249-mobile-consistency.css')) {
     h=h.replace('</head>','<link rel="stylesheet" href="/nf-v249-mobile-consistency.css?v=20261027"></head>');
   }
+  // V349: keep the existing Kakao support entry visible on every public HTML page.
+  // Preserve pages that already contain the button; never create duplicate links.
+  if (/<\\/body>/i.test(h) && !/class=["'][^"']*\\bkakao-float\\b/.test(h)) {
+    const kakaoCss = '<style id="nf-v349-kakao-style">.kakao-float{position:fixed;right:max(14px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom));z-index:3000;width:58px;height:58px;border-radius:50%;overflow:hidden;background:#fee500;box-shadow:0 8px 24px rgba(0,0,0,.24)}.kakao-float img{display:block;width:100%;height:100%;object-fit:cover}@media(max-width:600px){.kakao-float{width:54px;height:54px;right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom))}}</style>';
+    const kakaoLink = '<a class="kakao-float" href="https://open.kakao.com/o/g4ilP4Ji" target="_blank" rel="noopener noreferrer" aria-label="카카오톡 문의 (새 창)"><img src="/images/kakao-talk.jpg" alt="카카오톡 문의" width="512" height="512" loading="lazy" decoding="async"></a>';
+    if (/<\\/head>/i.test(h)) h=h.replace(/<\\/head>/i,kakaoCss+'</head>');
+    h=h.replace(/<\\/body>/i,kakaoLink+'</body>');
+  }
   // Track outbound ferry CTAs only when the owner has configured a real GA4 ID.
   // No GA4 library, cookies, requests or consent banner start before visitor opt-in.
   // Analytics is optional: production without an ID is visibly 'not connected' in QA.
