@@ -36,6 +36,17 @@ const altConflicts=cards.flatMap(c=>{
  return altWords.length && titleWords.length && !altWords.some(w=>titleWords.includes(w))
  ? [{...c,titleWords,altWords,reason:'title and image ALT name different destinations or subjects; verify manually'}] : [];
 });
+// High-priority manual review: generic images reused for different subjects.
+// This is an evidence queue, NOT an assertion that all these photos are wrong.
+const priorityReview=repeated.filter(x=>x.distinctTitles>=3)
+ .map(x=>({src:x.src,cardUses:x.count,distinctTitles:x.distinctTitles,
+  reviewPriority:x.distinctTitles>=20?'high':'normal',
+  examples:x.examples.slice(0,8).map(c=>({page:c.page,href:c.href,title:c.title,alt:c.alt}))}))
+ .sort((a,b)=>b.distinctTitles-a.distinctTitles||b.cardUses-a.cardUses);
+await writeFile('audit-reports/v353/priority-photo-review.json',JSON.stringify({
+ policy:'Do not replace without verified exact subject, creator, source and commercial reuse permission.',
+ priorityReview
+},null,2)+'\\n');
 const report={missingAssets,altConflicts,filesScanned:files.length,cardsScanned:cards.length,uniqueImages:by.size,repeatedImageGroups:repeated.length,repeated,suspect,notes:['Duplicate images are review candidates, not automatically confirmed errors.','Do not replace without verifying location, season, subject, creator, source and commercial reuse license.','This static scan does not validate image pixels or CSS background imagery.','ALT/title token conflicts are review candidates, not proof of a wrong photo.']};
 await mkdir('audit-reports/v353',{recursive:true});
 await writeFile('audit-reports/v353/sitewide-card-inventory.json',JSON.stringify(report,null,2)+'\n');
