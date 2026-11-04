@@ -48,7 +48,14 @@ for slug,c in CASES.items():
  else:
   assert h.desc==p.desc,(slug,"unexpected SEO description change")
  assert h.img==p.img,(slug,"original real photo or ALT changed")
- assert not (Counter(p.links)-Counter(h.links)-Counter({"https://willer-travel.com/ko/ferry/":2})),(slug,"original link unexpectedly lost")
+ allowed_removed=Counter({"https://willer-travel.com/ko/ferry/":2})
+ if slug=="osaka-busan-ferry":
+  # V348 replaces two misleading "latest sailing" links to a fuel-fee notice
+  # with the official notice index; keep the fee source linked separately.
+  allowed_removed["https://www.panstarcruise.com/support/notice/310"]=2
+  assert h.links.count("https://www.panstarcruise.com/support/notice/310")>=1,(slug,"fuel-fee source lost")
+  assert h.links.count("https://www.panstarcruise.com/support/notice")>=2,(slug,"latest notice links missing")
+ assert not (Counter(p.links)-Counter(h.links)-allowed_removed),(slug,"original link unexpectedly lost")
  assert len(h.ids)==len(set(h.ids)),(slug,"duplicate anchor")
  assert "willer-travel.com/ko/ferry" not in s,(slug,"wrong domestic ferry booking link")
  assert 'id="nf310-verified-return"' in s and 'id="nf310-return-heading"' in s,(slug,"decision section")
