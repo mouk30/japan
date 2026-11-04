@@ -24,6 +24,15 @@ for (const [name, route] of pages) {
     try {
       const response = await page.goto(base + route, { waitUntil: 'domcontentloaded', timeout: 30000 });
       if (response?.status() !== 200) errors.push('HTTP_' + response?.status());
+      // Wait for the lazy-loaded floating image before measuring its natural dimensions.
+      await page.locator('a.kakao-float img').evaluate(async (img) => {
+        if (!img.complete) await new Promise(resolve => {
+          img.addEventListener('load', resolve, { once: true });
+          img.addEventListener('error', resolve, { once: true });
+          setTimeout(resolve, 5000);
+        });
+        if (img.complete && img.naturalWidth > 0) await img.decode().catch(() => {});
+      });
       detail = await page.evaluate((expected) => {
         const buttons = [...document.querySelectorAll('a.kakao-float')];
         const a = buttons[0];
