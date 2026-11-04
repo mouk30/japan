@@ -36,6 +36,13 @@ const altConflicts=cards.flatMap(c=>{
  return altWords.length && titleWords.length && !altWords.some(w=>titleWords.includes(w))
  ? [{...c,titleWords,altWords,reason:'title and image ALT name different destinations or subjects; verify manually'}] : [];
 });
+// High-priority manual review: generic images reused for different subjects.
+// This is an evidence queue, NOT an assertion that all these photos are wrong.
+const priorityReview=repeated.filter(x=>x.distinctTitles>=3)
+ .map(x=>({src:x.src,cardUses:x.count,distinctTitles:x.distinctTitles,
+  reviewPriority:x.distinctTitles>=20?'high':'normal',
+  examples:x.examples.slice(0,8).map(c=>({page:c.page,href:c.href,title:c.title,alt:c.alt}))}))
+ .sort((a,b)=>b.distinctTitles-a.distinctTitles||b.cardUses-a.cardUses);
 // Explicitly confirmed editorial mismatches from human review. Do not auto-swap photos.
 const confirmedReview=[
  {href:'/practical/hokkaido-winter-bus-tour/',image:'/images/hokkaido.jpg',issue:'winter Hokkaido bus tour card uses an unrelated seasonal/subject image'},
@@ -50,13 +57,6 @@ for(const x of priorityReview) for(const c of x.examples) reviewRows.push(['manu
 await mkdir('audit-reports/v353',{recursive:true});
 await writeFile('audit-reports/v353/photo-review-queue.csv',reviewRows.map(row=>row.map(csvCell).join(',')).join('\\n')+'\\n');
 await writeFile('audit-reports/v353/confirmed-mismatches.json',JSON.stringify({policy:'No replacement without exact subject and commercial reuse rights verification.',unresolvedConfirmed,confirmedReview},null,2)+'\\n');
-// High-priority manual review: generic images reused for different subjects.
-// This is an evidence queue, NOT an assertion that all these photos are wrong.
-const priorityReview=repeated.filter(x=>x.distinctTitles>=3)
- .map(x=>({src:x.src,cardUses:x.count,distinctTitles:x.distinctTitles,
-  reviewPriority:x.distinctTitles>=20?'high':'normal',
-  examples:x.examples.slice(0,8).map(c=>({page:c.page,href:c.href,title:c.title,alt:c.alt}))}))
- .sort((a,b)=>b.distinctTitles-a.distinctTitles||b.cardUses-a.cardUses);
 await mkdir('audit-reports/v353',{recursive:true});
 await writeFile('audit-reports/v353/priority-photo-review.json',JSON.stringify({
  policy:'Do not replace without verified exact subject, creator, source and commercial reuse permission.',
