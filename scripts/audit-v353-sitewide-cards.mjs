@@ -46,7 +46,7 @@ const priorityReview=repeated.filter(x=>x.distinctTitles>=3)
 await writeFile('audit-reports/v353/priority-photo-review.json',JSON.stringify({
  policy:'Do not replace without verified exact subject, creator, source and commercial reuse permission.',
  priorityReview
-},null,2)+'\\n');
+},null,2)+'\n');
 const report={missingAssets,altConflicts,filesScanned:files.length,cardsScanned:cards.length,uniqueImages:by.size,repeatedImageGroups:repeated.length,repeated,suspect,notes:['Duplicate images are review candidates, not automatically confirmed errors.','Do not replace without verifying location, season, subject, creator, source and commercial reuse license.','This static scan does not validate image pixels or CSS background imagery.','ALT/title token conflicts are review candidates, not proof of a wrong photo.']};
 await mkdir('audit-reports/v353',{recursive:true});
 await writeFile('audit-reports/v353/sitewide-card-inventory.json',JSON.stringify(report,null,2)+'\n');
