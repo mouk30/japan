@@ -43,6 +43,7 @@ const priorityReview=repeated.filter(x=>x.distinctTitles>=3)
   reviewPriority:x.distinctTitles>=20?'high':'normal',
   examples:x.examples.slice(0,8).map(c=>({page:c.page,href:c.href,title:c.title,alt:c.alt}))}))
  .sort((a,b)=>b.distinctTitles-a.distinctTitles||b.cardUses-a.cardUses);
+await mkdir('audit-reports/v353',{recursive:true});
 await writeFile('audit-reports/v353/priority-photo-review.json',JSON.stringify({
  policy:'Do not replace without verified exact subject, creator, source and commercial reuse permission.',
  priorityReview
