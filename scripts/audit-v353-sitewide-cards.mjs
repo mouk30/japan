@@ -24,7 +24,7 @@ const suspect=cards.filter(c=>/\/images\/(rail|car|hokkaido)\.jpg$/.test(c.src))
 const missingAssets=[];
 for (const c of cards) {
  if(!c.src.startsWith('/') || c.src.startsWith('//')) continue;
- const local=path.join(root,decodeURIComponent(c.src.split(/[?#]/)[0]).replace(/^\\/+/, ''));
+ const local=path.join(root,decodeURIComponent(c.src.split(/[?#]/)[0]).replace(/^\/+/, ''));
  try { if(!(await stat(local)).isFile()) missingAssets.push({...c,reason:'referenced local image is not a file'}); }
  catch { missingAssets.push({...c,reason:'referenced local image missing'}); }
 }
