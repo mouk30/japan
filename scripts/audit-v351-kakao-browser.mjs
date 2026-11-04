@@ -45,7 +45,7 @@ for (const [name, route] of pages) {
           const b = el.getBoundingClientRect();
           const intersection = Math.max(0, Math.min(r.right,b.right)-Math.max(r.left,b.left))*Math.max(0, Math.min(r.bottom,b.bottom)-Math.max(r.top,b.top));
           return intersection > 0 && getComputedStyle(el).visibility !== 'hidden' && getComputedStyle(el).display !== 'none';
-        }).slice(0,5).map(el=>({tag:el.tagName, className:String(el.className).slice(0,60)})) : [];
+        }).slice(0,5).map(el=>({tag:el.tagName, className:String(el.className).slice(0,60),href:el.getAttribute('href'),text:(el.textContent||'').trim().slice(0,90),rect:(()=>{const q=el.getBoundingClientRect();return {left:q.left,top:q.top,right:q.right,bottom:q.bottom}})()})) : [];
         return {
           count: buttons.length, href: a?.href, target: a?.target, rel: a?.rel,
           position: style?.position, visible: !!r && r.width >= 44 && r.height >= 44 && r.left >= -1 && r.top >= -1 && r.right <= innerWidth+1 && r.bottom <= innerHeight+1,
