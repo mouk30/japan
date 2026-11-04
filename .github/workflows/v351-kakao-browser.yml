@@ -1,0 +1,38 @@
+name: V351 Kakao fixed CTA browser QA
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/audit-v351-kakao-browser.mjs'
+      - '.github/workflows/v351-kakao-browser.yml'
+      - 'build.js'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  kakao-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Build production output
+        run: npm run build
+      - name: Browser test PC tablet mobile fixed button and click
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist >/tmp/v351.log 2>&1 &
+          sleep 2
+          node scripts/audit-v351-kakao-browser.mjs
+      - name: Save screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v351-kakao-browser-report
+          path: audit-reports/v351/
+          retention-days: 30
