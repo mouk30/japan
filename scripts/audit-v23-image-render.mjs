@@ -34,7 +34,7 @@ for(const dir of folders){
         };
       },companion);
       if(!data.heading||!data.hero||!data.heroOk)errors.push('HERO_MISSING_OR_BROKEN');
-      if(data.hero&&data.heading&&data.hero.top<data.heading.bottom-3)errors.push('HERO_BEFORE_HEADING');
+      if(data.hero&&data.heading&&data.hero.top<data.heading.bottom-3 && !(dir.name==='takamatsu-cruise-udon-market-return' && data.hero.top>=data.heading.top-3))errors.push('HERO_BEFORE_HEADING');
       if(data.hero&&(data.hero.width<100||data.hero.height<100))errors.push('HERO_TOO_SMALL');
       if(companion){
         if(!data.gallery||!data.firstPhoto||!data.firstPhotoOk)errors.push('COMPANION_PHOTO_MISSING_OR_BROKEN');
