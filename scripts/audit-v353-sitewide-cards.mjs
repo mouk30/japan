@@ -55,8 +55,8 @@ const reviewRows=[['status','image','page','target','title','reason']];
 for(const x of unresolvedConfirmed) for(const c of x.occurrences) reviewRows.push(['confirmed-mismatch',x.image,c.page,x.href,c.title,x.issue]);
 for(const x of priorityReview) for(const c of x.examples) reviewRows.push(['manual-review',x.src,c.page,c.href,c.title,'reused image across '+x.distinctTitles+' titles']);
 await mkdir('audit-reports/v353',{recursive:true});
-await writeFile('audit-reports/v353/photo-review-queue.csv',reviewRows.map(row=>row.map(csvCell).join(',')).join('\\n')+'\\n');
-await writeFile('audit-reports/v353/confirmed-mismatches.json',JSON.stringify({policy:'No replacement without exact subject and commercial reuse rights verification.',unresolvedConfirmed,confirmedReview},null,2)+'\\n');
+await writeFile('audit-reports/v353/photo-review-queue.csv',reviewRows.map(row=>row.map(csvCell).join(',')).join('\n')+'\n');
+await writeFile('audit-reports/v353/confirmed-mismatches.json',JSON.stringify({policy:'No replacement without exact subject and commercial reuse rights verification.',unresolvedConfirmed,confirmedReview},null,2)+'\n');
 await mkdir('audit-reports/v353',{recursive:true});
 await writeFile('audit-reports/v353/priority-photo-review.json',JSON.stringify({
  policy:'Do not replace without verified exact subject, creator, source and commercial reuse permission.',
