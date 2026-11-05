@@ -1,0 +1,24 @@
+name: V362 Booking and Check-in CTA Destination Inventory
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/audit-v362-cta-destinations.mjs'
+      - '.github/workflows/v362-cta-destinations.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/audit-v362-cta-destinations.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v362-cta-destinations-review
+          path: audit-reports/v362/
+          retention-days: 30
