@@ -1,0 +1,25 @@
+name: V355 Ferry Photo Condition Inventory
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/audit-v355-ferry-photos.mjs'
+      - '.github/workflows/v355-ferry-photo-inventory.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ferry-photo-inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: List ship photo candidates for visual and license review
+        run: node scripts/audit-v355-ferry-photos.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v355-ferry-photo-candidates
+          path: audit-reports/v355/
+          retention-days: 30
