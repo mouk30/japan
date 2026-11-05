@@ -1,0 +1,22 @@
+name: V367 Local Fragment Target Review
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit-v367-local-fragments.mjs'
+      - '.github/workflows/v367-local-fragments.yml'
+  workflow_dispatch:
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/audit-v367-local-fragments.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v367-local-fragment-review
+          path: audit-reports/v367/local-fragments.json
