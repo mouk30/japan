@@ -1,0 +1,25 @@
+name: V356 Ferry Fare Claims Inventory
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/audit-v356-ferry-fare-claims.mjs'
+      - '.github/workflows/v356-ferry-fare-claims.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  fare-inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Inventory time-sensitive fare and surcharge claims
+        run: node scripts/audit-v356-ferry-fare-claims.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v356-ferry-fare-review
+          path: audit-reports/v356/
+          retention-days: 30
