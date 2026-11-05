@@ -1,0 +1,21 @@
+name: V363 Operational Claim Source Review
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit-v363-operational-source-proximity.mjs'
+      - '.github/workflows/v363-operational-source-proximity.yml'
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Inventory source proximity without changing site
+        run: node scripts/audit-v363-operational-source-proximity.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v363-operational-claim-source-review
+          path: audit-reports/v363/operational-claim-source-review.json
