@@ -1,0 +1,24 @@
+name: V358 Canonical and JSON-LD Inventory
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/audit-v358-seo-canonical.mjs'
+      - '.github/workflows/v358-seo-canonical.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  seo-inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/audit-v358-seo-canonical.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v358-seo-review
+          path: audit-reports/v358/
+          retention-days: 30
