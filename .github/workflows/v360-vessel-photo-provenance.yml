@@ -1,0 +1,24 @@
+name: V360 Vessel Photo Provenance Inventory
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/audit-v360-vessel-photo-provenance.mjs'
+      - '.github/workflows/v360-vessel-photo-provenance.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  provenance-inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/audit-v360-vessel-photo-provenance.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v360-vessel-photo-provenance
+          path: audit-reports/v360/
+          retention-days: 30
