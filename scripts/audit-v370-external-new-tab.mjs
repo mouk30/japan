@@ -21,7 +21,7 @@ for(const file of files){
   const anchor=/<a\b([^>]*?)>/gi;
   for(const match of html.matchAll(anchor)){
     const attrs=match[1];
-    const get=(key)=>{const re=new RegExp('(?:^|\\s)'+key+'\\s*=\\s*(?:"([^"]*)"|\\'([^\\']*)\\'|([^\\s>]+))','i');const m=attrs.match(re);return m?(m[1]??m[2]??m[3]):'';};
+    const get=(key)=>{ const re=new RegExp("(?:^|\\s)"+key+"\\s*=\\s*(?:\\\"([^\\\"]*)\\\"|'([^']*)'|([^\\s>]+))","i"); const m=attrs.match(re); return m?(m[1]??m[2]??m[3]):""; };
     const href=get('href').trim(),target=get('target').toLowerCase(),rel=get('rel').toLowerCase().split(/\s+/);
     if(target!=='_blank'||!/^https?:\/\//i.test(href))continue;
     if(rel.includes('noopener')||rel.includes('noreferrer'))continue;
