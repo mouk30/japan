@@ -16,6 +16,10 @@ try {
   const response = await fetch(base, { signal: controller.signal, redirect: 'follow', headers: { 'user-agent': 'NIPPONFERRY-V371-preview-smoke/1.0' } });
   const html = await response.text();
   const failures = [];
+  // A successful response from an unrelated redirect target is not a valid Preview smoke test.
+  const finalUrl = new URL(response.url);
+  if (finalUrl.origin !== base.origin) failures.push('Redirected outside requested Preview origin');
+  if (/\/(?:login|signin|auth)(?:\/|$)/i.test(finalUrl.pathname)) failures.push('Redirected to authentication page');
   if (!response.ok) failures.push('HTTP status ' + response.status);
   if (!/text\/html/i.test(response.headers.get('content-type') || '')) failures.push('Non-HTML content-type');
   if (!/<html[\s>]/i.test(html) || !/<title[\s>]/i.test(html)) failures.push('Missing HTML/title (possible login or error page)');
