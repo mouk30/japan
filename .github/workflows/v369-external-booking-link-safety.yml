@@ -1,0 +1,24 @@
+name: V369 External Booking Link Safety Review
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit-v369-external-booking-link-safety.mjs'
+      - '.github/workflows/v369-external-booking-link-safety.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Inspect existing HTML external booking links
+        run: node scripts/audit-v369-external-booking-link-safety.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v369-external-booking-link-safety
+          path: audit-reports/v369/external-booking-link-safety.json
+          retention-days: 14
