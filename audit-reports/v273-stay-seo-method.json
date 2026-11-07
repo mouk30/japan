@@ -1,0 +1,20 @@
+{
+  "stage": "V273",
+  "date": "2026-11-01",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "scope": "28 existing /stay/ pages, no new articles",
+  "changedPageHtml": 0,
+  "changedImageBytes": 0,
+  "changedBookingRoutes": 0,
+  "changedKidsStay": 0,
+  "method": "Git show pinned baseline versus current PR worktree, compare exact title, H1, meta description, robots, canonical, Open Graph, all anchors, 28 sitemap entries and robots.txt.",
+  "script": "scripts/check-v273-stay-seo-baseline.mjs",
+  "artifact": "v273-stay-seo-baseline / audit-reports/v273-stay-seo-generated.json",
+  "status": "CI pending; source and baseline gate prepared; no authenticated Vercel Preview",
+  "hardGate": "No merge or production deployment before all required GitHub CI passed and separately authenticated Vercel Preview render verified",
+  "limitations": [
+    "Unmerged V258-V272 PR changes are not included in the pinned main snapshot.",
+    "Exact anchor freeze may require a deliberate rebaseline when authorized changes are later merged.",
+    "A passing regression does not prove live SEO rankings, rights, booking availability or Preview access."
+  ]
+}

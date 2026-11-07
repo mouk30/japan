@@ -1,0 +1,34 @@
+name: NIPPONFERRY V273 stay SEO and link freeze
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v273-stay-seo-freeze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 20
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: V251-V254 stay and KidsStay regressions
+        run: |
+          node scripts/check-v251-stay-kids-boundary.mjs
+          node scripts/check-v252-stay-ferry-clarity.mjs
+          node scripts/check-v253-stay-images.mjs
+          node scripts/check-v254-stay-local-verified.mjs
+      - name: V273 compare pinned main SEO and sitemap
+        run: node scripts/check-v273-stay-seo-baseline.mjs
+      - name: Upload V273 28-page SEO and anchor evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v273-stay-seo-baseline
+          path: audit-reports/v273-stay-seo-generated.json
+          if-no-files-found: warn
+          retention-days: 30
