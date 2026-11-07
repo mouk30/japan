@@ -1,0 +1,101 @@
+{
+  "version": "V265",
+  "scope": "1 of 28 existing /stay/ guides; no new articles",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "evidenceSources": [
+    "site/stay/hokkaido/index.html on main (blob 69681f70f82237bb9bd774e786008f3e91c8c0d1)",
+    "data/v253/stay-photo-audit.json",
+    "site/images/v167/noboribetsu-onsen-lawsonstu-cc0-2015.source.json"
+  ],
+  "pages": [
+    {
+      "path": "site/stay/hokkaido/index.html",
+      "originalBlobSha": "69681f70f82237bb9bd774e786008f3e91c8c0d1",
+      "originalH1": "홋카이도 숙소 추천 | 삿포로 호텔·노보리베쓰·조잔케이 온천",
+      "originalCanonical": "https://www.nipponferry.com/stay/hokkaido/",
+      "originalAssetReferences": [
+        "/stay/assets/hokkaido.jpg",
+        "/stay/assets/hokkaido.jpg",
+        "/stay/assets/ryokan.jpg"
+      ],
+      "originalCssHero": "/stay/assets/hokkaido.jpg",
+      "withheldImgPositions": 3,
+      "withheldCssHeroPositions": 1,
+      "originalCardLinks": [
+        "/stay/hokkaido/",
+        "/stay/ryokan/",
+        "/stay/hokkaido/"
+      ],
+      "originalAnchorCount": 35,
+      "retainedLicensedRegionalImage": "/images/v167/noboribetsu-onsen-lawsonstu-cc0-2015.webp",
+      "originalAnchorHrefs": [
+        "/",
+        "/japan-cruise/",
+        "/booking/japan-cruise/",
+        "/things-to-do/cruise-ports/",
+        "/japan/",
+        "/things-to-do/",
+        "/things-to-do/travel-companions/",
+        "/practical/",
+        "/booking/japan-cruise/",
+        "/japan-cruise/",
+        "/booking/japan-cruise/",
+        "/things-to-do/cruise-ports/",
+        "/japan/",
+        "/things-to-do/",
+        "/things-to-do/travel-companions/",
+        "/practical/",
+        "/booking/japan-cruise/",
+        "#quick",
+        "#guide",
+        "#types",
+        "#tips",
+        "#next",
+        "/stay/hokkaido/",
+        "/stay/ryokan/",
+        "/stay/hokkaido/",
+        "https://commons.wikimedia.org/wiki/File:Noboribetsu_Onsen_hot_spring.jpg",
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "/stay/",
+        "/stay/ryokan/",
+        "/stay/hotel/",
+        "/stay/fuji/",
+        "/stay/",
+        "/booking/",
+        "https://willer-travel.com/ko/ferry/",
+        "https://open.kakao.com/o/g4ilP4Ji"
+      ]
+    }
+  ],
+  "rights": {
+    "legacyPhotographer": "unverified",
+    "legacyExactLocation": "unverified",
+    "legacyLicenseAndPermission": "unverified",
+    "replacementPhotosAdded": 0,
+    "retainedPhoto": {
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Noboribetsu_Onsen_hot_spring.jpg",
+      "sourceMetadata": "site/images/v167/noboribetsu-onsen-lawsonstu-cc0-2015.source.json",
+      "photographer": "Lawsonstu",
+      "captured": "2015-04-07",
+      "license": "CC0-1.0",
+      "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "originalPixels": [
+        1280,
+        720
+      ],
+      "savedPixels": [
+        1280,
+        720
+      ],
+      "place": "Noboribetsu Onsen hot spring geothermal landscape",
+      "isHotelRoomOrBathPhoto": false
+    }
+  },
+  "policy": "Withhold three unverified Hokkaido/ryokan example photos and CSS hero, retain source-attributed CC0 Noboribetsu landscape only as regional tourism scene; do not imply it shows a hotel room, ryokan bath or actual lodging. Preserve original SEO, links, ferry CTA and KidsStay boundary.",
+  "verification": {
+    "static": "pending GitHub Actions",
+    "browser": "pending GitHub Actions at 320,390,768,1440",
+    "authenticatedVercelPreview": "pending team/project SSO; earlier preview 403",
+    "merge": "blocked until mandatory CI and independently authenticated Preview"
+  }
+}
