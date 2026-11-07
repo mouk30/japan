@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "stage": "V280",
+  "observedAt": "2026-11-01 15:42 Asia/Seoul",
+  "repository": "mouk30/japan",
+  "roadmap": {
+    "branch": "v258-stay-hubs-photo-rights-cleanup",
+    "path": "audit-reports/v258-v280-stay-quality-roadmap.json",
+    "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+    "roadmapStatusesAreNotCompletionEvidence": true
+  },
+  "scope": {
+    "existingGuides": 28,
+    "paths": [
+      "site/stay/index.html",
+      "site/stay/area/index.html",
+      "site/stay/beppu/index.html",
+      "site/stay/couple/index.html",
+      "site/stay/family/index.html",
+      "site/stay/first-trip/index.html",
+      "site/stay/fuji/index.html",
+      "site/stay/fukuoka/index.html",
+      "site/stay/hakodate/index.html",
+      "site/stay/hakone/index.html",
+      "site/stay/hiroshima/index.html",
+      "site/stay/hokkaido/index.html",
+      "site/stay/hotel/index.html",
+      "site/stay/kagoshima/index.html",
+      "site/stay/kobe/index.html",
+      "site/stay/kyoto/index.html",
+      "site/stay/nagasaki/index.html",
+      "site/stay/nagoya/index.html",
+      "site/stay/okinawa/index.html",
+      "site/stay/osaka/index.html",
+      "site/stay/otaru/index.html",
+      "site/stay/ryokan/index.html",
+      "site/stay/sapporo/index.html",
+      "site/stay/sendai/index.html",
+      "site/stay/shimonoseki/index.html",
+      "site/stay/tokyo/index.html",
+      "site/stay/tsushima/index.html",
+      "site/stay/yokohama/index.html"
+    ],
+    "newArticles": 0,
+    "htmlEdits": 0,
+    "imageEdits": 0,
+    "bookingEdits": 0,
+    "seoEdits": 0,
+    "kidsStayEdits": 0
+  },
+  "currentMain": {
+    "sha": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+    "stillUnmergedStayPRs": true
+  },
+  "evidence": [
+    {
+      "source": "https://github.com/mouk30/japan/pull/87",
+      "stage": "V279",
+      "observation": "29 open PRs before V280; 25 stay-related; all 28 /stay/ pages have overlapping proposed edits; 124 successful per-head workflow records in dated V279 snapshot, not an integrated merge CI",
+      "verified": "GitHub PR #87 open, Draft; its 5 head workflows checked again in this run"
+    },
+    {
+      "source": "https://github.com/mouk30/japan/pull/78",
+      "stage": "V272",
+      "observation": "143 legacy image references on main in earlier audit; original rights and source are not established; byte duplicate group fuji.jpg/hakone.jpg/ryokan.jpg",
+      "verified": "prior V272 report; NOT a fresh license verification"
+    },
+    {
+      "source": "https://github.com/mouk30/japan/pull/81",
+      "stage": "V274",
+      "observation": "42 cross-topic or CTA-label review flags, not proven broken links",
+      "verified": "prior V274 report; no live external booking availability verification"
+    },
+    {
+      "source": "https://github.com/mouk30/japan/pull/83",
+      "stage": "V276",
+      "observation": "official operator last-return transport timetables not independently validated",
+      "verified": "prior V276 method and report"
+    },
+    {
+      "source": "https://github.com/mouk30/japan/pull/85",
+      "stage": "V277",
+      "observation": "383 mobile touch-target review observations, not 383 proven accessibility violations",
+      "verified": "prior local Chromium audit only"
+    },
+    {
+      "source": "https://github.com/mouk30/japan/pull/86",
+      "stage": "V278",
+      "observation": "550 tablet/desktop small-target observations and 208 image-ratio review observations, not proven rights failures",
+      "verified": "prior local Chromium audit only"
+    }
+  ],
+  "headChecksFreshlyVerified": [
+    {
+      "pr": 62,
+      "sha": "58c8652e63e09f55f4a0274f79ce48b039950a7d",
+      "workflowRuns": 5,
+      "allCompletedSuccess": true
+    },
+    {
+      "pr": 63,
+      "sha": "62cbb1a30368e1f682b4ef2d541d26fecc3ddb5e",
+      "workflowRuns": 5,
+      "allCompletedSuccess": true
+    },
+    {
+      "pr": 82,
+      "sha": "ac460a74f192b88cc9e1aa5b6e0050efed125ba1",
+      "workflowRuns": 5,
+      "allCompletedSuccess": true
+    },
+    {
+      "pr": 87,
+      "sha": "86c9b355c8a55ea4a0fe6edcf7cbef06937b2864",
+      "workflowRuns": 5,
+      "allCompletedSuccess": true
+    }
+  ],
+  "releaseGates": {
+    "photoExactPlaceAuthorCopyrightPermission": "NOT VERIFIED for all remaining media; hotel/room owner consent absent",
+    "photoSubstitution": "No new unverified photos may be displayed or relabelled as actual hotel/room",
+    "pendingPRReconciliation": "NOT DONE; overlapping HTML and scripts across open PRs",
+    "integratedCandidateCI": "NOT RUN; per-head successes are insufficient",
+    "authenticatedVercelPreview": "BLOCKED: johnsha project and deployment endpoints returned 403 forbidden in this run",
+    "bookingExternalReachability": "NOT VERIFIED",
+    "officialReturnTransportTimes": "NOT VERIFIED",
+    "mobileTabletUXRemediation": "REVIEW CANDIDATES OPEN",
+    "robotsSitemapCanonical": "Must be preserved; static main baseline can be checked, integrated candidate not yet validated",
+    "kidsStayBoundary": "No live integration or owner permissions"
+  },
+  "decision": {
+    "stageComplete": false,
+    "readyToMerge": false,
+    "readyForProduction": false,
+    "merged": false,
+    "productionDeployed": false,
+    "reason": "Evidence-gated V280 release approval blocked until rights, overlap reconciliation, all required integrated CI and separately authenticated Vercel Preview render are verified"
+  },
+  "nextActions": [
+    "Approve johnsha Vercel team access and independently inspect protected Preview",
+    "Obtain source/original exact place, author, copyright, license and hotel-owner permission or withhold photos",
+    "Reconcile overlapping PRs into a single candidate without losing SEO, booking or KidsStay boundaries",
+    "Run all required integrated GitHub CI and inspect 28 rendered pages before requesting merge"
+  ],
+  "limitations": [
+    "V280 report and CI validate main baseline and evidence integrity, not merged PR content or live Preview",
+    "Do not infer hotel photography permissions from tourism photo CC licenses",
+    "No merge or production deployment in this PR"
+  ]
+}
