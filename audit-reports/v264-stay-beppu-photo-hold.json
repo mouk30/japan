@@ -1,0 +1,51 @@
+{
+  "version": "V264",
+  "scope": "1 of 28 existing /stay/ guides, zero new articles",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "evidenceSources": [
+    "site/stay/beppu/index.html on main",
+    "data/v253/stay-photo-audit.json",
+    "V263 tested photo-hold pattern (PR #67)"
+  ],
+  "geography": [
+    "Beppu Station",
+    "Kannawa Onsen",
+    "Beppu coastal area"
+  ],
+  "pages": [
+    {
+      "path": "site/stay/beppu/index.html",
+      "originalBlobSha": "80bcc5efd013c584d2c06151b7b8ff691def876a",
+      "originalH1": "벳푸 숙소 추천 | 벳푸역·칸나와 온천·바다 전망 료칸",
+      "originalCanonical": "https://www.nipponferry.com/stay/beppu/",
+      "originalAssetReferences": [
+        "/stay/assets/ryokan.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/ryokan.jpg",
+        "/stay/assets/fuji.jpg"
+      ],
+      "originalCssHero": "/stay/assets/ryokan.jpg",
+      "withheldImgPositions": 4,
+      "withheldCssHeroPositions": 1,
+      "originalCardLinks": [
+        "/stay/beppu/",
+        "/stay/ryokan/",
+        "/stay/couple/"
+      ],
+      "originalAnchorCount": 33
+    }
+  ],
+  "rights": {
+    "legacyPhotographer": "unverified",
+    "exactLocation": "unverified",
+    "licenseAndPermission": "unverified",
+    "replacementPhotosAdded": 0
+  },
+  "policy": "Withhold four unverified hotel/ryokan sample photos and one CSS hero. Do not claim Fuji scenes are Beppu or tourism scenes are actual rooms; verify room bath, meal, check-in and pricing with operators. Preserve original H1, canonical, links, ferry CTA and KidsStay boundary.",
+  "verification": {
+    "localStatic": "pending GitHub Actions",
+    "localBrowser": "pending GitHub Actions at 320,390,768,1440",
+    "authenticatedVercelPreview": "pending team/project SSO; earlier preview 403",
+    "merge": "blocked until required CI and independently authenticated Preview"
+  }
+}
