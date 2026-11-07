@@ -1,0 +1,13 @@
+{
+  "stage": "V276",
+  "date": "2026-11-01",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "scope": "28 EXISTING /stay/ guides only",
+  "method": "Read actual main-page text and extract port/terminal, return day, shuttle, last service, clock-time and travel-minute candidates. Compare each HTML byte-for-byte with main to prevent any unauthorized content changes.",
+  "completion": "Audit candidates only. Official operator schedule and berth/last transport verification remains pending until direct official evidence exists.",
+  "limits": [
+    "No live timetable or booking availability assertions",
+    "No new articles, HTML changes, images, routes, SEO, canonical, robots, sitemap or KidsStay changes",
+    "No merge/deploy without required CI and separately authenticated Vercel Preview"
+  ]
+}
