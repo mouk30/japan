@@ -1,0 +1,845 @@
+{
+  "schemaVersion": 1,
+  "stage": "V279",
+  "purpose": "GitHub PR overlap / per-head CI / protected Vercel Preview merge readiness evidence; snapshot, not live entitlement or merge approval",
+  "observedDate": "2026-11-01",
+  "repository": "mouk30/japan",
+  "baseline": {
+    "mainSha": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+    "roadmapBranch": "v258-stay-hubs-photo-rights-cleanup",
+    "roadmapPath": "audit-reports/v258-v280-stay-quality-roadmap.json",
+    "roadmapNotOnMain": true
+  },
+  "scope": {
+    "existingStayGuides": 28,
+    "paths": [
+      "site/stay/index.html",
+      "site/stay/area/index.html",
+      "site/stay/beppu/index.html",
+      "site/stay/couple/index.html",
+      "site/stay/family/index.html",
+      "site/stay/first-trip/index.html",
+      "site/stay/fuji/index.html",
+      "site/stay/fukuoka/index.html",
+      "site/stay/hakodate/index.html",
+      "site/stay/hakone/index.html",
+      "site/stay/hiroshima/index.html",
+      "site/stay/hokkaido/index.html",
+      "site/stay/hotel/index.html",
+      "site/stay/kagoshima/index.html",
+      "site/stay/kobe/index.html",
+      "site/stay/kyoto/index.html",
+      "site/stay/nagasaki/index.html",
+      "site/stay/nagoya/index.html",
+      "site/stay/okinawa/index.html",
+      "site/stay/osaka/index.html",
+      "site/stay/otaru/index.html",
+      "site/stay/ryokan/index.html",
+      "site/stay/sapporo/index.html",
+      "site/stay/sendai/index.html",
+      "site/stay/shimonoseki/index.html",
+      "site/stay/tokyo/index.html",
+      "site/stay/tsushima/index.html",
+      "site/stay/yokohama/index.html"
+    ],
+    "newArticles": 0
+  },
+  "openPRs": {
+    "total": 29,
+    "stayRelated": 25,
+    "excludedOutsideStay": [
+      76,
+      77,
+      80,
+      84
+    ],
+    "records": [
+      {
+        "pr": 58,
+        "url": "https://github.com/mouk30/japan/pull/58",
+        "headSha": "6987713d50b57147dc1c0fbf33b0eace137b66af",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 4,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41148798021,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41148798021"
+        },
+        "state": "open",
+        "draft": false,
+        "merged": false,
+        "changedStayPages": [
+          "hiroshima",
+          "kagoshima",
+          "nagoya",
+          "okinawa",
+          "sendai"
+        ]
+      },
+      {
+        "pr": 59,
+        "url": "https://github.com/mouk30/japan/pull/59",
+        "headSha": "b489b32f433c2040a446d8d384a450d5d681e0b3",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41159315579,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41159315579"
+        },
+        "state": "open",
+        "draft": false,
+        "merged": false,
+        "changedStayPages": [
+          "nagasaki",
+          "shimonoseki",
+          "tsushima"
+        ]
+      },
+      {
+        "pr": 60,
+        "url": "https://github.com/mouk30/japan/pull/60",
+        "headSha": "b6e1f275061d2849f098c1a3534dc5471b37e2fc",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41160643729,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41160643729"
+        },
+        "state": "open",
+        "draft": false,
+        "merged": false,
+        "changedStayPages": [
+          "kobe",
+          "sapporo",
+          "yokohama"
+        ]
+      },
+      {
+        "pr": 61,
+        "url": "https://github.com/mouk30/japan/pull/61",
+        "headSha": "64bcb4c7b5f1c2aa0eecefce1181f2e439cb18ce",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41172283703,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41172283703"
+        },
+        "state": "open",
+        "draft": false,
+        "merged": false,
+        "changedStayPages": [
+          "kyoto",
+          "osaka",
+          "tokyo"
+        ]
+      },
+      {
+        "pr": 62,
+        "url": "https://github.com/mouk30/japan/pull/62",
+        "headSha": "58c8652e63e09f55f4a0274f79ce48b039950a7d",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41182317917,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41182317917"
+        },
+        "state": "open",
+        "draft": false,
+        "merged": false,
+        "changedStayPages": [
+          "_hub",
+          "_area"
+        ]
+      },
+      {
+        "pr": 63,
+        "url": "https://github.com/mouk30/japan/pull/63",
+        "headSha": "62cbb1a30368e1f682b4ef2d541d26fecc3ddb5e",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41209753729,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41209753729"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": []
+      },
+      {
+        "pr": 64,
+        "url": "https://github.com/mouk30/japan/pull/64",
+        "headSha": "2797118fe77906ebf37879a2ce8e0065433b1be5",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41211545879,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41211545879"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "couple",
+          "family",
+          "first-trip"
+        ]
+      },
+      {
+        "pr": 65,
+        "url": "https://github.com/mouk30/japan/pull/65",
+        "headSha": "67dbbc10c74f00b3f096b6dc5168d7934e33119f",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41216479582,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41216479582"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "hotel",
+          "ryokan"
+        ]
+      },
+      {
+        "pr": 66,
+        "url": "https://github.com/mouk30/japan/pull/66",
+        "headSha": "27c237ffdb5f9d69102c9e1c0d4cf80a313047ed",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41221283102,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41221283102"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "fuji",
+          "hakone"
+        ]
+      },
+      {
+        "pr": 67,
+        "url": "https://github.com/mouk30/japan/pull/67",
+        "headSha": "748b2cdead2a0106e2849689885db8a09a08e95f",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41226483643,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41226483643"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "fukuoka"
+        ]
+      },
+      {
+        "pr": 68,
+        "url": "https://github.com/mouk30/japan/pull/68",
+        "headSha": "6c67edff1cbda3493f2b6eb01e8b3076b5969c17",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41231395438,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41231395438"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "beppu"
+        ]
+      },
+      {
+        "pr": 69,
+        "url": "https://github.com/mouk30/japan/pull/69",
+        "headSha": "f5cfad43a1c67fcbc0d2b410d5cd889b861284c1",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41235603846,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41235603846"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "hokkaido"
+        ]
+      },
+      {
+        "pr": 70,
+        "url": "https://github.com/mouk30/japan/pull/70",
+        "headSha": "790476c285c8a17acd75d6009af2db58b3701bec",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41240691192,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41240691192"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "otaru",
+          "sapporo"
+        ]
+      },
+      {
+        "pr": 71,
+        "url": "https://github.com/mouk30/japan/pull/71",
+        "headSha": "f211d4687ef01fcbc32a9d44c6f16818e4b53021",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41244917704,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41244917704"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "hakodate"
+        ]
+      },
+      {
+        "pr": 72,
+        "url": "https://github.com/mouk30/japan/pull/72",
+        "headSha": "0bede43107fc097569528495816914c787c9be86",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41249480766,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41249480766"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "nagasaki",
+          "shimonoseki",
+          "tsushima"
+        ]
+      },
+      {
+        "pr": 73,
+        "url": "https://github.com/mouk30/japan/pull/73",
+        "headSha": "c64cb174807de7ff09276a8878c168447a672896",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41254161001,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41254161001"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "nagoya",
+          "sendai"
+        ]
+      },
+      {
+        "pr": 74,
+        "url": "https://github.com/mouk30/japan/pull/74",
+        "headSha": "db6b782f8cffbe10f3f69f46ef415081aa734f5e",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41254287880,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41254287880"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "hiroshima",
+          "kobe",
+          "yokohama"
+        ]
+      },
+      {
+        "pr": 75,
+        "url": "https://github.com/mouk30/japan/pull/75",
+        "headSha": "41116eee5317ed3bda4491d476c9c01780228a47",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41257897083,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41257897083"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "kagoshima",
+          "okinawa"
+        ]
+      },
+      {
+        "pr": 78,
+        "url": "https://github.com/mouk30/japan/pull/78",
+        "headSha": "e1630dcd95ef897bc29917d5e16e60fde2b71463",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41262992241,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41262992241"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": []
+      },
+      {
+        "pr": 79,
+        "url": "https://github.com/mouk30/japan/pull/79",
+        "headSha": "8cf3720f4a04e09b7ac846bc3b435a8535ba1b4b",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41263169263,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41263169263"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": []
+      },
+      {
+        "pr": 81,
+        "url": "https://github.com/mouk30/japan/pull/81",
+        "headSha": "55eca8f87b1fd7db5327e3ba48f9ef37f990062c",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41266681492,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41266681492"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": []
+      },
+      {
+        "pr": 82,
+        "url": "https://github.com/mouk30/japan/pull/82",
+        "headSha": "ac460a74f192b88cc9e1aa5b6e0050efed125ba1",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41270768898,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41270768898"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": [
+          "_hub",
+          "_area",
+          "beppu",
+          "couple",
+          "family",
+          "first-trip",
+          "fuji",
+          "fukuoka",
+          "hakodate",
+          "hakone",
+          "hiroshima",
+          "hokkaido",
+          "hotel",
+          "kagoshima",
+          "kobe",
+          "kyoto",
+          "nagasaki",
+          "nagoya",
+          "okinawa",
+          "osaka",
+          "otaru",
+          "ryokan",
+          "sapporo",
+          "sendai",
+          "shimonoseki",
+          "tokyo",
+          "tsushima",
+          "yokohama"
+        ]
+      },
+      {
+        "pr": 83,
+        "url": "https://github.com/mouk30/japan/pull/83",
+        "headSha": "f2f9253aab4d2b1919bf035e42a0e61c990cf010",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41270897641,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41270897641"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": []
+      },
+      {
+        "pr": 85,
+        "url": "https://github.com/mouk30/japan/pull/85",
+        "headSha": "b021aad8f858b10a54689a92eba9337eb98efb88",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41274590017,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41274590017"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": []
+      },
+      {
+        "pr": 86,
+        "url": "https://github.com/mouk30/japan/pull/86",
+        "headSha": "9af3010aa3b52ade2a32421b4e0e45b0de502f2a",
+        "headCi": {
+          "checkedAt": "2026-11-01",
+          "reportedRuns": 5,
+          "allReportedCompletedSuccess": true,
+          "stageRunId": 41274722426,
+          "stageRunUrl": "https://github.com/mouk30/japan/actions/runs/41274722426"
+        },
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "changedStayPages": []
+      }
+    ]
+  },
+  "ciInterpretation": "Per-head GitHub Actions first-page PR-triggered workflow runs returned success for all listed records; this is NOT integrated stacked-branch CI, complete branch protection check, or permission to merge. PR #58 has four observed runs; other listed PRs five. GitHub mergeable=true on individual PRs does not prove cross-PR semantic compatibility.",
+  "overlapEvidence": {
+    "pageOverlaps": [
+      {
+        "page": "hiroshima",
+        "prs": [
+          58,
+          74,
+          82
+        ]
+      },
+      {
+        "page": "kagoshima",
+        "prs": [
+          58,
+          75,
+          82
+        ]
+      },
+      {
+        "page": "nagoya",
+        "prs": [
+          58,
+          73,
+          82
+        ]
+      },
+      {
+        "page": "okinawa",
+        "prs": [
+          58,
+          75,
+          82
+        ]
+      },
+      {
+        "page": "sendai",
+        "prs": [
+          58,
+          73,
+          82
+        ]
+      },
+      {
+        "page": "nagasaki",
+        "prs": [
+          59,
+          72,
+          82
+        ]
+      },
+      {
+        "page": "shimonoseki",
+        "prs": [
+          59,
+          72,
+          82
+        ]
+      },
+      {
+        "page": "tsushima",
+        "prs": [
+          59,
+          72,
+          82
+        ]
+      },
+      {
+        "page": "kobe",
+        "prs": [
+          60,
+          74,
+          82
+        ]
+      },
+      {
+        "page": "sapporo",
+        "prs": [
+          60,
+          70,
+          82
+        ]
+      },
+      {
+        "page": "yokohama",
+        "prs": [
+          60,
+          74,
+          82
+        ]
+      },
+      {
+        "page": "kyoto",
+        "prs": [
+          61,
+          82
+        ]
+      },
+      {
+        "page": "osaka",
+        "prs": [
+          61,
+          82
+        ]
+      },
+      {
+        "page": "tokyo",
+        "prs": [
+          61,
+          82
+        ]
+      },
+      {
+        "page": "_hub",
+        "prs": [
+          62,
+          82
+        ]
+      },
+      {
+        "page": "_area",
+        "prs": [
+          62,
+          82
+        ]
+      },
+      {
+        "page": "couple",
+        "prs": [
+          64,
+          82
+        ]
+      },
+      {
+        "page": "family",
+        "prs": [
+          64,
+          82
+        ]
+      },
+      {
+        "page": "first-trip",
+        "prs": [
+          64,
+          82
+        ]
+      },
+      {
+        "page": "hotel",
+        "prs": [
+          65,
+          82
+        ]
+      },
+      {
+        "page": "ryokan",
+        "prs": [
+          65,
+          82
+        ]
+      },
+      {
+        "page": "fuji",
+        "prs": [
+          66,
+          82
+        ]
+      },
+      {
+        "page": "hakone",
+        "prs": [
+          66,
+          82
+        ]
+      },
+      {
+        "page": "fukuoka",
+        "prs": [
+          67,
+          82
+        ]
+      },
+      {
+        "page": "beppu",
+        "prs": [
+          68,
+          82
+        ]
+      },
+      {
+        "page": "hokkaido",
+        "prs": [
+          69,
+          82
+        ]
+      },
+      {
+        "page": "otaru",
+        "prs": [
+          70,
+          82
+        ]
+      },
+      {
+        "page": "hakodate",
+        "prs": [
+          71,
+          82
+        ]
+      }
+    ],
+    "additionalSharedScriptOverlap": [
+      {
+        "path": "scripts/check-v253-stay-images.mjs",
+        "prs": [
+          58,
+          62
+        ]
+      }
+    ],
+    "mustReconcile": [
+      {
+        "prs": [
+          59,
+          72
+        ],
+        "reason": "same three port stay HTML files"
+      },
+      {
+        "prs": [
+          60,
+          70
+        ],
+        "reason": "Sapporo stay HTML"
+      },
+      {
+        "prs": [
+          60,
+          74
+        ],
+        "reason": "Kobe and Yokohama stay HTML"
+      },
+      {
+        "prs": [
+          58,
+          73
+        ],
+        "reason": "Nagoya and Sendai stay HTML"
+      },
+      {
+        "prs": [
+          58,
+          75
+        ],
+        "reason": "Kagoshima and Okinawa stay HTML"
+      },
+      {
+        "prs": [
+          58,
+          74
+        ],
+        "reason": "Hiroshima stay HTML"
+      },
+      {
+        "prs": [
+          62,
+          82
+        ],
+        "reason": "stay hub and area HTML"
+      },
+      {
+        "prs": [
+          82
+        ],
+        "reason": "V275 modifies all 28 stay guides, overlapping every other HTML-editing stay PR"
+      }
+    ]
+  },
+  "vercel": {
+    "teamSlug": "johnsha",
+    "teamId": "team_Saa2deHEAdZNMiOcF5SbWVRT",
+    "projectLookup": "403 forbidden",
+    "authenticatedPreviewRendered": false,
+    "grantNeeded": true,
+    "protectionBypass": false
+  },
+  "otherGates": {
+    "photoExactPlaceAuthorCopyrightPermission": "not universally established; hotel/room owner permissions outstanding",
+    "integratedCIBeforeMerge": "not run",
+    "retestMergedCandidate": "not run",
+    "canonicalRobotsSitemapBookingKidsStay": "must be checked on combined candidate; head-only regressions insufficient"
+  },
+  "decision": {
+    "mergeReady": false,
+    "productionReady": false,
+    "reason": "403 Preview, photo rights, overlapping HTML, no integrated CI",
+    "mergePerformed": false,
+    "productionDeploymentPerformed": false,
+    "stageComplete": false
+  },
+  "next": "V280 must report unresolved gates and refrain from claiming production readiness until independent authenticated Preview and combined CI are verifiable."
+}
