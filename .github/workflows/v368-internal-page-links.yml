@@ -1,0 +1,22 @@
+name: V368 Internal Page Link Review
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit-v368-internal-page-links.mjs'
+      - '.github/workflows/v368-internal-page-links.yml'
+  workflow_dispatch:
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/audit-v368-internal-page-links.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v368-internal-page-link-review
+          path: audit-reports/v368/internal-page-links.json
