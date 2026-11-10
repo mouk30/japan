@@ -1,0 +1,50 @@
+name: NIPPONFERRY V277 28 stay mobile accessibility audit
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v277-existing-pages-static:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Confirm no stay HTML, SEO, booking, image or KidsStay changes
+        run: |
+          git fetch origin main
+          git diff --exit-code origin/main...HEAD -- site/stay site/sitemap.xml site/robots.txt site/images
+      - name: Existing V251-V254 stay and KidsStay regressions
+        run: |
+          node scripts/check-v251-stay-kids-boundary.mjs
+          node scripts/check-v252-stay-ferry-clarity.mjs
+          node scripts/check-v253-stay-images.mjs
+          node scripts/check-v254-stay-local-verified.mjs
+  v277-mobile-chromium:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install local Chromium
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Audit 28 existing stay pages at 320 and 390 pixels
+        run: node scripts/browser-audit-v277-stay-mobile.mjs
+      - name: Upload per-page touch and accessibility evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v277-stay-mobile-320-390-evidence
+          path: audit-reports/v277-stay-mobile-generated.json
+          if-no-files-found: warn
+          retention-days: 30
