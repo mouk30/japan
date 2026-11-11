@@ -27,6 +27,9 @@ for(const slug of pages){
  assert.equal((html.match(/nf-v254-verified-photo-credit/g)||[]).length,1);
  assert.ok(!/kids-stay\.com|kidsstay-v5\.vercel\.app/i.test(html),'Unapproved KidsStay reference');
  assert.ok(!/\/stay\/assets\/(?:fuji|fukuoka|tokyo|kyoto|ryokan)\.jpg/.test(html),'Known wrong-city image '+slug);
+ assert.ok(!html.includes('/stay/assets/hotel.jpg'),'Unverified hotel image remains '+slug);
+ assert.equal((html.match(/class='sv-card-photo-placeholder'/g)||[]).length,({kagoshima:1,okinawa:1,nagoya:3,sendai:3,hiroshima:2})[slug],'Placeholder count '+slug);
+ assert.ok(html.includes('촬영지·사용 권한 검증 전'),'Placeholder rights disclosure missing '+slug);
  assert.ok(html.includes('호텔·객실'),'Missing distinction between tourism and real hotel photo');
  assert.ok(!html.includes('해당 사진은 호텔 객실 실사입니다'),'Invalid accommodation certification');
  for(const key of config.photoKeys){

@@ -29,7 +29,12 @@ for(const file of pages){
   }
  }
 }
-assert.ok(totalImageTags>=100,'Not all legacy photo alt descriptions reviewed');
+// V254 follow-up deliberately removes 10 unverified hotel.jpg card photos from five regions.
+assert.ok(totalImageTags>=90,'Unexpected loss of audited legacy image references');
+for(const slug of ['kagoshima','okinawa','nagoya','sendai','hiroshima']){
+ const html=fs.readFileSync('site/stay/'+slug+'/index.html','utf8');
+ assert.ok(!html.includes('/stay/assets/hotel.jpg'),'Unverified hotel photo still published '+slug);
+}
 const shaGroups=new Map();
 const sizeRows=[];
 function imageSize(buf){
