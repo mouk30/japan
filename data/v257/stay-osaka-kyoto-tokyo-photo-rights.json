@@ -1,0 +1,132 @@
+{
+  "version": "V257",
+  "date": "2026-10-31",
+  "mainBase": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "scope": "3 existing stay pages, 28 total articles unchanged; no new pages",
+  "cityPhotos": {
+    "osaka": {
+      "primary": "dotonbori",
+      "note": "오사카 도톤보리·난바의 도시 야경을 촬영한 관광지 사진입니다. 난바의 호텔 객실이나 예약 가능한 숙소를 촬영한 사진이 아닙니다.",
+      "headings": [
+        "난바",
+        "우메다",
+        "혼마치"
+      ],
+      "cardKeys": {
+        "난바": "dotonbori",
+        "우메다": null,
+        "혼마치": null
+      },
+      "images": {
+        "dotonbori": {
+          "src": "/images/venues/nf-v85-osaka-dotonbori-licensed.webp",
+          "blob": "ab1b1b5108007a40d8167e89937305f7ae952606",
+          "place": "오사카 도톤보리 운하·난바 관광권 야경",
+          "author": "Kristoffer Trolle",
+          "shot": "2015-06-30",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:D%C5%8Dtonbori_at_night%2C_Osaka_%2819551420339%29.jpg"
+        }
+      }
+    },
+    "kyoto": {
+      "primary": "gion",
+      "note": "교토 기온 신바시 거리의 전통 건축물 외관 일부를 촬영한 사진입니다. 교토역·가와라마치 전체 거리, 료칸 객실 또는 호텔 외관 사진이 아닙니다.",
+      "headings": [
+        "교토역",
+        "가와라마치",
+        "기온"
+      ],
+      "cardKeys": {
+        "교토역": null,
+        "가와라마치": null,
+        "기온": "gion"
+      },
+      "images": {
+        "gion": {
+          "src": "/images/culture-verified/japan-sudare-bamboo-blinds.webp",
+          "blob": "f5ac81ceb7f04005ce7d419e75a1c14d622a6d1c",
+          "place": "교토 기온 신바시도리의 전통 건물 창문·발",
+          "author": "Basile Morin",
+          "shot": "2019-06-09",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Facade_of_a_dwelling_with_sudare%2C_wooden_balustrades_and_yellow_lamp%2C_Shinbashi-dori%2C_Gion%2C_Kyoto%2C_Japan.jpg"
+        }
+      }
+    },
+    "tokyo": {
+      "primary": "shibuya",
+      "note": "시부야 스크램블교차로(2026년), 신주쿠 가부키초 입구(2006년), 아사쿠사 센소지 가미나리몬(2010년)의 서로 다른 촬영 연도 사진입니다. 실제 숙소·호텔 객실 사진이 아니며 현재 시설 상태를 보장하지 않습니다.",
+      "headings": [
+        "신주쿠",
+        "시부야",
+        "아사쿠사"
+      ],
+      "cardKeys": {
+        "신주쿠": "shinjuku",
+        "시부야": "shibuya",
+        "아사쿠사": "asakusa"
+      },
+      "images": {
+        "shibuya": {
+          "src": "/images/tokyo-verified/tokyo-shibuya-crossing-hachiko.webp",
+          "blob": "38aa644862243be40d25795e5c8ac1f97d037c30",
+          "place": "도쿄 시부야 스크램블교차로",
+          "author": "Gatorfan252525",
+          "shot": "2026-07-05",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Shibuya_Crossing_in_July_2026.jpg"
+        },
+        "shinjuku": {
+          "src": "/images/tokyo-verified/tokyo-shinjuku-night-sightseeing.webp",
+          "blob": "fe547cc5bda0ba9707010fbf348d68f004eb2434",
+          "place": "도쿄 신주쿠 가부키초 입구",
+          "author": "Ray Tsang",
+          "shot": "2006-04-29",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Shinjuku_Kabukicho_Entrance.jpg"
+        },
+        "asakusa": {
+          "src": "/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp",
+          "blob": "b04e803598beca0c7d27408191bb821da272961c",
+          "place": "도쿄 아사쿠사 센소지 가미나리몬",
+          "author": "Felix Filnkössl",
+          "shot": "2010-08-24",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Senso-ji.jpg"
+        }
+      }
+    }
+  },
+  "modifiedPages": [
+    {
+      "slug": "osaka",
+      "commit": "e7b5ad4dd8ddaaf561cff8138f0d410518638ff5",
+      "sourcePhotos": 1,
+      "neutralCards": 2
+    },
+    {
+      "slug": "kyoto",
+      "commit": "313cbbd587f6a2c4cdd8c94d9fa804bc376c4785",
+      "sourcePhotos": 1,
+      "neutralCards": 2
+    },
+    {
+      "slug": "tokyo",
+      "commit": "e2ad50dcad2ecade1a0f6203a95d907f0bd6b660",
+      "sourcePhotos": 3,
+      "neutralCards": 0
+    }
+  ],
+  "rights": "Wikimedia Commons independent source metadata and existing in-repository WebP blob SHA; hotel/room operator rights not established",
+  "unresolved": [
+    "All three pending PRs #58 #59 #60 still unmerged as of V257 initiation",
+    "Other legacy stay/assets/*.jpg in unmodified pages still require independent rights audit",
+    "Vercel Preview protected 403, no main merge without authenticated visual verification"
+  ]
+}
