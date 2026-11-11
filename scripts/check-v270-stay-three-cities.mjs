@@ -1,0 +1,55 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const audit=JSON.parse(fs.readFileSync('audit-reports/v270-kobe-yokohama-hiroshima-photo-rights.json','utf8'));
+const registry=JSON.parse(fs.readFileSync('data/v254/stay-verified-region-photos.json','utf8'));
+const sitemap=fs.readFileSync('site/sitemap.xml','utf8');
+const robots=fs.readFileSync('site/robots.txt','utf8');
+assert.equal(audit.version,'V270');
+assert.deepEqual(audit.pages.map(p=>p.slug),['kobe','yokohama','hiroshima']);
+assert.equal(audit.rights.withheldInlinePositions,10);
+assert.equal(audit.rights.withheldCssHeroPositions,2);
+assert.equal(audit.rights.replacementPhotosAdded,0);
+assert.equal(audit.pr60.number,60);
+assert.deepEqual(audit.pr60.overlappingFiles,['site/stay/kobe/index.html','site/stay/yokohama/index.html']);
+assert.match(robots,/Sitemap:\s*https:\/\/www\.nipponferry\.com\/sitemap\.xml/);
+for(const p of audit.pages){
+ const html=fs.readFileSync(p.path,'utf8');
+ assert.ok(html.includes('<title>'+p.originalTitle+'</title>'),'title changed '+p.slug);
+ assert.ok(html.includes("name='description' content='"+p.originalDescription+"'"),'description changed '+p.slug);
+ assert.ok(html.includes('<h1>'+p.originalH1+'</h1>'),'H1 changed '+p.slug);
+ assert.ok(html.includes("rel='canonical' href='"+p.originalCanonical+"'"),'canonical changed '+p.slug);
+ assert.ok(html.includes("name='robots' content='"+p.originalRobots+"'"),'robots changed '+p.slug);
+ assert.ok(sitemap.includes('<loc>'+p.originalCanonical+'</loc>'),'sitemap entry missing '+p.slug);
+ const anchors=[...html.matchAll(/<a\b[^>]*\bhref=['"]([^'"]+)['"]/g)].map(m=>m[1]);
+ assert.deepEqual(anchors,p.originalAnchorHrefs,'anchor href changed '+p.slug);
+ const cards=[...html.matchAll(/<a class='sv-card' href='([^']+)'/g)].map(m=>m[1]);
+ assert.deepEqual(cards,p.originalCardLinks,'card links changed '+p.slug);
+ assert.equal(cards.length,3);
+ assert.equal((html.match(/<div class='sv-photo-hold sv-photo-hold--card'/g)||[]).length,p.slug==='hiroshima'?2:3,'card holds '+p.slug);
+ assert.equal((html.match(/class='sv-img sv-photo-hold sv-photo-hold--feature'/g)||[]).length,p.slug==='hiroshima'?0:1,'feature hold '+p.slug);
+ assert.equal((html.match(/role='img' aria-label='숙박 참고 사진 게시 보류/g)||[]).length,p.withheldLegacyInlinePositions,'hold accessibility labels '+p.slug);
+ assert.equal((html.match(/id="nf-v270-photo-hold-style"/g)||[]).length,1,'responsive hold style '+p.slug);
+ assert.ok(html.includes('원본 저작자·정확한 촬영 장소·사용 권한이 확인되지 않아 게시를 보류했습니다.'),'hold explanation '+p.slug);
+ assert.ok(html.includes('해당 도시의 실제 호텔·객실을 촬영했다는 증빙이 없습니다'),'V253 uncertainty note '+p.slug);
+ assert.doesNotMatch(html,/<img\b[^>]*src=['"]\/stay\/assets\//,'legacy JPG still rendered '+p.slug);
+ const sources=[...html.matchAll(/<img\b[^>]*\bsrc=['"]([^'"]+)['"]/g)].map(m=>m[1]).sort();
+ assert.deepEqual(sources,['/images/kakao-talk.jpg',...p.licensedTourismPhotosRetained.map(x=>x.src)].sort(),'image sources changed '+p.slug);
+ for(const licensed of p.licensedTourismPhotosRetained){
+   assert.ok(html.includes(licensed.src),'licensed tourist image removed '+p.slug);
+   assert.ok(html.includes(licensed.source),'tourist original source missing '+p.slug);
+   assert.ok(html.includes(licensed.licenseURL),'tourist license missing '+p.slug);
+   assert.ok(html.includes(licensed.author),'tourist author missing '+p.slug);
+   const source=Object.values(registry.images).find(x=>x.src===licensed.src);
+   assert.ok(source&&source.gitBlobSha===licensed.gitBlobSha,'V254 image provenance mismatch '+p.slug);
+ }
+ const hero=html.match(/\.sv-hero:before\{[^}]+\}/)?.[0]||'';
+ if(p.withheldLegacyHeroPositions)assert.ok(hero.includes('linear-gradient')&&!hero.includes('url('),'unverified hero '+p.slug);
+ else assert.equal(hero,p.originalHeroCss,'verified Hiroshima hero altered');
+ assert.ok(html.includes('https://willer-travel.com/ko/ferry/'),'ferry CTA removed '+p.slug);
+ assert.match(html,/href=['"]\/booking\/japan-cruise\/['"]/,'ferry booking guide missing '+p.slug);
+ assert.doesNotMatch(html,/kidsstay-v5\.vercel\.app|kids-stay\.com/i,'KidsStay boundary violated '+p.slug);
+ console.log('V270 STATIC PASS '+p.slug+' | '+p.withheldLegacyInlinePositions+' inline holds, '+p.withheldLegacyHeroPositions+' hero holds, '+anchors.length+' original anchors, SEO/CTA preserved');
+}
+const dirs=fs.readdirSync('site/stay',{withFileTypes:true}).filter(x=>x.isDirectory()&&fs.existsSync('site/stay/'+x.name+'/index.html'));
+assert.equal(dirs.length+1,28,'28 existing stay guides changed');
+console.log('V270 STATIC PASS: 3 existing guides, 10 inline and 2 hero unverified placements held, 2 credited Hiroshima tourism photos retained');
