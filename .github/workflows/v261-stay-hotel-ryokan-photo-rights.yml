@@ -1,0 +1,30 @@
+name: NIPPONFERRY V261 hotel ryokan photo rights gate
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v261-stay-hotel-ryokan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Preserve earlier stay KidsStay, ferry, image and region boundaries
+        run: |
+          node scripts/check-v251-stay-kids-boundary.mjs
+          node scripts/check-v252-stay-ferry-clarity.mjs
+          node scripts/check-v253-stay-images.mjs
+          node scripts/check-v254-stay-local-verified.mjs
+      - name: Verify hotel and ryokan photo holds, SEO and original routes
+        run: node scripts/check-v261-stay-hotel-ryokan.mjs
+      - name: Install Chromium for local render QA
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Browser QA 2 guides at 320, 390, 768 and 1440 pixels
+        run: node scripts/browser-qa-v261-stay-hotel-ryokan.mjs
