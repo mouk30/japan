@@ -1,0 +1,254 @@
+{
+  "project": "NIPPONFERRY /stay/ existing guides",
+  "repo": "mouk30/japan",
+  "series": "V258-V280",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "date": "2026-10-31",
+  "goal": "Strengthen 28 existing stay guide pages with accurate, permissioned place photography, original SEO and booking routes; zero new articles.",
+  "rules": [
+    "No KidsStay live integration or booking changes without authorization",
+    "No hotel room/guesthouse photographs lacking owner permission",
+    "Original destination and image license required; filename alone insufficient",
+    "No main merge without mandatory CI AND authenticated visual inspection of Vercel Preview",
+    "PR and CI status only from current GitHub evidence",
+    "Do not mark a stage complete based on creating a roadmap alone"
+  ],
+  "stages": [
+    {
+      "version": "V258",
+      "scope": "/stay/·/stay/area/ 허위·미확인 사진 제거, 출처 확인 실사와 중립 표시",
+      "completionEvidence": "2개 허브의 26개 카드 및 모든 사진, 예약·SEO·8화면 회귀검사",
+      "status": "in_progress",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V259",
+      "scope": "28개 숙박 안내의 사진 소스·원본 저작권 전수 인벤토리",
+      "completionEvidence": "페이지별 기존 JPG/배경/실사 사진과 원본 URL·면허·미확인 등급의 사실 기반 목록",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V260",
+      "scope": "가족·커플·첫 일본 여행 3개 기존 안내의 숙박 실사진 구분",
+      "completionEvidence": "가족·커플·첫여행 허위 객실 이미지 보류, 기존 카드·내부 링크 유지",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V261",
+      "scope": "호텔·료칸 2개 유형별 안내 이미지/권리 재정비",
+      "completionEvidence": "확인된 시설 사진만, 유형 참고 이미지와 실제 객실 사진의 구분",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V262",
+      "scope": "후지산·하코네 기존 숙박 페이지 실제 촬영지 확인",
+      "completionEvidence": "후지·하코네 원본 촬영 장소 및 정확하지 않은 료칸 조망 이미지 보류",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V263",
+      "scope": "후쿠오카 숙박 안내의 하카타·텐진·나카스 사진 지리 검증",
+      "completionEvidence": "지역·장면·저작자·권리·Alt와 관광/숙박 구분",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V264",
+      "scope": "벳푸 숙박 안내 온천·료칸 사진 및 숙소 조건 검수",
+      "completionEvidence": "실제 시설·관광 분리 및 공식 근거 없는 숙소 사진 제거",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V265",
+      "scope": "홋카이도 기존 숙박 상위 안내 사진 및 노보리베쓰 정확성",
+      "completionEvidence": "온천지역·실제 숙소 차이와 CC0 저작표시 확인",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V266",
+      "scope": "삿포로·오타루 기존 숙박 상세 지역 사진·저해상도 재검수",
+      "completionEvidence": "촬영 연도·원본 지리·사용 조건과 모바일 렌더 확인",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V267",
+      "scope": "하코다테 숙박 페이지 역·베이·유노카와 사진 원본 감사",
+      "completionEvidence": "검증된 구역만 사용하고 미확인 호텔 사진 보류",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V268",
+      "scope": "나가사키·시모노세키·쓰시마 사진·권리·기항지 연결 회귀",
+      "completionEvidence": "PR #59 검증 내용과 미반영 운영 콘텐츠를 구분",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V269",
+      "scope": "나고야·센다이 실제 지역 이미지 및 타지역 전용 사진 차단",
+      "completionEvidence": "나고야항과 센다이 인근 마쓰시마를 시내호텔로 오인하지 않음",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V270",
+      "scope": "고베·요코하마·히로시마 지역 숙박권/수변 사진 구별",
+      "completionEvidence": "관광지와 실제 숙박 지구 및 저작권 정보 검증",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V271",
+      "scope": "오키나와·가고시마 지역 사진과 지역별 카드 지리 QA",
+      "completionEvidence": "고우리/온나손, 시로야마/시가지 등 장면 범위 정확히 표시",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V272",
+      "scope": "전체 28개 페이지 사진 중복·저해상도·가로세로비 감사",
+      "completionEvidence": "중복 SHA 및 CSS/이미지 카드 모바일 규격과 용량",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V273",
+      "scope": "28개 기존 페이지 canonical·robots·메타/사이트맵 SEO 회귀",
+      "completionEvidence": "기존 키워드·H1·URL·메타·내부 링크 변동을 동결 검사",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V274",
+      "scope": "숙박 안내 내부 링크/잘못된 도시·예약 안내 연결 점검",
+      "completionEvidence": "원본 경로와 안내 분리, 가짜 실시간 예약/가용성 문구 금지",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V275",
+      "scope": "숙박과 페리 예약 CTA 실제 목적 및 공식 경로 재검수",
+      "completionEvidence": "페리 조회/객실 예약의 정확한 분리·링크 접근성",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V276",
+      "scope": "항구·부두·숙박동선 및 귀선 막차 관련 기존 가이드 검증",
+      "completionEvidence": "공식 근거가 있는 마지막 이동 정보만 설명하고 불확실성 표시",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V277",
+      "scope": "320·390px 모바일 카드·버튼·접근성 집중 검수",
+      "completionEvidence": "실제 브라우저 오버플로/터치 타깃/이미지 깨짐 검수",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V278",
+      "scope": "768·1440px 태블릿·PC 공통 숙박 디자인·회귀 검수",
+      "completionEvidence": "카드 라벨·대표사진·예약CTA·브라우저 QA",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V279",
+      "scope": "PR #58 이후 누적 PR·GitHub Actions·Vercel 프리뷰 권한과 병합 준비",
+      "completionEvidence": "필수 CI+보호된 프리뷰 실제 화면 접근/검증 없으면 병합 금지",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    },
+    {
+      "version": "V280",
+      "scope": "전체 28개 품질 완료 판정·안전한 운영 반영 여부 보고",
+      "completionEvidence": "권한·원본 미확보 이슈는 미완료 표시, 본문·SEO/예약/KidsStay 회귀 최종 QA",
+      "status": "pending",
+      "pr": null,
+      "ci": "unverified",
+      "preview": "unverified",
+      "live": "not_applied"
+    }
+  ],
+  "knownBlockers": [
+    "Vercel 403 when attempting authenticated preview response: cannot independently inspect preview pages",
+    "Photos of actual hotel rooms and partner operating permissions not provided",
+    "PR #58, #59, #60, #61 have not been merged"
+  ],
+  "notes": "This is a tracking backlog. Every stage must be evidenced with real file changes or explicit review findings, QA and accurate CI/preview status; future stages are not done."
+}
