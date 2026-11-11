@@ -1,0 +1,90 @@
+{
+  "version": "V255",
+  "date": "2026-10-31",
+  "source": "NIPPONFERRY existing licensed image inventory and matching Wikimedia source records",
+  "scope": "3 existing stay guides only; 0 new pages",
+  "claims": [
+    "No hotel room photos are certified by these tourism images",
+    "Place names must match photographed geography and specific site",
+    "No generic unlicensed hotel photo displayed on modified pages",
+    "No booking URLs, KidsStay, title/canonical/robots or internal links edited"
+  ],
+  "photos": {
+    "nagasaki": {
+      "src": "/images/venues/nagasaki-glover-garden.webp",
+      "original": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5384.jpg",
+      "credit": "Fg2",
+      "license": "Public domain (원본 Wikimedia 기록)",
+      "licenseURL": "https://commons.wikimedia.org/wiki/File:Nagasaki-Glover-Garden-5384.jpg",
+      "date": "촬영연도 미확인",
+      "place": "나가사키 글로버정원",
+      "blob": "634cc67e2626c4a340d4976f41654f39f38fb3c7",
+      "linkedCard": null,
+      "cardHeadings": [
+        "나가사키역",
+        "신치·데지마",
+        "이나사야마 접근권"
+      ],
+      "note": "글로버정원 현장 사진은 나가사키시 관광지의 실제 모습이며 숙소·객실·이나사야마 전망에서 촬영된 사진은 아닙니다."
+    },
+    "shimonoseki": {
+      "src": "/images/venues/v62-karato-market-real.webp",
+      "original": "https://commons.wikimedia.org/wiki/File:Karato_Fish_Market,_Shimonoseki_-_Jun_24,_2023.jpg",
+      "credit": "bryan...",
+      "license": "CC BY-SA 2.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "date": "2023-06-24",
+      "place": "시모노세키 가라토시장",
+      "blob": "cfd031184fb99aec7a491675f9eac8c96507692e",
+      "linkedCard": "가라토시장 권역",
+      "cardHeadings": [
+        "시모노세키역",
+        "가라토시장 권역",
+        "간몬해협"
+      ],
+      "note": "가라토시장의 실제 모습이며, 시모노세키역·간몬해협의 숙소·객실·건물 사진은 아닙니다."
+    },
+    "tsushima": {
+      "src": "/images/venues/v62-izuhara-port-real.webp",
+      "original": "https://commons.wikimedia.org/wiki/File:Izuhara_port,_terminal.jpg",
+      "credit": "Saigen Jiro",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2017-08-12",
+      "place": "대마도 이즈하라항 터미널",
+      "blob": "f45ddb323c26001018b21e86e50caad3b4e9b878",
+      "linkedCard": "이즈하라",
+      "cardHeadings": [
+        "히타카츠",
+        "이즈하라",
+        "렌터카 동선"
+      ],
+      "note": "이즈하라항 터미널 실제 모습이며 히타카츠항이나 지역 숙박시설 사진이 아닙니다."
+    }
+  },
+  "modifiedPages": [
+    {
+      "slug": "nagasaki",
+      "commit": "759331a74dde747d63e74c21d8cace562de545b7",
+      "verified": "/images/venues/nagasaki-glover-garden.webp",
+      "cardPhotographs": 0,
+      "neutralPlaceholders": 3
+    },
+    {
+      "slug": "shimonoseki",
+      "commit": "147274b356e2479cb65f58ba3e691ab7f37961fa",
+      "verified": "/images/venues/v62-karato-market-real.webp",
+      "cardPhotographs": 1,
+      "neutralPlaceholders": 2
+    },
+    {
+      "slug": "tsushima",
+      "commit": "67bbc291f4ade1329fd74827278c36206c684d26",
+      "verified": "/images/venues/v62-izuhara-port-real.webp",
+      "cardPhotographs": 1,
+      "neutralPlaceholders": 2
+    }
+  ],
+  "remaining": "Other existing stay guides still reuse /stay/assets/*.jpg with unverified rights; audit required before photo certification.",
+  "deployment": "Main merge blocked until CI and protected Vercel preview browser access is independently confirmed."
+}
