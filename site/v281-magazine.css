@@ -1,0 +1,49 @@
+/* V281 – Yokohama couple guide photographic magazine pilot, isolated to one page */
+body.nf-v281-magazine{background:#edf4f8;color:#16374a}
+body.nf-v281-magazine main{max-width:1200px;padding:22px 20px 84px}
+body.nf-v281-magazine .crumb{font-size:13px;margin:4px 0 16px}
+body.nf-v281-magazine .hero.nf-v281-hero{position:relative;display:flex;align-items:flex-end;isolation:isolate;overflow:hidden;background:#073b60;color:white;min-height:clamp(410px,48vw,610px);margin:0 0 26px;padding:0;border:0;border-radius:22px;box-shadow:0 24px 55px rgba(4,44,70,.18)}
+body.nf-v281-magazine .nf-v281-hero-figure{position:absolute;inset:0;z-index:-2;margin:0}
+body.nf-v281-magazine .nf-v281-hero-figure img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 42%;border:0;border-radius:0}
+body.nf-v281-magazine .nf-v281-hero:before{content:"";z-index:-1;position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(2,26,46,.92),rgba(2,26,46,.60) 48%,rgba(3,37,55,.05)),linear-gradient(0deg,rgba(2,23,42,.75),transparent 58%)}
+body.nf-v281-magazine .nf-v281-hero-copy{padding:clamp(25px,5.5vw,64px);padding-bottom:clamp(39px,5.7vw,66px);width:min(820px,100%);position:relative;z-index:1}
+body.nf-v281-magazine .nf-v281-eyebrow{font-size:12px;font-weight:900;letter-spacing:.14em;color:#b7e7f3}
+body.nf-v281-magazine .nf-v281-hero h1{margin:14px 0 16px;color:white;font-size:clamp(32px,4.9vw,60px);font-weight:900;letter-spacing:-.052em;line-height:1.15;word-break:keep-all;text-wrap:balance}
+body.nf-v281-magazine .nf-v281-hero-lead{font-size:clamp(15px,1.65vw,19px);font-weight:600;line-height:1.65;color:#e5f5fc;max-width:610px;margin:0 0 23px;word-break:keep-all}
+body.nf-v281-magazine .nf-v281-hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+body.nf-v281-magazine .nf-v281-btn{display:inline-flex;min-height:46px;padding:10px 21px;border-radius:50px;align-items:center;justify-content:center;text-decoration:none;font-weight:850;font-size:14px;transition:transform .2s ease}
+body.nf-v281-magazine .nf-v281-btn:hover{transform:translateY(-2px)}
+body.nf-v281-magazine .nf-v281-btn-primary{background:#fff;color:#073e61}
+body.nf-v281-magazine .nf-v281-btn-secondary{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.75);color:#fff}
+body.nf-v281-magazine .nf-v281-photo-label{position:absolute;right:18px;bottom:11px;font-size:11px;color:#e2f2f6;margin:0;text-shadow:0 1px 4px #092e43}
+body.nf-v281-magazine .nf-v281-preview{margin:0 0 18px}
+body.nf-v281-magazine .nf-v281-preview-head{display:flex;justify-content:space-between;align-items:end;gap:22px;margin:0 0 16px}
+body.nf-v281-magazine .nf-v281-preview-kicker{font-size:12px;font-weight:900;letter-spacing:.11em;color:#007b90;margin:0 0 7px}
+body.nf-v281-magazine .nf-v281-preview h2{margin:0;font-size:clamp(25px,3.3vw,37px);line-height:1.23;letter-spacing:-.045em;color:#073e5a;word-break:keep-all}
+body.nf-v281-magazine .nf-v281-preview-sub{max-width:350px;margin:0;color:#5b7684;font-size:14px;line-height:1.65}
+body.nf-v281-magazine .nf-v281-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+body.nf-v281-magazine .nf-v281-card{display:block;background:#fff;text-decoration:none;color:#163e59;overflow:hidden;border:1px solid #d8e8ef;border-radius:18px;box-shadow:0 12px 30px rgba(7,43,67,.08);transition:transform .18s ease,box-shadow .18s ease}
+body.nf-v281-magazine .nf-v281-card:hover{transform:translateY(-4px);box-shadow:0 18px 33px rgba(7,43,67,.17)}
+body.nf-v281-magazine .nf-v281-card-media{display:block;aspect-ratio:4/3;overflow:hidden;background:#dcecf5}
+body.nf-v281-magazine .nf-v281-card-media img{display:block;width:100%;height:100%;object-fit:cover}
+body.nf-v281-magazine .nf-v281-card-copy{display:block;padding:17px 19px 20px}
+body.nf-v281-magazine .nf-v281-card-kicker{display:block;color:#027c8a;font-size:11px;font-weight:900;margin-bottom:6px;letter-spacing:.07em}
+body.nf-v281-magazine .nf-v281-card-title{display:block;color:#123e56;font-size:21px;font-weight:900;line-height:1.32;letter-spacing:-.035em;margin-bottom:8px}
+body.nf-v281-magazine .nf-v281-card-desc{display:block;font-size:14px;color:#546d7c;line-height:1.6;min-height:45px}
+body.nf-v281-magazine .nf-v281-card-more{display:block;color:#087889;font-weight:850;font-size:13px;margin-top:12px}
+body.nf-v281-magazine .nf-v281-scene-note{font-size:12px;color:#5d7784;line-height:1.6;margin:12px 2px}
+body.nf-v281-magazine .nf-v281-safety-strip{display:flex;justify-content:space-between;align-items:center;gap:20px;background:#e2f3f5;border:1px solid #c6e3e8;border-radius:15px;padding:15px 21px;margin:18px 0}
+body.nf-v281-magazine .nf-v281-safety-strip p{margin:0;font-size:14px;line-height:1.7;color:#22505d}
+body.nf-v281-magazine .nf-v281-safety-strip strong{color:#114858}
+body.nf-v281-magazine .nf-v281-safety-strip a{white-space:nowrap;font-size:13px;font-weight:800;color:#08637a}
+body.nf-v281-magazine .nf-v281-disclosure{background:#fff;border:1px solid #d2e3eb;border-radius:15px;overflow:hidden;margin:0 0 17px}
+body.nf-v281-magazine .nf-v281-disclosure>summary{padding:17px 21px;cursor:pointer;font-size:16px;font-weight:850;color:#0d4c63;line-height:1.5;list-style:revert}
+body.nf-v281-magazine .nf-v281-disclosure[open]>summary{border-bottom:1px solid #e7eff3}
+body.nf-v281-magazine .nf-v281-disclosure .nf-q80,body.nf-v281-magazine .nf-v281-disclosure .nf-intent{border:0;box-shadow:none;margin:0}
+body.nf-v281-magazine .nf-v281-disclosure .nf-q80 h2,body.nf-v281-magazine .nf-v281-disclosure .nf-intent h2{font-size:clamp(20px,2.6vw,28px)}
+body.nf-v281-magazine .ct-card[id^="nf-v281-stop"]{scroll-margin-top:24px}
+body.nf-v281-magazine .nf-v281-btn:focus-visible,body.nf-v281-magazine .nf-v281-card:focus-visible,body.nf-v281-magazine .nf-v281-disclosure>summary:focus-visible{outline:3px solid #ffbc5e;outline-offset:3px}
+@media(max-width:900px){body.nf-v281-magazine .nf-v281-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}body.nf-v281-magazine .nf-v281-preview-head{flex-direction:column;align-items:start;gap:6px}body.nf-v281-magazine .nf-v281-preview-sub{max-width:700px}}
+@media(max-width:620px){body.nf-v281-magazine main{padding:14px 13px 70px}body.nf-v281-magazine .crumb{margin-bottom:11px}body.nf-v281-magazine .hero.nf-v281-hero{min-height:430px;border-radius:17px}body.nf-v281-magazine .nf-v281-hero:before{background:linear-gradient(0deg,rgba(1,25,46,.96),rgba(2,29,49,.52) 73%,rgba(2,30,49,.12))}body.nf-v281-magazine .nf-v281-hero-copy{padding:27px 18px 43px}body.nf-v281-magazine .nf-v281-hero h1{font-size:clamp(28px,8vw,39px)}body.nf-v281-magazine .nf-v281-photo-label{right:10px;bottom:8px;font-size:10px}body.nf-v281-magazine .nf-v281-card-grid{grid-template-columns:1fr;gap:13px}body.nf-v281-magazine .nf-v281-card{display:grid;grid-template-columns:44% 56%;min-height:164px}body.nf-v281-magazine .nf-v281-card-media{aspect-ratio:auto;height:100%}body.nf-v281-magazine .nf-v281-card-copy{padding:14px 13px}body.nf-v281-magazine .nf-v281-card-title{font-size:18px}body.nf-v281-magazine .nf-v281-card-desc{font-size:12px;min-height:0}body.nf-v281-magazine .nf-v281-card-more{margin-top:7px}body.nf-v281-magazine .nf-v281-safety-strip{flex-direction:column;align-items:start;gap:7px;padding:15px 17px}body.nf-v281-magazine .nf-v281-disclosure>summary{font-size:14px}}
+@media(max-width:350px){body.nf-v281-magazine .nf-v281-card{grid-template-columns:41% 59%}body.nf-v281-magazine .nf-v281-card-title{font-size:16px}body.nf-v281-magazine .nf-v281-card-desc{font-size:11px}body.nf-v281-magazine .nf-v281-btn{font-size:12px;padding:10px 14px}}
+@media(prefers-reduced-motion:reduce){body.nf-v281-magazine .nf-v281-btn,body.nf-v281-magazine .nf-v281-card{transition:none}}
