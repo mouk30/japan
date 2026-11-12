@@ -1,0 +1,73 @@
+{
+  "version": "V272",
+  "date": "2026-11-01",
+  "repo": "mouk30/japan",
+  "roadmap": "v258-stay-hubs-photo-rights-cleanup:audit-reports/v258-v280-stay-quality-roadmap.json",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "scope": {
+    "existingStayPages": 28,
+    "newArticles": 0,
+    "changedHtml": 0,
+    "changedImages": 0,
+    "changedBookingRoutes": 0,
+    "changedSEO": 0,
+    "changedKidsStay": 0
+  },
+  "inputs": [
+    "site/stay/index.html",
+    "site/stay/*/index.html",
+    "site/stay/assets/*",
+    "site/images/** referenced by the 28 pages",
+    "data/v253/stay-photo-audit.json",
+    "data/v254/stay-verified-region-photos.json"
+  ],
+  "tools": [
+    "scripts/audit-v272-stay-media.mjs",
+    "scripts/browser-audit-v272-stay-media.mjs"
+  ],
+  "evidenceArtifacts": [
+    "v272-stay-media-bytes / audit-reports/v272-stay-media-generated.json",
+    "v272-stay-viewport-observations / audit-reports/v272-stay-viewport-generated.json"
+  ],
+  "measuredFields": [
+    "all img src and inline CSS url references",
+    "native file bytes",
+    "Git blob SHA1 and SHA256",
+    "PNG JPEG WebP GIF dimensions",
+    "image aspect ratios",
+    "SHA duplicate byte groups",
+    "card and hero minimum pixel heuristic warnings",
+    "28 pages x 320/390/768/1440 local Chromium render sizes",
+    "computed CSS hero backgrounds",
+    "upscaling, broken loaded image candidates and horizontal overflow"
+  ],
+  "baselineFromV259": {
+    "unverifiedLegacyReferences": 143,
+    "uniqueLegacyPaths": 9,
+    "uniqueLegacyBlobs": 7,
+    "duplicateGroup": [
+      "/stay/assets/fuji.jpg",
+      "/stay/assets/hakone.jpg",
+      "/stay/assets/ryokan.jpg"
+    ]
+  },
+  "rights": {
+    "legacyImages": "unverified: original author, exact location, license, permission not established",
+    "tourismPhotos": "existing V254 metadata retained; not hotel/room photographs",
+    "newPhotoRightsClaims": 0
+  },
+  "qualityGates": {
+    "requiredCI": "V272 jobs plus V251-V254 regression and all mandatory repository checks",
+    "authenticatedPreview": "blocked by Vercel johnsha team/project 403 until access approved",
+    "merge": "PROHIBITED until every required CI passes AND separately authenticated Preview render reviewed",
+    "production": "no deployment or merge by this PR"
+  },
+  "status": "work prepared; audit results and CI pending, not complete",
+  "limitations": [
+    "The V259 inventory and V258 roadmap are on unmerged branches, not main; V272 audits main without incorporating pending PR HTML.",
+    "A Git SHA match proves byte identity only; does not verify rights or exact place.",
+    "Low-resolution and crop flags are thresholds for manual review, not final image replacement decisions.",
+    "Local Chromium cannot substitute for authenticated Vercel Preview.",
+    "Later V260-V271 PRs may remove legacy images and must be separately reconciled before merge."
+  ]
+}
