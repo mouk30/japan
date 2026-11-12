@@ -1,0 +1,91 @@
+{
+  "version": "V267",
+  "scope": "1 of 28 existing /stay/ guides; zero new articles",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "evidenceSources": [
+    "main site/stay/hakodate/index.html (blob 0d7b7ac8e5db059a071b709235d33e163db0e443)",
+    "data/v253/stay-photo-audit.json (legacy rights unresolved)",
+    "V266 independently verified hold pattern, not photographic provenance"
+  ],
+  "pages": [
+    {
+      "path": "site/stay/hakodate/index.html",
+      "originalBlobSha": "0d7b7ac8e5db059a071b709235d33e163db0e443",
+      "originalTitle": "하코다테 숙소 추천 | 하코다테역·베이에어리어·유노카와 온천 | NIPPONFERRY",
+      "originalDescription": "하코다테 숙소를 하코다테역·아침시장, 베이에어리어, 유노카와 온천의 야경·먹거리·온천 기준으로 비교합니다.",
+      "originalH1": "하코다테 숙소 추천 | 하코다테역·베이에어리어·유노카와 온천",
+      "originalCanonical": "https://www.nipponferry.com/stay/hakodate/",
+      "originalRobots": "index,follow,max-image-preview:large",
+      "originalAssetReferences": [
+        "/stay/assets/hokkaido.jpg",
+        "/stay/assets/hotel.jpg",
+        "/stay/assets/hokkaido.jpg",
+        "/stay/assets/ryokan.jpg"
+      ],
+      "originalCssHero": "/stay/assets/hokkaido.jpg",
+      "withheldImgPositions": 4,
+      "withheldCssHeroPositions": 1,
+      "originalCardLinks": [
+        "/stay/hakodate/",
+        "/stay/hakodate/",
+        "/stay/ryokan/"
+      ],
+      "originalAnchorCount": 33,
+      "originalAnchorHrefs": [
+        "/",
+        "/japan-cruise/",
+        "/booking/japan-cruise/",
+        "/things-to-do/cruise-ports/",
+        "/japan/",
+        "/things-to-do/",
+        "/things-to-do/travel-companions/",
+        "/practical/",
+        "/booking/japan-cruise/",
+        "/japan-cruise/",
+        "/booking/japan-cruise/",
+        "/things-to-do/cruise-ports/",
+        "/japan/",
+        "/things-to-do/",
+        "/things-to-do/travel-companions/",
+        "/practical/",
+        "/booking/japan-cruise/",
+        "#quick",
+        "#choose",
+        "#types",
+        "#tips",
+        "#next",
+        "/stay/hakodate/",
+        "/stay/hakodate/",
+        "/stay/ryokan/",
+        "/stay/area/",
+        "/stay/hotel/",
+        "/stay/ryokan/",
+        "/stay/first-trip/",
+        "/stay/",
+        "/booking/",
+        "https://willer-travel.com/ko/ferry/",
+        "https://open.kakao.com/o/g4ilP4Ji"
+      ],
+      "sourceRights": "not verified",
+      "originalCaptureDate": "not verified",
+      "originalDimensions": "not verified; no resolution claim",
+      "replacementPhotosAdded": 0
+    }
+  ],
+  "rights": {
+    "legacyOriginalSource": "unverified",
+    "legacyPhotographer": "unverified",
+    "legacyExactLocation": "unverified",
+    "legacyLicenseAndPermission": "unverified",
+    "legacyCaptureYear": "unverified",
+    "legacyPixelResolution": "unverified",
+    "replacementPhotosAdded": 0
+  },
+  "policy": "Withhold 4 unverified inline images and 1 CSS hero; do not claim Hokkaido scenery, a generic hotel, or a Fuji-style ryokan is a Hakodate Station, Bay Area or Yunokawa lodging/room photograph. Preserve existing anchor destinations, SEO, ferry booking CTA, KidsStay boundary. No overlapping open PR modifies this Hakodate page at time of review.",
+  "verification": {
+    "static": "pending GitHub Actions",
+    "browser": "pending GitHub Actions at 320,390,768,1440",
+    "authenticatedVercelPreview": "pending team access (403)",
+    "merge": "blocked until mandatory CI and independently authenticated Preview"
+  }
+}
