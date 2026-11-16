@@ -1,0 +1,21 @@
+name: V366 JSON-LD URL Consistency Review
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit-v366-jsonld-url-consistency.mjs'
+      - '.github/workflows/v366-jsonld-url-consistency.yml'
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Review existing JSON-LD URLs without changing pages
+        run: node scripts/audit-v366-jsonld-url-consistency.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v366-jsonld-url-consistency
+          path: audit-reports/v366/jsonld-url-consistency.json
