@@ -1,0 +1,27 @@
+name: V352 practical image-topic inventory
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/practical/index.html'
+      - 'scripts/audit-v352-practical-images.mjs'
+      - '.github/workflows/v352-practical-image-inventory.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit practical thumbnail reuse and mismatches
+        run: node scripts/audit-v352-practical-images.mjs
+      - name: Save evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: v352-practical-image-inventory
+          path: audit-reports/v352/
+          retention-days: 30
