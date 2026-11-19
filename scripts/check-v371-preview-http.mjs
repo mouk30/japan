@@ -25,8 +25,9 @@ try {
   if (!/<html[\s>]/i.test(html) || !/<title[\s>]/i.test(html)) failures.push('Missing HTML/title (possible login or error page)');
   if (/vercel authentication|authentication required|deployment protection/i.test(html.slice(0, 15000))) failures.push('Preview appears access-protected');
   const canonical = html.match(/<link\b[^>]*rel=["']canonical["'][^>]*>/i)?.[0] || html.match(/<link\b[^>]*href=["'][^"']+["'][^>]*rel=["']canonical["'][^>]*>/i)?.[0];
-  if (!canonical) failures.push('No canonical link on homepage');
-  console.log(JSON.stringify({ url: base.origin + base.pathname, status: response.status, finalUrl: response.url, htmlBytes: html.length, canonicalPresent: Boolean(canonical), failures }, null, 2));
+  const canonicalHref = canonical?.match(/\bhref\s*=\s*["']([^"']+)["']/i)?.[1];
+  if (canonicalHref !== 'https://www.nipponferry.com/') failures.push('Homepage canonical does not match production URL');
+  console.log(JSON.stringify({ url: base.origin + base.pathname, status: response.status, finalUrl: response.url, htmlBytes: html.length, canonicalPresent: Boolean(canonical), canonicalHref: canonicalHref ?? null, failures }, null, 2));
   if (failures.length) process.exitCode = 1;
 } catch (error) {
   console.error('Preview HTTP check blocked/failed:', error.message);
