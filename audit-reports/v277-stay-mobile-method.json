@@ -1,0 +1,23 @@
+{
+  "stage": "V277",
+  "status": "audit implementation submitted; GitHub Actions and Preview pending",
+  "scope": "28 existing /stay/ guides, mobile widths 320 and 390",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "tests": [
+    "56 local Chromium page/viewport combinations",
+    "h1, canonical, robots, cards, hero and ferry CTA preservation",
+    "horizontal overflow >2px as hard failure",
+    "loaded local broken image and missing alt as hard failure",
+    "measured 44x44 touch target candidates for visible links/buttons",
+    "approximate accessible-name and keyboard focus candidates"
+  ],
+  "expectedEvidence": "CI artifact audit-reports/v277-stay-mobile-generated.json with per-page findings and summary",
+  "limitations": [
+    "No live HTML edits; previous stay PRs remain unmerged",
+    "Touch-target and accessible-name heuristics are not full WCAG conformance",
+    "No independently authenticated Vercel Preview; team johnsha currently 403",
+    "No photo source, author, copyright or permissions newly verified",
+    "No merge or production deployment"
+  ],
+  "next": "Review actual CI findings, remediate proven mobile defects in separate safe PR, verify protected Preview before any merge"
+}
