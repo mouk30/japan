@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "stage": "V281",
+  "purpose": "Independent Vercel project entitlement and V280 preview deployment metadata evidence; not a visual QA or merge authorization",
+  "observedDate": "2026-11-01",
+  "repo": "mouk30/japan",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "scope": {
+    "existingStayGuides": 28,
+    "newArticles": 0,
+    "htmlEdits": 0,
+    "imageEdits": 0,
+    "bookingEdits": 0,
+    "seoEdits": 0,
+    "kidsStayEdits": 0
+  },
+  "vercel": {
+    "teamId": "team_Saa2deHEAdZNMiOcF5SbWVRT",
+    "projectId": "prj_DZF99ddfs2Eb9djA4oDnKlRN65yv",
+    "projectName": "japan",
+    "teamProjectList": "authorized and returned project",
+    "previewDeploymentId": "dpl_Rxg5BFJr2xmgyWiDd9fx2hKfDeqA",
+    "previewCommit": "f1caa48e9ffcd012fb7562e16efd12b2ecd8ffeb",
+    "previewBranch": "audit/v280-stay-final-release-gate",
+    "previewState": "READY",
+    "previewTarget": null,
+    "previewUrl": "https://japan-pjd2qkoq9-johnsha.vercel.app",
+    "deploymentMetadataRead": true,
+    "authenticatedBrowserRendered28Pages": false,
+    "sourceFileTree": "404 File tree not found; API documents Git deployments may lack file tree"
+  },
+  "github": {
+    "v280Pr": 88,
+    "v280HeadSha": "f1caa48e9ffcd012fb7562e16efd12b2ecd8ffeb",
+    "v280FiveWorkflows": "completed success (head-specific only)",
+    "v280BranchVsMain": "ahead 3, behind 0; audit-only changes",
+    "integratedCandidateCI": false
+  },
+  "unresolved": [
+    "143 legacy image references require provenance and permission checks; prior audit count, not freshly revalidated",
+    "Overlapping stay PR edits not reconciled",
+    "28 protected Preview pages not independently rendered or visually inspected",
+    "External booking routes and official last-return transportation not independently validated",
+    "Mobile/tablet accessibility review candidates not remediated"
+  ],
+  "decision": {
+    "merge": false,
+    "productionDeploy": false,
+    "stageComplete": false,
+    "reason": "READY deployment and team API authorization are not authenticated visual QA or integrated candidate CI"
+  },
+  "next": "Obtain authenticated browser render evidence for 28 stay pages; reconcile PR changes and rights before integration CI or merge"
+}
