@@ -1,0 +1,30 @@
+name: NIPPONFERRY V279 stay PR CI and preview readiness snapshot
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v279-stay-pr-gate-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate dated GitHub and Vercel evidence without claiming live Preview
+        run: node scripts/check-v279-stay-pr-readiness.mjs
+      - name: Confirm no existing stay pages or booking and SEO assets were modified
+        run: |
+          git fetch origin main
+          git diff --exit-code origin/main...HEAD -- site/stay site/robots.txt site/sitemap.xml site/images
+      - name: Run existing KidsStay booking and image provenance guards
+        run: |
+          node scripts/check-v251-stay-kids-boundary.mjs
+          node scripts/check-v252-stay-ferry-clarity.mjs
+          node scripts/check-v253-stay-images.mjs
+          node scripts/check-v254-stay-local-verified.mjs
