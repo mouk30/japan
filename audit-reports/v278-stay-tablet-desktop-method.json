@@ -1,0 +1,22 @@
+{
+  "stage": "V278",
+  "status": "audit code prepared; CI and authenticated Preview not yet verified",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "scope": "28 existing /stay/ guides at 768 and 1440 pixels",
+  "checks": [
+    "56 local Chromium page/viewport combinations",
+    "H1, canonical, robots, hero, cards, ferry CTA and horizontal overflow",
+    "Each card h3 label, image path and alt; rendered card image ratio deviation flagged, not failed",
+    "Image loading and broken local assets; visible link names, first keyboard Tab, 44px targets",
+    "Git diff guard on all existing /stay/, sitemap, robots and image files",
+    "V251-V254 regression tests"
+  ],
+  "limitations": [
+    "Earlier Draft PRs are unmerged and not reflected in main-baseline audit",
+    "CSS image ratio is geometry only, not rights or exact photo place",
+    "Third-party resources blocked; browser QA is local, not protected Vercel Preview",
+    "Vercel team johnsha returns 403, separate authenticated render required",
+    "No merge or production deployment"
+  ],
+  "next": "Inspect CI artifacts for actual findings; repair proven problems only in independently tested PRs; keep V279/V280 gates pending"
+}

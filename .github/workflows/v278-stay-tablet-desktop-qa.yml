@@ -1,0 +1,50 @@
+name: NIPPONFERRY V278 28 stay tablet desktop QA
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v278-original-content-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Confirm existing 28 guides and SEO/image files unchanged
+        run: |
+          git fetch origin main
+          git diff --exit-code origin/main...HEAD -- site/stay site/sitemap.xml site/robots.txt site/images
+      - name: Existing V251-V254 stay booking photo and KidsStay checks
+        run: |
+          node scripts/check-v251-stay-kids-boundary.mjs
+          node scripts/check-v252-stay-ferry-clarity.mjs
+          node scripts/check-v253-stay-images.mjs
+          node scripts/check-v254-stay-local-verified.mjs
+  v278-tablet-desktop-chromium:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Audit 28 existing guides at 768 and 1440 pixels
+        run: node scripts/browser-audit-v278-stay-tablet-desktop.mjs
+      - name: Upload card geometry, labels and CTA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v278-stay-tablet-desktop-evidence
+          path: audit-reports/v278-stay-tablet-desktop-generated.json
+          if-no-files-found: warn
+          retention-days: 30
