@@ -1,0 +1,72 @@
+{
+  "stage": "V274",
+  "status": "proposed_audit_requires_CI_and_authenticated_preview",
+  "repo": "mouk30/japan",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "roadmapRef": "v258-stay-hubs-photo-rights-cleanup:audit-reports/v258-v280-stay-quality-roadmap.json",
+  "scope": {
+    "existingStayPages": 28,
+    "newArticles": 0,
+    "htmlEdits": 0,
+    "bookingOrSEOEdits": 0
+  },
+  "method": [
+    "Read current main sitemap for the 28 existing /stay/ URLs",
+    "Individually inspected HTML link labels and hrefs on all 28 guides using authenticated GitHub file reads",
+    "Verified the nine observed /booking/ destination pages exist as GitHub files",
+    "Automated audit asserts local /stay/ and /booking/ routes, in-page anchors, ferry-versus-hotel disclaimer, and KidsStay boundary",
+    "Automated audit reports review-only cross-topic city links and generic booking-guide CTA wording without assuming they are broken",
+    "V251-V254 regression workflows run in the dedicated V274 CI"
+  ],
+  "inspectedBookingTargets": [
+    "/booking/",
+    "/booking/couple/",
+    "/booking/family/",
+    "/booking/first-timer/",
+    "/booking/fukuoka/",
+    "/booking/osaka/",
+    "/booking/shimonoseki/",
+    "/booking/tsushima/",
+    "/booking/japan-cruise/"
+  ],
+  "confirmedExamples": [
+    {
+      "page": "/stay/sapporo/",
+      "label": "교통 삿포로역",
+      "href": "/stay/hokkaido/",
+      "classification": "broader_region_guide_not_broken_review_intent"
+    },
+    {
+      "page": "/stay/kyoto/",
+      "label": "교통 교토역",
+      "href": "/stay/hotel/",
+      "classification": "generic_hotel_guide_not_broken_review_intent"
+    },
+    {
+      "page": "/stay/nagoya/",
+      "label": "공항 가나야마",
+      "href": "/stay/first-trip/",
+      "classification": "first_trip_topic_not_broken_review_intent"
+    },
+    {
+      "page": "/stay/fukuoka/",
+      "label": "예약 준비 가이드 →",
+      "href": "/booking/fukuoka/",
+      "classification": "ferry_booking_guide_exists_but_label_is_generic"
+    },
+    {
+      "page": "/stay/area/",
+      "label": "일본 국내 페리 항로·요금 조회 ↗",
+      "href": "https://willer-travel.com/ko/ferry/",
+      "classification": "external_ferry_lookup_not_hotel_booking"
+    }
+  ],
+  "evidenceLimits": [
+    "Manual inspection does not prove external HTTP 200, actual inventory, current fare, source rights, or verified hotel rooms.",
+    "Do not automatically rewrite topic-crossing links: some are intentionally category-based.",
+    "Existing 28 pages contain ferry-versus-lodging disclaimer; generic red CTA label merits editorial review at V275.",
+    "No Vercel authenticated Preview rendered due to johnsha team 403; no merge or production deploy.",
+    "Unmerged V258-V273 PRs are separate and not included in main baseline."
+  ],
+  "mergeGate": "All required GitHub CI must pass, followed by independent authenticated Vercel Preview visual check; remain draft until then."
+}
