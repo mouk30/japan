@@ -1,0 +1,37 @@
+name: NIPPONFERRY V282 photo-first 3 existing port and destination pages
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  v282-three-pilot-pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Preserve original SEO and booking links, verify provenance blob SHAs
+        run: node scripts/check-v282-magazine-three-pilots.mjs
+      - name: Install Chromium for four responsive viewport checks
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: 3 pages x 4 viewports real browser and interactive safety QA
+        run: node scripts/browser-qa-v282-three-pilots.mjs
+      - name: Keep browser screenshots for 320 390 768 and 1440px
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v282-three-ports-destination-12-screens
+          path: |
+            audit-reports/v282/browser-screens/
+            audit-reports/v282/browser-qa-result.json
+          if-no-files-found: warn

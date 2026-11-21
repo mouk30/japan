@@ -1,0 +1,163 @@
+{
+  "version": "V282",
+  "baselineMain": "c17fec39626600b9b83c7890d8a0857ea19d661e",
+  "date": "2026-11-01",
+  "scope": "Three existing pages: two cruise port detailed guides, one Japan destination guide; zero added articles",
+  "modified": [
+    {
+      "path": "site/things-to-do/kobe-cruise-port-day-trip/index.html",
+      "commit": "f55cb24a2760236f726e5505fb1eebd5be56d52b",
+      "oldLen": 25661,
+      "newLen": 29711,
+      "hero": "/images/venues/nf-v140-kobe-port-tower-2025-real.webp",
+      "cards": [
+        {
+          "title": "메리켄파크 산책",
+          "src": "/images/venues/kobe-meriken-park-night.webp",
+          "href": "#sights"
+        },
+        {
+          "title": "누노비키 로프웨이",
+          "src": "/images/venues/kobe-nunobiki-herb-ropeway.webp",
+          "href": "#v54-voucher-connect"
+        },
+        {
+          "title": "기타노 이진칸",
+          "src": "/images/venues/kobe-kitano-weathercock.webp",
+          "href": "#route"
+        }
+      ],
+      "originalSha": "ac554cf4b6fa95527fc608eb9e0009c8522fd536"
+    },
+    {
+      "path": "site/things-to-do/hakata-cruise-port-day-trip/index.html",
+      "commit": "1b44ac4aa414614a3eefce5a404337b006539c4e",
+      "oldLen": 34787,
+      "newLen": 38667,
+      "hero": "/images/venues/fukuoka-ohori-park.webp",
+      "cards": [
+        {
+          "title": "오호리공원",
+          "src": "/images/venues/fukuoka-ohori-park.webp",
+          "href": "#evergreen-decision-guide"
+        },
+        {
+          "title": "하카타 리바레인",
+          "src": "/images/venues/hakata-anpanman-host-building.webp",
+          "href": "#v4-travel-companions"
+        },
+        {
+          "title": "하카타항 방향 전망",
+          "src": "/images/venues/nf-v140-fukuoka-hakata-port-2017-real.webp",
+          "href": "#v69-berth-qa"
+        }
+      ],
+      "originalSha": "d94f449a98294b7d06b2cd41f0a1af4a375cad66"
+    },
+    {
+      "path": "site/japan/kobe/index.html",
+      "commit": "f5e38759462696299b59532f1bdc55158bbe0cf3",
+      "oldLen": 14869,
+      "newLen": 18673,
+      "hero": "/images/venues/nf-v140-kobe-port-tower-2025-real.webp",
+      "cards": [
+        {
+          "title": "메리켄파크 수변",
+          "src": "/images/venues/kobe-meriken-park-night.webp",
+          "href": "#highlights"
+        },
+        {
+          "title": "누노비키 로프웨이",
+          "src": "/images/venues/kobe-nunobiki-herb-ropeway.webp",
+          "href": "#course"
+        },
+        {
+          "title": "기타노 이진칸",
+          "src": "/images/venues/kobe-kitano-weathercock.webp",
+          "href": "#course"
+        }
+      ],
+      "originalSha": "efddc0762bae23617e5555f07e09367c53bf5c4d"
+    }
+  ],
+  "photos": {
+    "tower": {
+      "src": "/images/venues/nf-v140-kobe-port-tower-2025-real.webp",
+      "sha": "49a6d8dbc3cedaf6a3fc14c866abc6d6d2970486",
+      "author": "ノボホショコロトソ",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Kobe_Port_Tower_in_November_2025_at_night_06.jpg",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "place": "고베 포트타워 2025년 야경"
+    },
+    "meriken": {
+      "src": "/images/venues/kobe-meriken-park-night.webp",
+      "sha": "ee5e0cfaf3afe8b18f3d0921115a95b72c0771f0",
+      "author": "Tomomarusan",
+      "license": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Kobe-meriken-park.JPG",
+      "licenseURL": "https://creativecommons.org/licenses/by/2.5/",
+      "place": "고베 메리켄파크 2005년 풍경"
+    },
+    "ropeway": {
+      "src": "/images/venues/kobe-nunobiki-herb-ropeway.webp",
+      "sha": "87f57d07a223bd9db17e29c09b0557a81bf323af",
+      "author": "Mark Pegrum",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cable_car_in_Kobe,_Japan%3B_May_2017.jpg",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "place": "2017년 고베 누노비키 로프웨이"
+    },
+    "kitano": {
+      "src": "/images/venues/kobe-kitano-weathercock.webp",
+      "sha": "f7d36744bc2b4986a2ac3b643fe9ff3b5ea7d416",
+      "author": "Manish Prabhune",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Weathercock_House_Kobe_Kitano_Ijinkan_%E9%A2%A8%E8%A6%8B%E9%B6%8F%E3%81%AE%E9%A4%A8%EF%BC%88%E6%97%A7%E3%83%88%E3%83%BC%E3%83%9E%E3%82%B9%E4%BD%8F%E5%AE%85%EF%BC%89.jpg",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "place": "고베 기타노 풍향계의 집 외관",
+      "originalTaken": "2011-05-31",
+      "originalCurrentSourceChecked": "2026-11-01"
+    },
+    "ohori": {
+      "src": "/images/venues/fukuoka-ohori-park.webp",
+      "sha": "0bf7e6b0b74b5bbdeaf54c542fd8bf0998328f63",
+      "author": "Hirho",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:%C5%8Chori_Park_The_view_NNE_from_Ukimid%C5%8D_%C5%8Chorik%C5%8Den_Ch%C5%AB%C5%8D-ku_Fukuoka_20260609_154008.jpg",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "place": "2026년 후쿠오카 오호리공원 우키미도"
+    },
+    "hakataPort": {
+      "src": "/images/venues/nf-v140-fukuoka-hakata-port-2017-real.webp",
+      "sha": "d0c72be0a7b96b68920fccf5ad7d02bbc026e358",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hakata_Port_from_Fukuoka_Tower.jpg",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "place": "2017년 후쿠오카타워에서 본 하카타항 방향 풍경"
+    },
+    "riverain": {
+      "src": "/images/venues/hakata-anpanman-host-building.webp",
+      "sha": "cf4829fa6f2bb823a4fc93ab800cd8a0a8d5c7d4",
+      "author": "Hirho",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hakata_Riverain_the_entrance_3-1_Shimo-kawabatamachi_Hakata-ku_Fukuoka_20231120.jpg",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "place": "2023년 후쿠오카 하카타 리바레인 건물 입구"
+    }
+  },
+  "principles": [
+    "Main URL/title/meta/robots/canonical/JSON-LD preserved",
+    "All original booking URLs and old operational notices preserved; October records collapsed and marked historical",
+    "Real licensed site photographs only; tourism scenery is not photo of current cruise berth",
+    "Visible return/berth safety warning remains above original detailed guidance",
+    "Three photo links target existing in-page sections; mobile/desktop and original links tested"
+  ],
+  "blocking": [
+    "Main stays untouched, pending PR #76 V281 distinct",
+    "Protected Vercel previews require real authenticated inspection before merge",
+    "Old ancillary city section images/links not fully audited by this limited pilot"
+  ],
+  "photoCorrectionNote": "The original Commons file identifies Manish Prabhune as its author and CC BY 4.0, not the older credit from site/things-to-do/kobe-cruise-couple-guide. Only the two V282 pages and registry are corrected; older pages are separately queued for origin/credit audit."
+}

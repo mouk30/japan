@@ -1,0 +1,51 @@
+/* V282: limited to three existing cruise/destination pages. No global layout changes. */
+body.nf-v282{background:#edf5f8}
+body.nf-v282 main{max-width:1190px}
+body.nf-v282 article>header.nf-v282-hero{position:relative;isolation:isolate;min-height:clamp(395px,46vw,550px);border:0;border-radius:22px;margin:0 0 24px;display:flex;align-items:end;overflow:hidden;background:#0b3a59;padding:0;color:#fff;box-shadow:0 22px 50px rgba(4,47,75,.17)}
+body.nf-v282 .nf-v282-hero-media{position:absolute;inset:0;z-index:-2;margin:0;padding:0}
+body.nf-v282 .nf-v282-hero-media img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+body.nf-v282 article>header.nf-v282-hero:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(0,26,48,.94) 0%,rgba(0,30,55,.55) 54%,rgba(0,30,55,.10)),linear-gradient(0deg,rgba(0,24,45,.55),transparent 55%);pointer-events:none}
+body.nf-v282 .nf-v282-hero-content{position:relative;z-index:1;width:min(800px,100%);padding:clamp(25px,5vw,60px)}
+body.nf-v282 .nf-v282-kicker{color:#bde8ee;font-size:12px;font-weight:900;letter-spacing:.12em;margin:0 0 13px}
+body.nf-v282 .nf-v282-hero h1{color:#fff;font-size:clamp(30px,4.5vw,57px);font-weight:950;letter-spacing:-.05em;line-height:1.14;word-break:keep-all;text-wrap:balance;margin:0 0 15px}
+body.nf-v282 .nf-v282-hero .nf-v282-lead{font-size:clamp(15px,1.65vw,19px);line-height:1.65;max-width:620px;color:#ecf6fa;font-weight:600;margin:0 0 21px}
+body.nf-v282 .nf-v282-actions{display:flex;gap:10px;flex-wrap:wrap}
+body.nf-v282 .nf-v282-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;border-radius:30px;padding:10px 19px;font-size:14px;font-weight:850;text-decoration:none;color:#083e5b;background:#fff}
+body.nf-v282 .nf-v282-actions a.nf-v282-secondary{color:#fff;background:#ffffff29;border:1px solid #ffffffc7}
+body.nf-v282 .nf-v282-hero-photo-note{position:absolute;right:16px;bottom:10px;color:#e5f4f8;font-size:11px;text-shadow:0 1px 4px #153349}
+body.nf-v282 .nf-v282-gallery{margin:0 0 19px;max-width:1190px}
+body.nf-v282 .nf-v282-gallery-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin:0 0 15px}
+body.nf-v282 .nf-v282-gallery-kicker{margin:0 0 5px;color:#037d92;font-size:12px;font-weight:900;letter-spacing:.13em}
+body.nf-v282 .nf-v282-gallery h2{margin:0;font-size:clamp(25px,3.2vw,36px);color:#103d58;line-height:1.26;letter-spacing:-.042em}
+body.nf-v282 .nf-v282-gallery-sub{max-width:390px;color:#5d7381;font-size:14px;line-height:1.6;margin:0}
+body.nf-v282 .nf-v282-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+body.nf-v282 .nf-v282-card{display:block;overflow:hidden;text-decoration:none;color:#143e59;background:#fff;border-radius:17px;border:1px solid #d6e6ee;box-shadow:0 11px 29px #153b5314;transition:transform .2s ease,box-shadow .2s ease}
+body.nf-v282 .nf-v282-card:hover{transform:translateY(-4px);box-shadow:0 18px 36px #153b5329}
+body.nf-v282 .nf-v282-card-media{display:block;aspect-ratio:4/3;overflow:hidden;background:#dceaf0}
+body.nf-v282 .nf-v282-card-media img{width:100%;height:100%;display:block;object-fit:cover}
+body.nf-v282 .nf-v282-card-copy{display:block;padding:18px 19px 19px}
+body.nf-v282 .nf-v282-card-kicker{display:block;font-size:11px;font-weight:900;color:#007d8f;letter-spacing:.055em;margin-bottom:6px}
+body.nf-v282 .nf-v282-card-title{font-size:20px;font-weight:900;color:#123b52;display:block;line-height:1.3;margin-bottom:8px}
+body.nf-v282 .nf-v282-card-desc{font-size:14px;line-height:1.6;color:#536e7c;min-height:44px;display:block}
+body.nf-v282 .nf-v282-card-more{color:#007d89;display:block;font-size:13px;font-weight:900;margin-top:12px}
+body.nf-v282 .nf-v282-warning{display:flex;gap:14px;align-items:center;justify-content:space-between;background:#e4f4f6;border:1px solid #bee0e7;padding:15px 20px;border-radius:14px;margin:18px 0;color:#235263}
+body.nf-v282 .nf-v282-warning p{margin:0;font-size:14px;line-height:1.6}
+body.nf-v282 .nf-v282-warning strong{color:#0c4e5e}
+body.nf-v282 .nf-v282-warning a{white-space:nowrap;font-size:13px;font-weight:850;color:#09667e}
+body.nf-v282 .nf-v282-archive{background:#fff;border:1px solid #d2e4eb;border-radius:15px;margin:0 0 19px;overflow:hidden}
+body.nf-v282 .nf-v282-archive>summary{padding:16px 20px;font-weight:900;font-size:15px;color:#0d5065;cursor:pointer;list-style:revert}
+body.nf-v282 .nf-v282-archive section{margin:0;border:0;box-shadow:none}
+body.nf-v282 .nf-v282-archive[open]>summary{border-bottom:1px solid #e2ebef}
+body.nf-v282 .nf-v282-license{margin:13px 1px 22px;background:#f8fbfd;border:1px solid #d5e6ec;padding:11px 16px;border-radius:11px;color:#4b6575;font-size:12px;line-height:1.8}
+body.nf-v282 .nf-v282-license a{color:#0b667f;text-decoration:underline;text-underline-offset:2px}
+body.nf-v282 .nf-v282-card:focus-visible,body.nf-v282 .nf-v282-actions a:focus-visible,body.nf-v282 .nf-v282-archive>summary:focus-visible{outline:3px solid #ffbc50;outline-offset:3px}
+body.nf-v282 .city-hero.nf-v282-cityhero{min-height:clamp(400px,48vw,560px);background:#073b61}
+body.nf-v282 .city-hero.nf-v282-cityhero:before{background:url('/images/venues/nf-v140-kobe-port-tower-2025-real.webp') center/cover no-repeat}
+body.nf-v282 .city-hero.nf-v282-cityhero h1{font-size:clamp(34px,5vw,65px);line-height:1.12}
+body.nf-v282 .city-hero.nf-v282-cityhero p{max-width:570px}
+body.nf-v282 .nf-v282-city-intro{max-width:1160px;margin:25px auto;padding:0 20px}
+body.nf-v282 .nf-v282-city-intro .nf-v282-warning{margin-top:20px}
+@media(max-width:900px){body.nf-v282 .nf-v282-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}body.nf-v282 .nf-v282-gallery-head{flex-direction:column;align-items:start}}
+@media(max-width:620px){body.nf-v282 main{padding:15px 13px 65px}body.nf-v282 article>header.nf-v282-hero{min-height:420px;border-radius:17px}body.nf-v282 article>header.nf-v282-hero:before{background:linear-gradient(0deg,rgba(0,25,45,.96),rgba(0,28,50,.55) 70%,rgba(0,25,45,.12))}body.nf-v282 .nf-v282-hero-content{padding:24px 18px 40px}body.nf-v282 .nf-v282-hero h1{font-size:clamp(29px,8vw,40px)}body.nf-v282 .nf-v282-gallery-head{gap:6px}body.nf-v282 .nf-v282-card-grid{grid-template-columns:1fr;gap:12px}body.nf-v282 .nf-v282-card{display:grid;grid-template-columns:43% 57%;min-height:165px}body.nf-v282 .nf-v282-card-media{aspect-ratio:auto;height:100%}body.nf-v282 .nf-v282-card-copy{padding:14px 12px}body.nf-v282 .nf-v282-card-title{font-size:17px}body.nf-v282 .nf-v282-card-desc{font-size:12px;min-height:unset}body.nf-v282 .nf-v282-card-more{margin-top:7px}body.nf-v282 .nf-v282-warning{flex-direction:column;align-items:flex-start;gap:4px;padding:14px 16px}body.nf-v282 .nf-v282-city-intro{padding:0 13px;margin:18px auto}}
+@media(max-width:350px){body.nf-v282 .nf-v282-card{grid-template-columns:40% 60%}body.nf-v282 .nf-v282-card-title{font-size:16px}body.nf-v282 .nf-v282-card-desc{font-size:11px}}
+@media(prefers-reduced-motion:reduce){body.nf-v282 .nf-v282-card{transition:none}}
