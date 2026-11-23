@@ -1,0 +1,72 @@
+name: V371 deployed Preview browser evidence
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/v371-preview-browser-evidence.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      PREVIEW_URL: https://japan-7zx0mtbqo-johnsha.vercel.app/
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Check actual V374 deployment, not local HTML
+        env:
+          VERCEL_AUTOMATION_BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
+        run: |
+          node --input-type=module <<'JS'
+          import { chromium } from 'playwright';
+          import assert from 'node:assert/strict';
+          const base = new URL(process.env.PREVIEW_URL);
+          const secret = process.env.VERCEL_AUTOMATION_BYPASS_SECRET;
+          assert.ok(secret, 'Protected Preview requires VERCEL_AUTOMATION_BYPASS_SECRET in GitHub Actions secrets');
+          assert.equal(base.protocol, 'https:');
+          assert.equal(base.hostname, 'japan-7zx0mtbqo-johnsha.vercel.app');
+          const browser = await chromium.launch();
+          try {
+            for (const width of [390, 768, 1440]) {
+              const context = await browser.newContext({ viewport: { width, height: 900 } });
+              try {
+                // Authenticate only the exact deployment origin; never attach credentials to external links.
+                const auth = await context.request.get(base.href, { headers: { 'x-vercel-protection-bypass': secret, 'x-vercel-set-bypass-cookie': 'true' }, maxRedirects: 0 });
+                assert.ok([200, 302, 303, 307, 308].includes(auth.status()), 'Preview authentication failed');
+                const page = await context.newPage();
+                const response = await page.goto(base.href, { waitUntil: 'domcontentloaded', timeout: 30000 });
+                assert.equal(response?.status(), 200);
+                assert.equal(new URL(page.url()).origin, base.origin);
+                assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'), 'https://www.nipponferry.com/');
+                assert.ok(await page.locator('meta[name="viewport"]').count());
+                const kakao = page.locator('a.kakao-float');
+                await kakao.waitFor({ state: 'visible' });
+                assert.equal(await kakao.getAttribute('href'), 'https://open.kakao.com/o/g4ilP4Ji');
+                assert.ok(await kakao.evaluate(el => { const r = el.getBoundingClientRect(); return r.left >= 0 && r.top >= 0 && r.right <= innerWidth && r.bottom <= innerHeight; }));
+                // Observe the actual click destination without sending a message or contacting Kakao.
+                let resolveClick;
+                const clicked = new Promise(resolve => { resolveClick = resolve; });
+                await context.route('https://open.kakao.com/**', async route => {
+                  resolveClick(route.request().url());
+                  await route.abort();
+                });
+                await kakao.click({ timeout: 10000 });
+                let timer;
+                try {
+                  const destination = await Promise.race([clicked, new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('Kakao click did not navigate')), 10000); })]);
+                  assert.equal(destination, 'https://open.kakao.com/o/g4ilP4Ji');
+                } finally { clearTimeout(timer); }
+                console.log(JSON.stringify({ width, status: response.status(), canonical: true, kakaoVisible: true, kakaoClick: true, preview: base.href }));
+              } finally { await context.close(); }
+            }
+          } finally { await browser.close(); }
+          JS
