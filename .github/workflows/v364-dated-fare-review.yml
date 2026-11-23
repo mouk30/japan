@@ -1,0 +1,21 @@
+name: V364 Dated Fare Review
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit-v364-dated-fare-review.mjs'
+      - '.github/workflows/v364-dated-fare-review.yml'
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Inventory claims without changing public pages
+        run: node scripts/audit-v364-dated-fare-review.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v364-dated-fare-review
+          path: audit-reports/v364/dated-fare-review.json
