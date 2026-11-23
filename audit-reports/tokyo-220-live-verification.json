@@ -1,18 +1,15 @@
 {
-  "run_utc": "2026-11-16T13:09:20.669874+00:00",
+  "run_utc": "2026-11-23T15:22:33.620843+00:00",
   "summary": {
     "pages": 220,
     "official_url_count": 144,
     "external_urls_http_200": 92,
     "urls_unknown_or_blocked": 52,
     "local_photos": 8,
-    "live_webp_http_ok": 8,
+    "live_webp_http_ok": 0,
     "hub_http": {
-      "http_status": 200,
-      "final_url": "https://www.nipponferry.com/japan/tokyo/",
-      "content_type": "text/html; charset=utf-8",
-      "valid_webp_header": null,
-      "reachability": "ok"
+      "http_status": 404,
+      "reachability": "access_denied_or_not_found"
     },
     "operational_facts_individually_verified": 0,
     "browser_render_confirmed": 0
@@ -3185,7 +3182,7 @@
       "external_sources_http": {
         "https://www.tokyo-skytree.jp/en/access/": {
           "http_status": 200,
-          "final_url": "https://www.tokyo-skytree.jp/access/",
+          "final_url": "https://en.tokyo-skytree.jp/access/",
           "content_type": "text/html; charset=utf-8",
           "valid_webp_header": null,
           "reachability": "ok"
@@ -4010,11 +4007,8 @@
       },
       "external_source_all_http_200": true,
       "live_photo_http": {
-        "http_status": 200,
-        "final_url": "https://www.nipponferry.com/images/tokyo-verified/tokyo-akihabara-anime-shopping.webp",
-        "content_type": "image/webp",
-        "valid_webp_header": true,
-        "reachability": "ok"
+        "http_status": 404,
+        "reachability": "access_denied_or_not_found"
       },
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -4125,11 +4119,8 @@
       },
       "external_source_all_http_200": true,
       "live_photo_http": {
-        "http_status": 200,
-        "final_url": "https://www.nipponferry.com/images/tokyo-verified/tokyo-asakusa-sensoji-kaminarimon.webp",
-        "content_type": "image/webp",
-        "valid_webp_header": true,
-        "reachability": "ok"
+        "http_status": 404,
+        "reachability": "access_denied_or_not_found"
       },
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -5631,11 +5622,8 @@
       },
       "external_source_all_http_200": true,
       "live_photo_http": {
-        "http_status": 200,
-        "final_url": "https://www.nipponferry.com/images/tokyo-verified/tokyo-metropolitan-government-free-view.webp",
-        "content_type": "image/webp",
-        "valid_webp_header": true,
-        "reachability": "ok"
+        "http_status": 404,
+        "reachability": "access_denied_or_not_found"
       },
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -5999,11 +5987,8 @@
       },
       "external_source_all_http_200": true,
       "live_photo_http": {
-        "http_status": 200,
-        "final_url": "https://www.nipponferry.com/images/tokyo-verified/tokyo-shibuya-crossing-hachiko.webp",
-        "content_type": "image/webp",
-        "valid_webp_header": true,
-        "reachability": "ok"
+        "http_status": 404,
+        "reachability": "access_denied_or_not_found"
       },
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -6057,11 +6042,8 @@
       },
       "external_source_all_http_200": true,
       "live_photo_http": {
-        "http_status": 200,
-        "final_url": "https://www.nipponferry.com/images/tokyo-verified/tokyo-shibuya-sky-reservation.webp",
-        "content_type": "image/webp",
-        "valid_webp_header": true,
-        "reachability": "ok"
+        "http_status": 404,
+        "reachability": "access_denied_or_not_found"
       },
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -6142,11 +6124,8 @@
       },
       "external_source_all_http_200": true,
       "live_photo_http": {
-        "http_status": 200,
-        "final_url": "https://www.nipponferry.com/images/tokyo-verified/tokyo-shinjuku-night-sightseeing.webp",
-        "content_type": "image/webp",
-        "valid_webp_header": true,
-        "reachability": "ok"
+        "http_status": 404,
+        "reachability": "access_denied_or_not_found"
       },
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -6248,11 +6227,8 @@
       },
       "external_source_all_http_200": true,
       "live_photo_http": {
-        "http_status": 200,
-        "final_url": "https://www.nipponferry.com/images/tokyo-verified/tokyo-skytree-tickets.webp",
-        "content_type": "image/webp",
-        "valid_webp_header": true,
-        "reachability": "ok"
+        "http_status": 404,
+        "reachability": "access_denied_or_not_found"
       },
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
@@ -6800,11 +6776,8 @@
       },
       "external_source_all_http_200": true,
       "live_photo_http": {
-        "http_status": 200,
-        "final_url": "https://www.nipponferry.com/images/tokyo-verified/tokyo-tower-tickets.webp",
-        "content_type": "image/webp",
-        "valid_webp_header": true,
-        "reachability": "ok"
+        "http_status": 404,
+        "reachability": "access_denied_or_not_found"
       },
       "official_conditions_individually_verified": false,
       "live_browser_render_checked": false
