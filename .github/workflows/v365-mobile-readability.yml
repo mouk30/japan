@@ -1,0 +1,21 @@
+name: V365 Mobile Readability Review
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit-v365-mobile-readability.mjs'
+      - '.github/workflows/v365-mobile-readability.yml'
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit existing HTML without modifying content
+        run: node scripts/audit-v365-mobile-readability.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v365-mobile-readability
+          path: audit-reports/v365/mobile-readability.json
