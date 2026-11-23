@@ -1,0 +1,23 @@
+name: V370 External New Tab Link Review
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit-v370-external-new-tab.mjs'
+      - '.github/workflows/v370-external-new-tab.yml'
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax check
+        run: node --check scripts/audit-v370-external-new-tab.mjs
+      - name: Read-only audit
+        run: node scripts/audit-v370-external-new-tab.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v370-external-new-tab-review
+          path: audit-reports/v370/external-new-tab-review.json
